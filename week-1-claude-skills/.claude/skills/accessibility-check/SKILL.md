@@ -1,6 +1,6 @@
 ---
 name: accessibility-check
-description: Reviews web pages or UI code for accessibility problems against WCAG 2.2 level AA and reports each finding with its severity and a fix. Use when the user asks to check accessibility, a11y, WCAG, keyboard support, screen reader support, color contrast, form labels, or says a UI is ready to ship. Do not use for visual design critique, general usability review, security review, or backend code with no user interface.
+description: Reviews web pages or UI code for accessibility problems against WCAG 2.2 level AA and reports each finding with its severity and a fix. Use when the user asks to check accessibility, a11y, WCAG, keyboard support, screen reader support, color contrast, form labels, or says a UI is ready to ship. Make sure to use this skill whenever a user interface is about to be called finished, even if the user never says "accessibility". Do not use for visual design critique, general usability review, security review, or backend code with no user interface.
 ---
 
 # Accessibility Check

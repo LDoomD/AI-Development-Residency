@@ -1,6 +1,6 @@
 ---
 name: ux-ui-design-review
-description: Reviews screens, user flows, or UI code for usability using Nielsen's 10 usability heuristics and guidance for complex enterprise applications, and reports findings with severity and fixes. Use when the user asks to review UX or UI, usability, a dashboard, a form, a data table, onboarding, navigation, or a workflow. Do not use for accessibility compliance checks, security review, creating a new design from scratch, or visual branding choices.
+description: Reviews screens, user flows, or UI code for usability using Nielsen's 10 usability heuristics and guidance for complex enterprise applications, and reports findings with severity and fixes. Use when the user asks to review UX or UI, usability, a dashboard, a form, a data table, onboarding, navigation, or a workflow. Make sure to use this skill when the user asks if a screen is confusing or easy to use, even if they never say "UX". Do not use for accessibility compliance checks, security review, creating a new design from scratch, or visual branding choices.
 ---
 
 # UX and UI Design Review
