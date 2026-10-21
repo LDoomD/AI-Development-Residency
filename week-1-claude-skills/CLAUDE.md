@@ -22,4 +22,6 @@ skill when the situation below comes up, and follow its SKILL.md.
   asks for fixes.
 - Never say code is "secure", "accessible", or "tests pass" without evidence.
   Show the command and result, or say what was not checked.
+- Ask before using the user's browser or the Chrome extension. Their open tabs
+  are private. Say what you want to look at and why, and wait for a yes.
 - Never write or edit the user's homework summary. They write it themselves.
