@@ -1,6 +1,6 @@
 ---
 name: security-review
-description: Reviews code and project setup for common security weaknesses using the OWASP Top 10:2025 and reports each finding with its severity and a fix. Use when the user asks for a security review, to check for vulnerabilities, or to look at logins, permissions, user input, secrets, dependencies, or error handling, or says a project is ready to ship. Make sure to use this skill whenever code handles passwords, logins, payments, personal data, or API keys, even if the user never says "security". Do not use for accessibility, usability, performance tuning, or for testing systems the user does not own.
+description: Reviews code and project setup for common security weaknesses using the OWASP Top 10:2025 and reports each finding with its severity and a fix. Use when the user asks for a security review, to check for vulnerabilities, or to look at logins, permissions, user input, secrets, dependencies, or error handling, or says a project is ready to ship. Make sure to use this skill whenever code handles passwords, logins, payments, personal data, or API keys, and whenever the user is about to commit, push, or share code that contains a key, token, password, or secret, even if the user never says "security" and even if the question looks simple. Do not use for accessibility, usability, performance tuning, or for testing systems the user does not own.
 ---
 
 # Security Review
