@@ -12,7 +12,9 @@ skill when the situation below comes up, and follow its SKILL.md.
 - `ux-ui-design-review`: reviewing screens, flows, forms, dashboards, or
   data tables for usability.
 - `accessibility-check`: checking a UI against WCAG 2.2 level AA.
-- `security-review`: checking code against the OWASP Top 10:2025.
+- `security-review`: checking code against the OWASP Top 10:2025. Use it
+  whenever the user is about to commit, push, or share code containing an API
+  key, token, password, or secret, even when the question looks simple.
 - `engineering-quality-check`: before calling work done, ready to merge, or
   ready for a pull request.
 
