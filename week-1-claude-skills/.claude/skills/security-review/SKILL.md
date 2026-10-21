@@ -22,6 +22,9 @@ of the most serious web application risks.
   list what was not checked.
 - **Review first, change later.** Do not edit files unless the user asks for
   fixes after seeing the report.
+- **Stay out of the user's browser and accounts.** Do not open a browser, read
+  tabs, or log in anywhere unless the user asks. If there is nothing to check,
+  ask for a file path, a folder, or pasted code.
 - **Explain jargon** the first time you use it.
 
 ## Before you start

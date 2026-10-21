@@ -25,6 +25,9 @@ laws and buyers ask for, and AAA is the highest.
   List those as "needs manual testing".
 - **Review first, change later.** Do not edit files unless the user asks for
   fixes after seeing the report.
+- **Stay out of the user's browser.** Their open tabs are private. Do not open
+  a browser or read tabs unless the user asks. If there is nothing to check, ask
+  for a file path, a folder, pasted code, or a link.
 - **Plain language.** Explain each term the first time you use it.
 
 ## Before you start

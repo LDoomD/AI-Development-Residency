@@ -21,6 +21,9 @@ so clear workflows, fast paths for experts, and error prevention matter most.
 - **Reviewing code is not user testing.** Say that real testing with real users
   would confirm or change the findings.
 - **Review first, change later.** Do not edit files unless asked.
+- **Stay out of the user's browser.** Their open tabs are private. Do not open
+  a browser or read tabs unless the user asks. If there is nothing to review,
+  ask for a file path, a folder, pasted code, a screenshot, or a link.
 - **Plain language.** Explain each term the first time.
 
 ## Before you start
