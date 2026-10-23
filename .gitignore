@@ -1,0 +1,43 @@
+# Repo-wide ignores for the residency repo.
+# adhd-learning-app/ has its own .gitignore with app-specific rules on top
+# of these.
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets — never commit these
+.env
+.env*.local
+.env.production
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+build/
+dist/
+
+# Agent tooling runtime state — not source
+.memsearch/
+.claude-flow/
+.swarm/
+.hive-mind/
+ruvector.db
+agentdb.rvf
+agentdb.rvf.idmap.json
+
+# Testing
+coverage/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
