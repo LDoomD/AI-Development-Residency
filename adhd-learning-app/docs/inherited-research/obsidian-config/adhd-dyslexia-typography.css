@@ -1,0 +1,103 @@
+/*
+  ADHD/dyslexia reading typography — implements the locked rules in
+  specs/DECISIONS.md §7: 16px+ system sans-serif, 1.5 line-height, 60-66ch
+  width, letter-spacing up to +0.1em, WCAG 2.2 contrast floor.
+
+  This does NOT set colors/background — it inherits your chosen Obsidian
+  theme's colors, so light/dark mode and contrast stay whatever your theme
+  already provides. It only changes font, spacing, and line width.
+*/
+
+:root {
+  /* Bump this toward 0.1em if reading still feels tight. Zorzi et al. 2012:
+     letter-spacing helps dyslexic reading; the font itself does not
+     (dyslexia fonts are debunked — see specs/DECISIONS.md §7). */
+  --adhd-letter-spacing: 0.03em;
+  --adhd-line-height: 1.6;
+  --adhd-font-size: 18px; /* Rello & Baeza-Yates (n=92): 18pt significantly
+    improved reading speed for dyslexic and control readers alike — see
+    specs/research/2026-08-10_obsidian-best-practices.md §4 */
+  --adhd-reading-width: 66ch;
+}
+
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-contentContainer,
+.markdown-reading-view {
+  font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+  font-size: var(--adhd-font-size);
+  line-height: var(--adhd-line-height);
+  letter-spacing: var(--adhd-letter-spacing);
+}
+
+/* Cap line width to 60-66ch so lines don't run edge-to-edge — long lines are
+   harder to track back to the start of, which costs extra effort on top of
+   decoding load. */
+.markdown-preview-view .markdown-preview-sizer,
+.markdown-source-view.mod-cm6 .cm-sizer {
+  max-width: var(--adhd-reading-width) !important;
+}
+
+/* Tables inherit the same spacing so product/gap tables stay readable, not
+   just prose. */
+.markdown-preview-view table,
+.markdown-source-view table {
+  font-size: var(--adhd-font-size);
+  line-height: var(--adhd-line-height);
+}
+
+/*
+  Functional colour callouts — matches the canvas legend exactly:
+  FACT = green, RULE = yellow, LIMIT = red. Each callout keeps its word
+  label visible (redundant non-colour cue), same rule as the canvas.
+
+  Use like:
+  > [!fact] Optional title
+  > body text
+
+  > [!rule]
+  > body text
+
+  > [!limit]
+  > body text
+*/
+.callout[data-callout="fact"] {
+  --callout-color: #4CAF50; /* green */
+  --callout-icon: lucide-circle-check;
+}
+
+.callout[data-callout="rule"] {
+  --callout-color: #FFB300; /* yellow/amber */
+  --callout-icon: lucide-gavel;
+}
+
+.callout[data-callout="limit"] {
+  --callout-color: #E53935; /* red */
+  --callout-icon: lucide-triangle-alert;
+}
+
+/*
+  Hide repo-infrastructure folders from the file explorer sidebar.
+  NOTE: Obsidian's "Excluded files" setting (userIgnoreFilters in app.json)
+  does NOT do this — it only affects Search, Graph view, and Backlinks. This
+  CSS is the actual sidebar fix. See
+  specs/research/2026-08-10_obsidian-best-practices.md §1.
+
+  Caveat: data-path is a DOM internal, not a published API — a future
+  Obsidian update could change it, and the folders would silently reappear.
+  Use Bookmarks (core plugin, already enabled) as the reliable primary
+  method: right-click learning/ and canvas/ -> Bookmark, then navigate from
+  the Bookmarks tab instead of the file explorer. This CSS is a supplement,
+  not a replacement for that.
+
+  system/ is deliberately NOT hidden here -- tracker.md is the daily entry
+  point (specs/vault-convention.md rule 1).
+*/
+.nav-folder-title[data-path="bin"],   .nav-folder-title[data-path="bin"]   + .nav-folder-children,
+.nav-folder-title[data-path="src"],   .nav-folder-title[data-path="src"]   + .nav-folder-children,
+.nav-folder-title[data-path="data"],  .nav-folder-title[data-path="data"]  + .nav-folder-children,
+.nav-folder-title[data-path="docs"],  .nav-folder-title[data-path="docs"]  + .nav-folder-children,
+.nav-folder-title[data-path="specs"], .nav-folder-title[data-path="specs"] + .nav-folder-children,
+.nav-file-title[data-path="README.md"],
+.nav-file-title[data-path="SETUP.md"],
+.nav-file-title[data-path="claude-flow.config.json"],
+.nav-file-title[data-path="ruvector.db"] { display: none; }
