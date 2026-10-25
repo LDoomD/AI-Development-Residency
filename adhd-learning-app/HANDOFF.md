@@ -1,98 +1,121 @@
-# Session handoff — 2026-10-23
+# Session handoff — 2026-10-24 (evening)
 
-Written at the end of the session that created this project, so the next
-session can pick up without re-deriving anything.
+Written at the end of a long session, so the next one can pick up without
+re-deriving anything.
 
 ## Read these, in this order
 
-1. **`STATUS.md`** — where the project stands, open decisions, why it replaced
-   `growth-ads-system`
-2. **`CLAUDE.md`** — working rules. The important one: **grep
-   `docs/inherited-research/` before doing any new research.** That corpus is
-   cited, adversarially reviewed, and records claims that were tested and
-   killed. Skipping it risks reintroducing a falsified claim.
-3. **`docs/WEEK2-PLAN.md`** — the schedule, hard due dates, and all nine
-   Week 2 deliverables with status per item
+1. **`STATUS.md`** — current state and open decisions (one resolved today,
+   see below)
+2. **`CLAUDE.md`** — working rules
+3. **`docs/WEEK2-PLAN.md`** — schedule and Week 2 deliverables, due **Oct 26**
 
-## The immediate next task
+## What happened this session
 
-**Draft the message to Morgan Denner (mdenner@techfleet.org).** This was the
-agreed next action. One message, five things in it:
+**Product decisions locked:**
+- **Multi-user product**, not a personal tool — resolves `STATUS.md` open
+  decision #2 (updated in that file today).
+- **Core problem reframed.** Not "notes are slow to turn into practice" —
+  the actual problem is that the intended user was never taught *how to
+  learn* (plan → monitor → reflect), and existing tools do the thinking
+  *for* the learner instead of building that skill. This was proposed in
+  `docs/inherited-research/research/2026-08-13_learning-how-to-learn.md`
+  back in August but never locked into `DECISIONS.md` — still not locked,
+  flagged as a next action below.
+- **New scope surfaced, not yet built:** note-taking coaching (the system
+  looks at *how* notes are taken, not just what's in them — genuinely new,
+  no prior research exists on this in the project) and a mentor/coaching
+  agent distinct from the router and the mastery-gate Examiner.
+- **Phone involvement resolved** — no push notifications (already
+  rejected, `DECISIONS.md` §4, ADHD RCT). Settled on: "Add to Home Screen"
+  as the environmental cue, a self-authored if-then plan widget, and
+  one-tap voice note capture. Full writeup:
+  `docs/research/2026-10-24_phone-engagement-mechanisms.md`.
+- **Ruled out:** NotebookLM and Google Docs sync (no public API / OAuth
+  approval-gate risk — same shape of problem that killed the prior
+  `growth-ads-system` project), gamification, streaks.
 
-1. **Specialization choice** — AI Automation + Advanced agentic workflows,
-   combined, framed as *agentic workflows applied to adaptive learning
-   systems*. ⚠️ This was **due Oct 19** and is overdue. Ask for approval; the
-   syllabus requires instructor sign-off on specialization topics.
-2. **The project switch** — the specialization project changed from a
-   multi-channel ads reconciliation panel to this learning system. Reason:
-   the ads product's critical path ran through third-party approval queues
-   (Google Ads Standard review, Meta Full Access, Shopify Level 2, Amazon
-   per-seller auth, Mercado Libre access unconfirmed), and Week 3 needs a
-   working Vercel deployment by Nov 2.
-3. **Repo naming is contradictory** — Week 1 says one repo named
-   `AI Development Residency` with a folder per week; Weeks 3–8 say a separate
-   repo per week (`AI DEVELOPMENT RESIDENCY - WEEK 3 - APP`, then clone to a
-   Week 6 repo). Which one? **This blocks creating the GitHub repo.**
-4. **Does Week 4 use my app or the O*NET chatbot?** Week 4's premium section
-   reads "building the same thing as Standard Residency students" — the only
-   week whose premium section names a specific app instead of the student's
-   own. Every other week substitutes the specialization project.
-5. **Notion or Word docs?** The syllabus says "document your homework in word
-   docs"; the Week 2 page says Notion and to email a Notion link.
+**Personal context captured** (his own words, not research — saved for
+traceability):
+- `docs/research/2026-10-24_lived-experience-notes.md`
+- `docs/research/2026-10-24_personal-experience-and-ideas.md`
 
-Keep it short and plain. He is the instructor, not a client.
+**Market research + competitive analysis (Assignment B1)** — done in
+FigJam, not in this repo:
+- Board: *Market Research and Competitive Analysis Workshop Template*
+  (Figma board key `HcDDdEGAnikTImO8v7UPMp`)
+- 10 market segments sized and sourced — cross-checked two ways: direct
+  WebSearch, then independently via a 4-agent ruflo research swarm. The
+  swarm caught real errors in the first pass (a fabricated-looking
+  "$5.1B" academic-coaching figure that doesn't exist on the publisher's
+  page; two likely "report-mill" sources — dataintelo.com,
+  growthmarketreports.com — now excluded everywhere). A final merged
+  table was built with corrected numbers, both versions kept side by side
+  on the board for comparison.
+- Competitive analysis: 7 competitors fully written up (RemNote, Mochi,
+  Quizlet's AI tools, Anki, Inflow, Tiimo, Khanmigo), each sourced.
+- Workshop instructions reference saved:
+  `docs/research/2026-10-24_audience-segmentation-workshop-instructions.md`
 
-## After that
+**Audience Segmentation, Goals, Motivations, and Use Cases** — also done
+in FigJam, a separate board (key `Bi8Wr9BoAYpVDbWJWKWxx6`):
+- 4-lens segmentation filled in (geographic, behavioral, demographic,
+  socioeconomic)
+- Two audiences defined: **Neurodivergent Adult Learners** (primary) and
+  **Self-Taught Adults Rebuilding How They Learn** (the sharper
+  ESL/immigrant/never-taught-how-to-learn sub-pattern from his own
+  account)
+- Motivations, situational goals, life goals, and a use-case table built
+  for each audience, formatted to match the template's existing example
+  tables (same column widths, bold header with divider, same font size)
 
-- **Rewrite Section 8 of `Week 2 Coding Challenge/research-paper.md`.** It
-  still describes the ads product. Sections 1–7 stand — the specialization did
-  not change. Also: §2.4 should be put in the user's own words, and all seven
-  source links re-verified.
-- **Four Assignment B templates are empty**, due **Oct 26**: Release Vision
-  and Scope (the biggest), Epics and Features, the build plan, the backlog,
-  and the pitch deck. See `docs/WEEK2-PLAN.md` for exact required fields.
+## Where things stand on the Week 2 deliverables
 
-## Three decisions the user still owes
+- **Assignment A (research paper)** — unchanged since last session. Still
+  has the "notes for the author, delete before sending" section at the
+  bottom that needs stripping, and §2.4 needs to be in his own words
+  before it goes to Morgan. The uncommitted edit to
+  `Week 2 Coding Challenge/research-paper.md` from before this session is
+  still sitting there — not touched tonight, included in tonight's commit
+  since it was already pending.
+- **Assignment B1 (market research)** — substantially done, in FigJam
+  (see above).
+- **Audience segmentation/goals/use cases** — done, in FigJam (see above).
+- **B2 (Release Vision & Scope), B3 (Epics/Features), B4 (Build plan), B5
+  (Backlog), B6 (Pitch deck)** — not started.
+- **Message to Morgan** — still not drafted. Five things it needs to
+  cover: specialization approval (overdue since Oct 19), the project
+  switch, the repo-naming contradiction, the Week 4 question, Notion vs.
+  Word docs. This blocks creating the GitHub repo.
 
-Recorded in `STATUS.md`; none can be made on their behalf.
+## Explicitly queued as the next thing to do
 
-1. **The chosen subject is tagged for only two modes.**
-   `docs/inherited-research/subjects.md` marks "Agentic engineering" as
-   MAP + REPS — no DRILL, no EXAMPLES. That fights the decision to ship all
-   four modes. Revising the tagging looks defensible but the August tagging
-   was considered, so change it deliberately and write down why.
-2. **Personal tool or multi-user product?** The predecessor's `CLAUDE.md` said
-   "one user, not a general product." Weeks 3 and 5 require user accounts and
-   secured user data.
-3. **Repo naming** — blocked on Morgan, see above.
+**Work Prioritization Workshop** — same Figma file as the audience
+segmentation work (key `Bi8Wr9BoAYpVDbWJWKWxx6`), sections already visible
+on the board: `WORK PRIORITIZATION WORKSHOP INSTRUCTIONS` (id `27:180`),
+`PRIORITIZE USE CASES` (id `27:204`), and `Part 3: Pick your Most
+Important Pieces of Work for the Next Iteration, and Drop Them Here`
+(id `27:169`). Read the instructions section first before filling anything
+in, same approach as the last two workshops.
 
-## Scope already settled — do not re-litigate
+## Important: where today's work actually lives
 
-- **Subject domain: automation and agentics.** Not Spanish, not F&I.
-- The subject domain only decides **what seed content sits in the database.**
-  The user is **not** using this app to study agentics while building it — that
-  reading was explicitly rejected as "ludicrous." Do not frame it as his live
-  study tool.
-- **All four router modes present in Week 3**, with **REPS deliberately thin**
-  (record and self-rate, no AI judging) until **Week 7**, whose assignment is
-  literally "make your application agentic somehow."
-- **Stack is set by the course**: Vercel, Supabase, Material UI, GitHub,
-  Cloudflare, OpenRouter. Not open for debate.
+Almost everything built tonight is in two FigJam boards, **not in this git
+repo**:
+- Market Research and Competitive Analysis:
+  `https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/`
+- Audience Segmentation, Goals, Motivations, and Use Cases:
+  `https://www.figma.com/board/Bi8Wr9BoAYpVDbWJWKWxx6/`
 
-## Two hard rules
+Only the supporting research write-ups under `docs/research/` are
+version-controlled. If a future session needs the FigJam content, read it
+live from these boards rather than assuming it's in a local file.
 
-- **Never draft the "What I Did" or "What I Learned" sections** of any weekly
-  submission. The instructor writes: *"DO NOT use AI for this! I will check!"*
-  Supplying a factual list of actions as raw material is fine; the writing
-  must be the user's own.
-- **Plain English, eighth-grade reading level, in every artifact** — including
-  graded academic ones. This was got wrong once already today: the first draft
-  of the research paper came back as dense academic prose and had to be
-  rewritten from scratch. Clear and rigorous are compatible.
+## Still unresolved, carried over
 
-## Where the other folders went
-
-- `../growth-ads-system` — **parked.** PARKED banner at the top of its
-  `STATUS.md`. Clean on `main`, PR #1 merged. Do not build there.
-- `../ADHD-Learning-System` — the original archive this project's research was
-  copied from. Read from it if something seems missing; never build in it.
+1. **Lock the self-regulation decision into `DECISIONS.md`** — proposed in
+   the Aug 13 research, confirmed again tonight by direct personal
+   account, still never formally signed off as decision #13.
+2. **Repo naming** — blocked on Morgan, see above.
+3. **Subject-mode tagging** (`subjects.md` marks "Agentic engineering" as
+   MAP + REPS only, conflicts with shipping all four modes) — still open.

@@ -110,10 +110,11 @@ framework patterns) and EXAMPLES material (reading good agent code against
 bad) — but the August tagging was a considered judgment and should be changed
 deliberately, not silently.
 
-### 2. Personal tool or multi-user product?
-The old `CLAUDE.md` stated: "a personal learning system for one user, not a
-general product." The residency requires user accounts and secured user data
-in Weeks 3 and 5. That re-scope needs a decision.
+### 2. Personal tool or multi-user product? — RESOLVED 2026-10-24
+**Decided: multi-user product.** The old `CLAUDE.md` stated "a personal
+learning system for one user, not a general product," but the residency
+requires user accounts and secured user data in Weeks 3 and 5, so the
+product is scoped as multi-user going forward.
 
 ### 3. Repo naming — the course contradicts itself
 Week 1 says: one repo named `AI Development Residency`, with a folder per
