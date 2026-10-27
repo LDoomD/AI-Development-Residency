@@ -129,6 +129,37 @@ repo. It is the only week whose premium section names a specific app instead
 of the student's own. **Worth confirming with Morgan**, since every other week
 substitutes the specialization project.
 
+### 5. Audience scope — RESOLVED 2026-10-26: dual-primary, self-reported at onboarding
+**Decided: both.** Neurodivergent adults and general professionals (tech, UX,
+conversational design, product management, marketing — anyone who needs to
+learn fast and retain it) are both primary audiences, not a primary/secondary
+pair. Resolution mechanism: **onboarding asks the learner directly** (e.g.
+"Do you identify as neurodivergent?" or similar framing, still TBD) and uses
+the answer to tailor defaults and recommendations — not to gate access or
+fork the product into two separate experiences.
+
+**What doesn't need to change:** the three-layer architecture already
+separates general learning science (Layer 1 — retrieval + spaced practice,
+audience-agnostic) from neurodivergence-specific accommodation (Layer 2 — the
+floor, the escape hatch). This resolution fits that split directly: Layer 1
+serves everyone identically, Layer 2's supports become opt-in-by-default
+(or opt-in-by-answer) rather than always-on.
+
+**New scope surfaced, not yet designed — needs its own pass before building:**
+1. **The onboarding intake flow itself** — exact question wording, where in
+   the flow it appears, and what changes based on the answer (which defaults,
+   which recommendations). No design work done yet.
+2. **Self-reported neurodivergence status is sensitive personal data.**
+   Residency stack is Supabase with row-level security (`CLAUDE.md`) — this
+   needs an explicit privacy/storage decision (is it stored at all, how it's
+   protected, whether it's editable/revocable later, consent language), not
+   an assumption that RLS alone covers it. Flag for the security-review skill
+   already listed in this repo's `CLAUDE.md` once the intake flow is designed.
+3. **Whether "neurodivergent or not" as a binary is the right framing** —
+   worth a design pass against something more specific (e.g. asking about
+   particular challenges or preferences rather than a single identity label)
+   before locking the actual question text. Not decided either way yet.
+
 ---
 
 ## Next actions
