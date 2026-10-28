@@ -1,0 +1,10 @@
+{
+  "expectations": [
+    {"text": "Names the specific repo to reuse", "passed": false, "evidence": "No knowledge of a Week 3 repo convention"},
+    {"text": "Mentions PenTest / Security Testing Report deliverable", "passed": false, "evidence": "Not mentioned"},
+    {"text": "Mentions at least two real tools", "passed": false, "evidence": "None named"},
+    {"text": "Mentions emailing instructor the Github link", "passed": false, "evidence": "Not mentioned"},
+    {"text": "Does not hedge with generic advice", "passed": false, "evidence": "Entirely generic bootcamp-submission advice, explicitly says it can't verify Week 5 specifics"}
+  ],
+  "summary": {"passed": 0, "failed": 5, "total": 5, "pass_rate": 0.0}
+}

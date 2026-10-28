@@ -1,0 +1,12 @@
+{
+  "eval_id": 2,
+  "eval_name": "week5-submission",
+  "prompt": "I'm about to submit Week 5 homework for the residency — what repo am I supposed to use, and what's actually required for the submission?",
+  "assertions": [
+    "Names the specific repo to reuse: \"AI DEVELOPMENT RESIDENCY - WEEK 3 - APP\" (the Week 3 repo, not a new one)",
+    "Mentions the PenTest / Security Testing Report deliverable",
+    "Mentions at least two of the actual tools: OWASP (cheat sheet series), Aikido, WireShark MCP, Cloudflare",
+    "Mentions emailing the instructor (mdenner@techfleet.org) the Github repository link",
+    "Does not hedge with generic bootcamp advice ('check your LMS') when the actual answer is known and available"
+  ]
+}
