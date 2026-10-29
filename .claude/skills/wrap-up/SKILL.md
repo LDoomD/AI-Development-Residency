@@ -45,28 +45,37 @@ Do the full git workflow yourself — the user isn't running git commands from t
 
 Create a **new page in the database** for the session (not an append to the hub page body). Properties: `Entry` (title, format `YYYY-MM-DD — short description`), `Date`, `Story Arc` (one or more of Preamble/Rags/Journey/Riches/Sequel), `Project`.
 
-His sessions can run up to 4 hours — by wrap-up he may be mentally done. Don't hand him a blank 6-item form. Instead:
+His sessions can run up to 4 hours — by wrap-up he may be mentally done. Don't hand him a blank 6-item form. But also: **the instructor (Morgan) requires that case-study source data come from the student's own thinking, not AI.** This is a hard rule, not a preference — it overrides the earlier "AI can just draft it" convenience feature. Claude may help him answer faster; Claude may never supply the answer itself.
 
-**Before question 1, say once (don't repeat every question):** "4 quick ones, one at a time — I'll show my best guess for each, you can confirm, edit, or say 'skip.' Say 'skip all' any time to bail out of the whole thing and I'll just draft the entry." That escape hatch matters — without it, someone who wants out has to sit through 4 separate skips instead of 1.
+**Before question 1, say once (don't repeat every question):** "4 quick ones, one at a time — I'll show my best guess for each as a starting point, but I need your own answer, even a short one. Say 'skip' on any you don't have energy for right now."
 
-**Ask these 4 questions, one at a time (not all at once), labeled "Question X of 4" so he can see how much is left, and pre-fill each with a draft answer pulled from the session before you ask it:**
+**Ask these 4 questions, one at a time (not all at once), labeled "Question X of 4" so he can see how much is left, and pre-fill each with a draft guess pulled from the session before you ask it — as a prompt to react to, not an answer to accept as-is:**
 
 1. **What happened and why?** — merge "what changed" + "why" into one question; they're always answered together anyway.
 2. **What frustrated you or went wrong?**
 3. **What did you realize or learn?**
 4. **What's next?**
 
-(Story arc tag is *not* a question — classify Preamble/Rags/Journey/Riches/Sequel yourself from the content. That's tagging work, not reflection, and he shouldn't have to do it.)
+(Story arc tag is *not* a question — classify Preamble/Rags/Journey/Riches/Sequel yourself from the content. That's tagging work, not reflection, and it isn't case-study source data in the way the 4 answers are.)
 
-For each question: show your drafted guess first (1-2 lines, pulled from what actually happened this session), then ask him to confirm it, edit it, replace it, or say "skip." Make it explicit up front that one word or "yep, that's right" is a completely fine answer — don't make him feel like he owes you paragraphs.
+For each question: show your drafted guess first (1-2 lines, pulled from what actually happened this session) as something to confirm, correct, or replace — never something to just leave standing unconfirmed. One word or "yep, that's right" is a completely fine answer.
 
-- **He confirms or edits →** that question's answer is his, in his voice.
-- **He skips a question →** your drafted guess stands for just that one section, and that section (and only that section) gets a small inline note that it's Claude's draft, not his words. The rest of the entry stays unaffected.
-- **He skips all 4 →** the whole entry is AI-drafted — open it with a visible callout saying Claude wrote it from the session transcript because he opted out. Never let an AI-drafted entry pass as his own words.
+- **He confirms or edits →** that's his answer, in his voice. This is the only way a question gets filled in.
+- **He skips a question →** leave that section **blank, marked "not answered this session"** — do not substitute Claude's drafted guess as the recorded answer. The draft was a prompt, not a stand-in.
+- **He skips all 4 →** save the entry with all 4 sections marked "not answered this session." Do not write a full AI-drafted narrative in his voice to fill the gap, even visibly labeled — labeled AI content is still AI-authored data sitting in material that's supposed to be his own thinking.
 
-**Voice rule:** anything attributed to him must actually be his words (confirmed or edited), not a paraphrase and not an AI-narrator summary. Concise, skimmable, short bullets over dense prose.
+**Voice rule:** every answer in this entry must actually be his words. There is no path in this step where Claude supplies case-study content on his behalf.
 
 **Always surface the Notion page link in the wrap-up message itself** — don't make him go hunting for it.
+
+## Setup requirements (before this skill can run at all)
+
+This skill is a plain file in the repo (`.claude/skills/wrap-up/SKILL.md`), so it loads the same way in Claude Code's terminal, the Desktop app, and Claude Code in the browser — skill-loading isn't terminal-specific. But two things are **per-student account/environment setup, not part of the skill file**, and will silently fail step 3 or step 4 if missing:
+
+- **Notion MCP connector must be connected on that student's own Claude account** before step 4 can write anywhere. This is an account-level connection (Settings → Connectors in Claude), not something this skill file can set up for them. If it's missing, Claude has no destination to write the reflection to.
+- **GitHub access for step 3.** The terminal/Desktop app use local `git` + `gh`, authenticated to that machine. Claude Code in the browser runs in a cloud sandbox — it needs that student's GitHub connected to the sandbox for push/PR to work the same way.
+
+**Honesty check on what's actually verified:** the skill file's instructions don't assume anything terminal-specific, and Anthropic's own docs describe skills loading identically across Claude Code surfaces. But this hasn't been run end-to-end inside the Desktop app or Claude Code in the browser from this session — only in the terminal. Don't present it to students as "tested on all three" until it's actually been run in each.
 
 ## 5. Set the next-session starting point
 
@@ -78,6 +87,7 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 - 2026-10-29: Reflection log moved from a flat Notion page to a database (one page per session, filterable). Reflection step made a mandatory guided Q&A by default.
 - 2026-10-29: Added the yes/no opt-out — if the user doesn't have time to write the reflection himself, Claude drafts it from session history instead, visibly marked as AI-drafted. Rewrote description to third person per Anthropic's skill-authoring guidance, added the step checklist, and capped memory writes to load-bearing items only (confidence-filtering idea borrowed from the `claude-wrap-up` community skill).
 - 2026-10-29: Replaced the yes/no gate + 6-question form with 4 questions, asked one at a time, each pre-filled with a drafted answer to confirm/edit/skip (not written from a blank box). Dropped the story-arc question entirely — Claude classifies it, user shouldn't have to. Driven by the user explicitly flagging 4-hour sessions and needing the reflection step to not be mentally exhausting; backed by NN/g's EAS form-design framework (eliminate/automate/simplify) and micro-journaling research on low-effort, skippable reflection.
+- 2026-10-29: Removed the "AI fully drafts the entry" fallback entirely. Instructor requirement: case-study source data must come from the student's own thinking, not AI, even when visibly labeled as AI-drafted. Skipped questions now save as "not answered this session" instead of Claude's guess standing in as the recorded answer. Added a Setup requirements section covering Notion MCP connection and GitHub access for Desktop/browser Claude Code — flagged as documented-but-not-live-tested on those two surfaces.
 
 ## Notes
 
