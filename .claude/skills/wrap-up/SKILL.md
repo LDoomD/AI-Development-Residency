@@ -7,7 +7,10 @@ description: Closes out a Claude Code session end-to-end for this residency repo
 
 The user has ADHD and often ends a session mid-thought to go do something else. "Wrap up" means close every loose end now, not "say goodbye." Permission to run the full routine below was already given when this skill was set up — don't ask step-by-step permission each time.
 
-**Edge case, check this first (caught 2026-10-29):** if the user says something like "I already wrapped up," "I already did that," or otherwise indicates the close-out already happened this session — don't just silently re-run the checklist, and don't just silently skip it either. Ask directly: **"Full wrap-up again, or just a quick check?"** — because there's a real difference: if he kept working after the last wrap-up (more changes, more conversation), a fresh full pass makes sense (new commit/push/PR, a new reflection entry for what happened since). If nothing actually changed since the last one, a full re-run is pointless — just confirm there's nothing left outstanding and stop. Don't guess which one applies; ask.
+**Edge case — check this before anything else:** if the user says he already wrapped up this session (e.g. "I already did that," "I'm done for today"), don't assume. Ask one question: **"Did you keep working after that, or is there nothing new since then?"**
+
+- **He kept working** → run the full checklist below, steps 1-5, covering only what happened *since* the last wrap-up.
+- **Nothing new** → skip the checklist. Just confirm out loud that git is pushed and the last reflection entry is saved, then stop.
 
 Copy this checklist and check items off as you go:
 
