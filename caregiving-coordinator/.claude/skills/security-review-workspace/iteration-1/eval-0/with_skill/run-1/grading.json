@@ -1,0 +1,14 @@
+{
+  "run_id": "eval-0-with_skill-run-1",
+  "summary": {"pass_rate": 1.0, "passed": 6, "failed": 0, "total": 6},
+  "expectations": [
+    {"text": "Flags SQL injection from string-interpolated queries", "passed": true, "evidence": "Finding #1, Critical, both queries named with line numbers and a parameterized-query fix."},
+    {"text": "Flags plaintext pharmacy password storage as Critical, tied to shared/family credential risk", "passed": true, "evidence": "Finding #2, Critical, explicitly 'a third-party credential... for medically sensitive accounts belonging to elderly care recipients... exposes live pharmacy logins for every linked family.'"},
+    {"text": "Flags password written to console.log as a secrets-in-logs issue", "passed": true, "evidence": "Finding #3, High, quotes the exact console.log line and says 'Never log secrets.'"},
+    {"text": "Flags missing access control as the multi-user family access problem, not just generic 'add auth'", "passed": true, "evidence": "Finding #4 explicitly: 'linking pharmacy credentials to any careRecipientId they don't belong to' and recommends checking a care_relationships table."},
+    {"text": "Does not claim the code is 'secure' anywhere", "passed": true, "evidence": "Word 'secure' does not appear as a positive claim anywhere in the output; closing line says it 'should not be committed as-is.'"},
+    {"text": "Every finding has location, severity, and fix", "passed": true, "evidence": "Each of the 6 numbered findings has a bold severity + line numbers + a labeled Fix: line, plus a summary table with Severity/Location columns."}
+  ],
+  "timing": {"total_duration_seconds": 40.9},
+  "notes": "Skill's own 'Quality check before finishing' says every finding should cite an OWASP category (A01-A10) -- none of the 6 findings actually cite an OWASP letter/number in this run, which is a real gap between the skill's stated instructions and what it produced."
+}

@@ -1,0 +1,40 @@
+FAIL ./update-family-role.test.js
+  ● PATCH /family-role (vulnerable) › a non-admin cannot promote another member to admin
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 403
+    Received: 200
+
+      56 |       .send({ role: 'admin' });
+      57 |
+    > 58 |     expect(res.status).toBe(403);
+         |                        ^
+      59 |     const viewer2Row = db._rows.find((r) => r.user_id === 'viewer2');
+      60 |     expect(viewer2Row.role).toBe('viewer'); // unchanged
+      61 |   });
+
+      at Object.toBe (update-family-role.test.js:58:24)
+
+  ● PATCH /family-role (vulnerable) › a non-admin cannot promote themselves to admin (self-escalation)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 403
+    Received: 200
+
+      69 |       .send({ role: 'admin' });
+      70 |
+    > 71 |     expect(res.status).toBe(403);
+         |                        ^
+      72 |     const selfRow = db._rows.find((r) => r.user_id === 'viewer1');
+      73 |     expect(selfRow.role).toBe('viewer'); // unchanged, no self-promotion
+      74 |   });
+
+      at Object.toBe (update-family-role.test.js:71:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 1 passed, 3 total
+Snapshots:   0 total
+Time:        0.285 s, estimated 1 s
+Ran all test suites.

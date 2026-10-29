@@ -20,8 +20,17 @@ health-data and shared-credential risk surfaces.
   access). Use whenever the user is about to commit, push, or share code
   containing a key, token, password, or secret, even when the question looks
   simple.
+- `writing-security-tests`: after a `security-review` finding, write one
+  real, runnable test proving the fix for that finding, in whatever test
+  framework the project already uses. Confirm what's being tested with the
+  user before writing it. No Gherkin, no CI/feature-index assumption — a
+  test that can't actually run isn't done.
 - `engineering-quality-check`: before calling work done, ready to merge, or
   ready for a pull request.
+
+An always-on `SessionStart` hook (`.claude/hooks/emit-skills-directive.mjs`)
+loads this skill list every session so it's not left to description-matching
+alone.
 
 ## Rules for this folder
 
@@ -29,6 +38,9 @@ health-data and shared-credential risk surfaces.
   asks for fixes.
 - Never say code is "secure", "accessible", or "tests pass" without evidence.
   Show the command and result, or say what was not checked.
+- Never silently fall back to base knowledge when a skill above applies, and
+  never silently skip a relevant skill. If one is judged not relevant to a
+  task, say so explicitly rather than defaulting to not using it.
 - Ask before using the user's browser or the Chrome extension.
 - Never write or edit the user's homework summary. They write it themselves.
 - No RuFlo/claude-flow — removed from this residency's tooling; see memory.

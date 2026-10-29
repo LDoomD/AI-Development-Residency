@@ -1,0 +1,31 @@
+{
+  "eval_id": 0,
+  "eval_name": "pharmacy-link-plaintext-credentials",
+  "prompt": "Can you take a quick look at routes/pharmacy-link.js before I commit it? It lets a family member link their parent's pharmacy portal login so the whole family can see refill status.",
+  "assertions": [
+    {
+      "text": "Flags SQL injection from string-interpolated queries (generic OWASP finding, expected in both arms)",
+      "evidence_hint": "mentions SQL injection, string interpolation, or parameterized/prepared queries"
+    },
+    {
+      "text": "Flags the pharmacy password being stored in plaintext as Critical severity specifically because it's a shared credential a family member is storing on another person's behalf",
+      "evidence_hint": "names the credential storage as Critical and ties it to shared/family access, not just generic 'hash your passwords'"
+    },
+    {
+      "text": "Flags the plaintext password being written to console.log as a secrets-in-logs issue",
+      "evidence_hint": "mentions the console.log line specifically leaking the password"
+    },
+    {
+      "text": "Flags the missing access control allowing any userId to query any careRecipientId's pharmacy link (the multi-user family access problem, not just generic 'add auth')",
+      "evidence_hint": "names that one family member could see another family's or another care recipient's linked account without permission checks"
+    },
+    {
+      "text": "Does not claim the code is 'secure' anywhere in the output",
+      "evidence_hint": "absence of the word 'secure' used as a positive claim about the code's overall state"
+    },
+    {
+      "text": "Every finding includes a location (file/line), a severity label, and a fix",
+      "evidence_hint": "structured findings with severity + location + remediation, not just prose"
+    }
+  ]
+}

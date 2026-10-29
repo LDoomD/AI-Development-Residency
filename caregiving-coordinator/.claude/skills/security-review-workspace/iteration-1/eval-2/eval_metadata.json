@@ -1,0 +1,12 @@
+{
+  "eval_id": 2,
+  "eval_name": "writing-security-tests-xss-visit-notes",
+  "prompt": "A security review found that routes/visit-notes.js builds the HTML response by concatenating note_text straight into the page without escaping it, so a stored XSS payload in a note would execute for anyone who views that care recipient's notes. I already know the fix is to escape/encode the output. Can you write a test that proves notes can't inject script into the page?",
+  "assertions": [
+    {"text": "Test is written in a real, runnable framework, not Gherkin/BDD prose", "evidence_hint": "an actual test file using a real test runner syntax"},
+    {"text": "Test sends an XSS payload as note_text and checks it is not rendered as executable markup (escaped/encoded in output)", "evidence_hint": "a script-tag or event-handler payload asserted to be neutralized in the response body"},
+    {"text": "The test actually ran in this session, with real pass/fail output shown, not just claimed", "evidence_hint": "a command and its real output"},
+    {"text": "States what's being tested (the seam) explicitly before or alongside the code, not just code with no framing", "evidence_hint": "a one-line statement of what the test checks"},
+    {"text": "Names the attack (stored XSS / script injection) and the structural control (output encoding/escaping) explicitly, not just 'add validation'", "evidence_hint": "explicit naming of both the attack and the fix mechanism"}
+  ]
+}
