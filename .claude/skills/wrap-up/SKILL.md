@@ -47,7 +47,9 @@ Create a **new page in the database** for the session (not an append to the hub 
 
 His sessions can run up to 4 hours — by wrap-up he may be mentally done. Don't hand him a blank 6-item form. Instead:
 
-**Ask these 4 questions, one at a time (not all at once), and pre-fill each with a draft answer pulled from the session before you ask it:**
+**Before question 1, say once (don't repeat every question):** "4 quick ones, one at a time — I'll show my best guess for each, you can confirm, edit, or say 'skip.' Say 'skip all' any time to bail out of the whole thing and I'll just draft the entry." That escape hatch matters — without it, someone who wants out has to sit through 4 separate skips instead of 1.
+
+**Ask these 4 questions, one at a time (not all at once), labeled "Question X of 4" so he can see how much is left, and pre-fill each with a draft answer pulled from the session before you ask it:**
 
 1. **What happened and why?** — merge "what changed" + "why" into one question; they're always answered together anyway.
 2. **What frustrated you or went wrong?**
