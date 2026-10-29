@@ -18,6 +18,7 @@ Before stating any residency requirement, deadline, deliverable, or policy, **re
 - `reference/homework-submission-process.md` — general submission process (GitHub folder convention, PR workflow). Each student handles their own actual submission routing each week — this file is for reference/audit only.
 - `reference/week-1.md` — Week 1 (How the Web Works) weekly materials + full coding challenge (Week 1 Claude Skills — already completed).
 - `reference/week-2-3.md` — Week 2&3 (Product Delivery Management) weekly materials + Week 2 coding challenge (product specs — Premium track builds specs for their own chosen specialization app).
+- `reference/week-2-premium-specialization-paper.md` — **a separate, Premium-only Week 2 assignment** ("Write a Research Paper and Proposal for Your Specialization Project"), distinct from `week-2-3.md`'s product-specs challenge. Standard residents don't do this one at all. This is where the specialization area actually gets chosen and researched, done before the product-specs work in `week-2-3.md`. Added late — this page was missed in the first pass, so don't assume Week 2 is fully captured just because `week-2-3.md` exists.
 - `reference/week-3-coding-challenge.md` — Week 3 (Network Architecture, Nov 2): build + host the app on Vercel/Supabase/Material UI. Weekly-materials page is blank; this is the coding challenge only.
 - `reference/week-4.md` — Week 4 (Data Engineering, Nov 9): AI chatbot for career coaching using O*NET data. **Mandatory same build for Standard and Premium** — not a specialization week.
 - `reference/week-5.md` — Week 5 (Information Security, Nov 16): PenTest your Week 3 (or Week 5) app, OWASP/Aikido/WireShark. **Same for both tracks.**
@@ -54,6 +55,7 @@ These are genuine artifacts in the instructor's own Notion content, confirmed by
 - Weekly-materials pages for Weeks 3–8 (the lecture/objectives/learning-materials pages, as opposed to the coding challenges) are **blank** on the instructor's side as of 2026-10-28 — not yet taught/published. Only Week 1 and Week 2&3 have real weekly-materials content. Re-check these as each week approaches; don't assume they'll stay blank.
 - The 6 Week 2 deliverable templates (audience segmentation, market/competitor/feature analysis, release vision/scope, epics/features/tasks, Kanban board, pitch deck) are titles only — their actual template content lives in the instructor's master Notion workspace and isn't accessible even via logged-in browser guest access.
 - The Recordings Log has several session rows the instructor hasn't filled in yet (marked "not yet filled in by instructor") — that's the instructor's gap, not a copy error.
+- **Premium-only assignment pages are easy to miss entirely** if they're separate pages rather than a section within a week's main page — `week-2-premium-specialization-paper.md` was missed in the first full pass and only added after the student caught it. When auditing a week, explicitly check whether a Premium-only page exists elsewhere, don't assume the main week page is complete just because it reads coherently on its own.
 
 ## Flagged, not acted on
 
