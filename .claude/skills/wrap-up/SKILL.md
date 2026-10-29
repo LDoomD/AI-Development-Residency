@@ -14,7 +14,7 @@ Wrap-up progress:
 - [ ] 1. Summarize session progress
 - [ ] 2. Update persistent memory
 - [ ] 3. Git: branch → commit → push → PR
-- [ ] 4. Notion reflection entry (ask opt-in question first)
+- [ ] 4. Notion reflection entry (4 pre-filled questions, one at a time, each skippable)
 - [ ] 5. Next-session starting point
 ```
 
@@ -45,22 +45,24 @@ Do the full git workflow yourself — the user isn't running git commands from t
 
 Create a **new page in the database** for the session (not an append to the hub page body). Properties: `Entry` (title, format `YYYY-MM-DD — short description`), `Date`, `Story Arc` (one or more of Preamble/Rags/Journey/Riches/Sequel), `Project`.
 
-**First, ask a yes/no opt-in question** — don't skip straight to the guided Q&A: *"Want to write this session's reflection yourself, or should I draft it from our conversation?"*
+His sessions can run up to 4 hours — by wrap-up he may be mentally done. Don't hand him a blank 6-item form. Instead:
 
-**If yes (he's writing it):** ask the guided questions below, one at a time or as a short batch, and wait for him to actually type his own answers. Do not draft answers for him and ask him to approve them — that defeats the point. If his answer is short or rough, leave it that way; don't polish it into something he didn't say.
+**Ask these 4 questions, one at a time (not all at once), and pre-fill each with a draft answer pulled from the session before you ask it:**
 
-1. **What changed this session?** — what you actually did or decided.
-2. **Why?** — what prompted that call, in your own words.
-3. **What frustrated you or went wrong?** — challenges, friction, corrections you had to make.
-4. **What did you realize or learn?** — the actual "aha," not a feature list.
-5. **What's next?**
-6. **Which story arc stage fits?** — Preamble / Rags / Journey / Riches / Sequel (can be more than one; give him the one-line definitions from the hub page if unsure).
+1. **What happened and why?** — merge "what changed" + "why" into one question; they're always answered together anyway.
+2. **What frustrated you or went wrong?**
+3. **What did you realize or learn?**
+4. **What's next?**
 
-Your job here is only to format his literal answers into the entry's shape and add sources/links/citations for anything factual that came up this session — he isn't expected to cite things from memory.
+(Story arc tag is *not* a question — classify Preamble/Rags/Journey/Riches/Sequel yourself from the content. That's tagging work, not reflection, and he shouldn't have to do it.)
 
-**If no (he doesn't have time to document):** write the entry yourself, drawing on the session's actual conversation history — not invented content. **Mark it as AI-drafted, visibly, every time:** open the entry with a callout stating Claude wrote this one from the session transcript because the user opted out, so anyone reading later (including him) knows it isn't his own words. Never let an AI-drafted entry pass as if he wrote it.
+For each question: show your drafted guess first (1-2 lines, pulled from what actually happened this session), then ask him to confirm it, edit it, replace it, or say "skip." Make it explicit up front that one word or "yep, that's right" is a completely fine answer — don't make him feel like he owes you paragraphs.
 
-**Voice rule (for user-written entries only):** first person, his actual words from the Q&A — not a paraphrase, not an AI-narrator summary. Concise, skimmable, short bullets over dense prose.
+- **He confirms or edits →** that question's answer is his, in his voice.
+- **He skips a question →** your drafted guess stands for just that one section, and that section (and only that section) gets a small inline note that it's Claude's draft, not his words. The rest of the entry stays unaffected.
+- **He skips all 4 →** the whole entry is AI-drafted — open it with a visible callout saying Claude wrote it from the session transcript because he opted out. Never let an AI-drafted entry pass as his own words.
+
+**Voice rule:** anything attributed to him must actually be his words (confirmed or edited), not a paraphrase and not an AI-narrator summary. Concise, skimmable, short bullets over dense prose.
 
 **Always surface the Notion page link in the wrap-up message itself** — don't make him go hunting for it.
 
@@ -73,6 +75,7 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 - 2026-10-28: Skill created — no wrap-up routine existed in memory before this.
 - 2026-10-29: Reflection log moved from a flat Notion page to a database (one page per session, filterable). Reflection step made a mandatory guided Q&A by default.
 - 2026-10-29: Added the yes/no opt-out — if the user doesn't have time to write the reflection himself, Claude drafts it from session history instead, visibly marked as AI-drafted. Rewrote description to third person per Anthropic's skill-authoring guidance, added the step checklist, and capped memory writes to load-bearing items only (confidence-filtering idea borrowed from the `claude-wrap-up` community skill).
+- 2026-10-29: Replaced the yes/no gate + 6-question form with 4 questions, asked one at a time, each pre-filled with a drafted answer to confirm/edit/skip (not written from a blank box). Dropped the story-arc question entirely — Claude classifies it, user shouldn't have to. Driven by the user explicitly flagging 4-hour sessions and needing the reflection step to not be mentally exhausting; backed by NN/g's EAS form-design framework (eliminate/automate/simplify) and micro-journaling research on low-effort, skippable reflection.
 
 ## Notes
 
