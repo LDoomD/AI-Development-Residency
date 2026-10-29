@@ -14,7 +14,7 @@ Wrap-up progress:
 - [ ] 1. Summarize session progress
 - [ ] 2. Update persistent memory
 - [ ] 3. Git: branch → commit → push → PR
-- [ ] 4. Notion reflection entry (4 pre-filled questions, one at a time, each skippable)
+- [ ] 4. Notion reflection entry (4 pre-filled, mandatory questions, one at a time)
 - [ ] 5. Next-session starting point
 ```
 
@@ -45,9 +45,9 @@ Do the full git workflow yourself — the user isn't running git commands from t
 
 Create a **new page in the database** for the session (not an append to the hub page body). Properties: `Entry` (title, format `YYYY-MM-DD — short description`), `Date`, `Story Arc` (one or more of Preamble/Rags/Journey/Riches/Sequel), `Project`.
 
-His sessions can run up to 4 hours — by wrap-up he may be mentally done. Don't hand him a blank 6-item form. But also: **the instructor (Morgan) requires that case-study source data come from the student's own thinking, not AI.** This is a hard rule, not a preference — it overrides the earlier "AI can just draft it" convenience feature. Claude may help him answer faster; Claude may never supply the answer itself.
+His sessions can run up to 4 hours — by wrap-up he may be mentally done — so keep the *effort* per question as low as possible. But **all 4 questions are mandatory, no skip.** He decided this explicitly (2026-10-29): the case study needs 8 weeks of real, complete data, and a skippable flow risked ending up thin exactly on the days it mattered most (the hard/exhausting ones). Also still true: **the instructor (Morgan) requires that case-study source data come from the student's own thinking, not AI.** Claude may help him answer faster by pre-filling a guess; Claude may never supply the answer itself, and may never let a question go unanswered.
 
-**Before question 1, say once (don't repeat every question):** "4 quick ones, one at a time — I'll show my best guess for each as a starting point, but I need your own answer, even a short one. Say 'skip' on any you don't have energy for right now."
+**Before question 1, say once (don't repeat every question):** "4 quick ones, one at a time — I'll show my best guess for each as a starting point. Confirm it, fix it, or replace it — one word is a completely fine answer, but I do need something from you on each one."
 
 **Ask these 4 questions, one at a time (not all at once), labeled "Question X of 4" so he can see how much is left, and pre-fill each with a draft guess pulled from the session before you ask it — as a prompt to react to, not an answer to accept as-is:**
 
@@ -58,13 +58,9 @@ His sessions can run up to 4 hours — by wrap-up he may be mentally done. Don't
 
 (Story arc tag is *not* a question — classify Preamble/Rags/Journey/Riches/Sequel yourself from the content. That's tagging work, not reflection, and it isn't case-study source data in the way the 4 answers are.)
 
-For each question: show your drafted guess first (1-2 lines, pulled from what actually happened this session) as something to confirm, correct, or replace — never something to just leave standing unconfirmed. One word or "yep, that's right" is a completely fine answer.
+For each question: show your drafted guess first (1-2 lines, pulled from what actually happened this session) as something to confirm, correct, or replace. If he tries to skip or brush past one, say once that it's required and ask again — don't nag past that, just hold the line that an answer (even one word) is needed before moving to the next question.
 
-- **He confirms or edits →** that's his answer, in his voice. This is the only way a question gets filled in.
-- **He skips a question →** leave that section **blank, marked "not answered this session"** — do not substitute Claude's drafted guess as the recorded answer. The draft was a prompt, not a stand-in.
-- **He skips all 4 →** save the entry with all 4 sections marked "not answered this session." Do not write a full AI-drafted narrative in his voice to fill the gap, even visibly labeled — labeled AI content is still AI-authored data sitting in material that's supposed to be his own thinking.
-
-**Voice rule:** every answer in this entry must actually be his words. There is no path in this step where Claude supplies case-study content on his behalf.
+**Voice rule:** every answer in this entry must actually be his words — confirmed or edited, never supplied by Claude. There is no skip path and no AI-authored fallback in this step.
 
 **Always surface the Notion page link in the wrap-up message itself** — don't make him go hunting for it.
 
@@ -88,6 +84,7 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 - 2026-10-29: Added the yes/no opt-out — if the user doesn't have time to write the reflection himself, Claude drafts it from session history instead, visibly marked as AI-drafted. Rewrote description to third person per Anthropic's skill-authoring guidance, added the step checklist, and capped memory writes to load-bearing items only (confidence-filtering idea borrowed from the `claude-wrap-up` community skill).
 - 2026-10-29: Replaced the yes/no gate + 6-question form with 4 questions, asked one at a time, each pre-filled with a drafted answer to confirm/edit/skip (not written from a blank box). Dropped the story-arc question entirely — Claude classifies it, user shouldn't have to. Driven by the user explicitly flagging 4-hour sessions and needing the reflection step to not be mentally exhausting; backed by NN/g's EAS form-design framework (eliminate/automate/simplify) and micro-journaling research on low-effort, skippable reflection.
 - 2026-10-29: Removed the "AI fully drafts the entry" fallback entirely. Instructor requirement: case-study source data must come from the student's own thinking, not AI, even when visibly labeled as AI-drafted. Skipped questions now save as "not answered this session" instead of Claude's guess standing in as the recorded answer. Added a Setup requirements section covering Notion MCP connection and GitHub access for Desktop/browser Claude Code — flagged as documented-but-not-live-tested on those two surfaces.
+- 2026-10-29: Removed the skip option entirely (including "skip all") — all 4 questions are now mandatory. User's explicit call: an always-skippable flow risked thin data on exactly the sessions that mattered most (the hard/exhausting ones), undermining the whole point of the log. Pre-filled drafts stay as the low-effort mechanism; what changed is that confirming/editing is no longer optional.
 
 ## Notes
 
