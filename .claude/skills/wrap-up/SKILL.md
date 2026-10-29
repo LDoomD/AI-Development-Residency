@@ -35,18 +35,22 @@ As of 2026-10-29, this is a **database**, not a flat page — restructured becau
 
 Create a **new page in the database** for the session (not an append to the hub page body). Set properties: `Entry` (title, format `YYYY-MM-DD — short description`), `Date`, `Story Arc` (one or more of Preamble/Rags/Journey/Riches/Sequel), `Project`.
 
-**Who writes the words vs. who adds the sources (set 2026-10-29):** going forward, ask the user the reflection questions and let him type his own answers — don't draft the narrative for him. Your job is formatting it into the page's shape and adding the sources/links/citations for anything factual that came up that session. Don't invent reflection content in his voice if he hasn't actually said it to you that session — ask, don't guess.
+**Mandatory guided Q&A (set 2026-10-29) — he types the answers, every time, no exceptions:** this is the step most likely to get skipped under pressure (he's tired, in a hurry, etc.) — don't let that happen. Ask these questions in the chat, one at a time or as a short batch, and wait for him to actually type his own answers before writing anything to Notion:
 
-**Voice rule — this is the part most likely to get missed, so it's called out separately:** the entry must read like the user wrote it himself. That means:
-- First person ("I decided...", "I realized...", "I ran into...") — not "the user" or "Claude did X."
-- Built from what the user *actually said* this session (his own words/inputs), not from narrating the tool calls Claude made. If the user didn't say something close to it, it doesn't belong in the entry framed as his realization.
-- Concise and well organized — this user has ADHD. Short paragraphs or bullets, clear headers, no dense walls of text. Skimmable over complete.
+1. **What changed this session?** — what you actually did or decided.
+2. **Why?** — what prompted that call, in your own words.
+3. **What frustrated you or went wrong?** — challenges, friction, corrections you had to make.
+4. **What did you realize or learn?** — the actual "aha," not a feature list.
+5. **What's next?**
+6. **Which story arc stage fits?** — Preamble / Rags / Journey / Riches / Sequel (can be more than one; give him the one-line definitions from the hub page if he's not sure).
 
-Keep the page's existing structure (dated entries, newest on top, tagged to the Preamble/Rags/Journey/Riches/Sequel story arc, a "What changed / Why / Challenges / Discoveries / Sources" shape) — just write the content in the user's voice going forward, not the AI-narrator voice used in earlier entries.
+Do not draft answers for him and ask him to approve them — that defeats the point. If he gives a short or rough answer, that's fine; don't pad it into something more polished-sounding than what he actually said. **Your job is only:** format his literal answers into the entry's shape, and add sources/links/citations for anything factual that came up this session (market data, APIs, research, etc.) — he won't have those memorized and isn't expected to cite them himself.
 
-**Always surface the Notion page link in the wrap-up message itself** — don't make the user go hunting for it. State it even if nothing else about this step changes.
+**Voice rule:** the entry must read like he wrote it himself — first person, his actual words from the Q&A, not a paraphrase and not an AI-narrator summary of what Claude did. Concise, skimmable, short bullets over dense prose — he has ADHD.
 
-Note: the user may sometimes want to write the entry himself instead of having it drafted for him (said 2026-10-28, right after this skill was created) — if he says he's writing it himself for a given session, skip drafting it and just confirm the page link so he can go write it.
+**Always surface the Notion page link in the wrap-up message itself** — don't make him go hunting for it.
+
+If he explicitly says he wants to write the whole entry himself instead of doing the guided Q&A for a given session, skip the questions and just hand him the database link.
 
 ## 5. Set the next-session starting point
 
