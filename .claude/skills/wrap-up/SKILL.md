@@ -28,7 +28,14 @@ The user is not going to run git commands themselves from this session — do th
 
 ## 4. Write the session's Notion reflection entry
 
-Destination: **"Case Study Documentation, Reflections & Research Log"** page, inside the "TechFleet: AI Residency Resource Hub" workspace (`https://app.notion.com/p/4069219a4691803a8b23d9c753cb86e2`). Append a new dated entry — don't overwrite existing entries.
+As of 2026-10-29, this is a **database**, not a flat page — restructured because Notion's own best practice is database-over-subpages for anything filterable by date/theme, and it gives one real page per day instead of one giant scrolling page ([Atlas Workspace](https://www.atlasworkspace.ai/blog/notion-for-journaling), [AI Tool Pick](https://aitoolpick.org/blog/notion-databases-best-practices-2026/)).
+
+- **Hub page** (overview + linked table view, sorted newest-first): `https://app.notion.com/p/4069219a4691803a8b23d9c753cb86e2`
+- **Database** itself ("Reflections & Learnings Log"): `collection://ddf9e7b6-c36f-4324-8c3a-7f7317017785`
+
+Create a **new page in the database** for the session (not an append to the hub page body). Set properties: `Entry` (title, format `YYYY-MM-DD — short description`), `Date`, `Story Arc` (one or more of Preamble/Rags/Journey/Riches/Sequel), `Project`.
+
+**Who writes the words vs. who adds the sources (set 2026-10-29):** going forward, ask the user the reflection questions and let him type his own answers — don't draft the narrative for him. Your job is formatting it into the page's shape and adding the sources/links/citations for anything factual that came up that session. Don't invent reflection content in his voice if he hasn't actually said it to you that session — ask, don't guess.
 
 **Voice rule — this is the part most likely to get missed, so it's called out separately:** the entry must read like the user wrote it himself. That means:
 - First person ("I decided...", "I realized...", "I ran into...") — not "the user" or "Claude did X."
