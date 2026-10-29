@@ -7,7 +7,7 @@ description: Closes out a Claude Code session end-to-end for this residency repo
 
 The user has ADHD and often ends a session mid-thought to go do something else. "Wrap up" means close every loose end now, not "say goodbye." Permission to run the full routine below was already given when this skill was set up — don't ask step-by-step permission each time.
 
-**Edge case, check this first (caught 2026-10-29):** if the user says something like "I already wrapped up," "I already did that," or otherwise indicates the close-out already happened this session — don't re-run the checklist. Just ask one quick question: anything left to commit/push, or any step that didn't actually finish? If no, stop there — don't redo memory updates, git, or the Notion questions a second time for the same session.
+**Edge case, check this first (caught 2026-10-29):** if the user says something like "I already wrapped up," "I already did that," or otherwise indicates the close-out already happened this session — don't just silently re-run the checklist, and don't just silently skip it either. Ask directly: **"Full wrap-up again, or just a quick check?"** — because there's a real difference: if he kept working after the last wrap-up (more changes, more conversation), a fresh full pass makes sense (new commit/push/PR, a new reflection entry for what happened since). If nothing actually changed since the last one, a full re-run is pointless — just confirm there's nothing left outstanding and stop. Don't guess which one applies; ask.
 
 Copy this checklist and check items off as you go:
 
