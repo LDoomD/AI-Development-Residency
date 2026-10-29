@@ -37,6 +37,10 @@ Destination: **"Case Study Documentation, Reflections & Research Log"** page, in
 
 Keep the page's existing structure (dated entries, newest on top, tagged to the Preamble/Rags/Journey/Riches/Sequel story arc, a "What changed / Why / Challenges / Discoveries / Sources" shape) — just write the content in the user's voice going forward, not the AI-narrator voice used in earlier entries.
 
+**Always surface the Notion page link in the wrap-up message itself** — don't make the user go hunting for it. State it even if nothing else about this step changes.
+
+Note: the user may sometimes want to write the entry himself instead of having it drafted for him (said 2026-10-28, right after this skill was created) — if he says he's writing it himself for a given session, skip drafting it and just confirm the page link so he can go write it.
+
 ## 5. Set the next-session starting point
 
 End with one short, explicit line: "Next session, start with: ___." Pull this from whatever was left open — don't invent a new direction.
