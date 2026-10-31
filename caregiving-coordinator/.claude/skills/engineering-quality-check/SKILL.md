@@ -35,7 +35,9 @@ would pass.
 ## Workflow
 
 1. **Run the checks.** Run tests, then the linter and build if the project has
-   them. Record each command, its result, and any failures.
+   them. Also run the architecture gate:
+   `node .claude/skills/judge-arch/scripts/arch-gate.mjs`. Record each command,
+   its result, and any failures. A gate failure means the work is not ready.
 2. **Review the change** with the checklist: design, behavior, complexity,
    tests, naming, comments, and style.
 3. **Check tests for the change.** New behavior needs a test. A bug fix needs
@@ -43,9 +45,12 @@ would pass.
 4. **Check documentation.** README, comments, setup steps, and API notes match
    the new behavior.
 5. **Check for a big decision.** If the change picked a technology, changed
-   structure, or set a rule others must follow, draft a short decision record
-   with `assets/decision-record-template.md`. A decision record is a short note
-   saying what was decided and why.
+   structure, or set a rule others must follow, use the
+   `architectural-decision-records` skill to draft a record in `docs/adr/`. A
+   decision record is a short note saying what was decided and why.
+   (`assets/decision-record-template.md` remains as a quick fallback.)
+   For a non-trivial change that adds, moves, or restructures code, also run the
+   `judge-arch` skill for an architecture review in fresh context.
 6. **Write the report** with `assets/quality-report-template.md`.
 
 ## Verdict
