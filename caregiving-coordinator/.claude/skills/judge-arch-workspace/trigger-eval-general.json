@@ -1,0 +1,46 @@
+[
+ {
+  "query": "i vibe-coded an online store checkout this week, 20 files touched. can you check the structure didnt get messy before i merge?",
+  "should_trigger": true
+ },
+ {
+  "query": "the AI keeps putting business logic inside my React components. review where things ended up in this branch",
+  "should_trigger": true
+ },
+ {
+  "query": "i reorganized our api into a new folder layout, does it still make sense architecturally?",
+  "should_trigger": true
+ },
+ {
+  "query": "refactored the whole checkout module this afternoon, 14 files changed. does the structure still hold up?",
+  "should_trigger": true
+ },
+ {
+  "query": "just moved the pricing logic into the route handler so it ships faster, can you check the diff before i open the PR?",
+  "should_trigger": true
+ },
+ {
+  "query": "im about to start building the medication tracker and have no idea how to organize the code. screens, logic, database, how should it be layered?",
+  "should_trigger": false
+ },
+ {
+  "query": "write an ADR for the decision to store visit notes encrypted at rest",
+  "should_trigger": false
+ },
+ {
+  "query": "review the permissions on my family sharing endpoints, can one sibling read another's notes?",
+  "should_trigger": false
+ },
+ {
+  "query": "turn this rough idea for a caregiver app into a one page PRD, ask me questions one at a time",
+  "should_trigger": false
+ },
+ {
+  "query": "check this dashboard layout for usability problems, the table has 14 columns and no sorting",
+  "should_trigger": false
+ },
+ {
+  "query": "does my signup form pass WCAG 2.2 AA? it has placeholder-only labels and a red error message",
+  "should_trigger": false
+ }
+]

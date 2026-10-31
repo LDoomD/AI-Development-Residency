@@ -1,0 +1,11 @@
+{
+ "eval_id": 1,
+ "eval_name": "write-new-adr",
+ "prompt": "We decided to store visit recordings encrypted in S3 with a separate key per family instead of as database blobs, because keys must be revocable when a sibling leaves. The cost is more code and key-management work. Write this up so the team can find it later.",
+ "assertions": [
+  "Produces a record with context, decision, options considered, and consequences",
+  "Lists database blobs as a rejected option with a reason",
+  "Lists at least one downside or cost in the consequences",
+  "Marks the status as Proposed or asks the user to accept it, rather than marking it Accepted on its own"
+ ]
+}

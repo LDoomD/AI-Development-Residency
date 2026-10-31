@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Rates the plan as critical or severe",
+   "passed": true,
+   "evidence": "'Verdict: do not ship this plan... critical risk'"
+  },
+  {
+   "text": "Recommends encryption or a vault and an access audit trail",
+   "passed": true,
+   "evidence": "AES-256-GCM envelope encryption with KMS; 'Write an audit log of every reveal'"
+  },
+  {
+   "text": "Refers to project-specific risks or a risk profile",
+   "passed": false,
+   "evidence": "Only generic PHI/HIPAA remarks; no reference to the project's risk profile or project-specific docs"
+  },
+  {
+   "text": "Does not say the plan is acceptable",
+   "passed": true,
+   "evidence": "'do not ship this plan'"
+  }
+ ],
+ "summary": {
+  "passed": 3,
+  "failed": 1,
+  "total": 4,
+  "pass_rate": 0.75
+ }
+}

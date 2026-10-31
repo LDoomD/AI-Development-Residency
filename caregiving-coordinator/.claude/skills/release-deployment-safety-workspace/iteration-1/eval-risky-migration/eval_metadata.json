@@ -1,0 +1,11 @@
+{
+ "eval_id": 1,
+ "eval_name": "risky-migration",
+ "prompt": "Deploying tonight: the migration renames the medications table to drugs and drops the old notes column, plus a new env var NOTIFY_KEY. Straight to production, no staging. Is it safe?",
+ "assertions": [
+  "Flags the rename and the dropped column as hard to reverse and asks for a backup or recovery plan",
+  "Raises old code running against the new schema during rollout",
+  "Checks that NOTIFY_KEY exists in the target environment and is not stored in the repo",
+  "Gives a verdict that is not an unconditional go, with rollback steps"
+ ]
+}

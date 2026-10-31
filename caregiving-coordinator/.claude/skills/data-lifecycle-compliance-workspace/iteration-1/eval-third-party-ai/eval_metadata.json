@@ -1,0 +1,11 @@
+{
+ "eval_id": 1,
+ "eval_name": "third-party-ai",
+ "prompt": "We send visit transcripts to a third-party AI service to write summaries, and we keep the recordings forever. Anything we should worry about?",
+ "assertions": [
+  "Flags that a third party receives sensitive health data and that its terms are unknown",
+  "Flags keeping recordings forever as a retention problem",
+  "Mentions telling users or getting permission",
+  "Does not call the product compliant and lists open legal questions for a qualified person"
+ ]
+}

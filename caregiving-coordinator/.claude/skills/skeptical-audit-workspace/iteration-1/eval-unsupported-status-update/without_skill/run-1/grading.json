@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "The rewritten update does not state 'secure' or 'GDPR compliant' as unqualified fact",
+      "passed": true,
+      "evidence": "Tightened version: 'I haven't yet done a security review'; GDPR 'haven't been assessed'."
+    },
+    {
+      "text": "Each claim is labelled with how it is known (for example observed, reported, not assessed)",
+      "passed": false,
+      "evidence": "Table has a Problem column only; no evidence-state labels."
+    },
+    {
+      "text": "The response includes a list of what was not checked or not assessed",
+      "passed": true,
+      "evidence": "Enumerated in prose inside the tightened version; no separate list."
+    },
+    {
+      "text": "The response flags that 'all tests pass' is stale and needs a fresh command and result",
+      "passed": true,
+      "evidence": "'last ran them a week ago... probably changed' and 'Run the test suite today and note the result'."
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 1,
+    "total": 4,
+    "pass_rate": 0.75
+  }
+}

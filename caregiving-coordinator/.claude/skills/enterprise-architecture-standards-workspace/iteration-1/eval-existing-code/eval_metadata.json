@@ -1,0 +1,11 @@
+{
+ "eval_id": 2,
+ "eval_name": "existing-code",
+ "prompt": "We already have code: a React front end that calls Supabase directly from components. Document our architecture.",
+ "assertions": [
+  "Describes what exists and separates intended structure from accidental structure",
+  "Does not silently approve direct database calls from components as the intended design",
+  "Asks the user which parts to keep",
+  "Lists open questions or marks which rules can be checked by script versus by review"
+ ]
+}

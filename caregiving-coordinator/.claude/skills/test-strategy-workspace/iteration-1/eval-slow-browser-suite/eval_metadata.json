@@ -1,0 +1,11 @@
+{
+ "eval_id": 2,
+ "eval_name": "slow-browser-suite",
+ "prompt": "My test suite is 90% slow browser tests and takes 12 minutes. Fix the strategy.",
+ "assertions": [
+  "Recommends moving checks down to faster unit or integration tests",
+  "Keeps only a few end-to-end journeys and names which ones",
+  "Treats flaky tests as bugs to be diagnosed",
+  "Does not tell the user to adopt a new test framework without asking"
+ ]
+}

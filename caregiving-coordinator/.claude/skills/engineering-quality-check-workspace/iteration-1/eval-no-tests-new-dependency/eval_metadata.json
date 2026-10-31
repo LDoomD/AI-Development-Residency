@@ -1,0 +1,11 @@
+{
+ "eval_id": 2,
+ "eval_name": "no-tests-new-dependency",
+ "prompt": "Review this diff: it adds a POST /share endpoint, adds Redis as a new dependency, has no tests, and the README is unchanged. I can't paste more.",
+ "assertions": [
+  "Flags the missing tests",
+  "Flags the README or documentation as out of date",
+  "Flags the new Redis dependency as a decision that needs a decision record",
+  "States what it could not check and gives a verdict such as Cannot tell or Ready after fixes"
+ ]
+}

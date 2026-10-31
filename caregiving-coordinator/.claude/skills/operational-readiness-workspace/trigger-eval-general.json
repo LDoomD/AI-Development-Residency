@@ -1,0 +1,42 @@
+[
+ {
+  "query": "if my site went down at 3am how would i find out?",
+  "should_trigger": true
+ },
+ {
+  "query": "were about to launch our booking app to real customers, what could bite us in production",
+  "should_trigger": true
+ },
+ {
+  "query": "nobody noticed the cron job died for a week. what should we have had?",
+  "should_trigger": true
+ },
+ {
+  "query": "a customer's order confirmation never sent and nobody noticed for 2 days. what should have been in place?",
+  "should_trigger": true
+ },
+ {
+  "query": "how do i roll back if this release breaks the reminders?",
+  "should_trigger": false
+ },
+ {
+  "query": "my test suite takes 12 minutes because everything is a browser test. help me rethink it",
+  "should_trigger": false
+ },
+ {
+  "query": "a user asked me to delete their account. does deleting it also remove their visit recordings from backups and the AI service?",
+  "should_trigger": false
+ },
+ {
+  "query": "turn this rough idea for a caregiver app into a one page PRD, ask me questions one at a time",
+  "should_trigger": false
+ },
+ {
+  "query": "check this dashboard layout for usability problems, the table has 14 columns and no sorting",
+  "should_trigger": false
+ },
+ {
+  "query": "does my signup form pass WCAG 2.2 AA? it has placeholder-only labels and a red error message",
+  "should_trigger": false
+ }
+]

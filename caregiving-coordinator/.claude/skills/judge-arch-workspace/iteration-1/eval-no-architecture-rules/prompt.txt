@@ -1,0 +1,1 @@
+Review my change for architecture problems: I added a function in utils/helpers.js that formats dates and moved the user lookup into a new file called lookup.js. There is no architecture document in this project and I have not told you how the code is supposed to be organized.

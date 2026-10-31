@@ -1,6 +1,6 @@
 ---
 name: skeptical-audit
-description: Applies an evidence standard to any factual claim in a report, review, audit, or status update, tagging each claim as proven, observed, inferred, documented, reported, or not-assessed with a re-runnable source and a stated limit. Use when writing or checking a report, when someone says something is "secure", "working", "compliant", or "tested", when asked "how do you know", or when auditing another review for unsupported claims. Make sure to use this skill before any summary that states results as facts, even if the user never says "evidence". Do not use for judging architecture (use judge-arch), for writing code, or for casual conversation with no claims to check.
+description: Applies an evidence standard to any factual claim in a report, review, audit, or status update, tagging each claim as proven, observed, inferred, documented, reported, or not-assessed with a re-runnable source and a stated limit. Use when writing or checking a report, when someone says something is "secure", "working", "compliant", or "tested", or when auditing another review for unsupported claims. Also use for casual asks like "how do you know that", "what is that based on", "which of these did you actually check versus assume", "is that verified or a guess", or "show me your evidence", even if the user never says "evidence". Make sure to use this skill before any summary that states results as facts. Do not use for judging architecture (use judge-arch), writing code, or casual chat with no claims to check.
 ---
 
 # Skeptical Audit

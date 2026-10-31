@@ -85,3 +85,35 @@ Purpose: have a "before" number so we can say what the build cost, then run one 
 - `lispking/harness-skills` and a community skill built on a Dave Farley talk: looked at via web pages only, nothing installed.
 - Earlier research report from the Oct 29 session: `skills-research-report.md` (session scratchpad).
 - Simon Scrapes Agentic Academy post and the two replies, pasted by the user on 2026-10-31.
+
+## 6. Test round results (2026-10-31, after the build)
+
+Three test types on the 9 new skills plus `security-review` and `engineering-quality-check` (11 skills). Raw files are in each skill's `<skill>-workspace/` folder (`trigger-eval.json`, `iteration-1/` or `iteration-2/` for security-review, with `benchmark.json`).
+
+**1. Trigger tests (does the skill load?)**
+- Description only (skill-creator's `run_eval`, empty scratch project plus the other skills, 12 queries x 3 runs per skill): the skills fired on **10 of 198** should-trigger runs and **0 of 198** wrong runs. Descriptions alone almost never trigger these skills in a one-shot prompt.
+- With the real project setup (CLAUDE.md, SessionStart hook, all 15 skills; one run per query, 66 should-trigger queries): **56 of 66 fired (85%)**, and **0 of 66** negative queries fired the target skill. The forcing layer is what makes skills load, which supports the "hook, not a reminder" decision.
+- Missed (10): casual wording with no keyword for `judge-arch` (2), and one each for ADR, architecture standards, skeptical-audit, test-strategy, operational-readiness, data-lifecycle, and `engineering-quality-check` (2).
+
+**2. Quality comparison (with skill vs without, 2 tasks per skill, 1 run each)**
+- Mean pass rate **98% with vs 76% without**. Mean tokens **48,475 vs 45,622 per run (+2,853, +6%)**.
+- Biggest gaps: `enterprise-architecture-standards` 100% vs 25%, `owasp-secure-coding-bdd` 100% vs 62%. No gap: `judge-arch` (100% vs 100%). `release-deployment-safety` 75% vs 75%.
+
+**3. Functional checks**
+- Script and hook tests: 18 of 18 pass (`node --test .claude/skills/judge-arch/test/*.test.mjs`).
+
+**Limits of this evidence**
+- The assertions were written from each skill's own rules, so they favor the skill. Graders reported many assertions that both configs passed trivially. The gaps are mostly in process and format (evidence labels, "not checked" lists, proposed status, asking before assuming).
+- One run per task, no repeats. Subagents were told to read the skill, so the quality test measures content, not triggering.
+- `release-deployment-safety`: both configs failed the under-250-words check (the prompt allowed 300, so the check was stricter than the instruction) and both gave no concrete rollback steps.
+- The hook blocking a real commit and SubagentStart delivery inside a real session are still untested.
+- Trigger tests ran `claude -p`, close to but not identical to an interactive session.
+
+## 7. Description fix for missed triggers (2026-10-31)
+
+Added generic casual phrases (no product-specific wording) to 8 skill descriptions: judge-arch, architectural-decision-records, enterprise-architecture-standards, skeptical-audit, test-strategy, operational-readiness, data-lifecycle-compliance, engineering-quality-check.
+- Fresh general queries (other kinds of products), real project setup, 1 run each: 26 of 34 fired (76%), 0 of 48 wrong fires.
+- Same queries, 1 run each: 38/48 before and 38/48 after. Single runs were noisy.
+- Old vs new wording, 3 runs per query, 3 skills: judge-arch 1/18 -> 9/18, skeptical-audit 13/18 -> 13/18, engineering-quality-check 6/18 -> 7/18, no wrong fires. New wording kept.
+- Still weak: judge-arch (50%) and engineering-quality-check (39%). skeptical-audit misses on questions like "how do you know that" are partly a test artifact (one-shot prompts have no earlier answer to audit).
+- Not re-tested after the edit: operational-readiness, data-lifecycle-compliance, test-strategy, architectural-decision-records and enterprise-architecture-standards beyond the single-run checks above.

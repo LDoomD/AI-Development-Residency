@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Writes scenarios in a Given/When/Then style in plain language",
+   "passed": true,
+   "evidence": "Scenarios use Given/When/Then in plain language (some omit Given)"
+  },
+  {
+   "text": "Includes a misuse scenario about a wrong, oversized, or malicious file",
+   "passed": true,
+   "evidence": "'.exe renamed to .mp3, or a file far over the limit' rejected"
+  },
+  {
+   "text": "Includes a scenario where one family tries to reach another family's recording",
+   "passed": true,
+   "evidence": "'signed-in user outside the care circle... changes the recording ID' gets not found"
+  },
+  {
+   "text": "Cites OWASP or marks each scenario as automatable or review",
+   "passed": true,
+   "evidence": "'Source: File Upload cheat sheet Check: automatable' on each"
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

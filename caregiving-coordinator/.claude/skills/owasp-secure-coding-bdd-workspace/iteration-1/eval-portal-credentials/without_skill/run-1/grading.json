@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Produces behavior scenarios or specs rather than only code",
+   "passed": false,
+   "evidence": "Design guidance bullets only; no behavior scenarios or spec format"
+  },
+  {
+   "text": "Covers credentials never being stored in plain text or written to logs",
+   "passed": true,
+   "evidence": "'Never log them... Encrypt at rest with envelope encryption'"
+  },
+  {
+   "text": "Covers a different family member trying to use or view someone else's stored login",
+   "passed": true,
+   "evidence": "'a user can only trigger checks on their own linked accounts... explicit, auditable delegation'"
+  },
+  {
+   "text": "Treats plain text storage of these logins as a severe or critical risk",
+   "passed": false,
+   "evidence": "Says storing passwords is 'high risk' but never rates plaintext storage as severe/critical"
+  }
+ ],
+ "summary": {
+  "passed": 2,
+  "failed": 2,
+  "total": 4,
+  "pass_rate": 0.5
+ }
+}

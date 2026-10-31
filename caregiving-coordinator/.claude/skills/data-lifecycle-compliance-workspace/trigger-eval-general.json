@@ -1,0 +1,42 @@
+[
+ {
+  "query": "what customer data does my shop app store and how long do we keep it?",
+  "should_trigger": true
+ },
+ {
+  "query": "someone wants their account and data deleted, what do i need to remove?",
+  "should_trigger": true
+ },
+ {
+  "query": "can i send user messages to an LLM API, what should i tell users?",
+  "should_trigger": true
+ },
+ {
+  "query": "when a user leaves a team, what should happen to the files and notes they uploaded?",
+  "should_trigger": true
+ },
+ {
+  "query": "im about to commit this .env file with my OpenAI key in it, any problem?",
+  "should_trigger": false
+ },
+ {
+  "query": "are we ready to put the first real family on the app? i want to know what happens if the database dies",
+  "should_trigger": false
+ },
+ {
+  "query": "we have appointments, medications and family accounts. which module should be the single writer for each?",
+  "should_trigger": false
+ },
+ {
+  "query": "turn this rough idea for a caregiver app into a one page PRD, ask me questions one at a time",
+  "should_trigger": false
+ },
+ {
+  "query": "check this dashboard layout for usability problems, the table has 14 columns and no sorting",
+  "should_trigger": false
+ },
+ {
+  "query": "does my signup form pass WCAG 2.2 AA? it has placeholder-only labels and a red error message",
+  "should_trigger": false
+ }
+]

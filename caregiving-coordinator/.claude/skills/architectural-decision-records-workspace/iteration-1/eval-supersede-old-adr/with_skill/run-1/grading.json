@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Creates a new record instead of rewriting the decision in ADR-0003",
+   "passed": true,
+   "evidence": "Plan step 1: create new docs/adr/0009-use-managed-postgres.md; ADR-0003 decision text unchanged"
+  },
+  {
+   "text": "Marks ADR-0003 as superseded and links the old and new records to each other",
+   "passed": true,
+   "evidence": "Plan: ADR-0003 \"Superseded by ADR-0009\" and new record \"Supersedes ADR-0003\" (planned, not applied)"
+  },
+  {
+   "text": "Uses or asks for the next free record number",
+   "passed": true,
+   "evidence": "Says to list folder and use next free number; assumed 0009 without evidence (weak)"
+  },
+  {
+   "text": "Leaves the new record Proposed until the user agrees, or asks for the user's confirmation",
+   "passed": true,
+   "evidence": "\"ADR-0009 stays Proposed until you say yes\"; asks for acceptance"
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

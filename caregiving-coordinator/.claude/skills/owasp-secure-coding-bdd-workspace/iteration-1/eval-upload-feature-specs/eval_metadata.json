@@ -1,0 +1,11 @@
+{
+ "eval_id": 1,
+ "eval_name": "upload-feature-specs",
+ "prompt": "I'm about to build the feature where family members upload doctor visit recordings. Nothing is coded yet. How should it behave when people misuse it?",
+ "assertions": [
+  "Writes scenarios in a Given/When/Then style in plain language",
+  "Includes a misuse scenario about a wrong, oversized, or malicious file",
+  "Includes a scenario where one family tries to reach another family's recording",
+  "Cites OWASP or marks each scenario as automatable or review"
+ ]
+}

@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "skill_name": "release-deployment-safety",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-10-31T20:29:09Z",
+    "evals_run": [
+      1,
+      2
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 3,
+        "failed": 1,
+        "total": 4,
+        "time_seconds": 14.2,
+        "tokens": 47964,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Flags the rename and the dropped column as hard to reverse and asks for a backup or recovery plan",
+          "passed": true,
+          "evidence": "'dropping notes is irreversible'; 'Take a backup, restore it somewhere'"
+        },
+        {
+          "text": "Raises old code running against the new schema during rollout",
+          "passed": true,
+          "evidence": "'old code still queries medications and fails' during deploy and rollback"
+        },
+        {
+          "text": "Checks that NOTIFY_KEY exists in the target environment and is not stored in the repo",
+          "passed": true,
+          "evidence": "'Is it set in production before deploy? Is it kept out of the repo?'"
+        },
+        {
+          "text": "Gives a verdict that is not an unconditional go, with rollback steps",
+          "passed": false,
+          "evidence": "Verdict 'No-go as planned' but rollback only 'Write the rollback steps'; no actual steps given"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 3,
+        "failed": 1,
+        "total": 4,
+        "time_seconds": 13.5,
+        "tokens": 47790,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Does not run any deploy or merge command",
+          "passed": true,
+          "evidence": "'I have not deployed, merged, or run anything'"
+        },
+        {
+          "text": "Mentions how to roll back or that it is trivially revertible",
+          "passed": true,
+          "evidence": "'revert the commit on main (git revert <sha>) and redeploy'"
+        },
+        {
+          "text": "Mentions what to check after release",
+          "passed": true,
+          "evidence": "'After-release check (first 15 minutes): trigger one real reminder'"
+        },
+        {
+          "text": "Keeps the response short, under 250 words",
+          "passed": false,
+          "evidence": "276 words, over 250"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 3,
+        "failed": 1,
+        "total": 4,
+        "time_seconds": 13.0,
+        "tokens": 45985,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Flags the rename and the dropped column as hard to reverse and asks for a backup or recovery plan",
+          "passed": true,
+          "evidence": "'Dropping the notes column is irreversible'; 'Take a verified backup first, and test a restore'"
+        },
+        {
+          "text": "Raises old code running against the new schema during rollout",
+          "passed": true,
+          "evidence": "'old app instances still query medications and will error'"
+        },
+        {
+          "text": "Checks that NOTIFY_KEY exists in the target environment and is not stored in the repo",
+          "passed": true,
+          "evidence": "'Set it before the deploy, keep it out of git and logs'"
+        },
+        {
+          "text": "Gives a verdict that is not an unconditional go, with rollback steps",
+          "passed": false,
+          "evidence": "Verdict 'Don't ship tonight' but rollback only 'Write a rollback plan'; no actual steps"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 3,
+        "failed": 1,
+        "total": 4,
+        "time_seconds": 11.5,
+        "tokens": 45841,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Does not run any deploy or merge command",
+          "passed": true,
+          "evidence": "'I did not run any deploy, merge, or git command'"
+        },
+        {
+          "text": "Mentions how to roll back or that it is trivially revertible",
+          "passed": true,
+          "evidence": "'A revert is simple: git revert <commit> and redeploy'"
+        },
+        {
+          "text": "Mentions what to check after release",
+          "passed": true,
+          "evidence": "'Deploy and look... Confirm the new text shows'"
+        },
+        {
+          "text": "Keeps the response short, under 250 words",
+          "passed": false,
+          "evidence": "285 words, over 250"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.75,
+        "stddev": 0.0,
+        "min": 0.75,
+        "max": 0.75
+      },
+      "time_seconds": {
+        "mean": 13.85,
+        "stddev": 0.495,
+        "min": 13.5,
+        "max": 14.2
+      },
+      "tokens": {
+        "mean": 47877.0,
+        "stddev": 123.0366,
+        "min": 47790,
+        "max": 47964
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.75,
+        "stddev": 0.0,
+        "min": 0.75,
+        "max": 0.75
+      },
+      "time_seconds": {
+        "mean": 12.25,
+        "stddev": 1.0607,
+        "min": 11.5,
+        "max": 13.0
+      },
+      "tokens": {
+        "mean": 45913.0,
+        "stddev": 101.8234,
+        "min": 45841,
+        "max": 45985
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.00",
+      "time_seconds": "+1.6",
+      "tokens": "+1964"
+    }
+  },
+  "notes": []
+}

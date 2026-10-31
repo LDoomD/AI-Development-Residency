@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Does not declare the product ready without evidence",
+   "passed": true,
+   "evidence": "Verdict: not-assessed, so I can't say \"ready.\""
+  },
+  {
+   "text": "Asks about or lists a tested backup and restore",
+   "passed": true,
+   "evidence": "Confirm backups, restore one into a scratch database"
+  },
+  {
+   "text": "Covers failure modes such as the database down or the reminder job silently stopping",
+   "passed": true,
+   "evidence": "Database lost or corrupted; Nightly reminder job fails silently ... dead-man's-switch"
+  },
+  {
+   "text": "Includes a verdict category and says what was not checked",
+   "passed": true,
+   "evidence": "Verdict: not-assessed; ends with \"Not checked: code, hosting config, actual logs, backups, alerts...\""
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

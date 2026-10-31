@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Flags business logic or a direct database call inside the route as a boundary or layer violation",
+   "passed": true,
+   "evidence": "'routes/appointments.js: boundary violation (high)' covering reduce and db.query"
+  },
+  {
+   "text": "Flags refill_status being stored in two places as a data-ownership problem",
+   "passed": true,
+   "evidence": "'models/visit.js: duplicated data ownership (high)'"
+  },
+  {
+   "text": "Flags the empty catch block as an error-handling problem",
+   "passed": true,
+   "evidence": "'services/notify.js: swallowed error'"
+  },
+  {
+   "text": "Does not give an unqualified 'looks good' or PASS, and states what scope was or was not checked",
+   "passed": true,
+   "evidence": "'Scope: only the diff as described... I did not read the code or run any checks'; 'I have not run' arch-gate; verdict is do not open PR"
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

@@ -1,6 +1,6 @@
 ---
 name: engineering-quality-check
-description: Runs a quality check on code changes before they are called done, covering tests actually run, a code review checklist, documentation, and a record of big decisions. Use when the user says work is done or ready to merge, asks for a code review, asks "is this ready", or is about to commit or open a pull request. Make sure to use this skill before any claim that work is finished, even if the user never asks for a review. Do not use for security-only or accessibility-only reviews, for planning a new project, or for writing new features.
+description: Runs a quality check on code changes before they are called done, covering tests actually run, a code review checklist, documentation, and a record of big decisions. Use when the user says work is done or ready to merge, asks for a code review, asks "is this ready", or is about to commit or open a pull request. Also use for casual asks like "review my last commit", "is this good enough to merge", "can I commit this", "prove it actually works and not just on my machine", or "what do I show to prove it is done". Make sure to use this skill before any claim that work is finished, even if the user never asks for a review. Do not use for security-only or accessibility-only reviews, for planning a new project, or for writing new features.
 ---
 
 # Engineering Quality Check

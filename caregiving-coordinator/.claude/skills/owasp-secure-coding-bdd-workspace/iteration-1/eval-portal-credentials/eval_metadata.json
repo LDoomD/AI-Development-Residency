@@ -1,0 +1,11 @@
+{
+ "eval_id": 2,
+ "eval_name": "portal-credentials",
+ "prompt": "New feature: users paste their insurance portal login so the app can check claim status. Nothing is built yet. How do I design this safely?",
+ "assertions": [
+  "Produces behavior scenarios or specs rather than only code",
+  "Covers credentials never being stored in plain text or written to logs",
+  "Covers a different family member trying to use or view someone else's stored login",
+  "Treats plain text storage of these logins as a severe or critical risk"
+ ]
+}
