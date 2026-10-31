@@ -19,7 +19,7 @@ Wrap-up progress:
 - [ ] 1. Summarize session progress
 - [ ] 2. Update persistent memory
 - [ ] 3. Git: branch → commit → push → PR
-- [ ] 4. Notion reflection entry (4 pre-filled, mandatory questions, one at a time)
+- [ ] 4. Notion reflection: ask yes/no first; if yes, 4 mandatory questions, one at a time
 - [ ] 5. Next-session starting point
 ```
 
@@ -50,7 +50,13 @@ Do the full git workflow yourself — the user isn't running git commands from t
 
 Create a **new page in the database** for the session (not an append to the hub page body). Properties: `Entry` (title, format `YYYY-MM-DD — short description`), `Date`, `Story Arc` (one or more of Preamble/Rags/Journey/Riches/Sequel), `Project`.
 
-His sessions can run up to 4 hours — by wrap-up he may be mentally done — so keep the *effort* per question as low as possible. **All 4 questions are mandatory by default, no skip** — he decided this explicitly (2026-10-29): the case study needs 8 weeks of real, complete data, and a skippable flow risked ending up thin exactly on the days it mattered most (the hard/exhausting ones). Also still true: **the instructor (Morgan) requires that case-study source data come from the student's own thinking, not AI.** Claude may help him answer faster by pre-filling a guess; Claude may never supply the answer itself.
+**The gate — ask this first, at every wrap-up (added 2026-10-31):** before any question, ask one yes/no: **"Do you want to document a reflection for this session?"** Use the AskUserQuestion popup with two options ("Yes, document it" / "No, skip it this time"). The answer applies to *this wrap-up only* — never carry it over from an earlier wrap-up, even the same day. He often jumps on and off several times in a day and may want to document the first time, skip the second, and document the third.
+
+- **Yes** → run the questions below.
+- **No** → skip this step completely: no Notion page, no questions, no nagging, no AI-drafted substitute. Say in one line that the reflection was skipped for this wrap-up. Steps 1, 2, 3 and 5 still run.
+- If two documented wrap-ups land on the same date, make each `Entry` title's short description different so they can be told apart.
+
+His sessions can run up to 4 hours — by wrap-up he may be mentally done — so keep the *effort* per question as low as possible. **Once he answers yes at the gate, all 4 questions are mandatory, no skip** — he decided this explicitly (2026-10-29): the case study needs 8 weeks of real, complete data, and a skippable flow risked ending up thin exactly on the days it mattered most (the hard/exhausting ones). Also still true: **the instructor (Morgan) requires that case-study source data come from the student's own thinking, not AI.** Claude may help him answer faster by pre-filling a guess; Claude may never supply the answer itself.
 
 **One exception (added 2026-10-29):** if he says he already answered these questions — through earlier conversation this session, or any other way — he can skip the formal Q&A for that session. Take his word for it, don't push back, don't re-ask. Everything else in this checklist (summary, memory, git, next-step) still runs regardless.
 
@@ -67,7 +73,7 @@ His sessions can run up to 4 hours — by wrap-up he may be mentally done — so
 
 For each question: show your drafted guess first (1-2 lines, pulled from what actually happened this session) as something to confirm, correct, or replace. If he tries to skip or brush past one, say once that it's required and ask again — don't nag past that, just hold the line that an answer (even one word) is needed before moving to the next question.
 
-**Voice rule:** every answer in this entry must actually be his words — confirmed or edited, never supplied by Claude. There is no skip path and no AI-authored fallback in this step.
+**Voice rule:** every answer in this entry must actually be his words — confirmed or edited, never supplied by Claude. There is no skip path inside the questions and no AI-authored fallback in this step. The only ways a session goes unreflected are his "no" at the gate or the already-answered exception above — both are his call, never Claude's.
 
 **Always surface the Notion page link in the wrap-up message itself** — don't make him go hunting for it.
 
@@ -92,6 +98,7 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 - 2026-10-29: Replaced the yes/no gate + 6-question form with 4 questions, asked one at a time, each pre-filled with a drafted answer to confirm/edit/skip (not written from a blank box). Dropped the story-arc question entirely — Claude classifies it, user shouldn't have to. Driven by the user explicitly flagging 4-hour sessions and needing the reflection step to not be mentally exhausting; backed by NN/g's EAS form-design framework (eliminate/automate/simplify) and micro-journaling research on low-effort, skippable reflection.
 - 2026-10-29: Removed the "AI fully drafts the entry" fallback entirely. Instructor requirement: case-study source data must come from the student's own thinking, not AI, even when visibly labeled as AI-drafted. Skipped questions now save as "not answered this session" instead of Claude's guess standing in as the recorded answer. Added a Setup requirements section covering Notion MCP connection and GitHub access for Desktop/browser Claude Code — flagged as documented-but-not-live-tested on those two surfaces.
 - 2026-10-29: Removed the skip option entirely (including "skip all") — all 4 questions are now mandatory. User's explicit call: an always-skippable flow risked thin data on exactly the sessions that mattered most (the hard/exhausting ones), undermining the whole point of the log. Pre-filled drafts stay as the low-effort mechanism; what changed is that confirming/editing is no longer optional.
+- 2026-10-31: Added a yes/no gate at the start of step 4, asked at every wrap-up (never carried over), because the user jumps on and off several times a day and may want a reflection some times and not others. Yes → the 4 mandatory questions as before. No → step 4 skipped entirely, other steps still run. Triggered by the user noticing a wrap-up went straight to the questions with no gate, which was true of the file as it stood after the 2026-10-29 "no skip" change.
 
 ## Notes
 
