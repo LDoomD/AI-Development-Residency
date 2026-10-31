@@ -64,10 +64,12 @@ His sessions can run up to 4 hours — by wrap-up he may be mentally done — so
 
 **Ask these 4 questions, one at a time (not all at once), labeled "Question X of 4" so he can see how much is left, and pre-fill each with a draft guess pulled from the session before you ask it — as a prompt to react to, not an answer to accept as-is:**
 
-1. **What happened and why?** — merge "what changed" + "why" into one question; they're always answered together anyway.
-2. **What frustrated you or went wrong?**
-3. **What did you realize or learn?**
-4. **What's next?**
+1. **What did you decide or get done this session, and why that choice over the others?**
+2. **Where did the AI get something wrong, or where did you push back on it?**
+3. **What was hard or frustrating, and how did it feel?**
+4. **What did you learn that you didn't know before?**
+
+(These four come from the field list in the user's `ai-case-study-journal` skill — what changed, why and what else was considered, what the AI did and what he did about it, how it felt, discoveries — rewritten 2026-10-31 in plain words. "What's next" is no longer a question: step 5 ends with the next-session line instead.)
 
 (Story arc tag is *not* a question — classify Preamble/Rags/Journey/Riches/Sequel yourself from the content. That's tagging work, not reflection, and it isn't case-study source data in the way the 4 answers are.)
 
@@ -99,6 +101,7 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 - 2026-10-29: Removed the "AI fully drafts the entry" fallback entirely. Instructor requirement: case-study source data must come from the student's own thinking, not AI, even when visibly labeled as AI-drafted. Skipped questions now save as "not answered this session" instead of Claude's guess standing in as the recorded answer. Added a Setup requirements section covering Notion MCP connection and GitHub access for Desktop/browser Claude Code — flagged as documented-but-not-live-tested on those two surfaces.
 - 2026-10-29: Removed the skip option entirely (including "skip all") — all 4 questions are now mandatory. User's explicit call: an always-skippable flow risked thin data on exactly the sessions that mattered most (the hard/exhausting ones), undermining the whole point of the log. Pre-filled drafts stay as the low-effort mechanism; what changed is that confirming/editing is no longer optional.
 - 2026-10-31: Added a yes/no gate at the start of step 4, asked at every wrap-up (never carried over), because the user jumps on and off several times a day and may want a reflection some times and not others. Yes → the 4 mandatory questions as before. No → step 4 skipped entirely, other steps still run. Triggered by the user noticing a wrap-up went straight to the questions with no gate, which was true of the file as it stood after the 2026-10-29 "no skip" change.
+- 2026-10-31: Rewrote the 4 questions. The user found "what happened and why" meaningless. The old wording came from merging questions to cut effort, not from journaling research. New questions are drawn from the `ai-case-study-journal` skill's entry fields (decision and why, where the AI was wrong or got pushed back on, what was hard and how it felt, what was learned) and the user approved the wording. "What's next" moved out of the questions into step 5.
 
 ## Notes
 
