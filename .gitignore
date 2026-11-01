@@ -42,3 +42,7 @@ __pycache__/
 
 # Skill test outputs (trigger and quality test runs). Keep results in docs/, not in the repo tree.
 **/.claude/skills/*-workspace/
+
+# Claude Code private files. The docs say to keep these out of version control.
+**/.claude/settings.local.json
+**/CLAUDE.local.md
