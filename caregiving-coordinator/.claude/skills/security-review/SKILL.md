@@ -27,26 +27,17 @@ of the most serious web application risks.
   ask for a file path, a folder, or pasted code.
 - **Explain jargon** the first time you use it.
 
-## Extra categories for this project
+## Product-specific risks
 
-This project stores health-adjacent data and third-party account credentials,
-which the generic OWASP checklist doesn't call out by name. Always check
-these in addition to A01-A10:
+The generic OWASP checklist does not name every risk a product has. Read
+`docs/risk-profile.md` and check each risk listed there in addition to
+A01-A10. If the file does not exist, ask what sensitive data the product
+holds and who may see it, and offer to draft it. Do not assume a risk profile
+from memory.
 
-- **Health data at rest and in transit.** Doctor-visit recordings/transcripts,
-  AI-generated visit notes, and medication lists are sensitive personal health
-  information even though this isn't a covered entity under HIPAA. Check
-  encryption at rest, who can query it, whether it's ever sent to a
-  third-party AI API without a clear data-handling disclosure, and retention/
-  deletion policy.
-- **Shared credential storage.** If the product stores logins for insurance/
-  pharmacy portals so multiple family members can access them, this is a
-  password-manager-grade problem: it needs encryption, no plaintext storage
-  or logging, and audit of who accessed what and when. Flag any plan to store
-  these credentials in a plain database column as **Critical**.
-- **Multi-user access control for family members.** Verify one sibling can't
-  silently see/edit another's permissions, and that revoking one person's
-  access doesn't require sharing a single shared password.
+For new features, the sibling skill `owasp-secure-coding-bdd` writes the
+secure-behavior scenarios before the code exists. This skill reviews code that
+exists.
 
 ## Before you start
 
