@@ -131,3 +131,7 @@ Results (realistic project, new directive, `claude -p`, Sonnet 5.5):
 - Known gaps: "which checks must pass before anything gets merged to main" missed both runs by test-strategy (it overlaps with engineering-quality-check and judge-arch). One skeptical-audit miss on a question with no prior answer in the prompt.
 
 Limits: the directive wording was partly written from phrases in my own test queries (the general set was written separately but overlaps a few phrases). Single model, `claude-p` only, no repeat of the quality comparison after the directive change. The live commit-blocking hook and SubagentStart delivery are still untested in a real session.
+
+## 9. Change log
+
+- 2026-11-01: `project-prd-brainstorm` removed from this project (user decision: it does not fit the agile method of the residency). The Week 1 copy in `week-1-claude-skills/` is unchanged. Sections above describe the build as it was tested, including that skill.
