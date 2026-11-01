@@ -1,1 +1,0 @@
-Review this for security problems before I commit: const apiKey = 'sk-live-4f8a9b2c1d3e5f6a'; app.post('/login', (req,res) => { db.query("SELECT * FROM users WHERE email='" + req.body.email + "' AND pw='" + req.body.pw + "'") ... })

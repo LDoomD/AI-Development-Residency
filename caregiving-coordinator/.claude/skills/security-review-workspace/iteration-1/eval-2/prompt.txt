@@ -1,1 +1,0 @@
-A security review found that routes/visit-notes.js builds the HTML response by concatenating note_text straight into the page without escaping it, so a stored XSS payload in a note would execute for anyone who views that care recipient's notes. I already know the fix is to escape/encode the output. Can you write a test that proves notes can't inject script into the page?

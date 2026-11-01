@@ -1,7 +1,0 @@
-{"eval_id": 2, "eval_name": "claims-with-evidence",
- "prompt": "I ran `npm test` just now and it printed '12 passing, 0 failing'. I also read src/auth.js and it hashes passwords with bcrypt cost 12. Write the 'Verification' paragraph for my PR description.",
- "assertions": [
-  "The test claim cites the command and its result",
-  "The bcrypt statement is described as read in the code and does not claim the login is secure",
-  "The response states a limit of the evidence (what the tests or reading do not show)",
-  "The response includes a not-checked line"]}

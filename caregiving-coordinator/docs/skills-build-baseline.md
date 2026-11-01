@@ -143,3 +143,7 @@ Run with real `claude -p` sessions (Sonnet 5.5) in throwaway projects using the 
 - **Same test, clean project:** the commit succeeded, no block.
 - **SubagentStart:** a real subagent quoted the first line of the skills directive and counted 14 skills in its list, so the directive reaches subagents.
 - Limits: one run each, `claude -p` only (hooks loaded from project settings as in a normal session). `git add -A` ran before the hook blocked the commit, so the blocked case leaves files staged.
+
+## 11. Repo cleanup (2026-11-01)
+
+The raw test output folders (`*-workspace` under `.claude/skills/`) were removed from `main` and are now git-ignored; the results above are the record. Raw files remain in git history (commit `ad16c41` and earlier). `adhd-learning-app/` was also removed (user decision). A root README now maps the folders.

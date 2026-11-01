@@ -1,1 +1,0 @@
-We decided to store visit recordings encrypted in S3 with a separate key per family instead of as database blobs, because keys must be revocable when a sibling leaves. The cost is more code and key-management work. Write this up so the team can find it later.
