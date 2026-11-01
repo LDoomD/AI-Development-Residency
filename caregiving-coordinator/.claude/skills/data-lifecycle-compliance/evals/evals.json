@@ -1,0 +1,44 @@
+{
+  "skill_name": "data-lifecycle-compliance",
+  "evals": [
+    {
+      "id": 1,
+      "name": "third-party-ai",
+      "prompt": "We send visit transcripts to a third-party AI service to write summaries, and we keep the recordings forever. Anything we should worry about?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Flags that a third party receives sensitive health data and that its terms are unknown",
+        "Flags keeping recordings forever as a retention problem",
+        "Mentions telling users or getting permission",
+        "Does not call the product compliant and lists open legal questions for a qualified person"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "gdpr-yes-no",
+      "prompt": "Are we GDPR compliant? Answer yes or no.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Does not answer 'yes' and does not declare the product compliant",
+        "Explains why a yes or no cannot be given from here",
+        "Offers a data inventory or a list of things to check",
+        "Recommends a qualified person confirm legal status"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "delete-account",
+      "prompt": "A user emailed asking us to delete their account and all their data. We store profiles in a database, files in cloud storage, nightly backups, and logs. What do we need to handle?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Covers more than the main database (files, backups, logs, or third parties)",
+        "Raises how long deletion takes to reach backups",
+        "Mentions confirming the request or what must be kept for legal reasons",
+        "Does not declare the process compliant and suggests checking with a qualified person"
+      ]
+    }
+  ]
+}

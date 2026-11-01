@@ -1,0 +1,44 @@
+{
+  "skill_name": "release-deployment-safety",
+  "evals": [
+    {
+      "id": 1,
+      "name": "risky-migration",
+      "prompt": "Deploying tonight: the migration renames the medications table to drugs and drops the old notes column, plus a new env var NOTIFY_KEY. Straight to production, no staging. Is it safe?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Flags the rename and the dropped column as hard to reverse and asks for a backup or recovery plan",
+        "Raises old code running against the new schema during rollout",
+        "Checks that NOTIFY_KEY exists in the target environment and is not stored in the repo",
+        "Gives a verdict that is not an unconditional go, with rollback steps"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ship-it-small",
+      "prompt": "Ship it. I changed one line of reminder text, merging to main and deploying now.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Does not run any deploy or merge command",
+        "Mentions how to roll back or that it is trivially revertible",
+        "Mentions what to check after release",
+        "Keeps the response short, under 250 words"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "staged-rollout",
+      "prompt": "We're releasing a new checkout page to all users tonight. There is a feature flag system. How should we roll it out?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Recommends starting with a small share of users or a staged rollout using the flag",
+        "Names what to watch and for how long after release",
+        "Describes how to turn it off or roll back quickly",
+        "Does not run or claim to run any deploy command"
+      ]
+    }
+  ]
+}

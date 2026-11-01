@@ -151,3 +151,18 @@ The raw test output folders (`*-workspace` under `.claude/skills/`) were removed
 ## 12. Folder decision (2026-11-01)
 
 Skills stay in `caregiving-coordinator/.claude/skills/` (the project's own folder). Per Anthropic's Claude Code docs, project skills load from the folder a session starts in and every parent up to the repo root; sibling folders do not load. With one project, keeping them in that project's folder is the simplest documented layout. When a second project starts, move them to the top-level `.claude/skills/` or package them as a plugin. `week-1-claude-skills/` was removed after confirming its four skills exist in the project (two identical, two improved); the original is at git tag `week-1-skills-as-submitted`. The old top-level `residency-context-workspace/` test folder was removed too. An audit against Anthropic's skill checklist fixed two items (a contents list in the OWASP reference, and a stale note in data-lifecycle-compliance).
+
+## 13. Multi-model test (2026-11-01)
+
+Each of the 14 skills has 3 evals in `.claude/skills/<skill>/evals/evals.json` (42 total, 168 expectations). Each eval ran with and without its skill on Haiku 5.5, Sonnet 5.5, and Opus 5.5 (252 `claude -p` runs, 0 errors). Cost is `total_cost_usd` per run.
+
+| Model | With skill | Without | Gain | Cost with / without |
+|---|---|---|---|---|
+| Haiku | 95% | 68% | +27 pts | $0.006 / $0.004 (1.5x) |
+| Sonnet | 94% | 73% | +21 pts | $0.088 / $0.039 (2.3x) |
+| Opus | 97% | 70% | +27 pts | $0.188 / $0.097 (1.9x) |
+
+- The skill helped on all three models. Biggest gains: `enterprise-architecture-standards` (17-33% without, 92-100% with) and `owasp-secure-coding-bdd` (8-25% without, 75-92% with).
+- Weakest with-skill scores: `security-review` (83-92%), `release-deployment-safety` (83-92%), `owasp-secure-coding-bdd` on Sonnet (75%).
+- 93 of 168 expectations passed in every run with and without the skill (they do not separate the two). 65 favour the skill. 7 favour no skill: engineering-quality-check "ready verdict supported by evidence"; release-deployment-safety "under 250 words"; security-review "recommends encryption/vault and audit trail" and "does not invent a vulnerability"; test-strategy "does not demand a large framework or CI"; writing-security-tests (two expectations about stating what the test proves). Candidates for the next skill edit.
+- Limits: one run per task per model; the grader is Sonnet 5.5 for all three models (same family as one tested model); I wrote the expectations, so they reflect my idea of a good answer; one grading call failed to parse and was rerun. Not human-reviewed.

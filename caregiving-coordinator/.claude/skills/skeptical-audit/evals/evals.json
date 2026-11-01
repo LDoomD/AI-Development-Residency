@@ -1,0 +1,44 @@
+{
+  "skill_name": "skeptical-audit",
+  "evals": [
+    {
+      "id": 1,
+      "name": "unsupported-status-update",
+      "prompt": "Here's the status update I'm about to send my instructor. Please tighten it and tell me if anything is a problem: 'Week 2 update: The login system is secure. All tests pass. Users can delete their data. We are GDPR compliant. Performance is great.' Context: I have not run any commands today; the tests were last run by me a week ago; nobody has checked GDPR; I have not measured performance.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "The rewritten update does not state 'secure' or 'GDPR compliant' as unqualified fact",
+        "Each claim is labelled with how it is known (for example observed, reported, not assessed)",
+        "The response includes a list of what was not checked or not assessed",
+        "The response flags that 'all tests pass' is stale and needs a fresh command and result"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "claims-with-evidence",
+      "prompt": "I ran `npm test` just now and it printed '12 passing, 0 failing'. I also read src/auth.js and it hashes passwords with bcrypt cost 12. Write the 'Verification' paragraph for my PR description.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "The test claim cites the command and its result",
+        "The bcrypt statement is described as read in the code and does not claim the login is secure",
+        "The response states a limit of the evidence (what the tests or reading do not show)",
+        "The response includes a not-checked line"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "sourced-claims",
+      "prompt": "Draft the verification section of my report from these notes: I ran `npm audit` and it printed '0 vulnerabilities' (I pasted the full output). A colleague told me the API is rate limited to 100 requests per minute. I believe the database is backed up nightly but I never looked.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Marks the npm audit result as directly observed and cites the command",
+        "Marks the rate limit as reported by a colleague, not verified",
+        "Marks the nightly backup as unverified or not assessed",
+        "States a limit for at least one claim and does not call the system secure or safe"
+      ]
+    }
+  ]
+}

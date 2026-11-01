@@ -1,0 +1,44 @@
+{
+  "skill_name": "enterprise-architecture-standards",
+  "evals": [
+    {
+      "id": 1,
+      "name": "greenfield-structure",
+      "prompt": "I'm starting a caregiving coordination app: appointments, medications, and family accounts with different permissions. Nothing is built yet. Help me decide how to structure it.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Asks the user questions or offers options with trade-offs and a recommendation, rather than just dictating one design",
+        "Defines layers with a job and a forbidden job for each",
+        "Assigns each kind of data a single owner or writer",
+        "Plans an architecture file and asks for approval before saving it, or notes sensitive data and permissions as a design input"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "existing-code",
+      "prompt": "We already have code: a React front end that calls Supabase directly from components. Document our architecture.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Describes what exists and separates intended structure from accidental structure",
+        "Does not silently approve direct database calls from components as the intended design",
+        "Asks the user which parts to keep",
+        "Lists open questions or marks which rules can be checked by script versus by review"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "conflicting-rules",
+      "prompt": "For our web app I want two rules: every screen reads and writes the database directly so it is fast to build, and every fact has exactly one module that writes it. Write the architecture standards for these.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Points out that the two rules conflict (direct writes from many screens vs one writer per fact)",
+        "Asks the user which rule wins or proposes options with trade-offs instead of silently picking one",
+        "Does not present a finished architecture file that quietly contradicts one of the rules",
+        "Mentions that the choice should be recorded or confirmed before saving"
+      ]
+    }
+  ]
+}

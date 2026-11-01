@@ -1,0 +1,44 @@
+{
+  "skill_name": "operational-readiness",
+  "evals": [
+    {
+      "id": 1,
+      "name": "first-real-family",
+      "prompt": "We want to put the first real family on our app next week. It's a Node API, Postgres on a managed host, and a nightly reminder job. Are we ready?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Does not declare the product ready without evidence",
+        "Asks about or lists a tested backup and restore",
+        "Covers failure modes such as the database down or the reminder job silently stopping",
+        "Includes a verdict category and says what was not checked"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "need-monitoring",
+      "prompt": "Do we need monitoring? We're just two users so far.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Sizes the advice to a small product and does not demand a large operations setup",
+        "Recommends a health check and error capture and backups as basics",
+        "Makes the point that detection and alerting must reach a person",
+        "Does not claim anything is working without evidence"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "dependency-down",
+      "prompt": "Our checkout calls a third-party payment API. What should happen, and what should we have in place, if that API is down for an hour?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Covers how the team would find out (detection or alerting)",
+        "Says what customers see and whether orders are lost or queued",
+        "Covers how the system recovers or retries and how failures are communicated",
+        "Does not claim the current setup is fine without evidence"
+      ]
+    }
+  ]
+}
