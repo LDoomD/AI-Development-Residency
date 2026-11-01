@@ -1,6 +1,6 @@
 ---
 name: engineering-quality-check
-description: Runs a quality check on code changes before they are called done, covering tests actually run, a code review checklist, documentation, and a record of big decisions. Use when the user says work is done or ready to merge, asks for a code review, asks "is this ready", or is about to commit or open a pull request. Make sure to use this skill before any claim that work is finished, even if the user never asks for a review. Do not use for security-only or accessibility-only reviews, for planning a new project, or for writing new features.
+description: Runs a quality check on code changes before they are called done, covering tests actually run, a code review checklist, documentation, and a record of big decisions. Use when the user says work is done or ready to merge, asks for a code review, asks "is this ready", or is about to commit or open a pull request. Also use for casual asks like "review my last commit", "is this good enough to merge", "can I commit this", "prove it actually works and not just on my machine", or "what do I show to prove it is done". Make sure to use this skill before any claim that work is finished, even if the user never asks for a review. Do not use for security-only or accessibility-only reviews, for planning a new project, or for writing new features.
 ---
 
 # Engineering Quality Check
@@ -35,7 +35,9 @@ would pass.
 ## Workflow
 
 1. **Run the checks.** Run tests, then the linter and build if the project has
-   them. Record each command, its result, and any failures.
+   them. Also run the architecture gate:
+   `node .claude/skills/judge-arch/scripts/arch-gate.mjs`. Record each command,
+   its result, and any failures. A gate failure means the work is not ready.
 2. **Review the change** with the checklist: design, behavior, complexity,
    tests, naming, comments, and style.
 3. **Check tests for the change.** New behavior needs a test. A bug fix needs
@@ -43,9 +45,12 @@ would pass.
 4. **Check documentation.** README, comments, setup steps, and API notes match
    the new behavior.
 5. **Check for a big decision.** If the change picked a technology, changed
-   structure, or set a rule others must follow, draft a short decision record
-   with `assets/decision-record-template.md`. A decision record is a short note
-   saying what was decided and why.
+   structure, or set a rule others must follow, use the
+   `architectural-decision-records` skill to draft a record in `docs/adr/`. A
+   decision record is a short note saying what was decided and why.
+   (`assets/decision-record-template.md` remains as a quick fallback.)
+   For a non-trivial change that adds, moves, or restructures code, also run the
+   `judge-arch` skill for an architecture review in fresh context.
 6. **Write the report** with `assets/quality-report-template.md`.
 
 ## Verdict

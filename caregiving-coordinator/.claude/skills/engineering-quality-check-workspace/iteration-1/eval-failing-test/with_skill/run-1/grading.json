@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Does not say it is ready to merge",
+   "passed": true,
+   "evidence": "Verdict: Not ready."
+  },
+  {
+   "text": "Reports the failing test as the blocker",
+   "passed": true,
+   "evidence": "Blocking issue: 'failing test means the work is not done'"
+  },
+  {
+   "text": "Mentions running the architecture gate or other checks before merge",
+   "passed": true,
+   "evidence": "Names arch-gate command and linter/build as unchecked; asks to run before re-check"
+  },
+  {
+   "text": "Gives a verdict category such as Not ready",
+   "passed": true,
+   "evidence": "'Verdict: Not ready.'"
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

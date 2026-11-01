@@ -1,0 +1,14 @@
+{
+  "name": "visit-notes-xss-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Scoped test harness for proving the stored-XSS fix in routes/visit-notes.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "metadata": {
+    "skill_name": "writing-security-tests",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-10-29T19:56:19Z",
+    "evals_run": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 40.9,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Flags SQL injection from string-interpolated queries",
+          "passed": true,
+          "evidence": "Finding #1, Critical, both queries named with line numbers and a parameterized-query fix."
+        },
+        {
+          "text": "Flags plaintext pharmacy password storage as Critical, tied to shared/family credential risk",
+          "passed": true,
+          "evidence": "Finding #2, Critical, explicitly 'a third-party credential... for medically sensitive accounts belonging to elderly care recipients... exposes live pharmacy logins for every linked family.'"
+        },
+        {
+          "text": "Flags password written to console.log as a secrets-in-logs issue",
+          "passed": true,
+          "evidence": "Finding #3, High, quotes the exact console.log line and says 'Never log secrets.'"
+        },
+        {
+          "text": "Flags missing access control as the multi-user family access problem, not just generic 'add auth'",
+          "passed": true,
+          "evidence": "Finding #4 explicitly: 'linking pharmacy credentials to any careRecipientId they don't belong to' and recommends checking a care_relationships table."
+        },
+        {
+          "text": "Does not claim the code is 'secure' anywhere",
+          "passed": true,
+          "evidence": "Word 'secure' does not appear as a positive claim anywhere in the output; closing line says it 'should not be committed as-is.'"
+        },
+        {
+          "text": "Every finding has location, severity, and fix",
+          "passed": true,
+          "evidence": "Each of the 6 numbered findings has a bold severity + line numbers + a labeled Fix: line, plus a summary table with Severity/Location columns."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "failed": 1,
+        "total": 5,
+        "time_seconds": 192.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Produces at least one executable Gherkin/BDD scenario, not just prose",
+          "passed": false,
+          "evidence": "8 well-formed Gherkin scenarios were written to pharmacy-link.feature, but the run's own output states plainly: 'this project has no shared feature-file index or CI wiring yet... the scenarios are written and correct but not yet executing anywhere.' By the skill's own non-negotiable #3 ('A security control with no executable scenario in that shared index is not done'), this run does not meet its own bar."
+        },
+        {
+          "text": "Scenario tagged @security",
+          "passed": true,
+          "evidence": "Every scenario carries @security plus OWASP-specific tags (@owasp:sql-injection, @owasp:idor, etc.) and severity/audience/behavior-class tags."
+        },
+        {
+          "text": "Names the specific attack each control stops",
+          "passed": true,
+          "evidence": "Scenario titles and tags name SQL injection, IDOR/horizontal escalation, session-vs-body trust, crypto-at-rest, and log leakage individually."
+        },
+        {
+          "text": "States the structural control by name, distinct from the test",
+          "passed": true,
+          "evidence": "'AES-256-GCM ciphertext with a unique IV', 'parameterized statement', 'session-sourced authorization scoped to a care_relationships check' all named explicitly in security-decision-record.md and the fixed route."
+        },
+        {
+          "text": "Covers more than one OWASP category",
+          "passed": true,
+          "evidence": "4 distinct Feature blocks: SQL injection, IDOR/authorization, crypto storage, logging."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 117.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Real, runnable framework, not Gherkin/BDD prose",
+          "passed": true,
+          "evidence": "Jest + Supertest, installed and run for real."
+        },
+        {
+          "text": "Sends an XSS payload as note_text, checks it's not rendered unescaped",
+          "passed": true,
+          "evidence": "Script-tag payload asserted absent/encoded in the HTML response."
+        },
+        {
+          "text": "Test actually ran this session with real output shown",
+          "passed": true,
+          "evidence": "npx jest run twice: failed against the vulnerable copy, passed against the fixed copy, both outputs quoted."
+        },
+        {
+          "text": "States the seam explicitly before/alongside the code",
+          "passed": true,
+          "evidence": "Opens with an explicit one-paragraph seam statement before any code."
+        },
+        {
+          "text": "Names the attack and structural control explicitly",
+          "passed": true,
+          "evidence": "Names escapeHtml() as the control; describes the stored-XSS mechanism in detail, though does not use the exact phrase 'stored XSS'."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 168.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Real, runnable framework, not Gherkin/BDD prose",
+          "passed": true,
+          "evidence": "Jest + Supertest, installed and run for real."
+        },
+        {
+          "text": "Simulates non-admin PATCH, checks rejected (403) with role unchanged",
+          "passed": true,
+          "evidence": "2 of 3 tests cover this directly, red against vulnerable code, green against the fix."
+        },
+        {
+          "text": "Covers self-promotion specifically",
+          "passed": true,
+          "evidence": "Explicit test: 'non-admin can't promote themselves', named directly in the seam statement up front."
+        },
+        {
+          "text": "Test actually ran this session with real output shown",
+          "passed": true,
+          "evidence": "Ran red (2/3 fail, 403 expected/200 received, quoted) and green (3/3 pass); also caught and fixed a real bug in its own test harness (stale router scope) before trusting the final result."
+        },
+        {
+          "text": "Names the attack and structural control explicitly",
+          "passed": true,
+          "evidence": "Names the admin-authorization check as the control; describes self/cross-user escalation explicitly without using the literal phrase 'privilege escalation'."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.833,
+        "passed": 5,
+        "failed": 1,
+        "total": 6,
+        "time_seconds": 34.2,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Flags SQL injection from string-interpolated queries",
+          "passed": true,
+          "evidence": "Finding #1, Critical, both queries named with line numbers and a parameterized-query fix."
+        },
+        {
+          "text": "Flags plaintext pharmacy password storage as Critical, tied to shared/family credential risk",
+          "passed": true,
+          "evidence": "Finding #2, under ## Critical, 'a real external-service password (the parent's pharmacy login)... every linked family's pharmacy credentials go with it.'"
+        },
+        {
+          "text": "Flags password written to console.log as a secrets-in-logs issue",
+          "passed": true,
+          "evidence": "Finding #3, under ## Critical, quotes the exact console.log line, calls it 'a textbook credential leak.'"
+        },
+        {
+          "text": "Flags missing access control as the multi-user family access problem, not just generic 'add auth'",
+          "passed": true,
+          "evidence": "Finding #5 explicitly: 'no check that the requesting user is actually a family member linked to that care recipient.'"
+        },
+        {
+          "text": "Does not claim the code is 'secure' anywhere",
+          "passed": true,
+          "evidence": "Word 'secure' does not appear as a positive claim anywhere in the output."
+        },
+        {
+          "text": "Every finding has location, severity, and fix",
+          "passed": false,
+          "evidence": "Graded strict/not-met: severity is grouped under section headers (## Critical / ## High / ## Medium) rather than labeled per-finding, fixes are embedded in prose rather than a labeled Fix: field, and there is no summary table. Information is present but scored as not meeting the structural bar the with_skill output met cleanly -- this is the one real, defensible difference found in this eval."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "failed": 2,
+        "total": 5,
+        "time_seconds": 161.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Produces at least one executable Gherkin/BDD scenario, not just prose",
+          "passed": false,
+          "evidence": "Format mismatch, not Gherkin (no Given/When/Then, no .feature file) -- but substantively exceeds the assertion's intent: it wrote an 11-test Jest + Supertest suite, installed the dependencies, and actually ran it (11/11 passing, per the run's own report). Graded false on the literal wording since there's no Gherkin, flagged here because the deeper goal (real, executed, passing tests for every control) is the one place this run outperforms the with_skill run."
+        },
+        {
+          "text": "Scenario tagged @security",
+          "passed": false,
+          "evidence": "No Gherkin tags exist since the format is Jest, not Gherkin. Equivalent organization exists via named describe() blocks (authorization (IDOR), SQL injection resistance, credential logging, encryption at rest, response leakage)."
+        },
+        {
+          "text": "Names the specific attack each control stops",
+          "passed": true,
+          "evidence": "File header maps each test group to its vulnerability by name; describe() blocks are named by attack category."
+        },
+        {
+          "text": "States the structural control by name, distinct from the test",
+          "passed": true,
+          "evidence": "Parameterized query placeholders ($n), AES-256-GCM round-trip decryption, session-based req.user authorization all asserted explicitly and implemented in the accompanying pharmacy-link.fixed.js and pharmacy-credential-crypto.js."
+        },
+        {
+          "text": "Covers more than one OWASP category",
+          "passed": true,
+          "evidence": "6 distinct describe() groups: authorization/IDOR, input validation, SQL injection, credential logging, encryption at rest, response leakage -- broader than the with_skill run's 4 Feature blocks."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 99.9,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Real, runnable framework, not Gherkin/BDD prose",
+          "passed": true,
+          "evidence": "Node's built-in node:test runner, no install needed."
+        },
+        {
+          "text": "Sends an XSS payload as note_text, checks it's not rendered unescaped",
+          "passed": true,
+          "evidence": "Script-tag and onerror-image payloads in note_text AND author_name, plus a sanity check for benign text -- 4 cases, broader than the with_skill run's single payload type."
+        },
+        {
+          "text": "Test actually ran this session with real output shown",
+          "passed": true,
+          "evidence": "node --test run against the REAL fixture file directly (via Module._load patching, not a copy): 3 fail / 1 pass, quoted verbatim."
+        },
+        {
+          "text": "States the seam explicitly before/alongside the code",
+          "passed": true,
+          "evidence": "Clearly documents what's tested and why, though not framed as a seam-confirmation step (no skill telling it to)."
+        },
+        {
+          "text": "Names the attack and structural control explicitly",
+          "passed": true,
+          "evidence": "Explicitly says 'stored-XSS hole'; names HTML-escaping as the fix needed on author_name/created_at/note_text."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 178.9,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Real, runnable framework, not Gherkin/BDD prose",
+          "passed": true,
+          "evidence": "Node's built-in node:test runner."
+        },
+        {
+          "text": "Simulates non-admin PATCH, checks rejected (403) with role unchanged",
+          "passed": true,
+          "evidence": "4 of 5 cases cover variants of this, including a no-access-row case and a wrong-care-recipient-scope case the with_skill run explicitly deferred."
+        },
+        {
+          "text": "Covers self-promotion specifically",
+          "passed": true,
+          "evidence": "Case 1 explicitly: 'a viewer tries to self-promote to admin'."
+        },
+        {
+          "text": "Test actually ran this session with real output shown",
+          "passed": true,
+          "evidence": "Main suite green (5/5), plus a separate sanity-check run of the same assertions against the unpatched handler, red (0/2), both outputs quoted."
+        },
+        {
+          "text": "Names the attack and structural control explicitly",
+          "passed": true,
+          "evidence": "Names the authorization check and the care-recipient scoping explicitly; does not use the literal phrase 'privilege escalation'."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.95,
+        "stddev": 0.1,
+        "min": 0.8,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 129.475,
+        "stddev": 66.8199,
+        "min": 40.9,
+        "max": 192.0
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.8582,
+        "stddev": 0.1893,
+        "min": 0.6,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 118.5,
+        "stddev": 65.5918,
+        "min": 34.2,
+        "max": 178.9
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.09",
+      "time_seconds": "+11.0",
+      "tokens": "+0"
+    }
+  },
+  "notes": []
+}

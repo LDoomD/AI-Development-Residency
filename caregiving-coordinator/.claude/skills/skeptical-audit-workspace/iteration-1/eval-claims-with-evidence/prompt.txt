@@ -1,0 +1,1 @@
+I ran `npm test` just now and it printed '12 passing, 0 failing'. I also read src/auth.js and it hashes passwords with bcrypt cost 12. Write the 'Verification' paragraph for my PR description.

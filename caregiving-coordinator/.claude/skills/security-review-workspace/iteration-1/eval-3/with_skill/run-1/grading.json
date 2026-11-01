@@ -1,0 +1,13 @@
+{
+  "run_id": "eval-3-with_skill-run-1",
+  "summary": {"pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5},
+  "expectations": [
+    {"text": "Real, runnable framework, not Gherkin/BDD prose", "passed": true, "evidence": "Jest + Supertest, installed and run for real."},
+    {"text": "Simulates non-admin PATCH, checks rejected (403) with role unchanged", "passed": true, "evidence": "2 of 3 tests cover this directly, red against vulnerable code, green against the fix."},
+    {"text": "Covers self-promotion specifically", "passed": true, "evidence": "Explicit test: 'non-admin can't promote themselves', named directly in the seam statement up front."},
+    {"text": "Test actually ran this session with real output shown", "passed": true, "evidence": "Ran red (2/3 fail, 403 expected/200 received, quoted) and green (3/3 pass); also caught and fixed a real bug in its own test harness (stale router scope) before trusting the final result."},
+    {"text": "Names the attack and structural control explicitly", "passed": true, "evidence": "Names the admin-authorization check as the control; describes self/cross-user escalation explicitly without using the literal phrase 'privilege escalation'."}
+  ],
+  "timing": {"total_duration_seconds": 168.0},
+  "notes": "3 test cases (promote-other, self-promote, admin-control). Explicitly named two follow-up cases it deliberately did NOT write (no family_access row at all, invalid role values) since they weren't part of the stated finding -- scoped discipline, not a gap."
+}

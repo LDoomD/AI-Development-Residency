@@ -1,0 +1,42 @@
+[
+ {
+  "query": "what should i test in my notes app and what can i skip?",
+  "should_trigger": true
+ },
+ {
+  "query": "which checks must pass before anything gets merged to main",
+  "should_trigger": true
+ },
+ {
+  "query": "my tests are slow and flaky, how do i restructure them",
+  "should_trigger": true
+ },
+ {
+  "query": "what checks should run automatically before every merge in this repo?",
+  "should_trigger": true
+ },
+ {
+  "query": "write the secure behavior specs for the login and password reset flow in plain language, before the code exists",
+  "should_trigger": false
+ },
+ {
+  "query": "how will i even know if the nightly reminder job silently stops running?",
+  "should_trigger": false
+ },
+ {
+  "query": "can we ship this friday? it includes a migration that renames the medications table",
+  "should_trigger": false
+ },
+ {
+  "query": "turn this rough idea for a caregiver app into a one page PRD, ask me questions one at a time",
+  "should_trigger": false
+ },
+ {
+  "query": "check this dashboard layout for usability problems, the table has 14 columns and no sorting",
+  "should_trigger": false
+ },
+ {
+  "query": "does my signup form pass WCAG 2.2 AA? it has placeholder-only labels and a red error message",
+  "should_trigger": false
+ }
+]

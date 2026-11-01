@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Asks the user questions or offers options with trade-offs and a recommendation, rather than just dictating one design",
+   "passed": true,
+   "evidence": "Three structure options A/B/C with trade-offs, 'A ... (recommended)', and one open question about roles."
+  },
+  {
+   "text": "Defines layers with a job and a forbidden job for each",
+   "passed": true,
+   "evidence": "Screens 'Never decide who may see what'; logic holds every permission check; data access 'the only code that talks to the database'. Storage has no explicit forbidden job, but the pattern is clear."
+  },
+  {
+   "text": "Assigns each kind of data a single owner or writer",
+   "passed": true,
+   "evidence": "'Data ownership (one writer, one read path each): accounts and roles, appointments, medications, audit log.'"
+  },
+  {
+   "text": "Plans an architecture file and asks for approval before saving it, or notes sensitive data and permissions as a design input",
+   "passed": true,
+   "evidence": "'draft docs/architecture.md ... ask your approval before saving'; also notes health data and permissions as day-one inputs."
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

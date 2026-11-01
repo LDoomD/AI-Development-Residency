@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Flags the missing tests",
+   "passed": true,
+   "evidence": "'No tests for POST /share.'"
+  },
+  {
+   "text": "Flags the README or documentation as out of date",
+   "passed": true,
+   "evidence": "'README is unchanged' - document endpoint, Redis, env vars"
+  },
+  {
+   "text": "Flags the new Redis dependency as a decision that needs a decision record",
+   "passed": true,
+   "evidence": "'Record the Redis decision... write a short ADR.'"
+  },
+  {
+   "text": "States what it could not check and gives a verdict such as Cannot tell or Ready after fixes",
+   "passed": true,
+   "evidence": "'Not assessed' section and 'Not ready to merge' verdict"
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

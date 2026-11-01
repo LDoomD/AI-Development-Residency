@@ -1,0 +1,50 @@
+[
+ {
+  "query": "just finished moving the appointment reminder logic into the route handler so it ships faster - can you check the diff before i open the PR? changed files are routes/appointments.js and models/visit.js",
+  "should_trigger": true
+ },
+ {
+  "query": "do a drift review of my branch against main, im worried the agent put database calls inside the UI components",
+  "should_trigger": true
+ },
+ {
+  "query": "is this change ok structurally? i added a second table that stores the same refill status as the medications table",
+  "should_trigger": true
+ },
+ {
+  "query": "before i call this feature done can someone look at the new service layer and tell me if the dependencies point the right way",
+  "should_trigger": true
+ },
+ {
+  "query": "refactored the notifications module this afternoon, 14 files changed. does the structure still hold up?",
+  "should_trigger": true
+ },
+ {
+  "query": "claude wrote the whole sibling-invite feature in one go, i dont trust where it put things. review where the logic landed",
+  "should_trigger": true
+ },
+ {
+  "query": "im about to start building the medication tracker and have no idea how to organize the code. screens, logic, database, how should it be layered?",
+  "should_trigger": false
+ },
+ {
+  "query": "write an ADR for the decision to store visit notes encrypted at rest",
+  "should_trigger": false
+ },
+ {
+  "query": "review the permissions on my family sharing endpoints, can one sibling read another's notes?",
+  "should_trigger": false
+ },
+ {
+  "query": "turn this rough idea for a caregiver app into a one page PRD, ask me questions one at a time",
+  "should_trigger": false
+ },
+ {
+  "query": "check this dashboard layout for usability problems, the table has 14 columns and no sorting",
+  "should_trigger": false
+ },
+ {
+  "query": "does my signup form pass WCAG 2.2 AA? it has placeholder-only labels and a red error message",
+  "should_trigger": false
+ }
+]

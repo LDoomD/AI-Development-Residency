@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "The test claim cites the command and its result",
+      "passed": true,
+      "evidence": "'ran `npm test` ... 12 passing, 0 failing'."
+    },
+    {
+      "text": "The bcrypt statement is described as read in the code and does not claim the login is secure",
+      "passed": true,
+      "evidence": "'comes from reading the source, not from a runtime check'; no security claim."
+    },
+    {
+      "text": "The response states a limit of the evidence (what the tests or reading do not show)",
+      "passed": true,
+      "evidence": "Tests do not show hashing is covered; reading is not a runtime check."
+    },
+    {
+      "text": "The response includes a not-checked line",
+      "passed": true,
+      "evidence": "Final sentence lists security review, dependency audit, deployed testing as not done; no separate labelled line."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "pass_rate": 1.0
+  }
+}

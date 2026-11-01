@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Assigns tests to unit, integration, and end-to-end levels with few end-to-end tests",
+   "passed": true,
+   "evidence": "Table assigns Unit/Integration/End-to-end; 'one or two end-to-end tests'"
+  },
+  {
+   "text": "Identifies the riskiest parts and includes misuse or failure cases",
+   "passed": true,
+   "evidence": "Risk order lists invites, medication, appointments; misuse/failure rows (403, expired invite, DB down)"
+  },
+  {
+   "text": "Lists the commands that should run before merge",
+   "passed": true,
+   "evidence": "Merge gate: npm test, linter, arch-gate, secret scan"
+  },
+  {
+   "text": "Says test data should be fake or lists what stays untested",
+   "passed": true,
+   "evidence": "'All fake: invented names and medications' and a 'Not tested (for now)' list"
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

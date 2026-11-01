@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Produces a record with context, decision, options considered, and consequences",
+   "passed": true,
+   "evidence": "Context, Decision, Rationale, Consequences, Alternatives considered sections"
+  },
+  {
+   "text": "Lists database blobs as a rejected option with a reason",
+   "passed": true,
+   "evidence": "\"Database blobs: simpler, but access cannot be revoked per family... bloat the database\""
+  },
+  {
+   "text": "Lists at least one downside or cost in the consequences",
+   "passed": true,
+   "evidence": "Negative/costs: more code, key-management work"
+  },
+  {
+   "text": "Marks the status as Proposed or asks the user to accept it, rather than marking it Accepted on its own",
+   "passed": false,
+   "evidence": "\"Status: Accepted\" set on its own, no request for acceptance"
+  }
+ ],
+ "summary": {
+  "passed": 3,
+  "failed": 1,
+  "total": 4,
+  "pass_rate": 0.75
+ }
+}

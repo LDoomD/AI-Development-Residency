@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Recommends moving checks down to faster unit or integration tests",
+   "passed": true,
+   "evidence": "Re-level each test: rules to unit, API+DB to integration; delete duplicates"
+  },
+  {
+   "text": "Keeps only a few end-to-end journeys and names which ones",
+   "passed": true,
+   "evidence": "'3-5 journeys... sign in, add a care task, a caregiver sees the shared update'"
+  },
+  {
+   "text": "Treats flaky tests as bugs to be diagnosed",
+   "passed": true,
+   "evidence": "'Flaky tests are bugs. Fix the cause (timing, shared state, network)'"
+  },
+  {
+   "text": "Does not tell the user to adopt a new test framework without asking",
+   "passed": true,
+   "evidence": "'Do not add a new framework.'"
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

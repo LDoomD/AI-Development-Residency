@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Does not declare the product ready without evidence",
+   "passed": true,
+   "evidence": "\"Short answer: probably not yet. I haven't looked at your setup\""
+  },
+  {
+   "text": "Asks about or lists a tested backup and restore",
+   "passed": true,
+   "evidence": "\"Do a test restore into a scratch database\""
+  },
+  {
+   "text": "Covers failure modes such as the database down or the reminder job silently stopping",
+   "passed": true,
+   "evidence": "Health endpoint touching the database, DB connection error alerts, dead-man's-switch for nightly job"
+  },
+  {
+   "text": "Includes a verdict category and says what was not checked",
+   "passed": false,
+   "evidence": "No verdict category given (only 'probably not yet' and 'supervised pilot'); only a generic 'haven't looked at your setup', no list of what was not checked"
+  }
+ ],
+ "summary": {
+  "passed": 3,
+  "failed": 1,
+  "total": 4,
+  "pass_rate": 0.75
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "eval_id": 1,
+ "eval_name": "greenfield-structure",
+ "prompt": "I'm starting a caregiving coordination app: appointments, medications, and family accounts with different permissions. Nothing is built yet. Help me decide how to structure it.",
+ "assertions": [
+  "Asks the user questions or offers options with trade-offs and a recommendation, rather than just dictating one design",
+  "Defines layers with a job and a forbidden job for each",
+  "Assigns each kind of data a single owner or writer",
+  "Plans an architecture file and asks for approval before saving it, or notes sensitive data and permissions as a design input"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Asks the user questions or offers options with trade-offs and a recommendation, rather than just dictating one design",
+   "passed": false,
+   "evidence": "Dictates a modular monolith with Postgres; no options with trade-offs. Only a short open-questions list at the end."
+  },
+  {
+   "text": "Defines layers with a job and a forbidden job for each",
+   "passed": false,
+   "evidence": "Layers have jobs; only UI ('No business rules') and data access ('queries and migrations only') hint at limits. API and services have no forbidden job."
+  },
+  {
+   "text": "Assigns each kind of data a single owner or writer",
+   "passed": false,
+   "evidence": "Lists modules and a permission policy in one place, but never assigns a single writer/owner per kind of data."
+  },
+  {
+   "text": "Plans an architecture file and asks for approval before saving it, or notes sensitive data and permissions as a design input",
+   "passed": true,
+   "evidence": "Treats medication/health data and permissions as design inputs (care circle roles, encryption, audit log). Architecture doc is recommended but no approval ask; passes on the 'or' clause."
+  }
+ ],
+ "summary": {
+  "passed": 1,
+  "failed": 3,
+  "total": 4,
+  "pass_rate": 0.25
+ }
+}

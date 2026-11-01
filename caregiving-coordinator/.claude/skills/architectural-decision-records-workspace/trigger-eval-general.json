@@ -1,0 +1,42 @@
+[
+ {
+  "query": "why did we pick MongoDB for this? i cant find where that was decided",
+  "should_trigger": true
+ },
+ {
+  "query": "i want a record of why we went with a queue instead of cron jobs",
+  "should_trigger": true
+ },
+ {
+  "query": "we changed our minds about using microservices, how do i note that?",
+  "should_trigger": true
+ },
+ {
+  "query": "someone asked why we chose this stack. is there a place in the repo where decisions like that get recorded?",
+  "should_trigger": true
+ },
+ {
+  "query": "do a drift review of my branch against main, im worried the agent put database calls inside the UI components",
+  "should_trigger": false
+ },
+ {
+  "query": "i have no tests at all and 3 features built. what should i test and in what order",
+  "should_trigger": false
+ },
+ {
+  "query": "is this login flow safe? it uses jwt in localStorage and no rate limiting",
+  "should_trigger": false
+ },
+ {
+  "query": "turn this rough idea for a caregiver app into a one page PRD, ask me questions one at a time",
+  "should_trigger": false
+ },
+ {
+  "query": "check this dashboard layout for usability problems, the table has 14 columns and no sorting",
+  "should_trigger": false
+ },
+ {
+  "query": "does my signup form pass WCAG 2.2 AA? it has placeholder-only labels and a red error message",
+  "should_trigger": false
+ }
+]

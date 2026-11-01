@@ -1,0 +1,27 @@
+{
+  "subreddits": ["CaregiverSupport", "AgingParents", "Caregivers", "dementia", "Pharmacy", "AskDocs", "HeartFailure", "eldercare"],
+  "queries": [
+    {"stage": "1-becoming-caregiver", "q": "suddenly became caregiver for my parent where do I start"},
+    {"stage": "1-becoming-caregiver", "q": "after surgery caring for my dad overwhelmed"},
+    {"stage": "2-doctor-visits", "q": "forgot what the doctor said appointment notes"},
+    {"stage": "2-doctor-visits", "q": "recorded the doctor appointment for my parent"},
+    {"stage": "2-doctor-visits", "q": "doctor won't talk to me about my parent"},
+    {"stage": "3-medications", "q": "ran out of refills medication pharmacy doctor"},
+    {"stage": "3-medications", "q": "pharmacy won't request refill from doctor"},
+    {"stage": "3-medications", "q": "keeping track of my parent's medication list changes"},
+    {"stage": "3-medications", "q": "mail order pharmacy auto refill problem"},
+    {"stage": "3-medications", "q": "doctor's office never calls back prescription"},
+    {"stage": "4-access", "q": "HIPAA release form can't access parent's records portal"},
+    {"stage": "4-access", "q": "shared login pharmacy insurance portal password parent"},
+    {"stage": "5-insurance-costs", "q": "insurance denied prior authorization parent medication"},
+    {"stage": "6-siblings", "q": "siblings caregiving parent one sibling does everything"},
+    {"stage": "6-siblings", "q": "family group chat caregiving coordinate siblings"},
+    {"stage": "6-siblings", "q": "siblings disagree about dad's care"},
+    {"stage": "7-logistics", "q": "caregiving schedule calendar who covers"},
+    {"stage": "8-caregiver-wellbeing", "q": "caregiver burnout guilt exhausted"},
+    {"stage": "9-tools", "q": "what app do you use to coordinate care for parent"},
+    {"stage": "9-tools", "q": "spreadsheet to track medications and appointments caregiver"},
+    {"stage": "9-tools", "q": "tried caregiver app stopped using it"},
+    {"stage": "10-emergencies", "q": "discharged from hospital medications confusing parent"}
+  ]
+}

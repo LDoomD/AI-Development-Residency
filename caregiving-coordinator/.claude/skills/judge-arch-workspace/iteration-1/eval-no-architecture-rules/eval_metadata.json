@@ -1,0 +1,11 @@
+{
+ "eval_id": 2,
+ "eval_name": "no-architecture-rules",
+ "prompt": "Review my change for architecture problems: I added a function in utils/helpers.js that formats dates and moved the user lookup into a new file called lookup.js. There is no architecture document in this project and I have not told you how the code is supposed to be organized.",
+ "assertions": [
+  "Stops and asks about, or says it needs, the intended architecture instead of inventing rules",
+  "Does not issue a PASS verdict",
+  "Names what it would need to judge against (an architecture file, decision records, or layer rules)",
+  "Does not invent specific layer rules and then judge against them as if they were agreed"
+ ]
+}

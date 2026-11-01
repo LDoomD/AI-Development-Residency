@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Produces behavior scenarios or specs rather than only code",
+   "passed": true,
+   "evidence": "Provides Given/When/Then scenarios to be saved as a spec"
+  },
+  {
+   "text": "Covers credentials never being stored in plain text or written to logs",
+   "passed": true,
+   "evidence": "'stored encrypted' and 'password never appears in readable form' in DB, log, error page"
+  },
+  {
+   "text": "Covers a different family member trying to use or view someone else's stored login",
+   "passed": true,
+   "evidence": "'Another family's login (IDOR)... access is refused and the attempt is logged'"
+  },
+  {
+   "text": "Treats plain text storage of these logins as a severe or critical risk",
+   "passed": true,
+   "evidence": "'risk-profile.md rates plaintext storage Critical'"
+  }
+ ],
+ "summary": {
+  "passed": 4,
+  "failed": 0,
+  "total": 4,
+  "pass_rate": 1.0
+ }
+}

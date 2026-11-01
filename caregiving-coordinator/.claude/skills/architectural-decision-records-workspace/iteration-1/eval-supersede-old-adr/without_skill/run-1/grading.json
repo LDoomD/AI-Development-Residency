@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Creates a new record instead of rewriting the decision in ADR-0003",
+   "passed": true,
+   "evidence": "Adds new ADR-00NN, keeps ADR-0003 and changes only status"
+  },
+  {
+   "text": "Marks ADR-0003 as superseded and links the old and new records to each other",
+   "passed": true,
+   "evidence": "\"Superseded by ADR-00NN\" and \"Supersedes: ADR-0003\" (planned, not applied)"
+  },
+  {
+   "text": "Uses or asks for the next free record number",
+   "passed": true,
+   "evidence": "\"new ADR with the next free number (ADR-00NN)\" placeholder only; weak"
+  },
+  {
+   "text": "Leaves the new record Proposed until the user agrees, or asks for the user's confirmation",
+   "passed": false,
+   "evidence": "New ADR drafted \"Status: Accepted\"; no confirmation asked on acceptance"
+  }
+ ],
+ "summary": {
+  "passed": 3,
+  "failed": 1,
+  "total": 4,
+  "pass_rate": 0.75
+ }
+}

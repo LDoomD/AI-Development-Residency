@@ -1,0 +1,22 @@
+{
+  "_comment": "Rules for .claude/skills/judge-arch/scripts/arch-gate.mjs. A rule fails the gate when a file matching 'include' (and not 'exclude') contains any 'forbid' pattern (JS regex source). 'name' appears in the output and in waivers, so keep it stable. Add layer-boundary rules here as the app's architecture is decided (for example: UI code must not call the database directly). Built-in checks for empty catch blocks and swallowed errors run on all JS/TS files.",
+  "ignore": ["research", "docs"],
+  "builtins": { "emptyCatch": true, "swallowReturn": true },
+  "rules": [
+    {
+      "name": "hardcodedSecret",
+      "flags": "gi",
+      "include": ["**/*.{ts,tsx,js,jsx,mjs,cjs}"],
+      "exclude": ["**/*.test.*", "**/*.spec.*"],
+      "forbid": ["(?:api[_-]?key|secret|password|passwd|token|private[_-]?key)\\s*[:=]\\s*['\"][A-Za-z0-9_\\-+/=]{16,}['\"]"],
+      "message": "A value that looks like a credential is written into code. Read it from the environment or a secrets store, and rotate it if it was ever committed."
+    },
+    {
+      "name": "noEval",
+      "include": ["**/*.{ts,tsx,js,jsx,mjs,cjs}"],
+      "exclude": ["**/*.test.*", "**/*.spec.*"],
+      "forbid": ["\\beval\\s*\\(", "\\bnew\\s+Function\\s*\\("],
+      "message": "Running a string as code is an injection risk. Use a data format or a lookup table instead."
+    }
+  ]
+}

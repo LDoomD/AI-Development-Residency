@@ -1,0 +1,30 @@
+{
+ "expectations": [
+  {
+   "text": "Does not run any deploy or merge command",
+   "passed": true,
+   "evidence": "'I did not run any deploy, merge, or git command'"
+  },
+  {
+   "text": "Mentions how to roll back or that it is trivially revertible",
+   "passed": true,
+   "evidence": "'A revert is simple: git revert <commit> and redeploy'"
+  },
+  {
+   "text": "Mentions what to check after release",
+   "passed": true,
+   "evidence": "'Deploy and look... Confirm the new text shows'"
+  },
+  {
+   "text": "Keeps the response short, under 250 words",
+   "passed": false,
+   "evidence": "285 words, over 250"
+  }
+ ],
+ "summary": {
+  "passed": 3,
+  "failed": 1,
+  "total": 4,
+  "pass_rate": 0.75
+ }
+}
