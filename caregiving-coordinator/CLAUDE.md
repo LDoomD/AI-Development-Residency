@@ -5,10 +5,13 @@ for the problem and feature scope once written.
 
 ## Skills to use
 
-Fourteen project skills live in `.claude/skills/`. Four carried over from Week 1
-(`week-1-claude-skills/`), `writing-security-tests` was added later, and nine
-were added 2026-10-31 for enterprise readiness. `project-prd-brainstorm` was
-removed 2026-11-01: it does not fit the agile method this residency uses. The skills are written to be reusable across products. This
+Fourteen project skills live in `.claude/skills/` in this folder. Four carried
+over from Week 1, `writing-security-tests` was added later, and nine were added
+2026-10-31 for enterprise readiness. `project-prd-brainstorm` was removed
+2026-11-01 (it does not fit the agile method this residency uses), and the old
+`week-1-claude-skills/` folder was removed because all its skills already live
+here (git tag `week-1-skills-as-submitted` keeps the original). The skills are
+written to be reusable across products. This
 product's specific risks (health data, shared credentials, multi-user access)
 live in `docs/risk-profile.md`, which the skills read.
 

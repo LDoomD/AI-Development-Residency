@@ -147,3 +147,7 @@ Run with real `claude -p` sessions (Sonnet 5.5) in throwaway projects using the 
 ## 11. Repo cleanup (2026-11-01)
 
 The raw test output folders (`*-workspace` under `.claude/skills/`) were removed from `main` and are now git-ignored; the results above are the record. Raw files remain in git history (commit `ad16c41` and earlier). `adhd-learning-app/` was also removed (user decision). A root README now maps the folders.
+
+## 12. Folder decision (2026-11-01)
+
+Skills stay in `caregiving-coordinator/.claude/skills/` (the project's own folder). Per Anthropic's Claude Code docs, project skills load from the folder a session starts in and every parent up to the repo root; sibling folders do not load. With one project, keeping them in that project's folder is the simplest documented layout. When a second project starts, move them to the top-level `.claude/skills/` or package them as a plugin. `week-1-claude-skills/` was removed after confirming its four skills exist in the project (two identical, two improved); the original is at git tag `week-1-skills-as-submitted`. The old top-level `residency-context-workspace/` test folder was removed too. An audit against Anthropic's skill checklist fixed two items (a contents list in the OWASP reference, and a stale note in data-lifecycle-compliance).

@@ -1,9 +1,0 @@
-{
-  "expectations": [
-    {"text": "States Week 4's Premium objective matches Standard", "passed": false, "evidence": "Guessed the opposite framing — that the ADHD app is 'just a teaching example' nobody must replicate, answering a different, invented question"},
-    {"text": "Names the O*NET career-coaching chatbot deliverable", "passed": false, "evidence": "Not mentioned — no knowledge of the real Week 4 assignment"},
-    {"text": "Correctly answers: no need to revert to ADHD app", "passed": true, "evidence": "Arrives at a similar practical conclusion but for the wrong reason, and hedges heavily"},
-    {"text": "Grounded in sourced content", "passed": false, "evidence": "Explicitly states it does not have the actual syllabus"}
-  ],
-  "summary": {"passed": 1, "failed": 3, "total": 4, "pass_rate": 0.25}
-}

@@ -5,6 +5,20 @@ https://top10.owasp.org/2025/0x00_2025-Introduction/
 The category names below match the OWASP 2025 introduction page. Read the
 category's own page there for exact definitions before quoting it.
 
+## Contents
+- A01 Broken Access Control
+- A02 Security Misconfiguration
+- A03 Software Supply Chain Failures
+- A04 Cryptographic Failures
+- A05 Injection
+- A06 Insecure Design
+- A07 Authentication Failures
+- A08 Software or Data Integrity Failures
+- A09 Security Logging and Alerting Failures
+- A10 Mishandling of Exceptional Conditions
+- Always check
+- What code reading cannot prove
+
 Contents: A01 to A10, Always check, What code reading cannot prove
 
 ## A01 Broken Access Control

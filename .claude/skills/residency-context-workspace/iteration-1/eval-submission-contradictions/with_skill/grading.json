@@ -1,9 +1,0 @@
-{
-  "expectations": [
-    {"text": "Surfaces Tech Fleet Network Platform vs email-instructor inconsistency", "passed": true, "evidence": "Explicit, both quoted"},
-    {"text": "Surfaces repo-naming inconsistency", "passed": true, "evidence": "Enumerated across Weeks 2, 3, 6 with specifics"},
-    {"text": "Frames as source inconsistencies, not resolved unilaterally", "passed": true, "evidence": "'preserved as-is because they are genuine inconsistencies in the instructor's material — not something to silently fix'"},
-    {"text": "Does not invent a submission process", "passed": true, "evidence": "Only states what's documented"}
-  ],
-  "summary": {"passed": 4, "failed": 0, "total": 4, "pass_rate": 1.0}
-}
