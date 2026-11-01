@@ -7,7 +7,7 @@ Work for the Tech Fleet AI Development Residency, by Lando.
 | Folder | What it is |
 |---|---|
 | `caregiving-coordinator/` | The current project (Week 2 onward). Everything for the caregiving app lives here. |
-| `week-1-claude-skills/` | Week 1 homework: the original five Claude skills. Kept as submitted; not changed since. |
+| `week-1-claude-skills/` | Week 1 homework: four Claude skills (the PRD skill was removed on 2026-11-01). |
 | `.claude/` (top level) | Skills used across the whole course: `wrap-up` (end-of-session routine) and `residency-context` (a local copy of the syllabus). |
 
 ## Inside `caregiving-coordinator/`
@@ -27,4 +27,5 @@ Run the skill tests: `node --test caregiving-coordinator/.claude/skills/judge-ar
 ## Removed on 2026-11-01
 
 - `adhd-learning-app/`: the earlier project idea, dropped when the project changed.
+- The `project-prd-brainstorm` skill, in both `caregiving-coordinator/` and `week-1-claude-skills/` (it does not fit the agile method). It can be restored from git history.
 - The raw skill test outputs (`*-workspace` folders). Results are summarized in `caregiving-coordinator/docs/skills-build-baseline.md`. The raw files are in git history, for example `git show ad16c41:caregiving-coordinator/.claude/skills/judge-arch-workspace/iteration-1/benchmark.json`.

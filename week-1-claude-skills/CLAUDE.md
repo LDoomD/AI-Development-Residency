@@ -1,14 +1,11 @@
 # Week 1 Claude Skills
 
-This folder holds five project skills in `.claude/skills/`. Use the matching
+This folder holds four project skills in `.claude/skills/`. (A fifth, `project-prd-brainstorm`,
+was removed on 2026-11-01 because it does not fit the agile method this residency uses.) Use the matching
 skill when the situation below comes up, and follow its SKILL.md.
 
 ## Skills to use
 
-- `project-prd-brainstorm`: starting a new project, brainstorming an idea, or
-  writing a PRD (product requirements document).
-  - Ask one question at a time.
-  - Save the PRD to `docs/PRD.md` only after the user approves it.
 - `ux-ui-design-review`: reviewing screens, flows, forms, dashboards, or
   data tables for usability.
 - `accessibility-check`: checking a UI against WCAG 2.2 level AA.
