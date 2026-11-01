@@ -18,6 +18,9 @@ of the most serious web application risks.
   user to treat it as leaked and replace it.
 - **Evidence, not fear.** Every finding names the file and line, what is
   wrong, and how it could be misused, in one or two plain sentences.
+- **Report only what the code shows.** Do not invent a weakness to fill the
+  report. If the code shown has no problem in a category, say so and list what
+  was not visible, such as code you were not given.
 - **Never say "secure".** Say "no problems found in what was checked", and
   list what was not checked.
 - **Review first, change later.** Do not edit files unless the user asks for
@@ -59,7 +62,9 @@ exists.
    vulnerable packages, untrusted install scripts. Suggest a dependency audit
    (`npm audit` or the equivalent).
 5. **Cryptography (A04).** Passwords hashed with a modern algorithm, HTTPS
-   enforced, no home-made encryption.
+   enforced, no home-made encryption. Where the code stores sensitive data or
+   secrets, recommend encryption at rest, a secrets vault or environment
+   store, and an audit trail of who accessed the data.
 6. **Injection (A05).** Database queries, shell commands, and HTML output built
    from user input without safe handling.
 7. **Design and login (A06, A07).** Rate limits, session handling, password

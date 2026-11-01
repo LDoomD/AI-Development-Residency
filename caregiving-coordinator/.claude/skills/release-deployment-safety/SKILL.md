@@ -20,6 +20,9 @@ and how will we know it worked?
 - **Never print secrets.** If configuration holds credentials, name the setting
   and not the value.
 - **Use `skeptical-audit` tags.** A rollback never tried is `not-assessed`.
+- **Short and ordered.** Lead with the verdict, then list only the gaps and
+  the next step. A small release gets a short answer; a long checklist
+  recital hides the one blocker.
 - **Plain language.** Explain terms the first time.
 
 ## Before you start
