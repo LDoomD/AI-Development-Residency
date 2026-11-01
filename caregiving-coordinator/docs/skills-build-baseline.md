@@ -131,3 +131,15 @@ Results (realistic project, new directive, `claude -p`, Sonnet 5.5):
 - Known gaps: "which checks must pass before anything gets merged to main" missed both runs by test-strategy (it overlaps with engineering-quality-check and judge-arch). One skeptical-audit miss on a question with no prior answer in the prompt.
 
 Limits: the directive wording was partly written from phrases in my own test queries (the general set was written separately but overlaps a few phrases). Single model, `claude-p` only, no repeat of the quality comparison after the directive change. The live commit-blocking hook and SubagentStart delivery are still untested in a real session.
+
+## 9. Change log
+
+- 2026-11-01: `project-prd-brainstorm` removed from this project (user decision: it does not fit the agile method of the residency). The Week 1 copy in `week-1-claude-skills/` is unchanged. Sections above describe the build as it was tested, including that skill.
+
+## 10. Live hook tests (2026-11-01)
+
+Run with real `claude -p` sessions (Sonnet 5.5) in throwaway projects using the merged hook files from `main`. Not an interactive desktop session.
+- **Commit-blocking hook, project with planted violations** (an empty catch and a catch that returns null): Claude was asked to run `git add -A && git commit`. The PreToolUse hook blocked it ("Blocked: the architecture gate did not pass (exit 1)") and named both violations with file and line. Commit count stayed at 1. Claude did not edit code or add a waiver.
+- **Same test, clean project:** the commit succeeded, no block.
+- **SubagentStart:** a real subagent quoted the first line of the skills directive and counted 14 skills in its list, so the directive reaches subagents.
+- Limits: one run each, `claude -p` only (hooks loaded from project settings as in a normal session). `git add -A` ran before the hook blocked the commit, so the blocked case leaves files staged.

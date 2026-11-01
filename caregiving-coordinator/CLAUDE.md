@@ -5,15 +5,13 @@ for the problem and feature scope once written.
 
 ## Skills to use
 
-Fifteen project skills live in `.claude/skills/`. Five carried over from Week 1
+Fourteen project skills live in `.claude/skills/`. Four carried over from Week 1
 (`week-1-claude-skills/`), `writing-security-tests` was added later, and nine
-were added 2026-10-31 for enterprise readiness. The skills are written to be reusable across products. This
+were added 2026-10-31 for enterprise readiness. `project-prd-brainstorm` was
+removed 2026-11-01: it does not fit the agile method this residency uses. The skills are written to be reusable across products. This
 product's specific risks (health data, shared credentials, multi-user access)
 live in `docs/risk-profile.md`, which the skills read.
 
-- `project-prd-brainstorm`: starting a new project, brainstorming an idea, or
-  writing a PRD. Ask one question at a time. Save the PRD to `docs/PRD.md`
-  only after the user approves it.
 - `ux-ui-design-review`: reviewing screens, flows, forms, dashboards, or
   data tables for usability.
 - `accessibility-check`: checking a UI against WCAG 2.2 level AA.

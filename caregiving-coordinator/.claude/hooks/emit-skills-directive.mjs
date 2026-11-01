@@ -8,7 +8,6 @@
 // right one mandatory instead of optional.
 
 const SKILLS = [
-  ['project-prd-brainstorm', 'turn a rough idea into a one-page PRD'],
   ['ux-ui-design-review', 'review screens/flows/forms against usability heuristics'],
   ['accessibility-check', 'check a UI against WCAG 2.2 AA'],
   ['security-review', 'review code/config for OWASP Top 10:2025 + this project\'s health-data and shared-credential risks'],
