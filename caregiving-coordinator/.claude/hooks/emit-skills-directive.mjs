@@ -25,10 +25,24 @@ const SKILLS = [
   ['data-lifecycle-compliance', 'inventory personal data and find gaps in how it is kept, shared, and deleted'],
 ];
 
+// Situation cues, product-neutral. Match the situation, not the user's exact words:
+// real requests are casual ("review my last commit", "is it good enough?").
+const WHEN = [
+  'When to use which (match the situation, not the exact words; invoke the skill with the Skill tool BEFORE answering from general knowledge):',
+  '- About to call work done, commit, merge, or open a PR, or asked "is this ready", "review my commit", "good enough to merge": engineering-quality-check, plus judge-arch if code was added, moved, or restructured.',
+  '- Files moved or refactored, a diff or branch to check for structure, or "is this logic in the right place": judge-arch.',
+  '- Starting a product or feature, or "how should I organize this": enterprise-architecture-standards. A decision others must follow, or "why did we choose X": architectural-decision-records.',
+  '- A claim stated as fact (works, secure, tested, compliant), or "how do you know that": skeptical-audit.',
+  '- Planning a feature that takes input, data, or access: owasp-secure-coding-bdd. Reviewing existing code for weaknesses, or about to commit a key or password: security-review.',
+  '- "What should I test", slow or flaky tests: test-strategy. Launching, or "what if it goes down": operational-readiness. Deploying or rolling back: release-deployment-safety. Storing, sharing, or deleting personal data: data-lifecycle-compliance.',
+];
+
 const lines = [
   'Project skills directive (caregiving-coordinator):',
   'These are mandatory considerations for every task, not optional suggestions.',
   ...SKILLS.map(([name, purpose]) => `- ${name}: ${purpose}`),
+  '',
+  ...WHEN,
   '',
   'Never silently fall back to base knowledge when one of these applies. Before',
   'calling any task done, state which of these skills you applied and which you',

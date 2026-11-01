@@ -117,3 +117,17 @@ Added generic casual phrases (no product-specific wording) to 8 skill descriptio
 - Old vs new wording, 3 runs per query, 3 skills: judge-arch 1/18 -> 9/18, skeptical-audit 13/18 -> 13/18, engineering-quality-check 6/18 -> 7/18, no wrong fires. New wording kept.
 - Still weak: judge-arch (50%) and engineering-quality-check (39%). skeptical-audit misses on questions like "how do you know that" are partly a test artifact (one-shot prompts have no earlier answer to audit).
 - Not re-tested after the edit: operational-readiness, data-lifecycle-compliance, test-strategy, architectural-decision-records and enterprise-architecture-standards beyond the single-run checks above.
+
+## 8. Optimization round (2026-10-31): realistic test project and a "when to use which" directive
+
+Cause found for the weak triggers: the earlier test project was empty (no code, no commits), so prompts like "review my last commit" gave Claude nothing to review and it answered directly. Two changes:
+- Test project now has real code, two commits, and an uncommitted change (`real2_*` scratch projects).
+- `.claude/hooks/emit-skills-directive.mjs` now lists situation cues (product-neutral) for when to use which skill, not just one-line purposes. Cost: roughly 250 more tokens each session and each subagent (estimate).
+
+Results (realistic project, new directive, `claude -p`, Sonnet 5.5):
+- The 3 weak skills, 3 runs per query, old directive vs new: judge-arch 83% -> 100%, skeptical-audit 94% -> 100%, engineering-quality-check 67% -> 100%. No wrong fires.
+- All 11 skills, 2 runs per query: 130/132 (98%) fired, 0/132 wrong fires.
+- Overfit check, brand-new general queries about other products (8 skills, 2 runs each): 65/68 (96%), 0/96 wrong fires.
+- Known gaps: "which checks must pass before anything gets merged to main" missed both runs by test-strategy (it overlaps with engineering-quality-check and judge-arch). One skeptical-audit miss on a question with no prior answer in the prompt.
+
+Limits: the directive wording was partly written from phrases in my own test queries (the general set was written separately but overlaps a few phrases). Single model, `claude-p` only, no repeat of the quality comparison after the directive change. The live commit-blocking hook and SubagentStart delivery are still untested in a real session.
