@@ -1,0 +1,44 @@
+{
+  "skill_name": "engineering-quality-check",
+  "evals": [
+    {
+      "id": 1,
+      "name": "failing-test",
+      "prompt": "I changed the refill reminder to run at 8am instead of 9am and added one test. Here is my pasted npm test output: '11 passing, 1 failing: reminder.test.js - expected 08:00 got 09:00'. Is it ready to merge?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Does not say it is ready to merge",
+        "Reports the failing test as the blocker",
+        "Mentions running the architecture gate or other checks before merge",
+        "Gives a verdict category such as Not ready"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "no-tests-new-dependency",
+      "prompt": "Review this diff: it adds a POST /share endpoint, adds Redis as a new dependency, has no tests, and the README is unchanged. I can't paste more.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Flags the missing tests",
+        "Flags the README or documentation as out of date",
+        "Flags the new Redis dependency as a decision that needs a decision record",
+        "States what it could not check and gives a verdict such as Cannot tell or Ready after fixes"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "all-green",
+      "prompt": "Is this ready to merge? Here is what I have: I ran `npm test` and pasted the output '24 passing, 0 failing'. The diff is 18 lines in one file, adds a null check and its test. The README section for this function was updated. No new dependencies.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Gives a ready verdict supported by the evidence provided",
+        "Does not invent blocking issues",
+        "Cites the test result as coming from the user's pasted run, not its own run",
+        "Says what it could not check"
+      ]
+    }
+  ]
+}

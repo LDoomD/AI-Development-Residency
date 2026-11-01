@@ -1,0 +1,44 @@
+{
+  "skill_name": "owasp-secure-coding-bdd",
+  "evals": [
+    {
+      "id": 1,
+      "name": "upload-feature-specs",
+      "prompt": "I'm about to build the feature where family members upload doctor visit recordings. Nothing is coded yet. How should it behave when people misuse it?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Writes scenarios in a Given/When/Then style in plain language",
+        "Includes a misuse scenario about a wrong, oversized, or malicious file",
+        "Includes a scenario where one family tries to reach another family's recording",
+        "Cites OWASP or marks each scenario as automatable or review"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "portal-credentials",
+      "prompt": "New feature: users paste their insurance portal login so the app can check claim status. Nothing is built yet. How do I design this safely?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Produces behavior scenarios or specs rather than only code",
+        "Covers credentials never being stored in plain text or written to logs",
+        "Covers a different family member trying to use or view someone else's stored login",
+        "Treats plain text storage of these logins as a severe or critical risk"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "search-box-specs",
+      "prompt": "I'm adding a search box that looks up products in the database. Nothing is coded yet. What behaviour should I specify so it is built securely?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Includes a scenario where search text contains database query syntax and is treated as plain data",
+        "Writes scenarios in a Given/When/Then style",
+        "Includes a scenario about what the user sees and what is logged when the search fails",
+        "Marks scenarios as testable by a script versus needing a reviewer, or cites an OWASP source"
+      ]
+    }
+  ]
+}

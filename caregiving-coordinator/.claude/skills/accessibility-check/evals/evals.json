@@ -1,0 +1,44 @@
+{
+  "skill_name": "accessibility-check",
+  "evals": [
+    {
+      "id": 1,
+      "name": "login-form",
+      "prompt": "Check this HTML for accessibility problems: <form><input placeholder=\"Email\"><input type=\"password\" placeholder=\"Password\"><div onclick=\"submit()\" style=\"color:#bbb;background:#fff\">Log in</div></form> The CSS removes the focus outline.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Flags missing visible labels (placeholder only) with the related success criterion or a clear reason",
+        "Flags the clickable div that is not keyboard accessible and is not a button",
+        "Flags low colour contrast of the light grey text",
+        "Flags the removed focus indicator"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "accessible-snippet",
+      "prompt": "Check this for accessibility problems: <form><label for=\"e\">Email</label><input id=\"e\" type=\"email\" autocomplete=\"email\" required><button type=\"submit\">Log in</button></form> It has a visible focus outline and text contrast of 8:1.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Does not invent barriers the snippet does not have",
+        "Says no problems found in what was checked without declaring it accessible or compliant",
+        "Lists what could not be checked from the snippet alone (for example screen reader behaviour, zoom, error messages)",
+        "Does not edit or rewrite the code"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "compliance-claim",
+      "prompt": "My page passes WCAG 2.2 AA, right? I ran one automated checker and it found nothing.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Does not confirm the page passes",
+        "Explains that automated checkers catch only part of the criteria",
+        "Names at least two checks that need a person (for example keyboard use, screen reader, zoom)",
+        "Offers a next step"
+      ]
+    }
+  ]
+}

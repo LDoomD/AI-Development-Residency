@@ -1,0 +1,44 @@
+{
+  "skill_name": "ux-ui-design-review",
+  "evals": [
+    {
+      "id": 1,
+      "name": "dashboard-table",
+      "prompt": "Review this dashboard design for usability: one page with a table of 14 columns, no sorting or filtering, a red Delete button next to every row with no confirmation, and charts with no labels.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Flags the delete without confirmation or undo as a serious problem",
+        "Flags the 14-column table without sorting or filtering",
+        "Flags unlabeled charts",
+        "Ranks or groups findings by severity"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "long-onboarding",
+      "prompt": "Review this onboarding flow: 9 screens, each asks for a different detail, no progress indicator, no back button, and a final screen that says Submit with no summary of what was entered.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Flags the missing progress indicator",
+        "Flags the missing back button or inability to correct mistakes",
+        "Flags the lack of a summary or confirmation before submitting",
+        "Suggests reducing steps or deferring non-essential questions"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "error-messages",
+      "prompt": "Review the error handling in this form: when the user mistypes their email the page reloads, clears every field, and shows the text 'Error 4021' at the top.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Flags the lost input as a problem",
+        "Flags the unexplained error code",
+        "Says the message should say what is wrong and how to fix it near the field",
+        "Does not rewrite the whole form unasked"
+      ]
+    }
+  ]
+}

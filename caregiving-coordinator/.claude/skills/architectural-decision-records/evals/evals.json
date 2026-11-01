@@ -1,0 +1,44 @@
+{
+  "skill_name": "architectural-decision-records",
+  "evals": [
+    {
+      "id": 1,
+      "name": "write-new-adr",
+      "prompt": "We decided to store visit recordings encrypted in S3 with a separate key per family instead of as database blobs, because keys must be revocable when a sibling leaves. The cost is more code and key-management work. Write this up so the team can find it later.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Produces a record with context, decision, options considered, and consequences",
+        "Lists database blobs as a rejected option with a reason",
+        "Lists at least one downside or cost in the consequences",
+        "Marks the status as Proposed or asks the user to accept it, rather than marking it Accepted on its own"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "supersede-old-adr",
+      "prompt": "We are replacing ADR-0003 (self-hosted Postgres) with managed Postgres. Update the records.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Creates a new record instead of rewriting the decision in ADR-0003",
+        "Marks ADR-0003 as superseded and links the old and new records to each other",
+        "Uses or asks for the next free record number",
+        "Leaves the new record Proposed until the user agrees, or asks for the user's confirmation"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "trivial-change",
+      "prompt": "I renamed a variable from usr to user in two files and fixed a typo in a comment. Should I write an architecture decision record for this?",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Says no record is needed for this change",
+        "Gives a reason tied to the change being trivial or nobody needing to look it up later",
+        "Does not draft a full decision record",
+        "Names at least one kind of change that would need a record (for example choosing a technology or setting a rule others must follow)"
+      ]
+    }
+  ]
+}

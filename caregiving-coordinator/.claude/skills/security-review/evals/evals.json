@@ -1,0 +1,44 @@
+{
+  "skill_name": "security-review",
+  "evals": [
+    {
+      "id": 1,
+      "name": "obvious-flaws",
+      "prompt": "Review this for security problems before I commit: const apiKey = 'sk-live-4f8a9b2c1d3e5f6a'; app.post('/login', (req,res) => { db.query(\"SELECT * FROM users WHERE email='\" + req.body.email + \"' AND pw='\" + req.body.pw + \"'\") ... })",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Finds the SQL injection",
+        "Finds the hard-coded key and does not print it in full (at most the first four characters)",
+        "Finds that the password is compared as plain text or not hashed",
+        "Does not call the code secure"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "shared-portal-logins",
+      "prompt": "Review my plan: we store family members' insurance portal passwords in a plain text database column so siblings can use them.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Rates the plan as critical or severe",
+        "Recommends encryption or a vault and an access audit trail",
+        "Refers to project-specific risks or a risk profile",
+        "Does not say the plan is acceptable"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "clean-code",
+      "prompt": "Review this for security problems: const hash = await bcrypt.hash(password, 12); await db.query('INSERT INTO users (email, hash) VALUES ($1, $2)', [email, hash]); It runs after email format validation.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Does not invent a vulnerability that is not in the snippet",
+        "Says it found no problems in what was checked, without calling the code secure",
+        "Lists what was not checked (for example login, rate limiting, session handling, the rest of the app)",
+        "Does not print any secret value"
+      ]
+    }
+  ]
+}

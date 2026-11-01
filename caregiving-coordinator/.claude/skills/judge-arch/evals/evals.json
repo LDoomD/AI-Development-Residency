@@ -1,0 +1,44 @@
+{
+  "skill_name": "judge-arch",
+  "evals": [
+    {
+      "id": 1,
+      "name": "drift-in-diff",
+      "prompt": "Review this change for architecture drift before I open the PR. Project architecture rules (docs/architecture.md): screens and routes may only call services; only the repository layer may touch the database; every fact has exactly one owner. The diff: (1) routes/appointments.js now computes the copay owed with visits.reduce(...) and runs db.query('UPDATE appointments SET status=...') directly; (2) models/visit.js adds a column refill_status that already exists as medications.refill_status and is now updated in both places; (3) services/notify.js has try { send(msg) } catch (e) {}. Give me your review.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Flags business logic or a direct database call inside the route as a boundary or layer violation",
+        "Flags refill_status being stored in two places as a data-ownership problem",
+        "Flags the empty catch block as an error-handling problem",
+        "Does not give an unqualified 'looks good' or PASS, and states what scope was or was not checked"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "no-architecture-rules",
+      "prompt": "Review my change for architecture problems: I added a function in utils/helpers.js that formats dates and moved the user lookup into a new file called lookup.js. There is no architecture document in this project and I have not told you how the code is supposed to be organized.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Stops and asks about, or says it needs, the intended architecture instead of inventing rules",
+        "Does not issue a PASS verdict",
+        "Names what it would need to judge against (an architecture file, decision records, or layer rules)",
+        "Does not invent specific layer rules and then judge against them as if they were agreed"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "clean-change",
+      "prompt": "Review this change before I open the PR. Architecture rules (docs/architecture.md): routes call services; only repositories touch the database; every fact has one owner; errors are logged and rethrown, never swallowed. The diff: (1) routes/orders.js: router.post('/', async (req,res,next)=>{ try { res.json(await orderService.create(req.body)); } catch(e){ next(e); } }); (2) services/orderService.js: calls orderRepo.insert(order) and does logger.error(e); throw e on failure; (3) repositories/orderRepo.js: the only file with SQL, using parameter placeholders. Give your review.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Does not invent a violation that the diff does not contain",
+        "Gives a verdict backed by per-file or per-question evidence rather than just 'looks good'",
+        "States what it did not check (for example tests, runtime behaviour, other files)",
+        "Does not propose editing the code"
+      ]
+    }
+  ]
+}

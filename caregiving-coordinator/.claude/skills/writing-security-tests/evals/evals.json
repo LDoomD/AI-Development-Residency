@@ -1,0 +1,44 @@
+{
+  "skill_name": "writing-security-tests",
+  "evals": [
+    {
+      "id": 1,
+      "name": "sqli-search",
+      "prompt": "Security finding: the search endpoint built its SQL by joining user text into the query string (SQL injection). It was fixed with a parameterized query. The project uses Jest and has a function searchProducts(term) in src/search.js. Write the test that proves the fix.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Proposes one runnable Jest test rather than a general discussion",
+        "The test sends a malicious string such as a quote-and-OR-1=1 payload",
+        "The test asserts the malicious input is not executed as query syntax (for example it is treated as plain text or returns no extra rows)",
+        "States what the test proves or checks with the user what is being tested, and says it would fail on the unfixed code"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "token-expiry",
+      "prompt": "Security finding: password reset tokens never expired. The fix makes them expire after 15 minutes. The project uses pytest and has verify_reset_token(token) in auth.py. Write the test that proves the fix.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Proposes one runnable pytest test",
+        "The test uses an expired or time-shifted token rather than waiting 15 real minutes",
+        "The test asserts the expired token is rejected",
+        "States what the test proves or says it would fail on the unfixed code"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "secret-in-logs",
+      "prompt": "Security finding: the login handler wrote the user's password to the application log on failed logins. The fix removes it. The project uses Node's built-in test runner. Write the test that proves the fix.",
+      "expected_output": "A response that satisfies every expectation below.",
+      "files": [],
+      "expectations": [
+        "Proposes one runnable test using node:test",
+        "The test captures log output during a failed login",
+        "The test asserts the password value does not appear in the captured output",
+        "Does not claim the application is secure"
+      ]
+    }
+  ]
+}
