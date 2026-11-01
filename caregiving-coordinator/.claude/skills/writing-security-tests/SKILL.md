@@ -64,6 +64,8 @@ before installing anything.
 ## Quality check before finishing
 
 - Every test actually ran in this session; the command and result are shown.
+- The reply says in one line what the test proves and that it would fail on
+  the unfixed code (shown, or stated if the fix was already in place).
 - Each test names the attack it's checking and the structural control that
   stops it.
 - No test is written in a format the project has no way to execute.

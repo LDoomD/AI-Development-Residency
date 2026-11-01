@@ -166,3 +166,12 @@ Each of the 14 skills has 3 evals in `.claude/skills/<skill>/evals/evals.json` (
 - Weakest with-skill scores: `security-review` (83-92%), `release-deployment-safety` (83-92%), `owasp-secure-coding-bdd` on Sonnet (75%).
 - 93 of 168 expectations passed in every run with and without the skill (they do not separate the two). 65 favour the skill. 7 favour no skill: engineering-quality-check "ready verdict supported by evidence"; release-deployment-safety "under 250 words"; security-review "recommends encryption/vault and audit trail" and "does not invent a vulnerability"; test-strategy "does not demand a large framework or CI"; writing-security-tests (two expectations about stating what the test proves). Candidates for the next skill edit.
 - Limits: one run per task per model; the grader is Sonnet 5.5 for all three models (same family as one tested model); I wrote the expectations, so they reflect my idea of a good answer; one grading call failed to parse and was rerun. Not human-reviewed.
+
+## 14. Skill fixes and retest (2026-11-01)
+
+Small edits to five skills, one per weak expectation from section 13: `engineering-quality-check` (accept user-supplied passing results as Ready, labeled as supplied), `release-deployment-safety` (verdict first, short), `security-review` (report only what the code shows; recommend encryption, a secrets store, and an audit trail for sensitive data), `test-strategy` (start with the project's existing commands, no demand for CI), `writing-security-tests` (say what the test proves and that it would fail unfixed).
+
+I reran only the with-skill runs of those five skills on all three models (45 runs, 0 errors) and regraded. Overall with skill: Haiku 96%, Sonnet 94%, Opus 98% (without skill: 69%, 71%, 68%). Expectations favouring no skill fell from 7 to 4.
+- Fixed: the `engineering-quality-check` and `security-review` expectations no longer favour no skill.
+- Not fixed: `release-deployment-safety` still exceeds 250 words (0/3); `writing-security-tests` still misses the "what it proves" line in 1 of 3 runs on some models, and one payload expectation now misses in 1 of 3.
+- Limits: the without-skill outputs were not rerun, but their grades were regenerated, so without-skill scores moved by a few points. That is grader noise, so differences under about 5 points are not reliable. One run per task.

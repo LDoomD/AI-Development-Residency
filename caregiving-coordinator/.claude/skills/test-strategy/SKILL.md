@@ -16,6 +16,8 @@ how fast do we find out?
 - **Fast and many at the bottom.** Unit tests cover rules and calculations.
   Integration tests cover a module with its real database or service. End-to-end
   tests cover only the few journeys that must never break.
+- **Start small.** The merge gate is the commands the project already has. Do
+  not demand a CI pipeline or a large framework; mention CI as a later option.
 - **Anything with a pass or fail answer should be a script.** Linters, the test
   suite, the arch-gate, and secret scanning run as commands. The model reads the
   result and does not judge them by eye.

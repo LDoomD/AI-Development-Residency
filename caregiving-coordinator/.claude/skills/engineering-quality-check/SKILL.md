@@ -57,7 +57,10 @@ would pass.
 
 Choose one and give the reason:
 
-- **Ready:** checks ran and passed, and no blocking issues remain.
+- **Ready:** checks ran and passed, and no blocking issues remain. If the user
+  pasted passing results and nothing else contradicts them, give Ready and say
+  the evidence was supplied by the user, not run by you. Do not downgrade to
+  "Cannot tell" only because you did not rerun it.
 - **Ready after small fixes:** list them.
 - **Not ready:** list what blocks it.
 - **Cannot tell:** checks could not run. Say what is missing.
