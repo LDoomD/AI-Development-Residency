@@ -79,5 +79,4 @@ https://gdpr-info.eu/art-5-gdpr/
 NIST Privacy Framework, https://www.nist.gov/privacy-framework
 U.S. Federal Trade Commission, Health Breach Notification Rule, for health
 apps outside HIPAA (search ftc.gov; the direct link I tried returned 404).
-Pointers only: these were not re-read in the session that wrote this skill.
-Check them before relying on any detail.
+Pointers only. Open each source and confirm the detail before relying on it.

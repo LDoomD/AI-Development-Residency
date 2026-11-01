@@ -1,6 +1,4 @@
 # Repo-wide ignores for the residency repo.
-# adhd-learning-app/ has its own .gitignore with app-specific rules on top
-# of these.
 
 # Editor and OS
 .DS_Store
@@ -41,3 +39,6 @@ coverage/
 .venv/
 __pycache__/
 *.py[cod]
+
+# Skill test outputs (trigger and quality test runs). Keep results in docs/, not in the repo tree.
+**/.claude/skills/*-workspace/

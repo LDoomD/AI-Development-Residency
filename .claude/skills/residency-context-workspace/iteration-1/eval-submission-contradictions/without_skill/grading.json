@@ -1,9 +1,0 @@
-{
-  "expectations": [
-    {"text": "Surfaces Tech Fleet Network Platform vs email-instructor inconsistency", "passed": false, "evidence": "No knowledge of either document; gives generic categories of 'common contradictions' instead"},
-    {"text": "Surfaces repo-naming inconsistency", "passed": false, "evidence": "Only generic speculation about naming conventions in general"},
-    {"text": "Frames as source inconsistencies, not resolved unilaterally", "passed": false, "evidence": "N/A — no specific findings to frame"},
-    {"text": "Does not invent a submission process", "passed": true, "evidence": "Appropriately avoids inventing specifics, asks user to paste the real text instead"}
-  ],
-  "summary": {"passed": 1, "failed": 3, "total": 4, "pass_rate": 0.25}
-}

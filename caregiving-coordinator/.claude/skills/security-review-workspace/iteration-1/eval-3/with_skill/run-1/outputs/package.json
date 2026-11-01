@@ -1,9 +1,0 @@
-{
-  "name": "update-family-role-security-test",
-  "private": true,
-  "version": "1.0.0",
-  "scripts": {
-    "test:vulnerable": "ROUTE_VERSION=vulnerable jest",
-    "test:fixed": "ROUTE_VERSION=fixed jest"
-  }
-}

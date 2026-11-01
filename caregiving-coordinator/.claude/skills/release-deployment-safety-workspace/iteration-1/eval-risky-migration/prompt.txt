@@ -1,1 +1,0 @@
-Deploying tonight: the migration renames the medications table to drugs and drops the old notes column, plus a new env var NOTIFY_KEY. Straight to production, no staging. Is it safe?

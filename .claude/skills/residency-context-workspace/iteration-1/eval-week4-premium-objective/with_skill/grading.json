@@ -1,9 +1,0 @@
-{
-  "expectations": [
-    {"text": "States Week 4's Premium objective matches Standard (no specialization substitution)", "passed": true, "evidence": "Quoted verbatim: 'This week you are building the same thing as Standard Residency students.'"},
-    {"text": "Names the O*NET career-coaching chatbot deliverable", "passed": true, "evidence": "Named O*NET dataset, Closed RAG, Vercel+Supabase, OpenRouter agents"},
-    {"text": "Correctly answers: no need to revert to ADHD budgeting app", "passed": true, "evidence": "Explicit: 'nothing to revert to the ADHD app for'"},
-    {"text": "Grounded in sourced content, not generic assumptions", "passed": true, "evidence": "Flagged that the Week 4 weekly-materials page itself is still blank on the instructor's side, a detail only available from the actual source"}
-  ],
-  "summary": {"passed": 4, "failed": 0, "total": 4, "pass_rate": 1.0}
-}

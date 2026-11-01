@@ -1,7 +1,0 @@
-{"eval_id": 1, "eval_name": "unsupported-status-update",
- "prompt": "Here's the status update I'm about to send my instructor. Please tighten it and tell me if anything is a problem: 'Week 2 update: The login system is secure. All tests pass. Users can delete their data. We are GDPR compliant. Performance is great.' Context: I have not run any commands today; the tests were last run by me a week ago; nobody has checked GDPR; I have not measured performance.",
- "assertions": [
-  "The rewritten update does not state 'secure' or 'GDPR compliant' as unqualified fact",
-  "Each claim is labelled with how it is known (for example observed, reported, not assessed)",
-  "The response includes a list of what was not checked or not assessed",
-  "The response flags that 'all tests pass' is stale and needs a fresh command and result"]}
