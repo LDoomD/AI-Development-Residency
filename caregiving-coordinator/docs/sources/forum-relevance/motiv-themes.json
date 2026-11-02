@@ -1,0 +1,880 @@
+{
+ "parent": {
+  "threads": 55,
+  "motivation": {
+   "Do the right thing, avoid blame or guilt": {
+    "threads": 6,
+    "examples": [
+     {
+      "id": "agi-499298",
+      "quote": "I just need to know I'm doing the right thing and hopefully one day I can put this behind me",
+      "label": "needs to know she is doing right"
+     },
+     {
+      "id": "agi-499820",
+      "quote": "Of course I also kept loads of documentation of everything I did so no one could accuse me of any malfeasance.",
+      "label": "avoid accusations of wrongdoing"
+     },
+     {
+      "id": "agi-498946",
+      "quote": "This cannot happen to another family.",
+      "label": "stop this happening to other families"
+     },
+     {
+      "id": "alz-77398",
+      "quote": "my siblings and I are doing our best to try to do what is best for him.",
+      "label": "wants to do what is best for dad"
+     },
+     {
+      "id": "alz-77396",
+      "quote": "my wife and I are planning to have my mother move in with us so we can better support her ongoing care needs.",
+      "label": "wants to better support mother's care"
+     },
+     {
+      "id": "agi-498174",
+      "quote": "I don't want to vindictively move our dad into an adult living center and kick him to the curb",
+      "label": "Avoid moving dad out of spite"
+     }
+    ]
+   },
+   "Love, loyalty and promises": {
+    "threads": 3,
+    "examples": [
+     {
+      "id": "agi-499699",
+      "quote": "I just wished we had an emotional bond so I can care for her out of love.",
+      "label": "wants to care out of love"
+     },
+     {
+      "id": "alz-77385",
+      "quote": "I hope that he knew that he was indeed loved, even if the last few years seemed hard and distant from everyone.",
+      "label": "wants father to know he was loved"
+     },
+     {
+      "id": "agi-499448",
+      "quote": "I promised my parents I would never put them in a nursing home and I plan to keep that promise.",
+      "label": "Keep promise not to use nursing home"
+     }
+    ]
+   },
+   "Keep them safe and comfortable, spare them suffering": {
+    "threads": 7,
+    "examples": [
+     {
+      "id": "alz-77386",
+      "quote": "I need to remind myself that it's for a better and safer quality of life for her.",
+      "label": "wants better and safer life for mother"
+     },
+     {
+      "id": "agi-499433",
+      "quote": "I certainly didn't and dont want her to suffer.",
+      "label": "does not want mother to suffer"
+     },
+     {
+      "id": "alz-77401",
+      "quote": "She isn't safe at home.",
+      "label": "Wants mom safe"
+     },
+     {
+      "id": "agi-499798",
+      "quote": "quite frankly, medically not really safe for her to be at home",
+      "label": "Mom not safe at home"
+     },
+     {
+      "id": "alz-77397",
+      "quote": "we didn't want our mother to get hurt or hurt anyone else.",
+      "label": "Keep mom and others from harm"
+     },
+     {
+      "id": "alz-77413",
+      "quote": "I am the only one who brought my Mom items to make her more comfortable in her room.",
+      "label": "Wants mom comfortable in her room"
+     },
+     {
+      "id": "alz-77349",
+      "quote": "All I want is for my mom to feel comfortable and as little anxiety as possible.",
+      "label": "Mom comfortable with little anxiety"
+     }
+    ]
+   },
+   "Other": {
+    "threads": 2,
+    "examples": [
+     {
+      "id": "alz-77005",
+      "quote": "My sister and I are praying for direction on how to help both of them!",
+      "label": "wants to help both parents"
+     },
+     {
+      "id": "alz-76894",
+      "quote": "I what to protect her from his bad decisions, but sometimes I can’t.",
+      "label": "Protect parent from sibling's decisions"
+     }
+    ]
+   },
+   "Keep them at home and in control of their own life": {
+    "threads": 5,
+    "examples": [
+     {
+      "id": "alz-77399",
+      "quote": "We didn't want her to feel \"stuck\" at the facility",
+      "label": "does not want her to feel stuck"
+     },
+     {
+      "id": "alz-77412",
+      "quote": "Am I wrong for still wanting to allow Mom to make her own decisions?",
+      "label": "Let mom keep making her own choices"
+     },
+     {
+      "id": "agi-499448",
+      "quote": "Trying to keep her home.",
+      "label": "Keep mom at home"
+     },
+     {
+      "id": "alz-77413",
+      "quote": "I felt like I was not allowing her to make the decision herself on the clothes.",
+      "label": "Let mom decide for herself"
+     },
+     {
+      "id": "alz-77393",
+      "quote": "still feel she is better with us.",
+      "label": "Believes mom better at home"
+     }
+    ]
+   }
+  },
+  "situational_goal": {
+   "Get help, relief or services": {
+    "threads": 11,
+    "examples": [
+     {
+      "id": "agi-499298",
+      "quote": "I am contacting yet another avenue to help me with all of the legal aspects of managing what I have been trying to do for years.",
+      "label": "get legal help with managing affairs"
+     },
+     {
+      "id": "agi-499762",
+      "quote": "Are there nurse options for when I need to go to a doctor's appointment myself",
+      "label": "backup care for own appointments"
+     },
+     {
+      "id": "alz-77423",
+      "quote": "I need to find a support group to meet with.",
+      "label": "find a support group"
+     },
+     {
+      "id": "alz-77423",
+      "quote": "I text her desperate for an hour or two break.",
+      "label": "get an hour or two of relief"
+     },
+     {
+      "id": "agi-499820",
+      "quote": "I would like to be able to help her with this remotely, without having jump through a million hoops.",
+      "label": "help mom with accounts remotely"
+     },
+     {
+      "id": "agi-498946",
+      "quote": "I am not done when I get justice for my father I am taking this all the way to the Supreme Court if I must.",
+      "label": "get justice for father"
+     },
+     {
+      "id": "agi-499801",
+      "quote": "I could USE some Help.",
+      "label": "get some help"
+     },
+     {
+      "id": "alz-77398",
+      "quote": "I would like to find or start a group for adult children in the evening or weekend.",
+      "label": "find evening or weekend support group"
+     },
+     {
+      "id": "alz-77396",
+      "quote": "I'm hoping to learn whether anyone knows of nonprofit organizations, community programs, affordable contractors, or other resources that might offer free or reduced-cost assistance with these repairs.",
+      "label": "find low-cost help with repairs"
+     },
+     {
+      "id": "agi-498825",
+      "quote": "I know we need to find out what health/medicaid plans he has so we know what services will be covered.",
+      "label": "Learn which services insurance covers"
+     },
+     {
+      "id": "alz-77397",
+      "quote": "I need help and support to help my mother better.",
+      "label": "Help mom cope as caregiver"
+     },
+     {
+      "id": "alz-77450",
+      "quote": "looking for how to transition to helping mom in the shower, this is something I have not overcome.",
+      "label": "Start helping mom shower"
+     }
+    ]
+   },
+   "Find, choose or pay for a place (memory care, assisted living)": {
+    "threads": 6,
+    "examples": [
+     {
+      "id": "alz-77386",
+      "quote": "balancing that with getting the decisions made to move her to where she will eventually end up anyway.",
+      "label": "get mother moved to assisted living"
+     },
+     {
+      "id": "alz-77005",
+      "quote": "We are looking for a place where we can benefit from the experiences of others who've already gone further down this road.",
+      "label": "find a place to learn from others"
+     },
+     {
+      "id": "agi-499890",
+      "quote": "Who is the best person to help me with his financials and what I can do with them to provide a stream of income, so I can see what he can afford and for how long?",
+      "label": "plan dad's finances for assisted living"
+     },
+     {
+      "id": "alz-77396",
+      "quote": "Selling her current home would help provide much-needed financial resources for her medical expenses and long-term care.",
+      "label": "sell mother's house to fund care"
+     },
+     {
+      "id": "alz-77373",
+      "quote": "I plan to move him when he has 1 year left of funds unless he is really near the end.",
+      "label": "Move dad to Medicaid place before funds end"
+     },
+     {
+      "id": "alz-77432",
+      "quote": "I (27F) have recently made the decision that my dear mama (62 w/Alzheimer’s) requires full on assisted living.",
+      "label": "Place mom in assisted living"
+     }
+    ]
+   },
+   "Other": {
+    "threads": 9,
+    "examples": [
+     {
+      "id": "alz-77399",
+      "quote": "now as holidays approach we are trying to find advice on what's best for her and for us.",
+      "label": "plan holiday that works for her and family"
+     },
+     {
+      "id": "agi-499059",
+      "quote": "Maybe if I schedule visits and stick with that, it would help.",
+      "label": "schedule visits to cope"
+     },
+     {
+      "id": "alz-77444",
+      "quote": "How do you not end up hating the person and instead just hate this miserable disease?",
+      "label": "not hate mom, only the disease"
+     },
+     {
+      "id": "agi-499890",
+      "quote": "I, along with his doctor, believe he should not be living alone and should be somewhere with social interaction, good food and stuff to do.",
+      "label": "get dad out of living alone"
+     },
+     {
+      "id": "agi-499818",
+      "quote": "What can I do to see her",
+      "label": "be able to visit mother"
+     },
+     {
+      "id": "alz-77382",
+      "quote": "Does anyone have suggestions on how to help keep her in the wheelchair?",
+      "label": "keep mom in the wheelchair"
+     },
+     {
+      "id": "alz-76894",
+      "quote": "Personally, if we keep staff informed via email of Mom's upcoming appointments that should work.",
+      "label": "Keep mom informed of appointments without phone"
+     },
+     {
+      "id": "alz-77412",
+      "quote": "I was wanting to take Mom so that we could spend time together outside of the facility and most importantly so Mom could pick her own yarn.",
+      "label": "Take mom out to choose her yarn"
+     },
+     {
+      "id": "alz-77425",
+      "quote": "I want to match her tone, but it’s hard.",
+      "label": "Match mom's tone during visits"
+     }
+    ]
+   },
+   "Manage money and legal affairs": {
+    "threads": 3,
+    "examples": [
+     {
+      "id": "agi-499820",
+      "quote": "my siblings and I are trying to figure out how to set up a new finance management system that allows for her to be in the driver’s seat while also allowing for us to step in and help her out as needed.",
+      "label": "set up finance system mom controls"
+     },
+     {
+      "id": "agi-499712",
+      "quote": "How can I convince second POA to bounce to first so I can go to second?",
+      "label": "swap roles with second POA"
+     },
+     {
+      "id": "alz-77430",
+      "quote": "Does anyone have any advice on how to limit this vulnerability/stopping so much spam or limiting charges?",
+      "label": "Limit scam charges on mom's orders"
+     }
+    ]
+   },
+   "Medicines": {
+    "threads": 1,
+    "examples": [
+     {
+      "id": "agi-498744",
+      "quote": "But, me and her really don't want to do that all the time.",
+      "label": "avoid hand-feeding pills"
+     },
+     {
+      "id": "agi-498744",
+      "quote": "I do stay and watch that each set of pills make it into his mouth AND that they stay there",
+      "label": "make sure pills are actually taken"
+     }
+    ]
+   },
+   "Understand what is happening and what to do": {
+    "threads": 2,
+    "examples": [
+     {
+      "id": "alz-77404",
+      "quote": "Are these behaviors associated with the cognitive changes? Or is this just a midlife crisis?",
+      "label": "understand cause of withdrawal"
+     },
+     {
+      "id": "agi-498825",
+      "quote": "I guess I am asking for advice on what else we could be doing now",
+      "label": "Know what to do now"
+     }
+    ]
+   },
+   "Keep them safe and watch over them": {
+    "threads": 2,
+    "examples": [
+     {
+      "id": "alz-77417",
+      "quote": "Looking for a pill box or dispenser that will sense if it's been picked up or opened or similar, and alert a caregiver if it has not.",
+      "label": "pillbox that alerts if not opened"
+     },
+     {
+      "id": "alz-77417",
+      "quote": "trying to improve our odds on the most severe safety risks in the meantime.",
+      "label": "reduce worst safety risks for now"
+     },
+     {
+      "id": "alz-77129",
+      "quote": "Can she no longer be left alone? Do I hire a caregiver? For how many hours per day?",
+      "label": "Decide how much supervision is needed"
+     },
+     {
+      "id": "alz-77129",
+      "quote": "use a GPS tracker in the form of a watch that has a lock and can be set for a \"green zone\".",
+      "label": "Track mom's location with GPS watch"
+     }
+    ]
+   }
+  },
+  "life_goal": {
+   "Time and breaks for themselves": {
+    "threads": 4,
+    "examples": [
+     {
+      "id": "agi-499298",
+      "quote": "I just want to go away for a few days even by myself and chill and shut some of this out.",
+      "label": "wants a few days away"
+     },
+     {
+      "id": "agi-499699",
+      "quote": "For my own mental and physical health, I needed to find ways to take a break regularly from caregiving",
+      "label": "regular breaks for own health"
+     },
+     {
+      "id": "agi-499712",
+      "quote": "I need a break as it’s affecting my physical and mental health.",
+      "label": "needs a break for health"
+     },
+     {
+      "id": "agi-499305",
+      "quote": "we know we can’t leave for extended periods of time like we would like too.",
+      "label": "Wants to travel longer"
+     }
+    ]
+   },
+   "Their own health and sanity": {
+    "threads": 1,
+    "examples": [
+     {
+      "id": "agi-499771",
+      "quote": "I wish I had the courage to stop caregiving",
+      "label": "wants courage to stop caregiving"
+     }
+    ]
+   },
+   "Other": {
+    "threads": 1,
+    "examples": [
+     {
+      "id": "alz-77423",
+      "quote": "I know I need to stop letting my sisters excluding me from any activities bother me",
+      "label": "stop sisters' exclusion bothering her"
+     }
+    ]
+   },
+   "Keep their own life, job and money": {
+    "threads": 3,
+    "examples": [
+     {
+      "id": "alz-77401",
+      "quote": "I'm supposed to be enjoying my one and only child's high school years",
+      "label": "Enjoy child's high school years"
+     },
+     {
+      "id": "alz-77401",
+      "quote": "Just to have someone take care of ME for a change.",
+      "label": "Wants to be cared for herself"
+     },
+     {
+      "id": "agi-499761",
+      "quote": "my spouse and I were not planning on having any dependents in the foreseeable future.",
+      "label": "Had not planned on caring for anyone"
+     },
+     {
+      "id": "alz-77432",
+      "quote": "have come to the cross roads of continuing to care for mama, or continue my own life",
+      "label": "Continue own life versus caregiving"
+     }
+    ]
+   }
+  }
+ },
+ "spouse": {
+  "threads": 54,
+  "motivation": {
+   "Keep them at home and in control of their own life": {
+    "threads": 4,
+    "examples": [
+     {
+      "id": "alz-77390",
+      "quote": "how can I take him away from his friends, his shop, his yard. These are the things that give him pleasure.",
+      "label": "keep spouse's friends and pleasures"
+     },
+     {
+      "id": "alz-77414",
+      "quote": "The proper dose of the right med would not only make him calmer but also enable me to keep him home and hopefully out of MC.",
+      "label": "keep spouse at home, out of memory care"
+     },
+     {
+      "id": "alz-75137",
+      "quote": "My final gift to him was to have him pass at home since he was so terrified of facilities.",
+      "label": "let spouse die at home"
+     },
+     {
+      "id": "alz-77392",
+      "quote": "I want to make this as easy for him as I can.",
+      "label": "make the move easy for him"
+     }
+    ]
+   },
+   "Keep them safe and comfortable, spare them suffering": {
+    "threads": 11,
+    "examples": [
+     {
+      "id": "alz-77407",
+      "quote": "Most of us have the goal to make our LOs safe and comfortable.",
+      "label": "keep spouse safe and comfortable"
+     },
+     {
+      "id": "alz-77414",
+      "quote": "we need to keep people with dementia safe, clean and fed.",
+      "label": "keep spouse safe, clean and fed"
+     },
+     {
+      "id": "alz-77414",
+      "quote": "I learned early on that my primary job in this journey was to keep my LO safe, not happy.",
+      "label": "keeping spouse safe comes first"
+     },
+     {
+      "id": "alz-77414",
+      "quote": "living longer in misery and suffering is not a choice I would make for my loved one.",
+      "label": "spare spouse from suffering"
+     },
+     {
+      "id": "alz-77377",
+      "quote": "if I can ease his anxiety by responding each time as if it’s the first, I can help him have the best day possible.",
+      "label": "ease spouse's anxiety, best possible day"
+     },
+     {
+      "id": "alz-77410",
+      "quote": "he does all he can do for himself and I let him so he doesn't feel debilitated",
+      "label": "let spouse keep his dignity"
+     },
+     {
+      "id": "alz-77457",
+      "quote": "I’m trying to prioritize her comfort",
+      "label": "prioritize spouse's comfort"
+     },
+     {
+      "id": "alz-77437",
+      "quote": "Just want everyone to be safe",
+      "label": "wants everyone to be safe"
+     },
+     {
+      "id": "alz-77392",
+      "quote": "The lying to him is a hard thing to do since I haven’t lied to him in 45 years….but I will do whatever if it makes this easier for him.",
+      "label": "will do whatever eases it for him"
+     },
+     {
+      "id": "alz-77354",
+      "quote": "In the end for me, it has become primarily an issue of safety for her (out of control anger and agitation, losing balance, close to wandering when angry).",
+      "label": "wife's safety"
+     },
+     {
+      "id": "alz-77326",
+      "quote": "I want DH to maintain sense of dignity.",
+      "label": "protect his dignity"
+     },
+     {
+      "id": "alz-77378",
+      "quote": "after I thought about how bad it must be on her to be in such a volatile state and not know why most of the time, I changed my mind.",
+      "label": "compassion for her distress"
+     },
+     {
+      "id": "alz-77436",
+      "quote": "I am so very thankful I looked into getting help and got the gift of hospice for her sake.",
+      "label": "getting hospice help for her sake"
+     }
+    ]
+   },
+   "Love, loyalty and promises": {
+    "threads": 9,
+    "examples": [
+     {
+      "id": "alz-75137",
+      "quote": "I do not want to lose all of my sorrow and sadness, as I fear I will lose her memories and I will not allow that to happen.",
+      "label": "keep memories of late wife"
+     },
+     {
+      "id": "alz-77364",
+      "quote": "I love DW dearly and wouldn't consider seeing anyone else while she remains alive.",
+      "label": "love and loyalty to spouse"
+     },
+     {
+      "id": "alz-77364",
+      "quote": "She is my DW until she is here no longer and I won't stop loving her.",
+      "label": "lasting love for spouse"
+     },
+     {
+      "id": "alz-77454",
+      "quote": "take the walker and the dogs and make another memory together",
+      "label": "make more memories together"
+     },
+     {
+      "id": "alz-77375",
+      "quote": "But will she remember the love we have, and the humor between us, at least for a little while before she disappears completely?",
+      "label": "wants spouse to remember their love"
+     },
+     {
+      "id": "alz-77375",
+      "quote": "I would then tell him that I would never leave him.",
+      "label": "promise never to leave spouse"
+     },
+     {
+      "id": "agi-499873",
+      "quote": "the whole point of keeping them home under your care is because you love them.",
+      "label": "love is why they keep spouse home"
+     },
+     {
+      "id": "alz-77428",
+      "quote": "When I understood she really wasn't being a jerk but was sick and didn't know, then I knew I was staying.",
+      "label": "understanding illness made me stay"
+     },
+     {
+      "id": "alz-77428",
+      "quote": "For me, I just could not abandon my DH who I loved dearly just because I was afraid.",
+      "label": "love, cannot abandon husband"
+     },
+     {
+      "id": "alz-77348",
+      "quote": "Our wedding vows are all I need to set my needs aside.",
+      "label": "wedding vows drive care"
+     },
+     {
+      "id": "alz-77263",
+      "quote": "I pray for patience and compassion and I thank God daily for the ability to care for and about my DH’s feelings as he is struggling with what he’s going through.",
+      "label": "patience and compassion for his feelings"
+     },
+     {
+      "id": "agi-499707",
+      "quote": "I still love my husband so much, I'd rather have the difficulty of taking care of him than to not have him in my life.",
+      "label": "love, prefers difficulty to losing him"
+     }
+    ]
+   },
+   "Do the right thing, avoid blame or guilt": {
+    "threads": 1,
+    "examples": [
+     {
+      "id": "alz-77347",
+      "quote": "in this world of trying to do right by our spouse.",
+      "label": "trying to do right by spouse"
+     }
+    ]
+   },
+   "Other": {
+    "threads": 1,
+    "examples": [
+     {
+      "id": "alz-77374",
+      "quote": "I do not want the staff to have confrontations with him.",
+      "label": "avoid staff conflicts with him"
+     }
+    ]
+   }
+  },
+  "situational_goal": {
+   "Find, choose or pay for a place (memory care, assisted living)": {
+    "threads": 7,
+    "examples": [
+     {
+      "id": "alz-77390",
+      "quote": "we will move so that I can be closer to things and able to do all the driving.",
+      "label": "move closer to services before driving ends"
+     },
+     {
+      "id": "alz-77390",
+      "quote": "to find us the house where I could remain even after he has to move into a facility.",
+      "label": "find house near care and facilities"
+     },
+     {
+      "id": "alz-77375",
+      "quote": "the best possible memory care I could find that’s also commutable",
+      "label": "find good, commutable memory care"
+     },
+     {
+      "id": "alz-59049",
+      "quote": "hoping to place DH soon",
+      "label": "place spouse in memory care"
+     },
+     {
+      "id": "alz-77410",
+      "quote": "I need to make the rounds of the local MC places and get his name on a list.",
+      "label": "tour memory care and join waitlists"
+     },
+     {
+      "id": "alz-77392",
+      "quote": "I still have to work full time so I have finally come to the place it is better for him and me to do this.",
+      "label": "place husband in memory care"
+     },
+     {
+      "id": "alz-77392",
+      "quote": "how does everyone pay for MC?",
+      "label": "find way to pay for memory care"
+     },
+     {
+      "id": "alz-77354",
+      "quote": "I am ready to move ahead with MC for my DW.",
+      "label": "move wife to memory care"
+     },
+     {
+      "id": "alz-77284",
+      "quote": "I'm wondering if she would be better off living at a memory care facility where she would.have professional care full-time.",
+      "label": "consider memory care full-time"
+     }
+    ]
+   },
+   "Other": {
+    "threads": 4,
+    "examples": [
+     {
+      "id": "alz-77364",
+      "quote": "my goal is to keep him with me until such time as he no longer knows who I am or who he is or where he is",
+      "label": "keep spouse home until he no longer knows"
+     },
+     {
+      "id": "alz-77395",
+      "quote": "Does anyone know of organizations who match caregivers to patients as an ongoing care 1 on 1 same person?",
+      "label": "find same caregiver every time"
+     },
+     {
+      "id": "alz-77348",
+      "quote": "How can I help myself to stop this behavior?",
+      "label": "stop arguing and yelling"
+     },
+     {
+      "id": "alz-77326",
+      "quote": "As to maintaining and restoring abilities, I continue to aggressively pursue options.",
+      "label": "restore her abilities"
+     }
+    ]
+   },
+   "Get help, relief or services": {
+    "threads": 6,
+    "examples": [
+     {
+      "id": "alz-77454",
+      "quote": "I think I need to get help, this is making an already tough job even harder.",
+      "label": "get help with care"
+     },
+     {
+      "id": "alz-77454",
+      "quote": "How do I know when it's time for hospice evaluation.",
+      "label": "know when to ask for hospice"
+     },
+     {
+      "id": "alz-77410",
+      "quote": "my goal is to keep him home, but I know that I need to have a backup plan ready in case he will need MC.",
+      "label": "keep spouse home with backup plan"
+     },
+     {
+      "id": "alz-77448",
+      "quote": "Recently, she has had some changes that has led her neurologist to suggesting we get a hospice evaluation.",
+      "label": "get a hospice evaluation"
+     },
+     {
+      "id": "alz-77376",
+      "quote": "my question is how to you get someone in to spend time with her so I can leave her alone??",
+      "label": "get someone to stay with wife"
+     },
+     {
+      "id": "alz-77473",
+      "quote": "I know I need some help but don't know if I should try the GUIDE PROGRAM and see if he qualifies for VA catastrophic disabity rating of if it's time for a hospice evaluation.",
+      "label": "get help: GUIDE, VA, or hospice"
+     },
+     {
+      "id": "alz-77439",
+      "quote": "my thinking is that we can save money on the insurance and could use that to pay for the visit if necessary.",
+      "label": "save money on dental insurance"
+     }
+    ]
+   },
+   "Keep them safe and watch over them": {
+    "threads": 5,
+    "examples": [
+     {
+      "id": "alz-77372",
+      "quote": "her cardiologist wants her to use a BP monitor for daily or twice daily reads since her BPs are trending higher.",
+      "label": "track spouse's blood pressure daily"
+     },
+     {
+      "id": "alz-77380",
+      "quote": "My husband likes to walk so I need a tracking device",
+      "label": "track spouse who likes to walk"
+     },
+     {
+      "id": "alz-77437",
+      "quote": "I’m going to ask him to be evaluated at a driving center soon.",
+      "label": "get driving evaluation"
+     },
+     {
+      "id": "agi-499829",
+      "quote": "I also wanted to know they did what needed to be done.",
+      "label": "know aides did the needed care"
+     },
+     {
+      "id": "alz-77374",
+      "quote": "My expectations of the staff is to ensure my DH is feed, showered, and toileted.",
+      "label": "staff keep him fed, clean, toileted"
+     }
+    ]
+   },
+   "Medicines": {
+    "threads": 1,
+    "examples": [
+     {
+      "id": "agi-499378",
+      "quote": "After 8 years of dealing with hubby's progressing dementia, and fighting him about taking the 8-15 pills daily, I have started asking about quality of life rather than quantity.",
+      "label": "reduce pills, favor quality of life"
+     }
+    ]
+   }
+  },
+  "life_goal": {
+   "Their own health and sanity": {
+    "threads": 7,
+    "examples": [
+     {
+      "id": "alz-75137",
+      "quote": "I would just like to be able to be able to function enough to get by.",
+      "label": "be able to function day to day"
+     },
+     {
+      "id": "alz-77410",
+      "quote": "I pray that I stay healthy enough to keep taking care of him.",
+      "label": "stay healthy enough to keep caring"
+     },
+     {
+      "id": "alz-77457",
+      "quote": "keep myself sane and healthy",
+      "label": "stay sane and healthy"
+     },
+     {
+      "id": "alz-77428",
+      "quote": "I feel I need to get a divorce for financial reasons as well as my sanity. I don't want to abandon him, but I have to look out for myself.",
+      "label": "protect own sanity and finances"
+     },
+     {
+      "id": "alz-77263",
+      "quote": "I’m able to care for him so far and I pray that I stay healthy enough to keep taking care of him.",
+      "label": "stay healthy enough to keep caregiving"
+     },
+     {
+      "id": "alz-77470",
+      "quote": "I have got to find a way to cope with the world I’m living in.",
+      "label": "find a way to cope"
+     },
+     {
+      "id": "alz-77427",
+      "quote": "someone I can talk to without judgement and willing to work WITH me to help with my severe anxiety and depression.",
+      "label": "therapy for own anxiety and depression"
+     }
+    ]
+   },
+   "Keep their own life, job and money": {
+    "threads": 4,
+    "examples": [
+     {
+      "id": "agi-499222",
+      "quote": "Struggling to get more hours at a job I just got.",
+      "label": "get more hours at new job"
+     },
+     {
+      "id": "alz-77284",
+      "quote": "I very selfishly want to have life left to live when this is over.",
+      "label": "have a life left afterward"
+     },
+     {
+      "id": "alz-77470",
+      "quote": "I am now starting to create a new life for me and my remaining time here on earth.",
+      "label": "build a new life for myself"
+     },
+     {
+      "id": "alz-77383",
+      "quote": "I knew if I quit my job I would be miserable and it would not change the trajectory of the disease.",
+      "label": "keep my job"
+     }
+    ]
+   },
+   "Other": {
+    "threads": 1,
+    "examples": [
+     {
+      "id": "alz-77470",
+      "quote": "it is a daily challenge not to let this disease take me down with my DH.",
+      "label": "not be taken down by the disease"
+     }
+    ]
+   },
+   "Time and breaks for themselves": {
+    "threads": 2,
+    "examples": [
+     {
+      "id": "agi-499707",
+      "quote": "I feel like I am losing myself as a caregiver because I don't ever have time to myself to do anything that I want to do?",
+      "label": "time to myself"
+     },
+     {
+      "id": "alz-77427",
+      "quote": "starting with me getting back to taking my 30 minute walks which I used to do at least 5 times a week.",
+      "label": "get back to my daily walks"
+     }
+    ]
+   }
+  }
+ }
+}
