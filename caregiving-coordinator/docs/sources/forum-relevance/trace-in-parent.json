@@ -1,0 +1,945 @@
+[
+ {
+  "theme": "Exhaustion, guilt and no life of their own",
+  "lines": [
+   {
+    "line_id": "L0-0",
+    "kind": "business_goal",
+    "text": "We want the caregiver to have breaks and support so caring does not cost them their health, job or relationships."
+   },
+   {
+    "line_id": "L0-1",
+    "kind": "future_scenario",
+    "text": "The caregiver can step away for a few hours and knows the person is looked after"
+   },
+   {
+    "line_id": "L0-2",
+    "kind": "future_scenario",
+    "text": "The caregiver can find support at times that fit a working life"
+   },
+   {
+    "line_id": "L0-3",
+    "kind": "future_scenario",
+    "text": "The caregiver is not the only one carrying the load"
+   }
+  ],
+  "items": [
+   {
+    "key": "p3",
+    "id": "agi-499699",
+    "quote": "Right now I’m resentful and really don’t understand why I can’t get over it and just be there for her the way a daughter should be."
+   },
+   {
+    "key": "p6",
+    "id": "agi-499762",
+    "quote": "I am sleep-deprived, have no one to ask, and am honestly in full despair."
+   },
+   {
+    "key": "p7",
+    "id": "alz-77386",
+    "quote": "I have become my mom's assistant, scheduler, IT tech, and overall house/car maintenance provider."
+   },
+   {
+    "key": "p11",
+    "id": "agi-499771",
+    "quote": "I am so tired of dealing with this for over 4 years since Mom's stroke."
+   },
+   {
+    "key": "p12",
+    "id": "agi-499771",
+    "quote": "I get so angry and hurt, even therapy didn’t help."
+   },
+   {
+    "key": "p21",
+    "id": "alz-77423",
+    "quote": "I provide 24/7 care for him by myself."
+   },
+   {
+    "key": "p24",
+    "id": "agi-498946",
+    "quote": "I am the sole caregiver. I get no help."
+   },
+   {
+    "key": "p25",
+    "id": "agi-498946",
+    "quote": "She has not been to one doctors appointment. I take care of all of that."
+   },
+   {
+    "key": "p31",
+    "id": "agi-499059",
+    "quote": "I haven't been visiting her as much and to be honest I just haven't wanted to."
+   },
+   {
+    "key": "p32",
+    "id": "agi-499059",
+    "quote": "I've been in a pretty bad funk for awhile now. Trying to sell the house, etc."
+   },
+   {
+    "key": "p33",
+    "id": "agi-499059",
+    "quote": "I'm just struggling with the big decisions on the outside."
+   },
+   {
+    "key": "p34",
+    "id": "alz-77444",
+    "quote": "I am having such a difficult time not being angry at my Mom when I logically understand it's not her fault."
+   },
+   {
+    "key": "p35",
+    "id": "alz-77444",
+    "quote": "This has shoved me right off that tight rope and I can not cope."
+   },
+   {
+    "key": "p36",
+    "id": "alz-77444",
+    "quote": "What about my husband and my teenager who need me but only get a shell of me now?"
+   },
+   {
+    "key": "p37",
+    "id": "alz-77444",
+    "quote": "I have no life."
+   },
+   {
+    "key": "p46",
+    "id": "agi-499433",
+    "quote": "I have been ambivalent, angry, frustrated and just plain depressed."
+   },
+   {
+    "key": "p53",
+    "id": "agi-499890",
+    "quote": "I have a girl come in 2x per week for a couple hours each time, but that is not enough."
+   },
+   {
+    "key": "p54",
+    "id": "agi-499890",
+    "quote": "I am an only child, all this falls on me"
+   },
+   {
+    "key": "p58",
+    "id": "agi-499801",
+    "quote": "I have not gone anywhere except Drs appts. and the market."
+   },
+   {
+    "key": "p64",
+    "id": "agi-499616",
+    "quote": "Tips for the lone 24/7 Caregiver who does not have any breaks or days off, and no one to ask - or who is willing to fill in."
+   },
+   {
+    "key": "p65",
+    "id": "alz-77398",
+    "quote": "I have been looking for a support group, but they are all during the day geared toward retired care gives."
+   },
+   {
+    "key": "p76",
+    "id": "agi-499305",
+    "quote": "I am very resentful of the 4 hours a week that I run her around or when other appointments come up."
+   },
+   {
+    "key": "p77",
+    "id": "agi-499305",
+    "quote": "I feel trapped and don’t want to even do that afternoon a week."
+   },
+   {
+    "key": "p78",
+    "id": "agi-499305",
+    "quote": "I feel selfish and guilty all the time."
+   },
+   {
+    "key": "p79",
+    "id": "agi-499305",
+    "quote": "I started working part time just to escape my own brain being consumed by her."
+   },
+   {
+    "key": "p87",
+    "id": "agi-499659",
+    "quote": "I feel like I've lost my home, my refuge."
+   },
+   {
+    "key": "p89",
+    "id": "agi-499659",
+    "quote": "It's now more stressful if I want to go on vacation with my husband."
+   },
+   {
+    "key": "p91",
+    "id": "agi-499659",
+    "quote": "I am delaying retirement because I don't want to be home full time caring for someone"
+   },
+   {
+    "key": "p106",
+    "id": "agi-499761",
+    "quote": "I don't even know if I want to be a caregiver or have the ability to be."
+   },
+   {
+    "key": "p107",
+    "id": "agi-499761",
+    "quote": "Just feels like I'm grasping at some kind of control."
+   },
+   {
+    "key": "p115",
+    "id": "agi-499448",
+    "quote": "Hard to take care of someone with only a few hours of sleep every night."
+   },
+   {
+    "key": "p116",
+    "id": "agi-499798",
+    "quote": "I have not worked for the last year because her anxiety about being at home with a caregiver was making it impossible for me to focus on a job"
+   },
+   {
+    "key": "p117",
+    "id": "agi-499798",
+    "quote": "I still feel guilty about placing her in a nursing home."
+   },
+   {
+    "key": "p119",
+    "id": "agi-499798",
+    "quote": "There are no siblings, no wife, no ex-wife and no children to assist me."
+   },
+   {
+    "key": "p121",
+    "id": "alz-77129",
+    "quote": "I initially spiraled, as I do whenever something seems to signal a new threat level and need for greater care."
+   },
+   {
+    "key": "p125",
+    "id": "alz-77432",
+    "quote": "I’m currently in school, and as hard as I try I can’t focus in school the way I need to."
+   },
+   {
+    "key": "p126",
+    "id": "alz-77432",
+    "quote": "I am flooded with guilt and horrible thoughts of how heartbroken she is going to be."
+   },
+   {
+    "key": "p128",
+    "id": "alz-77432",
+    "quote": "But the idea of leaving my mom somewhere and her begging me to not leave her, I get sick whenever I think about it."
+   },
+   {
+    "key": "p135",
+    "id": "alz-77460",
+    "quote": "I can’t take this and really don’t know what to do."
+   },
+   {
+    "key": "p137",
+    "id": "alz-77467",
+    "quote": "I've got no family support or anyone to lean on except his other caregivers"
+   },
+   {
+    "key": "p138",
+    "id": "alz-77467",
+    "quote": "It's just getting tougher and tougher for me to be with him."
+   },
+   {
+    "key": "p139",
+    "id": "alz-77467",
+    "quote": "I'm really truly broken at this point and the thing is, I know it's only going to get worse."
+   },
+   {
+    "key": "p140",
+    "id": "alz-77393",
+    "quote": "This has really affected me not in a good way."
+   },
+   {
+    "key": "p141",
+    "id": "alz-77393",
+    "quote": "The responsibility is overwhelming!"
+   }
+  ]
+ },
+ {
+  "theme": "Dementia behavior and hard conversations",
+  "lines": [
+   {
+    "line_id": "L1-0",
+    "kind": "business_goal",
+    "text": "We want caregivers to know what to say and do when the person is anxious, angry or confused, so visits and calls do not end in distress."
+   },
+   {
+    "line_id": "L1-1",
+    "kind": "future_scenario",
+    "text": "A caregiver gets through a hard call or visit without a meltdown"
+   },
+   {
+    "line_id": "L1-2",
+    "kind": "future_scenario",
+    "text": "A caregiver knows when a behavior is the illness and when it needs a doctor"
+   },
+   {
+    "line_id": "L1-3",
+    "kind": "future_scenario",
+    "text": "Repeated calls do not take over the caregiver's workday"
+   }
+  ],
+  "items": [
+   {
+    "key": "p2",
+    "id": "agi-499699",
+    "quote": "The hard part is her neediness. She’s constantly asking for the same things and states the same worries."
+   },
+   {
+    "key": "p13",
+    "id": "alz-77005",
+    "quote": "The biggest issue of late is that he is telling stories about his past that seem impossible to be true, and my mom does not know what to believe."
+   },
+   {
+    "key": "p15",
+    "id": "alz-77399",
+    "quote": "Its hard to get her back in the car to take her back to the facility."
+   },
+   {
+    "key": "p16",
+    "id": "alz-77399",
+    "quote": "We have tried many times to take her to lunch, shopping etc. but it always ends with her request to be taken \"home\" to see her dogs."
+   },
+   {
+    "key": "p17",
+    "id": "alz-77399",
+    "quote": "We don't know whether the anger is possibly caused by the newly added medication or if its just the realization of having to accept her new living arrangements or if it is just part of the disease."
+   },
+   {
+    "key": "p30",
+    "id": "agi-499059",
+    "quote": "She is getting a little demanding."
+   },
+   {
+    "key": "p40",
+    "id": "alz-77366",
+    "quote": "My sister and I wonder about whether or not she needs to know, as it will upset her."
+   },
+   {
+    "key": "p41",
+    "id": "alz-77366",
+    "quote": "Part of the issue is planning for the future is hard when she doesn’t see the need for our help."
+   },
+   {
+    "key": "p69",
+    "id": "alz-76894",
+    "quote": "Mom is calling siblings, extended family and friends a huge amount of times a day asking for assistance in moving her back to her home from care center."
+   },
+   {
+    "key": "p71",
+    "id": "alz-76894",
+    "quote": "Mom's anxiety and paranoia is going thru the roof because we are not answering all of the calls."
+   },
+   {
+    "key": "p72",
+    "id": "alz-76894",
+    "quote": "she would call 10x-plus in a row while at work and I needed my phone to be on"
+   },
+   {
+    "key": "p103",
+    "id": "alz-77412",
+    "quote": "The problem is she would want to buy 10 things of yarn for a huge project she would never be able to finish."
+   },
+   {
+    "key": "p108",
+    "id": "alz-76756",
+    "quote": "she has been suffering severely in the evenings with sundowning and hallucinations."
+   },
+   {
+    "key": "p109",
+    "id": "alz-76756",
+    "quote": "We have tried several techniques to navigate these episodes, but recently, nothing seems to work"
+   },
+   {
+    "key": "p110",
+    "id": "alz-76756",
+    "quote": "her symptoms are progressing far quicker than our ability to learn how to care for her."
+   },
+   {
+    "key": "p111",
+    "id": "alz-76756",
+    "quote": "There are times when she will not be distracted."
+   },
+   {
+    "key": "p118",
+    "id": "agi-499798",
+    "quote": "Sometimes she says I \"tricked\" her into being there."
+   },
+   {
+    "key": "p130",
+    "id": "alz-77349",
+    "quote": "After about 1pm is when it’s the worst and she is very out of it."
+   },
+   {
+    "key": "p131",
+    "id": "alz-77460",
+    "quote": "She wanders the house trying to find him and is constantly asking where he is."
+   },
+   {
+    "key": "p132",
+    "id": "alz-77460",
+    "quote": "At first we were telling her that he died but that would cause a meltdown every time and it was heartbreaking."
+   },
+   {
+    "key": "p133",
+    "id": "alz-77460",
+    "quote": "We have tried fibbing and then diverting her attention but that’s not working."
+   },
+   {
+    "key": "p136",
+    "id": "alz-77467",
+    "quote": "His short term memory is gone. The repetitive questions are nearly non stop."
+   },
+   {
+    "key": "p145",
+    "id": "alz-77450",
+    "quote": "I recently had to put a baby door handle cover to go down to our laundry room because she was doing laundry multiple times a day"
+   },
+   {
+    "key": "p148",
+    "id": "alz-77440",
+    "quote": "Then at about 10pm last night, he had a psychotic episode - was verbally abusive and physically violent."
+   },
+   {
+    "key": "p149",
+    "id": "alz-77440",
+    "quote": "I am fearful this will happen again tonight."
+   }
+  ]
+ },
+ {
+  "theme": "Money, legal papers and facility bills",
+  "lines": [
+   {
+    "line_id": "L2-0",
+    "kind": "business_goal",
+    "text": "We want families to understand and control money, legal papers and facility bills, so nothing is signed under pressure or paid wrongly."
+   },
+   {
+    "line_id": "L2-1",
+    "kind": "future_scenario",
+    "text": "A caregiver knows what a facility charges and why"
+   },
+   {
+    "line_id": "L2-2",
+    "kind": "future_scenario",
+    "text": "A caregiver can apply for benefits without being rushed"
+   },
+   {
+    "line_id": "L2-3",
+    "kind": "future_scenario",
+    "text": "The person with legal authority and the relatives who help can see the same account information"
+   }
+  ],
+  "items": [
+   {
+    "key": "p0",
+    "id": "agi-499298",
+    "quote": "contracts falling through with the selling of the house and disappointment after disappointment."
+   },
+   {
+    "key": "p1",
+    "id": "agi-499298",
+    "quote": "the financial dept where she is a resident had me signing documents to apply for medicaid right now, this minute because the house hasn't sold as quick as I thought it would"
+   },
+   {
+    "key": "p22",
+    "id": "agi-499820",
+    "quote": "where I’m stuck is how my siblings and I can also get some level of access (even if it’s just read-only) without taking on the credit exposure and liability of becoming authorized users."
+   },
+   {
+    "key": "p23",
+    "id": "agi-499820",
+    "quote": "This was a multi step process and every institution wanted separate forms."
+   },
+   {
+    "key": "p26",
+    "id": "agi-498946",
+    "quote": "He is very sick and can’t even go visit his family because we have no money."
+   },
+   {
+    "key": "p28",
+    "id": "agi-499712",
+    "quote": "I’m too exhausted to even go into the IRA right now as shes on Medicaid."
+   },
+   {
+    "key": "p63",
+    "id": "agi-499616",
+    "quote": "Sticker shock when emergencies all of a sudden require more care after rehab or when Medicare completes payments for care"
+   },
+   {
+    "key": "p66",
+    "id": "alz-77396",
+    "quote": "Between her medical expenses and the significant costs of caregiving, our financial resources are already stretched thin."
+   },
+   {
+    "key": "p67",
+    "id": "alz-77396",
+    "quote": "the house needs several repairs before we can put it on the market, including interior painting, ceiling and window frame repairs from previous water leaks, and basement mold remediation."
+   },
+   {
+    "key": "p88",
+    "id": "agi-499659",
+    "quote": "My Dad can't afford to live independently, so I feel like I've got no choice."
+   },
+   {
+    "key": "p92",
+    "id": "alz-77373",
+    "quote": "so the difference is coming out of their savings."
+   },
+   {
+    "key": "p93",
+    "id": "alz-77373",
+    "quote": "Coincidentally both will run out of savings in about 2 years."
+   },
+   {
+    "key": "p94",
+    "id": "alz-77373",
+    "quote": "I didn’t find this out until she had been there a while and she didn’t have enough to cover the necessary 2 years somewhere else."
+   },
+   {
+    "key": "p95",
+    "id": "alz-77373",
+    "quote": "This representative was quoting me much lower rates (3-4 k for assisted living and 9-10 k per month for memory care) which seems suspicious."
+   },
+   {
+    "key": "p96",
+    "id": "agi-499732",
+    "quote": "Her AL charges her $205 for COPD management."
+   },
+   {
+    "key": "p97",
+    "id": "agi-499732",
+    "quote": "I asked WHAT exactly are you managing?? No answer."
+   },
+   {
+    "key": "p98",
+    "id": "agi-499732",
+    "quote": "Her payments are auto deducted so they can take what they want."
+   },
+   {
+    "key": "p99",
+    "id": "agi-499732",
+    "quote": "the billing was screwed up every single month."
+   },
+   {
+    "key": "p104",
+    "id": "agi-499761",
+    "quote": "It's been a month now and we still havent applied for Medicaid."
+   },
+   {
+    "key": "p105",
+    "id": "agi-499761",
+    "quote": "the attorney wanted to speak to my SIL because she was also a POA. Unfortunately she was hospitalized for mania."
+   },
+   {
+    "key": "p150",
+    "id": "alz-77430",
+    "quote": "she often orders vitamins and other brain supplements—getting scammed—but doesn’t remember doing it due to her severe short-term memory issues."
+   }
+  ]
+ },
+ {
+  "theme": "Relatives do not help, or block each other",
+  "lines": [
+   {
+    "line_id": "L3-0",
+    "kind": "business_goal",
+    "text": "We want relatives to share the load and the information, without conflict or going through lawyers."
+   },
+   {
+    "line_id": "L3-1",
+    "kind": "future_scenario",
+    "text": "A sibling who lives far away knows what is needed and does their part"
+   },
+   {
+    "line_id": "L3-2",
+    "kind": "future_scenario",
+    "text": "A relative with legal authority cannot keep others from the person without a reason they can see"
+   },
+   {
+    "line_id": "L3-3",
+    "kind": "future_scenario",
+    "text": "Decisions about the parent are made together"
+   }
+  ],
+  "items": [
+   {
+    "key": "p8",
+    "id": "alz-77386",
+    "quote": "I have an older brother who lives 3 hours away and is present only enough to tell me"
+   },
+   {
+    "key": "p10",
+    "id": "agi-499771",
+    "quote": "When I broke down and begged them to help me, younger sister told me, \"We all make our choices.\""
+   },
+   {
+    "key": "p19",
+    "id": "alz-77423",
+    "quote": "struggle with sisters who live near us but don’t help even after I have asked."
+   },
+   {
+    "key": "p20",
+    "id": "alz-77423",
+    "quote": "One told me “We all make our choices” last time I broke down begging and hasn’t talked to Mom or me in 2 months."
+   },
+   {
+    "key": "p38",
+    "id": "alz-77366",
+    "quote": "I live out of state so my brother went… no help to me."
+   },
+   {
+    "key": "p55",
+    "id": "agi-499818",
+    "quote": "My sister who is very jealous of me an hates me told me one day not to come to see my mom anymore that she had POA."
+   },
+   {
+    "key": "p56",
+    "id": "agi-499818",
+    "quote": "My brother had medical & financial POA & told the nursing home there was a no contact order against me so I couldn’t visit her."
+   },
+   {
+    "key": "p70",
+    "id": "alz-76894",
+    "quote": "this sister will not acknowledge or take action on our request to remove cell phone."
+   },
+   {
+    "key": "p74",
+    "id": "alz-77401",
+    "quote": "my sister says if she wants to stay, she should stay."
+   },
+   {
+    "key": "p83",
+    "id": "agi-498174",
+    "quote": "Paul refuses to send me any of his past mail (which would include any outstanding bills), or any of his spending receipts"
+   },
+   {
+    "key": "p84",
+    "id": "agi-498174",
+    "quote": "Paul also refuses to maintain any or sort of budget in regard to spending"
+   },
+   {
+    "key": "p85",
+    "id": "agi-498174",
+    "quote": "I can't go on under this arrangement"
+   },
+   {
+    "key": "p86",
+    "id": "agi-498174",
+    "quote": "I do the same for my mother with no assistance at all from my two brothers."
+   },
+   {
+    "key": "p100",
+    "id": "alz-77412",
+    "quote": "My sister who is Guardian of the Person does not share that information with me."
+   },
+   {
+    "key": "p101",
+    "id": "alz-77412",
+    "quote": "Communication between my sister and I is only through an attorney."
+   },
+   {
+    "key": "p102",
+    "id": "alz-77412",
+    "quote": "I was informed by the facility that approval was needed by the sister and the sister only approved going to lunch near by and and only for a couple of hours"
+   },
+   {
+    "key": "p124",
+    "id": "alz-77413",
+    "quote": "Do I take her out shopping for warmer clothes if I can get approval from the sister who is Guardian of the Person?"
+   }
+  ]
+ },
+ {
+  "theme": "Medicines, eating and personal care",
+  "lines": [
+   {
+    "line_id": "L4-0",
+    "kind": "business_goal",
+    "text": "We want the person to take their medicines, eat and stay clean without a daily fight and without the caregiver doing it all alone."
+   },
+   {
+    "line_id": "L4-1",
+    "kind": "future_scenario",
+    "text": "The caregiver knows whether a dose was taken or missed"
+   },
+   {
+    "line_id": "L4-2",
+    "kind": "future_scenario",
+    "text": "Morning and night personal care does not exhaust the caregiver"
+   },
+   {
+    "line_id": "L4-3",
+    "kind": "future_scenario",
+    "text": "The person eats enough"
+   }
+  ],
+  "items": [
+   {
+    "key": "p42",
+    "id": "agi-498744",
+    "quote": "About every other day some of the pills wind up on the floor."
+   },
+   {
+    "key": "p43",
+    "id": "agi-498744",
+    "quote": "She has a hard time getting really small pills out of the cups and her manual dexterity sometimes just knocks the cups over."
+   },
+   {
+    "key": "p44",
+    "id": "agi-498744",
+    "quote": "I can no longer leave them out or beside his chair to take. He will forget or knock them over."
+   },
+   {
+    "key": "p48",
+    "id": "agi-499433",
+    "quote": "Its like pulling teeth even at home to get her to eat once a day."
+   },
+   {
+    "key": "p61",
+    "id": "alz-77417",
+    "quote": "Dad will definitely take them once he remembers to pick up the pillbox."
+   },
+   {
+    "key": "p75",
+    "id": "alz-77401",
+    "quote": "Most days if I'm not there, she's eating cookies and chips and nothing else."
+   },
+   {
+    "key": "p82",
+    "id": "agi-498825",
+    "quote": "I also observed a lot of dropped meds on the floor and poor hygiene"
+   },
+   {
+    "key": "p112",
+    "id": "agi-499448",
+    "quote": "By 7 am she’s soaked and so is her bed."
+   },
+   {
+    "key": "p113",
+    "id": "agi-499448",
+    "quote": "I can’t wake up in middle of night and change her."
+   },
+   {
+    "key": "p114",
+    "id": "agi-499448",
+    "quote": "It was a lot of work every morning of cleaning him up, and doing all the laundry."
+   },
+   {
+    "key": "p127",
+    "id": "alz-77432",
+    "quote": "I am now showering her, wiping her after bathroom visits, etc."
+   },
+   {
+    "key": "p143",
+    "id": "alz-77450",
+    "quote": "I've been noticing mom overeating."
+   },
+   {
+    "key": "p144",
+    "id": "alz-77450",
+    "quote": "she would eat all of the snacks in one day if I left them with her"
+   }
+  ]
+ },
+ {
+  "theme": "Choosing and arranging a place for them",
+  "lines": [
+   {
+    "line_id": "L5-0",
+    "kind": "business_goal",
+    "text": "We want families to arrange a move to assisted living or a nursing home with confidence, without the person being forced or tricked."
+   },
+   {
+    "line_id": "L5-1",
+    "kind": "future_scenario",
+    "text": "A family can compare places and costs before a crisis"
+   },
+   {
+    "line_id": "L5-2",
+    "kind": "future_scenario",
+    "text": "The person has a say in the move"
+   },
+   {
+    "line_id": "L5-3",
+    "kind": "future_scenario",
+    "text": "A move is planned for a time when it can go well"
+   }
+  ],
+  "items": [
+   {
+    "key": "p4",
+    "id": "agi-499762",
+    "quote": "So far I haven't even found a nursing home with physical therapy options that will accept her having medicare, all are refusing her."
+   },
+   {
+    "key": "p9",
+    "id": "alz-77386",
+    "quote": "I am struggling in giving her the respect of seeing her future home"
+   },
+   {
+    "key": "p18",
+    "id": "alz-77399",
+    "quote": "It is so hard to know if we are doing the right thing."
+   },
+   {
+    "key": "p45",
+    "id": "agi-499433",
+    "quote": "I was going to call about getting her into a nursing home but kept stalling and lately just hiding in my room most of the day"
+   },
+   {
+    "key": "p50",
+    "id": "alz-77385",
+    "quote": "In our state there are not may facilities that offer help to those patients with aggression caused by the dementia"
+   },
+   {
+    "key": "p73",
+    "id": "alz-77401",
+    "quote": "My Mom had agreed to move into AL and then turned around yesterday (about a week before it was time to move) and says 100% no way."
+   }
+  ]
+ },
+ {
+  "theme": "Staying safe at home",
+  "lines": [
+   {
+    "line_id": "L6-0",
+    "kind": "business_goal",
+    "text": "We want the person to stay safe at home without constant watching."
+   },
+   {
+    "line_id": "L6-1",
+    "kind": "future_scenario",
+    "text": "The caregiver knows if the person left home or fell"
+   },
+   {
+    "line_id": "L6-2",
+    "kind": "future_scenario",
+    "text": "Hazards such as the stove do not cause harm"
+   },
+   {
+    "line_id": "L6-3",
+    "kind": "future_scenario",
+    "text": "A person who wanders is found quickly"
+   }
+  ],
+  "items": [
+   {
+    "key": "p47",
+    "id": "agi-499433",
+    "quote": "she had fallen and I didnt know when."
+   },
+   {
+    "key": "p62",
+    "id": "alz-77417",
+    "quote": "he was occasionally leaving it on and burning pans"
+   },
+   {
+    "key": "p68",
+    "id": "alz-77382",
+    "quote": "My mom has recently become wheelchair bound and keeps attempting to stand or walk and falls."
+   },
+   {
+    "key": "p90",
+    "id": "agi-499659",
+    "quote": "I still worry she will leave something on and cause a fire or something if she gets more forgetful."
+   },
+   {
+    "key": "p120",
+    "id": "alz-77129",
+    "quote": "She has walked, \"jogged\", alone, up and down the street we live on every day and only recently, and on only one occasion (that we know of) gotten disoriented and lost."
+   },
+   {
+    "key": "p142",
+    "id": "alz-77393",
+    "quote": "My mom wandered from her usual walking route and was brought home by police after a neighbor recognized a disoriented senior on a bench in our neighborhood."
+   }
+  ]
+ },
+ {
+  "theme": "Getting answers from doctors and hospitals",
+  "lines": [
+   {
+    "line_id": "L7-0",
+    "kind": "business_goal",
+    "text": "We want families to get clear information and quick callbacks from doctors, hospitals and programs."
+   },
+   {
+    "line_id": "L7-1",
+    "kind": "future_scenario",
+    "text": "A caregiver gets a diagnosis sooner"
+   },
+   {
+    "line_id": "L7-2",
+    "kind": "future_scenario",
+    "text": "A caregiver gets a callback within days, not weeks"
+   },
+   {
+    "line_id": "L7-3",
+    "kind": "future_scenario",
+    "text": "Privacy rules do not leave the caregiver without answers"
+   }
+  ],
+  "items": [
+   {
+    "key": "p5",
+    "id": "agi-499762",
+    "quote": "I can't get the hospital to tell me a straight answer."
+   },
+   {
+    "key": "p14",
+    "id": "alz-77005",
+    "quote": "I'm starting to realize what a disadvantage we've been at, having had so little information."
+   },
+   {
+    "key": "p39",
+    "id": "alz-77366",
+    "quote": "I never saw any paperwork of a diagnosis."
+   },
+   {
+    "key": "p49",
+    "id": "alz-77385",
+    "quote": "His diagnosis was missed by several doctors and with HIPPA, if it was caught, no one knew so we could start getting help sooner."
+   },
+   {
+    "key": "p51",
+    "id": "alz-77385",
+    "quote": "he bounced in and out of ER rooms, hospital stays and in his final days, an adult psychiatric ward."
+   },
+   {
+    "key": "p52",
+    "id": "alz-77385",
+    "quote": "We missed out on so much time because we didn't know."
+   }
+  ]
+ },
+ {
+  "theme": "Being far away and not knowing what is happening",
+  "lines": [
+   {
+    "line_id": "L8-0",
+    "kind": "business_goal",
+    "text": "We want relatives who live far away to stay informed and able to help."
+   },
+   {
+    "line_id": "L8-1",
+    "kind": "future_scenario",
+    "text": "A caregiver far away has the information the people near the parent have"
+   },
+   {
+    "line_id": "L8-2",
+    "kind": "future_scenario",
+    "text": "Calls and visits from far away still help the parent"
+   }
+  ],
+  "items": [
+   {
+    "key": "p27",
+    "id": "agi-499712",
+    "quote": "I’m POA to my elderly mother who lives out of state and I have been dealing with missing information from people close to her who live in her town which is causing me a great deal of stress"
+   },
+   {
+    "key": "p29",
+    "id": "agi-499712",
+    "quote": "Basically everything is in disarray due to the distance and communication problems and lack of communication from people close to her."
+   },
+   {
+    "key": "p134",
+    "id": "alz-77460",
+    "quote": "I feel like I can’t even call her (I don’t live nearby) because I will just be a reminder of my dad."
+   }
+  ]
+ }
+]
