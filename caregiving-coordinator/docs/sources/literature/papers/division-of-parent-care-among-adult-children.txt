@@ -1,0 +1,650 @@
+J Gerontol B Psychol Sci Soc Sci
+. 2019 Dec 28;75(10):2230–2239. doi: 10.1093/geronb/gbz162
+
+Division of Parent Care Among Adult Children
+
+I-Fen Lin
+
+I-Fen Lin, PhD
+
+1
+Department of Sociology, Bowling Green State University, Ohio
+
+Find articles by I-Fen Lin
+
+1,✉, Douglas A Wolf
+
+Douglas A Wolf, PhD
+
+2
+Maxwell School of Citizenship and Public Affairs, Syracuse University, New York
+
+Find articles by Douglas A Wolf
+
+2
+
+Editor: J Jill Suitor
+
+Author information
+
+Article notes
+
+Copyright and License information
+
+1
+Department of Sociology, Bowling Green State University, Ohio
+
+2
+Maxwell School of Citizenship and Public Affairs, Syracuse University, New York
+
+✉Address correspondence to: I-Fen Lin, PhD, Department of Sociology, Bowling Green State University, 217 Williams Hall, Bowling Green, OH 43403-0222. E-mail: ifenlin@bgsu.edu
+
+Roles
+
+J Jill Suitor: PhD, Decision Editor
+
+Received 2019 Jul 18; Collection date 2020 Dec.
+
+© The Author(s) 2019. Published by Oxford University Press on behalf of The Gerontological Society of America. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.
+
+This article is published and distributed under the terms of the Oxford University Press, Standard Journals Publication Model (https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model)
+
+PMC Copyright notice
+
+PMCID: PMC7751154  PMID: 31883022
+
+Abstract
+
+Objectives
+
+Many older adults rely on their children’s support to sustain community residence. Although filial norms encourage adult children to help their parents, not every child provides parent care in times of need. The majority of prior studies have adopted an individualistic perspective to examine factors associated with individual children’s caregiving behavior. This study complements previous work by using the family systems perspective to understand how caregiving responsibilities are allocated among children in the family and how the pattern of care division evolves over time.
+
+Method
+
+Data came from seven rounds of the National Health and Aging Trends Study (2011–2017), in which community-dwelling respondents were asked about all of their children and which children provided them with care. Multilevel models were estimated to examine how caregiving responsibilities were distributed among children and how the children’s caregiving efforts responded to changes in their parents’ frailty.
+
+Results
+
+About three quarters of older adults reported receiving help from only one child, and the average of monthly care hours was about 50 at baseline. As parents’ frailty increased, the proportion of children providing parents rose and the allocation of parent-care hours became more equal.
+
+Discussion
+
+This study underscores the importance of using the family systems perspective to better understand adult children’s caregiving behavior. Although just one adult child providing care is the most common caregiving arrangement initially, adult children tend to work with their siblings to support parents’ aging in place as parents’ need for care increases.
+
+Keywords: Equality index, Family systems perspective, Frailty index, Individualistic perspective, Primary caregiver, Shared caregiving
+
+Adult children play an integral role in caring for parents. Many older adults rely on their children’s support to continue living in the community (Wolff, Spillman, Freedman, & Kasper, 2016). Although filial norms encourage all adult children to help their parents, not every child in the family cares for their parents in times of need (Checkovich & Stern, 2002; Pezzin, Pollak, & Schone, 2015). Therefore, gerontology scholars have extensively studied which children in the family are likely to help parents when needs arise (Henretta, Soldo, & van Voorhis, 2011; Leopold, Raab, & Engelhardt, 2014; Pillemer & Suitor, 2014).
+
+Most of these prior studies, however, have adopted an individualistic perspective, ignoring the fact that a child’s caregiving behavior may influence or be influenced by the care that their siblings provide to the parents (Checkovich & Stern, 2002; Pezzin et al., 2015; Wolf, Freedman, & Soldo, 1997). A handful of scholars have adopted the family systems perspective, incorporating all children’s care efforts, to study the dispersion of caregiving responsibilities at the family level (Keith, 1995; Matthews & Rosner, 1988), but these studies have been based on cross-sectional data. Thus, we know little about whether and how siblings divide care in response to their parents’ evolving frailty over time. Understanding how caregiving responsibilities are allocated among siblings is important, because an unequal allocation often leads to sibling conflict and caregiver stress (Ingersoll-Dayton, Neal, Ha, & Hammer, 2003; Merrill, 1996; Tolkacheva, van Groenou, DE Boer, & van Tilburg, 2011). Greater sharing of caregiving labor is likely to sustain informal caregiving and help older adults continue to age in place.
+
+Using seven rounds of data from the National Health and Aging Trends Study (2011–2017), we adopted the family systems perspective and followed a nationally representative sample of community-dwelling adults ages 65 years and older to examine how siblings react to their parents’ increasing frailty. Specifically, we asked two questions: As parents become frailer, does the share of children participating in parent care grow, and does the parent-care hour allocation become more equal?
+
+Background
+
+Family Systems Perspective on Caregiving
+
+According to the family systems perspective (Cox & Paley, 1997), family is conceptualized as a system consisting of individuals who continuously exert reciprocal influences on one another. Each individual family member is embedded in a larger family system and thus cannot be understood in isolation and instead, needs to be studied in relation to the presence of other family members. Moreover, family members interact with each other to shape the behaviors of individual members and create a family with a unique cultural and behavioral pattern. Hence, to understand family behavior, one needs to focus on what is occurring at the family level as a whole, as opposed to merely examining individual family members (Fingerman & Bermann, 2000).
+
+In families in which older parents have multiple children and need help, one child’s caregiving behavior is likely to influence and be influenced by the help that his or her siblings provide to the parents. Moreover, siblings in different families may form their own unique ways of coping with parents’ failing health. Therefore, to understand adult children’s caregiving behavior, it is imperative to consider not only mutual influences in caregiving behavior among siblings but also the patterns of care division at the family level.
+
+Much of our understanding of parent care among adult children comes from studies that adopt an individualistic perspective, focusing on what characteristics of children and families are associated with individual children’s caregiving proclivity and intensity. Prior studies have adopted two predominant approaches (Szinovacz & Davey, 2013). The first approach uses information on multiple or all children in the family and examines which children are likely to provide care and how many hours of care they provide (Leopold et al., 2014; Pillemer & Suitor, 2014). The second approach aggregates children’s characteristics at the family level and examines how sibling composition and the extent to which siblings share similar characteristics are related to individual children’s caregiving behavior (Henretta et al., 2011; Lin & Wu, 2019). Although both approaches consider multiple or all children in the family, neither takes into account how children’s caregiving behavior influences and is influenced by that of their siblings.
+
+In recent years, scholars have called for including the care efforts of all children in the family to study adult children’s caregiving behavior (Blieszner & Voorpostel, 2016; Davey & Szinovacz, 2008). Using the first wave of data from the Assets and Health Dynamics among the Oldest Old study (AHEAD), Wolf and colleagues (1997) found that adult children provided fewer hours of help with (instrumental) activities of daily living (ADL and IADL) to their unmarried parents when their siblings provided more hours of help. Similar findings were found in Checkovich and Stern’s (2002) study based on two cross-sectional waves of data from the National Long-Term Care Survey (NLTCS). Another study, using two-wave panel data from the Health and Retirement Study (Pezzin et al., 2015), showed that adult children were less likely to provide ADL and IADL help and provided fewer hours of help when their siblings began coresiding with their parents, but adult children were more likely to help and gave more hours of care when their siblings stopped living with their parents. In contrast, a Dutch study (Tolkacheva, van Groenou, & van Tilburg, 2010) revealed that as their siblings provide care to the parents with greater the frequency, the more often children provided care. Together, these findings support that mutual influences help shape adult children’s care efforts, but these studies have focused on caregiving at the child level and do not inform us about how parent care is allocated among children at the family level.
+
+How parent care is allocated among siblings is likely to determine how long the support from the adult children can be sustained. When the allocation of caregiving responsibilities among siblings is unequal, adult child caregivers often report considerable distress and anger (Ingersoll-Dayton et al., 2003), whereas adult child caregivers perceive less stress when more of the caregiving responsibilities are shared (Tolkacheva et al., 2011). A more equal division of caregiving responsibilities among siblings may reduce conflict and facilitate cooperation (Merrill, 1996), subsequently helping older parents remain in the community longer.
+
+Division of Caregiving Responsibilities Among Siblings
+
+A handful of scholars have studied the division of caregiving responsibilities among adult children at the family level, but they have reached different conclusions. One set of findings can be regarded as supporting the primary caregiver model. By interviewing adult daughters and sons of 31 cognitively impaired mothers aged 60 years or older, for example, Keith (1995) found that in the majority of her study families, one adult child carried all or most of the caregiving responsibilities. Her finding is consistent with Horowitz’s (1985) observation made a decade earlier that one family member often serves as the primary caregiver and that siblings rarely share responsibilities (see also Merrill, 1996).
+
+Another set of findings can be regarded as supporting the shared caregiving model. Using qualitative interviews of 50 pairs of sisters who had at least one parent aged 75 or older, Matthews and Rosner (1988) found that the sister pairs often routinely participated in caregiving, with additional help from other siblings. The shared caregiving model was also indirectly supported by a quantitative study. Using NLTCS data, Dwyer, Henretta, Coward, and Barton (1992) showed that adult children were likely to initiate ADL/IADL assistance for their parents ages 65 years and older when they had a sibling who also started the same type of help, signaling that the siblings were working in tandem to help their parents.
+
+Whether the division of caregiving responsibilities among siblings leans toward either the primary caregiver model or the shared caregiving model may depend on parents’ care needs. Because the abovementioned studies were conducted at different stages of parents’ lives and in the presence of different types of illnesses, it is difficult to draw general conclusions about how caregiving responsibilities are allocated among siblings.
+
+Furthermore, older adults’ health ultimately declines. How do siblings respond to their parents’ increasing needs for care as a whole? To the best of our knowledge, only one study has addressed this question. By examining 186 Dutch families, Tolkacheva and colleagues (2014) found that siblings shared caregiving responsibilities in between 42% and 76% of the families, depending on family size. In addition, they showed that the pattern of care division remained stable regardless of parents’ care needs. Specifically, the parents’ ADL difficulties, self-perceived health, and number of chronic conditions were unrelated to their adult children’s propensity to share caregiving. The distribution of help frequency among siblings also was unrelated to parents’ perceived health and number of chronic conditions, though the frequency of help became more equally distributed when parents had fewer ADL difficulties. Because the study was based on cross-sectional data in a Dutch context, it is unclear whether the same pattern would be observed in the United States using longitudinal data.
+
+In the U.S. context, evidence suggests that as parents’ frailty increases, more children become involved in caregiving and children contribute more hours of care, after controlling for their siblings’ care efforts. For instance, Pezzin and colleagues (2015) found that adult children were more likely to provide ADL or IADL help and spent more hours in caregiving when their unmarried parents experienced more ADL difficulties, holding their siblings and parents’ coresidence status constant. Likewise, Wolf and colleagues (1997) and Checkovich and Stern (2002) showed that adult children’s care hours increased when their parents had more ADL or IADL difficulties, after taking their siblings’ hours of care into consideration. Together, these studies indicate that the division of caregiving responsibilities at the family level may become more widespread and equal across siblings as parents’ needs for support increase.
+
+The Present Study
+
+Many older adults rely on their adult children to age in place. Prior studies have extensively examined factors associated with which children in the family are likely to become caregivers and their care hours, but these studies either overlook mutual influences in adult children’s care efforts (Lin & Wu, 2019; Pillemer & Suitor, 2014) or focus on caregiving at the child level (Pezzin et al., 2015; Wolf et al., 1997). Although a handful of studies have adopted the family systems perspective to take into account all children’s care efforts and examine how caregiving responsibilities are dispersed among siblings, it is unclear whether the pattern of care division tends to be more in line with the primary caregiver model (Keith, 1995; Merrill, 1996) or the shared caregiving model (Dwyer et al., 1992; Matthews & Rosner, 1988). In this study, we follow a nationally representative sample of community-dwelling older adults over a 7-year period to understand how the division of parent care among adult children changes in response to their parents’ increasing frailty.
+
+Based on Tolkacheva and colleagues’ (2014) study, one would expect that as older adults’ frailty increases, there would be no appreciable change in the share of children providing care and the dispersion of care hours. That study, however, was based on cross-sectional data and conducted in a Dutch context. In the United States, research has consistently shown that adult children are more likely to help older parents and provide more care hours when their parents’ needs for support increase, holding their siblings’ care efforts constant. Thus, as older parents’ frailty increases, a greater share of children in the family may participate in caregiving and the division of care hours may become more equal over time.
+
+Prior studies also have shown that daughters, biological children, and children with fewer competing demands—for example, being unpartnered or having no minor children of their own—are more likely to provide care and provide more hours of care to their parents compared with their respective counterparts (Henretta et al., 2011; Leopold et al., 2014; Pillemer & Suitor, 2014). Thus, we expect that a higher proportion of children in the family who are daughters, are biological children of the parents, are unpartnered, or have no minor children of their own would be related to a higher proportion of children providing care and a more equal distribution of care hours. In addition to controls for children’s characteristics, we also consider parents’ age, gender, race-ethnicity, and education. Age, being a woman, minority status, and low socioeconomic status are positively related to frailty status (Bandeen-Roche et al., 2015), as well as to adult children’s propensity to help their parents and the number of hours that they actually help (Henretta et al., 2011; Leopold et al., 2014; Pillemer & Suitor, 2014).
+
+Method
+
+Data used in the analysis came from seven rounds (2011–2017) of the National Health and Aging Trends Study (NHATS), a nationally representative sample of persons who were ages 65 years and older and enrolled in Medicare as of September 30, 2010. The data were collected through in-person interviews conducted annually since 2011. Persons at older ages and non-Hispanic blacks were oversampled. In total, 8,245 older adults completed the initial interview, representing a 71% response rate. Follow-up response rates were between 74% and 92% (Kasper & Freedman, 2018). We restricted our analytic sample to older adults in the rounds during which they lived in the community (n = 7,231), had at least two children (n = 5,715), received help from at least one child (n = 3,339), and reported the care hours of each child from whom they received help (n = 3,316). We focused on community-dwelling older adults, because unlike older adults living in a residential-care setting or a nursing home, informal care is their major source of support. Moreover, questions regarding frailty (described in the Measures section) were not asked of older adults who lived in a nursing home in 2011. We excluded older adults who were childless or had only one child, who did not receive help from any children, or who did not report children’s care hours, because the division of parent care at the family level is meaningful only when at least two children are available to divide the total parent-care hours (for detailed information about how the equality index of parent-care hour allocations was constructed, see the Measures section). The final sample consisted of 8,676 person-interview year observations on 3,316 older adults.
+
+The NHATS offers an exceptional opportunity to study the association between older adults’ frailty and care received from children, because it asked for detailed information about older adults’ physical and cognitive capacities, as well as information about all children, including stepchildren. The NHATS asked respondents whether someone had helped them with each of the following activities in the last month or the last year prior to the interview: going outside, getting around inside the home, getting out of bed, eating, getting cleaned up, using the toilet, getting dressed, doing laundry, shopping for groceries or personal items, making hot meals, handling bills and banking, keeping track of medications, sitting in on physician visits, helping make decisions about insurance or drug plans, and providing transportation. For each activity, when older adults reported that someone had helped them, the NHATS followed up with questions asking from whom they had received the help and their relationship to the helper. After going through all activities, respondents were asked how much time in the last month each caregiver had spent helping them. Together, these questions made it possible to identify which children provided care and the total number of hours in the last month each child caregiver spent.
+
+Measures
+
+Proportion of children providing care
+
+Proportion of children providing care is the number of children that spent any time providing care to a respondent in the last month, divided by the respondent’s total number of children. The ratio is greater than 0, because the analysis was restricted to families in which at least one child provided care. The maximum possible value is 1, indicating that all children in the family provided care to the respondent.
+
+Equality index of parent-care hour allocations
+
+We first calculated each child’s share of the total parent-care hours provided by children. The most equal allocation was the one in which all children participated and contributed the same number of hours of parent care; the most unequal allocation was the one in which only one child provided all the care, while other children provided no care. The standard deviation (SD) of care-hour shares, at the family level, is a possible index of inequality: An SD of 0 would correspond to perfect equality, with increasingly large SDs corresponding to increasing inequality. The SD of the maximally unequal allocation, however, is a decreasing function of family size. Therefore, we divided the family’s SD of children’s shares of total care hours by the maximum SD for the respective family size to permit comparisons across families of different sizes. Finally, we subtracted this inequality ratio from 1 to produce an equality index of parent-care allocations, which can range from 0 to 1, with a higher ratio indicating a care-hour division closer to equality.
+
+Needs for care
+
+Following Rockwood and Mitnitski’s (2007) conceptualization of frailty as deficit accumulation, we used 45 deficits that are associated with health status and that generally increase with age to construct a frailty index (Searle, Mitnitski, Gahbauer, Gill, & Rockwood, 2008). These deficits include health conditions, sensory impairment and symptoms, physical incapacity, poor cognition, and mobility and self-care difficulties.
+
+Specifically, health conditions consist of self-rated health (1 = poor or fair, 0 = good, very good, or excellent); chronic health conditions (heart attack, heart disease, high blood pressure, arthritis, osteoporosis, diabetes, lung disease, stroke, or cancer; 1 = yes, 0 = no); fall in last year (1 = yes, 0 = no); and depressive symptoms in the last month (had little interest, felt down, felt nervous, and felt worried, 1 = nearly every day, more than half the days, or several days, 0 = not at all).
+
+Sensory impairment and symptoms comprised problems with chewing or swallowing, speaking, breathing, upper body movement, lower body movement, low energy, or balance (1 = yes, 0 = no), as well as pain at nine specific sites (back, hip, knee, foot, hand, wrist, shoulder, head, or neck, 1 = yes, 0 = no).
+
+Physical incapacity gauged difficulties with walking six blocks (= 1), going up 20 stairs (= 1), carrying 20 pounds (= 1), bending over or getting on hands and knees (= 1), reaching overhead or putting heavy objects overhead (= 1), and grasping small objects or opening jars (= 1).
+
+Cognition was indicated as probable or possible dementia (= 1) or no dementia (= 0) (Kasper, Freedman, Spillman, & Skehan, 2015; Skehan & Spillman, 2013). Finally, mobility and self-care activities encompassed difficulties with going outside, moving around inside, getting out of bed, eating, bathing, using the toilet, or dressing (1 = did not do by self or did by self with difficulty, 0 = no).
+
+We divided the total number of deficits by 45 to obtain a frailty index, ranging from 0 to 1. An important feature of this frailty index is that it was measured independently of any help received. Moreover, these deficits were weighted equally based on the assumption that the more deficits one has, the frailer the person becomes (Rockwood & Mitnitski, 2007). The exact list of deficits included in the calculation of such a frailty index is not crucial, because with 30 or more deficits, the index has been shown to have a high predictive validity of adverse outcomes, such as death and institutionalization (Dent, Kowal, & Hoogendijk, 2016; Searle et al., 2008).
+
+Parents’ demographic characteristics
+
+Older adults’ age was measured in years. Gender included mother and father (reference category). Marital status consisted of four categories: married or cohabiting (reference category), separated or divorced, widowed, or never married. Race and ethnicity were classified as white (reference category), black, Hispanic, and others. Educational attainment was coded using four categories: less than high-school education (including no schooling and 1st to 12th grade), high-school graduate (reference category), some college (including vocational school, some college education, or an associate’s degree), and a bachelor’s degree or more.
+
+Family composition
+
+Family composition includes the proportions of children who were daughters, who were biological children of the respondents, who were unpartnered (i.e., being separated, divorced, widowed, or never married), and who had minor children of their own, respectively.
+
+Missing data were modest, ranging from 0.01% for cognition to 4.99% for the proportion of children who had minor children of their own. We performed multiple imputation using chained equations (MICE), the mi impute chained command in Stata, which imputed missing values for a given variable as a function of other covariates and the dependent variables in the models (Raghunathan, Lepkowski, van Hoewyk, & Solenberger, 2001; van Buuren, Boshuizen, & Knook, 1999). The results were based on 10 random, multiplely imputed replicates.
+
+Analytic Strategy
+
+The study comprises three analyses. The first analysis used means or percentages (as appropriate) to describe the baseline characteristics of respondents in the sample. The second analysis included three multilevel models (Singer & Willett, 2003), using the frailty index, the proportion of children providing care, and the equality index of parent-care hour allocation as the respective dependent variables and year as the sole predictor variable. This analysis informs how older adults’ frailty and the division of caregiving responsibilities changed over time. Because repeated measures of parent care were nested within respondents, a two-level model was estimated. The model is specified as follows:
+
+Level 1 Yit=π0i+π1iYearit+εit
+
+Level 2 π0i=γ00+ζ0i
+
+π1i=γ10+ζ1i
+
+The Level 1 equation describes how frailty and the parent care outcomes (i.e., the proportion of children providing care and the equality index of parent-care hour allocation) changed over time (represented by Year, 0–6). The Level 1 equation includes an intercept (π0i, frailty/care measured at year 0 for parent i); a slope for year (π1i, rate of change in parent i’s frailty/care trajectory after year 0); and εit, the error term for observation t of parent i. The Level 2 equations describe how the change in frailty/care differs between parents. Coefficients γ00 and γ10 are population averages of the Level-1 intercept and slope, respectively. ζ 0i and ζ 1i are the variances of the Level-1 intercept and slope, respectively.
+
+The third analysis consists of two multilevel models that use the proportion of children providing care and the equality index of parent-care hour allocation as the respective dependent variables. We included a vector of time-varying covariates χit in the Level-1 equation (e.g., the frailty index; parent’s marital status; and the proportions of children that were daughters, biological children, unpartnered, and with minor children of their own). We also included a vector of time-invariant covariates xmi in the Level-2 equation (e.g., parent’s age at baseline, gender, race and ethnic background, and education) to account for the between-parent variation.
+
+Level 1 Yit=π0i+π1iYearit+πkixit+εit
+
+Level 2 π0i=γ00+γ0mxmi+ζ0i
+
+π1i=γ10+ζ1i
+
+All analyses were weighted to adjust for nonresponse and for the oversampling of persons at older ages and non-Hispanic blacks. For the first analysis, the 2011 sample weights were used to adjust for the unequal probability of selection. For the second analysis, we applied normalized round-specific sample weights to Level 1 and the 2011 sample weights to Level 2 of the model (Heeringa, West, & Berglund, 2017). We also computed robust standard errors to reflect the intraclustering correlations arising from the NHATS sampling strata.
+
+Results
+
+Characteristics of the Parents
+
+Table 1 displays the parents’ characteristics at baseline. The analytic sample consists of 3,316 parents, whose ages ranged from 66 to 106 (not shown), with an average of 77 in 2011. Approximately two thirds of them were mothers (66%). Nearly 8 in 10 parents were white, 9.7% were black, 8.5% were Hispanic, and 4% belonged to other races. More than one quarter of the parents had not obtained a high-school diploma, 28.5% had received a high-school diploma, 24.1% had acquired some college education, and 19.7% had completed a bachelor’s degree or more. Slightly less than one half of the parents were married or cohabiting, 13.5% were separated or divorced, 39.5% were widowed, and less than 1% were never married.
+
+Table 1.
+
+Weighted Mean (standard deviation) or Percentage for the Characteristics of Older Adults at Baseline
+
+M or %
+
+SD
+
+Age in 2011
+77.00
+7.26
+
+Gender
+
+ Mother
+65.78
+
+ Father
+34.22
+
+Race and ethnicity
+
+ White
+77.81
+
+ Black
+9.66
+
+ Hispanic
+8.51
+
+ Other races
+4.02
+
+Education
+
+ Less than high school
+27.58
+
+ High school
+28.54
+
+ Some college
+24.14
+
+ College or more
+19.74
+
+Marital status
+
+ Married or cohabiting
+46.21
+
+ Separated or divorced
+13.45
+
+ Widowed
+39.51
+
+ Never married
+0.83
+
+Family composition
+
+ Proportion of children that are daughters
+0.52
+0.28
+
+ Proportion of children that are biological children
+0.94
+0.17
+
+ Proportion of children that are unpartnered
+0.34
+0.30
+
+ Proportion of children with minor children
+0.34
+0.32
+
+Number of deficits
+13.86
+8.64
+
+Frailty index
+0.31
+0.19
+
+Parents with only one child caregiver
+73.77
+
+Proportion of children providing care
+0.41
+0.21
+
+Number of parent-care hours in the last month
+49.62
+126.69
+
+Equality index of parent-care hour allocation
+0.10
+0.20
+
+Number of older adults
+3,316
+
+Open in a new tab
+
+Note: SD = standard deviation.
+
+These parents typically had four children, including stepchildren (not shown). Taking into account all children in the family informs us about how the distribution of children’s characteristics in the family was related to the proportion of children providing care and the equality of parent-care hour allocation. On average, 52% of children in the family were daughters, 94% of the children were biological children of the parents, 34% of the children were unpartnered, and 34% of the children had an offspring under age 18.
+
+These parents reported an average of 13.9 deficits (out of 45) at baseline, translating to a frailty index of 0.31. Nearly three quarters of parents reported that only one child helped them. On average, 41% of children in the family provided care to their parents. These parents had received an average of 49.6 hr of care in the last month from their children. The allocation of parent-care hours was far from equal, as the average equality index reached a mere 0.10.
+
+Frailty and the Division of Caregiving Responsibilities Over Time
+
+Table 1 depicts that the primary caregiver model was the most common pattern of care division among adult children at baseline (73.8%). Did the pattern change over time? To answer this question, we estimated three multilevel models to examine how parent’s frailty, the proportion of children providing care, and the equality index of parent-care hour allocation varied over time. The results in Table 2 show that the frailty index increased each year by an average of 0.012 unit (p < .001). Nonetheless, neither the proportion of children providing care nor the equality index of parent-care hour allocation increased over the study period.
+
+Table 2.
+
+Regression Coefficients (standard errors) from Multilevel Models Predicting Frailty Index and the Division of Caregiving Responsibilities
+
+Frailty index
+
+Proportion of children providing care
+
+Equality index of parent-care hour allocation
+
+Year
+0.012***
+(0.001)
+−0.000
+(0.001)
+−0.001
+(0.001)
+
+Constant
+0.298***
+(0.006)
+0.413***
+(0.005)
+0.102***
+(0.005)
+
+Random components
+
+ SD Within-person
+0.078 
+(0.002)
+0.136
+(0.003)
+0.161
+(0.004)
+
+ SD Initial status (1)
+0.181 
+(0.003)
+0.175
+(0.005)
+0.144
+(0.009)
+
+ SD Rate of change (2)
+0.016 
+(0.002)
+0.020
+(0.003)
+0.024
+(0.003)
+
+ Correlation between (1) and (2)
+−0.229 
+(0.055)
+−0.429
+(0.060)
+−0.625
+(0.061)
+
+Number of person-interview years
+8,676
+
+8,676
+
+8,676
+
+Open in a new tab
+
+Note: SD = standard deviation.
+
+*p < .05; **p < .01; **p < .001 (two-tailed tests)
+
+Division of Caregiving Responsibilities in Response to Increasing Frailty
+
+Next, we investigated whether and to what extent the division of family caregiving labor responded to parents’ increasing needs for support. Table 3 shows the regression coefficients and their associated standard errors (in parentheses) from the multilevel models predicting the proportion of children providing care and the equality index of parent-care labor allocation, respectively. The first model indicates that the proportion of children providing care rose as the parents’ frailty index increased (0.129), signaling that the division of caregiving responsibilities became more widespread across children when parents had a greater care need. Moreover, holding parents’ care needs constant, the proportion of children providing care was higher when parents were older (0.002), when parents had a college degree or more (0.023), or when parents were unpartnered (0.023 for separated or divorced and 0.028 for widowed). Yet the share of children providing care was lower for minority parents (−0.025 for blacks and −0.032 for Hispanics) and for parents without a high-school diploma (−0.035), relative to their respective counterparts, which likely reflects higher fertility among minority parents and parents with less education. Given the same number of child caregivers, the more children a parent had, the lower was the proportion of children providing care. Children’s characteristics were also related to their propensity to provide care. The more daughters (0.050) and biological children (0.230) a parent had, the higher was the proportion of children providing care. In contrast, the more children who had minor children of their own, the lower was the proportion of children providing care (−0.023).
+
+Table 3.
+
+Regression Coefficients (standard errors) from Multilevel Models Predicting the Proportion of Children Providing Care and the Equality Index of Parent-Care Hour Allocation
+
+Proportion of children providing care
+
+Equality index of parent-care hour allocation
+
+Year
+−0.002
+(0.001)
+−0.001
+(0.001)
+
+Frailty index
+0.129***
+(0.014)
+0.094***
+(0.014)
+
+Age in 2011
+0.002**
+(0.001)
+0.001**
+(0.000)
+
+Mother (ref.: Father)
+0.007
+(0.008)
+0.009
+(0.007)
+
+Race and ethnicity (ref.: White)
+
+ Black
+−0.025*
+(0.010)
+0.013
+(0.008)
+
+ Hispanic
+−0.032*
+(0.015)
+0.011
+(0.013)
+
+ Other races
+0.010
+(0.018)
+0.020
+(0.018)
+
+Education (ref.: High school)
+
+ Less than high school
+−0.035***
+(0.010)
+−0.002
+(0.009)
+
+ Some college
+−0.001
+(0.010)
+−0.006
+(0.008)
+
+ College or more
+0.023*
+(0.011)
+0.001
+(0.011)
+
+Marital status (ref.: Married or cohabiting)
+
+ Separated or divorced
+0.023*
+(0.009)
+0.005
+(0.009)
+
+ Widowed
+0.028***
+(0.008)
+0.023***
+(0.006)
+
+ Never married
+0.037
+(0.046)
+−0.006
+(0.039)
+
+Family composition
+
+ Proportion of children that are daughters
+0.050***
+(0.012)
+0.027**
+(0.010)
+
+ Proportion of children that are biological children
+0.230***
+(0.017)
+0.088*** 
+(0.015)
+
+ Proportion of children that are unpartnered
+0.019
+(0.012)
+−0.012
+(0.012)
+
+ Proportion of children with minor children
+−0.023*
+(0.011)
+−0.004
+(0.011)
+
+Constant
+0.002
+(0.051)
+−0.147***
+(0.042)
+
+Random components
+
+ SD Within-person
+0.135
+(0.003)
+0.161
+(0.004)
+
+ SD Initial status (1)
+0.168
+(0.005)
+0.142
+(0.008)
+
+ SD Rate of change (2)
+0.019
+(0.002)
+0.024
+(0.003)
+
+ Correlation between (1) and (2)
+−0.477
+(0.060)
+−0.656
+(0.058)
+
+Number of person-interview years
+8,676
+
+8,676
+
+Open in a new tab
+
+Note: SD = standard deviation.
+
+*p < .05; **p < .01; ***p < .001 (two-tailed tests).
+
+We further examined whether the allocation of parent-care hours was associated with parents’ increasing needs for support. The second model reveals that as parents’ frailty increased, the distribution of children’s care hours became more equal (0.094). Like the share of children providing care, the division of care hours became more equal when parents were older (0.001) or widowed (0.023). Families in which there was a greater share of daughters (0.027) or biological children (0.088) reported a more equal division of parent-care hours. Unlike the share of children providing care, though, parents’ race-ethnicity and education were unrelated to children’s division of caregiving labor.
+
+Discussion
+
+Our study is the first to examine the division of caregiving responsibilities among adult children in response to parents’ increasing frailty over time. Following a nationally representative sample of community-dwelling older adults over 7 years, we found that adult children’s care division most often begins in a way that is consistent with the primary caregiver model. Over time, however, parents become frailer, and the division of caregiving responsibilities gradually shifts toward the shared caregiving model. As parents’ frailty increases, a greater share of children participate in caregiving and the dispersion of parent-care hours becomes more equal.
+
+Our findings are consistent with the prediction, based on prior studies, that adult children have a greater propensity to help when parents’ needs increase, conditional on their siblings’ caregiving behavior (Checkovich & Stern, 2002; Pezzin et al., 2015; Wolf et al., 1997); however, they differ from Tolkacheva and colleagues’ (2014) finding that siblings share caregiving responsibilities, with the dispersion of caregiving labor remaining stable irrespective of parent’s frailty. The difference may have occurred because our frailty measure captured a wider spectrum of parents’ care needs (45 deficits) than did Tolkacheva and colleagues’ (e.g., ADL, self-rated health, and chronic health conditions). In addition, our equality measure is more precise than theirs, as we gauged the exact hours of care as opposed to the frequency of care (never, seldom, sometimes, and often). Alternatively, the difference could be attributable to different cultural expectations and social welfare regimes, in which the Netherlands has stronger public care systems than the United States. Therefore, American adults may feel more obligated to help their parents and are more likely to step in to help when parents’ needs for support arise than their Dutch counterparts (Cooney & Dykstra, 2011).
+
+Besides frailty, we also found that the distribution of caregiving responsibilities was more widespread and equal among children for older parents and widowed parents than for younger and partnered parents, respectively. Congruent with our expectation, the greater the proportion of children that were daughters or biological children, the more children participated in caregiving and the more equal the allocation of parent-care hours was. The proportion of children with minor children of their own was inversely associated with the proportion of children providing care. Nevertheless, the proportion of unpartnered children was unrelated to the proportion of children providing care, and the proportions of unpartnered children and those with minor children of their own were unrelated to the equality index of parent-care hour allocation. Although partnered children and children with minor children of their own tend to provide fewer care hours, when a larger share of children have the same partnership or parenthood status, it may become more difficult for adult children to use these statuses as “legitimate excuses” (Finch & Mason, 1993) for not helping, subsequently resulting in null findings. Another plausible cause of the null findings is that children’s marital status and parenthood status were not updated at every round of the NHATS. Although we took children’s survival status and new children added in later interviews into consideration, the measures may not have fully captured adult children’s competing demands concurrently.
+
+Some limitations should be kept in mind when interpreting the results. First, the NHATS provides detailed information on each child’s characteristics and caregiving behavior, but it does not include all possible characteristics, such as employment status. The data also do not contain information on the quality of parent–child relationships (Pillemer & Suitor, 2014), family culture (Merrill, 1996; Silverstein, Conroy, & Gans, 2008), and exchanges experienced earlier in the life course (Leopold et al., 2014), which are all factors that prior studies have identified as being related to adult children’s caregiving behavior. Second, information on caregiving relies on parents’ reports. Prior studies have shown that parents’ and adult children’s reports of the same transfers are not always congruent (Lin & Wu, 2018). Future studies using adult children’s reports could validate the patterns of care division observed in this study. Last, although some children do not provide care to their parents, they may give support to their siblings who provide care (Eriksen & Gerstel, 2002). Future studies should consider not only direct shared caregiving for parents but also indirect shared caregiving through support to the siblings who provide care to their parents.
+
+Moreover, while our analysis has revealed some previously unexamined aspects of parent-care dynamics, there remain several additional questions worthy of attention. For example, it appears that parent-care arrangements most often begin with a single caregiver but subsequently grow in coverage, becoming more equally shared as parents’ care needs increase. Although much is known about the correlates of individual children’s propensity to provide care, it also would be interesting to investigate whether there are differences between the children who engage in caregiving early on in this dynamic process and those who join the set of active helpers only later.
+
+This study illustrates the utility of adopting the family systems perspective to study family caregiving behavior by incorporating all children’s care efforts to examine how care efforts are allocated among siblings as a whole. We acknowledge that our family-level analysis cannot answer questions about individual children’s care activities, especially the complex question of how each child responds to their siblings’ activities in a simultaneous or jointly determined way; but, at the same time, the individualistic perspective most often adopted in family caregiving studies typically has little or nothing to say about family-level patterns of (in)equality in the allocation of parent-care activities. Indeed, we view the individualistic and family systems perspectives as complementary.
+
+In sum, this study makes a significant contribution to the caregiving literature by providing a national portrait of care division patterns among community-dwelling older adults over time. Adopting the family systems approach, we show that having a primary caregiver is the modal pattern of care division among adult children in the United States. As parents’ frailty increases, more children join to share caregiving responsibilities and contribute a more equal share of care hours. Fertility has been steadily declining over the past two decades. Future adult child caregivers will have fewer siblings to share the caregiving burden and thus may turn to other family members and formal care. It is critical for future studies to expand caregiver networks and study how adult children coordinate with other types of caregivers to help their parents continue to age in place.
+
+Funding
+
+This research was supported in part by the Center for Family and Demographic Research, Bowling Green State University, which has core funding from the Eunice Kennedy Shriver National Institute of Child Health and Human Development (P2CHD050959). Any opinions expressed here are solely those of the authors and not of the funding agency or center.
+
+Author Contributions
+
+I.-F. Lin and D. A. Wolf planned the study and wrote the paper. I.-F. Lin performed all statistical analyses.
+
+Conflict of Interest
+
+None reported.
+
+References
+
+Bandeen-Roche K., Seplaki C. L., Huang J., Buta B., Kalyani R. R., Varadhan R., Kasper J. D (2015). Frailty in older adults: A nationally representative profile in the United States. The Journals of Gerontology, Series A: Biological Sciences and Medical Sciences, 70, 1427–1434. doi: 10.1093/gerona/glv133 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Blieszner R., & Voorpostel M (2016). Families and aging: Toward an interdisciplinary family-level approach. In Bengtson V. L., & Settersten R. A. Jr (Eds.), Handbook of theories of aging (pp. 
+327–348). New York, NY: Springer. [Google Scholar]
+
+Checkovich T. J., & Stern S (2002). Shared caregiving responsibilities of adult siblings with elderly parents. The Journal of Human Resources, 37, 441–478. doi: 10.2307/3069678 [DOI] [Google Scholar]
+
+Cooney T., & Dykstra P. A (2011). Family obligations and support behavior: A United States-Netherlands comparison. Ageing & Society, 31, 1026–1050. doi: 10.1017/S0144686X10001339 [DOI] [Google Scholar]
+
+Cox M. J., & Paley B (1997). Families as systems. Annual Review of Psychology, 48, 243–267. doi: 10.1146/annurev.psych.48.1.243 [DOI] [PubMed] [Google Scholar]
+
+Davey A., & Szinovacz M. E (2008). Division of care among adult children. In Szinovacz M. E., & Davey A. (Eds.), Caregiving contexts: Cultural, familial, and societal implications (pp. 
+133–159). New York, NY: Springer. [Google Scholar]
+
+Dent E., Kowal P., & Hoogendijk E. O (2016). Frailty measurement in research and clinical practice: A review. European Journal of Internal Medicine, 31, 3–10. doi: 10.1016/j.ejim.2016.03.007 [DOI] [PubMed] [Google Scholar]
+
+Dwyer J. W., Henretta J. C., Coward R. T., & Barton A. J (1992). Changes in the helping behaviors of adult children as caregivers. Research on Aging, 14, 351–375. doi: 10.1177/0164027592143004 [DOI] [Google Scholar]
+
+Eriksen S., & Gerstel N (2002). A labor of love or labor itself: Care work among adult brothers and sisters. Journal of Family Issues, 23, 836–856. doi: 10.1177/019251302236597 [DOI] [Google Scholar]
+
+Finch J., & Mason J (1993). Negotiating family responsibilities. New York, NY: Tavistock/Routledge. [Google Scholar]
+
+Fingerman K. L., & Bermann E (2000). Applications of family systems theory to the study of adulthood. International Journal of Aging & Human Development, 51, 5–29. doi: 10.2190/7TF8-WB3F-TMWG-TT3K [DOI] [PubMed] [Google Scholar]
+
+Heeringa S. G., West B. T., & Berglund P. A (2017). Applied survey data analysis (2nd ed.). Boca Raton, FL: Chapman and Hall/CRC. doi: 10.1201/9781315153278 [DOI] [Google Scholar]
+
+Henretta J. C., Soldo B. J., & van Voorhis M. F (2011). Why do families differ? Children’s care for an unmarried mother. Journal of Marriage and the Family, 73, 383–395. doi: 10.1111/j.1741-3737.2010.00813.x [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Horowitz A. (1985). Family caregiving to the frail elderly. Annual Review of Gerontology & Geriatrics, 5, 194–246. [PubMed] [Google Scholar]
+
+Ingersoll-Dayton B., Neal M. B., Ha J.-H., & Hammer L. B (2003). Redressing inequality in parent care among siblings. Journal of Marriage and Family, 65, 201–212. doi: 10.1111/j.1741-3737.2003.00201.x [DOI] [Google Scholar]
+
+Kasper J. D., & Freedman V. A (2018). National health and aging trends study user guide: Rounds 1–7 final release. Baltimore, MD: Johns Hopkins University School of Public Health; Retrieved from https://www.nhats.org/scripts/documents/NHATS_User_Guide_R1_R7_Beta_Release.pdf [Google Scholar]
+
+Kasper J. D., Freedman V. A., Spillman B. C., & Skehan M. E (2015). Addendum to classification of persons by dementia status in the national health and aging trends study for follow-up rounds. Baltimore, MD: Johns Hopkins University School of Public Health; Retrieved from https://www.nhats.org/scripts/documents/NHATS_Dementia_Classification_Addendum_for_Follow-up_Rounds.pdf [Google Scholar]
+
+Keith C. (1995). Family caregiving systems: Models, resources, and values. Journal of Marriage and the Family, 57, 179–189. doi: 10.2307/353826 [DOI] [Google Scholar]
+
+Leopold T., Raab M., & Engelhardt H (2014). The transition to parent care: Costs, commitments, and caregiver selection among children. Journal of Marriage and Family, 76, 300–318. doi: 10.1111/jomf.12099 [DOI] [Google Scholar]
+
+Lin I.-F., & Wu H.-S (2018). Intergenerational transfer and reporting bias: An application of the MIMIC model. The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences, 73, 19–29. doi: 10.1093/geronb/gbx080 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Lin I.-F., & Wu H.-S (2019). Sibling influences, sibling similarities, and parent care in late life. EurAmerica, 49, 45–73. [PMC free article] [PubMed] [Google Scholar]
+
+Matthews S. H., & Rosner T. T (1988). Shared filial responsibility: The family as the primary caregiver. Journal of Marriage and the Family, 50, 185–195. doi: 10.2307/352438 [DOI] [Google Scholar]
+
+Merrill D. M. (1996). Conflict and cooperation among adult siblings during the transition to the role of filial caregiver. Journal of Social and Personal Relationships, 13, 399– 413. doi: 10.1177/0265407596133006 [DOI] [Google Scholar]
+
+Pezzin L. E., Pollak R. A., & Schone B. S (2015). Bargaining power, parental caregiving, and intergenerational coresidence. The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences, 70, 969–980. doi: 10.1093/geronb/gbu079 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Pillemer K., & Suitor J. J (2014). Who provides care? A prospective study of caregiving among adult siblings. The Gerontologist, 54, 589–598. doi: 10.1093/geront/gnt066 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Raghunathan T. E., Lepkowski J. M., van Hoewyk J., & Solenberger P (2001). A multivariate technique for multiply imputing missing values using a sequence of regression models. Survey Methodology, 27, 85–95. [Google Scholar]
+
+Rockwood K., & Mitnitski A (2007). Frailty in relation to the accumulation of deficits. The Journals of Gerontology, Series A: Biological Sciences and Medical Sciences, 62, 722–727. doi: 10.1093/gerona/62.7.722 [DOI] [PubMed] [Google Scholar]
+
+Searle S. D., Mitnitski A., Gahbauer E. A., Gill T. M., & Rockwood K (2008). A standard procedure for creating a frailty index. BMC Geriatrics, 8, 24. doi: 10.1186/1471-2318-8-24 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Silverstein M., Conroy S. J., & Gans D (2008). Commitment to caring: Filial responsibility and the allocation of support by adult children to older mothers. In Szinovacz M. E., & Davey A. (Eds.), Caregiving contexts: Cultural, familial, and societal implications (pp. 
+71–92). New York, NY: Springer. [Google Scholar]
+
+Singer J. D., & Willett J. B (2003). Applied longitudinal data analysis: Modeling change and event occurrence. New York, NY: Oxford University Press. doi: 10.1093/acprof:oso/9780195152968.001.0001 [DOI] [Google Scholar]
+
+Skehan M. E., & Spillman B. C (2013). STATA programming statements for construction of dementia classification in the national health and aging trends study. Addendum to NHATS Technical Paper #5. 
+Baltimore, MD: Johns Hopkins University School of Public Health; Retrieved from https://www.nhats.org/scripts/documents/NHATS_Addendum_to_Technical_Paper_5_STATA_Programming_Statements_Jul2013.pdf [Google Scholar]
+
+Szinovacz M. E., & Davey A (2013). Change in adult children’s participation in parent care. Ageing & Society, 33, 667–697. doi: 10.1017/S0144686X12000177 [DOI] [Google Scholar]
+
+Tolkacheva N., van Groenou M. B., DE Boer A., & van Tilburg T (2011). The impact of informal care-giving networks on adult children’s care-giver burden. Ageing and society, 31, 34–51. doi: 10.1017/S0144686X10000711 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Tolkacheva N., van Groenou M. B., & van Tilburg T (2010). Sibling influence on care given by children to older parents. Research on Aging, 32, 739–759. doi: 10.1177/0164027510383532 [DOI] [Google Scholar]
+
+Tolkacheva N., van Groenou M. B., & van Tilburg T (2014). Sibling similarities and sharing the care of older parents. Journal of Family Issues, 35, 312–330. doi: 10.1177/0192513X12470619 [DOI] [Google Scholar]
+
+van Buuren S., Boshuizen H. C., & Knook D. L (1999). Multiple imputation of missing blood pressure covariates in survival analysis. Statistics in Medicine, 18, 681–694. doi: 10.1002/(sici)1097-0258(19990330)18:6<681::aid-sim71>3.0.co;2-r [DOI] [PubMed] [Google Scholar]
+
+Wolf D. A., Freedman V., & Soldo B. J (1997). The division of family labor: Care for elderly parents. The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences, 52 Spec No, 102–109. doi: 10.1093/geronb/52b.special_issue.102 [DOI] [PubMed] [Google Scholar]
+
+Wolff J. L., Spillman B. C., Freedman V. A., & Kasper J. D (2016). A national profile of family and unpaid caregivers who assist older adults with health care activities. JAMA Internal Medicine, 176, 372–379. doi: 10.1001/jamainternmed.2015.7664 [DOI] [PMC free article] [PubMed] [Google Scholar]

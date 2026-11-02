@@ -1,0 +1,1496 @@
+{
+ "batch": "yt4",
+ "files_read": 6,
+ "coverage_notes": "All six files were read in full with the Read tool (every line, in chunks): dllG2iXI2YQ (261 threads), dZTbJb5Nml8 (154), 4MxNB0BAjQE (250), wQMJdrJAyNI (53), YlthrT39ps8 (135), mwqWpDJzsog (97). Total 950 top-level comments plus replies. Counts are approximate hand tallies. A comment can carry several themes. Replies by other viewers that describe their own situation were counted as own-situation. Empty or near-empty gap lists: logins_passwords has no commenter mentioning passwords or logins at all; the two items listed are access-to-information barriers (bank statements, hospital not disclosing location) and are included only as the closest evidence. paying_for_tools has no commenter paying for software or an app; the items listed are paid services (lawyers) or paid care. tools_used_today is thin: commenters mention YouTube videos, internet searching, CCTV cameras, a calendar and two wellness apps. Non-aging care recipients (disabled child, autistic son, disabled adult daughter, mentally handicapped brother) and professional caregivers appear in the Mel Robbins and Julie videos and were not counted toward themes. Commenter names, one street address and one rambling post that appears to describe a nursing-home resident's own delusional experience were deliberately not quoted.",
+ "videos": [
+  {
+   "file": "dllG2iXI2YQ.txt",
+   "title": "The Do's and Don'ts of being a caregiver (yes, it's hard!)",
+   "comments_read": 261,
+   "own_situation_comments_approx": 120,
+   "theme_counts_approx": {
+    "T1": 8,
+    "T2": 45,
+    "T3": 12,
+    "T4": 3,
+    "T5": 8,
+    "T6": 4,
+    "T7": 12,
+    "T8": 25,
+    "T9": 10,
+    "T10": 6,
+    "T11": 5,
+    "T12": 12,
+    "T13": 8,
+    "T14": 50
+   },
+   "how_counted": "Counted by hand while reading all 261 threads (about 25 to 30 of the replies also describe own situations). Approximate. T14 is mostly end-of-life/hospice caregiving and decisions about feeding, drinking and morphine; it overlaps with T8 and T12.",
+   "audience_note": "Hospice nurse channel, video about end of life care (do not force food or water, do not be hard on yourself). Commenters are mostly spouses and adult children who have just cared for, or are currently caring for, a dying person at home. Many arrive after the death and describe guilt and what-ifs. Many other comments are praise, prayers, questions to the nurse, religious posts, or hired caregivers and trainees. So the sample over-represents terminal illness, hospice and grief, not long-term chronic care."
+  },
+  {
+   "file": "dZTbJb5Nml8.txt",
+   "title": "The Hidden Burnout Millions of Caregivers Are Facing | Mel Robbins #Shorts",
+   "comments_read": 154,
+   "own_situation_comments_approx": 95,
+   "theme_counts_approx": {
+    "T1": 6,
+    "T2": 80,
+    "T3": 12,
+    "T5": 1,
+    "T6": 4,
+    "T9": 8,
+    "T10": 2,
+    "T11": 3,
+    "T12": 2,
+    "T13": 32,
+    "T14": 14
+   },
+   "how_counted": "Counted by hand over all 154 threads. Approximate. Nearly every own-situation comment carries T2, so T2 is close to the own-situation total. T14 is the number of commenters who care for a non-aging recipient (disabled child, autistic son, disabled spouse, brother) plus identity loss, post-caregiving depression and substance use.",
+   "audience_note": "Short video about caregiver burnout, with a general-audience celebrity host. Commenters are people in burnout: spouses, adult children (many daughters), parents of disabled children, hired carers and nurses. Many have no help and no siblings. Few describe logistics. It is almost entirely emotional load, isolation and the effect on the caregiver's own job, health, marriage and children."
+  },
+  {
+   "file": "4MxNB0BAjQE.txt",
+   "title": "Important Dementia Behavior Tip #caregiving",
+   "comments_read": 250,
+   "own_situation_comments_approx": 55,
+   "theme_counts_approx": {
+    "T2": 8,
+    "T3": 3,
+    "T4": 1,
+    "T6": 4,
+    "T7": 8,
+    "T8": 2,
+    "T9": 45,
+    "T10": 9,
+    "T11": 4,
+    "T12": 1,
+    "T13": 2,
+    "T14": 3
+   },
+   "how_counted": "Counted by hand over all 250 threads. Only about 55 describe a real caregiving situation; the rest are praise, jokes that redirecting is like parenting a toddler, and political jokes about public figures. Approximate.",
+   "audience_note": "Short dementia behavior tip (redirect, do not correct). Commenters mostly share tips or react that it is like raising a toddler, so the video draws a lot of advice and humor. The caregivers who do describe themselves ask for help with daily tasks (dressing, bathing, tooth brushing, mail, bills, repetitive behavior, aggression) and say redirection often fails or is exhausting. Dementia behavior dominates, almost no coordination or money content."
+  },
+  {
+   "file": "wQMJdrJAyNI.txt",
+   "title": "Is Your Sibling Abusing Power of Attorney for an Elderly Parent? | Watch for These Warning Signs",
+   "comments_read": 53,
+   "own_situation_comments_approx": 38,
+   "theme_counts_approx": {
+    "T1": 3,
+    "T3": 32,
+    "T4": 5,
+    "T5": 2,
+    "T6": 36,
+    "T9": 4,
+    "T10": 2,
+    "T11": 1,
+    "T12": 4,
+    "T13": 2,
+    "T14": 12
+   },
+   "how_counted": "Counted by hand over all 53 threads and their replies (including many creator replies, which were not counted). Approximate. T14 is the cluster of siblings or relatives cutting off a parent's visitors, information and communication (isolation of the parent, locked out of the parent's life).",
+   "audience_note": "Video aimed at people suspecting a sibling of misusing power of attorney. Commenters are mostly adult children in an active legal or financial dispute with a sibling, many of them excluded from the parent, locked out of information, or unable to afford a lawyer. They are not typical day-to-day caregivers: few describe hands-on care. The creator replies selling consultations."
+  },
+  {
+   "file": "YlthrT39ps8.txt",
+   "title": "Why aging parents YELL at the caregiver who helps them MOST",
+   "comments_read": 135,
+   "own_situation_comments_approx": 45,
+   "theme_counts_approx": {
+    "T2": 15,
+    "T3": 20,
+    "T6": 3,
+    "T7": 5,
+    "T9": 12,
+    "T10": 1,
+    "T11": 1,
+    "T12": 4,
+    "T13": 4,
+    "T14": 12
+   },
+   "how_counted": "Counted by hand over all 135 threads. Approximate. T14 is the cluster of being the scapegoat or target, parental favoritism (golden child), and unacknowledged caregiving.",
+   "audience_note": "Video explaining why aging parents lash out at the main caregiver. Commenters are mainly adult daughters and sons who were or are the main caregiver, many with a sibling who rarely visits but is praised, and many with a parent who is verbally abusive or has dementia. Strong resentment toward siblings and parents. Many comments are only thanks."
+  },
+  {
+   "file": "mwqWpDJzsog.txt",
+   "title": "One sibling ends up CAREGIVING. Why aging parents SPLIT families? How to AVOID it?",
+   "comments_read": 97,
+   "own_situation_comments_approx": 55,
+   "theme_counts_approx": {
+    "T1": 4,
+    "T2": 15,
+    "T3": 45,
+    "T4": 12,
+    "T6": 8,
+    "T11": 1,
+    "T12": 2,
+    "T13": 8,
+    "T14": 10
+   },
+   "how_counted": "Counted by hand over all 97 threads. Approximate. T14 is the cluster about parental favoritism, golden child, sibling roles and who inherits the house.",
+   "audience_note": "Video about one sibling carrying all the caregiving. Commenters are siblings, mostly the one who did the work, describing uneven help, siblings who live far away, and later disputes over money and property. Some also show it working out (sisters sharing, a sibling paying). Coordination and fairness dominate, not the medical details."
+  }
+ ],
+ "quotes": [
+  {
+   "theme": "T2",
+   "quote": "Being a caregiver is isolating.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T2",
+   "quote": "I often do feel guilty, but sometimes I’m just so exhausted.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 18"
+  },
+  {
+   "theme": "T2",
+   "quote": "As a dementia caregiver for fifteen years I can say you are on your own with this journey. Nobody really cares what you are experiencing.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 188"
+  },
+  {
+   "theme": "T2",
+   "quote": "I have become so depressed and overwhelmed, I don’t know who I am anymore.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 40"
+  },
+  {
+   "theme": "T2",
+   "quote": "I don't want to be the caregiver! It was enough! I am burned out!",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 236"
+  },
+  {
+   "theme": "T2",
+   "quote": "I have asked for respite, but I do not get assistance for it. I am overwhelmed, burnt out, exhausted...",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 43"
+  },
+  {
+   "theme": "T1",
+   "quote": "Mom 93 dementia memory care I feel terrified of paying the spend down and running out of money.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 17"
+  },
+  {
+   "theme": "T1",
+   "quote": "she was bedridden and incontinent, and *I was too weak to roll her over to change her*.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 49"
+  },
+  {
+   "theme": "T1",
+   "quote": "do you have a talk on making the choice to put someone on hospice care. That was the hardest part for me",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 76"
+  },
+  {
+   "theme": "T1",
+   "quote": "You will take me out in a body bag before I let you put her in a hospice house.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 11"
+  },
+  {
+   "theme": "T6",
+   "quote": "The money is going out the door and not coming in fast enough.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 54"
+  },
+  {
+   "theme": "T6",
+   "quote": "Her job and benefits are over at the end of this month and we will need pay the premiums ourselves and we simply do not have the money.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 54"
+  },
+  {
+   "theme": "T6",
+   "quote": "The EMTs demanded to see the original, instead of the copy the board-and-care manager showed them.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 141"
+  },
+  {
+   "theme": "T6",
+   "quote": "I've been caring for my mom since 2014 just started a yr ago getting paid..no time to myself.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 205"
+  },
+  {
+   "theme": "T3",
+   "quote": "I had three other siblings who offered nothing they would come and visit for an hr on weekends , I maybe got 2 hrs sleep at most",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 60"
+  },
+  {
+   "theme": "T3",
+   "quote": "Not one of them came by and offered me a day off from changing diapers, etc during the last 2 years of her life.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 226"
+  },
+  {
+   "theme": "T3",
+   "quote": "sis stepped in and decided to cancel it to have one more round of chemo, and then left me with the mess.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 116"
+  },
+  {
+   "theme": "T3",
+   "quote": "He then accused me of murdering her when i administered an extra dose of morphine",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 256"
+  },
+  {
+   "theme": "T3",
+   "quote": "I had no idea that any of this was going on because nobody talked to me and I wasn't welcome in the house.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 124"
+  },
+  {
+   "theme": "T4",
+   "quote": "I work full-time 12 hours away.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 215"
+  },
+  {
+   "theme": "T4",
+   "quote": "I drove 3 states to be around my mom and she dont talk to me and my Sister asking me what am I going to do.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 213"
+  },
+  {
+   "theme": "T4",
+   "quote": "I had recently found out I was the only emergency contact of a grandparent",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 224"
+  },
+  {
+   "theme": "T5",
+   "quote": "The problem was my brother's wife. She would not give him enough pain medicine as ordered by Hospice Dr.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 211"
+  },
+  {
+   "theme": "T5",
+   "quote": "Didn't know when or when not to give it to her.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 257"
+  },
+  {
+   "theme": "T5",
+   "quote": "He was on a lot of other medication but he ended up not taking most.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 232"
+  },
+  {
+   "theme": "T5",
+   "quote": "What is the right thing to do for someone who wants more prednisone than prescribed.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 207"
+  },
+  {
+   "theme": "T7",
+   "quote": "He just kept saying he was in pain but he wouldn't take any of his medicine, including the pain meds",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 34"
+  },
+  {
+   "theme": "T7",
+   "quote": "What about bathing? It sure was stressed by hospice for my mom but she was very resistant.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 179"
+  },
+  {
+   "theme": "T7",
+   "quote": "My brother and I are currently caring for our father who refuses to see a doctor.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 98"
+  },
+  {
+   "theme": "T7",
+   "quote": "Many times he would refuse to take his medicines. I wouldn't force him.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 231"
+  },
+  {
+   "theme": "T8",
+   "quote": "We demanded she eat, shower, move, get into her wheelchair, stay awake and up during the day (although she begged us to just sleep in bed all day).",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 4"
+  },
+  {
+   "theme": "T8",
+   "quote": "I was 20 years old, alone, afraid of getting sick from him, and completely unprepared for the reality of severe illness and death.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 34"
+  },
+  {
+   "theme": "T8",
+   "quote": "I just keep searching the internet for info on his symptoms.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 98"
+  },
+  {
+   "theme": "T8",
+   "quote": "We didn’t know my Mom was sent home to die. The doctors never said anything about it.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 79"
+  },
+  {
+   "theme": "T10",
+   "quote": "he'd already fallen once and my husband was the only one able to get him up and back in bed.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 17"
+  },
+  {
+   "theme": "T10",
+   "quote": "So worried about falls.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 94"
+  },
+  {
+   "theme": "T12",
+   "quote": "I had no support from her neurologist, even though they gave us a support person who never returned my calls.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 36"
+  },
+  {
+   "theme": "T12",
+   "quote": "My father was tested and the hospitalist said he was a swallow risk. They removed all food and drink.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 163"
+  },
+  {
+   "theme": "T12",
+   "quote": "I wish his home hospice team had provided more support for us both.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 69"
+  },
+  {
+   "theme": "T12",
+   "quote": "They never followed up with a call or visit.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 105"
+  },
+  {
+   "theme": "T12",
+   "quote": "I'm so aggravated that my sister's palliative team didn't call in hospice sooner.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 167"
+  },
+  {
+   "theme": "T14",
+   "quote": "As a caregiver we have no training on how to lift the patient, change soiled clothing and bed sheets, put them on a commode, lift them back into bed, administer medication and the list goes on and on.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 93"
+  },
+  {
+   "theme": "T14",
+   "quote": "I had no way to get her there on my own and they didn't offer assistance.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 43"
+  },
+  {
+   "theme": "T2",
+   "quote": "I never understood that I’d have to give up my life to care for my husband after his stroke.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 8"
+  },
+  {
+   "theme": "T2",
+   "quote": "I feel like no one gets it & I'm alone in this. It's all on me! 😢",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 9"
+  },
+  {
+   "theme": "T2",
+   "quote": "The saddest part of caring is… watching everybody else get on with their life’s… never stopping to checking on the care giver.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 7"
+  },
+  {
+   "theme": "T2",
+   "quote": "Who's caring for the caregiver? Answer: no one",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 106"
+  },
+  {
+   "theme": "T2",
+   "quote": "I'm her only caregiver and I don't know what to do.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 88"
+  },
+  {
+   "theme": "T3",
+   "quote": "my dad and sister is also stepped away leaving all the things to me,",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 43"
+  },
+  {
+   "theme": "T3",
+   "quote": "She cant find the time or energy to drive two minutes to see our mother, but will always find a way to judge what she thinks I don't do.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 76"
+  },
+  {
+   "theme": "T3",
+   "quote": "no one else elder sister or brother are interested in taking responsibility like giving medicine or giving physio therapy",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 77"
+  },
+  {
+   "theme": "T3",
+   "quote": "when some family members withdraw from helping and put an overload responsibilities on others",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 103"
+  },
+  {
+   "theme": "T3",
+   "quote": "Her siblings don't seem to care but if they do, they have a funny way of showing it.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 45"
+  },
+  {
+   "theme": "T1",
+   "quote": "Agencies are up to $43/hr (confirmed last week) as opposed to $30/hr five years ago.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 102"
+  },
+  {
+   "theme": "T1",
+   "quote": "Insurance doesn’t even confer for respite care.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 39"
+  },
+  {
+   "theme": "T1",
+   "quote": "and it's draining his IRA!",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 53"
+  },
+  {
+   "theme": "T6",
+   "quote": "From doctors appts, cooking, cleaning, even to handling her financial affairs is beyond exhausting I just keep going",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 83"
+  },
+  {
+   "theme": "T6",
+   "quote": "I had to handle her affairs after she passed.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 12"
+  },
+  {
+   "theme": "T9",
+   "quote": "Can’t take my eyes off him, or he does naughty dangerous stuff.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T9",
+   "quote": "Dad has dementia and mom was trying to help but now because she is depressed, health issues and depressed, now taking care of 2 parents.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 65"
+  },
+  {
+   "theme": "T11",
+   "quote": "help is super hard to hire in our area.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 102"
+  },
+  {
+   "theme": "T11",
+   "quote": "IHSS pool of caregivers is a poor resource for outside help because they pay $19/hour",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 102"
+  },
+  {
+   "theme": "T13",
+   "quote": "Had to take time off work because it was affecting my health.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 31"
+  },
+  {
+   "theme": "T13",
+   "quote": "I am taking care of my mom, grandma and two kids, a husband and a dog.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 33"
+  },
+  {
+   "theme": "T13",
+   "quote": "I’m just her nurse and driver",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 39"
+  },
+  {
+   "theme": "T13",
+   "quote": "But I can’t even do that because who’s going to take care of her while I’m at the hospital? No one.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 39"
+  },
+  {
+   "theme": "T13",
+   "quote": "I have not had a break from caregiving for literally decades.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 106"
+  },
+  {
+   "theme": "T13",
+   "quote": "As the sole provider now who works full time, commutes, cooks, cleans, pays the bills, does the extra curricular activities, etc.), I’m here.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 96"
+  },
+  {
+   "theme": "T14",
+   "quote": "And after it stops, after someone dies, you lose your purpose and get depressed and sometimes you never come back from it even years later.❤❤❤",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 29"
+  },
+  {
+   "theme": "T9",
+   "quote": "As a caregiver, what would be most helpful for me is having someone show me how to dress my husband.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 31"
+  },
+  {
+   "theme": "T9",
+   "quote": "I care give for my dad who lives with us and his likes and dislikes change almost daily. I feel like I’m trying to be a mind reader and I never get it right.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 97"
+  },
+  {
+   "theme": "T9",
+   "quote": "Any tips for dealing with aggressive, violent, angry outbursts of hitting shoving slapping pushing out of nowhere",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 98"
+  },
+  {
+   "theme": "T9",
+   "quote": "Now she doubles down on insisting she can and has done whatever it is we're trying to stop her from doing for 60 some years!",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 23"
+  },
+  {
+   "theme": "T9",
+   "quote": "I'm living with them now and she can't get past about a minute without asking the same question",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 7"
+  },
+  {
+   "theme": "T9",
+   "quote": "My husband has dementia and he gets on his phone and just watches videos of everything for hours.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 142"
+  },
+  {
+   "theme": "T7",
+   "quote": "How do i get my hubby to take a shower??? He has dementia",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 172"
+  },
+  {
+   "theme": "T7",
+   "quote": "Any help with brushing teeth? My mom refuses for every one where she is living",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 166"
+  },
+  {
+   "theme": "T7",
+   "quote": "What can I do to encourage her to use the walker?",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T10",
+   "quote": "It is a huge issue since she will fall again if her legs gave out.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T10",
+   "quote": "Even when she keeps engaging in conversation with telemarketers and giving them personal information, and trying to purchase things, like life insurance?!?",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 196"
+  },
+  {
+   "theme": "T10",
+   "quote": "What do you do if the person with dementia can hardly hear and they give poisoning foods to dogs, like chocolate?",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 184"
+  },
+  {
+   "theme": "T10",
+   "quote": "I changed out the vehicle and let her keep her keys.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 189"
+  },
+  {
+   "theme": "T10",
+   "quote": "sometimes they get physical or try get in situations that are risky for them",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 45"
+  },
+  {
+   "theme": "T11",
+   "quote": "Previous helper already quit and so we now have another helper who is just 3 weeks into the job.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T11",
+   "quote": "I don’t want to send her to a nursing home but we can’t keep changing helpers.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T11",
+   "quote": "Be careful with caregivers. They stole her jewelry which I hesitated to take away from her because she had it forever.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 21"
+  },
+  {
+   "theme": "T2",
+   "quote": "Ive got zero support& i feel like im breaking",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 12"
+  },
+  {
+   "theme": "T2",
+   "quote": "What about the person who had to do all of that redirection? Seems like a full time job, any tips for them how to survive this stage?",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 21"
+  },
+  {
+   "theme": "T4",
+   "quote": "with technology and many CCTVs around the house, I am very involved in her day to day care and her doctor’s visits.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T6",
+   "quote": "I pull out bills.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T6",
+   "quote": "MAIL!!!!!! nemesis number one",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 190"
+  },
+  {
+   "theme": "T8",
+   "quote": "what clues can I look for, to determine if she's actually slipping into dementia",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 42"
+  },
+  {
+   "theme": "T12",
+   "quote": "I've regulated the digestion with doctors and try to keep them hydrated",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 147"
+  },
+  {
+   "theme": "T6",
+   "quote": "We can't afford an attorney.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T6",
+   "quote": "I called a few lawyers for legal advice and surprisingly many female attorneys in my city didn't want to touch it or listen to me",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 8"
+  },
+  {
+   "theme": "T6",
+   "quote": "think about the legal stuff when it's family untel it's to late.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 13"
+  },
+  {
+   "theme": "T6",
+   "quote": "my mom has dementia and everyone in my family is telling me to go get an attorney to fight her on this I am blind to this I don't know where to start",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 28"
+  },
+  {
+   "theme": "T6",
+   "quote": "sister sold mother's house right away & refuses to give an accounting of the money.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T6",
+   "quote": "The proof we had of my sisters power of attorney abuse was when my mother wanted to see bank statements. My sister got very defensive, and kept avoiding bringing the bank statements to her.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 37"
+  },
+  {
+   "theme": "T6",
+   "quote": "The only way to get around her authority is to pay for a high powered Trust Lawyer , which none of us are in a position to do so , at roughly 4 to 5 hundred dollars an hour",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 51"
+  },
+  {
+   "theme": "T6",
+   "quote": "My older brother convinced my dad to sign over POA to him. Within the first few months he stole thousands of dollars.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 38"
+  },
+  {
+   "theme": "T6",
+   "quote": "As my mom's POA, I am wanting to secure her account by transferring funds into an account with my name. She has dementia and she is giving money to scammers.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 46"
+  },
+  {
+   "theme": "T3",
+   "quote": "EXACTLY WHAT HAPPENED TO ME... JUST FOUND OUT MOM DIED 2 YRS AGO... EXECUTOR NEVER TOLD ANYONE... NOT SURE WHAT TO DO NOW..",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 7"
+  },
+  {
+   "theme": "T3",
+   "quote": "I was caring for another aging family member plus taking care of my teenager and I needed help.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T3",
+   "quote": "My sister has POA and she will no longer let me nor my daughter to visit nor call her.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T3",
+   "quote": "I’m the POA of the living trust account yet my older sibling not only isolated my parent from me and my family, but sent her to another country and my sibling, who did this has cut off all communication.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 5"
+  },
+  {
+   "theme": "T4",
+   "quote": "Red flag. I live in another state.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 9"
+  },
+  {
+   "theme": "T4",
+   "quote": "I live in nyc, and my father lives in Rhode Island, half sister lives in Chicago.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 39"
+  },
+  {
+   "theme": "T4",
+   "quote": "I was flying down 2 to 3 times a year I finally had to find a care home for mom",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 53"
+  },
+  {
+   "theme": "T4",
+   "quote": "Stepsister lives in Japan my dad lives in north Idaho .",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 42"
+  },
+  {
+   "theme": "T12",
+   "quote": "The hospital won't disclose to me where my father was at?",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 39"
+  },
+  {
+   "theme": "T12",
+   "quote": "Mom needs heart surgery now and sister wont bring her home.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T1",
+   "quote": "She's currently in Assisted living and they are planning on pulling my mother out to put her in a nursing home.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 29"
+  },
+  {
+   "theme": "T1",
+   "quote": "My stepsister want to put him in a home sell everything and move on with her life.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 42"
+  },
+  {
+   "theme": "T5",
+   "quote": "all of a sudden shes having medication problem and memory problems as in like its sabotage",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 52"
+  },
+  {
+   "theme": "T9",
+   "quote": "Is not really understanding her bank accounts and sometimes even what her insurance cards are...is that considered incompetent?",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 44"
+  },
+  {
+   "theme": "T10",
+   "quote": "last week the bank stopped her from pulling out more cash.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 46"
+  },
+  {
+   "theme": "T11",
+   "quote": "the supervisors with several companies sweeping misconduct under rug and keeping them employed",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 50"
+  },
+  {
+   "theme": "T3",
+   "quote": "Unfortunately it became a problem with other siblings who believed everything parent told them over the phone",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 12"
+  },
+  {
+   "theme": "T3",
+   "quote": "we’ve had extended family say we could at least visit and bring a meal when we’ve actually been giving it our all and having frustrations taken out on us.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 12"
+  },
+  {
+   "theme": "T3",
+   "quote": "She accuses me and also tells my brother what she is accusing me of. He believes her. I am caught in the middle.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 22"
+  },
+  {
+   "theme": "T3",
+   "quote": "I was never their favorite but I am still the only one helping them!",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 14"
+  },
+  {
+   "theme": "T3",
+   "quote": "I was the caretaker while sister lived too far to help, but visited enough to stay in the will.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 72"
+  },
+  {
+   "theme": "T3",
+   "quote": "sometimes I wish if there was just another person to give me a break",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 76"
+  },
+  {
+   "theme": "T3",
+   "quote": "I was the only one who showed up and gave everything up to take care of them.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 91"
+  },
+  {
+   "theme": "T2",
+   "quote": "I tried to remain calm in her presence but once I got in the car I'd scream in frustration.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 36"
+  },
+  {
+   "theme": "T2",
+   "quote": "I still don't feel I have recovered from the experience and it's been four years.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 35"
+  },
+  {
+   "theme": "T6",
+   "quote": "I’m getting bullied by my siblings so much as we deal with the probate situation and I’m getting the worst of it now and they’ve taken all my money.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 91"
+  },
+  {
+   "theme": "T6",
+   "quote": "I pay rent to my mother so I can live close to care for her.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 56"
+  },
+  {
+   "theme": "T7",
+   "quote": "I looked after my parents and received only bad behaviour, ingratitude, defiance and even verbal abuse.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 62"
+  },
+  {
+   "theme": "T9",
+   "quote": "So I don't know if her extreme hostility is dementia or me being the archenemy of this part of her life.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 17"
+  },
+  {
+   "theme": "T9",
+   "quote": "Both my 90 year old parents who have Alzheimers also have mental illnesses....Its sheer hell taking care of them",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 65"
+  },
+  {
+   "theme": "T10",
+   "quote": "I was safe enough for my dad to pull a gun on.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 26"
+  },
+  {
+   "theme": "T12",
+   "quote": "The doctor warned me she would say the most vile, disgusting things, and she would have no control over it.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 19"
+  },
+  {
+   "theme": "T12",
+   "quote": "Now he demands his five sons come to constant meetings with the Dr, the nursing home, the lawyer.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 89"
+  },
+  {
+   "theme": "T14",
+   "quote": "So I get blamed and yelled at.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 82"
+  },
+  {
+   "theme": "T14",
+   "quote": "I solved it by putting boundaries and getting the golden child to carry the heavy lifting.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 25"
+  },
+  {
+   "theme": "T4",
+   "quote": "As the one that left the area and forged my own life, no wonder my sister that stayed hates me.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 95"
+  },
+  {
+   "theme": "T4",
+   "quote": "I am the only daughter with most of the responsibilities and live 1,100 miles away!!!",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T4",
+   "quote": "Trying to protect my own health for the last almost 4 years of flying back & forth.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T4",
+   "quote": "How do even you afford the travel?",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T4",
+   "quote": "They lived 800 miles from me. I spent the better part of those years at their house, away from my own family and support system.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 38"
+  },
+  {
+   "theme": "T4",
+   "quote": "I took care of my mom for 7 years flying back and forth",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 19"
+  },
+  {
+   "theme": "T4",
+   "quote": "We can’t live in the guilt of being the ones away.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 50"
+  },
+  {
+   "theme": "T4",
+   "quote": "I can't travel to visit them, although I'm called whenever there are medical questions.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 55"
+  },
+  {
+   "theme": "T3",
+   "quote": "My brother didn’t lift a finger to help me in the years that I cared for my mother.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 10"
+  },
+  {
+   "theme": "T3",
+   "quote": "She was hospitalized at least 10 times and he only came one time to see her.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 10"
+  },
+  {
+   "theme": "T3",
+   "quote": "I had my mom for 13 years once I asked my older sister for help she told me I should leave and let my mom die I never asked again",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 14"
+  },
+  {
+   "theme": "T3",
+   "quote": "I was chosen to be the one bc I didn’t have a husband.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T3",
+   "quote": "Siblings only show up after all is said and done and it's time to divide the money",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 15"
+  },
+  {
+   "theme": "T3",
+   "quote": "7 siblings and I am the only one left to take care of everyone.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 28"
+  },
+  {
+   "theme": "T3",
+   "quote": "So I am a mediator between my Mom and siblings.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 8"
+  },
+  {
+   "theme": "T3",
+   "quote": "I took on the caregiving responsibilities (even with a demanding job with on-call responsibilities) AND the criticism from my sister and brother-in-law.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 48"
+  },
+  {
+   "theme": "T2",
+   "quote": "I'm 60 and caring for my mom for four years now. Overwhelmed, exhausted and depressed.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 4"
+  },
+  {
+   "theme": "T2",
+   "quote": "Sometimes I don't get to eat properly until late at night!",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 28"
+  },
+  {
+   "theme": "T6",
+   "quote": "sibling 1 gets paid a good amount from IHSS to take care of Mom while half the work is being done by others and of course she wont spend a dime to contribute to Mom care while I buy all the supplements and help with Moms bills",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 82"
+  },
+  {
+   "theme": "T6",
+   "quote": "My bro is expecting a 50/50 split and for the house to be sold.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 60"
+  },
+  {
+   "theme": "T6",
+   "quote": "Thank God she appointed me with Power of Attorney.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 19"
+  },
+  {
+   "theme": "T6",
+   "quote": "I asked the parent if they made/ paid for any final arrangements and they danced around and didn’t answer",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 66"
+  },
+  {
+   "theme": "T6",
+   "quote": "If the parents would step up and plan responsibly before anything happens, then the children would not have to go through this kind of hell.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 11"
+  },
+  {
+   "theme": "T12",
+   "quote": "I can't travel to visit them, although I'm called whenever there are medical questions.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 55"
+  },
+  {
+   "theme": "T13",
+   "quote": "I was never able to return to my job",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 38"
+  },
+  {
+   "theme": "T13",
+   "quote": "Ich habe keine Geschwister und muss versuchen, alles selbst zu schaffen mit meiner Mutter.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 83"
+  },
+  {
+   "theme": "T14",
+   "quote": "The big question will be who'll do it for me when the time comes.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 52"
+  },
+  {
+   "theme": "T1",
+   "quote": "us 2 older siblings take on the main care 3 1/2 days each.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 22"
+  }
+ ],
+ "gap_evidence": {
+  "how_family_shares_information": [
+   {
+    "quote": "but I sent them your videos to help explain the dying process.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 47"
+   },
+   {
+    "quote": "they acted as if it was all my fault that I did not keep them in the loop",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 226"
+   },
+   {
+    "quote": "after asking him via text about her pain since he was out if town.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 256"
+   },
+   {
+    "quote": "Geez that all my family does and argue over how much every dang hour.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 181"
+   },
+   {
+    "quote": "I kept them in the dark to reduce their stress.",
+    "file": "YlthrT39ps8.txt",
+    "locator": "COMMENT 37"
+   },
+   {
+    "quote": "She accuses me and also tells my brother what she is accusing me of. He believes her.",
+    "file": "YlthrT39ps8.txt",
+    "locator": "COMMENT 22"
+   },
+   {
+    "quote": "EXACTLY WHAT HAPPENED TO ME... JUST FOUND OUT MOM DIED 2 YRS AGO... EXECUTOR NEVER TOLD ANYONE... NOT SURE WHAT TO DO NOW..",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 7"
+   },
+   {
+    "quote": "Unfortunately it became a problem with other siblings who believed everything parent told them over the phone",
+    "file": "YlthrT39ps8.txt",
+    "locator": "COMMENT 12"
+   },
+   {
+    "quote": "The hospital won't disclose to me where my father was at?",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 39"
+   }
+  ],
+  "tools_used_today": [
+   {
+    "quote": "I just keep searching the internet for info on his symptoms.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 98"
+   },
+   {
+    "quote": "I am always watching all your videos and saving them.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 83"
+   },
+   {
+    "quote": "I also started using the insight timer meditation app and the down dog yoga app..",
+    "file": "dZTbJb5Nml8.txt",
+    "locator": "COMMENT 79"
+   },
+   {
+    "quote": "with technology and many CCTVs around the house, I am very involved in her day to day care and her doctor’s visits.",
+    "file": "4MxNB0BAjQE.txt",
+    "locator": "COMMENT 30"
+   },
+   {
+    "quote": "Put it in your calendar that you're doing NOTHING this day..",
+    "file": "dZTbJb5Nml8.txt",
+    "locator": "COMMENT 79"
+   },
+   {
+    "quote": "I screen the mail.",
+    "file": "4MxNB0BAjQE.txt",
+    "locator": "COMMENT 3"
+   }
+  ],
+  "logins_passwords": [
+   {
+    "quote": "The hospital won't disclose to me where my father was at?",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 39"
+   },
+   {
+    "quote": "My sister got very defensive, and kept avoiding bringing the bank statements to her.",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 37"
+   },
+   {
+    "quote": "We do not even have the right to peruse our own mother's medical records",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 51"
+   }
+  ],
+  "paying_for_tools": [
+   {
+    "quote": "We can't afford an attorney.",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 3"
+   },
+   {
+    "quote": "The only way to get around her authority is to pay for a high powered Trust Lawyer , which none of us are in a position to do so , at roughly 4 to 5 hundred dollars an hour",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 51"
+   },
+   {
+    "quote": "Agencies are up to $43/hr (confirmed last week) as opposed to $30/hr five years ago.",
+    "file": "dZTbJb5Nml8.txt",
+    "locator": "COMMENT 102"
+   }
+  ],
+  "long_distance": [
+   {
+    "quote": "I am the only daughter with most of the responsibilities and live 1,100 miles away!!!",
+    "file": "mwqWpDJzsog.txt",
+    "locator": "COMMENT 2"
+   },
+   {
+    "quote": "They lived 800 miles from me.",
+    "file": "mwqWpDJzsog.txt",
+    "locator": "COMMENT 38"
+   },
+   {
+    "quote": "I took care of my mom for 7 years flying back and forth",
+    "file": "mwqWpDJzsog.txt",
+    "locator": "COMMENT 19"
+   },
+   {
+    "quote": "with technology and many CCTVs around the house, I am very involved in her day to day care and her doctor’s visits.",
+    "file": "4MxNB0BAjQE.txt",
+    "locator": "COMMENT 30"
+   },
+   {
+    "quote": "Red flag. I live in another state.",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 9"
+   },
+   {
+    "quote": "have aging parents 300km away, working a dull time job on my own.",
+    "file": "dZTbJb5Nml8.txt",
+    "locator": "COMMENT 20"
+   },
+   {
+    "quote": "I work full-time 12 hours away.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 215"
+   },
+   {
+    "quote": "I was flying down 2 to 3 times a year I finally had to find a care home for mom",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 53"
+   }
+  ],
+  "medications": [
+   {
+    "quote": "He was on a lot of other medication but he ended up not taking most.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 232"
+   },
+   {
+    "quote": "Didn't know when or when not to give it to her.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 257"
+   },
+   {
+    "quote": "She would not give him enough pain medicine as ordered by Hospice Dr.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 211"
+   },
+   {
+    "quote": "even giving medicines and planning the schedule is so stressing",
+    "file": "dZTbJb5Nml8.txt",
+    "locator": "COMMENT 77"
+   },
+   {
+    "quote": "I can oversee everything, do meds, take to doctors appointments,",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 30"
+   },
+   {
+    "quote": "all of a sudden shes having medication problem and memory problems as in like its sabotage",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 52"
+   },
+   {
+    "quote": "What is the right thing to do for someone who wants more prednisone than prescribed.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 207"
+   }
+  ]
+ },
+ "counter_evidence": [
+  {
+   "quote": "We had our team of 4 sisters. It worked out well. We did hire some extra help.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 6",
+   "what_it_shows": "siblings help / coordination works"
+  },
+  {
+   "quote": "us 2 older siblings take on the main care 3 1/2 days each.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 22",
+   "what_it_shows": "siblings help / coordination works (a shared schedule, although the same commenter still describes no breaks)"
+  },
+  {
+   "quote": "I thank the Lord for my generous and loving brother in law, who has been paying my mom 's long term care, hospital and hospital caregiver bills",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 27",
+   "what_it_shows": "siblings help / relative pays for care"
+  },
+  {
+   "quote": "When my husband died, oldest daughter did most, but there was no blame or arguing.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 37",
+   "what_it_shows": "siblings help / coordination works"
+  },
+  {
+   "quote": "My sister and were the caregivers and didn't expect our brothers to do more than show up and be present.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 35",
+   "what_it_shows": "siblings help / agreed division of roles"
+  },
+  {
+   "quote": "Thankfully that didn't happen in our family.",
+   "file": "mwqWpDJzsog.txt",
+   "locator": "COMMENT 68",
+   "what_it_shows": "coordination works"
+  },
+  {
+   "quote": "my siblings and I took turns every week having our dad live with us.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 18",
+   "what_it_shows": "siblings help / coordination works"
+  },
+  {
+   "quote": "All of my adult siblings, and I go to doctor visits, with our parents, and grandparents.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 20",
+   "what_it_shows": "siblings help / coordination works"
+  },
+  {
+   "quote": "We really didn’t have too many issues and we still talk.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 69",
+   "what_it_shows": "siblings help / coordination works"
+  },
+  {
+   "quote": "The thing I think helped the most was to get palliative care services when things got to be too much for me to do alone and going to the doctor was too much for them and then hospice when that time came. Felt I had a back up team",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 48",
+   "what_it_shows": "coordination works (professional support team)"
+  },
+  {
+   "quote": "We have home care everyday which gives me a break which is important for me to get away from.",
+   "file": "YlthrT39ps8.txt",
+   "locator": "COMMENT 52",
+   "what_it_shows": "paid help works, but same commenter still says they need more family support"
+  },
+  {
+   "quote": "I never felt overwhelmed because the hospice agency was so supportive of complete care including mine.",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 47",
+   "what_it_shows": "coordination works (hospice agency)"
+  },
+  {
+   "quote": "Thankfully my Dad is of sound mind and has strong morals so whilst heartbroken and saddened he knows what to do and I am able to help him.",
+   "file": "wQMJdrJAyNI.txt",
+   "locator": "COMMENT 38",
+   "what_it_shows": "coordination works (parent and child acting together on the legal problem)"
+  },
+  {
+   "quote": "Yes, we have help here and there but ultimately it’s me who’s getting up at all hours to attend to him.",
+   "file": "dZTbJb5Nml8.txt",
+   "locator": "COMMENT 96",
+   "what_it_shows": "some help exists, but one person still carries the night work"
+  },
+  {
+   "quote": "I screen the mail.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 3",
+   "what_it_shows": "low-tech workaround works (manual screening of mail, not technology)"
+  },
+  {
+   "quote": "They offered her home help,she said no.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 18",
+   "what_it_shows": "person does not want or accept help"
+  },
+  {
+   "quote": "My mom will never go to hospice or my dead body, no nursing home either",
+   "file": "dllG2iXI2YQ.txt",
+   "locator": "COMMENT 196",
+   "what_it_shows": "person does not want help or placement"
+  },
+  {
+   "quote": "In my world that would only last a couple years & somebody would have to bail me out.",
+   "file": "4MxNB0BAjQE.txt",
+   "locator": "COMMENT 1",
+   "what_it_shows": "other: tips such as redirection are hard to apply without help"
+  }
+ ],
+ "new_themes": [
+  {
+   "name": "End-of-life and hospice home care decisions (eating, drinking, pain medicine)",
+   "description": "In the hospice video, most commenters are caring for or have just lost someone dying at home. They describe not knowing what to expect, guilt about decisions on feeding, hydration, morphine, hospital versus home, and uneven support from the hospice team.",
+   "example": {
+    "quote": "We demanded she eat, shower, move, get into her wheelchair, stay awake and up during the day (although she begged us to just sleep in bed all day).",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 4"
+   }
+  },
+  {
+   "name": "Being the target of anger, scapegoat, parental favoritism and unacknowledged caregiving",
+   "description": "Caregivers describe a parent who yells at or blames them while praising a sibling who rarely visits, and resentment that nobody acknowledges the work.",
+   "example": {
+    "quote": "I was never their favorite but I am still the only one helping them!",
+    "file": "YlthrT39ps8.txt",
+    "locator": "COMMENT 14"
+   }
+  },
+  {
+   "name": "Siblings or relatives controlling access to the parent (visits, information, records)",
+   "description": "Adult children locked out by a sibling holding power of attorney: not allowed to visit or call, not told where the parent is, not given bank statements or medical records, not told when the parent died.",
+   "example": {
+    "quote": "My sister has POA and she will no longer let me nor my daughter to visit nor call her.",
+    "file": "wQMJdrJAyNI.txt",
+    "locator": "COMMENT 3"
+   }
+  },
+  {
+   "name": "Estate, house and inheritance disputes tied to who did the caregiving",
+   "description": "Conflict over who lives in the parent's house, unequal pay for care, and fear of a fight over the estate after death; caregivers worry the work will be treated as a claim or as undue influence.",
+   "example": {
+    "quote": "My bro is expecting a 50/50 split and for the house to be sold.",
+    "file": "mwqWpDJzsog.txt",
+    "locator": "COMMENT 60"
+   }
+  },
+  {
+   "name": "Life after caregiving: lost purpose, lasting health effects and role vacuum",
+   "description": "After the person dies, caregivers describe depression, loss of identity, health problems from the strain, and months or years to recover.",
+   "example": {
+    "quote": "And after it stops, after someone dies, you lose your purpose and get depressed and sometimes you never come back from it even years later.❤❤❤",
+    "file": "dZTbJb5Nml8.txt",
+    "locator": "COMMENT 29"
+   }
+  },
+  {
+   "name": "Untrained for physical care tasks (lifting, dressing, toileting, turning)",
+   "description": "Caregivers say nobody taught them hands-on tasks; they ask strangers online how to dress a spouse with dementia or move a bedbound person.",
+   "example": {
+    "quote": "As a caregiver we have no training on how to lift the patient, change soiled clothing and bed sheets, put them on a commode, lift them back into bed, administer medication and the list goes on and on.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 93"
+   }
+  },
+  {
+   "name": "Respite exists but does not fit (location, all-or-nothing rules, not covered by insurance)",
+   "description": "Caregivers say respite care was offered but was far away, had to be taken all at once, or was not covered, so it went unused.",
+   "example": {
+    "quote": "I had no way to get her there on my own and they didn't offer assistance.",
+    "file": "dllG2iXI2YQ.txt",
+    "locator": "COMMENT 43"
+   }
+  }
+ ],
+ "caveats": "Comment samples are self-selected viewers of five very different videos and are not representative of all family caregivers. The Julie video skews to people at end of life and to commenters after a death; the POA video skews to disputes with a sibling; the sibling and yelling videos skew to resentment; the Mel Robbins video skews to burnout and includes carers of disabled children and hired carers; the dementia tip video is mostly jokes about toddlers. Many commenters are outside the United States (Australia, Ireland, India, Japan, Nigeria and others), some are children caring for a grandparent, and some are professional or trainee caregivers; US status is not stated for most and was not assumed. Counts are approximate hand tallies. Quote locators use COMMENT n for both top-level comments and their replies. Any quote that fails the machine match should be dropped. Sibling dispute and POA content describes accusations by one party only and none was verified. Creator replies in the POA file are marketing for paid consultations and were not counted as caregiver evidence."
+}

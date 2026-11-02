@@ -1,0 +1,3411 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "7OVPb-MtcDw3RkyRWow6UALhLuE",
+  "nextPageToken": "Z2V0X3JhbmtlZF9zdHJlYW1zLS1DcFFJQ0lBRUZSZTMwVGdhaVFnS2d3Z0kyRjhRZ0FRWUJ5TDRCd1VfTmFRUUQxSWY3UHk0ay1lUFZJVnI5YlcwenE3NmVCZUg0ZzZOMkc3X2J2SldtemxuYUZ6eldQbW9ZWnNNUnpERU96aFh0UGliRE9kNDZCcDVjWVFqS09yRklXcXdXcWU0eVBaN3RQWkIteFlyUzg3Y0l2TThqalpfNkZkb25ocmNqS1ZGbC1mSmlHZ3BlbEZhWExtUDZjbzlEMnF3bS1yZDEyWmNQWTdiNFdTYzdNbHVwWm5SWG5PTVhUZlY0VkkyOWNkOUZkY0tlNjlyYTI4R2g3MzBpX1Zlakt4U1VhUWUxU3kzazlYZHpwWXU2Y09YNXppMDljR1RVbVJNUnQ3OFB0OEtLek5MTEszSTBfVzVRcWVvTHZIbkRPZXF0MXhEU1lsYUdsYTJKYnR1cFdZSHRUaWRWSVhyVW5yem9LNnF0Vjg5OUVmcHliTTlpc2Vfd3Y3cmNSekJELWE0eVpDZUJ5Y3RfdURxcU0wUmI3UHl2Smp4Y1k0WnpFeVgtdWpVYTZqbDB4MHFoZnZyWGwzZDRYdDgxZUNpS3M3amlIbjRPT3lESFF3ZDMtZmw0dVZMajlLVk9vLTFtUG4wOW5rN3hJakxHUTRIYVlxZld0ei1vYkFjWlVyUDI2VTFseHpWSTB0aC1hM1NmZzkzcUVOVlVyZ3VhbGlqVXMwTXlTcjdXV0ptN3FycVd5NHhEMHBpamJuOHhWSFhHZHc1V3MyZ0hWeTNzcDdEcjhnMG01dXp4dlVLdXZQUjBxZ3hyQjJjTWFoa1MzZWFSZHBITWp0Rk5kc1Y0dml2TmZlYUVhTGtWN3NfTThoN0JFM3RvWEdSdjdwZGVsZlpOWS1VMm02ejZWT3hQMmc5Tk0ydHEwTzBKT200bTlwbmxyelY4dENldXdmdlRLXzRtY1BNa0NaMzNWZkdHaU5ER2x1bW1zbFJERExWS2JGMXFlYlNVR2Q5Nmw4clRuVXcySzFpTHIwVmNha2Npa0dOLUozdVdBcnEydThvdjlTUHc4bDR4eUp2N2Y4eWEwanowRWVrVThlblZLeHpPdVdQd1FpLWo5U2VNOW91NjYtVXM2eFExcHhQYlNlTHVvcXhzaHlPT0NJMEJ6ZUQ2dDVSZWxMT3F6NlBOWmo4TWxNMzV4b1pXeHI1aHl6U2d6bVlJYWxyVU5YVHNaZXNZLTJPaVBxWnZZLW95SkNZVWpDUDc3aFk4bkQ4aXU3Z3NsNV9oUnctcGV6d3pxa3lwYTZsTHotOFNxYXUtenZDbEVaSTkxMTh2UzcyNjlmekoxM002NTRLYm5MTDdlcWMxMGdwWXNrOW84S2FyMmY4TmxWSjBVNmRHZFRQZkZLNk90YXV2enFrV3JGVUVsbXA2U21IbGFaal8xQm92dHFTSmEyZzlxV192Q1BaM25GVVVDczdxeDZrb3ZRUFZVcVJSeWVfNk0tZzE0cFJQYnF1bUNZOU9iNm5LNDdCWjNHSER2djV4ZHAwMGRVUDY4SG1fbGhLdllPaDB6MXJOSWREbDh6eGZhUjVXT2FXanp6MHIybHljRWJGX2VoZHJBNGVVZWV3NVQtcS1qczJpODQ0MW9fTnlXTXhxOWZXLVYzSzByUEtxWENJd2RneDc3RWlYYi1YTmFMUHBhOW9aOHk1a3FIMHlGVGtPRVplazVjbWIyLUpMdjJrck1yTWpfbXFlM2VSSExTR3BmX3d5ME02X0pNWnFnclBGY0hCMGh5Y1lwMjJwTW52WS14bGJWYkxZdXRlWmJMQ1lkbHFrWWRsNTJRZHpjR3dvMzI0by1uOEgtOGdFS3dDRWdjSWhDQVFReGdBRWdVSWhpQVlBQklGQ0lnZ0dBQVNCUWk3SUJnQUVnVUloeUFZQUJJRkNLZ2dHQUFTQlFqQUlCZ0FFZ2dJaFNBUXJBSVlBUklGQ0o4Z0dBQVNCUWpESUJnQUVnVUlpU0FZQUZBQVdBRQ==",
+  "pageInfo": {
+    "totalResults": 100,
+    "resultsPerPage": 100
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "81FlUuoRkYvOvlMsxPG8_jOFDsI",
+      "id": "UgzbwyQdehuiyKMZAb14AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "K0QjK7UFhxjMXeVskrwQXrPk1gs",
+          "id": "UgzbwyQdehuiyKMZAb14AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "The exhaustion and strain - physically and emotionally- on us women over 55 taking care of elderly parents/,managing their care for years on end, can not be underestimated. And after they pass or get better, ❤️\u200d🩹 it hits you so hard. Takes months maybe a year to recover from.",
+            "textOriginal": "The exhaustion and strain - physically and emotionally- on us women over 55 taking care of elderly parents/,managing their care for years on end, can not be underestimated. And after they pass or get better, ❤️\u200d🩹 it hits you so hard. Takes months maybe a year to recover from.",
+            "authorDisplayName": "@margret-annecummings4840",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lmo-Z4KuecGoroOJkbBvxEJUY2GG_8930xb85vb1QAfw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@margret-annecummings4840",
+            "authorChannelId": {
+              "value": "UC1l66xWmF1LGbodCArrVztQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-10-24T14:55:43Z",
+            "updatedAt": "2025-10-24T14:55:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "_7aioCfr49GX-sFwyMJUR1JpLgc",
+      "id": "Ugz8BwwBr6TIByxyepx4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "7GZ9-pVnBqB58B8irKAkXo1q2Zs",
+          "id": "Ugz8BwwBr6TIByxyepx4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Not only is it very consuming, but it’s heartbreaking ❤️\u200d🩹 to watch. Losing our lovely parents is the hardest thing I have been through.",
+            "textOriginal": "Not only is it very consuming, but it’s heartbreaking ❤️\u200d🩹 to watch. Losing our lovely parents is the hardest thing I have been through.",
+            "authorDisplayName": "@pattihanneman5608",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n9vRFE4-wEE_XJz1e4pdiNKcO7bXa7SP2kDN2ePYaLig=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@pattihanneman5608",
+            "authorChannelId": {
+              "value": "UCU7RQnTiHOBJ2NavCZgs2kw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-01T03:04:35Z",
+            "updatedAt": "2025-10-01T03:04:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "uZP6bH2orQk-pbmtN0bAerUCwus",
+      "id": "Ugx5SJt_oknlP-Yy3WZ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "0oeVlMMzrPOPlvyHDmxwHnlmR5A",
+          "id": "Ugx5SJt_oknlP-Yy3WZ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes!!! and there are so little Support and Information out there to help.",
+            "textOriginal": "Yes!!! and there are so little Support and Information out there to help.",
+            "authorDisplayName": "@Journey188",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/4jzQsfavKM8sN-Gg_s2fnyTia8KNZnKF3Qkw-Om6PtshQIMlNT-h0LUfLQaU_DpnYflRanGs4A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Journey188",
+            "authorChannelId": {
+              "value": "UCCIoV6XAWNtO5HMj9gNuC4Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-11T13:21:43Z",
+            "updatedAt": "2025-10-11T13:21:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "guh-oUL9252_L9xqRPBlRX_HOtU",
+      "id": "UgxRJkTymxvBXKHhHy94AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "hAqcDwF2fj7pSlW2GsOHu1FH6ZU",
+          "id": "UgxRJkTymxvBXKHhHy94AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Left my job of 20 yrs  6 yrs ago to care for my father (who just turned 90), my uncle who will be 84, my mother in law who is 79. Also cared for 79 yr old father in who passed away a year ago, an aunt who passed away 3 yrs ago and a cousin who passed 2 yrs ago. I will be 58 in December. This has been more difficult than working 9 to 5. This is 24/7. Trying to schedule everyone&#39;s doctor&#39;s appointments, surgeries, medications, and errands is daunting. We all need to remember how important it is to care for ourselves in order to give the best care to our loved ones. Prayers to everyone in this phase of life.",
+            "textOriginal": "Left my job of 20 yrs  6 yrs ago to care for my father (who just turned 90), my uncle who will be 84, my mother in law who is 79. Also cared for 79 yr old father in who passed away a year ago, an aunt who passed away 3 yrs ago and a cousin who passed 2 yrs ago. I will be 58 in December. This has been more difficult than working 9 to 5. This is 24/7. Trying to schedule everyone's doctor's appointments, surgeries, medications, and errands is daunting. We all need to remember how important it is to care for ourselves in order to give the best care to our loved ones. Prayers to everyone in this phase of life.",
+            "authorDisplayName": "@krisward7425",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mo-ngw2iXTjilc4X3R9TWfKMVubJaaWmP-E9AYx2N-KkwGfZ7Ck2wgooJGVstqf0wbRw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@krisward7425",
+            "authorChannelId": {
+              "value": "UCqQLRAI-fTsO93_3wcRsQEg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-28T23:21:38Z",
+            "updatedAt": "2025-10-28T23:21:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "loLAOEOs4hUc70CQlAcTLZhS3vA",
+      "id": "Ugx2fYXtXitatCNRqX54AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "EfsSXAWdiM6lPtqFtX6IshUqk40",
+          "id": "Ugx2fYXtXitatCNRqX54AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I am 61 years old. I am a c.n.a. who works only in dementia. My mom is 85 years old. She was doing ok until she had heart attack. Was put under for stints. Then she broke ankle, was put under for pins in ankle. She hasnt been the same since. Being put under has changed her. She now has early stages of dementia. Tough to watch and deal with, and work with dementia residents all day. It is hard on all families when the children now have to be the parents of the parents and the roles switch. Yes, it is consuming!",
+            "textOriginal": "I am 61 years old. I am a c.n.a. who works only in dementia. My mom is 85 years old. She was doing ok until she had heart attack. Was put under for stints. Then she broke ankle, was put under for pins in ankle. She hasnt been the same since. Being put under has changed her. She now has early stages of dementia. Tough to watch and deal with, and work with dementia residents all day. It is hard on all families when the children now have to be the parents of the parents and the roles switch. Yes, it is consuming!",
+            "authorDisplayName": "@TanaConnelly-d5e",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mB0AEzuPBnHUnbJ05Kn6OFC0GWil99rk2mq0C8tMcOp8jSTPBxtIYFzdnOER1R9KYpvA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@TanaConnelly-d5e",
+            "authorChannelId": {
+              "value": "UCJLfh0FBzgPmyvU8Zrr_hmA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-09T15:02:58Z",
+            "updatedAt": "2025-10-09T15:02:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "PVtTwtrEy1xu9ygbYZ_8UvOKi-M",
+      "id": "UgxgHsVppvpRlMIJ3Zp4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "2GKYyS5LV7BbSgo3Cfmbz3dOyK4",
+          "id": "UgxgHsVppvpRlMIJ3Zp4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "My parents and I have been living together for the past year.  We have each made adjustments.  I think this is a sacred time, a chance for me, Mom, and Dad to reacquaint ourselves.  I am 65, and they are 85 and 86.  I would encourage anyone who can or who is willing to give this a chance.  I can still remember my parents taking care of me, and now we look out for each other.  My maternal grandmother had her mom and mother-in-law, along with several children, in one home. I hope we find every opportunity to enjoy our parents in this stage of their lives.  I am fortunate to have this time here.  BTW I moved into their home on my way to Africa, and I made the right decision to just stay put.",
+            "textOriginal": "My parents and I have been living together for the past year.  We have each made adjustments.  I think this is a sacred time, a chance for me, Mom, and Dad to reacquaint ourselves.  I am 65, and they are 85 and 86.  I would encourage anyone who can or who is willing to give this a chance.  I can still remember my parents taking care of me, and now we look out for each other.  My maternal grandmother had her mom and mother-in-law, along with several children, in one home. I hope we find every opportunity to enjoy our parents in this stage of their lives.  I am fortunate to have this time here.  BTW I moved into their home on my way to Africa, and I made the right decision to just stay put.",
+            "authorDisplayName": "@kevinwhite1772",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_krOwlN7x8twI7mj1eVq18FVcAudmAhcgRUiysdnGTzUyU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@kevinwhite1772",
+            "authorChannelId": {
+              "value": "UCv42H9w_V80hm3ciIBquwlg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-29T18:03:46Z",
+            "updatedAt": "2026-04-29T18:03:46Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "OyKw8PrXZ3oUoKcJAPFPIll_Iis",
+      "id": "UgxJ4aiwqH1QzhDsqZV4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "L4KDG6T6zdzJ2dgSOrnLKUORuC4",
+          "id": "UgxJ4aiwqH1QzhDsqZV4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Thank you for talking about this Dr. Haver. It is under discussed and the extra stress and worry it brings. Appreciate all you do.",
+            "textOriginal": "Thank you for talking about this Dr. Haver. It is under discussed and the extra stress and worry it brings. Appreciate all you do.",
+            "authorDisplayName": "@randimurray5902",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kAi2ZdVngFWxmTRcc_PPXMpQ9zclN1DI-u6AidyLs=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@randimurray5902",
+            "authorChannelId": {
+              "value": "UCvThewIWlwsAvEMzTmeMUXQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T13:56:15Z",
+            "updatedAt": "2025-09-27T13:56:15Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "IWVJ6k7hLWmn9EPb2fjtf_C8XNk",
+      "id": "UgzIHywwymaN7WKhaFx4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "llGufkkiQD0bFIiv3fHx0t63cwQ",
+          "id": "UgzIHywwymaN7WKhaFx4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Bless you. Have been there, they are now both gone, thought I was going to have to care for my sister (7yrs older than me) but sadly she passed away just this April so I’m through that. It’s hard, frustrating and happens just as you get on your feet after your kids grow up, so you think you’re going to have some time to do those things you couldn’t/didn’t do, you may even have had a taste of freedom but then you realise it was just a tease.\u003cbr\u003eI hope you’re okay.",
+            "textOriginal": "Bless you. Have been there, they are now both gone, thought I was going to have to care for my sister (7yrs older than me) but sadly she passed away just this April so I’m through that. It’s hard, frustrating and happens just as you get on your feet after your kids grow up, so you think you’re going to have some time to do those things you couldn’t/didn’t do, you may even have had a taste of freedom but then you realise it was just a tease.\nI hope you’re okay.",
+            "authorDisplayName": "@suebolton5",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lR2EIXHRn9VSst3aBb57KQh6-i05mParoBMko5Q0ZYXQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@suebolton5",
+            "authorChannelId": {
+              "value": "UCut0yPNp0OrlV5QXQrSddgA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-10T14:01:00Z",
+            "updatedAt": "2025-10-10T14:01:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "cBOKLFEuthr4eDcSC0ZvoImd-EI",
+      "id": "UgwYjL-r5EVmuUF1fdF4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "nrXOmkw4JmzFry17NtqnOO9_SMw",
+          "id": "UgwYjL-r5EVmuUF1fdF4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yessss 💯 Lord knows It&#39;s not easy. However I&#39;m thankful I&#39;m here to do for my mom ❤",
+            "textOriginal": "Yessss 💯 Lord knows It's not easy. However I'm thankful I'm here to do for my mom ❤",
+            "authorDisplayName": "@lakisap9661",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lb5ZJo3MxB7sct5lCwM5yWTvNOuOB1p8Ki7Whf4LeewxE=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lakisap9661",
+            "authorChannelId": {
+              "value": "UCYZgO5csCQkhrAY54JPF-4A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-08-26T15:51:43Z",
+            "updatedAt": "2026-08-26T15:51:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "LVNryTbcc2pehI16NnZD34P4Ods",
+      "id": "UgwocfkyiAuQEWQc4np4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bfL-r8DtngIuKsvK3gQm8tVPX7Q",
+          "id": "UgwocfkyiAuQEWQc4np4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Right there with you. I’m doing better. It’s a big change, and an emotional roller coaster. Trying my best, with the grace of God.",
+            "textOriginal": "Right there with you. I’m doing better. It’s a big change, and an emotional roller coaster. Trying my best, with the grace of God.",
+            "authorDisplayName": "@mccamps4729",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lj-k71YQ4DoGJ3ONgc1fMkk3nwKhoQfq92UT9TW8_-vhA8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@mccamps4729",
+            "authorChannelId": {
+              "value": "UCA4bykNMTKNyr5Mhjq8xcmg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T16:04:51Z",
+            "updatedAt": "2025-09-26T16:04:51Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2FyznH4pJTs00Cw94wzedhuOmw4",
+      "id": "UgwkVS_OO-uMzo3Mpql4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "MM7twFPWmiTxnlLSZPpVyeuMHwY",
+          "id": "UgwkVS_OO-uMzo3Mpql4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "This is why I have long term care insurance.  I’m not gonna be a burden. I’ve worked in nursing homes for 30 years. I would be fine there.",
+            "textOriginal": "This is why I have long term care insurance.  I’m not gonna be a burden. I’ve worked in nursing homes for 30 years. I would be fine there.",
+            "authorDisplayName": "@queenc2144",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/rcPVDk6ihR2t2KUF3hTcySMujdDQ1JRZoUkk9GKWrGLsmf8mD9YQQLPNAPNRiO-FV6WX2vJyHA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@queenc2144",
+            "authorChannelId": {
+              "value": "UC0kToe8vYJwEAkK1XRW5ySg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-09-26T10:27:55Z",
+            "updatedAt": "2025-09-26T10:27:55Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "mtGF2_SQPEwIJfPF_k9AeT1MvS4",
+      "id": "UgxpzxX2CjMhi2Wp7DN4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "N4shrymGiTzpUElVGfbxxOfpQw8",
+          "id": "UgxpzxX2CjMhi2Wp7DN4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes! My I relocated my parents from San Antonio to Tucson December 2017, they moved into the 5 bedroom home they helped my single but working sister purchase. Between she myself two older brothers who also moved in and a nephew we cared for them til momma passed May 2024 age 88 then dad January 2025 age 94, they both had dementia and having home hospice was a blessing ; she had it 5 days and dad 2.  They passed peacefully at home with all their children around. That was the intent and while sometimes challenging I don’t regret a minute of it but I sure do miss them. They had been married 70 years and were wonderful people and parents to us",
+            "textOriginal": "Yes! My I relocated my parents from San Antonio to Tucson December 2017, they moved into the 5 bedroom home they helped my single but working sister purchase. Between she myself two older brothers who also moved in and a nephew we cared for them til momma passed May 2024 age 88 then dad January 2025 age 94, they both had dementia and having home hospice was a blessing ; she had it 5 days and dad 2.  They passed peacefully at home with all their children around. That was the intent and while sometimes challenging I don’t regret a minute of it but I sure do miss them. They had been married 70 years and were wonderful people and parents to us",
+            "authorDisplayName": "@mirnabarnes1204",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kb99W7DmeDGaAPbDo1cabVWjFB57lfyABnNrOUD8jJaA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@mirnabarnes1204",
+            "authorChannelId": {
+              "value": "UCL1VX4nPml7LvH_TIMPjXqw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-29T05:25:17Z",
+            "updatedAt": "2025-09-29T05:25:17Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "SB2wfojSaDMEZG57yNM-a9lqX-k",
+      "id": "Ugxd_LjOUCbFy4e0gyB4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "zbC3IYGaAeMrxv54uLWiq-7upwk",
+          "id": "Ugxd_LjOUCbFy4e0gyB4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "100% true. My sister and I are dealing with this very thing!",
+            "textOriginal": "100% true. My sister and I are dealing with this very thing!",
+            "authorDisplayName": "@tammyparsons8583",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lsV0If9Nq6IPVWiuLP15ZEOIVEHEub3wIk3TFPgUgogh3i=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tammyparsons8583",
+            "authorChannelId": {
+              "value": "UCJczRSR0oD_wPLgmnjjXSew"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-02T06:31:30Z",
+            "updatedAt": "2025-11-02T06:31:30Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "X2n0UjXzpVvgIJhRdzWK2_RbL8Q",
+      "id": "UgyoeeBd8Yb3jOmzEUJ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "uv1MqPHX7AnKoIH7eFkaLf8IUX8",
+          "id": "UgyoeeBd8Yb3jOmzEUJ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes, I agree,  it is so difficult😢. 2 sets of aging family members. You MUST take time for YOU so not to burn out and meet them where they are. They are afraid too 😢",
+            "textOriginal": "Yes, I agree,  it is so difficult😢. 2 sets of aging family members. You MUST take time for YOU so not to burn out and meet them where they are. They are afraid too 😢",
+            "authorDisplayName": "@jodikolb7055",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_keyF7l6fK5ZUescHjWFYaEpcMFGb9_4DrhK3yHIH0=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jodikolb7055",
+            "authorChannelId": {
+              "value": "UC0RIztdos-J8k2AL9wWNJ3w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T13:48:10Z",
+            "updatedAt": "2025-09-27T13:48:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "njD6mP6SV97It77lWDchA6qlH9s",
+      "id": "UgwAl8SlFwmZgT2fdah4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "aeoLC8FnPrG4paCNWGgWp0z8iak",
+          "id": "UgwAl8SlFwmZgT2fdah4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I’m 55 and just now going through this. But my parents are very astute on functional health. But my dad had bladder surgery—still cancer free—and the recovery has been prolonged. I stayed with tj for 2 weeks, but could have stayed much longer. I’ll go back when requested.\u003cbr\u003eThere’s no dementia so that helps.!! I’m here for your support too. ❤",
+            "textOriginal": "I’m 55 and just now going through this. But my parents are very astute on functional health. But my dad had bladder surgery—still cancer free—and the recovery has been prolonged. I stayed with tj for 2 weeks, but could have stayed much longer. I’ll go back when requested.\nThere’s no dementia so that helps.!! I’m here for your support too. ❤",
+            "authorDisplayName": "@karenmyers8743",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m6KIrM-dK-nlTkmp8tZB1jxwelfoFSclW3w218neSmdEaV=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@karenmyers8743",
+            "authorChannelId": {
+              "value": "UCRYNIArG3NdGjfZ3czAei8g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-24T09:22:56Z",
+            "updatedAt": "2025-10-24T09:22:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "9CEaF2SWug8UCoyg12l7mUtQyUk",
+      "id": "UgyQJe9RFUcPLuduDEl4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "LrObjOTzB5rpZK50-vQNe4t-83o",
+          "id": "UgyQJe9RFUcPLuduDEl4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "It is all-consuming. Spent 5 years with my dad who just passed and now dealing with my mom. It is no joke.",
+            "textOriginal": "It is all-consuming. Spent 5 years with my dad who just passed and now dealing with my mom. It is no joke.",
+            "authorDisplayName": "@sheila2759",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mLg_ne4ABsqPzjmzpsOYdA8cCRG2xko1KQKX9JPA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sheila2759",
+            "authorChannelId": {
+              "value": "UCi9-NGBF8IDCUGwwt5W99XA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-30T01:17:07Z",
+            "updatedAt": "2025-09-30T01:17:07Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "pPxNa5uRWdVE1iGmCHVDQuizMuk",
+      "id": "UgyDJILmwXLWAmrYcBd4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "LrMFZSMiI3Z0T5aA9D0yEmqzWNI",
+          "id": "UgyDJILmwXLWAmrYcBd4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I hear you. It&#39;s consuming, frustrating and sad. Xx",
+            "textOriginal": "I hear you. It's consuming, frustrating and sad. Xx",
+            "authorDisplayName": "@coreminutes7578",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nSGZtWxDlLShWMXTeu3PWjonyBxIkFOafUSjne_tA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@coreminutes7578",
+            "authorChannelId": {
+              "value": "UCVYyS55Ho2UuTnNSHr_RosQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T21:11:14Z",
+            "updatedAt": "2025-09-26T21:11:14Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2dtIpiRWCe2zXuvDvWchLKwbAzY",
+      "id": "UgyYj4YKOkYPNn9sCUd4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "VDJhAcQYIyhO6OCYYD3LxGCL88A",
+          "id": "UgyYj4YKOkYPNn9sCUd4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I am double burned out. I am a caregiver for a living, I work full time and I take care of my father, There&#39;s 4 adults trying to take care for him at home and he&#39;s running the four of us into the ground. It&#39;s exhausting, he&#39;s got terminal stage 4 small cell lung cancer. He&#39;s so stubborn, doesn&#39;t want to give an inch on anything, he won&#39;t allow us to bring a caregiver in to help with some meals to give us a break, while we work or take care of our own lives. We all love him very much and want to do whatever it takes to care for him till the end but it is also so very overwhelming.",
+            "textOriginal": "I am double burned out. I am a caregiver for a living, I work full time and I take care of my father, There's 4 adults trying to take care for him at home and he's running the four of us into the ground. It's exhausting, he's got terminal stage 4 small cell lung cancer. He's so stubborn, doesn't want to give an inch on anything, he won't allow us to bring a caregiver in to help with some meals to give us a break, while we work or take care of our own lives. We all love him very much and want to do whatever it takes to care for him till the end but it is also so very overwhelming.",
+            "authorDisplayName": "@ladydi2396",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/vXeYiDmZ1rr4P2p71fZJDvnaoZq2x94TFI3UsoTSqDrRIp7mm3vQcMHeeYIaWQjNn_pKaFcQxQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ladydi2396",
+            "authorChannelId": {
+              "value": "UCBpKfxWmurg1HpCuSmwuqhw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-21T17:01:01Z",
+            "updatedAt": "2025-10-21T17:01:01Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "g95yNByA-lf0nDuSRtyXsX5p2r0",
+      "id": "Ugy-g0g0q6mlh6xwryF4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "OKPfrv-e_SRtLulGf2mUInUh7j8",
+          "id": "Ugy-g0g0q6mlh6xwryF4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I cried today and asked:&quot; Why is it so difficult to look after old people?&quot; , and YouTube  throws out your video.  Sp, I&#39;m 57, and my mom is driving me up the walls.",
+            "textOriginal": "I cried today and asked:\" Why is it so difficult to look after old people?\" , and YouTube  throws out your video.  Sp, I'm 57, and my mom is driving me up the walls.",
+            "authorDisplayName": "@karinstrauss6459",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kIWnXMd0BHDrtWhxLXmzjj09v06rDb9AQEkrYQTfynCSQD=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@karinstrauss6459",
+            "authorChannelId": {
+              "value": "UCc__k56X3gcvqjv6g--YmaQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-10-06T11:55:49Z",
+            "updatedAt": "2026-10-06T11:55:49Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "6h_CWlbZ10YLnOfCRHmYbSQwTQw",
+      "id": "UgxahIKYL2oiDE28XiJ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "0YmVj6ZsVviWA75Y0FvRTkyKHDI",
+          "id": "UgxahIKYL2oiDE28XiJ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes!!! Caring for my Mum who has dementia. It’s all consuming!! Our lives are on hold. It’s so hard! 😢",
+            "textOriginal": "Yes!!! Caring for my Mum who has dementia. It’s all consuming!! Our lives are on hold. It’s so hard! 😢",
+            "authorDisplayName": "@sharonmellul5422",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nlBilyjMA1U52oKK26XZ_UcnniCFBmVBEaZcWRZocnDN18ZKMnESUSGCHsm8S0Thv9RQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sharonmellul5422",
+            "authorChannelId": {
+              "value": "UCjdGLHu5NmONk4RsVMKlXVQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-29T07:02:11Z",
+            "updatedAt": "2025-09-29T07:02:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "7YRcVTRBRdVUMs0D6Y_CT6KLTX8",
+      "id": "Ugz9K5Zu_OojyWJGvtN4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "BOh_DptsvHa9UZNWNbWQC-EecDk",
+          "id": "Ugz9K5Zu_OojyWJGvtN4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Sadly yes. Lost both dads. And both moms have memory issues and are in care facilities. Know the ones of you being the caregivers have a very tough time. We have been temp in home caregivers for both moms. Such a hard thing to do.",
+            "textOriginal": "Sadly yes. Lost both dads. And both moms have memory issues and are in care facilities. Know the ones of you being the caregivers have a very tough time. We have been temp in home caregivers for both moms. Such a hard thing to do.",
+            "authorDisplayName": "@mccluskeyfamily3494",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kelhjMA8zye3E7YL3VsxkYaUjj7hX_BPmYcgCRSX47IQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@mccluskeyfamily3494",
+            "authorChannelId": {
+              "value": "UCwuu1uN6t2hH44QK2Kwf8sA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-09-26T12:10:05Z",
+            "updatedAt": "2025-09-26T12:13:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "wa886uXhaq0WUDzjYooNoN-8itw",
+      "id": "UgzgxUlQT72YE8Tha0J4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bJpx25plvzH-TSsn574RDYDOXNk",
+          "id": "UgzgxUlQT72YE8Tha0J4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes, it&#39;s consuming my life and my siblings have put it all on me and don&#39;t help as much as they should.  It&#39;s a constant struggle trying to get them to take them for a weekend.  🙏",
+            "textOriginal": "Yes, it's consuming my life and my siblings have put it all on me and don't help as much as they should.  It's a constant struggle trying to get them to take them for a weekend.  🙏",
+            "authorDisplayName": "@jogarza6777",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kWPOlc7uu9eUi9unUNiJfdKBqC8lgVzO42v5UnhacUqnU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jogarza6777",
+            "authorChannelId": {
+              "value": "UC9SD8xnGo_t5TO1wxzNQLmw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-09-25T15:49:24Z",
+            "updatedAt": "2026-09-25T15:49:24Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "f9V8FvldYpySAIDz_h5tD8pcKVc",
+      "id": "UgyslDLjapx3022n5_54AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bq3tYDibCqaLTSxtkERWUk1GBJk",
+          "id": "UgyslDLjapx3022n5_54AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes. Your not alone. Sending hugs and prayers",
+            "textOriginal": "Yes. Your not alone. Sending hugs and prayers",
+            "authorDisplayName": "@brendagolimbieski6798",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lLj7Xga8Iqwkh2S8E2nMGlxONscZhBAtDoKuCV4wGFrCg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@brendagolimbieski6798",
+            "authorChannelId": {
+              "value": "UCfLD09qa91YvxXLnWQ67NRQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T12:21:10Z",
+            "updatedAt": "2025-09-26T12:21:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2p0ZB7tWyS7b0ScmFwibKNTdq6Q",
+      "id": "Ugwu8wtFADbqGQUaB-94AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4EeQKeuEdgnxZfTAgQ8npJZTj7w",
+          "id": "Ugwu8wtFADbqGQUaB-94AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I’m 63.  My only sister passed away four years ago and then my dad passed a year later.  I’m the only one left to care for my mom.  She’s 89 1/2 and can barely make herself a quick meal, dress herself and use the bathroom.  Thank goodness for that, but literally everything else is up to me.  Thank goodness my older son (35) helps me out.  Without him I would have lost my mind by now.  It’s exhausting and I feel like my own life is slipping through my fingers.",
+            "textOriginal": "I’m 63.  My only sister passed away four years ago and then my dad passed a year later.  I’m the only one left to care for my mom.  She’s 89 1/2 and can barely make herself a quick meal, dress herself and use the bathroom.  Thank goodness for that, but literally everything else is up to me.  Thank goodness my older son (35) helps me out.  Without him I would have lost my mind by now.  It’s exhausting and I feel like my own life is slipping through my fingers.",
+            "authorDisplayName": "@juliasullivan2315",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nrGJscVpT5b30RiJw7V_6SrN1fFE3tL0EYQn4dGKPssw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@juliasullivan2315",
+            "authorChannelId": {
+              "value": "UC8kWqX0DCPI8bWJMJpL40-A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-07-02T10:16:36Z",
+            "updatedAt": "2026-07-02T10:16:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Wzr9uGN2cpLgg_-8CTqlmz0pdB0",
+      "id": "UgyvLJFxB-uUEnmzL6h4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Tu_b_DayZCxlOORcDaRFm2tCRC4",
+          "id": "UgyvLJFxB-uUEnmzL6h4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "My sibs and I took care of our dad for 3 years before he passed and have been taking care of our mom going on two years. It’s exhausting when combined with work, our own families, menopause, changing body, constant demand on the brain, energy output, but we are blessed to still have her.",
+            "textOriginal": "My sibs and I took care of our dad for 3 years before he passed and have been taking care of our mom going on two years. It’s exhausting when combined with work, our own families, menopause, changing body, constant demand on the brain, energy output, but we are blessed to still have her.",
+            "authorDisplayName": "@alisonpage5704",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_ltO9jvkbIGU-EoqddPQAPkUEScqkMOEGVDWl1PPtM=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@alisonpage5704",
+            "authorChannelId": {
+              "value": "UCX7ovVj5WtM09gRiyYs5baw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T11:11:50Z",
+            "updatedAt": "2025-09-26T11:11:50Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "M-yLtvejGtYDDNFtRo81RxQvw6w",
+      "id": "UgwxX2G_1XlffNfFz1R4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "e9icVq4xDnL1xk-wseinf-hnB2I",
+          "id": "UgwxX2G_1XlffNfFz1R4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "You are not alone! We are out here!",
+            "textOriginal": "You are not alone! We are out here!",
+            "authorDisplayName": "@JasonBear-on8sy",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mXl5vEZetSFCfuG2B7_VLqc38fE5TVJMtL_CGIeMUbdXJf55quvy5KONcX81xCv66Llw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@JasonBear-on8sy",
+            "authorChannelId": {
+              "value": "UC73Kpe04ksb26Q217QX1z9Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-22T13:42:08Z",
+            "updatedAt": "2025-10-22T13:42:08Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Htgg3Ra4eZ2j1or8X6xfYopwSXE",
+      "id": "UgwRtrLi5zhL8GvF0SV4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vY1HkpZDgJQfEgpJrCEqAEnj4PA",
+          "id": "UgwRtrLi5zhL8GvF0SV4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "We have Dad at 94, step mom at 91 and mom at 93! The trifecta! It is unbelievably difficult!",
+            "textOriginal": "We have Dad at 94, step mom at 91 and mom at 93! The trifecta! It is unbelievably difficult!",
+            "authorDisplayName": "@susanb8691",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kxOWu33UnPjIXX_J9Pt9wegalqYqxUahWXVEeVJ40=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@susanb8691",
+            "authorChannelId": {
+              "value": "UCj9Q2u070T8KeVdqKWlicgg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T00:55:15Z",
+            "updatedAt": "2025-09-27T00:55:15Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "KdNFbAf0h_H1MtOnPez8HTdEuF4",
+      "id": "Ugzxy_ZBiTC5yghQIFV4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "kjug8qNdW1d38JrvWrRu35wez50",
+          "id": "Ugzxy_ZBiTC5yghQIFV4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes!!!!! my mother has dementia and it’s scary, sad and completely overwhelming! I have sisters so not completely alone but it’s still so very hard.",
+            "textOriginal": "Yes!!!!! my mother has dementia and it’s scary, sad and completely overwhelming! I have sisters so not completely alone but it’s still so very hard.",
+            "authorDisplayName": "@tiffanybows",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k-H2P3k_3p5cgbyFRdZVJrjwsAkGoKUYNs16QHczg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tiffanybows",
+            "authorChannelId": {
+              "value": "UCH2pvf3egyutOsCq2MWcrXw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-03T21:32:24Z",
+            "updatedAt": "2025-11-03T21:32:24Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vAzgfxU_8krnQOOIqeu3CcmuVp0",
+      "id": "UgwshF1wW6qjAFSP2314AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "WufamomhjqoDvlYIvtCASEox7I0",
+          "id": "UgwshF1wW6qjAFSP2314AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes!  My mom is 93 years young and thriving.          Im done complaining and feeling sorry for myself.  I’m just focusing on the positive- I still have Mom.  💃🏻😎",
+            "textOriginal": "Yes!  My mom is 93 years young and thriving.          Im done complaining and feeling sorry for myself.  I’m just focusing on the positive- I still have Mom.  💃🏻😎",
+            "authorDisplayName": "@arestm1",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m32V1APw8P1BfXUa8qYgCzSfRv9fGtS54Ex2LMoLQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@arestm1",
+            "authorChannelId": {
+              "value": "UCv5MAw3gyTnJ1vNAuxMlBDw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-20T05:50:41Z",
+            "updatedAt": "2025-10-20T05:50:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "E7C29I26bfyNrkjauDe9jMvD_9Q",
+      "id": "Ugzj_U5ovBYvTOIMUyx4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "UWpF2PmIRHhQMM9X_FDfNS7M600",
+          "id": "Ugzj_U5ovBYvTOIMUyx4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Not on TikTok... But yes, absolutely, it&#39;s a big job for so many people in our age range.",
+            "textOriginal": "Not on TikTok... But yes, absolutely, it's a big job for so many people in our age range.",
+            "authorDisplayName": "@SueCrerar",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lnZMJbwmLhuBdRpi02dkRzDRRFoN5RGdr_DD7LLJPuYtE=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@SueCrerar",
+            "authorChannelId": {
+              "value": "UCWikIQKSvrj9tCS4HTaZ-AA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T07:51:39Z",
+            "updatedAt": "2025-09-27T07:51:39Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "PbkuaHMBh-goRWHjjNLkUFxrHA8",
+      "id": "UgzzT0v3SqhrxaFLK4p4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "0Ao6NRFBxOPFjVqVy_Tmk5zvkaY",
+          "id": "UgzzT0v3SqhrxaFLK4p4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "YES.  It’s taking over my life because I can’t go anywhere do anything or have any time to myself. And when your parent plans for nothing lies to you about what they plan you’re stuck with trying to get conservatorship POV’s everything it’s very very exhausting.",
+            "textOriginal": "YES.  It’s taking over my life because I can’t go anywhere do anything or have any time to myself. And when your parent plans for nothing lies to you about what they plan you’re stuck with trying to get conservatorship POV’s everything it’s very very exhausting.",
+            "authorDisplayName": "@anitamartini64",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/gC4OOHrl1dIihl3KzNrTTb2XUjQR1uzIfuI77WAMmK1rmrQqaiDxyjddzBkSHd9cs4LwUbxM=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@anitamartini64",
+            "authorChannelId": {
+              "value": "UCGbDY8AB8jTMb1ZERLTSGQg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-27T02:01:12Z",
+            "updatedAt": "2025-10-27T02:01:12Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "c12U7jhObVH30HG3CKakMCW29bw",
+      "id": "Ugyd9_q3cx8eLVPMzWd4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "tOkCDasC5BJ_zyk_1K4ufPxuP5c",
+          "id": "Ugyd9_q3cx8eLVPMzWd4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I have aging parents as well as work at\u003cbr\u003ea job that deals with children putting their parents in nursing homes. It becomes very overwhelming to help others put their parents in nursing homes and tell them not to feel guilty when I am doing my best to prepare to keep mine out of one.",
+            "textOriginal": "I have aging parents as well as work at\na job that deals with children putting their parents in nursing homes. It becomes very overwhelming to help others put their parents in nursing homes and tell them not to feel guilty when I am doing my best to prepare to keep mine out of one.",
+            "authorDisplayName": "@anastasiabeaverhausen2660",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/rfMvR-dit1FhO-qw691ZbFpEPAdc-DdTAKfECopFuxyWh9ZWji8JjqJAtSJ8BNaHpqTIyTa7=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@anastasiabeaverhausen2660",
+            "authorChannelId": {
+              "value": "UCS4xROn5ydIrnqKONkpjCUg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-13T22:59:28Z",
+            "updatedAt": "2025-10-13T22:59:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "x-oDZDXa8Y3FPRAtL6IzluWhjIU",
+      "id": "Ugy3MC0g62pk2MFm5eB4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Q_7pT2yK8VTl7oA2y8RkylwEiTw",
+          "id": "Ugy3MC0g62pk2MFm5eB4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Thank you so much for making this statement out loud! It has consumed my life. I had to resign from my career in aviation, and that was nine years ago.. I’m sitting here at his bedside. He is currently in Hospice and had a stroke this afternoon. I am so deprived of sleep of rest of just life. It’s so easy for people to say you have to take care of yourself but at what point in time do you actually get to do that? Would someone please explain this to me? What am I doing wrong? Nothing. This is exactly what it is and it is completely overwhelming. You can’t leave. you can’t quit. You can’t walk away. You can take breaks…little ones. I have been praying for my dad’s body to release and for him to pass on. He’s been in state for at least a year that is not very dignifying and he doesn’t want to be here. He doesn’t want to live. We need to have laws in place so that our elders can pass when they choose, if they choose. Godspeed for big Jim, please. 🙏🌀✨🌀❤️",
+            "textOriginal": "Thank you so much for making this statement out loud! It has consumed my life. I had to resign from my career in aviation, and that was nine years ago.. I’m sitting here at his bedside. He is currently in Hospice and had a stroke this afternoon. I am so deprived of sleep of rest of just life. It’s so easy for people to say you have to take care of yourself but at what point in time do you actually get to do that? Would someone please explain this to me? What am I doing wrong? Nothing. This is exactly what it is and it is completely overwhelming. You can’t leave. you can’t quit. You can’t walk away. You can take breaks…little ones. I have been praying for my dad’s body to release and for him to pass on. He’s been in state for at least a year that is not very dignifying and he doesn’t want to be here. He doesn’t want to live. We need to have laws in place so that our elders can pass when they choose, if they choose. Godspeed for big Jim, please. 🙏🌀✨🌀❤️",
+            "authorDisplayName": "@RootedSoul713",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/cp-zyPYWW0nF41cssGrp9SC4BqQG5O1sCRoZ9JAFEBRaqlVh1aEFut6_Sl5HJk0C6dCiwqYQuA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@RootedSoul713",
+            "authorChannelId": {
+              "value": "UCO18QlLlERhTRtTKDl3wfWw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-10-15T06:28:42Z",
+            "updatedAt": "2026-10-15T06:30:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "i9l53UVjLW-VMvqGYda3LTxmJtM",
+      "id": "Ugxz9aJZ6vv0jIn618Z4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "_Fe1Bc0rjae6FURDFS8OeGCX5Uo",
+          "id": "Ugxz9aJZ6vv0jIn618Z4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes— I’m 56 yrs. My Mom has late stage dementia. It is very overwhelming sometimes. So much responsibility. My husband of 31 yrs., passed away in 2021. He wound be such a helper for me now. My 18 yrs daughter is finishing up her senior year- and I’m trying to help her find a college too. Lots going on",
+            "textOriginal": "Yes— I’m 56 yrs. My Mom has late stage dementia. It is very overwhelming sometimes. So much responsibility. My husband of 31 yrs., passed away in 2021. He wound be such a helper for me now. My 18 yrs daughter is finishing up her senior year- and I’m trying to help her find a college too. Lots going on",
+            "authorDisplayName": "@shannonbutterworth5850",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/4Yd-m4kUhjoT5gtFrVwKj-nh977n3Lu8aQ8gWw1dc_hsgQjWBKqlPrqwAnybdGk_rZMe9hnPnSw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@shannonbutterworth5850",
+            "authorChannelId": {
+              "value": "UCxCU9aguUSVkOp9P_vzJ4gg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-05T01:52:37Z",
+            "updatedAt": "2025-10-05T01:52:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "L-Y_oEIijuDJBBSDFZTfoDUFxqE",
+      "id": "UgyiynUhFhehlP7l3fd4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "XXfsfAGpvESOnRmTT0j7hFk0nPg",
+          "id": "UgyiynUhFhehlP7l3fd4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes! Planning for family care in old age needs to be a conversation we hold with our adult children and keep discussing and preparing for. It’s a reality for most people and doesn’t need to be the terrible burden or ignored elephant in the room.",
+            "textOriginal": "Yes! Planning for family care in old age needs to be a conversation we hold with our adult children and keep discussing and preparing for. It’s a reality for most people and doesn’t need to be the terrible burden or ignored elephant in the room.",
+            "authorDisplayName": "@meredithjones9720",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mxixQFz5dXLM3BwJ985h2QAKwCIjr_Ql_veToVgEg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@meredithjones9720",
+            "authorChannelId": {
+              "value": "UCaPhNZI4xPI5z3IOl_OJWRg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T22:14:54Z",
+            "updatedAt": "2025-09-28T22:14:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ND84UgMVPIIadJ1PZ_5digkvCz0",
+      "id": "UgyM_0UhgfMvvv3PZB94AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "qpq-xrAXrAjoTpGbswu7BHtDcZ4",
+          "id": "UgyM_0UhgfMvvv3PZB94AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes. My dad died in March very quickly and without much deterioration at 88. My mom is now alone at 87 not knowing who she is. It’s so heartbreaking 💔 ❤",
+            "textOriginal": "Yes. My dad died in March very quickly and without much deterioration at 88. My mom is now alone at 87 not knowing who she is. It’s so heartbreaking 💔 ❤",
+            "authorDisplayName": "@Justmenow",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/jHf4B0DhTOP5EgLMna5TQg9--O2oNiwTgCyljZA12IAPuMoah6BjOO9JiYDASuO66xjK6R-8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Justmenow",
+            "authorChannelId": {
+              "value": "UC2yKCg1DvHOFWHTR2lFFKUw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-17T21:00:37Z",
+            "updatedAt": "2025-10-17T21:00:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "-RMbOKN1zGyXa9B6oO5J-qtzajg",
+      "id": "UgxOsMU7eSCFP1rNGXV4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Bk_tNpEt_ndxrncL84AkqckAXZ0",
+          "id": "UgxOsMU7eSCFP1rNGXV4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I lost both my parents in a fire in their 40’s. It was tragic, but in a way easier to deal with than seeing a slow decline. My heart goes out to all of you who have to deal with this.  I missed out on a lot , but at least I have the memory of my parents young and not the slow decline. It must be horribly stressful.  I guess we will be the next generation and how will we make it better for our kids so they don’t have to experience this with us.",
+            "textOriginal": "I lost both my parents in a fire in their 40’s. It was tragic, but in a way easier to deal with than seeing a slow decline. My heart goes out to all of you who have to deal with this.  I missed out on a lot , but at least I have the memory of my parents young and not the slow decline. It must be horribly stressful.  I guess we will be the next generation and how will we make it better for our kids so they don’t have to experience this with us.",
+            "authorDisplayName": "@kathrynbauerasmr9367",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/dViNgi-wpKo1XEJe4Rx5enZnJAaTma-ewwaj9_mzzLrANtIILoLsmMlFcK0CooirKTXFOV4q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@kathrynbauerasmr9367",
+            "authorChannelId": {
+              "value": "UCf7GYVCl1PmVwlYTOGTjCxA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T16:41:32Z",
+            "updatedAt": "2025-09-27T16:41:32Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "IiKXQ6lGn9ELpPD6KU2Mhlxb1ho",
+      "id": "Ugy-KVDQyKJvWivU0354AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "oCLOgNxprv4qEjcdrCIP8WiLaL8",
+          "id": "Ugy-KVDQyKJvWivU0354AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Study out about caregiving exacerbating menopausal symptoms and depression. Treat the menopause or perimenopause during this time. I can say that from personal experience this is a must for us caregivers.",
+            "textOriginal": "Study out about caregiving exacerbating menopausal symptoms and depression. Treat the menopause or perimenopause during this time. I can say that from personal experience this is a must for us caregivers.",
+            "authorDisplayName": "@Flamenco1313",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/qcxTvMdK1H2opjwrHBn8_LAzclRJFpz5n7hE4seXyBtY8PDdrt0Aeaj-SV7qRWtrdYR9Nj2cMw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Flamenco1313",
+            "authorChannelId": {
+              "value": "UCttYCyfJahtPdWLeoLgCt4g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-09-26T10:20:56Z",
+            "updatedAt": "2025-09-26T10:20:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "N6smqImqm4yeVuB_6C3YcAgstVc",
+      "id": "Ugw-PrZLuCca8CPdpeF4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Ez0ARk5JHGil9HI3YO21lc3UI34",
+          "id": "Ugw-PrZLuCca8CPdpeF4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I was the caregiver for my mother and she absolutely would not let anyone else care for her,like my sister, I don&#39;t know why, but she only wanted me to do everything. At first I was honored to be there for her, but it did definitely consume me, being that only one to do for her, but I told myself she was always there for me,as a kid and an adult, so every time I got a little stressed, I would think about all the times she was there for me, and also with her gone, I get to have a clear conscience knowing I did everything I possibly could for her and wouldn&#39;t change a thing. This won&#39;t last forever and it&#39;s going to be okay",
+            "textOriginal": "I was the caregiver for my mother and she absolutely would not let anyone else care for her,like my sister, I don't know why, but she only wanted me to do everything. At first I was honored to be there for her, but it did definitely consume me, being that only one to do for her, but I told myself she was always there for me,as a kid and an adult, so every time I got a little stressed, I would think about all the times she was there for me, and also with her gone, I get to have a clear conscience knowing I did everything I possibly could for her and wouldn't change a thing. This won't last forever and it's going to be okay",
+            "authorDisplayName": "@ConnieCarpenter-u3y",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l54JuFkfz_MPuEzHjXdxfvxURY00Junn3arhXrUYET02NzrFzJeqJsa24OyzDDUvdakg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ConnieCarpenter-u3y",
+            "authorChannelId": {
+              "value": "UCSJQaBV2ZFhj01Q6J1wiZTg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T03:07:59Z",
+            "updatedAt": "2025-09-27T03:07:59Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "UFFHyl17OKf_ZxkAmdeirm6Rl9E",
+      "id": "Ugx-PmLpNLj782eze6Z4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9pHfIOrue5f77wfLGmfiAaC5BPc",
+          "id": "Ugx-PmLpNLj782eze6Z4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "My parents had me when they were older, so I dealt with these issues in my late 30s to late 40s. I was also raising my own kids and working a full-time job. I can totally relate to the stress and fatigue. Hang in there.",
+            "textOriginal": "My parents had me when they were older, so I dealt with these issues in my late 30s to late 40s. I was also raising my own kids and working a full-time job. I can totally relate to the stress and fatigue. Hang in there.",
+            "authorDisplayName": "@csbsmom",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nXmY0SNz0oOVnVDV0iSOqMb4KZ1MscYlCHD8ZWoyg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@csbsmom",
+            "authorChannelId": {
+              "value": "UCVXEowT4uhddGB8STDS6NQw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T21:25:05Z",
+            "updatedAt": "2025-09-27T21:25:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "YCo3mxIe_Q_ujF-SaITnOmQCvyM",
+      "id": "UgzBPeJrwAl05b5BLAp4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "m5oH1qatE_9Naub0lH3Z1xYeIao",
+          "id": "UgzBPeJrwAl05b5BLAp4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I cared for my Mum in my home. I left work. Mum left work to look after me. It was a great time to learn about the medical system but also to bond with Mum and spend lots 9f time with her. Have holidays with her, make up for lost time. She was a fit 80 year old, someone who liked to talk abou4lt her health and be involved. She didnt want any help except from family and made her own decision and was treated with respect and not like a child. We supported not took over. She refused xrays and ct scan and we supported what she wanted. She was in my home and enjoyed it, seeing her grandkids more etc",
+            "textOriginal": "I cared for my Mum in my home. I left work. Mum left work to look after me. It was a great time to learn about the medical system but also to bond with Mum and spend lots 9f time with her. Have holidays with her, make up for lost time. She was a fit 80 year old, someone who liked to talk abou4lt her health and be involved. She didnt want any help except from family and made her own decision and was treated with respect and not like a child. We supported not took over. She refused xrays and ct scan and we supported what she wanted. She was in my home and enjoyed it, seeing her grandkids more etc",
+            "authorDisplayName": "@sloene72",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mCBQpFTdIg7HPsG8jM9vKLU_7b8jca4_NfjMjfrA7cEF4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sloene72",
+            "authorChannelId": {
+              "value": "UCIL1dWbC617_LHQHacdmEqQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-07T21:28:58Z",
+            "updatedAt": "2025-10-07T21:28:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "u71eKT2pWRWve6oJuOugArEWK10",
+      "id": "UgwZ4Otu1coZvTze_ol4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "z3CvY1lFRU_j558R9U9CKJEKFcY",
+          "id": "UgwZ4Otu1coZvTze_ol4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I’m 59 and my brother 60.  We have been dealing with our Mom for the last 19 years and dementia is the strangest disease.  One minute we have to do “everything” for her, the next she is perfectly fine and wants to run away (literally) us and take a plane to her condo.  She has lived with both of us and is unhappy even-though we are giving everything up for her.  \u003cbr\u003eWe feel like we can’t win.",
+            "textOriginal": "I’m 59 and my brother 60.  We have been dealing with our Mom for the last 19 years and dementia is the strangest disease.  One minute we have to do “everything” for her, the next she is perfectly fine and wants to run away (literally) us and take a plane to her condo.  She has lived with both of us and is unhappy even-though we are giving everything up for her.  \nWe feel like we can’t win.",
+            "authorDisplayName": "@gemalafleur1304",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kioJNM9Cxce-kQd4bNPtHcN16uxNi9CJI24eviHdG1EAJg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@gemalafleur1304",
+            "authorChannelId": {
+              "value": "UC814Qtn2JWyZsUpf0bKFk0A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-02T13:49:51Z",
+            "updatedAt": "2025-10-02T13:49:51Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5Zv9RIKd0V4zul6Lyjg3sKX9RO4",
+      "id": "Ugw2pdrkUh1cRUO8w5N4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "jrbpIrSe8xJCMmiieIJSLszlGnk",
+          "id": "Ugw2pdrkUh1cRUO8w5N4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "OMG yes. It has consumed the last 5 years and continues to this day!",
+            "textOriginal": "OMG yes. It has consumed the last 5 years and continues to this day!",
+            "authorDisplayName": "@kristinap3759",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/aeCDVvXbzGqW6hWW2Hl2Szmx2wlVVVvnMj__WfEOm2imOWIWAu18vU2w-Aa4Sz6_uQ340i2JDw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@kristinap3759",
+            "authorChannelId": {
+              "value": "UCCL1T2-jSdFRDi06LD5rK2A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-02-17T00:55:27Z",
+            "updatedAt": "2026-02-17T00:55:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "PyAbVX4IjJKMcB4J4gGSCM3oZmA",
+      "id": "Ugz8RJ7ipj_3MdfKhOR4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "eqOGAaQ_m_ofBI_c4vdMALMMHzA",
+          "id": "Ugz8RJ7ipj_3MdfKhOR4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "It is so hard. Helping my parents downsize gave me a stress induced heart attack in 2022. They are 82 and 83 and my MIL is 92. It&#39;s intense.",
+            "textOriginal": "It is so hard. Helping my parents downsize gave me a stress induced heart attack in 2022. They are 82 and 83 and my MIL is 92. It's intense.",
+            "authorDisplayName": "@AllisonCrow",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/sbRu8HQIFR6SQ2pBiN6i0P5_Rn2--S95tkrQpivv1xsInhJu5n_vdBdYl_PrJiRtHXnre28oGq0=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AllisonCrow",
+            "authorChannelId": {
+              "value": "UCl5SKdo23fiB9vDGzsTqFUQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T21:58:36Z",
+            "updatedAt": "2025-09-28T21:58:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "HrpDrFthaP0WMNgMmmv3EOeDq4g",
+      "id": "UgyflaYYuUdUSeVkuQJ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "jQzF-g1XcJ-7wn46swpYU2_6qik",
+          "id": "UgyflaYYuUdUSeVkuQJ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "All consuming! Yes!!! Life changing. Life altering. The hardest season we’ve ever been in 😭 I feel like it has accelerated the aging process and our health is declining at a rapid rate. It began with my in-laws at the very same time I began having HORRIFIC peri/menopause symptoms.",
+            "textOriginal": "All consuming! Yes!!! Life changing. Life altering. The hardest season we’ve ever been in 😭 I feel like it has accelerated the aging process and our health is declining at a rapid rate. It began with my in-laws at the very same time I began having HORRIFIC peri/menopause symptoms.",
+            "authorDisplayName": "@nicholsonapril72",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l_gAd3XQQWgaP-gc15QY-ZgPrP1lpAyYfHkikwx3Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@nicholsonapril72",
+            "authorChannelId": {
+              "value": "UCaoy58mpTS7wK2AvBMASQTg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-30T00:04:02Z",
+            "updatedAt": "2025-09-30T00:04:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "CNc3ChDQ2FkO8Yc7S0LwA1m3wGc",
+      "id": "UgwKLzedHvdM5R4zFh14AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Y162_LP7ROf55bWYh2oZK0pzZ-Y",
+          "id": "UgwKLzedHvdM5R4zFh14AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yeah. Been there with my mom. \u003cbr\u003e\u003cbr\u003eNow, after THIS stage is over, you have the pleasure of going through old age YOURSELF. I call it the last final challenge of life.",
+            "textOriginal": "Yeah. Been there with my mom. \n\nNow, after THIS stage is over, you have the pleasure of going through old age YOURSELF. I call it the last final challenge of life.",
+            "authorDisplayName": "@Myra7730-k9d",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/nSgW-6AKIyL1-gCzQCskvmMHFLe9vmmueKaomlrV4SkNNg36OW_2pCcFGC7M7On1XCZrr_WWgw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Myra7730-k9d",
+            "authorChannelId": {
+              "value": "UCJRaQFOOGWaC1L6iLdqn-GA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-06-21T06:02:10Z",
+            "updatedAt": "2026-06-21T06:02:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "v2sjshMegUr2LCwgWyZj9tS5mIs",
+      "id": "UgyvVbTcBmVqWTZPz514AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "duq587HfPaOuxYV4HeGSTCRRNWs",
+          "id": "UgyvVbTcBmVqWTZPz514AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yeah. Been there with my mom. \u003cbr\u003e\u003cbr\u003eNow, after THIS stage is over, you have the pleasure of going through old age YOURSELF. I call it the last final challenge of life.",
+            "textOriginal": "Yeah. Been there with my mom. \n\nNow, after THIS stage is over, you have the pleasure of going through old age YOURSELF. I call it the last final challenge of life.",
+            "authorDisplayName": "@Myra7730-k9d",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/nSgW-6AKIyL1-gCzQCskvmMHFLe9vmmueKaomlrV4SkNNg36OW_2pCcFGC7M7On1XCZrr_WWgw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Myra7730-k9d",
+            "authorChannelId": {
+              "value": "UCJRaQFOOGWaC1L6iLdqn-GA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-06-21T06:02:00Z",
+            "updatedAt": "2026-06-21T06:02:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "CYnjSvcJ3iz55WSvFC1VCWzvo74",
+      "id": "Ugw9x4SiXnCBnerIIbx4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "y6BQhqApJLd7CNh2ELK-h09z_xM",
+          "id": "Ugw9x4SiXnCBnerIIbx4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I just recently said, I never really considered having to raise my parents. And I’ve been in the health field my whole life!\u003cbr\u003eIt’s SOOO much harder than I could ever imagine.",
+            "textOriginal": "I just recently said, I never really considered having to raise my parents. And I’ve been in the health field my whole life!\nIt’s SOOO much harder than I could ever imagine.",
+            "authorDisplayName": "@kimdaniells4514",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n2YHSf6V2dYCpCVeIfg9nr0by5g5SHxYyE_BH94rY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@kimdaniells4514",
+            "authorChannelId": {
+              "value": "UCP65bSEbawWDECazpX6PpGA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-06-11T19:42:00Z",
+            "updatedAt": "2026-06-11T19:42:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "kP26KwMLSJ6480ScoiDQOW8_93k",
+      "id": "UgymMJqAU2TyLgYOc8V4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "C348kS0mjAlkjp18hd8rRQwJAdY",
+          "id": "UgymMJqAU2TyLgYOc8V4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "100% agree. This is my life right now. And I am the only one who is caring for my mom.",
+            "textOriginal": "100% agree. This is my life right now. And I am the only one who is caring for my mom.",
+            "authorDisplayName": "@juanitalopez1936",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kfZqSeVTb0PpnnFPU2uvUXeWEKR5P2dj-BpwOcXB0k0rtC=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@juanitalopez1936",
+            "authorChannelId": {
+              "value": "UCjescXrETdteFrL7Ny7GLNA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T18:07:48Z",
+            "updatedAt": "2025-09-27T18:07:48Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "J2xbhDU6m8yBRpFIjU16JNOamnw",
+      "id": "Ugw_HeuYQWCkOWkZTDF4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "A4Cot619XKJjWMXBklj4eDaMvUA",
+          "id": "Ugw_HeuYQWCkOWkZTDF4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I have been dealing with this and have really sacrificed my health. Having a full time care taker is a must to decrease the burden.",
+            "textOriginal": "I have been dealing with this and have really sacrificed my health. Having a full time care taker is a must to decrease the burden.",
+            "authorDisplayName": "@vanitagomes3794",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lotOLSJe5LLL-Ee269M2QcGgEPiDvg8QqvqHIsy1dFddM=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@vanitagomes3794",
+            "authorChannelId": {
+              "value": "UCaYoiX7rozUI62j4U5RbdlA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-15T16:09:40Z",
+            "updatedAt": "2025-10-15T16:09:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "l5FBeAro9ursp2cVhTDQTXagsVk",
+      "id": "UgyRul1OHfsEYIsQuYB4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "oH5hhyrbDaaBZh5lurQ7F4poGZE",
+          "id": "UgyRul1OHfsEYIsQuYB4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Have been dealing with aging parents since 2019... Carers fatigue right here 🙋🏼\u200d♀️",
+            "textOriginal": "Have been dealing with aging parents since 2019... Carers fatigue right here 🙋🏼\u200d♀️",
+            "authorDisplayName": "@therese3960",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/MNjrkPEakyY-xAYlFBNUsQHxmWIN5swIUZxxQRY4Q5blFy1WZfmesUL5K62ukqBzn8ucyO0DCQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@therese3960",
+            "authorChannelId": {
+              "value": "UCpH1_yoHkJRN0UgNV92Yl5A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-26T10:00:33Z",
+            "updatedAt": "2025-10-26T10:00:33Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ciMCFJADN41W9dNvD6iH3swPUVI",
+      "id": "UgwPorx7Tt39kL9xE1h4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "D_ezxtBb3exWgfCfqcjnbg5WmeY",
+          "id": "UgwPorx7Tt39kL9xE1h4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Totally consumed in the care of my mother-in-law! One fall in April and now we’re dealing with continual uti’s and full blown dementia. We have gone from living with her to providing 24/7 care to moving her into assisted living, and after 4 weeks in assisted living another fall and moved into a nursing home with no idea for what tomorrow holds. It has been an exhausting and consuming season with a very steep learning curve! All while trying to manage and recover from my own menopause crisis and be present for my children (27-13)!",
+            "textOriginal": "Totally consumed in the care of my mother-in-law! One fall in April and now we’re dealing with continual uti’s and full blown dementia. We have gone from living with her to providing 24/7 care to moving her into assisted living, and after 4 weeks in assisted living another fall and moved into a nursing home with no idea for what tomorrow holds. It has been an exhausting and consuming season with a very steep learning curve! All while trying to manage and recover from my own menopause crisis and be present for my children (27-13)!",
+            "authorDisplayName": "@tonyanelson2202",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kvQbQ3Gg8iAVaROvMeQDyKlIgGSFJ0KRr7guqjxGg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tonyanelson2202",
+            "authorChannelId": {
+              "value": "UCyrs4RlggQRBTs1NNOeP3cg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-30T19:01:40Z",
+            "updatedAt": "2025-09-30T19:04:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "eCR6uZAfKxdmKVh_e8D9l0EEIRk",
+      "id": "UgxE1DWqjDJPQlJq36x4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9PRTRPI5cR6IkWi1co7vZQe0vTQ",
+          "id": "UgxE1DWqjDJPQlJq36x4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Losing my mom to rectal cancer, she&#39;s half way across the country and she&#39;s only 61. So I enjoy  every phone call I get, even when she&#39;s road raging to work ❤",
+            "textOriginal": "Losing my mom to rectal cancer, she's half way across the country and she's only 61. So I enjoy  every phone call I get, even when she's road raging to work ❤",
+            "authorDisplayName": "@JuviaFulbuster",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/yH1MabGnjttRXDQGdAkqiNZgItNMc4LmkmsPHVdPeQU--0jQJsMbtWo0qo7jmKjyOcw3UOJJuA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@JuviaFulbuster",
+            "authorChannelId": {
+              "value": "UCo78VC3yrvl4PEAnVlzYkpg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T03:18:41Z",
+            "updatedAt": "2025-09-28T03:18:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "KTuTlueBRVeTZoMo-kDBY8WfC00",
+      "id": "UgzOtbzYcJgmvHVAC3l4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "W5T7OrkgthO2vgCCo8VTca03HUQ",
+          "id": "UgzOtbzYcJgmvHVAC3l4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Went through this about 5 years ago initially trying to help my suicidal stepdaughter . Then my mom got ill so I took turns with my other siblings flying out and caring for her in another state while she went through chemo, then repeating it the next year as she went through hospice. Then repeated the whole scenario again with my mother-in-law in yet another state. Multiple trips for my father-in-law who fortunately has the live - in help of my sister-in-law. But my sister-in-law has lupus, so we know she will eventually need our help. My father is almost 80, so I know that is coming. Meanwhile I&#39;ve been going through menopause, and then a health crisis of my own that I still haven&#39;t recovered from or figured out.  I don&#39;t know what I was thinking when I was younger, I thought life would actually get easier after 50, thought we would be in a better place financially, the kids would be grown up and independent, and we could breathe. I&#39;m realizing now that life is never going to get easier, it just seems to get harder and harder.",
+            "textOriginal": "Went through this about 5 years ago initially trying to help my suicidal stepdaughter . Then my mom got ill so I took turns with my other siblings flying out and caring for her in another state while she went through chemo, then repeating it the next year as she went through hospice. Then repeated the whole scenario again with my mother-in-law in yet another state. Multiple trips for my father-in-law who fortunately has the live - in help of my sister-in-law. But my sister-in-law has lupus, so we know she will eventually need our help. My father is almost 80, so I know that is coming. Meanwhile I've been going through menopause, and then a health crisis of my own that I still haven't recovered from or figured out.  I don't know what I was thinking when I was younger, I thought life would actually get easier after 50, thought we would be in a better place financially, the kids would be grown up and independent, and we could breathe. I'm realizing now that life is never going to get easier, it just seems to get harder and harder.",
+            "authorDisplayName": "@athenachloewoodrow6356",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mZWJyp-HIIcDFyIGhZcSZDVekBMZA0gY3KSl43Ic-Vtfc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@athenachloewoodrow6356",
+            "authorChannelId": {
+              "value": "UCCIzWGoU2XcIbzX-QPTb6UQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T17:11:59Z",
+            "updatedAt": "2025-09-26T17:11:59Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5N5Lp5nVGAG8CvSsa8rNZ1uMmQU",
+      "id": "UgzdhFHlSqpUlkzRKVZ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "PEoLH4z3staS6ir4EPJDpZvktmY",
+          "id": "UgzdhFHlSqpUlkzRKVZ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I am in the middle of it all. I am 44, I have young elementary aged kids and a mother in her mid-70&#39;s with dementia and mobility issues.",
+            "textOriginal": "I am in the middle of it all. I am 44, I have young elementary aged kids and a mother in her mid-70's with dementia and mobility issues.",
+            "authorDisplayName": "@Grantanimates365",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/0VWaU6M0AilXmiHdGtYNaS9Q5ld_f1FefhfxZfi663w8ZPVJXp84NDbYrdcQXfep8QBPUIbs=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Grantanimates365",
+            "authorChannelId": {
+              "value": "UCAn8VBUp7z8k7eLcNzppfyg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-13T16:36:41Z",
+            "updatedAt": "2025-10-13T16:36:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "HOwTJz7Kk76sKCoh6JZAFLcq76g",
+      "id": "Ugzq0ItOubPPl2jIp9B4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ejVae4ljEMgbbOS7aloC-RWrsM4",
+          "id": "Ugzq0ItOubPPl2jIp9B4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I&#39;m 18 and my father was diagnosed with Alzheimer&#39;s when I was 16. Please don&#39;t take the time you&#39;ve already lived and the experience youve had for granted. The future is never known but a lot of people grow up without parents at all. Aging and sick parents is very sad shit and it&#39;s one of the hardest things I&#39;ve ever been through. Also rocking my world lol",
+            "textOriginal": "I'm 18 and my father was diagnosed with Alzheimer's when I was 16. Please don't take the time you've already lived and the experience youve had for granted. The future is never known but a lot of people grow up without parents at all. Aging and sick parents is very sad shit and it's one of the hardest things I've ever been through. Also rocking my world lol",
+            "authorDisplayName": "@MaximusSmith-w1v",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mNEAv5MPjwUYT_oMN-I_oKxZXRDcwTzQ5m2dLC8BLZIN_r2XL_arB8rM0NkGGWBLQJXQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MaximusSmith-w1v",
+            "authorChannelId": {
+              "value": "UCm35dm3_EB8B30135xNOmzw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-08-05T01:25:14Z",
+            "updatedAt": "2026-08-05T01:25:14Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WMAV1781BFf601wheK42zNzXLIk",
+      "id": "UgwUR43xO4NonY444-B4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "BZKl5E6u6lt9dSQz7yFLNLXsunM",
+          "id": "UgwUR43xO4NonY444-B4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yep, my dad has passed on due to a surprise cancer and my mom is hanging in there. I see her being frail now -- she doesn&#39;t exercise much at all but she has a great attitude. I am totally taking steps to alter my course away from fragility!",
+            "textOriginal": "Yep, my dad has passed on due to a surprise cancer and my mom is hanging in there. I see her being frail now -- she doesn't exercise much at all but she has a great attitude. I am totally taking steps to alter my course away from fragility!",
+            "authorDisplayName": "@chantelmcskimming6633",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kKFHlNYpCJv7kWlQab5zeaLArYPI80ii_Ct_oTlRg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@chantelmcskimming6633",
+            "authorChannelId": {
+              "value": "UCtFLBiNzXRiZWKdo2s6Ob3g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-02T12:47:55Z",
+            "updatedAt": "2025-10-02T12:47:55Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "0J_EIXpcZyxW49NSVTd4jRGpMM8",
+      "id": "UgwI8EtNKDD1SuN9kTp4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "q_-9CFq371nSEdpJ6QJ7nI8czhY",
+          "id": "UgwI8EtNKDD1SuN9kTp4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes, and the expectations of us to care for them are intense and hard to do not knowing how to help them.",
+            "textOriginal": "Yes, and the expectations of us to care for them are intense and hard to do not knowing how to help them.",
+            "authorDisplayName": "@lacyelliott745",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mvA9v4RjQYSwNfZkKt0enRJQffv6VNc6SxdX6_0P0=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lacyelliott745",
+            "authorChannelId": {
+              "value": "UCpwBQdBNcTuEMnESgDMfKig"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T22:22:20Z",
+            "updatedAt": "2025-09-26T22:22:20Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "rbq9SYZsKTI5JSLx7weh0vq_-YM",
+      "id": "Ugzkr0W3aas-aIuozYV4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "pQzaTKseRSKI6qlA_jf2RSBu6s8",
+          "id": "Ugzkr0W3aas-aIuozYV4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Take good care of them! My parents are both gone and I didn&#39;t get to help like I wanted to be patient be kind they won&#39;t have much time left enjoy them while they&#39;re here take care❤",
+            "textOriginal": "Take good care of them! My parents are both gone and I didn't get to help like I wanted to be patient be kind they won't have much time left enjoy them while they're here take care❤",
+            "authorDisplayName": "@joycevillalobos4985",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nQWtDjnkGaIYmOsk65bxLAmt6sDD9KGCnr9j4CzKha7Ht707dqW4PbsI-coFFXsWHIFA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@joycevillalobos4985",
+            "authorChannelId": {
+              "value": "UCRBGQC82zkhsY9ZhcULpGMg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T02:12:18Z",
+            "updatedAt": "2025-09-28T02:12:18Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "LEDH3HcZJVRyeeOxuxMdX-8oKeM",
+      "id": "UgxhLRqOpDSie9B0wQd4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "PHdakSWgZQg2G81tIo4C4sRAEt0",
+          "id": "UgxhLRqOpDSie9B0wQd4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "So lucky I’m 52 and both are gone. I just lost my mom and was consumed for the last 3 years. Still chipping away at years of no md appointments, dental  visits, lost paperwork, etc. It’s really hard to have anything outside of the daily work",
+            "textOriginal": "So lucky I’m 52 and both are gone. I just lost my mom and was consumed for the last 3 years. Still chipping away at years of no md appointments, dental  visits, lost paperwork, etc. It’s really hard to have anything outside of the daily work",
+            "authorDisplayName": "@ALDCdancers967",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/vGEF8imoXUhPRnqqPE0Eqtjx1-_oL0SMb4V2atc08Vmw8SKzWYemFZp3ar2NhvVNR2Mq1b1xcQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ALDCdancers967",
+            "authorChannelId": {
+              "value": "UCQ30azMU6tO5nTfM1vZYEDQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-29T02:24:06Z",
+            "updatedAt": "2025-10-29T02:25:30Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "eiI0JoULlhVEtejrS4JIOfL9bQo",
+      "id": "UgwdxksUMx2h3uy3zid4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Gsu3_ErIEkZdwz7AXJ--jogmrkE",
+          "id": "UgwdxksUMx2h3uy3zid4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I&#39;m 50 and I&#39;m prioritizing taking care of MYSELF when I&#39;m in my 80s, NOW. Preventing all that shit. Muscles and mobility.",
+            "textOriginal": "I'm 50 and I'm prioritizing taking care of MYSELF when I'm in my 80s, NOW. Preventing all that shit. Muscles and mobility.",
+            "authorDisplayName": "@m8trxd",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nxQzYFTg8VeDal9GP_zDA3fQOV2ds4vbkftIvAVyM=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@m8trxd",
+            "authorChannelId": {
+              "value": "UC-yZfnu-cco6w8B7hkVOjrg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T21:58:38Z",
+            "updatedAt": "2025-09-28T21:58:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "UhYvFB1cUve-Ay_tLXj2y7PbRNQ",
+      "id": "Ugy8zHJSnnG7WqfsQ_54AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "x6ubbb6YrhVTD6KtsElL8oaJd0w",
+          "id": "Ugy8zHJSnnG7WqfsQ_54AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I’m so sorry to hear of dementia. I’m 63 now, and the youngest of 3. Back in the day, my mom had me when she was 38! \u003cbr\u003ePeople made comments to her at that time, but we would laugh that she set the standard. \u003cbr\u003eNow my dad passed at 91, because of his heart, he had pleurisy so badly they put in a port. Both of my parents passed w full cognition. My dad, was in his hospice bed, yelling at us who were in another room to not forget something having to do w $!  He had a great sense of hearing!  His body was slowly going, his knees, then lack of muscle strength- which got him more upset but I told him, you can look at your great grandchildren and know who they are… I would want that. My dad passed a week before my parents 70th anniversary.  I was 54. Only a few months later did my mom’s hairdresser see that she was jaundice. \u003cbr\u003eArguments ensued between myself &amp; my sister. My mom did have a blockage in her pancreas but while in the hospital, no oncologist came to see her, so I thought she’s ok. But in the beginning of 2017, they finally told her &amp; us she had pancreatic cancer. She didn’t have any extra surgery only palliative radiation - and she was good for 15 months, she passed a month after Christmas where she was laughing &amp; joking &amp; celebrating her 94th birthday. They were Italian and ate Italian! There was NEVER any chips or junk food in our house! And my dad owned a grocery store. I was 55 when she passed. Now my sister, who was 77 died earlier this year, of ovarian cancer and don’t still know if it started in her colon bc the year before she had it out. \u003cbr\u003eHer kids 54 &amp; 53 &amp; still doing paperwork.  So ours happened really early but thank God they were on their own until they were 88/89.  \u003cbr\u003eMy best to everyone, I know the meds schedule &amp; drs visits &amp; blood tests. \u003cbr\u003eThere are many NPs who are now doing wellness visits &amp; house calls.  \u003cbr\u003eIf you have a home healthcare worker; please watch them, some w hidden cameras bc I’ve had 2 friends who found 1 of the workers to be stealing from their parents.  That’s sad. Take care… one who’s been there. 💕",
+            "textOriginal": "I’m so sorry to hear of dementia. I’m 63 now, and the youngest of 3. Back in the day, my mom had me when she was 38! \nPeople made comments to her at that time, but we would laugh that she set the standard. \nNow my dad passed at 91, because of his heart, he had pleurisy so badly they put in a port. Both of my parents passed w full cognition. My dad, was in his hospice bed, yelling at us who were in another room to not forget something having to do w $!  He had a great sense of hearing!  His body was slowly going, his knees, then lack of muscle strength- which got him more upset but I told him, you can look at your great grandchildren and know who they are… I would want that. My dad passed a week before my parents 70th anniversary.  I was 54. Only a few months later did my mom’s hairdresser see that she was jaundice. \nArguments ensued between myself & my sister. My mom did have a blockage in her pancreas but while in the hospital, no oncologist came to see her, so I thought she’s ok. But in the beginning of 2017, they finally told her & us she had pancreatic cancer. She didn’t have any extra surgery only palliative radiation - and she was good for 15 months, she passed a month after Christmas where she was laughing & joking & celebrating her 94th birthday. They were Italian and ate Italian! There was NEVER any chips or junk food in our house! And my dad owned a grocery store. I was 55 when she passed. Now my sister, who was 77 died earlier this year, of ovarian cancer and don’t still know if it started in her colon bc the year before she had it out. \nHer kids 54 & 53 & still doing paperwork.  So ours happened really early but thank God they were on their own until they were 88/89.  \nMy best to everyone, I know the meds schedule & drs visits & blood tests. \nThere are many NPs who are now doing wellness visits & house calls.  \nIf you have a home healthcare worker; please watch them, some w hidden cameras bc I’ve had 2 friends who found 1 of the workers to be stealing from their parents.  That’s sad. Take care… one who’s been there. 💕",
+            "authorDisplayName": "@nancypedrick5596",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lzVfN8KBByWUDctGGmeMaFuhQl_zt-W--1dt26eFCSh58=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@nancypedrick5596",
+            "authorChannelId": {
+              "value": "UCzLr-tfu-c-7N4Z2lQEO6pQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-17T04:50:30Z",
+            "updatedAt": "2025-10-17T04:50:30Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "uCLatw2Z449a26Z_69smlpBWoIg",
+      "id": "UgyVDQSkBhqQf6_tPjB4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "kvrrWZ3AMKyrulV1oa5rsjvTQ90",
+          "id": "UgyVDQSkBhqQf6_tPjB4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Ooooh yes! Been dealing with my mother’s frailty, stubbornness, mobility issues and beginning signs of cognitive decline for a few years. It’s easy to grow complacent after a while. Mother fell and broke her femur 10 weeks ago and died due to complications 12 days later. This is what late-stage osteoporosis looks like. If your folks refuse to go to a nursing home, install a camera in their house. Also, as frail and feeble as they are, love them while you can. The grief you experience after they’re gone is overwhelming.",
+            "textOriginal": "Ooooh yes! Been dealing with my mother’s frailty, stubbornness, mobility issues and beginning signs of cognitive decline for a few years. It’s easy to grow complacent after a while. Mother fell and broke her femur 10 weeks ago and died due to complications 12 days later. This is what late-stage osteoporosis looks like. If your folks refuse to go to a nursing home, install a camera in their house. Also, as frail and feeble as they are, love them while you can. The grief you experience after they’re gone is overwhelming.",
+            "authorDisplayName": "@jessicat1000",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mZTaHB_dUrjdxVPzWHPSBBiQ8yLcuryhd4EkW86K1c1ICS_z_qpEkyUfbcf4p_XGWlCw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jessicat1000",
+            "authorChannelId": {
+              "value": "UCBeTxMojDfgpvas4gqAZiFQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-29T20:02:27Z",
+            "updatedAt": "2025-10-29T20:05:25Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "wAmxpIgYsu1-hsyKzl635sEeT4Y",
+      "id": "Ugw8tozqUL5Xyw2BhhJ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "twEgAYcottVq5wxZKOAGOeypr_4",
+          "id": "Ugw8tozqUL5Xyw2BhhJ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I lost both my parents in the last two years; one died from Alzheimer’s and the other had dementia and a stroke. Then each of them fell, broke bones and that was it. I’m raising two special needs kids in high school, work in corporate HR 60+ hours a week, and in full blown menopause. When my mom died I couldn’t function for two months and I had to quit my job. THE WORST TIME OF MY LIFE!😢",
+            "textOriginal": "I lost both my parents in the last two years; one died from Alzheimer’s and the other had dementia and a stroke. Then each of them fell, broke bones and that was it. I’m raising two special needs kids in high school, work in corporate HR 60+ hours a week, and in full blown menopause. When my mom died I couldn’t function for two months and I had to quit my job. THE WORST TIME OF MY LIFE!😢",
+            "authorDisplayName": "@amyk2993",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lew2twYmICKNoR4RegCwXvVFjDNEq-yvZyVmvXyTJ2-uvJ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@amyk2993",
+            "authorChannelId": {
+              "value": "UCiKcr1ow13BjFgeorWPWong"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-21T02:13:10Z",
+            "updatedAt": "2025-10-21T02:13:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "1Bl10nVURo5kMY72hgmG-_2o5dY",
+      "id": "UgxPkBNWw-fgGkrPoyF4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "FUv6Edl_NGpvbvQ5Kz8GiFPakBg",
+          "id": "UgxPkBNWw-fgGkrPoyF4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes!Mom 85, lives alone, type 1 diabetic, and osteoporosis which has really been taking her down in the last few months!  Kyphoplasty, broken pelvis and another severe fall that gave her two black eyes. She is strong and stubborn though and insists on living alone so I am doing my best to accommodate her needs - cameras in every room, Hero medical dispenser, currently 3 home health reps, etc!  It is a lot!!!!",
+            "textOriginal": "Yes!Mom 85, lives alone, type 1 diabetic, and osteoporosis which has really been taking her down in the last few months!  Kyphoplasty, broken pelvis and another severe fall that gave her two black eyes. She is strong and stubborn though and insists on living alone so I am doing my best to accommodate her needs - cameras in every room, Hero medical dispenser, currently 3 home health reps, etc!  It is a lot!!!!",
+            "authorDisplayName": "@suegram8587",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n4SG5lR8tp4lB_CmpedDeXhchf7ODtOmbLPfcz3lItMvo=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@suegram8587",
+            "authorChannelId": {
+              "value": "UCpmbiyTx3LU6KFpFbf0OD9A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-29T22:48:14Z",
+            "updatedAt": "2025-09-29T22:48:14Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "GScJcd7ZgA_IVSK-JNuWOe5jMu0",
+      "id": "UgxQ5vHFZYZRXsLfjjJ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "UAHx6O8U1mEmpVHVbT-XiDOKG9c",
+          "id": "UgxQ5vHFZYZRXsLfjjJ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes we are also. The parents my husband and I have left are late 60s early 70s. For one of them, I get all the phone calls, make all the appointments, know and give and receive all the medical history and information and I know he would never survive the medical system without an advocate. He would just say yes to every suggestion because he cannot grasp the medical concepts enough to understand the need versus the maybes. It’s so so sad.",
+            "textOriginal": "Yes we are also. The parents my husband and I have left are late 60s early 70s. For one of them, I get all the phone calls, make all the appointments, know and give and receive all the medical history and information and I know he would never survive the medical system without an advocate. He would just say yes to every suggestion because he cannot grasp the medical concepts enough to understand the need versus the maybes. It’s so so sad.",
+            "authorDisplayName": "@ryaneversole4846",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nEilrrB1O62rTNT-n40xHghBlQaam0WtAJb1qS5U0=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ryaneversole4846",
+            "authorChannelId": {
+              "value": "UCCeh0hj6y_iVN_-K56uI1UQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-30T12:00:10Z",
+            "updatedAt": "2025-09-30T12:00:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ICCBcDSGNslOyn5npFii7VWczdc",
+      "id": "UgyDEsdQo-xyeG8f3l94AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bcqu7j95NqBRYa_qikI_EjlC_E4",
+          "id": "UgyDEsdQo-xyeG8f3l94AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes I am 57 in the uk and I constantly am having these conversations 😅",
+            "textOriginal": "Yes I am 57 in the uk and I constantly am having these conversations 😅",
+            "authorDisplayName": "@deborahheather6341",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mSuJB571fazOc6ThftWVtkzjeDx6alfb74xVxYD8UYXIE=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@deborahheather6341",
+            "authorChannelId": {
+              "value": "UCSNGd1xI5G_lW9D6MkIYhug"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T21:22:58Z",
+            "updatedAt": "2025-09-26T21:22:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "3P12r8dKIq7kesPEeZRp9RM_T3M",
+      "id": "UgxpnM54xLBhomIenNN4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "TEmgwGKSzn3DuIWrvXkLJK8aQtk",
+          "id": "UgxpnM54xLBhomIenNN4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes girl! First with my dad (who died of dementia and degenerative bone disease in 2020) and now my mom, who has moderate dementia/type 3 diabetes.",
+            "textOriginal": "Yes girl! First with my dad (who died of dementia and degenerative bone disease in 2020) and now my mom, who has moderate dementia/type 3 diabetes.",
+            "authorDisplayName": "@marniulch4905",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/SFPjsz6SWSzw5zWdTHDa3YRAIJIDse9nN3Bv57QRL9SgEzjIM02kmiPpNO5pIwhDwEsVbmRc1DU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@marniulch4905",
+            "authorChannelId": {
+              "value": "UCzdxGj3P3rJcgGSE3xN0AtQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-02T22:29:49Z",
+            "updatedAt": "2025-10-02T22:29:49Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "J8Q_p6kOUWxBRFOr1uwhD2kkRFU",
+      "id": "UgzuDZf2zxH6fgBFzJR4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "iCBCLTupx1yH1OUP7aCYgIOS3QE",
+          "id": "UgzuDZf2zxH6fgBFzJR4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "53 and yes 😢 dealing with the same issue",
+            "textOriginal": "53 and yes 😢 dealing with the same issue",
+            "authorDisplayName": "@rosagarcia7423",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_ljYmbP4zJsDtEDoJTZUID0eTPNzNEuMZZQkpZld1s9DQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@rosagarcia7423",
+            "authorChannelId": {
+              "value": "UCGL4KCOXNSg3GxT6_9eib6Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-30T19:05:23Z",
+            "updatedAt": "2025-09-30T19:05:23Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "SprwHIqcbw0CnXqIshqunbMFJFw",
+      "id": "UgxqndnL177-Dp3Hp7Z4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "MkWfaqnyNFuRGRxr7mi976u21K4",
+          "id": "UgxqndnL177-Dp3Hp7Z4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes. It’s been a nightmare. Sad and terrifying. I’ve developed ptsd after trying to be a caregiver for my Dad for 3 years. I was a first responder 24 hours a day in my own home. I’m still trying to recover and I see how fast time passed so that could be us before we know it. I know that’s not a healthy state of mind but that’s the truth.",
+            "textOriginal": "Yes. It’s been a nightmare. Sad and terrifying. I’ve developed ptsd after trying to be a caregiver for my Dad for 3 years. I was a first responder 24 hours a day in my own home. I’m still trying to recover and I see how fast time passed so that could be us before we know it. I know that’s not a healthy state of mind but that’s the truth.",
+            "authorDisplayName": "@MichelleMorlen-c3k",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_meZQDvkVwIytlz05tUr4sKYRoxduo30MYm6fDWZDFwo5Dx5x44u4bpmQY2f_R4uW4yGQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MichelleMorlen-c3k",
+            "authorChannelId": {
+              "value": "UCtcMlblwk-QxnGpIfpsdmNQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-01T00:21:49Z",
+            "updatedAt": "2025-11-01T00:21:49Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xbEjYAgwxoK73RW7jZMBI_6pmWE",
+      "id": "Ugwd3lL_Jt3l4pOnAql4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "aZUyFaOwNrfYc6x_r6BWa96yTUc",
+          "id": "Ugwd3lL_Jt3l4pOnAql4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I’m going through this too! There’s no manual or instructions and it’s a roller coaster!",
+            "textOriginal": "I’m going through this too! There’s no manual or instructions and it’s a roller coaster!",
+            "authorDisplayName": "@marcywise7799",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kSpgC9WO8VsWUAVexpcPPNSyY6mBghDUfot-5y914=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@marcywise7799",
+            "authorChannelId": {
+              "value": "UCFP--870N_U8pX4ktkszvgQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-30T05:49:03Z",
+            "updatedAt": "2025-09-30T05:49:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "m4OV2pYJRwDIotjygiRMrLjTm-E",
+      "id": "UgzP6G5qSW09woLdYtJ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "NdQVjdPxekpB_VepCX2p4JbSSYE",
+          "id": "UgzP6G5qSW09woLdYtJ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I have an 80 year old mom with dementia.  She is weak, has poor balance, sometimes agitated or apathetic, no longer drives, and gets lost.   I take her to hair and nail appointments, lunch out of the house, shopping which is very confusing for her so I do a lot of her shopping. Dr appointments, I take notes and make sure she takes her meds, the right amount at the right time.  We have to make sure she eats, drinks water and takes short walks.  She has someone that helps with house work, laundry, cleaning, yard work.  \u003cbr\u003e\u003cbr\u003eAll this while having a job I’m spending less time at and trying to navigate my first year of menopause and the changes that accompany that. \u003cbr\u003e\u003cbr\u003eI have to think there are many of us in this space and time of life. It is a difficult path to navigate.  I didn’t anticipate this at all.  Balancing the care of my aging parents with caring for myself and my young adult kids.  \u003cbr\u003e\u003cbr\u003eAlso, we all quit drinking, got rid of the alcohol, to help my mom with overconsumption and really for me, to focus on taking care of my body, brain, mental and emotional health.  It can be really easy to lean on alcohol to help deal with the stress instead of self soothing in healthy ways.  \u003cbr\u003e\u003cbr\u003eEven though my mom and I have had some friction in our relationship over the years, I and my family choose to love her every day and take care of her the best we can.  Some days are better than others.  \u003cbr\u003e💕",
+            "textOriginal": "I have an 80 year old mom with dementia.  She is weak, has poor balance, sometimes agitated or apathetic, no longer drives, and gets lost.   I take her to hair and nail appointments, lunch out of the house, shopping which is very confusing for her so I do a lot of her shopping. Dr appointments, I take notes and make sure she takes her meds, the right amount at the right time.  We have to make sure she eats, drinks water and takes short walks.  She has someone that helps with house work, laundry, cleaning, yard work.  \n\nAll this while having a job I’m spending less time at and trying to navigate my first year of menopause and the changes that accompany that. \n\nI have to think there are many of us in this space and time of life. It is a difficult path to navigate.  I didn’t anticipate this at all.  Balancing the care of my aging parents with caring for myself and my young adult kids.  \n\nAlso, we all quit drinking, got rid of the alcohol, to help my mom with overconsumption and really for me, to focus on taking care of my body, brain, mental and emotional health.  It can be really easy to lean on alcohol to help deal with the stress instead of self soothing in healthy ways.  \n\nEven though my mom and I have had some friction in our relationship over the years, I and my family choose to love her every day and take care of her the best we can.  Some days are better than others.  \n💕",
+            "authorDisplayName": "@angietucker8816",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k7OAA6tgsMH1WpWpKCMyQUvLjfBFJ77nFbSr7opak=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@angietucker8816",
+            "authorChannelId": {
+              "value": "UCCpo9HvdtYuHq7GPRt1ykhg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-08T05:51:40Z",
+            "updatedAt": "2025-10-08T05:51:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "c4Sex3DZF4basjdSyzgVZYfBqqk",
+      "id": "UgyAHZHZzR4fh4NQupp4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "AsP29hrsE3SY58r8wpqDe9bE33U",
+          "id": "UgyAHZHZzR4fh4NQupp4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "It is exhausting, physically , emotionally and mentally. Dealt with my mother  when she had ALS. I was only 43yo at the time. I kept her home through it all, as it was her one wish. My father had mental illness so I was Cari g for him as well. 25 years later my husband and I are in the throws of caring for his mom with dementia and is bed bound. And 2 years ago it was his father dying of dementia and old age. It has been a lot!!!",
+            "textOriginal": "It is exhausting, physically , emotionally and mentally. Dealt with my mother  when she had ALS. I was only 43yo at the time. I kept her home through it all, as it was her one wish. My father had mental illness so I was Cari g for him as well. 25 years later my husband and I are in the throws of caring for his mom with dementia and is bed bound. And 2 years ago it was his father dying of dementia and old age. It has been a lot!!!",
+            "authorDisplayName": "@Ingamk57",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mdaxvLlb4GBK287KTrKRrynEk9zTjrcMdRbLHHRTo=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Ingamk57",
+            "authorChannelId": {
+              "value": "UCOU30eqhSZB2U7WuaDkWRYw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-23T19:35:05Z",
+            "updatedAt": "2025-10-23T19:35:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "okjduWEp9NxO46rzQ8V_A1Ydp20",
+      "id": "Ugx7liWaMRKgc-eGZpZ4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "QQhEyVxTKwoL4cMwqR2V05PTvto",
+          "id": "Ugx7liWaMRKgc-eGZpZ4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "YES!! You’re not alone 😢❤",
+            "textOriginal": "YES!! You’re not alone 😢❤",
+            "authorDisplayName": "@sellenyc",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/sk0WQHTBjw-fZqL6NxTO4ExPM0-ECxWYvW1uTPXLMVRlWJmOKTutZlv70tcphjHZLzPoBr3V=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sellenyc",
+            "authorChannelId": {
+              "value": "UCI1nuv-9ti6vsK-ivwShBzA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-10T15:09:35Z",
+            "updatedAt": "2025-10-10T15:09:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "C-pSvpO-sUfL8KLuwANtkM-CnJA",
+      "id": "UgwOQzuRYnj9riD0oUN4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "K0df8teZ2Riyg3ONFfy_ktd8Ltc",
+          "id": "UgwOQzuRYnj9riD0oUN4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes!!!!! Mine and my husbands…..so emotionally consuming and our parents never talked about it (they also lost their parents earlier) but this is so hard. Then our adult kids and grandkids are important as well. Funding my kids don’t have the patience for our moms and that makes me super sad because their grands were very involved in their growing up.",
+            "textOriginal": "Yes!!!!! Mine and my husbands…..so emotionally consuming and our parents never talked about it (they also lost their parents earlier) but this is so hard. Then our adult kids and grandkids are important as well. Funding my kids don’t have the patience for our moms and that makes me super sad because their grands were very involved in their growing up.",
+            "authorDisplayName": "@missyhaussler9704",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l-XhYtp9VEE2ue5hjQVN7U4JdVwHWdM_Mng0haH8TNct_R=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@missyhaussler9704",
+            "authorChannelId": {
+              "value": "UCe_hwMRfE0ClbgDKStGjJDA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-20T13:19:08Z",
+            "updatedAt": "2025-10-20T13:19:08Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "SdyZQO31gtfN4Oa9vQKDYtW7Hbs",
+      "id": "UgyAfj0dElyAOn1zRk94AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "LkENo0sv7agARNSlkXOdkEg95Yc",
+          "id": "UgyAfj0dElyAOn1zRk94AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I just turned 56 and after raising seven children, I now feel like I am the only person who has the time to take care of my elderly parents. I don’t mind doing it, but it is a change.",
+            "textOriginal": "I just turned 56 and after raising seven children, I now feel like I am the only person who has the time to take care of my elderly parents. I don’t mind doing it, but it is a change.",
+            "authorDisplayName": "@ModernSimple",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_ndaD3tXCG1QnUUxLqSnZtvfjt1Hydn6kTJSjIrvDwORw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ModernSimple",
+            "authorChannelId": {
+              "value": "UCIM2zvK4qCLSd9YJomRSlUA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T04:25:56Z",
+            "updatedAt": "2025-09-28T04:25:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "hn1LwVkgG1APNR_i3zffX8JnEx0",
+      "id": "UgwqiTxunW_61XJxZwt4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "MNwWNwVrVK0jEu5l8OfEGNoGxgk",
+          "id": "UgwqiTxunW_61XJxZwt4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I pray God protect my heart through my moms last years, she’s killing me",
+            "textOriginal": "I pray God protect my heart through my moms last years, she’s killing me",
+            "authorDisplayName": "@ReneeDavis-x7l",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nBiBza47xrVI22HQqbI5vVMSjOKCrypMV0wpODLhDTVe4Nl2G7EKpFmagMA2FW4bucAg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ReneeDavis-x7l",
+            "authorChannelId": {
+              "value": "UCxolwk6efFvEAwdtNJ1rloQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-07-28T13:26:24Z",
+            "updatedAt": "2026-07-28T13:26:24Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "FqmUL8tU2Qevs_qm1wHKVkoyfRg",
+      "id": "UgzsYsP-tq0cJu9OCK54AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "mU-HNW-6TNg8llpN2QAlSl091JI",
+          "id": "UgzsYsP-tq0cJu9OCK54AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "YES!!  my husband&#39;s parents and my Mom at the same time!! I am 62, husband 67 and parents 86, 87 and 85.",
+            "textOriginal": "YES!!  my husband's parents and my Mom at the same time!! I am 62, husband 67 and parents 86, 87 and 85.",
+            "authorDisplayName": "@dawnowens6142",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m1FomPGfSPq_Jxidjg8YQ4QOO2li31l3NpXEn9Si0SxBE=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@dawnowens6142",
+            "authorChannelId": {
+              "value": "UC7qBocZOHJPC4r0posgTLFA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-07-09T14:10:26Z",
+            "updatedAt": "2026-07-09T14:10:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "RFAgrbbxi9HXacBBYr3KYlDaxoA",
+      "id": "UgwYEOvBwEGE9q2g4i94AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "HM5r1aZzoZWNyPF2sd6N7YSepfY",
+          "id": "UgwYEOvBwEGE9q2g4i94AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I went through this at 41. Both parents dying of cancer at the same time. 18 months apart. Girl. I feel for you. I had to go part time at work for a  period of time. Now at 52. All my friends are starting to go through it. I wish I still had my mom here with me. But I’m glad I’m on the other side of it. One day at a time. And try your best to find humor every moment.",
+            "textOriginal": "I went through this at 41. Both parents dying of cancer at the same time. 18 months apart. Girl. I feel for you. I had to go part time at work for a  period of time. Now at 52. All my friends are starting to go through it. I wish I still had my mom here with me. But I’m glad I’m on the other side of it. One day at a time. And try your best to find humor every moment.",
+            "authorDisplayName": "@xandrapendergrass8984",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kSQxQqBo1Q9eTIjP3oBogHNeSlYrrxyN0172orxUdS7CpEDMopVptzgd-pOLSKOJ9NrA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@xandrapendergrass8984",
+            "authorChannelId": {
+              "value": "UC7wPBWPwF2aZUDvFzGgP-Sw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T09:37:32Z",
+            "updatedAt": "2025-09-27T09:37:32Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "63AoFDJXb0CHD_L_0XtuV8fop6k",
+      "id": "UgwBaNjnxrZG9rvgvo14AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "rpZ3gTTUZqdP7-lqQ5LSg-Qrdas",
+          "id": "UgwBaNjnxrZG9rvgvo14AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "my mom and dad are both in their 70s and i’m already dealing with issues I didn’t expect until they were well into their 90s. it’s been hell and horrible, especially with 3 kids under 12 and a full time job on top of it. I wish someone had warned me about this earlier",
+            "textOriginal": "my mom and dad are both in their 70s and i’m already dealing with issues I didn’t expect until they were well into their 90s. it’s been hell and horrible, especially with 3 kids under 12 and a full time job on top of it. I wish someone had warned me about this earlier",
+            "authorDisplayName": "@AddieWagenknecht",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_niNYq2oprLdsXcRC6ExONdncJDXNegW0b17a2y5wcBK6_M=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AddieWagenknecht",
+            "authorChannelId": {
+              "value": "UCSX72xsOIA5-22R1K95mcgA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T18:31:18Z",
+            "updatedAt": "2025-09-28T18:31:18Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vgz5lIVgdpDViMSNhOYIBxfmFjE",
+      "id": "Ugyu9rl90RyA4-7FvNl4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "COkuxPtr181yKe9qvwVEI8ZtREo",
+          "id": "Ugyu9rl90RyA4-7FvNl4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes!  Both my brother and I are dealing with this.  Both our parents need care. Not to mention grandchildren. I retired three years ago and keep wondering when is it going to be my time. I love taking care of my grandson. He is my joy, but I feel responsible for my parents well being.",
+            "textOriginal": "Yes!  Both my brother and I are dealing with this.  Both our parents need care. Not to mention grandchildren. I retired three years ago and keep wondering when is it going to be my time. I love taking care of my grandson. He is my joy, but I feel responsible for my parents well being.",
+            "authorDisplayName": "@DLkindsoul",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mb_B8Kh0DjwlXuXIOiLMVPVcZFXkkFOmaHdl4-_kKHjNA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@DLkindsoul",
+            "authorChannelId": {
+              "value": "UCduBCns_r3g4Vg1jXp6x2ow"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-26T16:15:09Z",
+            "updatedAt": "2025-10-26T16:15:09Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "hVZx49oXkLcek6V-50lwws5HxRs",
+      "id": "Ugyyir74rx0fBpE4dT94AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "rLLglkaYwTSvlz-IviUTBHO_Nhw",
+          "id": "Ugyyir74rx0fBpE4dT94AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "We went through the aging parent thing in our thirties and forties when we were working and raising kids.  Not many of our friends parents were in the same stage. Fortunately I had older friends I could talk to who were going thru the same things.  It’s tough at any age and very consuming.",
+            "textOriginal": "We went through the aging parent thing in our thirties and forties when we were working and raising kids.  Not many of our friends parents were in the same stage. Fortunately I had older friends I could talk to who were going thru the same things.  It’s tough at any age and very consuming.",
+            "authorDisplayName": "@Julia-uh8sz",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n5CE76MVQkMhu6a4iK8az9kQPv_kPr-iuQ5nXhdG29qrENWaHeBnsbgnZdiKIuS-Wfkw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Julia-uh8sz",
+            "authorChannelId": {
+              "value": "UCmSpT-qBWey0zevHPxikEng"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-05T03:41:48Z",
+            "updatedAt": "2025-10-05T03:41:48Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jGNiY2vBUuroQEVilTAzKNdPEw4",
+      "id": "UgzRwNH5CLzXN3ibneV4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "QFXw_mBClLn68pvazf_4m_adbuU",
+          "id": "UgzRwNH5CLzXN3ibneV4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I am one of the aging parents- been through my parents aging! It is a hard road-75",
+            "textOriginal": "I am one of the aging parents- been through my parents aging! It is a hard road-75",
+            "authorDisplayName": "@dotboutwell2877",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mS7I1bCvTsxi0doIPMCBDfs29rpzo_0paCfWJdWpo=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@dotboutwell2877",
+            "authorChannelId": {
+              "value": "UCj5oD2u3a5gh7tjIY3OIBzg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-27T15:45:32Z",
+            "updatedAt": "2025-09-27T15:46:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ELD3l0jUecvP3wFtVlbeyIX7JPM",
+      "id": "UgzzOUyTsmOH_ed6ctd4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4zNQGal1LlLmQszaIDGIr1IeHh4",
+          "id": "UgzzOUyTsmOH_ed6ctd4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Oh yes ive been through it. I just lost my Mom 2 months ago. My stress was so bad taking care of her I was barely sleeping",
+            "textOriginal": "Oh yes ive been through it. I just lost my Mom 2 months ago. My stress was so bad taking care of her I was barely sleeping",
+            "authorDisplayName": "@anjimeyermann6025",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nLOZiVoOnOY9sRG6PEfbeJQZgNEc94Ld_-R0YhapW-QHpFlNNHtQIwpPu8VJKX5wVYKg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@anjimeyermann6025",
+            "authorChannelId": {
+              "value": "UCTju8H3jV5UUPEEKPJrkAsQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-19T14:06:38Z",
+            "updatedAt": "2025-10-19T14:06:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "9LJz0iOiRshSvUA9pHvuYrz3Tps",
+      "id": "UgxncFA1qectnIpufqx4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "8AwHqiUWAVOU8BKORftKwGXUwiA",
+          "id": "UgxncFA1qectnIpufqx4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "My husband and I are dealing with this with his mom. So I feel you",
+            "textOriginal": "My husband and I are dealing with this with his mom. So I feel you",
+            "authorDisplayName": "@michellebell566",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/oDifmoLV3Pq7ZmawfGOd8lbc-GQ_r6HBMFK5WjhsUq1x4gzbLRAVDdOzkdatPi7_zt5fB0ks=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@michellebell566",
+            "authorChannelId": {
+              "value": "UCoVr3PSH8vDokpsZfAFEVbg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T21:16:54Z",
+            "updatedAt": "2025-09-26T21:16:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "SJwvISKiWKbKiVzCFdtnf7RtQfQ",
+      "id": "UgyXClqYyfOj56vkpW14AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Zh240GS7xMie2I8gLBEyp0P7BgA",
+          "id": "UgyXClqYyfOj56vkpW14AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "So true. Thanking for speaking our reality and given us medical truths. Thank you.",
+            "textOriginal": "So true. Thanking for speaking our reality and given us medical truths. Thank you.",
+            "authorDisplayName": "@melynb-7367",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m-wvAwKyNneCMdoErnw329VPrjfATdBmyawkiFTmB0Tmcb0mbPWFH98RzurWL1m0u29A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@melynb-7367",
+            "authorChannelId": {
+              "value": "UCZuSBV34vYV9UxwfLHGNX8A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-18T10:48:38Z",
+            "updatedAt": "2025-10-18T10:48:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "9_oTRy_ETXbbOmFJbqDDyCIwTyU",
+      "id": "UgyGZvla2Oh9EKnqaax4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "i-A1CvyYo0O89_vT9iewvnc48Jc",
+          "id": "UgyGZvla2Oh9EKnqaax4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I started helping my parents since roughly 40 ( I&#39;m 50 now)  my dad had a rare type of Dementia &amp; passed 4yrs ago. Plus being assisting my mom also, she&#39;s independent but also had early Dementia &amp; other health concerns. I&#39;m a night shift nurse &amp; a single mom on top of this. 😵\u200d💫",
+            "textOriginal": "I started helping my parents since roughly 40 ( I'm 50 now)  my dad had a rare type of Dementia & passed 4yrs ago. Plus being assisting my mom also, she's independent but also had early Dementia & other health concerns. I'm a night shift nurse & a single mom on top of this. 😵\u200d💫",
+            "authorDisplayName": "@lottynava5580",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lcRA4Q-kj6H1BEfS_3hB9l2sUk_Rd35JeKbO9BZu-C2TCp=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lottynava5580",
+            "authorChannelId": {
+              "value": "UClzlh8ta-QNtL8KBiYZ0q4w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T21:38:06Z",
+            "updatedAt": "2025-09-26T21:38:06Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "u3BYU0ShOGnrysIChY2vXM6_AxM",
+      "id": "Ugw0spgo47UWtjUI13V4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "_XSwab_qbqjhp-qzNXVx0Cjsk5E",
+          "id": "Ugw0spgo47UWtjUI13V4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Oh girl, I&#39;m 39. Myself and several of my friends have been caring for our parents while raising a family for years now. It&#39;s insane. One friend is the fulltime caregiver of their parent who has dementia and now lives with her family of 5. I have done laundry, cleaned for, shopped for, assisted in showering, etc for my grandparent and now my parents and in-laws. Just lost an in-law to dementia over the summer. This is all happening far too quick. I wish I didnt have to deal with this at this stage of life but here we are. Add in starting my own LLC and what I can only assume are perrimenopause symptoms that no doctor will listen to (my mother was DONE and through menopause at age 42) and I am barely functioning. I literally had a brain MRI to check for neurological reasons for my brain fog, memory, migraines, etc. Life is nuts.",
+            "textOriginal": "Oh girl, I'm 39. Myself and several of my friends have been caring for our parents while raising a family for years now. It's insane. One friend is the fulltime caregiver of their parent who has dementia and now lives with her family of 5. I have done laundry, cleaned for, shopped for, assisted in showering, etc for my grandparent and now my parents and in-laws. Just lost an in-law to dementia over the summer. This is all happening far too quick. I wish I didnt have to deal with this at this stage of life but here we are. Add in starting my own LLC and what I can only assume are perrimenopause symptoms that no doctor will listen to (my mother was DONE and through menopause at age 42) and I am barely functioning. I literally had a brain MRI to check for neurological reasons for my brain fog, memory, migraines, etc. Life is nuts.",
+            "authorDisplayName": "@meganc4335",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/SVKnNLWh3LW2QgeeWNaDDVnT6yZHEVlqEDMZQuITusDn-Ec_mRzQUHQJafcRztxy1kHPTZXrmzM=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@meganc4335",
+            "authorChannelId": {
+              "value": "UClSo9mADLJMIr-a-tie_cbQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-11T19:14:16Z",
+            "updatedAt": "2025-10-11T19:14:16Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "n45V_z9d7j3NVN9uXR9LLKyp7UI",
+      "id": "Ugz_NGacAOLIMysyMo14AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "unVem1uXE2-I1GsZ2N8T1WI2V74",
+          "id": "Ugz_NGacAOLIMysyMo14AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I am 62 and my mom is 84, is currently living alone after her partner of 30 years suddenly passed in April. She lives 500 miles from me. Yes I think about this constantly",
+            "textOriginal": "I am 62 and my mom is 84, is currently living alone after her partner of 30 years suddenly passed in April. She lives 500 miles from me. Yes I think about this constantly",
+            "authorDisplayName": "@Teri_Head",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nIw1igDJehQrgFjGS2S8ULUlXRc_Vta6SolzHaqVyvsFs=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Teri_Head",
+            "authorChannelId": {
+              "value": "UCBqb3HjBmT6DETxs1EH3LSA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T14:16:06Z",
+            "updatedAt": "2025-09-26T14:16:06Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2730pgsqTB_SSaIDJaT49_ql4H4",
+      "id": "UgwMu8_g6XrzYvocReF4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "e72qmGmDKVpkSdX9qkyIgj3rTGs",
+          "id": "UgwMu8_g6XrzYvocReF4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "You are so right. First my parents, then my in laws. And the worse part is when you take care of your children they live with you. When you take care of your parents you do it from a distance.",
+            "textOriginal": "You are so right. First my parents, then my in laws. And the worse part is when you take care of your children they live with you. When you take care of your parents you do it from a distance.",
+            "authorDisplayName": "@MarinaDiaz-se5bh",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kIB5IA6ctvzva_sdiR-wLzAe7GYZepYXonq7FFVmg1fN0SLFqcdgNA01BzkaRlSJ-oHg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MarinaDiaz-se5bh",
+            "authorChannelId": {
+              "value": "UCfpzrhsCnTprrZXQXnf08hg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-02T05:51:39Z",
+            "updatedAt": "2025-10-02T05:51:39Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "TJkggBD0zR6Ifgbtg-oBwBoPbJs",
+      "id": "UgwDUPquOp6ORQXqphd4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "gyFnqFevcO76rJjP4tLvvx2q4TQ",
+          "id": "UgwDUPquOp6ORQXqphd4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Yes!!! My mother is 94 and will be 95 in May.  It is consuming!",
+            "textOriginal": "Yes!!! My mother is 94 and will be 95 in May.  It is consuming!",
+            "authorDisplayName": "@jenniehendriksen6208",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mzdq1TWrYQ_9eRLBKvXRzjtEgiKDLG-5AD1oDCUe-M-3c=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jenniehendriksen6208",
+            "authorChannelId": {
+              "value": "UCK3LI9DIFL3LW6mtvTkJkOQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-27T21:40:35Z",
+            "updatedAt": "2025-10-27T21:40:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "QFL0kxaJHFhC4ff0DntL02ksL8U",
+      "id": "Ugz-y4YFteivsodLHx14AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Rq6odwqp5RNCDv3aQculLNS2XoU",
+          "id": "Ugz-y4YFteivsodLHx14AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I was there. With my Dad. He had dementia and rheumatoid arthritis. It’s was all consuming. Till the very end about 3 years ago when he passed. Now it’s my mom. All she does is lay in  her bed most the day watching dramas. She’s weak and frail but is still mobile. I’ve recently noticed her memory slipping. Bracing myself for what’s to come.",
+            "textOriginal": "I was there. With my Dad. He had dementia and rheumatoid arthritis. It’s was all consuming. Till the very end about 3 years ago when he passed. Now it’s my mom. All she does is lay in  her bed most the day watching dramas. She’s weak and frail but is still mobile. I’ve recently noticed her memory slipping. Bracing myself for what’s to come.",
+            "authorDisplayName": "@noheapai4145",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lSVgDOcK3shmRGAcM3vSFRr0NbaIuK7Yzm64zAdkS0Jg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@noheapai4145",
+            "authorChannelId": {
+              "value": "UCrkuwd2L1PUA9PAQhV64h9g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-18T20:15:49Z",
+            "updatedAt": "2025-10-18T20:15:49Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2EkllCGhn1bHsp9FBZm6sNr2QCg",
+      "id": "UgzwkihBwRX20551CdB4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Ub1TTaSxIbSfJeMqMSqELUc7uis",
+          "id": "UgzwkihBwRX20551CdB4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I&#39;m currently taking care of my mom who has stage 4 breast cancer and my dad who has had 3 strokes and is bed ridden. My mom also has had polio since she was a year old. My sister and I are going through the thick of it and also being moms to our own kids. It is ALOT physically, mentally and emotionally.",
+            "textOriginal": "I'm currently taking care of my mom who has stage 4 breast cancer and my dad who has had 3 strokes and is bed ridden. My mom also has had polio since she was a year old. My sister and I are going through the thick of it and also being moms to our own kids. It is ALOT physically, mentally and emotionally.",
+            "authorDisplayName": "@waxobsessed4ever",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/e-dvGSrfRBS_AlJEWrHay5xg4tiN6JnV2ZpozeJypcL0iU20ZpE8_foIVWrZtkPf4ZQ9soIYag=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@waxobsessed4ever",
+            "authorChannelId": {
+              "value": "UCfNeotdpJTf12LFciA_i-6Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-05-04T01:52:01Z",
+            "updatedAt": "2026-05-04T01:52:01Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "_23rSlowlZDOAzxY5DnFlAk-Wfc",
+      "id": "UgzRTKBy-7Bc3SCOX_94AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "FZX1efgA1MvRA_rLksrm_YJ_qz8",
+          "id": "UgzRTKBy-7Bc3SCOX_94AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Caring for both parents my sibling and I",
+            "textOriginal": "Caring for both parents my sibling and I",
+            "authorDisplayName": "@susansanchez8911",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kPIMg5w_lp487sr96JBmXsz5JT6laz2Gk6M1BKnbk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@susansanchez8911",
+            "authorChannelId": {
+              "value": "UC0GXu3-6uCdSiy0YqNJl7tw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T23:52:18Z",
+            "updatedAt": "2025-09-28T23:52:18Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "e_7Wv_0dYcAn_T_HeBUnjTrc_nw",
+      "id": "Ugyx3NtOp1KLh7ehIe54AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "f8QJ4HzFTkdgElIr2ut4RPcMleo",
+          "id": "Ugyx3NtOp1KLh7ehIe54AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "Dear god yes. Already went through one dementia parent now dealing with frailty and bad judgment of the other. You are not alone and yes it is all consuming 😢",
+            "textOriginal": "Dear god yes. Already went through one dementia parent now dealing with frailty and bad judgment of the other. You are not alone and yes it is all consuming 😢",
+            "authorDisplayName": "@Crapnado",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/IyLXh4d5ckS307i6JofESZ8XhbCnDp_LVKHeXEUe7elhRjNiiFF9hLuRiA9XvMDy8SCRuVOb4Fk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Crapnado",
+            "authorChannelId": {
+              "value": "UCgsvg4EECUy1gXWFsIcALbg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-31T16:08:31Z",
+            "updatedAt": "2025-10-31T16:08:31Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "TnX8dlMorgC0APuaNk5a7bgowdc",
+      "id": "UgznizlaWCLX-AjCwNh4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "RC6syMEc5LIkyyuZSk9Wlmf-nL0",
+          "id": "UgznizlaWCLX-AjCwNh4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "A good reminder to try and stay healthy as long  as possible",
+            "textOriginal": "A good reminder to try and stay healthy as long  as possible",
+            "authorDisplayName": "@br8979",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nH40ijhFiRREGcsGBTH4mZB6_Aa6MPjQNHGHpOxq0=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@br8979",
+            "authorChannelId": {
+              "value": "UCdFLbJuLEo9t7uZrZdipoDA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-26T21:54:49Z",
+            "updatedAt": "2025-09-26T21:54:49Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Ta7PY53H8N0QOrkkWunSpcK814M",
+      "id": "UgzBYcu6SyobOHXs4W14AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "WSSYFq8LuO_F4yqQcejCanUpq8E",
+          "id": "UgzBYcu6SyobOHXs4W14AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "1000 %.  And  the fondness I had for them is rapidly depleting.  Its so bad that Im like if this is typical, then being a senior citizen caring for aging parents is in no way a blessing.",
+            "textOriginal": "1000 %.  And  the fondness I had for them is rapidly depleting.  Its so bad that Im like if this is typical, then being a senior citizen caring for aging parents is in no way a blessing.",
+            "authorDisplayName": "@pupsrbetterthanpeeps",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m8XKHqSWkWTWqWfEqmk_VKzILNNjD_Lzb82OiQOJGQrEQgbhrNF_TgQFrd7LuMlqJAqQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@pupsrbetterthanpeeps",
+            "authorChannelId": {
+              "value": "UCbFFiAL4l6Kdap9-mxhbExA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-06-28T22:05:53Z",
+            "updatedAt": "2026-06-28T22:05:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "BcD3oe6PvDKEyZjJiI78wxDPlTA",
+      "id": "UgzGMl39jl7NvytfHhV4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Dmx-RPcWrMn3HyUCM_cwSGN4380",
+          "id": "UgzGMl39jl7NvytfHhV4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "41 years old to 46 i lost both my parents, they needed help everyday even though we have help at home from the govetnmrnt here. At the time I had one teenage son still at home and one just left home. My husbond , my sister and I was working full time and taking turns so we looked in on them every afternoon. My sister and I both ended up with autoimune diseases. 😢\u003cbr\u003eAt the end I got to sit with both og them when the passed. I was so hard, but I’m happy I was able to do that. That tok a toll too.",
+            "textOriginal": "41 years old to 46 i lost both my parents, they needed help everyday even though we have help at home from the govetnmrnt here. At the time I had one teenage son still at home and one just left home. My husbond , my sister and I was working full time and taking turns so we looked in on them every afternoon. My sister and I both ended up with autoimune diseases. 😢\nAt the end I got to sit with both og them when the passed. I was so hard, but I’m happy I was able to do that. That tok a toll too.",
+            "authorDisplayName": "@Stendorfolsen",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/bTSY3KSiiFjpMYuNCQlTTBA9TuBWHrD9iOOP7scpP3fDf8ZD_Z2prwySN6bXzXLDNEuOrdlswA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Stendorfolsen",
+            "authorChannelId": {
+              "value": "UCQD879cHJuLdNIfEuWkqEPQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-20T21:23:10Z",
+            "updatedAt": "2025-10-20T21:25:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EXatamu4kmlcl_Yvq-oBWRjR5lU",
+      "id": "UgykdQDQRGaB-Sf_wOx4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "wzY-8rnE86_FKEPKsZqJBcpwepY",
+          "id": "UgykdQDQRGaB-Sf_wOx4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "I’m 59. I’ve been caring for my frail, demented mom since 2017. Running 2 households. Trying to help my own children become productive adults (which happens much later now than previous generations). \u003cbr\u003e   She is 93. When she was 60, she was winning medals in Senior Olympic events. She was taking hormones prescribed by her dr. (80’s-90’s). At 70, still athletic and independent (though she did not strength train EVER) with stage 2 pelvic prolapse, she was yanked from hormones after the WHI announcement. In the next 12-15 years she had both hips replaced, and began suffering spinal compression fractures, idiopathic myocarditis, vertigo, and dementia. Her prolapse progressed to stage 4. By age 85, she was dependent on a rollator and a caregiver. \u003cbr\u003e   Yes- I hear you! My own prolapse journey is what led me to you. And Dr. Casperson. And the meno-posse! \u003cbr\u003e    Because of strength of women like you, I am learning about the medical injustices inflicted on generations of women. \u003cbr\u003e   Remember- we are the generation that will change this world. Keep educating. Keep eating. Keep lifting. Keep advocating. We love you. \u003cbr\u003e   I keep saying this is the hardest stage of my life because in order for me to move on, I have to lose my mother. 😢",
+            "textOriginal": "I’m 59. I’ve been caring for my frail, demented mom since 2017. Running 2 households. Trying to help my own children become productive adults (which happens much later now than previous generations). \n   She is 93. When she was 60, she was winning medals in Senior Olympic events. She was taking hormones prescribed by her dr. (80’s-90’s). At 70, still athletic and independent (though she did not strength train EVER) with stage 2 pelvic prolapse, she was yanked from hormones after the WHI announcement. In the next 12-15 years she had both hips replaced, and began suffering spinal compression fractures, idiopathic myocarditis, vertigo, and dementia. Her prolapse progressed to stage 4. By age 85, she was dependent on a rollator and a caregiver. \n   Yes- I hear you! My own prolapse journey is what led me to you. And Dr. Casperson. And the meno-posse! \n    Because of strength of women like you, I am learning about the medical injustices inflicted on generations of women. \n   Remember- we are the generation that will change this world. Keep educating. Keep eating. Keep lifting. Keep advocating. We love you. \n   I keep saying this is the hardest stage of my life because in order for me to move on, I have to lose my mother. 😢",
+            "authorDisplayName": "@WomenWithAPause",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/oj2PLNNZ5GBNFXClLCdW0OgLxekajC185x-Ha2dmUF4nezeE3wMTVU_1ja2oU3dL_GoRmQ30B0Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@WomenWithAPause",
+            "authorChannelId": {
+              "value": "UCOnKIkKCII3xLKgZWudc4Sw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T13:42:03Z",
+            "updatedAt": "2025-09-28T13:42:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ruDzOnqwOQeAcahGDrwqFb43QqI",
+      "id": "UgxaQWYTdNmNzC4P3Sh4AaABAg",
+      "snippet": {
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "videoId": "p8sRNKTGj9g",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "lghc9zKcQYM90DDdZt_5rQ_wlOg",
+          "id": "UgxaQWYTdNmNzC4P3Sh4AaABAg",
+          "snippet": {
+            "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+            "videoId": "p8sRNKTGj9g",
+            "textDisplay": "In the sandwich years as well. Kid in college and high school, lost my mom 2 years ago TODAY to Alzheimer’s. Dad is 80, still going strong but it’s been really hard. 😢",
+            "textOriginal": "In the sandwich years as well. Kid in college and high school, lost my mom 2 years ago TODAY to Alzheimer’s. Dad is 80, still going strong but it’s been really hard. 😢",
+            "authorDisplayName": "@hopeleber7031",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nP6PYLiMwIqQL46Iuz1t0L-NFP6y1nCvXZBswy3WkXcGYC=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@hopeleber7031",
+            "authorChannelId": {
+              "value": "UC-XHC5XT20ZyDIrRBbpmgFQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-28T02:01:45Z",
+            "updatedAt": "2025-09-28T02:01:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}

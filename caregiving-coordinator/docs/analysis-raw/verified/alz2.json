@@ -1,0 +1,1570 @@
+{
+ "batch": "alz2",
+ "files_read": 50,
+ "coverage_notes": "All 50 files in alz2.txt were read in full (each header says only the first page of long threads was captured by the script, so later pages are not in the data). Empty comment bodies exist in 77401 (C11), 77402 (C7), 77436 (C4), 77448 (C6), 77454 (C8); 77429 post body is a site rendering error so only the comment is usable. 77405 (memory care checklist) and 77446 (student promoting a smart dispenser) read as promotional posts, not caregiver voices; 77433 (Bible verse), 77431/77452 (forum navigation), 77472 (daily chit-chat thread) have little caregiving-problem content. Several threads are in the 'Caring for a Spouse or Partner' board so spouse caregivers dominate. Gap lists: all six have at least one entry. Nothing was found about group texts, shared spreadsheets, or shared calendars between siblings; family information sharing evidence is mostly about its absence or about paper/phone tools. T14 is used heavily for hospice/end-of-life, personal-care/incontinence, and forum-navigation threads.",
+ "sources": [
+  {
+   "file": "77399.txt",
+   "title": "Bringing Mom home for events and holidays",
+   "cared_for": "other",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T1",
+    "T5",
+    "T3"
+   ],
+   "problem_one_line": "Mother-in-law in assisted living keeps pleading to go to her own house; outings and holidays end in crying and anger and the family does not know whether the new medication, the move, or the disease is causing it.",
+   "tools_mentioned": [
+    "Klonopin"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77400.txt",
+   "title": "Deep grief has returned",
+   "cared_for": "spouse",
+   "primary_theme": "T2",
+   "other_themes": [],
+   "problem_one_line": "Widow who cared for her husband at home finds grief flooding back after a sister dies.",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77401.txt",
+   "title": "Feeling Hopeless",
+   "cared_for": "parent",
+   "primary_theme": "T1",
+   "other_themes": [
+    "T2",
+    "T3",
+    "T6",
+    "T7",
+    "T10",
+    "T5",
+    "T13"
+   ],
+   "problem_one_line": "Mother agreed to assisted living then refused a week before the move; sister says let her stay home; daughter is exhausted, afraid in-home care will bankrupt them, and says the community insists mom sign papers even though she holds DPOA.",
+   "tools_mentioned": [
+    "HERO pill dispenser",
+    "Amazon orders (mother's unwanted purchases)",
+    "therapist"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "conflict"
+  },
+  {
+   "file": "77402.txt",
+   "title": "Dr. Appointment",
+   "cared_for": "spouse",
+   "primary_theme": "T14",
+   "other_themes": [
+    "T12"
+   ],
+   "problem_one_line": "Wife lost 13 percent of body weight in 6 months, doctor mentioned a feeding tube; husband seeks food ideas and others weigh in on feeding tubes and hospice.",
+   "tools_mentioned": [
+    "Boost",
+    "Ensure",
+    "protein shakes"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77403.txt",
+   "title": "Kisunla",
+   "cared_for": "unclear",
+   "primary_theme": "T8",
+   "other_themes": [
+    "T12"
+   ],
+   "problem_one_line": "Person newly diagnosed with Alzheimer's (self) is scared and asks how Kisunla infusions are going for others; replies are from people on Leqembi/Kisunla.",
+   "tools_mentioned": [
+    "Kisunla",
+    "Leqembi",
+    "PET scan"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77404.txt",
+   "title": "Isolation",
+   "cared_for": "spouse",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T2",
+    "T10"
+   ],
+   "problem_one_line": "Husband with mild cognitive impairment withdraws and sits alone on his phone; wife asks if it is dementia, and a reply warns about scams on his unsupervised phone and internet.",
+   "tools_mentioned": [
+    "phone games"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77405.txt",
+   "title": "How Can Families Choose the Right Memory Care Community for Seniors?",
+   "cared_for": "unclear",
+   "primary_theme": "T1",
+   "other_themes": [],
+   "problem_one_line": "Generic checklist post on choosing memory care (reads as promotional, no personal story).",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77406.txt",
+   "title": "Son is shaming me",
+   "cared_for": "spouse",
+   "primary_theme": "T13",
+   "other_themes": [
+    "T3",
+    "T2"
+   ],
+   "problem_one_line": "Full-time caregiver for husband with Alzheimer's hosts her 24-year-old granddaughter; granddaughter complains daily to her father, who then criticizes the caregiver.",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "conflict"
+  },
+  {
+   "file": "77407.txt",
+   "title": "Meds for Anxiety/ Agitation",
+   "cared_for": "spouse",
+   "primary_theme": "T5",
+   "other_themes": [
+    "T9",
+    "T13",
+    "T11",
+    "T10",
+    "T12"
+   ],
+   "problem_one_line": "Husband weighing medication for wife's anxiety and agitation, how to get resistant person to take pills, and whether to add in-home help while she adjusts; cannot leave her alone to attend his own appointments.",
+   "tools_mentioned": [
+    "The 36 Hour Day",
+    "DBAT (Dementia Behavioral Assessment Tool)",
+    "crushing pills in food",
+    "Kisunla infusions",
+    "pre-appointment note to neurologist"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77408.txt",
+   "title": "DH suddenly seeing things on the floor, chair, counter",
+   "cared_for": "spouse",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T10",
+    "T12"
+   ],
+   "problem_one_line": "Husband tries to pick up patterns printed on floor and bedspread; caregiver asks if it is hallucination and others describe visual-perception changes and fall risk.",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77409.txt",
+   "title": "Mother diagnosed with MCI",
+   "cared_for": "parent",
+   "primary_theme": "T8",
+   "other_themes": [
+    "T6"
+   ],
+   "problem_one_line": "New caregiver asks for advice after mother's MCI diagnosis; replies say get DPOA and HIPAA access, see an elder law attorney, and learn the DBAT stages.",
+   "tools_mentioned": [
+    "DBAT (7-stage PDF)",
+    "AgingCare anosognosia PDF",
+    "web links"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77410.txt",
+   "title": "Heartbreak and Reality",
+   "cared_for": "spouse",
+   "primary_theme": "T1",
+   "other_themes": [
+    "T2",
+    "T10",
+    "T13"
+   ],
+   "problem_one_line": "Wife caring for husband at home with her daughter; hard to leave him with anyone because of his falls and needs, and her own knees and back are failing; another caregiver says she needs a backup memory care plan and a waitlist.",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "helps"
+  },
+  {
+   "file": "77411.txt",
+   "title": "Husband will not accept diagnosis",
+   "cared_for": "spouse",
+   "primary_theme": "T6",
+   "other_themes": [
+    "T7",
+    "T10",
+    "T13"
+   ],
+   "problem_one_line": "Husband newly diagnosed refuses to give up control of finances and is making bad decisions; replies share scam losses and steps like credit freezes, changing passwords and account holders, and consulting an elder law attorney.",
+   "tools_mentioned": [
+    "credit bureau freeze",
+    "dummy wallet",
+    "DBAT",
+    "spending-limit credit card",
+    "passwords list"
+   ],
+   "mentions_logins_or_accounts": true,
+   "mentions_cost_of_tools_or_apps": true,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77412.txt",
+   "title": "Am I Doing the Right Thing",
+   "cared_for": "parent",
+   "primary_theme": "T3",
+   "other_themes": [
+    "T6",
+    "T12"
+   ],
+   "problem_one_line": "Daughter with DPOA is not told her mother's condition by her sister (guardian of the person), communicates with her only through attorneys, and needs sister's approval for a lunch outing.",
+   "tools_mentioned": [
+    "attorney"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "conflict"
+  },
+  {
+   "file": "77413.txt",
+   "title": "Advise on Clothing Purchases",
+   "cared_for": "parent",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T3"
+   ],
+   "problem_one_line": "Daughter in assisted-living situation wonders whether to take mother shopping for winter clothes (needs guardian sister's approval) versus buying for her; replies share how they handle clothing purchases.",
+   "tools_mentioned": [
+    "tape measure",
+    "Amazon"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "conflict"
+  },
+  {
+   "file": "77414.txt",
+   "title": "To drug or not to drug",
+   "cared_for": "spouse",
+   "primary_theme": "T5",
+   "other_themes": [
+    "T2",
+    "T9"
+   ],
+   "problem_one_line": "Widow says she was judged harshly in a Facebook dementia group for supporting medication for behavior; many caregivers share that medication made care safe and kept loved ones comfortable.",
+   "tools_mentioned": [
+    "Facebook dementia group",
+    "Lexapro",
+    "Keppra"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77417.txt",
+   "title": "Looking for a \"smart\" pillbox. Also my experience with smart stove knobs.",
+   "cared_for": "parent",
+   "primary_theme": "T5",
+   "other_themes": [
+    "T10"
+   ],
+   "problem_one_line": "Caregiver wants a pillbox that alerts him if dad's evening pills are not taken, and has installed wifi stove knobs that text him if a burner is left on.",
+   "tools_mentioned": [
+    "smart pillbox",
+    "wifi smart stove knobs",
+    "phone app",
+    "motion sensors",
+    "Hero",
+    "Amazon smart pill dispensers",
+    "Facetime pill routine"
+   ],
+   "mentions_logins_or_accounts": true,
+   "mentions_cost_of_tools_or_apps": true,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77423.txt",
+   "title": "Sibling Resentment",
+   "cared_for": "parent",
+   "primary_theme": "T3",
+   "other_themes": [
+    "T13",
+    "T6",
+    "T1",
+    "T11"
+   ],
+   "problem_one_line": "Daughter working full time and caring for stroke-survivor mother is excluded by sisters who live nearby and will not help; others share nearly identical sibling stories.",
+   "tools_mentioned": [
+    "CCP program (Medicaid-funded paid care)",
+    "adult daycare",
+    "support group"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "does_not_help"
+  },
+  {
+   "file": "77424.txt",
+   "title": "Out of body experience",
+   "cared_for": "spouse",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T12"
+   ],
+   "problem_one_line": "Husband had blood pressure swings and said he was outside his body; wife asks if others have seen this.",
+   "tools_mentioned": [
+    "blood pressure cuff"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77425.txt",
+   "title": "Wheelchair bound",
+   "cared_for": "parent",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T2"
+   ],
+   "problem_one_line": "Daughter of mother on hospice for a year, mostly nonverbal, does not know how to connect during visits.",
+   "tools_mentioned": [
+    "children's picture books",
+    "music"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77427.txt",
+   "title": "Time for therapy......for ME",
+   "cared_for": "spouse",
+   "primary_theme": "T2",
+   "other_themes": [
+    "T13",
+    "T3"
+   ],
+   "problem_one_line": "Wife caregiver with severe anxiety and depression, and unsupportive stepfamily, starts therapy; others share how they found therapists.",
+   "tools_mentioned": [
+    "Zoom",
+    "Psychology Today",
+    "SonderMind",
+    "Medicare coverage lookup",
+    "support group"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "does_not_help"
+  },
+  {
+   "file": "77428.txt",
+   "title": "I don't think I can do this!",
+   "cared_for": "spouse",
+   "primary_theme": "T2",
+   "other_themes": [
+    "T6",
+    "T1",
+    "T13"
+   ],
+   "problem_one_line": "Wife of man with mild Alzheimer's considers divorce for financial reasons and her own sanity; thread covers elder law attorneys, divorce costs, Medicare, and many caregivers saying they will place spouse when they can no longer cope.",
+   "tools_mentioned": [
+    "elder law attorney",
+    "therapist"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "helps"
+  },
+  {
+   "file": "77429.txt",
+   "title": "Technology",
+   "cared_for": "unclear",
+   "primary_theme": "T4",
+   "other_themes": [
+    "T10"
+   ],
+   "problem_one_line": "Long-distance caregiver asks for a simple GPS watch and a camera to monitor the person and caregiver (post body failed to render).",
+   "tools_mentioned": [
+    "GPS watch",
+    "security camera",
+    "nanny cam"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77430.txt",
+   "title": "Dealing with finances during short term memory loss",
+   "cared_for": "parent",
+   "primary_theme": "T6",
+   "other_themes": [
+    "T10"
+   ],
+   "problem_one_line": "90-year-old mother with LATE keeps ordering supplements she then forgets, and daughter asks how to limit scam charges.",
+   "tools_mentioned": [
+    "credit card removed from browser",
+    "expired card or used gift card",
+    "utility auto-pay"
+   ],
+   "mentions_logins_or_accounts": true,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77431.txt",
+   "title": "This",
+   "cared_for": "unclear",
+   "primary_theme": "T14",
+   "other_themes": [],
+   "problem_one_line": "Person living with dementia is confused by forum layout (caregiver posts appear in the 'living with' section); replies point to a Zoom call and the Alzheimer's Association helpline.",
+   "tools_mentioned": [
+    "ALZConnected forum",
+    "Zoom support call",
+    "Alzheimer's Association 24/7 helpline"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77432.txt",
+   "title": "Assisted Living Guilt",
+   "cared_for": "parent",
+   "primary_theme": "T2",
+   "other_themes": [
+    "T1",
+    "T13"
+   ],
+   "problem_one_line": "27-year-old full-time caregiver of her 62-year-old mother with Alzheimer's decides she needs assisted living, is flooded with guilt, and her schooling is suffering.",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77433.txt",
+   "title": "Bible Verse to Lift You Up, 10/26/26",
+   "cared_for": "unclear",
+   "primary_theme": "T14",
+   "other_themes": [
+    "T2"
+   ],
+   "problem_one_line": "Daily faith-based encouragement post for caregivers (no specific problem).",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77435.txt",
+   "title": "Visual confusion with food",
+   "cared_for": "unclear",
+   "primary_theme": "T9",
+   "other_themes": [],
+   "problem_one_line": "Caregiver observes people with dementia get confused by seeds, burn marks and mixed textures on food and shares ways to keep food visually plain.",
+   "tools_mentioned": [
+    "plain placemat"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77436.txt",
+   "title": "UPDATE",
+   "cared_for": "spouse",
+   "primary_theme": "T14",
+   "other_themes": [
+    "T1"
+   ],
+   "problem_one_line": "Husband went in for help with his wife's health care and ended up in hospice mode after an admission exam; grateful but had not planned for it.",
+   "tools_mentioned": [
+    "hospice"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77437.txt",
+   "title": "driving our grandson",
+   "cared_for": "spouse",
+   "primary_theme": "T10",
+   "other_themes": [
+    "T3",
+    "T12"
+   ],
+   "problem_one_line": "Wife notices husband with MCI slowing at green lights and asks whether he should drive their 3-year-old grandson and when to tell the grandson's parents; replies cover insurance risk, driving evaluations and taking keys.",
+   "tools_mentioned": [
+    "occupational therapy driving evaluation",
+    "driving simulator",
+    "hidden keys"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "helps"
+  },
+  {
+   "file": "77439.txt",
+   "title": "Dental insurance",
+   "cared_for": "spouse",
+   "primary_theme": "T6",
+   "other_themes": [],
+   "problem_one_line": "Wife of husband on hospice wonders whether to cancel his dental insurance since he no longer goes to the dentist.",
+   "tools_mentioned": [
+    "Medicare Advantage"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77440.txt",
+   "title": "New to Memory Care",
+   "cared_for": "parent",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T1",
+    "T5",
+    "T4"
+   ],
+   "problem_one_line": "Family placed father in memory care because mother needs surgery; first night he had a violent psychotic episode and was taken to hospital, and they fear it will repeat tonight.",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77441.txt",
+   "title": "Watch with GPS",
+   "cared_for": "unclear",
+   "primary_theme": "T10",
+   "other_themes": [],
+   "problem_one_line": "Caregiver wants a feminine-looking GPS watch without buttons or apps that can be manipulated.",
+   "tools_mentioned": [
+    "GPS watch",
+    "Amazon GPS Watch for Seniors",
+    "tracker"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77443.txt",
+   "title": "Testing/venting",
+   "cared_for": "spouse",
+   "primary_theme": "T12",
+   "other_themes": [
+    "T7",
+    "T9",
+    "T6"
+   ],
+   "problem_one_line": "Wife with dementia 'showtimed' and denied everything in the neuropsych interview; husband waited 6 months for testing and others describe waits of a year or more and ways to get the clinician the real picture.",
+   "tools_mentioned": [
+    "phone video recording",
+    "patient portal",
+    "email to neuropsychologist",
+    "insurance directory"
+   ],
+   "mentions_logins_or_accounts": true,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77444.txt",
+   "title": "How to separate the disease from the person?",
+   "cared_for": "parent",
+   "primary_theme": "T2",
+   "other_themes": [
+    "T13",
+    "T9",
+    "T1"
+   ],
+   "problem_one_line": "Daughter with her own mental-health history is angry at her early-stage mother and feels her husband and teenager get only a shell of her.",
+   "tools_mentioned": [
+    "grocery delivery",
+    "therapy",
+    "area agency on aging"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77445.txt",
+   "title": "Daily Check In App",
+   "cared_for": "spouse",
+   "primary_theme": "T10",
+   "other_themes": [
+    "T8"
+   ],
+   "problem_one_line": "Caregiver passes on a daily check-in app for people who live alone and a hospice nurse's video on setting up a living will, both seen on YouTube.",
+   "tools_mentioned": [
+    "Snug Safety app",
+    "YouTube (Nurse Jen, Hospice Nurse Julie)"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": true,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77446.txt",
+   "title": "Smart Pill Dispenser",
+   "cared_for": "parent",
+   "primary_theme": "T5",
+   "other_themes": [],
+   "problem_one_line": "Engineering student promotes a smart pill dispenser to the forum (promotional, not a caregiver); one reply says the price can be a barrier.",
+   "tools_mentioned": [
+    "smart dispenser (student product)"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": true,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77448.txt",
+   "title": "What is a hospice evaluation?",
+   "cared_for": "spouse",
+   "primary_theme": "T14",
+   "other_themes": [
+    "T12",
+    "T1"
+   ],
+   "problem_one_line": "Husband told by neurologist to get a hospice evaluation asks what to expect and how hospice differs from palliative care; replies describe what the evaluation covers and eligibility.",
+   "tools_mentioned": [
+    "hospice",
+    "palliative care",
+    "CAPC guidelines PDF"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77449.txt",
+   "title": "I want to go home",
+   "cared_for": "spouse",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T2"
+   ],
+   "problem_one_line": "Wife with Alzheimer's keeps saying she wants to go home while at home; husband has run out of tactics.",
+   "tools_mentioned": [
+    "CBD gummies"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77450.txt",
+   "title": "Monitoring Food Intake",
+   "cared_for": "parent",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T10"
+   ],
+   "problem_one_line": "Mom overeats, does laundry repeatedly and lets dogs up; caregiver rations snack containers, adds door handle cover, and asks how to start helping with showers.",
+   "tools_mentioned": [
+    "baby door handle cover",
+    "snack containers",
+    "pantry lock"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "helps"
+  },
+  {
+   "file": "77452.txt",
+   "title": "Navigate",
+   "cared_for": "unclear",
+   "primary_theme": "T14",
+   "other_themes": [],
+   "problem_one_line": "Forum user cannot find how to view replies to her post.",
+   "tools_mentioned": [
+    "ALZConnected forum"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77454.txt",
+   "title": "Dementia just keeps on taking our LO's a bit at a time",
+   "cared_for": "spouse",
+   "primary_theme": "T14",
+   "other_themes": [
+    "T2",
+    "T13",
+    "T12"
+   ],
+   "problem_one_line": "Husband's first bowel-incontinence night ruins a planned outing; wife asks for supplies advice and when to seek hospice evaluation given weight loss, falls and breathing trouble.",
+   "tools_mentioned": [
+    "Depends",
+    "LivDry",
+    "Tena briefs",
+    "bed pads",
+    "Amazon autoship",
+    "Odoban",
+    "bidet",
+    "urinal bag in car"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77457.txt",
+   "title": "I’m not a good caregiver, she says",
+   "cared_for": "spouse",
+   "primary_theme": "T7",
+   "other_themes": [
+    "T5",
+    "T9",
+    "T2"
+   ],
+   "problem_one_line": "Wife with early-onset Alzheimer's resents any reminders about medication and says her spouse is not a good caregiver; spouse de-escalates by sitting on the floor and agreeing.",
+   "tools_mentioned": [
+    "pill dispenser (suggested)"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "helps"
+  },
+  {
+   "file": "77460.txt",
+   "title": "Death of a partner",
+   "cared_for": "parent",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T4",
+    "T2",
+    "T5"
+   ],
+   "problem_one_line": "Mother with Alzheimer's keeps asking for her late husband and becomes agitated; daughter who lives far away feels her calls only remind mom of dad.",
+   "tools_mentioned": [
+    "telephone calls",
+    "medication adjustment"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77462.txt",
+   "title": "venting: \"mean\" is the only outcome of any conversation",
+   "cared_for": "spouse",
+   "primary_theme": "T9",
+   "other_themes": [
+    "T2"
+   ],
+   "problem_one_line": "Husband cannot communicate with wife about using conditioner and worries what will happen in an emergency; replies suggest work-arounds, respite, elder law attorney and the Alzheimer's Association helpline.",
+   "tools_mentioned": [
+    "Alzheimer's Association 24/7 Helpline 800.272.3900"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77467.txt",
+   "title": "Dad's memory loss has me at a stand still",
+   "cared_for": "parent",
+   "primary_theme": "T2",
+   "other_themes": [
+    "T3",
+    "T9",
+    "T5",
+    "T13"
+   ],
+   "problem_one_line": "On her birthday a caregiver visits her father whose memory is gone, has no family support, and feels broken; father only takes meds he is told come from the VA.",
+   "tools_mentioned": [
+    "message boards in dad's apartment",
+    "phone reminder",
+    "special clock"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "does_not_help"
+  },
+  {
+   "file": "77470.txt",
+   "title": "I Live in a World …",
+   "cared_for": "spouse",
+   "primary_theme": "T2",
+   "other_themes": [
+    "T3",
+    "T13"
+   ],
+   "problem_one_line": "Wife doing all household tasks and appointments for husband six years after diagnosis feels lonely and abandoned by 'too busy' friends and family.",
+   "tools_mentioned": [
+    "online therapist",
+    "GUIDE Program",
+    "Veterans Administration"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "does_not_help"
+  },
+  {
+   "file": "77471.txt",
+   "title": "The care in a nursing home",
+   "cared_for": "other",
+   "primary_theme": "T1",
+   "other_themes": [
+    "T11"
+   ],
+   "problem_one_line": "Neighbor visiting a paralyzed 94-year-old in a nursing home sees poor care and asks whether the POA could hire a private attendant; replies note weekend staffing and Medicaid-related cost limits.",
+   "tools_mentioned": [
+    "private attendant",
+    "care conference",
+    "hospice"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "unclear"
+  },
+  {
+   "file": "77472.txt",
+   "title": "Just need to talk to my friends (224)",
+   "cared_for": "unclear",
+   "primary_theme": "T14",
+   "other_themes": [],
+   "problem_one_line": "Daily friendly chit-chat thread among older members (weather, pets, eye surgery); no caregiving problem.",
+   "tools_mentioned": [],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  },
+  {
+   "file": "77473.txt",
+   "title": "Signed hospice contract",
+   "cared_for": "spouse",
+   "primary_theme": "T14",
+   "other_themes": [
+    "T6",
+    "T12"
+   ],
+   "problem_one_line": "Wife signs hospice contract after home evaluation; a reply asks how to request an evaluation and whether to try GUIDE program or VA disability rating first.",
+   "tools_mentioned": [
+    "hospice agency",
+    "GUIDE Program",
+    "VA catastrophic disability rating"
+   ],
+   "mentions_logins_or_accounts": false,
+   "mentions_cost_of_tools_or_apps": false,
+   "family_dynamic": "none"
+  }
+ ],
+ "quotes": [
+  {
+   "theme": "T1",
+   "quote": "We'll all end up totally broke paying for in home care.",
+   "file": "77401.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T1",
+   "quote": "My Dad makes just enough income to make him not eligible for Medicaid. But not enough to place him somewhere decent where I know he will be properly cared for.",
+   "file": "77423.txt",
+   "locator": "COMMENT 9"
+  },
+  {
+   "theme": "T1",
+   "quote": "It’s possible she is in a nursing home because money ran out for in home care and she had to go on Medicaid.",
+   "file": "77471.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T1",
+   "quote": "I made the decision to for my health and well being, use up our savings for Memory Care for my DW.",
+   "file": "77470.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T1",
+   "quote": "Some Al may accept people who need help showering and wiping, but they will probably charge you considerably more.",
+   "file": "77432.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T2",
+   "quote": "I'm not cut out for this and I'm so freaking tired.",
+   "file": "77401.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T2",
+   "quote": "I just want to be home, not seeing anyone, not accomplishing anything.",
+   "file": "77400.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T2",
+   "quote": "I live in a world that is lonely.",
+   "file": "77470.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T2",
+   "quote": "I am so exhausted I dont know how long I can do this.",
+   "file": "77428.txt",
+   "locator": "COMMENT 19"
+  },
+  {
+   "theme": "T2",
+   "quote": "It’s my first thought when I wake up and last when go to sleep.",
+   "file": "77428.txt",
+   "locator": "COMMENT 12"
+  },
+  {
+   "theme": "T2",
+   "quote": "I want to cry and scream all at once.",
+   "file": "77427.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T3",
+   "quote": "One told me “We all make our choices” last time I broke down begging and hasn’t talked to Mom or me in 2 months.",
+   "file": "77423.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T3",
+   "quote": "I text her desperate for an hour or two break.",
+   "file": "77423.txt",
+   "locator": "COMMENT 7"
+  },
+  {
+   "theme": "T3",
+   "quote": "My sister who is Guardian of the Person does not share that information with me.",
+   "file": "77412.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T3",
+   "quote": "Sister just visits socially mostly.",
+   "file": "77401.txt",
+   "locator": "COMMENT 9"
+  },
+  {
+   "theme": "T3",
+   "quote": "What you'll find though is that family may not end up being your biological siblings.",
+   "file": "77423.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T3",
+   "quote": "And no, I've got no family support or anyone to lean on except his other caregivers",
+   "file": "77467.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T4",
+   "quote": "I feel like I can’t even call her (I don’t live nearby) because I will just be a reminder of my dad.",
+   "file": "77460.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T4",
+   "quote": "Any suggestions on a simple watch that has gps to track a person?",
+   "file": "77429.txt",
+   "locator": "COMMENT 1"
+  },
+  {
+   "theme": "T4",
+   "quote": "Also a security camera/nanny cam to monitor person and caregiver",
+   "file": "77429.txt",
+   "locator": "COMMENT 1"
+  },
+  {
+   "theme": "T4",
+   "quote": "I will try to visit more often, even though she is far from me.",
+   "file": "77471.txt",
+   "locator": "COMMENT 4"
+  },
+  {
+   "theme": "T4",
+   "quote": "Our grandson lives 2 hours away and this could severely limit out time with him so I just feel so sad.",
+   "file": "77437.txt",
+   "locator": "COMMENT 13"
+  },
+  {
+   "theme": "T5",
+   "quote": "Getting the meds into her will likely be yet another new hurdle.",
+   "file": "77407.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T5",
+   "quote": "She does not like taking meds so I crush them and put them on PBJ toast or anything DW likes.",
+   "file": "77407.txt",
+   "locator": "COMMENT 1"
+  },
+  {
+   "theme": "T5",
+   "quote": "Make sure you always check the cheeks and under the tongue for pills not swallowed.",
+   "file": "77407.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T5",
+   "quote": "She's got a HERO pill dispenser and sometimes swears it gave her an extra dose when I know it didn't.",
+   "file": "77401.txt",
+   "locator": "COMMENT 9"
+  },
+  {
+   "theme": "T5",
+   "quote": "Looking for a pill box or dispenser that will sense if it's been picked up or opened or similar, and alert a caregiver if it has not.",
+   "file": "77417.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T5",
+   "quote": "Getting pills out doesn't mean they were actually taken as directed.",
+   "file": "77417.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T6",
+   "quote": "Be sure to change the passwords as well.",
+   "file": "77411.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T6",
+   "quote": "When DH nearly lost us $30,000 to a scammer, I realized that he wasn't always thinking clearly.",
+   "file": "77411.txt",
+   "locator": "COMMENT 6"
+  },
+  {
+   "theme": "T6",
+   "quote": "Some financial institutions may require some additional paperwork to be filled out before you can use your DPOA.",
+   "file": "77411.txt",
+   "locator": "COMMENT 14"
+  },
+  {
+   "theme": "T6",
+   "quote": "I do have the DPOA but the community insists on having Mom sign it.",
+   "file": "77401.txt",
+   "locator": "COMMENT 8"
+  },
+  {
+   "theme": "T6",
+   "quote": "I am so overwhelmed with his bills- left so unintended-",
+   "file": "77428.txt",
+   "locator": "COMMENT 8"
+  },
+  {
+   "theme": "T6",
+   "quote": "I just got the yearly health insurance notification and it made me wonder whether I should cancel his dental insurance",
+   "file": "77439.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T7",
+   "quote": "my sister says if she wants to stay, she should stay.",
+   "file": "77401.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T7",
+   "quote": "He refuses to give up control to me.",
+   "file": "77411.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T7",
+   "quote": "My DW will not consent to either so that is a remaining hurdle.",
+   "file": "77407.txt",
+   "locator": "COMMENT 12"
+  },
+  {
+   "theme": "T7",
+   "quote": "My Mom had agreed to move into AL and then turned around yesterday (about a week before it was time to move) and says 100% no way.",
+   "file": "77401.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T8",
+   "quote": "Got my diagnosis of AD 2 days ago, and I am SCARED.",
+   "file": "77403.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T8",
+   "quote": "One of the most important things to do in the beginning is see a lawyer.",
+   "file": "77409.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T8",
+   "quote": "I’m a fixer and I can’t fix this.",
+   "file": "77409.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T8",
+   "quote": "Not sure what help to apply for first.",
+   "file": "77473.txt",
+   "locator": "COMMENT 1"
+  },
+  {
+   "theme": "T9",
+   "quote": "DH has been trying to pick up things that are only the pattern in either the floor, bedspread, or countertop.",
+   "file": "77408.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T9",
+   "quote": "Because you're being mean.",
+   "file": "77462.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T9",
+   "quote": "She wanders the house trying to find him and is constantly asking where he is.",
+   "file": "77460.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T9",
+   "quote": "Then at about 10pm last night, he had a psychotic episode - was verbally abusive and physically violent.",
+   "file": "77440.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T9",
+   "quote": "We don't know whether the anger is possibly caused by the newly added medication or if its just the realization of having to accept her new living arrangements or if it is just part of the disease.",
+   "file": "77399.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T9",
+   "quote": "His short term memory is gone. The repetitive questions are nearly non stop.",
+   "file": "77467.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T10",
+   "quote": "it first beeps at him giving him a chance to come deal with it, then it will text me repeatedly until either it detects movement in front of the stove or he turns the burner off.",
+   "file": "77417.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T10",
+   "quote": "she often orders vitamins and other brain supplements—getting scammed—but doesn’t remember doing it due to her severe short-term memory issues.",
+   "file": "77430.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T10",
+   "quote": "Take the keys or disable the car.",
+   "file": "77437.txt",
+   "locator": "COMMENT 16"
+  },
+  {
+   "theme": "T10",
+   "quote": "He still does all his ADLS but he is NOT safe to leave alone.",
+   "file": "77407.txt",
+   "locator": "COMMENT 6"
+  },
+  {
+   "theme": "T10",
+   "quote": "After DW wrote a check for 10K to a family member , I shut her down.",
+   "file": "77411.txt",
+   "locator": "COMMENT 12"
+  },
+  {
+   "theme": "T11",
+   "quote": "The right aide would work with you as you're dealing with behavioral issues but they are few and far between.",
+   "file": "77407.txt",
+   "locator": "COMMENT 4"
+  },
+  {
+   "theme": "T11",
+   "quote": "Tell her the help is for you for light housekeeping.",
+   "file": "77407.txt",
+   "locator": "COMMENT 3"
+  },
+  {
+   "theme": "T11",
+   "quote": "I am getting by right now with a few afternoons of caregivers",
+   "file": "77428.txt",
+   "locator": "COMMENT 14"
+  },
+  {
+   "theme": "T11",
+   "quote": "I found CCP program for some daily care paid and pay out of Mom's social security for other, a few hours a day.",
+   "file": "77423.txt",
+   "locator": "COMMENT 4"
+  },
+  {
+   "theme": "T12",
+   "quote": "This is the fastest (6 months waited) testing arranged, 4.5 hours.",
+   "file": "77443.txt",
+   "locator": "COMMENT 6"
+  },
+  {
+   "theme": "T12",
+   "quote": "record your wife's behavior with your phone and share with them via email or the patient portal.",
+   "file": "77443.txt",
+   "locator": "COMMENT 15"
+  },
+  {
+   "theme": "T12",
+   "quote": "Feeding tube mentioned, I ask Dr. if she is in any real danger at this moment, or do I have time to try something else.",
+   "file": "77402.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T12",
+   "quote": "The assisted living resident assistant that attended did not answer the questions about needing help correctly.",
+   "file": "77448.txt",
+   "locator": "COMMENT 1"
+  },
+  {
+   "theme": "T13",
+   "quote": "What about my husband and my teenager who need me but only get a shell of me now?",
+   "file": "77444.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T13",
+   "quote": "I’m currently in school, and as hard as I try I can’t focus in school the way I need to.",
+   "file": "77432.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T13",
+   "quote": "I'm finding it really difficult to leave my DW to get a haircut, attend to car repairs/ maintenance, go to my own dr's & dentists appts.",
+   "file": "77407.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T13",
+   "quote": "I take care of my mom who had a stroke 4 years ago, work full time, have paid daily help",
+   "file": "77423.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T13",
+   "quote": "I had to give up my home, quit my job and move in with him immediately.",
+   "file": "77423.txt",
+   "locator": "COMMENT 7"
+  },
+  {
+   "theme": "T14",
+   "quote": "I had not, (as I am sure many of you had similar experience) planned on that being best choice for her.",
+   "file": "77436.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T14",
+   "quote": "It was more emotional than I thought it was going to be.",
+   "file": "77473.txt",
+   "locator": "POST"
+  },
+  {
+   "theme": "T14",
+   "quote": "for straightforward dementia the person generally has to be into stage 7 for Medicare coverage to kick in.",
+   "file": "77454.txt",
+   "locator": "COMMENT 13"
+  },
+  {
+   "theme": "T14",
+   "quote": "I think I need to get help, this is making an already tough job even harder.",
+   "file": "77454.txt",
+   "locator": "POST"
+  }
+ ],
+ "gap_evidence": {
+  "how_family_shares_information": [
+   {
+    "quote": "Communication between my sister and I is only through an attorney.",
+    "file": "77412.txt",
+    "locator": "POST"
+   },
+   {
+    "quote": "his parents are aware but this is new to all of us and why I am asking for help here.",
+    "file": "77437.txt",
+    "locator": "COMMENT 11"
+   },
+   {
+    "quote": "His caregivers and myself wrote on all his message boards and even put a reminder on his phone and special clock.",
+    "file": "77467.txt",
+    "locator": "POST"
+   },
+   {
+    "quote": "I send an updated DBAT to the neurologist ahead of each appointment.",
+    "file": "77407.txt",
+    "locator": "COMMENT 12"
+   },
+   {
+    "quote": "I know I need to stop letting my sisters excluding me from any activities bother me",
+    "file": "77423.txt",
+    "locator": "COMMENT 4"
+   }
+  ],
+  "tools_used_today": [
+   {
+    "quote": "I use the DBAT to track the disease and date each box when I check it.",
+    "file": "77407.txt",
+    "locator": "COMMENT 12"
+   },
+   {
+    "quote": "My phone app tells me every time he turns it on and off.",
+    "file": "77417.txt",
+    "locator": "POST"
+   },
+   {
+    "quote": "A cheaper timed dispenser and Facetime pill routine might be safest.",
+    "file": "77417.txt",
+    "locator": "COMMENT 2"
+   },
+   {
+    "quote": "Autoship on Amazon for the briefs or supplies is helpful.",
+    "file": "77454.txt",
+    "locator": "COMMENT 13"
+   },
+   {
+    "quote": "I found my therapist though the Psychology Today website.",
+    "file": "77427.txt",
+    "locator": "COMMENT 5"
+   }
+  ],
+  "logins_passwords": [
+   {
+    "quote": "Be sure to change the passwords as well.",
+    "file": "77411.txt",
+    "locator": "COMMENT 3"
+   },
+   {
+    "quote": "If he does everything online you could write down sites and passwords and use them.",
+    "file": "77411.txt",
+    "locator": "COMMENT 7"
+   },
+   {
+    "quote": "changed the primary account person on every financial account to me, changed passwords and ID",
+    "file": "77411.txt",
+    "locator": "COMMENT 6"
+   },
+   {
+    "quote": "Hide passwords, account numbers, maybe even his ID.",
+    "file": "77411.txt",
+    "locator": "COMMENT 14"
+   },
+   {
+    "quote": "I removed my dad's credit card number from his browser.",
+    "file": "77430.txt",
+    "locator": "COMMENT 1"
+   }
+  ],
+  "paying_for_tools": [
+   {
+    "quote": "Not cheap— month-to-month while you line up the next level of care would be $69/month.",
+    "file": "77417.txt",
+    "locator": "COMMENT 2"
+   },
+   {
+    "quote": "many people need this type product but the price can be a barrier.",
+    "file": "77446.txt",
+    "locator": "COMMENT 1"
+   },
+   {
+    "quote": "There is a free version and a paid version",
+    "file": "77445.txt",
+    "locator": "POST"
+   },
+   {
+    "quote": "I discovered 5 internet security suites on auto-renew for about $300 each.",
+    "file": "77411.txt",
+    "locator": "COMMENT 3"
+   }
+  ],
+  "long_distance": [
+   {
+    "quote": "I feel like I can’t even call her (I don’t live nearby) because I will just be a reminder of my dad.",
+    "file": "77460.txt",
+    "locator": "POST"
+   },
+   {
+    "quote": "Any suggestions on a simple watch that has gps to track a person?",
+    "file": "77429.txt",
+    "locator": "COMMENT 1"
+   },
+   {
+    "quote": "I will try to visit more often, even though she is far from me.",
+    "file": "77471.txt",
+    "locator": "COMMENT 4"
+   },
+   {
+    "quote": "Our grandson lives 2 hours away and this could severely limit out time with him so I just feel so sad.",
+    "file": "77437.txt",
+    "locator": "COMMENT 13"
+   }
+  ],
+  "medications": [
+   {
+    "quote": "Getting the meds into her will likely be yet another new hurdle.",
+    "file": "77407.txt",
+    "locator": "POST"
+   },
+   {
+    "quote": "She's got a HERO pill dispenser and sometimes swears it gave her an extra dose when I know it didn't.",
+    "file": "77401.txt",
+    "locator": "COMMENT 9"
+   },
+   {
+    "quote": "Make sure you check with a pharmacist or Docs to make sure they are crushable some are not.",
+    "file": "77407.txt",
+    "locator": "COMMENT 1"
+   },
+   {
+    "quote": "he will only take meds he's told are from the VA",
+    "file": "77467.txt",
+    "locator": "POST"
+   },
+   {
+    "quote": "Her neurologist is suggesting we double the Zoloft to 50mg and add Memantine.",
+    "file": "77407.txt",
+    "locator": "COMMENT 12"
+   }
+  ]
+ },
+ "counter_evidence": [
+  {
+   "quote": "I would be willing to help him and he has lots of family that are willing to help.",
+   "file": "77428.txt",
+   "locator": "POST",
+   "what_it_shows": "other family willing to help"
+  },
+  {
+   "quote": "even though family hasn’t been involved my friends have shown up in ways I never dreamed.",
+   "file": "77423.txt",
+   "locator": "COMMENT 5",
+   "what_it_shows": "help comes from friends when siblings do not help"
+  },
+  {
+   "quote": "Fortunately, brother stepped up, anyway.",
+   "file": "77444.txt",
+   "locator": "COMMENT 2",
+   "what_it_shows": "siblings help"
+  },
+  {
+   "quote": "My DW will not consent to either so that is a remaining hurdle.",
+   "file": "77407.txt",
+   "locator": "COMMENT 12",
+   "what_it_shows": "person does not want help or services offered"
+  },
+  {
+   "quote": "There is no replacement for human supervision.",
+   "file": "77417.txt",
+   "locator": "COMMENT 2",
+   "what_it_shows": "technology limits: a caregiver says devices cannot replace people"
+  },
+  {
+   "quote": "I can’t find out how to look at the comments I received.",
+   "file": "77452.txt",
+   "locator": "POST",
+   "what_it_shows": "some users struggle with even a simple forum interface"
+  },
+  {
+   "quote": "My sister and I recently talked about the possibility of taking her out for Thanksgiving or Christmas Eve dinner",
+   "file": "77399.txt",
+   "locator": "COMMENT 1",
+   "what_it_shows": "coordination works between siblings"
+  },
+  {
+   "quote": "surrounded myself with a therapist, a lawyer, a financial mentor, caregiving help",
+   "file": "77428.txt",
+   "locator": "COMMENT 20",
+   "what_it_shows": "caregiver has assembled a support network that works for her"
+  }
+ ],
+ "new_themes": [
+  {
+   "name": "Hospice, weight loss and end-of-life decisions",
+   "description": "Many spouse caregivers face feeding-tube questions, hospice evaluations and eligibility, and describe not knowing when or how to request hospice or which benefits (GUIDE, VA) to apply for first.",
+   "example": {
+    "quote": "Not sure what help to apply for first.",
+    "file": "77473.txt",
+    "locator": "COMMENT 1"
+   }
+  },
+  {
+   "name": "Hands-on personal care and incontinence",
+   "description": "Bathing, toileting and incontinence supplies and clean-up routines are an unmet, practical, daily burden often shared by trial and error.",
+   "example": {
+    "quote": "A bag for the car with your supplies and a complete change of clothing down to the shoes.",
+    "file": "77454.txt",
+    "locator": "COMMENT 5"
+   }
+  },
+  {
+   "name": "Judgment from other caregivers and online groups",
+   "description": "Some caregivers report being judged or shamed in other online dementia groups about medication and placement choices and value peer spaces that do not judge.",
+   "example": {
+    "quote": "I'll never comment on that forum again.",
+    "file": "77414.txt",
+    "locator": "POST"
+   }
+  },
+  {
+   "name": "Denial and anosognosia as the barrier to every other task",
+   "description": "Care recipients who do not believe they are ill block diagnosis, finances, medication, driving and services; caregivers describe 'work-arounds' and fibbing instead of reasoning.",
+   "example": {
+    "quote": "Trying to reason with him or explain things is going to backfire.",
+    "file": "77411.txt",
+    "locator": "COMMENT 4"
+   }
+  },
+  {
+   "name": "Whether to stay in the marriage",
+   "description": "Spouse caregivers openly weigh divorce, separation, and the legal and financial consequences of dementia for the marriage.",
+   "example": {
+    "quote": "Wondering if anyone else has thought about or actually divorced a spouse with Alzheimer's.",
+    "file": "77428.txt",
+    "locator": "POST"
+   }
+  },
+  {
+   "name": "Waiting months for neuropsychological testing and clinician only seeing a performance",
+   "description": "Long waits for testing and care recipients 'showtiming' to clinicians leave caregivers feeling unheard.",
+   "example": {
+    "quote": "This is the fastest (6 months waited) testing arranged, 4.5 hours.",
+    "file": "77443.txt",
+    "locator": "COMMENT 6"
+   }
+  }
+ ],
+ "caveats": "ALZConnected is a self-selected online support community; spouse caregivers (often older, with dementia of a husband or wife) are over-represented relative to adult children, and members are already seeking help, which skews toward people in distress. Only the first page of each long thread was captured. A few posts are promotional (77405, 77446) or social (77433, 77472) and should not be counted as caregiver problem evidence. Cared_for is coded from stated text only; 'unclear' where not stated. Primary-theme counts: T9 appears most often as primary (12), then T14 (9, mostly hospice/end-of-life, personal care and forum-navigation), then T2 (7). No evidence was found of siblings using group texts, spreadsheets or shared apps; the absence in this small sample should not be read as proof they do not exist."
+}

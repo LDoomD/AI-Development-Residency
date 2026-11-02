@@ -1,0 +1,3411 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "lOo7uw53b1MKYGn7QcpC9FqRdZE",
+  "nextPageToken": "Z2V0X3JhbmtlZF9zdHJlYW1zLS1Dck1HQ0lBRUZSZTMwVGdhcUFZS29nWUkyRjhRZ0FRWUJ5S1hCdU5OMUVoSTVoR0gyWVZpMjFxY3EwZGtjNVBpTXVRcWZNMUlFdkhpb21HUTF5Z1VXQ2JCcmNSV2FFMmMzR0pSeVdvaTNPbzY4R21wTFNvRlFROTVKVVFpSjQ0LUNKNWVrdVlsS2d1WlNGQWtXdFJjN0dFMF8wYUdIdThqb2xJT1BDLTVPcy1NNGFQVmxrbGF2ZFJqa0dvcVJpYTJDUmR5VTNFWkNka0tWbDdJT1U1NjRxRFc3TUd4U00xSWJxcWhlVmdYOWNQcXBPcUZKd3hUWE5NUUkwM01RaHhza1VRNUNSRjNSaEYxNGlrUVBSZEdWbE1tbHFKVUt2VUpBM0dYR1gwMUhiZ0o3Vnd4Sjl4bFliU3V6cmFLQ0FuT3hYcXRjbFZMR2hiaE9Ka3VpNXJsSjJYeENZY0xCZ3BESTBmYXpTaVVvRTFQRFZYSVZ5UTFseW9rcmlwSzVhRk50ME9ybnZUWkp2UWtiM0tuLVpiV1NlUkVzeWpuMTlDYUJoYThWRFJKb2NxQ00zN0IxT3BabjFxU1pwcmFVRVFHYTVZbW53OExybnlYalpmSHNGektMYWx5ellNRk1ncC02b2w2anBXTGxLRHFVa1ZJWmNQcVJLekd4U011bzdJTHBYUXRqYjVTNU5ZNC1ZRWtiT1FsNmFLTERBRUZaX2xBSmRpUWRFMlVMQkI5TTBJeEZuR2tZcHRucG9HbFdBa1NDN1ZBMXJDVFNUY0xuOG0yNThrc2lUVGFUSlNXclZnSjk1NEgwMFVGQnozRVV1anpMSXViWE5XbVhVdkpTd2lOY3QzZDlfYlVTRjJ2Q3dhNmJVSWhTTDUxU1ZmVFVsUTgxQzhtbEtLSHNpR1RETFhRSWNnbExGU29hUk1tVVVvbWlUQkk2TVdtY2laaGNTVWxZNVJncGJDWldpOW0xaGF0Y1NxUmRCZmlzQ2FWVXAzUkJFa1BWTGF4UkpTUEc3VjVFT3FMX0RMUEM4OVQ1TXEyRW9xUXEyU1J0MTZhTVZGRmlZeVdiTnJJVGtrc045SWIzNGk1RFR4WWFjSjAxNFd3cjA1SmltbFBkeFpSYmh3d0taa0daVm5JYUl5ZVZacmhWYzZGc1V2NmxKa2NRX0RWeW5UQjhYaGxVOFFpZlRNamRFSWtDUk1HWHNXWnlmUERlT3RUcExRY2VDNm1qa3dVSm5Va0sxYWFpTHhKR1RsMkdXa3BzdjIwVnBsRU1xMEppODVXV2FxWXFjWGJUbG9Ycm1GRk9ZYi11UlY5cEVsc2tjR3R6RDFpa21Rb3cxMmxEVVI4YUNrMW5JaDd0b0diSnFsSlV4ckVaYUZKQ2d1WHlZaGFrQ0JFUWtFOVdFdXVhdUxOWEpKd2NiSVdUVU9SVlV5MjYwSWVWUXExU0FkeDlWQUJFTWdCRWdVSXFDQVlBQklGQ01BZ0dBQVNCUWlJSUJnQUVnZ0loU0FRc0FFWUFSSUhDSVFnRURvWUFCSUZDSWNnR0FBU0JRaUpJQmdBRWdVSWhpQVlBQklGQ0xzZ0dBQVNCUWpESUJnQUVnVUlueUFZQUZBQVdBRQ==",
+  "pageInfo": {
+    "totalResults": 100,
+    "resultsPerPage": 100
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vlUoTZq7kWKG7IQmRRnyGvAsK7k",
+      "id": "Ugxvgqc7lsDRRh4kKEh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Qu5uKbDm7eELOmRVrwBDxhY9b3k",
+          "id": "Ugxvgqc7lsDRRh4kKEh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I work in a memory care facility and i understand what you are dealing wit.. You take good care of your mama, you understand the disease, how it works. i love that",
+            "textOriginal": "I work in a memory care facility and i understand what you are dealing wit.. You take good care of your mama, you understand the disease, how it works. i love that",
+            "authorDisplayName": "@kensajuannakittrell7410",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/i6UlvhH38JSjBdDJnlA2EcIobP6nxlZ64OFT7uKXcLhrPGEt10xCnFWAQLhLg7PA0EO1t981=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@kensajuannakittrell7410",
+            "authorChannelId": {
+              "value": "UCu07WoveqPMv-ftwEDKRKew"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-10-28T16:25:14Z",
+            "updatedAt": "2026-10-28T16:25:14Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "gCPpZjexjBdIXujuGcF7Xd3ZryY",
+      "id": "UgzxGCoYbASARYB20j54AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9OhDujHFuNO1QxA8DzE0bv9caxk",
+          "id": "UgzxGCoYbASARYB20j54AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "YESSSSSSSSSSS, ESPECIALLY IF YOUR MOTHER HAD THAT DOUBLE THREAT OF ALZHEIMERS AND DEMENTIA...💯🙏🏽🙏🏽🙏🏽",
+            "textOriginal": "YESSSSSSSSSSS, ESPECIALLY IF YOUR MOTHER HAD THAT DOUBLE THREAT OF ALZHEIMERS AND DEMENTIA...💯🙏🏽🙏🏽🙏🏽",
+            "authorDisplayName": "@marydarleneperry-alston2726",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l0H_k9EO1fihac54rnB1K3AomPclaOvcx91v_HNLe60LQ2=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@marydarleneperry-alston2726",
+            "authorChannelId": {
+              "value": "UCNCazCadhC9mCTxXKNly7gQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-11-22T08:18:21Z",
+            "updatedAt": "2025-11-22T08:18:21Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "BcpXUW8iNMnMQ03d47Gej1EPn3s",
+      "id": "UgyTnLu34p3I58sbl4x4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "u6vJmEreieQNNXWL_CWQ6-vtK4s",
+          "id": "UgyTnLu34p3I58sbl4x4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You demonstrate “ PURE LOVE”\u003cbr\u003e…..many blessings to you as you continue to demonstrate the power of love…..\u003cbr\u003e…Dismiss the IGNORANCE of those that don’t try to sympathize nor understand…..",
+            "textOriginal": "You demonstrate “ PURE LOVE”\n…..many blessings to you as you continue to demonstrate the power of love…..\n…Dismiss the IGNORANCE of those that don’t try to sympathize nor understand…..",
+            "authorDisplayName": "@BarbaraAlston-y4i",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k78bXqxjvCHrukhuyGTsKlhlaQhxV6ae87tix931MAixZFqdBbIe8JVhOogv1wZNqh6A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@BarbaraAlston-y4i",
+            "authorChannelId": {
+              "value": "UCHxtw30roXUs0XODoi6peOw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-09-06T01:11:19Z",
+            "updatedAt": "2025-09-06T01:11:19Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "x2eTJx2-U8bhVA6lztm2FdhPpGM",
+      "id": "UgzfH-l0QK-hsZk7Yy54AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "kQ_01KSsRnYS3pe-Ke9zrJuDcDc",
+          "id": "UgzfH-l0QK-hsZk7Yy54AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "&quot;She had a violent past and remained violent&quot;...stuck with me. Praying for peace for her mind💕 you have done well by her, don&#39;t explain yourself to no one!",
+            "textOriginal": "\"She had a violent past and remained violent\"...stuck with me. Praying for peace for her mind💕 you have done well by her, don't explain yourself to no one!",
+            "authorDisplayName": "@StrawberryDitto",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l4_hf5gpfgc_W1r-gvisclvx7CX6D_fdtIKZSDihI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@StrawberryDitto",
+            "authorChannelId": {
+              "value": "UCrARXixvA2KnMIGdDE5-JWw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-25T19:15:02Z",
+            "updatedAt": "2025-11-25T19:15:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WKXPD_mH96jc7hiJtfpIAd6WIgE",
+      "id": "Ugxtiukw60OEPFHKZ3h4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "96560wRuflRM2hV31QHaW_8wF6g",
+          "id": "Ugxtiukw60OEPFHKZ3h4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Yes, that part! God bless your mom and family.❤",
+            "textOriginal": "Yes, that part! God bless your mom and family.❤",
+            "authorDisplayName": "@angelangel4476",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nDSUkZlw9TXfJCGRbfjxrEkPKxsbzomqnuQhrlsV4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@angelangel4476",
+            "authorChannelId": {
+              "value": "UC2ftmJWiQww33DDP85Go0qg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-25T17:22:50Z",
+            "updatedAt": "2025-11-25T17:22:50Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Zno945G1okqjNsCy9oz9gMs_aeI",
+      "id": "UgycO8xBgfL0NCPq3gV4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ykwHFJttAHj9gQBEwSw3gjG0IIo",
+          "id": "UgycO8xBgfL0NCPq3gV4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Some people don’t understand what is involved, when parents need that extra protection.",
+            "textOriginal": "Some people don’t understand what is involved, when parents need that extra protection.",
+            "authorDisplayName": "@doreenboyd3347",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/0w2kR4vFgU_7M-W_3KW2dkN5qclKIfA_J_ASJJAZX6Oa1HxrxPeyoUrjjZDP_xsy5Lit7FK070w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@doreenboyd3347",
+            "authorChannelId": {
+              "value": "UCqUy5fxLgXrj6kAbUc7F8sQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T15:05:41Z",
+            "updatedAt": "2025-09-06T15:05:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "kYLkoYoGOyzthdsBQJiNT6lM4_I",
+      "id": "UgxIZ5tYgO8IMmpZeAB4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "jdAOY0UL9_ndeXmodIC5_SEV2Ho",
+          "id": "UgxIZ5tYgO8IMmpZeAB4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Exactly!!! I have my mom with me but it’s not easy. I wouldn’t shame anyone for prioritizing their peace and safety.",
+            "textOriginal": "Exactly!!! I have my mom with me but it’s not easy. I wouldn’t shame anyone for prioritizing their peace and safety.",
+            "authorDisplayName": "@2mammaR",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_knS_UmAzGA_ClCX-0FG4fd9u_1qhneqXhyQyz8690=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@2mammaR",
+            "authorChannelId": {
+              "value": "UCcI284hU2xNEYD9t34ijnlA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-27T19:41:43Z",
+            "updatedAt": "2025-11-27T19:41:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WsKTr_He1dfxTxu_SiAOV5wutew",
+      "id": "UgzbFhCf546iZYEkYAp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "5WvSLoeYKVhDgTbMpsVOBxmV9V4",
+          "id": "UgzbFhCf546iZYEkYAp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Bless you gorgeous lady! I also take care of my sick Mother who is in the first stage of Dementia. I work 40 plus hours as a nurse, but every day my shift doesn’t begin until I get home. At work, I have help, but at home I have none, period. There are days that I think I can’t take another step, but some days are joyful. Those who have been blessed enough to not know our struggles have no idea how mentally it drains you. I’m not complaining and I would do it all over again for my precious Mom. The fact is, when you take care of a parent or anyone with this disease, your life completely stops and your whole attention is on that loved one and giving them the best care possible. Thankfully, I still have my Mom at home and we do the best we can do. Crystal, you absolutely put your precious mother upon a pedestal where she belongs by being there every single day. You do it with grace and dignity. I respect you my sister! Your mom is well taken care of and I’m glad you are able to live your life as well! Keep being gorgeous! Sending love from TN.🧡",
+            "textOriginal": "Bless you gorgeous lady! I also take care of my sick Mother who is in the first stage of Dementia. I work 40 plus hours as a nurse, but every day my shift doesn’t begin until I get home. At work, I have help, but at home I have none, period. There are days that I think I can’t take another step, but some days are joyful. Those who have been blessed enough to not know our struggles have no idea how mentally it drains you. I’m not complaining and I would do it all over again for my precious Mom. The fact is, when you take care of a parent or anyone with this disease, your life completely stops and your whole attention is on that loved one and giving them the best care possible. Thankfully, I still have my Mom at home and we do the best we can do. Crystal, you absolutely put your precious mother upon a pedestal where she belongs by being there every single day. You do it with grace and dignity. I respect you my sister! Your mom is well taken care of and I’m glad you are able to live your life as well! Keep being gorgeous! Sending love from TN.🧡",
+            "authorDisplayName": "@ronnainman5058",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lHCfEwm5b3COLQcyxBAOwJdPzWq5Z5ipeo_lUdc6sLcPA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ronnainman5058",
+            "authorChannelId": {
+              "value": "UCyJ32JB_HMrc_NdvL-K_snQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-25T19:55:33Z",
+            "updatedAt": "2025-12-25T19:55:33Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "8DyRASKtZkrRz3EbroDEdY3sUmM",
+      "id": "Ugxs0nnxV5EVMzLgDJV4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "BWY-_MwbtiXiA7-LfAOlT5AvEaM",
+          "id": "Ugxs0nnxV5EVMzLgDJV4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Amen! She’s protected by love.. ❤️",
+            "textOriginal": "Amen! She’s protected by love.. ❤️",
+            "authorDisplayName": "@ShekinahBussey",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/Rex1dhst1ShoRfdZoNmfwxieRqJxUMOEyfPsitgdLB24p3ZnI5yhp4_hv-bSmuJXle4P4wgLaD4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ShekinahBussey",
+            "authorChannelId": {
+              "value": "UCK_NLopNWAQqEYKrwCrjQRQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-02T14:42:30Z",
+            "updatedAt": "2025-11-02T14:42:30Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "sUoqc_7Auz5DwioXoCdWGUziANc",
+      "id": "UgwjBxosrnVQlykP-aN4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Wi-V0DBOL9TT8xhqkrEI-nSdois",
+          "id": "UgwjBxosrnVQlykP-aN4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "It is very obvious you love and care for her do not ever question your choice!",
+            "textOriginal": "It is very obvious you love and care for her do not ever question your choice!",
+            "authorDisplayName": "@lisabaldwin2370",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mk3uKjCIQfGc8lFeoCXH9k_qbLBGBlZkueEToZPpY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lisabaldwin2370",
+            "authorChannelId": {
+              "value": "UC7LG8AaS80ksP7WqJsAluig"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-02-15T19:17:45Z",
+            "updatedAt": "2026-02-15T19:17:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "QbEkPNEJxB_pH2E5zzXlyjFMnUU",
+      "id": "UgwsXlO-EQ4Mk7fiqYx4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "rvrBzGgmVxzoOA1EmxQ43POBl18",
+          "id": "UgwsXlO-EQ4Mk7fiqYx4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Beautiful ladies😇..  I send hugs to you❤️ My mom is suffering from memory decline. The emotional roller-coaster is painful🙏🤲.  I take care of her full time. The cost is 4x more than an infant day care center.  Memory Care is wonderful! You live with her your mom Pt visits daily is caregiving... My bf grandma almost burned down the house &amp; was difficult to locate for 2 days (police found her downtownat the bus stop).. Recently, A caregiver burned down the house and killed self &amp; her mom - she was depressed and isolated with a dementia parent! Please ignore trolls. Thankyou for sharing wonderful videos😇",
+            "textOriginal": "Beautiful ladies😇..  I send hugs to you❤️ My mom is suffering from memory decline. The emotional roller-coaster is painful🙏🤲.  I take care of her full time. The cost is 4x more than an infant day care center.  Memory Care is wonderful! You live with her your mom Pt visits daily is caregiving... My bf grandma almost burned down the house & was difficult to locate for 2 days (police found her downtownat the bus stop).. Recently, A caregiver burned down the house and killed self & her mom - she was depressed and isolated with a dementia parent! Please ignore trolls. Thankyou for sharing wonderful videos😇",
+            "authorDisplayName": "@glowup.blueprint-s7o",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/_UbobfX5XU3Pa-AdQKL4lioi77WdIH2QxGS9X6g59_-1wYdR0FFsUgR2lnmKT4pURlj6z6AG5w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@glowup.blueprint-s7o",
+            "authorChannelId": {
+              "value": "UC_Z9DBA86Zs_tGgkWKGGF8A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-11-22T20:29:46Z",
+            "updatedAt": "2025-11-22T20:29:46Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "UdjBKLn1g2aHwxNlFjCsnkQdtXE",
+      "id": "Ugya9quMXJ_O8q8ujjp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ix5Pi6taplvKjA_X1T0-D4A8fv8",
+          "id": "Ugya9quMXJ_O8q8ujjp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "This lady is good to her mama ! God is going to bless her 🙏🙏❤",
+            "textOriginal": "This lady is good to her mama ! God is going to bless her 🙏🙏❤",
+            "authorDisplayName": "@theempress7766",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/m0Wjp0d79CLkaoCqKHvDrbhxecv8P_oGRc6_X5iMNbHYnBjnBl2Clzg_NyI5bzIIHI1S2BVx=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@theempress7766",
+            "authorChannelId": {
+              "value": "UCWxl5PdkuqxiD1tDXD2wSXw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-01-24T20:27:24Z",
+            "updatedAt": "2026-01-24T20:27:24Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ZeRnQfIYs5YRAn6qxW42SOFSXZY",
+      "id": "Ugyvot7ml_-TgOr1nkt4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Xpqd5GtBCDI2claC9bEcM1iqPI8",
+          "id": "Ugyvot7ml_-TgOr1nkt4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Complete facts!  My father had dementia and you have spoken truth.  You are doing a wonderful job with mom; I pray your strength 🙏🏽",
+            "textOriginal": "Complete facts!  My father had dementia and you have spoken truth.  You are doing a wonderful job with mom; I pray your strength 🙏🏽",
+            "authorDisplayName": "@sandersm313",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l5cS9Ox5dODbT9DBqsofPhi-bl3lIHpQtqS_w8JoPlKH03=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sandersm313",
+            "authorChannelId": {
+              "value": "UCEqBJ_PoYhwr971tEydPi6w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-06-19T09:00:56Z",
+            "updatedAt": "2026-06-19T09:00:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "U56H9I9cPOqJWRhqOV7WvstffDk",
+      "id": "Ugzd2fzJCevyNvyvuXN4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "W8VVWpzb0HYCvUF0MYXyAY5Xw5E",
+          "id": "Ugzd2fzJCevyNvyvuXN4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Caregivers are extraordinary human beings 🥰",
+            "textOriginal": "Caregivers are extraordinary human beings 🥰",
+            "authorDisplayName": "@nicolestargell8323",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/7zAFY-kkfxQB0XV_pzIrKK8zHuns-t3MUP8gPKvUXo_-aLPErxsnkVASGBx1rd-kzJe6ZDgq1t4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@nicolestargell8323",
+            "authorChannelId": {
+              "value": "UChfNErgwguB88WGH80za71A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-08T11:08:12Z",
+            "updatedAt": "2025-09-08T11:08:12Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "PpeRpwW_DHVTT7WtXeVLQfBoyXk",
+      "id": "Ugy_qnPjv4O7V0o4GYl4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "xM8b5DEtwvDQAmmjAA8TATNyLMk",
+          "id": "Ugy_qnPjv4O7V0o4GYl4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Baby.. you don&#39;t have to explain yourself to NOBODY ❤!!! The Love and care you show for MOTHER needs no explanation.  God continue to Bless you and yours 🥰🙏🏾💛🥰🙌🏾.",
+            "textOriginal": "Baby.. you don't have to explain yourself to NOBODY ❤!!! The Love and care you show for MOTHER needs no explanation.  God continue to Bless you and yours 🥰🙏🏾💛🥰🙌🏾.",
+            "authorDisplayName": "@brendaLee8035",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_leHD9C339w6tP2DsCms-fWW7XCF39IJ_psqpF0Vqg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@brendaLee8035",
+            "authorChannelId": {
+              "value": "UCHT2HT6lha8ezSq0kRYt24Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-08T21:47:35Z",
+            "updatedAt": "2025-12-08T21:47:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "I9QLHm8jZs8sUnxKllKCIhAOp9c",
+      "id": "Ugwv6_wq-zCxAGEQcRx4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-xNtgTTgqgwxM5KjrkIGQXiXbDw",
+          "id": "Ugwv6_wq-zCxAGEQcRx4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "People are something! I understand completely! My mother had it for 17 yrs.  It’s very hard to deal with and you still show up! ❤❤❤",
+            "textOriginal": "People are something! I understand completely! My mother had it for 17 yrs.  It’s very hard to deal with and you still show up! ❤❤❤",
+            "authorDisplayName": "@determinetobe",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/-KXElIAhEWSteD5ZVCdbrA0JVUrSxBc-WjDJ1wW6Re5iVId-tTw5ugV_fb3QyNDffh0L_BHxlg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@determinetobe",
+            "authorChannelId": {
+              "value": "UCT5HxRdomijL4N2YqxGndag"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-12T16:36:40Z",
+            "updatedAt": "2025-12-12T16:36:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EzzsGy_KvuJWTMBTk6-pTvVQ_b8",
+      "id": "UgxESqOLefAv3_xHWCp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "j0R0gr0XvI7D4-UUXstuJ26Ayqc",
+          "id": "UgxESqOLefAv3_xHWCp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You’re absolutely right if a person never deal with such situations they wouldn’t understand some dementia patients are very aggressive and unpredictable just as you say, sometimes you have no choice but to do what you have to do, just keep showing up for your mom and give her all the love, may God give you and the rest of your family the strength to endure, 🙏🏼❤️",
+            "textOriginal": "You’re absolutely right if a person never deal with such situations they wouldn’t understand some dementia patients are very aggressive and unpredictable just as you say, sometimes you have no choice but to do what you have to do, just keep showing up for your mom and give her all the love, may God give you and the rest of your family the strength to endure, 🙏🏼❤️",
+            "authorDisplayName": "@joanpratt2553",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_muUM_BEDdF84AR_OR9etr2ve1D0nYhmMvQVDY5i4k=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@joanpratt2553",
+            "authorChannelId": {
+              "value": "UCDpyOCFqKKo7EaCFZPLibbg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-12T20:41:28Z",
+            "updatedAt": "2026-04-12T20:41:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "qye2sNCShjaR2CXf5qH8h9KzTbs",
+      "id": "Ugyi_c6tnby9ObPYi9R4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4vAeWE5_-7Aw_5qjUofTqtX1Dyg",
+          "id": "Ugyi_c6tnby9ObPYi9R4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Yes, you do deserve peace! You chose wisely. 🎉🎉❤",
+            "textOriginal": "Yes, you do deserve peace! You chose wisely. 🎉🎉❤",
+            "authorDisplayName": "@tiaonelpn",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kkKTFoB3B2hYLfJG8cL12Bg_EZoIdJOHXd9-rQ14909Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tiaonelpn",
+            "authorChannelId": {
+              "value": "UCReSznesoAdlKCTFpUn58Hw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-02T05:42:32Z",
+            "updatedAt": "2025-10-02T05:42:32Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "8QEp-n4ZUYSYj1PkwGnD34ZwWIc",
+      "id": "UgwknbORc7YabhConCZ4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "5pQnO_U1oQP1QS2xwYBdg_FGb3w",
+          "id": "UgwknbORc7YabhConCZ4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "It&#39;s really none of their business! This is love!",
+            "textOriginal": "It's really none of their business! This is love!",
+            "authorDisplayName": "@privateconcierge3375",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k4zz2clyhkISaf6CFrlGaHD_AX29vdI2FQg33m6H4Ebg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@privateconcierge3375",
+            "authorChannelId": {
+              "value": "UCxlCsswaZ00b5Z07976Ys4A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T23:48:03Z",
+            "updatedAt": "2025-09-07T23:48:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "_85trJc1KYAzsUjKShSBSDymxG0",
+      "id": "UgyGcoLhrN14kV1NpRZ4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "tVWXQgWxN__QViu-V8-Vvq8Z6s0",
+          "id": "UgyGcoLhrN14kV1NpRZ4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Totally get you . There&#39;s many reasons why families have to have parents in care ...many very good reasons . Judgement from others can really hurt 😔 .",
+            "textOriginal": "Totally get you . There's many reasons why families have to have parents in care ...many very good reasons . Judgement from others can really hurt 😔 .",
+            "authorDisplayName": "@ruthking649",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lDAoEKeY58BUnB_NqflCUKmfQIxpVMRId8FHY8oD8VEcE=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ruthking649",
+            "authorChannelId": {
+              "value": "UC6iPz4URosY8G4O2MC4Ep6w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-03-14T21:14:08Z",
+            "updatedAt": "2026-03-14T21:14:08Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "t1y2bMbHHXKCTvCs9GxgRq4vfAg",
+      "id": "UgzbQkFb2lF7Dw18uLZ4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "gKXMcBgqNtzxci95TjH8Ez4RLL4",
+          "id": "UgzbQkFb2lF7Dw18uLZ4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Your love and care for your Mom is noticed. ❤",
+            "textOriginal": "Your love and care for your Mom is noticed. ❤",
+            "authorDisplayName": "@aliamuhammad1286",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/-ZR75GnH-9Fr0xRAqLjPEjtgm9sysnZDa9KBzEfF2R-P-dOsKotiU-rkijjE6eceiHS0OCGt=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@aliamuhammad1286",
+            "authorChannelId": {
+              "value": "UCcNte69m22hz1FaTWGPUbMA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T23:57:23Z",
+            "updatedAt": "2025-09-06T23:57:23Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "RXIcAElq9RmwdxPrvikZOFV6sCw",
+      "id": "Ugx3AZFYjTv_w5PhdJ94AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "NLoJ7X4pLqjGg_M2SAeXyIcO22Q",
+          "id": "Ugx3AZFYjTv_w5PhdJ94AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You are one of the few that still show up &amp; take care of her all the time you put in of people dont realize how draining &amp; tiring it is, unfortunately.. but I know you love your Mama very much &amp; God bless you &amp; and your beautiful mom and  family!!! 💐🙏🌹🙏💐",
+            "textOriginal": "You are one of the few that still show up & take care of her all the time you put in of people dont realize how draining & tiring it is, unfortunately.. but I know you love your Mama very much & God bless you & and your beautiful mom and  family!!! 💐🙏🌹🙏💐",
+            "authorDisplayName": "@MarciMay-c1g",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kexSU46w6cYLAw7n2skj-kjy6uv4tRLz7Q3K1rsh5kWb6z0DWyfRdUElppkPxsBgt36Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MarciMay-c1g",
+            "authorChannelId": {
+              "value": "UCjHEjfe2xYaLpuJft-mV3xQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-01-17T05:30:30Z",
+            "updatedAt": "2026-01-17T05:32:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "3aoaIDlHjCoBJlS7W6xS_DjCo5s",
+      "id": "UgzQ5B0j9ms4vmcWiMh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ucDoz7p2bsYsW265ivgnfd-rudU",
+          "id": "UgzQ5B0j9ms4vmcWiMh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You are doing what is right for everyone. Love is sometimes letting go even though you want to be there for the ones that you love.",
+            "textOriginal": "You are doing what is right for everyone. Love is sometimes letting go even though you want to be there for the ones that you love.",
+            "authorDisplayName": "@ethellewis6521",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mYLeIviL4xYflyL7pOBMJ1YUp2F_1JIpRk7ngWlQM=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ethellewis6521",
+            "authorChannelId": {
+              "value": "UC3MtSQQXeA7uln4dYTY-ZLg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-09T04:09:48Z",
+            "updatedAt": "2025-09-09T04:09:48Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jprhLc7YAGSJ13rby3sPlaB0mVA",
+      "id": "UgzEtqiv0HgNaiQLBe14AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "wmACE8mznepxajpf9nYrQ-1MtcE",
+          "id": "UgzEtqiv0HgNaiQLBe14AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You are right about one minute from the next! I work in the feild at assisted living and I work with patients/ residents from every stand point and dementia units are bitter sweet. Ive got it all to happen to me believe that. From swatting, slapping, kicking, punching, spitting, you name it. Its happened to me. What&#39;s hard about it for me specifically is i have my days where I cant afford another lick but I get em anyway regardless of what im going through in my life. Its a very high stress level job. And you do not get paid well from these companies. At all. But when you&#39;re in it because its your passion and you were called you have to understand God sent you there, you&#39;re on an assignment and You will be rewarded for God&#39;s work because that what it is. I have my days I want to burst into tears and just walk away trust me but I pray to god for strength 💪 to keep going! Because its like that. The thing right now is though im caring for other people&#39;s family but my mom and grandparents I haven&#39;t had to experience this yet with my own and I think thats 100xs harder to see your own mom not remember anything when they were once the person you went to for everything 💔 I couldn&#39;t imagine 💔 just seeing my mom like this but... ill never give in or up on my mom and id definitely give her all the love and care I could. I do recommend cameras in your loved ones rooms. When family is there ir watching alot of staff put on but out of sight ive seen some real hateful rude mean staff that are not and should not be around vulnerable people.  However these places cant keep enough staff to be that choosy. They take in anyone who they can get in it for the work and the pay\u003cbr\u003e Alot of people dont and cant do personal care and its alot 💯 just one hour can drain a worker. Im telling you this because ive been doing it so long. I feel beat up mentally and physically.  But I know they depend on me and god is dependent on me to fulfill assignments he has made for me. Its definitely a full time slash overtime job and it never ends. Ive seen it all! Another thing its expensive! For these people to be able to stay at an AL facility.  My goodness 😳 its unbelievable and nursing homes are even more expensive.  😢 crystal 🔮 u have my heart ❤️ all.the way outta SC baby. I mean that darlin. I do. I&#39;m so happy to see you loving her taking her out getting her out to do things 💗 alot of family members ik dont have the time or patience or mental state to do what you do and I thank u ❤ from the heart",
+            "textOriginal": "You are right about one minute from the next! I work in the feild at assisted living and I work with patients/ residents from every stand point and dementia units are bitter sweet. Ive got it all to happen to me believe that. From swatting, slapping, kicking, punching, spitting, you name it. Its happened to me. What's hard about it for me specifically is i have my days where I cant afford another lick but I get em anyway regardless of what im going through in my life. Its a very high stress level job. And you do not get paid well from these companies. At all. But when you're in it because its your passion and you were called you have to understand God sent you there, you're on an assignment and You will be rewarded for God's work because that what it is. I have my days I want to burst into tears and just walk away trust me but I pray to god for strength 💪 to keep going! Because its like that. The thing right now is though im caring for other people's family but my mom and grandparents I haven't had to experience this yet with my own and I think thats 100xs harder to see your own mom not remember anything when they were once the person you went to for everything 💔 I couldn't imagine 💔 just seeing my mom like this but... ill never give in or up on my mom and id definitely give her all the love and care I could. I do recommend cameras in your loved ones rooms. When family is there ir watching alot of staff put on but out of sight ive seen some real hateful rude mean staff that are not and should not be around vulnerable people.  However these places cant keep enough staff to be that choosy. They take in anyone who they can get in it for the work and the pay\n Alot of people dont and cant do personal care and its alot 💯 just one hour can drain a worker. Im telling you this because ive been doing it so long. I feel beat up mentally and physically.  But I know they depend on me and god is dependent on me to fulfill assignments he has made for me. Its definitely a full time slash overtime job and it never ends. Ive seen it all! Another thing its expensive! For these people to be able to stay at an AL facility.  My goodness 😳 its unbelievable and nursing homes are even more expensive.  😢 crystal 🔮 u have my heart ❤️ all.the way outta SC baby. I mean that darlin. I do. I'm so happy to see you loving her taking her out getting her out to do things 💗 alot of family members ik dont have the time or patience or mental state to do what you do and I thank u ❤ from the heart",
+            "authorDisplayName": "@Carolinas_SweetTea",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/NcX2z0zoJhyEhLGm29AM8jzgv_sFkt5N_w85NTpgMvBQb59y4UygVIpiMB0Lul_PAditYpscZ_I=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Carolinas_SweetTea",
+            "authorChannelId": {
+              "value": "UCoN6BO4jj3j8EGUeKx9tZOg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-03T10:18:37Z",
+            "updatedAt": "2025-12-03T10:18:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "DAniYpC6ty0LgSmQ4UOw6LBxDaY",
+      "id": "UgyBPsbFWrFi3vFuso14AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "qIKeNsL9vwbZIW-LxcgIuhrqLn0",
+          "id": "UgyBPsbFWrFi3vFuso14AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "That&#39;s what love does. Shows up!❤❤",
+            "textOriginal": "That's what love does. Shows up!❤❤",
+            "authorDisplayName": "@stephaniealston353",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kwkzTloOzhEq3m6Nspy4Ee8iTjOZE8pKVwc0HZhJBtWT33=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@stephaniealston353",
+            "authorChannelId": {
+              "value": "UCjqr68LKDtMuWXeWUg3IkPw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T18:45:47Z",
+            "updatedAt": "2025-09-06T18:45:47Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ZHxXH27-BqMbN3axYvwODqllBjc",
+      "id": "Ugwpd6f84npTuShabst4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "uQ9tMki7mPgZQjnxlY-colGjw8Q",
+          "id": "Ugwpd6f84npTuShabst4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Crystal some people just don&#39;t understand Dementia it&#39;s a lot of work. I understand  but you show up daily. You are a great blessing",
+            "textOriginal": "Crystal some people just don't understand Dementia it's a lot of work. I understand  but you show up daily. You are a great blessing",
+            "authorDisplayName": "@gailafisher5172",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l4LOMG-PI5agWHVWq41_PozIssy2BoIKu_pznQFpY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@gailafisher5172",
+            "authorChannelId": {
+              "value": "UCSk1FQn4jzjqlegdMEwN7Og"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-05-02T00:02:03Z",
+            "updatedAt": "2026-05-02T00:02:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EPU7TOTxkYik0GC7cq4ziNuVjjM",
+      "id": "UgxVHeckXLqMhhi0nVN4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "KSM54bkHkEZTv5lb42XRjX5eDd0",
+          "id": "UgxVHeckXLqMhhi0nVN4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Yes im glad you posted this,I also did this with my mom for  20 years.Its so sad they go through  this take care.",
+            "textOriginal": "Yes im glad you posted this,I also did this with my mom for  20 years.Its so sad they go through  this take care.",
+            "authorDisplayName": "@ShirlEllis",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mA5iYFWQWr-erQfOrpRSPi7uAL1ykOBKRSbPBDp88Z1xyBT7Je5IKp6_AckwgwsDEc-Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ShirlEllis",
+            "authorChannelId": {
+              "value": "UCY5WwU1Q8MxHWgS3qwMFJpQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T06:46:55Z",
+            "updatedAt": "2025-09-07T06:46:55Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "NoQhF4bf1ccSGgi8kyGP0hfdpXc",
+      "id": "UgzeJzb8IF51J19xbiN4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "K5lMwZ4atdGc4PG7t-kgztTo8o8",
+          "id": "UgzeJzb8IF51J19xbiN4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I know how had that can be and I am Very Proud of you for the amount of patience and support and dedication and most of all true love. You deserve to be at peace and she gets more than her needs.",
+            "textOriginal": "I know how had that can be and I am Very Proud of you for the amount of patience and support and dedication and most of all true love. You deserve to be at peace and she gets more than her needs.",
+            "authorDisplayName": "@AngiePeek-y8w",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lImVEFshLCzwKPwsKil_wI44W3fLO5VgHisdM_-Jtm5ZMsPSMXFTRot9-tSU3zW38Ftw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AngiePeek-y8w",
+            "authorChannelId": {
+              "value": "UC-ysubU6YQRxoJ4v3tc8iKw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-05-22T11:37:36Z",
+            "updatedAt": "2026-05-22T11:37:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "KbuTJ_80A9Y4v76kpBcug5BaTNw",
+      "id": "Ugy5ygVLdswV4zvJT5B4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "FfOJpoS_DN34EFFtb9l9kfS4Cvs",
+          "id": "Ugy5ygVLdswV4zvJT5B4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I truly understand your compassion, and your pain . I’ve been through that with my mom, when she was present. People hav to live it, to really , and realize what caretakers entail. Bless you and your mom.. definitely ain’t no \u003ca href=\"http://joke.you/\"\u003ejoke.You\u003c/a\u003e are doing your best people hav to live with this disease in order to understand it fully.😊🥰🫶🏿",
+            "textOriginal": "I truly understand your compassion, and your pain . I’ve been through that with my mom, when she was present. People hav to live it, to really , and realize what caretakers entail. Bless you and your mom.. definitely ain’t no joke.You are doing your best people hav to live with this disease in order to understand it fully.😊🥰🫶🏿",
+            "authorDisplayName": "@ernestinejones8822",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_krCDKYtZeKXSicNEEz_2KmaU2i8LgIHeDvXZc62cv7ww=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ernestinejones8822",
+            "authorChannelId": {
+              "value": "UClMzae2t3k0iikjX2YDiT3g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-12-18T21:45:03Z",
+            "updatedAt": "2025-12-18T21:45:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "cNICrXSfnE9I4nblAK7oBh7Cxh0",
+      "id": "Ugy4r_8w2tKr1TZKkbB4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "UX6IRCVqR0gfhIs-dc-EovhRzLA",
+          "id": "Ugy4r_8w2tKr1TZKkbB4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "We all understand, however again thanks for doing these videos for us and for those who are blessed to not have a love one, especially not a parent going through this.  Until you have gone or literally going through this now, you have know idea the daily pain,(mentally/physically), the sadness, the struggle, etc...  the caregiver feels/sees on top of having to still take care of them self and their family. Words can&#39;t describe the difficulties.",
+            "textOriginal": "We all understand, however again thanks for doing these videos for us and for those who are blessed to not have a love one, especially not a parent going through this.  Until you have gone or literally going through this now, you have know idea the daily pain,(mentally/physically), the sadness, the struggle, etc...  the caregiver feels/sees on top of having to still take care of them self and their family. Words can't describe the difficulties.",
+            "authorDisplayName": "@memekendall3197",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mWSl3UgMaWs-b_m8Oz-rhQqyO_9JTb_4NfJBX81ss=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@memekendall3197",
+            "authorChannelId": {
+              "value": "UCqcFg6nk4E5DdBekJTUOEcw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-13T10:35:29Z",
+            "updatedAt": "2026-04-13T10:35:29Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "HoWe5Be9WgcXP2uJocaKgVMGcGk",
+      "id": "Ugwbnf_aQ_5BvpCXiOh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9CVYRI1MZjkZwOQ6DeXlaSy6_50",
+          "id": "Ugwbnf_aQ_5BvpCXiOh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I used to work with dementia patients it’s no easy Feat! Crystal I Love how you care for your mother even when it’s not easy! My prayer for you is that you rest, relax and replenish when you have time to your self because you deserve it ! I love Yall like family for real!!!",
+            "textOriginal": "I used to work with dementia patients it’s no easy Feat! Crystal I Love how you care for your mother even when it’s not easy! My prayer for you is that you rest, relax and replenish when you have time to your self because you deserve it ! I love Yall like family for real!!!",
+            "authorDisplayName": "@tanishawilliams-smith3395",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lk9M4eFE1vluAvSz-dGy_xGMiY2Htc1vliuvhTizTJmnJ-=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tanishawilliams-smith3395",
+            "authorChannelId": {
+              "value": "UCApCYcq6NCDYe_iTkzwHSAA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-02T13:23:45Z",
+            "updatedAt": "2025-12-02T13:23:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "kgEXHxZVZRBDYFvWB_J1a3uqI9g",
+      "id": "UgwG1O3PlpsGQzw4-MF4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "KUksyohsAkaGfD7RvLTah9LaRVs",
+          "id": "UgwG1O3PlpsGQzw4-MF4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I&#39;M with you! My Dad lived away! He was quite a character! RIP WG!",
+            "textOriginal": "I'M with you! My Dad lived away! He was quite a character! RIP WG!",
+            "authorDisplayName": "@candysalters7853",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nSKX8TglTQ8XyGqDPA7fzYC-LwOwofnCr8I4nMzdw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@candysalters7853",
+            "authorChannelId": {
+              "value": "UC0ITEdvyUc9Av0hxhicSJGg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T19:30:26Z",
+            "updatedAt": "2025-09-06T19:30:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Av7HK9Uj6y-YDCRnCofzFLQIGMQ",
+      "id": "Ugxoha6HaKXeMXiVjad4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "lV54LBcqrF1oDRUCQQpLWIZJ7js",
+          "id": "Ugxoha6HaKXeMXiVjad4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "When it becomes dangerous it’s time for help. Nobody should judge another for knowing their limitations and  that a facility would be safer",
+            "textOriginal": "When it becomes dangerous it’s time for help. Nobody should judge another for knowing their limitations and  that a facility would be safer",
+            "authorDisplayName": "@lauraswanson6485",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lP6jH5CAUpq2dWu0uqe3RLmUWhhnG230Gd91YvqmI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lauraswanson6485",
+            "authorChannelId": {
+              "value": "UC1NC8G_EukxDq4bPA2HO-Ow"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-08T14:28:41Z",
+            "updatedAt": "2026-04-08T14:28:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "q3t4zwWCkV_hMAo9GY7yr3gbgig",
+      "id": "UgxQ7ZEsspdAInZ4IQp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ikmvphGC9yL49rtHZt61dM0nrMI",
+          "id": "UgxQ7ZEsspdAInZ4IQp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I&#39;m with you.  I&#39;m a caregiver for my mom.  It takes your entire life.  Thank goodness my mom isn&#39;t violent, but it&#39;s tough.",
+            "textOriginal": "I'm with you.  I'm a caregiver for my mom.  It takes your entire life.  Thank goodness my mom isn't violent, but it's tough.",
+            "authorDisplayName": "@GypsyNature-gh8nh",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n4-m1oCoZpCy3AbSe5cXGugPl9xEDs2-K99CptVxqL8qTknZPTa3Oyb8n5IeUjTiIISPs=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@GypsyNature-gh8nh",
+            "authorChannelId": {
+              "value": "UC2o_wzRwWlHBWkEi1f3sVfg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T22:52:21Z",
+            "updatedAt": "2025-09-07T22:52:21Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "LWeTFs-1a3ppXSohXHIyFrAntS8",
+      "id": "UgzJUL0TJmfbZ5MfmLh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "tuF8sQzFGyvNSQ_2AdtN6LGw4V8",
+          "id": "UgzJUL0TJmfbZ5MfmLh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You are the best daughter ever!  Your patience always amazes me.  Only you know what is best for your Mom.",
+            "textOriginal": "You are the best daughter ever!  Your patience always amazes me.  Only you know what is best for your Mom.",
+            "authorDisplayName": "@nancyevans1278",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m41al2jQ9eFxIxJuXMlfdNc6omyXHprgA-c7QwNGRvCU4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@nancyevans1278",
+            "authorChannelId": {
+              "value": "UCFeoeJBtdCCnfktFw2j0KWw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-09T03:13:15Z",
+            "updatedAt": "2025-09-09T03:13:15Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "LbbxiWVDDZzrrEEKiCtWUeyXnqY",
+      "id": "UgxnNIxejbHlE25QLqR4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "OJ6apd1KNb28-D39rbpf-xRIrOQ",
+          "id": "UgxnNIxejbHlE25QLqR4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I LOVE THE WAY YOU TAKE CARE OF UR MOM ❤❤❤❤❤❤❤",
+            "textOriginal": "I LOVE THE WAY YOU TAKE CARE OF UR MOM ❤❤❤❤❤❤❤",
+            "authorDisplayName": "@paperbagbrown6733",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kWs6MD0bSk1KdmkOUxJW6iMA_nWBCZ2RLISTc023pUH-y7G0XJUN9DGZy6oFjSPt-GnA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@paperbagbrown6733",
+            "authorChannelId": {
+              "value": "UCWdF-mIlhqSF5LQJiE4t3Jg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-14T21:30:05Z",
+            "updatedAt": "2025-09-14T21:30:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "q7zQ9T63Ukx_tPeHQ5OlVODTLzo",
+      "id": "UgyeH5R5fft_wo1uzIp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "X9z2-69XkKQGAEIa7TfhR37A0nc",
+          "id": "UgyeH5R5fft_wo1uzIp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Definitely not a lack of love it’s the right decision ❤❤❤",
+            "textOriginal": "Definitely not a lack of love it’s the right decision ❤❤❤",
+            "authorDisplayName": "@ilovecornstarch7275",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/M8TCZfdK2AAPX_EoME4auOoM23zSSgCQilredf7olWE79JPOV6AF1dZHbYeb6rVFSpi6Wxz3FQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ilovecornstarch7275",
+            "authorChannelId": {
+              "value": "UCtLc5XrIULnb7UayhRI8Z_Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T21:25:57Z",
+            "updatedAt": "2025-09-06T21:25:57Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "BoZn2tSJrKAdIovx9-6WnMobrgc",
+      "id": "Ugzotmd1AgOakCWew2t4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "mWV9uNXOANe5Bkr7usw--u49flQ",
+          "id": "Ugzotmd1AgOakCWew2t4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Caregivers  are under tremendous stress and you are very correct ❤.    Much love ❤️",
+            "textOriginal": "Caregivers  are under tremendous stress and you are very correct ❤.    Much love ❤️",
+            "authorDisplayName": "@SAM5th",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lDWMFXwlQv5chVkzMF-dTaAO7_b8NL7wSxMBRUPsY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@SAM5th",
+            "authorChannelId": {
+              "value": "UCkRYZRuWkd9lGEngfZC5fbw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-08T09:42:30Z",
+            "updatedAt": "2025-09-08T09:42:30Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "4tc3ZIcZ9oh-VZQRY8Mv_5TXQ4E",
+      "id": "UgxyF2Rft5sD0aZgBj94AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "RvHQKsamYJcXKPYMYksZRp4EXXQ",
+          "id": "UgxyF2Rft5sD0aZgBj94AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You made the right decision . I went through this with my grandmother.  She would break out the house we added locks , had to sleep with one eye open becuase she roamed . She would open car doors .. it&#39;s really alot .. my grandmother was hit by a truck she escaped home and was trying to get to my aunts house. She lived after the incident  many broken bones .. she recovered … after that we decided that a enclosed home with super good locks would be best to protect .her. . Just stay on-top of things while shes there . Visit and spend as much time as you possibly can  . I know how these places can be .. may God bless you all !! Thanks for sharing. My grandmother has passed but this brings so many memories seeing what you guys are experiencing.",
+            "textOriginal": "You made the right decision . I went through this with my grandmother.  She would break out the house we added locks , had to sleep with one eye open becuase she roamed . She would open car doors .. it's really alot .. my grandmother was hit by a truck she escaped home and was trying to get to my aunts house. She lived after the incident  many broken bones .. she recovered … after that we decided that a enclosed home with super good locks would be best to protect .her. . Just stay on-top of things while shes there . Visit and spend as much time as you possibly can  . I know how these places can be .. may God bless you all !! Thanks for sharing. My grandmother has passed but this brings so many memories seeing what you guys are experiencing.",
+            "authorDisplayName": "@lilmama3971",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/Yj2ky_1l6TKnyIlF9ONWSbobPyMAa8kODPG3kDi1J66KdtaECdyPRrKztICBt-tfXb2QWG37WnA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lilmama3971",
+            "authorChannelId": {
+              "value": "UCOr9eNdg0gxNKtgf7pBHEUA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-09T00:50:21Z",
+            "updatedAt": "2025-09-09T00:50:21Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "kOH4JzSXAyy0I5Vwf2w7j3KHlkI",
+      "id": "UgxHP4i0OZEP8__ncrN4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "dsnA3fgtlHtxDjgjdfGTg7tKLII",
+          "id": "UgxHP4i0OZEP8__ncrN4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Crystal, you’re doing amazing! And so is your mom and she still has you showing up!❤",
+            "textOriginal": "Crystal, you’re doing amazing! And so is your mom and she still has you showing up!❤",
+            "authorDisplayName": "@Halfsteppin1",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kRdiwgGASa43GPYT-c3Z6MApteJOGOBXuLd7u6TpOt2CJm9iQ6p6u16RMmQYwe-Tke3g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Halfsteppin1",
+            "authorChannelId": {
+              "value": "UCGSTgDXlvdjGxIai9w76FQg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-27T17:20:45Z",
+            "updatedAt": "2025-12-27T17:21:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "I9C3A8rAgru8MiG5B1oKmFesMr4",
+      "id": "UgxTP4qAJThJqLL7osp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "pvzOPVw1pPpFKzHnnbrPWsRPLHY",
+          "id": "UgxTP4qAJThJqLL7osp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Thank you for documenting and sharing this! I’m currently going through this now. We’re approaching the bridge of putting her in a facility now. It’s exhausting on the caregiver and your loved one doesn’t even remember what they did or said. It’s heartbreaking.",
+            "textOriginal": "Thank you for documenting and sharing this! I’m currently going through this now. We’re approaching the bridge of putting her in a facility now. It’s exhausting on the caregiver and your loved one doesn’t even remember what they did or said. It’s heartbreaking.",
+            "authorDisplayName": "@Dree_Ssence",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/kgOQRTdrOb6wZXR8xER_6wpYnxhNGJaQYnrzfCRIP8OCMLenQVOsU_P_eeVEeY0JH3t4ZZkH3g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Dree_Ssence",
+            "authorChannelId": {
+              "value": "UCSyrAutwJ5d8SeiEem4M8NQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-01-25T15:13:15Z",
+            "updatedAt": "2026-01-25T15:13:15Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "4474xHImNnaOyYcrwx4MWvvOy8o",
+      "id": "UgzbGaRKii2hBgsmqWd4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "StDy0bC15sfKOBZrpdWvOd4SR44",
+          "id": "UgzbGaRKii2hBgsmqWd4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Thank you people are so quick to say what they will\u003cbr\u003eNever do! Until your living it dont judge mind your business and sip your water .. pray for us who have parents with Dementia &amp; show up they aren’t abandoned..\u003cbr\u003eHugs to you sis I’m living it.. we should start a caregiver support group! ❤️💝🌸",
+            "textOriginal": "Thank you people are so quick to say what they will\nNever do! Until your living it dont judge mind your business and sip your water .. pray for us who have parents with Dementia & show up they aren’t abandoned..\nHugs to you sis I’m living it.. we should start a caregiver support group! ❤️💝🌸",
+            "authorDisplayName": "@DH-ge1dg",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lwUG2IFCtdUDf0y7Rz8luzD62Pf3jMMMpNJQvVPxo71c8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@DH-ge1dg",
+            "authorChannelId": {
+              "value": "UCHkdfSnpiZWMeSbz1UYiHHw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-11T01:29:05Z",
+            "updatedAt": "2025-12-11T01:29:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Jcwjvuijpg1bZ_5KNXb-peemBf8",
+      "id": "Ugz8FzNq-oQVm9wt_xN4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "BC7zBnlWOXPmUtazmHn2k8_Itg8",
+          "id": "Ugz8FzNq-oQVm9wt_xN4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Your mom deserves the best care from her children only you owe your parent to take care of them till there last days.",
+            "textOriginal": "Your mom deserves the best care from her children only you owe your parent to take care of them till there last days.",
+            "authorDisplayName": "@Bmwtres",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_najrNirkES91uW9O1x7uafNumbXLKuwgH-mLyamJqgfhwuBIDWRZGGBzH6fCNh-gOl0g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Bmwtres",
+            "authorChannelId": {
+              "value": "UC0mN5Q1PIZOLVP1kW-USWUw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-11-25T23:13:01Z",
+            "updatedAt": "2025-11-25T23:13:01Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "DOhROAmELHe6t0Q3ywffU4kwIKE",
+      "id": "UgwKyTVKeznEOZ8tMVV4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "rIYZmFw3gsvmZE4AH7O_XdpqLww",
+          "id": "UgwKyTVKeznEOZ8tMVV4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Always praying for your family and your mom. Mama looks like she don&#39;t play. On that one video she told you, &quot;Ain&#39;t nothing you can do with me.&quot; You do a good job with your mom.",
+            "textOriginal": "Always praying for your family and your mom. Mama looks like she don't play. On that one video she told you, \"Ain't nothing you can do with me.\" You do a good job with your mom.",
+            "authorDisplayName": "@carolynbritt2262",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l54JuFkfz_MPuEzHjXdxfvxURY00Junn3arhXrUYET02NzrFzJeqJsa24OyzDDUvdakg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@carolynbritt2262",
+            "authorChannelId": {
+              "value": "UC-NCKamrrs8yHSbsIhmTj-A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-08T18:53:45Z",
+            "updatedAt": "2025-09-08T18:53:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "RW0968h3EVwozpVUDCR7vDraacE",
+      "id": "UgyFEeOnsuRbfS8--T94AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vcZMfpZ_V_7_s2csIDDUc-xWN00",
+          "id": "UgyFEeOnsuRbfS8--T94AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Mom is lucky to have you and vice versa 💕",
+            "textOriginal": "Mom is lucky to have you and vice versa 💕",
+            "authorDisplayName": "@kayjay326",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/CnrvG5Fqu7ufptXipZGqPB2Tg7FyFcrytiZHok-qxSugK6qGTIG39SA7xipyrSDYLhWLFiDj=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@kayjay326",
+            "authorChannelId": {
+              "value": "UCdwvP75UdgvcEjploUw5WPw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-01-18T14:27:57Z",
+            "updatedAt": "2026-01-18T14:27:57Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "nWSFo7SZ6H6ukfIMPX-Tr8U1v-I",
+      "id": "UgzU2Wls-5uN9xi2Egd4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "er0v2g4Hmn6kvQH1G8C7Uw_7c5U",
+          "id": "UgzU2Wls-5uN9xi2Egd4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "100% correct!!! Thank you for sharing your journey with your mom with dementia!!! My story is exactly the same!!  It’s hard work and anyone who has walked in our shoes will understand!!  Like you I did not want to put my mom into a facility but the threats to my family from my mom were getting to real for us. It broke my heart to place my mom in a memory care.  Let me tell ALL YOU PEOPLE WHO JUDGE!!! You do what’s good for your wellbeing but for me I was able to enjoy being with my mom better in a facility rather than at my home.  With all the stress caring and trying to keep my mom safe 24/7 and her multiple mood swings/triggers. It’s hard to enjoy your loved one. In the facility I got to enjoy being and visiting with her.  Now saying all this you can’t just throw your loved one into a facility and forget about them you have to be involved with the facility and your loved one. Do the activities with your love one such as crafts, games, picnics, dances and other activities.  You won’t be disappointed and you both will have fun ❤❤❤ \u003cbr\u003eThank you again for sharing your journey.  My mom has passed away 1.5 years and your beautiful mom reminds me so much of my mom.  Stay strong beautiful ladies ❤❤❤",
+            "textOriginal": "100% correct!!! Thank you for sharing your journey with your mom with dementia!!! My story is exactly the same!!  It’s hard work and anyone who has walked in our shoes will understand!!  Like you I did not want to put my mom into a facility but the threats to my family from my mom were getting to real for us. It broke my heart to place my mom in a memory care.  Let me tell ALL YOU PEOPLE WHO JUDGE!!! You do what’s good for your wellbeing but for me I was able to enjoy being with my mom better in a facility rather than at my home.  With all the stress caring and trying to keep my mom safe 24/7 and her multiple mood swings/triggers. It’s hard to enjoy your loved one. In the facility I got to enjoy being and visiting with her.  Now saying all this you can’t just throw your loved one into a facility and forget about them you have to be involved with the facility and your loved one. Do the activities with your love one such as crafts, games, picnics, dances and other activities.  You won’t be disappointed and you both will have fun ❤❤❤ \nThank you again for sharing your journey.  My mom has passed away 1.5 years and your beautiful mom reminds me so much of my mom.  Stay strong beautiful ladies ❤❤❤",
+            "authorDisplayName": "@annetorch6575",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kEfuMyNPWgcNR1tBOep0XVaQjQuU-2PwN0y_Xznnk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@annetorch6575",
+            "authorChannelId": {
+              "value": "UClppk-tsX1OigxmNS9aTBEw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-01-27T22:27:15Z",
+            "updatedAt": "2026-01-27T22:27:15Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "oVqpAp_KvN7q6pJfyIx8TiLNzn8",
+      "id": "UgznxFJ2sdqx_XxSmh14AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "OqWT2A9Bs2KUBdJQZDqojMbYll0",
+          "id": "UgznxFJ2sdqx_XxSmh14AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I admire the way you care for your Family...",
+            "textOriginal": "I admire the way you care for your Family...",
+            "authorDisplayName": "@whodhavethoughtit3784",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lhECC33c8hcwpk-BEPThgXYVUlDI1HZ-W8-RtX4iWArbusya0GUTQfNsrDBlPGt0Moog=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@whodhavethoughtit3784",
+            "authorChannelId": {
+              "value": "UC2bLH9TBQ7CVTbqOpssAg-g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-27T22:06:06Z",
+            "updatedAt": "2025-10-27T22:06:06Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WV6jVisDiXqBspFgPdSnxdMZRFM",
+      "id": "UgyxQfXgcVY5TmtptLZ4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "u4kgT4b0KRShdG0Ftc0deca7X9o",
+          "id": "UgyxQfXgcVY5TmtptLZ4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Blessings to you and your mom! 💜💜💜💜",
+            "textOriginal": "Blessings to you and your mom! 💜💜💜💜",
+            "authorDisplayName": "@vickiedavis720",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mF9OoFe71uF3xe-PzbJlvkaExhPULKMbBpVXUJLaw0gv_F=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@vickiedavis720",
+            "authorChannelId": {
+              "value": "UCnE7o1monvm0SuUKkH7lPmw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-09T18:08:19Z",
+            "updatedAt": "2025-09-09T18:08:19Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "17PziPCXqtjjVS6Wun0gSFchKM0",
+      "id": "UgzyZ3Lukgnic645D0F4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "d9Rg9LJfdm6_pyZtUb_GGUIxRLQ",
+          "id": "UgzyZ3Lukgnic645D0F4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "SPEAK YOUR PEACE AND LOVE ❤️ FOR YOUR MOM GIRL! Love you 🥰 for All you do for your mom and self! Peace and blessings!",
+            "textOriginal": "SPEAK YOUR PEACE AND LOVE ❤️ FOR YOUR MOM GIRL! Love you 🥰 for All you do for your mom and self! Peace and blessings!",
+            "authorDisplayName": "@DelphiaTyus",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/jrdv-a8Msa91YU1Qq8CnMS7Q7lihipm2m_Ki2OF0Y097UG2D8IEPxIP-y_MfIr2AeLZoZa462L8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@DelphiaTyus",
+            "authorChannelId": {
+              "value": "UC3L_5wXcalFkd7_Pfx9WABQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-14T18:54:39Z",
+            "updatedAt": "2025-09-14T18:54:39Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "3w4NlWZ3eufo1vk4sDnrGm4au3Y",
+      "id": "Ugyb_8fALdCnI-lxCZp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "MyXkVVa1SOnb6xGqcgpZaad44NA",
+          "id": "Ugyb_8fALdCnI-lxCZp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Crystal is doing an awesome job, with her mother! I applaud you for being there for your mom❤❤❤",
+            "textOriginal": "Crystal is doing an awesome job, with her mother! I applaud you for being there for your mom❤❤❤",
+            "authorDisplayName": "@HelenThompson-b6j",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lDi0k5sA9N8V8vVc4bDq8CxvmKSWsNq7RPQmNsvTJ0WigjL7H14K80FAFwLRegWQRu5A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@HelenThompson-b6j",
+            "authorChannelId": {
+              "value": "UCFgDaAVDwYOnUyFZJqdjwTA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-05-11T03:05:50Z",
+            "updatedAt": "2026-05-11T03:05:50Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "JJnW0tuWawLQmlYxWAACzKfO_Mw",
+      "id": "UgzNfnBv5Ttd8JyWVnN4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ZlEQbq1X9AXaY4D3f4vpd2wYADo",
+          "id": "UgzNfnBv5Ttd8JyWVnN4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You made me realize that it is ok to put my Dad in memory care when the time comes. Thank you!",
+            "textOriginal": "You made me realize that it is ok to put my Dad in memory care when the time comes. Thank you!",
+            "authorDisplayName": "@jbryant8358",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nf-D20WeaHlT3YuDl3wIdr5d75qRYLJvdOAgWOcxdmKLLX=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jbryant8358",
+            "authorChannelId": {
+              "value": "UCoGNzsmGcov6CqaiYoKKrUg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-20T15:28:59Z",
+            "updatedAt": "2025-12-20T15:28:59Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "W0UC7VIi2hRzWoQB95j1PAjwok4",
+      "id": "UgzzDyyTITM2SIo000B4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "3qUlMgbSOSBt6C8kWzGTy8lFKVg",
+          "id": "UgzzDyyTITM2SIo000B4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Aww it&#39;s beautiful how you take care of your mom and yes keeping your mom safe Amen 🙏 that&#39;s why you remained blessed sis",
+            "textOriginal": "Aww it's beautiful how you take care of your mom and yes keeping your mom safe Amen 🙏 that's why you remained blessed sis",
+            "authorDisplayName": "@hw9149",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kzjv9RE1CFlwrN0PSnCkPVZeVAasncEcnY2FSzfj9dWLqdGtwI9EObYYy5X-fsVPrcoII=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@hw9149",
+            "authorChannelId": {
+              "value": "UCaNrlcbg4JlkQFxNuo9LQpg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-20T20:26:32Z",
+            "updatedAt": "2025-09-20T20:26:32Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "iOEkl_r3qKb2ZJ-I3xasHAh3Bvg",
+      "id": "UgzhxoCjOHKDv1wuZAZ4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "oJt6JCqo_XIUqNfquyEL6WswD2o",
+          "id": "UgzhxoCjOHKDv1wuZAZ4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I HEAR YOU GIRL I&#39;M A LIVING TESTIMONY OF WHAT YOU ARE TALKING ABOUT, IT&#39;S HARD AT TIMES VERY.",
+            "textOriginal": "I HEAR YOU GIRL I'M A LIVING TESTIMONY OF WHAT YOU ARE TALKING ABOUT, IT'S HARD AT TIMES VERY.",
+            "authorDisplayName": "@KayolinBrown",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kgo5-MnM8oZR7nY16V-tDL5_A6dKIJoQqTwiqSgTbZYwwthXx2pd4s6k-o2cXayo3jJA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@KayolinBrown",
+            "authorChannelId": {
+              "value": "UCWrlvh-IL91XvNj5kdvNNUA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-08T01:39:33Z",
+            "updatedAt": "2025-09-08T01:39:33Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "9Ka0EiBkqoNebgD5spwPa_swWtU",
+      "id": "UgzJ-xE3kNHjoAa9NCR4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "eRtDsNrCnUnOUGFoFN4MvYpZVdw",
+          "id": "UgzJ-xE3kNHjoAa9NCR4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "It&#39;s a shame that you have to explain yourself to anybody.  You see your mom on a regular and some of these idiots who are asking these questions they don&#39;t go and see their parents on a monthly basis.Kudos to you, you&#39;re doing an awesome job. I&#39;m going through the same thing as you so I know exactly what you&#39;re going through. Your videos have been very uplifting for me.And informative. God bless you and your family.",
+            "textOriginal": "It's a shame that you have to explain yourself to anybody.  You see your mom on a regular and some of these idiots who are asking these questions they don't go and see their parents on a monthly basis.Kudos to you, you're doing an awesome job. I'm going through the same thing as you so I know exactly what you're going through. Your videos have been very uplifting for me.And informative. God bless you and your family.",
+            "authorDisplayName": "@sheisbonds",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m2s9EhCcL-L5gytxPqROkKeXs5SCZupb0zfGITIXo=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sheisbonds",
+            "authorChannelId": {
+              "value": "UCWmik2tz8jjOz9UXaOwKCXg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T01:08:16Z",
+            "updatedAt": "2025-09-07T01:08:16Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Lrgm0tzg3K20b3LvmXqF9kXY0Ck",
+      "id": "UgwJFf6anjqsFIHx2814AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "x4_v3phTR5uz9pzFoeWW_fKG2FA",
+          "id": "UgwJFf6anjqsFIHx2814AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "you do what’s best for you and your mother ❤",
+            "textOriginal": "you do what’s best for you and your mother ❤",
+            "authorDisplayName": "@marilynramsey4326",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_ltgnECImS3F2UYlGnBJRuqF5ijWFFNkH6alXkRoSg52kY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@marilynramsey4326",
+            "authorChannelId": {
+              "value": "UCF7Ch3I0AgE07i64jpypTow"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T14:52:53Z",
+            "updatedAt": "2025-09-06T14:52:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vaIn30W4AjvEhZGSfrRCaGsMZhk",
+      "id": "UgyEiCwqRnQD8Ay03Qp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "6eCNCFEF8sa8XfgzQcVOQ4SAZ7c",
+          "id": "UgyEiCwqRnQD8Ay03Qp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Thank you!🙏.   My dad and I lived in the same type chaos because I was worried about what people would say, but no one volunteered to help.  Until the visiting nurse &quot;warned&quot; me that I was endangering ALL of us, I was in denial.  Once she was at the care facility, all I had to do was show up every day with Dad. I didn&#39;t leave all the care to them, so they knew she had family that cared.  Keep doing what you&#39;re doing.  God bless you all!🙏🏾",
+            "textOriginal": "Thank you!🙏.   My dad and I lived in the same type chaos because I was worried about what people would say, but no one volunteered to help.  Until the visiting nurse \"warned\" me that I was endangering ALL of us, I was in denial.  Once she was at the care facility, all I had to do was show up every day with Dad. I didn't leave all the care to them, so they knew she had family that cared.  Keep doing what you're doing.  God bless you all!🙏🏾",
+            "authorDisplayName": "@beverlyknowles8234",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kae-azQ_dzJyyWdVYu6H9FU1API1yK2IA4Gq0oMDI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@beverlyknowles8234",
+            "authorChannelId": {
+              "value": "UCYWSE1E6mOyudeegrGoz9DQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-25T14:09:56Z",
+            "updatedAt": "2025-11-25T14:09:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "AsFkVXeYFJJ9OdRstCmdD4SxMKE",
+      "id": "UgzdQ61rMmeMB5A_W2F4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Mso-DbGOw7vMZMOjxM6YtzV1QIg",
+          "id": "UgzdQ61rMmeMB5A_W2F4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I feel you. I wish I could afford it. A peace of mind is priceless",
+            "textOriginal": "I feel you. I wish I could afford it. A peace of mind is priceless",
+            "authorDisplayName": "@markedaslatton7402",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lDlhF_J-agBoGjJ_zP9n8cD_4pDwIxPLRLkdCD0-8h4Go=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@markedaslatton7402",
+            "authorChannelId": {
+              "value": "UCc7dtrSXhVOK8uvd3hnKT5A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T07:40:54Z",
+            "updatedAt": "2025-09-06T07:40:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "k9-xyZeEDD0rAOWGO0_DQDxY2AA",
+      "id": "Ugy-KsSBP3tVqLeUtCl4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "wY8CYMo9aqTTmkroP0X1RIoD4BU",
+          "id": "Ugy-KsSBP3tVqLeUtCl4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Ignore them!!! Keep doing what works for your family❤",
+            "textOriginal": "Ignore them!!! Keep doing what works for your family❤",
+            "authorDisplayName": "@LeahRose-j3q",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lQP04o0156tOjgYNl3HX_KZUnYFCol3dSz9PAyoVldVAeL5nOEnPGdwcXswTRrMOFkSQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@LeahRose-j3q",
+            "authorChannelId": {
+              "value": "UCrfV20DQ6woanypmBJp-lUA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T12:23:55Z",
+            "updatedAt": "2025-09-06T12:23:55Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Cg6I4-6kqK5ARCHA-7jbsr1cNk8",
+      "id": "Ugz3lgIiGCjEVz8uk7d4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "H2TcZtX9p94MnlK2CbYP1zpFYhg",
+          "id": "Ugz3lgIiGCjEVz8uk7d4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "My mom is in memory care,it was getting to be a lot. Decided I couldn’t do it alone. Your doing a great job,keep doing what your doing",
+            "textOriginal": "My mom is in memory care,it was getting to be a lot. Decided I couldn’t do it alone. Your doing a great job,keep doing what your doing",
+            "authorDisplayName": "@kokieswanger9895",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m1O56WxkXDjn7ioI7Uz-sI-RQBBFRXlAuvfXy-gLY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@kokieswanger9895",
+            "authorChannelId": {
+              "value": "UCnI6M9vodfq7UsUg6qHv2aA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-04T05:55:26Z",
+            "updatedAt": "2025-12-04T05:55:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "v5Ip_lqMwHvY7ub5bNOMABp-eI8",
+      "id": "UgyU7nrtt3ZB_XJln6N4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vmHT5GsO3jaq0G9Al7M4DRN0sv8",
+          "id": "UgyU7nrtt3ZB_XJln6N4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "yes you deserve peace,it&#39;s only fair❤❤❤",
+            "textOriginal": "yes you deserve peace,it's only fair❤❤❤",
+            "authorDisplayName": "@EdnaBryant",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nLaihxDFVmnJ3BNrRAmxQrbA_mCKWJCT4LKngxCiB_0GgMeT12zvtvULsylDTrrmZaZg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@EdnaBryant",
+            "authorChannelId": {
+              "value": "UCmdmoV2AoNSHYd2zXxdqs8A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T04:38:28Z",
+            "updatedAt": "2025-09-06T04:38:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "m5TMna-kSOBzB0KK3nQExULkFFo",
+      "id": "UgwWTpiGxIfqZeIJ8MV4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "p7kmWy8STC-z3FPOM-LG2jvzlLk",
+          "id": "UgwWTpiGxIfqZeIJ8MV4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Yes you deserve peace and we know you love ❤️ your mom you are a wonderful daughter ❤❤",
+            "textOriginal": "Yes you deserve peace and we know you love ❤️ your mom you are a wonderful daughter ❤❤",
+            "authorDisplayName": "@bettygilmore1696",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mJDGDYncmVRF-YViKc47rMyTeuPbrUuCXqTNdsI3U=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@bettygilmore1696",
+            "authorChannelId": {
+              "value": "UCUU5EYuEhf6LHoz2injUi3g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-25T23:48:40Z",
+            "updatedAt": "2025-12-25T23:48:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "520KlcjAvr9LYhhfRKCJQ79iU4o",
+      "id": "UgxPXVJ5PWRNfrhPMmh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "EVeZURAoptwa3FNjRm4E-90H0rU",
+          "id": "UgxPXVJ5PWRNfrhPMmh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "She&#39;s such a sweetheart ❤mama",
+            "textOriginal": "She's such a sweetheart ❤mama",
+            "authorDisplayName": "@AmyWilson-x4o",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nYQvAmUyrYtkF2soc7ppz6IxaER9_xGSrVZLHiG4eUGMeY1Tl-U5nqn34h_UtOew4GdA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AmyWilson-x4o",
+            "authorChannelId": {
+              "value": "UCEY49t5iK1-saQDnEp3FpnQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T21:09:47Z",
+            "updatedAt": "2025-09-07T21:09:47Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "BlAnIIoUTtEh1Ichmblr_NNyfh4",
+      "id": "UgwRwBgAE_gl-2FrSB14AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "uWNLpT7Y9xEZfThyB8iG-tx-TzM",
+          "id": "UgwRwBgAE_gl-2FrSB14AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Yes indeed ❤.  Dementia care is a 💯 around the clock job. Memory care is a better option for some families.",
+            "textOriginal": "Yes indeed ❤.  Dementia care is a 💯 around the clock job. Memory care is a better option for some families.",
+            "authorDisplayName": "@jojococomo",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ztLerCBLTJQb2_5Jv1T8NKRlvbRap_BFRboAZntgipUwRaKT4gr5MEnFnTs2l68P5yDQ_niqBA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jojococomo",
+            "authorChannelId": {
+              "value": "UCXoCJE4A810U-Ku0XdES6YQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-12T20:05:45Z",
+            "updatedAt": "2025-09-12T20:05:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "FPGVReqYx_fvuLNmi2P8F3CQoKw",
+      "id": "UgwLjJBexBw1Qf12w7V4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "qYF3KSvQgBBpjPVy2bKAvcxpmF8",
+          "id": "UgwLjJBexBw1Qf12w7V4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You are a wonderful, loving, supportive daughter. She is blessed to have you! I love your posts.",
+            "textOriginal": "You are a wonderful, loving, supportive daughter. She is blessed to have you! I love your posts.",
+            "authorDisplayName": "@conniesuttonalford3541",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m2WvvZgjAVcMmI6vfSmt2z5QA2PiYKaZcwP24mVThyiw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@conniesuttonalford3541",
+            "authorChannelId": {
+              "value": "UCePTarhALinjQs1-_7bGWQg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-19T01:09:29Z",
+            "updatedAt": "2025-10-19T01:09:29Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2dmoE9MNx4JosOsRkUpjR1DX15Q",
+      "id": "UgxO5TFiDrg0a8a1J3V4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "3izOzdEFHkJsjuUTNzUnBJxZFuk",
+          "id": "UgxO5TFiDrg0a8a1J3V4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Your performance is exceptional. It is imperative that we discontinue the normalization of struggle and chaos.",
+            "textOriginal": "Your performance is exceptional. It is imperative that we discontinue the normalization of struggle and chaos.",
+            "authorDisplayName": "@kristiedc",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mMI8ElJQEIKe0K2ONy5q9rq61t0LzLnte3eaILU_Y=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@kristiedc",
+            "authorChannelId": {
+              "value": "UCi-NLUopHXdfAhI4v4J25nA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-25T22:45:15Z",
+            "updatedAt": "2025-11-25T22:45:15Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "aRH6AGxj55-csE3QsXjmfenGVHg",
+      "id": "UgzjtGXQEGe80kqxUo94AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "yeMYmhpBIneKVaEi5Oxgcggsi-4",
+          "id": "UgzjtGXQEGe80kqxUo94AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Amen and Amen 🙏🏼 Very well said. God bless ya’ll. 🙏🏼❤️🕊️",
+            "textOriginal": "Amen and Amen 🙏🏼 Very well said. God bless ya’ll. 🙏🏼❤️🕊️",
+            "authorDisplayName": "@Shannon71172",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/1k7_aeQll5kwLMXeahiOoPn9ODUuzAkZkvzBweduNfS62yPwQuHc8UF0IYm_meUFevF7avd08kk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Shannon71172",
+            "authorChannelId": {
+              "value": "UCsaSLBSWuzEVV8AVbemfPlQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-15T17:55:50Z",
+            "updatedAt": "2025-12-15T17:55:50Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "NQTwWYB5mzmTBAORDfeBfX-e-A0",
+      "id": "UgxWfYtrKX_Q2WmoK554AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "g6-Dj5W6r7R5W4pWrVnfFQ8DY8Y",
+          "id": "UgxWfYtrKX_Q2WmoK554AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "i agree, child of a parent who had demetia. My Mom lived with me, it was trying to say the least, but I have no regrets. I believe we all know our own limitations and should do what we feel is best for our mental and  physical well being. Good for you sweet heart you know yourself better than any one else .",
+            "textOriginal": "i agree, child of a parent who had demetia. My Mom lived with me, it was trying to say the least, but I have no regrets. I believe we all know our own limitations and should do what we feel is best for our mental and  physical well being. Good for you sweet heart you know yourself better than any one else .",
+            "authorDisplayName": "@Noneneeded-h4l",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nZa2L5tvX7AvSd4Ge5CNES4grhI0iSwAR0FOEKVgy-ONyNf84-qq6U12ADeVbgPcot_Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Noneneeded-h4l",
+            "authorChannelId": {
+              "value": "UCRhUp8Y0WIdTo0tgxofU8cw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-21T20:38:29Z",
+            "updatedAt": "2025-11-21T20:39:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "UsHIkbYIasrZZAcVNP1H6x3UgH8",
+      "id": "UgxBgjd1FznNKseikHh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vHfi3mV-vhkNoXFWQrcXGzB-6R0",
+          "id": "UgxBgjd1FznNKseikHh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You said it just right.  No one knows until they experience it for themselves.  I endured assaults from my mom then the love. It was like being on a rollercoaster.  I didn’t know from moment to moment what side I was going to get.",
+            "textOriginal": "You said it just right.  No one knows until they experience it for themselves.  I endured assaults from my mom then the love. It was like being on a rollercoaster.  I didn’t know from moment to moment what side I was going to get.",
+            "authorDisplayName": "@KathleenBrownMays",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n7T2HLU7JQUvDRxPv3L4O8Bt6iJvjdFI3DbJCb2haaET6FyolDnJdpfFCiEZLMcXsZpw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@KathleenBrownMays",
+            "authorChannelId": {
+              "value": "UCQf78E2w0VtWixjESRT0Kjw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T14:53:00Z",
+            "updatedAt": "2025-09-07T14:53:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "BffFYlZaoUz-TkbHa_9b_Nbsfzs",
+      "id": "UgxB-QiCm6VSYPzi7e14AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "zsDh-S8dAyas89N87iNAtW-vxAw",
+          "id": "UgxB-QiCm6VSYPzi7e14AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "My sister.  You are doing excellently well with your Mom.  God bless you.❤",
+            "textOriginal": "My sister.  You are doing excellently well with your Mom.  God bless you.❤",
+            "authorDisplayName": "@MojiOdeyemi-e1i",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k18TQOefWzLa5SvdJmEE0dDZLfk4am4CaTqv-UUpCP4ll3lucs6Ttsxlbnh6UOy4Y8dw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MojiOdeyemi-e1i",
+            "authorChannelId": {
+              "value": "UC6sLyuiP1gL8AA0Ev6nRicA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-19T20:48:37Z",
+            "updatedAt": "2026-04-19T20:48:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "w-t13koZHkw-lDjkKBPFqdRPl6k",
+      "id": "Ugx6qhLqR16TqsJY_L54AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "2anYyymKZ5XHlNlhIBS3pa5es4Q",
+          "id": "Ugx6qhLqR16TqsJY_L54AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Completely understand! You need peace of mind in order to make decisions for her wellbeing. The facility you chose is clean and nice. You are one of the lucky ones to find a place like that.",
+            "textOriginal": "Completely understand! You need peace of mind in order to make decisions for her wellbeing. The facility you chose is clean and nice. You are one of the lucky ones to find a place like that.",
+            "authorDisplayName": "@AGrace-ff3cu",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mv1X4xekOi8j9w_p70OjBN-1Lv0p6RA7uJJjuw5xs=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AGrace-ff3cu",
+            "authorChannelId": {
+              "value": "UCCSDv5Oj0-VvXMTnTE8YrvQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-03T00:38:27Z",
+            "updatedAt": "2025-12-03T00:38:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EKQ7dhRKFInOnijzQ5e-22JHlaA",
+      "id": "Ugwd1joQ2OS0F6Ii4954AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "SpkgBxPbRD5ZA87jIZIkXYKFubs",
+          "id": "Ugwd1joQ2OS0F6Ii4954AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "God Bless you  and your beautiful  Mom❤❤❤",
+            "textOriginal": "God Bless you  and your beautiful  Mom❤❤❤",
+            "authorDisplayName": "@DeniseJoseph-z5q",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kK07Ml9vtMhUDmL2eWHI4BOxbxTq0RlbBs28dRVwpfsA3IgJAJj3zvCLBlnO6T9Ui8Dg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@DeniseJoseph-z5q",
+            "authorChannelId": {
+              "value": "UCYrFJN3ndxw_41rP7AsDamQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-19T10:55:37Z",
+            "updatedAt": "2025-12-19T10:55:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "8QTJMAjro0Dc7adyHTaEjjopvDg",
+      "id": "Ugz1GfcYNWBasrDn-H94AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "k4T-6w4QRBON-e-bpXjrY5rbw1Y",
+          "id": "Ugz1GfcYNWBasrDn-H94AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Thank God we were able to take care of our parents in their home. You keep doing you. You are doing an awesome JOB with LOVE!",
+            "textOriginal": "Thank God we were able to take care of our parents in their home. You keep doing you. You are doing an awesome JOB with LOVE!",
+            "authorDisplayName": "@novabaines",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mdk3vhf3eR6OIhb8iAzdju-sfHRA7Dnn1mL6VuSFm_rjVL=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@novabaines",
+            "authorChannelId": {
+              "value": "UCTfy6y9ioR-YVlg6ZtmeCcA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-01-20T15:14:31Z",
+            "updatedAt": "2026-01-20T15:14:31Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "iQvXd9SaRPYZKb-AWnMHDVIpcRw",
+      "id": "Ugyzcu9RRHlOf05UdL94AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "gKKrXNKj6rvfv_uGFK75RCzvRtA",
+          "id": "Ugyzcu9RRHlOf05UdL94AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Doing what&#39;s best for &quot;your&quot;situation is the best you can do ❤️ You are very present in her life 🙏🏾 God bless you",
+            "textOriginal": "Doing what's best for \"your\"situation is the best you can do ❤️ You are very present in her life 🙏🏾 God bless you",
+            "authorDisplayName": "@suzettemills4871",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kIJy1kqUCYx4Skz2Gk7z8i1LOVsFD_qgSedvGMiw4R4k0=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@suzettemills4871",
+            "authorChannelId": {
+              "value": "UCElSUhR-HoR2MOPixQotV2g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-10T23:14:30Z",
+            "updatedAt": "2026-04-10T23:14:30Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "LjtijLgGEHfmrWpZ9vXdgdKeJJw",
+      "id": "Ugwu1-0X37m8Hmi-Aup4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "u9-92U26C6BxfuXZ4-TSqWnHrqg",
+          "id": "Ugwu1-0X37m8Hmi-Aup4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "At least you are still taking care of her. You are doing a good job. In this way you are taking care of yourself so you will be able to care for her. I know! I took care of my husband for 5 years by myself, but i had to place him in a memory care facility. He was there for 2 years. I went to see him every single day. He died peacefully and i was right there by his side. Just keep doing what you are doing. God bless you.",
+            "textOriginal": "At least you are still taking care of her. You are doing a good job. In this way you are taking care of yourself so you will be able to care for her. I know! I took care of my husband for 5 years by myself, but i had to place him in a memory care facility. He was there for 2 years. I went to see him every single day. He died peacefully and i was right there by his side. Just keep doing what you are doing. God bless you.",
+            "authorDisplayName": "@sandrakindles9456",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k82QyAI4bPkllTGYW1uAh9g2F373PAH3byJC8f1I0FsxpqxMTd2Pi9ZMx0zq4opKmx6Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sandrakindles9456",
+            "authorChannelId": {
+              "value": "UC-npVU_2op_weOIsOWOprjw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-26T00:20:34Z",
+            "updatedAt": "2025-11-26T00:20:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "pLLsMeFoEQ8bgw1Iyjv5v1k0e0k",
+      "id": "Ugxm0riTj4Pm1BI-Cqp4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "BSyipk2E0wUs0_J81bh2SIXUQ-U",
+          "id": "Ugxm0riTj4Pm1BI-Cqp4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "This is what breaking generational curses is. \u003cbr\u003e❤",
+            "textOriginal": "This is what breaking generational curses is. \n❤",
+            "authorDisplayName": "@MistressOfTheTwoLands",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/_pTpIyw1ble_lH1piX8jMMx4SQ9rsO3_OAwynRZsL-8Jwf0lAX7EreRh1W4-lJlWL5rf7AUk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MistressOfTheTwoLands",
+            "authorChannelId": {
+              "value": "UCnguCZOZZcvN_hxZRY8kYiQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-13T19:47:50Z",
+            "updatedAt": "2025-09-13T19:47:50Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "CDLoAy7R68yAI_3bzYyJxOu4vRg",
+      "id": "Ugx0BRj_kFV_U5dE12l4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "mswSzrcVHr099koK2eW_yeyezSE",
+          "id": "Ugx0BRj_kFV_U5dE12l4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You are fabulous for seeing her.  \u003cbr\u003eDementia is the hardest to deal with daily.",
+            "textOriginal": "You are fabulous for seeing her.  \nDementia is the hardest to deal with daily.",
+            "authorDisplayName": "@All5AJz",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/UTEs-o_2hHE8Qb0A9CddJr1pyzeB8JBYoqnEdhiVolOC64bBT00f_FwA8QV1iT5Jujrujwxlaw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@All5AJz",
+            "authorChannelId": {
+              "value": "UCB126AMxPWXuJaaet_5aycg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T17:45:55Z",
+            "updatedAt": "2025-09-06T17:45:55Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "0jgbawzD4s8EiI-ob9tkHg2fktU",
+      "id": "UgxyRkgdkTY65uLGwx94AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Qv8xcoLZ_jU1BSDzZ8mcy4df7CU",
+          "id": "UgxyRkgdkTY65uLGwx94AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You don&#39;t owe no one an explanation if they haven&#39;t walked in your shoes they would never understand, my mother has dementia too and because of my own illnesses I can&#39;t show up like I want too. I do understand this dementia struggle.  You are doing an awesome job you go above and beyond for your mama praying for your strength sister!❤",
+            "textOriginal": "You don't owe no one an explanation if they haven't walked in your shoes they would never understand, my mother has dementia too and because of my own illnesses I can't show up like I want too. I do understand this dementia struggle.  You are doing an awesome job you go above and beyond for your mama praying for your strength sister!❤",
+            "authorDisplayName": "@pamelaholmes268",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/iomcsXlkfwbLM7dbOTr70Ccbhy4_dgwEoaII8d4x8Anp3cWTTwppDACUpc_y5fZ6UX4wkDunag=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@pamelaholmes268",
+            "authorChannelId": {
+              "value": "UCKM08Hhd7btEFm-iJ51Azjg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-19T23:22:39Z",
+            "updatedAt": "2025-12-19T23:22:39Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "fgx5p9jG0qwjkDs5xJ-YolWXEnI",
+      "id": "UgyvLJMzEDCC4volyT14AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "BAkG_07SLIgvYdW8NkEmPvZKhuc",
+          "id": "UgyvLJMzEDCC4volyT14AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Been a caregiver and many other things for over 24 years now she has a healthy outlook on reality and it’s best for everyone her and her mom ❤",
+            "textOriginal": "Been a caregiver and many other things for over 24 years now she has a healthy outlook on reality and it’s best for everyone her and her mom ❤",
+            "authorDisplayName": "@AmberTurner-f5z",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/Ep2WZDsmqdZ2VFi4G1ZwcYGcnaloEiGMgoQGZFSubPlv9Z0b84g_3aa2lZKcVE9u4zTDiyeJug=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AmberTurner-f5z",
+            "authorChannelId": {
+              "value": "UCEgkLHc_ykOJgVB5_qioaZA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-21T09:34:40Z",
+            "updatedAt": "2025-11-21T09:34:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5qG22-DHRnqdZewY2PO4-jYNbqU",
+      "id": "UgwlTbQrkUUeqY8qHER4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vumkSQydo0xrQZsWv39fRI12wkA",
+          "id": "UgwlTbQrkUUeqY8qHER4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You are 100% right it’s not an easy Job.❤",
+            "textOriginal": "You are 100% right it’s not an easy Job.❤",
+            "authorDisplayName": "@queenesterwatkins7636",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_liCDEiRAToqt8xuoTb-naDTLuOdBWQWrn7yM_6TH3X40U=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@queenesterwatkins7636",
+            "authorChannelId": {
+              "value": "UCKN1jfDLQagIJ3HhIRYjzWA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T12:00:08Z",
+            "updatedAt": "2025-09-06T12:00:08Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "yZ_lMEcvbzKP_aKASs-M2oMKIN0",
+      "id": "Ugwcakn4BM_jiJGQ39V4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "w2teelcHiQt-KOk6hFD-POhROCo",
+          "id": "Ugwcakn4BM_jiJGQ39V4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Oh my thank you for sharing this and seeing the actual stubbornness manifest like that is exactly what I go through.",
+            "textOriginal": "Oh my thank you for sharing this and seeing the actual stubbornness manifest like that is exactly what I go through.",
+            "authorDisplayName": "@pilarcastaneda1442",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lPWZhIIAjnAd4GJzEiHnM7WrtgxcLT9CIOwnrOlIelUP8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@pilarcastaneda1442",
+            "authorChannelId": {
+              "value": "UCLPuch7oWepCmcPvhUkuMFg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-09-02T21:30:27Z",
+            "updatedAt": "2026-09-02T21:30:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ZGKvrkdN9b-pknBD_RJYlc40JeM",
+      "id": "Ugy4AVN8xahu2RWDxzt4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Pqq8nrHBlpVO9Ak-BRz00xnv3Ms",
+          "id": "Ugy4AVN8xahu2RWDxzt4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "So glad you share the story making people aware",
+            "textOriginal": "So glad you share the story making people aware",
+            "authorDisplayName": "@joannfox2540",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m2RbRKrc4MMbYJEnAOoZuB6lxjJbke1Mmr1jJjQiQ9dyC3=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@joannfox2540",
+            "authorChannelId": {
+              "value": "UC64jNWPYI5LCXOGGzNhW7PA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-12T13:10:37Z",
+            "updatedAt": "2025-09-12T13:10:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "i1A7UKI3X3Lp1GhTIZEJ4zC48Ew",
+      "id": "UgzEflZlHoGgplR_Q454AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "JuJyaEkT0OfPR5Z3eUaegR71alM",
+          "id": "UgzEflZlHoGgplR_Q454AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "And showing up is something you should be proud of  its not the same for everyone  never feel guilty about what you are doing for your situation  you will always have someone who has different ideas and that&#39;s fine let them  your doing what works best for you and your mother  and family  stay positive i think your doing a wonderful job",
+            "textOriginal": "And showing up is something you should be proud of  its not the same for everyone  never feel guilty about what you are doing for your situation  you will always have someone who has different ideas and that's fine let them  your doing what works best for you and your mother  and family  stay positive i think your doing a wonderful job",
+            "authorDisplayName": "@JulieBrown-m6p",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_khSbcYOk-ZJpJdnM0KT63okOiFU3WwtWMvAi-S5gxJah9fOAID9GlTIjWJnSHyDKWk4A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@JulieBrown-m6p",
+            "authorChannelId": {
+              "value": "UC_rAoZUh6t2_087Kcw8txmg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-08T00:06:20Z",
+            "updatedAt": "2025-12-08T00:06:20Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "uW95YaHO6qZUxFF-g4xTM-Czw3Y",
+      "id": "Ugyke8ENR4LfGxCAINx4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "RgqK5Vse5zYclure1zqC2snpHBw",
+          "id": "Ugyke8ENR4LfGxCAINx4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Ignore ignorant comments. They have no idea. Keep loving on your mom. You are doing what&#39;s best for the both of you.",
+            "textOriginal": "Ignore ignorant comments. They have no idea. Keep loving on your mom. You are doing what's best for the both of you.",
+            "authorDisplayName": "@lenoraprimus1407",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kQnbpqBSLSCG0TJRS_gXToPNPNb3rvC6C8uvEfTqg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lenoraprimus1407",
+            "authorChannelId": {
+              "value": "UCfaFr2H_qNY95IVV9dbuE_A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-26T03:05:39Z",
+            "updatedAt": "2025-11-26T03:05:39Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "bKw74UrjYum54aLmXVsg1s-9mHU",
+      "id": "Ugz6NlLVjFGKKENVc9R4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4VAZRzxotSjB-17o_8RoiBzaHqw",
+          "id": "Ugz6NlLVjFGKKENVc9R4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Praying for you and your family 🙏🏾",
+            "textOriginal": "Praying for you and your family 🙏🏾",
+            "authorDisplayName": "@PennieBrooksDoyle",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lPzli4dJG5cLnw96ruYoBNm3_5_eD8i8XDpv7ulgomHNDYGeHCJcNCTE1xkfCyWJwrCw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@PennieBrooksDoyle",
+            "authorChannelId": {
+              "value": "UCEitavzGBayMdnUuZ-v_IMQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-18T02:42:13Z",
+            "updatedAt": "2025-11-18T02:42:13Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "JfqtSn-Vae5nycCc5GMDzyVOoUY",
+      "id": "Ugw2BLRc4Cdw9V_3XOh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "5ju4lFuJYPFiNqNa4-ukAtc-4ZM",
+          "id": "Ugw2BLRc4Cdw9V_3XOh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "AMEN and THANK YOU BECAUSE I NEEDED TO HEAR THIS FOR MY SPIRIT and HEART❤️🙏🏼💪🏽",
+            "textOriginal": "AMEN and THANK YOU BECAUSE I NEEDED TO HEAR THIS FOR MY SPIRIT and HEART❤️🙏🏼💪🏽",
+            "authorDisplayName": "@niciciajenkins2755",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nGGCVcYzYsMApI7kg6uWocxJ5eXJmCjMrqmf20etE=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@niciciajenkins2755",
+            "authorChannelId": {
+              "value": "UCvFr3_lmELFgWA4I17zzDjg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-16T15:44:17Z",
+            "updatedAt": "2026-04-16T15:44:17Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ScX2rEyYlWQmmocioWMV7HUJsMA",
+      "id": "UgxK7T_CZL0M3Rio4Tl4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bNp6pAafURbDVfcU8JyfQ-LEdxo",
+          "id": "UgxK7T_CZL0M3Rio4Tl4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Amen! You are doing a great job. I see the LOVE. I&#39;ve been in your shoes.",
+            "textOriginal": "Amen! You are doing a great job. I see the LOVE. I've been in your shoes.",
+            "authorDisplayName": "@dondreapayne7159",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nw3EEO7QUN4sECIJvaSNpe-rKxQiHw3GixBfDHgB8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@dondreapayne7159",
+            "authorChannelId": {
+              "value": "UC_aR_9TANP926Eqz0_odAVQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T16:04:18Z",
+            "updatedAt": "2025-09-06T16:04:18Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "IJash5yXwi2InmJ6yus6YlQw4wI",
+      "id": "Ugx3PYAQL36IvlOU7BJ4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "KvTILrYhaYI-Ul9xykBIC-zH-5M",
+          "id": "Ugx3PYAQL36IvlOU7BJ4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Much love and respect to you young lady ❤❤❤❤❤❤❤❤❤",
+            "textOriginal": "Much love and respect to you young lady ❤❤❤❤❤❤❤❤❤",
+            "authorDisplayName": "@paishar2",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mEupkQtfAGWBsHrDHQcTbdt0tSjZg-CcXpGnwTuDjI4zog=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@paishar2",
+            "authorChannelId": {
+              "value": "UCYoQ41KLjul38Tzawao0HEA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-16T10:39:22Z",
+            "updatedAt": "2025-10-16T10:39:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "IcnvftJ9WdpCnDiL7zf3wenxC1Q",
+      "id": "Ugxkswb4SduocIcYmcB4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "uS8wrQc7E_puwf0-j8vWPnlEXTQ",
+          "id": "Ugxkswb4SduocIcYmcB4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You do so well with her we love you.❤",
+            "textOriginal": "You do so well with her we love you.❤",
+            "authorDisplayName": "@mamielashawn3552",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nL7b9RUhS_S0WpwkpQwe6nJfaGzvf8xPdRtJ5wikQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@mamielashawn3552",
+            "authorChannelId": {
+              "value": "UC0vV2VRWtQ1ApJwwrx1ARkw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-23T16:46:58Z",
+            "updatedAt": "2025-11-23T16:46:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "n08UbURmT3oL2MiD6bC-QGtb9wQ",
+      "id": "Ugwe8PilI-fIyVQA0QF4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "8p2mSh8Hmus0n3CPW2ILyXE7rN0",
+          "id": "Ugwe8PilI-fIyVQA0QF4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I so agree with you, thank TMH your able to be supportive of her that shows love, and respect.",
+            "textOriginal": "I so agree with you, thank TMH your able to be supportive of her that shows love, and respect.",
+            "authorDisplayName": "@Johnson44.",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/H8RVaYarHnTim_WPEdZN2CdV9bDYWk_aMy8A2Jd5GAeSkAl_oR3H5VTqSlYXEJE1Tu76W-IlXZI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Johnson44.",
+            "authorChannelId": {
+              "value": "UCFw7c0jIWiaxIVB9DKAxXSA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T04:08:43Z",
+            "updatedAt": "2025-09-07T04:08:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "mMO_j1ZU6y-dqTxyyOcRbnIk1KU",
+      "id": "Ugy4U9mLfFCt562Fiyx4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "sN4RovggQ3gd6azC4YhHG0Gt__4",
+          "id": "Ugy4U9mLfFCt562Fiyx4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "I&#39;ve walked in these shoes and footsteps! Minus the violence😅! I miss my mom so much and don&#39;t regret at all being there for her 100%",
+            "textOriginal": "I've walked in these shoes and footsteps! Minus the violence😅! I miss my mom so much and don't regret at all being there for her 100%",
+            "authorDisplayName": "@shelia6762",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mohoftbG1Ymyuvz0o5DAROnmh3uSqXYtY2VcTobPcvlhg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@shelia6762",
+            "authorChannelId": {
+              "value": "UCsNL1Rj1Fn3blQ5SORed1AQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-20T17:12:06Z",
+            "updatedAt": "2025-11-20T17:12:06Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "tME7A44n3yoSbzW0wr2FZYM5JPQ",
+      "id": "Ugw5elPuUtaAdqmT2Hh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "AqOMOf9YIIOjNaa-JQG00xYGp9Y",
+          "id": "Ugw5elPuUtaAdqmT2Hh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Until s person has taken care of someone for what ever reason they haven&#39;t a clue what it takes to do this, I know and I commend you  for all you do for your mom, it&#39;s beautiful to watch. 🙂",
+            "textOriginal": "Until s person has taken care of someone for what ever reason they haven't a clue what it takes to do this, I know and I commend you  for all you do for your mom, it's beautiful to watch. 🙂",
+            "authorDisplayName": "@user-js7cw3yd4l",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mVU466lLvkDr-jLzZReCnwtzGyJPWiIUcwMKf29xvYiycAxC__POjQGhL9mpasRmKHVnM=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@user-js7cw3yd4l",
+            "authorChannelId": {
+              "value": "UC5r5QSXFZYfY2p9d7OilqRg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-13T12:19:21Z",
+            "updatedAt": "2025-09-13T12:19:21Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Zm9I3XUDaMU6gwcwNPEpy5n8Unw",
+      "id": "UgxtDFdbdhki_IyR7fd4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "K24FAzsLHTYFvBdMmyaPHeJS5N4",
+          "id": "UgxtDFdbdhki_IyR7fd4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Not only are you doing what’s best for you both you’re doing it in love❤️🙏🏽",
+            "textOriginal": "Not only are you doing what’s best for you both you’re doing it in love❤️🙏🏽",
+            "authorDisplayName": "@darlaatumonye8880",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mBVNsGOPmaU5A11ntmIeNgKYqCDoujcui9IgUTGH76DIMXsWCfsYP1u5nTgQTXotUAtA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@darlaatumonye8880",
+            "authorChannelId": {
+              "value": "UCIeIyOSl7oLceiHw7uF12kw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T18:30:05Z",
+            "updatedAt": "2025-09-07T18:30:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "MTRLX3Dxj6neDFTQpt7oQEl75B8",
+      "id": "UgxtulD6chUmCEdgGvB4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "2kKzmmPk0jXwrglpNgYCxCB5Kdw",
+          "id": "UgxtulD6chUmCEdgGvB4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Thank you for this post! Everyone doesn&#39;t understand if you haven&#39;t experienced this process! I too experienced this.\u003cbr\u003eI loved my mother with alllll my being but making that decision was safe for everbody! It was absolutely a hard decision to make because you feel like you&#39;re doing something wrong but God gave me peace &amp; i was able to visit as often as i desired! Most of all, God was with her! And so was I ❤!!!!",
+            "textOriginal": "Thank you for this post! Everyone doesn't understand if you haven't experienced this process! I too experienced this.\nI loved my mother with alllll my being but making that decision was safe for everbody! It was absolutely a hard decision to make because you feel like you're doing something wrong but God gave me peace & i was able to visit as often as i desired! Most of all, God was with her! And so was I ❤!!!!",
+            "authorDisplayName": "@lisagriffith8559",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m1y4nTDI4wi4SJ9iE9hdoRIVhNZwMrnaul9TZQY9NqZzw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lisagriffith8559",
+            "authorChannelId": {
+              "value": "UCLwT02i9quvKKh2IWuXZKfQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-08T17:02:41Z",
+            "updatedAt": "2025-12-08T17:02:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "BM7jYy2aXFv8AL6uEygWZwl091o",
+      "id": "UgzkrrOl3azcGaH0Ik54AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vF6a9qOUNayw1atxZIrG-jENERI",
+          "id": "UgzkrrOl3azcGaH0Ik54AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "For myself, I decided to take care of my mother during her stages. My mother has dementia, alzheimer&#39;s, and mentel issues before her late age diagnosis, and that video of you getting hit is what my mother does to me as well. 😢 like you said, my mother lived a violent past as well..im glad you are showing up to be there for your mother..unlike others, I would never go and visit.",
+            "textOriginal": "For myself, I decided to take care of my mother during her stages. My mother has dementia, alzheimer's, and mentel issues before her late age diagnosis, and that video of you getting hit is what my mother does to me as well. 😢 like you said, my mother lived a violent past as well..im glad you are showing up to be there for your mother..unlike others, I would never go and visit.",
+            "authorDisplayName": "@ZoyaOfori",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kuuBO64PZkSkupLSnXKoaV6bFOBZ-2kZ0VJ7AwknV8W30w8hu5b-uB8gX3c6Gf55Avzw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ZoyaOfori",
+            "authorChannelId": {
+              "value": "UChrHjmnDCMvDj2eVmVp1WxA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-09T16:23:04Z",
+            "updatedAt": "2025-09-09T16:23:04Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Kww1pl0jAhi98ScLuFkKKPj1dJ8",
+      "id": "UgzsUuikQtOkEmmQMMh4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "JSm7eSsUSzCIig_qObP1zuNu5-k",
+          "id": "UgzsUuikQtOkEmmQMMh4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Gurrrrl u don&#39;t owe nobody an explanation. You&#39;re doing a great job.!!!❤❤❤",
+            "textOriginal": "Gurrrrl u don't owe nobody an explanation. You're doing a great job.!!!❤❤❤",
+            "authorDisplayName": "@letagray1493",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nHH3aao9KuKWCNTdKcHH7EBaX7Ld6cmQtf48RO2M4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@letagray1493",
+            "authorChannelId": {
+              "value": "UCDITJDbOqkwY3xBJ0JtkDFg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-25T13:47:15Z",
+            "updatedAt": "2026-04-25T13:47:15Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jpugplr-Zw58bUq25JGC59IJWQ8",
+      "id": "UgxaesN2B78yls8fQL54AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4A-sy2S3rhssBHxaKLwH3f4CxXM",
+          "id": "UgxaesN2B78yls8fQL54AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Thank you for sharing the reality of what it sometimes means to care for unpredictable loved ones.",
+            "textOriginal": "Thank you for sharing the reality of what it sometimes means to care for unpredictable loved ones.",
+            "authorDisplayName": "@plastichouselady",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/Lxq69rsvYvJo6R1zsYsqHuO7JocMOKQYzF062O1wll54C2UM6HZrznRW2yW1kx1jUFb4b32WuA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@plastichouselady",
+            "authorChannelId": {
+              "value": "UCMRUZIBHyYwMnfMBnQhdT9Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-02-02T20:38:03Z",
+            "updatedAt": "2026-02-02T20:38:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "TMjwwo37JqmoC-FQfhEsUnAaXtw",
+      "id": "UgzVoAZq0dwpL-H9K054AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "cxN8_SDvD1POhPzipybKtNBzWmo",
+          "id": "UgzVoAZq0dwpL-H9K054AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "Beautifully spoken Crystal ❤",
+            "textOriginal": "Beautifully spoken Crystal ❤",
+            "authorDisplayName": "@gogettamom",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/zeV44rdbFg_YAOcLT7L4TfuPiKCKRuAV_27hlkpaJyMj8ec_rUe44AljlUgUJytc9Uk1jpB_Vw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@gogettamom",
+            "authorChannelId": {
+              "value": "UCckzPtiK-jUT8gMjaFXpd2Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-07T16:00:02Z",
+            "updatedAt": "2025-09-07T16:00:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5rW6Jz3N8dMZwi1_Fv79BJcQNTs",
+      "id": "UgxHjOSwy6BwoDgR1BJ4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ozcuwpSQmpg0_YgElOJexmJtVhw",
+          "id": "UgxHjOSwy6BwoDgR1BJ4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "That&#39;s right mama you got this",
+            "textOriginal": "That's right mama you got this",
+            "authorDisplayName": "@marydavila8421",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/KzUgZYjgSZs-qLU-gsvudzHbQhsL8yiq_e1j8XkhdWbIPddsp_akWTR6Ddi4DLef-llPwIyHzYU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@marydavila8421",
+            "authorChannelId": {
+              "value": "UCUDp7OivXCKeEAwW_Yrgz-A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-25T05:15:03Z",
+            "updatedAt": "2025-11-25T05:15:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "SC8dDovWTfv_WlFI3-g3WK4PBSM",
+      "id": "UgzuoabXZiwePGqPtcN4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bHqQrsG6veD1VWgHVGm44acCSkU",
+          "id": "UgzuoabXZiwePGqPtcN4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "You and your siblings absolutely deserve peace, and your mom deserves to be safe, where she can get the level of care she deserves requires. Until a person walks into n your shoes, they have no idea what hat caring for a loved one with dementia is like.",
+            "textOriginal": "You and your siblings absolutely deserve peace, and your mom deserves to be safe, where she can get the level of care she deserves requires. Until a person walks into n your shoes, they have no idea what hat caring for a loved one with dementia is like.",
+            "authorDisplayName": "@happy2bnappy575",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_knyx8UBG9ZnYurHAB45_o4hBrIGuY688crgCjJ_JW8G2Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@happy2bnappy575",
+            "authorChannelId": {
+              "value": "UCtLhXCw4lItbXXXYZSmp9Fg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-06T13:05:05Z",
+            "updatedAt": "2025-09-06T13:05:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "sPzAiLQ0ibN0Vwij45BagjOb8p0",
+      "id": "Ugzj06U7-rQga4nXPeV4AaABAg",
+      "snippet": {
+        "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+        "videoId": "n0vOb0WcXlA",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "1ew0NbjUnfIh-07xXSFJOYEpxyQ",
+          "id": "Ugzj06U7-rQga4nXPeV4AaABAg",
+          "snippet": {
+            "channelId": "UCrcbzuAF0cFTSAE2a4_VcrA",
+            "videoId": "n0vOb0WcXlA",
+            "textDisplay": "As a nurse you are to be commended for all you do 🥰 and I thank you for still showing up to give us the must needed break as well. Dementia takes a village and an army.",
+            "textOriginal": "As a nurse you are to be commended for all you do 🥰 and I thank you for still showing up to give us the must needed break as well. Dementia takes a village and an army.",
+            "authorDisplayName": "@Yesisaidit8",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/TJ01BZl8igw_dKfuiJVY5IiHY9CJ_7VdvqKhfdA1pBP8KrMmbP0AEfwxxvhP1fckdaWcFET1ig=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Yesisaidit8",
+            "authorChannelId": {
+              "value": "UC47xvF1ULn07iDLujnE6ehA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-08T21:35:03Z",
+            "updatedAt": "2025-09-08T21:35:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}

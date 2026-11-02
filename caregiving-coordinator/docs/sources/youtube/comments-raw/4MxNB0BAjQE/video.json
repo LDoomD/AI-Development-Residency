@@ -1,0 +1,63 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "Ne3FRqJp0qId_q2Kbdc7kdcEXjg",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "hAmByYDV8TiwU1Y9ZIErzO0Bhgw",
+      "id": "4MxNB0BAjQE",
+      "snippet": {
+        "publishedAt": "2024-04-15T17:00:02Z",
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "title": "Important Dementia Behavior Tip #caregiving",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4MxNB0BAjQE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4MxNB0BAjQE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4MxNB0BAjQE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4MxNB0BAjQE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4MxNB0BAjQE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dementia Careblazers",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Important Dementia Behavior Tip #caregiving",
+          "description": ""
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "414875",
+        "likeCount": "14024",
+        "favoriteCount": "0",
+        "commentCount": "341"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

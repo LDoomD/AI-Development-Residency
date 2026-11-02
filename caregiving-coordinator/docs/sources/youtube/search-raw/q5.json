@@ -1,0 +1,1102 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "Z78ajNNg9Yb9ztbm4H32MQd-D4g",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tZS-hzbwDtNgpRsobUx4TLZ2p6M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GfortIdwgf4"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-18T05:00:31Z",
+        "channelId": "UC1unQFVy8gxXTrSQyPBIliQ",
+        "title": "How Many Pills Is Too Many for Elderly Parents?",
+        "description": "If your aging parent is taking 10+ meds, one simple check could prevent a fall, confusion, or an avoidable ER visit. More ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GfortIdwgf4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GfortIdwgf4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GfortIdwgf4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/GfortIdwgf4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/GfortIdwgf4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Caring For Aging Parents",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-18T05:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YWGfkPIlWFbC8BJqX_5nLCVLJWo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8Zm0k63UmF0"
+      },
+      "snippet": {
+        "publishedAt": "2026-08-19T07:49:00Z",
+        "channelId": "UCIYwwr5gBlKcfXK6spb-c4g",
+        "title": "Managing Aging Parent Medications: Caregiver Checklist",
+        "description": "A step-by-step checklist to help you organize your parent's medications, coordinate medical appointments, and prevent costly ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8Zm0k63UmF0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8Zm0k63UmF0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8Zm0k63UmF0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8Zm0k63UmF0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "The Care Ratings",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-08-19T07:49:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "evmkN42jrbTMr8DzpustT3l2rQU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AA6ACDauf5I"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-09T00:30:06Z",
+        "channelId": "UCDvGSx_nKvQYYlzAmFDdAaQ",
+        "title": "How to Simplify Your Aging Parent’s Medication Routine – Without the Stress",
+        "description": "Download the FREE Medication Management Checklist: https://checklist.servinglongevity.com/must-have-870752-777819 Ever ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AA6ACDauf5I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AA6ACDauf5I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AA6ACDauf5I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AA6ACDauf5I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/AA6ACDauf5I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "ExpertSense",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-09T00:30:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mCRDK8gI5yRAjKUH8GPZmjEyvok",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KnS1LsoImmY"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-28T21:31:48Z",
+        "channelId": "UC6Z6VqjDPaZ3O_8ZBIG3XnA",
+        "title": "How to Make A Medication List for your aging parent",
+        "description": "A step by step guide to making your own medication list for your elderly parent. Chapters: 0:00 Intro 0:24 As one ages, the body ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KnS1LsoImmY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KnS1LsoImmY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KnS1LsoImmY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KnS1LsoImmY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KnS1LsoImmY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MyRxPro",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-28T21:31:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mrz8auSRLTh734lFhSBzYZkmW0k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NOv8M7uDkpQ"
+      },
+      "snippet": {
+        "publishedAt": "2024-04-22T17:36:26Z",
+        "channelId": "UC6Dd-b9KInRamGxBjXwv64g",
+        "title": "The ABC&#39;s of Aging- M for Medication Management",
+        "description": "The letter M in \"The ABC's of Aging\" stands for Medication Management, a crucial aspect of caregiving for our aging parents.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NOv8M7uDkpQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NOv8M7uDkpQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NOv8M7uDkpQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NOv8M7uDkpQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NOv8M7uDkpQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Visiting Nurse Private Home Care",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-22T17:36:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "X2I-3sZl-q_AO8AAMAjG3kVmAb8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H7phY9nHmmg"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-01T03:39:21Z",
+        "channelId": "UCl0QfnQqJNIRSbS82KDLQQw",
+        "title": "How to Track Medications &amp; Appointments for Aging Parents | Family Caregiver Tips",
+        "description": "Sticky notes. Group texts. Memory. That's how most family caregivers manage care for their loved ones. There's a better way.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H7phY9nHmmg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H7phY9nHmmg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H7phY9nHmmg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H7phY9nHmmg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/H7phY9nHmmg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "ThriveKin",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-01T03:39:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OpaqQcpRGg1mMxoWw-tBPcL04EA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p8sRNKTGj9g"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-26T04:01:06Z",
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "title": "Dealing with aging parents:  Is anyone else going through this?",
+        "description": "Want to learn more about Dr. Haver and her work in the field of menopause? Check out our website: https://thepauselife.com/ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dr. Mary Claire Haver, MD",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-26T04:01:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cjdIj2u0Lp_Xqly0vHk9zPotVj8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5oMT4x6SqAE"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-31T20:08:23Z",
+        "channelId": "UCim0zx_cuaFef1fdZqg1t6A",
+        "title": "Nobody Tells You This About Caring for Aging Parents",
+        "description": "Download the toolkit in the link in my bio. https://stan.store/TheneighborhoodNP/p/get-before-the-crisis-now One missing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5oMT4x6SqAE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5oMT4x6SqAE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5oMT4x6SqAE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5oMT4x6SqAE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5oMT4x6SqAE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Erica ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-31T20:08:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MRrsBHs14Ja7Her6V1QXT446xig",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s_zytYGBIzw"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-18T09:00:27Z",
+        "channelId": "UC8AveDNxxMXzGsDd5txx0sA",
+        "title": "Did Mom Take Her Pills? A Safer Daily Medication Routine for Aging Parents",
+        "description": "Did Mom take her medication? If you care for an aging parent, this video gives you a simple, safer daily medication ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s_zytYGBIzw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s_zytYGBIzw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s_zytYGBIzw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/s_zytYGBIzw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/s_zytYGBIzw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Medical Walkthrough",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-18T09:00:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_YAltV4TFLlvN0f1czZJosXGdDQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GaiALZ7RJfo"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-18T02:22:08Z",
+        "channelId": "UCpQKE-CNlYAvKs0THJU-YdQ",
+        "title": "Helping Elderly Parents Manage Their Medicine Safely #caregiverlife #podcast #agingparents",
+        "description": "Managing medicine can become confusing and stressful for many elderly parents. Simple support like: • Pill organizers ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GaiALZ7RJfo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GaiALZ7RJfo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GaiALZ7RJfo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/GaiALZ7RJfo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/GaiALZ7RJfo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Caregiver Compass AI",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-18T02:22:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6mKP-U_X-QfylfTDrT6k3Y7GwSI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5GfeM9PpDo4"
+      },
+      "snippet": {
+        "publishedAt": "2026-08-19T10:00:12Z",
+        "channelId": "UClxEZT257Nfx7DG-l7uZnOg",
+        "title": "9 Real‑World Devices To Help Aging Parents At Home: Falls, Meds, and Alerts",
+        "description": "Caring for aging parents or a spouse and want to actually see what the tools look like in real life? In this video I walk through 9 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5GfeM9PpDo4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5GfeM9PpDo4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5GfeM9PpDo4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5GfeM9PpDo4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Modern Caregiving",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-08-19T10:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GbYK8g6YThL84yUlUJszo4gisn0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mqLj-uYGgeE"
+      },
+      "snippet": {
+        "publishedAt": "2026-09-18T01:56:29Z",
+        "channelId": "UCLURloGWKdfaTFdXlViEHog",
+        "title": "Medication Organization for Seniors | Simple Tips for Safer Medication Management",
+        "description": "Medication organization can quickly become confusing, especially when medications are taken several times throughout the day.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mqLj-uYGgeE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mqLj-uYGgeE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mqLj-uYGgeE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mqLj-uYGgeE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mqLj-uYGgeE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/mqLj-uYGgeE/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "RN Home Solutions",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-09-18T01:56:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ikWd42LRDbiWRjv2i9zSw8fsb8g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VxYiXixL2Vc"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-22T00:00:12Z",
+        "channelId": "UC97eD0rVnK5gRr41vsQJ8Kw",
+        "title": "Managing Medications for Elderly Parents",
+        "description": "Managing medications for elderly parents requires careful attention and organization. First, create a comprehensive medication ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VxYiXixL2Vc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VxYiXixL2Vc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VxYiXixL2Vc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VxYiXixL2Vc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VxYiXixL2Vc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Heart Connections",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-22T00:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l3tN3T6xF9cIpMn3Fu6SwAvzO-E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l8W5i-dLyX0"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-09T15:10:08Z",
+        "channelId": "UCTQO8K13INcGd2qX3Uui_Kw",
+        "title": "Medication Reminder Tech for Aging Parents: What Families Should Set Up First",
+        "description": "Practical tech for aging parents and the families who care for them. In this video, we look at medication reminder tech for families ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l8W5i-dLyX0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l8W5i-dLyX0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l8W5i-dLyX0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/l8W5i-dLyX0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/l8W5i-dLyX0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "ParentTechChecklist ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-09T15:10:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Zhq242xiJfC_eEVKjqVZbZ0xteY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "b9EEEaeBLBQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-02T19:00:24Z",
+        "channelId": "UCh5VP9Z2QOiM5BhkF0CXzJA",
+        "title": "The #1 Mistake When Caring for Aging Parents! #homecare #seniorcare #assistedliving #aging",
+        "description": "ElderCare #FamilyCaregiving #SeniorCare #InHomeCare #DementiaCare #HomeCare #SeniorLiving #IndependentLiving ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Plain English Attorney(R)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-02T19:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OVuo7-07osfBxQQbKbxhEy7jC9Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iIkVBfRylgE"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-24T21:00:31Z",
+        "channelId": "UChNTlybHpsHod98R_TijZWA",
+        "title": "How To Create An Accurate Medication List For An Aging Parent",
+        "description": "Keeping an accurate medication list for an aging parent can help prevent missed doses, duplicate medicines, and dangerous ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iIkVBfRylgE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iIkVBfRylgE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iIkVBfRylgE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iIkVBfRylgE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iIkVBfRylgE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Ask a Bedside Nurse",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-24T21:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rVVQI2BWGJBSwqFIXpfM1_TiZQg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "w-uJhiXUSQo"
+      },
+      "snippet": {
+        "publishedAt": "2026-03-12T14:39:46Z",
+        "channelId": "UCjmHyYhoaE-9GQC4Gt8aRQA",
+        "title": "When Seniors Refuse Medication: Caregiver Tips for Managing Pills Safely",
+        "description": "In this episode of Sandwich Stories, Lexie shares a personal and current caregiver challenge what to do when an aging parent ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w-uJhiXUSQo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w-uJhiXUSQo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w-uJhiXUSQo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/w-uJhiXUSQo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/w-uJhiXUSQo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sandwich Stories Podcast",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-03-12T14:39:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uB1alU3WqWKqqIIr7ObmZ61eVZI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "r60aPY1Z44k"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-23T18:43:38Z",
+        "channelId": "UCD6aXa5g2K9VqEObekakOvA",
+        "title": "medication management for elderly: Safer routines #Shorts",
+        "description": "medication management for elderly can feel complex, but a clear routine may make the next step easier to understand.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r60aPY1Z44k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r60aPY1Z44k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r60aPY1Z44k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/r60aPY1Z44k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/r60aPY1Z44k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fuad Mehraliyev",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-23T18:43:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qN8yUdaoV1XHrDXT34chvMRuwFE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "efKRouec8QI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-26T13:03:36Z",
+        "channelId": "UCQFOlpGTnODS_Q358vkU6tQ",
+        "title": "Medication Management for Aging Parents #shorts",
+        "description": "Multiple medications and changing schedules make it easy to miss a dose. A consistent routine and a second set of eyes prevent ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/efKRouec8QI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/efKRouec8QI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/efKRouec8QI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/efKRouec8QI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/efKRouec8QI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Caring for All Healthcare Services ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-26T13:03:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "I2KW1CUH_EGHbe0WgzpJJ0OQ8RA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KP90KC9OnaI"
+      },
+      "snippet": {
+        "publishedAt": "2026-08-17T13:47:02Z",
+        "channelId": "UClxEZT257Nfx7DG-l7uZnOg",
+        "title": "9 Real‑World Devices To Help Aging Parents At Home: Meds, Alerts &amp; Falls",
+        "description": "Caring for aging parents or a spouse and want to actually see what the tools look like in real life? In this video I walk through 9 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KP90KC9OnaI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KP90KC9OnaI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KP90KC9OnaI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KP90KC9OnaI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Modern Caregiving",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-08-17T13:47:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YsLS_m2rPqRK3ssii7gYbxQnO9M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fo9TegJNwdw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-01T04:00:25Z",
+        "channelId": "UC78RF8-4Nh73eYys3K1imkA",
+        "title": "Caregiver Support for Aging Parents | What to Do When a Parent Is Hospitalized",
+        "description": "Caregiver support is essential when managing aging parents, especially after a hospitalization. Many adult children suddenly find ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fo9TegJNwdw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fo9TegJNwdw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fo9TegJNwdw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Fo9TegJNwdw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Fo9TegJNwdw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Your Community NP",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-01T04:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J6mQ9eEcjQXM3pJPvEtlI1hsvkw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YtD8Aup5m5Q"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-24T22:00:35Z",
+        "channelId": "UChNTlybHpsHod98R_TijZWA",
+        "title": "How To Create An Accurate Medication List For An Aging Parent",
+        "description": "How to Create an Accurate Medication List for an Aging Parent Keeping an accurate medication list is an important part of helping ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YtD8Aup5m5Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YtD8Aup5m5Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YtD8Aup5m5Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YtD8Aup5m5Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YtD8Aup5m5Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Ask a Bedside Nurse",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-24T22:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fQtBllL5eAumDioMbOQiAzGtpIM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CIAiqOjtUjQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-08-15T22:39:42Z",
+        "channelId": "UClxEZT257Nfx7DG-l7uZnOg",
+        "title": "9 Helpful Tech Tools For Aging Parents: Meds, Alerts &amp; Fall Prevention",
+        "description": "If you are caring for aging parents, you should not have to rely on late‑night pill counts or “call me if you need me.” In this video I ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CIAiqOjtUjQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CIAiqOjtUjQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CIAiqOjtUjQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CIAiqOjtUjQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CIAiqOjtUjQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Modern Caregiving",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-08-15T22:39:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jsUflN5yZQJ_TX5SHR-0qlxAOjo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Gp4fj9uCK3I"
+      },
+      "snippet": {
+        "publishedAt": "2026-03-18T06:46:47Z",
+        "channelId": "UC0r_z54jDLGGKQd2lG2zXxA",
+        "title": "STOP Medication Mistakes in Elderly Parents NOW #eldercare #nursing #shorts #youtubeshorts #ytshorts",
+        "description": "Many families unknowingly make mistakes while giving medicines to elderly parents. Managing multiple medications ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Gp4fj9uCK3I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Gp4fj9uCK3I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Gp4fj9uCK3I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Gp4fj9uCK3I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Gp4fj9uCK3I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Compassia Health Services",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-03-18T06:46:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "emE_FhhxE2ul8R3Oody4nzAa_-8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zETilDdhNp8"
+      },
+      "snippet": {
+        "publishedAt": "2026-04-18T13:47:18Z",
+        "channelId": "UC6GtNu9fUME-IgK-xn1p2ig",
+        "title": "How Elderly Parents Can Organise Their Daily Medicines | ARKVAL Demo",
+        "description": "For elderly parents managing 5, 7, even 10 medicines every day, mixing up similar-looking strips is a real risk — and it happens ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zETilDdhNp8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zETilDdhNp8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zETilDdhNp8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zETilDdhNp8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zETilDdhNp8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Arkval Medicine Organizer",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-04-18T13:47:18Z"
+      }
+    }
+  ]
+}

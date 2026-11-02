@@ -1,0 +1,3600 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "7N8rTxMyb8V5vL-HP80p9Le453M",
+  "nextPageToken": "Z2V0X3JhbmtlZF9zdHJlYW1zLS1DcTBHQ0lBRUZSZTMwVGdhb2dZS25BWUkyRjhRZ0FRWUJ5S1JCb1BNQjZicFlJZHpTTVJOOEVpQ1FoTDFPaVpEd3ppSVI5dHNVQ0VNbFgyV21LMnRUZWpCb3Qwb1NnNnprYU9SWW80b3NwSHVkLTdhTnZ2eU9RUmt6OEdITmxlMTVDNUVUalNKU3pSbGtrS0toMnFsWUZOZXphaDUydDdNYkN6SVhJZ0tDWjJ4OEdRREdybzk2S0EweldJaDBtVEtpUnFQWGlKZW1fVWFIcTZKQXVrV21sRWpWVE5WV2hycGRwYlRFcmNwVlpGallCYzFLcWd6aTRTQmZTQU5CNGtoMEpXYjJYeXNIazBUTjFxazFCLVFZaGxUOXpWSzRFRkk1N1FPY1J6TV9Ec1Zra0t2dVlwSVBoREZuelBTaVZBUU40NjhGcDZTV0VyU25vekN3OTJTU0JzR1ppdElMYW5FY1FyNy0tNVMyMlhDTHNNbzVsS1RjcGF3TUc0M0RVZFJxNWs5SHJnby1pWUJYWkpJRTllTWJKcmMxRE5Ma3lGSVc5MmxJY3MyR2NfRWdpOWFyandKbGl1TnNkWk1ReHJYYUlJLVV3eDhsTWE4SlRZWC0wTlJJNnlJV0VSUzhHV292ZklraTdCU2NXUlduVnJCYWNwemVGb3drZUp4cklTdUtWU1pkUzl6anBTN0RWbXg0YURlN09XTmlHaGdJMjJsakRFN294VnFha1Jsb0o3UENZbXBCV3k2R2FHd2stUUJENldIby1SUWZHRkxhRkdGdFpNaF9fcGFqTzJJNUVGckpOeFUyYU1FTGtVTUs4bG93VXJReFhHZmhOYVNTRDNRdWxoV1ExSEhTLUlQZ1N5TUY5bFhFVGRSbktUNkp0dWkzWmZBSGZ1SVZIclAyTVZ0U0U5bVdVVmxtS0lzcGFrMG1sdkdoMG1La0NyUnpqWWF0YXgxRDY1amtCTUxINnhpdUpsU21UQXJzUkY5SU9KbXlVZ0hwMXNoNzRQOHhiRXB0WURzbzFiVFRPUzlTSlF3SVpPV1F4SWQ4NEptSnAzTXNYQ1N0SkJkQnlzbWpVeE5yVTlHWk5kb1dRbGYwS1hiaURjemNkU2t3Y1Ewb0FiT3laNWIyc1ZJV0tTR3FIeGlNWGFmVksyZ0xob2tTVFBUeVF3RGY2Ylp1alhGWmVka3lxcG95QmJFaXBuRXhNekxnRXpCYW1HZEdPMmE5MmtVRk50b3d5TlQwVG01VkNNdGc3YXE2UFpFMmxBNXJxa05wZWQyUWN0bmZsazFXcXNiSVZacWhIemdkT1htZHNCcTFYZmpJQUVMb21saGJPVkJ4VGl4cExQcVNwRkVZaEJtdm9YTTdvWk1uSm5vckdSR2JTSHJrUXVWdUFiaXFRNU1VX0trSXN6alJfR3RDbVhpTW5veXpGeGxxNDhNRU1nQkVnVUlxQ0FZQUJJRkNJZ2dHQUFTQlFpSklCZ0FFZ1VJaHlBWUFCSUZDSVlnR0FBU0JRakFJQmdBRWdnSWhTQVF5QUVZQVJJRkNKOGdHQUFTQlFqRElCZ0FFZ1VJdXlBWUFGQUFXQUU=",
+  "pageInfo": {
+    "totalResults": 100,
+    "resultsPerPage": 100
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "1HKSN2LuHcM5dIZkGl1_g4qUGkY",
+      "id": "Ugy8-UR177r_DyEjLbl4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "dGUDi-vJpGMZgnp9CcHh7ceI-qU",
+          "id": "Ugy8-UR177r_DyEjLbl4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Raising children 101.",
+            "textOriginal": "Raising children 101.",
+            "authorDisplayName": "@DixieSweetheart",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/_IDQ4PHjEMYQmp571B4_tVgqevhaJ5RJ7s2dltet7n1UuZl0BPL3eghnKAy2K9vMYgDjC3wx=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@DixieSweetheart",
+            "authorChannelId": {
+              "value": "UClyCnhT8JFpyPAeVgq8EGNg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-07-12T02:06:09Z",
+            "updatedAt": "2024-07-12T02:06:09Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "DNJ_IfZEyzPfPtwdmCMNO9xUVsA",
+      "id": "Ugze5gcFXlE9uP9m2sN4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "jLQMWWcpFnuPYwxNplhC32THdyY",
+          "id": "Ugze5gcFXlE9uP9m2sN4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "I do like this bit of advice.",
+            "textOriginal": "I do like this bit of advice.",
+            "authorDisplayName": "@Pitch3rdWingbk",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/BUDH0JfyHyptPk9-CbUA8cRBG87oTfuDG2bIPo1KImanDJmTaKoUc1ziy5pA7OjEWVgNgV7i=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Pitch3rdWingbk",
+            "authorChannelId": {
+              "value": "UC3bZ_b3DCfiGM8gSHdxlSgg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-11-10T06:31:05Z",
+            "updatedAt": "2024-11-10T06:31:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "-ILYYxBWdk5eFK5vpHoIajcd-C0",
+      "id": "UgzizV4QJovCFa3ZCUZ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "gGva3zDcRNYnNRp5XLzbqwKoer4",
+          "id": "UgzizV4QJovCFa3ZCUZ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "I need to really learn this technique",
+            "textOriginal": "I need to really learn this technique",
+            "authorDisplayName": "@cwfain",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lEGquwYO-ObjVkpkeQ3HMCzXNFKWvXxK7vgcc9_NGutGk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@cwfain",
+            "authorChannelId": {
+              "value": "UCu7YiA4H0vmKCIStkLqwjYw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-09T23:48:32Z",
+            "updatedAt": "2025-10-09T23:48:32Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WsQd16CKFqSRGzXY0Xydu356QsY",
+      "id": "UgxZOX1Kfx0eVGs6xT94AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "JYqPWvFeZjxkPOoXEXh4riDulKI",
+          "id": "UgxZOX1Kfx0eVGs6xT94AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Ahhh you just helped me figure something out 🙏",
+            "textOriginal": "Ahhh you just helped me figure something out 🙏",
+            "authorDisplayName": "@saltysurfer-e8e",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/kKFaBeNXvOpaToU6AGhZcFOqrDJogVVl-4F0Yn3OM_v3qQmE9TIF4Adl_77oWocHQXbl6fpx=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@saltysurfer-e8e",
+            "authorChannelId": {
+              "value": "UCCtntYEAFjV3i0gtzJcqPxA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-01-19T19:40:50Z",
+            "updatedAt": "2025-01-19T19:40:50Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2FzVAec4ohT9u16-MVw3JOXlpeY",
+      "id": "UgyNcJFjEUmyb0JXHwJ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "u2O85T4cEgf9Lk5BVX424QHkcSM",
+          "id": "UgyNcJFjEUmyb0JXHwJ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "💯🎯So helpful 🎉",
+            "textOriginal": "💯🎯So helpful 🎉",
+            "authorDisplayName": "@MsNoquitter",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kc5k5IQjKeiQ1WAukwZEsRoRAKxmxAwqAI8dGaa4A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MsNoquitter",
+            "authorChannelId": {
+              "value": "UCj8FKWMp7xwCDpRyNmc5oyA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-04-16T02:59:48Z",
+            "updatedAt": "2024-04-16T02:59:48Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "KfvU7X1AA9jGF-5M0OPIoL6JK1M",
+      "id": "Ugz0RsnCUvqLBTjkNXF4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "3eKUuXoz9fCCcBJHwDpbJuAeOaQ",
+          "id": "Ugz0RsnCUvqLBTjkNXF4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Yes, i do that! ❤ It works.",
+            "textOriginal": "Yes, i do that! ❤ It works.",
+            "authorDisplayName": "@summergirl15",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/N1wfU7P61yIuFFH_TTbaq7ENWktNlBfyMNJrZPB2uhzAlEgvI-jCrBVPFQW0TPuUXMYz-YdU1Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@summergirl15",
+            "authorChannelId": {
+              "value": "UCFMz-MLHxa7Rp7ip7oNgcEw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-07-16T23:47:26Z",
+            "updatedAt": "2024-07-16T23:47:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "tiQFzz6-bwyMsSxxJjjvPgB8wYQ",
+      "id": "UgzxLNA98ksb1LLTx894AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-gxv4uReimGv4s2TWNormjQwmtg",
+          "id": "UgzxLNA98ksb1LLTx894AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Brilliant ..I always say that ..for babies as well ..don&#39;t use that no words ..redirect  or use a different word .",
+            "textOriginal": "Brilliant ..I always say that ..for babies as well ..don't use that no words ..redirect  or use a different word .",
+            "authorDisplayName": "@shireenbrand9221",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m76syoI3DetuPYlPMmLZmOA9zTs_u6ItTX0bfUl7k=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@shireenbrand9221",
+            "authorChannelId": {
+              "value": "UClD8VEqWYmzD23vIv0rJekQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-07-23T08:07:53Z",
+            "updatedAt": "2024-07-23T08:07:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "tNI9_ggmdYra79d0xcsQtD4Z56k",
+      "id": "Ugz2bM64QfKSLX_vfdt4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "7EkAs1NwxDqMcRVePvb0d74d_A0",
+          "id": "Ugz2bM64QfKSLX_vfdt4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Wise tip. Thank you.",
+            "textOriginal": "Wise tip. Thank you.",
+            "authorDisplayName": "@mosesmom",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/83gllxbHXpCSfHvlZZpqOYhEzqmTciInb92EtghOJmJmMYWbGaf1poRpYcAnSULFkbjtr60twA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@mosesmom",
+            "authorChannelId": {
+              "value": "UCe7BSiw3gdPLpaTxVLUfafQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-04-20T03:50:47Z",
+            "updatedAt": "2024-04-20T03:50:47Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Ywi55yCV6L7MM0z2wi3ki1ICXKI",
+      "id": "UgzeAw6f2hDMy3KVn4p4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "XVB5wyo05_FTTohJBU1gb-cOYQA",
+          "id": "UgzeAw6f2hDMy3KVn4p4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Thank you for this info.❤❤❤❤❤❤😊😊😊😊😊😊😊😊",
+            "textOriginal": "Thank you for this info.❤❤❤❤❤❤😊😊😊😊😊😊😊😊",
+            "authorDisplayName": "@stephanietorres5679",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kpHwmaKpqgMOLDH5q3McZIjejerT907SJY1OL3H8I=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@stephanietorres5679",
+            "authorChannelId": {
+              "value": "UCr3gEe4Eo7N8XHR64ghgDwA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-05-03T20:40:58Z",
+            "updatedAt": "2024-05-03T20:40:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "AIeUpY2131hSMxSVs5gCB8MMqro",
+      "id": "Ugy93eVeU-w8rrIuUdB4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "RpW67OQNgwrykBelTLHzAKo3sWU",
+          "id": "Ugy93eVeU-w8rrIuUdB4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Yup absolutely right on❤",
+            "textOriginal": "Yup absolutely right on❤",
+            "authorDisplayName": "@wandastatton6964",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mCZxEB4n1uRX1fx2jNbXYlWcUfurhNhkjZnviCjzY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@wandastatton6964",
+            "authorChannelId": {
+              "value": "UCovc7q1oRWCGsAO1co1kqgg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-10-16T17:08:54Z",
+            "updatedAt": "2024-10-16T17:08:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2R1lsbdAAt93QU2xo8XyUNgo15I",
+      "id": "UgxkbUaflcFEK8XM-x14AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "RD6oQ8sUflPm567yPQ0HeHTIwl8",
+          "id": "UgxkbUaflcFEK8XM-x14AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "What if they are fixated on it, like the mail?  It’s a strong, daily fixation and she doesn’t forget that?",
+            "textOriginal": "What if they are fixated on it, like the mail?  It’s a strong, daily fixation and she doesn’t forget that?",
+            "authorDisplayName": "@missy6962",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kIQd925lZn3kNvSQBuSIvxotU3QPyWJUGr6nl8J4Bbkl1bcFpzgHabStJf-LedxUFwQA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@missy6962",
+            "authorChannelId": {
+              "value": "UC2QVhkys0zNXdSymEES0BKg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-08-28T12:27:26Z",
+            "updatedAt": "2026-08-28T12:27:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "QHrtc6EmJ7GVly2zzeYgyj--13c",
+      "id": "Ugz98s0S-8IupKqTLm94AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "f_bTO6BVNqM8nhtZfCuRWZ5eoas",
+          "id": "Ugz98s0S-8IupKqTLm94AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "this is basically the three Rs respond reassure and redirected",
+            "textOriginal": "this is basically the three Rs respond reassure and redirected",
+            "authorDisplayName": "@gofiodetrigo8756",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_npriP_hfDblZ9jOe6k7p2XRl3FIObo0zdKd6jB_TeilQc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@gofiodetrigo8756",
+            "authorChannelId": {
+              "value": "UCa9Vtk1dNeMW6PtXPIfO9-A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-25T22:16:05Z",
+            "updatedAt": "2025-04-25T22:16:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5JrIccYkWRWjYTY2kwUVxqQN5Bs",
+      "id": "Ugwzxxk3DxfaCOfKSYF4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "0Ctz1m8dJWAcFkxHoEJTvVCBefs",
+          "id": "Ugwzxxk3DxfaCOfKSYF4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "That&#39;s a great rule for small children and training pets. Thanks!",
+            "textOriginal": "That's a great rule for small children and training pets. Thanks!",
+            "authorDisplayName": "@MidlifeSecrets",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/A0yjiCoX-4VssQLvtUW7s50AiF1hrPHY9uDjZia7mVpoEGmrMolJ01X2e4SL9KYxmqEWLWeHoQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MidlifeSecrets",
+            "authorChannelId": {
+              "value": "UCE_qdLM9FYmc4UE4ds1czUQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-30T00:32:55Z",
+            "updatedAt": "2025-04-30T00:32:55Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "V8ZLpZYxehvXty3Q_Ko9ypxQC_4",
+      "id": "Ugy2cPXiOUaiWl--QlZ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "83LeYM0BgEcVOXy6RXc8MT4m-tc",
+          "id": "Ugy2cPXiOUaiWl--QlZ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Great tip …. Thank you 😊",
+            "textOriginal": "Great tip …. Thank you 😊",
+            "authorDisplayName": "@Divineunlimitedenergy",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/eaiwuDdFTCG9zkBtTKlWa5lwcoCTEAeCVAIBX2yGtY_jqV_wr63d-rkAl2ZCKXe6p4PzuPloZ3E=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Divineunlimitedenergy",
+            "authorChannelId": {
+              "value": "UCf1vXEkviYHixtOyenXVnLQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-02T17:57:27Z",
+            "updatedAt": "2025-04-02T17:57:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "g2IK7TzoeopIS4-cDqYfMlvHpWk",
+      "id": "UgyZK-GE89Sfl2TXaQ94AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "0VysblkZwn7djUIjXMq2Mn32GIk",
+          "id": "UgyZK-GE89Sfl2TXaQ94AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "THAT IS BEING LOVE AND RESPECTING",
+            "textOriginal": "THAT IS BEING LOVE AND RESPECTING",
+            "authorDisplayName": "@marylind6626",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lZDeafDQ8RKY_ZPWpk8yenw0t6yeHrdCdz0E8gfOI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@marylind6626",
+            "authorChannelId": {
+              "value": "UCKXyLglsqytWqecJX527MeQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-08-14T00:28:10Z",
+            "updatedAt": "2025-08-14T00:28:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "E9zCqXfgHv_EgCmZxnAkLHyKMDo",
+      "id": "UgxCSHImVDPmnioZUB94AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9RnLR_-MH2h-S_akfH9mxhqsSY4",
+          "id": "UgxCSHImVDPmnioZUB94AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Excellent tip - thank you!",
+            "textOriginal": "Excellent tip - thank you!",
+            "authorDisplayName": "@poppysunflower8736",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/hD1YQk-Beahr0oSyyXsQxTO6TzYfUHDHxwQN6hJdLeXfegPrwaIJrGyen6G_dBDM7wE7aF2Hpg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@poppysunflower8736",
+            "authorChannelId": {
+              "value": "UCGOURkiqkJcIOMQQxUCqSFw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-08-27T04:24:09Z",
+            "updatedAt": "2025-08-27T04:24:09Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "hJVorYkGhsj9ckd2EpCWMTCTYHQ",
+            "id": "UgxCSHImVDPmnioZUB94AaABAg.AMJ_i2Gczz_AMKrErLSe5z",
+            "snippet": {
+              "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+              "videoId": "4MxNB0BAjQE",
+              "textDisplay": "Glad it was helpful!",
+              "textOriginal": "Glad it was helpful!",
+              "parentId": "UgxCSHImVDPmnioZUB94AaABAg",
+              "authorDisplayName": "@DementiaCareblazers",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/5-vHT3WgInmlhNPStYptXYQkgwc4JoWlu5sfB0AjxBfbTrIYyOkvCv9gZbOT9dPalQdnET2yTqc=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/@DementiaCareblazers",
+              "authorChannelId": {
+                "value": "UCVgK5-w1dilMx7bPVB5yNug"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2025-08-27T16:16:33Z",
+              "updatedAt": "2025-08-27T16:16:33Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "uN5J5YImopbOU0Qa7uhPlFGBCaY",
+      "id": "Ugy9Onpo7DRvBMSVpWB4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "m78NbPKkbNm0aXI_9HjhynpUohM",
+          "id": "Ugy9Onpo7DRvBMSVpWB4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Yes, redirect as we do with young children.",
+            "textOriginal": "Yes, redirect as we do with young children.",
+            "authorDisplayName": "@annesilverman469",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kuqUsB1_EGEXn3Fs2kZdpc6LGpfEeUoQU5eM0u_xDaInY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@annesilverman469",
+            "authorChannelId": {
+              "value": "UCkQsKKK4sEWOI8gy25nzOGA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-08-15T01:50:32Z",
+            "updatedAt": "2024-08-15T01:50:32Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "G1tUbOGMOjva_JcWrzhK8TtKUDQ",
+      "id": "UgymPS9SmZOWbv5opa54AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "jbvNRSC3jOU0Mlh-YmlgPMWLwWM",
+          "id": "UgymPS9SmZOWbv5opa54AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "I love that great advice 😊",
+            "textOriginal": "I love that great advice 😊",
+            "authorDisplayName": "@moniquejackson8635",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l08AlM2O2F42dfw6Q8t6iYrlZ3P47CwxMMl6smyYBXybA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@moniquejackson8635",
+            "authorChannelId": {
+              "value": "UCNkReiaZkfy197v9sS5w5sQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-01-06T23:01:25Z",
+            "updatedAt": "2025-01-06T23:01:25Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "k3OEhyeWXRwUoVLCKQEBiRVoHR4",
+      "id": "Ugy5COWTQquOSPKQ3xF4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "QlMKMvmjTCc1TZKpmbhN8TjPzpI",
+          "id": "Ugy5COWTQquOSPKQ3xF4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Ayos ka teh.....by the time u reached yer prime sana lang ako ang caregiver mo 😂😂😂❤❤❤",
+            "textOriginal": "Ayos ka teh.....by the time u reached yer prime sana lang ako ang caregiver mo 😂😂😂❤❤❤",
+            "authorDisplayName": "@pammiesingkho1786",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mJNfWASFuRu9rm6tfMYcMc4YjPkfjVUbI-mg2xTC7cUUI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@pammiesingkho1786",
+            "authorChannelId": {
+              "value": "UCLICcsFJVG_AFJynOcBJuqA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-04-16T12:02:45Z",
+            "updatedAt": "2024-04-16T12:02:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "zuvwoqS4j7dEdyxUFUqt8osjXYM",
+      "id": "UgwUOhyzCL6GeWFixy54AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "okp1gX0viaDgyXIYqciWbaiymz8",
+          "id": "UgwUOhyzCL6GeWFixy54AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Thanku so much for that",
+            "textOriginal": "Thanku so much for that",
+            "authorDisplayName": "@memories7042",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n9f27MEhUYFiE2yN6l_9UXfmS4x5w3MAO2It4BX2o=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@memories7042",
+            "authorChannelId": {
+              "value": "UCrqXUok15r0l0iQCb35oGUg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-04-16T20:02:26Z",
+            "updatedAt": "2024-04-16T20:02:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "zXOuL65ktzXI8bj0WxGslZzbuaA",
+      "id": "Ugx4MkNQDUajZ4zIE2V4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-BxXyUaxo8A5aOVQnw19lFOtJJk",
+          "id": "Ugx4MkNQDUajZ4zIE2V4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "you are great -----Thank you  Hare Krishna",
+            "textOriginal": "you are great -----Thank you  Hare Krishna",
+            "authorDisplayName": "@rsikumardasa1983",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kKeS7lA1iaczlHDYR46b5t82GLeEtgYaAeHXDVXpK2Lg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@rsikumardasa1983",
+            "authorChannelId": {
+              "value": "UCnbbDxpGU18JOFNWSSBOJvw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-05-16T09:10:48Z",
+            "updatedAt": "2026-05-16T09:10:48Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "2nmsEf1hOeM8hiLTnjfoMibgJds",
+      "id": "UgyS7YDSKTDHZAQcpfh4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "LrjrmaIseUvlr5oNwuiNXMn-Bb4",
+          "id": "UgyS7YDSKTDHZAQcpfh4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Thanks for the reminder!",
+            "textOriginal": "Thanks for the reminder!",
+            "authorDisplayName": "@sunsetsteph7254",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kRU-vBo8w9qlkLK570aAl3p9V483WAspRcMMMsrTCong=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sunsetsteph7254",
+            "authorChannelId": {
+              "value": "UCb_wQk300JkMjiU-5hekaDw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-30T01:55:59Z",
+            "updatedAt": "2025-11-30T01:55:59Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "a1ba13-qfiCPjBiGic4mLULmYl8",
+            "id": "UgyS7YDSKTDHZAQcpfh4AaABAg.AQ7wGzxOVesAQCCCxNP3qW",
+            "snippet": {
+              "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+              "videoId": "4MxNB0BAjQE",
+              "textDisplay": "It&#39;s my pleasure!",
+              "textOriginal": "It's my pleasure!",
+              "parentId": "UgyS7YDSKTDHZAQcpfh4AaABAg",
+              "authorDisplayName": "@DementiaCareblazers",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/5-vHT3WgInmlhNPStYptXYQkgwc4JoWlu5sfB0AjxBfbTrIYyOkvCv9gZbOT9dPalQdnET2yTqc=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/@DementiaCareblazers",
+              "authorChannelId": {
+                "value": "UCVgK5-w1dilMx7bPVB5yNug"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2025-12-01T17:40:56Z",
+              "updatedAt": "2025-12-01T17:40:56Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ayBJR6e4VfZcdFiyXOqDKtU-ZiI",
+      "id": "UgwSufU2Fz5h4brUJEZ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "HqnoSysXZntSKB0-ynmldkKQle4",
+          "id": "UgwSufU2Fz5h4brUJEZ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Yes!!! Distraction is 🔑. 👏🏾👏🏾💯💯👏🏾👏🏾",
+            "textOriginal": "Yes!!! Distraction is 🔑. 👏🏾👏🏾💯💯👏🏾👏🏾",
+            "authorDisplayName": "@tarao4382",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_muPF82e5L3NnrOjV1s5HgdFmfRnpbIeSwRq0LI0V65FSA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tarao4382",
+            "authorChannelId": {
+              "value": "UC3QFQb7iBFQdLArimPPSmdQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-02T22:56:40Z",
+            "updatedAt": "2025-04-02T22:56:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EsICK9Hc_RbdybJicvA29vy-rNA",
+      "id": "UgwsNZ1CqjLn69-iQvB4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "NL-JMYpwn_wWM1jLPQM5Ro0PHXw",
+          "id": "UgwsNZ1CqjLn69-iQvB4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Excellent tip",
+            "textOriginal": "Excellent tip",
+            "authorDisplayName": "@sarahmurphy-nf4yl",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_ln-9HYXgytSDFQbDRDb_rgH6bzytH6hE2dknWeVZrk6K8go1x19Eeds3jB779sjKtoDw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@sarahmurphy-nf4yl",
+            "authorChannelId": {
+              "value": "UCCbtB1Tek_rE22epTfLvggQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-12T23:05:10Z",
+            "updatedAt": "2025-05-12T23:05:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "EtrvwE8iQk6nE6F3dHIzg0mOFoE",
+      "id": "UgyiLmQi5Th6DdM68dd4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "sJ2Ha0oghjcjctp6oR6oTpwhQPY",
+          "id": "UgyiLmQi5Th6DdM68dd4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Its very tough…",
+            "textOriginal": "Its very tough…",
+            "authorDisplayName": "@ZuzuMooBnR",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/IS6U1c2cd1yIFh_B6B-nRHjyTlLgT_Ik9Lxwoi0T9iMwGSIizdw_sbz98LNfYDPniL0Zgfl_0A=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ZuzuMooBnR",
+            "authorChannelId": {
+              "value": "UCxaJwYOj4YCHzMCfLEztA8Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-05-04T05:06:02Z",
+            "updatedAt": "2024-05-04T05:06:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "LqOuTgMvt1apWY5FBWJ8EX813t4",
+      "id": "UgyNcbxiO9VtQlg9rxJ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "OeP3-ROEjdqkEPHRO8dVBngz3j8",
+          "id": "UgyNcbxiO9VtQlg9rxJ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "That is awesome, there is a cure for demwntia❤❤❤❤🎉🎉🎉🎉🎉",
+            "textOriginal": "That is awesome, there is a cure for demwntia❤❤❤❤🎉🎉🎉🎉🎉",
+            "authorDisplayName": "@GOK_333",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/7Cx050-PopfqcgmDZA-3QAlnao58fPtMo-ecwRO76nr_VHy6GfwMExCin_G9qGYd97vMykgFxw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@GOK_333",
+            "authorChannelId": {
+              "value": "UCU8-CMi0x-c9hUk4ofzWffw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-05-04T07:09:02Z",
+            "updatedAt": "2025-05-04T07:09:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "VNJ-cL7yLom9qAbhoDeq2TqFKz8",
+      "id": "UgytVyQVvfZJpf85K-94AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "rPSIDB9wJ-9nCR5iVNl03Jk0ZZw",
+          "id": "UgytVyQVvfZJpf85K-94AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Any advice for a caregiver who is having there hair pulled by there patient? The patients geriatric psychiatrist does say to tell the patient &quot;no&quot;. Sometimes she laughs it off and other times she breaks things from anger. She does have trichotillomania ( hair pulling disorder)",
+            "textOriginal": "Any advice for a caregiver who is having there hair pulled by there patient? The patients geriatric psychiatrist does say to tell the patient \"no\". Sometimes she laughs it off and other times she breaks things from anger. She does have trichotillomania ( hair pulling disorder)",
+            "authorDisplayName": "@candicemartin2839",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/lOsG14uAN2NLGoPnYdHxrX06NumYmIRWyUxmu5y4llZdJWpQiohrUuD_rWpzQotfUI3eq1zMrw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@candicemartin2839",
+            "authorChannelId": {
+              "value": "UC5yoO4HgP0yACge7zTSHgyA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-23T20:08:21Z",
+            "updatedAt": "2025-10-23T20:09:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "9Mnmx-DIllU-yLOEq2fRxIitvrI",
+      "id": "Ugyu8WyKWzf7Tnded7d4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "1mSIO1F4AKRTMGmb3HjvtJ2i8Sc",
+          "id": "Ugyu8WyKWzf7Tnded7d4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "for my situation this does not work most of the time.",
+            "textOriginal": "for my situation this does not work most of the time.",
+            "authorDisplayName": "@creelee6642",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mFKfiWeV-bXFVvODaIdAuILKD8ToaZ2d2BTgv5R8w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@creelee6642",
+            "authorChannelId": {
+              "value": "UCDhJI_ND6kHbrX31JQrY9vw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-07-23T12:11:43Z",
+            "updatedAt": "2024-07-23T12:11:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "_-HFdhTjVGrcyieiOdU-ueRjWUI",
+      "id": "UgxTsFzt0pce87SmlgR4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "tZjQ_ihu0lkApN9jczt5pZ8_pes",
+          "id": "UgxTsFzt0pce87SmlgR4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Yeah, this one I figured out on my own through trial and error.",
+            "textOriginal": "Yeah, this one I figured out on my own through trial and error.",
+            "authorDisplayName": "@JohnsJohnson-ns5xm",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nkHMdD8-iph0EM_9XXOHFTX5yr1_08Pyl5RsRmTC8NcKJnWauEhfigEgk72JRwumN-OA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@JohnsJohnson-ns5xm",
+            "authorChannelId": {
+              "value": "UCdIgy9PSwJCrUsRO63nIsHA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-28T05:49:27Z",
+            "updatedAt": "2026-04-28T05:49:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "IIcbrJM6TGS1Z2T5-EfRhqyU83Y",
+      "id": "Ugxc1q44uDl4gN5Oe3B4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4ZVssNdVNFDyFcx1wtSO9DnwlGM",
+          "id": "Ugxc1q44uDl4gN5Oe3B4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "That&#39;s the best approach!",
+            "textOriginal": "That's the best approach!",
+            "authorDisplayName": "@mariaellis717",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mHmuU06D7d5sBRgDRpRTvVd8vsSTtRz8SeQaLfhG4HVx1vDFIuKij6U4A3NXKz4jBOYA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@mariaellis717",
+            "authorChannelId": {
+              "value": "UCsfcyESBk73bIjMPtD8DJvw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-07-16T10:58:49Z",
+            "updatedAt": "2024-07-16T10:58:49Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "iXR01-dvlMkCEa8hNYunyxL6Q7I",
+      "id": "UgwJWUNtbAKraQu4U_B4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "pHU8HMujW4760L7nO3S5iBmqbpY",
+          "id": "UgwJWUNtbAKraQu4U_B4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Diversional therapy, it works on small children too 🥰",
+            "textOriginal": "Diversional therapy, it works on small children too 🥰",
+            "authorDisplayName": "@tinaphilip7782",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kSPHshnSq_DhrX-MvFte91H8EiMjssZlNZjx4LmtbFEQ8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tinaphilip7782",
+            "authorChannelId": {
+              "value": "UCmdEnod-PpF5ddtzKsNjkEg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-07-25T14:56:52Z",
+            "updatedAt": "2024-07-25T14:56:52Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "0JA0ywdKmlhXkZxHb72uTl7xoh8",
+      "id": "UgzewL_JnHuLco8SgBl4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Ka0nq_avTRfWsfilpu7jik_Pu1w",
+          "id": "UgzewL_JnHuLco8SgBl4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "I do this with my toddler. Redirect to something else. The more you say no, they want to do it even more.",
+            "textOriginal": "I do this with my toddler. Redirect to something else. The more you say no, they want to do it even more.",
+            "authorDisplayName": "@essenceunique5968",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/okOeQ5lEj-m3PiHYGg3b-VPQyoxP4J5Ys9ntayKgymzBBi6_PDGcirtknnDT59mhSZbJ2R82jA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@essenceunique5968",
+            "authorChannelId": {
+              "value": "UCUqrQalxWetT6-152RgSQoQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-06-24T11:23:52Z",
+            "updatedAt": "2025-06-24T11:23:52Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "IKHyY9lhKj85DHNOG8193gY4Gtc",
+      "id": "Ugw3o5YzwzkfK-FDAOR4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "B86THQyPrUNxp0s8nzHbYhayYXU",
+          "id": "Ugw3o5YzwzkfK-FDAOR4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Great tips",
+            "textOriginal": "Great tips",
+            "authorDisplayName": "@straightoutofstrat8722",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nSBbNd0Y6E9sfiGdbZdgNZP4Y08NpQHUJsrmXcbhaBnJc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@straightoutofstrat8722",
+            "authorChannelId": {
+              "value": "UCPv9HMp66AlkojR1iHf8LAg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-07-21T13:06:47Z",
+            "updatedAt": "2024-07-21T13:06:47Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WWNH1XvaYpt2gMKTdovdjcaeG08",
+      "id": "UgzuRxHshvUYNohIMKF4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9fwkGSqSPSAMM5SUkimI0lpDmRo",
+          "id": "UgzuRxHshvUYNohIMKF4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Works!  And its better for patient.",
+            "textOriginal": "Works!  And its better for patient.",
+            "authorDisplayName": "@cindyriehm7411",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lcevHo1ajECwmGYPaLsM9bnPgjp-q_7Rf-xELl9Nc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@cindyriehm7411",
+            "authorChannelId": {
+              "value": "UCRJADUkw2QGFugMwL85_tKw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-23T00:08:56Z",
+            "updatedAt": "2025-05-23T00:08:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ezTmVPm8qTFVUEqLhTSRH_cmKaE",
+      "id": "UgzbCL9b_Ssz_2FnN4N4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "lfmGVlOU6Js6lSQlJov7-sbPsZM",
+          "id": "UgzbCL9b_Ssz_2FnN4N4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "May this situation never find me.",
+            "textOriginal": "May this situation never find me.",
+            "authorDisplayName": "@MC-vd5kp",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mhyGxxl7xXXPIIgsl_E2Gko4gD33s9lm_oUpBS_90=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MC-vd5kp",
+            "authorChannelId": {
+              "value": "UCJZPLUfz8vK12zCH0SPKBWg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-05T05:32:22Z",
+            "updatedAt": "2025-04-05T05:32:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Qdkvsnqgm6l3BbCUdhlqQZI7QjU",
+      "id": "UgxhPfBMLEs6LWMYF4F4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "rNJbyQp25CQ57-nKIlHYpI3x8oA",
+          "id": "UgxhPfBMLEs6LWMYF4F4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Give Biden help he needs.",
+            "textOriginal": "Give Biden help he needs.",
+            "authorDisplayName": "@otiebrown9999",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nsg6p2kBGWRLX2FY8TH-dOyfcZ-lPZ7L7-F7jL1UY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@otiebrown9999",
+            "authorChannelId": {
+              "value": "UC-sSvw41Ce_nsRKgNNNbZ6A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2024-07-14T20:15:51Z",
+            "updatedAt": "2024-07-14T20:15:51Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "glQWfjU5iP4Aomt2shk7tNlwlJQ",
+      "id": "UgwvCWBeOfA0A8EStt14AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "9lucMgXtJSG0kS4m1jMu6zbHH9s",
+          "id": "UgwvCWBeOfA0A8EStt14AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "yeh sure...rly rly  hard to do",
+            "textOriginal": "yeh sure...rly rly  hard to do",
+            "authorDisplayName": "@phillp7777",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nByUmdB93HLB94huoJb0HI0KgQUc056wgaBbgURd8=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@phillp7777",
+            "authorChannelId": {
+              "value": "UCOGMLBFioyB7nR0B9cyruFQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-07-08T16:32:54Z",
+            "updatedAt": "2025-07-08T16:33:01Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "YzXSGUETlph9ndYzqhum78QEj6I",
+      "id": "UgxlcCdDwPbR1nytoPN4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "7EftlxBbDxPRxREx7sTLnU_RvM4",
+          "id": "UgxlcCdDwPbR1nytoPN4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Great tip ❤",
+            "textOriginal": "Great tip ❤",
+            "authorDisplayName": "@CarewithChloe",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/rIhYeCT2gIXvhBrIB6TLt4GXkYls3-VUYx_fPN2Has2Ubd2y-hwWg4qYfA6tlBecRzwM7zZoTQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@CarewithChloe",
+            "authorChannelId": {
+              "value": "UCcmtlGa7cz_XzuQ0s_strvA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-08-06T20:42:10Z",
+            "updatedAt": "2026-08-06T20:42:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "8SEwR7KQbgHNjPwnjAb5SjxcODM",
+      "id": "UgxcxgVYg7Blra2zkmV4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "YHRXQp9n7K8CCify_L_93jnctgs",
+          "id": "UgxcxgVYg7Blra2zkmV4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Also good advice for dealing with children",
+            "textOriginal": "Also good advice for dealing with children",
+            "authorDisplayName": "@Msmorningsunrise",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_ns9NSFoN4AsTEHSSqwFPqAT1Q1H3QkhkpaPy86XaU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Msmorningsunrise",
+            "authorChannelId": {
+              "value": "UCU2x9NpN1z8EKemSTlfLJjw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-20T01:06:22Z",
+            "updatedAt": "2025-05-20T01:06:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xQ54UBrqtrquq2_Sf2Is0GZFgdo",
+      "id": "UgyDPif4J44ispFUjdN4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "xKcB9ezsdVh8MZKL89Fm_mi7qfE",
+          "id": "UgyDPif4J44ispFUjdN4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "and answer them like it is the first time they asked or the first time they told you something",
+            "textOriginal": "and answer them like it is the first time they asked or the first time they told you something",
+            "authorDisplayName": "@TemperanceLibraRising",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/PVyFqGdeUsoNEmGEBigZBjfKPnA9xfHSEbOmMzmICUr6j7zptheHN_102N6D8EruwZbNL7lv=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@TemperanceLibraRising",
+            "authorChannelId": {
+              "value": "UCFFxkUfBCUKWl15eMnNjWkw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-06T05:47:27Z",
+            "updatedAt": "2025-05-06T05:47:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Ppxut2oBbVABC4P1uikkJKEWMYI",
+      "id": "Ugw66SxcqNQx5DERD-N4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "UJgDWsT4P1FBQRaGqXVJOJ8G8ks",
+          "id": "Ugw66SxcqNQx5DERD-N4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Okay, but what if they just woke up and got dressed to go to a wedding … and there is no wedding?   This literally just happened.",
+            "textOriginal": "Okay, but what if they just woke up and got dressed to go to a wedding … and there is no wedding?   This literally just happened.",
+            "authorDisplayName": "@JuneBug999",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lZt7DeJ8B6MRe9J3P0L2ixybktKTfpeNIizm_N7Mc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@JuneBug999",
+            "authorChannelId": {
+              "value": "UC0HMcDHOCoQlutU-3WTgXuw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-10T11:55:54Z",
+            "updatedAt": "2025-12-10T11:55:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "t4itDHtFtO8IrlVaNFRLZnOgYyI",
+      "id": "UgzV7e5L1oAqBzkbEg14AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "8ngdcVq8yseS0g99E2LSlm8ynjM",
+          "id": "UgzV7e5L1oAqBzkbEg14AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Have you made a video about the addiction of what I call doom scrolling on Facebook and YouTube? My husband has dementia and he gets on his phone and just watches videos of everything for hours. He is not looking up specific subjects; he is just scrolling through whatever pops up. He has let so many friends fall by the wayside and chores and anything except his phone addiction. He can’t send emails or text anymore although he was computer savvy years ago.",
+            "textOriginal": "Have you made a video about the addiction of what I call doom scrolling on Facebook and YouTube? My husband has dementia and he gets on his phone and just watches videos of everything for hours. He is not looking up specific subjects; he is just scrolling through whatever pops up. He has let so many friends fall by the wayside and chores and anything except his phone addiction. He can’t send emails or text anymore although he was computer savvy years ago.",
+            "authorDisplayName": "@debralynnpawlak8393",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lSGjpEi5YhILvPaWCfkSGFYl5_bs66njbUk5UsZZDZTlMC=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@debralynnpawlak8393",
+            "authorChannelId": {
+              "value": "UCgpwpQxgH27mSyEONkFUihQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-02-26T05:11:27Z",
+            "updatedAt": "2026-02-26T05:11:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jhPf1fwtvCZ7T4U7f2L_s3Legp8",
+      "id": "UgyAyaO6S45LghJAFaV4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "_-XMhlAmpcSRMTM0tVBN5PtNwy8",
+          "id": "UgyAyaO6S45LghJAFaV4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Good  strategy",
+            "textOriginal": "Good  strategy",
+            "authorDisplayName": "@tommasinibafford7272",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kNVan0O-Hccm9Ps1Wy0xRnUw64fGH0YXDY9lKAPdI-RK2Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@tommasinibafford7272",
+            "authorChannelId": {
+              "value": "UCrI7Mo4lV3yNOnLQiSy85HQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-23T03:15:13Z",
+            "updatedAt": "2025-05-23T03:15:13Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "h43W2VOfHXtVoa9WM8H8i4sSeko",
+      "id": "Ugz4T4yX729rUoW2IYl4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "8QZkuvArrVhC2Fg5X_Ut9nIjwm0",
+          "id": "Ugz4T4yX729rUoW2IYl4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Works very well with autistic children also.",
+            "textOriginal": "Works very well with autistic children also.",
+            "authorDisplayName": "@lorid6544",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mjSYs9KNhWslxX1V1o3LkhTiuS5SYwjudK0ugRvZU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lorid6544",
+            "authorChannelId": {
+              "value": "UCZvJ-CoaUG4F2s69XHxKW1w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-07-13T03:13:41Z",
+            "updatedAt": "2024-07-13T03:13:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "rhz9Uir8qn249xuvI5uB65cSfxw",
+            "id": "Ugz4T4yX729rUoW2IYl4AaABAg.A5ojjA4JlYvA5y6sKhzDk8",
+            "snippet": {
+              "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+              "videoId": "4MxNB0BAjQE",
+              "textDisplay": "Thank you. My gson gas just had behavioural tests, hoping Autism is ruled out. We get the results on Monday.",
+              "textOriginal": "Thank you. My gson gas just had behavioural tests, hoping Autism is ruled out. We get the results on Monday.",
+              "parentId": "Ugz4T4yX729rUoW2IYl4AaABAg",
+              "authorDisplayName": "@manichairdo9265",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kQkGEgVct0YBhsOjj5l8xB8bC77C9l5MiIK3jsXnc=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/@manichairdo9265",
+              "authorChannelId": {
+                "value": "UC2bdSNTYJafRZH456x-eHhQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2024-07-16T18:37:49Z",
+              "updatedAt": "2024-07-16T18:37:49Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "87D7t-SJg-cuYDLC64GxPZdq7CI",
+      "id": "UgxgZcZzSg-4e_mSOiJ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "2ypTo4uIwibvYPF9KOPH3PQNXIk",
+          "id": "UgxgZcZzSg-4e_mSOiJ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Good advice!",
+            "textOriginal": "Good advice!",
+            "authorDisplayName": "@phoebebaker1575",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l8ZTN15JOnyX4ay5G0iTPO0TJLDNbKDm-BASFXFJ9cw1w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@phoebebaker1575",
+            "authorChannelId": {
+              "value": "UCwLjI9z_HIEb8HLeBOz5xZg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-20T19:30:45Z",
+            "updatedAt": "2025-04-20T19:30:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "AuEYcizSl5dYnYG_pGW-anDopJk",
+      "id": "Ugw3xLOLrRt7NuzZwgZ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Xf807xDicBhFQKfvDPk-X6N6nnQ",
+          "id": "Ugw3xLOLrRt7NuzZwgZ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "This definitely works!",
+            "textOriginal": "This definitely works!",
+            "authorDisplayName": "@Tay-fl8ym",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/R8w-gZAUukIXFWU7Wwf8zCfhjHsfUuhhHZqOhbO9xa4WCKZSz6nnsToN5e8QIZhqLnDwreevlA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Tay-fl8ym",
+            "authorChannelId": {
+              "value": "UCMbxYoevBwCOO4G1qnf0ETA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-02-17T06:20:38Z",
+            "updatedAt": "2026-02-17T06:20:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "-r6LOqG9kxGje3JKX-hlh3_bWu8",
+      "id": "UgzErYEDYIU5scvRzPt4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-kkZpKjeAVJ1ZmNhfMYyo01sxr8",
+          "id": "UgzErYEDYIU5scvRzPt4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "what if they are going to the bathroom constantly? I&#39;ve regulated the digestion with doctors and try to keep them hydrated so they actually urinate when they do go to the bathroom, but still there is a zombie like draw that is driving me crazy and aggravating their hemorrhoids. anyone have any tips?",
+            "textOriginal": "what if they are going to the bathroom constantly? I've regulated the digestion with doctors and try to keep them hydrated so they actually urinate when they do go to the bathroom, but still there is a zombie like draw that is driving me crazy and aggravating their hemorrhoids. anyone have any tips?",
+            "authorDisplayName": "@eilamariesartre8823",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k48WWoCeo50Eq0hyPo9qToTA2Fuw82Da0OL5RmX7fTml4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@eilamariesartre8823",
+            "authorChannelId": {
+              "value": "UCxCipHEWJdB_L1jWvbbtYeQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-08-05T18:47:23Z",
+            "updatedAt": "2024-08-05T18:47:23Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "NcKh1KLIJKtwYoU9kPJ_5Wo9M0Q",
+      "id": "UgzBM6e4Lzwx1I8kOIl4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "zKUmO0xq9Oj0d2VFGXtn7F3KJQs",
+          "id": "UgzBM6e4Lzwx1I8kOIl4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "A friendly caretaker.",
+            "textOriginal": "A friendly caretaker.",
+            "authorDisplayName": "@fils_violet",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n1YRi8i8TpTnKtMIARSi9xPLn2rKU-ONxy_O_TrQ3cSvg7zMr2VhNJEvOs1oIoKW7QLA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@fils_violet",
+            "authorChannelId": {
+              "value": "UC_swQQW8wFDrKH8GRWKy7ww"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-11T12:16:21Z",
+            "updatedAt": "2025-05-11T12:16:21Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "RcSC-Uldw_33J96KHZgHmKHJfu8",
+      "id": "UgxAVmgNgzDj5yeyaJB4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "NrFTkTraM06OEhldaxqHhifFeiY",
+          "id": "UgxAVmgNgzDj5yeyaJB4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Thank you.❤❤❤",
+            "textOriginal": "Thank you.❤❤❤",
+            "authorDisplayName": "@aristeidispalantzas1246",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nAyPge0I_E6SH5PgrMeOcrg8bOdLNu5vZo7ESk1Ug=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@aristeidispalantzas1246",
+            "authorChannelId": {
+              "value": "UC9nLea9PqyqJ9ugwPd6bNSg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-07-16T19:45:36Z",
+            "updatedAt": "2024-07-16T19:45:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "A9f0WJK-HgZDy2CKFDT5-ekK1cQ",
+      "id": "UgysEnUs7bV0F4VnqJV4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "6ov-DsUHmJxzYSoCpI1A8JSnrF8",
+          "id": "UgysEnUs7bV0F4VnqJV4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "The skill of redirecting  !",
+            "textOriginal": "The skill of redirecting  !",
+            "authorDisplayName": "@donnabartley2246",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mQEHeFdit8DCqFxmJdNxieUdmln03KSeGvb-KPkxKUOaJ1ItZl4CLGlAugfCE-iXUMWg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@donnabartley2246",
+            "authorChannelId": {
+              "value": "UCkX5oBJh7GyCJ0y4McYyrCw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-12-12T13:48:00Z",
+            "updatedAt": "2024-12-12T13:48:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "yTum-UwrjTv0t-NOSYkyRuMbOdo",
+      "id": "Ugw75E3oaaVkdqJrPP14AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "hPcfH2z-8BPRnlscx_I2dBZV3uA",
+          "id": "Ugw75E3oaaVkdqJrPP14AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "So smart ✨",
+            "textOriginal": "So smart ✨",
+            "authorDisplayName": "@POLYLIVING",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m9vOFphgNdlmloXWJbmuM5aHtbokIfJW4gwWwTo-K2kw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@POLYLIVING",
+            "authorChannelId": {
+              "value": "UCpGYPi4oNtM18G6T4fQlNCQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-03T21:18:14Z",
+            "updatedAt": "2025-05-03T21:18:14Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "79GkoF5cb081Cj4CONDdNeK2L6w",
+      "id": "UgxGuVWmzptFXvsodaV4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "LOI567payNBQbDe0zyf2YpBtxMM",
+          "id": "UgxGuVWmzptFXvsodaV4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "We say to our kids &quot;absorb and deflect&quot; (or &quot;praise and pass&quot;)",
+            "textOriginal": "We say to our kids \"absorb and deflect\" (or \"praise and pass\")",
+            "authorDisplayName": "@michelleneil6354",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lmy-Eo2GuUf4CtnwaezpqhnuKENAzSnPbyjSHXGT_68w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@michelleneil6354",
+            "authorChannelId": {
+              "value": "UCm4YGXCzUyxfTGXtw-cQjOw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-04-18T01:53:27Z",
+            "updatedAt": "2024-04-18T01:53:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "hNfQxjhzCjXgRW8HGbp20xlTsm8",
+      "id": "UgyDSCakc8UCajoNF114AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "SuEe3dMEJ7pxsGZgcivMLzYvd6g",
+          "id": "UgyDSCakc8UCajoNF114AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Good advice.",
+            "textOriginal": "Good advice.",
+            "authorDisplayName": "@fsj197811",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lGzfhEh6n3PhRDRNU6jfxKoPDyWb4E7hr8qIYnkis=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@fsj197811",
+            "authorChannelId": {
+              "value": "UCA7GawoKrqlkmSmMMLQnpqA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-10T14:14:45Z",
+            "updatedAt": "2025-05-10T14:14:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "3kr2zjQAoLtB-SNZ8OqKR7jlFsM",
+      "id": "UgzN_FKWqbT0gjOpseR4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ddmjqh5r6GOwYbL2__zTR-WyCmg",
+          "id": "UgzN_FKWqbT0gjOpseR4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Diversion technique. I was a nanny. Divert the attention. Preemtng is important  to",
+            "textOriginal": "Diversion technique. I was a nanny. Divert the attention. Preemtng is important  to",
+            "authorDisplayName": "@patiencekosko7095",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/jocR4eWTKgEXUcZ2m0yD1ugGXZvp3eeY3Yoh8YUOrGKxkzJAUcieI-wgI2qnStGSOEyokfCMHw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@patiencekosko7095",
+            "authorChannelId": {
+              "value": "UCDvM4eet6FSZoKlKD8m674g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-06-29T20:21:47Z",
+            "updatedAt": "2025-06-29T20:21:47Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "oDc5Ftz00bYlhpSL0xiXiz8P7mM",
+      "id": "Ugx9iPoKxiHvUeRZGud4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "SNpO8qs6WwGSU59xFIi4BDCre4Q",
+          "id": "Ugx9iPoKxiHvUeRZGud4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Redirect and distract ! God bless :D",
+            "textOriginal": "Redirect and distract ! God bless :D",
+            "authorDisplayName": "@loisb.5814",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kJVEr1Xb1Jmk2e7QCh4ml4-iPnOwMqhYAqsO23__R16TI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@loisb.5814",
+            "authorChannelId": {
+              "value": "UCHa_RfueS4Rr2FNmfQck5Rg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-25T03:02:10Z",
+            "updatedAt": "2025-04-25T03:02:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ue5Bno4jecAjvvScy6rRm1XWrZU",
+      "id": "UgwCYG8z7P10hm9XBMh4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ao89NzTVzgpbhVe-04HfENMBiy4",
+          "id": "UgwCYG8z7P10hm9XBMh4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "It&#39;s like dealing with a drunk 6 year old. Nothing works for some of them. They have to be corrected and told what not to touch, just like a child",
+            "textOriginal": "It's like dealing with a drunk 6 year old. Nothing works for some of them. They have to be corrected and told what not to touch, just like a child",
+            "authorDisplayName": "@hawnqueen",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mYC_E27lO6SpNzLu6dILF8PKsi8cU_mcyInbjq0Wk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@hawnqueen",
+            "authorChannelId": {
+              "value": "UCxxEwtWw4xJiFckXfhkdHsg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-08-11T17:10:11Z",
+            "updatedAt": "2024-08-11T17:10:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5Ix6--U53MFuFfOZ2aQUePG_NsA",
+      "id": "Ugzou3E1FTt67PRumzx4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "SHVu9my0GyhEGMowe59xS6iCrFk",
+          "id": "Ugzou3E1FTt67PRumzx4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Yes absolutely...",
+            "textOriginal": "Yes absolutely...",
+            "authorDisplayName": "@mariateresatrajano2129",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n2yf8ecgHpFyhciw5fVMBYoCKed3LkRlpx__slPodGgg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@mariateresatrajano2129",
+            "authorChannelId": {
+              "value": "UC-3MaE1ODSSBFAL6yGFhQgA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-04-16T07:10:10Z",
+            "updatedAt": "2024-04-16T07:10:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ZmnKkiIYqNug1A0wBop8AvT0qSY",
+      "id": "UgxhOb1VXW6Y0m5gMdJ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "pV7lXBGdm5QvzhjNQ3ZPTII2WCc",
+          "id": "UgxhOb1VXW6Y0m5gMdJ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Same as redirecting a 2 year old that’s about to do something you don’t want them doing. 😊",
+            "textOriginal": "Same as redirecting a 2 year old that’s about to do something you don’t want them doing. 😊",
+            "authorDisplayName": "@Kirkyjo",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/-S7B2gbEk3UFAG43c7R_zTXwtklC0SUs6N4PS9ByRruBKIz36-bRvFScOkRlylXooU88nu9Dlw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Kirkyjo",
+            "authorChannelId": {
+              "value": "UCPVwVG7ygBUFuUV_baPOfgA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-06T12:42:48Z",
+            "updatedAt": "2025-05-06T12:42:48Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "JaUMzqaRVfHIry5iiMb0H74GPDk",
+      "id": "UgyzKf8OxL9hzmpeMNB4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "_Xxjbwflksh1Ypr0Ljzs_LckXuk",
+          "id": "UgyzKf8OxL9hzmpeMNB4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Yes!! Always works!",
+            "textOriginal": "Yes!! Always works!",
+            "authorDisplayName": "@barkingdogblankets",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nEc0Ry4-TpTBgcFFlVe1Pm0M70T53MVPSAwTXpN_U=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@barkingdogblankets",
+            "authorChannelId": {
+              "value": "UC7RzOnGKOaXAGdlB0lRiBtg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-03T23:54:58Z",
+            "updatedAt": "2025-05-03T23:54:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "e3JmafY7tjtRT01NwEoO_tmRrek",
+      "id": "UgyNzldcr-xNF2aNMV54AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vMDFCFoypFg7Fbg5bp4ltvq7QKM",
+          "id": "UgyNzldcr-xNF2aNMV54AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "What about when they call up to go through their estate and assets?",
+            "textOriginal": "What about when they call up to go through their estate and assets?",
+            "authorDisplayName": "@googlemusiconly1138",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/sf4xwzY2UeZmIHUuQUxqevkgetjFb13PqfGn6xOf4wjiMq3ZbbiEFlkT_JIXcgXBCSp0ddbm3BU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@googlemusiconly1138",
+            "authorChannelId": {
+              "value": "UCfjo80jGylKIcXTCGcFew1w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-01-25T17:18:56Z",
+            "updatedAt": "2026-01-25T17:18:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ZLJk3t-p5Z31I_l0dQOOVTSfW04",
+      "id": "UgwUUVXQmAMGkmH6s8J4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "hDUqkLfvP_EAwGe-CZPN59WtZe4",
+          "id": "UgwUUVXQmAMGkmH6s8J4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "True! I agree!",
+            "textOriginal": "True! I agree!",
+            "authorDisplayName": "@eervabrl6241",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/szJtzbpVbJ0ivCvM5sMUYsN1nlQHDmrIDMcQ4VWxSPFyEmjgKEm2Ty7TOsMc75x7Zb1V723m=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@eervabrl6241",
+            "authorChannelId": {
+              "value": "UC5gTs0vXA2yDB01vwWNk1Dg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2024-04-30T06:02:04Z",
+            "updatedAt": "2024-04-30T06:02:04Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "_DLGeMpaImq13v81IxR2z6v4HXs",
+      "id": "Ugxdka5oaurZRa4-Q-l4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "74cXItZOtLgpcdRvnVL5wgJw-E4",
+          "id": "Ugxdka5oaurZRa4-Q-l4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Thank you",
+            "textOriginal": "Thank you",
+            "authorDisplayName": "@leom6650",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kA4uqSKMBcpKnF0ORHhcgQb3_Xrvd1Fp4yRPP7UZo=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@leom6650",
+            "authorChannelId": {
+              "value": "UCImR2cYb8L8vZeIR-BTXrjg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-01T16:56:17Z",
+            "updatedAt": "2025-04-01T16:56:17Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xWWrGifAedADrwjvByPVBGr9XpA",
+      "id": "UgzTu_CRcTHifaGyskd4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-oeyRXUfAXPikkbvfxOlu1C18dk",
+          "id": "UgzTu_CRcTHifaGyskd4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "I get it but, it gets tiring all I do is redirect and &quot;lie&quot;",
+            "textOriginal": "I get it but, it gets tiring all I do is redirect and \"lie\"",
+            "authorDisplayName": "@garysgarage9580",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mkV4krwv0nO_-00B9FGOHTlDEXCOatDT3r3yRWQGxtoA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@garysgarage9580",
+            "authorChannelId": {
+              "value": "UCNegY-4QKYHt_J3uZLJ5-Yg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-01-20T21:35:56Z",
+            "updatedAt": "2025-01-20T21:35:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "le4lUn5Y4fK0T7kSfztCcYpCd-U",
+      "id": "UgzSkiGYCIx4eh_ny0h4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "tlqJwsqiznF6_8CkvC_aUQi54t4",
+          "id": "UgzSkiGYCIx4eh_ny0h4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "In other words is we need to dumb down all behaviors and do everything ourselves.",
+            "textOriginal": "In other words is we need to dumb down all behaviors and do everything ourselves.",
+            "authorDisplayName": "@csillaczako1582",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k27bwyuXacQRPMTNAWZmim3YiWoqw0AKMeI6oNLoAM-w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@csillaczako1582",
+            "authorChannelId": {
+              "value": "UCuO0VpU9SnmxmUhvc3HKZJA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-09-24T07:45:37Z",
+            "updatedAt": "2026-09-24T07:45:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "IRMSZcnTfLM_TfPHBrLxnfSDu7A",
+      "id": "UgxhKL9c8EFaTwDvg0B4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "C2wArKi62G1wgD_bJGPqB6Ezmh8",
+          "id": "UgxhKL9c8EFaTwDvg0B4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Good tip thanks-",
+            "textOriginal": "Good tip thanks-",
+            "authorDisplayName": "@lisatooey1093",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kPDMU8J-5OP_YtAcKVXOoReR_tew_AUnKDv_uWHEeEUrz_hb-YzHO526b6KJ0TceMuJQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lisatooey1093",
+            "authorChannelId": {
+              "value": "UCpaf5uKwXVhYs-mQxJTXxjw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-03-30T07:22:37Z",
+            "updatedAt": "2025-03-30T07:22:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vewmxmYgE-eshl32kMCMnEOsMQQ",
+      "id": "UgxhK7ko6UpBzHdwAAR4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vIrlLOyFJNsQzULi-LyRFmK9Zp8",
+          "id": "UgxhK7ko6UpBzHdwAAR4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Any help with brushing teeth? My mom refuses for every one where she is living😢",
+            "textOriginal": "Any help with brushing teeth? My mom refuses for every one where she is living😢",
+            "authorDisplayName": "@jooliosterholt4297",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nYtFSP0hDxCmGNiSxF5rcGj74qGvf2jyKuSUXyXtW-mw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jooliosterholt4297",
+            "authorChannelId": {
+              "value": "UCqOJp9vqBcKvkg-NrTAZ1ow"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-03-30T21:24:18Z",
+            "updatedAt": "2025-03-30T21:24:18Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "et3Jm_qKon08NN4kNZJOye4Nuj8",
+      "id": "UgwwJBRFREUzd9JMjRV4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "wLGYXEG5RgRvxBezqjzy2FrU2JM",
+          "id": "UgwwJBRFREUzd9JMjRV4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "❤",
+            "textOriginal": "❤",
+            "authorDisplayName": "@romainelouden3771",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m1cFPIp4Xez-QuyT37N3gb-K-isWQXHJXP1Dl6gA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@romainelouden3771",
+            "authorChannelId": {
+              "value": "UCWLsOo8kOMB1SyktkT0goBQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2024-05-06T22:58:22Z",
+            "updatedAt": "2024-05-06T22:58:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "3R9CtNm8WczEWLWCGxrE8mi9U4o",
+      "id": "UgwefOnfvaAVArix5eV4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-ywEWGLBDZs9HGkAKIAoC1pUzRc",
+          "id": "UgwefOnfvaAVArix5eV4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "This tip might help reduce conflict??  My mother did this with us children.",
+            "textOriginal": "This tip might help reduce conflict??  My mother did this with us children.",
+            "authorDisplayName": "@ritapearl-im3wv",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l-WPruEngifbfolAJ9ooMYouWRIljSLSUdcbFXhpBKLR2w067aQRcH7LDc0zzrTdX9yg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ritapearl-im3wv",
+            "authorChannelId": {
+              "value": "UC2ivs68i2ncSxoV9X8dpWJQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-07T15:42:53Z",
+            "updatedAt": "2025-05-07T15:42:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vTkLZPbMuUFUy4Bn8w7u0jdvCvU",
+      "id": "UgwmXlJ9Z19QpazNW314AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "bwXSQAwtT9o4SEtYEwv7zgJZas0",
+          "id": "UgwmXlJ9Z19QpazNW314AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "My experience the alternative is only temporarily.",
+            "textOriginal": "My experience the alternative is only temporarily.",
+            "authorDisplayName": "@IreneAslanidis",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nhZbF6KyS20xqBOxCQssP4k_DsHpTo75iLAxJBEBVoA29uk0fv5cejdx87SOdmd9rZAw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@IreneAslanidis",
+            "authorChannelId": {
+              "value": "UCmPAZ2fCObjBw7w6UXMcuOA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-01T23:52:03Z",
+            "updatedAt": "2025-10-01T23:52:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "T9nvPSddQySp38CFYUKTk8cVvnc",
+      "id": "UgyD8dxlGza_yissQ4t4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ZK9hUzdiJ6xSXi876GoL-Klcq-U",
+          "id": "UgyD8dxlGza_yissQ4t4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Thanks",
+            "textOriginal": "Thanks",
+            "authorDisplayName": "@katheleenanderson3902",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k0CMXcGiVRcQqfNsTfzW3Oax5E7mF40iy6p64OGjo=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@katheleenanderson3902",
+            "authorChannelId": {
+              "value": "UCoYzVKXyBIvz4DdZLlFLcmw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-03-26T05:30:02Z",
+            "updatedAt": "2026-03-26T05:30:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Un67zOUlqemREkUCFk8yEGgMGsQ",
+      "id": "Ugxx5hqDwlcGVoTU6qp4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "nF53YyfXp8J65NBMhuNikhB-zGg",
+          "id": "Ugxx5hqDwlcGVoTU6qp4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Like with toddlers, actually.  Lots more effective than being the bossy boss.",
+            "textOriginal": "Like with toddlers, actually.  Lots more effective than being the bossy boss.",
+            "authorDisplayName": "@light6230",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lPc_cyP0YFwzXGR9HOifyCdHicpcc-tttRbBjh7MrW5yA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@light6230",
+            "authorChannelId": {
+              "value": "UCHgs-gCabgfmsRhUreDQP_Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-07-13T17:56:23Z",
+            "updatedAt": "2024-07-13T17:56:23Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "OnvoMKz14XMIWiGOZhJrrdyLjfE",
+      "id": "UgzA9zkJgf-qc3sfr8t4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "m5ahHgxqGI-gOLUHlnkFV5LP9ac",
+          "id": "UgzA9zkJgf-qc3sfr8t4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "How do i get my hubby to take a shower??? He has dementia he’s had it 4……3 yrs..,Thanks",
+            "textOriginal": "How do i get my hubby to take a shower??? He has dementia he’s had it 4……3 yrs..,Thanks",
+            "authorDisplayName": "@lisatooey1093",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kPDMU8J-5OP_YtAcKVXOoReR_tew_AUnKDv_uWHEeEUrz_hb-YzHO526b6KJ0TceMuJQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lisatooey1093",
+            "authorChannelId": {
+              "value": "UCpaf5uKwXVhYs-mQxJTXxjw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-03-30T07:26:04Z",
+            "updatedAt": "2025-03-30T07:26:04Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Oi0VlhAT3uObEJkkx369XhYGLdY",
+      "id": "Ugy9bNgX_OShD8_rHYl4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "j8j_9amGguUbmiD_1k8ILcLpOOg",
+          "id": "Ugy9bNgX_OShD8_rHYl4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "My Mother becomes abusive verbally when I do that.",
+            "textOriginal": "My Mother becomes abusive verbally when I do that.",
+            "authorDisplayName": "@cbak1819",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/0l7PRBM3UhiVwljAG1jk_bl1b48vxchAZEIBNgQFF7labLpvnW_yMEgAyScfTzZqsQkRNJ4TqPY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@cbak1819",
+            "authorChannelId": {
+              "value": "UCrLUhPK90jBV0tYdoszJSlA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-02-09T04:34:41Z",
+            "updatedAt": "2026-02-09T04:34:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "YOS7iZJATwrVCeOk0F6mr666dl4",
+      "id": "UgzQ-0plfTL1Q-nxc-d4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "oRIPlaGKxCvuhkR69pMgt4evvjk",
+          "id": "UgzQ-0plfTL1Q-nxc-d4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Ask them to cut coupons for you.",
+            "textOriginal": "Ask them to cut coupons for you.",
+            "authorDisplayName": "@lauriebarrington8521",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n4jMHHAd54e75w7kIncZoV2uIJ5NclGiGAchpj9Qg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lauriebarrington8521",
+            "authorChannelId": {
+              "value": "UCRukzNLOImP4rpxFPAfr0Mw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-11-12T13:59:20Z",
+            "updatedAt": "2025-11-12T13:59:20Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "Ta6juKN3jcOHXVdpqUCFKoAofkw",
+            "id": "UgzQ-0plfTL1Q-nxc-d4AaABAg.APQskGvI2x5ASKAVzv4zza",
+            "snippet": {
+              "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+              "videoId": "4MxNB0BAjQE",
+              "textDisplay": "Will try this. Thx",
+              "textOriginal": "Will try this. Thx",
+              "parentId": "UgzQ-0plfTL1Q-nxc-d4AaABAg",
+              "authorDisplayName": "@rockinrver7414",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/0SLl62vSnwSAFTbSLWsEsKFN7VMVZJXFviFg7HNO6H_hPnsY3XGUJhJ466KT_bQI9UUcjXQiPl4=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/@rockinrver7414",
+              "authorChannelId": {
+                "value": "UC-Rpvik2C9lg4DgctRH0Dww"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2026-01-23T13:02:47Z",
+              "updatedAt": "2026-01-23T13:02:47Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "KU-Mv8vvZlDZEDsMr-ZhwfZbDSo",
+      "id": "UgwVbiDDk4C-zmKYMCZ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "EIQ_PMjVJzkJz0lBklpJvgQbKT0",
+          "id": "UgwVbiDDk4C-zmKYMCZ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Soo True",
+            "textOriginal": "Soo True",
+            "authorDisplayName": "@janiceerickson9",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_ks4PCvQ8bAK18GCHq5C-nQnz4nMA3vJAaWGOK-jS_oShvV4gmjBc6viSjRWiWV1phKsw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@janiceerickson9",
+            "authorChannelId": {
+              "value": "UCI2qEgRAxZMaJBtzPC-WtWA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-07-28T20:23:26Z",
+            "updatedAt": "2024-07-28T20:23:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "QD7jFyO1g_I6UprTn0dvnVCy2D4",
+      "id": "Ugx4KGLtcMirJxjciDt4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "JfkHnqm-CnI_1Dnk0uf40Fev594",
+          "id": "Ugx4KGLtcMirJxjciDt4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "so basically how I motivate my cats",
+            "textOriginal": "so basically how I motivate my cats",
+            "authorDisplayName": "@banquetoftheleviathan1404",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/vbrEJNn_dOjQiwha6B0A21vPHGeAcZWHsv8rWhpfr9y5Cwkpz10WjShsYyBLlt6W05ol94KbWQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@banquetoftheleviathan1404",
+            "authorChannelId": {
+              "value": "UCGNoPsnmEB8ZhuY-iFmf2og"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-12-31T01:12:54Z",
+            "updatedAt": "2025-12-31T01:12:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "kSqTD9gi3DunznNhL8dCWbV68to",
+      "id": "Ugxi3tnXIc69Sj4ylrJ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Ok8OWTXeb0dydgXzHqfi3eHi4Rg",
+          "id": "Ugxi3tnXIc69Sj4ylrJ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Why would they be triggered by bills?",
+            "textOriginal": "Why would they be triggered by bills?",
+            "authorDisplayName": "@liilu8",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lvQfYjLwiE9tkkztWxaGQTOlxJ3NABqHaW1aY4Oac=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@liilu8",
+            "authorChannelId": {
+              "value": "UCNzRhLzH78Z7crnGLal8xGg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2024-06-27T14:00:58Z",
+            "updatedAt": "2024-06-27T14:00:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "y_edU6kBYVCZDQ_jnAxXG2Relnk",
+            "id": "Ugxi3tnXIc69Sj4ylrJ4AaABAg.A5Bh51jhP-aAQ7wEe5Mvvm",
+            "snippet": {
+              "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+              "videoId": "4MxNB0BAjQE",
+              "textDisplay": "Often it is their confusion and difficulty paying bills that is one of the 1st signals of dementia.  So many dementia patients no longer pay the bills, but may still worry if they might need to be paid.",
+              "textOriginal": "Often it is their confusion and difficulty paying bills that is one of the 1st signals of dementia.  So many dementia patients no longer pay the bills, but may still worry if they might need to be paid.",
+              "parentId": "Ugxi3tnXIc69Sj4ylrJ4AaABAg",
+              "authorDisplayName": "@sunsetsteph7254",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kRU-vBo8w9qlkLK570aAl3p9V483WAspRcMMMsrTCong=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/@sunsetsteph7254",
+              "authorChannelId": {
+                "value": "UCb_wQk300JkMjiU-5hekaDw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2025-11-30T01:55:40Z",
+              "updatedAt": "2025-11-30T01:55:40Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "suZjs61Y7ny18I4rgixvLWhocrs",
+      "id": "Ugywf_LGrvYuE4diwEx4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "c34GSZOuh6Mk5498Kto3wOa_ypE",
+          "id": "Ugywf_LGrvYuE4diwEx4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "&quot;Wanna ice cream&quot;",
+            "textOriginal": "\"Wanna ice cream\"",
+            "authorDisplayName": "@MacGyver2154",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m8XKHqSWkWTWqWfEqmk_VKzILNNjD_Lzb82OiQOJGQrEQgbhrNF_TgQFrd7LuMlqJAqQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MacGyver2154",
+            "authorChannelId": {
+              "value": "UC_lXHEYhEz4MLvT2tpovScA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-24T18:44:36Z",
+            "updatedAt": "2025-04-24T18:44:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "DJxs416NrgMIClOwZJ_gRFGpyfk",
+      "id": "Ugw3wfJH2cSDFlNe77h4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "E_fNQkkHr8SidOJ56fSyVDfH4H8",
+          "id": "Ugw3wfJH2cSDFlNe77h4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "What about a spray bottle or flyswatter?",
+            "textOriginal": "What about a spray bottle or flyswatter?",
+            "authorDisplayName": "@dropout20XX",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/u7fv9sdJKUQpS0Zp0_FcqvrOBqQAus6toisDghENZdi4EIrg7ku7TiQJi_b-SKOT6Y81CoQP=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@dropout20XX",
+            "authorChannelId": {
+              "value": "UCmrS5_PdZOdIQCBJty83kPg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-12-07T16:10:22Z",
+            "updatedAt": "2025-12-07T16:10:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "0bygbSYsAP5tjNz8sbvQ54Z1K6o",
+            "id": "Ugw3wfJH2cSDFlNe77h4AaABAg.AQRUbsjMDo1ASKAR0LexJG",
+            "snippet": {
+              "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+              "videoId": "4MxNB0BAjQE",
+              "textDisplay": "Ha😂 I wish! . The spray bottle would work, too cuz she hates getting her clothes wet.",
+              "textOriginal": "Ha😂 I wish! . The spray bottle would work, too cuz she hates getting her clothes wet.",
+              "parentId": "Ugw3wfJH2cSDFlNe77h4AaABAg",
+              "authorDisplayName": "@rockinrver7414",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/0SLl62vSnwSAFTbSLWsEsKFN7VMVZJXFviFg7HNO6H_hPnsY3XGUJhJ466KT_bQI9UUcjXQiPl4=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/@rockinrver7414",
+              "authorChannelId": {
+                "value": "UC-Rpvik2C9lg4DgctRH0Dww"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2026-01-23T13:02:06Z",
+              "updatedAt": "2026-01-23T13:02:06Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "VgUCOutKkCbJN8UImK4dDAeon-4",
+      "id": "UgwI-zK1PrTjJiKYv754AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "VlquqDlJbRjGaHESSzJQv65DgSw",
+          "id": "UgwI-zK1PrTjJiKYv754AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "So so true",
+            "textOriginal": "So so true",
+            "authorDisplayName": "@rachaelnlala",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/NerAXWhDuexTtrXwAHam25oXsaI5fIiGSW9ss4gyccCUFefTIj6qrmyFtnX5AXFcjlpccId1fw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@rachaelnlala",
+            "authorChannelId": {
+              "value": "UCx_3be6oKHv_u-nDNAa451w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-07-30T02:14:41Z",
+            "updatedAt": "2025-07-30T02:14:41Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "yW-MltXSzs2GybrvbMi87G7g0_M",
+      "id": "UgwTF4XskP36C3GDft14AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "k83M1KzsRz9vtwLSqlIvW2RlU8Q",
+          "id": "UgwTF4XskP36C3GDft14AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Deflect, defer, deflate",
+            "textOriginal": "Deflect, defer, deflate",
+            "authorDisplayName": "@pcopeland15",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/P9Ggy9UDckjc2Juz5ktFJ82_8_ZDH0Sq6UB1TTLPnaMHzcRHCgNQuvxmsF3ZqfzYLhs0pwHhFA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@pcopeland15",
+            "authorChannelId": {
+              "value": "UCdjMeelhmDyoWgSlaomBwrw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-05-18T23:29:29Z",
+            "updatedAt": "2026-05-18T23:29:29Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "cpmZhYtahZU0YRO6DOhiBui2Sgc",
+      "id": "Ugx87fIoV5PQDS7VaQ14AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Zd2Oh0niN_TPKgmDLPgG58a1PlQ",
+          "id": "Ugx87fIoV5PQDS7VaQ14AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Oh so easily said, yet so not easily doable lol…..",
+            "textOriginal": "Oh so easily said, yet so not easily doable lol…..",
+            "authorDisplayName": "@elsands9774",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kFqg4e3u10KDep2s45Ri5lmXKzSkdCOcjdleDUYbY=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@elsands9774",
+            "authorChannelId": {
+              "value": "UCjzjyoJrV0-sBwiGcLLALSQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2025-01-16T02:55:33Z",
+            "updatedAt": "2025-01-16T02:55:33Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "5W7otuZ-cHkJFAOX4Rbx3mIfU7k",
+      "id": "UgwmjFBqenMuGAJmkk94AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "f8rQezL5NWPNFzKkPcNFb6XvOU4",
+          "id": "UgwmjFBqenMuGAJmkk94AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Ty",
+            "textOriginal": "Ty",
+            "authorDisplayName": "@Tad-For-Global-Peace",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/XajkTir4M-c2GtURUNEtysNrGyNwmD4xO1QKydslEOIu__Gguq7nWA3Oc3_1AjyH_vGDeHKzh3k=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Tad-For-Global-Peace",
+            "authorChannelId": {
+              "value": "UCMXcTKLdBOfb5KSCXqy4lyA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2024-07-16T19:23:00Z",
+            "updatedAt": "2024-07-16T19:23:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "eOuwDVD9LBhSFkBSTrA9JMJCZ60",
+      "id": "Ugwwdl_yQeRGQ4MIUPd4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "MVwRjESmg1jRssnlwhxNhjnVdXE",
+          "id": "Ugwwdl_yQeRGQ4MIUPd4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "What do you do if the person with dementia can hardly hear and they give poisoning foods to dogs, like chocolate?",
+            "textOriginal": "What do you do if the person with dementia can hardly hear and they give poisoning foods to dogs, like chocolate?",
+            "authorDisplayName": "@MrScampy1231",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nGLZc5QatDGN6WIZYTHPVakNwj4efXfOs7wRHPuWI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@MrScampy1231",
+            "authorChannelId": {
+              "value": "UCzzioxgNjSkpfpz9dXVJX2A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-14T20:04:13Z",
+            "updatedAt": "2025-05-14T20:04:13Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "CnxQp1LDUtY1-iE5LT-OeaiIEno",
+            "id": "Ugwwdl_yQeRGQ4MIUPd4AaABAg.AI6tpTcuGN2ASKA67P3VqV",
+            "snippet": {
+              "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+              "videoId": "4MxNB0BAjQE",
+              "textDisplay": "I have to keep my dog in my room, away from the demented person for the same reason. I let her out only when I know I can keep on eye on both at same time.",
+              "textOriginal": "I have to keep my dog in my room, away from the demented person for the same reason. I let her out only when I know I can keep on eye on both at same time.",
+              "parentId": "Ugwwdl_yQeRGQ4MIUPd4AaABAg",
+              "authorDisplayName": "@rockinrver7414",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/0SLl62vSnwSAFTbSLWsEsKFN7VMVZJXFviFg7HNO6H_hPnsY3XGUJhJ466KT_bQI9UUcjXQiPl4=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/@rockinrver7414",
+              "authorChannelId": {
+                "value": "UC-Rpvik2C9lg4DgctRH0Dww"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2026-01-23T12:59:15Z",
+              "updatedAt": "2026-01-23T12:59:15Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "sKbHeN8PT9KnLQc-h_IfIsTHnsk",
+      "id": "UgzyZmdK9MPDZJytnEF4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "HkxqJtwiMwO-AP9x3PPXkpzhq68",
+          "id": "UgzyZmdK9MPDZJytnEF4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Works for children also.",
+            "textOriginal": "Works for children also.",
+            "authorDisplayName": "@johncarter1137",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kse2xXbUN0X3nr1rzxwodb9kvDV3ieJUc6Fa1BpMA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@johncarter1137",
+            "authorChannelId": {
+              "value": "UC6rq5wZNt302GHZj9Xns0Gg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-07T11:34:34Z",
+            "updatedAt": "2025-05-07T11:34:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "YE006y7YKLFYV02lGrL9Y3x7qqY",
+      "id": "UgzFMiQHQDzjwBnQ8vd4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "BXQA5z63UhFg6dv7Z23KjpgWN5c",
+          "id": "UgzFMiQHQDzjwBnQ8vd4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Flat 5/40 leopold rd Felixstowe ip11 7 np / Benjamin and his girlfriend robbed the dementia homes / patients blind to find there gambling addiction: using mussle their victims were helpless🥶",
+            "textOriginal": "Flat 5/40 leopold rd Felixstowe ip11 7 np / Benjamin and his girlfriend robbed the dementia homes / patients blind to find there gambling addiction: using mussle their victims were helpless🥶",
+            "authorDisplayName": "@darrenmclaughlin3028",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kngrBnf8UiZwzM8YbIrmZKHXfeZt3IcOSVlWD7xZ4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@darrenmclaughlin3028",
+            "authorChannelId": {
+              "value": "UC3gSrN9z0s8b-H-_B8Ai9ow"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-04-25T05:23:39Z",
+            "updatedAt": "2026-04-25T05:23:48Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "3-NSBEqlzTpykOOvDhs2U9LDzuU",
+      "id": "Ugx4sQGnq4MlPENwIvh4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "2d6ob65TSwYavnD_UiaK2oI7lrw",
+          "id": "Ugx4sQGnq4MlPENwIvh4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Basically, puppy training.",
+            "textOriginal": "Basically, puppy training.",
+            "authorDisplayName": "@felicityzeeman9212",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lYfthbt0HnecKYVgJqrrhZTxoGhi7BqW_8vI_VTJzAqp8l=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@felicityzeeman9212",
+            "authorChannelId": {
+              "value": "UC_HErDcZnp00sbmpZ1S4RyA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-11-05T17:42:53Z",
+            "updatedAt": "2025-11-05T17:42:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "rbfDKF2oh8OubRmXargGRMoCsjA",
+      "id": "UgzC1Zft5_4kEo96fGx4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "aJsCJftiG_lPasFQsgm831NbhdA",
+          "id": "UgzC1Zft5_4kEo96fGx4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "nice pronunciation of &#39;a&#39; indef articl.",
+            "textOriginal": "nice pronunciation of 'a' indef articl.",
+            "authorDisplayName": "@adam_meek",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/myBC6ED2IoadT81n67H944Y5W0j9nxVFdU_Q0smbOT6RS1ZFRiOWHP8szuZT2S4dUu33tWDFu4U=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@adam_meek",
+            "authorChannelId": {
+              "value": "UCJV1T2OBDAcnrLV_R50JICQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-05-09T16:55:28Z",
+            "updatedAt": "2026-05-09T16:55:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "aBjVdgjTptdfRBcjnlzBYfceXB4",
+      "id": "UgzlBMNn112RhNM5AZt4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Lo96pOFOZtv88WvLABwIuU7TjOI",
+          "id": "UgzlBMNn112RhNM5AZt4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "I changed out the vehicle and let her keep her keys.   🎉",
+            "textOriginal": "I changed out the vehicle and let her keep her keys.   🎉",
+            "authorDisplayName": "@charlottehanna790",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kO4_YFEfK3ODw3QQTSbFjaG5_M3D8IST7z-VXZmnTEh-Aq3hi_OdWLaUpAEE2hmLQIiQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@charlottehanna790",
+            "authorChannelId": {
+              "value": "UCeyFcfvxtVq3PmEyeeCovIQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-03T00:56:40Z",
+            "updatedAt": "2025-04-03T00:56:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "c9wuFNyXlxwBhaAKbv3yJW0QyfY",
+      "id": "UgwAsYuhlIMBvIHVOLt4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "hBKC_GLSDsZgEIvjllcObjuInCA",
+          "id": "UgwAsYuhlIMBvIHVOLt4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "MAIL!!!!!! nemesis number one",
+            "textOriginal": "MAIL!!!!!! nemesis number one",
+            "authorDisplayName": "@soblsd224",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kGA5P-5Pg3ckSU5VlRG1_fFC18y55u3dDG0Ahmc47IGG1eOkHfbuwB80QnYpNLIXa46g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@soblsd224",
+            "authorChannelId": {
+              "value": "UCqVkmXKBugt7Sb_akajhGgg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-06-26T21:47:34Z",
+            "updatedAt": "2025-06-26T21:47:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "7G4S3Qv0OvMCXbauQBK7aUFyvLw",
+      "id": "UgxWgPliFBJkG-D_auJ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "8lAJRsdq4Mw6kTLldx8wEIikbVw",
+          "id": "UgxWgPliFBJkG-D_auJ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Yep redirect their attention just as you would a child!",
+            "textOriginal": "Yep redirect their attention just as you would a child!",
+            "authorDisplayName": "@HistoryRepeats101",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_ljvHSXv993HBMNt1Xy7UnkOPJzsBeThkUp5sRTzSWmyAI=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@HistoryRepeats101",
+            "authorChannelId": {
+              "value": "UCFweBXjeZRJvXkDm6zIfOnQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-14T11:37:16Z",
+            "updatedAt": "2025-05-14T11:37:16Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "MDpv4GTUjsv_2ivqYaZtnsYL8DM",
+      "id": "UgwtdpXVEY7hqXiWP-R4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "aNpNwEKqIWqKeBuMs7TZzaGRooQ",
+          "id": "UgwtdpXVEY7hqXiWP-R4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "This works similarly with Autistic people, good advice",
+            "textOriginal": "This works similarly with Autistic people, good advice",
+            "authorDisplayName": "@lisawilliams8139",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lBL76Fk7aceLL4gybHSsYssrldiz_6UO4Sxd9TR5Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@lisawilliams8139",
+            "authorChannelId": {
+              "value": "UCxu-T6gxzS-yvd4dXfWT8hw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-05-09T02:34:34Z",
+            "updatedAt": "2025-05-09T02:34:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "g0TeXGUi9tLl4lxIMy_BFwj2veg",
+      "id": "Ugw8pbiOISotZAZZ-ed4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ZTGEp9J7pYpq_Es6AvY3kJ-uFVs",
+          "id": "Ugw8pbiOISotZAZZ-ed4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Hey, come build this ballroom",
+            "textOriginal": "Hey, come build this ballroom",
+            "authorDisplayName": "@erinfunk554",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mt8ObxNBJx2cD5GCxwkbRr2o0mFRGH8X_VJr_kyBrj94c=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@erinfunk554",
+            "authorChannelId": {
+              "value": "UCovg3jrST-f1HfjnqefTMig"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-10-30T18:38:43Z",
+            "updatedAt": "2025-10-30T18:38:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "aft0f-J2qWkxkc0GnDd6WNBDkDE",
+      "id": "UgyB1LZdiFX2Na3ijbR4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ukCh_Zt1U33LpIxcaGekPn32PyQ",
+          "id": "UgyB1LZdiFX2Na3ijbR4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Similar thing in child development. Redirecting the little one to do something else. Sad that sometimes you become like a child again",
+            "textOriginal": "Similar thing in child development. Redirecting the little one to do something else. Sad that sometimes you become like a child again",
+            "authorDisplayName": "@Thecat-u5g",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/je9JhBNe-CVJu8gYja83f3drexN-6oIH813t95MFbn-4T4yM1UBXffbTWHJD8DxoSLWYAvMrjQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Thecat-u5g",
+            "authorChannelId": {
+              "value": "UC9AnDgbSeV19mg9bWvXKE7Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-05-28T20:09:27Z",
+            "updatedAt": "2026-05-28T20:09:27Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "49Egl8zN_K2RbLsWT-TUeZXEW8k",
+      "id": "Ugy_Ozu3Zfyj0zpC5qZ4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ZgH_iXlNkgcTBYuOe4miTYg62dA",
+          "id": "Ugy_Ozu3Zfyj0zpC5qZ4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "It&#39;s hard. My dad was about to spray deodorant in his mouth. So I had to say no.",
+            "textOriginal": "It's hard. My dad was about to spray deodorant in his mouth. So I had to say no.",
+            "authorDisplayName": "@Batony",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nLOZiVoOnOY9sRG6PEfbeJQZgNEc94Ld_-R0YhapW-QHpFlNNHtQIwpPu8VJKX5wVYKg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Batony",
+            "authorChannelId": {
+              "value": "UC8TaH6XqNlTipuY9rmdylig"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-01T02:15:01Z",
+            "updatedAt": "2025-09-01T02:15:01Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "U5WE0eZhbOI-b7BrcX0we_qmLVQ",
+      "id": "UgybJC1sY0O9pudldkl4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "pX-ssLLjksNYatyRndWvWlm7ot8",
+          "id": "UgybJC1sY0O9pudldkl4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Even when she keeps engaging in conversation with telemarketers and giving them personal information, and trying to purchase things, like life insurance?!?",
+            "textOriginal": "Even when she keeps engaging in conversation with telemarketers and giving them personal information, and trying to purchase things, like life insurance?!?",
+            "authorDisplayName": "@jungleboots",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/6DBjlgM6f8bXFmQO82Ej1igTU9ZbtWXkAC57lRawWd8oEJa953JFzZEbPTKOrXWiEcFWzjuc9Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jungleboots",
+            "authorChannelId": {
+              "value": "UCKdmhkkmZltNC3xuASm9pWQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-20T05:09:34Z",
+            "updatedAt": "2025-04-20T05:09:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "QjiFIyN0Pn6K6p4yAPy2sWruED8",
+      "id": "UgxhjEXql0Mj1xFRkql4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "No81mHXpR2TsAnZyx4OX2Zfar8M",
+          "id": "UgxhjEXql0Mj1xFRkql4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "Easier said than done sometimes.",
+            "textOriginal": "Easier said than done sometimes.",
+            "authorDisplayName": "@jeanniestaller797",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lotu81jyjRpkN8zCdNv4acg4DfBoYO6d97k1ltyas=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@jeanniestaller797",
+            "authorChannelId": {
+              "value": "UC9oeQeY3Pl2YVnPp6PI_t0w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-18T15:38:38Z",
+            "updatedAt": "2025-04-18T15:38:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "m2eKXB99Jq8tW1mkD5COF3Sb-gI",
+      "id": "Ugy17XmYpWn8dhwwcXV4AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ArNAs2MKzdBWaMNVZWLts96qHL4",
+          "id": "Ugy17XmYpWn8dhwwcXV4AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "What can you do when they are bed ridden but want to get out of bed? There’s nothing else they can do.",
+            "textOriginal": "What can you do when they are bed ridden but want to get out of bed? There’s nothing else they can do.",
+            "authorDisplayName": "@Sunsetluver1",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mWa-fJzsYcVxKxPSguJaqoik7OnU4YzSjb4BLnvsy7IQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Sunsetluver1",
+            "authorChannelId": {
+              "value": "UCAQcrSQOkCal7-u-5ICkDcA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-08T00:55:11Z",
+            "updatedAt": "2025-09-08T00:55:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "GK3Lm5nH9kK4VAPGoe8cyYnV_Tw",
+      "id": "UgzQAmjqXJRePxBPTF94AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "kJntQofImMBg8siadC_xUTg_5B8",
+          "id": "UgzQAmjqXJRePxBPTF94AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "This same tactic works with young autistic kids as well.",
+            "textOriginal": "This same tactic works with young autistic kids as well.",
+            "authorDisplayName": "@Misshellrazor",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/TBRiyT7PowU_wfk2cxD23WXmOOcLaaPF-v8HtHVHpFRIXvKkp4aA8-t5d5rku6qSJPmgUbaP9Q=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Misshellrazor",
+            "authorChannelId": {
+              "value": "UCI81GEUmQjGlRy9h8qOcojw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2026-07-24T06:21:26Z",
+            "updatedAt": "2026-07-24T06:21:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "C_JAKwUjllbeR96WnWnBRkhVNuc",
+      "id": "UgwefE9XFGpadySgC054AaABAg",
+      "snippet": {
+        "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+        "videoId": "4MxNB0BAjQE",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "e758n0Pa7OqG5xzUt1Bk-NuYlAc",
+          "id": "UgwefE9XFGpadySgC054AaABAg",
+          "snippet": {
+            "channelId": "UCVgK5-w1dilMx7bPVB5yNug",
+            "videoId": "4MxNB0BAjQE",
+            "textDisplay": "My mom would say &quot;are distracting from what is making me angry&quot; 🫠",
+            "textOriginal": "My mom would say \"are distracting from what is making me angry\" 🫠",
+            "authorDisplayName": "@ZainabSalah852",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/n_F2jDsN9rXNRNEqx-xSiIO6cAbYRe8eNHu9gTexOcwIy4Oga-YE4Djr7hbju4KoDFL3u6zO=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ZainabSalah852",
+            "authorChannelId": {
+              "value": "UCqjkp51EybxadmW9kCfXWUA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-04-01T09:30:40Z",
+            "updatedAt": "2025-04-01T09:30:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}

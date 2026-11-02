@@ -1,0 +1,1064 @@
+Innov Aging
+. 2018 Feb 21;1(3):igy002. doi: 10.1093/geroni/igy002
+
+Factors Predicting Decisions About Technology Adoption Among Older Adults
+
+Ronald W Berkowsky
+
+Ronald W Berkowsky, PhD
+
+1
+Department of Psychiatry and Behavioral Sciences, University of Miami School of Medicine, Florida
+
+Find articles by Ronald W Berkowsky
+
+1,✉, Joseph Sharit
+
+Joseph Sharit, PhD
+
+2
+Department of Industrial Engineering, University of Miami, Florida
+
+Find articles by Joseph Sharit
+
+2, Sara J Czaja
+
+Sara J Czaja, PhD
+
+1
+Department of Psychiatry and Behavioral Sciences, University of Miami School of Medicine, Florida
+
+Find articles by Sara J Czaja
+
+1
+
+Author information
+
+Article notes
+
+Copyright and License information
+
+1
+Department of Psychiatry and Behavioral Sciences, University of Miami School of Medicine, Florida
+
+2
+Department of Industrial Engineering, University of Miami, Florida
+
+✉Address correspondence to: Ronald W. Berkowsky, PhD, Department of Psychiatry and Behavioral Sciences, University of Miami School of Medicine, 1695 NW 9th Ave, Suite 3208D, Miami, FL 33136. E-mail: rxb285@miami.edu
+
+Collection date 2017 Nov.
+
+© The Author(s) 2018. Published by Oxford University Press on behalf of The Gerontological Society of America.
+
+This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs licence (http://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial reproduction and distribution of the work, in any medium, provided the original work is not altered or transformed in any way, and that the work is properly cited. For commercial re-use, please contact journals.permissions@oup.com
+
+PMC Copyright notice
+
+PMCID: PMC6177084  PMID: 30480129
+
+Abstract
+
+Background and Objectives
+
+Numerous technology applications are available that have the potential to improve the quality of life (QoL) of older adults. However, older adults are less likely to adopt new and emerging technologies and reap the potential benefits. This study examines factors that influence older adults’ decisions about the adoption of new technology.
+
+Research Design and Methods
+
+Fifty-two older adults participated in a mixed-method procedure, which entailed: (1) observing presentations detailing nine differing technologies, (2) assessing the technologies using tailored questionnaires, and (3) participating in focus group discussions. Participants were assigned into one of seven groups separated by age (65–74, 75+) and language (English, Spanish). The outcome was willingness to adopt technology. Predictors included self-assessed abilities (e.g., numeric ability), computer/Internet skills and knowledge, technology readiness, age, language, and technology ratings (e.g., perceived value). Analyses included Spearman’s ρ, t-tests, and regression analysis. Focus group discussions were examined for supportive examples.
+
+Results
+
+Self-assessed abilities and computer/Internet skills were predictive of willingness to adopt technologies although the relationship varied according to the technology examined. Technology readiness, age, and language group showed weak associations with the outcome. Of the technology ratings, perceived value, confidence in ability to learn the technology, and the perceived impact on QoL were the most robust predictors of willingness to adopt technology.
+
+Discussion and Implications
+
+Findings indicate that various stakeholders in technology adoption among older adults must be cognizant of a technology’s functionality and complexity as well as the characteristics and abilities of older adults. However, certain factors such as perceptions about the value of the technology and potential impact on QoL are also critically important to decisions regarding technology adoption among older people.
+
+Keywords: Decision-making, Mixed-method, Perceived abilities, Perceived usefulness, Technology adoption, Technology assessment, Technology rating
+
+Translational Significance
+
+Older adults’ willingness to adopt technology is associated with a variety of factors including the perceived value of the technology, confidence in learning the technology, and the perceived impact on quality of life. Stakeholders looking to increase technology adoption among older adults must be cognizant of these factors and how they vary depending on the technology examined.
+
+There are an increasing number of technologies that offer the potential for improving the quality of life (QoL) of older consumers (aged 65+). These devices and applications are available across a variety of domains, such as transportation and health. Yet despite the potential benefits, older adults consistently adopt technology at lower rates compared to younger age groups (Anderson & Perrin, 2017; Choi & DiNitto, 2013; Friemel, 2016).
+
+Barriers to technology adoption include a lack of awareness, access, skills, and experience (Hargittai, 2002), insufficient training (Cotten, Yost, Berkowsky, Winstead, & Anderson, 2016; Czaja & Sharit, 2013), decreased confidence in ability to use the technology (Czaja et al., 2006; Siren & Knudsen, 2017), and physical/cognitive declines (Cotten et al., 2016; Czaja & Sharit, 2013; Hanson, 2010). However, these barriers do not fully explain why older adults may be less willing to adopt technologies. Other factors, such as perceptions regarding the complexity of the technology and the need for learning support, have not yet been explored with respect to their impact on decisions older adults make regarding technology uptake. Knowledge of these factors and their interrelationships can provide important information towards the development of strategies to promote greater technology adoption by older people which could, in turn, result in improvements in QoL.
+
+The purpose of this study was to expand upon previous research in this area and examine a broad array of factors that influence decisions regarding willingness to adopt a new technology among older adults. Unlike other studies, we examined these factors across technologies that differ in the domains covered, types (e.g., mobile application, wearable device), and complexity. Technologies were selected that have the potential to improve the QoL for older adults but are underutilized in current older adult populations. We explored if factors predicting willingness to adopt technology varied across technologies, and we examined these issues across a broad age range of older adults who varied in culture/ethnicity (i.e., English or Spanish). The findings from this study have widespread implications for designers of technology systems and those marketing technology applications and for the development of tailored technology training protocols.
+
+Background and Objectives
+
+Despite increases in technology uptake, older adults still lag behind the general population (Anderson & Perrin, 2017). This is unfortunate given the growing body of literature suggesting technology use may significantly benefit older adults in terms of QoL. For example, among older adults Internet use has been shown to have a significant association with decreased depression (Cotten, Ford, Ford, & Hale, 2014), decreased loneliness (Chopik, 2016; Czaja, Boot, Charness, Rogers, & Sharit, 2017), a greater sense of community (Sum, Mathews, Pourghasem, & Hughes, 2009), increased psychological well-being (Chen & Persson, 2002), and greater life satisfaction (Heo, Chun, Lee, Lee, & Kim, 2015).
+
+Similarly, more specialized technologies are likely to provide targeted benefits to many older adults. This is especially evident in health care where providers are developing more eHealth- and mHealth-based interventions with the goal of increasing older adults’ involvement in managing their health and wellness (Gell, Rosenberg, Demiris, LaCroix, & Patel, 2015). There has also been an increase in the number of technologies that can enhance leisure (Vroman, Arthanat, & Lysack, 2015), facilitate continued learning (Head, Van Hoeck, & Garson, 2015), and contribute to the performance of daily living activities (Melrose et al., 2016).
+
+There are several models which delineate factors that influence technology adoption. A widely cited model is Davis’ Technology Acceptance Model (TAM) (1989; 1986), which suggests that use of a technology system is predicated by an individual’s motivation to use the system which, in turn, is predicted by the technology’s features and capabilities (Marangunić & Granić, 2015). This basic framework was subsequently expanded to suggest that an individual’s motivation to use a system is predicated on three variables: the perceived usefulness of the system, the perceived ease of use of the system, and overall attitude towards using the system. Modifications have been made over time such as the removal of attitude as a predictor and the addition of behavioral intention (Davis, Bagozzi, & Warshaw, 1989) leading to TAM 2 (Venkatesh & Davis, 2000). TAM 2, which is largely focused on technology in the workplace, proposed additional variables that impact on the perceived usefulness of a technology, such as job relevance and output quality.
+
+Other theories of technology adoption and acceptance include the Unified Theory of Acceptance and Use of Technology or UTAUT model (Venkatesh, Morris, Davis, & Davis, 2003) which proposes four core determinants of intent to use and actual use of a technological system: performance expectancy, effort expectancy, social influence, and facilitating conditions. This model also more clearly highlights the importance of individual characteristics such as gender and age as potential moderators of adoption. However, these models do not specifically address factors associated with older populations or have not been specifically tested with older age groups (e.g., Chen & Chan, 2011). While it has been hypothesized that perceived usefulness is a weaker factor and perceived ease of use is a stronger factor among older adults when predicting intent to use technology (Sun & Zhang, 2006), both have been shown to be predictors of technology adoption for technologies such as activity trackers (Preusse, Mitzner, Fausset, & Rogers, 2017) and robots (Ezer, Fisk, & Rogers, 2009). The Senior Technology Acceptance Model or STAM (Renaud & Van Biljon, 2008) attempts to account for individual difference factors in an older adult’s decision to use a technology; to this end, our group has shown that technology adoption among older adults is also impacted by cognitive abilities, self-efficacy, and technology-related anxiety (e.g., Czaja et al., 2006).
+
+Another limitation of the aforementioned models is that they focus primarily on an individual’s adoption and acceptance (or lack thereof) after the user has acquired some experience with the technology system. Less is known, particularly among older populations, regarding factors that influence initial decisions about adoption for individuals with little-to-no knowledge or experience with a technology. Our study contributes to the literature by examining factors that may influence willingness to adopt new, unfamiliar technologies among older adults across different domains. Although we were not sufficiently powered to examine this issue in depth, we also examined potential cultural influences on willingness to adopt technology as previous studies have shown that cultural attitudes and norms may affect technology adoption (e.g., Straub, Keil, & Brenner, 1997). Finally, we examined if there were differences between younger and older cohorts of older adults.
+
+Research Design and Methods
+
+Overview
+
+To examine these issues, we developed a unique mixed-method data collection procedure, referred to from this point forward as the Technology Assessment Procedure (TAP). TAP involved providing participants with in-depth overviews of various technologies that went beyond basic written descriptions, and asked participants to (1) complete survey questionnaires rating the technologies and (2) participate in postpresentation focus groups.
+
+Sample
+
+The sample was recruited from the greater Miami community through advertisement and the Center for Research and Education on Aging and Technology Enhancement (CREATE) participant registry. Inclusion criteria included: minimum age of 65 years, fluency in English or Spanish, and being non-cognitively impaired as assessed by the Telephone Interview for Cognitive Status (TICS; Brandt, Spencer, & Folstein, 1988). Cutoff scores are provided in the Supplementary Appendix.
+
+Nine technologies were selected for the study through consensus by the research team. We chose technologies that varied according to: the domains supported by the technology (e.g., transportation, health), type (e.g., computer program, wearable device), and complexity (i.e., number of functions or rules that need to be learned). The technologies were also identified as being potentially beneficial to older adults in maintaining independence but also not believed to be highly utilized (see Table 1). Because our focus was on willingness to adopt an unfamiliar technology, participants were screened for technology experience. Participants were asked prior to enrollment if they had any experience with the technologies that were to be discussed in the TAP sessions; individuals were excluded if they reported having experience with more than two of the technologies. Fifty-two participants were enrolled, with 24 assigned to the English TAPs and 28 assigned to the Spanish TAPs. Of the 52 enrolled, 36 reported no experience with the 9 TAP technologies, 8 reported experience with only one technology, and 8 reported experience with 2 technologies. All participants provided written informed consent and were compensated $30.00 for their participation in the study. The Institutional Review Board of the University of Miami approved the study.
+
+Table 1.
+
+Technologies Selected for Technology Assessment Procedure (TAP)
+
+Domain
+Technology
+Complexity
+Description
+
+Transportation/Mobility
+Lyft
+Low (basic smartphone navigation skills required)
+Mobile trip-requesting app used primarily on smartphones
+
+Health/Wellness
+Fitbit
+Moderate (simple interface but requires multiple devices, requires moderate level of health literacy)
+Wearable device used as an activity tracker
+
+MED-E-LERT
+Moderate (programming required, increases in difficulty with additional medications)
+Automatic pill dispenser
+
+eCareCompanion
+High (optional additional devices to master, requires high level of health literacy)
+Mobile app accessed on a secure tablet used to share health information with a care team
+
+Socialization/Communication
+Instagram
+Low (basic smartphone navigation skills required)
+Mobile app for photo-sharing and socializing used primarily on smartphones
+
+Recreation/Leisure
+X-Box
+High (multiple functions, difficult control scheme)
+Video gaming console
+
+Lifelong Learning
+Curious.com
+Low (basic Internet navigation skills required)
+Website with lessons on a variety of topics
+
+Home Support
+Quicken
+High (multiple functions, requires high numeric ability)
+Personal finance management system
+
+Quirky Spotter Multipurpose Sensor
+Moderate (simple interface but requires multiple devices, multiple functions)
+Sensor device which monitors room temperature, motion, sound, light, and humidity
+
+Open in a new tab
+
+Note: Technologies were selected based on potential impacts on quality of life (QoL) and low utilization among older adults. Efforts were made to select technologies diverse in domains covered, type of device/application (smartphone app, website, console, etc.), and complexity.
+
+General Protocol
+
+A study coordinator administered a brief telephone screening to assess eligibility, with eligible participants subsequently scheduled for a TAP session. Three TAP sessions were conducted in English and four in Spanish. Groups were also separated by age categories, as groups like the “oldest old” are at risk for decreased technology utilization (e.g., Lee, Chen, & Hewitt, 2011). One English speaking group consisted of those aged 65–74 while 2 groups consisted of those aged 75+; two Spanish groups consisted of those aged 65–74 and 2 consisted of those aged 75+. The duration of each TAP session was approximately 3–3.5 hours; a detailed flowchart of study procedures is provided in the Supplementary Appendix.
+
+The session began with a general introduction by study personnel followed by informed consent. Participants then completed a brief demographic survey, which asked basic descriptive information (age, sex, education, etc.) before completing several other questionnaires (described in Questionnaires and Measures). They then viewed a brief PowerPoint presentation (approximately 5 min) on a technology. The presentation focused on the primary purpose of the technology, how the technology is used in everyday life, what additional equipment is required to use the technology, the complexities associated with its use, and the key features of the technology.
+
+Upon completion of the 5-min presentation participants were instructed to complete a brief Technology Rating Questionnaire that rated the technology on various factors (e.g., perceived value of the technology), including willingness to adopt the technology. The procedure was repeated with another technology until all nine technologies were presented. After rating all nine technologies, a concluding presentation summarizing the nine technologies was shown and participants were given an opportunity to change their prior ratings if they wished. Once all ratings were completed, the floor was opened to focus group-style discussions, which were audio recorded. The discussions were guided by questions posed by study personnel (see Supplementary Appendix). Prior to initiating the study, the TAP protocol, questionnaires, and PowerPoint presentations were pilot-tested and evaluated for clarity and potential problems with participant fatigue.
+
+Questionnaires and Measures
+
+Technology ratings
+
+The Technology Rating questionnaire included seven items measured on a nine-point scale which assessed willingness to adopt, perceived value, perceived effort to learn, help needed to learn the technology, confidence in learning the technology, concern about privacy, and perceived impact on QoL. For this study, willingness to adopt was the outcome measure. All other items in the questionnaire served as predictors. The research team developed the questionnaire specifically for this study (see Supplementary Appendix for questionnaire wording and scoring). Content validity was established by group consensus based on previous studies related to older adults and technology use. Due to our small sample size and the exploratory nature of the study, we opted for a nine-point scale (rather than a more traditional five- or seven-point scale) so as to minimize clustering around the center and to obtain greater variability in responses.
+
+Self-assessment of abilities
+
+Based on the work of Ackerman and Wolman (2007), an eight-item Self-Assessment of Abilities rating scale was constructed to measure participants’ self-appraisal of knowledge and physical/cognitive abilities that may contribute to adoption of technology including vocabulary, comprehension, numeric ability, memory, learning ability, problem solving/reasoning, detection, and grasping/manipulative skill. Abilities were each assessed on a nine-point scale (1 = very low ability, 9 = very high ability). The items were developed specifically for this study and content validity was established through group consensus (see Supplementary Appendix for question wording).
+
+Computer/Internet skills and knowledge
+
+A four-item Computer/Internet Skills and Knowledge questionnaire was constructed to measure participants’ self-appraisal of ability to use computer and Internet technologies including basic computer technology skill, Internet and e-mail skill/knowledge, computer programs knowledge, and computer applications knowledge. Items were each rated on a nine-point scale (1 = very low skill/knowledge, 9 = very high skill/knowledge) and developed specifically for this study, with content validity established through consensus (see Supplementary Appendix for question wording).
+
+Technology readiness index
+
+Participants’ general propensity to adopt and use new technologies was assessed using the Technology Readiness Index (TRI 2.0), whose reliability and validity have been demonstrated in previous studies (Parasuraman & Colby, 2015). This index consists of 16 items across 4 dimensions that represent motivators and inhibitors that determine an individual’s predisposition to adopting new technologies (Parasuraman, 2000): optimism (belief that technology increases control, flexibility, and efficiency), innovativeness (individual’s view that they are a “technology pioneer”), discomfort (a tendency to being uncomfortable with or overwhelmed by technology), and insecurity (a general feeling of skepticism or fear toward technology). Participants were asked to what extent they agree or disagree with 16 statements across the four dimensions (1 = strongly disagree, 5 = strongly agree).
+
+We also collected data on general demographic characteristics and general technology use (e.g., ownership/access).
+
+Analytic Procedures
+
+Spearman’s ρ correlation coefficients were generated to examine associations between willingness to adopt technology (measured for each technology) and the following predictors: self-assessment of abilities, computer/Internet skills and knowledge, technology readiness, and the technology ratings (measured for each technology). The goals of this analysis were to determine whether these factors were associated with willingness to adopt a technology and whether the extent of these associations varied according to technology. To examine group differences in willingness to adopt, t-tests were conducted comparing mean willingness to adopt scores for the age (65–74 vs 75+) and language (English vs Spanish) groups. To examine if predictors of willingness to adopt varied across technologies, ordinary least squares (OLS) regression models, with willingness to adopt as the outcome measure, were generated for each technology. The models included age group, language group, and technology ratings. Due to the relatively small sample size we only selected ratings for the final model for which significant correlations were found across technologies. For all statistical tests, significance level was set at p < .05. Analyses were conducted using SPSS ver. 22.
+
+In addition, the qualitative data from the focus group discussions were reviewed for general themes related to the predictors using the qualitative web application Dedoose ver. 7. These data are discussed in the Results and Discussion and Implications sections.
+
+Results
+
+Sample
+
+The mean age of the total sample was approximately 77 years, and the majority identified as female and having more than a high school education. Most participants reported an income of less than $30,000 per year and were retired (Table 2). Mean scores for all self-assessment of abilities ratings were above the midpoint of 5 (i.e., average ability), indicating that in general the sample felt that their abilities were higher compared to the average person. There was, however, variability in the ratings. A similar trend was found for most of the computer/Internet skills and knowledge items, although the mean score for computer applications knowledge was below the midpoint of 5. A majority of participants indicated having experience with a desktop computer and the Internet/e-mail, but only approximately 54% used a laptop and few had experience with a smartphone or tablet. With regards to technology readiness, compared to the midpoint score of 3 participants reported higher scores in optimism and insecurity and lower scores in innovativeness and discomfort. Thus, participants generally felt more positive toward technology (higher optimism) and less overwhelmed by it (lower discomfort), but also did not perceive themselves as technology pioneers (lower innovativeness) and were somewhat more distrustful of technology (higher insecurity).
+
+Table 2.
+
+Sample Descriptive Statistics
+
+Measure
+English-speaking (n = 24)
+Spanish-speaking (n = 28)
+Total sample (N = 52)
+
+Age
+78.46 (7.75)
+76.11 (5.92)
+77.19 (6.85)
+
+Female
+62.5%
+67.9%
+65.4%
+
+More than HS degree
+79.2%
+67.9%
+73.1%
+
+Married
+16.7%
+35.7%
+26.9%
+
+Income < $30,000
+41.7%
+78.6%
+61.6%
+
+Retired
+95.8%
+78.6%
+86.5%
+
+Self-assessment of abilities (range: 1–9)
+
+ Vocabulary
+
+6.38 (1.31)
+6.44 (1.28)
+6.41 (1.28)
+
+ Comprehension
+
+6.54 (1.25)
+6.57 (1.55)
+6.56 (1.41)
+
+ Numeric ability
+
+5.79 (1.25)
+5.93 (1.18)
+5.87 (1.21)
+
+ Memory
+
+5.75 (1.11)
+5.96 (1.32)
+5.87 (1.22)
+
+ Learning ability
+
+5.63 (1.17)
+6.14 (1.11)
+5.90 (1.16)
+
+ Problem solving/reasoning
+
+5.96 (1.08)
+6.25 (1.46)
+6.12 (1.29)
+
+ Detection
+
+6.54 (1.38)
+6.79 (1.32)
+6.67 (1.34)
+
+ Grasping/manipulative skill
+
+6.88 (1.54)
+7.07 (1.39)
+6.98 (1.45)
+
+Ever used technology
+
+ Desktop computer
+
+100.0%
+78.6%
+88.5%
+
+ Laptop computer
+
+62.5%
+46.4%
+53.8%
+
+ Smartphone
+
+58.3%
+35.7%
+46.2%
+
+ Tablet computer
+
+37.5%
+28.6%
+32.7%
+
+ Internet/e-mail
+
+91.7%
+85.7%
+88.5%
+
+Computer/Internet skills and knowledge (range: 1–9)
+
+ Basic computer skill
+
+5.88 (1.68)
+5.96 (2.19)
+5.92 (1.95)
+
+ Internet and e-mail skill/knowledge
+
+5.87 (1.70)
+5.64 (2.39)
+5.75 (2.09)
+
+ Computer programs knowledge
+
+4.88 (1.96)
+5.64 (2.18)
+5.29 (2/10)
+
+ Computer applications knowledge
+
+4.46 (2.00)
+4.93 (2.16)
+4.71 (2.08)
+
+Technology readiness (range: 1–5)
+
+ Optimism
+
+3.80 (0.63)
+3.52 (0.96)
+3.65 (0.83)
+
+ Innovativeness
+
+2.89 (0.85)
+3.06 (0.90)
+2.98 (0.87)
+
+ Discomfort
+
+2.80 (0.75)
+2.84 (0.67)
+2.82 (0.70)
+
+ Insecurity
+
+3.22 (0.94)
+3.04 (0.85)
+3.13 (0.89)
+
+Open in a new tab
+
+Note: Statistics presented as means with standard deviations or as percentage of sample with that particular attribute. Statistics separated by English- and Spanish-speaking groups. HS = High school.
+
+Descriptive Statistics for the Selected Technologies
+
+The technologies with the highest mean scores with respect to willingness to adopt included Curious.com (6.65), Instagram (6.23), and Lyft (6.19) (Table 3). Curious.com was also found to have the highest mean score for perceived value (6.77), confidence in learning the technology (6.29), and QoL (6.37). Conversely, X-Box had the lowest mean score for perceived value (4.63), confidence in learning technology (4.63), and QoL (3.42), as well as the highest scores for perceived effort to learn (5.46) and help needed to learn (5.02). Notably, X-Box had the second lowest mean score for willingness to adopt (3.92); only Quirky Spotter scored lower (3.90), which also scored low on perceived value (4.69), confidence in learning technology (5.12), and QoL (4.10).
+
+Table 3.
+
+Technology Ratings Summary Statistics (N = 52)
+
+Technology
+Willingness to adopt
+Perceived value
+Perceived effort to learn
+Help needed to learn
+Confidence in learning
+Concern with privacy
+Quality of life (QoL)
+
+Lyft
+6.19 (2.51)
+6.65 (2.04)
+4.71 (2.29)
+4.15 (2.38)
+6.27 (1.95)
+4.02 (2.70)
+5.60 (2.43)
+
+Fitbit
+5.29 (2.80)
+5.44 (2.49)
+4.37 (2.22)
+4.12 (2.27)
+6.02 (2.16)
+2.71 (2.32)
+5.23 (2.82)
+
+MED-E-LERT
+4.00 (2.32)
+5.73 (2.37)
+3.48 (2.10)
+2.98 (2.16)
+5.98 (2.28)
+2.04 (1.86)
+4.85 (2.81)
+
+eCare
+5.19 (2.75)
+6.27 (2.29)
+4.58 (2.00)
+3.96 (2.37)
+6.04 (1.99)
+2.63 (2.13)
+5.15 (2.86)
+
+Instagram
+6.23 (2.32)
+6.19 (1.94)
+4.75 (2.10)
+4.25 (2.19)
+6.21 (2.07)
+3.17 (2.53)
+5.00 (2.27)
+
+X-Box
+3.92 (2.97)
+4.63 (2.60)
+5.46 (2.10)
+5.02 (2.57)
+4.63 (2.54)
+2.04 (1.83)
+3.42 (2.47)
+
+Curious
+6.65 (2.12)
+6.77 (2.00)
+4.63 (1.95)
+3.77 (2.42)
+6.29 (2.15)
+2.15 (1.86)
+6.37 (2.47)
+
+Quicken
+4.27 (3.10)
+5.58 (2.82)
+4.90 (2.45)
+3.96 (2.53)
+5.13 (2.51)
+3.69 (2.97)
+4.40 (2.67)
+
+Quirky Spotter
+3.90 (2.82)
+4.69 (2.63)
+3.56 (2.14)
+3.25 (1.94)
+5.12 (2.52)
+1.96 (1.72)
+4.10 (2.70)
+
+Open in a new tab
+
+Note: Statistics presented as means with standard deviations (range: 1–9).
+
+Self-Assessment of Abilities and Computer/Internet Skills and Knowledge
+
+Table 4 shows correlations between willingness to adopt a technology and all self-assessment measures, the TRI 2.0 dimensions, and the technology ratings. Of the abilities, grasping/manipulative skill showed the highest number of correlations: higher self-assessed grasping/manipulative skill was associated with higher willingness to adopt Lyft (r = .37, p < .01), Instagram (r = .31, p < .05), X-Box (r = .30, p < .05), and Curious.com (r = .55, p < .001). Of the computer/Internet skills and knowledge measures, computer applications knowledge showed the highest number of correlations: higher self-assessed computer applications knowledge was significantly associated with higher willingness to adopt Fitbit (r = .33, p < .05), Instagram (r = .39, p < .01), X-Box (r = .42, p < .01), Curious.com (r = .34, p < .05), Quicken (r = .39, p < .01), and Quirky Spotter (r = .28, p < .05).
+
+Table 4.
+
+Correlations With Willingness to Adopt Technology Separated by Technology (N = 52)
+
+Willingness to adopt
+
+Measure
+Lyft
+Fitbit
+MED-E- LERT
+eCare
+Instagram
+X-Box
+Curious
+Quicken
+Quirky spotter
+
+Vocabulary
+0.19
+0.17
+0.12
+0.15
+0.31*
+0.14
+0.19
+0.14
+0.01
+
+Comprehension
+0.16
+0.08
+0.05
+0.08
+0.23
+0.27
+0.14
+0.19
+0.08
+
+Numeric ability
+0.23
+0.21
+0.19
+0.26
+0.21
+0.31*
+0.26
+0.43**
+0.16
+
+Memory
+0.06
+0.24
+0.05
+0.26
+0.36**
+0.20
+0.20
+0.07
+0.00
+
+Learning ability
+0.30*
+0.19
+0.18
+0.22
+0.38**
+0.27
+0.34*
+0.16
+0.24
+
+Problem solving/reasoning
+0.15
+0.19
+0.122
+0.17
+0.35*
+0.21
+0.36*
+0.21
+0.04
+
+Detection
+0.31*
+0.12
+0.04
+0.22
+0.29*
+0.23
+0.49***
+0.19
+0.23
+
+Grasping/manipulative skill
+0.37**
+0.19
+0.055
+0.16
+0.31*
+0.30*
+0.55***
+0.14
+0.21
+
+Basic computer skill
+0.33*
+0.20
+0.08
+0.03
+0.33*
+0.25
+0.39**
+0.18
+0.16
+
+Internet and e-mail skill/ knowledge
+0.24
+0.21
+0.06
+0.05
+0.29*
+0.31*
+0.42**
+0.20
+0.17
+
+Computer programs knowledge
+0.25
+0.23
+0.21
+0.17
+0.29*
+0.31*
+0.38**
+0.23
+0.20
+
+Computer applications knowledge
+0.22
+0.33*
+0.19
+0.25
+0.39**
+0.42**
+0.34*
+0.39**
+0.28*
+
+Optimism
+0.21
+0.31*
+−0.03
+0.10
+0.24
+0.17
+0.38**
+0.16
+0.16
+
+Innovativeness
+0.23
+0.24
+−0.22
+0.04
+0.21
+0.02
+0.04
+0.10
+0.10
+
+Discomfort
+−0.38**
+−0.18
+−0.10
+−0.01
+−0.13
+−0.03
+−0.15
+−0.08
+−0.16
+
+Insecurity
+−0.39**
+−0.14
+0.06
+0.06
+−0.01
+0.14
+−0.15
+0.11
+−0.03
+
+Perceived value
+0.78***
+0.80***
+0.48***
+0.83***
+0.59***
+0.63***
+0.71***
+0.69***
+0.71***
+
+Perceived effort to learn
+−0.18
+0.17
+0.25
+0.10
+−0.09
+0.07
+−0.30*
+0.11
+0.23
+
+Help needed to learn
+−0.22
+−0.04
+0.18
+−0.03
+−0.12
+0.03
+−0.20
+0.15
+0.24
+
+Confidence in learning
+0.58***
+0.50***
+0.13
+0.48***
+0.46**
+0.72***
+0.62***
+0.53***
+0.54***
+
+Concern with privacy
+−0.23
+0.00
+0.06
+0.30*
+−0.15
+0.18
+−0.11
+−0.02
+0.10
+
+QoL
+0.67***
+0.75***
+0.44**
+0.62***
+0.44**
+0.58***
+0.67***
+0.80***
+0.63***
+
+Open in a new tab
+
+Note: Spearman’s ρ correlation coefficients presented (two-tailed). *p < .05, **p < .01, ***p < .001. QoL = Quality of life.
+
+Technology Readiness
+
+With respect to the TRI 2.0, optimism was found to be significantly correlated with willingness to adopt Fitbit (r = .31, p < .05) and Curious.com (r = .38, p < .01). Feelings of discomfort (r = −.38, p < .01) and insecurity (r = −.39, p < .01) toward technology were both associated with decreased willingness to adopt Lyft. Innovativeness showed no significant associations.
+
+Technology Ratings
+
+Of the technology ratings, both perceived value and QoL were found to have significant correlations with willingness to adopt across all technologies. Confidence in learning was found to have a significant correlation with willingness to adopt across all technologies except MED-E-LERT. Perceived effort to learn was only significantly (negatively) correlated with willingness to adopt Curious.com (r = −.30, p < .05). Help needed to learn technology was not significantly correlated with the outcome for any technology. Concern with privacy was significantly correlated with willingness to adopt only for eCareCompanion (r = .30, p < .05), although this relationship is in the opposite direction of what would be predicted (higher concern with privacy was associated with increased willingness to adopt).
+
+Age and Language Group Differences
+
+We present the results of the t-tests in the text rather than in table form due to the low number of significant results found. Comparing age groups, significant mean differences in the outcome were found for eCareCompanion (t[50] = 2.55, p < .05) and Quicken (t[50] = 2.06, p < .05). Cohen’s d (effect size) for eCareCompanion was 0.72, while Cohen’s d for Quicken was 0.58, indicating medium-sized effects. The older age groups had lower ratings of willingness to adopt these technologies. Comparing language groups, the Spanish-speaking group showed less willingness to adopt Fitbit (t[50] = 2.05, p < .05). Cohen’s d was 0.58, indicating a medium-sized effect.
+
+Regression Models
+
+OLS regression models were run to examine factors predicting willingness to adopt by technology (Table 5). Older participants were less likely to be willing to adopt Quicken, and Spanish-speakers were less likely to be willing to adopt Lyft or Fitbit. Perceived value significantly and positively predicted willingness to adopt across all technologies. Confidence in learning technology was found to significantly predict willingness to adopt Instagram, X-Box, Curious.com, and Quicken, while QoL was found to significantly predict willingness to adopt Lyft, Fitbit, eCareCompanion, X-Box, and Quicken. The adjusted R2 values estimating model fit fluctuated depending on the technology examined. The lowest value was found for MED-E-LERT (R2 = .254) while the highest value was found for Quicken (R2 = .735). In general, the model fit values were relatively high, indicating that the variables included in the regressions accounted for most of the variance in willingness to adopt the technologies investigated.
+
+Table 5.
+
+OLS Regression Models Predicting Willingness to Adopt Technology by Technology (N = 52)
+
+Willingness to adopt
+
+Measure
+Lyft
+Fitbit
+MED-E- LERT
+eCare
+Instagram
+X-Box
+Curious
+Quicken
+Quirky spotter
+
+Constant
+
+0.989 (1.302)
+1.159 (1.282)
+−0.283 (1.752)
+0.388 (1.432)
+−0.694 (1.538)
+0.258 (1.376)
+0.578 (1.006)
+2.315 (1.376)
+0.813 (1.695)
+
+76+ years
+−0.152 (0.391)
+0.022 (0.394)
+0.265 (0.576)
+−0.466 (0.468)
+0.437 (0.497)
+−0.774 (0.493)
+−0.533 (0.321)
+−1.302** (0.461)
+−0.650 (0.559)
+
+Spanish−speaking
+−1.252** (0.459)
+−1.104* (0.424)
+0.100 0.605)
+−0.635 (0.502)
+−0.211 (0.507)
+−0.288 (0.504)
+0.187 (0.328)
+−0.856 (0.474)
+−0.280 (0.649)
+
+Perceived value
+0.642*** (0.130)
+0.504*** (0.120)
+0.385** (0.135)
+0.799*** (0.141)
+0.676** (0.193)
+0.485*** (0.109)
+0.563*** (0.115)
+0.261* (0.122)
+0.643*** (0.169)
+
+Confidence in learning
+0.159 (0.128)
+0.159 (0.110)
+0.092 (0.133)
+0.070 (0.135)
+0.401** (0.122)
+0.465*** (0.112)
+0.326** (0.095)
+0.280** (0.103)
+0.265 (0.140)
+
+QoL
+0.375** (0.126)
+0.400*** (0.100)
+0.197 (0.118)
+0.210* (0.095)
+−0.023 (0.164)
+0.270* (0.113)
+0.120 (0.097)
+0.552*** (0.131)
+0.043 (0.152)
+
+Adjusted R2
+
+.717
+.764
+.254
+.670
+.444
+.685
+.717
+.735
+.550
+
+Open in a new tab
+
+Note: Standard errors presented in parentheses. *p < .05, **p < .01, ***p < .001. OLS = Ordinary least squares; QoL = Quality of life.
+
+Focus Group Discussions
+
+There was a great deal of variability both within groups and between groups when participants were asked what technologies were the most exciting to them. Curious.com was the most cited with nearly every member of each group indicating it was one of the most exciting and valuable technologies. As an example:
+
+Female participant #1: The only one that I would ever use would be Curious.
+
+Study personnel: OK, so you would be excited about using Curious.com?
+
+Female participant #1: I think, of all of them, I don’t need any of the others. But, none of the health ones or anything. But I think that would be very interesting. Because of my age I have plenty of time, I’m not working anymore. I would go for that.
+
+Female participant #2: I would agree. I thought that was very interesting and it would be something I would look up and certainly investigate.
+
+(English Focus Group #3, 75+)
+
+When pressed to elaborate on what made Curious.com exciting, participants noted the ability to fulfill learning goals as well as the relative ease of use (as Curious.com requires basic computer/Internet skill only). When asked which technologies they felt would impact their QoL the most, the participants often highlighted the same technologies they felt were the most exciting to them or the most valuable.
+
+Participants readily discerned between technologies they felt would be valuable to themselves and valuable to others. Technologies in the health domain (Fitbit, MED-E-LERT, eCareCompanion) were highlighted across focus groups as technologies potentially helpful to others. MED-E-LERT, in particular, was routinely mentioned as a device that served no current utility but could be important for “others” in poorer health, “others” who had more medications to manage, “others” who were experiencing memory issues, or for caregivers who were in charge of medication management for their care recipients.
+
+There was variability with regards to the technologies identified as the easiest and most difficult to learn. X-Box and Quicken were routinely mentioned as being more difficult to master (a finding mirrored in the quantitative data). For X-Box, the physical manipulation required was highlighted as a barrier to mastery:
+
+Male participant #1: X-Box, I don’t think for an older person, it’s – because you have to be pretty nimble with your hands. And then you have to remember that A is “jump” or A is…
+
+Male participant #2: It sounded too complex. Too complicated.
+
+(English Focus Group #2, 75+)
+
+For Quicken, functionality was described as being “too complicated.”
+
+There was considerable variability in responses to the amount of assistance needed to learn the technologies. Some participants indicated that they could learn the technologies on their own, while others stated that they would prefer the assistance of friends/family, while some indicated that their preference was dependent on the technology. A common thread among the focus groups, however, was the notion that if the technology was considered valuable and important, the participants would learn it regardless of the difficulty level.
+
+While the quantitative results did not suggest a strong association between privacy concerns and willingness to adopt, during the focus group discussions both eCareCompanion and Quicken were identified as technologies where privacy and security were potential issues. Some participants felt uncomfortable with sharing health information through eCareCompanion while others were concerned about listing high amounts of financial information on Quicken; in both cases, participants mentioned concern that unauthorized parties (e.g., hackers) may gain access to and steal their information.
+
+Discussion and Implications
+
+This study examined factors influencing decisions regarding willingness to initially adopt various technologies among a diverse sample of older adults using a unique mixed methods approach. Overall, our results indicate that factors associated with willingness to adopt are dependent to some degree on the technology being examined. However, certain factors such as perceived value and impact on QoL are significant predictors of willingness to adopt regardless of the technology. Older adults are much more likely to consider adopting a technology if they perceive that it is of value to them and will positively impact their lives.
+
+We found that some factors associated with adoption varied based on the unique functions and features of the technology. Notably, we found that self-assessed abilities are important and significantly related to willingness to adopt a technology. However, these relationships varied across technologies. For example, numeric ability predicted willingness to adopt X-Box and Quicken while grasping/manipulative skills predicted willingness to adopt Lyft, Instagram, X-Box, and Curious.com. These results support the STAM model, which suggests that an older adult’s self-perceived characteristics play a vital role in technology adoption and acceptance (Renaud & Van Biljon, 2008). Further, these results suggest that individuals have a sense of the abilities needed to use a technology. To participants, Quicken and X-Box required numeric skills while, of the two, only X-Box required significant grasping/manipulative skills. This information is important to product designers as it suggests older adults may not want to use a technology that places demands on abilities they perceive as declining (e.g., vision, memory, dexterity).
+
+We did not identify age or language group (a proxy for culture) as strong predictors of willingness to adopt across all technologies. The only consistent age and language group differences were for Quicken and Fitbit, respectively (Lyft was found to have a significant difference across language groups, but only in the regression model). Why Quicken showed differences in willingness to adopt based on age is unclear, although exchanges like the one below indicate that it may have to do with differing financial needs:
+
+Female participant: I feel that Quicken is more for the younger people than the older people.
+
+Study personnel: So you feel that it would be more valuable to those who are younger?
+
+Female participant: Yes.
+
+Male participant: Before retirement. Those who are still employed.
+
+Numerous participants: Yes.
+
+(English Focus Group #1, 65–74)
+
+This underscores that perceived value influences decisions regarding adoption.
+
+Our findings regarding language group and Fitibit are unsurprising given current trends in physical activity. Hispanic/Latino groups tend to report lower physical activity levels (e.g., Bautista, Reininger, Gay, Barroso, & McCormick, 2011). Research from Pew has shown that, compared to non-Hispanic Whites and Black/African Americans, Hispanics utilize fitness trackers to a lesser degree (Fox & Duggan, 2013).
+
+Technology readiness also showed few associations, indicating that it may not be a significant predictor of willingness to adopt among older adults. While previous research has shown that there are age differences in technology readiness, which can affect technology adoption (Parasuraman & Colby, 2015), to our knowledge, there are no studies which have used the TRI 2.0 exclusively on a sample of older adults aged 65+. It could be that the TRI 2.0 is more sensitive to predicting technology adoption between age cohorts rather than among older adults themselves, or it could be that the language used in the TRI 2.0 needs to be altered in order to make the underlying constructs more apparent to older samples.
+
+Two variables in our study that had the strongest and most consistent predictive power were perceived value and QoL; they were shown to have a significant correlation with willingness to adopt across all technologies. Curious.com was found to have the highest willingness to adopt scores as well as perceived value and QoL scores. Use of this technology provides an opportunity for cognitive engagement, which is important to overall well-being and QoL (e.g., Boulton-Lewis, Buys, & Lovie-Kitchin, 2006). Every focus group spoke positively towards the Curious.com website.
+
+Lyft also received high ratings and was routinely singled out in the focus group discussions:
+
+Female participant #1: Lyft is interesting because it is an alternative to getting around for people who are no longer interested in driving or cannot drive anymore.
+
+Male participant: For me, I liked Lyft because it facilitates getting around town.
+
+Female participant #2: …I think that these types of transportation services are working better nowadays than a taxi.
+
+(Spanish Focus Group #1, 65–74)
+
+Mobility restrictions are common problems for many older people and the use of Lyft can help remediate these problems. Unfortunately, current use of Lyft is low among older people (Smith, 2016) and may be due to factors such as lack of unawareness, limited use of mobile devices among older adults, difficulties setting up an account, and security concerns. Uptake may increase if marketing strategies addressed these concerns (e.g., highlight simple-to-use instructions and security of data).
+
+When examining perceived value and QoL in the regression models, they remained powerful predictors. In TAM and many subsequent models, perceived usefulness of a technology system was often found to play an important role in technology adoption and acceptance. Our results support and add to this literature and show that the perceived value of a technology plays a vital role in determining whether an older adult is willing to adopt a technology even prior to actual use. “Usefulness” was a common term that came up in the focus groups, and if participants did not see any current utility then they typically showed less willingness to adopt. A common example was MED-E-LERT, where many participants felt that the pill dispenser was of no current use if medications were minimal. Of note is that while perceived value and QoL seem like similar constructs (see Supplementary Appendix for correlations between these measures) they showed different sensitivities when included in the regression models, indicating that both are unique constructs that should be further investigated. It is possible that perceived value and impact on QoL are, in fact, components of “usefulness” outlined in the TAM and other models, and that taken together, give a clearer picture of what older adults deem as useful technologies. Perceived value may conceptualize a more subjective appraisal of importance while QoL may conceptualize a more objective anticipated impact. For example, in the case of MED-E-LERT (which had a higher mean score for perceived value compared to QoL), participants may deem it of average importance but are not willing to adopt due to a lack of need and a decreased anticipated impact on daily life.
+
+Another prevalent predictor of willingness to adopt was confidence in learning the technology. Confidence was found to have a significant correlation with willingness to adopt across all technologies except MED-E-LERT, and in the regression the variable remained a significant predictor for Instagram, X-Box, Curious.com, and Quicken. This finding is notable for X-Box, as it was deemed the most challenging to master due to the complexities of using a multibuttoned controller whose commands changed based on the games or actions done with the system. Older adults tend to report lower confidence in using technologies compared to younger age cohorts (Czaja et al., 2006; Marquié, Jourdan-Boddaert, & Huet, 2002), and lack of confidence can be a significant barrier to successful use or even attempting to use a technology (Siren & Knudsen, 2017). Thus, marketers should consider ways to ensure that older people have confidence that they will be able to learn and master a technology. System designers should also take this into account with respect to the complexity of the technology. Together with perceived value and QoL, these three attributes showed strong predictive power towards willingness to adopt across technologies; the model fit statistics in the regression models reveal that these variables account for a high level of variance in willingness to adopt scores.
+
+While confidence in learning was found to be a robust predictor of willingness to adopt, very little evidence was found to suggest that effort to learn a technology and perceived assistance needed to learn a technology were associated with willingness to adopt. Effort to learn was only found to predict willingness to adopt Curious.com while help needed to learn was not a significant predictor for willingness to adopt any technology. Previous models like TAM highlight the importance of ease of use in adoption/acceptance (e.g., Davis et al., 1989). Davis (1986) defines perceived ease of use as the degree to which a potential technology user believes a system will be free of effort. Our findings suggest that when assessing an older adult’s propensity to try a new technology, confidence in being able to learn the technology, rather than the anticipated effort or need for help, is more important and should be incorporated in future adoption and acceptance models.
+
+While our study provides valuable insight into the nature of technology adoption among older adults, there are limitations that need to be addressed in future research. First, because the data are cross-sectional the analysis was restricted to identifying significant associations. Second, although large for focus groups, our relatively small sample size prevented us from conducting more advanced analysis (e.g., path analysis) that may better illustrate the potential causal relationships among the factors explored. Third, because the sample consisted exclusively of South Florida residents and consisted of participants who were relatively healthy (86.5% of participants rated their health as “good” or better), results cannot be generalized to the U.S. older adult population overall. Fourth, given the large number of technologies investigated and the relatively small number of TAP sessions conducted, we were unable to sufficiently counterbalance the order of the technology presentations. Although it is possible that there may be an order effect, we do not have any explicit hypotheses regarding how order may have affected the ratings.
+
+In addition, while our sample excluded participants with experience with more than 2 of the presented technologies, it is possible that prior experience with a technology could have affected the results. However, we were reluctant to exclude these participants from any analyses due to an already small sample. Also, it should be noted that in regression analyses not shown, prior experience with the technologies did not significantly alter any of the results.
+
+Finally, there are other potential factors not addressed in this study that may predict willingness to adopt, including willingness to pay and cost of the technology. While willingness to pay was originally included in our Technology Ratings Questionnaire, it was not included in this analysis for various reasons such as lack of control for prior cost knowledge, and there was some confusion during the TAP when participants were asked to assess willingness to pay (e.g., some were unclear as to whether cost included subscriptions and optional add-ons).
+
+The number of devices and applications available to older consumers to improve QoL is vast and growing, yet older adults are less likely to adopt new and emerging technologies compared to younger people. Our findings suggest that stakeholders (marketers, technology designers, training interventionists, etc.) interested in decreasing the digital divide need to be cognizant of each technology’s unique function and complexity and also of the abilities and demographic characteristics of the older user. As an example, stakeholders looking to increase adoption of financial management tools (e.g., Quicken) must be aware that older adults with lower self-perceived numeric ability may be more hesitant to adopt the technology; a marketing strategy or training intervention may need to focus on how the technology is usable regardless of numeric level (dependent on developers designing systems that minimize dependence on numeric skills). While there are many factors whose salience changes based on the technology examined, certain factors remain significantly associated with willingness to adopt across all or most technologies: perceived value, confidence in learning to use, and perceived impact on QoL. Considering these factors in technology design, marketing, and training can lead to more successful efforts designed to increase adoption of technologies among older people.
+
+Funding
+
+This work was supported by the National Institutes of Health (5P01AG017211-18). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+
+Conflict of Interest
+
+None reported.
+
+Supplementary Material
+
+igy002_suppl_Supplemental_Appendix
+
+Click here for additional data file. (153.6KB, docx) 
+
+References
+
+Ackerman P. L., & Wolman S. D (2007). Determinants and validity of self-estimates of abilities and self-concept measures. Journal of Experimental Psychology: Applied, 13, 57–78. doi:10.1037/1076-898X.13.2.57 [DOI] [PubMed] [Google Scholar]
+
+Anderson M. & Perrin A (2017). Tech adoption climbs among older adults
+Pew Research Center; Retrieved from http://assets.pewresearch.org/wp-content/uploads/sites/14/2017/05/16170850/PI_2017.05.17_Older-Americans-Tech_FINAL.pdf. [Google Scholar]
+
+Bautista L., Reininger B., Gay J. L., Barroso C. S., & McCormick J. B (2011). Perceived barriers to exercise in Hispanic adults by level of activity. Journal of Physical Activity and Health, 8, 916–925. doi:10.1123/jpah.8.7.916 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Boulton-Lewis G. M., Buys L., & Lovie-Kitchin J (2006). Learning and active aging. Educational Gerontology, 32, 271–282. doi:10.1080/03601270500494030 [Google Scholar]
+
+Brandt J., Spencer M., & Folstein M (1988). The telephone interview for cognitive status. Cognitive and Behavioral Neurology, 1, 111–117. [Google Scholar]
+
+Chen K., & Chan A. H (2011). A review of technology acceptance by older adults. Gerontechnology, 10, 1–12. doi:10.4017/gt.2011.10.01.006.00 [Google Scholar]
+
+Chen Y., & Persson A (2002). Internet use among young and older adults: Relation to psychological well-being. Educational Gerontology, 28, 731–744. doi:10.1080/03601270290099921 [Google Scholar]
+
+Choi N. G., & DiNitto D. M (2013). The digital divide among low-income homebound older adults: Internet use patterns, eHealth literacy, and attitudes toward computer/Internet use. Journal of Medical Internet Research, 15, e93. doi:10.2196/jmir.2645 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Chopik W. J. (2016). The benefits of social technology use among older adults are mediated by reduced loneliness. Cyberpsychology, Behavior and Social Networking, 19, 551–556. doi:10.1089/cyber.2016.0151 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Cotten S. R. Ford G. Ford S. & Hale T. M (2014). Internet use and depression among retired older adults in the United States: A longitudinal analysis. The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences, 69, 763–771. doi:10.1093/geronb/gbu018 [DOI] [PubMed] [Google Scholar]
+
+Cotten S. R., Yost E. A., Berkowsky R. W., Winstead V., & Anderson W. A (2016). Designing technology training for older adults in continuing care retirement communities. Boca Raton, FL: CRC Press. doi:10.1201/9781315382463 [Google Scholar]
+
+Czaja S. J., Boot W. R., Charness N., Rogers W. A., & Sharit J (2017). Improving social support for older adults through technology: Findings from the PRISM randomized controlled trial. The Gerontologist. Published online ahead of print. doi:10.1093/geront/gnw249 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Czaja S. J. Charness N. Fisk A. D. Hertzog C. Nair S. N. Rogers W. A. & Sharit J (2006). Factors predicting the use of technology: Findings from the center for research and education on aging and technology enhancement (create). Psychology and Aging, 21, 333–352. doi:10.1037/0882-7974.21.2.333 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Czaja S. J., & Sharit J (2013). Designing training and instructional programs for older adults. Boca Raton, FL: CRC Press. [Google Scholar]
+
+Davis F. D. (1986). A technology acceptance model for empirically testing new end-user information systems: Theory and results. Doctoral dissertation, Cambridge, MA: MIT Sloan School of Management. [Google Scholar]
+
+Davis F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. MIS Quarterly, 13, 319–340. doi:10.2307/249008 [Google Scholar]
+
+Davis F. D., Bagozzi R. P., & Warshaw P. R (1989). User acceptance of computer technology: A comparison of two theoretical models. Management Science, 35, 982–1003. doi:10.1287/mnsc.35.8.982 [Google Scholar]
+
+Ezer N., Fisk A. D., & Rogers W. A (2009). Attitudinal and intentional acceptance of domestic robots by younger and older adults. In Universal access in human-computer interaction. intelligent and ubiquitous interaction environments (pp. 39–48). Berlin: Springer. doi:10.1007/978-3-642-02710-9_5 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Fox S., & Duggan M (2013). Tracking for health
+Pew Research Center; Retrieved from http://www.pewinternet.org/~/media//Files/Reports/2013/PIP_TrackingforHealth%20with%20appendix.pdf. [Google Scholar]
+
+Friemel T. N. (2016). The digital divide has grown old: Determinants of a digital divide among seniors. New Media & Society, 18, 313–331. doi:10.1177/1461444814538648 [Google Scholar]
+
+Gell N. M. Rosenberg D. E. Demiris G. LaCroix A. Z. & Patel K. V (2015). Patterns of technology use among older adults with and without disabilities. The Gerontologist, 55, 412–421. doi:10.1093/geront/gnt166 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Hanson V. L. (2010). Influencing technology adoption by older adults. Interacting with Computers, 22, 502–509. doi:10.1016/j.intcom.2010.09.001 [Google Scholar]
+
+Hargittai E. (2002). Second-level digital divide: Differences in people’s online skills. First Monday, 7 Retrieved from http://firstmonday.org/issues/issue7_4/hargittai/index.html. [Google Scholar]
+
+Head A. J., Van Hoeck M., & Garson D. S (2015). Lifelong learning in the digital age: A content analysis of recent research on participation. First Monday, 20, Retrieved from http://firstmonday.org/ojs/index.php/fm/article/view/5857/4210. [Google Scholar]
+
+Heo J. Chun S. Lee S. Lee K. H. & Kim J (2015). Internet use and well-being in older adults. Cyberpsychology, Behavior and Social Networking, 18, 268–272. doi:10.1089/cyber.2014.0549 [DOI] [PubMed] [Google Scholar]
+
+Lee B., Chen Y., & Hewitt L (2011). Age differences in constraints encountered by seniors in their use of computers and the internet. Computers in Human Behavior, 27, 1231–1237. doi:10.1016/j.chb.2011.01.003 [Google Scholar]
+
+Marangunić N., & Granić A (2015). Technology acceptance model: A literature review from 1986 to 2013. Universal Access in the Information Society, 14, 81–95. doi:10.1007/s10209-014-0348-1 [Google Scholar]
+
+Marquié J. C., Jourdan-Boddaert L., & Huet N (2002). Do older adults underestimate their actual computer knowledge?Behaviour & Information Technology, 21, 273–280. doi:10.1080/0144929021000020998 [Google Scholar]
+
+Melrose R. J., Brommelhoff J. A., Narvaez T., Natta L., Riskin-Jones H. H., Sakhai S.,…Horning S. M (2016). The use of Information and Communication technology when completing instrumental activities of daily living. Computers in Human Behavior, 63, 471–479. doi:10.1016/j.chb.2016.05.045 [Google Scholar]
+
+Parasuraman A. (2000). Technology Readiness Index (TRI): A multiple-item scale to measure readiness to embrace new technologies. Journal of Service Research, 2, 307–320. doi:10.1177/109467050024001 [Google Scholar]
+
+Parasuraman A., & Colby C.L (2015). An updated and streamlined technology readiness index: TRI 2.0. Journal of Service Research, 18, 59–74. doi:10.1177/1094670514539730 [Google Scholar]
+
+Preusse K.C., Mitzner T.L., Fausset C.B., & Rogers W.A. (2017). Older adults’ acceptance of activity trackers. Journal of Applied Gerontology, 36(2), 127–155. doi:10.1177/0733464815624151 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Renaud K., & Van Biljon J (2008). Predicting technology acceptance and adoption by the elderly: A qualitative study. In Proceedings of the 2008 Annual Research Conference of the South African Institute of Computer Scientists and Information Technologists on IT Research in Developing Countries: Riding the Wave of Technology (pp. 210–219). New York, NY: ACM. doi:10.1145/1456659.1456684 [Google Scholar]
+
+Siren A. & Knudsen S. G (2017). Older adults and emerging digital service delivery: A mixed methods study on information and communications technology use, skills, and attitudes. Journal of Aging & Social Policy, 29, 35–50. doi:10.1080/08959420.2016.1187036 [DOI] [PubMed] [Google Scholar]
+
+Smith A. (2016). Shared, collaborative, and on demand: The new digital economy. Pew Research Center. Retrieved from http://assets.pewresearch.org/wp-content/uploads/sites/14/2016/05/PI_2016.05.19_Sharing-Economy_FINAL.pdf.
+
+Straub D., Keil M., & Brenner W (1997). Testing the technology acceptance model across cultures: A three country study. Information & Management, 33, 1–11. doi:10.1016/S0378-7206(97)00026-8 [Google Scholar]
+
+Sum S. Mathews R. M. Pourghasem M. & Hughes I (2009). Internet use as a predictor of sense of community in older people. Cyberpsychology & Behavior: The Impact of the Internet, Multimedia and Virtual Reality on Behavior and Society, 12, 235–239. doi:10.1089/cpb.2008.0150 [DOI] [PubMed] [Google Scholar]
+
+Sun H., & Zhang P (2006). The role of moderating factors in user technology acceptance. International Journal of Human-Computer Studies, 64, 53–78. doi:10.1016/j.ijhcs.2005.04.013 [Google Scholar]
+
+Venkatesh V., & Davis F. D (2000). A theoretical extension of the technology acceptance model: Four longitudinal field studies. Management Science, 46, 186–204. doi:10.1287/mnsc.46.2.186.11926 [Google Scholar]
+
+Venkatesh V., Morris M. G., Davis G. B., & Davis F. D (2003). User acceptance of information technology: Toward a unified view. MIS Quarterly, 27, 425–478. doi:10.2307/30036540 [Google Scholar]
+
+Vroman K. G., Arthanat S., & Lysack C (2015). “Who over 65 is online?” Older adults’ dispositions toward information communication technology. Computers in Human Behavior, 43, 156–166. doi:10.1016/j.chb.2014.10.018 [Google Scholar]
+
+Associated Data
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+Supplementary Materials
+
+igy002_suppl_Supplemental_Appendix
+
+Click here for additional data file. (153.6KB, docx)
