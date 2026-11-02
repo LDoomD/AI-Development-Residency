@@ -255,3 +255,9 @@ Folder: `competitive-analysis/` and `competitors-2/`. Output: `docs/competitive-
 `docs/market-research-prompt2-results.md`, `docs/market-size-table.md`, `docs/possible-market-segments-table.md` and `docs/market-opportunity.md` rely on market-report publisher summaries, press releases and vendor pages found by web search. Their links are in those files. They have not been re-checked against the full primary reports, and the paid reports are not available. Treat them as first-pass until redone.
 
 `docs/qualitative-research-findings.md` summarizes about 86 Reddit and forum pages collected through NotebookLM. The notebook sources are not saved in this repo.
+
+## 2t. Classmate Notion page, Market Research (outline only)
+- Copy: `docs/sources/classmate-notion/market-research-page-outline.md`; source https://app.notion.com/p/Market-Research-401e2016f74880be8e31cebffcf7e37f; read 2026-11-02 via Firecrawl; headings only, tables and images not returned.
+
+## 2u. Small Apple review samples for Everplans and Epic MyChart (2026-11-02)
+- Fetched with `app-reviews/fetch_apple_reviews3.py` (public feed; Everplans 8 reviews = all it returns, Epic MyChart 200 most recent); `reviews3.csv`, `all-reviews3.jsonl` (ids c-N); my reading of the 13 that mention a family word is in `app-reviews/analysis/sample3-tags.json` (every evidence quote checked as an exact substring). Raw files with usernames are in the gitignored `raw/`. Not part of the 439 caregiving count.

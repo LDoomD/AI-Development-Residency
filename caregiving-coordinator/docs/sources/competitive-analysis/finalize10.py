@@ -29,5 +29,17 @@ for name in KEEP:
         tail = r[9].split("; ", 1)[1] if r[9].startswith("Reading (mine, from the evidence in this row): reviewers raise") else r[9].replace("Reading (mine, from the evidence in this row): ", "")
         r[9] = "Reading (mine, from the evidence in this row): " + ("reviewers raise " + " and ".join(tl) + "; " if tl else "") + tail
     out.append(r)
+# Small separate samples for two apps that were not in the main collection (analysis/sample3-tags.json; reviews3.csv). Not part of the 439 count.
+SAMPLE = {
+ "Everplans": ["No caregiving-only 'worked' quote in the sample", "No caregiving-only problem quote in the sample",
+   "Small separate sample: all 8 Apple reviews the store feed returns for this app were read; none is clearly about caring for a relative (1 is about settling a late father's estate and was left out as unclear). No Google Play reviews collected. Not part of the 439 count.", None],
+ "Epic MyChart": ["• \"now I can include and manage my mother’s account without switching\" (review c-123)", "• \"Taking away a parents legal right to have accessibility to minor child’s chart\" (review c-152)",
+   "Small separate sample: the 200 most recent Apple reviews were read (13 mention a family word); 4 are clearly about caring for a relative: 2 describe a problem (access to a minor child's chart; records 2-3 days behind during a family member's hospitalization) and 2 describe something that worked. Not part of the 439 count.",
+   "reviewers raise access or logins for another person and data not syncing; "],
+}
+for r in out:
+    if r[0] in SAMPLE:
+        v = SAMPLE[r[0]]; r[6], r[7], r[8] = v[0], v[1], v[2]
+        if v[3]: r[9] = r[9].replace("Reading (mine, from the evidence in this row): ", "Reading (mine, from the evidence in this row): " + v[3])
 json.dump(out, open(HERE / "table-rows-10.json", "w"), ensure_ascii=False)
 for r in out: print(r[0], "|", r[8][:150].replace("\n", " "))
