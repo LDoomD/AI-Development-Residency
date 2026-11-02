@@ -183,7 +183,7 @@ Problems: the 286 problem statements that readers extracted from the 109 parent 
 
 Share of forum threads (count in brackets). Approximate: one reader sorted each quote, the forums are mostly dementia caregivers, and the two audiences' problem themes are worded slightly differently. A gap under about 5 points is called "about the same".
 
-| What we compare | Audience 1: caring for a parent (55 threads) | Audience 2: caring for a spouse or partner (54 threads) | Which is more common |
+| What we compare | Audience 1: adult children caring for a parent (55 threads) | Audience 2: spouses and partners caring for a husband, wife or partner (54 threads) | Which is more common |
 |---|---|---|---|
 | Problem: exhaustion, guilt, loneliness | 42% (23) | 41% (22) | About the same |
 | Problem: dementia behavior, hard conversations | 25% (14) | 33% (18) | Spouse more |
