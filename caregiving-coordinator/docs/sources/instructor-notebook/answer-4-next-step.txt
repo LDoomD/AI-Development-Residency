@@ -1,0 +1,122 @@
+QUESTION SENT (2026-11-02), notebook 'AI Development Residency - Learning Materials':
+Context given (the notebook has none of my data): weeks 2-3, family caregiving project, no problem picked yet; done so far: market research, competitor analysis (ten competitors, questions table, unique value opportunities), audience segmentation steps 1-6 (two audiences, motivations, goals, 18 use cases), and the use cases placed on the effort and value matrix (value = share of forum threads; effort = whether a competitor already covers it). Asked: (a) next step after the matrix, (b) the prioritization workshop output, (c) order of remaining Discovery deliverables up to the Vision Board, (d) did I skip anything.
+
+NOTEBOOK ANSWER (page text; numbers are the notebook's own citation markers):
+
+(d) Did I skip or miss anything in the order I followed?
+
+Thoughts
+expand_more
+(a) What is the next step after the use case prioritization matrix is filled in?
+According to the course materials, completing the use case prioritization matrix marks the end of the Audience Segmentation, Goals, Motivations, and Use Cases Workshop
+1
+2
+.
+Immediate Output of the Matrix: In export - Workshop Steps.csv (Step 96), the course defines the outcome of this step as "A prioritized set of use cases", noting in the tips/pitfalls:
+"This tells the team where to aim research and design first."
+1
+2
+Transition to Positioning & Unique Value: In the overall Discovery milestone workflow, the prioritized use cases feed directly into synthesizing your competitive findings to generate your Feature Comparison Analysis, Unique Value Proposition (UVP), and Product Positioning Statement
+3
+more_horiz
+.
+Moving to the Vision Milestone: Once those discovery outputs are established, you transition into the Vision Milestone to fill out your Release Vision Board
+6
+more_horiz
+. As instructor Morgan Denner states in transcript-working-session-10-28.txt:
+"If you did that, you bring it to the vision."
+12
+(b) What does the prioritization workshop say the output should be?
+Depending on which specific template board you are referencing in the materials, the exact outputs are defined as follows:
+In the Audience Segmentation & Use Cases Workshop (export - Workshop Steps.csv Step 96 / export - Workshop Template Sections.csv Section 99):
+Step Title: "Prioritize the use cases"
+1
+2
+Output of This Step: "A prioritized set of use cases."
+1
+2
+Template Board Structure: "A MoSCoW matrix ranking the use cases by risk and certainty, or effort and value."
+13
+14
+In the Discovery Backlog Workshop (export - Workshop Steps.csv Steps 48–50 / export - Workshop Template Sections.csv Section 46):
+Step 3 (MoSCoW Matrix): "Place items in the MoSCoW matrix" → Output: "A filled priority matrix."
+2
+15
+Step 4 (Dot-Voting): "Dot-vote the top items: Agree how many votes each person gets, then vote. Run a second or third round to narrow." → Output: "The voted-up top items."
+2
+16
+Step 5 (Final Priorities): "Finalize your top priorities: Confirm the top pieces of work for the next iteration and move them into your plan." → Output: "A finalized top-priority list for the next iteration."
+2
+17
+(c) In what order does the course expect the remaining Discovery deliverables up to the Vision Board?
+According to Week 2 Lecture Content - Product Management
+3
+more_horiz
+, Week 2 — Product Delivery Management (Lecture Notes)
+18
+19
+, export - Deliverables.csv
+20
+, and 💻 AI Development Residency — Homework / Coding Challenges
+21
+, the sequence of deliverables leading into the Vision Board is:
+Market Analysis: Identify market channels, segments, market size valuation, and CAGR projections
+3
+more_horiz
+.
+Competitor Analysis: Evaluate top direct and indirect competitors across capability, gap, and customer feedback questions
+8
+23
+.
+Feature Comparison Analysis: Compare functional capabilities across your competitors in a side-by-side matrix (present, absent, or partial) to see what is common vs. unique
+4
+more_horiz
+.
+Audience Segmentation (with Motivations, Goals & Use Cases): Define segment traits, semantic audience labels, motivations, situational/life goals, and prioritized use cases
+7
+more_horiz
+.
+Unique Value Proposition (UVP) & Value Summary: Synthesize unfilled market gaps and competitor weaknesses into a clear statement of your unique competitive advantage
+5
+more_horiz
+.
+Product Positioning Statement: Combine target audience, problem scope, competitor alternatives, and UVP into a formal storytelling statement:
+"For [audience] who experience [problems], our product [UVP]. Unlike other businesses that [competitor alternative], we [uniquely fill this gap]."
+6
+more_horiz
+Release Vision Board (Vision & Scope Milestone): Bring your UVP, positioning statement, target audiences, and market problems into the 10-box Vision Board (first for MVP #1, then for MMP)
+6
+more_horiz
+.
+(Note regarding Personas vs. Audience Segmentation): In Week 2 Lecture Content - Product Management, Morgan Denner distinguishes audience segmentation from traditional personas:
+"This thing right here is called audience segmentation. This is a little different than personas. This is not personas. It's not the same thing. It is a semantic description of your population of audiences."
+7
+25
+ In the core product management track for the residency coding challenges, Audience Segmentation is required, whereas full personas and empathy maps are optional/secondary deliverables in Continuous Discovery
+29
+30
+.
+(d) Did you skip or miss anything in the order you followed?
+No, you did not miss or ruin anything! Your sequence aligns well with the course framework. You have successfully gathered market data, analyzed competitors, segmented your audience, mapped 18 use cases, and prioritized them on an effort/value matrix
+1
+more_horiz
+.
+Here is what remains before you open your Vision Board:
+Synthesize Your Feature Analysis: Ensure you have a side-by-side feature comparison table mapping capabilities across competitors
+4
+more_horiz
+.
+Draft Your UVP & Positioning Statement: Write out your unique market gap summary and formal product positioning statement based on your competitor gaps and audience use cases
+5
+more_horiz
+.
+Select Your MVP Problem Scope (Box 2 of the Vision Board): You mentioned that you still have not picked one problem to solve yet. That is completely expected at this point. In transcript-working-session-10-28.txt, Morgan Denner explains that you do not choose your final MVP problem up front during research; you select it when filling out Box 2 (User Problems and Business Problems) on your MVP #1 Vision Board:
+"Since this is the MMP board, we list the full set, not just what the first version will tackle... MVP is the smallest version. It solves only the one or two most critical problems... What changes for MVP is scope, especially the problem box for MVP. We don't try to solve all seven. We pick the core few."
+31
+more_horiz
+💡 Next Step Suggestion: Would you like to draft your Unique Value Proposition (UVP) and Product Positioning Statement, or move directly to selecting your 1 to 3 core problems for Box 2 of your MVP #1 Vision Board?
+copy
+thumb_up
+thumb_down
+93 sources
+arrow_upward
