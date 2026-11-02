@@ -14,20 +14,20 @@ Forum threads: primary theme (one per thread) and 'anywhere in the thread'. YouT
 
 | Theme | Forum threads (primary) | Forum threads (anywhere) | YouTube share of themed comments | YouTube share without the sibling-abuse video |
 |---|---|---|---|---|
-| T1 Choosing, placing and paying for care | 13 (9%) | 38 (26%) | 5% | 6% |
-| T2 Burnout, guilt, isolation, grief | 25 (17%) | 55 (39%) | 21% | 24% |
-| T3 Family coordination, siblings | 7 (4%) | 29 (20%) | 10% | 10% |
-| T4 Long-distance caregiving | 2 (1%) | 9 (6%) | 2% | 2% |
-| T5 Medications | 9 (6%) | 20 (14%) | 1% | 1% |
-| T6 Money, insurance, legal papers | 12 (8%) | 46 (32%) | 5% | 5% |
-| T7 Care recipient refuses help | 3 (2%) | 12 (8%) | 3% | 3% |
-| T8 New diagnosis, crisis, "where do I start" | 12 (8%) | 19 (13%) | 2% | 2% |
-| T9 Dementia behavior and communication | 22 (15%) | 44 (31%) | 11% | 12% |
-| T10 Safety | 8 (5%) | 32 (22%) | 3% | 3% |
-| T11 Paid caregivers and agencies | 6 (4%) | 14 (9%) | 1% | 2% |
-| T12 Doctors, appointments, records | 4 (2%) | 27 (19%) | 2% | 2% |
-| T13 The caregiver's own life | 1 (0%) | 31 (21%) | 9% | 10% |
-| T14 Other | 17 (12%) | 19 (13%) | 19% | 10% |
+| Choosing, placing and paying for care | 13 (9%) | 38 (26%) | 5% | 6% |
+| Burnout, guilt, isolation, grief | 25 (17%) | 55 (39%) | 21% | 24% |
+| Family coordination, siblings | 7 (4%) | 29 (20%) | 10% | 10% |
+| Long-distance caregiving | 2 (1%) | 9 (6%) | 2% | 2% |
+| Medications | 9 (6%) | 20 (14%) | 1% | 1% |
+| Money, insurance, legal papers | 12 (8%) | 46 (32%) | 5% | 5% |
+| Care recipient refuses help | 3 (2%) | 12 (8%) | 3% | 3% |
+| New diagnosis, crisis, "where do I start" | 12 (8%) | 19 (13%) | 2% | 2% |
+| Dementia behavior and communication | 22 (15%) | 44 (31%) | 11% | 12% |
+| Safety | 8 (5%) | 32 (22%) | 3% | 3% |
+| Paid caregivers and agencies | 6 (4%) | 14 (9%) | 1% | 2% |
+| Doctors, appointments, records | 4 (2%) | 27 (19%) | 2% | 2% |
+| The caregiver's own life | 1 (0%) | 31 (21%) | 9% | 10% |
+| Other | 17 (12%) | 19 (13%) | 19% | 10% |
 
 Family dynamic as tagged per forum thread (141): siblings or family do not help 14, conflict 12, help 13, not mentioned 75, unclear 27.
 
@@ -130,59 +130,59 @@ Threads that mention logins or accounts: 17 of 141. Threads that mention the cos
 
 ## Quotes by theme (first two forum quotes for each)
 
-**T1 Choosing, placing and paying for care**
+**Choosing, placing and paying for care**
 - "Her AL charges her $205 for COPD management. I’ve argued that there is nothing to manage but they tell me since she was diagnosed with it they have to manage it." `sources/forums/agingcare/paying-for-care/499732.txt` (POST)
 - "There's no such thing as 30 minutes of care. Certainly not from any homecare agency." `sources/forums/agingcare/paying-for-care/499812.txt` (COMMENT 6)
 
-**T2 Burnout, guilt, isolation, grief**
+**Burnout, guilt, isolation, grief**
 - "I feel like I am losing myself as a caregiver because I don't ever have time to myself to do anything that I want to do?" `sources/forums/agingcare/caregiver-support/499707.txt` (POST)
 - "Tips for the lone 24/7 Caregiver who does not have any breaks or days off, and no one to ask - or who is willing to fill in." `sources/forums/agingcare/caregiver-support/499616.txt` (COMMENT 4)
 
-**T3 Family coordination, siblings**
+**Family coordination, siblings**
 - "I am so tired of dealing with this for over 4 years since Mom's stroke." `sources/forums/agingcare/family-caregiver/499771.txt` (POST)
 - "You can't always expect help from relatives when you're caregiving, and that's the truth." `sources/forums/agingcare/family-caregiver/499771.txt` (COMMENT 8)
 
-**T4 Long-distance caregiving**
+**Long-distance caregiving**
 - "My 92-year-old brother lives in Nevada. I live in California." `sources/forums/agingcare/financial-planning/499678.txt` (POST)
 - "I’m POA to my elderly mother who lives out of state and I have been dealing with missing information from people close to her who live in her town which is causing me a great deal of stress" `sources/forums/agingcare/power-of-attorney-poa/499712.txt` (POST)
 
-**T5 Medications**
+**Medications**
 - "I organize pills with 3 separate 7 day boxes and use little sample cups to serve the pills." `sources/forums/agingcare/medications/498744.txt` (POST)
 - "My wife has determined to not take her meds when I offer them to her. Don't know what to do?" `sources/forums/agingcare/medications/498938.txt` (POST)
 
-**T6 Money, insurance, legal papers**
+**Money, insurance, legal papers**
 - "how my siblings and I can also get some level of access (even if it’s just read-only) without taking on the credit exposure and liability of becoming authorized users." `sources/forums/agingcare/financial-planning/499820.txt` (POST)
 - "This was a multi step process and every institution wanted separate forms." `sources/forums/agingcare/financial-planning/499820.txt` (COMMENT 2)
 
-**T7 Care recipient refuses help**
+**Care recipient refuses help**
 - "I'm tired of fighting him, and I don't want people forcing him, right dad?" `sources/forums/agingcare/medications/499331.txt` (COMMENT 1)
 - "Be prepared for the fight of the century. They must be changed." `sources/forums/agingcare/working-caregiver/499873.txt` (COMMENT 4)
 
-**T8 New diagnosis, crisis, "where do I start"**
+**New diagnosis, crisis, "where do I start"**
 - "I guess I am asking for advice on what else we could be doing now - for anyone that has gone through this was there something you realized or found out later you wish you had done sooner?" `sources/forums/agingcare/new-to-caregiving/498825.txt` (POST)
 - "I am sleep-deprived, have no one to ask, and am honestly in full despair." `sources/forums/agingcare/financial-planning/499762.txt` (POST)
 
-**T9 Dementia behavior and communication**
+**Dementia behavior and communication**
 - "I weigh her diapers and minus diaper and pad dry weight it’s 1/2 gallon a night !" `sources/forums/agingcare/new-to-caregiving/499448.txt` (POST)
 - "She’s constantly asking for the same things and states the same worries." `sources/forums/agingcare/relationships/499699.txt` (POST)
 
-**T10 Safety**
+**Safety**
 - "she had fallen and I didnt know when." `sources/forums/agingcare/family-caregiver/499433.txt` (POST)
 - "She only uses the microwave but I still worry she will leave something on and cause a fire or something if she gets more forgetful." `sources/forums/agingcare/family-caregiver/499659.txt` (COMMENT 5)
 
-**T11 Paid caregivers and agencies**
+**Paid caregivers and agencies**
 - "Most days the aide comes while I am at work, and by evening I realize I honestly do not know how the visit went." `sources/forums/agingcare/working-caregiver/499829.txt` (POST)
 - "I had an aide a couple years ago who I knew was lazy and avoided doing work, and I found that when I was gone for a few hours at a time, she had nothing to hold her accountable, she didn't do anything at all." `sources/forums/agingcare/working-caregiver/499829.txt` (COMMENT 11)
 
-**T12 Doctors, appointments, records**
+**Doctors, appointments, records**
 - "I feel like Primary Care and many other doctors only treat by looking at a sheet and giving everyone the same tests, medications, and instructions" `sources/forums/agingcare/medications/499378.txt` (POST)
 - "incomplete patient summaries in medical records and missed diagnoses" `sources/forums/agingcare/financial-planning/499762.txt` (COMMENT 1)
 
-**T13 The caregiver's own life**
+**The caregiver's own life**
 - "I forgot to mention I started working part time just to escape my own brain being consumed by her." `sources/forums/agingcare/family-caregiver/499305.txt` (POST)
 - "I have not worked for the last year because her anxiety about being at home with a caregiver was making it impossible for me to focus on a job" `sources/forums/agingcare/relationships/499798.txt` (POST)
 
-**T14 Other**
+**Other**
 - "All contemporaries have passed. No available friends nor family . . . Frustrated & fearful." `sources/forums/agingcare/care-decisions/499855.txt` (POST)
 - "Is an assisted living facility allowed to prohibit a spouse from visiting their wife solely on the written instructions of a POA in the state of Georgia?" `sources/forums/agingcare/power-of-attorney-poa/498960.txt` (POST)
 
