@@ -176,3 +176,21 @@ Problems: the 286 problem statements that readers extracted from the 109 parent 
 - Money, scams and bills (6 of 54 threads)
 - Diagnosis and doctor delays (4 of 54 threads)
 - Relatives and others not helping or criticizing (3 of 54 threads)
+
+---
+
+## How the two audiences differ (added 2026-11-02, in the audience workshop board)
+
+Counts are forum threads from the sorted quotes; approximate (one reader sorted each quote; the forums are mostly dementia caregivers).
+
+**The same for both:** exhaustion and loneliness is the top problem (23 of 55 parent threads, 22 of 54 spouse threads); dementia behavior is second (14 and 18); safety, money, finding or paying for a place, and doctor delays appear for both; motivations and life goals use the same themes.
+
+**Different:**
+- Where they live (only the threads that say): parent caregivers, 16 apart and 8 together; spouse caregivers, 12 together and 4 apart.
+- Relatives not helping or blocking: 10 of 55 parent threads, 3 of 54 spouse threads.
+- Love, loyalty and promises as a motivation: 3 of 55 and 9 of 54.
+- Own health and sanity as a life goal: 1 of 55 and 7 of 54.
+- Trusting aides and hospice: a theme for spouse caregivers (8 of 54 threads), not a separate theme for parent caregivers.
+- Being far away and not knowing what is happening: a theme for parent caregivers (2 of 55 threads), not a separate theme for spouse caregivers.
+
+**My reading (not a finding):** the audiences differ more in who they care for, where they live and who else is around to help than in what they want. Whether that is enough to treat them as two audiences is the owner's decision.
