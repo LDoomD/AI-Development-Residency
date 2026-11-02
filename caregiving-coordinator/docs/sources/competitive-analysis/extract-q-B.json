@@ -1,0 +1,277 @@
+[
+ {
+  "company": "Everplans",
+  "fields": {
+   "business_model": [
+    {
+     "quote": "Everplans Premium - $99.99/year",
+     "file": "competitors/everplans/www_everplans_com_pricing.txt"
+    },
+    {
+     "quote": "The base Everplans app is free. Upgrade anytime to Everplans Premium.",
+     "file": "competitors/everplans/www_everplans_com_.txt"
+    }
+   ],
+   "retention": [
+    {
+     "quote": "Receive reminders and alerts about important dates",
+     "file": "competitors/everplans/www_everplans_com_.txt"
+    },
+    {
+     "quote": "Let our smart planning system guide your next step",
+     "file": "competitors/everplans/www_everplans_com_.txt"
+    }
+   ],
+   "customer_experience": [
+    {
+     "quote": "Access informative articles, videos, and checklists",
+     "file": "competitors/everplans/www_everplans_com_.txt"
+    },
+    {
+     "quote": "If you have trouble using our account deletion tool, please contact us through our help center at https://help.everplans.com/customer/portal/emails/new for assistance.",
+     "file": "competitors/everplans/www_everplans_com_privacy_policy.txt"
+    }
+   ],
+   "who_pays": [
+    {
+     "quote": "To learn more about Everplans for enterprise customers, visit our partnerships page .",
+     "file": "competitors/everplans/www_everplans_com_pricing.txt"
+    },
+    {
+     "quote": "If you signed up for the Services using an Invitation you received from your financial advisor or a Partner Provider, then we may share your Use Information with such financial advisor or Partner Provider",
+     "file": "competitors/everplans/www_everplans_com_privacy_policy.txt"
+    }
+   ],
+   "second_person_access": [
+    {
+     "quote": "Securely share items from your Everplan with people you trust",
+     "file": "competitors/everplans/www_everplans_com_.txt"
+    },
+    {
+     "quote": "Co-Administrators can equally view, edit, and administrate all parts of the Everplan that you are using.",
+     "file": "competitors/everplans/www_everplans_com_privacy_policy.txt"
+    }
+   ],
+   "health_data_consent": [
+    {
+     "quote": "your Secure Information is stored in a HIPAA-compliant hosting provider that has 24/7 physical and biometric protections",
+     "file": "competitors/everplans/www_everplans_com_privacy_policy.txt"
+    },
+    {
+     "quote": "When you delete your account, all of your Secure Information will be deleted or (if applicable) transferred to a Co-Administrator.",
+     "file": "competitors/everplans/www_everplans_com_privacy_policy.txt"
+    }
+   ],
+   "emergency_support": [
+    {
+     "quote": "If we discover a security incident that compromises your Secure Information, we will let you know about it in accordance with applicable law.",
+     "file": "competitors/everplans/www_everplans_com_privacy_policy.txt"
+    },
+    {
+     "quote": "With your explicit permission, the Unlocker will be able to alert Everplans that you have been “Declared Dead” through their use of the Services",
+     "file": "competitors/everplans/www_everplans_com_privacy_policy.txt"
+    }
+   ],
+   "setup": [
+    {
+     "quote": "Mobile App (iOS)",
+     "file": "competitors/everplans/www_everplans_com_pricing.txt"
+    },
+    {
+     "quote": "The Everplans mobile app is now available for Android!",
+     "file": "competitors/everplans/www_everplans_com_.txt"
+    }
+   ]
+  },
+  "notes": "Read fully: home, pricing, privacy_policy (privacy file is 19999 bytes, likely truncated at end of capture but ends with footer; fully read). Thin: no help-center/support hours, no explicit retention terms; retention quotes are engagement features only."
+ },
+ {
+  "company": "Epic MyChart",
+  "fields": {
+   "business_model": [],
+   "retention": [],
+   "customer_experience": [
+    {
+     "quote": "Community training hub",
+     "file": "competitors-2/epic-mychart/www_mychart_org.txt"
+    },
+    {
+     "quote": "Help MyChart improve by giving feedback on upcoming features",
+     "file": "competitors-2/epic-mychart/www_mychart_org.txt"
+    }
+   ],
+   "who_pays": [],
+   "second_person_access": [
+    {
+     "quote": "Manage care for you and your family",
+     "file": "competitors-2/epic-mychart/www_mychart_org.txt"
+    },
+    {
+     "quote": "Access and share your information in one place",
+     "file": "competitors-2/epic-mychart/www_mychart_org.txt"
+    }
+   ],
+   "health_data_consent": [],
+   "emergency_support": [],
+   "setup": [
+    {
+     "quote": "Use one login for all your care",
+     "file": "competitors-2/epic-mychart/www_mychart_org.txt"
+    },
+    {
+     "quote": "Download the app",
+     "file": "competitors-2/epic-mychart/www_mychart_org.txt"
+    }
+   ]
+  },
+  "notes": "Read fully the single page (2214 bytes). Very thin marketing page: nothing on business model, who pays, privacy terms, emergencies. Quotes are weak/nav-level."
+ },
+ {
+  "company": "Lively",
+  "fields": {
+   "business_model": [
+    {
+     "quote": "Everyday Support for Caregivers is an annual subscription that brings together the guidance, protection, and savings to help you handle what's next.",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    },
+    {
+     "quote": "Lively Mobile2 All-in-One Medical Alert Sale price $89.99 Regular price $119.99",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    }
+   ],
+   "retention": [
+    {
+     "quote": "No long-term contracts",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    },
+    {
+     "quote": "Keep your number",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    }
+   ],
+   "customer_experience": [
+    {
+     "quote": "U.S.-based support",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    },
+    {
+     "quote": "Have a question? With Ask Lively, you can learn more about your new device, get help looking up a number, get directions, or much more.",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    }
+   ],
+   "who_pays": [
+    {
+     "quote": "Whether you're keeping an eye on a loved one from a distance, navigating a new diagnosis, or just trying to keep everything from falling through the cracks, Everyday Support for Caregivers is an annual subscription",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    }
+   ],
+   "second_person_access": [
+    {
+     "quote": "Need to notify family? Our Lively Link smartphone app keeps friends and family updated on your health and safety.",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    }
+   ],
+   "health_data_consent": [
+    {
+     "quote": "Consumer Health Data Privacy Statement Do Not Sell My Personal Information",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    }
+   ],
+   "emergency_support": [
+    {
+     "quote": "Have an emergency? At the touch of a button, Urgent Response connects you to certified agents who can help in emergencies big or small.",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    }
+   ],
+   "setup": [
+    {
+     "quote": "When it arrives, activate it and select your plan online or by phone",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    },
+    {
+     "quote": "Bring Your Own Phone",
+     "file": "competitors-2/lively/www_lively_com.txt"
+    }
+   ]
+  },
+  "notes": "Read fully the single home page (8545 bytes). Marketing page; privacy/consent only as footer link labels; one testimonial-free selection. No cancellation/renewal terms beyond 'No long-term contracts'."
+ },
+ {
+  "company": "Medical Guardian",
+  "fields": {
+   "business_model": [
+    {
+     "quote": "For about $1 a day, you and your loved ones can feel the peace of mind that comes with 24-hour emergency response at the push of a button.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    },
+    {
+     "quote": "Partners Dealers Healthcare Government Patient Referral Senior Living",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    }
+   ],
+   "retention": [
+    {
+     "quote": "Offer valid for Annual subscriptions by new customers only.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    },
+    {
+     "quote": "Cancellation fees may apply.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    }
+   ],
+   "customer_experience": [
+    {
+     "quote": "please log into your MyGuardian Member Portal and check System for Accessories and Services or call Member Support at 1 (800) 313-1191.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    },
+    {
+     "quote": "A Life Safety Consultant will call you shortly to answer your questions and provide further assistance.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    }
+   ],
+   "who_pays": [
+    {
+     "quote": "Depending on your insurance plan, you may be eligible for a discounted or free device!",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    },
+    {
+     "quote": "All of our devices are available for purchase via phone or online.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    }
+   ],
+   "second_person_access": [
+    {
+     "quote": "we send the right help right away—whether that’s EMS or someone you trust like a neighbor, caregiver, or family member.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    }
+   ],
+   "health_data_consent": [
+    {
+     "quote": "By leaving this box unchecked I will not be opted in for SMS messages at this time.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    }
+   ],
+   "emergency_support": [
+    {
+     "quote": "When you press your button, you’re connected instantly to our 24/7 U.S.-based monitoring center—no need to search for your phone, dial a number or explain who you are.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    },
+    {
+     "quote": "Remember, fall detection is very good but does not work 100% of the time.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    }
+   ],
+   "setup": [
+    {
+     "quote": "Fall Detection works best when worn on the outside of clothing.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    },
+    {
+     "quote": "Keep It Charged: If the device has a rechargeable battery, make sure it’s charged regularly.",
+     "file": "competitors-2/medical-guardian/www_medicalguardian_com.txt"
+    }
+   ]
+  },
+  "notes": "Read fully www_medicalguardian_com.txt; the pricing file is byte-identical to it (verified with cmp), so all quotes cite the first file. No actual plan prices on the page apart from about $1 a day; no privacy text beyond SMS opt-in; no invite/roles for caregivers."
+ }
+]

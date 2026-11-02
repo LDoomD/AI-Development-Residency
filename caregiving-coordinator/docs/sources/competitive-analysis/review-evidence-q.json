@@ -1,0 +1,246 @@
+{
+ "Caring Village": {
+  "emergency": [],
+  "setup": [],
+  "cost_cancel": []
+ },
+ "CaringBridge": {
+  "emergency": [
+   {
+    "quote": "We are missing many crucial updates for a sick family member.",
+    "id": "a-3537",
+    "category": "alerts_unreliable"
+   }
+  ],
+  "setup": [],
+  "cost_cancel": [
+   {
+    "quote": "it continues to state that we need to donate to caring bridge again, and that no one from her page has donated.",
+    "id": "a-3296",
+    "category": "cost"
+   }
+  ]
+ },
+ "Lotsa Helping Hands": {
+  "emergency": [],
+  "setup": [],
+  "cost_cancel": []
+ },
+ "Medisafe": {
+  "emergency": [
+   {
+    "quote": "My husband will mark something taken",
+    "id": "a-6154",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "Sometimes it alerts at 45 minutes past the time, sometimes it alerts at 2 hours",
+    "id": "a-6294",
+    "category": "alerts_unreliable"
+   }
+  ],
+  "setup": [
+   {
+    "quote": "Setup though keeps challenging me.",
+    "id": "a-6306",
+    "category": "setup_compatibility"
+   }
+  ],
+  "cost_cancel": []
+ },
+ "Lively": {
+  "emergency": [
+   {
+    "quote": "Terrible support for a device seniors are supposed to depend on.",
+    "id": "a-7448",
+    "category": "support_unresponsive"
+   },
+   {
+    "quote": "I get no notifications when the user of the device leaves home.",
+    "id": "a-7450",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "on the phone with tech support several times",
+    "id": "a-7460",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "My almost 95-year old mother fell twice in the past month. No alert sent.",
+    "id": "a-7467",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "Mom was lost for 4 hours",
+    "id": "a-7501",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "It rarely reports when he leaves the house",
+    "id": "a-7504",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "does not happen in real time",
+    "id": "a-7525",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "Mom fell and I get a message saying a week in review",
+    "id": "a-7531",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "twice he has fallen and it never alerted Great Call",
+    "id": "a-7538",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "Emergency services were never called",
+    "id": "a-7561",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "He lay outside injured and unable to move for over an hour before a stranger found him.",
+    "id": "a-7567",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "The app does not notify you when the button on the necklace is pushed.",
+    "id": "a-7571",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "until the next day when a relative called to let me know",
+    "id": "a-7573",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "Then the would come hours after the event",
+    "id": "a-7590",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "she was taken by ambulance to the hospital and I was NEVER notified!!!!",
+    "id": "a-7603",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "My father lost his months ago and the company still reported him as being home",
+    "id": "a-7608",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "My husband has had at least 8 bad falls",
+    "id": "a-7618",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "This app has not been sending me notifications",
+    "id": "a-7631",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "Neither my sister or I were called to be informed of the emergency.",
+    "id": "a-7633",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "our mother got disoriented and was lost for a number of hours",
+    "id": "a-7642",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "Never notified it was off.",
+    "id": "a-7648",
+    "category": "alerts_unreliable"
+   },
+   {
+    "quote": "their emergency response team almost let my father die.",
+    "id": "a-7751",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "my mom would tell me she had gone shopping yet the app never notified me",
+    "id": "a-7795",
+    "category": "alerts_unreliable"
+   }
+  ],
+  "setup": [
+   {
+    "quote": "It works with Samsung phones, but it does not work with iPhones for some reason.",
+    "id": "a-7453",
+    "category": "setup_compatibility"
+   },
+   {
+    "quote": "My mother was unable to install the lanyard",
+    "id": "a-7657",
+    "category": "setup_compatibility"
+   }
+  ],
+  "cost_cancel": [
+   {
+    "quote": "Cancellation of the service/account on the app is not obvious.",
+    "id": "a-7454",
+    "category": "cost"
+   },
+   {
+    "quote": "I asked for a refund and was told we can not do refunds.",
+    "id": "a-7708",
+    "category": "cost"
+   }
+  ]
+ },
+ "Medical Guardian": {
+  "emergency": [
+   {
+    "quote": "Every time you call support they say something different.",
+    "id": "a-3254",
+    "category": "support_unresponsive"
+   },
+   {
+    "quote": "My mother has fallen twice and the fall detection",
+    "id": "g-mymedicalguardian-4",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "Fall detection never alerted me after my Mother had fallen two different times.",
+    "id": "g-mymedicalguardian-6",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "4 minutes !! FOUR MINUTES",
+    "id": "g-mymedicalguardian-13",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "parent had a medical emergency and ended up dying",
+    "id": "g-mymedicalguardian-20",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "This lady was instantly defensive and rude.",
+    "id": "g-mymedicalguardian-50",
+    "category": "support_unresponsive"
+   },
+   {
+    "quote": "when my mom went missing (which is exactly ehen I needed it), it failed to work!!",
+    "id": "g-mymedicalguardian-61",
+    "category": "safety_gap"
+   },
+   {
+    "quote": "the app does not notify you of an event",
+    "id": "g-mymedicalguardian-84",
+    "category": "alerts_unreliable"
+   }
+  ],
+  "setup": [],
+  "cost_cancel": [
+   {
+    "quote": "The billing should come to me and the device is with her.",
+    "id": "g-mymedicalguardian-3",
+    "category": "cost"
+   }
+  ]
+ }
+}
