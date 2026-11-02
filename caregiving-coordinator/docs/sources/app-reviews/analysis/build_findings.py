@@ -1,7 +1,9 @@
 """Build docs/app-review-findings.md from verified-tags.json (counts and quotes come from data, none typed by hand)."""
 import collections, json, pathlib
 HERE = pathlib.Path(__file__).parent
-V = json.load(open(HERE / "verified-tags.json"))
+V0 = json.load(open(HERE / "verified-tags.json"))
+REL = json.load(open(HERE / "relevance-final.json"))
+V = [r for r in V0 if REL.get(r["id"], {}).get("relevance") == "caregiving" and r.get("quote_verified")]
 LABEL = {"family_cant_see_same_info": "Relatives or helpers cannot see the same information",
  "access_for_others": "Getting access, accounts, logins or permissions for another person",
  "alerts_unreliable": "Alerts or notifications missed, late, too many or not arriving",
@@ -18,7 +20,7 @@ LABEL = {"family_cant_see_same_info": "Relatives or helpers cannot see the same 
  "other_problem": "Other problem"}
 prob = [r for r in V if r["kind"] == "problem"]
 n = len(V); npb = len(prob)
-rel = {"parent", "spouse", "other_relative"}
+rel = {"parent", "spouse", "other_relative", "child", "client"}
 who_all = collections.Counter(r.get("who", "not_stated") for r in prob)
 cnt = collections.Counter(r["category"] for r in prob)
 cnt_rel = collections.Counter(r["category"] for r in prob if r.get("who") in rel)
@@ -36,10 +38,12 @@ def pick(cat, k=4):
 L = []
 L.append("# What app-store reviewers say: problems in their own words (2026-11-02)\n")
 L.append(f"**Evidence state:** `documented` for every quote (exact text, checked by script against the saved review); `reported` for the category counts (one reader assigned one category per review, so the counts are approximate). Nothing here is a finding about what caregivers would pay for or do.\n")
+L.append("> **CORRECTION (2026-11-02).** The first version of this file (merged in pull request #20) counted 625 problem reviews from every selected review. Most of those reviews were not about caregiving: the word list also matches words like family, parent and senior in other uses. This version counts only the reviews where the reviewer is clearly caring for or helping a relative (439 reviews, 192 of them describing a problem). Every number below changed; for example, 'wrong readings or location' fell from 144 to 43 and 'price' from 42 to 6.\n")
 L.append("## How this was made (so you can check it)\n")
 L.append("1. **Collected:** 9,448 Apple reviews (public review feed, 44 apps, 7 storefronts) and 4,777 Google Play reviews (10 apps, read in Chrome). Saved in `docs/sources/app-reviews/` (`raw/`, `reviews.csv`, `google-play/`). Details and limits: `docs/sources/INDEX.md` section 2p.")
 L.append(f"2. **Selected:** `analysis/make_slices.py` keeps only reviews whose text or title matches a caregiving or family word list (mom, dad, parent, elderly, caregiver, wife, husband, dementia, loved one, and so on). That is 1,475 of 14,225 reviews. **The other 12,750 were not read for this analysis.**")
-L.append(f"3. **Read:** four reader agents read all {n:,} selected reviews and gave each one a kind (problem, worked, none), one problem category, who the reviewer cares for, and one exact quote.")
+L.append("3. **Read:** reader agents read the selected reviews and gave each one a kind (problem, worked, none), one problem category, who the reviewer cares for, and one exact quote.")
+L.append(f"3b. **Filtered to caregiving only:** the 1,386 reviews that describe a problem or something that worked were checked one by one (`analysis/verify_relevance.py`, then a blind full-text recheck of 539, then my reading of the 84 upgrade candidates; the result is `analysis/relevance-final.json`). A review counts as caregiving only if it contains an exact quote showing the reviewer is caring for or helping a relative; if in doubt it is left out. Result: **{n} caregiving reviews**, 668 not caregiving, 279 unclear. **Everything below counts only the {n}.**")
 L.append(f"4. **Checked:** `analysis/verify_tags.py` accepted a quote only if it is an exact substring of the review's text or title. Result: {sum(1 for r in V if r.get('quote') and r['quote_verified']):,} quotes verified, 0 dropped. Every id is in `analysis/all-reviews.jsonl` (`../all-reviews.jsonl`) with its app, store, stars and date; Apple ids `a-N` are row N (from 0) of `reviews.csv`, Google ids `g-<app>-N` are item N (from 0) in that app's JSON file.\n")
 k = collections.Counter(r["kind"] for r in V)
 L.append("## What was read\n")

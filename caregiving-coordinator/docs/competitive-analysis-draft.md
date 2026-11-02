@@ -1,5 +1,7 @@
 # Competitive analysis: draft questions and competitor lists (2026-11-02, for review)
 
+> **Update 2026-11-02:** the template asks for the top 5 to 7 direct competitors plus indirect ones, so the Figma table was cut to ten rows (see `docs/competitive-analysis.md`). The longer lists below are the research scope; the data for all of them is kept in `docs/sources/competitive-analysis/`.
+
 Status: DRAFT for the project owner to approve or edit. Nothing here is filled in yet. Template: Figma board, "Section 8" (node 2200:3176). Scope chosen by the owner: three groups side by side (coordination, access to accounts, monitoring and safety).
 
 ## Draft questions to answer about each competitor (problems only, no solution framing)

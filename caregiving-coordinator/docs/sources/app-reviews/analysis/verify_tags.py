@@ -4,14 +4,14 @@ import collections, json, pathlib, re
 HERE = pathlib.Path(__file__).parent
 ws = lambda s: re.sub(r"\s+", " ", s).strip()
 orig = {}
-for i in range(1, 5):
+for i in range(1, 6):
     for line in open(HERE / "slices" / f"slice-{i}.jsonl"):
         r = json.loads(line); r["slice"] = i; orig[r["id"]] = r
 CATS = {"family_cant_see_same_info","access_for_others","alerts_unreliable","readings_wrong","not_syncing","cost","hard_for_older_person",
         "setup_compatibility","privacy_trust","support_unresponsive","reminders_failing","safety_gap","app_reliability","other_problem"}
 verified, failed, missing = [], [], []
 seen = set()
-for i in range(1, 5):
+for i in range(1, 6):
     f = HERE / f"slice-{i}-tags.json"
     if not f.exists(): missing.append(f"slice-{i}-tags.json missing"); continue
     for t in json.load(open(f)):

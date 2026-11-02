@@ -1,0 +1,141 @@
+[
+ {
+  "company": "calm",
+  "url": "https://www.calm.com/",
+  "robots_allowed": true,
+  "file": "calm/www_calm_com.html",
+  "status": 200,
+  "bytes": 570221,
+  "final_url": "https://www.calm.com/"
+ },
+ {
+  "company": "calm",
+  "url": "https://www.calm.com/pricing",
+  "robots_allowed": true,
+  "file": null,
+  "status": "error: HTTP Error 404: Not Found",
+  "bytes": 0
+ },
+ {
+  "company": "headspace",
+  "url": "https://www.headspace.com/",
+  "robots_allowed": true,
+  "file": "headspace/www_headspace_com.html",
+  "status": 200,
+  "bytes": 549690,
+  "final_url": "https://www.headspace.com/"
+ },
+ {
+  "company": "headspace",
+  "url": "https://www.headspace.com/subscriptions",
+  "robots_allowed": true,
+  "file": "headspace/www_headspace_com_subscriptions.html",
+  "status": 200,
+  "bytes": 359467,
+  "final_url": "https://www.headspace.com/subscriptions"
+ },
+ {
+  "company": "talkspace",
+  "url": "https://www.talkspace.com/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "talkspace",
+  "url": "https://www.talkspace.com/how-it-works",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "betterhelp",
+  "url": "https://www.betterhelp.com/",
+  "robots_allowed": true,
+  "file": "betterhelp/www_betterhelp_com.html",
+  "status": 200,
+  "bytes": 112474,
+  "final_url": "https://www.betterhelp.com/"
+ },
+ {
+  "company": "betterhelp",
+  "url": "https://www.betterhelp.com/get-started/",
+  "robots_allowed": true,
+  "file": "betterhelp/www_betterhelp_com_get_started.html",
+  "status": 200,
+  "bytes": 911494,
+  "final_url": "https://www.betterhelp.com/get-started/",
+  "note": "tiny or possible bot page: check before use"
+ },
+ {
+  "company": "alight",
+  "url": "https://alight.com/",
+  "robots_allowed": true,
+  "file": "alight/alight_com.html",
+  "status": 200,
+  "bytes": 276081,
+  "final_url": "https://www.alight.com:443/"
+ },
+ {
+  "company": "alight",
+  "url": "https://alight.com/solutions/alight-worklife",
+  "robots_allowed": true,
+  "file": null,
+  "status": "error: HTTP Error 404: Not Found",
+  "bytes": 0
+ },
+ {
+  "company": "accolade",
+  "url": "https://www.accolade.com/",
+  "robots_allowed": true,
+  "file": "accolade/www_accolade_com.html",
+  "status": 200,
+  "bytes": 58678,
+  "final_url": "https://www.accolade.com/members"
+ },
+ {
+  "company": "accolade",
+  "url": "https://www.accolade.com/solutions",
+  "robots_allowed": true,
+  "file": "accolade/www_accolade_com_solutions.html",
+  "status": 200,
+  "bytes": 2294115,
+  "final_url": "https://transcarent.com/wayfinding"
+ },
+ {
+  "company": "included-health",
+  "url": "https://includedhealth.com/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "included-health",
+  "url": "https://includedhealth.com/about",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "rightway",
+  "url": "https://www.rightwayhealthcare.com/",
+  "robots_allowed": true,
+  "file": "rightway/www_rightwayhealthcare_com.html",
+  "status": 200,
+  "bytes": 478638,
+  "final_url": "https://www.rightwayhealthcare.com/"
+ },
+ {
+  "company": "rightway",
+  "url": "https://www.rightwayhealthcare.com/about",
+  "robots_allowed": true,
+  "file": "rightway/www_rightwayhealthcare_com_about.html",
+  "status": 200,
+  "bytes": 548075,
+  "final_url": "https://www.rightwayhealthcare.com/about"
+ }
+]
