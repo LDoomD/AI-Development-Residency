@@ -8,6 +8,29 @@ DRAFT for the project owner to review. Same content as the Figma section "CAREGI
 
 **Limits.** 1Password's site disallows automated fetching, so there is no saved page (not worked around). Life360, OMRON and Withings sites also disallow it, so their company text is the App Store description. Caring Village's FAQ page link could not be confirmed live (its three FAQ quotes are from the saved copy only). Three long privacy policies (CaringBridge, ianacare, Cozi) were not read in full. Apps and companies were chosen by the team. Similarweb traffic data was not used. Funding and size figures are in `docs/company-funding.md`.
 
+## Questions to answer about the competitors
+
+The first three are the template's questions and are not answered yet. The others are answered by the table columns.
+
+| Direct or Indirect Competitor? | Question to Answer | Where the table answers it |
+|---|---|---|
+| Direct and indirect | What are their business model? How do they make money? | Not answered yet (template question) |
+| Direct only | How do they retain customers? | Not answered yet (template question) |
+| Direct only | How do they approach their customer experience differently from other competitors in the market segment? | Not answered yet (template question) |
+| Direct and indirect | Is it a direct or indirect competitor, and in which market segment? | Indirect or Direct? and Market Segment |
+| Direct and indirect | What is its website? | Website |
+| Direct and indirect | What are its main features, as the company states them? | Main Features and Capabilities |
+| Direct and indirect | How does it differentiate itself, in its own words? | How do they differentiate themselves? |
+| Direct and indirect | What does it do well (review or forum quotes only)? | What do they do well? |
+| Direct and indirect | What does it not do well (review or forum quotes only)? | What do they not do well? |
+| Direct and indirect | What do customers say (exact quotes with ids)? | What do customers say about them? |
+| Direct and indirect | What gaps has it not filled (problems in our evidence it does not address)? | What market gaps have they NOT filled? |
+| Direct and indirect | What is its unique value proposition, in its own words? | What's their unique value proposition? |
+| Direct and indirect | Which candidate problem does it relate to? | Candidate problem(s) it relates to |
+| Direct and indirect | Who is the customer, and who pays? | Who it is for and what it costs |
+| Direct and indirect | What does it cost, as shown on its own site or store listing? | Who it is for and what it costs |
+| Direct and indirect | Can more than one family member see the same information (company words and reviewer words)? | Who it is for and what it costs (sharing line) |
+
 | Competitor | Indirect or Direct? | Market Segment | Website | Main Features and Capabilities | How do they differentiate themselves? | What do they do well? | What do they not do well? | What do customers say about them? | What market gaps have they NOT filled? | What's their unique value proposition? | Candidate problem(s) it relates to | Who it is for and what it costs (company's words) | Sources (links and saved files) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Caring Village | Direct (coordination) | Family care-coordination apps (segment 1) | https://caringvillage.com/ | • Coordinate care plans, track medications, share calendars, store documents, and get 24/7 guidance from Julia, our AI caregiving assistant — all in one place.<br>• Keep your village updated or check in on the day-to-day status of your loved one<br>• Coordinate schedules and avoid missed appointments | • Your family's health information is sacred. We use bank-level encryption and never sell your data — period. | • "coordinate various activities and responsibilities while caring for my father with dementia made things so much easier for us" (review a-1365) | • "How is this helping me keep track of what her doctors have done?" (review a-1379) | 29 app-store reviews where the reviewer is clearly caring for or helping a relative (reviews that mention a caregiving or family word were read, then filtered one by one): 7 describe a problem, 22 describe something that worked. Most common problems: other problems (2), privacy or trust worries (2). | Reading (mine, from the evidence in this row): reviewers raise other problems and privacy or trust worries; its saved pages state all three of: how it differs, sharing, price. | • Join families using Caring Village to simplify caregiving with a single, free app that keeps everyone connected and informed. | 1 scattered information | • Caring Village is for both family and professional caregivers.<br>• If you're a business looking to use Caring Village for your patients or clients, please contact us<br>• Our Free Plan allows up to two members and is ad-supported.<br>• Popular Circle Bring your inner circle together — ideal for most families. $14.99 /month Up to 2 villages, 5 members each<br>• Sharing (company's words): Users can build an online village for their loved ones and invite family members, friends, neighbors, and professional caregivers to participate in their care. | Company claims (features, differentiation, unique value proposition, audience, price, sharing): https://caringvillage.com/ [caring-village/www_caringvillage_com_.txt]; https://caringvillage.com/about/ [caring-village/www_caringvillage_com_about.txt]; page link not verified [caring-village/www_caringvillage_com_faq.txt]; https://caringvillage.com/pricing/ [caring-village/www_caringvillage_com_pricing.txt]; +1 more in docs/sources/competitive-analysis/competitive-data.json. Reviews: docs/sources/app-reviews/analysis/verified-tags.json (ids in cells). |
