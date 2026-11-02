@@ -1,0 +1,129 @@
+{
+ "reviews_in_slices": 1475,
+ "tagged": 1475,
+ "untagged_ids": 0,
+ "missing_files": [],
+ "by_kind": {
+  "problem": 625,
+  "worked": 687,
+  "none": 163
+ },
+ "problem_by_category": [
+  [
+   "readings_wrong",
+   144
+  ],
+  [
+   "app_reliability",
+   129
+  ],
+  [
+   "other_problem",
+   88
+  ],
+  [
+   "alerts_unreliable",
+   48
+  ],
+  [
+   "cost",
+   42
+  ],
+  [
+   "safety_gap",
+   33
+  ],
+  [
+   "access_for_others",
+   30
+  ],
+  [
+   "setup_compatibility",
+   29
+  ],
+  [
+   "not_syncing",
+   19
+  ],
+  [
+   "family_cant_see_same_info",
+   18
+  ],
+  [
+   "hard_for_older_person",
+   12
+  ],
+  [
+   "support_unresponsive",
+   12
+  ],
+  [
+   "privacy_trust",
+   12
+  ],
+  [
+   "reminders_failing",
+   9
+  ]
+ ],
+ "quotes_verified": 1312,
+ "quotes_dropped": 0,
+ "problem_by_category_and_store": {
+  "app_reliability": {
+   "apple": 101,
+   "google": 28
+  },
+  "family_cant_see_same_info": {
+   "apple": 9,
+   "google": 9
+  },
+  "access_for_others": {
+   "apple": 21,
+   "google": 9
+  },
+  "other_problem": {
+   "apple": 69,
+   "google": 19
+  },
+  "setup_compatibility": {
+   "apple": 26,
+   "google": 3
+  },
+  "safety_gap": {
+   "apple": 21,
+   "google": 12
+  },
+  "hard_for_older_person": {
+   "apple": 11,
+   "google": 1
+  },
+  "support_unresponsive": {
+   "apple": 10,
+   "google": 2
+  },
+  "privacy_trust": {
+   "apple": 8,
+   "google": 4
+  },
+  "readings_wrong": {
+   "apple": 95,
+   "google": 49
+  },
+  "alerts_unreliable": {
+   "apple": 35,
+   "google": 13
+  },
+  "cost": {
+   "apple": 36,
+   "google": 6
+  },
+  "reminders_failing": {
+   "apple": 5,
+   "google": 4
+  },
+  "not_syncing": {
+   "apple": 13,
+   "google": 6
+  }
+ }
+}

@@ -1,0 +1,391 @@
+country,entity,term,id,name,seller,ratings,avg,genre
+us,software,family caregiver,6746144347,Carevation: Family Caregiving,Carevation Inc.,2,5,Health & Fitness
+us,software,family caregiver,6765479692,Hyey: Family Caregiver App,Hyey Inc.,4,5,Health & Fitness
+us,software,family caregiver,1670470468,Family Caregiver,ViralMesh,3,4.33333,Lifestyle
+us,software,family caregiver,1658816779,tendercare - for families,TenderCo Inc,41,4.65854,Health & Fitness
+us,software,family caregiver,6757629684,CircleCare: Family Caregiver,Maple Ridge LLC,4,5,Medical
+us,software,family caregiver,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+us,software,family caregiver,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",36,4.47222,Medical
+us,software,family caregiver,6758372690,Brelti: Family Caregiver App,"Brelti, Inc.",3,4,Health & Fitness
+us,software,family caregiver,6746240468,CareGiver+,The Family Code LLC,1,5,Medical
+us,software,family caregiver,6759466761,Trualta: Caregiver Support,Trualta Inc.,1,5,Education
+us,software,family caregiver,1367528046,Care.com Caregiver: Find Jobs,"Care.com, Inc.",163821,4.62355,Lifestyle
+us,software,family caregiver,6777610311,CompassCare – Family Caregiver,CompassCareApp LLC,8,4.125,Health & Fitness
+us,software,carer elderly parent,6765971606,KinCarer: Family Caregiver App,REX CONNEXA LTD,0,0,Lifestyle
+us,software,carer elderly parent,1304726452,WellSky Personal Care,ClearCare Inc,8633,3.90235,Medical
+us,software,carer elderly parent,1090663690,CareLinx: In-Home Care,"Sharecare, Inc.",2045,4.47775,Health & Fitness
+us,software,carer elderly parent,1481712754,KARE Heroes,Kare Technologies LLC,1308,4.25229,Medical
+us,software,carer elderly parent,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",36,4.47222,Medical
+us,software,carer elderly parent,1165814775,MedFlyt,Medflyt LLC.,6356,4.8112,Health & Fitness
+us,software,carer elderly parent,6757629684,CircleCare: Family Caregiver,Maple Ridge LLC,4,5,Medical
+us,software,carer elderly parent,584004617,Lively Link,"Best Buy Health, Inc.",3967,4.22309,Medical
+us,software,carer elderly parent,1552867551,JubileeTV,Caavo Inc,57,4.47368,Lifestyle
+us,software,carer elderly parent,1264114394,HomeCare.com: Senior Care Jobs,Caresave Technologies Inc Homecare Com,156,3.19231,Medical
+us,software,carer elderly parent,1469329542,Carer - Healthcare for elderly,Carer Pte Ltd,0,0,Health & Fitness
+us,software,carer elderly parent,1451631772,CareGiver by John Hancock,John Hancock Life Insurance Company (U.S.A),1031,4.48109,Finance
+us,software,senior fall detection,1547299584,FallCall Detect,"FallCall Solutions, LLC",371,4.42856,Health & Fitness
+us,software,senior fall detection,6761449719,FallGuard - Fall Alerts,Tim Jones,2,3,Health & Fitness
+us,software,senior fall detection,6478184749,Bold: Science-backed exercises,"Age Bold, Inc.",12320,4.77987,Health & Fitness
+us,software,senior fall detection,1122758716,Snug: Daily Safety Check-In,Snug Products LLC,2257,4.86531,Health & Fitness
+us,software,senior fall detection,584004617,Lively Link,"Best Buy Health, Inc.",3967,4.22309,Medical
+us,software,senior fall detection,657932025,Sway Medical,"Sway Medical, Inc.",368,1.86413,Medical
+us,software,senior fall detection,6758745743,Tai Chi for Seniors Beginners,YUAN QI PTY LTD,2414,4.57125,Health & Fitness
+us,software,senior fall detection,1644126269,KamiCare,ZK (HK) LIMITED,4,4,Lifestyle
+us,software,senior fall detection,1243118496,mynotifi - Fall Detection,medhab llc,5,3.2,Health & Fitness
+us,software,senior fall detection,1355984353,Fall Alert – My Medic Watch,MY MEDIC WATCH PTY LTD,11,2.54545,Health & Fitness
+us,software,elderly care family share,6791409517,HuddleCare: Family Caregiving,HuddleCare LLC,6,5,Medical
+us,software,elderly care family share,1090663690,CareLinx: In-Home Care,"Sharecare, Inc.",2045,4.47775,Health & Fitness
+us,software,elderly care family share,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",36,4.47222,Medical
+us,software,elderly care family share,6776423916,FamilyCare: Elder Care Share,FLY SKY PTY LTD,0,0,Lifestyle
+us,software,elderly care family share,6811453095,Famora Family Care,Fergus Hall,1,5,Medical
+us,software,elderly care family share,6757629684,CircleCare: Family Caregiver,Maple Ridge LLC,4,5,Medical
+us,software,elderly care family share,6795222624,Diana Family App,"Diana Intelligence, Corp.",3,5,Lifestyle
+us,software,elderly care family share,1441737626,ianacare ™: Family Caregiving,"ianacare, Inc.",57,4.42105,Health & Fitness
+us,software,elderly care family share,1529800273,mariposa.care,Mariposa Technologies. Inc.,15,5,Health & Fitness
+us,software,elderly care family share,1498631076,Papa Pal: Find flexible work,Papa INC,890,3.27865,Business
+us,software,elderly care family share,6504099291,Family Caretaker,Better care Ltd,0,0,Productivity
+us,software,elderly care family share,1464476379,Serenity Smart,"Serenity App, Inc.",9,4.22222,Productivity
+us,software,medical alert watch,1080191188,MediSOS - Medical Alert Siren,Adam Foot,11,4.72727,Medical
+us,software,medical alert watch,1392205704,Seizure Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,22,2.40909,Health & Fitness
+us,software,medical alert watch,978475280,SeizAlarm,"SeizAlarm, LLC",1858,4.47901,Health & Fitness
+us,software,medical alert watch,1355984353,Fall Alert – My Medic Watch,MY MEDIC WATCH PTY LTD,11,2.54545,Health & Fitness
+us,software,medical alert watch,1391068676,Pill Reminder - A Meds Tracker,Phoenix Games LLP,2426,4.29019,Health & Fitness
+us,software,medical alert watch,863327251,Pill Reminder Medication Alarm,Aplicativos Legais LTDA - ME,4436,4.57619,Medical
+us,software,medical alert watch,1103892054,Sutter Health My Health Online,Sutter Health,17370,4.44899,Medical
+us,software,medical alert watch,542701020,Withings,Withings,369353,4.57968,Health & Fitness
+us,software,medical alert watch,1458353136,Medical Alert Connect,"CONNECT AMERICA.COM, LLC",2,1.5,Health & Fitness
+us,software,medical alert watch,573916946,Medisafe Medication Management,MediSafe Inc.,101552,4.70859,Medical
+us,software,medical alert watch,1487250949,Bronson MyChart,"BRONSON HEALTH CARE GROUP, INC.",2808,4.5641,Health & Fitness
+us,software,medical alert watch,641388921,MyID – Medical ID Profile,"MyID, LLC",5415,4.76103,Health & Fitness
+gb,software,family caregiver,6779649887,Family Caregiver - WarmNote,Keystone Dynamics Group Ltd,6,5,Health & Fitness
+gb,software,family caregiver,6746144347,Carevation: Family Caregiving,Carevation Inc.,0,0,Health & Fitness
+gb,software,family caregiver,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",0,0,Medical
+gb,software,family caregiver,6757629684,CircleCare: Family Carer,Maple Ridge LLC,0,0,Medical
+gb,software,family caregiver,6765971606,KinCarer: Elderly Parent Care,REX CONNEXA LTD,3,5,Lifestyle
+gb,software,family caregiver,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+gb,software,family caregiver,6758372690,Brelti: Family Caregiver App,"Brelti, Inc.",0,0,Health & Fitness
+gb,software,family caregiver,1441737626,ianacare ™: Family Caregiving,"ianacare, Inc.",0,0,Health & Fitness
+gb,software,family caregiver,6761402735,WeCare: Family Caregiver,WeCare Family Limited,0,0,Health & Fitness
+gb,software,family caregiver,6776486152,Phone Tracker: Family Locator*,GETSO HK LIMITED,1,5,Lifestyle
+gb,software,family caregiver,6804033409,Care Nest: Family Carer App,Salman Sohail,0,0,Medical
+gb,software,carer elderly parent,6765971606,KinCarer: Elderly Parent Care,REX CONNEXA LTD,3,5,Lifestyle
+gb,software,carer elderly parent,1479032251,Nursebuddy for Carers,Loikka Design Oy,1466,4.62347,Health & Fitness
+gb,software,carer elderly parent,1505449204,Curam - Find a carer,Curam.io Limited,53,4,Health & Fitness
+gb,software,carer elderly parent,1624894956,Carers Card UK,AppCreatives.co.uk Limited,18,3.22222,Lifestyle
+gb,software,carer elderly parent,1326790701,CareForIT Carer,MAS DESIGN LIMITED,20,2.75,Productivity
+gb,software,carer elderly parent,6802047816,CareCircle: Ageing Parent Care,Biplav Parajuli,0,0,Medical
+gb,software,carer elderly parent,1458598032,Staffscanner,Staffscanner Limited,2269,4.81622,Medical
+gb,software,carer elderly parent,1589043147,Elder Hub,Elder Technologies Limited,22,4.90909,Medical
+gb,software,carer elderly parent,1469329542,Carer - Healthcare for elderly,Carer Pte Ltd,0,0,Health & Fitness
+gb,software,carer elderly parent,6479373529,KareHero,Karehero LTD,6,4.33333,Health & Fitness
+gb,software,carer elderly parent,1639310550,Hometouch Carer,HOMETOUCH CARE LIMITED,6,4.5,Medical
+gb,software,carer elderly parent,1533079656,CarePAD: Carer Shifts,CarePAD LTD,6,5,Business
+gb,software,senior fall detection,6761449719,FallGuard - Fall Alerts,Tim Jones,0,0,Health & Fitness
+gb,software,senior fall detection,1355984353,Fall Alert – My Medic Watch,MY MEDIC WATCH PTY LTD,2,1,Health & Fitness
+gb,software,senior fall detection,1580986245,Dele Health Tech Fall Alerts,Vayyar Imaging LTD,0,0,Medical
+gb,software,senior fall detection,6749583215,Wobble Strength & Balance,WOBBLE STRENGTH & BALANCE LTD,23,5,Health & Fitness
+gb,software,senior fall detection,1644126269,KamiCare,ZK (HK) LIMITED,0,0,Lifestyle
+gb,software,senior fall detection,1243118496,mynotifi - Fall Detection,medhab llc,1,1,Health & Fitness
+gb,software,senior fall detection,6752488142,Tai Chi Walking : GentleFit,TROPIC INNOVATION PRIVATE LIMITED,434,4.73041,Health & Fitness
+gb,software,senior fall detection,1317876340,Komp,Abilia AB,414,4.90821,Social Networking
+gb,software,senior fall detection,6758745743,Tai Chi Fitness Beginners,YUAN QI PTY LTD,34,4.32353,Health & Fitness
+gb,software,elderly care family share,1316569456,Log my Care,LMC Software Ltd,2973,4.58829,Medical
+gb,software,elderly care family share,1573762662,Altra Family,Altra Health limited,202,4.82673,Social Networking
+gb,software,elderly care family share,6765971606,KinCarer: Elderly Parent Care,REX CONNEXA LTD,3,5,Lifestyle
+gb,software,elderly care family share,1471638257,Cera Care,Cera Care Ltd,435,4.48506,Medical
+gb,software,elderly care family share,935587341,Keys to Care,Ron Thorp,5,4.4,Health & Fitness
+gb,software,elderly care family share,1479032251,Nursebuddy for Carers,Loikka Design Oy,1466,4.62347,Health & Fitness
+gb,software,elderly care family share,6744944206,Elder-Care,Elder Technologies Limited,2,4,Medical
+gb,software,elderly care family share,1603401574,Careberry Family,Careberry Software Ltd,13,4,Medical
+gb,software,elderly care family share,6786138988,Evening In: Family Care,Jeanese Latiolais Raymond,0,0,Medical
+gb,software,elderly care family share,6757025246,OurTurn - Family Care,成中 江,0,0,Health & Fitness
+gb,software,elderly care family share,1458631437,Seakr Care,CareAssistDirect Limited,38,4.57895,Social Networking
+gb,software,elderly care family share,1579793529,Bright Horizons Elder Care,eLivelihood Inc.,0,0,Lifestyle
+gb,software,medical alert watch,1392205704,Seizure Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,16,2.625,Health & Fitness
+gb,software,medical alert watch,1355984353,Fall Alert – My Medic Watch,MY MEDIC WATCH PTY LTD,2,1,Health & Fitness
+gb,software,medical alert watch,573916946,Medisafe Pill Reminder,MediSafe Inc.,13467,4.63711,Medical
+gb,software,medical alert watch,1080191188,MediSOS - Medical Alert Siren,Adam Foot,2,3,Medical
+gb,software,medical alert watch,978475280,SeizAlarm: Seizure Detection,"SeizAlarm, LLC",314,4.1051,Health & Fitness
+gb,software,medical alert watch,863327251,Easy Medicine Reminder Tracker,Aplicativos Legais LTDA - ME,1375,4.49817,Medical
+gb,software,medical alert watch,940075049,Alert for Embrace watch,Empatica S.r.l.,10,4,Medical
+gb,software,medical alert watch,994171337,Medical ID Records,Geoff Hackworth,45,4.68889,Medical
+gb,software,medical alert watch,1526280881,Alertive,Alertive Limited,21,3.85714,Medical
+gb,software,medical alert watch,6456888629,ECG heart analyze - watch,199 Developments Private Limited,167,4.63473,Health & Fitness
+ca,software,family caregiver,1670470468,Family Caregiver,ViralMesh,0,0,Lifestyle
+ca,software,family caregiver,6746144347,Carevation: Family Caregiving,Carevation Inc.,0,0,Health & Fitness
+ca,software,family caregiver,6757629684,CircleCare: Family Carer,Maple Ridge LLC,0,0,Medical
+ca,software,family caregiver,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",3,4.33333,Medical
+ca,software,family caregiver,6777610311,CompassCare – Family Caregiver,CompassCareApp LLC,0,0,Health & Fitness
+ca,software,family caregiver,6761386119,CareAnchor: Family Caregiver,Grand River Professional Services Inc.,2,5,Medical
+ca,software,family caregiver,6779649887,Family Caregiver - WarmNote,Keystone Dynamics Group Ltd,0,0,Health & Fitness
+ca,software,family caregiver,6758372690,Brelti: Family Caregiver App,"Brelti, Inc.",0,0,Health & Fitness
+ca,software,family caregiver,6759466761,Trualta: Caregiver Support,Trualta Inc.,0,0,Education
+ca,software,family caregiver,6746240468,CareGiver+,The Family Code LLC,0,0,Medical
+ca,software,family caregiver,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+ca,software,family caregiver,6776551349,Carelo: Family Caregiver App,Manjinder Singh,0,0,Health & Fitness
+ca,software,carer elderly parent,1304726452,WellSky Personal Care,ClearCare Inc,361,3.83657,Medical
+ca,software,carer elderly parent,1469329542,Carer - Healthcare for elderly,Carer Pte Ltd,0,0,Health & Fitness
+ca,software,carer elderly parent,6762471862,Caregiver: Elderly Parent Help,Calming Aura Studios LLC,0,0,Medical
+ca,software,carer elderly parent,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",3,4.33333,Medical
+ca,software,carer elderly parent,6757629684,CircleCare: Family Carer,Maple Ridge LLC,0,0,Medical
+ca,software,carer elderly parent,1099445433,Claris for Caregivers,Claris Healthcare Inc,4,4.5,Health & Fitness
+ca,software,carer elderly parent,6596763821,Amintro Family,Amintro Inc.,1,5,Lifestyle
+ca,software,carer elderly parent,1588765065,Tuktu,Tuktu Care Inc.,20,4.45,Lifestyle
+ca,software,carer elderly parent,6738452394,Dementia Log: Carer Companion,Digitech Applications Limited,0,0,Health & Fitness
+ca,software,carer elderly parent,6463947805,Find Alto,Alto Technologies Inc.,9,5,Medical
+ca,software,carer elderly parent,6802047816,CareCircle: Ageing Parent Care,Biplav Parajuli,0,0,Medical
+ca,software,carer elderly parent,1582047009,Torchlight Care,LifeSpeak Inc,0,0,Health & Fitness
+ca,software,senior fall detection,6761449719,FallGuard - Fall Alerts,Tim Jones,0,0,Health & Fitness
+ca,software,senior fall detection,1355984353,Fall Alert – My Medic Watch,MY MEDIC WATCH PTY LTD,1,5,Health & Fitness
+ca,software,senior fall detection,1243118496,mynotifi - Fall Detection,medhab llc,0,0,Health & Fitness
+ca,software,senior fall detection,6762222686,CareTrigger - Senior Safety,Hyperbola Limited,0,0,Health & Fitness
+ca,software,senior fall detection,1580986245,Dele Health Tech Fall Alerts,Vayyar Imaging LTD,0,0,Medical
+ca,software,senior fall detection,6746165074,Chair Workout: Senior Workout,ABDELHAFID BASAFOU,27,4.7037,Sports
+ca,software,senior fall detection,6752488142,Tai Chi Walking : GentleFit,TROPIC INNOVATION PRIVATE LIMITED,456,4.62061,Health & Fitness
+ca,software,senior fall detection,1574133871,Oseterics Active Aging | 50+,OSETERICS PRIVATE LIMITED,17,4.52941,Health & Fitness
+ca,software,senior fall detection,1508993079,Fall Management,Securitas Healthcare LLC,0,0,Productivity
+ca,software,senior fall detection,1510594355,Caregiver Mobile,"Freeus, LLC",42,3.02381,Health & Fitness
+ca,software,elderly care family share,6776423916,FamilyCare: Elder Care Share,FLY SKY PTY LTD,0,0,Lifestyle
+ca,software,elderly care family share,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",3,4.33333,Medical
+ca,software,elderly care family share,6753773809,Elderella: Family Elder Care,Elderella Inc.,10,5,Health & Fitness
+ca,software,elderly care family share,6777610311,CompassCare – Family Caregiver,CompassCareApp LLC,0,0,Health & Fitness
+ca,software,elderly care family share,6757629684,CircleCare: Family Carer,Maple Ridge LLC,0,0,Medical
+ca,software,elderly care family share,1480402139,Sagely: Family 2.0,US Hospitality Publishers Inc,0,0,Health & Fitness
+ca,software,elderly care family share,6596763821,Amintro Family,Amintro Inc.,1,5,Lifestyle
+ca,software,elderly care family share,1441737626,ianacare ™: Family Caregiving,"ianacare, Inc.",3,5,Health & Fitness
+ca,software,elderly care family share,6762471862,Caregiver: Elderly Parent Help,Calming Aura Studios LLC,0,0,Medical
+ca,software,elderly care family share,1501212778,Connected Care for Families,JMR Healthcare Innovations LLC,1,1,Medical
+ca,software,elderly care family share,1573762662,Altra Family,Altra Health limited,4,4.5,Social Networking
+ca,software,elderly care family share,1642308796,Local Caregiver,"Senior Care Services, Inc.",0,0,Health & Fitness
+ca,software,medical alert watch,1355984353,Fall Alert – My Medic Watch,MY MEDIC WATCH PTY LTD,1,5,Health & Fitness
+ca,software,medical alert watch,1392205704,Seizure Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,13,2.61538,Health & Fitness
+ca,software,medical alert watch,573916946,Medisafe Pill Reminder,MediSafe Inc.,12351,4.58959,Medical
+ca,software,medical alert watch,1080191188,MediSOS - Medical Alert Siren,Adam Foot,2,4.5,Medical
+ca,software,medical alert watch,863327251,Easy Medicine Reminder Tracker,Aplicativos Legais LTDA - ME,1488,4.48118,Medical
+ca,software,medical alert watch,978475280,SeizAlarm: Seizure Detection,"SeizAlarm, LLC",96,4.30208,Health & Fitness
+ca,software,medical alert watch,787142696,Water Alert,LINKLINKS LTD,22,4.31818,Health & Fitness
+ca,software,medical alert watch,889581369,Pill Alert Pro,LINKLINKS LTD,21,4,Medical
+ca,software,medical alert watch,1458353136,Medical Alert Connect,"CONNECT AMERICA.COM, LLC",1,1,Health & Fitness
+ca,software,medical alert watch,1628644066,AidPass Alert,Atlass Global Protection Inc,4,5,Medical
+ca,software,medical alert watch,427935899,OnPage,OnPage Corporation,371,4.17251,Utilities
+au,software,family caregiver,1670470468,Family Caregiver,ViralMesh,0,0,Lifestyle
+au,software,family caregiver,6746144347,Carevation: Family Caregiving,Carevation Inc.,0,0,Health & Fitness
+au,software,family caregiver,6757629684,CircleCare: Family Carer,Maple Ridge LLC,1,5,Medical
+au,software,family caregiver,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",2,5,Medical
+au,software,family caregiver,6779649887,Family Caregiver - WarmNote,Keystone Dynamics Group Ltd,0,0,Health & Fitness
+au,software,family caregiver,6758372690,Brelti: Family Caregiver App,"Brelti, Inc.",0,0,Health & Fitness
+au,software,family caregiver,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+au,software,family caregiver,1441737626,ianacare ™: Family Caregiving,"ianacare, Inc.",1,5,Health & Fitness
+au,software,family caregiver,6776486152,Phone Tracker: Family Locator*,GETSO HK LIMITED,2,5,Lifestyle
+au,software,family caregiver,6761402735,WeCare: Family Caregiver,WeCare Family Limited,0,0,Health & Fitness
+au,software,family caregiver,6776551349,Carelo: Family Caregiver App,Manjinder Singh,0,0,Health & Fitness
+au,software,family caregiver,6804033409,Care Nest: Family Carer App,Salman Sohail,0,0,Medical
+au,software,carer elderly parent,6765971606,KinCarer: Elderly Parent Care,REX CONNEXA LTD,0,0,Lifestyle
+au,software,carer elderly parent,1469329542,Carer - Healthcare for elderly,Carer Pte Ltd,0,0,Health & Fitness
+au,software,carer elderly parent,6803361634,Carer Connect NSW,"Family and Community Services, NSW",8,5,Utilities
+au,software,carer elderly parent,6483803567,Find a Carer,Find A Carer Pty Ltd,0,0,Health & Fitness
+au,software,carer elderly parent,1272475947,CareApp,CareApp Group Pty Ltd,27,3.74074,Productivity
+au,software,carer elderly parent,1277845120,Homage Care Pro,Homage Co Pte Ltd,15,4,Health & Fitness
+au,software,carer elderly parent,1505449204,Curam - Find a carer,Curam.io Limited,0,0,Health & Fitness
+au,software,carer elderly parent,1541576444,Ask Annie,DEMENTIA AUSTRALIA LIMITED,23,4,Education
+au,software,senior fall detection,1355984353,Fall Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,13,4.23076,Health & Fitness
+au,software,senior fall detection,6761449719,FallGuard - Fall Alerts,Tim Jones,0,0,Health & Fitness
+au,software,senior fall detection,1243118496,mynotifi - Fall Detection,medhab llc,0,0,Health & Fitness
+au,software,senior fall detection,6443794000,Workout for Seniors: SeniorFit,Fast Builder Limited,629,4.62321,Health & Fitness
+au,software,senior fall detection,6752488142,Tai Chi Walking : GentleFit,TROPIC INNOVATION PRIVATE LIMITED,243,4.71193,Health & Fitness
+au,software,senior fall detection,1580986245,Dele Health Tech Fall Alerts,Vayyar Imaging LTD,0,0,Medical
+au,software,senior fall detection,6746165074,Chair Workout: Senior Workout,ABDELHAFID BASAFOU,8,4.375,Sports
+au,software,senior fall detection,6758745743,Tai Chi Workout Simple Fitness,YUAN QI PTY LTD,49,4.26531,Health & Fitness
+au,software,senior fall detection,6477544815,Chair Yoga for Seniors,Young Aces LLC,738,4.41463,Health & Fitness
+au,software,elderly care family share,6776423916,FamilyCare: Elder Care Share,FLY SKY PTY LTD,0,0,Lifestyle
+au,software,elderly care family share,6757629684,CircleCare: Family Carer,Maple Ridge LLC,1,5,Medical
+au,software,elderly care family share,1573762662,Altra Family,Altra Health limited,9,4.77778,Social Networking
+au,software,elderly care family share,1270053131,Swift Care,Swift Networks Group Limited,0,0,Social Networking
+au,software,elderly care family share,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",2,5,Medical
+au,software,elderly care family share,1277845120,Homage Care Pro,Homage Co Pte Ltd,15,4,Health & Fitness
+au,software,elderly care family share,1456134440,Korian Family,Technosens,7,4.28571,Social Networking
+au,software,elderly care family share,6475165496,CareWindow,JAMES ANTHONY GROUP PTY LTD,16,4.5,Social Networking
+au,software,elderly care family share,1441737626,ianacare ™: Family Caregiving,"ianacare, Inc.",1,5,Health & Fitness
+au,software,elderly care family share,1272475947,CareApp,CareApp Group Pty Ltd,27,3.74074,Productivity
+au,software,elderly care family share,1410066247,DayspringCare App,DAYSPRING CARE PTY LIMITED,19,4.63157,Business
+au,software,elderly care family share,1189223501,Care@Home Family,Essence SmartCare LTD,0,0,Medical
+au,software,medical alert watch,1392205704,Seizure Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,32,3.875,Health & Fitness
+au,software,medical alert watch,1355984353,Fall Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,13,4.23076,Health & Fitness
+au,software,medical alert watch,1080191188,MediSOS - Medical Alert Siren,Adam Foot,1,5,Medical
+au,software,medical alert watch,573916946,Medisafe Pill Reminder,MediSafe Inc.,6916,4.62753,Medical
+au,software,medical alert watch,889581369,Pill Alert Pro,LINKLINKS LTD,11,4,Medical
+au,software,medical alert watch,978475280,SeizAlarm: Seizure Detection,"SeizAlarm, LLC",118,4.41525,Health & Fitness
+au,software,medical alert watch,1640509073,EpiCentr: Seizure Tracker,"AIHUNTERS, UAB",114,4.31579,Health & Fitness
+au,software,medical alert watch,994171337,Medical ID Records,Geoff Hackworth,45,4.77778,Medical
+au,software,medical alert watch,940075049,Alert for Embrace watch,Empatica S.r.l.,3,4.33333,Medical
+au,software,medical alert watch,1548409309,Daily Check In: Circle Alert,"Carlton Media, LLC",18,4.55556,Health & Fitness
+au,software,medical alert watch,6456888629,ECG heart analyze - watch,199 Developments Private Limited,99,4.58586,Health & Fitness
+de,software,family caregiver,6779649887,Family Caregiver - WarmNote,Keystone Dynamics Group Ltd,0,0,Health & Fitness
+de,software,family caregiver,1441737626,ianacare ™: Family Caregiving,"ianacare, Inc.",0,0,Health & Fitness
+de,software,family caregiver,1622027002,marta: Für Familien,marta GmbH,29,4.2069,Health & Fitness
+de,software,family caregiver,1280643227,Cleo for Families,"Cleo Labs, Inc.",5,5,Health & Fitness
+de,software,family caregiver,1237797232,Teaching Strategies Family,"Teaching Strategies, Inc.",0,0,Education
+de,software,family caregiver,6776486152,Familienortung: GPS & SOS,GETSO HK LIMITED,0,0,Lifestyle
+de,software,family caregiver,6804033409,Care Nest: Family Caregiver,Salman Sohail,0,0,Medical
+de,software,family caregiver,6784032998,Aftercove: Family Caregiver,JACOB EDWARD ALLEN TENHET,0,0,Health & Fitness
+de,software,family caregiver,1584193573,Find Me・Familie・Kinder・Freunde,Dzmitry Chystsik,1,5,Social Networking
+de,software,carer elderly parent,6802047816,CareCircle: Pflege der Eltern,Biplav Parajuli,0,0,Medical
+de,software,carer elderly parent,6765971606,KinCarer: Pflegende Angehörige,REX CONNEXA LTD,0,0,Lifestyle
+de,software,carer elderly parent,1625460169,Live-Untertitel: Transcribe,Alexey Beschetnikov,1,5,Medical
+de,software,carer elderly parent,6758555169,I'm Alive: Daily Check-In,"WebMobi, Inc.",0,0,Utilities
+de,software,carer elderly parent,6817012580,DoseHalo - Medikamente,Chenghao Li,0,0,Medical
+de,software,carer elderly parent,6796014335,TurnCrew: Pflege & Senioren,RUBEN GARCIA FIGUEROA,0,0,Medical
+de,software,carer elderly parent,6804033409,Care Nest: Family Caregiver,Salman Sohail,0,0,Medical
+de,software,carer elderly parent,6802698921,Y.O.D.O.,Y.O.D.O. Ltd,1,5,Lifestyle
+de,software,carer elderly parent,6799198327,Nestria: Tägliche Meldung,BERKE KAHRAMAN,0,0,Lifestyle
+de,software,carer elderly parent,6759683088,Carely: Tabletten Erinnerung,ALBERT NAPIORKOWSKI,0,0,Health & Fitness
+de,software,carer elderly parent,6759175904,Kinlog – Family Care,LOUIS-OLIVE LTD,0,0,Health & Fitness
+de,software,senior fall detection,6761449719,FallGuard - Fall Alerts,Tim Jones,0,0,Health & Fitness
+de,software,senior fall detection,1644126269,KamiCare,ZK (HK) LIMITED,0,0,Lifestyle
+de,software,senior fall detection,6756516192,Bezpieczna Rodzina: GPS i SOS,Locon Sp. z o.o.,0,0,Lifestyle
+de,software,senior fall detection,6765627938,sensea,Sensea GmbH,0,0,Health & Fitness
+de,software,senior fall detection,6772640333,PNCC Care,Yuecheng Zhang,0,0,Health & Fitness
+de,software,senior fall detection,6505090784,mySeniorCareHub: Family Safety,"Myseniorcarehub, PBC",0,0,Health & Fitness
+de,software,senior fall detection,6817910940,CareNest: Hilfe für Senioren,Rohit Raj,0,0,Medical
+de,software,senior fall detection,6761984381,OwlCare,WiseFido LLC,0,0,Health & Fitness
+de,software,senior fall detection,1426892725,Sentinare Activity Sensor,AltumView Systems Inc.,0,0,Health & Fitness
+de,software,senior fall detection,6760929847,高齢者見守り,ANTENNA WORKS,0,0,Health & Fitness
+de,software,senior fall detection,1489897189,CoCo,semcorel Inc.,0,0,Health & Fitness
+de,software,senior fall detection,1421821586,GoLivePhone,Gociety Solutions BV,0,0,Health & Fitness
+de,software,elderly care family share,6514316036,SPC Care,SMART PRODUCTS CONNECTION S.A.,3,5,Utilities
+de,software,elderly care family share,1622027002,marta: Für Familien,marta GmbH,29,4.2069,Health & Fitness
+de,software,elderly care family share,1385884793,Dawaa: Family Pill Reminder,Fadel Sultan,0,0,Medical
+de,software,elderly care family share,6497569246,Care Logger,UnityRoot Solutions Inc.,0,0,Medical
+de,software,elderly care family share,1531264000,ONSCREEN JoyFamily,"ONSCREEN, Inc.",0,0,Utilities
+de,software,elderly care family share,6802047816,CareCircle: Pflege der Eltern,Biplav Parajuli,0,0,Medical
+de,software,elderly care family share,6756516192,Bezpieczna Rodzina: GPS i SOS,Locon Sp. z o.o.,0,0,Lifestyle
+de,software,elderly care family share,1554447319,Oscar Family,Oscar Senior s.r.o.,0,0,Business
+de,software,elderly care family share,6756123783,Luma Life,Luma Life GmbH,15,5,Health & Fitness
+de,software,elderly care family share,6776423916,FamilyCare: Pflege teilen,FLY SKY PTY LTD,0,0,Lifestyle
+de,software,elderly care family share,6794284097,F4milies,GEA CODING B.V.,3,5,Lifestyle
+de,software,medical alert watch,573916946,Arznei & Medikamente Alarm,MediSafe Inc.,3676,4.46464,Medical
+de,software,medical alert watch,1355984353,Fall Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,0,0,Health & Fitness
+de,software,medical alert watch,1080191188,MediSOS - Medical Alert Siren,Adam Foot,2,4,Medical
+de,software,medical alert watch,1392205704,Seizure Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,1,1,Health & Fitness
+de,software,medical alert watch,863327251,Tabletten Erinnerung & Wecker,Aplicativos Legais LTDA - ME,330,4.28788,Medical
+de,software,medical alert watch,6737151615,Sugar Sense: Blutzucker messen,Sugar Sense OU,16,4.8125,Medical
+de,software,medical alert watch,940075049,Alert for Embrace watch,Empatica S.r.l.,1,2,Medical
+de,software,medical alert watch,889581369,Pill Alert,LINKLINKS LTD,0,0,Medical
+de,software,medical alert watch,1660505668,NeckGo - 坐姿提醒颈椎放松健康锻炼,"Boke Medical Technology Shanghai Co., Ltd.",1,5,Health & Fitness
+de,software,medical alert watch,994171337,Medical ID Records,Geoff Hackworth,2,4.5,Medical
+de,software,medical alert watch,787142696,Trinkwasser Erinnerung Pro,LINKLINKS LTD,2,2.5,Health & Fitness
+jp,software,family caregiver,1670470468,Family Caregiver,ViralMesh,0,0,Lifestyle
+jp,software,family caregiver,6779649887,Family Caregiver - WarmNote,Keystone Dynamics Group Ltd,0,0,Health & Fitness
+jp,software,family caregiver,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+jp,software,family caregiver,6758372690,Brelti: Family Caregiver App,"Brelti, Inc.",0,0,Health & Fitness
+jp,software,family caregiver,6754493741,ScanMyPills: Family Caregiver,Ji Hyun Kim (California),2,5,Medical
+jp,software,family caregiver,6777610311,CompassCare: 家族の介護,CompassCareApp LLC,0,0,Health & Fitness
+jp,software,family caregiver,867437900,おうちカルテ - 家族の体温・病気の記録,Jin Hori,111,3.36937,Medical
+jp,software,family caregiver,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",0,0,Medical
+jp,software,family caregiver,6761402735,WeCare: Family Caregiver,WeCare Family Limited,0,0,Health & Fitness
+jp,software,family caregiver,1237797232,Teaching Strategies Family,"Teaching Strategies, Inc.",0,0,Education
+jp,software,family caregiver,6746144347,Carevation: Family Caregiving,Carevation Inc.,0,0,Health & Fitness
+jp,software,family caregiver,6767451603,けあーず｜介護記録・家族で共有・見守り・認知症・在宅介護,Romiick LLC,13,4.23076,Lifestyle
+jp,software,carer elderly parent,6765971606,KinCarer: Family Caregiver App,REX CONNEXA LTD,0,0,Lifestyle
+jp,software,carer elderly parent,6802047816,CareCircle: Aging Parent Care,Biplav Parajuli,0,0,Medical
+jp,software,carer elderly parent,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+jp,software,carer elderly parent,562825182,InHomeLog: 在宅介護オーガナイザー,Panspective Inc.,0,0,Health & Fitness
+jp,software,carer elderly parent,6758555169,I'm Alive: Daily Check-In,"WebMobi, Inc.",0,0,Utilities
+jp,software,carer elderly parent,6769094325,FamilyMeds: Pill Reminder,Renzo Delgado,0,0,Medical
+jp,software,carer elderly parent,6779649887,Family Caregiver - WarmNote,Keystone Dynamics Group Ltd,0,0,Health & Fitness
+jp,software,carer elderly parent,6804033409,Care Nest: Family Caregiver,Salman Sohail,0,0,Medical
+jp,software,carer elderly parent,6759175904,Kinlog – Family Care,LOUIS-OLIVE LTD,0,0,Health & Fitness
+jp,software,carer elderly parent,6759683088,Carely: Medication Reminder,ALBERT NAPIORKOWSKI,0,0,Health & Fitness
+jp,software,carer elderly parent,6799612849,HoldingHands 牵手,LEANERTOGETHER PTE. LTD.,0,0,Medical
+jp,software,senior fall detection,6760929847,高齢者見守り,ANTENNA WORKS,5,3.6,Health & Fitness
+jp,software,senior fall detection,1644126269,KamiCare,ZK (HK) LIMITED,0,0,Lifestyle
+jp,software,senior fall detection,1426892725,棒人間動作センサー,AltumView Systems Inc.,0,0,Health & Fitness
+jp,software,senior fall detection,6761449719,FallGuard - Fall Alerts,Tim Jones,0,0,Health & Fitness
+jp,software,senior fall detection,6760246294,お元気ですか - 家族の安否確認,Haide Lan,2,5,Health & Fitness
+jp,software,senior fall detection,6761984381,OwlCare,WiseFido LLC,0,0,Health & Fitness
+jp,software,senior fall detection,6505090784,mySeniorCareHub: Family Safety,"Myseniorcarehub, PBC",0,0,Health & Fitness
+jp,software,senior fall detection,6796846298,Gentle Reps,Zoran Sasko,0,0,Health & Fitness
+jp,software,senior fall detection,6448680624,Dcare v2 by Domintell,DOMINTELL SA,0,0,Lifestyle
+jp,software,senior fall detection,6755697120,Dormu,Dormu LLC,0,0,Health & Fitness
+jp,software,senior fall detection,1489897189,CoCo,semcorel Inc.,0,0,Health & Fitness
+jp,software,senior fall detection,6758683989,Rientro：認知症の徘徊見守り,yoon sung,0,0,Medical
+jp,software,elderly care family share,6776423916,FamilyCare 介護シェア,FLY SKY PTY LTD,0,0,Lifestyle
+jp,software,elderly care family share,6760929847,高齢者見守り,ANTENNA WORKS,5,3.6,Health & Fitness
+jp,software,elderly care family share,6767451603,けあーず｜介護記録・家族で共有・見守り・認知症・在宅介護,Romiick LLC,13,4.23076,Lifestyle
+jp,software,elderly care family share,6784618799,マモリテ −離れた家族のみまもり,KEN HASEGAWA,1,2,Lifestyle
+jp,software,elderly care family share,6822946445,FamilyCare：薬リマインダー・服薬管理,Monirujjaman Monjil,0,0,Medical
+jp,software,elderly care family share,6753773809,Elderella: Family Elder Care,Elderella Inc.,0,0,Health & Fitness
+jp,software,elderly care family share,6788835625,FamilyWatcher: Smart Care,Racy Tech Inc.,0,0,Health & Fitness
+jp,software,elderly care family share,6764244913,実家管理 IeKan-相続登記と空き家を家族で見守る,YANGLI CHEN,0,0,Lifestyle
+jp,software,elderly care family share,6497569246,ケアロガ - Care Logger,UnityRoot Solutions Inc.,0,0,Medical
+jp,software,elderly care family share,6794837934,TaskKin 介護シェア：家族で分担,俊 虞,0,0,Health & Fitness
+jp,software,elderly care family share,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+jp,software,elderly care family share,6791227342,服薬チェック,AKIHI KAWAGUCHI,0,0,Health & Fitness
+jp,software,medical alert watch,1062745479,HeartWatch： 心拍数の測定と管理,TANTSISSA HOLDINGS PTY LTD,946,4.15962,Health & Fitness
+jp,software,medical alert watch,1541992656,血中酸素ウェルネスアプリ Blood Oxygen App,"AboutMe Apps, Inc.",678,4.10914,Medical
+jp,software,medical alert watch,1392205704,Seizure Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,0,0,Health & Fitness
+jp,software,medical alert watch,1355984353,Fall Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,0,0,Health & Fitness
+jp,software,medical alert watch,889581369,Pill Alert,LINKLINKS LTD,1,5,Medical
+jp,software,medical alert watch,940075049,Alert for Embrace watch,Empatica S.r.l.,1,5,Medical
+jp,software,medical alert watch,1080191188,MediSOS - Medical Alert Siren,Adam Foot,0,0,Medical
+jp,software,medical alert watch,1660505668,NeckGo - 坐姿提醒颈椎放松健康锻炼,"Boke Medical Technology Shanghai Co., Ltd.",2,5,Health & Fitness
+jp,software,medical alert watch,863327251,Pill Reminder Medication Alarm,Aplicativos Legais LTDA - ME,35,4.22857,Medical
+in,software,family caregiver,1670470468,Family Caregiver,ViralMesh,0,0,Lifestyle
+in,software,family caregiver,6746144347,Carevation: Family Caregiving,Carevation Inc.,0,0,Health & Fitness
+in,software,family caregiver,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+in,software,family caregiver,6779649887,Family Caregiver - WarmNote,Keystone Dynamics Group Ltd,0,0,Health & Fitness
+in,software,family caregiver,1093814557,Caring Village: Caregiver App,"Caring Village Holdings, LLC",0,0,Medical
+in,software,family caregiver,1486830873,GuardIO - Family Care,WeTraq Inc,20,4.59999,Lifestyle
+in,software,family caregiver,6758372690,Brelti: Family Caregiver App,"Brelti, Inc.",0,0,Health & Fitness
+in,software,family caregiver,1441737626,ianacare ™: Family Caregiving,"ianacare, Inc.",0,0,Health & Fitness
+in,software,family caregiver,6776486152,Phone Tracker: Family Locator*,GETSO HK LIMITED,7,4.42856,Lifestyle
+in,software,family caregiver,1280643227,Cleo for Families,"Cleo Labs, Inc.",8,3.5,Health & Fitness
+in,software,family caregiver,6754493741,ScanMyPills: Family Caregiver,Ji Hyun Kim (California),0,0,Medical
+in,software,family caregiver,6777610311,CompassCare – Family Caregiver,CompassCareApp LLC,0,0,Health & Fitness
+in,software,carer elderly parent,6765971606,KinCarer: Elderly Parent Care,REX CONNEXA LTD,0,0,Lifestyle
+in,software,carer elderly parent,6796014335,TurnCrew: Carer & Medication,RUBEN GARCIA FIGUEROA,0,0,Medical
+in,software,carer elderly parent,1625460169,Live Subtitles: Transcribe,Alexey Beschetnikov,0,0,Medical
+in,software,carer elderly parent,6758555169,I'm Alive: Daily Check-In,"WebMobi, Inc.",2,5,Utilities
+in,software,carer elderly parent,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+in,software,carer elderly parent,6759683088,Carely: Pill Reminder Tracker,ALBERT NAPIORKOWSKI,0,0,Health & Fitness
+in,software,carer elderly parent,6799612849,HoldingHands 牵手,LEANERTOGETHER PTE. LTD.,0,0,Medical
+in,software,carer elderly parent,562825182,InHomeLog: Caregiver Organizer,Panspective Inc.,0,0,Health & Fitness
+in,software,carer elderly parent,6783064755,Strider: Stay Independent,Lewis Toole,0,0,Health & Fitness
+in,software,carer elderly parent,6777610311,CompassCare – Family Caregiver,CompassCareApp LLC,0,0,Health & Fitness
+in,software,carer elderly parent,6779649887,Family Caregiver - WarmNote,Keystone Dynamics Group Ltd,0,0,Health & Fitness
+in,software,carer elderly parent,6792240337,Care Daily Family,Care Daily Ltd,0,0,Medical
+in,software,senior fall detection,6505090784,mySeniorCareHub: Family Safety,"Myseniorcarehub, PBC",6,5,Health & Fitness
+in,software,senior fall detection,6761449719,FallGuard - Fall Alerts,Tim Jones,0,0,Health & Fitness
+in,software,senior fall detection,6817910940,CareNest: Senior Care,Rohit Raj,0,0,Medical
+in,software,senior fall detection,1644126269,KamiCare,ZK (HK) LIMITED,0,0,Lifestyle
+in,software,senior fall detection,1426892725,Sentinare Activity Sensor,AltumView Systems Inc.,0,0,Health & Fitness
+in,software,senior fall detection,1489897189,CoCo,semcorel Inc.,0,0,Health & Fitness
+in,software,senior fall detection,6747641082,Bitwell,Bitwell Tech Private Limited,0,0,Health & Fitness
+in,software,senior fall detection,6756516192,Safe Family: Phone Tracker,Locon Sp. z o.o.,0,0,Lifestyle
+in,software,senior fall detection,6448680624,Dcare v2 by Domintell,DOMINTELL SA,0,0,Lifestyle
+in,software,senior fall detection,6755697120,Dormu,Dormu LLC,0,0,Health & Fitness
+in,software,senior fall detection,6755478340,Harten Home (by LifeAIs),"M&S Consulting, LLC",0,0,Health & Fitness
+in,software,elderly care family share,6761720384,FamCare : Caregivers in 10 Min,FAMCARE TECHNOLOGIES PRIVATE LIMITED,30,4.46666,Lifestyle
+in,software,elderly care family share,6449708730,Tinybit AI - Elderly Care,Nitin Dhawan,13,5,Education
+in,software,elderly care family share,6458731518,Care Record,KANG-CHIH HSU,0,0,Utilities
+in,software,elderly care family share,6504099291,Family Caretaker,Better care Ltd,0,0,Productivity
+in,software,elderly care family share,6762346161,Companio: Elder Care Calls,Tilosia LLC.,3,5,Health & Fitness
+in,software,elderly care family share,6760909402,DrRing Family,DRRING HEALTH PRIVATE LIMITED,1,5,Health & Fitness
+in,software,elderly care family share,6801516827,MaiHoonNa Family Connect,MAIHOONNA ELDERCARE PRIVATE LIMITED,0,0,Health & Fitness
+in,software,elderly care family share,6502579279,CareWall: caregiving & family,O&R Solutions B.V.,0,0,Medical
+in,software,elderly care family share,6758003611,Lifelong - Family Health,AHANA STUDIOS LIMITED,0,0,Health & Fitness
+in,software,elderly care family share,1531264000,ONSCREEN JoyFamily,"ONSCREEN, Inc.",0,0,Utilities
+in,software,elderly care family share,1542592627,CLYKKCare,CLYKK SERVICES INDIA PRIVATE LIMITED,2,3,Health & Fitness
+in,software,elderly care family share,6773623355,FamilyOS - AI Family Companion,Shankar Krishnamurthy,0,0,Health & Fitness
+in,software,medical alert watch,573916946,Medisafe Pill Reminder,MediSafe Inc.,2933,4.72757,Medical
+in,software,medical alert watch,1392205704,Seizure Alert - My Medic Watch,MY MEDIC WATCH PTY LTD,0,0,Health & Fitness
+in,software,medical alert watch,1355984353,Fall Alert – My Medic Watch,MY MEDIC WATCH PTY LTD,0,0,Health & Fitness
+in,software,medical alert watch,787142696,Water Alert,LINKLINKS LTD,19,4.42105,Health & Fitness
+in,software,medical alert watch,940075049,Alert for Embrace watch,Empatica S.r.l.,0,0,Medical
+in,software,medical alert watch,863327251,Easy Medicine Reminder Tracker,Aplicativos Legais LTDA - ME,317,4.48264,Medical
+in,software,medical alert watch,889581369,Pill Alert Pro,LINKLINKS LTD,1,3,Medical
+in,software,medical alert watch,1660505668,NeckGo - Relief for Your Neck,"Boke Medical Technology Shanghai Co., Ltd.",0,0,Health & Fitness
+in,software,medical alert watch,1080191188,MediSOS - Medical Alert Siren,Adam Foot,0,0,Medical
+in,software,medical alert watch,6479893638,Fatigue Alert - Stay Awake,绪海 罗,0,0,Health & Fitness
+in,software,medical alert watch,1484454302,Water Reminder N Water Tracker,Paradoxspace Ltd.,4,3.75,Health & Fitness
+in,software,medical alert watch,1391068676,Pill Reminder - A Meds Tracker,Phoenix Games LLP,41,4.2439,Health & Fitness
