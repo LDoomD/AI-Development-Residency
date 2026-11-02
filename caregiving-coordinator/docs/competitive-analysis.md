@@ -10,26 +10,31 @@ DRAFT for the project owner to review. Same content as the Figma section "CAREGI
 
 ## Questions to answer about the competitors
 
-The first three are the template's questions and are not answered yet. The others are answered by the table columns.
+The first three are the template's questions. The rest are ours, including five for the caregiving niche (`docs/competitor-questions.md`).
 
-| Direct or Indirect Competitor? | Question to Answer | Where the table answers it |
-|---|---|---|
-| Direct and indirect | What are their business model? How do they make money? | Not answered yet (template question) |
-| Direct only | How do they retain customers? | Not answered yet (template question) |
-| Direct only | How do they approach their customer experience differently from other competitors in the market segment? | Not answered yet (template question) |
-| Direct and indirect | Is it a direct or indirect competitor, and in which market segment? | Indirect or Direct? and Market Segment |
-| Direct and indirect | What is its website? | Website |
-| Direct and indirect | What are its main features, as the company states them? | Main Features and Capabilities |
-| Direct and indirect | How does it differentiate itself, in its own words? | How do they differentiate themselves? |
-| Direct and indirect | What does it do well (review or forum quotes only)? | What do they do well? |
-| Direct and indirect | What does it not do well (review or forum quotes only)? | What do they not do well? |
-| Direct and indirect | What do customers say (exact quotes with ids)? | What do customers say about them? |
-| Direct and indirect | What gaps has it not filled (problems in our evidence it does not address)? | What market gaps have they NOT filled? |
-| Direct and indirect | What is its unique value proposition, in its own words? | What's their unique value proposition? |
-| Direct and indirect | Which candidate problem does it relate to? | Candidate problem(s) it relates to |
-| Direct and indirect | Who is the customer, and who pays? | Who it is for and what it costs |
-| Direct and indirect | What does it cost, as shown on its own site or store listing? | Who it is for and what it costs |
-| Direct and indirect | Can more than one family member see the same information (company words and reviewer words)? | Who it is for and what it costs (sharing line) |
+| Direct or Indirect Competitor? | Question to Answer |
+|---|---|
+| Direct and indirect | What are their business model? How do they make money? |
+| Direct only | How do they retain customers? |
+| Direct only | How do they approach their customer experience differently from other competitors in the market segment? |
+| Direct and indirect | Is it a direct or indirect competitor, and in which market segment? |
+| Direct and indirect | What is its website? |
+| Direct and indirect | What are its main features, as the company states them? |
+| Direct and indirect | How does it differentiate itself, in its own words? |
+| Direct and indirect | What does it do well (review or forum quotes only)? |
+| Direct and indirect | What does it not do well (review or forum quotes only)? |
+| Direct and indirect | What do customers say (exact quotes with ids)? |
+| Direct and indirect | What gaps has it not filled (problems in our evidence it does not address)? |
+| Direct and indirect | What is its unique value proposition, in its own words? |
+| Direct and indirect | Which candidate problem does it relate to? |
+| Direct and indirect | Who is the customer, and who pays? |
+| Direct and indirect | What does it cost, as shown on its own site or store listing? |
+| Direct and indirect | Can more than one family member see the same information (company words and reviewer words)? |
+| Direct and indirect | Who uses it and who pays: the caregiver, the older person, an employer, a health plan or a care company? |
+| Direct and indirect | Can a second or third relative join without the account holder handing over a login, and what does it take? |
+| Direct and indirect | How does it treat health data and consent: who sees what, and how is a person removed? |
+| Direct and indirect | What happens when it fails in an emergency (a missed fall, a wrong location, no alert), and how does support respond? |
+| Direct and indirect | What does setup take, who does it, and does it work on the phones the family already has? |
 
 | Competitor | Indirect or Direct? | Market Segment | Website | Main Features and Capabilities | How do they differentiate themselves? | What do they do well? | What do they not do well? | What do customers say about them? | What market gaps have they NOT filled? | What's their unique value proposition? | Candidate problem(s) it relates to | Who it is for and what it costs (company's words) | Sources (links and saved files) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
