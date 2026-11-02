@@ -1,0 +1,2152 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Caring Village | Family Caregiver App &amp; Care Coordination</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Teachers:wght@400;500;600;700&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teachers:wght@400;500;600;700&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teachers:wght@400;500;600;700&#038;display=swap" /></noscript>
+    <meta name="description" content="Coordinate tasks, medications, appointments, documents, and family updates in one secure caregiver app for families caring for aging parents." />
+    <link rel="canonical" href="https://caringvillage.com/" />
+    <meta property="og:title" content="Caring Village | Family Caregiver App &amp; Care Coordination" />
+    <meta property="og:description" content="Coordinate tasks, medications, appointments, documents, and family updates in one secure caregiver app for families caring for aging parents." />
+    <meta property="og:url" content="https://caringvillage.com/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Caring Village | Family Caregiver App &amp; Care Coordination" />
+    <meta name="twitter:description" content="Coordinate tasks, medications, appointments, documents, and family updates in one secure caregiver app for families caring for aging parents." />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://caringvillage.com/#organization","name":"Caring Village","url":"https://caringvillage.com/","logo":{"@type":"ImageObject","@id":"https://caringvillage.com/#logo","url":"https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg"},"sameAs":["https://www.facebook.com/caringvillage","https://www.instagram.com/caringvillage/","https://x.com/CaringVillage","https://www.youtube.com/@caringvillage","https://www.linkedin.com/company/caring-village-llc/","https://apps.apple.com/app/caring-village/id1048614869","https://play.google.com/store/apps/details?id=com.caringvillage.android"]},{"@type":"WebSite","@id":"https://caringvillage.com/#website","url":"https://caringvillage.com/","name":"Caring Village","publisher":{"@id":"https://caringvillage.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://caringvillage.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://caringvillage.com/#webpage","url":"https://caringvillage.com/","name":"Caring Village - The #1 Caregiver App for Family Care Coordination","description":"Coordinate tasks, medications, appointments, documents, and family updates in one secure caregiver app for families caring for aging parents.","isPartOf":{"@id":"https://caringvillage.com/#website"},"about":{"@id":"https://caringvillage.com/#softwareapplication"},"publisher":{"@id":"https://caringvillage.com/#organization"}},{"@type":"SoftwareApplication","@id":"https://caringvillage.com/#softwareapplication","name":"Caring Village","applicationCategory":"HealthApplication","applicationSubCategory":"Caregiver App","operatingSystem":"Web, iOS, Android","url":"https://caringvillage.com/","description":"Coordinate tasks, medications, appointments, documents, and family updates in one secure caregiver app for families caring for aging parents.","publisher":{"@id":"https://caringvillage.com/#organization"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}]}</script>
+    <link rel="preconnect" href="//fonts.googleapis.com" />
+    <link rel="preconnect" href="//fonts.gstatic.com"  />
+    
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/2016/02/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/2016/02/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/wp-content/uploads/2016/02/favicon-96x96.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="/wp-content/uploads/2016/02/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="/wp-content/uploads/2016/02/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="/wp-content/uploads/2016/02/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="/wp-content/uploads/2016/02/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="/wp-content/uploads/2016/02/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="/wp-content/uploads/2016/02/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="/wp-content/uploads/2016/02/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="/wp-content/uploads/2016/02/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/wp-content/uploads/2016/02/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/wp-content/uploads/2016/02/android-chrome-192x192.png" />
+    <link rel="preload" as="image" href="https://caringvillage.com/wp-content/themes/caringvillage/assets/banner-desktop-DNvylpio.png" media="(min-width: 1025px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://caringvillage.com/wp-content/themes/caringvillage/assets/banner-tablet-DmIzAoTd.png" media="(min-width: 641px) and (max-width: 1024px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://caringvillage.com/wp-content/themes/caringvillage/assets/banner-mobile--SHMiL9K.png" media="(max-width: 640px)" fetchpriority="high" />
+    <script>
+      function setViewport() {
+        const viewport = document.querySelector('meta[name="viewport"]');
+        if (window.innerWidth <= 393) {
+          viewport.setAttribute(
+            'content',
+            'width=393, initial-scale=1, user-scalable=yes'
+          );
+        } else {
+          viewport.setAttribute(
+            'content',
+            'width=device-width, initial-scale=1, user-scalable=yes'
+          );
+        }
+      }
+
+      setViewport();
+      window.addEventListener('resize', setViewport);
+    </script>
+	  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHV4HK3');</script>
+<!-- End Google Tag Manager -->
+    <script   src="https://caringvillage.com/wp-content/themes/caringvillage/assets/index.js"></script>
+    <link rel="stylesheet"  href="https://caringvillage.com/wp-content/themes/caringvillage/assets/style-uYw83_UC.css">
+    <style>
+      .floating-navigation .cv-nav-link-active,
+      .mobile-menu .cv-nav-link-active {
+        color: #17a56f !important;
+      }
+      /* Match the 1440px navigation scale at desktop widths below 1440px. */
+      @media (min-width:1024px) and (max-width:1439px) {
+        .main-banner-section.top-nav-home .top-nav-gap{left:4.7222vw!important;top:1.5278vw!important;width:calc(100% - 9.4444vw)!important;gap:2.2222vw!important}
+        .main-banner-section.top-nav-home .top-nav-gap>a img{height:2.2917vw!important}
+        .main-banner-section.top-nav-home .top-nav-gap>ul{font-size:1.1111vw!important;gap:3.3333vw!important}
+        .main-banner-section.top-nav-home .top-nav-gap>div:last-child{gap:.5556vw!important}
+        .main-banner-section.top-nav-home .top-nav-gap .button-primary{height:3.3333vw!important;padding:0 1.6667vw!important}
+        .main-banner-section.top-nav-home .top-nav-gap .button-primary span{font-size:1.1111vw!important}
+        .floating-navigation{left:4.1667vw!important;top:2.2222vw!important;width:91.6667vw!important;padding:1.1111vw 1.3889vw!important;gap:2.2222vw!important;border-radius:1.3889vw!important}
+        .floating-navigation>a img{height:2.2917vw!important}
+        .floating-navigation .header-floating-box{font-size:1.1111vw!important;gap:3.3333vw!important}
+        .floating-navigation>div:last-child{gap:.5556vw!important}
+        .floating-navigation .button-primary{height:3.3333vw!important;padding:0 1.1111vw!important}
+        .floating-navigation .button-primary span{font-size:1.1111vw!important}
+      }
+    </style>
+  <script data-km-cv-posthog="1">
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog&&window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+
+(function () {
+  if (window.__KM_CV_POSTHOG_LOADED__) return;
+  window.__KM_CV_POSTHOG_LOADED__ = true;
+
+  function safeUrl(value) {
+    if (!value) return value;
+    try {
+      var input = new URL(String(value), window.location.origin);
+      var allowed = new URLSearchParams();
+      ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach(function (key) {
+        var candidate = input.searchParams.get(key);
+        if (candidate) allowed.set(key, candidate.slice(0, 160));
+      });
+      input.search = allowed.toString();
+      input.hash = '';
+      return input.toString();
+    } catch (error) {
+      return String(value).split('?')[0].split('#')[0];
+    }
+  }
+
+  posthog.init('phc_njNNsAZU8YSdNBcdgpnQV7NzdeELvgxX7yRuaV5kW2ky', {
+    api_host: 'https://us.i.posthog.com',
+    defaults: '2026-05-30',
+    autocapture: false,
+    capture_pageview: true,
+    capture_pageleave: true,
+    capture_dead_clicks: false,
+    capture_heatmaps: false,
+    capture_performance: true,
+    cookieless_mode: 'always',
+    person_profiles: 'never',
+    disable_session_recording: true,
+    disable_surveys: true,
+    respect_dnt: true,
+    before_send: function (event) {
+      if (!event || !event.properties) return event;
+      ['$current_url', '$referrer', '$initial_current_url', '$initial_referrer'].forEach(function (key) {
+        if (event.properties[key]) event.properties[key] = safeUrl(event.properties[key]);
+      });
+      delete event.properties.$elements;
+      delete event.properties.$elements_chain;
+      return event;
+    }
+  });
+
+  function safeLabel(element) {
+    var value = String(
+      element.getAttribute('aria-label') ||
+      element.getAttribute('title') ||
+      element.textContent ||
+      ''
+    ).replace(/\s+/g, ' ').trim().slice(0, 100);
+    return value
+      .replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi, '[redacted]')
+      .replace(/(?:\+?\d[\d\s().-]{7,}\d)/g, '[redacted]');
+  }
+
+  function elementLocation(element) {
+    if (element.closest('#cmpbar')) return 'sticky_bar';
+    if (element.closest('.cv-end-cta')) return 'end_cta';
+    if (element.closest('.toc__cta, .cvrail')) return 'sidebar';
+    if (element.matches('.cvpm__btn')) return 'product_module';
+    if (element.matches('[class*="-cta__btn"]')) return 'inline_cta';
+    var landmark = element.closest('header, nav, main, article, aside, footer');
+    return landmark ? landmark.tagName.toLowerCase() : 'page';
+  }
+
+  function classify(element) {
+    var rawHref = element.getAttribute('href') || element.getAttribute('data-href') || '';
+    var label = safeLabel(element).toLowerCase();
+    var url = null;
+
+    try {
+      url = rawHref ? new URL(rawHref, window.location.href) : null;
+    } catch (error) {}
+
+    var protocol = url ? url.protocol : '';
+    var host = url ? url.hostname.replace(/^www\./, '').toLowerCase() : '';
+    var path = url ? url.pathname : '';
+    var kind = '';
+
+    var productCta = element.matches('.cvpm__btn, .cmpbar__cta, .cv-end-cta__button, [class*="-cta__btn"]') ||
+      element.closest('.toc__cta, .cvrail');
+
+    if (host === 'caringvillage.com' && /^\/app\/?$/.test(path) && productCta) {
+      kind = 'product';
+    } else if (
+      (host === 'my.caringvillage.com' && /^\/(?:Account\/SignUp|React\/sign-up)\/?$/i.test(path)) ||
+      (!rawHref && /\b(sign up|get started|start free|create (?:a |an |free )?account)\b/i.test(label))
+    ) {
+      kind = 'signup';
+    } else if (host === 'apps.apple.com' || host === 'play.google.com') {
+      kind = 'app_download';
+    } else if (
+      (host === 'caringvillage.com' && /^\/contact(?:\/|$)/.test(path)) ||
+      /\b(contact|get in touch|talk to us|request information)\b/i.test(label)
+    ) {
+      kind = 'contact';
+    } else if (protocol === 'tel:') {
+      kind = 'phone';
+    } else if (protocol === 'mailto:') {
+      kind = 'email';
+    }
+
+    if (!kind) return null;
+
+    return {
+      cta_kind: kind,
+      cta_label: safeLabel(element),
+      cta_location: elementLocation(element),
+      destination_host: host,
+      destination_path: /^(?:mailto|tel):$/.test(protocol) ? '' : path,
+      source_path: window.location.pathname,
+      source_title: document.title.slice(0, 180)
+    };
+  }
+
+  document.addEventListener('click', function (event) {
+    var element = event.target && event.target.closest ? event.target.closest('a[href], button, [role="button"]') : null;
+    if (!element) return;
+    var properties = classify(element);
+    if (properties) posthog.capture('cv_cta_click', properties);
+  }, true);
+
+  document.addEventListener('submit', function (event) {
+    var form = event.target;
+    if (!form || !form.matches) return;
+    if (form.matches('#gform_19, form[id="gform_19"], form[action*="/contact"]')) {
+      posthog.capture('cv_contact_form_submit_attempt', {
+        form_id: form.id || 'contact',
+        source_path: window.location.pathname,
+        source_title: document.title.slice(0, 180)
+      });
+    }
+  }, true);
+})();
+</script>
+</head>
+  <body data-rsssl=1 class="relative flex min-h-screen flex-col bg-white">
+    <!-- START FLOATING NAVIGATION -->
+    <div
+      class="floating-navigation fixed left-[32rem] top-[16rem] z-20 w-[calc(100%-64rem)] items-center justify-between gap-[32rem] rounded-[20rem] bg-white px-[20rem] py-[16rem] lg:left-[60rem] lg:top-[32rem] lg:w-[calc(100%-120rem)]"
+      style="box-shadow: 0 4px 15px 0 rgba(133, 139, 152, 0.1)"
+    >
+      <a class="flex-shrink-0" href="https://caringvillage.com"><img
+        class="h-[28rem] w-auto lg:h-[33rem]"
+        src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg"
+        alt="logo"
+      /></a>
+      <!-- Header Menu Items -->
+            <ul
+        class="header-floating-box flex items-center gap-[16rem] text-[16rem] font-medium leading-[100%] text-[#232323] sm:gap-[16rem] sm:text-[14rem] lg:gap-[48rem] lg:text-[16rem]"
+      >
+           
+           
+        <li class="hover:underline whitespace-nowrap"><a class="" href="https://caringvillage.com/app/">The App</a></li>
+           
+           
+        <li class="hover:underline whitespace-nowrap"><a class="" href="https://caringvillage.com/pricing/">Pricing</a></li>
+           
+           
+        <li class="hover:underline whitespace-nowrap"><a class="" href="https://caringvillage.com/wall-of-love/">Wall of Love</a></li>
+           
+           
+        <li class="hover:underline whitespace-nowrap"><a class="" href="https://caringvillage.com/articles/">Blog</a></li>
+           
+           
+        <li class="hover:underline whitespace-nowrap"><a class="" href="https://caringvillage.com/about/">About</a></li>
+           
+           
+        <li class="hover:underline whitespace-nowrap"><a class="" href="https://caringvillage.com/for-professionals/">For Professionals</a></li>
+              </ul>
+      
+      <div class="flex items-center gap-[8rem]">
+      <!-- Header Menu Signin Button -->
+                  <button 
+            class="button-primary h-[48rem] w-auto px-[16rem]" 
+            onclick="window.location.href='https://my.caringvillage.com/Account/SignIn'"
+            style="background: linear-gradient(90deg, #1db67f, #17a56f)"
+          >
+            <span class="text-[16rem] font-semibold leading-[130%] text-white whitespace-nowrap">
+              Sign In            </span>
+          </button>
+          
+
+        <!-- Header Menu Button -->
+                  <button 
+            class="button-primary h-[48rem] w-auto px-[16rem]" 
+            onclick="window.location.href='https://my.caringvillage.com/Account/SignUp'"
+          >
+            <span class="text-[16rem] font-semibold leading-[130%] text-white whitespace-nowrap">
+              Sign Up            </span>
+          </button>
+              </div>
+    </div>
+    <!-- END FLOATING NAVIGATION -->
+
+    <div class="flex flex-col gap-[80rem] sm:gap-[100rem] lg:gap-[200rem]">
+      <!-- START MAIN BANNER SECTION -->
+      <div class="main-banner-section p-[12rem] sm:p-[8rem] lg:p-[16rem] top-nav-home">
+        <div
+          class="relative flex aspect-[369/617] flex-col gap-[32rem] overflow-hidden rounded-[16rem] p-[24rem] sm:aspect-[818/648] sm:justify-center lg:aspect-[1408/740]"
+        >
+          <div
+            class="absolute top-nav-gap left-[18rem] top-[22rem] hidden w-[calc(100%-36rem)] items-center justify-between gap-[32rem] sm:flex lg:left-[68rem] lg:w-[calc(100%-136rem)]"
+          >
+            <a class="flex-shrink-0" href="https://caringvillage.com"><img
+              class="h-[26rem] w-auto sm:h-[28rem] lg:h-[33rem]"
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-white-CI4adGgO.svg"
+              alt="logo"
+            /></a>
+            
+            <!-- Header Menu Items -->
+             
+            <ul
+              class="flex items-center gap-[16rem] text-[16rem] font-medium leading-[100%] text-white sm:gap-[16rem] lg:gap-[48rem]"
+            >
+                           
+
+              <li class="hover:underline whitespace-nowrap"><a href="https://caringvillage.com/app/">The App</a></li>
+                           
+
+              <li class="hover:underline whitespace-nowrap"><a href="https://caringvillage.com/pricing/">Pricing</a></li>
+                           
+
+              <li class="hover:underline whitespace-nowrap"><a href="https://caringvillage.com/wall-of-love/">Wall of Love</a></li>
+                           
+
+              <li class="hover:underline whitespace-nowrap"><a href="https://caringvillage.com/articles/">Blog</a></li>
+                           
+
+              <li class="hover:underline whitespace-nowrap"><a href="https://caringvillage.com/about/">About</a></li>
+                           
+
+              <li class="hover:underline whitespace-nowrap"><a href="https://caringvillage.com/for-professionals/">For Professionals</a></li>
+              
+            </ul>
+            
+            <div class="flex items-center gap-[8rem]">
+              <!-- Header Menu Signin Button -->
+                              <button 
+                  class="button-primary h-[48rem] w-auto px-[24rem]" 
+                  onclick="window.location.href='https://my.caringvillage.com/Account/SignIn'"
+                  style="background: linear-gradient(90deg, #1db67f, #17a56f)"
+                >
+                  <span class="text-[16rem] font-semibold leading-[130%] text-white whitespace-nowrap">
+                    Sign In                  </span>
+                </button>
+                
+
+              <!-- Header Menu Button -->    
+               
+                <button 
+                  class="button-primary h-[48rem] w-auto px-[24rem]" 
+                  onclick="window.location.href='https://my.caringvillage.com/Account/SignUp'"
+                >
+                  <span class="text-[16rem] font-semibold leading-[130%] text-white whitespace-nowrap">
+                    Sign Up                  </span>
+                </button>
+                          </div>
+
+          </div>
+          <picture class="absolute inset-0 -z-10">
+            <source
+              media="(min-width: 1440px)"
+              srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/banner-desktop-DNvylpio.png"
+            />
+            <source
+              media="(min-width: 834px)"
+              srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/banner-tablet-DmIzAoTd.png"
+            />
+            <source
+              media="(min-width: 393px)"
+              srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/banner-mobile--SHMiL9K.png"
+            />
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/banner-mobile--SHMiL9K.png"
+              alt="Hero banner background"
+              class="h-full w-full object-cover"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </picture>
+          <div class="flex items-center justify-between gap-[24rem] sm:hidden">
+            <div class="h-[26rem] w-[168rem] flex-shrink-0">
+              <img
+                class="w-full"
+                src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-white-CI4adGgO.svg"
+                alt="logo"
+              />
+            </div>
+            <button
+              class="mobile-menu-toggle h-[40rem] w-[40rem]"
+              aria-label="Toggle menu"
+            >
+              <img
+                class="w-full"
+                src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M22.5444%2025.9995C21.9921%2025.9995%2021.5444%2026.4472%2021.5444%2026.9995C21.5444%2027.5518%2021.9921%2027.9995%2022.5444%2027.9995H33.5444C34.0967%2027.9995%2034.5444%2027.5518%2034.5444%2026.9995C34.5444%2026.4472%2034.0967%2025.9995%2033.5444%2025.9995H22.5444ZM15.5444%2017.9995C14.9921%2017.9995%2014.5444%2018.4472%2014.5444%2018.9995C14.5444%2019.5518%2014.9921%2019.9995%2015.5444%2019.9995H33.5444C34.0967%2019.9995%2034.5444%2019.5518%2034.5444%2018.9995C34.5444%2018.4472%2034.0967%2017.9995%2033.5444%2017.9995H15.5444ZM10.5444%2010.0933C9.99215%2010.0933%209.54443%2010.541%209.54443%2011.0933C9.54443%2011.6455%209.99215%2012.0933%2010.5444%2012.0933H33.5444C34.0967%2012.0933%2034.5444%2011.6455%2034.5444%2011.0933C34.5444%2010.541%2034.0967%2010.0933%2033.5444%2010.0933H10.5444Z'%20fill='white'/%3e%3c/svg%3e"
+                alt="toggle menu"
+              />
+            </button>
+          </div>
+
+          <div
+            class="mt-auto flex flex-col gap-[24rem] sm:mt-0 sm:gap-[32rem] sm:pl-[24rem] lg:mt-[24rem] lg:pl-[80rem]"
+          >
+            <div class="flex flex-col gap-[16rem] text-white sm:gap-[24rem]">
+              <!-- Hero Title -->
+              <h1 class="heading-1 sm:max-w-[485rem]">
+                Coordinate. Communicate. Care.               </h1>
+              <!-- Hero Description -->
+              <p class="text-3 sm:max-w-[304rem] lg:max-w-[404rem] font-normal">
+                Join families using Caring Village to simplify caregiving with a single, free app that keeps everyone connected and informed.              </p>
+            </div>
+            <!-- Hero Button -->
+                          <button class="button-primary w-[243rem]" onclick="window.location.href='https://my.caringvillage.com/Account/SignUp'">
+                <span class="text-3 text-white">Create Your Free Village</span>
+              </button>
+                      </div>
+          <div
+            class="absolute right-[40rem] top-1/2 hidden h-[91rem] w-[160rem] -translate-y-1/2 transform sm:block lg:right-[74rem]"
+          >
+            <img
+              class="w-full"
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/decorated-button-green-BYim-reK.svg"
+              alt="I'll do it"
+            />
+            <img
+              class="absolute left-[19rem] top-[17rem] h-auto w-[43rem]"
+              src="data:image/svg+xml,%3csvg%20width='43'%20height='43'%20viewBox='0%200%2043%2043'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M32.9375%2026.245C32.38%2025.2587%2031.0826%2024.911%2030.0477%2025.4707L27.7559%2026.7099L31.1336%2014.1039C31.3429%2013.323%2030.8589%2012.5357%2030.0332%2012.3145C29.2076%2012.0933%2028.3945%2012.533%2028.1853%2013.3139L26.317%2020.2863C26.2274%2020.6207%2025.932%2020.781%2025.5778%2020.6861C25.2236%2020.5911%2025.0475%2020.3049%2025.1372%2019.9701L27.4538%2011.3243C27.6631%2010.5434%2027.179%209.75639%2026.3533%209.53516C25.5277%209.31393%2024.7147%209.75338%2024.5055%2010.5343L22.1888%2019.1801C22.0992%2019.5146%2021.8038%2019.6748%2021.4496%2019.5799C21.0954%2019.485%2020.9193%2019.1987%2021.009%2018.864L23.0266%2011.334C23.2359%2010.5531%2022.7518%209.76588%2021.9262%209.54465C21.1006%209.32342%2020.2875%209.76313%2020.0782%2010.544L18.0605%2018.0742C17.9709%2018.4087%2017.6755%2018.5689%2017.3213%2018.474C16.9671%2018.3791%2016.791%2018.0928%2016.8807%2017.7581L18.0017%2013.5746C18.2109%2012.7937%2017.7269%2012.0064%2016.9012%2011.7852C16.0756%2011.5639%2015.2622%2012.0036%2015.053%2012.7845L11.5408%2025.8923C10.8832%2028.3464%2012.4681%2030.9235%2015.0634%2031.6189L21.6685%2033.3888C22.7796%2033.6865%2023.9149%2033.5245%2024.837%2033.0149L24.8572%2033.0474L32.2051%2028.9782C33.2251%2028.4742%2033.5539%2027.2472%2032.9375%2026.245Z'%20fill='white'/%3e%3c/svg%3e"
+              alt="I'll do it"
+            />
+          </div>
+          <div
+            class="absolute bottom-[40rem] right-[148rem] hidden h-[108rem] w-[289rem] sm:block lg:bottom-[90rem] lg:right-[390rem]"
+          >
+            <img
+              class="w-full"
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/task-plate-x4oCrsgP.svg"
+              alt="Mom's Dr. Appointment"
+            />
+            <img
+              class="absolute right-[57rem] top-[6rem] h-auto w-[40rem]"
+              src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_760_1983)'%3e%3cpath%20d='M29.4709%2018.4952L29.2169%2019.3964C28.9121%2020.478%2028.9227%2021.6223%2029.2476%2022.6852L30.0435%2025.29C30.7706%2027.6692%2029.0105%2030.1285%2026.5791%2030.1308C20.2187%2030.1369%2014.0051%2028.3857%208.58385%2025.0592C6.51151%2023.7875%206.29473%2020.7711%208.15714%2019.1217L10.1961%2017.3159C11.0282%2016.5791%2011.6348%2015.6087%2011.9397%2014.5271L12.1937%2013.6259C13.5882%208.67761%2018.5864%205.75624%2023.3574%207.10085C28.1284%208.44546%2030.8655%2013.5469%2029.4709%2018.4952Z'%20fill='%23F8D20F'/%3e%3cpath%20d='M11.3009%2026.5623C11.4108%2029.3636%2013.2987%2031.8985%2016.143%2032.7001C18.9872%2033.5017%2021.921%2032.3257%2023.4775%2029.994C19.2386%2029.6149%2015.114%2028.4524%2011.3009%2026.5623Z'%20fill='%23F5B000'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_760_1983'%3e%3crect%20x='8.71942'%20y='0.212402'%20width='31.9157'%20height='31.9157'%20rx='6.6491'%20transform='rotate(15.7395%208.71942%200.212402)'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+              alt=""
+            />
+            <img
+              class="absolute bottom-[42rem] right-[26rem] h-[22rem] w-[22rem]"
+              src="data:image/svg+xml,%3csvg%20width='21'%20height='22'%20viewBox='0%200%2021%2022'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.3365%200.418213C16.0244%200.418213%2020.6353%205.02915%2020.6353%2010.717C20.6353%2016.4049%2016.0244%2021.0159%2010.3365%2021.0159C4.6486%2021.0159%200.0376587%2016.4049%200.0376587%2010.717C0.0376659%205.02916%204.6486%200.41822%2010.3365%200.418213ZM15.1548%207.72778C14.9075%207.47272%2014.4999%207.46707%2014.2447%207.71411L11.5777%2010.3L9.35797%2012.4514L7.38239%2010.5354C7.12731%2010.2881%206.71974%2010.2942%206.47223%2010.5491C6.22479%2010.8042%206.23079%2011.2117%206.4859%2011.4592L8.91071%2013.8098C9.16037%2014.0519%209.55655%2014.0519%209.80621%2013.8098L15.1402%208.63794C15.3951%208.39049%2015.4021%207.9829%2015.1548%207.72778Z'%20fill='%23FF529B'/%3e%3c/svg%3e"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- END MAIN BANNER SECTION -->
+
+            <!-- START "LOGOS STRIP" SECTION -->
+      <div class="w-full overflow-hidden lg:my-[-50rem] pointer-events-none">
+        <div class="relative h-[80rem] w-full sm:h-[100rem]">
+          <div
+            class="logo-strip-container h-[80rem] sm:flex sm:h-[100rem] sm:justify-center"
+          >
+            <div class="logo-strip-track sm:flex sm:gap-[42rem] lg:gap-[64rem]">
+                            <!-- Set 1 -->
+              <a class="flex-shrink-0" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo1-DmAZogbO.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                            <!-- Set 1 -->
+              <a class="flex-shrink-0" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo3-D9OnHk-v.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                            <!-- Set 1 -->
+              <a class="flex-shrink-0" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo4-DyZPXJeE.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                            <!-- Set 1 -->
+              <a class="flex-shrink-0" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo2-DJ9DeuPZ.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                            <!-- Set 1 -->
+              <a class="flex-shrink-0" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo5-CQb8nT2C.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+              
+                            <!-- Set 2 (for seamless loop on mobile) -->
+              <a class="flex-shrink-0 sm:hidden" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo1-DmAZogbO.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                            <!-- Set 2 (for seamless loop on mobile) -->
+              <a class="flex-shrink-0 sm:hidden" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo3-D9OnHk-v.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                            <!-- Set 2 (for seamless loop on mobile) -->
+              <a class="flex-shrink-0 sm:hidden" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo4-DyZPXJeE.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                            <!-- Set 2 (for seamless loop on mobile) -->
+              <a class="flex-shrink-0 sm:hidden" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo2-DJ9DeuPZ.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                            <!-- Set 2 (for seamless loop on mobile) -->
+              <a class="flex-shrink-0 sm:hidden" href="" target="_blank">
+                <picture>
+                  <img src="https://caringvillage.com/wp-content/uploads/2025/08/logo5-CQb8nT2C.png" alt="" class="h-[80rem] w-auto sm:h-[100rem]">
+                </picture>
+              </a>
+                          </div>
+          </div>
+        </div>
+      </div>
+      <!-- END "LOGOS STRIP" SECTION -->
+      
+      <!-- START "TOGETHER" SECTION -->
+      <div
+        class="relative flex aspect-[393/784] flex-col sm:aspect-[834/793] lg:aspect-[1440/1066]"
+      >
+        <picture class="absolute inset-0 lg:top-[-12rem]">
+          <source
+            media="(min-width: 1440px)"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-desktop-jDraeIi-.png"
+          />
+          <source
+            media="(min-width: 834px)"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-tablet-BpVnSum5.png"
+          />
+          <source
+            media="(min-width: 393px)"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-BxVjenkK.png"
+          />
+          <img
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-BxVjenkK.png"
+            alt="Empowering families to manage care"
+            class="h-full w-full object-cover"
+          />
+        </picture>
+        <div class="absolute inset-0 sm:hidden">
+          <img
+            class="absolute right-[6rem] top-[313rem] h-[180rem] w-[129rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/phone-BZvbbPPl.png"
+            alt=""
+          />
+          <img
+            class="absolute left-[8rem] top-[141rem] h-[145rem] w-auto"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/text-top-B4fkOUmg.svg"
+            alt=""
+          />
+          <img
+            class="absolute bottom-[122rem] right-[20rem] h-[147rem] w-auto"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/text-bottom-CySEFkhK.svg"
+            alt=""
+          />
+        </div>
+        <div class="absolute inset-0 hidden sm:block lg:hidden">
+          <img
+            class="absolute bottom-[237rem] right-[64rem] h-[316rem] w-[228rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/phone-sjpU1xco.png"
+            alt=""
+          />
+          <img
+            class="absolute bottom-[324rem] left-0 h-[159rem] w-auto"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/text-top-7_wiRSTM.svg"
+            alt=""
+          />
+          <img
+            class="absolute bottom-[98rem] right-0 h-[177rem] w-auto"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/text-bottom-DV4pRlBj.svg"
+            alt=""
+          />
+        </div>
+        <div class="absolute inset-0 hidden lg:block">
+          <img
+            class="absolute bottom-[281rem] right-[195rem] h-[494rem] w-[355rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/phone-DJ3xXJ-F.png"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/phone-DJ3xXJ-F.png"
+            alt=""
+          />
+          <img
+            class="absolute bottom-[417rem] left-[34rem] h-[247rem] w-auto"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/text-top-Bj1uQVo4.svg"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/text-top-Bj1uQVo4.svg"
+            alt=""
+          />
+          <img
+            class="absolute bottom-[79rem] right-[80rem] h-[276rem] w-auto"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/text-bottom-BBzuQqqN.svg"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/text-bottom-BBzuQqqN.svg"
+            alt=""
+          />
+        </div>
+        <div class="z-10 px-[20rem]">
+          <h2 class="heading-2 text-center">
+            Empowering families <br class="sm:hidden" />to manage care          </h2>
+          <p
+            class="text-center text-[90rem] font-semibold leading-[100%] text-[#AFB0B1] opacity-20 sm:text-[120rem] lg:text-[156rem]"
+          >
+            together          </p>
+        </div>
+        <div
+          class="z-10 mt-auto flex flex-col items-center gap-[24rem] px-[20rem]"
+        >
+          <p
+            class="text-center text-[18rem] leading-[130%] text-[#383839] sm:text-[16rem] lg:text-[20rem]"
+          >
+            Because caregiving shouldn't <br class="sm:hidden" />mean doing it alone.          </p>
+                    <button class="button-primary w-[251rem] lg:w-[251rem]" onclick="window.location.href='https://my.caringvillage.com/Account/SignUp'">
+            <span class="text-3 whitespace-nowrap text-white"
+              >Create Your Free Village</span
+            >
+          </button>
+                  </div>
+      </div>
+      <!-- END "TOGETHER" SECTION -->
+
+      <!-- START "PROBLEMS" SECTION -->
+      <div
+        id="problems"
+        class="relative aspect-[393/830] overflow-hidden sm:aspect-[834/484] lg:aspect-[1440/594]"
+      >
+        <div
+          class="absolute left-1/2 top-[476rem] z-10 w-full -translate-x-1/2 transform sm:top-0"
+        >
+          <h2 class="heading-2 text-center">
+            Feeling overwhelmed <br />by caregiving?          </h2>
+        </div>
+        <div class="absolute inset-0">
+          <div
+            class="sm-visible absolute -left-[44rem] top-[48rem] h-[190rem] w-[150rem] overflow-hidden rounded-[12rem] opacity-70 sm:-left-[20rem] sm:top-[84rem] sm:h-[194rem] sm:w-[165rem] sm:rounded-[14rem] sm:opacity-40 lg:-left-[28rem] lg:top-[116rem] lg:h-[232rem] lg:w-[197rem] lg:rounded-[16rem]"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo1-DT4VNOo9.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="sm-visible absolute left-1/2 top-0 h-[190rem] w-[150rem] -translate-x-1/2 transform overflow-hidden rounded-[12rem] opacity-40 sm:-left-[20rem] sm:bottom-0 sm:top-auto sm:h-[194rem] sm:w-[165rem] sm:transform-none sm:rounded-[14rem] lg:-left-[28rem] lg:h-[232rem] lg:w-[197rem] lg:rounded-[16rem]"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo2-z74-VEte.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="sm-visible absolute -right-[44rem] top-[48rem] h-[190rem] w-[150rem] overflow-hidden rounded-[12rem] opacity-70 sm:bottom-[57rem] sm:left-[157rem] sm:top-auto sm:h-[194rem] sm:w-[165rem] sm:rounded-[14rem] sm:opacity-100 lg:bottom-[143rem] lg:left-[183rem] lg:h-[232rem] lg:w-[197rem] lg:rounded-[16rem] lg:opacity-80"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo3-DN0DkvbZ.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="sm-visible absolute -left-[44rem] top-[254rem] h-[190rem] w-[150rem] overflow-hidden rounded-[12rem] sm:bottom-[130rem] sm:left-1/2 sm:top-auto sm:h-[194rem] sm:w-[165rem] sm:-translate-x-1/2 sm:transform sm:rounded-[14rem] lg:bottom-[155rem] lg:h-[232rem] lg:w-[197rem] lg:rounded-[16rem]"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo4-C09zAQwV.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="sm-visible absolute left-1/2 top-[206rem] h-[190rem] w-[150rem] -translate-x-1/2 transform overflow-hidden rounded-[12rem] sm:bottom-[57rem] sm:left-auto sm:right-[158rem] sm:top-auto sm:h-[194rem] sm:w-[165rem] sm:transform-none sm:rounded-[14rem] lg:bottom-[143rem] lg:right-[192rem] lg:h-[232rem] lg:w-[197rem] lg:rounded-[16rem] lg:opacity-80"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo5-Bl9r8XZB.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="sm-visible absolute -right-[44rem] top-[254rem] h-[190rem] w-[150rem] overflow-hidden rounded-[12rem] sm:-right-[20rem] sm:top-[84rem] sm:h-[194rem] sm:w-[165rem] sm:rounded-[14rem] sm:opacity-40 lg:-right-[21rem] lg:top-[116rem] lg:h-[232rem] lg:w-[197rem] lg:rounded-[16rem]"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo6-DO6a5SOI.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute -left-[44rem] bottom-0 h-[190rem] w-[150rem] overflow-hidden rounded-[12rem] opacity-70 sm:hidden sm:h-[194rem] sm:w-[165rem] sm:rounded-[14rem] lg:bottom-[68rem] lg:left-[410rem] lg:block lg:h-[232rem] lg:w-[197rem] lg:rounded-[16rem]"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo7-DAHBOVW8.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute bottom-[48rem] left-1/2 h-[190rem] w-[150rem] -translate-x-1/2 transform overflow-hidden rounded-[12rem] sm:hidden sm:h-[194rem] sm:w-[165rem] sm:rounded-[14rem] lg:bottom-[68rem] lg:left-auto lg:right-[405rem] lg:block lg:h-[232rem] lg:w-[197rem] lg:transform-none lg:rounded-[16rem]"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo8-ckzF8rn_.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="sm-visible absolute -right-[44rem] bottom-0 h-[190rem] w-[150rem] overflow-hidden rounded-[12rem] opacity-70 sm:-right-[20rem] sm:h-[194rem] sm:w-[165rem] sm:rounded-[14rem] sm:opacity-40 lg:-right-[21rem] lg:h-[232rem] lg:w-[197rem] lg:rounded-[16rem]"
+          >
+            <img
+              src="https://caringvillage.com/wp-content/themes/caringvillage/assets/photo9-By7_T1v7.png"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+        <div class="absolute inset-0">
+                    <div class="absolute left-[31rem] top-[236rem] hidden lg:block">
+            <div
+              class="problems-text-box flex max-w-fit items-center gap-[8rem] rounded-full border border-[#D86363] bg-[#FFFFFFE5] px-[14rem] py-[9rem]"
+            >
+              <img src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.55004%2010.1C7.21867%209.85152%207.15152%209.38142%207.40004%209.05004C7.64857%208.71867%208.11867%208.65152%208.45004%208.90004L10.45%2010.4C10.6389%2010.5417%2010.75%2010.764%2010.75%2011C10.75%2011.2361%2010.6389%2011.4584%2010.45%2011.6L8.45004%2013.1C8.11867%2013.3486%207.64857%2013.2814%207.40004%2012.95C7.15152%2012.6187%207.21867%2012.1486%207.55004%2011.9L8.75004%2011L7.55004%2010.1Z'%20fill='%23C00000'/%3e%3cpath%20d='M16.6%209.05004C16.8486%209.38142%2016.7814%209.85152%2016.45%2010.1L15.25%2011L16.45%2011.9C16.7814%2012.1486%2016.8486%2012.6187%2016.6%2012.95C16.3515%2013.2814%2015.8814%2013.3486%2015.55%2013.1L13.55%2011.6C13.3612%2011.4584%2013.25%2011.2361%2013.25%2011C13.25%2010.764%2013.3612%2010.5417%2013.55%2010.4L15.55%208.90004C15.8814%208.65152%2016.3515%208.71867%2016.6%209.05004Z'%20fill='%23C00000'/%3e%3cpath%20d='M15.5304%2017.0304C15.2375%2017.3233%2014.7626%2017.3233%2014.4697%2017.0304L13.9996%2016.5603C13.4388%2017.0896%2012.5607%2017.0895%2012%2016.5599C11.4394%2017.0895%2010.5613%2017.0896%2010.0005%2016.5603L9.53037%2017.0304C9.23748%2017.3233%208.76261%2017.3233%208.46971%2017.0304C8.17682%2016.7375%208.17682%2016.2626%208.46971%2015.9697L8.96971%2015.4697C9.52875%2014.9107%2010.429%2014.9009%2011%2015.4403C11.5609%2014.9105%2012.4392%2014.9105%2013%2015.4403C13.5711%2014.9009%2014.4713%2014.9107%2015.0304%2015.4697L15.5304%2015.9697C15.8233%2016.2626%2015.8233%2016.7375%2015.5304%2017.0304Z'%20fill='%23C00000'/%3e%3cpath%20opacity='0.3'%20d='M12%2022.5C17.5228%2022.5%2022%2018.0228%2022%2012.5C22%206.97715%2017.5228%202.5%2012%202.5C6.47715%202.5%202%206.97715%202%2012.5C2%2018.0228%206.47715%2022.5%2012%2022.5Z'%20fill='%23C00000'/%3e%3c/svg%3e" alt="" />
+              <span
+                class="text-[14rem] font-semibold leading-[130%] text-[#383839]"
+                >Lack of resource awareness</span
+              >
+            </div>
+          </div>
+                              <div
+            class="absolute left-[28rem] top-[169rem] sm:bottom-[100rem] sm:left-[63rem] sm:top-auto lg:bottom-[157rem] lg:left-[294rem]"
+          >
+            <div
+              class="problems-text-box flex max-w-fit items-center gap-[8rem] rounded-full border border-[#D86363] bg-[#FFFFFFE5] px-[14rem] py-[9rem]"
+            >
+              <img src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.55004%2010.1C7.21867%209.85152%207.15152%209.38142%207.40004%209.05004C7.64857%208.71867%208.11867%208.65152%208.45004%208.90004L10.45%2010.4C10.6389%2010.5417%2010.75%2010.764%2010.75%2011C10.75%2011.2361%2010.6389%2011.4584%2010.45%2011.6L8.45004%2013.1C8.11867%2013.3486%207.64857%2013.2814%207.40004%2012.95C7.15152%2012.6187%207.21867%2012.1486%207.55004%2011.9L8.75004%2011L7.55004%2010.1Z'%20fill='%23C00000'/%3e%3cpath%20d='M16.6%209.05004C16.8486%209.38142%2016.7814%209.85152%2016.45%2010.1L15.25%2011L16.45%2011.9C16.7814%2012.1486%2016.8486%2012.6187%2016.6%2012.95C16.3515%2013.2814%2015.8814%2013.3486%2015.55%2013.1L13.55%2011.6C13.3612%2011.4584%2013.25%2011.2361%2013.25%2011C13.25%2010.764%2013.3612%2010.5417%2013.55%2010.4L15.55%208.90004C15.8814%208.65152%2016.3515%208.71867%2016.6%209.05004Z'%20fill='%23C00000'/%3e%3cpath%20d='M15.5304%2017.0304C15.2375%2017.3233%2014.7626%2017.3233%2014.4697%2017.0304L13.9996%2016.5603C13.4388%2017.0896%2012.5607%2017.0895%2012%2016.5599C11.4394%2017.0895%2010.5613%2017.0896%2010.0005%2016.5603L9.53037%2017.0304C9.23748%2017.3233%208.76261%2017.3233%208.46971%2017.0304C8.17682%2016.7375%208.17682%2016.2626%208.46971%2015.9697L8.96971%2015.4697C9.52875%2014.9107%2010.429%2014.9009%2011%2015.4403C11.5609%2014.9105%2012.4392%2014.9105%2013%2015.4403C13.5711%2014.9009%2014.4713%2014.9107%2015.0304%2015.4697L15.5304%2015.9697C15.8233%2016.2626%2015.8233%2016.7375%2015.5304%2017.0304Z'%20fill='%23C00000'/%3e%3cpath%20opacity='0.3'%20d='M12%2022.5C17.5228%2022.5%2022%2018.0228%2022%2012.5C22%206.97715%2017.5228%202.5%2012%202.5C6.47715%202.5%202%206.97715%202%2012.5C2%2018.0228%206.47715%2022.5%2012%2022.5Z'%20fill='%23C00000'/%3e%3c/svg%3e" alt="" />
+              <span
+                class="text-[14rem] font-semibold leading-[130%] text-[#383839]"
+                >Weak family ties</span
+              >
+            </div>
+          </div>
+                              <div
+            class="absolute right-[18rem] top-[273rem] sm:left-[272rem] sm:right-auto sm:top-[266rem] lg:left-[545rem] lg:top-[332rem]"
+          >
+            <div
+              class="problems-text-box flex max-w-fit items-center gap-[8rem] rounded-full border border-[#D86363] bg-[#FFFFFFE5] px-[14rem] py-[9rem]"
+            >
+              <img src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.55004%2010.1C7.21867%209.85152%207.15152%209.38142%207.40004%209.05004C7.64857%208.71867%208.11867%208.65152%208.45004%208.90004L10.45%2010.4C10.6389%2010.5417%2010.75%2010.764%2010.75%2011C10.75%2011.2361%2010.6389%2011.4584%2010.45%2011.6L8.45004%2013.1C8.11867%2013.3486%207.64857%2013.2814%207.40004%2012.95C7.15152%2012.6187%207.21867%2012.1486%207.55004%2011.9L8.75004%2011L7.55004%2010.1Z'%20fill='%23C00000'/%3e%3cpath%20d='M16.6%209.05004C16.8486%209.38142%2016.7814%209.85152%2016.45%2010.1L15.25%2011L16.45%2011.9C16.7814%2012.1486%2016.8486%2012.6187%2016.6%2012.95C16.3515%2013.2814%2015.8814%2013.3486%2015.55%2013.1L13.55%2011.6C13.3612%2011.4584%2013.25%2011.2361%2013.25%2011C13.25%2010.764%2013.3612%2010.5417%2013.55%2010.4L15.55%208.90004C15.8814%208.65152%2016.3515%208.71867%2016.6%209.05004Z'%20fill='%23C00000'/%3e%3cpath%20d='M15.5304%2017.0304C15.2375%2017.3233%2014.7626%2017.3233%2014.4697%2017.0304L13.9996%2016.5603C13.4388%2017.0896%2012.5607%2017.0895%2012%2016.5599C11.4394%2017.0895%2010.5613%2017.0896%2010.0005%2016.5603L9.53037%2017.0304C9.23748%2017.3233%208.76261%2017.3233%208.46971%2017.0304C8.17682%2016.7375%208.17682%2016.2626%208.46971%2015.9697L8.96971%2015.4697C9.52875%2014.9107%2010.429%2014.9009%2011%2015.4403C11.5609%2014.9105%2012.4392%2014.9105%2013%2015.4403C13.5711%2014.9009%2014.4713%2014.9107%2015.0304%2015.4697L15.5304%2015.9697C15.8233%2016.2626%2015.8233%2016.7375%2015.5304%2017.0304Z'%20fill='%23C00000'/%3e%3cpath%20opacity='0.3'%20d='M12%2022.5C17.5228%2022.5%2022%2018.0228%2022%2012.5C22%206.97715%2017.5228%202.5%2012%202.5C6.47715%202.5%202%206.97715%202%2012.5C2%2018.0228%206.47715%2022.5%2012%2022.5Z'%20fill='%23C00000'/%3e%3c/svg%3e" alt="" />
+              <span
+                class="text-[14rem] font-semibold leading-[130%] text-[#383839]"
+                >Missed <br class="sm:hidden" />appointments</span
+              >
+            </div>
+          </div>
+          
+                    <div
+            class="absolute bottom-[34rem] left-[76rem] sm:bottom-[197rem] sm:left-auto sm:right-[24rem] lg:bottom-[255rem] lg:right-[279rem]"
+          >
+            <div
+              class="problems-text-box flex max-w-fit items-center gap-[8rem] rounded-full border border-[#D86363] bg-[#FFFFFFE5] px-[14rem] py-[9rem]"
+            >
+              <img src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.55004%2010.1C7.21867%209.85152%207.15152%209.38142%207.40004%209.05004C7.64857%208.71867%208.11867%208.65152%208.45004%208.90004L10.45%2010.4C10.6389%2010.5417%2010.75%2010.764%2010.75%2011C10.75%2011.2361%2010.6389%2011.4584%2010.45%2011.6L8.45004%2013.1C8.11867%2013.3486%207.64857%2013.2814%207.40004%2012.95C7.15152%2012.6187%207.21867%2012.1486%207.55004%2011.9L8.75004%2011L7.55004%2010.1Z'%20fill='%23C00000'/%3e%3cpath%20d='M16.6%209.05004C16.8486%209.38142%2016.7814%209.85152%2016.45%2010.1L15.25%2011L16.45%2011.9C16.7814%2012.1486%2016.8486%2012.6187%2016.6%2012.95C16.3515%2013.2814%2015.8814%2013.3486%2015.55%2013.1L13.55%2011.6C13.3612%2011.4584%2013.25%2011.2361%2013.25%2011C13.25%2010.764%2013.3612%2010.5417%2013.55%2010.4L15.55%208.90004C15.8814%208.65152%2016.3515%208.71867%2016.6%209.05004Z'%20fill='%23C00000'/%3e%3cpath%20d='M15.5304%2017.0304C15.2375%2017.3233%2014.7626%2017.3233%2014.4697%2017.0304L13.9996%2016.5603C13.4388%2017.0896%2012.5607%2017.0895%2012%2016.5599C11.4394%2017.0895%2010.5613%2017.0896%2010.0005%2016.5603L9.53037%2017.0304C9.23748%2017.3233%208.76261%2017.3233%208.46971%2017.0304C8.17682%2016.7375%208.17682%2016.2626%208.46971%2015.9697L8.96971%2015.4697C9.52875%2014.9107%2010.429%2014.9009%2011%2015.4403C11.5609%2014.9105%2012.4392%2014.9105%2013%2015.4403C13.5711%2014.9009%2014.4713%2014.9107%2015.0304%2015.4697L15.5304%2015.9697C15.8233%2016.2626%2015.8233%2016.7375%2015.5304%2017.0304Z'%20fill='%23C00000'/%3e%3cpath%20opacity='0.3'%20d='M12%2022.5C17.5228%2022.5%2022%2018.0228%2022%2012.5C22%206.97715%2017.5228%202.5%2012%202.5C6.47715%202.5%202%206.97715%202%2012.5C2%2018.0228%206.47715%2022.5%2012%2022.5Z'%20fill='%23C00000'/%3e%3c/svg%3e" alt="" />
+              <span class="text-[14rem] font-semibold leading-[130%] text-[#383839]">
+                Scattered care <br class="sm:hidden" />information              </span>
+            </div>
+          </div>
+          
+                    <div
+            class="absolute bottom-[68rem] right-[206rem] hidden sm:block lg:bottom-[82rem] lg:right-[491rem]"
+          >
+            <div
+              class="problems-text-box flex max-w-fit items-center gap-[8rem] rounded-full border border-[#D86363] bg-[#FFFFFFE5] px-[14rem] py-[9rem]"
+            >
+              <img src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.55004%2010.1C7.21867%209.85152%207.15152%209.38142%207.40004%209.05004C7.64857%208.71867%208.11867%208.65152%208.45004%208.90004L10.45%2010.4C10.6389%2010.5417%2010.75%2010.764%2010.75%2011C10.75%2011.2361%2010.6389%2011.4584%2010.45%2011.6L8.45004%2013.1C8.11867%2013.3486%207.64857%2013.2814%207.40004%2012.95C7.15152%2012.6187%207.21867%2012.1486%207.55004%2011.9L8.75004%2011L7.55004%2010.1Z'%20fill='%23C00000'/%3e%3cpath%20d='M16.6%209.05004C16.8486%209.38142%2016.7814%209.85152%2016.45%2010.1L15.25%2011L16.45%2011.9C16.7814%2012.1486%2016.8486%2012.6187%2016.6%2012.95C16.3515%2013.2814%2015.8814%2013.3486%2015.55%2013.1L13.55%2011.6C13.3612%2011.4584%2013.25%2011.2361%2013.25%2011C13.25%2010.764%2013.3612%2010.5417%2013.55%2010.4L15.55%208.90004C15.8814%208.65152%2016.3515%208.71867%2016.6%209.05004Z'%20fill='%23C00000'/%3e%3cpath%20d='M15.5304%2017.0304C15.2375%2017.3233%2014.7626%2017.3233%2014.4697%2017.0304L13.9996%2016.5603C13.4388%2017.0896%2012.5607%2017.0895%2012%2016.5599C11.4394%2017.0895%2010.5613%2017.0896%2010.0005%2016.5603L9.53037%2017.0304C9.23748%2017.3233%208.76261%2017.3233%208.46971%2017.0304C8.17682%2016.7375%208.17682%2016.2626%208.46971%2015.9697L8.96971%2015.4697C9.52875%2014.9107%2010.429%2014.9009%2011%2015.4403C11.5609%2014.9105%2012.4392%2014.9105%2013%2015.4403C13.5711%2014.9009%2014.4713%2014.9107%2015.0304%2015.4697L15.5304%2015.9697C15.8233%2016.2626%2015.8233%2016.7375%2015.5304%2017.0304Z'%20fill='%23C00000'/%3e%3cpath%20opacity='0.3'%20d='M12%2022.5C17.5228%2022.5%2022%2018.0228%2022%2012.5C22%206.97715%2017.5228%202.5%2012%202.5C6.47715%202.5%202%206.97715%202%2012.5C2%2018.0228%206.47715%2022.5%2012%2022.5Z'%20fill='%23C00000'/%3e%3c/svg%3e" alt="" />
+              <span
+                class="text-[14rem] font-semibold leading-[130%] text-[#383839]"
+                >Missed medication doses</span
+              >
+            </div>
+          </div>
+          
+                    <div class="absolute bottom-[103rem] right-[46rem] hidden lg:block">
+            <div
+              class="problems-text-box flex max-w-fit items-center gap-[8rem] rounded-full border border-[#D86363] bg-[#FFFFFFE5] px-[14rem] py-[9rem]"
+            >
+              <img src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.55004%2010.1C7.21867%209.85152%207.15152%209.38142%207.40004%209.05004C7.64857%208.71867%208.11867%208.65152%208.45004%208.90004L10.45%2010.4C10.6389%2010.5417%2010.75%2010.764%2010.75%2011C10.75%2011.2361%2010.6389%2011.4584%2010.45%2011.6L8.45004%2013.1C8.11867%2013.3486%207.64857%2013.2814%207.40004%2012.95C7.15152%2012.6187%207.21867%2012.1486%207.55004%2011.9L8.75004%2011L7.55004%2010.1Z'%20fill='%23C00000'/%3e%3cpath%20d='M16.6%209.05004C16.8486%209.38142%2016.7814%209.85152%2016.45%2010.1L15.25%2011L16.45%2011.9C16.7814%2012.1486%2016.8486%2012.6187%2016.6%2012.95C16.3515%2013.2814%2015.8814%2013.3486%2015.55%2013.1L13.55%2011.6C13.3612%2011.4584%2013.25%2011.2361%2013.25%2011C13.25%2010.764%2013.3612%2010.5417%2013.55%2010.4L15.55%208.90004C15.8814%208.65152%2016.3515%208.71867%2016.6%209.05004Z'%20fill='%23C00000'/%3e%3cpath%20d='M15.5304%2017.0304C15.2375%2017.3233%2014.7626%2017.3233%2014.4697%2017.0304L13.9996%2016.5603C13.4388%2017.0896%2012.5607%2017.0895%2012%2016.5599C11.4394%2017.0895%2010.5613%2017.0896%2010.0005%2016.5603L9.53037%2017.0304C9.23748%2017.3233%208.76261%2017.3233%208.46971%2017.0304C8.17682%2016.7375%208.17682%2016.2626%208.46971%2015.9697L8.96971%2015.4697C9.52875%2014.9107%2010.429%2014.9009%2011%2015.4403C11.5609%2014.9105%2012.4392%2014.9105%2013%2015.4403C13.5711%2014.9009%2014.4713%2014.9107%2015.0304%2015.4697L15.5304%2015.9697C15.8233%2016.2626%2015.8233%2016.7375%2015.5304%2017.0304Z'%20fill='%23C00000'/%3e%3cpath%20opacity='0.3'%20d='M12%2022.5C17.5228%2022.5%2022%2018.0228%2022%2012.5C22%206.97715%2017.5228%202.5%2012%202.5C6.47715%202.5%202%206.97715%202%2012.5C2%2018.0228%206.47715%2022.5%2012%2022.5Z'%20fill='%23C00000'/%3e%3c/svg%3e" alt="" />
+              <span
+                class="text-[14rem] font-semibold leading-[130%] text-[#383839]"
+                >Emotional and logistical stress</span
+              >
+            </div>
+          </div>
+                  </div>
+      </div>
+      <!-- END "PROBLEMS" SECTION -->
+
+      <!-- START "IN ONE PLACE" SECTION -->
+      <div
+        id="features"
+        class="relative aspect-[393/661] sm:aspect-[834/552] lg:aspect-[1440/839]"
+      >
+        <div class="z-10 w-full overflow-hidden">
+          <h2 class="heading-2 text-center">
+            Everything you <br class="sm:hidden" />need to care,          </h2>
+          <p
+            class="text-center text-[70rem] font-semibold leading-[100%] text-[#AFB0B1] opacity-20 sm:text-[120rem] lg:text-[156rem]"
+          >
+            in one place          </p>
+        </div>
+        <div
+          class="absolute bottom-[38rem] left-1/2 -translate-x-1/2 transform sm:bottom-0"
+        >
+          <img
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/phone-ns3rWh6q.png"
+            alt="Everything you need to care, in one place"
+            class="h-[404rem] w-auto sm:h-[360rem] lg:h-[545rem]"
+          />
+        </div>
+        <div class="absolute inset-0">
+          <img
+            class="absolute left-[8rem] top-[195rem] h-auto w-[195rem] sm:left-[109rem] sm:top-[204rem] sm:w-[198rem] lg:left-[225rem] lg:top-[312rem] lg:w-[298rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/plate-toggle-QydtYx2h.svg"
+            alt="Need a Volunteer"
+          />
+          <img
+            class="absolute left-[22rem] top-[299rem] h-auto w-[242rem] sm:left-[16rem] sm:top-[313rem] sm:w-[252rem] lg:left-[82rem] lg:top-[478rem] lg:w-[378rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/plate-notification-D4NXBCct.svg"
+            alt="Don't forget to check the schedule"
+          />
+          <img
+            class="absolute bottom-[173rem] left-0 h-auto w-[168rem] sm:bottom-[40rem] sm:left-[88rem] sm:w-[179rem] lg:bottom-[61rem] lg:left-[190rem] lg:w-[270rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/plate-users-DaXV6dvK.svg"
+            alt="Users"
+          />
+          <img
+            class="absolute right-0 top-[158rem] h-auto w-[177rem] sm:right-[78rem] sm:top-[201rem] lg:right-[171rem] lg:top-[306rem] lg:w-[284rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/plate-attachment-DCnXAO1j.svg"
+            alt="Attachments"
+          />
+          <img
+            class="absolute right-[12rem] top-[276rem] h-auto w-[77rem] sm:right-[205rem] sm:top-[360rem] lg:right-[370rem] lg:top-[546rem] lg:w-[116rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/plate-hand-DyTpWVFV.svg"
+            alt="I'll do it"
+          />
+          <img
+            class="absolute bottom-[207rem] right-[12rem] h-auto w-[155rem] sm:bottom-[30rem] sm:right-[30rem] sm:w-[174rem] lg:bottom-[45rem] lg:right-[108rem] lg:w-[263rem]"
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/plate-task-BzEFuVo-.svg"
+            alt="Take a blood test"
+          />
+        </div>
+      </div>
+      <!-- END "IN ONE PLACE" SECTION -->
+
+      <!-- START "ADVANTAGES" SECTION -->
+      <div class="flex flex-col gap-[32rem] sm:gap-[40rem] lg:gap-[64rem]">
+        <h2 class="heading-2 text-center">
+          What makes Caring <br class="sm:hidden" />Village different?        </h2>
+        <div
+          class="flex flex-col items-center gap-[32rem] sm:gap-[24rem] lg:gap-[40rem]"
+        >
+          <div class="advantages-nav-container w-full overflow-hidden">
+            <ul
+              class="advantages-nav-list flex items-center gap-[12rem] sm:justify-center lg:gap-[16rem]"
+            >
+                            <li
+                class="advantages-nav-button flex h-[48rem] cursor-pointer items-center gap-[8rem] rounded-[98rem] bg-[#F7F7F7] transition-all duration-300 hover:bg-[#E8E8E8] sm:h-[41rem] sm:gap-[6rem] lg:h-[45rem] lg:gap-[8rem]"
+                data-slide="0"
+              >
+                <div class="button-content">
+                  <span
+                    class="px-[16rem] text-[16rem] font-semibold leading-[130%] text-[#383839] sm:px-[20rem] sm:text-[14rem] lg:text-[16rem]"
+                    >Calendar</span
+                  >
+                </div>
+              </li>
+              
+                            <li
+                class="advantages-nav-button flex h-[48rem] cursor-pointer items-center gap-[8rem] rounded-[98rem] bg-[#F7F7F7] transition-all duration-300 hover:bg-[#E8E8E8] sm:h-[41rem] sm:gap-[6rem] lg:h-[45rem] lg:gap-[8rem]"
+                data-slide="1"
+              >
+                <div class="button-content">
+                  <span
+                    class="px-[16rem] text-[16rem] font-semibold leading-[130%] text-[#383839] sm:px-[20rem] sm:text-[14rem] lg:text-[16rem]"
+                    >Medications</span
+                  >
+                </div>
+              </li>
+              
+                            <li
+                class="advantages-nav-button flex h-[48rem] cursor-pointer items-center gap-[8rem] rounded-[98rem] bg-[#F7F7F7] transition-all duration-300 hover:bg-[#E8E8E8] sm:h-[41rem] sm:gap-[6rem] lg:h-[45rem] lg:gap-[8rem]"
+                data-slide="2"
+              >
+                <div class="button-content">
+                  <span
+                    class="px-[16rem] text-[16rem] font-semibold leading-[130%] text-[#383839] sm:px-[20rem] sm:text-[14rem] lg:text-[16rem]"
+                    >Wellness Journal</span
+                  >
+                </div>
+              </li>
+              
+                            <li
+                class="advantages-nav-button flex h-[48rem] cursor-pointer items-center gap-[8rem] rounded-[98rem] bg-[#F7F7F7] transition-all duration-300 hover:bg-[#E8E8E8] sm:h-[41rem] sm:gap-[6rem] lg:h-[45rem] lg:gap-[8rem]"
+                data-slide="3"
+              >
+                <div class="button-content">
+                  <span
+                    class="px-[16rem] text-[16rem] font-semibold leading-[130%] text-[#383839] sm:px-[20rem] sm:text-[14rem] lg:text-[16rem]"
+                    >Messaging</span
+                  >
+                </div>
+              </li>
+              
+                            <li
+                class="advantages-nav-button flex h-[48rem] cursor-pointer items-center gap-[8rem] rounded-[98rem] bg-[#F7F7F7] transition-all duration-300 hover:bg-[#E8E8E8] sm:h-[41rem] sm:gap-[6rem] lg:h-[45rem] lg:gap-[8rem]"
+                data-slide="4"
+              >
+                <div class="button-content">
+                  <span
+                    class="px-[16rem] text-[16rem] font-semibold leading-[130%] text-[#383839] sm:px-[20rem] sm:text-[14rem] lg:text-[16rem]"
+                    >Documents</span
+                  >
+                </div>
+              </li>
+              
+                            <li
+                class="advantages-nav-button flex h-[48rem] cursor-pointer items-center gap-[8rem] rounded-[98rem] bg-[#F7F7F7] transition-all duration-300 hover:bg-[#E8E8E8] sm:h-[41rem] sm:gap-[6rem] lg:h-[45rem] lg:gap-[8rem]"
+                data-slide="5"
+              >
+                <div class="button-content">
+                  <span
+                    class="px-[16rem] text-[16rem] font-semibold leading-[130%] text-[#383839] sm:px-[20rem] sm:text-[14rem] lg:text-[16rem]"
+                    >AI Assistant</span
+                  >
+                </div>
+              </li>
+                          </ul>
+          </div>
+
+          <!-- Advantages Slider -->
+          <div class="advantages-swiper w-full">
+            <div class="swiper-wrapper">
+                            <!-- Slide 1: Keep care tasks in sync -->
+              <div class="swiper-slide">
+                <div
+                  class="relative aspect-[338/487] w-[338rem] overflow-hidden rounded-[24rem] sm:aspect-[713/394] sm:w-[713rem] sm:rounded-[16rem] lg:aspect-[1062/589] lg:w-[1062rem] lg:rounded-[24rem]"
+                >
+                  <picture class="absolute inset-0">
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="data:image/svg+xml,%3csvg%20width='1181'%20height='589'%20viewBox='0%200%201181%20589'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_9578)'%3e%3crect%20width='1295'%20height='482'%20rx='24'%20transform='matrix(-1%200%200%201%201181%200)'%20fill='%23D9D9D9'/%3e%3crect%20width='1309.48'%20height='1438.15'%20rx='80.7385'%20transform='matrix(-1%200%200%201%201181%20-465.001)'%20fill='%23F1F6FD'/%3e%3crect%20width='1309.48'%20height='1251.45'%20rx='60.5538'%20transform='matrix(-1%200%200%201%201181%20-237.923)'%20fill='%23F1F6FD'/%3e%3cg%20filter='url(%23filter0_f_706_9578)'%3e%3cellipse%20cx='542.462'%20cy='510.923'%20rx='542.462'%20ry='510.923'%20transform='matrix(-1%200%200%201%201493.86%20-361.553)'%20fill='url(%23paint0_linear_706_9578)'%20fill-opacity='0.2'/%3e%3c/g%3e%3cg%20filter='url(%23filter1_f_706_9578)'%3e%3cellipse%20cx='586.615'%20cy='551.292'%20rx='586.615'%20ry='551.292'%20transform='matrix(-1%200%200%201%20807.583%20284.354)'%20fill='url(%23paint1_linear_706_9578)'%20fill-opacity='0.2'/%3e%3c/g%3e%3crect%20width='1342'%20height='618'%20transform='matrix(-1%200%200%201%201181%20-29)'%20fill='%23FFCB33'/%3e%3c/g%3e%3cdefs%3e%3cfilter%20id='filter0_f_706_9578'%20x='-448.051'%20y='-1218.54'%20width='2798.9'%20height='2735.83'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='428.495'%20result='effect1_foregroundBlur_706_9578'/%3e%3c/filter%3e%3cfilter%20id='filter1_f_706_9578'%20x='-1222.64'%20y='-572.637'%20width='2887.21'%20height='2816.57'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='428.495'%20result='effect1_foregroundBlur_706_9578'/%3e%3c/filter%3e%3clinearGradient%20id='paint0_linear_706_9578'%20x1='542.462'%20y1='1021.85'%20x2='578.168'%20y2='259.828'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2326C0EA'/%3e%3cstop%20offset='1'%20stop-color='%232E4DA1'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_706_9578'%20x1='586.615'%20y1='1102.58'%20x2='625.058'%20y2='280.35'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%236329C1'/%3e%3cstop%20offset='1'%20stop-color='%236329C1'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_706_9578'%3e%3crect%20width='1181'%20height='589'%20rx='24'%20transform='matrix(-1%200%200%201%201181%200)'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="data:image/svg+xml,%3csvg%20width='713'%20height='394'%20viewBox='0%200%20713%20394'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_12480)'%3e%3crect%20y='-0.00109863'%20width='869.12'%20height='323.487'%20rx='16.1072'%20fill='%23D9D9D9'/%3e%3crect%20y='-312.079'%20width='878.836'%20height='965.195'%20rx='54.1864'%20fill='%23F1F6FD'/%3e%3crect%20y='-159.679'%20width='878.836'%20height='839.889'%20rx='40.6398'%20fill='%23F1F6FD'/%3e%3cg%20filter='url(%23filter0_f_706_12480)'%3e%3cellipse%20cx='154.089'%20cy='100.249'%20rx='364.065'%20ry='342.898'%20fill='url(%23paint0_linear_706_12480)'%20fill-opacity='0.2'/%3e%3c/g%3e%3cg%20filter='url(%23filter1_f_706_12480)'%3e%3cellipse%20cx='644.31'%20cy='560.832'%20rx='393.698'%20ry='369.992'%20fill='url(%23paint1_linear_706_12480)'%20fill-opacity='0.2'/%3e%3c/g%3e%3crect%20width='713'%20height='395'%20fill='%23FFCB33'/%3e%3c/g%3e%3cdefs%3e%3cfilter%20id='filter0_f_706_12480'%20x='-785.133'%20y='-817.806'%20width='1878.44'%20height='1836.11'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='287.578'%20result='effect1_foregroundBlur_706_12480'/%3e%3c/filter%3e%3cfilter%20id='filter1_f_706_12480'%20x='-324.545'%20y='-384.316'%20width='1937.71'%20height='1890.3'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='287.578'%20result='effect1_foregroundBlur_706_12480'/%3e%3c/filter%3e%3clinearGradient%20id='paint0_linear_706_12480'%20x1='154.089'%20y1='443.147'%20x2='178.052'%20y2='-68.2697'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2326C0EA'/%3e%3cstop%20offset='1'%20stop-color='%232E4DA1'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_706_12480'%20x1='644.31'%20y1='930.824'%20x2='670.11'%20y2='378.993'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%236329C1'/%3e%3cstop%20offset='1'%20stop-color='%236329C1'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_706_12480'%3e%3crect%20width='713'%20height='394'%20rx='16.1072'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    />
+                    <source
+                      media="(min-width: 393px)"
+                      srcset="data:image/svg+xml,%3csvg%20width='338'%20height='487'%20viewBox='0%200%20338%20487'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_11105)'%3e%3crect%20width='338'%20height='487'%20rx='16'%20fill='%23FFCB33'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_706_11105'%3e%3crect%20width='338'%20height='487'%20rx='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    />
+                    <img
+                      src="data:image/svg+xml,%3csvg%20width='338'%20height='487'%20viewBox='0%200%20338%20487'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_11105)'%3e%3crect%20width='338'%20height='487'%20rx='16'%20fill='%23FFCB33'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_706_11105'%3e%3crect%20width='338'%20height='487'%20rx='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                      alt=""
+                      class="h-full w-full object-cover"
+                    />
+                  </picture>
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/phone-BLFFuQi71.svg"
+                    alt="Keep care tasks in sync"
+                    class="absolute left-1/2 top-[35rem] h-[273rem] w-auto -translate-x-1/2 transform sm:bottom-0 sm:left-[74rem] sm:top-auto sm:h-[339rem] sm:transform-none lg:left-[110rem] lg:h-[515rem]"
+                  />
+                  <div
+                    class="absolute bottom-[32rem] left-[24rem] flex w-full max-w-[287rem] flex-col gap-[12rem] sm:bottom-auto sm:left-auto sm:right-[40rem] sm:top-1/2 sm:max-w-[275rem] sm:-translate-y-1/2 sm:transform sm:gap-[16rem] lg:right-[118rem] lg:max-w-[373rem] lg:gap-[24rem]"
+                  >
+                    <h3
+                      class="text-[24rem] font-semibold leading-[130%] text-[#232323] lg:text-[40rem]"
+                    >
+                      Keep care <br />tasks in sync
+                    </h3>
+                    <p
+                      class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[20rem]"
+                    >
+                      Simplify your schedule visits, manage
+                      <br class="hidden sm:block lg:hidden" />tasks, and track
+                      appointments.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                                          <!-- Slide 2: Stay on track with your medication -->
+              <div class="swiper-slide">
+                <div
+                  class="relative aspect-[338/487] w-[338rem] overflow-hidden rounded-[24rem] sm:aspect-[713/394] sm:w-[713rem] sm:rounded-[16rem] lg:aspect-[1062/589] lg:w-[1062rem] lg:rounded-[24rem]"
+                >
+                  <picture class="absolute inset-0">
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-desktop-0H4ugXo1.svg"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-tablet-DHR6yr-a.svg"
+                    />
+                    <source
+                      media="(min-width: 393px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-B1ZPHP5b.svg"
+                    />
+                    <img
+                      src="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-B1ZPHP5b.svg"
+                      alt=""
+                      class="h-full w-full object-cover"
+                    />
+                  </picture>
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/medications-BewjwwyD1.svg"
+                    alt="Stay on track with your medication"
+                    class="absolute left-1/2 top-[51rem] h-[260rem] w-auto -translate-x-1/2 transform sm:bottom-[65rem] sm:left-[55rem] sm:top-auto sm:h-[241rem] sm:transform-none lg:bottom-[111rem] lg:left-[84rem] lg:h-[349rem]"
+                  />
+                  <div
+                    class="absolute bottom-[32rem] left-[24rem] flex w-full max-w-[287rem] flex-col gap-[12rem] sm:bottom-auto sm:left-auto sm:right-[40rem] sm:top-1/2 sm:max-w-[275rem] sm:-translate-y-1/2 sm:transform sm:gap-[16rem] lg:right-[104rem] lg:max-w-[387rem] lg:gap-[24rem]"
+                  >
+                    <h3
+                      class="text-[24rem] font-semibold leading-[130%] text-white lg:text-[40rem]"
+                    >
+                      Stay on track <br />with your medication
+                    </h3>
+                    <p
+                      class="text-[16rem] leading-[130%] text-white sm:text-[14rem] lg:text-[20rem]"
+                    >
+                      Stay on top of prescriptions
+                      <br class="hidden sm:block" />with your smart reminders.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                                          <!-- Slide 3: Record updates and symptoms -->
+              <div class="swiper-slide">
+                <div
+                  class="relative aspect-[338/487] w-[338rem] overflow-hidden rounded-[24rem] sm:aspect-[713/394] sm:w-[713rem] sm:rounded-[16rem] lg:aspect-[1062/589] lg:w-[1062rem] lg:rounded-[24rem]"
+                >
+                  <picture class="absolute inset-0">
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-desktop-CbLnV9ue.svg"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-tablet-DM2NVI2w.svg"
+                    />
+                    <source
+                      media="(min-width: 393px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-D_L5fbAj.svg"
+                    />
+                    <img
+                      src="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-D_L5fbAj.svg"
+                      alt=""
+                      class="h-full w-full object-cover"
+                    />
+                  </picture>
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/card-BY0Cl1G_1.svg"
+                    alt="Record updates and symptoms"
+                    class="absolute left-1/2 top-[71rem] h-[261rem] w-auto -translate-x-1/2 transform sm:bottom-[49rem] sm:left-[23rem] sm:top-auto sm:transform-none lg:bottom-[111rem] lg:left-[67rem] lg:h-[337rem]"
+                  />
+                  <div
+                    class="absolute left-[87.75rem] top-[235.5rem] -rotate-6 transform text-[21rem] sm:left-[111rem] sm:top-[248.5rem] lg:left-[180.5rem] lg:top-[353.5rem] lg:text-[27rem]"
+                  >
+                    <img
+                      src="https://caringvillage.com/wp-content/themes/caringvillage/assets/emoji-smile.png"
+                      alt=""
+                      class="h-[21rem] w-[21rem] lg:h-[27rem] lg:w-[27rem]"
+                    />
+                  </div>
+                  <div
+                    class="absolute left-[165.2rem] top-[229rem] text-[21rem] sm:left-[188rem] sm:top-[241.7rem] lg:left-[280rem] lg:top-[345rem] lg:text-[27rem]"
+                  >
+                    <img
+                      src="https://caringvillage.com/wp-content/themes/caringvillage/assets/emoji-think.png"
+                      alt=""
+                      class="h-[21rem] w-[21rem] lg:h-[27rem] lg:w-[27rem]"
+                    />
+                  </div>
+                  <div
+                    class="absolute left-[243rem] top-[221.2rem] text-[21rem] sm:left-[266rem] sm:top-[234.25rem] lg:left-[380.75rem] lg:top-[335.3rem] lg:text-[27rem]"
+                  >
+                    <img
+                      src="https://caringvillage.com/wp-content/themes/caringvillage/assets/emoji-sad.png"
+                      alt=""
+                      class="h-[21rem] w-[21rem] lg:h-[27rem] lg:w-[27rem]"
+                    />
+                  </div>
+                  <div
+                    class="absolute bottom-[32rem] left-[24rem] flex w-full max-w-[287rem] flex-col gap-[12rem] sm:bottom-auto sm:left-auto sm:right-[40rem] sm:top-1/2 sm:max-w-[275rem] sm:-translate-y-1/2 sm:transform sm:gap-[16rem] lg:right-[104rem] lg:max-w-[375rem] lg:gap-[24rem]"
+                  >
+                    <h3
+                      class="text-[24rem] font-semibold leading-[130%] text-white lg:text-[40rem]"
+                    >
+                      Record updates <br />and symptoms
+                    </h3>
+                    <p
+                      class="text-[16rem] leading-[130%] text-white sm:text-[14rem] lg:text-[20rem]"
+                    >
+                      Keep your village updated or check in on <br />the
+                      day-to-day status of your loved one.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                                          <!-- Slide 4: Stay connected in real time -->
+              <div class="swiper-slide">
+                <div
+                  class="relative aspect-[338/487] w-[338rem] overflow-hidden rounded-[24rem] sm:aspect-[713/394] sm:w-[713rem] sm:rounded-[16rem] lg:aspect-[1062/589] lg:w-[1062rem] lg:rounded-[24rem]"
+                >
+                  <picture class="absolute inset-0">
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-desktop-C75v_dwG.svg"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-tablet-C7q0OXwY.svg"
+                    />
+                    <source
+                      media="(min-width: 393px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-CNrlFegB.svg"
+                    />
+                    <img
+                      src="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-CNrlFegB.svg"
+                      alt=""
+                      class="h-full w-full object-cover"
+                    />
+                  </picture>
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/card-top-Q7rQ2f05.svg"
+                    alt="We are going to the concert ..."
+                    class="absolute left-[7rem] top-[29rem] h-[139rem] w-auto sm:left-[35rem] sm:top-[49rem] lg:left-[26rem] lg:top-[71rem] lg:h-[204rem]"
+                  />
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/card-middle-B2sQ3BML1.svg"
+                    alt="We are going to the concert ..."
+                    class="absolute left-[16rem] top-[124rem] h-[116rem] w-auto sm:left-[42rem] sm:top-[141rem] lg:left-[33rem] lg:top-[208rem] lg:h-[172rem]"
+                  />
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/card-bottom-DYuT02GX.svg"
+                    alt="We are going to the concert ..."
+                    class="absolute left-[19rem] top-[198rem] h-[139rem] w-auto sm:left-[44rem] sm:top-[212rem] lg:left-[41rem] lg:top-[315rem] lg:h-[204rem]"
+                  />
+                  <div
+                    class="absolute bottom-[32rem] left-[24rem] flex w-full max-w-[287rem] flex-col gap-[12rem] sm:bottom-auto sm:left-auto sm:right-[40rem] sm:top-1/2 sm:max-w-[275rem] sm:-translate-y-1/2 sm:transform sm:gap-[16rem] lg:right-[69rem] lg:max-w-[387rem] lg:gap-[24rem]"
+                  >
+                    <h3
+                      class="text-[24rem] font-semibold leading-[130%] text-white lg:text-[40rem]"
+                    >
+                      Stay connected <br />in real time
+                    </h3>
+                    <p
+                      class="text-[16rem] leading-[130%] text-white sm:text-[14rem] lg:text-[20rem]"
+                    >
+                      Chat privately and securely <br />with loved ones.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                                          <!-- Slide 5: All your files, one safe location -->
+              <div class="swiper-slide">
+                <div
+                  class="relative aspect-[338/487] w-[338rem] overflow-hidden rounded-[24rem] sm:aspect-[713/394] sm:w-[713rem] sm:rounded-[16rem] lg:aspect-[1062/589] lg:w-[1062rem] lg:rounded-[24rem]"
+                >
+                  <picture class="absolute inset-0">
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-desktop-C_juM4A3.svg"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-tablet-BnvqIjSH.svg"
+                    />
+                    <source
+                      media="(min-width: 393px)"
+                      srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-BtEJpFVE.svg"
+                    />
+                    <img
+                      src="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-mobile-BtEJpFVE.svg"
+                      alt=""
+                      class="h-full w-full object-cover"
+                    />
+                  </picture>
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/folder-BkWDklF6.svg"
+                    alt="All your files, one safe location"
+                    class="absolute left-[100rem] top-[100rem] h-[244rem] w-auto sm:left-[118rem] sm:top-[118rem] lg:left-[203rem] lg:top-[185rem] lg:h-[332rem]"
+                  />
+                  <div
+                    class="absolute bottom-[32rem] left-[24rem] flex w-full max-w-[287rem] flex-col gap-[12rem] sm:bottom-auto sm:left-auto sm:right-[40rem] sm:top-1/2 sm:max-w-[275rem] sm:-translate-y-1/2 sm:transform sm:gap-[16rem] lg:right-[69rem] lg:max-w-[387rem] lg:gap-[24rem]"
+                  >
+                    <h3
+                      class="text-[24rem] font-semibold leading-[130%] text-white lg:text-[40rem]"
+                    >
+                      All your files, <br />one safe location
+                    </h3>
+                    <p
+                      class="text-[16rem] leading-[130%] text-white sm:text-[14rem] lg:text-[20rem]"
+                    >
+                      Keep important documents <br class="hidden sm:block" />safe, secure, <br class="sm:hidden" />and accessible.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                                          <!-- Slide 6: Smart insights for better care -->
+              <div class="swiper-slide">
+                <div
+                  class="relative aspect-[338/487] w-[338rem] overflow-hidden rounded-[24rem] sm:aspect-[713/394] sm:w-[713rem] sm:rounded-[16rem] lg:aspect-[1062/589] lg:w-[1062rem] lg:rounded-[24rem]"
+                >
+                  <picture class="absolute inset-0">
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="data:image/svg+xml,%3csvg%20width='1062'%20height='589'%20viewBox='0%200%201062%20589'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_9496)'%3e%3crect%20width='1295'%20height='482'%20rx='24'%20fill='%23D9D9D9'/%3e%3crect%20y='-465.001'%20width='1309.48'%20height='1438.15'%20rx='80.7385'%20fill='%23F1F6FD'/%3e%3crect%20y='-237.923'%20width='1309.48'%20height='1251.45'%20rx='60.5538'%20fill='%23F1F6FD'/%3e%3cg%20filter='url(%23filter0_f_706_9496)'%3e%3cellipse%20cx='229.599'%20cy='149.37'%20rx='542.462'%20ry='510.923'%20fill='url(%23paint0_linear_706_9496)'%20fill-opacity='0.2'/%3e%3c/g%3e%3cg%20filter='url(%23filter1_f_706_9496)'%3e%3cellipse%20cx='960.032'%20cy='835.646'%20rx='586.615'%20ry='551.292'%20fill='url(%23paint1_linear_706_9496)'%20fill-opacity='0.2'/%3e%3c/g%3e%3crect%20y='-29'%20width='1342'%20height='618'%20fill='%2326C0EA'/%3e%3c/g%3e%3cdefs%3e%3cfilter%20id='filter0_f_706_9496'%20x='-1169.85'%20y='-1218.54'%20width='2798.9'%20height='2735.83'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='428.495'%20result='effect1_foregroundBlur_706_9496'/%3e%3c/filter%3e%3cfilter%20id='filter1_f_706_9496'%20x='-483.574'%20y='-572.637'%20width='2887.21'%20height='2816.57'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='428.495'%20result='effect1_foregroundBlur_706_9496'/%3e%3c/filter%3e%3clinearGradient%20id='paint0_linear_706_9496'%20x1='229.599'%20y1='660.293'%20x2='265.305'%20y2='-101.724'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2326C0EA'/%3e%3cstop%20offset='1'%20stop-color='%232E4DA1'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_706_9496'%20x1='960.032'%20y1='1386.94'%20x2='998.475'%20y2='564.704'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%236329C1'/%3e%3cstop%20offset='1'%20stop-color='%236329C1'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_706_9496'%3e%3crect%20width='1062'%20height='589'%20rx='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    />
+                    <source
+                      media="(min-width: 834px)"
+                      srcset="data:image/svg+xml,%3csvg%20width='713'%20height='394'%20viewBox='0%200%20713%20394'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_12622)'%3e%3crect%20y='-0.00109863'%20width='869.12'%20height='323.487'%20rx='16.1072'%20fill='%23D9D9D9'/%3e%3crect%20y='-312.079'%20width='878.836'%20height='965.195'%20rx='54.1864'%20fill='%23F1F6FD'/%3e%3crect%20y='-159.679'%20width='878.836'%20height='839.889'%20rx='40.6398'%20fill='%23F1F6FD'/%3e%3cg%20filter='url(%23filter0_f_706_12622)'%3e%3cellipse%20cx='154.089'%20cy='100.249'%20rx='364.065'%20ry='342.898'%20fill='url(%23paint0_linear_706_12622)'%20fill-opacity='0.2'/%3e%3c/g%3e%3cg%20filter='url(%23filter1_f_706_12622)'%3e%3cellipse%20cx='644.31'%20cy='560.832'%20rx='393.698'%20ry='369.992'%20fill='url(%23paint1_linear_706_12622)'%20fill-opacity='0.2'/%3e%3c/g%3e%3crect%20width='713'%20height='395'%20fill='%2326C0EA'/%3e%3c/g%3e%3cdefs%3e%3cfilter%20id='filter0_f_706_12622'%20x='-785.133'%20y='-817.806'%20width='1878.44'%20height='1836.11'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='287.578'%20result='effect1_foregroundBlur_706_12622'/%3e%3c/filter%3e%3cfilter%20id='filter1_f_706_12622'%20x='-324.545'%20y='-384.316'%20width='1937.71'%20height='1890.3'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='287.578'%20result='effect1_foregroundBlur_706_12622'/%3e%3c/filter%3e%3clinearGradient%20id='paint0_linear_706_12622'%20x1='154.089'%20y1='443.147'%20x2='178.052'%20y2='-68.2697'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2326C0EA'/%3e%3cstop%20offset='1'%20stop-color='%232E4DA1'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_706_12622'%20x1='644.31'%20y1='930.824'%20x2='670.11'%20y2='378.993'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%236329C1'/%3e%3cstop%20offset='1'%20stop-color='%236329C1'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_706_12622'%3e%3crect%20width='713'%20height='394'%20rx='16.1072'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    />
+                    <source
+                      media="(min-width: 393px)"
+                      srcset="data:image/svg+xml,%3csvg%20width='338'%20height='487'%20viewBox='0%200%20338%20487'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_11219)'%3e%3crect%20width='338'%20height='487'%20rx='16'%20fill='%2326C0EA'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_706_11219'%3e%3crect%20width='338'%20height='487'%20rx='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    />
+                    <img
+                      src="data:image/svg+xml,%3csvg%20width='338'%20height='487'%20viewBox='0%200%20338%20487'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_11219)'%3e%3crect%20width='338'%20height='487'%20rx='16'%20fill='%2326C0EA'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_706_11219'%3e%3crect%20width='338'%20height='487'%20rx='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                      alt=""
+                      class="h-full w-full object-cover"
+                    />
+                  </picture>
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/image-BGKv8E9r.png"
+                    alt="Smart insights for better care"
+                    class="absolute right-0 top-[40rem] hidden sm:block h-[267rem] w-auto sm:bottom-0 sm:top-auto sm:h-[343rem] lg:h-[518rem]"
+                  />
+                  <img
+                    src="https://caringvillage.com/wp-content/themes/caringvillage/assets/image-BGKv8E9r-mobile.png"
+                    alt="Smart insights for better care"
+                    class="absolute right-0 top-0 h-[307rem] w-auto sm:hidden"
+                  />
+                  <div
+                    class="absolute bottom-[32rem] left-[24rem] flex w-full max-w-[287rem] flex-col gap-[12rem] sm:bottom-auto sm:left-[82rem] sm:top-1/2 sm:max-w-[275rem] sm:-translate-y-1/2 sm:transform sm:gap-[16rem] lg:left-[109rem] lg:max-w-[373rem] lg:gap-[24rem]"
+                  >
+                    <h3
+                      class="text-[24rem] font-semibold leading-[130%] text-white lg:text-[40rem]"
+                    >
+                      Smart insights <br />for better care
+                    </h3>
+                    <p
+                      class="text-[16rem] leading-[130%] text-white sm:text-[14rem] lg:text-[20rem]"
+                    >
+                      Personalized insights to help you care
+                      <br class="hidden sm:block" />better, every day from our AI
+                      Assistant Julia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <!-- Navigation arrows -->
+            <div class="advantages-swiper-button-prev hidden"></div>
+            <div class="advantages-swiper-button-next hidden"></div>
+
+            <!-- Pagination -->
+            <div class="advantages-swiper-pagination hidden"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END "ADVANTAGES" SECTION -->
+
+            <!-- START "SUPPORT" SECTION -->
+      <div class="px-[20rem] sm:px-[30rem] lg:px-[80rem]">
+        <div
+          class="relative aspect-[353/351] overflow-hidden rounded-[24rem] sm:aspect-[774/509] lg:aspect-[1280/648] lg:rounded-[32rem]"
+        >
+          <video
+            class="h-full w-full object-cover"
+            autoplay
+            muted
+            loop
+            playsinline
+          >
+            <source
+              src="https://caringvillage.com/wp-content/uploads/2025/08/bg-support-BGw8u-aW.mp4"
+              type="video/mp4"
+            />
+            <img
+              src="https://caringvillage.com/wp-content/uploads/2025/08/bg-support-BpeIE2sj.jpg"
+              alt="Simplify caregiving. &lt;br class=&quot;sm:hidden&quot; /&gt; Support your loved ones."
+              class="h-full w-full object-cover"
+            />
+          </video>
+                    <h3
+            class="absolute bottom-[32rem] left-1/2 w-full -translate-x-1/2 transform text-center text-[24rem] font-semibold leading-[100%] text-white sm:text-[32rem] sm:leading-[130%] lg:text-[48rem]"
+          >
+              Simplify caregiving. <br class="sm:hidden" /> Support your loved ones.            </h3>
+                  </div>
+      </div>
+      <!-- END "SUPPORT" SECTION -->
+            
+
+      <!-- START "TESTIMONIALS" SECTION -->
+      <div
+        id="reviews"
+        class="relative flex flex-col gap-[32rem] sm:gap-[40rem] lg:gap-[72rem]"
+      >
+        <picture class="pointer-events-none absolute inset-0 z-10">
+          <source
+            media="(min-width: 1440px)"
+            srcset="data:image/svg+xml,%3csvg%20width='1440'%20height='614'%20viewBox='0%200%201440%20614'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20x='1034'%20width='406'%20height='614'%20fill='url(%23paint0_linear_706_9354)'/%3e%3crect%20width='406'%20height='614'%20transform='matrix(-1%200%200%201%20406%200)'%20fill='url(%23paint1_linear_706_9354)'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_706_9354'%20x1='1440'%20y1='307'%20x2='1034'%20y2='307'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='white'/%3e%3cstop%20offset='1'%20stop-color='white'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_706_9354'%20x1='406'%20y1='307'%20x2='0'%20y2='307'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='white'/%3e%3cstop%20offset='1'%20stop-color='white'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"
+          />
+          <source
+            media="(min-width: 834px)"
+            srcset="data:image/svg+xml,%3csvg%20width='834'%20height='434'%20viewBox='0%200%20834%20434'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_706_11642)'%3e%3crect%20x='598.86'%20y='136'%20width='235.143'%20height='298'%20fill='url(%23paint0_linear_706_11642)'/%3e%3crect%20width='235.143'%20height='298'%20transform='matrix(-1%200%200%201%20235.145%20136)'%20fill='url(%23paint1_linear_706_11642)'/%3e%3c/g%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_706_11642'%20x1='834.003'%20y1='285'%20x2='598.86'%20y2='285'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='white'/%3e%3cstop%20offset='1'%20stop-color='white'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_706_11642'%20x1='235.143'%20y1='149'%20x2='0'%20y2='149'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='white'/%3e%3cstop%20offset='1'%20stop-color='white'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_706_11642'%3e%3crect%20width='834'%20height='434'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+          />
+          <source
+            media="(min-width: 393px)"
+            srcset="data:image/svg+xml,%3csvg%20width='393'%20height='572'%20viewBox='0%200%20393%20572'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20width='126'%20height='418'%20transform='matrix(-1%200%200%201%20126%20153)'%20fill='url(%23paint0_linear_706_10815)'/%3e%3crect%20x='270'%20y='153'%20width='123'%20height='418'%20fill='url(%23paint1_linear_706_10815)'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_706_10815'%20x1='126'%20y1='209'%20x2='0'%20y2='209'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='white'/%3e%3cstop%20offset='1'%20stop-color='white'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_706_10815'%20x1='393'%20y1='362'%20x2='270'%20y2='362'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='white'/%3e%3cstop%20offset='1'%20stop-color='white'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"
+          />
+          <img
+            src="data:image/svg+xml,%3csvg%20width='393'%20height='572'%20viewBox='0%200%20393%20572'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20width='126'%20height='418'%20transform='matrix(-1%200%200%201%20126%20153)'%20fill='url(%23paint0_linear_706_10815)'/%3e%3crect%20x='270'%20y='153'%20width='123'%20height='418'%20fill='url(%23paint1_linear_706_10815)'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_706_10815'%20x1='126'%20y1='209'%20x2='0'%20y2='209'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='white'/%3e%3cstop%20offset='1'%20stop-color='white'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_706_10815'%20x1='393'%20y1='362'%20x2='270'%20y2='362'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='white'/%3e%3cstop%20offset='1'%20stop-color='white'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"
+            alt=""
+            class="h-full w-full object-cover"
+          />
+        </picture>
+
+                <h2 class="heading-2 text-center">
+          Helping 85,000+ Family <br class="sm:hidden" />Members <br class="hidden sm:block" />Support <br class="sm:hidden" />Their Loved Ones        </h2>
+        
+                <div class="flex flex-col gap-[16rem] sm:gap-[24rem] lg:gap-[40rem]">          
+          <!-- First row of testimonials -->
+          <div class="swiper testimonials-swiper-1">
+            <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Laura Gross                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          May 1, 2025                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;Love the concept and have shared Caring Village with my children. I felt I had a better sense of how Joe was doing and just how much of a warm and caring group supported him during this final journey. Keep up the good work.&quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Richard Hodgson                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          March 20, 2025                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;It&#039;s a comfort to be able to just look in regularly just to see how Mom is and know she is fine and is being attended to daily; and without having to feel like, as when calling her, I may be disrupting her routine.&quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Kay Schulz                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          March 11, 2025                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;I loved being able to share my sister&#039;s prognosis and her love with family and friends that were not able to be here with her. &quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Dawn Keddy                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          Mar 3, 2025                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;Thank you for providing such a wonderful way for families to stay connected and informed while caring for a loved one.&quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Gayle Cousins                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          Sept 30, 2024                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;We are family, a long way apart. I think this is an absolutely wonderful concept. Thank you.&quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Piroska Sukosd                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          Sept 4, 2023                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;I&#039;m very grateful for this app! Without this caring for my Mum would be much more challenging and less effective.&quot;                  </p>
+                </div>
+              </div>
+                          </div>
+          </div>
+
+          <!-- Second row of testimonials -->
+          <div class="swiper testimonials-swiper-2">
+            <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Kate Flanagan                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          March 20, 2019                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;This App has been a life saver! I don&#039;t know where we would be without it! My Mom&#039;s care has been changing a lot lately and we have been able to communicate the changes in real time.&quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Vicki Terpstra                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          March 13, 2020                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;As a nurse myself, Caring Village is a beautiful addition to the care of patients.....kind of like a second or third eye to catch things. Love it!! &quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Janice Keywell                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          Nov 18, 2020                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;This app is kind of the best thing I&#039;ve seen in a long time! You guys have gathered the world as it comes to be for a hospice family. You rock!&quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Cathy Hamilton                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          Nov 29, 2019                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;I&#039;m just blown away. I love the app! It has allowed me to document my son&#039;s journey from a near fatal accident. I spread the word about the app as much as I can. It is so user friendly and has so many useful features.&quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Lana Stevens                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          Dec 10, 2020                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;This is a wonderful tool, takes so much pressure off family by making it a one stop source for keeping in touch.&quot;                  </p>
+                </div>
+              </div>
+                                            <div class="swiper-slide">
+                <div
+                  class="flex w-[302rem] flex-col gap-[16rem] rounded-[24rem] bg-[#F7F7F7] p-[24rem] sm:w-[386rem] sm:rounded-[16rem] sm:p-[16rem] lg:w-[565rem] lg:gap-[24rem] lg:rounded-[24rem] lg:p-[24rem]"
+                >
+                  <div
+                    class="flex w-full items-start justify-between gap-[32rem]"
+                  >
+                    <div class="flex w-full items-start gap-[10rem]">
+                                            <div
+                        class="flex flex-col gap-[4rem] sm:gap-[2rem] lg:gap-[4rem]"
+                      >
+                        <h4
+                          class="text-[16rem] font-semibold leading-[130%] text-[#383839] sm:text-[14rem] sm:leading-[120%] lg:text-[18rem]"
+                        >
+                          Tania Messett Tibbs                        </h4>
+                        <p
+                          class="text-[14rem] leading-[130%] text-[#878889] sm:text-[12rem] lg:text-[16rem]"
+                        >
+                          Feb 21, 2021                        </p>
+                      </div>
+                    </div>
+                    <img
+                      class="hidden sm:block"
+                      src="data:image/svg+xml,%3csvg%20width='107'%20height='18'%20viewBox='0%200%20107%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.85042%201.6176C9.08555%201.03207%209.91445%201.03207%2010.1496%201.61759L11.6639%205.38848C11.764%205.63782%2011.998%205.80785%2012.2661%205.82602L16.3204%206.10092C16.9499%206.14361%2017.206%206.93194%2016.7218%207.3365L13.6034%209.94193C13.3972%2010.1142%2013.3078%2010.3893%2013.3734%2010.6499L14.3648%2014.5907C14.5187%2015.2026%2013.8481%2015.6898%2013.3137%2015.3543L9.8722%2013.1937C9.64463%2013.0508%209.35537%2013.0508%209.1278%2013.1937L5.68625%2015.3543C5.15186%2015.6898%204.48127%2015.2026%204.63521%2014.5907L5.6266%2010.6499C5.69215%2010.3893%205.60277%2010.1142%205.39657%209.94194L2.27818%207.3365C1.79397%206.93194%202.05012%206.14361%202.67965%206.10092L6.73391%205.82602C7.00199%205.80785%207.23601%205.63782%207.33614%205.38848L8.85042%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M30.8504%201.6176C31.0856%201.03207%2031.9144%201.03207%2032.1496%201.61759L33.6639%205.38848C33.764%205.63782%2033.998%205.80785%2034.2661%205.82602L38.3204%206.10092C38.9499%206.14361%2039.206%206.93194%2038.7218%207.3365L35.6034%209.94193C35.3972%2010.1142%2035.3078%2010.3893%2035.3734%2010.6499L36.3648%2014.5907C36.5187%2015.2026%2035.8481%2015.6898%2035.3137%2015.3543L31.8722%2013.1937C31.6446%2013.0508%2031.3554%2013.0508%2031.1278%2013.1937L27.6863%2015.3543C27.1519%2015.6898%2026.4813%2015.2026%2026.6352%2014.5907L27.6266%2010.6499C27.6922%2010.3893%2027.6028%2010.1142%2027.3966%209.94194L24.2782%207.3365C23.794%206.93194%2024.0501%206.14361%2024.6796%206.10092L28.7339%205.82602C29.002%205.80785%2029.236%205.63782%2029.3361%205.38848L30.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M52.8504%201.6176C53.0856%201.03207%2053.9144%201.03207%2054.1496%201.61759L55.6639%205.38848C55.764%205.63782%2055.998%205.80785%2056.2661%205.82602L60.3204%206.10092C60.9499%206.14361%2061.206%206.93194%2060.7218%207.3365L57.6034%209.94193C57.3972%2010.1142%2057.3078%2010.3893%2057.3734%2010.6499L58.3648%2014.5907C58.5187%2015.2026%2057.8481%2015.6898%2057.3137%2015.3543L53.8722%2013.1937C53.6446%2013.0508%2053.3554%2013.0508%2053.1278%2013.1937L49.6863%2015.3543C49.1519%2015.6898%2048.4813%2015.2026%2048.6352%2014.5907L49.6266%2010.6499C49.6922%2010.3893%2049.6028%2010.1142%2049.3966%209.94194L46.2782%207.3365C45.794%206.93194%2046.0501%206.14361%2046.6796%206.10092L50.7339%205.82602C51.002%205.80785%2051.236%205.63782%2051.3361%205.38848L52.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M74.8504%201.6176C75.0856%201.03207%2075.9144%201.03207%2076.1496%201.61759L77.6639%205.38848C77.764%205.63782%2077.998%205.80785%2078.2661%205.82602L82.3204%206.10092C82.9499%206.14361%2083.206%206.93194%2082.7218%207.3365L79.6034%209.94193C79.3972%2010.1142%2079.3078%2010.3893%2079.3734%2010.6499L80.3648%2014.5907C80.5187%2015.2026%2079.8481%2015.6898%2079.3137%2015.3543L75.8722%2013.1937C75.6446%2013.0508%2075.3554%2013.0508%2075.1278%2013.1937L71.6863%2015.3543C71.1519%2015.6898%2070.4813%2015.2026%2070.6352%2014.5907L71.6266%2010.6499C71.6922%2010.3893%2071.6028%2010.1142%2071.3966%209.94194L68.2782%207.3365C67.794%206.93194%2068.0501%206.14361%2068.6796%206.10092L72.7339%205.82602C73.002%205.80785%2073.236%205.63782%2073.3361%205.38848L74.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3cpath%20d='M96.8504%201.6176C97.0856%201.03207%2097.9144%201.03207%2098.1496%201.61759L99.6639%205.38848C99.764%205.63782%2099.998%205.80785%20100.266%205.82602L104.32%206.10092C104.95%206.14361%20105.206%206.93194%20104.722%207.3365L101.603%209.94193C101.397%2010.1142%20101.308%2010.3893%20101.373%2010.6499L102.365%2014.5907C102.519%2015.2026%20101.848%2015.6898%20101.314%2015.3543L97.8722%2013.1937C97.6446%2013.0508%2097.3554%2013.0508%2097.1278%2013.1937L93.6863%2015.3543C93.1519%2015.6898%2092.4813%2015.2026%2092.6352%2014.5907L93.6266%2010.6499C93.6922%2010.3893%2093.6028%2010.1142%2093.3966%209.94194L90.2782%207.3365C89.794%206.93194%2090.0501%206.14361%2090.6796%206.10092L94.7339%205.82602C95.002%205.80785%2095.236%205.63782%2095.3361%205.38848L96.8504%201.6176Z'%20fill='%23FFCE58'/%3e%3c/svg%3e"
+                      alt=""
+                    />
+                  </div>
+                  <p
+                    class="text-[16rem] leading-[130%] text-[#383839] sm:text-[14rem] lg:text-[18rem]"
+                  >
+                    &quot;It is just perfect for what we needed for our 89 year old Mom who was released from the hospital! &quot;                  </p>
+                </div>
+              </div>
+                          </div>
+          </div>
+        </div>
+              </div>
+      <!-- END "TESTIMONIALS" SECTION -->
+    </div>
+
+    <!-- START "ADVERTISEMENT" SECTION -->
+    <div class="py-[80rem] sm:py-[100rem] lg:py-0">
+      <div
+        class="relative flex aspect-[393/850] flex-col sm:aspect-[834/805] lg:aspect-[1440/1527]"
+      >
+        <picture class="absolute inset-0">
+          <source
+            media="(min-width: 1440px)"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-advertisement-desktop-C9Z5L2NH.png"
+          />
+          <source
+            media="(min-width: 834px)"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-advertisement-tablet-CZzEON3F.png"
+          />
+          <source
+            media="(min-width: 393px)"
+            srcset="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-advertisement-mobile-BpucvmY7.png"
+          />
+          <img
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/bg-advertisement-mobile-BpucvmY7.png"
+            alt="Feeling overwhelmed by caregiving?"
+            class="h-full w-full object-cover"
+          />
+        </picture>
+        <div
+          class="absolute left-1/2 top-0 z-10 w-full -translate-x-1/2 transform lg:top-[200rem]"
+        >
+          <div
+            class="flex flex-col items-center gap-[24rem] sm:gap-[16rem] lg:gap-[24rem]"
+          >
+            <h2 class="heading-2 text-center">
+              Your first “village” <br class="sm:hidden" />is just a click away            </h2>
+            <p
+              class="max-w-[333rem] text-center text-[18rem] leading-[130%] text-[#383839] sm:max-w-[366rem] sm:text-[16rem] lg:max-w-[561rem] lg:text-[20rem]"
+            >
+              Download the free Caring Village app or create <br class="hidden sm:block lg:hidden" />your account now to take the stress out of caregiving.
+            </p>
+                          <button class="button-primary w-[251rem] lg:w-[251rem]" onclick="window.location.href='https://my.caringvillage.com/Account/SignUp'">
+                <span class="text-3 whitespace-nowrap text-white"
+                  >Create Your Free Village</span
+                >
+              </button>
+                      </div>
+        </div>
+                <div
+          class="absolute bottom-0 left-1/2 z-10 w-full -translate-x-1/2 transform lg:bottom-[200rem]"
+        >
+          <div
+            class="mt-auto flex items-center justify-center gap-[16rem] sm:gap-[24rem]"
+          >
+                        <button
+              type="button"
+              class="h-[62rem] w-auto sm:h-[48rem] lg:h-[56rem]"
+              onclick="window.location.href='https://play.google.com/store/apps/details?id=com.caringvillage.app'"
+            >
+              <img
+                class="h-[62rem] w-auto sm:h-[48rem] lg:h-[56rem]"
+                src="https://caringvillage.com/wp-content/themes/caringvillage/assets/go-btn-google-play-CiiwqIw5.svg"
+                alt="Google Play"
+              />
+            </button>
+                                    <button
+              type="button"
+              class="h-[62rem] w-auto sm:h-[48rem] lg:h-[56rem]"
+              onclick="window.location.href='https://apps.apple.com/us/app/caring-village/id1093814557'"
+            >
+              <img
+                class="h-[62rem] w-auto sm:h-[48rem] lg:h-[56rem]"
+                src="https://caringvillage.com/wp-content/themes/caringvillage/assets/go-btn-app-store-5zOX4we8.svg"
+                alt="App Store"
+              />
+            </button>
+                      </div>
+          <!-- <div class="mt-auto flex items-center justify-center py-[16rem]">
+            <p class="max-w-[333rem] text-center text-[18rem] leading-[130%] text-[#383839] sm:max-w-[366rem] sm:text-[16rem] lg:max-w-[561rem] lg:text-[20rem]">A new version of Caring Village will be live tomorrow.<br>Please check back for updates.</p>
+          </div>-->
+        </div>
+              </div>
+    </div>
+    <!-- END "ADVERTISEMENT" SECTION -->
+
+    <!-- START "FOOTER" SECTION -->
+    <div class="p-[12rem] sm:p-[8rem] lg:p-[16rem]">
+      <div
+        class="relative rounded-[24rem] bg-[#1F263B] px-[24rem] pb-[20rem] pt-[32rem] sm:pb-[16rem] sm:pt-[24rem] lg:px-[56rem] lg:pt-[32rem]"
+      >
+        <div
+          class="flex flex-col gap-[32rem] sm:gap-[24rem] lg:flex-row lg:gap-[80rem]"
+        >
+          <img
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-alt-Eq_oMOLG.svg"
+            alt="Caring Village"
+            class="h-auto w-[226rem] sm:w-[172rem] lg:w-[204rem]"
+          />
+                    <ul
+            class="flex w-full flex-col flex-wrap gap-[8rem] sm:ml-[-12rem] sm:flex-row sm:gap-0 lg:m-0 lg:items-center lg:justify-center lg:gap-[16rem]"
+          >
+                                       <li class="py-[9rem] sm:p-[12rem] lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href="https://caringvillage.com/landing-page/#features"
+                 >
+                 Features                 </a
+               >
+             </li>
+                                        <li class="py-[9rem] sm:ml-[-4rem] sm:p-[12rem] lg:ml-0 lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href="https://caringvillage.com/landing-page/#reviews"
+                 >
+                 Reviews                 </a
+               >
+             </li>
+                                        <li class="py-[9rem] sm:ml-[-4rem] sm:p-[12rem] lg:ml-0 lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href="https://caringvillage.com/marketplace/"
+                 >
+                 Marketplace                 </a
+               >
+             </li>
+                                        <li class="py-[9rem] sm:ml-[-4rem] sm:p-[12rem] lg:ml-0 lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href="https://caringvillage.com/terms/"
+                 >
+                 Terms of Service                 </a
+               >
+             </li>
+                                        <li class="py-[9rem] sm:ml-[-4rem] sm:p-[12rem] lg:ml-0 lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href="https://caringvillage.com/privacy-policy/"
+                 >
+                 Privacy Policy                 </a
+               >
+             </li>
+                                        <li class="py-[9rem] sm:ml-[-4rem] sm:p-[12rem] lg:ml-0 lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href="https://caringvillage.com/about/"
+                 >
+                 About                 </a
+               >
+             </li>
+                                        <li class="py-[9rem] sm:ml-[-4rem] sm:p-[12rem] lg:ml-0 lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href="https://caringvillage.com/partners/"
+                 >
+                 Partners                 </a
+               >
+             </li>
+                                        <li class="py-[9rem] sm:ml-[-4rem] sm:p-[12rem] lg:ml-0 lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href="https://caringvillage.com/contact/"
+                 >
+                 Contact Us                 </a
+               >
+             </li>
+                                        <li class="py-[9rem] sm:ml-[-4rem] sm:p-[12rem] lg:ml-0 lg:py-0">
+               <a
+                 class="text-[18rem] font-medium leading-[100%] text-[#737C99] hover:text-white sm:text-[16rem]"
+                 href=""
+                 >
+                                  </a
+               >
+             </li>
+                        </ul>
+                     <div
+            class="ml-[-12rem] flex items-center gap-[4rem] sm:absolute sm:right-[10rem] sm:top-[13rem] sm:gap-0 lg:static lg:right-auto lg:top-auto lg:ml-auto"
+          >
+                        <a  class="block h-[48rem] w-[48rem] text-[#737C99] hover:text-white" 
+                href="https://www.facebook.com/caringvillage"
+                target="_blank"
+                >
+                                 
+              <svg
+                class="h-full w-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="M35 16a3 3 0 0 0-3-3H16a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h8.071v-6.71H21.5v-3.58h2.571v-2.505c0-2.722 1.653-4.205 3.98-4.205 1.114 0 2.17.087 2.449.125v3.007h-1.286c-1.714 0-1.714.867-1.714 1.79v1.788h3l-.857 3.58H27.5V35H32a3 3 0 0 0 3-3V16Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+                                    <a
+              class="block h-[48rem] w-[48rem] text-[#737C99] hover:text-white sm:ml-[-4rem] lg:ml-0"
+              href="https://www.instagram.com/caringvillage/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                class="h-full w-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="M13 16a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v16a3 3 0 0 1-3 3H16a3 3 0 0 1-3-3V16Zm11 11.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm0 2a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11ZM30.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+                                    <a
+              class="block h-[48rem] w-[48rem] text-[#737C99] hover:text-white sm:ml-[-4rem] lg:ml-0"
+              href="https://www.linkedin.com/company/caring-village-llc/"
+              target="_blank"
+            >
+              <svg
+                class="h-full w-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="M35 16a3 3 0 0 0-3-3H16a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V16Zm-15.814 3.656a1.547 1.547 0 0 0 .001-2.2 1.584 1.584 0 0 0-2.225-.001 1.546 1.546 0 0 0-.002 2.2 1.583 1.583 0 0 0 2.226 0Zm-2.639 1.607h3.148V31h-3.148v-9.737Zm4.99 0h3.132l-.032 1.306c1.307-2.356 6.863-2.535 6.863 2.264V31h-3.109v-5.11c0-3.11-3.753-2.846-3.753 0V31h-3.101v-9.737Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+                                    <a
+              class="block h-[48rem] w-[48rem] text-[#737C99] hover:text-white sm:ml-[-4rem] lg:ml-0"
+              href="https://x.com/CaringVillage"
+              target="_blank"
+            >
+              <svg
+                class="h-full w-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill="currentColor"
+                  d="M25.807 22.469 32.88 14h-1.677l-6.14 7.353L20.159 14H14.5l7.418 11.12L14.5 34h1.676l6.485-7.766L27.842 34H33.5l-7.693-11.531Zm-2.295 2.748-.752-1.107-5.98-8.81h2.574l4.826 7.11.751 1.107 6.274 9.243H28.63l-5.118-7.543Z"
+                />
+              </svg>
+            </a>
+                                    <a
+              class="block h-[48rem] w-[48rem] text-[#737C99] hover:text-white sm:ml-[-4rem] lg:ml-0"
+              href="https://www.youtube.com/@caringvillage"
+              target="_blank"
+            >
+              <svg
+                class="h-full w-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill="currentColor"
+                  d="M21.8 27.429 27.509 24 21.8 20.571v6.858Zm12.716-8.949c.143.537.242 1.257.308 2.171.077.915.11 1.703.11 2.389L35 24c0 2.503-.176 4.343-.484 5.52-.275 1.029-.913 1.691-1.903 1.977-.517.149-1.463.252-2.915.32-1.43.08-2.739.114-3.949.114L24 32c-4.609 0-7.48-.183-8.613-.503-.99-.286-1.628-.948-1.903-1.977-.143-.537-.242-1.257-.308-2.171a28.562 28.562 0 0 1-.11-2.389L13 24c0-2.503.176-4.343.484-5.52.275-1.029.913-1.691 1.903-1.977.517-.149 1.463-.252 2.915-.32 1.43-.08 2.739-.114 3.949-.114L24 16c4.609 0 7.48.183 8.613.503.99.286 1.628.948 1.903 1.977Z"
+                />
+              </svg>
+            </a>
+                      </div>
+        </div>
+        <div
+          class="mt-[24rem] border-t border-[#2B3142] pt-[20rem] sm:pt-[16rem] lg:mt-[32rem]"
+        >
+          <p
+            class="text-[14rem] leading-[150%] text-[#737C99] sm:text-center sm:text-[13rem] lg:text-[14rem]"
+          >
+            © Copyright 2025 Caring Village Inc.          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END "FOOTER" SECTION -->
+
+    <!-- START MOBILE MENU -->
+    <div class="mobile-menu fixed inset-0 z-50 sm:hidden">
+      <div
+        class="mobile-menu-content flex h-full w-full flex-col gap-[40rem] bg-white px-[20rem] py-[34rem]"
+        style="overflow-y: auto;"
+      >
+        <div class="flex items-center justify-between">
+          <img
+            src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg"
+            alt="Caring Village"
+            class="h-[26rem] w-auto"
+          />
+          <button
+            class="mobile-menu-close h-[44rem] w-[44rem]"
+            aria-label="Close menu"
+          >
+            <img
+              src="data:image/svg+xml,%3csvg%20width='44'%20height='44'%20viewBox='0%200%2044%2044'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16%2028L28%2016M16%2016L28%2028'%20stroke='black'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+              alt="Close"
+              class="w-full"
+            />
+          </button>
+        </div>
+                <nav>
+          <ul>
+                         
+            <li>
+              <a
+                href="https://caringvillage.com/app/"
+                class="block py-[21rem] text-[18rem] font-medium leading-[100%] text-[#232323]"
+              >
+                The App              </a>
+            </li>
+                         
+            <li class="border-t border-[#DFDFDF]">
+              <a
+                href="https://caringvillage.com/pricing/"
+                class="block py-[21rem] text-[18rem] font-medium leading-[100%] text-[#232323]"
+              >
+                Pricing              </a>
+            </li>
+                         
+            <li class="border-t border-[#DFDFDF]">
+              <a
+                href="https://caringvillage.com/wall-of-love/"
+                class="block py-[21rem] text-[18rem] font-medium leading-[100%] text-[#232323]"
+              >
+                Wall of Love              </a>
+            </li>
+                         
+            <li class="border-t border-[#DFDFDF]">
+              <a
+                href="https://caringvillage.com/articles/"
+                class="block py-[21rem] text-[18rem] font-medium leading-[100%] text-[#232323]"
+              >
+                Blog              </a>
+            </li>
+                         
+            <li class="border-t border-[#DFDFDF]">
+              <a
+                href="https://caringvillage.com/about/"
+                class="block py-[21rem] text-[18rem] font-medium leading-[100%] text-[#232323]"
+              >
+                About              </a>
+            </li>
+                         
+            <li class="border-t border-[#DFDFDF]">
+              <a
+                href="https://caringvillage.com/for-professionals/"
+                class="block py-[21rem] text-[18rem] font-medium leading-[100%] text-[#232323]"
+              >
+                For Professionals              </a>
+            </li>
+                      </ul>
+        </nav>
+                        <div class="flex flex-col gap-[16rem]">
+                      <button 
+              class="button-primary h-[48rem] w-full" 
+              onclick="window.location.href='https://my.caringvillage.com/Account/SignIn'"
+              style="background: linear-gradient(90deg, #1db67f, #17a56f)"
+            >
+              <span class="text-[16rem] font-semibold leading-[130%] text-white whitespace-nowrap">
+                Sign In              </span>
+            </button>
+                     
+            <button 
+              class="button-primary h-[48rem] w-full" 
+              onclick="window.location.href='https://my.caringvillage.com/Account/SignUp'"
+            >
+              <span class="text-[16rem] font-semibold leading-[130%] text-white whitespace-nowrap">
+                Sign Up              </span>
+            </button>
+                  </div>
+        <div class="mt-auto flex items-center justify-between gap-[16rem]">
+          <!-- Google Play -->
+                    <button type="button" class="h-[62rem] w-[169rem]" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.caringvillage.app'">
+            <img class="h-full w-full object-cover" src="https://caringvillage.com/wp-content/themes/caringvillage/assets/go-btn-google-play-CiiwqIw5.svg" alt="Google Play" />
+          </button>
+          
+          <!-- Apple Store -->
+                    <button type="button" class="h-[62rem] w-[168rem]" onclick="window.location.href='https://apps.apple.com/us/app/caring-village/id1093814557'">
+            <img class="h-full w-full object-cover" src="https://caringvillage.com/wp-content/themes/caringvillage/assets/go-btn-app-store-5zOX4we8.svg" alt="App Store" />
+          </button>
+                  </div>
+              </div>
+    </div>
+    <!-- END MOBILE MENU -->
+
+    <script src="//cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

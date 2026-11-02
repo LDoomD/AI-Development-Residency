@@ -1,0 +1,122 @@
+[
+ {
+  "naics": "513210",
+  "label": "Software publishers",
+  "firms": "16824",
+  "estab": "20976",
+  "rcptot_k": "492929994",
+  "rcptot_flag": "",
+  "emp": "1033305",
+  "payann_k": "174916698",
+  "year": "2022",
+  "file": "ec2022-51/EC2251BASIC.dat"
+ },
+ {
+  "naics": "456110",
+  "label": "Pharmacies and drug retailers",
+  "firms": "19676",
+  "estab": "43884",
+  "rcptot_k": "543941952",
+  "rcptot_flag": "",
+  "emp": "724538",
+  "payann_k": "32077233",
+  "year": "2022",
+  "file": "ec2022-44/EC2244BASIC.dat"
+ },
+ {
+  "naics": "621610",
+  "label": "Home health care services",
+  "firms": "27774",
+  "estab": "39218",
+  "rcptot_k": "114187602",
+  "rcptot_flag": "",
+  "emp": "1560134",
+  "payann_k": "55548138",
+  "year": "2022",
+  "file": "ec2022-62/EC2262BASIC.dat"
+ },
+ {
+  "naics": "623110",
+  "label": "Nursing care facilities (skilled nursing facilities)",
+  "firms": "10663",
+  "estab": "17951",
+  "rcptot_k": "135396289",
+  "rcptot_flag": "",
+  "emp": "1392818",
+  "payann_k": "57604622",
+  "year": "2022",
+  "file": "ec2022-62/EC2262BASIC.dat"
+ },
+ {
+  "naics": "623312",
+  "label": "Assisted living facilities for the elderly",
+  "firms": "14674",
+  "estab": "20596",
+  "rcptot_k": "38857145",
+  "rcptot_flag": "",
+  "emp": "484806",
+  "payann_k": "15349014",
+  "year": "2022",
+  "file": "ec2022-62/EC2262BASIC.dat"
+ },
+ {
+  "naics": "624120",
+  "label": "Services for the elderly and persons with disabilities",
+  "firms": "30629",
+  "estab": "38947",
+  "rcptot_k": "77281380",
+  "rcptot_flag": "",
+  "emp": "1545401",
+  "payann_k": "40170394",
+  "year": "2022",
+  "file": "ec2022-62/EC2262BASIC.dat"
+ },
+ {
+  "naics": "624190",
+  "label": "Other individual and family services",
+  "firms": "27883",
+  "estab": "35711",
+  "rcptot_k": "51959227",
+  "rcptot_flag": "",
+  "emp": "455857",
+  "payann_k": "18663386",
+  "year": "2022",
+  "file": "ec2022-62/EC2262BASIC.dat"
+ },
+ {
+  "naics": "561311",
+  "label": "Employment placement agencies",
+  "firms": "6270",
+  "estab": "7212",
+  "rcptot_k": "21375462",
+  "rcptot_flag": "",
+  "emp": "290172",
+  "payann_k": "11908913",
+  "year": "2022",
+  "file": "ec2022-56/EC2256BASIC.dat"
+ },
+ {
+  "naics": "561621",
+  "label": "Security systems services (except locksmiths)",
+  "firms": "6161",
+  "estab": "7462",
+  "rcptot_k": "31313513",
+  "rcptot_flag": "",
+  "emp": "140876",
+  "payann_k": "8708745",
+  "year": "2022",
+  "file": "ec2022-56/EC2256BASIC.dat"
+ },
+ {
+  "naics": "524292",
+  "label": "Pharmacy benefit management and other third party administration of insurance and pension funds",
+  "firms": "2480",
+  "estab": "7337",
+  "rcptot_k": "283554088",
+  "rcptot_flag": "",
+  "emp": "442908",
+  "payann_k": "33074325",
+  "year": "2022",
+  "file": "ec2022-52/EC2252BASIC.dat"
+ }
+]

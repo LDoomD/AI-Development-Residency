@@ -1,0 +1,2631 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head> <script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+<meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",e=>{this.persisted=e.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(e){if(document.hidden){e._triggerListener();return}this.triggerEvents.forEach(t=>window.addEventListener(t,e.userEventHandler,{passive:!0})),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(e=>window.removeEventListener(e,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(e=>{this._isClickPending?this._pendingClickFinished=e:e()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(e,t,i){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(i,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{if(t.hasAttribute("src")){let i=new URL(t.src).origin;i!==location.origin&&e.push({src:i,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}}),e=[...new Map(e.map(e=>[JSON.stringify(e),e])).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){console.error(e)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{e.hasAttribute("data-rocket-src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)})}async _transformScript(e){return await this._littleBreath(),new Promise(t=>{function i(){e.setAttribute("data-rocket-status","executed"),t()}function r(){e.setAttribute("data-rocket-status","failed"),t()}try{let n=e.getAttribute("data-rocket-type"),s=e.getAttribute("data-rocket-src");if(n?(e.type=n,e.removeAttribute("data-rocket-type")):e.removeAttribute("type"),e.addEventListener("load",i),e.addEventListener("error",r),s)e.src=s,e.removeAttribute("data-rocket-src");else if(navigator.userAgent.indexOf("Firefox/")>0){var a=document.createElement("script");[...e.attributes].forEach(e=>{"type"!==e.nodeName&&a.setAttribute("data-rocket-type"===e.nodeName?"type":e.nodeName,e.nodeValue)}),a.text=e.text,e.parentNode.replaceChild(a,e),i()}else e.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(e.text)))}catch(o){r()}})}async _loadScriptsFromList(e){let t=e.shift();return t&&t.isConnected?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var i=document.createDocumentFragment();e.forEach(e=>{let r=e.getAttribute&&e.getAttribute("data-rocket-src")||e.src;if(r){let n=document.createElement("link");n.href=r,n.rel=t,"preconnect"!==t&&(n.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),e.crossOrigin&&(n.crossOrigin=e.crossOrigin),e.integrity&&(n.integrity=e.integrity),i.appendChild(n),this.trash.push(n)}}),document.head.appendChild(i)}_delayEventListeners(e){let t={};function i(e,i){!function e(i){!t[i]&&(t[i]={originalFunctions:{add:i.addEventListener,remove:i.removeEventListener},eventsToRewrite:[]},i.addEventListener=function(){arguments[0]=r(arguments[0]),t[i].originalFunctions.add.apply(i,arguments)},i.removeEventListener=function(){arguments[0]=r(arguments[0]),t[i].originalFunctions.remove.apply(i,arguments)});function r(e){return t[i].eventsToRewrite.indexOf(e)>=0?"rocket-"+e:e}}(e),t[e].eventsToRewrite.push(i)}function r(e,t){let i=e[t];Object.defineProperty(e,t,{get:()=>i||function(){},set(r){e["rocket"+t]=i=r}})}i(document,"DOMContentLoaded"),i(window,"DOMContentLoaded"),i(window,"load"),i(window,"pageshow"),i(document,"readystatechange"),r(document,"onreadystatechange"),r(window,"onload"),r(window,"onpageshow")}_delayJQueryReady(e){let t;function i(i){if(i&&i.fn&&!e.allJQueries.includes(i)){i.fn.ready=i.fn.init.prototype.ready=function(t){return e.domReadyFired?t.bind(document)(i):document.addEventListener("rocket-DOMContentLoaded",()=>t.bind(document)(i)),i([])};let r=i.fn.on;i.fn.on=i.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map(e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]})}return r.apply(this,arguments),this},e.allJQueries.push(i)}t=i}i(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>t,set(e){i(e)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(e=>e(window).trigger("rocket-jquery-load")),await this._littleBreath();let e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let e=new Map;document.write=document.writeln=function(t){let i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+t);let r=document.createRange(),n=i.parentElement,s=e.get(i);void 0===s&&(s=i.nextSibling,e.set(i,s));let a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(e=>setTimeout(e)):new Promise(e=>requestAnimationFrame(e))}_emptyTrash(){this.trash.forEach(e=>e.remove())}static run(){let e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://caringvillage.com/xmlrpc.php">
+
+
+
+<link data-minify="1" rel="stylesheet" href="https://caringvillage.com/wp-content/cache/min/1/font-awesome/4.4.0/css/font-awesome.min.css?ver=1792524669">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="96x96" href="/wp-content/uploads/2016/02/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/wp-content/uploads/2016/02/android-chrome-192x192.png">
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v28.6 (Yoast SEO v28.6) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Caregiver App Pricing | Simple, Affordable Plans for Families</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7COpen%20Sans%3A400%2C400italic%2C700%2C700italic%7CTeachers%3A700%2C600%7CInter%3A600%2C700%2C400%7CMontserrat%3A700&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7COpen%20Sans%3A400%2C400italic%2C700%2C700italic%7CTeachers%3A700%2C600%7CInter%3A600%2C700%2C400%7CMontserrat%3A700&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7COpen%20Sans%3A400%2C400italic%2C700%2C700italic%7CTeachers%3A700%2C600%7CInter%3A600%2C700%2C400%7CMontserrat%3A700&#038;display=swap" /></noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Teachers:wght@400;500;600;700&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teachers:wght@400;500;600;700&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teachers:wght@400;500;600;700&#038;display=swap" /></noscript>
+	<meta name="description" content="See Caring Village caregiver app pricing. Choose simple, affordable plans designed to help families coordinate care, share tasks, &amp; support loved ones." />
+	<link rel="canonical" href="https://caringvillage.com/pricing/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Pricing" />
+	<meta property="og:description" content="See Caring Village caregiver app pricing. Choose simple, affordable plans designed to help families coordinate care, share tasks, &amp; support loved ones." />
+	<meta property="og:url" content="https://caringvillage.com/pricing/" />
+	<meta property="og:site_name" content="Caring Village" />
+	<meta property="article:modified_time" content="2026-10-30T14:30:46+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="4 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/caringvillage.com\/pricing\/","url":"https:\/\/caringvillage.com\/pricing\/","name":"Caregiver App Pricing | Simple, Affordable Plans for Families","isPartOf":{"@id":"https:\/\/caringvillage.com\/#website"},"datePublished":"2026-04-23T17:21:01+00:00","dateModified":"2026-10-30T14:30:46+00:00","description":"See Caring Village caregiver app pricing. Choose simple, affordable plans designed to help families coordinate care, share tasks, & support loved ones.","breadcrumb":{"@id":"https:\/\/caringvillage.com\/pricing\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/caringvillage.com\/pricing\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/caringvillage.com\/pricing\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/caringvillage.com\/"},{"@type":"ListItem","position":2,"name":"Pricing"}]},{"@type":"WebSite","@id":"https:\/\/caringvillage.com\/#website","url":"https:\/\/caringvillage.com\/","name":"Caring Village","description":"Resources and Products for Caregivers","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/caringvillage.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<script type="rocketlazyloadscript" data-rocket-type='application/javascript'  id='pys-version-script'>console.log('PixelYourSite Free version 11.4.2.1');</script>
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Caring Village &raquo; Feed" href="https://caringvillage.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Caring Village &raquo; Comments Feed" href="https://caringvillage.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://caringvillage.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcaringvillage.com%2Fpricing%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://caringvillage.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcaringvillage.com%2Fpricing%2F&#038;format=xml" />
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.woff" as="font" type="font/woff2" crossorigin="anonymous">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='jquery.prettyphoto-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-video-lightbox/css/prettyPhoto.css?ver=1792524669' media='all' />
+<link data-minify="1" rel='stylesheet' id='video-lightbox-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-video-lightbox/wp-video-lightbox.css?ver=1792524669' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='mediaelement-css' href='https://caringvillage.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://caringvillage.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=7.1.4' media='all' />
+<link data-minify="1" rel='stylesheet' id='view_editor_gutenberg_frontend_assets-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-views/public/css/views-frontend.css?ver=1792524669' media='all' />
+<style id="view_editor_gutenberg_frontend_assets-inline-css">
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item a {color: #444;background-color: #eeeeee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:focus {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #e5e5e5;}
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item a {color: #444;background-color: #eeeeee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:focus {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item {border-color: #0099cc;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item a {color: #444;background-color: #cbddeb;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:focus {color: #000;background-color: #95bedd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #95bedd;}
+/*# sourceURL=view_editor_gutenberg_frontend_assets-inline-css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link data-minify="1" rel='stylesheet' id='dashicons-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-includes/css/dashicons.min.css?ver=1792524669' media='all' />
+<link data-minify="1" rel='stylesheet' id='ultimate-icons-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/icons/ultimate-icons/style.css?ver=1792524833' media='all' />
+<link data-minify="1" rel='stylesheet' id='foundation-icons-css' href='https://caringvillage.com/wp-content/cache/min/1/ajax/libs/foundicons/3.0.0/foundation-icons.css?ver=1792525222' media='all' />
+<link data-minify="1" rel='stylesheet' id='font-awesome-5-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/bb-plugin/fonts/fontawesome/7.2.0/css/all.min.css?ver=1792524677' media='all' />
+<link data-minify="1" rel='stylesheet' id='fl-builder-layout-14294-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/cache/14294-layout.css?ver=1792525222' media='all' />
+<link data-minify="1" rel='stylesheet' id='fl-builder-layout-3763-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/cache/3763-layout-partial.css?ver=1792524669' media='all' />
+<link data-minify="1" rel='stylesheet' id='cpsh-shortcodes-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/column-shortcodes/assets/css/shortcodes.css?ver=1792524669' media='all' />
+<link data-minify="1" rel='stylesheet' id='owl.carousel.css-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/relevant/css/owl.carousel.css?ver=1792524669' media='all' />
+<link data-minify="1" rel='stylesheet' id='owl.theme.default.css-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/relevant/css/owl.theme.default.css?ver=1792524669' media='all' />
+<link data-minify="1" rel='stylesheet' id='rltdpstsplgn_stylesheet-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/relevant/css/style.css?ver=1792524669' media='all' />
+<style id="rltdpstsplgn_stylesheet-inline-css">
+
+			.rltdpstsplgn-featured-post-block {
+				background-color: #f3f3f3;
+				width: 100%;
+			}
+			.rltdpstsplgn-featured-post-block article {
+				background-color: #f3f3f3;
+				width: 960px;
+			}
+			.rltdpstsplgn-featured-posts .rltdpstsplgn_posts_title a {
+				color: #777b7e !important;
+			}
+			.rltdpstsplgn-featured-posts .entry-content {
+				color: #777b7e !important;
+			}
+			.rltdpstsplgn-featured-posts .entry-content .more-link {
+				color: #777b7e!important;
+			}
+/*# sourceURL=rltdpstsplgn_stylesheet-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='magnific-popup-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-magnific-popup/mpopup/magnific-popup.css?ver=1792524669' media='all' />
+<style id="magnific-popup-inline-css">
+.mfp-iframe-holder .mfp-content { max-width: 900px; }
+/*# sourceURL=magnific-popup-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='megamenu-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/uploads/maxmegamenu/style.css?ver=1792524669' media='all' />
+<link data-minify="1" rel='stylesheet' id='caringvillage-style-css' href='https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/style.css?ver=1792524669' media='screen, print' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://caringvillage.com/wp-content/tablepress-combined.min.css?ver=36' media='all' />
+<link rel='stylesheet' id='animate-css' href='https://caringvillage.com/wp-content/plugins/powerpack-addon-for-beaver-builder/assets/css/animate.min.css?ver=3.5.1' media='all' />
+
+<script type="rocketlazyloadscript" data-minify="1" id="toolset-common-es-frontend-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-views/vendor/toolset/common-es/public/toolset-common-es-frontend.js?ver=1792524669" defer></script>
+<script type="rocketlazyloadscript" id="jquery-core-js" data-rocket-src="https://caringvillage.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" defer></script>
+<script type="rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://caringvillage.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="jquery.prettyphoto-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-video-lightbox/js/jquery.prettyPhoto.js?ver=1792524669" defer></script>
+<script id="video-lightbox-js-extra">
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+//# sourceURL=video-lightbox-js-extra
+</script>
+<script type="rocketlazyloadscript" data-minify="1" id="video-lightbox-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-video-lightbox/js/video-lightbox.js?ver=1792524669" defer></script>
+<script type="rocketlazyloadscript" id="magnific-popup-js" data-rocket-src="https://caringvillage.com/wp-content/plugins/wp-magnific-popup/mpopup/jquery.magnific-popup.min.js?ver=7.1.4" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="wpmp-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-magnific-popup/js/wpmp.js?ver=1792524669" defer></script>
+<link rel="https://api.w.org/" href="https://caringvillage.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://caringvillage.com/wp-json/wp/v2/pages/14294" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://caringvillage.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel='shortlink' href='https://caringvillage.com/?p=14294' />
+	  	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+			(function(i,n,t,e,r,a,c){i['InteractPromotionObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=n.createElement(t),c=n.getElementsByTagName(t)[0];a.async=1;a.src=e;c.parentNode.insertBefore(a,c)})(window,document,'script','https://i.tryinteract.com/promotions/init.js','i_promo');
+			i_promo('init', 'd0xPaxiz7');
+		</script>
+		<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/2016/02/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/2016/02/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/wp-content/uploads/2016/02/favicon-96x96.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="57x57" href="/wp-content/uploads/2016/02/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="/wp-content/uploads/2016/02/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="72x72" href="/wp-content/uploads/2016/02/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="/wp-content/uploads/2016/02/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="114x114" href="/wp-content/uploads/2016/02/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="/wp-content/uploads/2016/02/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="144x144" href="/wp-content/uploads/2016/02/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="152x152" href="/wp-content/uploads/2016/02/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/wp-content/uploads/2016/02/apple-touch-icon-180x180.png" />
+<meta name="theme-color" content="">
+<link rel="icon" type="image/png" sizes="192x192" href="/wp-content/uploads/2016/02/android-chrome-192x192.png" />
+<link rel="manifest" href="/wp-content/uploads/2016/02/manifest.json" />
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2016/02/mstile-144x144.png">
+<meta name="msapplication-config" content="/wp-content/uploads/2016/02/browserconfig.xml">
+        <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+            var wpmp_options = {
+                image: {"class":"mpopup","vertical_fit":1,"zoom_enabled":0,"disable_on":400},
+                gallery: {"class":"popup-gallery","disable_on":400},
+                iframe: {"class":"mpopup_iframe","width":900,"disable_on":400},
+                div: {"class":"mpopup_div","disable_on":400},
+                image_loading_text: 'Loading image #%curr%...',
+                image_error_text: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+            };
+        </script>
+    <script type="rocketlazyloadscript">
+            WP_VIDEO_LIGHTBOX_VERSION="1.9.12";
+            WP_VID_LIGHTBOX_URL="https://caringvillage.com/wp-content/plugins/wp-video-lightbox";
+                        function wpvl_paramReplace(name, string, value) {
+                // Find the param with regex
+                // Grab the first character in the returned string (should be ? or &)
+                // Replace our href string with our new value, passing on the name and delimeter
+
+                var re = new RegExp("[\?&]" + name + "=([^&#]*)");
+                var matches = re.exec(string);
+                var newString;
+
+                if (matches === null) {
+                    // if there are no params, append the parameter
+                    newString = string + '?' + name + '=' + value;
+                } else {
+                    var delimeter = matches[0].charAt(0);
+                    newString = string.replace(re, delimeter + name + "=" + value);
+                }
+                return newString;
+            }
+            </script>			<style>
+				/* BetterLinks Auto-Link Keywords - Inherit Theme Styling */
+				a.btl_autolink_hyperlink {
+					/* All styles will inherit from theme by default */
+				}
+			</style>
+			 <script type="rocketlazyloadscript"> window.addEventListener("load",function(){ var c={script:false,link:false}; function ls(s) { if(!['script','link'].includes(s)||c[s]){return;}c[s]=true; var d=document,j=d.createElement(s); if(s==='script'){j.src='https://caringvillage.com/wp-content/plugins/wp-views/vendor/toolset/blocks/public/js/frontend.js?v=1.6.24';}else{ j.rel='stylesheet';j.href='https://caringvillage.com/wp-content/plugins/wp-views/vendor/toolset/blocks/public/css/style.css?v=1.6.24';} d.body.appendChild(j); }; function ex(){ls('script');ls('link')} window.addEventListener("scroll", ex, {once: true}); if (('IntersectionObserver' in window) && ('IntersectionObserverEntry' in window) && ('intersectionRatio' in window.IntersectionObserverEntry.prototype)) { var i = 0, fb = document.querySelectorAll("[class^='tb-']"), o = new IntersectionObserver(es => { es.forEach(e => { o.unobserve(e.target); if (e.intersectionRatio > 0) { ex();o.disconnect();}else{ i++;if(fb.length>i){o.observe(fb[i])}} }) }); if (fb.length) { o.observe(fb[i]) } } }) </script>
+	<noscript>
+		<link data-minify="1" rel="stylesheet" href="https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/wp-views/vendor/toolset/blocks/public/css/style.css?ver=1792524669">
+	</noscript><script type="rocketlazyloadscript" data-rocket-type='application/javascript' id='pys-config-warning-script'>console.warn('PixelYourSite: no pixel configured.');</script>
+<!-- TrustBox script -->
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/bootstrap/v5/tp.widget.bootstrap.min.js?ver=1792524669" async></script>
+<!-- End TrustBox script -->
+
+<!-- MailerLite Universal -->
+<script type="rocketlazyloadscript">
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+var ml_account = ml('accounts', '3343702', 'r5b7n4k2n8', 'load');
+</script>
+<!-- End MailerLite Universal -->
+
+
+<style id="wp-custom-css">
+/** nav .menu li.menu-item-5793 ul {overflow:scroll; max-height: 600px;} 
+
+#header-searchnav {width: 55% !important;}
+
+**/
+
+nav .menu li li a, nav .menu li li li a {padding: 5px 16px !important;}
+
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item>a.mega-menu-link {font-size:12px; font-weight:100; text-transform:none;}
+
+#mega-menu-wrap-primaryD #mega-menu-primary a.mega-menu-link {margin-top: -50px;}
+
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item:last-child>a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item:first-child>a.mega-menu-link {margin-top:0px;}
+
+nav .menu li li li span.mega-indicator {margin: 0 !important;}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link {font-size: 12px !important;}
+
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {    padding: 5px 6px !important; width: auto !important;}
+
+#sidebar .ssba img {
+    width: 34px !important;
+}
+
+.gr-review-body .code-block.code-block-11 {
+    display: none;
+}
+
+.gform_wrapper .top_label .gfield_label {
+   min-height: 40px;
+	font-size: 16px;	
+} 
+
+.gform_wrapper .gform_body .gform_fields .gfield .gfield_label .gfield_required {
+    color: #790000!important; 
+}
+
+/* New homepage, 2019-10-07 */
+.fl-builder-content .resources-for-caregivers a.fl-button,
+.fl-builder-content .resources-for-caregivers a.fl-button:visited {
+	min-height: 6em;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.resources-for-caregivers .fl-button span {
+	display: block;
+	line-height: 1.2;
+	margin-top: 0.5em;
+}
+
+.max-1300 {max-width: 1400px;}
+.max-1400 {max-width: 1300px;}
+.max-1200 {max-width: 1200px;}
+.max-1100 {max-width: 1100px;}
+.max-1000 {max-width: 1000px;}
+.max-900 {max-width: 900px;}
+.max-800 {max-width: 800px;}
+.max-700 {max-width: 700px;}
+.max-600 {max-width: 600px;}
+.max-500 {max-width: 500px;}
+.max-400 {max-width: 400px;}
+.max-300 {max-width: 300px;}
+.max-250 {max-width: 250px;}
+.max-200 {max-width: 200px;}
+
+.centered {
+    margin: 0 auto;
+}
+
+.resources-buttons i {
+    color: #6699ff!important;
+}
+/* GravityForms, 2021-08-26 */
+.gform_wrapper ul li.gfield {
+        margin-top: 0px !important;
+        padding-top: 0;
+    }
+.block-content ul li {
+          margin-bottom: 0 !important;
+          margin-top: 0 !important;
+        }
+    .gform_body ul li .ginput_container select,.gform_body ul li .ginput_container input{
+            margin-bottom: 0px;
+    }
+
+/* Senior Living - AP4M Lead Form #11 */
+#ap4m-form-row  #gform_wrapper_11 .gfield_label {
+	margin-bottom: 0px;
+	min-height: 30px;
+}
+#ap4m-form-row > div > div.fl-row-content.fl-row-fixed-width.fl-node-content > div > div.fl-col.fl-node-60c8a5785fdcf.fl-col-small > div > div.fl-module.fl-module-rich-text.fl-node-60e781cf7eabf > div > div > p {
+	line-height: 1.3em !important;
+}
+
+/* Home Care - Senior Caregivers Form #14 */
+#zip-form-id .gfield_label {
+	color: #ffffff!important;
+	font-size: 18px!important;
+	min-height: 30px!important;
+}
+#zip-form-id .gfield_required .gfield_required_text {
+	color: #ffffff!important;
+}
+#zip-form-id .large {
+	padding: 12px!important;
+}
+#zip-form-id #gform_fields_14 #field_submit .gform-button {
+	text-transform: uppercase;
+	font-weight:100;
+}
+#zip-form-id .ginput_counter{
+	display: none!important;
+}
+
+#zip-form-id .gfield_validation_message{
+	display: none!important;
+}
+
+.menu ul.sub-menu {width:270px!important; font-size:13px!important;}
+
+ 
+
+/* Mobile Table Adjustments */
+@media (max-width: 600px) {
+    .wptb-table-container {
+        margin-top: -40px !important;
+			margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 932px) {
+#mega-menu-wrap-primary .mega-menu-toggle {display:none;}
+	
+	#mega-menu-wrap-primary .mega-menu-toggle+#mega-menu-primary {display:block;}
+	
+	#header-searchnav {margin: -100px 50px 0 0;}
+}
+
+@media only screen and (min-width: 769px) {
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row > ul.mega-sub-menu > li.mega-menu-columns-3-of-12 {
+    max-width: 24% !important;
+    width: 219px !important;
+}
+}
+
+@media only screen and (min-width: 997px) and (max-width: 1300px) {
+
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item>a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link {font-size:11px; padding: 0 5px;}
+
+#nav-signin {padding: 15px 10px 0 0; font-size: 11px !important;}
+
+#mega-menu-wrap-primary #mega-menu-primary a.mega-menu-link {margin-top:0px;}
+
+#search-toggle {font-size: 12px; margin: 0 0 0 10px;}
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1299px) {
+
+
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item>a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link {font-size:14px; padding: 0 5px;}
+
+#search-toggle {font-size: 14px; margin: 0 0 0 10px;}
+
+#mega-menu-wrap-primary #mega-menu-primary a.mega-menu-link {margin-top: -48px;}
+
+
+}
+
+
+@media only screen and (min-width: 997px) and (max-width: 1154px) {
+#fixed-header nav.main-navigation {margin-top:-30px; padding:0 !important;}
+}
+
+@media only screen and (min-width: 1155px) and (max-width: 1200px) {
+#fixed-header nav.main-navigation {margin-top:37px; padding:0 !important;}
+}
+
+@media only screen and (min-width: 997px) and (max-width: 1293px) {
+#header-searchnav {width:63%;}
+}
+
+
+/* =============================================
+   Branded Caregiver Table
+   Target: figure.branded-caregiver-table > table
+   ============================================= */
+
+/* Wrapper */
+.branded-caregiver-table {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 16px;
+    border: 1px solid #e8eaf0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    margin: 20px 0px!important;
+}
+
+.branded-caregiver-table thead {
+	border-bottom: none!important;
+}
+
+/* Table reset */
+.branded-caregiver-table table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+/* Header row */
+.branded-caregiver-table table thead tr {
+    background: #ECEEF4;
+    border-bottom: none !important;
+}
+
+.branded-caregiver-table table thead th {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2a499d;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.branded-caregiver-table table thead th:first-child {
+    padding-left: 20px;
+}
+
+/* Body rows */
+.branded-caregiver-table table tbody tr {
+    border-bottom: 1px solid #f0f2f7;
+    transition: background 0.15s ease;
+}
+
+.branded-caregiver-table table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.branded-caregiver-table table tbody tr:hover {
+    background: #f8f9fc;
+}
+
+/* All cells */
+.branded-caregiver-table table tbody td {
+    padding: 14px 16px;
+    vertical-align: middle;
+    color: #4b5563;
+    font-size: 13px;
+    line-height: 1.5;
+    border: none !important;
+}
+
+.branded-caregiver-table table tbody td:first-child {
+    padding-left: 20px;
+    font-weight: 600;
+    color: #1a1a2e;
+    font-size: 14px;
+}
+
+/* First row: Caring Village — highlighted */
+.branded-caregiver-table table tbody tr:first-child {
+    background: #f8f9fc;
+    box-shadow: inset 3px 0 0 #2a499d;
+}
+
+.branded-caregiver-table table tbody tr:first-child td:first-child {
+    color: #2a499d;
+}
+
+/* Star icon before Caring Village */
+.branded-caregiver-table table tbody tr:first-child td:first-child::before {
+    content: '★';
+    color: #1db47d;
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+
+
+.caring-simple-table {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 16px;
+    border: 1px solid #e8eaf0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    margin: 0 !important;
+}
+ 
+.caring-simple-table table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+}
+ 
+.caring-simple-table table thead tr {
+    background: #ECEEF4;
+    border-bottom: none !important;
+}
+ 
+.caring-simple-table table thead th {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2a499d;
+    white-space: nowrap;
+    border: none !important;
+    box-shadow: none !important;
+}
+ 
+.caring-simple-table table thead th:first-child {
+    padding-left: 20px;
+}
+ 
+.caring-simple-table table tbody tr {
+    border-bottom: 1px solid #f0f2f7;
+    transition: background 0.15s ease;
+}
+ 
+.caring-simple-table table tbody tr:last-child {
+    border-bottom: none;
+}
+ 
+.caring-simple-table table tbody tr:hover {
+    background: #f8f9fc;
+}
+ 
+.caring-simple-table table tbody td {
+    padding: 14px 16px;
+    vertical-align: middle;
+    color: #4b5563;
+    font-size: 13px;
+    line-height: 1.5;
+    border: none !important;
+}
+ 
+.caring-simple-table table tbody td:first-child {
+    padding-left: 20px;
+    font-weight: 600;
+    color: #1a1a2e;
+    font-size: 14px;
+}
+
+.caring-simple-table thead {
+	border-bottom:none!important;
+}
+
+.blog-post-content-up ul,
+.blog-post-content-up ol {
+	margin: 20px;
+}
+
+.source-of-truth-box {
+	padding: 20px;
+	border-left: 3px solid #2A499D;
+}
+</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><link data-minify="1" rel="stylesheet" href="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/1200-style.css?ver=1792524669" type="text/css" media="only screen and (max-width: 1200px), only screen and (max-device-width: 1200px)" />
+<link data-minify="1" rel="stylesheet" href="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/996-style.css?ver=1792524669" type="text/css" media="only screen and (max-width: 996px), only screen and (max-device-width: 996px)" />
+<link data-minify="1" rel="stylesheet" href="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/768-style.css?ver=1792524669" type="text/css" media="only screen and (max-width: 768px), only screen and (max-device-width: 768px)" />
+<link data-minify="1" rel="stylesheet" href="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/640-style.css?ver=1792524669" type="text/css" media="only screen and (max-width: 640px), only screen and (max-device-width: 640px)" />
+<link data-minify="1" rel="stylesheet" href="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/320-style.css?ver=1792524669" type="text/css" media="only screen and (max-width: 320px), only screen and (max-device-width: 320px)" />
+
+<!-- Google Tag Manager -->
+<script type="rocketlazyloadscript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHV4HK3');
+</script>
+<!-- End Google Tag Manager -->
+
+<link rel='stylesheet' id='fl-builder-wp-editor-css' href='https://caringvillage.com/wp-content/plugins/bb-plugin/css/build/wp-editor.bundle.min.css?ver=2.11.1.1' media='all' />
+
+<script data-km-cv-posthog="1">
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog&&window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+
+(function () {
+  if (window.__KM_CV_POSTHOG_LOADED__) return;
+  window.__KM_CV_POSTHOG_LOADED__ = true;
+
+  function safeUrl(value) {
+    if (!value) return value;
+    try {
+      var input = new URL(String(value), window.location.origin);
+      var allowed = new URLSearchParams();
+      ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach(function (key) {
+        var candidate = input.searchParams.get(key);
+        if (candidate) allowed.set(key, candidate.slice(0, 160));
+      });
+      input.search = allowed.toString();
+      input.hash = '';
+      return input.toString();
+    } catch (error) {
+      return String(value).split('?')[0].split('#')[0];
+    }
+  }
+
+  posthog.init('phc_njNNsAZU8YSdNBcdgpnQV7NzdeELvgxX7yRuaV5kW2ky', {
+    api_host: 'https://us.i.posthog.com',
+    defaults: '2026-05-30',
+    autocapture: false,
+    capture_pageview: true,
+    capture_pageleave: true,
+    capture_dead_clicks: false,
+    capture_heatmaps: false,
+    capture_performance: true,
+    cookieless_mode: 'always',
+    person_profiles: 'never',
+    disable_session_recording: true,
+    disable_surveys: true,
+    respect_dnt: true,
+    before_send: function (event) {
+      if (!event || !event.properties) return event;
+      ['$current_url', '$referrer', '$initial_current_url', '$initial_referrer'].forEach(function (key) {
+        if (event.properties[key]) event.properties[key] = safeUrl(event.properties[key]);
+      });
+      delete event.properties.$elements;
+      delete event.properties.$elements_chain;
+      return event;
+    }
+  });
+
+  function safeLabel(element) {
+    var value = String(
+      element.getAttribute('aria-label') ||
+      element.getAttribute('title') ||
+      element.textContent ||
+      ''
+    ).replace(/\s+/g, ' ').trim().slice(0, 100);
+    return value
+      .replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi, '[redacted]')
+      .replace(/(?:\+?\d[\d\s().-]{7,}\d)/g, '[redacted]');
+  }
+
+  function elementLocation(element) {
+    if (element.closest('#cmpbar')) return 'sticky_bar';
+    if (element.closest('.cv-end-cta')) return 'end_cta';
+    if (element.closest('.toc__cta, .cvrail')) return 'sidebar';
+    if (element.matches('.cvpm__btn')) return 'product_module';
+    if (element.matches('[class*="-cta__btn"]')) return 'inline_cta';
+    var landmark = element.closest('header, nav, main, article, aside, footer');
+    return landmark ? landmark.tagName.toLowerCase() : 'page';
+  }
+
+  function classify(element) {
+    var rawHref = element.getAttribute('href') || element.getAttribute('data-href') || '';
+    var label = safeLabel(element).toLowerCase();
+    var url = null;
+
+    try {
+      url = rawHref ? new URL(rawHref, window.location.href) : null;
+    } catch (error) {}
+
+    var protocol = url ? url.protocol : '';
+    var host = url ? url.hostname.replace(/^www\./, '').toLowerCase() : '';
+    var path = url ? url.pathname : '';
+    var kind = '';
+
+    var productCta = element.matches('.cvpm__btn, .cmpbar__cta, .cv-end-cta__button, [class*="-cta__btn"]') ||
+      element.closest('.toc__cta, .cvrail');
+
+    if (host === 'caringvillage.com' && /^\/app\/?$/.test(path) && productCta) {
+      kind = 'product';
+    } else if (
+      (host === 'my.caringvillage.com' && /^\/(?:Account\/SignUp|React\/sign-up)\/?$/i.test(path)) ||
+      (!rawHref && /\b(sign up|get started|start free|create (?:a |an |free )?account)\b/i.test(label))
+    ) {
+      kind = 'signup';
+    } else if (host === 'apps.apple.com' || host === 'play.google.com') {
+      kind = 'app_download';
+    } else if (
+      (host === 'caringvillage.com' && /^\/contact(?:\/|$)/.test(path)) ||
+      /\b(contact|get in touch|talk to us|request information)\b/i.test(label)
+    ) {
+      kind = 'contact';
+    } else if (protocol === 'tel:') {
+      kind = 'phone';
+    } else if (protocol === 'mailto:') {
+      kind = 'email';
+    }
+
+    if (!kind) return null;
+
+    return {
+      cta_kind: kind,
+      cta_label: safeLabel(element),
+      cta_location: elementLocation(element),
+      destination_host: host,
+      destination_path: /^(?:mailto|tel):$/.test(protocol) ? '' : path,
+      source_path: window.location.pathname,
+      source_title: document.title.slice(0, 180)
+    };
+  }
+
+  document.addEventListener('click', function (event) {
+    var element = event.target && event.target.closest ? event.target.closest('a[href], button, [role="button"]') : null;
+    if (!element) return;
+    var properties = classify(element);
+    if (properties) posthog.capture('cv_cta_click', properties);
+  }, true);
+
+  document.addEventListener('submit', function (event) {
+    var form = event.target;
+    if (!form || !form.matches) return;
+    if (form.matches('#gform_19, form[id="gform_19"], form[action*="/contact"]')) {
+      posthog.capture('cv_contact_form_submit_attempt', {
+        form_id: form.id || 'contact',
+        source_path: window.location.pathname,
+        source_title: document.title.slice(0, 180)
+      });
+    }
+  }, true);
+})();
+</script>
+</head>
+
+<body data-rsssl=1 class="wp-singular page-template page-template-page-blank page-template-page-blank-php page page-id-14294 wp-theme-caringvillage fl-builder fl-builder-2-11-1-1 fl-themer-1-6-1 fl-no-js rltdpstsplgn_www.caringvillage.com">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHV4HK3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="page" class="hfeed site"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" id="print-logo" data-lazy-src="https://caringvillage.com/wp-content/themes/caringvillage/images/cv_logo.png" alt=""><noscript><img src="https://caringvillage.com/wp-content/themes/caringvillage/images/cv_logo.png" id="print-logo" alt=""></noscript>
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<style>
+		/* ── New header base ── */
+		.new-header {
+			font-family: 'Teachers', sans-serif;
+			position: sticky;
+    		top: 0;
+   			z-index: 1000;
+    		background-color: #ffffff;
+    		box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.06);
+		}
+
+		.new-header-wrapper {
+			display: flex;
+			flex-direction: column;
+			gap: 0;
+			padding: 0 24px;
+		}
+
+		/* ── Desktop bar ── */
+		.new-header-bar {
+			display: none;
+			width: 100%;
+			align-items: center;
+			justify-content: space-between;
+			gap: 32px;
+			padding: 12px 0;
+		}
+		@media (min-width: 834px) {
+			.new-header-bar { display: flex; }
+		}
+
+		/* ── Logo ── */
+		.new-header-logo-container {
+			display: flex;
+			align-items: center;
+			width: auto;
+			flex-shrink: 0;
+		}
+
+		.new-header-logo {
+			height: 26px;
+			width: auto;
+			flex-shrink: 0;
+		}
+		@media (min-width: 834px) {
+			.new-header-logo { height: 28px; }
+		}
+		@media (min-width: 1440px) {
+			.new-header-logo { height: 33px; }
+		}
+
+		/* ── Nav menu ── */
+		.header-menu {
+			flex: 1 1 auto;
+			display: flex;
+			justify-content: center;
+		}
+		.header-menu .menu-new_header-container ul,
+		.header-menu .menu-new-header-container ul {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			column-gap: 32px;
+			row-gap: 4px;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 100%;
+			color: #232323;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		@media (min-width: 1440px) {
+			.header-menu .menu-new_header-container ul,
+			.header-menu .menu-new-header-container ul {
+				column-gap: 48px;
+			}
+		}
+		.header-menu .menu-new_header-container ul li,
+		.header-menu .menu-new-header-container ul li {
+			padding: 12px 0;
+		}
+		.header-menu .menu-new_header-container ul li a,
+		.header-menu .menu-new-header-container ul li a {
+			white-space: nowrap;
+			color: #67777E;
+			text-decoration: none;
+			font-weight: 500;
+			font-size: 16px;
+		}
+		.header-menu .menu-new_header-container ul li a:hover,
+		.header-menu .menu-new-header-container ul li a:hover {
+			color: #2b363b;
+		}
+		.header-menu .menu-new_header-container ul li.current-menu-item > a,
+		.header-menu .menu-new_header-container ul li.current_page_item > a,
+		.header-menu .menu-new_header-container ul li.current-menu-ancestor > a,
+		.header-menu .menu-new_header-container ul li.current_page_parent > a,
+		.header-menu .menu-new-header-container ul li.current-menu-item > a,
+		.header-menu .menu-new-header-container ul li.current_page_item > a,
+		.header-menu .menu-new-header-container ul li.current-menu-ancestor > a,
+		.header-menu .menu-new-header-container ul li.current_page_parent > a,
+		body.blog .header-menu .menu-new_header-container ul li a[href$="/blog/"],
+		body.category .header-menu .menu-new_header-container ul li a[href$="/blog/"],
+		body.single-post .header-menu .menu-new_header-container ul li a[href$="/blog/"],
+		body.blog .header-menu .menu-new-header-container ul li a[href$="/blog/"],
+		body.category .header-menu .menu-new-header-container ul li a[href$="/blog/"],
+		body.single-post .header-menu .menu-new-header-container ul li a[href$="/blog/"] {
+			color: #17a56f;
+		}
+
+		/* ── Actions ── */
+		.new-header-actions {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			flex-shrink: 0;
+		}
+
+		/* ── Sign In — outlined ── */
+		.button--signin {
+			height: 40px;
+			width: auto;
+			padding: 0 20px;
+			background: transparent;
+			border: 1.5px solid #d0d0d8;
+			border-radius: 8px;
+			color: #232323;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			transition: border-color 0.2s ease, background 0.2s ease;
+			text-decoration: none;
+			font-family: 'Teachers', sans-serif;
+			font-size: 15px;
+			font-weight: 600;
+			white-space: nowrap;
+			line-height: 1;
+		}
+		.button--signin:hover {
+			border-color: #2E4DA1;
+			background: #EEF0F6;
+			color: #2E4DA1;
+		}
+		.button--signin span {
+			font-family: 'Teachers', sans-serif;
+			font-size: 15px;
+			font-weight: 600;
+			color: inherit;
+			white-space: nowrap;
+			line-height: 1;
+		}
+
+		/* ── Sign Up — green filled ── */
+		.button--signup {
+			height: 40px;
+			width: auto;
+			padding: 0 20px;
+			background: linear-gradient(90deg, #1db67f, #17a56f);
+			border: none;
+			border-radius: 8px;
+			color: #fff;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			transition: opacity 0.2s ease;
+			text-decoration: none;
+			font-family: 'Teachers', sans-serif;
+			font-size: 15px;
+			font-weight: 600;
+			white-space: nowrap;
+			line-height: 1;
+		}
+		.button--signup:hover {
+			opacity: 0.88;
+			color: #fff;
+		}
+		.button--signup span {
+			font-family: 'Teachers', sans-serif;
+			font-size: 15px;
+			font-weight: 600;
+			color: #fff;
+			white-space: nowrap;
+			line-height: 1;
+		}
+
+		/* ── Mobile top bar ── */
+		.new-header-container-mobile {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 32px;
+			padding: 12px 0;
+		}
+		@media (min-width: 834px) {
+			.new-header-container-mobile { display: none; }
+		}
+
+		/* ── Mobile menu overlay ── */
+		.mobile-menu-custom {
+			position: fixed;
+			inset: 0;
+			z-index: 9999;
+			visibility: hidden;
+			transform: translateX(-100%);
+			transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+		}
+		@media (min-width: 834px) {
+			.mobile-menu-custom { display: none; }
+		}
+		.mobile-menu-custom.active {
+			visibility: visible;
+			transform: translateX(0);
+		}
+		.mobile-menu-custom-content {
+			display: flex;
+			height: 100%;
+			width: 100%;
+			flex-direction: column;
+			gap: 40px;
+			background-color: #fff;
+			padding: 34px 20px;
+			overflow-y: auto;
+		}
+		.mobile-menu-custom-header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.mobile-menu-custom-logo {
+			height: 26px;
+			width: auto;
+		}
+		.mobile-menu-custom-close {
+			height: 44px;
+			width: 44px;
+			border: none;
+			background: none;
+			cursor: pointer;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.mobile-menu-custom nav ul {
+			width: 100%;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.mobile-menu-custom nav ul li {
+			border-top: 1px solid #DFDFDF;
+		}
+		.mobile-menu-custom nav ul li:first-child {
+			border-top: none;
+		}
+		.mobile-menu-custom nav ul li a {
+			display: block;
+			padding: 21px 0;
+			font-family: 'Teachers', sans-serif;
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 100%;
+			color: #232323;
+			text-decoration: none;
+		}
+		.mobile-menu-custom-apps {
+			margin-top: auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 16px;
+		}
+		.mobile-menu-custom-apps button {
+			height: 62px;
+			width: auto;
+			border: none;
+			background: none;
+			cursor: pointer;
+			padding: 0;
+		}
+		.mobile-menu-custom-apps button img {
+			height: 100%;
+			width: auto;
+		}
+		.mobile-menu-toggle {
+			height: 40px;
+			width: 40px;
+			border: none;
+			background: none;
+			cursor: pointer;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.mobile-menu-toggle img {
+			width: 100%;
+			height: 100%;
+		}
+		.mobile-menu-buttons {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+		}
+		.mobile-menu-buttons .button--signin,
+		.mobile-menu-buttons .button--signup {
+			width: 100%;
+			height: 48px;
+			justify-content: center;
+		}
+		.mobile-menu-buttons .button--signin span,
+		.mobile-menu-buttons .button--signup span {
+			font-size: 16px;
+		}
+		
+		/* ── Mobile menu nav list fix ── */
+.mobile-menu-custom nav > div > ul,
+.mobile-menu-custom nav > ul {
+  width: 100% !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.mobile-menu-custom nav > div > ul li,
+.mobile-menu-custom nav > ul li {
+  border-top: 1px solid #DFDFDF !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+.mobile-menu-custom nav > div > ul li:first-child,
+.mobile-menu-custom nav > ul li:first-child {
+  border-top: none !important;
+}
+
+.mobile-menu-custom nav > div > ul li a,
+.mobile-menu-custom nav > ul li a {
+  display: block !important;
+  padding: 21px 0 !important;
+  font-family: 'Teachers', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 100% !important;
+  color: #232323 !important;
+  text-decoration: none !important;
+  white-space: normal !important;
+}
+.mobile-menu-custom nav > div > ul li.current-menu-item > a,
+.mobile-menu-custom nav > div > ul li.current_page_item > a,
+.mobile-menu-custom nav > div > ul li.current-menu-ancestor > a,
+.mobile-menu-custom nav > div > ul li.current_page_parent > a,
+.mobile-menu-custom nav > ul li.current-menu-item > a,
+.mobile-menu-custom nav > ul li.current_page_item > a,
+.mobile-menu-custom nav > ul li.current-menu-ancestor > a,
+.mobile-menu-custom nav > ul li.current_page_parent > a,
+body.blog .mobile-menu-custom nav a[href$="/blog/"],
+body.category .mobile-menu-custom nav a[href$="/blog/"],
+body.single-post .mobile-menu-custom nav a[href$="/blog/"] {
+  color: #17a56f !important;
+}
+
+		/* ── Global floating header treatment ── */
+		html {
+			scroll-padding-top: 112px;
+		}
+		[id] {
+			scroll-margin-top: 112px;
+		}
+		.blog-sidebar-sticky {
+			top: 132px !important;
+		}
+		.new-header {
+			position: sticky;
+			top: 16px;
+			z-index: 9000;
+			margin: 16px 32px 0;
+			background: transparent;
+			box-shadow: none;
+		}
+		.new-header,
+		.new-header * {
+			box-sizing: border-box;
+		}
+		.admin-bar .new-header {
+			top: 48px;
+		}
+		.new-header-wrapper {
+			padding: 16px 20px;
+			border-radius: 20px;
+			background: #fff;
+			box-shadow: 0 4px 15px 0 rgba(133, 139, 152, 0.1);
+		}
+		.new-header-bar {
+			min-height: 48px;
+			padding: 0;
+		}
+		.new-header-logo {
+			height: 28px;
+		}
+		.header-menu .menu-new_header-container ul,
+		.header-menu .menu-new-header-container ul {
+			column-gap: 40px;
+		}
+		.header-menu .menu-new_header-container ul li a,
+		.header-menu .menu-new-header-container ul li a {
+			color: #232323;
+			font-family: 'Teachers', sans-serif;
+			font-size: 16px;
+			font-weight: 600;
+		}
+		.header-menu .menu-new_header-container ul li.current-menu-item > a,
+		.header-menu .menu-new_header-container ul li.current_page_item > a,
+		.header-menu .menu-new_header-container ul li.current-menu-ancestor > a,
+		.header-menu .menu-new_header-container ul li.current_page_parent > a,
+		.header-menu .menu-new-header-container ul li.current-menu-item > a,
+		.header-menu .menu-new-header-container ul li.current_page_item > a,
+		.header-menu .menu-new-header-container ul li.current-menu-ancestor > a,
+		.header-menu .menu-new-header-container ul li.current_page_parent > a,
+		body.blog .header-menu .menu-new_header-container ul li a[href$="/blog/"],
+		body.category .header-menu .menu-new_header-container ul li a[href$="/blog/"],
+		body.single-post .header-menu .menu-new_header-container ul li a[href$="/blog/"],
+		body.blog .header-menu .menu-new-header-container ul li a[href$="/blog/"],
+		body.category .header-menu .menu-new-header-container ul li a[href$="/blog/"],
+		body.single-post .header-menu .menu-new-header-container ul li a[href$="/blog/"] {
+			color: #17a56f;
+		}
+		.button--signin,
+		.button--signup {
+			height: 48px;
+			border: 0;
+			border-radius: 999px;
+			padding: 0 16px;
+			box-shadow: inset 0 -2px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(7, 45, 149, 0.12);
+			color: #fff;
+		}
+		.button--signin,
+		.button--signin:hover {
+			background: linear-gradient(90deg, #1db67f, #17a56f);
+			color: #fff;
+		}
+		.button--signup,
+		.button--signup:hover {
+			background: linear-gradient(90deg, #2d4ca0, #072d95);
+			color: #fff;
+		}
+		.button--signin span,
+		.button--signup span {
+			color: #fff;
+			font-size: 16px;
+		}
+		@media (min-width: 1440px) {
+			.new-header {
+				top: 32px;
+				margin: 32px 60px 0;
+			}
+			.admin-bar .new-header {
+				top: 64px;
+			}
+			.new-header-logo {
+				height: 33px;
+			}
+			.header-menu .menu-new_header-container ul,
+			.header-menu .menu-new-header-container ul {
+				column-gap: 48px;
+			}
+		}
+		@media (max-width: 833px) {
+			html {
+				scroll-padding-top: 92px;
+			}
+			[id] {
+				scroll-margin-top: 92px;
+			}
+			.new-header {
+				top: 8px;
+				margin: 8px 12px 0;
+				width: calc(100vw - 24px);
+				max-width: calc(100vw - 24px);
+			}
+			.admin-bar .new-header {
+				top: 54px;
+			}
+			.new-header-wrapper {
+				min-height: 64px;
+				border-radius: 16px;
+				padding: 0 16px;
+				width: 100%;
+			}
+			.new-header-container-mobile {
+				width: 100%;
+				max-width: 100%;
+				padding: 12px 0;
+				gap: 16px;
+				justify-content: space-between !important;
+			}
+			.new-header .new-header-logo-container {
+				flex: 0 1 auto;
+				max-width: calc(100% - 56px);
+				min-width: 0;
+				width: auto !important;
+			}
+			.new-header .new-header-logo {
+				display: block;
+				max-width: min(220px, 100%);
+			}
+			.new-header .mobile-menu-toggle {
+				display: flex !important;
+				align-items: center !important;
+				justify-content: center !important;
+				position: fixed !important;
+				top: 20px;
+				right: 28px;
+				z-index: 9001;
+				width: 40px !important;
+				min-width: 40px !important;
+				flex: 0 0 40px !important;
+				height: 40px !important;
+				margin-left: auto;
+				padding: 0 !important;
+				border: 0 !important;
+				border-bottom: 0 !important;
+				border-radius: 999px;
+				background-color: #f7f8fb !important;
+				background-image: none !important;
+			}
+			.admin-bar .new-header .mobile-menu-toggle {
+				top: 66px;
+			}
+			.new-header .mobile-menu-toggle img {
+				display: none !important;
+			}
+			.new-header .mobile-menu-toggle::before {
+				content: "";
+				display: block;
+				width: 22px;
+				height: 2px;
+				border-radius: 999px;
+				background: #232323;
+				box-shadow: 0 -7px 0 #232323, 0 7px 0 #232323;
+			}
+		}
+	</style>
+
+	<header class="new-header" role="banner">
+		<div class="new-header-wrapper">
+
+			<!-- Mobile top bar -->
+			<div class="new-header-container-mobile">
+				<a class="new-header-logo-container" href="https://caringvillage.com">
+					<img class="new-header-logo" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Caring Village" data-lazy-src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg" /><noscript><img class="new-header-logo" src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg" alt="Caring Village" /></noscript>
+				</a>
+				<button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+					<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Menu" data-lazy-src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M22.5444%2025.9995C21.9921%2025.9995%2021.5444%2026.4472%2021.5444%2026.9995C21.5444%2027.5518%2021.9921%2027.9995%2022.5444%2027.9995H33.5444C34.0967%2027.9995%2034.5444%2027.5518%2034.5444%2026.9995C34.5444%2026.4472%2034.0967%2025.9995%2033.5444%2025.9995H22.5444ZM15.5444%2017.9995C14.9921%2017.9995%2014.5444%2018.4472%2014.5444%2018.9995C14.5444%2019.5518%2014.9921%2019.9995%2015.5444%2019.9995H33.5444C34.0967%2019.9995%2034.5444%2019.5518%2034.5444%2018.9995C34.5444%2018.4472%2034.0967%2017.9995%2033.5444%2017.9995H15.5444ZM10.5444%2010.0933C9.99215%2010.0933%209.54443%2010.541%209.54443%2011.0933C9.54443%2011.6455%209.99215%2012.0933%2010.5444%2012.0933H33.5444C34.0967%2012.0933%2034.5444%2011.6455%2034.5444%2011.0933C34.5444%2010.541%2034.0967%2010.0933%2033.5444%2010.0933H10.5444Z'%20fill='%23232323'/%3e%3c/svg%3e" /><noscript><img src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M22.5444%2025.9995C21.9921%2025.9995%2021.5444%2026.4472%2021.5444%2026.9995C21.5444%2027.5518%2021.9921%2027.9995%2022.5444%2027.9995H33.5444C34.0967%2027.9995%2034.5444%2027.5518%2034.5444%2026.9995C34.5444%2026.4472%2034.0967%2025.9995%2033.5444%2025.9995H22.5444ZM15.5444%2017.9995C14.9921%2017.9995%2014.5444%2018.4472%2014.5444%2018.9995C14.5444%2019.5518%2014.9921%2019.9995%2015.5444%2019.9995H33.5444C34.0967%2019.9995%2034.5444%2019.5518%2034.5444%2018.9995C34.5444%2018.4472%2034.0967%2017.9995%2033.5444%2017.9995H15.5444ZM10.5444%2010.0933C9.99215%2010.0933%209.54443%2010.541%209.54443%2011.0933C9.54443%2011.6455%209.99215%2012.0933%2010.5444%2012.0933H33.5444C34.0967%2012.0933%2034.5444%2011.6455%2034.5444%2011.0933C34.5444%2010.541%2034.0967%2010.0933%2033.5444%2010.0933H10.5444Z'%20fill='%23232323'/%3e%3c/svg%3e" alt="Menu" /></noscript>
+				</button>
+			</div>
+
+			<!-- Desktop bar -->
+			<div class="new-header-bar">
+				<a class="new-header-logo-container" href="https://caringvillage.com">
+					<img class="new-header-logo" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Caring Village" data-lazy-src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg" /><noscript><img class="new-header-logo" src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg" alt="Caring Village" /></noscript>
+				</a>
+
+				<div class="header-menu">
+					<div class="menu-new-header-container"><ul id="new_header" class="menu"><li id="menu-item-14379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14379"><a href="https://caringvillage.com/app/">The App</a></li>
+<li id="menu-item-14381" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14294 current_page_item menu-item-14381"><a href="https://caringvillage.com/pricing/" aria-current="page">Pricing</a></li>
+<li id="menu-item-14383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14383"><a href="https://caringvillage.com/wall-of-love/">Wall of Love</a></li>
+<li id="menu-item-14380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14380"><a href="https://caringvillage.com/blog/">Blog</a></li>
+<li id="menu-item-14382" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14382"><a href="https://caringvillage.com/about/">About</a></li>
+<li id="menu-item-16747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16747"><a href="https://caringvillage.com/for-professionals/">For Professionals</a></li>
+</ul></div>				</div>
+
+				<div class="new-header-actions">
+											<a class="button--signin" href="https://my.caringvillage.com/Account/SignIn">
+							<span>Sign In</span>
+						</a>
+																<a class="button--signup" href="https://my.caringvillage.com/Account/SignUp">
+							<span>Sign Up</span>
+						</a>
+									</div>
+			</div>
+
+		</div>
+	</header>
+
+	<!-- Mobile menu overlay -->
+	<div class="mobile-menu-custom" id="mobile-menu">
+		<div class="mobile-menu-custom-content">
+
+			<div class="mobile-menu-custom-header">
+				<a href="https://caringvillage.com">
+					<img class="mobile-menu-custom-logo" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Caring Village" data-lazy-src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg" /><noscript><img class="mobile-menu-custom-logo" src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-B-IiiLzm.svg" alt="Caring Village" /></noscript>
+				</a>
+				<button class="mobile-menu-custom-close" id="mobile-menu-close" aria-label="Close menu">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M6 6L18 18M18 6L6 18" stroke="#232323" stroke-width="2" stroke-linecap="round"/>
+					</svg>
+				</button>
+			</div>
+
+			<nav>
+				<ul id="new_header_mobile" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14379"><a href="https://caringvillage.com/app/">The App</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14294 current_page_item menu-item-14381"><a href="https://caringvillage.com/pricing/" aria-current="page">Pricing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14383"><a href="https://caringvillage.com/wall-of-love/">Wall of Love</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14380"><a href="https://caringvillage.com/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14382"><a href="https://caringvillage.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16747"><a href="https://caringvillage.com/for-professionals/">For Professionals</a></li>
+</ul>			</nav>
+
+			<div class="mobile-menu-buttons">
+									<a class="button--signin" href="https://my.caringvillage.com/Account/SignIn">
+						<span>Sign In</span>
+					</a>
+													<a class="button--signup" href="https://my.caringvillage.com/Account/SignUp">
+						<span>Sign Up</span>
+					</a>
+							</div>
+
+			<div class="mobile-menu-custom-apps">
+				<button type="button" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.caringvillage.android'">
+					<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Google Play" data-lazy-src="https://caringvillage.com/wp-content/themes/caringvillage/assets/go-btn-google-play-CiiwqIw5.svg" /><noscript><img src="https://caringvillage.com/wp-content/themes/caringvillage/assets/go-btn-google-play-CiiwqIw5.svg" alt="Google Play" /></noscript>
+				</button>
+				<button type="button" onclick="window.location.href='https://apps.apple.com/app/caring-village/id1048614869'">
+					<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="App Store" data-lazy-src="https://caringvillage.com/wp-content/themes/caringvillage/assets/go-btn-app-store-5zOX4we8.svg" /><noscript><img src="https://caringvillage.com/wp-content/themes/caringvillage/assets/go-btn-app-store-5zOX4we8.svg" alt="App Store" /></noscript>
+				</button>
+			</div>
+
+		</div>
+	</div>
+
+	<script type="rocketlazyloadscript">
+	(function() {
+		var toggle = document.getElementById('mobile-menu-toggle');
+		var menu   = document.getElementById('mobile-menu');
+		var close  = document.getElementById('mobile-menu-close');
+
+		function openMenu() {
+			menu.classList.add('active');
+			document.body.style.overflow = 'hidden';
+		}
+		function closeMenu() {
+			menu.classList.remove('active');
+			document.body.style.overflow = '';
+		}
+
+		if (toggle) toggle.addEventListener('click', openMenu);
+		if (close)  close.addEventListener('click', closeMenu);
+		if (menu)   menu.addEventListener('click', function(e) {
+			if (e.target === menu) closeMenu();
+		});
+	})();
+	</script>
+
+	
+	<div id="content" class="site-content">
+
+
+			
+				<div class="fl-builder-content fl-builder-content-14294 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="14294"><div class="fl-row fl-row-full-width fl-row-bg-color fl-node-p6sfu85q72bc fl-row-default-height fl-row-align-center bg-circle" data-node="p6sfu85q72bc">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-o75q10nhjrz6" data-node="o75q10nhjrz6">
+			<div class="fl-col fl-node-oifsr1gzwn6p fl-col-bg-color" data-node="oifsr1gzwn6p">
+	<div class="fl-col-content fl-node-content">		<div  class="fl-module fl-module-html fl-html fl-node-90hp4a8v5gbo" data-node="90hp4a8v5gbo" aria-label="HTML">
+	<div style="display:flex;justify-content:center;">
+  <span class="save-badge">Save 17% with annual billing</span>
+</div>
+
+<style>
+    .save-badge{
+  display:inline-flex;
+  align-items:center;
+  background:#f0f2fa;
+  border:1px solid #d0d8ee;
+  border-radius:999px;
+  padding:8px 10px;
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:14px;
+  font-weight:600;
+  color:#2A499D;
+  transition:box-shadow 0.25s ease;
+}
+
+.save-badge:hover{
+  box-shadow:0 6px 24px rgba(0,0,0,0.09);
+}
+</style></div>
+<h1  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-d5cyn8m4o73r" data-node="d5cyn8m4o73r" aria-label="Heading">
+			Caregiving is hard. <br><span style="color:#2a499d;">Staying organized shouldn't be.</span>	</h1>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-b9jmxpo0uyr7" data-node="b9jmxpo0uyr7" aria-label="Text Editor">
+	<p style="text-align: center;">Subscribe to a Premium plan to bring your family and care into one trusted, secure place. Share responsibilities, stay informed, and move forward together.</p>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-8lw69jcofi7m fl-row-custom-height fl-row-align-center" data-node="8lw69jcofi7m">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-4hjs85n1vdzc" data-node="4hjs85n1vdzc">
+			<div class="fl-col fl-node-i95xpl84d6eq fl-col-bg-color fl-col-has-cols" data-node="i95xpl84d6eq">
+	<div class="fl-col-content fl-node-content">		
+<div class="fl-col-group fl-node-zbhdt1c9qf85 fl-col-group-nested fl-col-group-equal-height fl-col-group-align-center" data-node="zbhdt1c9qf85">
+			<div class="fl-col fl-node-rw9hpcyljndb fl-col-bg-color" data-node="rw9hpcyljndb">
+	<div class="fl-col-content fl-node-content">		<div  class="fl-module fl-module-html fl-html fl-node-85ek21h34xcb" data-node="85ek21h34xcb" aria-label="HTML">
+	<style>
+/* Toggle */
+.pricing-toggle{display:flex;align-items:center;justify-content:center;gap:0;background:#e8e8e8;border-radius:999px;padding:4px;width:fit-content;margin:0 auto 24px}
+.toggle-btn{font-family:'Inter',system-ui,sans-serif;font-size:14px;font-weight:500;color:#2b363b;background:transparent;border:none;border-radius:999px;padding:8px 20px;cursor:pointer;transition:all 0.2s ease;display:flex;align-items:center;gap:6px}
+.toggle-btn.active{background:#fff;box-shadow:0 1px 4px rgba(0,0,0,0.1)}
+.badge{background:#2A499D;color:#fff;font-size:11px;font-weight:600;padding:2px 7px;border-radius:999px}
+.toggle-btn:hover{
+  background-color:transparent !important;
+}
+
+.toggle-btn.active:hover{
+  background-color:#fff !important;
+}
+
+
+
+/* Testimonial */
+.pricing-testimonial{text-align:center;margin-bottom:60px}
+.pricing-testimonial .quote{font-family:'Inter',system-ui,sans-serif;font-size:16px;color:#2b363b;line-height:1.5}
+.pricing-testimonial .author{font-family:'Inter',system-ui,sans-serif;font-size:14px;color:#67777e;margin-top:4px}
+.pricing-stars{color:#f5a623;font-size:18px;margin-bottom:4px}
+.pricing-stars span{font-family:'Inter',system-ui,sans-serif;font-size:16px;color:#2b363b;font-weight:600}
+.pricing-stars small{color:#2b363b;font-weight:400; font-size: 16px;}
+
+/* Grid */
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0 auto 24px;align-items:start}
+
+/* Card */
+.p-card{background:#fff;border:1px solid #e8e8e8;border-radius:16px;padding:28px 24px;position:relative;display:flex;flex-direction:column;gap:0}
+.p-card.popular{border:2px solid #2A499D;padding-top:36px; padding-bottom:40px; margin-top:-10px;}
+
+/* Most popular badge */
+.popular-badge{position:absolute;top:-16px;left:50%;transform:translateX(-50%);background:#2A499D;color:#fff;font-family:'Inter',system-ui,sans-serif;font-size:13px;font-weight:600;padding:6px 18px;border-radius:999px;white-space:nowrap}
+
+/* Card header */
+.p-icon{width:36px;height:36px;border-radius:10px;background:#f0f0f8;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.p-icon svg{width:18px;height:18px}
+.p-plan-name{font-family:'Teachers',sans-serif;font-size:20px;font-weight:700;color:#2b363b;line-height:28px;margin-bottom:6px}
+.p-plan-desc{font-family:'Inter',system-ui,sans-serif;font-size:14px;color:#67777e;line-height:1.5;margin-bottom:20px}
+
+/* Price */
+.p-price{display:flex;align-items:flex-end;gap:4px;margin-bottom:4px}
+.p-price-amount{font-family:'Inter',system-ui,sans-serif;font-size:48px;font-weight:800;color:#2b363b;line-height:1}
+.p-price-suffix{font-family:'Inter',system-ui,sans-serif;font-size:14px;color:#67777e;padding-bottom:6px}
+.p-price-note{font-family:'Inter',system-ui,sans-serif;font-size:12px;color:#67777e;margin-bottom:4px;min-height:16px;}
+.p-price-sub{font-family:'Inter',system-ui,sans-serif;font-size:12px;color:#67777e;margin-bottom:20px}
+.p-price-save{font-family:'Inter',system-ui,sans-serif;font-size:12px;color:#2A499D;font-weight:500}
+
+/* Buttons */
+
+a:visited {
+    color:#2a499d;
+}
+.p-btn{display:block;text-align:center;text-decoration:none;padding:12px;border-radius:12px;font-family:'Inter',system-ui,sans-serif;font-size:14px;font-weight:600;cursor:pointer;border:none;transition:all 0.2s ease;margin-bottom:24px}
+.p-btn-outline{background:rgba(42,73,157,0.1);color:#2A499D}
+.p-btn-outline:hover{background:#2A499D;color:#fff}
+.p-btn-green{background:#1DB47D;color:#fff!important}
+.p-btn-green:hover{background:#33BB8A; color:fff;}
+
+/* Feature list */
+.p-features{display:flex;flex-direction:column;gap:10px}
+.p-feature{display:flex;align-items:flex-start;gap:10px;font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.4}
+.p-feature.enabled{color:#2b363b}
+.p-feature.disabled{color:#b0bec5}
+.p-check{flex-shrink:0;margin-top:1px}
+
+/* Footer note */
+.pricing-footer{text-align:center;font-family:'Inter',system-ui,sans-serif;font-size:13px;color:#67777e;max-width:980px;margin:0 auto}
+.pricing-footer a{color:#2b363b;font-weight:600;text-decoration:none}
+.pricing-footer a:hover{text-decoration:underline}
+
+.p-card:not(.popular){
+  transition:box-shadow 0.25s ease;
+}
+
+.p-card:not(.popular):hover{
+  box-shadow:0 6px 24px rgba(0,0,0,0.09);
+}
+
+/* Responsive */
+@media(max-width:900px){
+  .pricing-grid{grid-template-columns:1fr;max-width:480px}
+  .p-card.popular{padding-top:48px}
+}
+
+@media(max-width:520px){
+  .p-card{padding:22px 18px}
+  .p-card.popular{padding-top:48px;padding-left:18px;padding-right:18px}
+  .p-price-amount{font-size:40px}
+}
+</style>
+
+<!-- Caring Village pricing plan picker: kept in sync with the /app/ four-question quiz. -->
+<style>
+.cvpq-prompt{display:flex;flex-direction:column;align-items:center;gap:9px;margin:0 auto 24px;text-align:center;font-family:Inter,Arial,sans-serif}
+.cvpq-prompt p{margin:0;color:#20293f;font-size:16px;font-weight:700}
+.cvpq-prompt .cvpq-open{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:7px 16px;border:1px solid #dfe6f7;border-radius:999px;background:#eef2fb!important;color:#2a499d!important;font:600 14px/1.2 Inter,Arial,sans-serif;cursor:pointer}
+.cvpq-open:hover,.cvpq-open:focus-visible{border-color:#2a499d;outline:none;box-shadow:0 0 0 3px #dbe5ff}
+.cvpq-open svg{width:18px;height:18px;flex:none}
+.cvpq-open small{font:500 12px/1.2 Inter,Arial,sans-serif;text-decoration:underline;text-underline-offset:2px}
+.cvpq-dialog{width:min(520px,calc(100vw - 28px));max-height:calc(100svh - 28px);padding:0;border:0;border-radius:22px;background:#fff;color:#20293f;box-shadow:0 28px 90px #101b3f45;font-family:Inter,Arial,sans-serif;overflow:auto}
+.cvpq-dialog::backdrop{background:#111c40a8}
+.cvpq-inner{position:relative;padding:32px}
+.cvpq-close{position:absolute;top:16px;right:16px;width:32px;height:32px;border:0;border-radius:50%;background:#f0f2f7;color:#20293f;font-size:25px;line-height:1;cursor:pointer}
+.cvpq-progress{display:flex;gap:6px;margin:0 40px 25px 0}.cvpq-progress i{height:5px;flex:1;border-radius:9px;background:#e5e9f2}.cvpq-progress i.on{background:#2a499d}
+.cvpq-step[hidden],.cvpq-back[hidden]{display:none!important}
+.cvpq-kicker{margin:0 0 7px;color:#2a499d;font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.cvpq-step h2{margin:0 0 21px;color:#20293f;font-size:clamp(23px,4vw,29px);font-weight:750;line-height:1.2}
+.cvpq-options{display:grid;gap:10px}.cvpq-options button{width:100%;padding:14px 18px;border:1px solid #dce3f2;border-radius:12px;background:#fff;color:#20293f;font:600 15px/1.35 Inter,Arial,sans-serif;text-align:left;cursor:pointer}
+.cvpq-options button:hover,.cvpq-options button:focus-visible{border-color:#2a499d;background:#f3f6fd;outline:none}
+.cvpq-back,.cvpq-all{margin-top:20px;padding:0;border:0;background:none;color:#2a499d;font:600 14px/1.3 Inter,Arial,sans-serif;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.cvpq-price{margin:-8px 0 15px;color:#576175;font-size:16px}.cvpq-price b{color:#20293f;font-size:26px}
+.cvpq-why{display:grid;gap:11px;margin:0 0 22px;padding:0;list-style:none}.cvpq-why li{padding-left:27px;position:relative;color:#465066;font-size:15px;line-height:1.45}.cvpq-why li::before{content:'✓';position:absolute;left:0;top:1px;display:grid;place-items:center;width:19px;height:19px;border-radius:50%;background:#1db47d;color:#fff;font-size:12px;font-weight:700}
+.cvpq-go{display:block;padding:14px 18px;border-radius:10px;background:#1db47d;color:#fff!important;font-size:16px;font-weight:700;text-align:center;text-decoration:none!important}.cvpq-go:hover,.cvpq-go:focus-visible{background:#148d63}
+.cvpq-all{display:block;margin:15px auto 0}.cvpq-fine{margin:13px 0 0;color:#747d8e;font-size:12px;line-height:1.5;text-align:center}
+.pricing-grid>.p-card.cvpq-recommended{border:2px solid #19a976!important;box-shadow:0 0 0 3px #c9f1df,0 13px 30px #18335b17}
+.pricing-grid>.p-card.cvpq-recommended::after{content:'Recommended for you';display:block;margin-top:16px;color:#128b62;font:700 13px/1.3 Inter,Arial,sans-serif;text-align:center}
+@media(max-width:600px){.cvpq-inner{padding:27px 20px 23px}.cvpq-prompt{margin-bottom:22px}.cvpq-step h2{font-size:23px}}
+</style>
+<div class="cvpq-prompt"><p>Not sure which plan?</p><button class="cvpq-open" type="button" data-cvpq-open aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V10M9.5 2.5h5M12 2.5V6"/></svg><span>Take the 30-second quiz</span></button></div>
+<dialog class="cvpq-dialog" id="cvpq-dialog" aria-labelledby="cvpq-title-0">
+ <div class="cvpq-inner">
+  <button class="cvpq-close" type="button" aria-label="Close the quiz" data-cvpq-close>&times;</button>
+  <div class="cvpq-progress" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <div class="cvpq-step" data-cvpq-step="0"><p class="cvpq-kicker">Question 1 of 4</p><h2 id="cvpq-title-0">Who are you caring for?</h2><div class="cvpq-options" data-cvpq-q="who"><button type="button" data-v="parent">A parent</button><button type="button" data-v="spouse">A spouse or partner</button><button type="button" data-v="child">A child</button><button type="button" data-v="other">Someone else</button></div></div>
+  <div class="cvpq-step" data-cvpq-step="1" hidden><p class="cvpq-kicker">Question 2 of 4</p><h2 id="cvpq-title-1">How many people help with care?</h2><div class="cvpq-options" data-cvpq-q="team"><button type="button" data-v="2">Just me and one other person</button><button type="button" data-v="5">3 to 5 people</button><button type="button" data-v="50">6 or more people</button></div></div>
+  <div class="cvpq-step" data-cvpq-step="2" hidden><p class="cvpq-kicker">Question 3 of 4</p><h2 id="cvpq-title-2">How many loved ones are you coordinating care for?</h2><div class="cvpq-options" data-cvpq-q="loved"><button type="button" data-v="1">One</button><button type="button" data-v="2">Two</button><button type="button" data-v="3">Three or more</button></div></div>
+  <div class="cvpq-step" data-cvpq-step="3" hidden><p class="cvpq-kicker">Question 4 of 4</p><h2 id="cvpq-title-3">What do you need most?</h2><div class="cvpq-options" data-cvpq-q="need"><button type="button" data-v="basic">A shared calendar and messages</button><button type="button" data-v="pro">Care plans, calendar sync and document folders</button><button type="button" data-v="unsure">I&rsquo;m not sure yet</button></div></div>
+  <div class="cvpq-step" data-cvpq-step="4" hidden aria-live="polite"><p class="cvpq-kicker">Your best fit</p><h2 id="cvpq-title-4" data-cvpq-plan></h2><p class="cvpq-price" data-cvpq-price></p><ul class="cvpq-why" data-cvpq-why></ul><a class="cvpq-go" data-cvpq-go href="https://my.caringvillage.com/React/sign-up"></a><button class="cvpq-all" type="button" data-cvpq-all>Compare all plans</button><p class="cvpq-fine">You&rsquo;ll choose your plan inside the app after creating your account.</p></div>
+  <button class="cvpq-back" type="button" data-cvpq-back hidden>Back</button>
+ </div>
+</dialog>
+<script type="rocketlazyloadscript">
+(function(){
+ function init(){
+  var dlg=document.getElementById('cvpq-dialog');if(!dlg||dlg.dataset.ready)return;dlg.dataset.ready='1';
+  var opener=document.querySelector('[data-cvpq-open]'),back=dlg.querySelector('[data-cvpq-back]'),steps=[].slice.call(dlg.querySelectorAll('[data-cvpq-step]')),bars=[].slice.call(dlg.querySelectorAll('.cvpq-progress i')),answer={},current=0;
+  var plans={free:{name:'Free',price:'<b>$0</b> forever',cta:'Get Started Free'},circle:{name:'Circle',price:'<b>$14.99</b>/month, or $12.49/month billed annually',cta:'Start with Circle'},village:{name:'Village',price:'<b>$24.99</b>/month, or $20.83/month billed annually',cta:'Start with Village'}};
+  var who={parent:'your parent',spouse:'your partner',child:'your child',other:'your loved one'};
+  function show(n){current=n;steps.forEach(function(s,i){s.hidden=i!==n});bars.forEach(function(b,i){b.classList.toggle('on',i<Math.min(n+1,4))});back.hidden=n===0||n===4;dlg.setAttribute('aria-labelledby','cvpq-title-'+n);var first=steps[n].querySelector('button,a');if(first)first.focus({preventScroll:true})}
+  function recommend(plan){[].forEach.call(document.querySelectorAll('.pricing-grid>.p-card'),function(card,i){card.classList.toggle('cvpq-recommended',['free','circle','village'][i]===plan)});opener.innerHTML='<span aria-hidden="true">✓</span><span>Your match: <b>'+plans[plan].name+'</b> <small>Retake the quiz</small></span>'}
+  try{var saved=JSON.parse(sessionStorage.getItem('cvQuiz')||'null');if(saved&&plans[saved.plan])recommend(saved.plan)}catch(e){}
+  function finish(){var team=+answer.team,loved=+answer.loved,plan=team>5||loved>2?'village':team>2||loved>1||answer.need==='pro'?'circle':'free',p=plans[plan],person=who[answer.who]||'your loved one',why=plan==='free'?['One village for '+person+', shared by up to 2 people','Shared calendar, messaging and basic to-dos','Upgrade any time if more family joins']:plan==='circle'?['Up to 2 villages with 5 members each','Care plans, calendar sync and document folders for '+person,'Ad-free, with wellness journal export']:['Up to 5 villages with 50 members each','Room for siblings, friends and paid caregivers','Every premium feature, plus increased file storage'];
+   dlg.querySelector('[data-cvpq-plan]').textContent=p.name;dlg.querySelector('[data-cvpq-price]').innerHTML=p.price;var list=dlg.querySelector('[data-cvpq-why]');list.replaceChildren();why.forEach(function(t){var li=document.createElement('li');li.textContent=t;list.appendChild(li)});dlg.querySelector('[data-cvpq-go]').textContent=p.cta+' ↗';recommend(plan);try{sessionStorage.setItem('cvQuiz',JSON.stringify({plan:plan,a:answer}))}catch(e){}show(4)}
+  [].forEach.call(dlg.querySelectorAll('[data-cvpq-q]'),function(group){group.addEventListener('click',function(e){var button=e.target.closest('button[data-v]');if(!button)return;answer[group.getAttribute('data-cvpq-q')]=button.getAttribute('data-v');current<3?show(current+1):finish()})});
+  opener.addEventListener('click',function(){answer={};if(dlg.showModal)dlg.showModal();else dlg.setAttribute('open','');show(0)});
+  back.addEventListener('click',function(){show(Math.max(0,current-1))});dlg.querySelector('[data-cvpq-close]').addEventListener('click',function(){dlg.close()});dlg.querySelector('[data-cvpq-all]').addEventListener('click',function(){dlg.close();var grid=document.querySelector('.pricing-grid');if(grid)grid.scrollIntoView({behavior:'smooth',block:'start'})});dlg.addEventListener('click',function(e){if(e.target===dlg)dlg.close()});
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+})();
+</script>
+
+<!-- Toggle -->
+<div class="pricing-toggle">
+  <button class="toggle-btn active" id="btn-monthly" onclick="setTab('monthly')">Monthly</button>
+  <button class="toggle-btn" id="btn-annual" onclick="setTab('annual')">Annual <span class="badge">-17%</span></button>
+</div>
+
+<!-- Testimonial -->
+<div class="pricing-testimonial">
+  <div class="pricing-stars">★★★★★ <span>4.6/5</span> <small>from App Store reviews</small></div>
+  <div class="quote">"This has been a game changer for my life...." — <span style="color:#67777e">Ali-Leigh</span></div>
+</div>
+
+<!-- Pricing Grid -->
+<div class="pricing-grid">
+
+  <!-- Free -->
+  <div class="p-card">
+    <div class="p-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    </div>
+    <div class="p-plan-name">Free</div>
+    <div class="p-plan-desc">Get started with the basics — perfect for trying Caring Village.</div>
+    <div class="p-price"><span class="p-price-amount">$0.00</span></div>
+    <div class="p-price-note"></div>
+    <div class="p-price-sub">1 village, up to 2 members</div>
+    <a href="https://my.caringvillage.com/React/sign-up" class="p-btn p-btn-outline">Get Started Free</a>
+    <div class="p-features">
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>1 village</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Up to 2 village members</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Basic to-do lists</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Shared calendar</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Messaging</div>
+      <div class="p-feature disabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b0bec5" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>Ad-free experience</div>
+      <div class="p-feature disabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b0bec5" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>External calendar integration</div>
+      <div class="p-feature disabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b0bec5" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>Customizable care plans</div>
+      <div class="p-feature disabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b0bec5" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>Document folders</div>
+      <div class="p-feature disabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b0bec5" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>Wellness journal export</div>
+    </div>
+  </div>
+
+  <!-- Circle (Most Popular) -->
+  <div class="p-card popular">
+    <div class="popular-badge">Most Popular</div>
+    <div class="p-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    </div>
+    <div class="p-plan-name">Circle</div>
+    <div class="p-plan-desc">Bring your inner circle together — ideal for most families.</div>
+    <div class="p-price">
+      <span class="p-price-amount" id="circle-price">$14.99</span>
+      <span class="p-price-suffix" id="circle-suffix">/month</span>
+    </div>
+    <div class="p-price-note" id="circle-note"></div>
+    <div class="p-price-sub">Up to 2 villages, 5 members each</div>
+    <a href="https://my.caringvillage.com/React/sign-up" class="p-btn p-btn-green">Start with Circle</a>
+    <div class="p-features">
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Up to 2 villages</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>5 members per village</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Everything in Free</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Ad-free experience</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>External calendar integration</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Printable care calendar</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Customizable care plans</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Enhanced sharing features</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Customizable document folders</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Wellness journal export</div>
+    </div>
+  </div>
+
+  <!-- Village -->
+  <div class="p-card">
+    <div class="p-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    </div>
+    <div class="p-plan-name">Village</div>
+    <div class="p-plan-desc">For larger families and care teams who need maximum flexibility.</div>
+    <div class="p-price">
+      <span class="p-price-amount" id="village-price">$24.99</span>
+      <span class="p-price-suffix" id="village-suffix">/month</span>
+    </div>
+    <div class="p-price-note" id="village-note"></div>
+    <div class="p-price-sub">Up to 5 villages, 50 members each</div>
+    <a href="https://my.caringvillage.com/React/sign-up" class="p-btn p-btn-outline">Start with Village</a>
+    <div class="p-features">
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Up to 5 villages</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>50 members per village</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Everything in Circle</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Ad-free experience</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>External calendar integration</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Printable care calendar</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Customizable care plans</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Enhanced sharing features</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Customizable document folders</div>
+      <div class="p-feature enabled"><svg class="p-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A499D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Increased file &amp; data storage</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer note -->
+<div class="pricing-footer">
+  You'll choose your plan inside the app after creating your account under <strong>My Subscription</strong>.
+</div>
+
+<script type="rocketlazyloadscript">
+function setTab(tab) {
+  document.getElementById('btn-monthly').classList.toggle('active', tab === 'monthly');
+  document.getElementById('btn-annual').classList.toggle('active', tab === 'annual');
+
+  if (tab === 'monthly') {
+    document.getElementById('circle-price').textContent = '$14.99';
+    document.getElementById('circle-suffix').textContent = '/month';
+    document.getElementById('circle-note').innerHTML = '';
+    document.getElementById('village-price').textContent = '$24.99';
+    document.getElementById('village-suffix').textContent = '/month';
+    document.getElementById('village-note').innerHTML = '';
+  } else {
+    document.getElementById('circle-price').textContent = '$12.49';
+    document.getElementById('circle-suffix').textContent = '/month';
+    document.getElementById('circle-note').innerHTML = '<span style="color:#2A499D;font-size:12px;font-weight:500;">Billed annually · Save $30/year</span>';
+    document.getElementById('village-price').textContent = '$20.83';
+    document.getElementById('village-suffix').textContent = '/month';
+    document.getElementById('village-note').innerHTML = '<span style="color:#2A499D;font-size:12px;font-weight:500;">Billed annually · Save $50/year</span>';
+  }
+}
+</script></div>
+</div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-7hbxqaytucsv fl-row-default-height fl-row-align-center" data-node="7hbxqaytucsv">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-2vg9ndlz48ew" data-node="2vg9ndlz48ew">
+			<div class="fl-col fl-node-1mvfq4uysi3b fl-col-bg-color" data-node="1mvfq4uysi3b">
+	<div class="fl-col-content fl-node-content">		<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-cnwds0j7qb2r" data-node="cnwds0j7qb2r" aria-label="Text Editor">
+	<p style="text-align: center;">WHAT FAMILIES ARE SAYING</p>
+</div>
+<div  class="fl-module fl-module-html fl-html fl-node-f4kct29ib13w" data-node="f4kct29ib13w" aria-label="HTML">
+	<style>
+.ts-wrap{margin:0 auto;position:relative;}
+
+/* Quote mark background */
+.ts-quote-bg{
+position:absolute;
+  top:10px;
+  left:10px;
+  z-index:0;
+  pointer-events:none;
+  user-select:none;
+  width:80px;
+  opacity:0.5;
+}
+
+.ts-quote-bg svg{
+ width:100%;
+  height:auto;
+  display:block;
+}
+
+/* Slides */
+.ts-slider{position:relative;z-index:1}
+.ts-slide{display:none;animation:fadeIn 0.5s ease}
+.ts-slide.active{display:block}
+
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+/* Text */
+.ts-text{font-family:'Inter',system-ui,sans-serif;font-size:36px;font-weight:400;color:#2b363b;line-height:1.35;text-align:center;padding:20px 40px 32px;position:relative}
+.ts-text strong{font-weight:700}
+
+/* Meta */
+.ts-meta{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:28px}
+.ts-stars{color:#f5a623;font-size:18px;letter-spacing:1px}
+.ts-name{font-family:'Inter',system-ui,sans-serif;font-size:15px;font-weight:600;color:#2b363b}
+.ts-source{font-family:'Inter',system-ui,sans-serif;font-size:14px;color:#67777e}
+
+/* Dots */
+.ts-dots{display:flex;align-items:center;justify-content:center;gap:8px}
+.ts-dot{width:8px;height:8px;border-radius:999px;background:#c8ccd4;cursor:pointer;transition:all 0.3s ease;border:none;padding:0}
+.ts-dot.active{background:#2A499D;width:24px}
+
+/* Responsive */
+@media(max-width:768px){
+  .ts-text{font-size:26px;padding:16px 20px 24px}
+  .ts-quote-bg{font-size:120px}
+  .ts-quote-bg svg{width:110px;height:90px}
+}
+@media(max-width:480px){
+  .ts-text{font-size:20px;padding:14px 10px 20px}
+   .ts-quote-bg svg{width:80px;height:70px}
+  .ts-quote-bg{width:55px;top:8px;left:6px}
+  .ts-meta{flex-direction:column;align-items:center;gap:4px}
+  .ts-name{font-size:13px}
+  .ts-source{font-size:12px}
+}
+</style>
+
+<div class="ts-wrap">
+  <div class="ts-quote-bg">
+  <svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 80V48C0 22 12 8 36 0L42 10C30 14 24 22 24 32h16V80H0zm52 0V48C52 22 64 8 88 0l6 10C82 14 76 22 76 32h16V80H52z" fill="#e0e0e4" opacity="0.6"/>
+  </svg>
+</div>
+
+  <div class="ts-slider">
+
+    <div class="ts-slide active">
+      <div class="ts-text"><strong>This has been a game changer for my life.</strong> I have been balancing care for elderly in-laws and my special needs child. This app helps keep me organized and helps keep everyone invested.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">Ali-Leigh</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+    <div class="ts-slide">
+      <div class="ts-text"><strong>I highly recommend Caring Village</strong> for families to use when coming together in care of a loved one. It was helpful managing her medical documentation as well. I can see how it can help families navigate caring for family members tremendously.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">MelanieCinVA</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+    <div class="ts-slide">
+      <div class="ts-text"><strong>This App has been a life saver!</strong> I don't know where we would be without it! My Mom's care has been changing a lot lately and we have been able to communicate the changes in real time.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">Kate Flanagan</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+    <div class="ts-slide">
+      <div class="ts-text"><strong>My family uses Caring Village every day.</strong> It is so convenient to have everything we need in one place. It has saved us numerous times and makes managing the care for our special needs Grandson so much easier.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">DonnaWinch</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+    <div class="ts-slide">
+      <div class="ts-text"><strong>I'm very grateful for this app!</strong> Without this, caring for my Mum would be much more challenging and less effective.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">Piroska Sukosd</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+    <div class="ts-slide">
+      <div class="ts-text"><strong>I'm just blown away.</strong> I love the app! It has allowed me to document my son's journey from a near fatal accident. It is so user friendly and has so many useful features.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">Cathy Hamilton</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+    <div class="ts-slide">
+      <div class="ts-text"><strong>Really loved what they have done with this app</strong> in its latest version. Wonderful interface and easy to use whether you are medically inclined or not. Great to share with family and get everyone aligned.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">Zaymogen</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+    <div class="ts-slide">
+      <div class="ts-text"><strong>This is a wonderful tool,</strong> takes so much pressure off family by making it a one stop source for keeping in touch.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">Lana Stevens</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+    <div class="ts-slide">
+      <div class="ts-text"><strong>A Vital Hub.</strong> Caring Village is an excellent app that acts as the central hub for coordinating the care of a loved one. Appointments, meds, advice, health status — everyone in the family can go and check what's going on.</div>
+      <div class="ts-meta">
+        <div class="ts-stars">★★★★★</div>
+        <div class="ts-name">kwazilla</div>
+        <div class="ts-source">· App Store</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ts-dots" id="ts-dots"></div>
+</div>
+
+<script type="rocketlazyloadscript">
+var slides = document.querySelectorAll('.ts-slide');
+var dotsEl = document.getElementById('ts-dots');
+var current = 0;
+var timer;
+
+// Build dots
+slides.forEach(function(_, i) {
+  var d = document.createElement('button');
+  d.className = 'ts-dot' + (i === 0 ? ' active' : '');
+  d.setAttribute('aria-label', 'Slide ' + (i + 1));
+  d.addEventListener('click', function() { goTo(i); resetTimer(); });
+  dotsEl.appendChild(d);
+});
+
+function goTo(n) {
+  slides[current].classList.remove('active');
+  dotsEl.children[current].classList.remove('active');
+  current = (n + slides.length) % slides.length;
+  slides[current].classList.add('active');
+  dotsEl.children[current].classList.add('active');
+}
+
+function next() { goTo(current + 1); }
+
+function resetTimer() {
+  clearInterval(timer);
+  timer = setInterval(next, 7500);
+}
+
+resetTimer();
+</script></div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-w79us0rk2t8m fl-row-default-height fl-row-align-center" data-node="w79us0rk2t8m">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-brado0mlp2ug" data-node="brado0mlp2ug">
+			<div class="fl-col fl-node-qx52zdpit6kb fl-col-bg-color" data-node="qx52zdpit6kb">
+	<div class="fl-col-content fl-node-content">		<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-6l7fjvh9130y" data-node="6l7fjvh9130y" aria-label="Heading">
+			Premium features included	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-hil2a3kdju50" data-node="hil2a3kdju50" aria-label="Text Editor">
+	<p style="text-align: center;">Everything you need to coordinate care and keep your family connected.</p>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-km2gwxy6s517 fl-row-default-height fl-row-align-center" data-node="km2gwxy6s517">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		<div  class="fl-module fl-module-box fl-node-dybk07li41eo" data-node="dybk07li41eo" aria-label="Box">
+	<div  class="fl-module fl-module-box fl-node-10fdgtqwlevr icon-box-border" data-node="10fdgtqwlevr" aria-label="Box">
+	<div class="fl-module fl-module-icon fl-node-fyvsxh8be2i5" data-node="fyvsxh8be2i5" aria-label="Icon">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+				<i class="dashicons dashicons-before dashicons-shield-alt" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-0drsmh9j15ey" data-node="0drsmh9j15ey" aria-label="Heading">
+			Advertisement-Free	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-f3zimhq6j0tn" data-node="f3zimhq6j0tn" aria-label="Text Editor">
+	<p>A clean, distraction-free experience so you can focus on what matters most.</p>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-vbq5l207h9s1 icon-box-border" data-node="vbq5l207h9s1" aria-label="Box">
+	<div class="fl-module fl-module-icon fl-node-pwb9xi6v8ual" data-node="pwb9xi6v8ual" aria-label="Icon">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+				<i class="ua-icon ua-icon-users2" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-s4g82odh50yf" data-node="s4g82odh50yf" aria-label="Heading">
+			More Villages & Members	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-6nkhcsyjf4lt" data-node="6nkhcsyjf4lt" aria-label="Text Editor">
+	<p>Create multiple villages and invite extended family, friends, and care professionals.</p>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-l1xdnv85mu7t icon-box-border" data-node="l1xdnv85mu7t" aria-label="Box">
+	<div class="fl-module fl-module-icon fl-node-ahi92vnx15zg" data-node="ahi92vnx15zg" aria-label="Icon">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+				<i class="ua-icon ua-icon-calendar2" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-d5blkjyvqfu4" data-node="d5blkjyvqfu4" aria-label="Heading">
+			Calendar Integration	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-9anjul0dt1w6" data-node="9anjul0dt1w6" aria-label="Text Editor">
+	<p>Display your Caring Village calendar events on your Google Calendar.</p>
+</div>
+</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-yqpb0mf9r63n fl-row-default-height fl-row-align-center" data-node="yqpb0mf9r63n">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		<div  class="fl-module fl-module-box fl-node-j9yce6l4fs31" data-node="j9yce6l4fs31" aria-label="Box">
+	<div  class="fl-module fl-module-box fl-node-yfaxsni49ckr icon-box-border" data-node="yfaxsni49ckr" aria-label="Box">
+	<div class="fl-module fl-module-icon fl-node-gp7nyhe0wsr3" data-node="gp7nyhe0wsr3" aria-label="Icon">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+				<i class="ua-icon ua-icon-heart2" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-287koe0hc6r9" data-node="287koe0hc6r9" aria-label="Heading">
+			Customizable Care Plans	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-3jkq90gv4y5u" data-node="3jkq90gv4y5u" aria-label="Text Editor">
+	<p>Create multiple daily and weekly care schedules tailored to your loved one's unique needs.</p>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-wu9enmxs36go icon-box-border" data-node="wu9enmxs36go" aria-label="Box">
+	<div class="fl-module fl-module-icon fl-node-dnyfi4ucsotw" data-node="dnyfi4ucsotw" aria-label="Icon">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+				<i class="fi-page-doc" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-3clmpn7hrik4" data-node="3clmpn7hrik4" aria-label="Heading">
+			Document Management	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-jdrmz289qso4" data-node="jdrmz289qso4" aria-label="Text Editor">
+	<p>Organize medical records, legal documents, and important files in custom folders.</p>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-9o1ymzxlq36w icon-box-border" data-node="9o1ymzxlq36w" aria-label="Box">
+	<div class="fl-module fl-module-icon fl-node-wyh4qfanmc13" data-node="wyh4qfanmc13" aria-label="Icon">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+				<i class="ua-icon ua-icon-star" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-r4e5o98hs16p" data-node="r4e5o98hs16p" aria-label="Heading">
+			Wellness Journal Export	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-g3yowdimqvtk" data-node="g3yowdimqvtk" aria-label="Text Editor">
+	<p>Track and export wellness data to share with healthcare providers at appointments.</p>
+</div>
+</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-yzsv7h1f23a6 fl-row-default-height fl-row-align-center" data-node="yzsv7h1f23a6">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-0g8yfjzuk2st" data-node="0g8yfjzuk2st">
+			<div class="fl-col fl-node-sr3uvfc4k1ln fl-col-bg-color" data-node="sr3uvfc4k1ln">
+	<div class="fl-col-content fl-node-content">		<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-hqkbo5zn6aie" data-node="hqkbo5zn6aie" aria-label="Heading">
+			Frequently Asked Questions	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-1pr358kc0izh" data-node="1pr358kc0izh" aria-label="Text Editor">
+	<p style="text-align: center;">Everything you need to know about our plans.</p>
+</div>
+<div class="fl-module fl-module-advanced-accordion fl-node-pxmnqfu7t41e" data-node="pxmnqfu7t41e" aria-label="Advanced Accordion">
+	<div class="fl-module-content fl-node-content">
+		
+<div class="uabb-module-content uabb-adv-accordion 
+						uabb-adv-accordion-collapse" data-enable_first="no" >
+		<div class="uabb-adv-accordion-item"
+			data-index="0">
+		<div class="uabb-adv-accordion-button uabb-adv-accordion-buttonpxmnqfu7t41e uabb-adv-after-text" role="button" aria-expanded="false" aria-controls="uabb-accordion-content-pxmnqfu7t41e-0" id="uabb-accordion-button-pxmnqfu7t41e-0" tabindex="0">
+						<h5 class="uabb-adv-accordion-button-label">Can I try Caring Village before paying?</h5>
+			<div class="uabb-adv-accordion-icon-wrap"><i class="uabb-adv-accordion-button-icon dashicons dashicons-before dashicons-arrow-down-alt2"></i></div>		</div>
+		<div class="uabb-adv-accordion-content uabb-adv-accordion-contentpxmnqfu7t41e fl-clearfix uabb-accordion-desc uabb-text-editor" role="region" aria-labelledby="uabb-accordion-button-pxmnqfu7t41e-0" id="uabb-accordion-content-pxmnqfu7t41e-0" aria-hidden="true">
+			<p>Absolutely! Our Free plan gives you full access to basic features with 1 village and up to 2 members. You can upgrade to a premium plan at any time from within the app.</p>
+		</div>
+	</div>
+		<div class="uabb-adv-accordion-item"
+			data-index="1">
+		<div class="uabb-adv-accordion-button uabb-adv-accordion-buttonpxmnqfu7t41e uabb-adv-after-text" role="button" aria-expanded="false" aria-controls="uabb-accordion-content-pxmnqfu7t41e-1" id="uabb-accordion-button-pxmnqfu7t41e-1" tabindex="0">
+						<h5 class="uabb-adv-accordion-button-label">How do I choose my plan?</h5>
+			<div class="uabb-adv-accordion-icon-wrap"><i class="uabb-adv-accordion-button-icon dashicons dashicons-before dashicons-arrow-down-alt2"></i></div>		</div>
+		<div class="uabb-adv-accordion-content uabb-adv-accordion-contentpxmnqfu7t41e fl-clearfix uabb-accordion-desc uabb-text-editor" role="region" aria-labelledby="uabb-accordion-button-pxmnqfu7t41e-1" id="uabb-accordion-content-pxmnqfu7t41e-1" aria-hidden="true">
+			<p>After creating your free account, go to My Subscription in the app. From there you can select and manage your plan. You won't be charged until you choose a paid plan.</p>
+		</div>
+	</div>
+		<div class="uabb-adv-accordion-item"
+			data-index="2">
+		<div class="uabb-adv-accordion-button uabb-adv-accordion-buttonpxmnqfu7t41e uabb-adv-after-text" role="button" aria-expanded="false" aria-controls="uabb-accordion-content-pxmnqfu7t41e-2" id="uabb-accordion-button-pxmnqfu7t41e-2" tabindex="0">
+						<h5 class="uabb-adv-accordion-button-label">Can I switch plans later?</h5>
+			<div class="uabb-adv-accordion-icon-wrap"><i class="uabb-adv-accordion-button-icon dashicons dashicons-before dashicons-arrow-down-alt2"></i></div>		</div>
+		<div class="uabb-adv-accordion-content uabb-adv-accordion-contentpxmnqfu7t41e fl-clearfix uabb-accordion-desc uabb-text-editor" role="region" aria-labelledby="uabb-accordion-button-pxmnqfu7t41e-2" id="uabb-accordion-content-pxmnqfu7t41e-2" aria-hidden="true">
+			<p>Yes! You can upgrade, downgrade, or cancel your subscription at any time from the My Subscription section in the app.</p>
+		</div>
+	</div>
+		<div class="uabb-adv-accordion-item"
+			data-index="3">
+		<div class="uabb-adv-accordion-button uabb-adv-accordion-buttonpxmnqfu7t41e uabb-adv-after-text" role="button" aria-expanded="false" aria-controls="uabb-accordion-content-pxmnqfu7t41e-3" id="uabb-accordion-button-pxmnqfu7t41e-3" tabindex="0">
+						<h5 class="uabb-adv-accordion-button-label">What payment methods do you accept?</h5>
+			<div class="uabb-adv-accordion-icon-wrap"><i class="uabb-adv-accordion-button-icon dashicons dashicons-before dashicons-arrow-down-alt2"></i></div>		</div>
+		<div class="uabb-adv-accordion-content uabb-adv-accordion-contentpxmnqfu7t41e fl-clearfix uabb-accordion-desc uabb-text-editor" role="region" aria-labelledby="uabb-accordion-button-pxmnqfu7t41e-3" id="uabb-accordion-content-pxmnqfu7t41e-3" aria-hidden="true">
+			<p>We accept all major credit cards, debit cards, and digital payment methods through our secure payment processor.</p>
+		</div>
+	</div>
+		<div class="uabb-adv-accordion-item"
+			data-index="4">
+		<div class="uabb-adv-accordion-button uabb-adv-accordion-buttonpxmnqfu7t41e uabb-adv-after-text" role="button" aria-expanded="false" aria-controls="uabb-accordion-content-pxmnqfu7t41e-4" id="uabb-accordion-button-pxmnqfu7t41e-4" tabindex="0">
+						<h5 class="uabb-adv-accordion-button-label">Is my data secure?</h5>
+			<div class="uabb-adv-accordion-icon-wrap"><i class="uabb-adv-accordion-button-icon dashicons dashicons-before dashicons-arrow-down-alt2"></i></div>		</div>
+		<div class="uabb-adv-accordion-content uabb-adv-accordion-contentpxmnqfu7t41e fl-clearfix uabb-accordion-desc uabb-text-editor" role="region" aria-labelledby="uabb-accordion-button-pxmnqfu7t41e-4" id="uabb-accordion-content-pxmnqfu7t41e-4" aria-hidden="true">
+			<p>Yes. Caring Village uses bank-level encryption and strict privacy controls. Your family's health and caregiving information is never sold or shared with third parties.</p>
+		</div>
+	</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-c4ym62snkqxd fl-row-default-height fl-row-align-center" data-node="c4ym62snkqxd">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-8zeami0k15r2" data-node="8zeami0k15r2">
+			<div class="fl-col fl-node-8jg4dbi2pqxn fl-col-bg-color" data-node="8jg4dbi2pqxn">
+	<div class="fl-col-content fl-node-content">		<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-fa1ipm9wh2o7" data-node="fa1ipm9wh2o7" aria-label="Heading">
+			Ready to simplify caregiving?	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-5yarzjpxsm2q" data-node="5yarzjpxsm2q" aria-label="Text Editor">
+	<p style="text-align: center;">Join thousands of families who are already using Caring Village to coordinate care and stay connected. Buying for a caregiver? <a href="https://caringvillage.com/gift-caring-village/" style="color:inherit;text-decoration:underline;text-underline-offset:3px;font-weight:600">Explore gift subscriptions</a>.</p>
+</div>
+<div class="fl-module fl-module-button fl-node-ga9fv4wnkdp2 box-button fl-button-wrap fl-button-width-auto fl-button-center" data-node="ga9fv4wnkdp2" aria-label="Button"><a href="https://my.caringvillage.com/React/sign-up" target="_self" class="fl-button"><span class="fl-button-text">Get Started for Free</span></a></div></div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div><div class="uabb-js-breakpoint" style="display: none;"></div><div class="rltdpstsplgn-featured-post-block"></div>
+			
+	<div class="clear"></div>
+
+
+	</div><!-- #content -->
+
+		<style>
+		/* =============================================
+		   Caring Village – New Footer
+		   Structure: full-width footer > 1280px container > 5 columns
+		   Breakpoints: mobile <600px | tablet 600–833px | desktop 834px+
+		   ============================================= */
+
+		/* Full-width footer with rounded top corners */
+		
+		.cv-footer nav ul {
+				float: left!important;
+			}
+		
+		.cv-footer {
+			width: 100%;
+			background-color: #132149;
+			font-family: 'Inter', sans-serif;
+		}
+
+		/* 1280px centred container */
+		.cv-footer-container {
+			max-width: 1280px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 40px 24px 24px;
+		}
+        
+        /* Social icons */
+.cv-footer-social {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+.cv-footer-social a:visited {
+color: #fff!important;
+}
+
+.cv-footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    transition: color 0.15s ease;
+    flex-shrink: 0;
+}
+
+.cv-footer-social-link a:visited {
+color:#fff!important;
+}
+
+.cv-footer-social-link:hover {
+    color: #ffffff;
+}
+
+.cv-footer-social-link svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color:#fff;
+}
+
+		@media (min-width: 834px) {
+			.cv-footer-container { padding: 40px 40px 24px; }
+		}
+		@media (min-width: 1280px) {
+			.cv-footer-container { padding: 56px 40px 28px; }
+		}
+
+		/* Top row: 5 columns in a single flex row on desktop */
+		.cv-footer-top {
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
+		}
+		@media (min-width: 834px) {
+			.cv-footer-top {
+				flex-direction: row;
+				gap: 0;
+				align-items: flex-start;
+			}
+		}
+
+		/* Brand column: wider than the 4 nav columns */
+		.cv-footer-brand {
+			flex-shrink: 0;
+		}
+		@media (min-width: 834px) {
+			.cv-footer-brand {
+				width: 280px;
+				padding-right: 40px;
+			}
+		}
+		@media (min-width: 1280px) {
+			.cv-footer-brand {
+				width: 320px;
+				padding-right: 80px;
+			}
+		}
+
+		.cv-footer-logo-link {
+			display: inline-block;
+			line-height: 0;
+		}
+
+		/* White logo via CSS filter */
+		.cv-footer-logo {
+			width: 168px;
+			height: auto;
+			display: block;
+		}
+		@media (min-width: 834px) {
+			.cv-footer-logo { width: 152px; }
+		}
+		@media (min-width: 1280px) {
+			.cv-footer-logo { width: 168px; }
+		}
+
+		.cv-footer-tagline {
+			margin: 16px 0 0;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.65;
+			color: rgba(255, 255, 255, 0.6);
+			max-width: 220px;
+		}
+
+		/* 4 nav columns sit to the right of the brand column */
+		.cv-footer-nav {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 32px 24px;
+			flex: 1;
+		}
+		@media (min-width: 600px) {
+			.cv-footer-nav {
+				grid-template-columns: repeat(4, 1fr);
+				gap: 0 24px;
+			}
+		}
+		@media (min-width: 834px) {
+			.cv-footer-nav {
+				gap: 0 32px;
+				justify-content: flex-end;
+			}
+		}
+		@media (min-width: 1280px) {
+			.cv-footer-nav { gap: 0 60px; }
+		}
+
+		/* Column heading */
+		.cv-footer-col-title {
+			font-family: 'Teachers', sans-serif;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 1;
+			color: #ffffff;
+			margin: 0 0 16px;
+			white-space: nowrap;
+		}
+
+		/* Nav list */
+		.cv-footer-col ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+		}
+		.cv-footer-col ul li {
+			margin: 0;
+			padding: 0;
+		}
+		.cv-footer-col ul li a {
+			font-family: 'Inter', sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1;
+			color: rgba(255, 255, 255, 0.6);
+			text-decoration: none;
+			display: inline-block;
+			white-space: nowrap;
+			transition: color 0.15s ease;
+		}
+		.cv-footer-col ul li a:hover {
+			color: #259cab;
+		}
+
+		/* Divider + bottom bar */
+		.cv-footer-bottom {
+			margin-top: 40px;
+			padding-top: 20px;
+			border-top: 1px solid rgba(255, 255, 255, 0.08);
+			display: flex;
+			flex-direction: column;
+			gap: 8px;
+		}
+		@media (min-width: 834px) {
+			.cv-footer-bottom {
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				gap: 0;
+				padding-top: 16px;
+			}
+		}
+		@media (min-width: 1280px) {
+			.cv-footer-bottom { margin-top: 48px; }
+		}
+
+		.cv-footer-copy,
+		.cv-footer-heart {
+			margin: 0;
+			font-family: 'Inter', sans-serif;
+			font-size: 13px;
+			font-weight: 400;
+			line-height: 1.5;
+			color: rgba(255, 255, 255, 0.4);
+		}
+		@media (min-width: 1280px) {
+			.cv-footer-copy,
+			.cv-footer-heart { font-size: 14px; }
+		}
+
+		.cv-footer-heart .cv-heart {
+			display: inline-block;
+			color: #e05a7a;
+		}
+	</style>
+
+	<footer class="cv-footer" role="contentinfo">
+		<div class="cv-footer-container">
+
+			<div class="cv-footer-top">
+
+				<!-- Column 1: Brand -->
+				<div class="cv-footer-brand">
+					<a href="https://caringvillage.com/" class="cv-footer-logo-link">
+						<img
+						 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20168%2026'%3E%3C/svg%3E"
+							alt="Caring Village"
+							class="cv-footer-logo"
+							width="168"
+							height="26"
+					 data-lazy-src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-alt-Eq_oMOLG.svg"	/><noscript><img
+							src="https://caringvillage.com/wp-content/themes/caringvillage/assets/logo-colored-alt-Eq_oMOLG.svg"
+							alt="Caring Village"
+							class="cv-footer-logo"
+							width="168"
+							height="26"
+						/></noscript>
+					</a>
+					<p class="cv-footer-tagline">
+    Coordinating care together, so no one does it alone.</p>
+
+<div class="cv-footer-social">
+    <a href="https://www.facebook.com/caringvillage" target="_blank" rel="noopener noreferrer" class="cv-footer-social-link" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/caringvillage/" target="_blank" rel="noopener noreferrer" class="cv-footer-social-link" aria-label="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/company/caring-village-llc/" target="_blank" rel="noopener noreferrer" class="cv-footer-social-link" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+    </a>
+    <a href="https://x.com/CaringVillage" target="_blank" rel="noopener noreferrer" class="cv-footer-social-link" aria-label="X">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.258 5.629 5.906-5.629Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    </a>
+    <a href="https://www.youtube.com/@caringvillage" target="_blank" rel="noopener noreferrer" class="cv-footer-social-link" aria-label="YouTube">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#132149"/></svg>
+    </a>
+</div>
+</div>
+
+				<!-- Columns 2–5: Nav -->
+				<nav class="cv-footer-nav" aria-label="Footer navigation">
+
+					<!-- Product -->
+					<div class="cv-footer-col">
+						<p class="cv-footer-col-title">Product</p>
+						<ul>
+							<li><a href="https://caringvillage.com/app/">The App</a></li>
+							<li><a href="https://caringvillage.com/pricing/">Pricing</a></li>
+							<li><a href="https://caringvillage.com/marketplace/">Marketplace</a></li>
+						</ul>
+					</div>
+
+					<!-- Resources -->
+					<div class="cv-footer-col">
+						<p class="cv-footer-col-title">Resources</p>
+						<ul>
+							<li><a href="https://caringvillage.com/blog/">Blog</a></li>
+							<li><a href="https://caringvillage.com/newsletter/">Newsletter</a></li>
+							<li><a href="https://caringvillage.com/wall-of-love/">Wall of Love</a></li>
+						</ul>
+					</div>
+
+					<!-- Company -->
+					<div class="cv-footer-col">
+						<p class="cv-footer-col-title">Company</p>
+						<ul>
+							<li><a href="https://caringvillage.com/about/">About</a></li>
+							<li><a href="https://caringvillage.com/partners/">Partners</a></li>
+							<li><a href="https://caringvillage.com/contact/">Contact</a></li>
+						</ul>
+					</div>
+
+					<!-- Legal -->
+					<div class="cv-footer-col">
+						<p class="cv-footer-col-title">Legal</p>
+						<ul>
+							<li><a href="https://caringvillage.com/privacy-policy/">Privacy Policy</a></li>
+							<li><a href="https://caringvillage.com/terms/">Terms of Service</a></li>
+						</ul>
+					</div>
+
+				</nav>
+
+			</div><!-- .cv-footer-top -->
+
+			<div class="cv-footer-bottom">
+				<p class="cv-footer-copy">
+  © Copyright 2026 Caring Village Inc.</p>
+				<p class="cv-footer-heart">
+											Made with <span class="cv-heart">&#10084;&#65039;</span> for caregivers everywhere
+									</p>
+			</div>
+
+		</div><!-- .cv-footer-container -->
+	</footer>
+
+	</div><!-- #page -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/caringvillage/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="rocketlazyloadscript" data-minify="1" id="fl-builder-layout-14294-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/cache/14294-layout.js?ver=1792525222" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="fl-builder-layout-3763-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/cache/3763-layout-partial.js?ver=1792524669" defer></script>
+<script id="wpil-frontend-script-js-extra">
+var wpilFrontend = {"ajaxUrl":"/wp-admin/admin-ajax.php","postId":"14294","postType":"post","openInternalInNewTab":"0","openExternalInNewTab":"0","disableClicks":"0","openLinksWithJS":"0","trackAllElementClicks":"0","clicksI18n":{"imageNoText":"Image in link: No Text","imageText":"Image Title: ","noText":"No Anchor Text Found"}};
+//# sourceURL=wpil-frontend-script-js-extra
+</script>
+<script type="rocketlazyloadscript" id="wpil-frontend-script-js" data-rocket-src="https://caringvillage.com/wp-content/plugins/link-whisper/js/frontend.min.js?ver=1789470650" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="owl.carousel.js-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/relevant/js/owl.carousel.js?ver=1792524669" defer></script>
+<script type="rocketlazyloadscript" id="owl.carousel.js-js-after">window.addEventListener('DOMContentLoaded', function() {
+			( function($) {
+				$(document).ready(function($) {
+					$('.owl-carousel').owlCarousel({
+						margin: 10,
+						nav: true,
+						dots: true,
+						loop: true,
+						autoplay: true,
+						autoplayTimeout: 5000,
+						mouseDrag: true,
+						mousewheel: true,
+						touchDrag: true,
+						navText:[
+							"<i class='dashicons dashicons-arrow-left-alt2'></i>",
+							"<i class='dashicons dashicons-arrow-right-alt2'></i>"
+						],
+						responsiveClass:true,
+						responsive: {
+							0: {
+								items: 1
+							},
+							768: {
+								items: 2
+							},
+							992: {
+								items: 3
+							}
+						}
+
+					});
+				});
+			})(jQuery);
+//# sourceURL=owl.carousel.js-js-after
+});</script>
+<script type="rocketlazyloadscript" data-minify="1" id="caringvillage-navigation-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/js/navigation.js?ver=1792524669" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="caringvillage-toggler-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/js/toggler.js?ver=1792524669" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="caringvillage-equalheight-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/js/equal-height.js?ver=1792524669" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="caringvillage-fixed-header-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/js/fixed-header.js?ver=1792524669" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="caringvillage-skip-link-focus-fix-js" data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/themes/caringvillage/js/skip-link-focus-fix.js?ver=1792524669" defer></script>
+<script type="rocketlazyloadscript" id="jquery-bind-first-js" defer data-rocket-src="https://caringvillage.com/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=0.2.3"></script>
+<script type="rocketlazyloadscript" id="js-cookie-pys-js" defer data-rocket-src="https://caringvillage.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3"></script>
+<script type="rocketlazyloadscript" data-minify="1" id="js-sha256-js" defer data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/pixelyoursite/dist/scripts/sha256.js?ver=1792524669"></script>
+<script id="pys-js-extra">
+var pysOptions = {"staticEvents":[],"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"debug":"","siteUrl":"https://caringvillage.com","ajaxUrl":"https://caringvillage.com/wp-admin/admin-ajax.php","ajax_event":"6dfa5c27d3","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","ajaxForServerStaticEvent":"1","useSendBeacon":"1","send_external_id":"1","external_id_expire":"180","track_cookie_for_subdomains":"1","google_consent_mode":"1","consent_mode_cmp_active":"","data_persistency":"keep_data","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"reddit_disabled_by_api":false,"openai_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":false,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"openai_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":"marketing","cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","cookiebot_openai_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficLanding":"","TrafficUtms":[],"TrafficUtmsId":[]},"GATags":{"ga_datalayer_type":"default","ga_datalayer_name":"dataLayerPYS"},"woo":{"enabled":false},"edd":{"enabled":false},"cache_bypass":"1793547931"};
+//# sourceURL=pys-js-extra
+</script>
+<script type="rocketlazyloadscript" data-minify="1" id="pys-js" defer data-rocket-src="https://caringvillage.com/wp-content/cache/min/1/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=1792524669"></script>
+<script type="rocketlazyloadscript" id="hoverIntent-js" data-rocket-src="https://caringvillage.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" defer></script>
+<script type="rocketlazyloadscript" id="megamenu-js" data-rocket-src="https://caringvillage.com/wp-content/plugins/megamenu/js/maxmegamenu.min.js?ver=3.10.8" defer></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://caringvillage.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://caringvillage.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://caringvillage.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

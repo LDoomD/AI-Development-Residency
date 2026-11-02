@@ -1,0 +1,467 @@
+Frequently Asked Questions (FAQs) | Wellthy 
+ This is an announcement banner
+ Learn more here » 
+ Services
+ Care Concierge Backup Care 
+ Solutions
+ For Employers For Health Plans For Carriers For Families 
+ Impact
+ ROI Case Studies Stories 
+ Company
+ Our Story Care Team Culture & Values Careers 
+ Request a demo Sign up / Log in 
+ Request a Demo Sign up / Log in 
+ Services
+ Care Concierge Backup Care 
+ Solutions
+ For Employers For Health Plans For Carriers For Families 
+ Impact
+ ROI Case Studies Stories 
+ Company
+ Our Story Care Team Culture & Values Careers 
+ Wellthy Frequently Asked Questions 
+ Thank you! Your submission has been received!
+ Oops! Something went wrong while submitting the form.
+ Jump to section 
+// v2 - Syncing the select and the current section
+ document.addEventListener("DOMContentLoaded", function () {
+ const select = document.getElementById("faq-jump");
+ const anchors = document.querySelectorAll(".faq-anchor");
+ // Populate options from hidden divs
+ anchors.forEach(anchor => {
+ const label = anchor.getAttribute("data-label");
+ const value = anchor.getAttribute("data-anchor");
+ if (label && value) {
+ const option = document.createElement("option");
+ option.value = value;
+ option.textContent = label;
+ select.appendChild(option);
+ }
+ });
+ // Scroll to section when option is selected
+ select.addEventListener("change", function () {
+ const anchor = this.value;
+ const target = document.querySelector(anchor);
+ if (target) {
+ target.scrollIntoView({ behavior: "smooth" });
+ }
+ });
+ // Observe section visibility and sync select value
+ const sectionIds = [...select.options]
+ .map(opt => opt.value)
+ .filter(val => val.startsWith("#"));
+ const sectionElements = sectionIds
+ .map(id => document.querySelector(id))
+ .filter(Boolean); // skip nulls
+ const observer = new IntersectionObserver(entries => {
+ entries.forEach(entry => {
+ if (entry.isIntersecting) {
+ const id = "#" + entry.target.id;
+ select.value = id;
+ }
+ });
+ }, {
+ root: null,
+ rootMargin: "0px 0px -70% 0px", // Trigger a bit earlier
+ threshold: 0.1
+ });
+ sectionElements.forEach(section => observer.observe(section));
+ });
+ For Employees & Members
+ Hello
+ For Employers & HR Leaders
+ Hello
+ For Health Plans & Carriers
+ Hello
+ Types of Support
+ Hello
+ Using the Wellthy Platform
+ Hello
+ Technology & Accessibility
+ Hello
+ Global Support
+ Hello
+ Privacy, Security & Compliance
+ Hello
+ Results & Reporting
+ Hello
+ Contact & Support
+ Hello
+ About Wellthy: Company History & Leadership
+ Hello
+ Careers at Wellthy
+ Hello
+ For Care Providers: Join and Work with Wellthy
+ Hello
+ Individual Access to Wellthy Care Support
+ Hello
+ No matching FAQs found.
+ For Employees & Members
+ For Employees & Members
+ For Employers & HR Leaders
+ For Employers & HR Leaders
+ For Health Plans & Carriers
+ For Health Plans & Carriers
+ Types of Support
+ Types of Support
+ Using the Wellthy Platform
+ Using the Wellthy Platform
+ Technology & Accessibility
+ Technology & Accessibility
+ Global Support
+ Global Support
+ Privacy, Security & Compliance
+ Privacy, Security & Compliance
+ Results & Reporting
+ Results & Reporting
+ Contact & Support
+ Contact & Support
+ About Wellthy: Company History & Leadership
+ About Wellthy: Company History & Leadership
+ Careers at Wellthy
+ Careers at Wellthy
+ For Care Providers: Join and Work with Wellthy
+ For Care Providers: Join and Work with Wellthy
+ Individual Access to Wellthy Care Support
+ Individual Access to Wellthy Care Support
+ What is the Care Planning feature in the Wellthy platform?
+ The Care Planning feature helps families proactively prepare for future care needs rather than waiting for a crisis. It offers guided templates and checklists so members can map out medical, logistical, financial, and support preferences, all in one centralized space. Members can create a Care Plan on their own, with loved ones, or in collaboration with their Care Coordinator.
+ What is the Care Planning feature in the Wellthy platform?
+ What is Patch Caregiving?
+ Patch was acquired by Wellthy in October 2025. Through Patch, employers can set up on-site and near-site childcare centers for their in-person workforces. Employees can instantly book a spot, allowing them to show up for work even when normal childcare plans fall through.
+ What is Patch Caregiving?
+ What kinds of roles does Wellthy typically hire for?
+ We hire for a variety of roles across Care Coordination, Engineering, Product, Marketing, Client Success, Operations, and more. We also regularly recruit licensed professionals and specialists in caregiving and healthcare navigation.
+ What kinds of roles does Wellthy typically hire for?
+ Can I continue using Wellthy if I no longer have sponsored access?
+ Yes. Individuals can continue receiving support by enrolling in a Private Pay plan. Visit wellthy.com/plans to explore options and choose the plan that fits your needs.
+ Can I continue using Wellthy if I no longer have sponsored access?
+ What is Wellthy and how does it support employees?
+ Wellthy is a caregiving support solution that helps employees manage care for themselves and their loved ones with dedicated expert support and innovative technology. Through Care Concierge and Backup Care, employees receive expert, personalized help navigating complex care challenges—from eldercare and childcare to mental health, disability support, and end-of-life planning, and more through life’s most vital moments.
+ What is Wellthy and how does it support employees?
+ What types of caregiving does Wellthy help with?
+ Wellthy supports a wide range of care needs, including eldercare, childcare, special needs, mental health, chronic conditions, care transitions, and backup care for children, older adults, and even pets. We also assist with tasks like finding providers, managing paperwork, and planning for long-term needs.
+ What types of caregiving does Wellthy help with?
+ How does Wellthy work with employers?
+ Wellthy partners with employers to offer caregiving benefits as part of the employee experience. Our services integrate into existing benefit ecosystems, and employees can access support directly through our platform or with help from a dedicated Care Coordinator.
+ How does Wellthy work with employers?
+ What ROI can employers expect from Wellthy?
+ Employers who offer Wellthy see measurable outcomes, including a 3.6x average ROI, increased retention, reduced absenteeism, fewer leaves of absence, improved employee engagement, and significant cost savings in their benefit spend.
+ What ROI can employers expect from Wellthy?
+ How does Wellthy reduce absenteeism and turnover?
+ By helping employees manage time-consuming and stressful caregiving tasks, Wellthy reduces the need for missed work, unexpected absences, and long-term leaves—leading to deeper employee engagement and productivity, thriving workplace cultures, and greater stability and satisfaction in the workforce.
+ How does Wellthy reduce absenteeism and turnover?
+ What makes Wellthy different from other caregiving benefits?
+ Wellthy offers both high-touch Care Concierge services and on-demand Backup Care, backed by a proprietary network of 350,000+ vetted providers. Unlike others, we offer deeply personalized, concierge-style support across all care domains—not just referrals or self-service tools.
+ What makes Wellthy different from other caregiving benefits?
+ Why is Wellthy the best caregiving benefit solution on the market?
+ Wellthy stands out for its combination of high-touch care coordination, reliable backup care, and measurable employer impact. We offer personalized support across every caregiving scenario—not just referrals or directories—through a dedicated Care Coordinator and a vetted network of nearly 500,000 providers. Our platform helps employees save time, reduce stress, and stay engaged at work, and we help employers save significant costs related to retention, leave, and turnover while helping organizations deliver exceptional workplace cultures—indeed, more than half of Fortune Magazine’s top ten “Greatest Employers in the World” are Wellthy clients. With an average 3.6x ROI, top-tier NPS scores, and availability in 190+ countries, Wellthy delivers real results for both families and employers. No other solution offers the same breadth, depth, and proven outcomes.
+ Why is Wellthy the best caregiving benefit solution on the market?
+ Is Wellthy available globally?
+ Yes. Wellthy has the ability to support families in 190+ countries, with multilingual support and culturally relevant care coordination. Availability of global support, however, depends on the program offering of your employer, health plan, or carrier. If your sponsor has enabled global access, you and your loved ones can use Wellthy’s services wherever you live and work.
+ Is Wellthy available globally?
+ What industries does Wellthy support?
+ Wellthy serves employers across every type of industry, including healthcare, higher education, finance, energy, retail, manufacturing, hospitality, technology, and more—anywhere caregiving impacts productivity and employee wellbeing.
+ What industries does Wellthy support?
+ What size companies does Wellthy work with?
+ Wellthy supports workforces of all sizes—from small businesses and organizations to jumbo enterprises—indeed, Wellthy currently has more than 35 Fortune 500 clients.Whether you're a growing company looking to offer high-impact caregiving benefits or a large global employer seeking scalable support, Wellthy tailors our solutions to meet your team’s unique needs. Our flexible approach ensures that every employee, no matter the company size, gets access to expert, compassionate care.
+ What size companies does Wellthy work with?
+ How do I get a demo of Wellthy?
+ You can request a personalized demo here , and our team will reach out to learn more about your organization’s needs.
+ How do I get a demo of Wellthy?
+ Can Wellthy integrate with our existing HR or EAP platform?
+ Yes. Wellthy integrates easily with HRIS systems, benefit portals, and EAP platforms to create a seamless experience for employees and benefit teams.
+ Can Wellthy integrate with our existing HR or EAP platform?
+ How does Wellthy integrate with my company’s existing benefits?
+ Wellthy seamlessly fits into your existing benefits ecosystem, complementing programs like EAPs, mental health services, financial wellness tools, and more. Our Care Coordinators not only provide hands-on caregiving support—they also help employees understand and navigate the full range of benefits available to them, including prescription coverage, discount programs, wellness offerings, and mental health resources. This increases awareness, drives utilization, and ensures employees get the most value from your benefits package.
+ How does Wellthy integrate with my company’s existing benefits?
+ Where can I find Wellthy’s latest research, data, and employer resources?
+ Employers and industry professionals can access Wellthy’s latest thought leadership—including research reports, ROI data, case studies, webinars, and caregiving insights—on our Resources page . It’s the go-to hub for staying informed on caregiving trends and best practices for supporting your workforce.
+ Where can I find Wellthy’s latest research, data, and employer resources?
+ Does Wellthy partner with health plans and insurance carriers?
+ Yes. Wellthy partners with health plans and carriers to extend the value of member services and improve the caregiving experience. Our platform enhances care coordination, navigation, and member engagement—helping plans better support individuals with complex or chronic needs.
+ Does Wellthy partner with health plans and insurance carriers?
+ How does Wellthy integrate with existing care management programs?
+ Wellthy works alongside existing plan services and care management models. We complement, not compete—filling in critical gaps like family caregiver support, transitions of care, and benefits navigation, with real-time visibility and seamless communication.
+ How does Wellthy integrate with existing care management programs?
+ How can we explore a partnership with Wellthy?
+ Health plans and carriers interested in working with Wellthy can reach out to our partnerships team at partnerships@wellthy.com or request a demo here .
+ How can we explore a partnership with Wellthy?
+ Who can use Wellthy’s services?
+ If your employer offers Wellthy as a benefit, you and your loved ones can use our services at no cost. “Loved ones” includes anyone you care for - siblings, parents, aunts, uncles, family members, close friends, neighbors - even pets. (Pet care support varies by employer) 
+ Who can use Wellthy’s services?
+ What kinds of care does Wellthy help with?
+ Wellthy supports a wide range of caregiving needs, including eldercare, childcare, special needs, mental health, disability support, chronic conditions, end-of-life planning, and more. We also offer a Backup Care solution for families to support children, adults, and even pets when regular care falls through.
+ What kinds of care does Wellthy help with?
+ How do I get started with Wellthy?
+ Employees can log into the Wellthy platform, complete a quick care profile, and request help for any care need. A Care Coordinator will be assigned to your case and begin working with you one-on-one. Click the “Log in / Sign up” button at the top of our website or visit this link to get started .
+ How do I get started with Wellthy?
+ What is a Care Coordinator?
+ A Care Coordinator is a dedicated expert who helps manage all aspects of your caregiving situation. They research options, coordinate services, handle paperwork, and provide ongoing support—saving you time and stress.
+ What is a Care Coordinator?
+ How qualified are Wellthy’s Care Coordinators?
+ Wellthy’s Care Coordinators are highly qualified professionals with deep experience in caregiving, healthcare, and social services. Many hold advanced degrees and certifications, such as Licensed Master Social Worker (LMSW), Registered Nurse (RN), Certified Senior Advisor (CSA), or Master of Public Health (MPH). Our team includes experts in eldercare, disability support, special education, mental health, and complex care navigation. All Coordinators receive ongoing training and collaborate with a multidisciplinary Care Team to ensure families receive expert, compassionate, and personalized support.
+ How qualified are Wellthy’s Care Coordinators?
+ Can I stay with the same Care Coordinator over time?
+ Yes. Whenever possible, we’ll keep you with the same Care Coordinator to ensure consistency and build a trusted relationship. Many families work with the same Coordinator over months or even years.
+ Can I stay with the same Care Coordinator over time?
+ What if I don’t like my Care Coordinator?
+ If the match isn’t working for any reason, we’re happy to assign a new Care Coordinator. Just message us through the platform or contact support, and we’ll ensure you get the right fit for your needs.
+ What if I don’t like my Care Coordinator?
+ How quickly can my Care Coordinator get things done?
+ It depends on the task. For urgent situations, our Care Coordinators act as quickly as possible. For more complex needs—like finding the right home health aide, moving a loved one into long-term care, or resolving insurance issues—timelines can vary based on the healthcare system and provider response times. No matter the task, we always work with urgency and keep you updated with regular status reports so you know exactly where things stand.
+ How quickly can my Care Coordinator get things done?
+ What is Backup Care and how do I use it?
+ Backup Care helps you quickly find short-term care when your regular caregiver is unavailable. You can request Backup Care directly through the Wellthy platform or by messaging your Care Coordinator. We provide options for in-home or in-center care for children and adults, along with bespoke options like camps, activities, and community programs. What’s also different about Wellthy’s Backup Care solution is that we can help employees build a personalized Care Circle—a speed dial of care options—that can be called upon whenever a Backup Care need emerges.
+ What is Backup Care and how do I use it?
+ How is Wellthy’s support personalized?
+ Wellthy matches each family with a dedicated Care Coordinator who gets to know your unique needs. We tailor every recommendation, resource, and plan to your situation—no generic checklists or one-size-fits-all tools.
+ How is Wellthy’s support personalized?
+ Can I use Wellthy if I'm taking care of a family member?
+ Yes. Wellthy is designed to support caregivers, whether you’re caring for a child, spouse, parent, or other loved one. You can get help managing care for one or multiple family members.
+ Can I use Wellthy if I'm taking care of a family member?
+ Can I use Wellthy for more than one family member?
+ Yes. You can get support for multiple family members across different types of care. For example, we can help with a child’s special needs plan and also assist an aging parent at the same time.
+ Can I use Wellthy for more than one family member?
+ Can I use Wellthy to support my own personal care needs?
+ Yes, you can get support for your own personal care needs from Wellthy’s expert Care Team. (Note: Some employer benefit program designs may require referral to other providers for self-care projects. In these circumstances, Wellthy’s team is seamlessly able to connect an employee to a preferred provider for self-care needs or coaching.)
+ Can I use Wellthy to support my own personal care needs?
+ Is there a cost to use Wellthy as an employee?
+ No. If your employer or health plan offers Wellthy, the service is completely free for you and any eligible loved ones.
+ Is there a cost to use Wellthy as an employee?
+ Is my information secure and private?
+ Yes. Wellthy is fully HIPAA-compliant and takes data security seriously. Your information is encrypted, confidential, and only accessible to authorized team members supporting your care.
+ Is my information secure and private?
+ What is Wellthy Care Concierge?
+ Wellthy Care Concierge connects members with a dedicated Care Coordinator who handles complex caregiving tasks—such as researching providers, managing paperwork, advocating for families in medical and care settings, and navigating health systems. This high-touch, personalized service supports a wide range of care needs including eldercare, childcare, special needs, and more.
+ What is Wellthy Care Concierge?
+ What is Wellthy Backup Care?
+ Wellthy Backup Care provides fast, reliable care when regular arrangements fall through—or when families want to plan ahead for care gaps (e.g. school holidays, babysitter vacations, summer breaks). Employees can request vetted in-home or in-center care for children, older adults, and loved ones with special needs—directly through the Wellthy platform or with help from a Care Coordinator.
+ What is Wellthy Backup Care?
+ Why is Wellthy Backup Care the best backup care solution?
+ Wellthy Backup Care stands out with unmatched personalization, easy booking, and access to a proprietary network of over 350,000 vetted providers. Families receive concierge-style support from real experts—not just apps or chatbots—ensuring high-quality care with less hassle, and better outcomes for both employees and employers.
+ Why is Wellthy Backup Care the best backup care solution?
+ What is a Backup Care Specialist?
+ A Backup Care Specialist at Wellthy is a trained expert who helps families quickly find reliable care when regular arrangements fall through. They source and coordinate vetted in-home or in-center care providers for children, older adults, and loved ones with special needs. Backup Care Specialists ensure families get fast, personalized support—often within hours—so employees can stay focused and avoid missing work.
+ What is a Backup Care Specialist?
+ What is Wellthy Community?
+ Wellthy Community is a peer-to-peer support space where caregivers can connect, share experiences, and get emotional support from others going through similar caregiving journeys. It’s a private, moderated environment for Wellthy members only. Not all Wellthy members have access to Wellthy Community - if you have any questions, reach out to your Care Coordinator or Member Support.
+ What is Wellthy Community?
+ Does Wellthy help with eldercare and aging-in-place planning?
+ Yes. Wellthy provides expert guidance for families navigating eldercare, including in-home care, housing transitions, Medicaid planning, memory care, and aging-in-place strategies. Coordinators help build long-term plans that prioritize safety, dignity, and quality of life.
+ Does Wellthy help with eldercare and aging-in-place planning?
+ Can Wellthy support children with special needs or neurodivergence?
+ Absolutely. Wellthy helps families find educational supports, therapy providers, special education resources, and long-term care planning for children with autism, ADHD, learning differences, and other neurodivergent needs.
+ Can Wellthy support children with special needs or neurodivergence?
+ Does Wellthy assist with legal, financial, or housing needs?
+ Yes. Wellthy helps families connect with legal professionals for wills, powers of attorney, and guardianship; financial advisors for benefits and budgeting; and housing support for senior living, home modifications, or relocation assistance.
+ Does Wellthy assist with legal, financial, or housing needs?
+ Does Wellthy assist Veterans?
+ Yes. Wellthy supports Veterans and their families by navigating VA benefits, identifying qualified care providers, assisting with service-connected claims, and helping access specialized programs and resources.
+ Does Wellthy assist Veterans?
+ Does Wellthy support care needs for teens?
+ Yes. Wellthy helps families navigate a wide range of care needs for teenagers, including mental health support, academic accommodations, special education services, neurodivergence, and transitions to adulthood. Our Care Coordinators can assist with finding therapists, tutors, IEP/504 plan guidance, vocational programs, and more—tailored to your teen’s unique needs and goals.
+ Does Wellthy support care needs for teens?
+ Does Wellthy support LGBTQ+ families and intersectional care needs?
+ Yes. Wellthy offers inclusive, identity-affirming support for LGBTQ+ individuals and families, as well as those navigating care through the lens of race, culture, gender identity, disability, and more. Our Care Coordinators can help you find affirming providers, culturally competent resources, and safe, supportive care options tailored to your unique circumstances—across all stages of life and caregiving.
+ Does Wellthy support LGBTQ+ families and intersectional care needs?
+ Can Wellthy support expectant parents and families in the postpartum period?
+ Yes. Wellthy helps families prepare for and navigate early parenthood. We support expectant parents with finding doulas, creating birth plans, vetting pediatricians, parental leave guidance, and more. After birth, we assist with postpartum recovery resources, connecting members with lactation and sleep coaching, childcare options, and return-to-work planning—offering compassionate support through every step of the journey.
+ Can Wellthy support expectant parents and families in the postpartum period?
+ Does Wellthy provide support for cancer?
+ Yes. Wellthy helps individuals and families manage a cancer diagnosis by coordinating care teams, scheduling treatments, managing insurance and medical records, and providing emotional and logistical support throughout the journey.
+ Does Wellthy provide support for cancer?
+ Can Wellthy help with insurance, medical billing, and care costs?
+ Yes. Wellthy helps members navigate the complexities of insurance and healthcare billing. Our Care Coordinators can review and explain coverage, identify in-network providers, sort out the cost of care, and help contest inaccurate or unexpected medical bills. We also advocate on your behalf—working directly with hospitals, providers, and insurance companies to resolve issues and ensure you get the benefits you're entitled to.
+ Can Wellthy help with insurance, medical billing, and care costs?
+ How does Wellthy support mental health, self-care, and managing stress?
+ Wellthy helps ease the emotional and logistical burden of caregiving so members can focus on their own well-being. Our Care Coordinators can connect you with licensed mental health providers, support groups, and life coaches, and help you explore any mental health benefits offered through your employer. Whether you're managing your own stress or supporting a loved one, Wellthy provides personalized, compassionate guidance to make self-care more accessible.
+ How does Wellthy support mental health, self-care, and managing stress?
+ How does Wellthy support during a natural disaster or emergency?
+ Wellthy helps families prepare for, navigate, and recover from disasters by securing emergency housing, locating care providers, handling insurance documentation, and ensuring continuity of care during times of disruption.
+ How does Wellthy support during a natural disaster or emergency?
+ How does Wellthy support members through end of life and loss?
+ Wellthy provides compassionate, step-by-step support for end-of-life planning and grief. This includes assistance with hospice, funeral planning, estate documents, surviving spouse benefits, and emotional support throughout the bereavement process.
+ How does Wellthy support members through end of life and loss?
+ How is Wellthy different from an EAP?
+ While EAPs offer short-term, general support, Wellthy goes deeper—providing hands-on, expert help to navigate complex and long-term caregiving needs. Each family is matched with a dedicated Care Coordinator who manages tasks like researching providers, scheduling services, and building care plans. Unlike EAPs, Wellthy stays with families through every step of their care journey, delivering high-touch support, measurable outcomes, and ongoing guidance across eldercare, childcare, mental health, special needs, and more. In addition, EAPs do not provide Backup Care support for families - Wellthy offers support for all care needs including emergency Backup Care.
+ How is Wellthy different from an EAP?
+ What is a Wellthy Care Project?
+ A Care Project is how you get help from Wellthy. You submit a request—like finding home care, appealing a medical bill, or arranging childcare—and your Care Coordinator creates a personalized plan, works through the details, and shares updates as progress is made.
+ What is a Wellthy Care Project?
+ How does messaging work in the Wellthy platform?
+ You can securely message your Care Coordinator at any time through the platform. It's the easiest way to ask questions, share updates, or request support, and you'll receive prompt, personal responses as your care needs evolve.
+ How does messaging work in the Wellthy platform?
+ What is the Care Circle within the Wellthy platform?
+ Your Care Circle includes anyone you invite to collaborate on a Care Project—like a spouse, sibling, or trusted friend. Everyone in the circle can view updates, communicate with the Care Coordinator, and stay in the loop. You can easily invite a loved one to join a Care Project by clicking “Invite others to the Care Circle” from your main platform view.
+ What is the Care Circle within the Wellthy platform?
+ What are Tasks in the Wellthy platform?
+ Tasks are the action steps your Care Coordinator is working on—or that you might need to complete. Each task is clearly outlined with status updates so you can easily track progress and know what’s next.
+ What are Tasks in the Wellthy platform?
+ How do I use the Calendar feature in the Wellthy platform?
+ The Calendar tool helps you keep track of important dates—like medical appointments, care transitions, or school meetings. You or your Care Coordinator can add key events so everything is organized in one place. The Calendar can be synced with your Google calendar, if desired!
+ How do I use the Calendar feature in the Wellthy platform?
+ What is the Medication Tracker in the Wellthy platform?
+ The Medication Tracker allows you to log and manage medications for yourself or a loved one. You can record dosage, frequency, and refill dates, and your Care Coordinator can help you stay on top of prescriptions or find local pharmacy support.
+ What is the Medication Tracker in the Wellthy platform?
+ What is the Contacts feature used for in the Wellthy platform?
+ Contacts is a secure space to store care-related phone numbers, emails, and provider information. Whether it’s a favorite doctor, home aide, or insurance rep, you’ll have all the details in one place—and your Care Coordinator can help you keep it up to date.
+ What is the Contacts feature used for in the Wellthy platform?
+ Is Wellthy available on both desktop and mobile?
+ Yes. Wellthy is fully accessible via desktop and mobile browsers. Our platform is designed to deliver a seamless, responsive experience no matter what device you're using.
+ Is Wellthy available on both desktop and mobile?
+ Does Wellthy have a mobile app?
+ Yes. Wellthy offers mobile apps for both iOS and Android devices. You can download the app from the Apple App Store or Google Play to manage care and message your Coordinator.
+ Does Wellthy have a mobile app?
+ Is the Wellthy experience mobile-optimized?
+ Absolutely. Whether you're using the Wellthy app or mobile web, the entire platform is optimized for a fast, intuitive experience—making it easy to get support anytime, anywhere.
+ Is the Wellthy experience mobile-optimized?
+ Is Wellthy accessible?
+ Yes. Wellthy is committed to digital accessibility and follows Web Content Accessibility Guidelines (WCAG). Our platform is designed to support screen readers, keyboard navigation, and other assistive technologies to ensure an inclusive experience for all users. You can learn more about platform accessibility here .
+ Is Wellthy accessible?
+ Can I use Wellthy on a tablet?
+ Yes. Wellthy works smoothly on tablets as well as smartphones and desktop browsers, giving you flexible access across all your devices.
+ Can I use Wellthy on a tablet?
+ What countries does Wellthy operate in?
+ Wellthy provides caregiving support in over 190 countries. Our global Care Concierge service is available to employees whether they’re in Bangalore, Busan, Brasilia, Brisbane, Boston—or anywhere else in the world.
+ What countries does Wellthy operate in?
+ How does Wellthy support international employees and families?
+ Wellthy pairs each family with a regional Care Coordinator who understands local systems, customs, and providers. Our full-time, in-region team supports every time zone and offers expert, high-touch guidance tailored to local healthcare, education, and caregiving ecosystems.
+ How does Wellthy support international employees and families?
+ Are Wellthy’s services available in multiple languages?
+ Yes. Wellthy offers multilingual support across all global regions. Our Care Team includes native speakers in 25+ languages, including Spanish, French, Portuguese, Mandarin, Japanese, Arabic, Hindi, and more—ensuring employees receive care in the language they’re most comfortable with.
+ Are Wellthy’s services available in multiple languages?
+ Is Wellthy HIPAA compliant?
+ Yes. Wellthy is fully HIPAA compliant and follows strict protocols to protect personal health information. We are committed to maintaining the highest standards of privacy, security, and compliance across all our caregiving services. Learn more at our Trust Center .
+ Is Wellthy HIPAA compliant?
+ How does Wellthy ensure the safety of its recommended providers?
+ Wellthy vets every provider we recommend using a rigorous review process that includes credential checks, licensing verification (where applicable), member feedback, and ongoing quality assessments. We do not contract with providers, allowing us to give unbiased, personalized recommendations based solely on what’s best for each family.
+ How does Wellthy ensure the safety of its recommended providers?
+ Who has access to my caregiving information?
+ Only authorized Wellthy team members involved in your care project—such as your Care Coordinator and support team—have access to your caregiving information. We use secure, encrypted systems to store and manage data, and we never share information without your consent.
+ Who has access to my caregiving information?
+ What is Wellthy’s approach to data privacy and security?
+ Wellthy takes a proactive, enterprise-level approach to data protection. Our systems are built around HIPAA compliance and include regular risk assessments, encryption, access controls, and secure infrastructure. We continuously update our protocols to stay ahead of evolving threats and maintain transparency through our Trust Center .
+ What is Wellthy’s approach to data privacy and security?
+ How does Wellthy measure the success of caregiving support?
+ Wellthy measures success through employee engagement, satisfaction, and outcomes—like reduced absenteeism, improved retention, and care plan completion. We also track key metrics such as Net Promoter Score (NPS), time saved, and usage rates.
+ How does Wellthy measure the success of caregiving support?
+ What kind of reporting do employers receive from Wellthy?
+ Employers receive regular, de-identified reports that highlight usage trends, engagement, case outcomes, and impact metrics. Our reporting helps benefits teams understand how Wellthy is supporting their workforce and driving ROI.
+ What kind of reporting do employers receive from Wellthy?
+ What is Wellthy’s NPS score?
+ Wellthy consistently earns Net Promoter Scores (NPS) in the 80s and 90s, which is considered world-class and reflects the high satisfaction of the families we support.
+ What is Wellthy’s NPS score?
+ What results have other companies seen from using Wellthy?
+ Employers offering Wellthy report reduced turnover, fewer missed shifts, and improved employee well-being. On average, companies see a 3.6x return on investment, with measurable reductions in stress, burnout, and leave incidence.
+ What results have other companies seen from using Wellthy?
+ Is there a Wellthy case study or ROI analysis I can review?
+ Yes. You can explore real employer outcomes and ROI data—including a study from Harvard Business School—on our ROI and Case Studies pages.
+ Is there a Wellthy case study or ROI analysis I can review?
+ How can I contact Wellthy?
+ You can reach Wellthy by calling 1-877-588-3917 or emailing support@wellthy.com. If you're already a member, you can log in to start a new Care Project or message your Care Coordinator directly through an existing Care Project. Help is also available via Live Chat.
+ How can I contact Wellthy?
+ How do I reach my Wellthy Care Coordinator?
+ Once you’re logged into the Wellthy platform, you can message your Care Coordinator directly from your dashboard. They’ll respond promptly to help you manage your care tasks and questions.
+ How do I reach my Wellthy Care Coordinator?
+ How can I get help with Wellthy Backup Care?
+ For Backup Care assistance, log into the Wellthy platform to request care or message our Backup Care Specialist team. For immediate questions, you can also call (518) 243-8025.
+ How can I get help with Wellthy Backup Care?
+ What if I need urgent support outside Wellthy business hours?
+ If you have an urgent care need after hours, you can still submit a request through the Wellthy platform. A Care Coordinator will follow up as soon as possible. For true emergencies, please contact 911 or local emergency services.
+ What if I need urgent support outside Wellthy business hours?
+ Can I change or update my caregiving profile on the Wellthy platform?
+ Yes. You can update your care profile anytime by logging into the Wellthy platform and editing your information. This helps your Care Coordinator tailor support to your current needs.
+ Can I change or update my caregiving profile on the Wellthy platform?
+ What is Wellthy?
+ Wellthy is a leading caregiving support solution that helps families navigate complex care needs—from eldercare and childcare to chronic conditions, mental health, and special needs—by connecting them with dedicated care experts. Wellthy has two main products: Care Concierge and Backup Care.
+ What is Wellthy?
+ When was Wellthy founded?
+ Wellthy was founded in 2014 with the mission to make caregiving easier, more affordable, and more accessible for families.
+ When was Wellthy founded?
+ Who founded Wellthy?
+ Wellthy was co-founded by Lindsay Jurist-Rosner, who was inspired by her personal experience caring for her mother with multiple sclerosis for nearly three decades. She co-founded the company with Kevin Roche, who also serves as Chief Technology Officer.
+ Who founded Wellthy?
+ Who is Wellthy’s CEO?
+ Lindsay Jurist-Rosner serves as Wellthy’s Chief Executive Officer.
+ Who is Wellthy’s CEO?
+ Who are the key leaders at Wellthy? 
+ Wellthy’s leadership team includes experts in caregiving, healthcare, technology, and benefits, such as Peter Goody (Chief Product & Experience Officer), Alexander Newbold (Chief Administrative Officer), Dana Pischera (SVP of Care), Eileen Bonney (SVP of Client Success), and other senior leaders in Engineering, Comms/Marketing, and Operations.
+ Who are the key leaders at Wellthy? 
+ Where is Wellthy headquartered?
+ Wellthy is a remote-first company, with team members across the U.S. The company’s corporate headquarters is located in New York City.
+ Where is Wellthy headquartered?
+ How has Wellthy grown over time?
+ Since its founding, Wellthy has grown to support millions of sponsored lives, expanded globally to over 190 countries, and built a proprietary Provider Directory of 400,000+ vetted providers. Wellthy currently supports 40+ Fortune 500 companies.
+ How has Wellthy grown over time?
+ Who invests in Wellthy?
+ Wellthy is backed by investors including Hearst, ReThink Impact, Eldridge, Citi Impact Fund, and NEA, among others.
+ Who invests in Wellthy?
+ Is Wellthy a woman-owned business?
+ Yes. Wellthy is proudly woman-founded and woman-led.
+ Is Wellthy a woman-owned business?
+ What is Lantern?
+ Lantern was a digital platform that provided end-of-life planning tools and resources, helping individuals and families navigate everything from wills and healthcare proxies to memorial planning and grief support. In 2023, Lantern was acquired by Wellthy and fully integrated into our platform. Today, Lantern’s trusted content and planning tools live on through Wellthy’s Care Concierge and Care Planning experiences, offering compassionate support for families preparing for and navigating end-of-life decisions.
+ What is Lantern?
+ Where can I find press coverage or media information about Wellthy?
+ You can explore the latest press coverage, media features, and company announcements on our Press page . For media inquiries or interview requests, you’ll also find contact details for our communications team there.
+ Where can I find press coverage or media information about Wellthy?
+ Has Wellthy received any awards or industry recognition?
+ Yes. Wellthy has been recognized with numerous awards and accreditations for innovation, growth, and impact in caregiving and digital health. Highlights include:
+ Fast Company: Top 10 Most Innovative Companies (2023)
+ Inc. Magazine: Fastest Growing Private Companies (2023, 2024, 2025)
+ Deloitte’s Technology Fast 500: (2023, 2024)
+ Inc. Regionals: Fastest Growing Companies in the Northeast (2023, 2024, 2025)
+ Inc. Female Founders 200: (2023)
+ NY Digital Health 100 – Hall of Fame: Recognized every year from 2020 to 2025
+ Well-Being Trailblazer Award: Archetype & WELCOA (2023)
+ MedTech Breakthrough Award: Best Virtual Care Solution Provider (2024)
+ To explore more press coverage and recognition, visit our Press page .
+ Has Wellthy received any awards or industry recognition?
+ What is it like to work at Wellthy?
+ Wellthy is a mission-driven, remote-first company that’s passionate about transforming the caregiving experience. Our team is collaborative, empathetic, and committed to making a meaningful impact in families’ lives.
+ What is it like to work at Wellthy?
+ Is Wellthy a remote company?
+ Yes. Wellthy is a fully remote organization with team members located across the United States and in select international locations.
+ Is Wellthy a remote company?
+ What are Wellthy’s core values?
+ Wellthy’s core values guide everything we do—from how we support families to how we operate as a team. Our values include:
+ Be responsive: We respond and take action quickly and thoughtfully.
+ Be persistent: We have a never-take-no, never give up, squeaky wheel mindset.
+ Be collaborative: We always look for ways to help, acknowledge and celebrate one another.
+ Be humble: We're hungry for improvement and comfortable learning from our mistakes.
+ Be curious: We have investigative attitudes, go beyond what’s expected, and always ask "why.”
+ Be purposeful: We live out our mission every day and with every interaction.
+ These values shape our culture and ensure that we provide thoughtful, personalized, and meaningful caregiving support.
+ What are Wellthy’s core values?
+ Where can I view open roles at Wellthy?
+ You can explore current job openings at wellthy.com/careers 
+ Where can I view open roles at Wellthy?
+ What benefits does Wellthy offer employees?
+ Wellthy offers competitive compensation, remote flexibility, generous PTO, health and wellness benefits, paid parental leave, and a culture rooted in purpose and inclusion.
+ What benefits does Wellthy offer employees?
+ Solutions
+ For employers 
+ For health plans 
+ For families 
+ Impact
+ Case studies 
+ ROI 
+ Stories 
+ Resources
+ Blog 
+ Accessibility 
+ Private pay plans 
+ Employer resources 
+ Frequently asked questions (FAQs) 
+ Company
+ Our story 
+ Care team 
+ Careers 
+ Press 
+ Patch Caregiving 
+ Contact us 
+ Trust center 
+ Copyright © {date} Wellthy Inc.
+ Privacy Policy Terms of Service Cookie Policy 
+ "Wellthy" and Wellthy logo are registered trademarks of Wellthy, Inc.

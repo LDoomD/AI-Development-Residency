@@ -1,0 +1,1044 @@
+
+ Dementia Family Caregiver’s Willingness to Pay for an In-home Program to Reduce Behavioral Symptoms and Caregiver Stress - PMC
+ Skip to main content
+ An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+ A
+.gov
+ website belongs to an official
+ government organization in the United States.
+Secure .gov websites use HTTPS
+ A 
+lock
+ (
+Lock
+ Locked padlock icon
+) or 
+https://
+ means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites.
+ Search
+Log in
+ Dashboard
+ Publications
+ Account settings
+ Log out
+ Search…
+ Search NCBI
+ Primary site navigation
+ Search
+ Logged in as:
+ Dashboard
+ Publications
+ Account settings
+ Log in
+Search PMC Full-Text Archive
+Search in PMC
+ Journal List
+ User Guide
+PERMALINK
+Copy
+ As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health.
+ Learn more:
+PMC Disclaimer
+ |
+ PMC Copyright Notice
+Pharmacoeconomics
+. Author manuscript; available in PMC: 2020 Apr 1.
+Published in final edited form as: 
+Pharmacoeconomics. 2019 Apr;37(4):563–572. doi: 
+10.1007/s40273-019-00785-6
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Dementia Family Caregiver’s Willingness to Pay for an In-home Program to Reduce Behavioral Symptoms and Caregiver Stress
+Eric Jutkowitz
+Eric Jutkowitz
+1
+Department of Health Services, Policy & Practice, Brown University School of Public Health, Providence, RI.
+Find articles by 
+Eric Jutkowitz
+1
+, 
+Danny Scerpella
+Danny Scerpella
+2
+Johns Hopkins University Center for Innovative Care in Aging, Baltimore, MD
+Find articles by 
+Danny Scerpella
+2
+, 
+Laura T Pizzi
+Laura T Pizzi
+3
+Center for Health Outcomes, Policy, and Economics, Rutgers University Ernest Mario School of Pharmacy, Piscataway, NJ.
+Find articles by 
+Laura T Pizzi
+3
+, 
+Katherine Marx
+Katherine Marx
+4
+Johns Hopkins University Center for Innovative Care in Aging, Baltimore, MD.
+Find articles by 
+Katherine Marx
+4
+, 
+Quincy Samus
+Quincy Samus
+5
+Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD.
+Find articles by 
+Quincy Samus
+5
+, 
+Catherine Verrier Piersol
+Catherine Verrier Piersol
+6
+Thomas Jefferson University, Department of Occupational Therapy, Philadelphia, PA.
+Find articles by 
+Catherine Verrier Piersol
+6
+, 
+Laura N Gitlin
+Laura N Gitlin
+4
+Johns Hopkins University Center for Innovative Care in Aging, Baltimore, MD.
+7
+College of Nursing and Health Professions, Drexel University, Philadelphia, PA,
+Find articles by 
+Laura N Gitlin
+4,
+7
+Author information
+Copyright and License information
+1
+Department of Health Services, Policy & Practice, Brown University School of Public Health, Providence, RI.
+2
+Johns Hopkins University Center for Innovative Care in Aging, Baltimore, MD
+3
+Center for Health Outcomes, Policy, and Economics, Rutgers University Ernest Mario School of Pharmacy, Piscataway, NJ.
+4
+Johns Hopkins University Center for Innovative Care in Aging, Baltimore, MD.
+5
+Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD.
+6
+Thomas Jefferson University, Department of Occupational Therapy, Philadelphia, PA.
+7
+College of Nursing and Health Professions, Drexel University, Philadelphia, PA,
+Author Contributions:
+EJ, LTP, KM, LNG: study design and analysis. All authors participated in the interpretation of data, drafting of manuscript, critical revision of manuscript, and approval of final manuscript.
+✉
+Corresponding author: Eric Jutkowitz, Brown University School of Public Health, Box G-S121-6, 121 S. Main Street, 6
+th
+ Floor, Providence, RI 02912; 
+Eric_Jutkowitz@Brown.edu
+.
+PMC Copyright notice
+PMCID: PMC6465140  NIHMSID: NIHMS1524156  PMID: 
+30877638
+The publisher's version of this article is available at 
+Pharmacoeconomics
+Abstract
+Objectives:
+To determine whether family caregivers of persons with dementia (PwD) are willing to pay (WTP) for an in-home intervention that provides strategies to manage behavioral symptoms and caregiver stress and to identify predictors of WTP.
+Methods:
+During baseline interviews of a randomized trial, caregivers were asked prior to treatment assignment how much they were WTP per session for an 8-session program over 3 months. We stratified the sample into those who refused to provide a WTP, those WTP $0, and those WTP>$0. We used a two-part model, controlling for demographic characteristics, to predict adjusted mean WTP and to examine associations between WTP, clinical features (cognition, function, behavioral symptoms) and time spent providing PwD assistance with daily activities. First, we used logistic regression to model the probability a caregiver was WTP>$0. Second, we used a generalized linear model (log link and Gamma distribution) to estimate the amount caregivers were WTP conditional on WTP>$0.
+Results:
+Of 250 dyads enrolled, 226 (90%) had complete data and were included in our analyses. Of 226, 26 (11 %) refused to provide a WTP value, 72 (32%) were WTP $0, and 128 (57%) were WTP>$0. In the combined model, mean adjusted WTP was $36.00 (95% CI: $26.72, $45.27) per session. Clinical features were not significantly associated with WTP. One-additional hour providing PwD assistance was associated with a $1.64 (95% CI: $0.23, $3.04) increase in WTP per session.
+Conclusion:
+As caregivers spend more time assisting with daily activities, they are WTP more for a supportive program.
+Clinical Trial Registration Number:
+NCT01892579
+Keywords:
+ dementia, family caregiving, willingness to pay
+1. INTRODUCTION
+Dementia involves a complex cluster of clinical features including cognitive and functional declines, usually combined with behavioral symptoms [
+1
+, 
+2
+]. The clinical features of dementia, particularly functional decline and behavioral symptoms, result in persons with dementia (PwD) needing extensive formal and informal long-term support [
+3
+, 
+4
+]. Over the disease trajectory, informal caregivers provide most dementia long-term care [
+5
+]. Thus, dementia not only effects the person living with the disease but it also exerts significant health and financial tolls on families [
+5
+, 
+6
+]. Most older adults, including PwD, wish to remain at home with high quality of life [
+7
+, 
+8
+]. To help PwD remain at home with quality of life requires providing the over 15 million informal caregivers with effective ongoing support [
+5
+, 
+8
+–
+10
+].
+A host of nondrug interventions (e.g., Tailored Activity Program [TAP] which provides dementia caregivers skills to manage behavioral symptoms through activities tailored to the interests and abilities of the PwD) have been shown to effectively provide informal caregivers with skills to manage or reduce functional limitations and dementia-related behavioral symptoms and the associated caregiver stress [
+11
+–
+16
+]. Some interventions have also been shown to reduce the time needed to provide informal care [
+17
+, 
+18
+, 
+16
+, 
+19
+]. The adoption of these programs by families and providers has been limited due in part to the lack of reimbursement or sustainable payment models in the United States. Payment mechanisms have been stifled in part because programs are typically tested outside of the traditional health care delivery system, the interventions target caregivers who may not be a Medicare or Medicaid beneficiary, and delivering the interventions may require more time on the part of providers than is reimbursable under existing service codes. With shifts in the purchasing, payment, and delivery of health care proven nondrug interventions could become part of standard dementia care.
+For proven nondrug interventions to become part of standard care, it is necessary to understand their affordability, value, and perceived need by caregivers. This requires an evidence-base beyond efficacy and effectiveness data that incorporates needs assessments and health economic evaluations [
+20
+, 
+21
+]. Willingness to pay (WTP), based on contingent valuation methodology, represents a key data point that can inform decision makers as to the affordability, value, and need for a program as perceived by end users [
+22
+–
+27
+]. Specifically, WTP questions ask respondents (in our study, family caregivers) to report the maximum amount they would pay for a given service or product.
+In prior analyses, we evaluated the cost-effectiveness of TAP [
+16
+, 
+17
+, 
+27
+]. We found that TAP generated significant benefits for caregivers, and specifically, saved families time, a highly valued outcome.
+In this study, we provide decision makers with a broader perspective of the affordability, value, and need of a nondrug dementia intervention such as TAP by prospectively evaluating the caregiver’s perception of the value of the program prior to its exposure. We used baseline data from a randomized trial, referred to as the Dementia Behavior Study which evaluated the benefits of TAP relative to an education program, to report caregivers’ WTP for an 8-session (over 3 months) in-home intervention that is delivered by a healthcare professional (occupational therapists) and provides methods for addressing dementia related behavioral symptoms and stress reduction techniques [
+28
+]. In addition, we estimated the association between a caregiver’s WTP and dementia-related clinical features (cognition, function, behavioral symptoms) and time spent providing assistance with daily activities. Prior studies have documented strong associations between worsening clinical features of dementia and increased time spent caregiving, caregiver burden, and out-of-pocket spending [
+3
+, 
+4
+, 
+29
+–
+31
+]. In addition, the clinical features of dementia are often the targets of interventions (e.g., TAP sought to help caregivers manage challenging behavioral symptoms) with time spent caregiving serving as a key outcome.
+2. METHODS
+2.1. Study Sample and Procedure
+Details of the Dementia Behavior Study are reported elsewhere [
+28
+]. In short, the trial recruited community-dwelling PwD and their caregivers (dyads) between 2013 and 2016 from rural and urban regions from the State of Maryland and Washington DC. Dyads were recruited by mailings from local aging service providers, media announcements, local community health seminars, and online trial searches. Eligible participants had to be English-speaking, have a physician diagnosis of dementia, able to participate in ≥2 activities of daily living, exhibit agitated/aggressive behaviors, and have a caregiver willing to participate. Caregivers had to be English-speaking, a family member (including fictive kin), ≥21 years of age, live with or close by the PwD (≤15 minutes or ≤5 miles), have access to a telephone, and plan on living in the area for ≥6 months. Finally, both PwD and/or caregivers taking psychotropic medications had to be on a stable dose for ≥60 days prior to enrollment. The study was reviewed and approved by the Johns Hopkins University Institutional Review Board and a Data Safety Monitoring Board. All participants provided written informed consent. In cases where PwD lacked capacity for consent, proxy consent was obtained from the responsible party, typically the primary caregiver.
+Dyads were screened in brief telephone interviews and, if eligible and willing, invited to participate in the trial. Enrolled dyads, prior to randomization or being exposed to the intervention or attention control group conditions, participated in a baseline interview. The baseline interview was conducted in homes by trained interviewers. The interview consisted of a battery of items that included questions related to WTP, dementia clinical features, and demographic characteristics. Our WTP evaluation relies solely on measures collected during the baseline interviews before dyads were randomized and hence made aware of their group assignment.
+2.2. Measures
+2.2.1. Willingness-to-Pay (WTP)
+Caregivers were asked the following WTP question (
+Figure 1
+) which was developed by the team’s health economic researchers (EJ, LP) in partnership with the principal investigator (LNG): “How much would you be willing to pay per session for an 8-session program that lasts 3 months, and was delivered by healthcare professionals in your home who provided you with ways of addressing problem behaviors of persons with dementia and also taught you stress reducing techniques?”
+Figure 1. Willingness-to-pay question stem.
+Open in a new tab
+The willingness-to-pay question stem was read to the caregiver. If a respondent asked for more information, interviewers indicated that the individual sessions generally lasted for an hour. Caregivers were presented with a sheet on which dollar values were listed as a guide, and interviewers reinforced that any answer was acceptable as denoted by the ‘Other’ selection.
+Following the WTP question stem, caregivers were presented with a multiple choice payment card and asked to identify a single amount they would pay per session: $0/session, $25/session, $50/session, $75/session, $100/session, $125/session, $150/session, $175/session, $200/session, or other.
+2.2.2. Dementia Clinical Features
+At the baseline interview, the cognitive status of the PwD was evaluated using the Mini-Mental State Examination (MMSE; scored from 0–30 with lower scores indicating greater cognitive limitations) [
+32
+].
+Behavioral symptoms were evaluated using the Neuropsychiatric Inventory Clinician (NPI-C) version. Caregivers identified the number of behaviors present (0 = not present, 1 = present) in the past month across 14 symptoms: 1) delusions, 2) hallucinations, 3) agitation, 4) aggression, 5) dysphoria, 6) anxiety, 7) elation/euphoria, 8) apathy/indifference, 9) disinhibition, 10) irritability/lability, 11) aberrant motor disturbance, 12) sleep disorders, 13) appetite/eating disorders, 14) aberrant vocalizations. For this study, we created a summary measure of the total number of behavioral symptoms present (0–14) with higher scores indicative of more behavioral symptoms occurring in the past month. Prior empirical evaluations, including several of our studies, indicate that the number of behavioral symptoms is strongly predictive of out-of-pocket spending and financial strain [
+3
+, 
+4
+, 
+29
+, 
+31
+, 
+30
+].
+Function was evaluated using the Caregiver Assessment of Function and Upset scale which assesses the number of tasks a caregiver indicated the person with dementia needed assistance with in the past week across 15 domains [
+33
+]: 1) using the telephone, 2) shopping, 3) food preparation, 4) housekeeping, 5) laundry, 6) traveling by car/bus/etc., 7) taking medications, 8) handling finances, 9) getting into or out of a bed/chair/wheelchair, 10) eating meals, 11) bathing, 12) dressing above the waist, 13) dressing from the waist down, 14) toileting, and 15) grooming. We summed the number of domains for which any type of assistance was needed (1 = assistance needed; 0 = no assistance needed) to generate a summary score (0–15) with higher scores indicating a greater number of daily activities requiring some form of help from caregivers. Prior studies have indicated that the number of functional limitations is strongly associated with family out-of-pocket expenditures and financial strain versus the level of dependence or other measures of function [
+3
+, 
+4
+, 
+29
+, 
+31
+, 
+30
+].
+2.2.3. Time Caregiving
+Caregivers were asked to report the amount of time they spend on a typical day providing assistance to the PwD for tasks such as toileting, eating, dressing, grooming, walking and bathing (i.e., activities of daily living [ADLs]). In a separate question, caregivers were asked to report the amount of time they spend on a typical day providing assistance for tasks such as shopping, food preparation, housekeeping, laundry, transportation, taking medications, and managing financial matters (i.e., instrumental activities of daily living [IADLs]).
+For each caregiver, we created a measure of total hours caregiving in a day (time caregiving for ADLs + time caregiving for IADLs). We assumed a caregiver could not provide >16 hours of total caregiving in a day (41 caregivers were top coded at providing 16 hours of care) [
+34
+]. Time spent providing care has been associated with caregiver burden and nursing home placement [
+35
+, 
+36
+].
+2.2.4. Covariates
+Demographic variables were captured for the PwD and their caregiver. For parsimony, we selected those demographic variables that we believed, conceptually and based on prior empirical evaluations, would most likely confound the relationship between WTP and dementia clinical features and time spent providing informal care. Specifically, we included demographic variables for the caregiver that include age at baseline, educational attainment (0 = less than college; 1 = completed college), race (0 = White; 1 = African American; 2 = Other), the relationship to the PwD (0 = spouse; 1 = child; 2 = other), degree of financial difficulty encountered when paying for necessities (0 = no difficulty; 1= not very difficult, somewhat difficult, or very difficult), and employment status (0 = not employed; 1 = employed). Variables for the PwD included age at baseline, if the person lived alone (0 = lives with others; 1 = lives alone), and their gender (0 = male; 1 = female).
+2.3. Statistical Analysis
+We descriptively evaluated the sample stratified by amount WTP (do not know/refused, WTP $0, and WTP>$0). Five respondents indicated insurance would pay for the intervention and these individuals were coded as don’t know/refused. Categorical variables were compared between the three groups using 
+χ
+2
+ test and continuous variables were evaluated using one-way analysis of variance.
+We estimated regression models to determine adjusted mean session WTP and to find the association between WTP, dementia clinical features, and time caregiving. We used a two-part model to account for the large proportion of caregivers who indicated they were WTP $0 (36%) compared to WTP >$0 (64%). In the first part, we estimated a logistic regression in which the outcome represented if a caregiver was WTP >$0 (0 = WTP $0; 1 = WTP >$0). In the second part, we estimated a generalized linear model (log link and Gamma distribution) in which the outcome represented the amount a respondent was WTP among those WTP >$0. We chose to use a log link and Gamma distribution after evaluation of the baseline data and testing the functional form of candidate models. For each covariate, we evaluated the independent marginal effects from each part of the model (i.e., marginal effects in part 1 and marginal effects in part 2). We also evaluated the joint marginal effects which account for combined effects from the first and second parts of the model.
+We excluded 13 dyads who had missing data on the variables of interest. We also excluded the first 11 randomized dyads as we implemented the WTP question after they completed the baseline interview. There were differences between those excluded due to missing data, those excluded due to not being asked the WTP questions, and those included in analyses in terms of race and the relationship between the dyads (
+eTable 1
+). On all other variables there were no differences between those included/excluded. All analyses were conducted in Stata 14.2.
+3. RESULTS
+3.1. Sample Statistics
+Of the 250 dyads enrolled in the trial, 226 (90%) had complete data on the variables of interest and were included in our analyses. Among the 226 included, 26 (11%) caregivers did not know/refused to provide a WTP value, 72 (32%) caregivers were WTP $0, and 128 (57%) caregivers were WTP >$0 (
+Table 1
+). On all demographic variables, except for age, education and race, there were no significant differences between those who reported do not know/refused, WTP $0, and WTP >$0. Older caregivers were more likely to indicate they did not know how much they were WTP. Those with at least a college education were more likely to indicate they were WTP>$0 than those with less education, and White caregivers were more likely to be WTP>$0 than African American or other minority racial group caregivers.
+Table 1.
+Baseline Demographic Characteristics (N= 226)
+Do not Know
+n=26
+Willing-to-pay $0
+n=72
+Willing-to-pay >$0
+n=128
+p-value
+*
+Caregiver characteristics
+Age, mean (SD)
+71.42 (13.08)
+63.82 (12.16)
+64.63 (12.82)
+p=0.026
+Less than college education, n (%)
+9 (35)
+54 (75)
+58 (45)
+p<0.001
+Race
+p<0.001
+ White, n (%)
+16 (61)
+32 (44)
+92 (72)
+ African American, n (%)
+7 (27)
+36 (50)
+33 (26)
+ Other, n (%)
+3 (12)
+4 (6)
+3 (2)
+Relationship to person with dementia
+p=0.142
+ Spouse, n (%)
+18 (69)
+30 (42)
+58 (45)
+ Child, n (%)
+6 (23)
+37 (51)
+62 (48)
+ Other, n (%)
+2 (8)
+5 (7)
+8 (6)
+No financial difficulty, n (%)
+17 (65)
+33 (46)
+72 (56)
+p=0.169
+Currently employed, n (%)
+6 (23)
+24 (33)
+43 (34)
+p=0.564
+Mean hours of care provided in a day, (SD)
+6.73 (5.15)
+8.33 (5.27)
+7.40 (5.02)
+p=0.894
+Person with dementia characteristics
+Age, mean (SD)
+80.03 (8.52)
+80.54 (7.57)
+81.64 (7.70)
+p=0.757
+Female, n (%)
+13 (50)
+52 (72)
+78 (61)
+p=0.093
+Lives alone, n (%)
+0 (0)
+7 (10)
+12 (9)
+p=0.259
+Mean Mini-Mental State Examination, (SD)
+15.35 (6.71)
+13.51 (8.32)
+14.92 (7.61)
+p=0.416
+Mean number of behaviors, (SD)
+6.57 (2.21)
+7.68 (2.52)
+7.86 (2.49)
+p=0.720
+Mean number of functional limitations, (SD)
+10.77 (3.06)
+10.56 (3.33)
+10.53 (3.78)
+p=0.276
+Open in a new tab
+*
+Categorical variables were evaluated by 
+χ
+2
+ test and continuous variables were evaluated by one-way analysis of variance.
+3.2. Unadjusted/Adjusted Willingness to Pay
+Among all those who provided a WTP value (WTP $0 and WTP >$0; n=200) mean unadjusted WTP was $36.54/session (SD = 83.56) or $292.321 (SD = 668.48) for 8-sessions over 3 months. Mean adjusted WTP (obtained from the two-part model) was $36.00 (95% CI: $26.73, $45.27) a session or $288.00 (95% CI: $213.82, $362.18) for 8-sessions over 3 months.
+3.3. Association between Willingness to Pay and Dementia Clinical Features and Hours Providing Informal Care
+In the first part of the two-part model (i.e., logistic regression), no clinical feature (cognition, function, or behavior) was significantly associated with WTP >$0 (
+Table 2
+). In addition, hours of informal caregiving were not associated with WTP >$0 (
+eTable 2
+for independent marginal effects
+). Not completing college and not being White (i.e., African American or other minority group) were associated with a lower probability of WTP >$0.
+Table 2.
+Two-part regression model of willingness to pay
+Part 1: Probability willing to
+pay >$0
+a
+Part 2: Amount willing to pay
+given willing to pay >$0
+b
+Combined Marginal effect
+(95% Confidence Interval)
+n=200
+Coefficient
+(95% Confidence Interval)
+n=128
+Coefficient
+(95% Confidence Interval)
+Intercept
+−1.73 (−6.53, 3.07)
+4.20 (2.68, 5.72)
+***
+Caregiver characteristics
+Age
+−0.01 (−0.06, 0.03)
+0.01 (−0.01, 0.03)
+$0.16 (−$0.79, $1.11)
+Education (ref = less than college)
+ At least a college education
+1.39 (0.65, 2.14)
+***
+0.61 (0.34, 0.89)
+***
+$38.62 ($20.90, $56.34)
+***
+Race (ref = White)
+ African American
+−1.51 (−2.28, −0.73)
+***
+−0.05 (−0.39, 0.29)
+−$18.04 (−$31.37, −$4.70)
+*
+ Other
+−1.61 (−3.09, −0.13)
+**
+0.06 (−0.95, 1.06)
+−$16.60 (−$48.66, $15.46)
+Relation to person with dementia (ref = spouse)
+ Child
+0.72 (−0.65, 2.09)
+−0.10 (−0.85, 0.66)
+$3.16 (−$22.91, $29.24)
+ Other
+0.44 (−1.39, 2.26)
+1.11 (−0.27, 2.5)
+$74.09 (−$60.69, $208.87)
+Financial difficulty (ref = no difficulty)
+ Has financial difficulty
+0.08 (−0.61, 0.77)
+0.16 (−0.13, 0.44)
+$6.54 (−$6.18, $19.26)
+Employment (ref = not employed)
+ Currently employed
+−0.26 (−1.11, 0.58)
+−0.43 (−0.74, −0.11)
+*
+−$16.47 (−$29.49, −$3.44)
+*
+Hours providing care in a day
+−0.01 (−0.08, 0.06)
+0.05 (0.02, 0.08)
+**
+$1.64 ($0.23, $3.04)
+*
+Person with dementia characteristics
+Age
+0.04 (−0.01, 0.1)
+−0.03 (−0.05, 0.00)
+−$0.48 (−$1.62, $0.67)
+Female
+−0.70 (−1.71, 0.32)
+0.23 (−0.20, 0.66)
+$1.62 (−$16.15, $19.40)
+Living Situation (ref = lives with at least someone else)
+ Lives alone
+−0.28 (−1.5, 0.93)
+0.43 (−0.07, 0.94)
+$14.61 (−$16.81, $46.04)
+Mini-Mental State Examination
+0.00 (−0.06, 0.05)
+0.01 (−0.01, 0.03)
+$0.30 (−$0.58, $1.17)
+Number of behaviors
+0.00 (−0.15, 0.15)
+0.00 (−0.05, 0.05)
+$0.13 (−$2.21, $2.47)
+Number of functional limitations
+−0.01 (−0.12, 0.09)
+0.03 (−0.02, 0.07)
+$0.84 (−$1.21, $2.89)
+Open in a new tab
+*
+p<0.05,
+**
+p<0.01,
+***
+p<0.001
+a
+Hosmer-Lemeshow goodness of fit p = 0.4877;
+b
+Scaled deviance = 88.16, p = 0.95
+In the second part of the two-part model (i.e., WTP among those WTP >$0), no clinical feature was associated with the amount a caregiver was WTP (
+Table 2
+). Yet, one-additional hour of providing assistance for ADLs and IADLs was associated with a $2.74 (95% CI: $0.85, $4.64) increase in the amount caregivers were WTP per session (
+eTable 2
+for independent marginal effects
+). In addition, not completing college and being employed were associated with a lower WTP.
+In the combined model (i.e., joint marginal effects of Part 1 and Part 2), the clinical features were not significantly associated with the amount a caregiver was WTP. Time spent providing informal care was significantly associated with the amount a caregiver was WTP. Specifically, one-additional hour of providing ADL and IADL assistance was associated with a $1.64 (95% CI: $0.23, $3.04) increase in WTP per session. Mean WTP per session increased as hours providing ADL/IADL assistance by family caregivers increased (
+eFigure 1A
+). However, the effect of an additional hour of caregiving on per session WTP was not constant (
+eFigure 1B
+). After the 12
+th
+ hour of caregiving an additional hour of providing care (e.g., a change from providing 12 to 13 hours of care) was not significantly associated with an increase in WTP per session. Finally, caregivers who were college educated, White (compared to African American), and not working were WTP more.
+4. DISCUSSION
+We used baseline data from the Dementia Behavior Study to estimate caregivers’ WTP for an in-home program designed to reduce behavioral symptoms and caregiver stress. To our knowledge, this is the first attempt to estimate the total amount caregivers are WTP for a nondrug dementia support intervention in relation to time spent providing ADL/IADL assistance. Our results contribute to a growing body of evidence of the value of caregiver support programs for older adults and our findings explicitly demonstrate that caregivers want support programs [
+23
+, 
+25
+, 
+37
+].
+The 8-session (over 3 months) mean WTP of $288.00 (95% CI: $213.82, $362.18) is less than the average cost of delivering many similar nondrug dementia interventions [
+38
+–
+40
+]. For example, the TAP intervention was estimated to cost $941 to deliver over 4 months [
+16
+]. In our current study, caregivers identified their WTP prior to any exposure to the intervention or an understanding of its potential benefits. Even with a limited comprehension of the program and with no exposure to it, caregivers expressed support for the program in this WTP study. Prior empirical evaluations have found that caregivers value the benefits associated with nondrug dementia interventions [
+27
+, 
+25
+, 
+19
+]. Thus, it is possible that once exposed to the benefits of TAP or other interventions, a caregiver’s WTP might increase. Our current WTP evaluation is focused on understanding WTP for the total cost of purchasing the program and provides insight into an intervention’s affordability from the family perspective. Our approach is similar to how caregivers would encounter the marketing for a program in the real world.
+The discrepancy between the value caregivers place on the benefit of a nondrug intervention and the amount they are WTP for the total program may be explained by several factors. When evaluating WTP, caregivers implicitly account for their own financial situation, so caregivers may want and value the proposed intervention beyond which they can afford [
+37
+]. Our future evaluation of caregiver WTP for nondrug programs will explore the amount caregivers are WTP regardless of their personal financial constraint [
+41
+]. Caregivers already bear the largest financial burden of dementia so they may have limited funds to pay for additional services [
+6
+]. Although the coefficient for financial security was not significant, caregivers in our sample reported high levels of financial insecurity with 54% of those WTP $0 and 44% of those WTP>$0 self-reporting financial strain, respectively. However, our measure of financial security is likely too general. In Loh et al’s evaluation of WTP for home and community-based services, household income was strongly associated with WTP (i.e., more income resulted in WTP more) [
+37
+].
+While caregivers value the benefits derived from nondrug dementia interventions [
+27
+, 
+16
+], the results from the current study indicate that they may not be able to afford the total cost of such programs. This represents an opportunity for innovative policy that can help caregivers, the largest payers of dementia care, access programs they want/value but cannot afford [
+6
+]. Many caregivers believe that support programs should be paid for by health insurance. Five of the caregivers in our study, unprompted by the question or response stem, indicated that these interventions should be covered by insurance. In Schulz et al’s study of caregivers’ WTP for personal care technologies, 54% of caregivers indicated that government should pay half the cost [
+23
+]. Based on the need from caregivers for supportive interventions, a payer (e.g., Medicare) should reimburse, either in part or full, for proven nondrug dementia programs that yield outcomes of value to families.
+Nevertheless, most caregivers were WTP >$0, and the average WTP reflects amounts in the range of typical medical co-payments. Also, on average, caregivers were WTP more as time spent providing care increased. However, this relationship ceased after the 12
+th
+ hour of caregiving. Although the exact reason for this relationship is unknown, this may be due to caregiving saturation. With a maximum of 16 hours of caregiving in a day, providing ≥12 hours of informal care represents >75% of time in a day providing care. Thus, there may be little difference, from the caregiver’s perspective, of providing 13 hours of care compared to 12. A change from 12 to 13 hours caregiving represents an 8% increase in time caregiving. In contrast, a change in one-hour caregiving, when a caregiver is providing <12 hours of care in a day, represents a more dramatic shift in time allocation. For example, a change from 4 to 5 hours caregiving represents a 25% increase in time caregiving.
+While the clinical features of dementia (cognition, function, and behavioral symptoms) are strong predictors of expenditures, they were not predictors of WTP [
+3
+, 
+4
+, 
+29
+–
+31
+]. This finding is noteworthy as the clinical features, especially function and behavior, are also drivers of time needed to provide care. However, it appears that caregivers are more concerned about the time they spend providing assistance with daily function than the presentation of symptoms or level of impairment. Future qualitative evaluations are needed to further understand how caregivers interpret the WTP question stem and to understand the components of support programs caregivers most value.
+Being employed was associated with caregivers WTP less. The reason for this finding is not entirely clear as employed caregivers may have more income to spend on services. However, working caregivers, compared to nonworking caregivers, potentially have less interaction with the PwD and/or time for coordinating or participating in home-based services. For working caregivers, who in our study were generally younger and more likely to be an adult child (results not presented), being able to go to work could serve as valuable respite. Thus, working caregivers may perceive less of a need for dementia care skills. Nonworking caregivers are potentially WTP more for skills because they may have more interaction with the PwD and consequently they place a greater value on reducing time caregiving.
+Our study has several limitations. First, our sample was drawn from a randomized trial that enrolled families who were actively managing ≥1 challenging behavioral symptoms. Given the study inclusion/exclusion criteria, our sample may not be generalizable to other caregiver populations who may not have wanted to volunteer for a clinical trial or who were not caring for PwD with behavioral symptoms. Second, we asked caregivers how much they were WTP but not how much they would be able to actually pay. As noted above, there may be discrepancies between the amount caregivers can and would pay. Third, while our question stem explained the hypothetical intervention, caregivers responded to this question prior to having direct experience with the intervention so that the program and its potential benefits still remained abstract. Unlike a drug, understanding how a nondrug intervention “works” and its potential benefits can be challenging to convey in a WTP scenario. However, the context in which caregivers responded is similar to real world contexts in which caregivers may be presented with a brief description of a program prior to enrolling and paying for it. Fourth, we did not ask respondents if they support the intervention prior to assessing WTP. Such a question, irrespective of WTP, can prevent participants from inflating their WTP responses as a means of expressing support for a program. Related, our results should be interpreted as an individual’s stated preference. Stated preference may differ from observed or actual preferences (i.e., a caregiver may state they will purchase the intervention but when faced with the actual option to buy the intervention they decide not to). Furthermore, responses could be biased due to an anchoring effect associated with a payment card approach. Fifth, to minimize response burden we asked caregivers the amount they were WTP per session for up to an 8-session program that occurs over 3 months. We then extrapolated WTP per session to determine WTP for the entire program (8-sessions in total). When thinking about WTP per session respondents may not have actually thought about WTP in the context of total costs. Finally, while our model controls for the degree of financial difficulty encountered when paying for necessitates, as noted above a stronger predictor would be a participant’s income. We were unable to control for income because it was not captured during the baseline interview.
+5. Conclusion
+In conclusion, in this study, most dementia caregivers valued and wanted an in-home program that provided skills to address challenging behavioral symptoms of PwD and stress reduction techniques. On average caregivers were WTP $36.00 (95% CI: $26.73, $45.27) per session for 8-sessions over 3 months or a total of $288.00. While dementia related clinical features were not associated with WTP, more time caregiving was associated with an increase in the probability of WTP >$0 and the amount a caregiver was WTP. More time spent providing hands-on care with ADLs/IADLs appears to trigger greater WTP or demand, reflecting the burden caregivers experience with assisting with everyday activities of living and functional decline. Given the increasing economic and social burden of dementia, it is time for policymakers to seriously consider payment models for nondrug programs.
+Supplementary Material
+40273_2019_785_MOESM1_ESM
+NIHMS1524156-supplement-40273_2019_785_MOESM1_ESM.docx
+ (117.1KB, docx) 
+Key Points for Decision Makers.
+Most caregivers of persons with dementia value nondrug support programs that provide tailored strategies to manage behavioral symptoms and stress.
+The more time caregivers spend providing care for daily activities the more they are willing to pay for supportive interventions.
+Funding/Support:
+This study was supported by a grant from National Institute on Aging (Grant # R01 AG041781–01A1)
+Footnotes
+Data Availability Statement:
+ This data set is available upon request from the senior author (Dr. Laura N. Gitlin).
+Conflicts of Interest
+: EJ reports no conflicts of interest. DS reports no conflicts of interest. LTP reports no conflicts of interests. KM reports no conflicts of interest. QS reports no conflicts of interest. CVP reports no conflicts of interest. LNG is an inventor of a training program for the TAP intervention for which Johns Hopkins University is entitled to fees. This arrangement has been reviewed and approved by the Johns Hopkins University in accordance with its conflict of interest policies..
+LNG reports no conflicts of interest.
+References
+1.
+Jutkowitz E, MacLehose RF, Gaugler JE, Dowd B, Kuntz KM, Kane RL. Risk Factors Associated With Cognitive, Functional, and Behavioral Trajectories of Newly Diagnosed Dementia Patients. J Gerontol A Biol Sci Med Sci. 2017;72(2):251–8.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Grand JH, Caspar S, Macdonald SW. Clinical features and multidisciplinary approaches to dementia care. J Multidiscip Healthc. 2011;4:125–47.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Jutkowitz E, Kane RL, Dowd B, Gaugler JE, MacLehose RF, Kuntz KM. Effects of Cognition, Function, and Behavioral and Psychological Symptoms on Medicare Expenditures and Health Care Utilization for Persons With Dementia. J Gerontol A Biol Sci Med Sci. 2017;72(6):818–24.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Jutkowitz E, Kuntz KM, Dowd B, Gaugler JE, MacLehose RF, Kane RL. Effects of cognition, function, and behavioral and psychological symptoms on out-of-pocket medical and nursing home expenditures and time spent caregiving for persons with dementia. Alzheimers Dement. 2017;13(7):801–9.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Alzheimer’s Association. 2016 Alzheimer’s disease facts and figures. Alzheimers Dement. 2016;12(4):459–509.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Jutkowitz E, Kane RL, Gaugler JE, MacLehose RF, Dowd B, Kuntz KM. Societal and Family Lifetime Cost of Dementia: Implications for Policy. J Am Geriatr Soc. 2017;65(10):2169–75.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Gaugler JE, Kane RL. Family Caregiving in the New Normal. San Diego, CA: Academic Press, 2015.
+ [
+Google Scholar
+]
+8.
+Committee on Family Caregiving for Older Adults; National Academies of Sciences, Engineering, and Medicine; Schulz R, Eden J, editors. Families Caring for an Aging America. Washington (DC): National Academies Press (US); 2016. 
+November.
+ [
+PubMed
+] [
+Google Scholar
+]
+9.
+U.S. Department of Health and Human Services. National Plan to Address Alzheimer’s Disease: 2016 Update. 2016. 
+1–93. 
+https://aspe.hhs.gov/system/files/pdf/205581/NatlPlan2016.pdf
+10.
+Gitlin LN, Maslow K. Research Summit on Dementia Care, Building Evidence for Services and Supports. 2017. 
+https://aspe.hhs.gov/system/files/pdf/258446/Mtg26-Slides4.pdf
+11.
+Gitlin LN, Kales HC, Lyketsos CG. Nonpharmacologic management of behavioral symptoms in dementia. JAMA. 2012;308(19):2020–9.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Gitlin L, Hodgson N, Choi S, Marx KA. Interventions to Address Functional Decline in Persons with Dementia: Closing the Gap between what a Person “Does Do” and what they “Can Do” in: Park Z, Bondi J (Eds.) Neuropsychology of Alzheimer’s disease and other dementias. 2nd ed
+Oxford University Press, New York, NY; 2016.
+ [
+Google Scholar
+]
+13.
+Graff MJ, Vernooij-Dassen MJ, Thijssen M, Dekker J, Hoefnagels WH, Olderikkert MG. Effects of community occupational therapy on quality of life, mood, and health status in dementia patients and their caregivers: a randomized controlled trial. J Gerontol A Biol Sci Med Sci. 2007;62(9):1002–9.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Laver K, Dyer S, Whitehead C, Clemson L, Crotty M. Interventions to delay functional decline in people with dementia: a systematic review of systematic reviews. BMJ Open. 2016;6(4):e010767.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Van’t Leven N, Prick AE, Groenewoud JG, Roelofs PD, de Lange J, Pot AM. Dyadic interventions for community-dwelling people with dementia and their family caregivers: a systematic review. Int Psychogeriatr. 2013;25(10):1581–603.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Gitlin LN, Hodgson N, Jutkowitz E, Pizzi L. The cost-effectiveness of a nonpharmacologic intervention for individuals with dementia and family caregivers: the tailored activity program. Am J Geriatr Psychiatry. 2010;18(6):510–9.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Gitlin LN, Winter L, Burke J, Chernett N, Dennis MP, Hauck WW. Tailored Activities to Manage Neuropsychiatric Behaviors in Persons With Dementia and Reduce Caregiver Burden: A Randomized Pilot Study. Am J Geriatr Psychiatry. 2008;16(3):229–39.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Graff MJ, Adang EM, Vernooij-Dassen MJ, Dekker J, Jönsson L, Thijssen M, et al. 
+Community occupational therapy for older patients with dementia and their care givers: cost effectiveness study. BMJ. 2008;336(7636):134–8.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Nichols LO, Chang C, Lummus A, Burns R, Martindale-Adams J, Graney MJ, et al. 
+The Cost-Effectiveness of a Behavior Intervention with Caregivers of Patients with Alzheimer’s Disease. J Am Geriatr Soc. 2008;56(3):413–20.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Tugwell P, Knottnerus JA. Is the Evidence-Pyramid now dead?
+J Clin Epidemiol. 2015;68(11):1247–50.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Pizzi LT, Jutkowitz E, Nyman JA. Economic Evaluations of Behavioral Interventions In: Gitlin LN, Czaja S, ed. Behavioral Intervention Research: Designing, Evaluating, and Implementing. Springer Publishing Company; 2015: 333–57.
+ [
+Google Scholar
+]
+22.
+McIntosh E, Clarke P, Frew EJ, Louviere JJ. Applied Methods of Cost-Benefit Analysis in Health Care. Oxford University Press; 2010.
+ [
+Google Scholar
+]
+23.
+Schulz R, Beach SR, Matthews JT, Courtney K, De Vito Dabbs A, Mecca LP. Caregivers’ Willingness to Pay for Technologies to Support Caregiving. Gerontologist. 2016;56(5):817–29.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Schulz R, Beach SR, Matthews JT, Courtney K, Devito Dabbs A, Person Mecca L, et al. 
+Willingness to pay for quality of life technologies to enhance independent functioning among baby boomers and the elderly adults. Gerontologist. 2014;54(3):363–74.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Gustavsson A, Jönsson L, McShane R, Boada M, Wimo A, Zbrozek AS. Willingness-to-pay for reductions in care need: estimating the value of informal care in Alzheimer’s disease. Int J Geriatr Psychiatry. 2010;25(6):622–32.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Oremus M, Tarride JE, Pullenayegum E, Clayton N, Canadian Willingness-to-Pay Study Group, Raina P. Patients’ willingness-to-pay for an Alzheimer’s disease medication in Canada. Patient. 2013;6(3):161–8.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Jutkowitz E, Gitlin LN, Pizzi LT. Evaluating willingness-to-pay thresholds for dementia caregiving interventions: application to the tailored activity program. Value Health. 2010;13(6):720–5.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Gitlin LN, Piersol CV, Hodgson N, Marx K, Roth DL, Johnston D, et al. 
+Reducing neuropsychiatric symptoms in persons with dementia and associated burden in family caregivers using tailored activities: Design and methods of a randomized clinical trial. Contemp Clin Trials. 2016;49:92–102.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Murman DL, Chen Q, Powell MC, Kuo SB, Bradley CJ, Colenda CC. The incremental direct costs associated with behavioral symptoms in AD. Neurology. 2002;59(11):1721–9.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Gustavsson A, Brinck P, Bergvall N, Kolasa K, Wimo A, Winblad B, et al. 
+Predictors of costs of care in Alzheimer’s disease: a multinational sample of 1222 patients. Alzheimers Dement. 2011;7(3):318–27.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Zhu CW, Scarmeas N, Torgan R, Albert M, Brandt J, Blacker D, et al. 
+Clinical features associated with costs in early AD: baseline data from the Predictors Study. Neurology. 2006;66(7):1021–8.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Folstein MF, Folstein SE, McHugh PR. “Mini-Mental State”. A practical method for grading the cognitive state of patients for the clinician. J Psychiatr Res. 1975;12(3):189–98.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Gitlin LN, Roth DL, Burgio LD, Loewenstein DA, Winter L, Nichols L, et al. 
+Caregiver appraisals of functional dependence in individuals with dementia and associated caregiver upset: psychometric properties of a new scale and response patterns by caregiver and care recipient characteristics. J Aging Health. 2005;17(2):148–71.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Langa KM, Chernew ME, Kabeto MU, Herzog AR, Ofstedal MB, Willis RJ, et al. 
+National estimates of the quantity and cost of informal caregiving for the elderly with dementia. J Gen Intern Med. 2001;16(11):770–8.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Kim H, Chang M, Rose K, Kim S. Predictors of caregiver burden in caregivers of individuals with dementia. J Adv Nurs. 2012;68(4):846–55.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Etters L, Goodall D, Harrison BE. Caregiver burden among dementia patient caregivers: a review of the literature. J Am Acad Nurse Pract. 2008;20(8):423–8.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Loh CP, Shapiro A. Willingness to pay for home- and community-based services for seniors in Florida. Home Health Care Serv Q. 2013;32(1):17–34.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Callahan CM, Boustani MA, Unverzagt FW, Austrom MG, Damush TM, Perkins AJ, et al. 
+Effectiveness of collaborative care for older adults with Alzheimer disease in primary care: a randomized controlled trial. JAMA. 2006;295(18):2148–57.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Gitlin LN, Winter L, Dennis MP, Hodgson N, Hauck WW. Targeting and managing behavioral symptoms in individuals with dementia: a randomized trial of a nonpharmacological intervention. J Am Geriatr Soc. 2010;58(8):1465–74.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Pizzi L, Jutkowitz E, Prioli K, Gitlin LN, Fortinsky RH. Cost Analysis Plan and Caregivers’ Willingness to Pay for COPE-CT: Interim Findings. Innovation in Aging. 2017;1(suppl_1):96
+ [
+Google Scholar
+]
+41.
+Fortinsky RH, Gitlin LN, Pizzi LT, Piersol CV, Grady J, Robison JT, et al. 
+Translation of the Care of Persons with Dementia in their Environments (COPE) intervention in a publicly-funded home care context: Rationale and research design. Contemp Clin Trials. 2016;49:155–65.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+40273_2019_785_MOESM1_ESM
+NIHMS1524156-supplement-40273_2019_785_MOESM1_ESM.docx
+ (117.1KB, docx) 
+ACTIONS
+View on publisher site
+PDF (507.8 KB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+ Similar articles
+ Cited by other articles
+ Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+ AMA
+ APA
+ MLA
+ NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+ Name your collection
+*
+ Choose a collection
+ Unable to load your collection due to an error
+Please try again
+ Add
+ Cancel
+ Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+ Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+ 8600 Rockville Pike
+ Bethesda, MD 20894
+ Web Policies
+ FOIA
+ HHS Vulnerability Disclosure
+ Help
+ Accessibility
+ Careers
+ NLM
+ NIH
+ HHS
+ USA.gov
+Back to Top
