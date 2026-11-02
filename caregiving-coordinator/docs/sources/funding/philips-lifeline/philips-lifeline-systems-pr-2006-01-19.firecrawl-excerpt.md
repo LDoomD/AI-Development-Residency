@@ -1,0 +1,3 @@
+SAVED NOTE: curl to sec.gov returns an "Undeclared Automated Tool" block page (not bypassed). This file is an EXCERPT: the text returned by Firecrawl (query mode, directQuote) for https://www.sec.gov/Archives/edgar/data/1302676/000119312506008556/dex991.htm on 2026-11-02. Only the paragraph containing the figure is included.
+
+Framingham, Massachusetts, January 19, 2006 – Lifeline Systems Inc. Philips has agreed to acquire Lifeline for $47.75 per share or a total equity value of $750 million (equaling an aggregate value of $690 million net of $60 million cash and cash equivalents) in a transaction that has been unanimously approved by the Board of Directors of Lifeline.

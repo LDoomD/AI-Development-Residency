@@ -6,3 +6,13 @@ docs/sources/census-naics/ec2022-*/*.zip
 # Private API keys (never commit)
 .env
 .env.*
+
+# Raw Apple review feed JSON keeps reviewer usernames. Kept on disk only; regenerate with
+# docs/sources/app-reviews/fetch_apple_reviews.py. reviews.csv and all-reviews.jsonl have no names.
+docs/sources/app-reviews/raw/
+
+# Reader scratch files (intermediate; the final tagged data is slice-N-tags.json and verified-tags.json)
+docs/sources/app-reviews/analysis/s2work/
+docs/sources/app-reviews/analysis/build1.py
+docs/sources/app-reviews/analysis/tags-part*.txt
+docs/sources/app-reviews/analysis/figma-payload.json

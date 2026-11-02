@@ -87,3 +87,24 @@ Source: AARP and NAC, Caregiving in the US 2025, `docs/sources/aarp-nac-caregivi
 - **Meaning:** 58% of Hispanic/Latino caregivers say the role gives them a sense of purpose (p.50).
 - **Paid family caregivers** are more often Hispanic/Latino (23% vs 15% of unpaid), Black (21% vs 11%) and AANHPI (6% vs 4%) (p.16).
 - **Limits:** the survey used a web panel with added samples of Black, Hispanic and Asian American respondents (p.118); AANHPI is one broad group, with no sub-groups reported in the passages above. Group differences are from the report's text; I did not check each against its figures.
+
+## Update 2026-11-02: added from the forum read, YouTube and papers
+
+Sources: `docs/community-voice-findings.md` (141 forum threads, 12 videos, quotes checked word for word), `docs/academic-findings.md` (abstracts of 15 of 18 papers; Schulz 2016 full text). Theme counts are approximate (one reader, one theme per thread).
+
+**Lines above that the new read does not reproduce.** The "15 of about 86 Reddit and forum sources" on updates, siblings and long distance, and "burnout and choosing care are the two biggest themes (21 of about 86 each)", come from the NotebookLM summary. In the 141 saved threads, family coordination is the main topic of 7 (4%) and appears in 29 (20%); long distance is 2 (1%) and 9 (6%); burnout is 25 (17%) and 55 (39%). Treat the old counts as unverified.
+
+- **Behavioral:** paper (notebooks, visit logs, accordion files) is the common tool and often works. Family dynamic per forum thread: siblings or family help 13, do not help 14, conflict 12, not mentioned 75, unclear 27. About three quarters of older adults get help from one child (NHATS 2011 to 2017), so many caregivers are the one doing the work.
+- **Geographic:** long-distance share is 11% of all caregivers (AARP) or 13.2% of adult children of Medicare beneficiaries 71+ (NHATS 2021). Different bases; do not combine.
+- **Psychographic:** burnout and guilt is the top theme (forums 17% main, 39% anywhere; YouTube about 21%). 17 of 141 threads mention account or login access. Coordination with doctors is the weakest-rated task in the 2025 JAMA Network Open paper.
+- **Socioeconomic:** Schulz 2016 cap about $70 a month for monitoring (20% pay nothing); CAN 2026 survey 12% would pay out of pocket.
+- **Not covered:** younger text-coordinating caregivers (Reddit blocked), non-US, race and ethnicity in the forum data (profiles are not collected).
+
+## Own-experience cases (project owner, told in chat 2026-11-02; not research data)
+
+Two cases, not interviews, and not checked against anything.
+- **Project owner's family:** siblings pooled money to buy their father a smartwatch (location, fall alerts, some vitals). The watch data was never shared in one place, and the owner is unsure how accurate it is. They took turns helping and wondered about fairness of who contributes money.
+- **Cousin's family of five siblings:** only the women helped. They took turns staying over at the father's house and cooking. Most had children. Coordinating who did what may have been complicated (to be asked later).
+
+How they line up with the forums (keyword search of the 1,121 verified quotes, 2026-11-02, rough): about 15 quotes on rotating care or scheduling; about 6 on siblings not contributing money (e.g. "he did not contributed a single penny, i was economically drained"); about 3 on trackers (e.g. "All a tracker does is tell you where they are- not if it is safe for them"). Gender of who helps was not tagged.
+- **Added 2026-11-02 (project owner, told in chat):** the newest Apple Watch was used for emergency contact after a fall (medical and insurance information on it), location tracking and occasional vitals; accuracy unknown. A smart blood pressure cuff synced readings to a database, "very helpful". The watch data was not shared with the rest of the family in one place. One case, not research data. AARP/NAC 2025 p.37: remote monitoring 25% of caregivers (13% in 2020), technology to track health records 41% (30% in 2020).
