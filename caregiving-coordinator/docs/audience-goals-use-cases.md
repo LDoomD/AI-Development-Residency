@@ -179,24 +179,25 @@ Problems: the 286 problem statements that readers extracted from the 109 parent 
 
 ---
 
-## How the two audiences differ (table in the audience workshop board)
+## How the two audiences differ (data table in the audience workshop board)
 
-How to read this: each row is one theme. The two middle columns show the share of that audience's forum threads that were about it (the count of threads is in brackets). The last column says which audience has more of it, and by how many percentage points. Approximate: one reader sorted each quote, the forums are mostly dementia caregivers, and the problem themes are worded slightly differently for each audience. Under about 5 points is called "about the same".
+How to read this: one row per theme, sorted by the size of the gap. "Threads" is how many of that audience's forum threads were about the theme; "% of base" is that count divided by the audience's thread total (55 for Audience 1, adult children caring for a parent; 54 for Audience 2, spouses and partners; for "where they live" the base is only the threads that say: 24 and 16). The gap is Audience 2 minus Audience 1 in percentage points, so a plus means Audience 2 has more. "About the same" means a gap under 5 points. A 0 means the reader sorting did not use that theme for that audience; it does not prove nobody has the problem. Approximate: one reader sorted each quote and the forums are mostly dementia caregivers.
 
-| What we compare | Audience 1: adult children caring for a parent (55 threads) | Audience 2: spouses and partners caring for a husband, wife or partner (54 threads) | Which audience has more? (gap in points) |
-|---|---|---|---|
-| Problem: exhaustion, guilt, loneliness | 42% (23) | 41% (22) | About the same (1 point) |
-| Problem: dementia behavior, hard conversations | 25% (14) | 33% (18) | Audience 2 has more (8 points) |
-| Problem: money, legal papers, bills | 20% (11) | 11% (6) | Audience 1 has more (9 points) |
-| Problem: relatives not helping, or blocking | 18% (10) | 6% (3) | Audience 1 has more (12 points) |
-| Problem: medicines, eating, personal care | 15% (8) | 22% (12) | Audience 2 has more (7 points) |
-| Problem: staying safe (home, alone, out) | 11% (6) | 17% (9) | Audience 2 has more (6 points) |
-| Problem: choosing or paying for a place | 11% (6) | 13% (7) | About the same (2 points) |
-| Problem: answers and diagnosis from doctors | 7% (4) | 7% (4) | About the same (0 points) |
-| Problem: trusting aides and hospice | not a separate theme | 15% (8) | Only Audience 2 has it |
-| Problem: far away, not knowing what is happening | 4% (2) | not a separate theme | Only Audience 1 has it |
-| Motivation: love, loyalty, promises | 5% (3) | 17% (9) | Audience 2 has more (12 points) |
-| Life goal: own health and sanity | 2% (1) | 13% (7) | Audience 2 has more (11 points) |
-| Where they live (only threads that say) | 16 apart, 8 together (24 threads) | 4 apart, 12 together (16 threads) | Reversed: Audience 1 mostly apart, Audience 2 mostly together |
+| Type | Theme | Audience 1: threads | Audience 1: % of base | Audience 2: threads | Audience 2: % of base | Gap in points (Audience 2 minus Audience 1) | Higher for |
+|---|---|---|---|---|---|---|---|
+| Where they live | Live together (of threads that say) | 8 of 24 | 33.3% | 12 of 16 | 75.0% | +41.7 | Audience 2 |
+| Where they live | Live apart (of threads that say) | 16 of 24 | 66.7% | 4 of 16 | 25.0% | -41.7 | Audience 1 |
+| Problem | Trusting aides and hospice | 0 of 55 | 0.0% | 8 of 54 | 14.8% | +14.8 | Audience 2 |
+| Problem | Relatives not helping, or blocking | 10 of 55 | 18.2% | 3 of 54 | 5.6% | -12.6 | Audience 1 |
+| Motivation | Love, loyalty, promises | 3 of 55 | 5.5% | 9 of 54 | 16.7% | +11.2 | Audience 2 |
+| Life goal | Own health and sanity | 1 of 55 | 1.8% | 7 of 54 | 13.0% | +11.1 | Audience 2 |
+| Problem | Money, legal papers, bills | 11 of 55 | 20.0% | 6 of 54 | 11.1% | -8.9 | Audience 1 |
+| Problem | Dementia behavior, hard conversations | 14 of 55 | 25.5% | 18 of 54 | 33.3% | +7.9 | Audience 2 |
+| Problem | Medicines, eating, personal care | 8 of 55 | 14.5% | 12 of 54 | 22.2% | +7.7 | Audience 2 |
+| Problem | Staying safe (home, alone, out) | 6 of 55 | 10.9% | 9 of 54 | 16.7% | +5.8 | Audience 2 |
+| Problem | Far away, not knowing what is happening | 2 of 55 | 3.6% | 0 of 54 | 0.0% | -3.6 | About the same |
+| Problem | Choosing or paying for a place | 6 of 55 | 10.9% | 7 of 54 | 13.0% | +2.1 | About the same |
+| Problem | Exhaustion, guilt, loneliness | 23 of 55 | 41.8% | 22 of 54 | 40.7% | -1.1 | About the same |
+| Problem | Answers and diagnosis from doctors | 4 of 55 | 7.3% | 4 of 54 | 7.4% | +0.1 | About the same |
 
 **My reading (not a finding):** the two audiences differ more in who they care for, where they live and who else helps than in what they want. Whether that is enough to treat them as two audiences is the owner's decision.
