@@ -40,3 +40,27 @@ Method: the teacher's rule has three tests: (1) big enough, (2) not too many com
 - **Reddit skews toward distress and toward asking for tools** (see the limits in `docs/qualitative-research-findings.md`). Theme counts are rough.
 - **Segments 11 to 14 were not assessed.** Respite care, caregiver mental health, telehealth and insurance navigation could change the ranking.
 - **This is a hypothesis to test, not a finding.** In Agile terms it is an assumption. Interviews with caregivers or a small prototype test would be the next check.
+
+## Update 2026-11-02: re-checked against the 141-thread forum read, 12 YouTube videos and 15 papers
+
+The answer above used the NotebookLM summary (about 86 sources, not saved). That summary's theme shares did not hold up when the real threads were read (`docs/community-voice-findings.md`). The answer is NOT replaced, since choosing the problem is your decision. What changes:
+
+| Test | What the new evidence says |
+|---|---|
+| Unmet need for family coordination | Weaker than written. Family coordination is the main topic of 4% of forum threads (7 of 141) and appears somewhere in 20%; about 10% of YouTube themed comments. Burnout and guilt is 17% as main topic, 39% anywhere. Counter-evidence is large: siblings help (35 quotes), simple tools work (23), person will not use technology (13). Papers: about three quarters of older adults get help from one child, so there may be no "team" to coordinate (NHATS 2011 to 2017). |
+| Few competitors | The real competitor is paper (notebooks, visit logs, accordion files) and it often works. Nobody in the threads named a family coordination app. |
+| Willing to pay | No forum speaker says they pay for software. Surveys: cap about $70 a month for monitoring (Schulz 2016); 12% would pay out of pocket (CAN 2026, self-selected). |
+
+**Effect on the verdict:** Segment 1 stays on the list but confidence drops from medium to low to **low**. It is a hypothesis, not a leading answer.
+
+**Verdicts above that are now out of date**
+- **Segment 10 (vaults, accounts, access)** was "not a clear need" because it was not a theme in the Reddit file. 17 of 141 forum threads mention logins or accounts, and the quotes are concrete (one person wants read-only access for siblings "without taking on the credit exposure and liability"). Re-assess.
+- **Segments 11 and 12 (respite, caregiver mental health)** were "not assessed". Burnout, guilt, isolation and grief is the top theme in forums and YouTube. Assess.
+- **Segment 14 (insurance and benefits navigation)**: money, insurance and legal papers appear in 32% of forum threads. Assess.
+- **Segments 8 and 9 (visit notes, portals)**: doctors, appointments and records appear in 19% of threads, 2% as main topic. The need is real but small as a main topic; nobody asked for AI notes specifically.
+
+**Concrete pains seen in the threads (not framed as a solution):** access to accounts and records (17 of 141), not knowing what happened when you were not there (aide visits, visit logs), power of attorney and HIPAA forms, medications, placement costs.
+
+**Limits:** the forums lean toward dementia, spouses and heavy writers. Reddit was blocked, so younger caregivers who coordinate by text are underrepresented. One reader assigned one theme per thread, so counts are approximate. These are secondary sources and cannot show willingness to pay or what people would do.
+
+**Next check:** short tests with 5 to 10 real caregivers on the top problems.

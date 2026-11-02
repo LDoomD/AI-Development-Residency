@@ -30,3 +30,22 @@ Evidence: **Researched** means searched and cross-referenced on 2026-11-01 (deta
 - Two segments I found have no market size of their own: 4 (referral alone) and 8 (patient-side notes).
 - Not covered: group texts, spreadsheets and WhatsApp, which caregivers use as workarounds today. They are indirect competition, not a segment of organizations.
 - This list does not say which segment is best. That is the market opportunity step.
+
+## Update 2026-11-02: what caregivers talk about, per segment
+
+From the 141 forum threads (`docs/community-voice-findings.md`). First number: threads where this is the main topic; second: threads where it comes up anywhere. Theme assignment is by one reader and approximate. This still does not rank the segments.
+
+| # | Segment | Matching theme in the forums | Main topic / anywhere (of 141) |
+|---|---|---|---|
+| 1 | Family care-coordination apps | Family coordination, siblings | 7 / 29 |
+| 2, 3 | Medication apps, pharmacy packaging | Medications | 9 / 20 |
+| 4 | Senior care referral and placement | Choosing, placing and paying for care | 13 / 38 |
+| 5 | Home care and marketplaces | Paid caregivers and agencies | 6 / 14 |
+| 6 | Remote monitoring and medical alert | Safety | 8 / 32 |
+| 8, 9 | Visit notes, patient portals | Doctors, appointments, records | 4 / 27 |
+| 10 | Digital vaults, emergency access | Logins and accounts mentioned | not a theme row; 17 threads mention it |
+| 11, 12 | Respite, caregiver mental health | Burnout, guilt, isolation, grief | 25 / 55 |
+| 14 | Insurance and benefits navigation | Money, insurance, legal papers | 12 / 46 |
+| 7, 13 | Employer benefits, telehealth | No matching theme | none |
+
+Limits: the forums lean toward dementia, spouses and heavy writers; Reddit was blocked. Segments 11 to 14 still have no market-size research.
