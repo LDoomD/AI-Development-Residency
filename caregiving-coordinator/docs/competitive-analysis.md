@@ -67,3 +67,24 @@ WHAT THIS DOES NOT SHOW
 FOR THE OWNER TO WRITE: which of the problems in this table do you want to be better at than the companies above, and why? This is the unique value opportunity box of the template.
 
 
+
+## Summarize the unique value opportunities (2026-11-02, DRAFT for the owner to edit)
+
+Same text as the template section "Summarize the unique value opportunities for your product or service" in the Figma file (node `5:3580`).
+
+**What the competitors do not do well** (from the ten rows of the table)
+
+1. **Access for another person works on paper and breaks in real life.** Caring Village, CaringBridge, Medisafe and Everplans each say another person can be invited and given permissions or a co-administrator role. Reviewers describe the opposite: "Log in as my MIL to see myself and my husband were removed as portal members" (review a-3227); "So many of my over 60 relatives have been not able to reaccess their account." (review a-3525). Access for another person is 14 of the 192 caregiving-only problem reviews.
+2. **Monitoring and safety tools fail when they matter most.** For Lively and Medical Guardian, 114 caregiving-only reviews describe a problem: wrong readings or location 42, a person in danger and the tool did not help 18. One reviewer: "He lay outside injured and unable to move for over an hour before a stranger found him." (review a-7567). Medical Guardian's own page says fall detection "does not work 100% of the time."
+3. **Family coordination apps are free or donation-funded, and none of them states how it keeps customers.** Caring Village has a free ad-supported plan, Lotsa is free, CaringBridge asks for gifts. Nobody in the table states a retention method. Reviews about cancelling or donation prompts (a-7454, a-3296) are signals only.
+4. **Statements about health data and consent are thin or mixed.** Lively, Medical Guardian and Lotsa gave nothing usable in the saved pages. Medisafe says "HIPAA & GDPR Compliant" and also "we are not subject to medical secrecy obligations." CaringBridge says some sharing for targeted advertising may be treated as a sale under state law.
+5. **No row covers the whole job.** Coordination, access to accounts and records, and monitoring and safety are served by different companies. Families still use paper notebooks and group texts (23 forum quotes say a simple tool or paper worked).
+
+Limits: reviews are of apps the team chose; Everplans and Epic MyChart reviews are small samples; Epic MyChart's saved page is thin; no product was tested and no caregiver was asked; this cannot show who would pay.
+
+**Unique value opportunities, written as open problems, not features. No problem is chosen yet; the owner decides.**
+
+- **A. Another relative getting and keeping access to accounts and records (problem 4).** Evidence: point 1; 17 of 141 forum threads mention logins or accounts. Against: much of it is bank or legal policy a family cannot change; highest security and liability risk (`docs/risk-profile.md`).
+- **B. Knowing what happened when you were not there, and trusting the alert (problem 8, a lead).** Evidence: point 2; the forums and the owner's own case. Against: crowded, and the reviews come from the apps we chose.
+- **C. Who pays for family coordination.** Evidence: point 3; no study found on willingness to pay for coordination, only for monitoring (`docs/academic-findings.md`). A question to test with caregivers, not a finding.
+- **D. Clear, plain statements about family health data and consent.** Evidence: point 4 and `docs/risk-profile.md`. Weakest as a reason people choose a tool; strongest as a risk to design around.
