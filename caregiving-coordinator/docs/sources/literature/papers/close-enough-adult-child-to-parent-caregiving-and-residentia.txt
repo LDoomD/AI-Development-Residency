@@ -1,0 +1,1183 @@
+Soc Sci Med
+. Author manuscript; available in PMC: 2023 Jan 1.
+
+Published in final edited form as: Soc Sci Med. 2021 Dec 2;292:114627. doi: 10.1016/j.socscimed.2021.114627
+
+Close enough? Adult child-to-parent caregiving and residential
+proximity
+
+Robert F Schoeni
+
+Robert F Schoeni, PhD
+
+aInstitute for Social Research, University of Michigan
+
+bGerald R. Ford School of Public Policy, University of
+Michigan
+
+cDepartment of Economics, University of Michigan
+
+Find articles by Robert F Schoeni
+
+a,b,c, Tsai-Chin Cho
+
+Tsai-Chin Cho, MSc
+
+dDepartment of Internal Medicine, School of Medicine,
+University of Michigan
+
+eDepartment of Emergency Medicine, School of Medicine,
+University of Michigan
+
+Find articles by Tsai-Chin Cho
+
+d,e, HwaJung Choi
+
+HwaJung Choi, PhD
+
+dDepartment of Internal Medicine, School of Medicine,
+University of Michigan
+
+fDepartment of Health Management and Policy, School of
+Public Health, University of Michigan
+
+gInstitute for Healthcare Policy and Innovation, University
+of Michigan
+
+Find articles by HwaJung Choi
+
+d,f,g
+
+Author information
+
+Article notes
+
+Copyright and License information
+
+aInstitute for Social Research, University of Michigan
+
+bGerald R. Ford School of Public Policy, University of
+Michigan
+
+cDepartment of Economics, University of Michigan
+
+dDepartment of Internal Medicine, School of Medicine,
+University of Michigan
+
+eDepartment of Emergency Medicine, School of Medicine,
+University of Michigan
+
+fDepartment of Health Management and Policy, School of
+Public Health, University of Michigan
+
+gInstitute for Healthcare Policy and Innovation, University
+of Michigan
+
+CRediT Author Statement
+
+Robert F. Schoeni: Conceptualization, Methodology,
+Investigation, Writing – Original draft, Writing –Review &
+editing, Supervision, Funding acquisition
+
+Tsai-Chin Cho: Methodology, Software, Validation, Formal
+analysis, Investigation, Data curation, Writing –Review &
+editing
+
+HwaJung Choi: Conceptualization, Methodology, Software,
+Validation, Formal analysis, Investigation, Data curation, Writing –
+Original draft, Writing –Review & editing, Supervision, Funding
+acquisition
+
+✉Corresponding author: HwaJung Choi,
+hwajungc@umich.edu. 2800 Plymouth Rd. NCRC Building 14,
+GR109, Ann Arbor, MI 48104, USA. Tel. +1 734-936-4787
+
+Issue date 2022 Jan.
+
+PMC Copyright notice
+
+PMCID: PMC8806164  NIHMSID: NIHMS1762245  PMID: 34875578
+
+The publisher's version of this article is available at Soc Sci Med
+
+Abstract
+
+Adult children are among the most frequent providers for
+community-dwelling older adults with a disability. This report assesses the
+extent to which help received from an adult child by older persons with a
+disability is contingent on the distance between their residences. Using the
+national Panel Study of Income Dynamics, we selected persons 55 and older with a
+disability and their adult children (810 older adults; 1,767 dyads of older
+adult – adult child pairs). The adjusted average hours of help received
+from an adult child was estimated by the distance between the parent’s
+and the adult child’s residences using a two-part model with a linear
+spline of proximity and adjusting for demographic and socioeconomic factors of
+the parent and child. We found that average weekly hours of help received from
+an adult child by older adults with a disability declined dramatically as the
+distance between older adults and their adult children’s residences
+increased, but only up to 2–5 miles. Adjusted average weekly hours of
+help received from an adult child were 5.99 (95%CI 3.33, 8.65) if coresident,
+3.16 (95%CI 2.04, 4.28) if on the same block, 1.16 (95%CI 0.72, 1.59) if
+2–5 miles away, 0.79 (95%CI 0.39, 1.20) if 5–10 miles away, and
+0.58 (95%CI 0.25, 0.92) if >100 miles.
+
+The amount of help for parents with a disability may require adult
+children living very near their parents which has important implications for
+long-term care for the aging population.
+
+Keywords: Intergenerational geographic proximity, Informal care, Family and unpaid care, Intergenerational care, Disability, Older adults, Aging
+
+INTRODUCTION
+
+Over 37 million adults in the United States have a disability (Erickson et al., 2020), and this number is
+projected to increase as the population ages (Institute of Medicine (US) Committee on Disability in America, 2007).
+Care from family members and other unpaid helpers received by older adults with
+disabilities is valued at $470 billion, greater than the cost of the Medicaid
+program (Reinhard et al., 2015). While
+spouses are important caregivers within married couples, adult children are the most
+frequent providers of care among community-dwelling older adults with a disability
+(Wolff et al., 2016).
+
+Close residential proximity of older adults and their kin is strongly
+associated with help received from kin (Joseph &
+Hallman, 1998; Litwak & Longino,
+1987; Rossi & Rossi, 1990) and
+reduces paid care and nursing home entry (Choi et
+al., 2015). Many family members in the US live within 30 miles of each
+other (Choi et al., 2020; Compton & Pollak, 2015). However, little
+evidence exists on the association between help from kin and residential proximity
+that recognizes the importance of living within a few miles of kin (e.g., same
+block, <=2 miles).
+
+This study demonstrates that hours of help received from an adult child by
+parents with a disability is strongly contingent on the adult child living in very
+close proximity, no more than about five miles, using national data with block-level
+residential information for parents and their adult children. By providing new
+evidence on the distinctive role of very close proximity for family caregiving, this
+paper advances the field of family spatial proximity and its implication for
+long-term care of an aging population.
+
+METHODS
+
+Data and Sample
+
+The Panel Study of Income Dynamics (PSID) is a national longitudinal
+survey that began in 1968 (Institute for Social
+Research, 2019). Members of the sample and their biological and
+adopted descendants are traced and interviewed indefinitely even if they do not
+live together (Institute for Social Research,
+2019).
+
+We used the 2011 and 2013 waves of PSID. In 2013, the PSID included a
+module of survey questions to measure help received from adult children (Schoeni et al., 2015), which is our outcome
+of interest. We used proximity, demographic, and socioeconomic variables based
+on data collected in 2011.
+
+We selected individuals 55 and older who had difficulty with at least
+one activity of daily living (ADL) or instrumental activity of daily living
+(IADL), and had at least one biological adult child aged 25 or older who was
+also in the 2011 and 2013 PSID (Appendix Table
+A1). The unit of analysis was a dyad of a parent (i.e., older adults)
+and an adult child, with some parents having more than one adult child and
+contributing more than one dyad (810 parents; 1,767 dyads of parents and their
+adult children). We also examined, as a comparison group, parents who did not
+have a disability (1,812 parents; 3,608 dyads of parents and their adult
+children).
+
+Measures
+
+The Census block of residence for parents and their adult children is
+made available by the PSID to researchers through a restricted use contract.
+Using this location information together with a household roster, we constructed
+a measure of the distance between parents and each adult child: i) coresident;
+ii) on the same block but not coresident; iii) not on the same block but
+<=2 miles; iv) 2–5 miles; v) 5–10 miles; vi) 10–30
+miles; vii) 30–100 miles; viii) >100 miles. These cut-points were
+chosen based on substantive significance (e.g., less than 2 miles as a walking
+distance), cell size in each proximity category, and cut-points used in previous
+studies.(Choi et al., 2015, 2020; Compton
+& Pollak, 2015)
+
+To estimate the slope of the relationship between help hours and miles
+within a segment of distance, we also created a linear spline of proximity with
+two knots (Harrell Jr., 2015) – at
+‘not on the same block but <=2 miles’ and at
+‘5–10 miles’ – after examining the estimates on all
+proximity categories (Appendix Tables A2
+and A3).
+
+The hours of help asked in the module administered in 2013 encompasses a
+broader aspect of help, e.g., hands-on care, chores, and errands received in the
+prior calendar year from each adult child. Parents (care recipients) could
+report hours per week, per month, or for the entire year. All reports are
+converted to weekly amounts in this study and include 0 hours for children who
+did not provide help. There are a few cases reporting an implausibly high number
+of hours, including four cases of 168 hours per week. Therefore, weekly hours of
+help received is top-coded at the 99th percentile (=69.8 hours per week).
+
+We included demographic and socioeconomic factors that are potentially
+associated with the amount of help received from an adult child and may also
+influence the association between help and proximity: parent’s race
+(non-Hispanic black, non-Hispanic whites), marital status (single, married or
+cohabiting for at least one year), the number of children (1 or 2, 3 or more),
+and household wealth (<median, >=median); and adult child’s
+age, gender (daughter, son), employment status (working, not working), and
+parenthood status (no children, at least one child).
+
+Statistical Analysis
+
+The adjusted relationship between hours of help received and residential
+distance was estimated using a two-part model (Belotti et al., 2015): logit model for the binary outcome (i.e.,
+zero vs. any positive hours) in the first part; and generalized linear model
+with gamma distribution and log link for the continuous outcome (within positive
+hours) in the second part. Based on estimates from the two-part model using the
+linear spline of the proximity measure as specified earlier, we calculated
+adjusted predicted weekly hours of help received from an adult child at each
+proximity category holding all covariates at their mean values of each
+corresponding sample (sample with a disability vs. without a disability). As
+auxiliary analyses, we also estimated the predicted value of help hours for each
+proximity category separately by parent’s and adult child’s
+sociodemographic status.
+
+The survey sample weight was applied for all estimates, and standard
+errors were adjusted by clustering the residual structure at the family
+level.
+
+RESULTS
+
+As summarized in Table 1, the sample
+of parents with an ADL/IADL limitation had a mean age of 73 and a mean number of
+ADLs/IADLs of 3.3. The share who were non-Hispanic black was significantly higher
+among those coresident or living within 5 miles compared to those living farther
+than 5 miles from each other. The share of parents having a spouse was lower for
+those non-coresident but living close (<=5 miles) compared to other proximity
+categories (coresident or >5 miles). The proximity of living far (>5
+miles) was associated with a greater share of parent-child dyads that had parental
+wealth above the median, a higher level of children’s education
+(>=16), and a greater share of children employed, compared to coresident.
+
+Table 1.
+
+Summary statistics of analysis sample (Sample: Dyads of parents aged 55+
+with a disability and their children aged 25+)
+
+Overall
+Distance between parents and
+adult children
+
+N
+Est.
+95% CI
+(1)
+Coresident
+(N=292)
+(2)
+Non-coresident,
+<=5 miles (N=512)
+(3)
+>5 miles
+(N=963)
+
+Est.
+95% CI
+Est.
+95% CI
+Est.
+95% CI
+
+Parent’s
+characteristics
+
+ N of activity limitations,
+Mean
+1,756
+3.3
+[3.0 3.6]
+3.4
+[2.9 3.9]
+3.4
+[3.0 3.8]
+3.3
+[3.0 3.6]
+
+ Age, Mean
+1,767
+72.7
+[71.7 73.7]
+70.6
+[68.7 72.6]
+72.1
+[70.8 73.5]
+73.5
+[72.3 74.7]
+
+ Female, %
+1,242
+71.1
+[68.5 73.6]
+72.8
+[66.2 78.6]
+77.6
+[72.9 81.6]
+67.6
+[64.1 71.0]
+
+ Race/ethnicity, %
+
+  NH Black
+547
+12.0
+[10.5 13.6]
+17.3
+[12.8 22.8]
+14.8
+[11.9 18.2]
+9.3
+[7.6 11.4]
+
+  NH White
+1,065
+78.2
+[75.9 80.3]
+66.7
+[59.9 72.9]
+76.8
+[72.3 80.7]
+81.6
+[78.5 84.2]
+
+  Other
+147
+9.9
+[8.2 11.8]
+16.0
+[11.5 21.8]
+8.4
+[5.7 12.2]
+9.1
+[7.0 11.8]
+
+ Have a spouse, %
+900
+48.9
+[46.1 51.6]
+51.6
+[44.4 58.8]
+38.4
+[33.5 43.6]
+53.2
+[49.5 56.9]
+
+ Number of children,
+%
+
+  One or two children
+448
+28.2
+[25.7 30.7]
+35.5
+[28.9 42.7]
+29.0
+[24.4 34.1]
+26.0
+[22.9 29.3]
+
+  Three
+425
+27.1
+[24.6 29.7]
+26.5
+[20.6 33.4]
+26.7
+[22.2 31.7]
+27.4
+[24.2 30.9]
+
+  Four or more
+894
+44.7
+[42.0 47.5]
+38.0
+[31.4 45.1]
+44.3
+[39.1 49.6]
+46.6
+[42.9 50.2]
+
+ Wealth above median ($93,338),
+%
+701
+49.8
+[47.0 52.6]
+33.4
+[26.9 40.7]
+46.2
+[40.9 51.5]
+55.5
+[51.8 59.1]
+
+Adult
+child’s characteristics
+
+ Age, Mean
+1,766
+45.7
+[44.7 46.6]
+42.6
+[40.5 44.6]
+46.1
+[44.7 47.5]
+46.2
+[45.1 47.3]
+
+ Female, %
+908
+49.4
+[46.6 52.2]
+40.3
+[33.5 47.4]
+54.9
+[49.6 60.1]
+48.9
+[45.2 52.6]
+
+ Having at least one minor kid,
+%
+765
+40.4
+[37.7 43.2]
+19.8
+[15.0 25.7]
+41.7
+[36.6 47.0]
+44.7
+[41.1 48.4]
+
+ Education >=16 years, %
+371
+25.4
+[23.0 28.0]
+11.3
+[7.5 16.6]
+19.0
+[15.1 23.7]
+31.9
+[28.5 35.5]
+
+ Adult child’
+employment status, %
+
+  Employed
+1,222
+72.4
+[69.8 74.8]
+49.7
+[42.5 56.9]
+72.6
+[67.7 77.0]
+77.8
+[74.5 80.8]
+
+  Unemployed, retired,
+keeping house
+357
+20.3
+[18.1 22.7]
+28.7
+[22.6 35.7]
+21.6
+[17.6 26.3]
+17.5
+[14.8 20.6]
+
+  Disabled/student/other
+139
+7.4
+[6.0 9.0]
+21.6
+[16.0 28.4]
+5.8
+[3.9 8.5]
+4.7
+[3.3 6.6]
+
+Open in a new tab
+
+Among parents with an ADL/IADL limitation, the likelihood of receiving any
+help (i.e., the first part of the two-part model) fell as distance increased between
+‘not on the same block but <=2 miles’ and ‘5–10
+miles’ (Adjusted Odds Ratio (AOR) = 0.77, 95%CI 0.59, 1.00), and between
+‘5–10 miles’ and ‘beyond 100 miles’ (AOR=0.70,
+95%CI 0.59, 0.84; Table 2). Conditional on
+receiving help from the adult child (i.e., the second part of the model), hours of
+help received decreased in the segments containing the closer distance categories:
+between ‘coresident’ and ‘not coresident but <=2
+miles’ (adjusted coef. = -0.64, 95%CI -0.87, -0.41).
+
+Table 2.
+
+Adjusted estimates of change in weekly hours of help received from an
+adult child by a parent associated with an increase in distance to the adult
+child (Sample: Dyads of parents aged 55+ and their children aged 25+)
+
+Among parents with ADL/IADL
+limitations (N= 1,767)
+Among parents without
+ADL/IADL limitations (N= 3,608)
+
+First part (N=1,676)
+
+(logit)
+Second part (N=552)
+
+(Gamma with log link)
+First part (N=3,520)
+
+(logit)
+Second part (N=642)
+
+(Gamma with log link)
+
+AOR
+p-value
+95% CI
+Coef.
+p-value
+95% CI
+AOR
+p-value
+95% CI
+Coef.
+p-value
+95% CI
+
+Proximity segment 1:
+Coresident --
+<=2 miles
+0.99
+0.96
+[0.77 1.28]
+−0.64
+<0.001
+[−0.87 −0.41]
+0.99
+0.95
+[0.78 1.26]
+−0.42
+<0.001
+[−0.64 −0.19]
+
+Proximity segment 2:
+ <=2
+miles -- 5–10 miles
+0.77
+0.05
+[0.59 1.00]
+−0.22
+0.09
+[−0.47 0.03]
+0.93
+0.56
+[0.75 1.16]
+−0.20
+0.11
+[−0.43 0.04]
+
+Proximity segment 3:
+5–10
+miles -- beyond 100 miles
+0.70
+<0.001
+[0.59 0.84]
+0.17
+0.10
+[−0.03 0.36]
+0.67
+<0.001
+[0.56 0.81]
+−0.03
+0.69
+[−0.19 0.12]
+
+Open in a new tab
+
+Note: Estimates are from two-part models using a spline with two
+knots for proximity. Adjustment variables include parent’s age,
+gender, race/ethnicity, spousal status, number of children, and wealth
+(adjusted by household size), and child’s age, gender, education,
+working status, and the status of having a minor child.
+
+Adjusted weekly hours of help received were estimated by combining the two
+components of the two-part model (Figure 1).
+Among parents with a limitation, adjusted weekly hours decreased with distance but
+only up to about 2–5 miles: 5.99 (95%CI 3.33, 8.65) if coresident, 3.16
+(95%CI 2.04, 4.28) if lived on the same block, 1.16 (95%CI 0.72, 1.59) if 2–5
+miles away, 0.79 (95%CI 0.39, 1.20) if lived 5–10 miles away, and 0.58 (95%CI
+0.25, 0.92) if lived >100 miles away (Figure
+1). There is little substantive difference in adjusted weekly hours of
+help received between parents with vs. without an ADL/IADL limitation for distances
+beyond 2–5 miles.
+
+Figure 1.
+
+Open in a new tab
+
+Adjusted weekly hours of help received from an adult child by a parent,
+by distance
+
+(Sample: Dyads of parents aged 55+ and their children aged 25+;
+N=5,375)
+
+Note: Estimates are from two-part models using a spline with two knots
+for proximity. Adjustment variables include parent’s age, gender,
+race/ethnicity, spousal status, number of children, and wealth (adjusted by
+household size), and child’s age, gender, education, working status, and
+status of having a minor kid. Predicated values for the adjusted model were
+evaluated by holding all covariates at their mean values of each corresponding
+sample (N=3,608 for without ADL/IADL limitation; N=1,767 for with ADL/IADL
+limitation)
+
+DISCUSSION
+
+This study finds that the hours of help received from an adult child by a
+parent with a disability are strongly contingent on them living no more than about
+five miles apart. Beyond this distance, relatively little help is given, and hours
+of help are not associated with proximity.
+
+Family members may help each other in ways that are less dependent on close
+residential proximity (e.g., financial or emotional support), but hands-on
+assistance is required by many older adults with disabilities. If this family care
+is not received, adults in need may go without care or rely on care services paid
+for by themselves, their families, private insurance, or public programs.
+
+There are potential limitations to the study. First, parents and children
+may have moved closer to each other, anticipating the parent’s health
+decline, which may introduce endogeneity bias in the estimates. We found that the
+number of ADLs/IADLs was not higher among parents who lived closer to their children
+(Table 1), but there might still be
+endogeneity bias not addressed in our estimates. Second, limited sample sizes
+prohibited more nuanced assessments. Specifically, a strong association between
+hours of help and very close proximity seem to exist for most socioeconomic groups,
+but confidence intervals were too wide to provide conclusive statistical inference
+(Appendix Figures A1 and A2). Third, we focus on the dyad of parent-child
+rather than family as a whole (e.g., care provided from all children). While both
+are important, our data do not have the detailed geographic location of
+all children of the parent, so we could not incorporate
+within-family dynamics (e.g., care allocation among adult children of a parent) and
+assess the resulting total care amount received by a parent. Fourth, focusing on a
+parent’s perspective (i.e., care recipient), we used the measure of help
+hours reported by a parent, which may be biased toward under-estimating the actual
+hours of help. (Ikkink et al., 1999; Lin & Wu, 2017)
+
+Despite the limitations, this research using national data provides
+important new evidence on the high spatial dependency of the amount of help received
+from an adult child by an older adult with a disability. A better understanding is
+needed of the desire for, barriers to, and facilitators of child-to-parent
+caregiving when they live more than a few miles apart (e.g., the nature of the adult
+child’s employment and associated work policies, technological innovations
+that may allow some forms of long-distance caregiving). This need has become more
+evident during the COVID–19 pandemic, where even adult children living nearby
+face significant constraints to safely providing care for their parents in need.
+
+HIGHLIGHTS.
+
+Older adults with disability receive a high level of care from adult
+children.
+
+The amount of care from a child is strongly contingent on spatial
+proximity.
+
+Little help is received from an adult child if the child lives
+beyond 2–5 miles.
+
+Funding Acknowledgement:
+
+This research is supported by Eunice Kennedy Shriver National Institute of
+Child Health & Human Development [grant number R21HD087881].
+
+Appendix Table A1.
+
+Selection criteria for the sample of parents with at least one
+ADL or IADL limitation
+
+Sample & Sample
+restrictions
+N of focal persons
+N of focal person-child dyad
+
+Restriction A
+Focal person age25+ who have a
+biological child 25+ (RT13)
+4,608
+10,751
+
+Restriction B
+A+ children Not in an institution
+for 2013
+4,587
+10,653
+
+Restriction C
+B + focal person and children in
+the main PSID sample in 2011
+3,603
+7,058
+
+Restriction D
+C + focal person and children Not
+in an institution in 2011
+3,561
+6,939
+
+Restriction E
+D + focal person aged 55 and older
+in 2013
+2,669
+5,518
+
+Restriction F
+E + focal person at least one ADL
+or IADL limitation
+830
+1,835
+
+Restriction G
+F + non-missing information on
+time-transfer receipt from children (RT13)
+815
+1,784
+
+Analysis Sample
+G + non-missing information on
+proximity in 2011 (block-level)
+810
+1,767
+
+Open in a new tab
+
+Appendix Table A2.
+
+Adjusted prediction of weekly hours of help received from a
+child, by distance using a dummy variable for each proximity
+category (Sample: Dyads of parents aged 55+
+with a disability and their children aged
+25+; N=1,767)
+
+Unadjusted
+estimates
+
+Adjusted estimates
+(using two-part model)
+
+Mean
+
+First part
+(logit)
+
+Second part (Gamma
+with log link)
+
+Combined
+
+N
+Weighted values
+95% CI
+ARR
+p-value
+95% CI
+Coef.
+p-value
+95% CI
+Predicted values
+95% CI
+
+Coresident
+292
+8.59
+[5.71 11.47]
+1.29
+0.16
+[0.90 1.83]
+1.73
+<0.001
+[1.21 2.25]
+5.34
+[2.87 7.8]
+
+Same block
+111
+6.73
+[2.96 10.60]
+1.07
+0.75
+[0.71 1.62]
+1.67
+<0.001
+[1.04 2.29]
+4.16
+[1.63 6.70]
+
+<=2 miles, not same
+block
+202
+2.10
+[1.23 2.97]
+1.31
+0.14
+[0.92 1.87]
+0.22
+0.38
+[−0.27 0.72]
+1.20
+[0.70 1.70]
+
+2–5 miles
+199
+2.84
+[1.34 4.34]
+1.00
+0.99
+[0.69 1.46]
+0.75
+0.01
+[0.16 1.34]
+1.56
+[0.65 2.46]
+
+5–10 miles
+176
+0.97
+[0.43 1.50]
+(ref)
+(ref)
+(ref)
+(ref)
+(ref)
+(ref)
+0.73
+[0.32 1.15]
+
+10–30 miles
+226
+0.62
+[0.29 0.95]
+0.63
+0.02
+[0.42 0.94]
+−0.07
+0.82
+[−0.7 0.56]
+0.43
+[0.18 0.68]
+
+30–100 miles
+155
+1.43
+[0.19 2.66]
+0.48
+0.003
+[0.30 0.78]
+0.76
+0.07
+[−0.06 1.57]
+0.75
+[0.10 1.41]
+
+>100 miles
+406
+0.80
+[0.32 1.28]
+0.41
+<0.001
+[0.27 0.63]
+0.61
+0.04
+[0.04 1.18]
+0.56
+[0.22 0.90]
+
+Open in a new tab
+
+Note: Dummy variables for categories of proximity were used
+(reference category was 5–10 miles). Adjustment variables
+include parent’s age, gender, race/ethnicity, spousal status,
+number of children, and wealth (adjusted by household size), and
+child’s, age, gender, education, working status, and the
+status of having a minor child. Predicated values for the adjusted
+model were evaluated by holding all covariates at their mean values
+of the corresponding analysis sample (N=1,767).
+
+Appendix Table A3.
+
+Adjusted prediction of weekly hours of help received from a
+child, by distance using a dummy variable for each proximity
+category (Sample: Dyads of parents aged 55+
+without a disability and their children aged
+25+; N=3,608)
+
+Unadjusted
+estimates
+
+Adjusted estimates
+(using two-part model)
+
+Mean
+
+First part
+(logit)
+
+Second part (Gamma
+with log link)
+
+Combined
+
+N
+Weighted value
+95% CI
+ARR
+p-value
+95% CI
+Coef.
+p-value
+95% CI
+Predicted values
+95% CI
+
+Coresident
+562
+1.67
+[0.85 2.48]
+1.22
+0.32
+[0.83 1.81]
+0.89
+0.004
+[0.28 1.49]
+1.04
+[0.52 1.55]
+
+Same block
+230
+1.30
+[0.45 2.15]
+1.11
+0.66
+[0.70 1.78]
+0.93
+0.004
+[0.30 1.55]
+0.98
+[0.34 1.63]
+
+<=2 miles, not same
+block
+316
+0.60
+[0.27 0.94]
+1.15
+0.49
+[0.77 1.71]
+0.20
+0.52
+[−0.41 0.81]
+0.49
+[0.24 0.74]
+
+2–5 miles
+294
+0.35
+[0.20 0.50]
+1.27
+0.22
+[0.86 1.88]
+−0.34
+0.22
+[−0.88 0.21]
+0.32
+[0.17 0.46]
+
+5–10 miles
+369
+0.38
+[0.17 0.58]
+(ref)
+(ref)
+(ref)
+(ref)
+(ref)
+(ref)
+0.35
+[0.15 0.55]
+
+10–30 miles
+479
+0.22
+[0.11 0.33]
+0.74
+0.14
+[0.50 1.10]
+−0.51
+0.10
+[−1.11 0.10]
+0.16
+[0.08 0.24]
+
+30–100 miles
+398
+0.33
+[0.04 0.62]
+0.63
+0.04
+[0.41 0.98]
+0.29
+0.49
+[−0.54 1.12]
+0.30
+[0.04 0.55]
+
+>100 miles
+960
+0.08
+[0.04 0.12]
+0.36
+<0.001
+[0.22 0.60]
+−0.46
+0.09
+[−1.00 0.07]
+0.08
+[0.04 0.13]
+
+Open in a new tab
+
+Note: Dummy variables for categories of proximity were used
+(reference category was 5–10 miles). Adjustment variables
+include parent’s age, gender, race/ethnicity, spousal status,
+number of children, and wealth (adjusted by household size), and
+child’s age, gender, education, working status, and the
+status of having a minor child. Predicated values for the adjusted
+model were evaluated by holding all covariates at their mean values
+of the corresponding analysis sample (N=3,608).
+
+Appendix Figure A1.
+
+Open in a new tab
+
+Adjusted predicted weekly hours of help received from an adult
+child by a parent with disability, by distance and parental
+characteristics
+
+(Sample: Dyads of parents aged 55+ with a disability and their
+children aged 25+; N=1,767)
+
+Note: Estimates are from two-part models using a spline with two
+knots for proximity. Potential adjustment variables include
+parent’s age, gender, race/ethnicity, spousal status, number of
+children, and wealth (adjusted by household size), and child’s
+age, gender, education, working status, and the status of having a minor
+kid. Predicated values for the adjusted model were evaluated by holding
+all covariates at their mean values of the analysis sample
+(N=1,767).
+
+Appendix Figure A2.
+
+Open in a new tab
+
+Adjusted predicted weekly hours of help received from an adult
+child by a parent with disability, by distance and
+children’s characteristics
+
+(Sample: Dyads of parents aged 55+ with a disability and their
+children aged 25+; N=1,767)
+
+Note: Estimates are from two-part models using a spline with two
+knots for proximity. Potential adjustment variables include
+parent’s age, gender, race/ethnicity, spousal status, number of
+children, and wealth (adjusted by household size), and child’s
+age, gender, education, working status, and the status of having a minor
+kid. Predicated values for the adjusted model were evaluated by holding
+all covariates at their mean values of the analysis sample
+(N=1,767).
+
+Footnotes
+
+Publisher's Disclaimer: This is a PDF file of an unedited
+manuscript that has been accepted for publication. As a service to our customers
+we are providing this early version of the manuscript. The manuscript will
+undergo copyediting, typesetting, and review of the resulting proof before it is
+published in its final form. Please note that during the production process
+errors may be discovered which could affect the content, and all legal
+disclaimers that apply to the journal pertain.
+
+REFERENCES
+
+Belotti F, Deb P, Manning WG, & Norton EC (2015). Twopm: Two-part
+models. The Stata Journal,
+15(1),
+3–20. 10.1177/1536867X1501500102 [DOI] [Google Scholar]
+
+Choi H, Schoeni RF, Langa KM, & Heisler MM (2015). Spouse and child availability for
+newly disabled older adults: Socioeconomic differences and potential role of
+residential proximity. The Journals of Gerontology Series B: Psychological Sciences and Social Sciences,
+70(3),
+462–469. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Choi H, Schoeni RF, Wiemers EE, Hotz VJ, & Seltzer JA (2020). Spatial distance between parents and
+adult children in the United States. Journal of Marriage and Family, 82(2),
+822–840. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Compton J, & Pollak RA (2015). Proximity and Co-residence of Adult
+Children and their Parents in the United States: Descriptions and
+Correlates. Annals of Economics and Statistics/Annales d’Économie et de Statistique,
+117–118,
+91–114. [Google Scholar]
+
+Erickson W, Lee C, & von Schrader S (2020). 2018 Disability Status Report: United States. Cornell University Yang-Tan Institute on
+Employment and Disability (YTI). https://www.disabilitystatistics.org/StatusReports/2018-PDF/2018-StatusReport_US.pdf [Google Scholar]
+
+Harrell FE Jr (2015). Regression modeling strategies: With applications to linear models, logistic and ordinal regression, and survival analysis.
+Springer. [Google Scholar]
+
+Ikkink KK, van Tilburg T, & Knipscheer KCPM (1999). Perceived Instrumental Support
+Exchanges in Relationships between Elderly Parents and Their Adult Children:
+Normative and Structural Explanations. Journal of Marriage and Family, 61(4),
+831–844. 10.2307/354006 [DOI] [Google Scholar]
+
+Institute for Social
+Research. (2019). PSID Main Interivew User Manual: Release 2019. University of
+Michigan. [Google Scholar]
+
+Institute of Medicine (US) Committee
+on Disability in America. (2007). The Future of Disability in America (Field MJ & Jette AM, Eds.). National Academies Press; 
+(US: ). http://www.ncbi.nlm.nih.gov/books/NBK11434/ [PubMed] [Google Scholar]
+
+Joseph AE, & Hallman BC (1998). Over the hill and far away: Distance
+as a barrier to the provision of assistance to elderly
+relatives. Social Science & Medicine,
+46(6),
+631–639. [DOI] [PubMed] [Google Scholar]
+
+Lin I-F, & Wu H-S (2017). Intergenerational Transfer and
+Reporting Bias: An Application of the MIMIC Model.
+The Journals of Gerontology. Series B, Psychological Sciences and Social Sciences, 73(1),
+19–29. 10.1093/geronb/gbx080 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Litwak E, & Longino CF (1987). Migration Patterns Among the
+Elderly: A Developmental Perspective. The Gerontologist, 27(3),
+266–272. 10.1093/geront/27.3.266 [DOI] [PubMed] [Google Scholar]
+
+Reinhard SC, Feinberg LF, Choula R, & Houser A (2015). Valuing the Invaluable: 2015 Update. 25. [Google Scholar]
+
+Rossi PPH, & Rossi A (1990). Of human bonding: Parent-child relations across the life course. Transaction
+Publishers. [Google Scholar]
+
+Schoeni RF, Bianchi SM, Hotz VJ, Seltzer JA, & Wiemers EE (2015). Intergenerational transfers and
+rosters of the extended family: A new substudy of the Panel Study of Income
+Dynamics. Longitudinal and Life Course Studies,6(3),319–330.
+10.14301/llcs.v6i3.332 [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Wolff JL, Spillman BC, Freedman VA, & Kasper JD (2016). A national profile of family and
+unpaid caregivers who assist older adults with health care
+activities. JAMA Internal Medicine,
+176(3),
+372–379. 10.1001/jamainternmed.2015.7664 [DOI] [PMC free article] [PubMed] [Google Scholar]

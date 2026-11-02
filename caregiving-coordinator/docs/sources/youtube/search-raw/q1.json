@@ -1,0 +1,1117 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "e5R_6omQDA3xMQzy0z5_EXRTYAg",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "B2eo01lVMEa_ZR0If1z6LndUetw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Nl3A8nM4_p8"
+      },
+      "snippet": {
+        "publishedAt": "2025-02-04T20:17:51Z",
+        "channelId": "UCvhI63j18r0aAhfxQJ11EQg",
+        "title": "Caring for Aging Parents: A Caregiver’s Story &amp; Support Tips",
+        "description": "Caring for aging parents can be a challenging yet rewarding experience. Follow one caregiver's journey as she manages the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Nl3A8nM4_p8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Nl3A8nM4_p8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Nl3A8nM4_p8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Nl3A8nM4_p8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Nl3A8nM4_p8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "WOSU Public Media",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-02-04T20:17:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OpaqQcpRGg1mMxoWw-tBPcL04EA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p8sRNKTGj9g"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-26T04:01:06Z",
+        "channelId": "UCHFffg5HmfoId6E8WTVOc5Q",
+        "title": "Dealing with aging parents:  Is anyone else going through this?",
+        "description": "Want to learn more about Dr. Haver and her work in the field of menopause? Check out our website: https://thepauselife.com/ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/p8sRNKTGj9g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dr. Mary Claire Haver, MD",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-26T04:01:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Zhq242xiJfC_eEVKjqVZbZ0xteY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "b9EEEaeBLBQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-02T19:00:24Z",
+        "channelId": "UCh5VP9Z2QOiM5BhkF0CXzJA",
+        "title": "The #1 Mistake When Caring for Aging Parents! #homecare #seniorcare #assistedliving #aging",
+        "description": "ElderCare #FamilyCaregiving #SeniorCare #InHomeCare #DementiaCare #HomeCare #SeniorLiving #IndependentLiving ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/b9EEEaeBLBQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Plain English Attorney(R)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-02T19:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UfdBh-wfqS_1SvA5Xf8NbX0aWAI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6eJWaK1v0No"
+      },
+      "snippet": {
+        "publishedAt": "2026-09-29T17:22:33Z",
+        "channelId": "UCStCUMvCw067Nw5uSlbyDsw",
+        "title": "Here are some ways to take care of aging parents",
+        "description": "Experts are sharing ways to ease the burden and find meaning and joy when caring for aging parents.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6eJWaK1v0No/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6eJWaK1v0No/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6eJWaK1v0No/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6eJWaK1v0No/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6eJWaK1v0No/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/6eJWaK1v0No/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "THV11",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-09-29T17:22:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QJYl7cam9PI9mYXmrWVyX6-kISE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BiJEpcR8BkU"
+      },
+      "snippet": {
+        "publishedAt": "2025-11-05T17:55:50Z",
+        "channelId": "UCTln5ss6h6L_xNfMeujfPbg",
+        "title": "Medicare expert reveals tips for families caring for aging parents",
+        "description": "Millions of middle-aged Americans find themselves in the \"sandwich generation,\" caring for aging parents while managing their ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BiJEpcR8BkU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BiJEpcR8BkU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BiJEpcR8BkU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BiJEpcR8BkU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BiJEpcR8BkU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Scripps News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-11-05T17:55:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BiS5m4AmMJnwKQCOgK-2wiLWZec",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JLfPwW_SE8g"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-17T13:00:25Z",
+        "channelId": "UCn9_hP1xyjK05z963Y6mMZw",
+        "title": "AGING PARENT CARE OBLIGATION? DO YOU HAVE TO PROVIDE CARE TO YOUR ELDERLY PARENT?",
+        "description": "Are adult children really obligated to care for their aging parents, or is this just a societal expectation we need to rethink?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JLfPwW_SE8g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JLfPwW_SE8g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JLfPwW_SE8g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JLfPwW_SE8g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JLfPwW_SE8g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sofia Amirpoor",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-17T13:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qDz0dhK3MUI_He7LTK_HzKqFQFk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fw54dW2Rlmc"
+      },
+      "snippet": {
+        "publishedAt": "2025-11-14T15:00:36Z",
+        "channelId": "UCcyq283he07B7_KUX07mmtA",
+        "title": "Money Lessons From Americans Caring for Aging Parents | Life Lessons | Business Insider",
+        "description": "Sponsored by Edward Jones Caring for aging parents can be one of the most emotional and financially challenging experiences ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fw54dW2Rlmc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fw54dW2Rlmc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fw54dW2Rlmc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Fw54dW2Rlmc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Fw54dW2Rlmc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Business Insider",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-11-14T15:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tq4NbyHnnHqo-ZA_iqO5YRx7afw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UIuRBunTHtQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-24T17:14:16Z",
+        "channelId": "UCPjDiUMNzYXLHO1Bj_Gkgvg",
+        "title": "Caregiving for Aging Parents Who Didn&#39;t Care for You",
+        "description": "The weight of caregiving is heavy enough, but what happens when you're asked to care for a parent who was absent, critical, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UIuRBunTHtQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UIuRBunTHtQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UIuRBunTHtQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UIuRBunTHtQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UIuRBunTHtQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "DailyCaring.com",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-24T17:14:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xLFAd_nPV165abNT0zke9k-FZXE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "O04zPXT29b0"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-20T23:31:21Z",
+        "channelId": "UC64L9OK6WkM0STVxysAWBuA",
+        "title": "To anyone struggling with taking care of aging parents, know that you&#39;re not alone. #michelleobama",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O04zPXT29b0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O04zPXT29b0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O04zPXT29b0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/O04zPXT29b0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/O04zPXT29b0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Michelle Obama",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-20T23:31:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hCAjXNpVXhe67cKwj5W0tE2-Q8A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "awk-xFZIQH0"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-24T13:00:02Z",
+        "channelId": "UCn9_hP1xyjK05z963Y6mMZw",
+        "title": "THE SECRET TO LESS STRESS WHILE CARING FOR YOUR AGING PARENT",
+        "description": "Feeling overwhelmed while caring for your aging parent? Discover how you can find small moments of joy and calm—called ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/awk-xFZIQH0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/awk-xFZIQH0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/awk-xFZIQH0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/awk-xFZIQH0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/awk-xFZIQH0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sofia Amirpoor",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-24T13:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0238OBUjOcgTCQvlZrd_yTxe-z0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yzAVxfX0uUM"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-16T10:01:39Z",
+        "channelId": "UC2QloGx6F3YzIVZtgEXA1dQ",
+        "title": "How to Care for Aging Parents Without Losing Yourself | Dr John Demartini",
+        "description": "Rapid-Fire Question and Answer with Dr Demartini: You wanted to know: \"How can I care for my aging parents without losing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yzAVxfX0uUM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yzAVxfX0uUM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yzAVxfX0uUM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/yzAVxfX0uUM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/yzAVxfX0uUM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dr John Demartini",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-16T10:01:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RSte2k-ZkPcht36Ms6INuGWOe7o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YlthrT39ps8"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-02T00:00:40Z",
+        "channelId": "UChy5xzO6JM4v221lU4Z0hpw",
+        "title": "Why aging parents YELL at the caregiver who helps them MOST",
+        "description": "If your aging parent is yelling at you or blaming you for everything, it's not personal. Gerontologists call it the safe target effect: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Neal K. Shah",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-02T00:00:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V-_0JyYfwFzc4_6HaRT21cUFUG4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "imUD3P9y0Ng"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T13:23:31Z",
+        "channelId": "UCi4ie2vwCvR2xv7jdFNBxSA",
+        "title": "How Much Does It Cost To Care For Aging Parents?",
+        "description": "As a carer to her aging parents, Trisha shares the emotional and financial realities of caregiving while raising her own family Hear ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/imUD3P9y0Ng/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/imUD3P9y0Ng/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/imUD3P9y0Ng/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/imUD3P9y0Ng/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/imUD3P9y0Ng/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RBC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T13:23:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1NRhxAQ_3hHtxk1dP4VHZC9xY0c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ocZeWD9e0E4"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-20T10:30:32Z",
+        "channelId": "UCFepBn8vJzZoSKmlSMTfo4w",
+        "title": "How Far Must We Go? Caring for Aging Parents -- Rabbi Dr. Jason Weiner",
+        "description": "What Do We Owe Our Parents? Caring for Aging Parents Guest: Rabbi Dr. Jason Weiner What do we owe our parents as they age ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ocZeWD9e0E4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ocZeWD9e0E4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ocZeWD9e0E4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ocZeWD9e0E4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ocZeWD9e0E4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Ematai",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-20T10:30:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8SubLppaD-ege8lyQOyHUcjrLCA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mwqWpDJzsog"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-09T17:23:12Z",
+        "channelId": "UChy5xzO6JM4v221lU4Z0hpw",
+        "title": "One sibling ends up CAREGIVING. Why aging parents SPLIT families? How to AVOID it?",
+        "description": "Here is a painful pattern almost every family hits: one sibling quietly becomes the caregiver, while the others stay at a distance.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mwqWpDJzsog/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mwqWpDJzsog/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mwqWpDJzsog/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mwqWpDJzsog/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mwqWpDJzsog/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Neal K. Shah",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-09T17:23:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PqomyHUTjXSbphbmqJzE9MgnVH8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iWB7T1P6EmY"
+      },
+      "snippet": {
+        "publishedAt": "2024-04-16T13:30:18Z",
+        "channelId": "UC9Qixc77KhCo88E5muxUjmA",
+        "title": "Managing the PITY you feel for the AGING NARCISSIST",
+        "description": "ORDER MY NYT BESTSELLING BOOK \"IT'S NOT YOU\" https://smarturl.it/not-you JOIN MY HEALING PROGRAM ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iWB7T1P6EmY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iWB7T1P6EmY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iWB7T1P6EmY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iWB7T1P6EmY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iWB7T1P6EmY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "DoctorRamani",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-16T13:30:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pq4mB1577AWOCQUYBaroBIQR0Ps",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vvqHsnvkILo"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-06T10:42:49Z",
+        "channelId": "UCZo2FrriBIDZGPRVzCmj0zw",
+        "title": "Caring for an Aging Parent? Start Here | Caregiver Resources You Need",
+        "description": "Are you caring for an aging parent, a spouse with dementia, or another family member, and have no idea where to start looking for ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vvqHsnvkILo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vvqHsnvkILo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vvqHsnvkILo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vvqHsnvkILo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vvqHsnvkILo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GeriAcademy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-06T10:42:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "naou2YN-Dq3ofuVSCdqecRCy66U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yVdzJyjBuYI"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-19T15:28:10Z",
+        "channelId": "UC3V3GDjr1sWvR_aiGhRyAAg",
+        "title": "How to Care for Aging Parents",
+        "description": "Download your free eBook at www.visitingangels.com/ebook to learn more about how we can help. Caring for aging parents can ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yVdzJyjBuYI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yVdzJyjBuYI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yVdzJyjBuYI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/yVdzJyjBuYI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/yVdzJyjBuYI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Visiting Angels Home Care",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-19T15:28:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "b-_tYcM9wR02mb27K-G1lPcdiHI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pPWa5NhwG6w"
+      },
+      "snippet": {
+        "publishedAt": "2026-09-23T23:00:01Z",
+        "channelId": "UCknLrEdhRCp1aegoMqRaCZg",
+        "title": "Caring for aging parents: Between duty and self-care",
+        "description": "In Indonesia, adult children are expected to provide care to their parents, but many family caregivers face physical and emotional ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pPWa5NhwG6w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pPWa5NhwG6w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pPWa5NhwG6w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pPWa5NhwG6w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pPWa5NhwG6w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "DW News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-09-23T23:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lQ-QW7Gl5YLQvkHRRAoE1ZPAVMs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-LqA76Dn0z8"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-15T18:30:26Z",
+        "channelId": "UCzBgrt2VE9efcZy02TzS-YQ",
+        "title": "Caring for Aging Parents? You&#39;re Not Disorganized ❤️ #Shorts",
+        "description": "Caring for aging parents or a loved one? Family caregiving can feel like managing an entire healthcare system from your kitchen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-LqA76Dn0z8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-LqA76Dn0z8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-LqA76Dn0z8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-LqA76Dn0z8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-LqA76Dn0z8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RNRogerthat",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-15T18:30:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_RaHJoZjjZg-KOlrtJm_OHEpQs0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "P1DE_O8foj8"
+      },
+      "snippet": {
+        "publishedAt": "2026-04-16T18:00:20Z",
+        "channelId": "UChy5xzO6JM4v221lU4Z0hpw",
+        "title": "Aging parent REFUSES help? Here&#39;s WHY and what to do",
+        "description": "Aging parents who refuse help often aren't being stubborn — they're protecting their identity and independence. Understanding ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P1DE_O8foj8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P1DE_O8foj8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P1DE_O8foj8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/P1DE_O8foj8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/P1DE_O8foj8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Neal K. Shah",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-04-16T18:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EQWWGBKeSGB0oIYif5ff9kbuHO0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Al5M5xoWMYE"
+      },
+      "snippet": {
+        "publishedAt": "2026-04-29T20:00:05Z",
+        "channelId": "UChy5xzO6JM4v221lU4Z0hpw",
+        "title": "How TOO MUCH help hurts aging parents with dementia",
+        "description": "Doing too much for your aging parents can actually increase their risk of cognitive decline. When you take over tasks they can still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Al5M5xoWMYE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Al5M5xoWMYE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Al5M5xoWMYE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Al5M5xoWMYE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Al5M5xoWMYE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Neal K. Shah",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-04-29T20:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "daem6YroZ8hYznA87Y4FEAa7QmY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n02yFtQTaF8"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-18T09:38:09Z",
+        "channelId": "UCJcFJZcrKOXH6FdenoLrV5w",
+        "title": "Long-Term Care Planning for Aging Parents [Oct 2026]",
+        "description": "Planning for an aging parent's future care can feel overwhelming, especially when you're unsure where to begin. From starting ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n02yFtQTaF8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n02yFtQTaF8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n02yFtQTaF8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/n02yFtQTaF8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/n02yFtQTaF8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Caregiver Action Network",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-18T09:38:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5hqFLIII-WxT-lcrQ33aER_01BY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tawHOBgquVU"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-29T20:13:01Z",
+        "channelId": "UCPOg8KRgp5dE7E3GNwIaZkg",
+        "title": "Caring for aging parents and kids at the same time — there’s a name for it",
+        "description": "New survey data shows how caring for kids and aging parents at once is reshaping family life, work, and money. Ready for what ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tawHOBgquVU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tawHOBgquVU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tawHOBgquVU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tawHOBgquVU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tawHOBgquVU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Care.com",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-29T20:13:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "reKW8Ni2qsKEJIgQNWnAihsRp2s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H31X_A9HUds"
+      },
+      "snippet": {
+        "publishedAt": "2025-02-15T19:57:42Z",
+        "channelId": "UCrWjgOVEKwFBT12bjA2cUww",
+        "title": "Caregiving for a parent with dementia is A LOT to adjust to #familycaregiver #seniors #dementia",
+        "description": "Last year my partner and I became part of the sandwich generation club. In the midst of raising a daughter, who was 10 at the time ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H31X_A9HUds/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H31X_A9HUds/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H31X_A9HUds/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H31X_A9HUds/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/H31X_A9HUds/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OliveYouSoMatcha",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-02-15T19:57:42Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1112 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "7p2Wop7o5tlL36saeBdcfwB7BMI",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9hN5wqEo67N95E123dVlYRHqx-k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XcRmvN5WAec"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-30T10:11:01Z",
+        "channelId": "UCV3-fmzw23-taf2GzxQWYrw",
+        "title": "My Struggle as a Long-Distance Caregiver for an Injured Parent. #elderlycare #healthmadesimple",
+        "description": "Caring for aging parents is never easy, but long-distance caregiving adds an entirely new level of stress. In this video, I share my ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XcRmvN5WAec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XcRmvN5WAec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XcRmvN5WAec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XcRmvN5WAec/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XcRmvN5WAec/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Health Made Simple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-30T10:11:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oaH7CYGo6yF1GTz_vMxbztSZ1Gg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VE5GAd9zAr4"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-15T11:34:21Z",
+        "channelId": "UC0NRsi3g1kHXuV4SUdXirQA",
+        "title": "Long-Distance Caregiving: 4 Ways to Help an Aging Parent",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VE5GAd9zAr4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VE5GAd9zAr4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VE5GAd9zAr4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VE5GAd9zAr4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VE5GAd9zAr4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "June Carver",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-15T11:34:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KMvAY49Qad8WufEbcXH6Z2EEDcc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KbvIHQEkDsA"
+      },
+      "snippet": {
+        "publishedAt": "2024-06-01T18:02:21Z",
+        "channelId": "UCUsiXhA4dYBQh-gzdkKuiRw",
+        "title": "Long Distance Caregiving 6 Ways to Help Your Person with Dementia from a Distance.",
+        "description": "Dementia from Afar: Recognize the Signs and 6 Ways to Assist. I will help you identify if your loved one might need support and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KbvIHQEkDsA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KbvIHQEkDsA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KbvIHQEkDsA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KbvIHQEkDsA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KbvIHQEkDsA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dementia Caregivers Academy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-06-01T18:02:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y5yF4SAmSIVKtYzQTQp9c-7Pzns",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sD-HHrT_BzI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-24T12:53:41Z",
+        "channelId": "UCyQMOkmj1e6LThZCuhv4CSA",
+        "title": "Long-Distance Caregiving Binder — Coordinate an Aging Parent&#39;s Care From Another City",
+        "description": "Caring for a parent from another city means you only know what people tell you — and people tell you they're fine. This binder ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sD-HHrT_BzI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sD-HHrT_BzI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sD-HHrT_BzI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sD-HHrT_BzI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sD-HHrT_BzI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "qhd": {
+            "url": "https://i.ytimg.com/vi/sD-HHrT_BzI/qhddefault.jpg",
+            "width": 2560,
+            "height": 1440
+          }
+        },
+        "channelTitle": "Ardent Workshop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-24T12:53:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Eve4bBT_GCgGFppJ30_C4vmkH0Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "D2pRYh256uI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-08T17:00:05Z",
+        "channelId": "UCpThccxYP2BhxrdxRrdv4CQ",
+        "title": "Long-Distance Caregiving: Managing Care From 1,000 Miles Away",
+        "description": "If you live hours away from an aging parent and something feels off — this video is for you. Long-distance caregiving is one of the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D2pRYh256uI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D2pRYh256uI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D2pRYh256uI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/D2pRYh256uI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/D2pRYh256uI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Elder Care Insider",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-08T17:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FFj1gKAVJpEqnAw3mHv3kVqlZpM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ezRrKhmePvc"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-06T10:01:08Z",
+        "channelId": "UCGBjh4rNHt6m-aLwxhbFkyQ",
+        "title": "Long-Distance Caregiving: What Families Get Wrong | The Care Table",
+        "description": "A daughter's experience with managing her parents' decline from a different state. In this episode of The Care Table podcast, Amy ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ezRrKhmePvc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ezRrKhmePvc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ezRrKhmePvc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ezRrKhmePvc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ezRrKhmePvc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Care Table",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-06T10:01:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Apx6777r9e_75v1x7xuF3UFTexg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DJ77IneswOM"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-07T17:00:19Z",
+        "channelId": "UCpThccxYP2BhxrdxRrdv4CQ",
+        "title": "Long-Distance Caregiving: Managing Care From 1,000 Miles Away",
+        "description": "If you live hours away from an aging parent and something feels off — this video is for you. Long-distance caregiving is one of the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DJ77IneswOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DJ77IneswOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DJ77IneswOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DJ77IneswOM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DJ77IneswOM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Elder Care Insider",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-07T17:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zDuXgqB2HAlcU-RzY8WtH50C5mc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ls9Met7tqs0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-25T17:00:19Z",
+        "channelId": "UCpThccxYP2BhxrdxRrdv4CQ",
+        "title": "Long-Distance Caregiving: Managing Care From 1,000 Miles Away",
+        "description": "If you live hours away from an aging parent and something feels off — this video is for you. Long-distance caregiving is one of the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ls9Met7tqs0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ls9Met7tqs0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ls9Met7tqs0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ls9Met7tqs0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ls9Met7tqs0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Elder Care Insider",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-25T17:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gQ_YG_zO0X5MLYb1X2CbUP7KXis",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OVeb7YEhy3s"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-30T22:02:54Z",
+        "channelId": "UCMvOBPk9VRiHiGDLpvocHJQ",
+        "title": "Tech Tools That Make Long-Distance Caregiving Easier | What We Use With Our Own Parents",
+        "description": "Caring for an aging parent from another city, or even just across town, can mean constant reminders, troubleshooting technology ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OVeb7YEhy3s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OVeb7YEhy3s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OVeb7YEhy3s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OVeb7YEhy3s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OVeb7YEhy3s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Parenting Aging Parents®",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-30T22:02:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2T4oodj2Cb78yX6-li68UdvQSl0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IM0V-WSm4qM"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-20T05:00:20Z",
+        "channelId": "UChmDN1PsYhrjzptbE4bqlcw",
+        "title": "Dementia Care From a Distance | The Hard Truth Every Family Needs to Hear  | Keystone Elder Law",
+        "description": "Caring for a loved one with dementia is difficult, especially when you live far away. In this episode of Dementia Empowered, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IM0V-WSm4qM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IM0V-WSm4qM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IM0V-WSm4qM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/IM0V-WSm4qM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/IM0V-WSm4qM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/IM0V-WSm4qM/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Keystone Elder Law P.C.",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-20T05:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5_ATpofNnGBbaBis_hCflP5bcFw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "48wLxW3fTPo"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-13T12:00:16Z",
+        "channelId": "UCPl48wl8JwZmMe8XAYrnAWg",
+        "title": "How to Take Care of Your Aging Parents Long Distance? | BrightStar Care - Cleveland West",
+        "description": "How to Take Care of Aging Parents Long Distance: Proven Tips and Solutions Need guidance on taking care of your aging ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/48wLxW3fTPo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/48wLxW3fTPo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/48wLxW3fTPo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/48wLxW3fTPo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "BrightStar Care - Cleveland West",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-13T12:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RHMbBvXllQI5DawPey2erflxPSk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TJhuNYePhO4"
+      },
+      "snippet": {
+        "publishedAt": "2026-09-30T21:03:27Z",
+        "channelId": "UCJXF33z-rInVElY1bDlt29Q",
+        "title": "Long Distance Caregiving: What Families Need to Know",
+        "description": "More than 5 million Americans are caring for an aging parent or loved one from another city, state, or even country. Coordinating ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TJhuNYePhO4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TJhuNYePhO4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TJhuNYePhO4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TJhuNYePhO4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Positive Aging Community",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-09-30T21:03:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j-fKIaSjhDQC890owJnyZy2iY5Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J2FfAmne_hc"
+      },
+      "snippet": {
+        "publishedAt": "2024-10-02T20:30:03Z",
+        "channelId": "UCjLziI7iqB9hl_-LyFkATaw",
+        "title": "Long-Distance Caregiving for Cancer: What Actually Helps #caregiver #cancersupport",
+        "description": "How to Provide Support as a Long-Distance Cancer Caregiver! Being a long-distance caregiver can be challenging, especially ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J2FfAmne_hc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J2FfAmne_hc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J2FfAmne_hc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/J2FfAmne_hc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/J2FfAmne_hc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Parent Projects",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-10-02T20:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eAbN6uJ8FE2g0bs7QODwPAoosUk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h3WassQ1RXc"
+      },
+      "snippet": {
+        "publishedAt": "2026-09-16T09:21:37Z",
+        "channelId": "UCTqbjvhoAKVxJ7kS2BPUKgA",
+        "title": "3 Long-Distance Caregiving Tips for Aging Parents",
+        "description": "Long-distance caregiving for aging parents doesn't have to be overwhelming. Here are three practical systems to support your ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h3WassQ1RXc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h3WassQ1RXc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h3WassQ1RXc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/h3WassQ1RXc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/h3WassQ1RXc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "What's The Feed",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-09-16T09:21:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9yzZJjbsjdv96rbCD9_qqBiRbrA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X6duoWrpzjw"
+      },
+      "snippet": {
+        "publishedAt": "2026-08-23T11:30:59Z",
+        "channelId": "UCnGmDyhq6dIhqOMnRqVYRvQ",
+        "title": "Long-Distance Caregiving: What Information Should You Have?",
+        "description": "Supporting someone from across town or across the country? The 500-mile test is a simple way to see whether you could access ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X6duoWrpzjw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X6duoWrpzjw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X6duoWrpzjw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/X6duoWrpzjw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/X6duoWrpzjw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dr. Mamata Majmundar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-08-23T11:30:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_0PO-JkxmtN9BaUC9q5IFWd5uhA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-OGDWxlD-Yk"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-07T20:53:41Z",
+        "channelId": "UCMlbsa1DX8QeStzw4kvJyAw",
+        "title": "Long Distance Caregiving: Helping a Parent in Edmonton",
+        "description": "Need trusted senior care or dementia support in Edmonton? Book a complimentary care consultation with the Harmony ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-OGDWxlD-Yk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-OGDWxlD-Yk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-OGDWxlD-Yk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-OGDWxlD-Yk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-OGDWxlD-Yk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Harmony Caregiving",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-07T20:53:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fpw774Vn9nbGNNkI72KU8AUC2W8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wAAxCHE3wOE"
+      },
+      "snippet": {
+        "publishedAt": "2026-10-31T19:00:06Z",
+        "channelId": "UCalTVtkM3KRnbp2OP3kw4IA",
+        "title": "Long Distance Eldercare: How to Care for Aging Parents No Matter Where They Live",
+        "description": "Long distance eldercare can be challenging if you don't have a strategy or plan to deal with caring for aging parents or caring for ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wAAxCHE3wOE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wAAxCHE3wOE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wAAxCHE3wOE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wAAxCHE3wOE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wAAxCHE3wOE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Pamela D Wilson",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-10-31T19:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Cn4zx_l6nKv4-tFmPGo82qH8pIQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZJdUni2iwag"
+      },
+      "snippet": {
+        "publishedAt": "2026-04-29T19:00:06Z",
+        "channelId": "UCbjG5k72qiwzjda4zk4ZnrA",
+        "title": "Learn How To Support Aging Parents With Downsizing and Long-Distance Caregiving | Norma Berger",
+        "description": "In the Gainesville, Florida area and ready to declutter or downsize? Text SIMPLIFY to 352-888-4834 or fill out a Contact Form and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZJdUni2iwag/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZJdUni2iwag/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZJdUni2iwag/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZJdUni2iwag/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZJdUni2iwag/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Making Space with Angela Dragon",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-04-29T19:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i7lstszTtG4PCBhFWNIUq2at5-Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nZ0Em9wKfbE"
+      },
+      "snippet": {
+        "publishedAt": "2025-01-14T21:00:38Z",
+        "channelId": "UCdn_bPwsw78fj7IxDu6TIbA",
+        "title": "Long Distance Caregiving for Aging Parents Free Documentation Log",
+        "description": "This video will provide valuable information when you are caring for a parent who lives miles away. We will go over essential ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nZ0Em9wKfbE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nZ0Em9wKfbE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nZ0Em9wKfbE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nZ0Em9wKfbE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nZ0Em9wKfbE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Caregiving Essentials",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-01-14T21:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LI0v0zf1iCHpqCjhqqBW9I9Hb1A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZvnyZdgWEiI"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-11T22:09:11Z",
+        "channelId": "UCvjn6RFHYO6fxJhIjQF0cuw",
+        "title": "The Long-Distance Caregiver’s Guide: Love, Loss, and Staying Strong",
+        "description": "Caregiving doesn't always happen in the same zip code. In our latest podcast, Dr. Francesca Falzarano shares how to stay ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZvnyZdgWEiI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZvnyZdgWEiI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZvnyZdgWEiI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZvnyZdgWEiI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZvnyZdgWEiI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CaringKind",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-11T22:09:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "b3g8Y6druOFCQMXMM8t6WJC_WUM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JVAdkX1SsEQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-12T15:02:26Z",
+        "channelId": "UCPl48wl8JwZmMe8XAYrnAWg",
+        "title": "How to Take Care of Your Aging Parents Long Distance? | BrightStar Care - Cleveland West",
+        "description": "How to Take Care of Aging Parents Long Distance: Proven Tips and Solutions Need guidance on taking care of your aging ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JVAdkX1SsEQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JVAdkX1SsEQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JVAdkX1SsEQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JVAdkX1SsEQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JVAdkX1SsEQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BrightStar Care - Cleveland West",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-12T15:02:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QTqqK_tFqIZtiD_GVrswLzPT29I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ksf65wfiNzQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-15T04:01:02Z",
+        "channelId": "UCMovKdCRPMRD85Bl-kuTKVA",
+        "title": "Tips To Help Family Caregivers With Long Distance Caregiving of Older Parents",
+        "description": "Subscribe to our FREE weekly newsletter at https://seniorsafetyadvice.com/email-signup/ Listen to our podcasts ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ksf65wfiNzQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ksf65wfiNzQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ksf65wfiNzQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ksf65wfiNzQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ksf65wfiNzQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Senior Safety Advice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-15T04:01:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Og8-Y5G3MdGHVdMuB1ADiZ5cCjM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "D8L89mvi3iI"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-03T10:00:31Z",
+        "channelId": "UCGBjh4rNHt6m-aLwxhbFkyQ",
+        "title": "Long-distance caregiving to Mom with Lewy body dementia | The Care Table",
+        "description": "A caregiver shares the challenges of caregiving from 10 hours away for her mother. Deborah shares her lessons, products that ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D8L89mvi3iI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D8L89mvi3iI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D8L89mvi3iI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/D8L89mvi3iI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/D8L89mvi3iI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Care Table",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-03T10:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IsYAJU9ospJqongEbzQK2bo4SXA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H2p6Gh2gX9k"
+      },
+      "snippet": {
+        "publishedAt": "2026-09-26T12:04:16Z",
+        "channelId": "UClCHRcbRq-1Ub2v6rUiDsPQ",
+        "title": "Long-Distance Caregiving: How to Help an Aging Parent When You Live Far Away",
+        "description": "How do you care for an aging parent when you live hours—or even states—away? Long-distance caregiving can make it difficult ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H2p6Gh2gX9k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H2p6Gh2gX9k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H2p6Gh2gX9k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H2p6Gh2gX9k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/H2p6Gh2gX9k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Coast Family Home Care",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-09-26T12:04:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PEHAraUY7g-V6v-BYzSMScPPpfs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iy2YrHasYZk"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-05T23:21:41Z",
+        "channelId": "UC46HzUJuFi7Ai2Q6WWSYrrg",
+        "title": "Tuesday Tips: Getting Help from Siblings: Long Distance Caregiving",
+        "description": "Caring for aging parents is a significant responsibility that often requires the collective effort of siblings. This guide is designed to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iy2YrHasYZk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iy2YrHasYZk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iy2YrHasYZk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iy2YrHasYZk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iy2YrHasYZk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Your Nurse Advocate Consulting",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-05T23:21:41Z"
+      }
+    }
+  ]
+}

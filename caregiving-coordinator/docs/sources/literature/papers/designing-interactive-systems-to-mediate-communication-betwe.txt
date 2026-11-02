@@ -1,0 +1,1333 @@
+Received October 24, 2019, accepted November 8, 2019, date of publication November 19, 2019,
+date of current version December 11, 2019.
+Digital Object Identifier 10.1109/ACCESS.2019.2954327
+
+
+
+
+Designing Interactive Systems to Mediate
+Communication Between Formal and
+Informal Caregivers in Aged Care
+LEYSAN NURGALIEVA 1,2 , MARCOS BAEZ 1 , GRETA ADAMO                                                       3,4 ,
+
+FABIO CASATI 1,5 , AND MAURIZIO MARCHESE 1
+1 Department of Information Engineering and Computer Science, University of Trento, 38122 Trento, Italy
+2 School of Computer Science and Statistics, Trinity College Dublin, Dublin 2, Ireland
+3 DIBRIS, University of Genova, 16126 Genova, Italy
+4 Fondazione Bruno Kessler (FBK)-IRST, 38100 Trento, Italy
+5 Department of Economics, Tomsk Polytechnic University, 634050 Tomsk, Russia
+
+Corresponding author: Leysan Nurgalieva (leysan.nurgalieva@tcd.ie)
+This work was supported in part by the EU Horizon 2020 Research and Innovation Programme under the Marie Skłodowska-Curie
+Grant under Agreement 690962 and Agreement 754489, in part by the Science Foundation Ireland under Grant 13/RC/2094, in part by the
+European Regional Development Fund through the Southern and Eastern Regional Operational Programme to Lero – the Irish Software
+Research Centre (www.lero.ie), and in part by the Collegamenti Project from the Province of Trento under
+Grant (l.p. n.6-December 13rd 1999).
+
+
+  ABSTRACT Previous work has focused on designing and evaluating information communication technol-
+  ogy (ICT) tools for improving the coordination, organization of care practices, and to a less extent, the media-
+  tion of care communication among various involved actors. Our work contributes to addressing this gap with
+  a specific emphasis on aged care, exploring communication practices, related challenges and design princi-
+  ples that should guide the design of technology-mediated information sharing. We do this by conducting three
+  sets of user studies iterating on design mockups of increasing fidelity, through semi-structured interviews and
+  workshops with nursing home (NH) staff and residents’ family members in four Italian nursing homes. The
+  qualitative and quantitative results point to the potential of computer-mediated information sharing in this
+  context, and to the importance (and challenges) of tailoring information and presentation to people’s needs
+  and traits, and assisting care professionals in managing the information flow and proper communication.
+
+
+  INDEX TERMS E-health, aged care, sharing, information architectures, information design, human com-
+  puter interaction.
+
+I. INTRODUCTION                                                                                the staff-family interaction and the kind of information that
+Shifting from in-home to nursing home (NH) care is a stress-                                   is or is not exchanged is important for the involvement of
+ful transition for both older adults and their family members,                                 the family members in the care process and their peace of
+with challenges ranging from the adaptation to a new envi-                                     mind. The specific way in which professionals communicate
+ronment and lifestyle to feelings of guilt and even failure by                                 residents’ health-related information to their family may also
+family members, often combined with a lack of trust in how                                     affect the work routine of the staff, increasing or reducing
+the NH staff will care for the loved ones [1]–[5]. In such                                     their (often very high) workload [11].
+situations, the NH staff not only plays the role of caregiver                                     Previous studies have shown that mediating and
+for the new resident but has also to manage the interaction -                                  semi-automating aspects of the staff-family interaction via
+and coordinate care - with the family members, as these often                                  technology can improve the quality, quantity, timeliness, and
+act as informal caregivers [4], [6].                                                           consistency of the information exchanged, and can increase
+   Several studies [7], [8] investigated the communication                                     transparency, thereby providing a greater sense of trust and
+between professional and family caregivers, showing that                                       control in the family member and reduce the staff workload in
+families need more information about their loved ones and                                      this specific aspect of their daily routine [12]–[14]. However,
+a greater involvement in the care process [9], [10]. Thus,                                     technology-mediated interaction may also generate unneces-
+                                                                                               sary worry (for example when information is given without
+   The associate editor coordinating the review of this manuscript and                         the proper context), which in turn results in more interactions
+approving it for publication was Arianna Dulizia             .                                 and workload for the staff. Furthermore, in-person interaction
+
+                     This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see http://creativecommons.org/licenses/by/4.0/
+VOLUME 7, 2019                                                                                                                                                       171173
+                                                                    L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+is often considered important or essential by family mem-           can affect formal and informal caregivers. An area of specific
+bers [15], [16]. In general, it is crucial to analyze what          interest, as repeatedly pointed to us by NH management,
+information about a resident is relayed to family members           was the opportunity to selectively communicate information
+and how it may affect the caregiving context and influence          taken from the NH information system (storing all sort of
+how various stakeholders behave, ‘‘both in relation to the          information, also related to health and wellbeing of guests at a
+technology itself and co-located people’’ [17].                     high level of detail) to the family members, possibly endowed
+   Not surprisingly, discovering the most effective ways of         with explanations to make information easy to understand by
+mediating such relations and communications using ICT is            a non professional.
+recognized as a prominent research direction [18]. A simple            Specifically, in our research we aim at answering the fol-
+indicator that interactions could be improved in this domain is     lowing research questions:
+that only about 50% of all information recalled from consul-           • RQ1: What are the main design challenges in
+tations is in fact remembered correctly [17]. As Williamson               enabling computer-mediated information sharing of
+et al. highlight, a significant part of out-of-home caregivers            HWBI in aged care? With this RQ we focus on
+already use health IT in their caregiving activities, and there           understanding the information practices and relational
+is a big interest among ‘‘technology nonusers’’ in using it               attitudes of formal and informal caregivers, the existing
+in their caregiving responsibilities [19], which however does             and new challenges in moving those interactions to a
+not always result in their adoption. This mismatch may be                 digital channel.
+explained by barriers such as ‘‘perceived cost, potential resis-       • RQ2: What design choices and principles should
+tance by the care recipient, and a lack of user-centered focus            guide the design of HWBI sharing in aged care? With
+in the design and implementation of current long distance                 this RQ we aim at identifying sensible design choices
+caregivers (LDCs) systems’’ [19, p.1961].                                 - spanning information architecture, information flow
+   However, only a few studies have explored how technology               as well as presentation aspects - that should guide the
+can support family caregivers and NH staff-family interac-                design process, while also contributing with a set of
+tions in residential aged care scenarios [17], [20]. As a result,         concrete design recommendation.
+we know very little about the design dimensions of techno-          Answering these questions is tricky: as we discovered, while
+logically mediated communication that targets the different         in general caregivers state that they are in favor of information
+types of family caregivers [21], [22], both from information        exchange and greater transparency when we drill down to
+architectures and interactive or visual points of view.             details and discuss specific examples we uncover various
+   The essential starting point in coming up with the infor-        forms of resistance [25]. For this reason, we proceed by
+mation architecture of such mediation is to study the prefer-       designing a set of studies, first to understand the space of
+ences of the actors involved in the care process, their sharing     problem and opportunities and then to focus on specific cases
+strategies, adopted communication channels, their values,           and specific designs. We run the studies in several NHs
+priorities, skills, and resources. These factors dictate whether    throughout Italy, to also capture the different NH policies and
+the information could and should be communicated and the            attitudes related to staff-family interactions.
+types and the attributes of information to be shared.                  We report on three sets of user studies with staff mem-
+   On a more practical level, the goal of information visual-       bers and residents’ family members in four nursing homes,
+ization is to support information exchange through the use          studying current information practices and their impact on
+of external visual aids, which becomes particularly useful in       the individuals and workload. We then build on successful
+the contexts of sensitive and complex information exchange          practices and challenges and explore strategies to incorporate
+such as aged care context [18]. Tools can act as visual cog-        them in the design of current healthcare systems. Among the
+nitive aids to enhance understanding and communication of           main findings, we identify that tech-mediated information
+complex health cases and large or frequent amounts of health        sharing should i) allow formal caregivers to adjust commu-
+related data [23], [24]. Although technology and visualiza-         nications to the profiles (or personas) of the information
+tions are already used in aged care contexts, the opinions of       recipients, ii) facilitate the personalization of what to receive,
+involved actors on the design and the effect of such tools on       as it might not always be easy to know or anticipate what
+users’ care related behaviour and emotional state need to be        updates informal caregivers would need - although the con-
+investigated.                                                       sensus was not to focus only on (critical) medical data but also
+   In this paper, we investigate the information practices of       wellbeing information, iii) allow staff members to use their
+formal and informal caregivers, information expectations and        knowledge in deciding whether information should be shared,
+reactions of family members, as well as the factors that define     when, and in what way - to the possible extent considering
+them, to then derive a set of design challenges and recommen-       their resources, regulations and level of mutual trust; and in
+dations that should guide the design of information sharing         terms of presentation v) we also observed that design aspects
+and communication in aged care. We focus particularly on            such as modality of presentation, level of abstraction, and the
+relevant aspects of health and wellbeing information (HWBI)         use of comprehension aids, have a complex relationship with
+in this context, such as information management, information        medical literacy of family members, their familiarity with the
+flow and presentation, and how the sharing of this information      type of shared information and purpose of the visualization.
+
+171174                                                                                                                           VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+   In the following, we provide an overview of the context,                    telehealth interventions from the angle of their usefulness to
+introduce the methods and results to conclude with a discus-                   patients’ family caregivers. Review outcomes provide strong
+sion highlighting the main challenges and design recommen-                     evidence that using telehealth tools among informal care-
+dations for computer mediated information sharing in aged                      givers result in less anxiety and improved coping. Moreover,
+care.                                                                          while being proxy for the patient, the availability of tools
+                                                                               providing access to information is particularly important.
+II. BACKGROUND                                                                 Findings also suggest that ICT medicated support can pro-
+Technology has been largely explored as an instrument to                       vide efficient care and save travel costs for caregivers of
+improve the delivery and quality of care in health and care                    long-term care patients. Similar interventions with carers of
+facilities in aged care. Previous work has focused on design-                  older adults have also shown benefits, for example, in spousal
+ing and evaluating ICT tools for improving the coordination,                   carers [36], [37] – the carers in this scenario being older adults
+organization of care practices, and to a less extent, the medi-                themselves.
+ation of its communication among various involved actors.                         Georgiou et al. [38] also studied information exchange
+                                                                               processes and the role of technology in seven Australian
+A. ICT MEDIATION OF COMMUNICATION IN AGED CARE                                 long-term residential facilities. Their qualitative study points
+One of the recent studies on health information exchange                       to three main tasks associated with information: storing and
+(HIE) technology is the study of Alexander et al. [26] where                   managing data, supporting decision making and communi-
+they report on the HIE preparation in 16 U.S. nursing homes                    cating data; highlighting how poor information exchange can
+(NHs). Their findings paint a picture of the current status                    affect the quality of care. The results stress the need for
+of technology deployment to support information exchange,                      effective communication technology support for continuity
+describing the presence of some care support systems but                       and organization of care, especially regarding accessibility
+with little integration with external entities. In the conditions              and legibility of information. Illustrating that, Thomsen et al.
+of the lack of human and technological resources that is a                     explore technological support of the consultations between
+recognized problem in aged care context, they underline the                    healthcare personnel, cancer patients and their relatives as
+importance of supporting information flow between health-                      they happen during the treatment of cancer in a hospital
+care providers. Douglas et al. [27] also discuss the barriers                  department of oncology [17]. Their findings indicate that
+to exchange information using aged care service systems                        using ICT tools among medical staff does not mean being
+emphasizing that their uptake strongly depends on under-                       experienced in applying them in communication with patients
+standing the workflows and processes, as they have a strong                    and their family members
+impact on information technology design. Besides the nec-                         These works and others (e.g., [27], [39]–[41]) provide
+essary high rates of information exchange among care staff,                    valuable insights into how technology can support family
+the communication of professionals with family members of                      caregivers but also point to scant involvement of family
+the NH residents is an important part of the care process.                     caregivers technology-mediated information flows, and high-
+An extensive body of literature shows that it contributes                      light the need for better ICT-based support for information
+into the workload of the staff, which might not always be                      exchange in residential care.
+recognized, and affects the quality of care and satisfaction
+with provided care services both for older care recipients and                 B. PRESENTATION OF HEALTH AND
+their family members [8], [28], [29]. Overall, technological                   WELLBEING INFORMATION
+solutions are proven to support this communication and make                    A vast literature has devoted to exploring visualization for
+it more efficient [20], [30].                                                  self-reflection and behavior change [42]–[44], health risk
+   Patient portals are a right step in breaking information                    prediction [45], and making medical data more intuitive [18],
+silos to involve patients but also their family members. Being                 [46], [47], and even medicine information (leaflets) more
+seen as a ‘‘hub for families’’ implemented through ‘‘proxy                     understandable to consumers [48], [49]. In the following,
+access’’ [31], an e-access to health and wellbeing infor-                      we review some prominent examples related to HWBI pre-
+mation (HWBI) provided by most of them may enhance                             sentation to informal caregivers.
+the. partnership between formal and informal caregivers of                        The exploration of visualization formats for presenting
+patients and better inclusion of into care process [32]. Care-                 HWBI to consumers has been explored in recent works.
+givers believe that systems such as patient portals could                      Desai et al. [18], conducted a series of studies to systemati-
+reduce caregiving stress by providing better access to the                     cally explore different presentation approaches and attempted
+health data of their loved ones [31].                                          to identify visual features that resonate with individuals suf-
+   In the same vein, previous work has explored televisits and                 fering from diabetes. Emphasizing that the effective usage of
+distant caregiving [19], technology to improve the relation-                   HWBI strongly depends on being understood by non-expert
+ship between family caregivers and NH residents [33], [34],                    users, they identified that efficient medical data communica-
+and technology-supported education of family caregivers to                     tion practices could have a significant effect by ‘‘clarifying
+enhance communication with NH staff [35]. In their system-                     mental models of disease, internalizing health risks and con-
+atic literature review, Chi and Demiris [20] also investigate                  sequences’’ for the members involved in the care process [18].
+
+VOLUME 7, 2019                                                                                                                            171175
+                                                                    L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+TABLE 1. Summary of studies run in this project.
+
+
+
+
+Tao et al. [47] explored four visualization formats based on        hue and brightness that was more informative. In the context
+bar charts, which included name of test, exact test value,          of smart home monitoring, a systematic literature review of
+unit of measurements and normal ranges, for blood pressure          information visualization stressed that informal caregivers
+and blood glucose. The study explored the basic bar chart           (e.g., spouses or friends) tend to face the same limitations
+visualization, color-enhanced visualization with and without        as the old care receivers and therefore in interacting with
+reference text, and personalized information in terms of aver-      HWBI presentations, and that there is a lack of studies focus-
+age value based on the participants’ traits (age, sex). The         ing on delivering complex information in different forms.
+results pointed to visualization format not affecting partici-      These works though focused on supporting independent
+pant performance but having an impact on the user perception        living – and therefore on individuals and caregivers with
+of the information. In terms of preference, the personalized        different needs – point to the importance of simplifying infor-
+presentation was the most preferred format. Although these          mation and in exploring presentation formats supporting this.
+works focus on an individual’s own HWBI in a different con-            These works contribute to the efforts in making HWB
+text, they stress the importance of the information presented       information more intuitive and understandable, especially to
+in facilitating understanding and shaping users’ perception.        non-experts. However, the information sharing and presenta-
+   Healthcare settings and formal caregiving have also              tion requirements when it comes to sensitive scenarios, with a
+been scenarios for exploring information presentation.              strong relational component, and targeted at family members
+Zhang et al. [50] demonstrate the use of visual information         and not patients, is still a largely unexplored topic.
+displays within a healthcare informatics application, they
+identified that most existing electronic medical record (EMR)       III. USER STUDIES
+systems make it difficult to get a quick assessment of patient      We run a set of interviews and design activities as depicted
+status. Belden et al. [51] identified a number of reasons why       in Table 1 intending to understand the context, explore the
+the adoption of EMRs has lagged behind expectations, and            design space, and incrementally evaluate design choices
+established the following usability design principles: (a) min-     related to information sharing between formal and informal
+imize caregiver cognitive load, (b) design for UI simplicity,       caregivers. The questionnaires, the semi-structured interview
+naturalness and consistency, (c) make colour meaningful,            guides as well as the additional examples of the mockups used
+and (d) preserve context. For instance, they emphasize the          in the studies are provided as the supplementary materials to
+importance of color in conveying meaning to the user, such as       this paper.
+all aspects of information presentation, navigation, or differ-        Three sets of user studies were conducted in four different
+entiation of screen areas. In their study with formal caregivers    nursing homes (NHs) in two regions in Italy. Each institution
+of long term care residents, Stevens et al. [52] designed a         selected a variable number of family caregivers and staff
+tablet based visual analytics tool that collects, structures, and   members who signed an Informed Consent. The studies were
+visualizes healthcare data where they used ‘‘green/yellow/red       approved by the University of Trento Committee on Research
+voting system, with green indicating improvement, yellow            Involving Human Beings (Application N. 2017-003).
+stability, and red decline’’ to allow caregivers to consistently       During every NH visit, there were at least two researchers
+assess resident’s status. Although these works support the fact     from our research group conducting the interviews, one of
+that formal caregiver can also benefit from good information        them mainly for taking notes and assisting the lead researcher.
+presentation, there is little about how they can contribute to      Visits were scheduled and always accompanied by a gate-
+making information more usable for informal caregivers (or          keeper; either the director or the chief nurse. All studies
+consumers of information).                                          were carried out at the NHs in places deemed private and
+   Information presentation for informal caregivers of older        comfortable by the researchers and NH contacts. We paid
+adults has been a topic within ambient assisted living.             peculiar attention towards the people involved, avoiding any
+Davis et al. [53] illustrates how ambient intelligence can be       questions or situations that could cause distress to the partic-
+used to provide peace of mind and display a qualitative sense       ipants, in order to guaranty an efficient and respectful data
+of a senior’s daily activities to caregivers concerned to foster    collection. Prior to the start of each interview, participants
+the sense of connectedness through ambient displays. The            were briefed by the researchers on the objective of the study
+same team also investigated an intelligent lighting system in       and signed an informed consent, which included a written and
+AAL context to communicate activity levels of older adults          verbal consent to record the session.
+to their family caregivers [54]. Study participants preferred          The recordings were transcribed by an Italian native
+3 different colors as simpler visualization to combinations of      speaker and, along with the notes from the sessions, were put
+
+171176                                                                                                                           VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+in an electronic document for later analysis. The quantitative                 side of the family members. Thus, their opinion, combined
+information in questionnaires were loaded into a spreadsheet.                  with their experience communicating information to family
+All personal information information in the spreadsheets and                   members was considered primary in getting early feedback
+transcripts was coded and anonymized.                                          in the design.
+   The qualitative data was analyzed using thematic anal-
+ysis [55]. Two researchers individually identified the main                    C. STUDY 3. INFORMATION PRESENTATION AND IMPACT
+themes for each of the main questions of the questionnaires.                   The aim of the third study was to evaluate interactive pro-
+After classification, the researchers combined the themes via                  totypes incorporating the insights from the previous studies
+consensus. All quotes used in this paper were translated to                    in order to derive design recommendations - with a focus
+English (and reviewed) by Italian-English speakers.                            on information flow and presentation - and assess the poten-
+   In the following subsections we give an overview of                         tial impact on family members. We run this study with one
+the objectives and instruments used in each user study.                        of the target groups of end users, namely family members
+We include a more detailed study description in the following                  of institutionalized seniors, using an empirical evaluation
+sections when presenting the results.                                          method in a form of two workshops. For this study, we opted
+                                                                               for a predominantly qualitative user study, complemented by
+A. STUDY 1. COMMUNICATION PRACTICES                                            minor quantitative questionnaires, since we judged that broad
+AND RELATIONAL ATTITUDES                                                       and deep insights were only attainable through observation in
+The first study focused on the RQ1 and aimed at exploring                      combination with an open and flexible discussion format, as it
+emerging communication practices in NH settings from the                       has previously been shown in previous research [56], [57].
+perspectives of NH staff and family members of the residents,                     The interactive mockups feature a combination of type of
+so as to derive meaningful design challenges and dimensions                    trends (medical or daily trends), modality of the presenta-
+to focus on. We did this through a series of semi-structured                   tion (visual or narrative), and strategies for event enrichment
+interviews with family members and NH staff.                                   (translation, metaphors and value ranges). The analysis of the
+   The interviews with family caregivers focused on i) infor-                  mockups was based on comprehension of events and potential
+mation seeking strategies, ii) expectations and attitudes                      reactions, also in light of potential information navigation
+towards the NH staff in relation to the sharing of information,                paths.
+and iii) reactions to different type of HWBI. The interviews
+with the NH staff followed similar themes, with an emphasis                    IV. STUDY 1. COMMUNICATION PRACTICES
+on i) information communication practices, and ii) factors                     AND RELATIONAL ATTITUDES
+that shape their practices and communication strategies.                       The first set of user studies was mainly set to explore infor-
+                                                                               mation practices and mutual attitudes of formal and informal
+B. STUDY 2. DESIGN CONSIDERATIONS                                              caregivers regarding information sharing in nursing homes.
+FOR HWBI SHARING                                                                  Methods: Participants were recruited with the help of the
+In this study we build on the findings from the previous inter-                nursing home contacts, so as to get a representative sam-
+views and explore the emerging design dimensions of infor-                     ple of family caregivers and NH staff (e.g., different roles).
+mation exchange by navigating NH staff through low-fidelity                    We conducted a total 26 semi-structured interviews with
+prototypes. The goal is to identify the design dimensions that                 family caregivers (17, 65.5 mean age and 59% of females)
+shape the design space of health and wellbeing information                     and NH staff (9, 48.9 mean age and 55.6% of females) who
+sharing (RQ2) focusing on relational quality and peace of                      volunteered to participate. Each interview was conducted
+mind of the stakeholders. This study focused on NH staff as                    by a native Italian speaking researcher with background in
+we considered more appropriate to run the initial set of ideas                 sociology (with experience in running studies with vulnerable
+through care professionals to understand the possibilities of                  populations) with the assistance of an HCI researcher.
+sharing HWB updates and avoid unintended reactions from                           The interviews with family caregivers focused on i) infor-
+the family members.                                                            mation seeking strategies, ii) expectations and attitudes
+   Using mockups to drive the discussion, staff members were                   towards the NH staff in relation to the sharing of information,
+presented with the idea of ICT mediated dissemination of                       and iii) reactions to different type of HWBI. The interviews
+HWBI to families of the residents. Questions were specif-                      with the NH staff followed similar themes, with an emphasis
+ically focused around the implications of different design                     on i) information communication practices, and ii) factors
+alternatives characterized by type of event (medical, non                      that shape their practices and communication strategies. Each
+medical), granularity (single events and trends) and presen-                   interview lasted from 20 to 30 minutes and was carried out in
+tation (raw events, and enriched). The designs alternatives                    full anonymity without the involvement of third parties.
+resulted from the combination of such dimensions and were
+shown to the participants in a randomized sequence.                            A. COMMUNICATION PRACTICES OF NH STAFF
+   NH staff members are the main actors who would have to                      Critical events such as falls and going to the hospital are
+take care of the workload created by ICT based dissemination                   communicated proactively by the NH. For example, in the
+of information given the interest in such services from the                    unfortunate case of a fall, the event is always communicated
+
+VOLUME 7, 2019                                                                                                                         171177
+                                                                  L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+immediately by phone. Alarms in relation to the spe-                 All participants reported on-site interaction during visits as
+cific health parameters, for example, blood pressure outside      the main mode of information exchange. This is not surpris-
+normal ranges, are usually not communicated. Instead,             ing as the majority of family members visits twice a week
+the doctor makes the necessary therapy changes and reaches        or more. Interactions via phone were also mentioned as a
+family members if approval is necessary. Information is usu-      mode of communication, which aligns with the information
+ally provided by doctors face-to-face via fixed appointment       exchange practices reported by the NH staff. However, for
+(unless there is an emergency), and with very little (to not at   the participants these communication were mostly initiated
+all in some cases) communication with family members over         by NH staff, and in two cases participants even reported never
+the phone. NH staff members call based on their competence        having called or received a call (participants visiting on a
+area and cannot communicate the information they do not           daily basis and with the loved one in no critical condition).
+have access to.                                                   No other modes of information exchange with the NH were
+   Other types of information, such as test results and daily     reported. The importance of human contact in communi-
+events are communicated upon request and mostly during            cating was explicitly raised by three participants from the
+the visits. Requests are mostly based on the condition of the     relational perspective (‘‘They are people who take care of my
+resident. For example, for some family members the fact that      mother, it would be nice to see them, to talk to them. And the
+a relative has eaten is very important, so skipped meals make     same for them, I believe that they would like to see the family
+them very worried. Overall, they communicate ‘‘trends’’ but       members,’’ F1, daughter), while those with the loved one in a
+not specific events, e.g., not if a person has skipped a meal     critical condition stressed the importance of the appointments
+but if the person is eating less in general. This is because      with the doctor.
+in some cases they should first do a medical evaluation to           Most of the time the communication between nursing
+understand the reasons, but also because NH staff finds that      homes and family members of the residents happens during
+there is no sense in communicating events that might not be       the visits, for the urgent cases NH staff calls to the family,
+relevant anymore by the time they are received.                   usually the primary contact. For non-urgent but particular
+   In general, for non-critical events, the professional judg-    cases, family members come to the doctor’s appointment.
+ment plays a main role in deciding what information to share:        When it comes to communicating among family care-
+‘‘It depends from case to case. In the sense that if the param-   givers, phone calls was reported as the dominating mode of
+eters are outside of norm, I need to see. If things are very      communication. In care teams this is used to coordinate and
+bad and worrying, I call the family members. Otherwise, no,       update each other on information collected by the one visit-
+we communicate it at the next appointment when we meet’’          ing (‘‘we are always on the phone with each other [among
+(P1, doctor).                                                     sisters],’’ F3, daughter). Individual carers report little com-
+   It was consistently recognized that communicating with         munication with the direct family members not involved –
+family members required a particular set of skills, and that      though it was mentioned in one case occasional updates to the
+staff who communicates with family members should have            larger family. Proxies mentioned updating family members
+skills to do so: ‘‘It is important to know how to communicate,    via phone and email.
+those who can do it well should do it, otherwise, not com-           As for the information source, all participants reported
+municate. There are ways of communicating the information,        interacting with the NH staff for information exchange. This
+special words that should be used, it really matters how the      includes interaction with the doctors and the responsible
+information is delivered’’ (P2, nurse). ‘‘I would prefer just     nurses. Interestingly, four participants indicated the resident
+some of the nurses to communicate information to the FM,          as their main source of information: ‘‘My mother is the first
+the ones who know how to do it’’ (P1, doctor).                    one to tells me news. For example, that she did not sleep well
+                                                                  last night. I ask staff only if there are problems’’ (F10, son).
+                                                                  ‘‘My mother knows better, so she calls and tells us herself
+B. INFORMATION SEEKING BY FAMILY CAREGIVERS                       [about her condition]. If there is something, it is her who
+We observed three distinct types of family caregivers among       informs us. Because she knows better about her ‘‘values’’. She
+the participants based on their organization and involvement,     asks herself [to the staff] what are her values, what medicine
+which affects information exchange: individuals (5), care         they give her’’ (F1, daughter).
+teams (6) and proxies (2). Individuals, makes reference to           The Web also emerged in three cases as an additional
+family members who play the role of primary contact and           source to investigate about health-related information, e.g.,
+who reported little to no involvement from other family mem-      ‘‘If tomorrow I am told that he has herpes, of course I will
+bers. Care teams are a set of family members that share the       search about it [on the Web]. Also if I don’t know something
+responsibility and involvement. These teams were composed         now [about current illness]’’ (F13, sister).
+by children of the resident, siblings of the resident, or a          In terms of the general interest and need for informa-
+child of the resident with his/her core family (partner and       tion exchange, we observed different approaches determined
+grandchildren). Proxies are persons hired by the family to        particularly by the critical or non-critical condition of the
+visit and spend time with the resident on their behalf and rely   resident and the level of trust on the NH. Family caregivers
+information on their status.                                      of residents in a non-critical condition showed either a more
+
+171178                                                                                                                         VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+passive approach to information exchange, expecting the NH                         ‘‘I would like to see the exact numbers. Because now, for
+staff to inform them of relevant updates (e.g., ‘‘I do not                     example, my mother has diabetes. [Early this year] we had a
+ask but if there is something [wrong], I guess they will tell                  meeting with a diabetologist in [a nearby city] to see the state
+me,’’ F11, daughter) or contacting them when they observe                      of the diabetes. Back then, she was under control. Now, for
+an issue (e.g., ‘‘yesterday I came here and I saw that [my                     about a month, we give a her a medicine [for her diabetes],
+mother] did not have socks on... then, I asked [the staff] to                  the minimal dose. First, it went up and then down. And now,
+put some socks on her because she is a lady who is always                      [NH staff] controls [the progress of diabetes] just once a day.
+feeling cold,’’ F0, daughter). Two participants with relatives                 It’s not enough. We asked the coordinator, how [my mother]
+in a more critical conditions showed more interest in having                   is doing, and [the coordinator] told fine. What does it mean
+access to all available information, but also reported negative                ‘fine’? At home we measured 3 times a day and now here
+experiences and differences with the NH staff (as we will                      nothing.’’
+expand on the next subsection).                                                    The above quote encapsulates a couple of themes. First,
+   When asked about the type of information they usually                       the feeling that family was taking a better care of the resident
+request, general information about the situation of their rel-                 at home, which was raised at other points during the interview
+ative was the dominant theme (‘‘What is good, what is bad.                     (e.g., ‘‘At home we had a diary where we put all the measure-
+Information about the day,’’ F10, son). One participant even                   ments with meals: breakfast, lunch, dinner, then at 10 p.m.
+pulled out his mobile phone to show us the Fitbit1 app as                      and at midnight, to be sure. 5 controls at home’’). Second,
+an example of the level of detail it collects about sleep, and                 an apparent lack of trust in the NH practices, shaped by the
+mentioned that he did not need all that information, just                      participant previous experiences. Third, the involvement of
+to know if his father slept well in general (F12, son). Two                    third parties (experts) to verify the care practices. Fourth,
+participants (F5, proxy; F11, daughter) explicitly mention                     issues related to expectations and understanding of the infor-
+social and relational information as the most important one                    mation provided by the NH staff, a point that later followed
+(‘‘[I want to know] about the mental state, if she interacts with              up with a specific example (‘‘For example, yesterday she
+others, if she communicates... I had my mother sick at home                    did a test of ‘sodium’, and it was outside of the normal
+too and the most important for me was her mental decay.                        range. [The NH staff] gave her a medicine for that. They
+I would like to know if she interacts with others,’’ F5, proxy).               didn’t explain, they said ‘no sodium, we start the therapy for
+   Some participants mentioned their interest in medical                       sodium’. It would be useful to know the explanation’’).
+information but were not precise about the specific param-                         Another participant (individual carer, brother not very
+eters, and so their interest was leaning more towards what                     involved), expressed dissatisfaction with the doctor in partic-
+the NH could volunteer and deemed relevant. Indeed, one                        ular, but for different reasons: ‘‘I am not very satisfied with the
+participant mentioned explicitly that she was not aware of the                 doctor because [with him] I cannot express myself. He doesn’t
+type of medical tests they were running. This aligns with the                  update me [on my mother health condition] if I don’t ask, even
+interviews with the NH staff, where they reported that family                  if there are things to be communicated. I would prefer to have
+members rarely asked about specific health parameters, and                     more appointments, [but] he never calls. In 4 years I’ve had
+that most were not aware of the specific tests.                                3 calls. For the medical tests, they also don’t tell about it,
+                                                                               I don’t even know they do them.’’
+C. MUTUAL VIEWS IN RELATION TO                                                     This participant showed a different expectation in terms of
+INFORMATION EXCHANGE                                                           how information should be communicated by the NH staff,
+Most family caregivers reported being satisfied with the com-                  wishing for a more proactive communication. The quote also
+munication with the NH. One of the main contributing factor                    highlights some more introvert personal traits that might get
+in these cases was the stable or non-critical condition of the                 in the way of a more fluent communication, as the participant
+resident (‘‘At this point therapy is quite consolidated’’, F12;                also raised several times during the interview (‘‘I don’t like
+‘‘My mother takes just one medicine, there is nothing much to                  to ask. When I visit, they usually tell me. I don’t like to keep
+discuss’’, F11). In two particular cases however, participants                 asking.’’, ‘‘I don’t like to ask and disturb much.’’). As a way to
+expressed dissatisfaction with the NH staff, which raised a                    manage the situation and uncertainty, the participant wish was
+series of communication exchange problems.                                     to be inform if only to be told that things were fine (‘‘If they’d
+   A participant who, along with other family members (care                    [keep me informed], it’s always good. It’s also good to know
+team), is involved in the caring process of his loved one (res-                that everything is going well’’).
+ident with diabetes and heart problems) highlighted episodes                       On that last point, all participants were aware that calls
+of confrontation where they considered the NH did not take                     from the NH are to communicate critical events, so there is a
+the appropriate actions in a case of emergency. This partici-                  sort of negative connotation around these calls as the ‘‘bearer
+pant indicated that they would like to see all the test results                of bad news’’. One participant exemplified this in a personal
+with the exact numbers:                                                        experience: (‘‘I heard someone calling, I run to the phone,
+                                                                               it was the number from [the NH]. The nurse tells me not to be
+                                                                               afraid, ‘it’s just your mother who wanted to talk’. Before they
+  1 Fitbit is a commercial fitness tracker: https://www.fitbit.com/            never called, [to me] it was an emergency’’).
+
+VOLUME 7, 2019                                                                                                                             171179
+                                                                   L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+FIGURE 1. Summary of communication practices as of today.
+
+
+
+   The interviews with the NH staff gave a us rich per-            discrepancies in communications as well as different views
+spective into different dimensions and traits they use to cat-     on whether certain information should be communicated at
+egorize and describe family members. The knowledge about           one point can reflect negatively in the relationship between
+these traits are used by the NH staff to accommodate their         the two actors (‘‘it has happened to me in the past that family
+communications with family members. In Table 2 we report           members have called and asked ‘How is my [older adult
+on the ‘‘personas’’ that emerged from our thematic analysis        relative]? I mean, I don’t give information if I don’t know
+of responses to the following question: ‘‘If you had to group      the relative personally.. it sounds bad, inhuman even, but..’’,
+FM into macro-classes based on how they react, how many            S9). Currently, shift handovers serve as the main coordination
+classes and which classes would you define? Please, describe       point for the staff, but these are centered around practices and
+each class’’. While current accommodation strategies might         treatments and not communications.
+not be optimal, they point out to the need of effective com-
+munication practices to deal with the diversity of the family      D. LESSONS LEARNED
+member population.                                                 In Figure 1 we summarise the main communication practices
+   The knowledge of these characteristics is however implicit      that emerged in the interviews. We highlight some key chal-
+knowledge, and along with the different communication              lenges below:
+strategies, scattered through the NH staff. This translates into      • DC1. Sharing medical and wellbeing data. Electronic
+not all NH being able to properly communicate with family               health records are centered around health-related infor-
+members. Thus, personal relations are very important: based             mation, which is readily available for (digital) sharing,
+on how well staff knows a FM, they communicate the events               but lack relational and wellbeing information that is in
+accordingly. It matters what are the personal relations, how            the interest of informal caregivers. Sharing of this type
+comfortable they feel to communicate certain events directly            of information is limited to visits, where information is
+or in a less detailed fashion.                                          communicated informally.
+   Another related challenge is keeping track of what has been        • DC2. Dealing with granularity, connotation and per-
+communicated and to coordinate communications in general.               ceptions on sharing. Critical events are communicated
+Family members tend to inquiry multiple staff members, and              as they occur, usually via phone. Other types of single
+
+171180                                                                                                                          VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+TABLE 2. Characteristics of family members that influence the way information is communicated by NH staff.
+
+
+
+
+     events are not communicated until there is a trend. These                      the forefront to a larger care team requiring coordination,
+     trends, mostly negative, are first treated and then com-                       or a larger network that needs to be kept informed.
+     municated to the family members during appointments.                      We further explore the implication of these challenges in the
+     Positive trends are usually not communicated. For this                    following studies.
+     reason, interactions initiated by the NH usually have a
+     negative connotation.                                                     V. STUDY 2. DESIGN CONSIDERATIONS
+   • DC3. Delivering personalized and relevant informa-                        FOR HWBI SHARING
+     tion. Trust is very important and can give flexibility                    In this study we build on the lessons learned from the pre-
+     to the information sharing process: it gives control of                   vious study and, through low-fidelity prototypes, explore the
+     information flow to the professional caregiver wh can                     combination of following design dimensions:
+     use their professional judgement in deciding what infor-                     • Granularity. We study single events and trends, so as
+     mation to share. Informal caregivers on the other hand                          to understand at what level of granularity and for what
+     might not be sure or be overwhelmed in deciding what                            type of events to communicate (DC2).
+     specific information to receive.                                             • Event enrichment. We explore communication of raw
+   • DC4. Reducing misunderstandings and unnecessary                                 events and translated events as a trade-off between
+     distress. How information is communicated is important                          personalization for reducing misunderstandings (DC3,
+     as it can lead to confusion and misunderstanding. In this                       DC4) and effort required in their elaboration by the
+     regard, knowing the family member characteristics (per-                         formal caregivers (DC5). Raw events refer to baseline
+     sonas) can help in accommodating the way information                            where events are sent as-is and no effort is invested
+     is shared.                                                                      on the formal caregivers side. Translated events include
+   • DC5. Improving communications while not increas-                                personalized message (by the formal caregiver) and a
+     ing the workload of formal caregivers. Formal care-                             visual representation of the connotation (smiley face).
+     givers are already busy and interactions with family                         • Type of event. We explore the communication of med-
+     members add to their workload. Solutions should look                            ical and wellbeing data (DC1), and frame our questions
+     to alleviate this problem and not to cause additional                           in terms of the connotation.
+     workload.                                                                    These dimensions are combined in a low-fidelity mockups
+   • DC6. Reaching out the larger care network. Informal                       that aim at validating our previous observations and eliciting
+     caregivers acting as primary contacts are in some cases                   further feedback on the design direction.
+
+VOLUME 7, 2019                                                                                                                          171181
+                                                                               L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+FIGURE 2. Information design alternatives. The screens are a combination of event type (medical or daily events), information granularity (single events
+or event trends) and event enrichment (raw events and events augmented with translations, i.e., explanation of the event).
+
+
+
+
+   Methods: We conducted semi-structured interviews, driven                    connotation of events, as well as their impact on communi-
+by low-fidelity mockups, with NH professionals that included                   cation and reactions.
+questions on information architecture and information flow
+of HWBI to be communicated to family members of NH                             A. PRESENTATION OF HWBI
+residents.                                                                     Discussing raw singular events, daily or medical, NH staff
+   Overall, nine semi-structured interviews were conducted                     emphasized the importance to add a reference value or range
+with NH staff members (50.6 mean age and 66.7% of                              for raw values for the medical parameters, given that family
+females) who volunteered to participate. Each interview                        members may not how to interpret them. However, they also
+lasted from 20 to 40 minutes based on the workload of                          noted that each case is unique and it is usually difficult to
+the staff. We particularly tried to assure staff members in                    explain the meaning of the values generically: the interpre-
+the anonymity of their responses and non-disclosure to the                     tation of the vital signals depends on the specific health
+administration of the facilities or any other third parties.                   situation.
+   Participants were firstly asked about their background                         When shown the concept of event enrichment and explana-
+information, professional responsibilities, and their personal                 tion, which included smileys (Figure 2) as a way to facilitate
+work practices of communicating information about the res-                     the interpretation of the event (negative, neutral, or positive),
+idents to their relatives.                                                     most of the professionals stated that showing such summaries
+   Driven by the mockups shown in Figure 2, we presented the                   was a good idea. In particular, they saw it as additional
+screens combining i) granularity, raw singular events (instant                 support to understand the connotation of the event at a glance:
+measurements or daily information) and trends of events over                   ‘‘they are the signs that make relatives understand that there
+certain period, and ii) event enrichment, raw information                      is an extra explanation, that show things are going well’’,
+with no support and messages ‘‘translated’’ by the formal                      ‘‘the smiley helps then to filter [the information]’’ (P4, nurse
+caregiver in terms that the informal caregiver could more                      coordinator). However, one participant expressed the opinion
+easily interpret the information. These screens were featuring                 that a smiley can also miscommunicate information. At times,
+either medical or daily / wellbeing information.                               family members may know better the mood or state of their
+   Regarding each screen, staff members were asked to                          relative and indicating it with the smiley may mismatch their
+express their informed opinion regarding expected reactions                    perception of the situation.
+of the family members upon receiving information in a                             ‘‘If the program will let me [add]... also just a smiley,
+given way, and their expected level of stress, as well as the                  sad or red, green, anyway these are the signals that make
+readiness of staff to share in that way (design alternative).                  relatives understand that there is more explanation, that it
+They were also asked about the relevance, importance, and                      says that everything is going well’’ (P4, nurse coordinator).
+views on preferred ways of communicating the example                           ‘‘The family members know the resident, they can see things
+events.                                                                        we do not see, if they see the red smiley and instead they
+   Notice that the design dimensions follow the previ-                         know that it is not critical... [may be stressful]’’ (P6, nurse
+ous observation on type of information, granularity and                        coordinator).
+
+171182                                                                                                                                      VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+   In case of events indicating an issue, for example, waking                  information, and thought that trends would help manage this
+up at night or skipping the meal, NH staff stated that the visu-               situation: ‘‘Rather than bombarding a [family member] with
+alization for the family should also contain the explanation,                  SMS everyday to say ‘‘today he went to the bathroom, today
+not leaving the relatives to wonder and ask staff additional                   she walked, today he ate a beef steak’’... [trend] is less
+questions increasing the workload of the latter (‘‘If [relative]               invasive’’ (P7, physiotherapist).
+sees that [the resident] has not eaten anything [for dinner]
+but maybe had a good snack at the birthday party, after he
+calms down,’’ P2, nurse).                                                      B. EXPECTED PREFERENCE AND REACTIONS
+   Events communicated directly without translation by the                     Together with the qualitative evaluation of the design alterna-
+professionals and presented only graphically were seen as dif-                 tives, participants were asked to evaluate each of the screens
+ficult to understand for family members in aged care context                   presented to them in a random order in relation to two main
+who usually also belong to the older population group and                      factors: 1) preference based on efficiency and simplification
+might lack knowledge in medical terms (‘‘As we have older                      of communicating events, and 2) expected reactions and
+adults, their children are older as well. Not all of them know                 stress level of family members upon receiving information
+what these values mean. I think, there should be a translation                 in a given way.
+next to them with normal values,’’ P3, nurse) or ICT skills
+(‘‘The relatives are not the experts, not all of them are experts
+                                                                               1) EFFICIENCY
+with apps,’’ P4, nurse coordinator). Such communication
+                                                                               While talking to the staff members about their views that
+could also be perceived as ‘‘cold and distant.’’ This theme
+                                                                               sending translated events to family members could make
+came up, for example, in discussions with a professional who
+                                                                               the staff-family communication more efficient, in 75% of
+is most in touch with family members: ‘‘This one [raw event
+                                                                               responses participants agreed or strongly agreed that it could,
+without translation] is more technical, colder, more detached.
+                                                                               while only 12.5% did not. As for direct communication of
+Instead this one [raw event with translation], even more
+                                                                               not translated events, 58.4% of responses were positive about
+visually, it makes you immediately understand the situation’’
+                                                                               increasing the efficiency of such communication and 37.5%
+(P8, social worker).
+                                                                               were negative.
+   Reports over a period of time (trends) were evaluated
+as helpful for family members, for example, for seeing
+deviations and verifying past activities or therapy. Moreover,                 2) SIMPLICITY
+trends were seen as helpful for the staff members as well.                     Simplicity of communication with family members was
+Reports of the last several months were compared to the                        another aspect investigated in the survey. 66.7% of all com-
+Individualized Care Project, an evaluation of the resident’s                   ments on the design alternatives were positive that translated
+health by the whole NH care team organized periodically,                       events could indeed simplify information the interaction.
+and seen as a way to monitor overall wellbeing or therapy.                     Only 8.4% disagreed. As for the design alternatives of not
+‘‘[On the trend of having meals] I think that having a graph                   translated events, in more than half of their responses, staff
+like this would nice to have for us too. To understand better’’                members stated that they would share the events in this way
+(P6, nurse coordinator).                                                       to simplify the communication, while in 37.5% of comments
+   Regarding the time periods for such reports, most of the                    they did not think so.
+staff members (5 out of 9) expressed the preference towards
+the weekly reports: ‘‘[The best is] a weekly report, I would
+put a week, a sort of diary... I would make it for all the                     3) ANTICIPATED REACTIONS OF FAMILY MEMBERS
+parameters’’ (P6, nurse coordinator).                                          In regard to the response to receiving medical events, staff
+   NH staff believe that retrospective information is less                     members would expect relatives to call the nursing home for
+stressful for family members. However, they also pointed                       the clarifications (occurred in 44% of responses), while the
+out that in cases where family members were not informed                       most expected reaction on daily routine updates would be
+about some negative events or certain dynamics in their loved                  questions asked during the visit, which was mentioned in the
+one’s health, discovering it later in trends may raise additional              38.5% of the responses.
+questions.                                                                        As for the anticipated level of relatives’ stress, medical
+   ‘‘They would also ask [the NH] if they were not informed                    events were seen as more stressful than daily events. In 29.2%
+in advance. In the sense that, if things are not going well                    of responses, staff would expect extreme stress in family
+and they did not know, seeing the trend like this, they would                  members after receiving medical updates, while for the daily
+ask ‘‘How come?’’ They would call immediately if they were                     information it is just 4.2% and the most common—no stress at
+not informed. If instead they already know the dynamics,                       all (45.9%). Translation of events was considered as bringing
+they understand, expect it. They may not even call, they are                   less stress comparing to the direct communication. Expec-
+informed’’ (P6, nurse coordinator).                                            tations of light stress or no stress at all occurred in 79.2%
+   Staff members expressed worries that sending singu-                         of comments on translated events, while for the alternative it
+lar events would overload family members with excessive                        was 45.9%.
+
+VOLUME 7, 2019                                                                                                                         171183
+                                                                    L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+C. VIEWS ON MEDIATED COMMUNICATION                                  regarding the implications for their work practices further
+Despite the overall positive implications for family mem-           stress the need for considering operational requirements and
+bers, NH staff showed some concerns in terms of i) how              simplifying the entire information flow, right from the data
+the technology would affect their workload, and ii) and the         collection. In terms of the design aspects explored, we high-
+implications of having written statement and what that would        light the following:
+in terms of accountability.                                            • Importance of visual aids. In case of medical
+    Most (6 out of 9) of the interviewed NH staff members                 parameters, it is important to indication of normal
+expressed concern of increase in the workload with intro-                 ranges, making sure family members interpret correctly
+ducing ICT tools in communication with family members,                    the information. Using metaphors for denoting how crit-
+especially if information would have to be logged manually.               ical the event is, was seen as positive, though using
+This is a consequence of the working conditions of health pro-            ‘‘smiles’’ might not be a suitable representation.
+fessionals in care facilities, which are largely understaffed:         • Personalized explanations. Raw presentation of data
+    ‘‘More than anything else, for us such system would be                without context could lead to people misinterpreting
+difficult to manage, we have 102 residents, to know if they               information or incurring in additional questions, or even
+have slept... it is impossible to do, that is what I am saying’’          perceived as ‘‘cold’’. Thus, data should be accompanied
+(p5, RAA). ‘‘Well, it could be nice and probably reassuring               with personalized explanation relative to the specific
+for the family members. I am asking you if a nurse who takes              event.
+care of 102 residents during the night also has time to do this.       • Trends over single events. Sending singular events
+I have doubts’’ (p1, doctor).                                             was seen as excessive, favoring trends over time. Hav-
+    Concerns were also expressed regarding additional ques-               ing (weekly) reports on trends was seen useful not only
+tions in cases when family members will not understand                    for sharing but for their own use.
+the updates communicated remotely or find them worrying:            Building on the above observations, in the following investi-
+‘‘I agree to give them this information but... I think afterwards   gate aspects of presentation, comprehension and information
+they will come here to us and we will have to answer all            flow, from the perspective of informal caregivers.
+the questions and worries of family members. I agree but
+I am scared’’ (P3, nurse). This reiterates the initial findings     VI. STUDY 3. INFORMATION PRESENTATION
+that making sure that information is understandable is a key        AND IMPACT
+challenge to address.                                               Following the findings from the previous two studies
+    The other emerging theme in the discussion was a gen-           (Sections IV and V), this third study was set to investigate
+eral concern regarding having a trace of communications,            the presentation aspects for the HWBI communicated to fam-
+especially if it unveils problems with procedure, as nicely         ily members of institutionalized seniors, including preferred
+described in an example given by a care professional:               level of detail and presentation metaphors, and how these
+    ‘‘For example, yesterday I was on a visit with a doctor, and    preferences are modified by the type of information and its
+then arrives an operator and tells that one of the residents        positive or negative connotation.
+vomited the breakfast. [As a result we put the resident in             More specifically, we explore the dimensions below,
+bed and gave him soup for lunch - standard procedure].              the first two associated with the focus of the study on pre-
+[But later] comes an operator who was present during that           sentation and interaction, and the last two as refinements of
+event and tells that the resident did not vomit. Hence, we put      our previous findings:
+the resident in bed and put a diet for no reason. But the              • Modality. We explore two general approaches in infor-
+vomiting event has already been documented [and shared in                mation presentation: visual representations, in terms of
+the system]. After 20 mins arrives the daughter of the resident          charts or metaphors and narratives, referring to textual
+and tells that she learnt that her mother vomited. And it is             representations of the information.
+clear that the event of vomiting indicates that something goes         • Navigation. We also explore how users would interact
+wrong. Worrisome.’’                                                      with HWBI, and specifically how they navigate different
+    The above, as well as other examples, point to the general           presentation modalities and levels of detail.
+worry that digital trace of communications become a tool for           • Type of trend. Given the preference on trends over
+family members to ‘‘audit’’ the work of the staff.                       single events, in this study we focus on trends related
+                                                                         to the two types of HWBI: medical and daily events.
+                                                                       • Event enrichment. We focus on approaches to person-
+D. LESSONS LEARNED                                                       alizing and augmenting the raw data. We again compare
+Feedback from formal caregivers points to a potential positive           raw events with translations, and given the feedback
+impact of technology-mediated information sharing in resi-               form the previous study add visual aids in the form of
+dential care. NH staff expressed that such solutions could i)            value ranges and further refine the metaphors to see how
+improve communication efficiency, and ii) potentially result             they affect overall comprehension and reactions.
+in less follow up calls and unnecessary stress, specially when         Methods: As described in Section III, the sequence
+information is ‘‘translated’’. At the same time, concerns           of interactive mockups varied for each subgroup of
+
+171184                                                                                                                           VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+FIGURE 3. Interactive mockups. The designs feature a combination of type of trends (medical or daily trends), Modality of the presentation (visual or
+narrative), and strategies for event enrichment (translation, metaphors and value ranges). Navigation in the interactive mockup was from left to right,
+and right to left to avoid positional bias.
+
+
+
+
+workshop participants. The mockups contained different                             Each of two workshops lasted about sixty minutes. The
+amount and combination of textual (long and short narratives)                   workshops were conducted using an Asus MEMO Pad with
+and visual (metaphors, charts, colours) aids that aimed at                      a 10.1’’ screen running interactive mockups (Figure 3).
+making HWBI more understandable for the family members                          The workshops were aimed at: i) evaluating the sufficient
+of older care recipients. However, the discussions always                       amount and preferred modalities of the alternative HWBI
+started from an example of NH daily events and followed                         presentations, and the users’ reasoning defining them, and
+by a medical event.                                                             ii) exploring the potential emotional reactions and actions of
+   The aim of the third study was to evaluate interactive                       the participants on receiving information in a given way.
+prototypes with one of the target groups of end users, namely                      In the beginning of each workshop, we facilitated an initial
+family members of institutionalized seniors, using an empir-                    group discussion of communication practices in place. Then,
+ical evaluation method in a form of two workshops. For this                     workshop participants were split into two smaller clusters of 2
+study, we opted for a predominantly qualitative user study,                     or 3 people to explore and evaluate the mockups (Figure 3) in
+complemented by minor quantitative questionnaires, since                        a co-discovery manner, to then reconvene back into a group
+we judged that broad and deep insights were only attainable                     for discussion of the participants’ experiences and final recap.
+through observation in combination with an open and flexible                    Each cluster was facilitated by one researcher who showed
+discussion format, as it has previously been shown in previous                  the interactive mockups on the tablet.
+research [56], [57].                                                               In order to continue addressing RQ2 and following the
+   Two workshops took place at local aged care facility, which                  findings of the Study 2, the mockups presented 2 examples
+includes day-care and nursing home services, from where                         of weekly trends of medical and daily routine events at the
+participants were recruited with the help of the facility staff                 NH (blood sugar level and sleep) in 3 modalities: chart with
+so as to get a representative sample of family caregivers                       metaphor, chart with metaphor and a short explanation from
+(e.g., different level of involvement in care). Overall 12 fam-                 the staff, longer explanation narrative from the staff.
+ily members (58 mean age and 70% females) participated in                          Figure 3 depicts the mockups used during the workshops
+the workshops.                                                                  in each cluster of participants and includes 3 alternatives
+
+
+VOLUME 7, 2019                                                                                                                                     171185
+                                                                              L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+FIGURE 4. Weekly sleep trend example designs: a) long narrative, incorporating a personalised message as well as general information, and b) visual
+overview with a brief explanation.
+
+
+for sleep and the values of blood sugar of older adults over                  if their loved one could be helped in general: ‘‘If just once—
+the week time period: 1) a chart with numeric values and                      no, if she doesn’t sleep for a month, well, then yes, I ask if
+metaphor translating the values over the last week, 2) a chart                [staff] did something about it.’’ ‘‘If she is helped to under-
+with a metaphor and short textual explanation from the staff,                 stand why she doesn’t sleep, why she doesn’t sleep during
+3) a long narrative explanation from the staff without numeric                the night.’’ This was an aspect not covered in the mockups but
+values.                                                                       that points to how important pieces of information depend on
+                                                                              the type of trend.
+A. INFORMATION FLOW AND PRESENTATION
+                                                                                 When shown the chart visualization, participants switched
+                                                                              to a more analytical state trying to interpret the data. They
+1) DAILY EVENTS
+                                                                              were able to understand the chart, reading aloud the sleeping
+The mockup alternatives with textual narratives of daily activ-
+                                                                              hours per day (‘‘Well, it says she slept 9 hours, 6 hours’’)
+ities (sleep or meals) depicted in Figure 4A, included specific
+                                                                              but were not able to easily derive the trend, even with the
+information of the resident’s weekly trend (Part 1) and general
+                                                                              help of the metaphor of the battery charge. However, see-
+description of values that hold for general older population,
+                                                                              ing the chart with numbers could give some family mem-
+for instance, the fact that seniors sleep less with age (Part 2).
+                                                                              bers higher confidence that the information is trustworthy,
+Part 2 was incorporated with the idea of providing general
+                                                                              more than the textual narrative explanation: ‘‘The chart like
+context to understanding the information, but in this modality
+                                                                              this [is good] for me. It is more fundamental than ’the
+(text narrative) it created confusion among participants, who
+                                                                              Mrs. slept...’ [referring to the narrative]. Because maybe...
+expected messages to be more personalized (‘‘I don’t under-
+                                                                              [implying that it might not be the case]. Like that [in the
+stand this ‘‘due to ageing’’ [referring to the Part 2]’’).
+                                                                              chart], I understand immediately’’. This preference appears
+   Participants did not expect to be worried or to require                    to be related more to a desire of having level of scrutiny than
+further follow-up information upon receiving positive trends                  in comprehension, an aspect already observed in our previous
+of their loved ones daily information overviews (Part 1) e.g.,                study where the need for detailed information was in some
+calling to get more information: ‘‘If they tell me she has slept              cases rooted in negative experiences or lack of trust in NH
+and she is calm, I wouldn’t call anyone, everything is fine.                  staff.
+If that’s what they tell me, things written here [emphasizing                    Comparing to the screen alternatives that contained a visual
+that the message is positive], no worries.’’                                  overview (chart), detailed textual narratives from the staff
+   The visualization in the form of long narratives was seen as               were considered by participants as being ‘‘warmer’’ or more
+enough information in this case. Participants also expressed                  human-like communication, showing more effort from the
+that an application communicating these events might be                       staff to make family understand the information: ‘‘I think that
+less relevant to those with loved ones’ overall health not                    the [detailed narrative], I think it is much better because
+critical: ‘‘I think that if the [older adult] is doing well,                  they did an analysis... they had to reflect about her health.
+[the application] is not needed, one can just visit. How-                     Instead, another one [chart with short message] is without
+ever, if there is a problem, one could use the application.’’.                any reflection, let’s say very ‘‘cold.’’ In this case, adding a
+To family members who visit frequently, communication in                      short message to accompany and explain the chart (a message
+virtual channels revolve around negative events, an aspect                    on Figure 4B) was seen as beneficial.
+also observed in our previous study.
+   Imagining the future, in cases when there is a negative
+trend over some time, for instance, a sleep disturbance over a                2) MEDICAL EVENTS
+month period, participants would like to know if the NH staff                 The second category of events presented to the participants
+has done something about it (performed an intervention) and                   was medical information that is being collected and shared
+
+171186                                                                                                                                     VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+within care facilities and with family members, for instance,                  about an event: ‘‘Well, if one doesn’t know the values [of
+blood pressure or blood sugar level.                                           medical tests]. Well, what would it say [to this person]?’’
+   Similarly to daily routine information, generic information                 Providing contextual information and aids to interpret cor-
+in the long narrative was also seen as redundant and lacking                   rectly the data was thus more appreciated and needed in visual
+the value for the medical events: ‘‘is it same for everyone and                representations than in narratives (e.g., the same information
+generated by a computer?’’ Moreover, one of the participants                   we tried to convey in Part 2).
+commented that such general information may also compro-                          Overall, participants expressed strong preference towards
+mise their trust and demotivate them to read such descriptions                 seeing the chart values for medical events, which is supported
+in future: ‘‘I am only interested if the blood pressure of my                  both by many qualitative comments (‘‘No, anyways, now,
+relative was at least evaluated. Just that. This information is                after seeing the chart, I am for the chart. To see the values’’).
+not useful [the part 2]. I would not even read the rest. I would               Quantitatively, this alternative was considered slightly less
+not trust the information you would give me anymore.’’                         efficient than the narrative for both events.
+   Most of the comments were not in favor of long messages,                       As we observed during the workshops, naturally, partici-
+for example, expressing the concern that they might trigger                    pants explained their preferences and provided comments by
+‘‘Dr. Google’’ behaviour [58]: ‘‘more information you give,                    comparing the screen alternatives ‘‘No, anyways, now, after
+more effort you have to provide, more... of those who continue                 seeing that chart, I am for the chart. To see the values [about
+searching on computer for various sicknesses and then has                      the narrative after seeing chart].’’ However, the views of
+all the symptoms.’’ Participants also recognize that long mes-                 the family caregivers still converged for each type of events,
+sages might overload them with information: ‘‘[you can show                    e.g. daily routine and medical events, regardless the flow.
+this information] even without [the long message] to read
+because when you are at home, your head is already full’’, and                 3) ADDITIONAL COMMENTS
+expressed their preference to request additional information                   Overall, participants strongly emphasized the importance of
+in cases when they need it.                                                    personalizing the HWBI they would like to receive, as the
+   Chart visualization of medical information, however, was                    same event could be very important for one family caregiver
+perceived as more understandable by the participants ‘‘I see                   and irrelevant for another: ‘‘[I would like to know] that my
+that [chart] is something that you understand immediately,’’                   aunt managed to leave the bed for an hour. For another
+‘‘I am for the chart. The chart is more straightforward.’’                     person it could be [important to see] other daily events’’,
+This representation of the information put participants again                  which may also depend on the specific health state of the
+in an analytical state and there were discussions among the                    senior (‘‘For my aunt, to walk in the room after the lunch and
+participants – who showed knowledge of how to interpret the                    to walk around alone is important’’). In particular, the impor-
+glucose levels and the implications. Interestingly, the infor-                 tance to see certain medical information is dynamic and
+mation in the chart was easier to interpret than the daily                     depends strongly on its relevance. Moreover, family members
+information, possibly due to the familiarity with the type of                  expressed their preferences to opt out from receiving certain
+data and well established critical values (also displayed in the               events if they are not critical for their loved one’s health or do
+chart).                                                                        not change over time. For example, they might rarely check
+   It became evident during the analysis of medical events that                the blood pressure that fluctuates around the same values: ‘‘if
+information presented should carry not only the ‘‘numbers’’                    it is always the same, [I would check it] maybe not all days,
+but also contextual information, in a way that it is precise and               but maybe once a week’’.
+accurate. The lack of event-specific context (e.g., whether the                    The interest of participants to receive certain types of
+measure was taken before or after a meal) raised questions                     information also depends on the facility service their loved
+that made it difficult for the participants to decide on whether               one is provided with (nursing home or daycare), which can
+the information was of concern or not: ‘‘I mean, here she has                  also change over time with transition of aged care. As can be
+120 of sugar level that means it is high but perhaps it is after               seen in Section III, most of the participants belong to the older
+a meal. [...] in the morning, is it before or after the breakfast?             population group, and indeed, they emphasized the impor-
+Because it is one problem if that’s before breakfast, and                      tance of accessible design of the mockups. Moreover, one
+another if it’s after.’’ Adding a short message from the staff to              of the participants was colour blind, which yet another time
+the chart gave a reassurance that the values were previously                   indicated the importance of accessibility of such applications:
+assessed by the medical professional whom family members                       ‘‘I am a bit colourblind, it is a limitation. Put like that, I see
+trust, hence, giving more clarity: ‘‘Practically, I can say that               it a bit more intense, but if not, for me they are all the same.’’
+[chart with a short message] was already seen and evaluated                        As NH residents stay in the care facility, family members
+by a doctor, so it was after the meal because it is inside the                 always rely on staff’s judgment and generally wish to be
+normal values.’’                                                               notified in case when something is wrong: ‘‘as we are not
+   This becomes particularly valuable in cases when certain                    obliged to see them every day, as they are under a contin-
+medical test values might be unfamiliar for the relatives with                 uous control here. Because they are always under control,
+low level of medical literacy, as the chart values might not be                so this [application] is a little... yes, I could ask how she is
+enough info to interpret and make sense of the information                     doing but, to my mind, they will tell me if there is something
+
+VOLUME 7, 2019                                                                                                                            171187
+                                                                               L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+FIGURE 5. Anticipated reactions of family caregivers upon receiving HWBI in a certain modality.
+
+
+
+
+FIGURE 6. Expected level of concern upon receiving HWBI in a certain modality (1=‘‘No concern’’, 4=‘‘Very concerned’’).
+
+
+
+
+wrong,’’ while feeling of obligation to dive into practical care               calls, from 50% of the responses. Among the questions that
+processes again is undesirable for them.                                       emerged while showing the information to the participants
+   In this vein, participants suggested introducing an alert                   we have: ‘‘How come [the sugar level is so high]? How
+system of notification, expressing the reoccurring topic of                    come, was it before eating, what did she eat?,’’ ‘‘if she
+their trust towards NH staff in pointing out the problematic                   would have 200 of blood pressure here, which is outside [the
+events: ‘‘Maybe if there is something that is wrong, they could                norm], perhaps I would ask ‘‘but did you follow this up?
+put an alert—‘‘look’’. And they tell you to check if something                 To know what they did, whether they resolved the problem.’’
+is wrong.’’ They also suggested that the nursing home staff                    Some of these questions could be anticipated with further
+could ask them if they prefer to be more or less informed                      information about the reason behind the trend and ongoing
+through the application: ‘‘would you like to be informed,                      treatments.
+do you need to be informed daily about the health of your                         The qualitative input also tell us that reactions of fam-
+parent?’’, one could say ‘‘yes’’, one could say ‘‘no’’ and                     ily members might also be based on specific situation. For
+makes this choice, to be informed or not.’’                                    instance, in case of the values inside the norm the participants
+                                                                               wouldn’t do anything. But if it is not normal, there are some
+B. REACTIONS AND ACTIONS OF                                                    questions.’’ Participants emphasized that the connotation of
+INFORMATION RECIPIENTS                                                         an event would play a major role in their actions upon receiv-
+The purpose of information sharing in this context is to facili-               ing it: ‘‘it depends how is the information, if the health is not
+tate the information flow with family caregivers and improve                   good, well, I would call, but if it is normal, I wouldn’t call.’’
+the interactions with the NH. Thus, we present here insights                   The reported level of concern upon receiving the HWBI puts
+into the potential impact of information sharing, in terms of                  narratives as a modality of presentation that can potentially
+expected reactions and communication improvement upon                          cause more concern (56% of responses) in comparison to the
+receiving information through a digital channel and the spe-                   graphical representations (18% of responses). However, this
+cific presentations we introduced.                                             is when considering narratives that include personalized as
+   Investigating the expected reactions (Figure 5), daily activ-               well as contextual information (Part 2), to which participants
+ities resulted in more follow-up interactions (96%) compared                   reactive negatively as discussed in the previous subsection.
+to medical events (71%), and these interactions are expected                   Looking at the type of information, participants expected
+to increase as we add narrative information, regardless of                     to be less concern about the medical information presented,
+the type of information. Indeed, narrative presentation of                     although we must note that this can also be attributed to the
+daily activities are expected to result in the most invasive                   clarity of the information presented rather than the type itself.
+type of interactions from the perspective of the NH: direct                    These results, depicted in Figure 6 confirm that emotional
+
+171188                                                                                                                                      VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+FIGURE 7. Expected improvement of communication upon receiving HWBI in a certain modality (1=‘‘Completely agree’’, 5=‘‘Do not agree at all’’).
+
+
+
+
+responses would strongly depend on the type of event and                       other variables, they differ depending on the specifics of
+the modality of its presentation.                                              care facility services their older relatives receive, their loved
+   In terms of the improvement in the communication with                       one’s health state, and personal care experience or ICT skills.
+the NH staff upon receiving information in a particular                        In this work, we identified both a large number of ‘‘per-
+modality (see Figure 7), the majority of participants reported                 sonas’’ of individual family caregivers and family care orga-
+an expected improvement when resorting to graphical rep-                       nization styles, such as individuals, care teams, and proxies,
+resentations while they the views were split on narratives                     that affect their communication practices with care facility
+(at most 50%). Looking at the type of information, there was                   staff. Together with variety of family situations, relationships
+a larger consensus on the sharing of medical information in                    among family caregivers and between them and NH residents,
+improving communication with the NH.                                           our findings reveal a major challenge that comes with the
+   Participants also recognize that introducing an additional                  introduction of ICT channels in aged care, specifically how
+communication channel and communicating to them larger                         to access and deliver HWBI, resulting in the following rec-
+amount of information through it could add more workload                       ommendations.
+to the staff and asked questions the way information would
+be gathered and communicated (‘‘but do [staff members] put                     1) ACCOUNT FOR INDIVIDUAL CHARACTERISTICS AND
+this here? Would they manage to have such results?’’, ‘‘yes,                   INFORMATION PREFERENCES OF FAMILY MEMBERS
+but is this [information] inserted by a doctor or is it some                   Personalization is known to increase satisfaction but the
+statistics from the chart?’’).                                                 information needs are not always evident to the family
+   The lessons learned from this study, in combination to the                  members. The NH staff in this regard has the capacity
+previous ones, are summarised in the following section.                        and knowledge to help in making these ‘‘hidden’’ needs
+VII. DISCUSSION                                                                evident to family members, and to map the way they
+The aim of this work was to examine communication strate-                      classify family members today (from a communication
+gies, mutual attitudes of family and professional caregivers                   perspective) into a digital channel to tailor information
+regarding information sharing in nursing homes (NHs), and                      communication.
+the strategies of presenting health and wellbeing information
+(HWBI). Starting from the high level overview of the infor-                    2) ADDRESS BOTH POSITIVE AND NEGATIVE HWB UPDATES
+mation exchange practices the caregivers adopt and informa-                    Regarding the connotation of the HWB updates, while proac-
+tion architecture principles, we moved to the evaluation of                    tive communication practices are centered around commu-
+the design alternatives that could mediate sharing of HWBI                     nicating critical and negative information, positive trends
+in NH care context.                                                            emerged as a need for family members: i.e., ‘‘knowing that
+   All three studies included in this paper build on each other’s              things are going fine,’’ especially to those who are not able
+results and provide cumulative findings that inform the design                 to visit or briefed regularly. This is also important so as to
+of ICT systems, which could be accepted by both staff and                      not turn the digital channel as the ‘‘bearer of bad news.’’ But
+family members and integrated into the daily practices of                      when negative trends need to be communicated, the timing
+each caregiver groups. Overall, we identify several main                       for each type of events is important. For instance, a month
+challenges that emerged across all three studies and discuss                   could be an acceptable time period before starting to receive
+each of them in detail translating the results of this work                    specific updates on the sleep disturbance of a NH resident,
+into design aspects and recommendations to be taken into                       while for medical events immediate communication in case
+account when addressing the identified challenges. These are                   of abnormal values is extremely important.
+summarized in Figure 8 and explained in detail below.
+                                                                               3) CONSIDER THE PROPER GRANULARITY FOR HWBI
+A. INFORMATION ACCESS AND DELIVERY                                             SHARING, FROM SINGLE EVENTS TO ‘‘TRENDS’’
+Family members involved in care of institutionalized older                     Single events can be useful in reporting critical events, but
+adults form a heterogeneous group in relation to their infor-                  others forms could be more informative when looking at
+mation needs and care involvement. For instance, among                         trends (e.g., alarms or improvements). More specifically,
+
+VOLUME 7, 2019                                                                                                                                   171189
+                                                                    L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+FIGURE 8. Summary of design aspects and recommendations.
+
+
+trends of medical and daily routine updates should be com-          which introduces another challenge of ICT mediated infor-
+municated differently. While daily events could mimic the           mation communication by the care facilities. As emerged
+personal communication of family members with the NH                from our studies, updates out of context might cause addi-
+staff and be shorter and less formalized, medical updates are       tional confusion, worry, and follow-up questions by family
+preferred to be very specific and precise, with explanations to     caregivers, as they might fail to interpret communicated infor-
+avoid confusion and room for misinterpretation.                     mation. In addition, the HWBI is multi-dimensional and have
+                                                                    a complex nature, which imposes a challenge in terms of
+4) PROVIDE HWBI, INCLUDING WELLBEING AND                            how to introduce it in a way that it does not cause further
+RELATIONAL INFORMATION, AND NOT                                     or unnecessary distress. The resulting solution should also
+JUST HEALTH DATA                                                    not be an additional source of confusion, resulting in further
+While interest in medical information was varied, we noticed        workload to the NH staff. Overall, a new digital channel
+an overwhelming interest in the basic questions we also ask         should support the communication practices and not cause
+each other every day, such as how we slept and ate or if            additional problems or distress to the involved actors.
+we took part in (social) activities. Family members want to            In this regard, the following design recommendations can
+have the same information, which is only partially collected        guide the design of successful HWBI flows.
+by NHs today but that technology now can help us get
+semi-automatically (e.g., through sensors).                         1) ALLOW HEALTH PROFESSIONALS TO CONTROL THE
+                                                                    INFORMATION FLOW, WITHIN POSSIBLE
+B. INFORMATION FLOWS AND COMPREHENSION                              IN THE LEGAL FRAMEWORK
+Another important design dimension we identified has to             There are existing communication practices and information
+do with the entire information flow, aiming at reducing             flows in the NH context that happen in person, as well as
+unnecessary stress on the family member side as well as being       through other channels, such as phone and online, which
+attentive to the work load of the NH staff. Family caregivers       are based on internal and legal regulation within aged care
+might not always have a full understanding and knowledge of         context. Not all the updates should be communicated via app,
+their loved one’s condition or a possibility to visit frequently,   as a way to bring to light invisible work of staff. NHs are still
+
+171190                                                                                                                           VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+in control of what information is shared and how (some events                  C. COMMUNICATION MODALITIES AND CHANNELS
+might be preferable to discuss in person or via phone)—                        This dimension has to do with the actual presentation of the
+their know-how should provide the possibility for staff to                     information, so as to convey the actual meaning and facilitate
+have control of shared information, as staff also have the                     comprehension. We have seen that HWBI is complex in
+responsibility of shared information and the outcomes of the                   nature and have many facets associated. Information presen-
+sharing.                                                                       tation is associated with all these facets presented before such
+                                                                               as information enriching, translation, type of event and their
+2) SUPPORT PROPER HWBI SHARING BY MAKING                                       connotation. Deciding on a presentation modality - from raw
+FM PERSONAS VISIBLE TO NH STAFF                                                data to summaries to metaphors - is thus a challenging task
+Making explicit the communication personas among the NH                        that should consider all these aspects. In the following we
+staff members could support them in adapting the communi-                      provide some general guidelines:
+cations to the sensibility of diverse family situations.
+                                                                               1) PRESENT HWBI AS NARRATIVES WHEN
+3) IMPLEMENT STRATEGIES TO MAKE SURE HWBI                                      PRIORITIZING COMPREHENSION
+IS CLEAR AND UNDERSTANDABLE                                                    Narratives have the potential to provide the most clear and
+It is important to provide as much context as possible, for                    personalised presentation of events. They are more suited
+instance, by considering the resident’s ‘‘normal’’ ranges for                  for presented digested information when the purpose is to
+medical tests and ‘‘translating technical vocabulary’’ to what                 communicate the meaning of events. In preparing narratives,
+non-experts can understand. Misinterpreting information can                    avoid mixing the personalised message with contextual or
+lead to situation of stress and uncertainty, which in turn can                 educational information as it can lower the benefit of the
+harm the relation with the NH. Both family members and                         personalization and create confusion on the receiving end.
+professional caregivers of NH residents stated that medical
+events could be the most stressful and causing the most prob-                  2) CONSIDER THE PURPOSE OF THE VISUALIZATION
+lems, which emphasizes the importance of making them as                        IN CHOOSING VISUAL AIDS
+clear as possible and providing further details when needed.
+                                                                               In augmenting the presentation of visual information with
+                                                                               visual aids, one should consider whether the purpose is for
+4) FAVOUR SIMPLICITY OVER RICHNESS OF INFORMATION,                             users to reflect on the data and derive meaning from the infor-
+AND PROVIDE DETAILS ON DEMAND                                                  mation, or whether it is there to communicate the meaning
+Delivering raw HWBI to family members could increase                           directly through glanceable information. For example, in pre-
+the efficiency of family – staff communication but in lim-                     senting charts to support reflection, visual aids connected to
+ited cases, when updates on the specific medical events are                    the event visualization were more successful at supporting the
+requested. Possible updates could include the information on                   task. We observed that such aids could have more chances to
+the actions or medical interventions that were undertaken to                   be used and support the comprehension when connected to
+mitigate acute symptoms, the updates on the future prevention                  the data, for example, through colours or ranges incorporated
+plans, or the reasons why this event has occurred.                             into the visualizations rather than ‘‘external’’ metaphors,
+                                                                               as users want to make sense of the data. Including glaceable
+                                                                               summaries via metaphors was not a successful approach in
+5) PROVIDE SCAFFOLDED AND CONTEXTUAL
+                                                                               this context, as the summary did not help users interpreting
+HWBI PRESENTATION
+                                                                               the information but rather created a gap between information
+Give family members the possibility of understanding the sit-                  and meaning.
+uation at a glance and navigating information at their desired
+level of detail. To this end, allow them to navigate from sum-
+                                                                               3) ENABLE ‘‘REFLECTION’’ ON HWBI AT A LEVEL OF
+maries of what is the general condition of the resident, to sum-
+                                                                               GRANULARITY MATCHING THE HEALTH LITERACY
+mary of health parameters, to specific details. In addition,
+                                                                               OF FAMILY MEMBERS
+provide information that is relevant to the time and context
+of the event communicated, which implies thinking in terms                     Information should be presented at a level of detail that users
+of what information can be delivered through synchronous                       can understand, especially when the purpose of the visual-
+and asynchronous channels.                                                     ization is for users to reflect on the data. We observed this
+                                                                               in action while testing the chart visualization of raw sleep
+                                                                               and glucose levels, where to our surprise participants were
+6) CONSIDER TOOLS FOR CONTEXTUAL EDUCATION SO AS                               much better at reflecting on the medical data than the daily
+TO ALLOW FAMILY MEMBERS TO BUILD HEALTH LITERACY                               information. Participants were familiar with this medical
+In providing educational information explaining the HWBI,                      information and much better at understanding the data than
+users can learn about the meaning and implications of the                      the supposedly simpler but in their case less familiar sleep
+information they receive, especially when they are first con-                  information. Thus, the visualization, and related aids, should
+fronted with the type of information presented.                                consider the literacy of the target population, or individuals
+
+VOLUME 7, 2019                                                                                                                          171191
+                                                                      L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+in case of heterogeneous users without overloading the user           iv) paying attention to personas and personalized explana-
+or even being misleading.                                             tions and contextualizations.
+
+D. RELATIONAL ASPECTS OF INFORMATION EXCHANGE                         VIII. CONCLUSION
+While we started our research with the original generic idea of       We identified some key challenges in enabling HWBI sharing
+sending HWB updates from the care facility to residents’ fam-         in residential care, especially considering the current state of
+ily members, studies emphasized the need for bidirectional            healthcare systems currently deployed in this context. At a
+communication that mimics the human interaction, and this             fundamental level, there is a need for incorporating wellbeing
+bidirectional channel is important for both family and staff.         data in addition to medical information, which might pose a
+NH care practices and related processes might not always be           non-trivial challenge to data collection practices and systems
+transparent and clear to the family members of the residents,         in deployment. At a more cultural level, proactive commu-
+hindering the workload of the staff. Hence, the following             nications from NH nowadays have a negative connotation,
+design solutions could be beneficial in introducing ICT medi-         requiring a switch in these perceptions to enable HWBI shar-
+ation of such communication.                                          ing in a virtual channel. Then, information needs are also very
+                                                                      different, as health conditions and preferences greatly vary,
+1) GIVE A HUMAN FACE TO VIRTUAL
+                                                                      and yet people don’t really know what they need or want.
+INFORMATION EXCHANGES
+                                                                      More importantly, HWBI, if not communicated properly, can
+                                                                      cause misunderstandings and unnecessary distress.
+One aspect of concern in taking communications to a virtual
+                                                                         In this regard, the set of recommendations provided can
+channel was losing the human touch to social interactions.
+                                                                      be a starting point for guiding the design of information
+It is thus important to show a human face in the interac-
+                                                                      architecture, information flows and presentation. Although
+tions with the family members instead of hiding behind
+                                                                      the cultural and legal context can vary from countries,
+institutional accounts, facilitating mutual awareness through
+                                                                      we acknowledge as fundamental ingredients for success
+profiles. Emphasize the ICT channel as an additional channel
+                                                                      involving the health care professional in shopping the infor-
+supporting and enhancing personal communication but not
+                                                                      mation flow but providing them with the necessary tools to
+replacing it.
+                                                                      accommodate the communications to the needs and sensibil-
+                                                                      ities of the information recipients. On the family side, adapta-
+2) ALLOW FOR FAMILY TO STAFF COMMUNICATION, SO AS
+                                                                      tion to health literacy needs as well as presenting HWBI in a
+TO HAVE A BIDIRECTIONAL COMMUNICATION IN THE
+                                                                      way that can be understood at a glance are paramount. Being
+CONTEXT OF HWBI
+                                                                      aware of their communication practices is also important
+Enable family members to follow up on communications
+                                                                      in avoiding sensible information to fall in informal sharing
+on the same digital channel, but making sure conversations
+                                                                      channels.
+remain in this context. Our previous study on relational
+aspects beyond information sharing [59] also points to the            LIMITATIONS
+potential of this channel to let staff know the care preferences      The study has several limitations and the most frustrating one
+and habits of the resident that the family member wants to be         for us was the difficulty in approaching family members that
+respected if possible.                                                are remote or visit rarely. This is due to a variety of factors
+                                                                      including the fact that we were asked to go through NH to
+3) PROVIDE TOOLS TO ALLOW FOR COORDINATION AND                        contact relatives. However, this is also the group of family
+INFORMATION EXCHANGE IN FAMILY CARE TEAMS                             caregivers who most frequently interacts with the nursing
+It is important to consider that there is not just one person but a   home staff, and therefore experience the benefits and pains
+family behind the NH resident. Thus, the technology support           of current practices.
+should cover aspects of coordination in care teams, as well              Another important limitation of the study is the exclu-
+as tools to relay information to the larger family within the         sion of the care recipients, NH residents. Obliviously also
+limits of GDPR and related regulations. Not addressing these          their needs and requirements should be also taken into
+sharing practices could expose HWBI to informal and less              account, which we addressed in other publications [60], [61].
+safe channels.                                                        However, NH care in Italy has its specificity, as the residents
+    Overall, this work strengthens the idea that it is critical       mainly belong to the ‘‘oldest old’’ population group with a
+to consider both preferences of family members of nursing             high degree of impairments.
+home residents and work practices of the staff in design-
+ing information services such as e-health systems. However,           REFERENCES
+the studies have also reshaped the initial belief of nearly            [1] M. Eika, G. A. Espnes, O. Söderhamn, and S. Hvalvik, ‘‘Experiences faced
+                                                                           by next of kin during their older family members’ transition into long-term
+all actors involved (including us), from a focus on com-                   care in a N orwegian nursing home,’’ J. Clin. Nursing, vol. 23, nos. 15–16,
+munication of medical information from staff to family to                  pp. 2186–2195, 2014.
+focus on i) bidirectional interaction, ii) appropriate delivery of     [2] B. Almberg, M. Grafström, K. Krichbaum, and B. Winblad, ‘‘The interplay
+                                                                           of institution and family caregiving: Relations between patient hassles,
+various types of events (daily or medical) with their positive             nursing home hassles and caregivers’ burnout,’’ Int. J. Geriatric Psychi-
+or negative connotation, iii) social and wellbeing events, and             atry, vol. 15, no. 10, pp. 931–939, 2000.
+171192                                                                                                                                VOLUME 7, 2019
+L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+ [3] A. Hertzberg and S.-L. Ekman, ‘‘‘We, not them and us?’ Views on the               [24] A. D. Miller, S. R. Mishra, L. Kendall, S. Haldar, A. H. Pollack, and
+     relationships and interactions between staff and relatives of older people             W. Pratt, ‘‘Partners in care: Design considerations for caregivers and
+     permanently living in nursing homes,’’ J. Adv. Nursing, vol. 31, no. 3,                patients during a hospital stay,’’ in Proc. 19th ACM Conf. Comput.-
+     pp. 614–622, 2000.                                                                     Supported Cooperat. Work Social Comput., 2016, pp. 756–769.
+ [4] S. McFall and B. H. Miller, ‘‘Caregiver burden and nursing home admis-            [25] M. Baez and F. Casati, ‘‘Agile development for vulnerable populations:
+     sion of frail elderly persons,’’ J. Gerontol., vol. 47, no. 2, pp. S73–S79,            Lessons learned and recommendations,’’ in Proc. 40th Int. Conf. Softw.
+     1992.                                                                                  Eng., Softw. Eng. Soc. (ICSE-SEIS), 2018, pp. 33–36. [Online]. Available:
+ [5] L. Vinton, N. Mazza, and Y.-S. Kim, ‘‘Intervening in family-staff conflicts            http://doi.acm.org/10.1145/3183428.3183439
+     in nursing homes,’’ Clin. Gerontol., vol. 19, no. 3, pp. 45–68, 1998.             [26] G. Alexander, M. Rantz, C. Galambos, A. Vogelsmeier, M. Flesner,
+ [6] M. Blusi, K. Asplund, and M. Jong, ‘‘Older family carers in rural areas:               L. Popejoy, J. Mueller, S. Shumate, and M. Elvin, ‘‘Preparing nursing
+     Experiences from using caregiver support services based on information                 homes for the future of health information exchange,’’ Appl. Clin. Inform.,
+     and communication technology (ICT),’’ Eur. J. Ageing, vol. 10, no. 3,                  vol. 6, no. 2, pp. 248–266, 2015.
+     pp. 191–199, 2013.                                                                [27] H. E. Douglas, A. Georgiou, A. Tariq, M. Prgomet, A. Warland, P. Armour,
+ [7] M. T. Duncan and D. L. Morgan, ‘‘Sharing the caring: Family caregivers’                and J. I. Westbrook, ‘‘Implementing information and communication tech-
+     views of their relationships with nursing home staff,’’ Gerontologist,                 nology to support community aged care service integration: Lessons from
+     vol. 34, no. 2, pp. 235–244, 1994.                                                     an australian aged care provider,’’ Int. J. Integr. Care, vol. 17, no. 1, p. 9,
+ [8] M. L. Maas, D. Reed, M. Park, J. P. Specht, D. Schutte, L. S. Kelley,                  2017.
+     E. A. Swanson, T. Trip-Reimer, and K. C. Buckwalte, ‘‘Outcomes of                 [28] S. Star and A. Strauss, ‘‘Layers of silence, arenas of voice: The ecology of
+     family involvement in care intervention for caregivers of individuals with             visible and invisible work,’’ Comput. Supported Cooperat. Work (CSCW),
+     dementia,’’ Nursing Res., vol. 53, no. 2, pp. 76–86, 2004.                             vol. 8, nos. 1–2, pp. 9–30, 1999.
+ [9] K. L. Carman, P. Dardess, M. Maurer, S. Sofaer, K. Adams, C. Bechtel,             [29] S. Zwijsen, A. Kabboord, J. Eefsting, C. Hertogh, A. Pot, D. Gerritsen, and
+     and J. Sweeney, ‘‘Patient and family engagement: A framework for under-                M. Smalbrugge, ‘‘Nurses in distress? An explorative study into the relation
+     standing the elements and developing interventions and policies,’’ Health              between distress and individual neuropsychiatric symptoms of people with
+     Affairs, vol. 32, no. 2, pp. 223–231, 2013.                                            dementia in nursing homes,’’ Int. J. Geriatric Psychiatry, vol. 29, no. 4,
+[10] K. I. Stajduhar, L. Funk, and L. Outcalt, ‘‘Family caregiver learning—How              pp. 384–391, 2014.
+     family caregivers learn to provide care at the end of life: A qualitative         [30] C. Bossen, L. R. Christensen, E. Grönvall, and L. S. Vestergaard, ‘‘Care-
+     secondary analysis of four datasets,’’ Palliative Med., vol. 27, no. 7,                Coor: Augmenting the coordination of cooperative home care work,’’ Int.
+     pp. 657–664, 2013.                                                                     J. Med. Inform., vol. 82, no. 5, pp. e189–e199, 2013.
+[11] M. Zwarenstein, J. Goldman, and S. Reeves, ‘‘Interprofessional collabora-         [31] B. H. Crotty, J. Walker, M. Dierks, L. Lipsitz, J. O’Brien, S. Fischer,
+     tion: Effects of practice-based interventions on professional practice and             W. V. Slack, and C. Safran, ‘‘Information sharing preferences of older
+     healthcare outcomes,’’ Cochrane Library, 2009.                                         patients and their families,’’ JAMA Internal Med., vol. 175, no. 9,
+[12] S. Consolvo, P. Roessler, B. E. Shelton, A. LaMarca, B. Schilit, and                   pp. 1492–1497, 2015.
+     S. Bly, ‘‘Technology for care networks of elders,’’ IEEE Pervasive Com-           [32] C. Pagliari, D. Detmer, and P. Singleton, ‘‘Potential of electronic personal
+     put., vol. 3, no. 2, pp. 22–29, Jul. 2004.                                             health records,’’ BMJ, vol. 335, no. 7615, pp. 330–333, 2007.
+[13] W. S. Tuil, A. J. ten Hoopen, D. D. Braat, P. de Vries Robbé, and
+                                                                                       [33] V. Caforio, M. Baez, and F. Casati, ‘‘Viability of magazines for stimulating
+     J. Kremer, ‘‘Patient-centred care: Using online personal medical records in
+                                                                                            social interactions in nursing homes,’’ in Proc. IFIP Conf. Hum.-Comput.
+     IVF practice,’’ Hum. Reproduction, vol. 21, no. 11, pp. 2955–2959, 2006.
+                                                                                            Interact. Springer, 2017, pp. 72–81.
+[14] M. Ross, I. Twombly, C. Buyns, R. Cheng, and S. Sengers, ‘‘Crossing the
+                                                                                       [34] F. Ibarra, M. Baez, F. Fiore, and F. Casati, ‘‘Stimulating conversations in
+     quality chasm: A new health system for the twenty-first century,’’ Inst.
+                                                                                            residential care through technology-mediated reminiscence,’’ in Proc. IFIP
+     Med., Albuquerque, NM, USA, Tech. Rep., 2001.
+                                                                                            Conf. Hum.-Comput. Interact. Springer, 2017, pp. 62–71.
+[15] L. Nurgalieva, M. Baez, F. Fiore, F. Casati, and M. Marchese, ‘‘Designing         [35] J. Rosen, V. Mittal, B. H. Mulsant, H. Degenholtz, N. Castle, and
+     healthcare systems with an emphasis on relational quality and peace of                 D. Fox, ‘‘Educating the families of nursing home residents: A pilot
+     mind,’’ in Social Informatics, vol. 11186, S. Staab, O. Koltsova, and                  study using a computer-based system,’’ J. Amer. Med. Directors Assoc.,
+     D. I. Ignatov, Eds. Cham, Switzerland: Springer, Sep. 2018, pp. 234–242.               vol. 4, no. 3, pp. 128–134, 2003. [Online]. Available: http://www.
+[16] A. Hertzberg, S. Ekman, and K. Axelsson, ‘‘‘Relatives are a resource,                  sciencedirect.com/science/article/pii/S1525861004703217, doi: 10.1016/
+     but. . .’: Registered nurses’ views and experiences of relatives of residents          S1525-8610(04)70321-7.
+     in nursing homes,’’ J. Clin. Nursing, vol. 12, pp. 431–441, 2003, doi:            [36] S. Torp, E. Hanson, S. Hauge, I. Ulstein, and L. Magnusson, ‘‘A pilot
+     10.1046/j.1365-2702.2003.00761.x.                                                      study of how information and communication technology may contribute
+[17] J. R. Thomsen, P. G. Krogh, J. A. Schnedler, and H. Linnet, ‘‘Interactive              to health promotion among elderly spousal carers in norway,’’ Health
+     interior and proxemics thresholds: Empowering participants in sensitive                Social Care Community, vol. 16, pp. 75–85, 2008, doi: 10.1111/j.1365-
+     conversations,’’ in Proc. CHI Conf. Hum. Factors Comput. Syst., 2018,                  2524.2007.00725.x.
+     p. 68.                                                                            [37] M. Blusi, M. Jong, and R. Dalin, ‘‘Older people using e-health services—
+[18] P. M. Desai, M. E. Levine, D. J. Albers, and L. Mamykina, ‘‘Pictures                   Exploring frequency of use and associations with perceived benefits for
+     worth a thousand words: Reflections on visualizing personal blood glucose              spouse caregivers,’’ Informatics, vol. 3, no. 3, p. 15, 2016.
+     forecasts for individuals with type 2 diabetes,’’ in Proc. CHI Conf. Hum.         [38] A. Georgiou, A. Marks, J. Braithwaite, and J. I. Westbrook, ‘‘Gaps, dis-
+     Factors Comput. Syst., 2018, p. 538.                                                   connections, and discontinuities—The role of information exchange in
+[19] S. S. Williamson, P. N. Gorman, and H. B. Jimison, ‘‘A mobile/web app                  the delivery of quality long-term care,’’ Gerontologist, vol. 53, no. 5,
+     for long distance caregivers of older adults: Functional requirements and              pp. 770–779, 2012.
+     design implications from a user centered design process,’’ in Proc. AMIA          [39] S. Gaskin, A. Georgiou, D. Barton, and J. Westbrook, ‘‘Examining the role
+     Annu. Symp., 2014, p. 1960.                                                            of information exchange in residential aged care work practices—A survey
+                                                                                            of residential aged care facilities,’’ BMC Geriatrics, vol. 12, no. 1, p. 40,
+[20] N.-C. Chi and G. Demiris, ‘‘A systematic review of telehealth tools and
+                                                                                            2012.
+     interventions to support family caregivers,’’ J. Telemed. Telecare, vol. 21,      [40] J. Moriarty, V. Lipman, C. Norrie, R. Elaswarapu, and J. Manthorpe, ‘‘Han-
+     no. 1, pp. 37–44, 2015.                                                                dovers in care homes for older people–their type, timing and usefulness.
+[21] T. M. Chiu and G. Eysenbach, ‘‘Theorizing the health service usage                     Findings from a scoping review,’’ Ageing Soc., vol. 39, no. 4, pp. 851–871,
+     behavior of family caregivers: A qualitative study of an Internet-based                2017.
+     intervention,’’ Int. J. Med. Inform., vol. 80, no. 11, pp. 754–764, 2011.         [41] A. di Fiore, F. Ceschel, F. Fiore, M. Baez, F. Casati, and G. Armellin,
+[22] K. T. Washington, S. E. Meadows, S. G. Elliott, and R. J. Koopman,                     ‘‘Understanding how software can support the needs of family caregivers
+     ‘‘Information needs of informal caregivers of older adults with chronic                for patients with severe conditions,’’ 2017, arXiv:1701.07607. [Online].
+     health conditions,’’ Patient Educ. Counseling, vol. 83, no. 1, pp. 37–44,              Available: https://arxiv.org/abs/1701.07607
+     2011.                                                                             [42] J. J. Lin, L. Mamykina, S. Lindtner, G. Delajoux, and H. B. Strub,
+[23] E. G. Miller, C. Levy, J. S. Linebarger, J. C. Klick, and B. S. Carter, ‘‘Pedi-        ‘‘Fish’n’steps: Encouraging physical activity with an interactive com-
+     atric palliative care: Current evidence and evidence gaps,’’ J. Pediatrics,            puter game,’’ in Proc. Int. Conf. Ubiquitous Comput. Springer, 2006,
+     vol. 166, no. 6, pp. 1536–1540, 2015.                                                  pp. 261–278.
+
+VOLUME 7, 2019                                                                                                                                                    171193
+                                                                                    L. Nurgalieva et al.: Designing Interactive Systems to Mediate Communication
+
+
+
+
+[43] S. Consolvo, D. W. McDonald, T. Toscos, M. Y. Chen, J. Froehlich,                                         LEYSAN NURGALIEVA received the Ph.D.
+     B. Harrison, P. Klasnja, A. LaMarca, L. LeGrand, and R. Libby, ‘‘Activity                                 degree in information and communication tech-
+     sensing in the wild: A field trial of ubifit garden,’’ in Proc. SIGCHI Conf.                              nologies from the University of Trento, in 2019.
+     Hum. Factors Comput. Syst., 2008, pp. 1797–1806.                                                          Since 2019, she has been an ALECS Marie
+[44] I. K. Far, M. Ferron, F. Ibarra, M. Baez, S. Tranquillini, F. Casati, and                                 Skłodowska-Curie Postdoctoral Researcher with
+     N. Doppio, ‘‘The interplay of physical and social wellbeing in older
+                                                                                                               Trinity College Dublin, Ireland. Her current
+     adults: Investigating the relationship between physical training and social
+                                                                                                               research interests include human–computer inter-
+     interactions with virtual social environments,’’ PeerJ Comput. Sci., vol. 1,
+     p. e30, 2015, doi: 10.7717/peerj-cs.30.                                                                   action, e-health, user interfaces, user experience,
+[45] R. Osuala and O. Arandjelović, ‘‘Visualization of patient specific disease                                and privacy and security of digital health interven-
+     risk prediction,’’ in Proc. IEEE EMBS Int. Conf. Biomed. Health Inform.                                   tions in sensitive healthcare contexts.
+     (BHI), Feb. 2017, pp. 241–244.
+[46] M. de Ridder, L. Constantinescu, L. Bi, Y. H. Jung, A. Kumar, J. Kim,
+     D. D. Feng, and M. Fulham, ‘‘A web-based medical multime-
+     dia visualisation interface for personal health records,’’ in Proc.
+     IEEE 26th Int. Symp. Comput.-Based Med. Syst. (CBMS), Jun. 2013,                                          MARCOS BAEZ received the Ph.D. degree
+     pp. 191–196.                                                                                              in information and communication technologies
+[47] D. Tao, J. Yuan, X. Qu, T. Wang, and X. Chen, ‘‘Presentation of personal
+                                                                                                               from the University of Trento, in 2012. He is cur-
+     health information for consumers: An experimental comparison of four
+     visualization formats,’’ in Proc. Int. Conf. Eng. Psychol. Cogn. Ergonom.                                 rently a Postdoctoral Researcher with the Univer-
+     Springer, 2018, pp. 490–500.                                                                              sity of Trento, where he participates in the research
+[48] A. Young, J. Tordoff, and A. Smith, ‘‘‘What do patients want?’                                            and development of successful well-being initia-
+     Tailoring medicines information to meet patients’ needs,’’ Res.                                           tives within the Life Participation group. His cur-
+     Social Administ. Pharmacy, vol. 13, no. 6, pp. 1186–1190,                                                 rent research interests include human–computer
+     2017.                                                                                                     interaction, web engineering, and how design
+[49] D. K. Raynor and D. Dickinson, ‘‘Key principles to guide development of                                   and engineering can be combined in general to
+     consumer medicine information—Content analysis of information design                                      improve people’s lives.
+     texts,’’ Ann. Pharmacotherapy, vol. 43, no. 4, pp. 700–706, 2009, doi:
+     10.1345/aph.1L522.
+[50] Z. Zhang, B. Wang, F. Ahmed, I. V. Ramakrishnan, R. Zhao, A. Viccellio,
+     and K. Mueller, ‘‘The five Ws for information visualization with appli-                                   GRETA ADAMO is currently pursuing the Ph.D.
+     cation to healthcare informatics,’’ IEEE Trans. Vis. Comput. Graphics,                                    degree in computer science and systems engineer-
+     vol. 19, no. 11, pp. 1895–1910, Jun. 2013.                                                                ing with DIBRIS, University of Genova, Italy,
+[51] J. L. Belden, R. Grayson, and J. Barnes, ‘‘Defining and testing                                           and with the Process and Data Intelligence (PDI)
+     EMR usability: Principles and proposed methods of EMR usabil-                                             Unit, Fondazione Bruno Kessler (FBK), Italy.
+     ity evaluation and rating,’’ Healthcare Inf. Manage. Syst. Soc., Tech.                                    Her Ph.D. research is centered on the ontological
+     Rep., 2009.                                                                                               analysis of business processes and models. Her
+[52] A. Stevens, H. Pridham, S. Szigeti, S. Diamond, and B. Arunchalan, ‘‘The                                  current research interests include applied ontolo-
+     care and condition monitor: Designing a tablet based tool for visualizing
+                                                                                                               gies, ontological analysis of business process and
+     informal qualitative healthcare data,’’ in Proc. IEEE Conf. Vis. Anal. Sci.
+                                                                                                               its characteristics, business process modeling and
+     Technol. (VAST), Oct. 2014, pp. 279–280.
+[53] K. Davis, E. Owusu, J. Hu, L. Marcenaro, C. Regazzoni, and                                                languages, and business process meta-models.
+     L. Feijs, ‘‘Promoting social connectedness through human activity-based
+     ambient displays,’’ in Proc. Int. Symp. Interact. Technol. Ageing Pop-
+     ulations (ITAP). New York, NY, USA: ACM, 2016, pp. 64–76, doi:                                             FABIO CASATI is currently a Professor of social
+     10.1145/2996267.2996274.                                                                                   informatics with the University of Trento and
+[54] K. Davis, E. Owusu, L. Marcenaro, L. Feijs, C. Regazzoni, and J. Hu,                                       Tomsk Polytechnic University. Until 2006, he was
+     ‘‘Evaluating human activity-based ambient lighting displays for effective
+                                                                                                                a Technical Lead for the research program on busi-
+     peripheral communication,’’ in Proc. 11th EAI Int. Conf. Body Area Netw.
+                                                                                                                ness process intelligence with Hewlett-Packard
+     (BodyNets), Brussels, Belgium, 2016, pp. 148–154. [Online]. Available:
+     http://dl.acm.org/citation.cfm?id=3068615.3068648                                                          USA, where he contributed to several HP com-
+[55] J. Lazar, J. H. Feng, and H. Hochheiser, Research Methods in Human-                                        mercial products in the area of web services and
+     Computer Interaction. San Mateo, CA, USA: Morgan Kaufmann,                                                 business process management. He then moved
+     2017.                                                                                                      to academia, where he started research lines on
+[56] R. K. Yin, Case Study Research: Design and Methods (Applied Social                                         hybrid human-AI computations and on technolo-
+     Research Methods). London, U.K.: Sage, 2009.                                   gies for happiness and life participation, focusing on achieving direct positive
+[57] S. Carpendale, ‘‘Evaluating information visualizations,’’ in Information       impact on society and specifically on older adults. He is the coauthor of
+     Visualization. Springer, 2008, pp. 19–45.                                      a best-selling book on Web Services and author of over 200 peer-reviewed
+[58] K. Lee, K. Hoti, J. D. Hughes, and L. Emmerton, ‘‘Dr Google and the
+     consumer: A qualitative study exploring the navigational needs and online      articles.
+     health information-seeking behaviors of consumers with chronic health
+     conditions,’’ J. Med. Internet Res., vol. 16, no. 12, p. e262, 2014.
+[59] A. Di Fiore, F. Ceschel, L. Nurgalieva, M. Marchese, and F. Casati,                                       MAURIZIO MARCHESE is currently an Asso-
+     ‘‘Design considerations to support nursing homes’ communities,’’ in Proc.                                 ciate Professor of computer science with the Uni-
+     8th Int. Conf. Communities Technol. (C&T). New York, NY, USA: ACM,                                        versity of Trento. He has involved in the field
+     2017, pp. 64–67, doi: 10.1145/3083671.3083695.                                                            of web engineering and service-oriented architec-
+[60] L. Nurgalieva, A. Frik, F. Ceschel, S. Egelman, and M. Marchese, ‘‘Infor-                                 tures for over 20 years. His current research inter-
+     mation design in an aged care context: Views of older adults on information
+                                                                                                               est includes social informatics: how information
+     sharing in a care triad,’’ in Proc. 13th EAI Int. Conf. Pervasive Com-
+     put. Technol. Healthcare (PervasiveHealth), 2019, pp. 101–110. [Online].
+                                                                                                               systems can realize social goals, apply social con-
+     Available: http://doi.acm.org/10.1145/3329189.3329211                                                     cepts, and become sources of information rele-
+[61] A. Frik, S. Egelman, F. Schaub, and J. S. Lee, ‘‘Usable security of emerging                              vant for social sciences and for analysis of social
+     healthcare technologies for seniors,’’ in Proc. CHI Workshop Designing                                    phenomena.
+     Interact. Ageing Populations, 2018.
+
+
+
+
+171194                                                                                                                                              VOLUME 7, 2019
+

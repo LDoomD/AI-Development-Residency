@@ -1,0 +1,1275 @@
+{
+ "batch": "yt2",
+ "files_read": 2,
+ "coverage_notes": "Both files read in full (500 top-level threads each, with all replies; 8VZIAknB-Ag.txt lines 1-2483, p8sRNKTGj9g.txt lines 1-1980). Counts are approximate hand-coding from reading, not keyword counts. Video 1 (narcissistic siblings) is overwhelmingly about childhood family abuse, estrangement and no-contact, not caregiving; only a small minority describe eldercare or estate matters. Video 2 (aging parents, posted by a menopause physician) is almost entirely caregivers of aging parents, so it carries nearly all the caregiving evidence; many commenters are women in their 40s-60s who also mention menopause. gap_evidence lists: paying_for_tools has only paying for human services and insurance, nothing about paying for software or apps. logins_passwords has only patient portals and an adult child doing a parent's online tasks; no shared-password talk. Replies are located as COMMENT n (reply).",
+ "videos": [
+  {
+   "file": "8VZIAknB-Ag.txt",
+   "title": "Keeping the PEACE with narcissistic siblings",
+   "comments_read": 500,
+   "own_situation_comments_approx": 32,
+   "theme_counts_approx": {
+    "T3": 20,
+    "T6": 14,
+    "T2": 10,
+    "T13": 6,
+    "T1": 3,
+    "T8": 3,
+    "T9": 3,
+    "T4": 2,
+    "T7": 0,
+    "T14": 300
+   },
+   "how_counted": "Approximate. Own-situation here means a commenter describing caring for an aging or dying parent or relative, or handling an estate or parent's finances, with a sibling. Roughly 300 of 500 threads are childhood abuse, no-contact or validation and are coded T14 (family conflict not about caregiving), not counted as caregiving.",
+   "audience_note": "Viewers of a psychologist's video on narcissistic siblings: adult survivors of dysfunctional families. Caregiving shows up only at the edges: who did the work when a parent was dying, who controls parent money, estate fights after a parent's death, siblings who vanish then reappear. Treat as family-conflict evidence, not general caregiver evidence."
+  },
+  {
+   "file": "p8sRNKTGj9g.txt",
+   "title": "Dealing with aging parents:  Is anyone else going through this?",
+   "comments_read": 500,
+   "own_situation_comments_approx": 440,
+   "theme_counts_approx": {
+    "T2": 170,
+    "T9": 120,
+    "T13": 90,
+    "T14": 90,
+    "T3": 45,
+    "T1": 30,
+    "T6": 25,
+    "T4": 20,
+    "T12": 18,
+    "T8": 18,
+    "T10": 15,
+    "T7": 12,
+    "T11": 10,
+    "T5": 10
+   },
+   "how_counted": "Approximate hand-coding; one comment can carry several themes. Many comments are short solidarity statements (me too, 47 and dealing with this) that still count as own situation. T14 is mostly menopause/HRT overlapping with caregiving, plus fear of becoming a burden and planning own old age.",
+   "audience_note": "Audience of a menopause physician; mostly women in their 40s-60s who are daughters, daughters-in-law or wives caring for parents with dementia, frailty, cancer or stroke. Skews to dementia and to caregivers who are also working and raising kids (sandwich generation). Many are past caregivers writing after the parent died. Skews to people who are engaged with online health content."
+  }
+ ],
+ "quotes": [
+  {
+   "theme": "T3",
+   "quote": "I have a sibling who wouldn't research any of the medical conditions our father had YET would try to overrule my medical decisions because his opinions were always \"right\".",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 23"
+  },
+  {
+   "theme": "T3",
+   "quote": "He even tried to interfere with my father's hospice care in the last days of his life because he was so sure that he alone knew what was best.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 23"
+  },
+  {
+   "theme": "T3",
+   "quote": "I just had a major blowup with my brother over the care of our mother.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 124"
+  },
+  {
+   "theme": "T3",
+   "quote": "And yet I took care of our mother my mother favored my sister.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 104"
+  },
+  {
+   "theme": "T3",
+   "quote": "I was the Cinderella to his care while they sat back or blocked me.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 405"
+  },
+  {
+   "theme": "T3",
+   "quote": "one felt she couldnt provide that as she had kids & they needed her more, the other felt it would interrupt her social/ life too much.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 406"
+  },
+  {
+   "theme": "T3",
+   "quote": "He abandoned his parents when they became frail and went to Care Homes. Never visited them at the Home, or when they were in hospital etc.I did everything.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 415"
+  },
+  {
+   "theme": "T3",
+   "quote": "I take care of my late stepfather for 8 years,because she did nothing.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 401"
+  },
+  {
+   "theme": "T3",
+   "quote": "I lost all my income and had very little help from either sibling while taking care of mom.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 299"
+  },
+  {
+   "theme": "T3",
+   "quote": "I refuse to be involved in any decisions regarding her care or living arrangements in the future.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 373"
+  },
+  {
+   "theme": "T1",
+   "quote": "Eventually mom had to go into a nursing home as her care became too much for me.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 299"
+  },
+  {
+   "theme": "T1",
+   "quote": "My mother is in temporary assisted-living because she fell. She needs 24 seven care that I cannot give her.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 338"
+  },
+  {
+   "theme": "T2",
+   "quote": "I’ve been taking care of her for three years and my health has taken a hit.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 338"
+  },
+  {
+   "theme": "T13",
+   "quote": "I am married with two kids, and I barely have a life because I’m taking care of my mother all the time.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 338"
+  },
+  {
+   "theme": "T2",
+   "quote": "Twenty years later, after being caregiver for our mother, stepfather, and my fiance, I'm struggling to survive.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 166"
+  },
+  {
+   "theme": "T6",
+   "quote": "My brother and I had overridden her on creating a family trust to put moms estate into.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 299"
+  },
+  {
+   "theme": "T6",
+   "quote": "during my fathers nursing days he did not contributed a single penny, i was economically drained",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 208"
+  },
+  {
+   "theme": "T6",
+   "quote": "They control the finances of aging parents and push you out.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 242"
+  },
+  {
+   "theme": "T6",
+   "quote": "One took all of my mom's property away through fraud, kicked my mom out of her house, sued my mom",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 119"
+  },
+  {
+   "theme": "T6",
+   "quote": "I need to work with my narcissistic brother now that we’re in the estate process. It’s horrible.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 103"
+  },
+  {
+   "theme": "T6",
+   "quote": "While narc dad remembers that I’m the one with all the paperwork in hand because narc dad didn’t want that brother making decisions.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 424"
+  },
+  {
+   "theme": "T8",
+   "quote": "But now MIL is in hospital with bad dementia and a broken hip, she needs to move into a nursing home. So we all have to communicate",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 197"
+  },
+  {
+   "theme": "T4",
+   "quote": "He moved far away, while I remain in a city I don't like, to care for my aging parents.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 82"
+  },
+  {
+   "theme": "T9",
+   "quote": "subsequently left to solely care for my mother suffering from Alzheimer’s.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 440"
+  },
+  {
+   "theme": "T14",
+   "quote": "I have ALS and my one sister, a raging narcissist is my next of kin.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 343"
+  },
+  {
+   "theme": "T2",
+   "quote": "Both my parents have dementia. I'm their primary caregiver. This is the hardest most devastating phase of my life, and I survived cancer, immigration, and deaths of many friends and family members.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 2"
+  },
+  {
+   "theme": "T2",
+   "quote": "It became so deep that I would forgot my birthday at times, spouting out my parents DOB etc when I was asked for mine usually at my docs.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 20"
+  },
+  {
+   "theme": "T2",
+   "quote": "I am so deprived of sleep of rest of just life. It’s so easy for people to say you have to take care of yourself but at what point in time do you actually get to do that?",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 233"
+  },
+  {
+   "theme": "T2",
+   "quote": "It has been difficult, stressful and extremely lonely.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 185"
+  },
+  {
+   "theme": "T2",
+   "quote": "I’ve developed ptsd after trying to be a caregiver for my Dad for 3 years. I was a first responder 24 hours a day in my own home.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 270"
+  },
+  {
+   "theme": "T2",
+   "quote": "I have had no life for over 10 years, caring for my mom. My health has suffered greatly.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 48"
+  },
+  {
+   "theme": "T2",
+   "quote": "it is exhausting, financially challenging, robs much of your joy, and can make you quite ill.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 4"
+  },
+  {
+   "theme": "T2",
+   "quote": "For example, I feel extremely guilty making this post!!",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 60"
+  },
+  {
+   "theme": "T2",
+   "quote": "I ended up with a caregiving burnout from taking care of my dad for 3 years. I had no help from other family members.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 358"
+  },
+  {
+   "theme": "T2",
+   "quote": "I don't want this😖😖 And I despise when ppl tell me what a \"blessing\" it is. I don't see it that way at all.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 474"
+  },
+  {
+   "theme": "T2",
+   "quote": "I contemplated suicide early this year and have been trying to get therapy and outside help.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 492"
+  },
+  {
+   "theme": "T1",
+   "quote": "There is NO help for elderly parents with Medicare it is just incredibly sad.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 441"
+  },
+  {
+   "theme": "T1",
+   "quote": "Had to clean out and sell childhood home to pay for mom’s assisted living. Not sure what I will do after money runs out.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 478"
+  },
+  {
+   "theme": "T1",
+   "quote": "Thankfully they’re in an assisted living facility but it’s bleeding us dry financially, emotionally, mentally, physically.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 30"
+  },
+  {
+   "theme": "T1",
+   "quote": "There's limited help and nursing homes are outrageously expensive.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 116"
+  },
+  {
+   "theme": "T1",
+   "quote": "I am scared for the future because in my Hispanic culture we don't put our parents in homes for the elderly. The guilt of putting her in a home will kill me.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 458"
+  },
+  {
+   "theme": "T1",
+   "quote": "Medicare will sell belongings of yours to pay for care.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 459"
+  },
+  {
+   "theme": "T1",
+   "quote": "We have gone from living with her to providing 24/7 care to moving her into assisted living, and after 4 weeks in assisted living another fall and moved into a nursing home with no idea for what tomorrow holds.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 252"
+  },
+  {
+   "theme": "T1",
+   "quote": "We had to put him in the only home that night that had an availability.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 114"
+  },
+  {
+   "theme": "T1",
+   "quote": "We had yp pay for 24 hrs. Care for her even when she was in rehab and then at home because the USA and well known insurance gave us minimal help.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 105"
+  },
+  {
+   "theme": "T3",
+   "quote": "Both my siblings are 15 minutes from me, neither does a thing. They talk about going out, going gambling, vacations like our mother is my responsibility.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 398"
+  },
+  {
+   "theme": "T3",
+   "quote": "I am fighting to not resent my siblings who have washed their hands of any responsibility but will be looking for a check when my mom dies.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 384"
+  },
+  {
+   "theme": "T3",
+   "quote": "Yes, it's consuming my life and my siblings have put it all on me and don't help as much as they should.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 222"
+  },
+  {
+   "theme": "T3",
+   "quote": "My brother won't help so it's only me.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 348"
+  },
+  {
+   "theme": "T3",
+   "quote": "I have six brothers and sisters. I was the only one who cared for my mother when she had dementia.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 368"
+  },
+  {
+   "theme": "T3",
+   "quote": "I have a brother and sister but they haven't helped much.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 325"
+  },
+  {
+   "theme": "T3",
+   "quote": "My brother is inheriting all the assets while my sister and I are doing all the work.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 62 (reply)"
+  },
+  {
+   "theme": "T3",
+   "quote": "my sibling think that it's my responsibility to be the primary caregiver when the time comes.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 14 (reply)"
+  },
+  {
+   "theme": "T3",
+   "quote": "My husbands 6 sisters refused to keep her at their house even for 2 weeks to give me a break",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 26 (reply)"
+  },
+  {
+   "theme": "T3",
+   "quote": "My siblings & cousins are either estranged due to issues that go back decades or they’ve moved off & just live their own lives & don’t think twice about us here.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 58"
+  },
+  {
+   "theme": "T3",
+   "quote": "I'm going through this now, and my sibling lives very far away and does nothing to help",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 10 (reply)"
+  },
+  {
+   "theme": "T4",
+   "quote": "2010, my sis and I started taking the 2000 mile round trip from Colorado to California to take care of our aging parents.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 6"
+  },
+  {
+   "theme": "T4",
+   "quote": "She refused to move in with me, and because we lived in another state, I was forced to commute every other month to make sure she was doing well.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 18"
+  },
+  {
+   "theme": "T4",
+   "quote": "both parents ended up hospitalized, 1000 miles away, within days of each other.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 44"
+  },
+  {
+   "theme": "T4",
+   "quote": "My dad lives in AZ and I’m in TN.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 87"
+  },
+  {
+   "theme": "T4",
+   "quote": "I’m in California and he’s in Mexico, so I’m heartbroken and devastated on how to handle this, I need my job",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 375"
+  },
+  {
+   "theme": "T4",
+   "quote": "She calls over 100 x a day sometimes.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 420"
+  },
+  {
+   "theme": "T4",
+   "quote": "I went thru long-distance care for 4years with my mother.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 421"
+  },
+  {
+   "theme": "T4",
+   "quote": "And the worse part is when you take care of your children they live with you. When you take care of your parents you do it from a distance.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 290"
+  },
+  {
+   "theme": "T4",
+   "quote": "And we no longer have the community support bc siblings and relatives are scattered across the country.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 380"
+  },
+  {
+   "theme": "T5",
+   "quote": "Trying to schedule everyone's doctor's appointments, surgeries, medications, and errands is daunting.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 204"
+  },
+  {
+   "theme": "T5",
+   "quote": "Dr appointments, I take notes and make sure she takes her meds, the right amount at the right time.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 272"
+  },
+  {
+   "theme": "T5",
+   "quote": "My mother just had a severe case of diabetic ketoacidosis as she forgot to inject her insulin for 5 days and lost all her memory",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 450"
+  },
+  {
+   "theme": "T5",
+   "quote": "Blood pressure issues & lack of taking medication.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 432"
+  },
+  {
+   "theme": "T5",
+   "quote": "Most conversations revolve around ailments, aches, pains, medications, procedures & preparations for death.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 58"
+  },
+  {
+   "theme": "T5",
+   "quote": "My mum only 70, diagnosed Alzheimer’s only last year, is already in a nursing home and is on anti psychotic meds plus others, type 2 diabetic.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 171"
+  },
+  {
+   "theme": "T5",
+   "quote": "crazy side effecs from his meditation (hallucinations were the worst so far).",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 393"
+  },
+  {
+   "theme": "T5",
+   "quote": "making sure dad's blood sugar levels didn’t bottom out",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 73"
+  },
+  {
+   "theme": "T6",
+   "quote": "And when your parent plans for nothing lies to you about what they plan you’re stuck with trying to get conservatorship POV’s everything it’s very very exhausting.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 231"
+  },
+  {
+   "theme": "T6",
+   "quote": "I’m currently my dad’s POA and I’m an only child.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 87"
+  },
+  {
+   "theme": "T6",
+   "quote": "It’s also aging parents who didn’t plan financially at all and expect you to foot the bill.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 78"
+  },
+  {
+   "theme": "T6",
+   "quote": "My parents did not mean to leave me with such a financial burden, they just didn't expect to live to be 90.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 78 (reply)"
+  },
+  {
+   "theme": "T6",
+   "quote": "It’s so hard trying to find care and juggle appointments and just get to talk to a human from the insurance company.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 93"
+  },
+  {
+   "theme": "T6",
+   "quote": "Admin was nightmarish, finding the programs she was eligible for, and then actually getting her into them.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 122"
+  },
+  {
+   "theme": "T6",
+   "quote": "I said it was like having a second job to advocate for her and stay on top of the doctor appointments and insurance.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 390"
+  },
+  {
+   "theme": "T6",
+   "quote": "Be sure you have Power of Attorney for them. Have long-term health insurance policy in place and paid.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 495"
+  },
+  {
+   "theme": "T6",
+   "quote": "We did the shifting of bank accounts to be in mom's name.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 141"
+  },
+  {
+   "theme": "T6",
+   "quote": "Just spent the last year and a half cleaning out their house for auction!",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 329"
+  },
+  {
+   "theme": "T6",
+   "quote": "She lives on a fixed income and is not balancing her fun money budget well.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 351"
+  },
+  {
+   "theme": "T7",
+   "quote": "Yes, dealing with ageing parents who want no help. Not even assisted liviing.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 89"
+  },
+  {
+   "theme": "T7",
+   "quote": "Dad’s failing health, refusal to move to an assisted living facility, refusal to get care in the home.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 149"
+  },
+  {
+   "theme": "T7",
+   "quote": "he won't allow us to bring a caregiver in to help with some meals to give us a break",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 218"
+  },
+  {
+   "theme": "T7",
+   "quote": "Yup and I feel stuck in offering help and having my parents RESIST HELP! WWWHHHHYYYYYY!",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 392"
+  },
+  {
+   "theme": "T7",
+   "quote": "It took my husband and I YEARS to get them to agree to get a gardener and cleaner!",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 82"
+  },
+  {
+   "theme": "T7",
+   "quote": "the 84 year old that still won’t accept she can’t walk or drive because too many falls!",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 192"
+  },
+  {
+   "theme": "T7",
+   "quote": "my father in law who has heart failure and refuses to move closer to us so we can care for him.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 152"
+  },
+  {
+   "theme": "T7",
+   "quote": "He should be in a facility, but he won't go bc of his house.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 459"
+  },
+  {
+   "theme": "T7",
+   "quote": "it can break a spirit when they begin to resist help and become resentful to the one person who is taking care of their well being.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 325"
+  },
+  {
+   "theme": "T8",
+   "quote": "It took 2 years and a nasty fall to finally get her moved in with me and my spouse.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 18"
+  },
+  {
+   "theme": "T8",
+   "quote": "It took a bad fall into the ER & then right to memory care.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 43"
+  },
+  {
+   "theme": "T8",
+   "quote": "There’s no manual or instructions and it’s a roller coaster!",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 271"
+  },
+  {
+   "theme": "T8",
+   "quote": "I feel overwhelmed and struggling because there’s no information outthere",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 63"
+  },
+  {
+   "theme": "T8",
+   "quote": "Yes!!! and there are so little Support and Information out there to help.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 203"
+  },
+  {
+   "theme": "T8",
+   "quote": "I am currently awaiting the ambulance to arrive with my Dad. He fell last evening and was outside laying on the cold ground for over 3 hours.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 365"
+  },
+  {
+   "theme": "T8",
+   "quote": "I am trying to light a fire under the hospital staff but it truly feels like she is slipping through the cracks",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 44"
+  },
+  {
+   "theme": "T8",
+   "quote": "Because, if you say you'll pick them up, or indicate that they can come home, you are now TOTALLY responsible for them.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 141"
+  },
+  {
+   "theme": "T8",
+   "quote": "I don’t have family around to help. How does everyone else cope?",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 481"
+  },
+  {
+   "theme": "T8",
+   "quote": "And no family experience as my parents emigrated so we have no other family and couldn't learn and pick up clues.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 346"
+  },
+  {
+   "theme": "T9",
+   "quote": "Yes! My dad gets violent now when I can’t spend 3 hours on the phone with him repeating the same conversation over and over.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 41"
+  },
+  {
+   "theme": "T9",
+   "quote": "The hardest part is realizing that your parents minds' is actually a whole different person than the one you grew up with.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 12"
+  },
+  {
+   "theme": "T9",
+   "quote": "Her behavior vacillates between her 84 self, her 15 year old self, and her 2 year old self.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 458"
+  },
+  {
+   "theme": "T9",
+   "quote": "What makes it hard is their behavior because they become very mean and abusive because they don’t recognize anyone around them.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 407"
+  },
+  {
+   "theme": "T9",
+   "quote": "One minute we have to do “everything” for her, the next she is perfectly fine and wants to run away (literally) us and take a plane to her condo.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 242"
+  },
+  {
+   "theme": "T9",
+   "quote": "I take her to hair and nail appointments, lunch out of the house, shopping which is very confusing for her so I do a lot of her shopping.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 272"
+  },
+  {
+   "theme": "T9",
+   "quote": "She is weak, has poor balance, sometimes agitated or apathetic, no longer drives, and gets lost.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 272"
+  },
+  {
+   "theme": "T9",
+   "quote": "One of the worst things is how stubborn she is about anything that will help her and the meanness.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 444"
+  },
+  {
+   "theme": "T9",
+   "quote": "Dementia and Alzheimer’s is rough because you lose people twice—they forget who they are and you are, and then they pass away.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 163"
+  },
+  {
+   "theme": "T9",
+   "quote": "Sadly, yes! What really annoys me is family attribute all their bad behavior to dementia and I am sick of it.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 115"
+  },
+  {
+   "theme": "T9",
+   "quote": "It's worse on the days when she knows something is \"wrong\"",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 153"
+  },
+  {
+   "theme": "T10",
+   "quote": "If your folks refuse to go to a nursing home, install a camera in their house.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 263"
+  },
+  {
+   "theme": "T10",
+   "quote": "so I am doing my best to accommodate her needs - cameras in every room, Hero medical dispenser, currently 3 home health reps, etc!",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 265"
+  },
+  {
+   "theme": "T10",
+   "quote": "Doesn’t understand that he is a danger to himself and others .",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 327"
+  },
+  {
+   "theme": "T10",
+   "quote": "I’m always scared she’s going to fall.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 379"
+  },
+  {
+   "theme": "T10",
+   "quote": "Had to quit my job five years ago,  we had to start taking them to their doctors appointments,,& stop them from driving",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 498"
+  },
+  {
+   "theme": "T10",
+   "quote": "Thankfully not falling but she has passed out from extreme heat exhaustion twice in 5 yrs.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 432"
+  },
+  {
+   "theme": "T10",
+   "quote": "I have been taking care of an elderly neighbor who was a victim of elder abuse and theft.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 199"
+  },
+  {
+   "theme": "T11",
+   "quote": "If you have a home healthcare worker; please watch them, some w hidden cameras bc I’ve had 2 friends who found 1 of the workers to be stealing from their parents.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 262"
+  },
+  {
+   "theme": "T11",
+   "quote": "We had to pay \"angels\" during the day while at work.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 105"
+  },
+  {
+   "theme": "T11",
+   "quote": "If there was something I could delegate, or hire to be done, that is how I survived without losing my sanity.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 28"
+  },
+  {
+   "theme": "T11",
+   "quote": "it was a total nightmare trying to get my dad the physical therapy he needed and then get the level of care they both required, Basically we were lied to",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 498"
+  },
+  {
+   "theme": "T11",
+   "quote": "Having a full time care taker is a must to decrease the burden.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 250"
+  },
+  {
+   "theme": "T12",
+   "quote": "Thrust into caregiver mode with even less information on how to manage healthcare portals. Each doctor has one patient portal to deal with, but I'm juggling at least 3 to 5 each for myself, husband, and parents.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 200"
+  },
+  {
+   "theme": "T12",
+   "quote": "Just give me a frickin clip board when I show up because I can write a novel faster than I can shuffle apps on my phone to make space for another portal.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 200"
+  },
+  {
+   "theme": "T12",
+   "quote": "For one of them, I get all the phone calls, make all the appointments, know and give and receive all the medical history and information and I know he would never survive the medical system without an advocate.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 266"
+  },
+  {
+   "theme": "T12",
+   "quote": "They didn’t keep pace with technology so all that falls on me too. Everything from digital coupons to confirming appointments.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 58"
+  },
+  {
+   "theme": "T12",
+   "quote": "They all have medical & physical issues & are treated by many different specialists.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 58"
+  },
+  {
+   "theme": "T12",
+   "quote": "She had complained to me about all of these problems she was having and her doctors never addressed them.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 24"
+  },
+  {
+   "theme": "T12",
+   "quote": "It's hard to make your own appointments when you know something will come up and you will have to cancel again bc you're back in the ER.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 380"
+  },
+  {
+   "theme": "T12",
+   "quote": "my dad refused to take her to see a neurologist.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 18"
+  },
+  {
+   "theme": "T12",
+   "quote": "And find a way to educate the medical community about dementia in an emergency situation.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 463"
+  },
+  {
+   "theme": "T13",
+   "quote": "I’m raising two special needs kids in high school, work in corporate HR 60+ hours a week, and in full blown menopause. When my mom died I couldn’t function for two months and I had to quit my job.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 264"
+  },
+  {
+   "theme": "T13",
+   "quote": "I have lost my job due to needing to work from home.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 384"
+  },
+  {
+   "theme": "T13",
+   "quote": "I had to resign from my career in aviation, and that was nine years ago.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 233"
+  },
+  {
+   "theme": "T13",
+   "quote": "My husband and I had plans for our almost empty nest. Those plans are gone now.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 406"
+  },
+  {
+   "theme": "T13",
+   "quote": "All of this has caused great strain on my marriage.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 21"
+  },
+  {
+   "theme": "T13",
+   "quote": "especially with 3 kids under 12 and a full time job on top of it. I wish someone had warned me about this earlier",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 280"
+  },
+  {
+   "theme": "T13",
+   "quote": "We’re in the sandwich years… getting kids on their feet and keeping our parents from falling.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 1"
+  },
+  {
+   "theme": "T13",
+   "quote": "I’ve had to deal with people minimizing what I have had to do just because I have not had kids.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 106"
+  }
+ ],
+ "gap_evidence": {
+  "how_family_shares_information": [
+   {
+    "quote": "My sister and I split up the workload involving our parents.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 496"
+   },
+   {
+    "quote": "I deal with the organising appts, phone calls, sorting out anything that can done online, pharmacy, hospital etc, electronic problems",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 496"
+   },
+   {
+    "quote": "Thankfully she had some friends and family who checked in on her constantly and kept me informed of any events.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 18"
+   },
+   {
+    "quote": "Our sibs of mine and hubs, this is all what we talk about and how to best care for them and sharing the responsibility...",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 341"
+   },
+   {
+    "quote": "I reached out to relatives but no one could understand because they were not living in it.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 86"
+   },
+   {
+    "quote": "I’ve recently included her doctor on what’s going on and she is taking an antidepressants",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 351"
+   },
+   {
+    "quote": "So we all have to communicate",
+    "file": "8VZIAknB-Ag.txt",
+    "locator": "COMMENT 197"
+   },
+   {
+    "quote": "My brother and I had overridden her on creating a family trust to put moms estate into.",
+    "file": "8VZIAknB-Ag.txt",
+    "locator": "COMMENT 299"
+   }
+  ],
+  "tools_used_today": [
+   {
+    "quote": "She texts the question to me every morning.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 141"
+   },
+   {
+    "quote": "This has been a great way to keep tabs on her.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 141"
+   },
+   {
+    "quote": "Each doctor has one patient portal to deal with, but I'm juggling at least 3 to 5 each for myself, husband, and parents.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 200"
+   },
+   {
+    "quote": "so I am doing my best to accommodate her needs - cameras in every room, Hero medical dispenser, currently 3 home health reps, etc!",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 265"
+   },
+   {
+    "quote": "I recommend the GUIDE Program and A Place for Mom for support.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 161"
+   },
+   {
+    "quote": "She and I would put their med containers together every week",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 366"
+   },
+   {
+    "quote": "If your folks refuse to go to a nursing home, install a camera in their house.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 263"
+   },
+   {
+    "quote": "I invested in long-term care insurance.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 14"
+   },
+   {
+    "quote": "Dr appointments, I take notes and make sure she takes her meds, the right amount at the right time.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 272"
+   }
+  ],
+  "logins_passwords": [
+   {
+    "quote": "Thrust into caregiver mode with even less information on how to manage healthcare portals.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 200"
+   },
+   {
+    "quote": "Had to take my mom to quick care and just sobbed trying to sign her in.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 200"
+   },
+   {
+    "quote": "They didn’t keep pace with technology so all that falls on me too.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 58"
+   }
+  ],
+  "paying_for_tools": [
+   {
+    "quote": "We had yp pay for 24 hrs. Care for her even when she was in rehab and then at home because the USA and well known insurance gave us minimal help.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 105"
+   },
+   {
+    "quote": "so I am doing my best to accommodate her needs - cameras in every room, Hero medical dispenser, currently 3 home health reps, etc!",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 265"
+   },
+   {
+    "quote": "I invested in long-term care insurance.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 14"
+   }
+  ],
+  "long_distance": [
+   {
+    "quote": "2010, my sis and I started taking the 2000 mile round trip from Colorado to California to take care of our aging parents.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 6"
+   },
+   {
+    "quote": "I was forced to commute every other month to make sure she was doing well.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 18"
+   },
+   {
+    "quote": "Yes!!! Im trying to support my parents while living thousands of miles away . My Dad just spent 52 days in the hospital..",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 177"
+   },
+   {
+    "quote": "what makes it even tougher is them living over 1000 miles away.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 169"
+   },
+   {
+    "quote": "I’m going through exactly what you ate with an 86 year father who’s also 1500 miles away in assisted living. I manage everything!!",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 359"
+   },
+   {
+    "quote": "She lives 500 miles from me.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 289"
+   },
+   {
+    "quote": "I've flown from Texas to Iowa for 2 of her surgeries and now flying again to help her after chemo.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 175"
+   },
+   {
+    "quote": "She calls over 100 x a day sometimes.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 420"
+   },
+   {
+    "quote": "My dad lives in AZ and I’m in TN.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 87"
+   }
+  ],
+  "medications": [
+   {
+    "quote": "Dr appointments, I take notes and make sure she takes her meds, the right amount at the right time.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 272"
+   },
+   {
+    "quote": "My mother just had a severe case of diabetic ketoacidosis as she forgot to inject her insulin for 5 days and lost all her memory",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 450"
+   },
+   {
+    "quote": "Trying to schedule everyone's doctor's appointments, surgeries, medications, and errands is daunting.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 204"
+   },
+   {
+    "quote": "She and I would put their med containers together every week",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 366"
+   },
+   {
+    "quote": "crazy side effecs from his meditation (hallucinations were the worst so far).",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 393"
+   },
+   {
+    "quote": "Blood pressure issues & lack of taking medication.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 432"
+   },
+   {
+    "quote": "making sure dad's blood sugar levels didn’t bottom out",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 73"
+   }
+  ]
+ },
+ "counter_evidence": [
+  {
+   "quote": "It was logistically difficult, though my sisters snd I teamed up to share in her care.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 122",
+   "what_it_shows": "siblings help"
+  },
+  {
+   "quote": "My sister and I split up the workload involving our parents.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 496",
+   "what_it_shows": "coordination works"
+  },
+  {
+   "quote": "My mother was there for all of us through our ups and downs",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 77",
+   "what_it_shows": "other"
+  },
+  {
+   "quote": "I had 2 sisters that helped with all of it.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 77",
+   "what_it_shows": "siblings help"
+  },
+  {
+   "quote": "We had a team of 15 when my dad was in home hospice and we all shared duties.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 467",
+   "what_it_shows": "coordination works"
+  },
+  {
+   "quote": "Thank goodness I’ve siblings in the medical field and we have a very close-knit family with tons of support…",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 130",
+   "what_it_shows": "siblings help"
+  },
+  {
+   "quote": "They passed peacefully at home with all their children around.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 212",
+   "what_it_shows": "siblings help"
+  },
+  {
+   "quote": "I’m thankful to have siblings that are willing to help as well.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 88",
+   "what_it_shows": "siblings help"
+  },
+  {
+   "quote": "This has been a great way to keep tabs on her.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 141",
+   "what_it_shows": "coordination works (a simple low-tech daily text routine the parent runs)"
+  },
+  {
+   "quote": "I am not helpless. I want to exit my home but I don’t want to go to a caged facility.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 189",
+   "what_it_shows": "person does not want or need the help or placement being arranged for them (care recipient voice)"
+  },
+  {
+   "quote": "She didnt want any help except from family and made her own decision and was treated with respect and not like a child.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 241",
+   "what_it_shows": "person does not want outside help; family care worked"
+  },
+  {
+   "quote": "They didn’t keep pace with technology so all that falls on me too.",
+   "file": "p8sRNKTGj9g.txt",
+   "locator": "COMMENT 58",
+   "what_it_shows": "person does not use technology; caregiver absorbs the digital tasks"
+  },
+  {
+   "quote": "We even had a meeting (all 5 were there) to put their name down with what they would like to have.",
+   "file": "8VZIAknB-Ag.txt",
+   "locator": "COMMENT 332",
+   "what_it_shows": "siblings help / coordination works (estate split handled in a family meeting)"
+  }
+ ],
+ "new_themes": [
+  {
+   "name": "Caregiving collides with the caregiver's own midlife health",
+   "description": "Commenters describe doing parent care at the same time as their own menopause, illness, surgery or collapse of health, and say they cannot attend to their own appointments.",
+   "example": {
+    "quote": "It began with my in-laws at the very same time I began having HORRIFIC peri/menopause symptoms.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 245"
+   }
+  },
+  {
+   "name": "Fear of becoming a burden / preparing own old age",
+   "description": "Caregivers say the experience changes how they plan their own aging, to spare their children.",
+   "example": {
+    "quote": "Listenng to you I just hope I wont be a burden to my kids. This is my primary reason why I really care about my health",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 353"
+   }
+  },
+  {
+   "name": "Losing the person twice (anticipatory grief)",
+   "description": "Grief for the parent as the person they knew before death, especially with dementia.",
+   "example": {
+    "quote": "It (Alzheimer’s) was so painful and heartbreaking because it’s like losing someone twice.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 410"
+   }
+  },
+  {
+   "name": "Parents had no plan",
+   "description": "Parents did not plan finances, housing, legal papers or wishes, so the adult child improvises under pressure.",
+   "example": {
+    "quote": "The biggest problem is that all three did not have a plan in place to take care of themselves!!",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 341"
+   }
+  },
+  {
+   "name": "Lack of information and support",
+   "description": "Commenters say there is little information, no manual and little help for caregivers.",
+   "example": {
+    "quote": "Yes!!! and there are so little Support and Information out there to help.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 203"
+   }
+  },
+  {
+   "name": "Caring for several people at once",
+   "description": "Caregivers handle two or more parents, in-laws, an aunt or a spouse at the same time, across households.",
+   "example": {
+    "quote": "You aren't alone! We have four going at the same time plus an elderly bachelor uncle.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 188"
+   }
+  },
+  {
+   "name": "Estate and inheritance conflict after caregiving",
+   "description": "The sibling who did the care is blamed, cut out of the funeral or the will, or fights over property and the estate after the parent dies (mostly in the narcissistic-siblings video).",
+   "example": {
+    "quote": "I need to work with my narcissistic brother now that we’re in the estate process. It’s horrible.",
+    "file": "8VZIAknB-Ag.txt",
+    "locator": "COMMENT 103"
+   }
+  },
+  {
+   "name": "Caregiving not recognized by others",
+   "description": "Caregivers say others minimize their load or the system gives them no support.",
+   "example": {
+    "quote": "I’ve had to deal with people minimizing what I have had to do just because I have not had kids.",
+    "file": "p8sRNKTGj9g.txt",
+    "locator": "COMMENT 106"
+   }
+  }
+ ],
+ "caveats": "Public YouTube comments; self-selected, not a sample. Video 1 is mostly not about caregiving. Video 2 skews to women 40-65, daughters, dementia and people engaged with a women's health channel; many are past caregivers writing after a parent died. Counts are my approximate reading counts. Commenters are anonymous and unverified. Nothing in either file speaks to paying for software, shared passwords, or specific caregiving apps; the only named supports are the GUIDE Program, A Place for Mom, a medication dispenser, home cameras and patient portals. Dates in the files run to Oct 2026."
+}

@@ -1,0 +1,595 @@
+PharmacoEconomics (2019) 37:553–562
+https://doi.org/10.1007/s40273-019-00784-7
+
+    ORIGINAL RESEARCH ARTICLE
+
+
+
+Economic Spillover Effects of Intensive Unpaid Caregiving
+Josephine C. Jacobs1 · Courtney H. Van Houtven2 · Terri Tanielian3 · Rajeev Ramchand3
+
+Published online: 13 March 2019
+© The Author(s) 2019
+
+
+Abstract
+Background Growing evidence has documented economic spillover effects experienced by intensive caregivers across the
+lifecycle. These spillover effects are rarely incorporated in economic analyses of health interventions. When these costs are
+captured, it is shown that commonly applied methods for valuing caregiver time may be underestimating the true opportu-
+nity costs of informal care. We explore how intensive caregiving is associated with economic outcomes for caregivers aged
+18 years and older.
+Methods We used the cross-sectional 2013 RAND Survey of Military and Veteran Caregivers, a survey of 3876 caregivers
+and non-caregivers aged 18 years and older to conduct multivariable analyses and calculate average marginal effects, focusing
+on the association between intensive caregiving (i.e., providing ≥ 20 h of weekly care) and six economic outcomes: school-
+ing, labor force participation, taking unpaid time off of work, cutting back work hours, quitting a job, and early retirement.
+Results Intensive caregivers are 13 percentage points (95% confidence interval [CI] 8–18) less likely to be employed than
+non-caregivers. Intensive caregivers are 3 percentage points (95% CI 0.5–5) more likely to cut back schooling, 6 percentage
+points (95% CI 2–10) more likely to take unpaid time off of work, 4 percentage points (95% CI 0.1–9) more likely to cut
+back work hours, 12 percentage points (95% CI 8–15) more likely to quit a job, and 5 percentage points (95% CI 2–7) more
+likely to retire early due to caregiving responsibilities relative to non-intensive caregivers.
+Conclusions Despite the difficulty of quantifying the true opportunity costs of informal care, policy makers and researchers
+need to understand these costs. The higher the opportunity costs of unpaid care provision, the less likely it is that caregivers
+will provide this care and the less economically attractive this ‘free’ source of care is from a societal perspective.
+
+
+
+                                                                   Key Points for Decision Makers
+
+                                                                   Intensive informal caregivers across a wide age range
+                                                                   experience economic penalties, from decreased school-
+* Josephine C. Jacobs                                              ing to early retirement.
+  josephine.jacobs@va.gov
+                                                                   Commonly applied costing methods for valuing informal
+     Courtney H. Van Houtven
+     Courtney.vanhoutven@duke.edu                                  caregiver time are likely underestimating the true oppor-
+                                                                   tunity costs of informal care provision.
+     Terri Tanielian
+     territ@rand.org                                               To understand the net benefit of caregiving from a soci-
+     Rajeev Ramchand                                               etal standpoint, we need a better understanding of these
+     ramchand@rand.org                                             lifecycle costs of caregiving.
+1
+     Health Economics Resource Center, Palo Alto Veterans
+     Health Administration, 795 Willow Rd, Menlo Park,
+     CA 94043, USA
+2
+     Department of General Internal Medicine, Center for Health   1 Introduction
+     Services Research in Primary Care, Durham Veterans Health
+     Administration Medical Center, Duke University, 508 Fulton   As health systems increasingly move healthcare into home
+     St, Durham, NC 27707‑3897, USA                               and community settings, there has been a growing recogni-
+3
+     RAND Corporation, 1200 South Hayes St, Arlington,            tion of the role that informal caregivers play in supporting
+     VA 22202‑5050, USA
+
+
+                                                                                                                Vol.:(0123456789)
+554                                                                                                                J. C. Jacobs et al.
+
+
+this care. While home care provided with the aid of informal       the labor force while female caregivers who helped with
+caregivers is generally viewed as cost saving from a health        chores were more likely to be retired than non-caregivers.
+system perspective, there are important issues surrounding         Female caregivers who were employed decreased their work
+the redistribution of costs that are often overlooked in the       hours and faced a 3% lower wage relative to non-caregivers.
+existing cost-effectiveness literature [1]. In recognition of      Also using the HRS, along with Social Security data, Fahle
+this, the most recent recommendations from the Panel on            and McGarry [14] found that, contrary to past thinking that
+Cost-Effectiveness in Health and Medicine state that infor-        individuals who select into caregiving are less attached to
+mal caregiver benefits and costs should be included in the         the labor force, eventual caregivers were more attached at
+societal reference case perspective when conducting eco-           age 18–44 years and, conditional on having earnings, earned
+nomic evaluations of healthcare interventions [2]. However,        more than non-caregivers. Therefore, the opportunity cost
+there has not been consensus regarding the most appropriate        of caregiver time may be higher than that of non-caregivers.
+method to assign costs to time spent caregiving or to the          Further, the authors found a 2.9 percentage point reduction
+types of costs that should be included in these evaluations.       in the probability of caregivers working and a reduction of
+   Most of the existing literature that attempts to value infor-   1.3 work hours per week relative to non-caregivers [14].
+mal caregiving measures the time spent providing care and          Finally, using the National Longitudinal Survey of Mature
+assigns a monetary valuation to this time using one of two         Women, Jacobs et al. [12] found that caregivers providing
+methods: the replacement cost (or proxy good) method or            20 h of weekly care were 1–3 percentage points more likely
+the opportunity cost method [1, 3–5]. The replacement cost         to retire relative to non-caregivers. Combined, this literature
+method values time spent providing informal care using the         implies that valuing time spent caregiving using the current
+market price of paid formal care substitutes, which is often       wage rate could underestimate the opportunity costs of care
+the wage rate of a home health aide [1]. The opportunity cost      by not taking into account that caregiving in itself may con-
+method, meanwhile, values time spent providing informal            tribute to the lower earning potential of caregivers.
+care as the economic value of opportunities foregone as a              A second reason why the current wage rate may under-
+result of care provision [5]. In practice, this time is often      estimate the true opportunity costs of informal care is that
+valued as employed individual’s current wage rate and either       labor market effects can have longer-term consequences,
+a reservation wage or imputed wage rate for individuals who        impacting an individual’s earning trajectory across his or her
+are not employed [1, 5].                                           lifecycle. Using the HRS, Skira [15] found long-term trade-
+   In policy settings, replacement cost methods are often          offs of caregiving related to the persistent nature of provid-
+favored over opportunity cost methods. The US Department           ing elder care. Women who left the labor market to provide
+of Veterans Affairs (VA), for instance, provides stipends for      care were much less likely to return to work, and, if they did,
+caregivers of veterans who qualify for comprehensive sup-          it was often for lower wages or on a part-time basis. Taking
+port, which are calculated using the geographically adjusted       these longer-term opportunity costs into account, the median
+home health aide rate. There are many arguments in favor           cost of care provision for women in their mid-50 s who
+of applying a replacement cost methodology in policy envi-         provided care over a 2-year period was US$164,726. This
+ronments, including the ease with which it can be standard-        can be compared to US$21,220 using commonly applied
+ized nationally and the potential for stipends based on this       opportunity cost methods (i.e., current forgone wages) [15].
+method to be cost minimizing from a government perspec-            This finding highlights the importance of incorporating a
+tive. However, it is possible that replacement cost methods        longer time horizon when calculating the societal costs of
+do not reflect important opportunity costs of care provi-          informal care provision. It is also important to note that all
+sion for the informal caregivers. Similarly, using a current       the aforementioned US literature has focused on caregivers
+wage rate to capture the opportunity costs of care may be          aged 50 years plus. There is limited evidence estimating the
+underestimating the true opportunity costs of informal care        longer-term opportunity costs of informal care for younger
+provision.                                                         caregivers.
+   This underestimation may be due to two factors. First,              To better understand the opportunity costs of caregiving,
+there is the potential impact of caregiving on labor market        we consider six potential economic effects of caregiving for
+outcomes. International evidence indicates that intensive          a broad age range of caregivers: labor force participation,
+caregiving (i.e., providing 10–20 h of weekly care) nega-          taking unpaid time off work, cutting back work hours, quit-
+tively affects caregivers’ labor market participation, hours       ting work, early retirement, and cutting back schooling. Pre-
+of work, and wages [6–13]. Recent US literature, which best        vious analyses have found that 40% of post-9/11 caregivers
+reflects the institutional setting of the current study, sup-      are between the ages of 18 and 30 years [16]. We draw on
+ports these findings. Using the Health and Retirement Study        a data source that over-samples these caregivers, so we can
+(HRS), Van Houtven et al. [9] found that male personal care        better understand the economic consequences of becoming
+caregivers were 2.4 percentage points less likely to be in         an intensive caregiver early in one’s career trajectory. Using
+Economic Spillover Effects of Intensive Unpaid Caregiving                                                                                555
+
+the RAND Survey of Military and Veteran Caregivers, we                  civilian caregivers) aged 18 years and older. The inclusion of
+assess the extent to which intensive caregivers experience              both military and civilian caregivers allows for comparison
+economic spillover effects related to their labor market and            across the two groups.
+schooling outcomes due to informal care provision.1 This                   We conducted descriptive and multivariable regression
+analysis allows us to capture opportunity costs that are rarely         analyses. In our descriptive analyses, we calculated the
+explored in the literature, but that may have important down-           means and proportions of demographic, socioeconomic,
+stream consequences. In considering these outcomes, we                  household, and care recipient characteristics. We used t tests
+highlight the complexity of accurately capturing opportunity            and Pearson’s Chi-squared statistics to determine whether
+costs of care provision and the importance of understanding             there were significant differences between non-caregivers,
+these often unmeasured costs of care.                                   intensive caregivers, and other caregivers. The caregiving
+                                                                        groups included military and veteran caregivers as well as
+                                                                        civilian caregivers. In our multivariable analyses, we used
+2 Methods                                                              logistic regression models2 to determine how the probability
+                                                                        of employment and five self-assessed economic outcomes
+We used the 2013 RAND Survey of Military and Veteran                    were associated with our key independent variable, intensive
+Caregivers, a cross-sectional survey of military and veteran            informal care provision. Intensive caregiving was defined as
+caregivers, civilian caregivers, and a comparison group of              the provision of 20 or more hours of care per week, which
+non-caregivers. In the RAND survey, military and veteran                according to previous research is the upper threshold above
+caregivers are individuals who provided care to ill, injured,           which care provision is likely to impact labor supply and
+and wounded service members and veterans, while civil-                  outcomes [12]. We also focused on this subset of caregivers
+ian caregivers are those who provide care to non-military               because caregiving decisions are less likely to be endog-
+personnel or veterans. Caregivers are respondents who pro-              enous for intensive caregivers. Previous research has found
+vided unpaid care and assistance for, or managed the care               that intensive caregivers are much less likely to perceive
+of, someone at least 18 years of age with an illness, injury,           their care provision as a choice [19], which decreases the
+or condition for which they require outside support. The sur-           likelihood that caregivers who are less attached to the labor
+vey was administered to a probability-based panel of 41,163             market self-select into the caregiving role. We are unable,
+households designed to represent the US general popula-                 however, to model the simultaneity of work and care deci-
+tion of non-institutionalized adults. Due to a relatively small         sions with the current data, so it is possible that the caregiv-
+sample (n = 72) of post-9/11 caregivers in the probability-             ing coefficients would be biased. Evidence surrounding the
+based sample, an additional 281 post-9/11 caregivers were               expected direction of this bias is mixed [9, 10]. To test the
+recruited from a convenience sample derived from a data-                hypothesis that self-selection into a caregiving role is less of
+base provided by the Wounded Warrior Project. A statistical             a choice for higher-intensity caregivers, we conducted sensi-
+raking algorithm, iterative proportional fitting, was used to           tivity analyses where we lowered the threshold for intensive
+create blended weights to account for the mixed sampling                caregiving to 1 and 5 h of weekly care. At these levels, it is
+strategy so that the military and civilian caregivers were              possible that care provision is more likely to be a choice, so
+nationally representative samples of each caregiver group               we might expect a null or weaker association.
+[16, 17]. The survey is unique due to its focus on a broad age             Our analysis focused on economic outcomes that are rel-
+range of caregivers (18 years and older) and its assessment             evant across the lifecycle: probability of employment, taking
+of economic penalties experienced across various stages of              unpaid time off work, cutting back work hours, quitting a
+respondents’ career trajectories. The focus on military and             job, cutting back schooling, and early retirement. We first
+veteran caregivers helps to fill an important gap in under-             conducted multivariable analyses that included both non-
+standing the experiences of caregivers of US veterans from              caregivers and caregivers to determine the probability of
+recent conflicts in the Middle East, in which more military             employment for intensive caregivers relative to other car-
+members than any prior conflict survived significant blast              egivers and non-caregivers. Next, we focused on the subset
+injuries due to advances in battlefield medicine. This is the           of respondents who identified as caregivers and looked at the
+first survey to describe the effects of these recent conflicts          self-assessed economic impacts of their informal care provi-
+on informal caregivers. Our analysis includes 3876 individu-            sion. For these analyses, we compared intensive caregivers
+als (1163 non-caregivers, 885 military caregivers, and 1828
+
+                                                                        2
+                                                                          Logistic regression models were chosen over linear probability
+                                                                        models because there was a wide range of probabilities in the out-
+1
+  In the present context, ‘spillover’ effects refer to the effects on   comes of interest (i.e., from 0.10 to 0.49). Logistic models provide
+a caregiver’s quality of life due to having a family member with a      better model fit under these circumstances [18]. Sensitivity analyses
+chronic illness.                                                        using linear probability models yielded similar results.
+556                                                                                                               J. C. Jacobs et al.
+
+to non-intensive caregivers. Caregivers were asked the fol-       vs. 5%), and higher rates of labor force non-participation
+lowing questions: (1) “As a result of caregiving did you ever     (52% vs. 42%). Intensive caregivers were less likely to own
+take unpaid time off work or stop working temporarily?”; (2)      their homes (70% vs. 75%) and reported lower overall health
+“As a result of caregiving did you ever cut back the number       (general health score of 50.1 vs. 62.1). Intensive caregiv-
+of hours in your regular weekly job schedule?”; (3) “As a         ers were more likely to be 55 years and younger (55% vs.
+result of caregiving, did you ever quit working entirely?”;       48%) and less likely to have a college degree (35% vs. 48%).
+(4) “As a result of caregiving, did you ever take retirement      Intensive caregivers were more often women (74% vs. 62%)
+earlier than you would have otherwise?”; and (5) As a result      and living in households with more members and a greater
+of caregiving, did you ever take time off from school or          number of children.
+cut back on classes?” Non-response rates to these questions          Non-intensive caregivers were also more likely to be
+were low (ranging from 2.2% to 3.1%). t-Tests and Pearson’s       unemployed relative to non-caregivers (7% vs. 5%), but
+Chi squared tests did not indicate any significant differences    were less likely to be labor force non-participants (i.e., not
+in socioeconomic characteristics between respondents and          currently seeking employment) (39% vs. 44%). They had
+non-respondents. We used logistic regression models and           lower overall health (general health score) (57.6) relative to
+calculated average marginal effects for each outcome.             non-caregivers (62.1).
+    All regressions controlled for caregiver demographic             In Table 2, we provide an overview of the proportion of
+(age, marital status, sex, race/ethnicity, and urban/rural res-   caregivers who indicated that they experienced labor mar-
+idence), socioeconomic (home ownership and education),            ket penalties due to caregiving. Intensive caregivers expe-
+household (number of household members and children in            rienced these costs at much higher rates than non-intensive
+the household), and care recipient (relationship to caregiver,    caregivers, with 39% indicating that they took unpaid time
+military or civilian care recipient, activities of daily living   off work, 35% indicating that they cut back work hours, and
+[ADL]/instrumental activities of daily living [IADL] limi-        34% indicating that they had quit a job due to caregiving
+tations, and service-connected disability rating for military     obligations. These opportunity costs appear early and late
+care recipients) characteristics. We also accounted for the era   in intensive caregivers’ labor market trajectories, with 15%
+of military service, and in alternate models we interacted a      of intensive caregivers indicating that they had retired early
+post-9/11 indicator variable with intensive caregiving to see     due to caregiving duties and 16% indicating that they had
+if there was an incremental effect of intensive caregiving for    cut back schooling due to caregiving duties.
+this subgroup. We included survey weights in all regressions
+to account for non-random survey sampling methods [17].           3.2 Multivariable Results
+    With our reduced form approach, in which we do not
+control for the endogeneity of caregiving, the marginal           Results of the multivariable regression predicting the prob-
+effects can be interpreted as a measure of the associated         ability of employment (Table 3) indicate that intensive car-
+relationship of caregiving and outcomes. As noted earlier,        egivers are 13 percentage points (95% confidence interval
+the RAND survey allows us to control for often unobserved         [CI] 8–18) less likely to be employed than non-caregivers.
+caregiver and care recipient factors that may contribute to       We did not find a significant association for non-intensive
+omitted variable bias. For instance, we control for the level     caregivers. Other variables in the model are in the expected
+of care needed, which may differ across subgroups and, if         directions—younger individuals, those with higher educa-
+unobserved, could bias our estimates. Including a rich set of     tional attainment, and men are significantly more likely to
+control variables in the model helps to ameliorate, but not       be employed.
+eliminate, concerns about this type of bias.                         In Table 4, we present the results of a series of multivari-
+                                                                  able models among our caregiving subsample. These models
+                                                                  indicate that net of other factors, intensive caregivers are 6
+3 Results                                                        percentage points (95% CI 2–10) more likely to take unpaid
+                                                                  time off work, 4 percentage points (95% CI 0.1–9) to cut
+3.1 Descriptive Overview                                         back work hours, 12 percentage points (95% CI 8–15) more
+                                                                  like to have quit a job, 5 percentage points (95% CI 2–7)
+In Table 1, we summarize the sample characteristics. The          more likely to have retired early, and 3 percentage points
+significance columns show the results of Pearson’s Chi            (95% CI 0.5–5) more likely to have cut back schooling due
+square tests and t-tests comparing each characteristic for        to caregiving relative to less intensive caregivers. Alternate
+intensive caregivers and non-intensive caregivers relative        models indicate that there were no incremental effects of
+to non-caregivers. We found that relative to non-caregivers,      being an intensive military or post-9/11 caregiver on the
+intensive caregivers had significantly lower rates of employ-     probability of experiencing economic consequences due
+ment (38% vs. 52%), higher rates of unemployment (10%             to caregiving. In analyses where we lowered the intensity
+Economic Spillover Effects of Intensive Unpaid Caregiving                                                                                          557
+
+Table 1  Descriptive overview         Characteristic                   Full sample      Non-caregiver Intensive caregiver     Non-intensive car-
+of non-caregivers, intensive                                                                                                  egiver
+caregivers, and non-intensive
+caregivers                                                             Mean/% SE        Mean/% SE       Mean/% SE       Sig.a Mean/% SE        Sig.a
+
+                                      n                                3876             1163            988                   1705
+                                      Employment status
+                                        Employed                       49%       0.01   52%      0.01   38%      0.02   ***   54%       0.01
+                                        Unemployed                      7%       0.00    5%      0.01   10%      0.01   ***    7%       0.01 *
+                                        Not in labor force             44%       0.01   44%      0.02   52%      0.02   ***   39%       0.01 *
+                                      Married/cohabiting               64%       0.01   62%      0.02    0.67    0.02   *      0.63     0.01
+                                      Home ownership                   73%       0.01   75%      0.01    0.7     0.02   **     0.74     0.01
+                                      General health score             57.03     0.40   62.10    0.68   50.10    0.78   ***   57.60     0.6 ***
+                                      Age (years)
+                                        18–30                          13%       0.01   15%      0.01   13%      0.01         12%       0.01
+                                        31–55                          38%       0.01   33%      0.01   42%      0.02 ***     38%       0.01 **
+                                        56–65                          27%       0.01   24%      0.01   25%      0.01         30%       0.01 **
+                                        ≥ 66                           22%       0.01   28%      0.01   20%      0.01 ***     20%       0.01 ***
+                                      Race/ethnicity
+                                        Non-Hispanic White             78%       0.01 82%        0.01 73%       0.02 ***      77%       0.01 **
+                                        Non-Hispanic Black              7%       0.00 6%         0.01 9%        0.01 **        8%       0.01
+                                        Other                           3%       0.00 2%         0.01 2%        0              3%       0
+                                        Hispanic                        8%       0.00 8%         0.01 10%       0.01           9%       0.01
+                                        ≥ 2 races                       4%       0.00 2%         0     5%       0.01 ***       4%       0    *
+                                      Education
+                                        High school                    18%       0.01   17%      0.01   22%     0.01    **    17%       0.01
+                                        Some college                   39%       0.01   35%      0.01   44%     0.02    ***   39%       0.01   *
+                                        College                        25%       0.01   29%      0.02   22%     0.01    ***   25%       0.01   *
+                                      Post-college                     18%       0.01   19%      0.01   13%     0.01    ***   20%       0.01
+                                      Sex (1 = male)                   32%       0.01   38%      0.02   26%     0.01    ***   32%       0.01   **
+                                      No. of household members          2.58     0.02    2.33    0.04    2.91   0.05    ***    2.57     0.03   ***
+                                      No. of children in household     65%       0.02    0.56    0.03    0.81   0.04    ***    0.62     0.03
+                                      Urban residence                  86%       0.01   87%      0.01   84%     0.01    *     86%       0.01
+
+                                      SE standard error, Sig. significance
+                                      ***p < 0.001, **p < 0.01, *p < 0.05
+                                      a
+                                       Significant tests indicate results from Pearson’s Chi squared tests and t-tests assessing differences between
+                                      each caregiver subgroup and non-caregivers
+
+
+
+                                                                               threshold to 1 h per week, there were no significant associa-
+                                                                               tions between intensive caregiving and any of the dependent
+Table 2  Proportion of intensive and non-intensive caregivers experi-          variables except for cutting back hours of work. For analyses
+encing labor market costs due to caregiving                                    where the intensity threshold was 5 h per week, we found
+Labor market cost           Intensive caregivers     Non-intensive             significant associations, but with smaller magnitudes for all
+                                                     caregivers                outcomes except for cutting back work hours (full model
+                            Proportion    SE         Proportion   SE           results available upon request).
+                            (%)                      (%)
+
+Unpaid time off work        39            0.02       23           0.01
+                                                                               4 Discussion
+Cut back work hours         35            0.02       21           0.01
+Quit work                   34            0.02        9           0.01
+                                                                               We used the RAND Survey of Military and Veteran Caregiv-
+Early retirement            15            0.01        6           0.01
+                                                                               ers to assess the types of opportunity costs experienced by
+Cut back schooling          16            0.01        6           0.01
+                                                                               a wide age range of caregivers and the extent to which these
+SE standard error                                                              costs are encountered by intensive versus non-intensive
+558                                                                                                                             J. C. Jacobs et al.
+
+Table 3  Employment                Characteristic                         Marginal effects          SE            95% CI                     Sig.
+probability of intensive
+caregivers versus non-caregivers   Caregiver status
+                                     Non-caregiver (Ref)
+                                     Non-intensive caregiver                0.01                    0.02          − 0.03 to 0.05
+                                     Intensive caregiver                  − 0.13                    0.03          − 0.18 to − 0.08           ***
+                                   Home owner                               0.04                    0.02          − 0.01 to 0.08
+                                   Married/cohabiting                       0.04                    0.02          0.00 to 0.08
+                                   Age (years)
+                                     18–34 (Ref)
+                                     35–54                                  0.00                    0.03          − 0.06 to 0.06
+                                     55–65                                − 0.23                    0.03          − 0.28 to − 0.17            ***
+                                     ≥ 65                                 − 0.52                    0.02          − 0.56 to − 0.49            ***
+                                   Race/ethnicity
+                                     Non-Hispanic White
+                                     Non-Hispanic Black                   − 0.07                    0.03          − 0.14 to − 0.01            *
+                                     Other                                  0.01                    0.06          − 0.10 to 0.11
+                                     Hispanic                             − 0.04                    0.03          − 0.10 to 0.03
+                                     ≥ 2 races                            − 0.03                    0.05          − 0.12 to 0.06
+                                   Education
+                                     High school (Ref)
+                                     Some college                           0.12                    0.03          0.07 to 0.17                ***
+                                     College                                0.19                    0.03          0.14 to 0.24                ***
+                                     Post-college                           0.30                    0.03          0.25 to 0.35                ***
+                                   Sex (male = 1)                           0.05                    0.02          0.02 to 0.09                **
+                                   No. of household members               − 0.01                    0.01          − 0.03 to 0.01
+                                   No. of children in household             0.01                    0.01          − 0.02 to 0.03
+                                   Urban residence                        − 0.01                    0.03          − 0.06 to 0.05
+                                   Service connected disability           − 0.13                    0.04          − 0.21 to − 0.05            **
+                                   n                                      3817
+
+                                   CI confidence interval, Ref reference category, SE standard error, Sig. significance
+                                   ***p < 0.001, **p < 0.01, *p < 0.05
+
+
+caregivers. We found that intensive caregivers, both mili-               not captured using a current wage rate. We are not aware of
+tary and civilian, experience economic penalties related to              any studies in the caregiving literature that have addressed
+their labor market participation, work hours, job stability,             this topic, though our findings indicate that this could be
+and time off work. These findings support the growing litera-            an important consequence of intensive informal caregiving,
+ture that has documented participation, hours of work, and               which should be examined in longitudinal analyses.
+wage penalties experienced by informal caregivers [8, 9, 15,                Economic spillover effects for caregivers, particularly
+20]. In line with existing literature, we also found that inten-         those that affect labor market outcomes, are rarely incor-
+sive informal caregivers have experienced retirement conse-              porated into economic evaluations of health interventions,
+quences due to caregiving [7, 9, 12]. The short-term impli-              even when the societal viewpoint is adopted [1]. When these
+cations of these career disruptions may be captured using a              costs are incorporated, there can be uncertainty surrounding
+current wage rate. Given the wide age range of our sample,               which economic outcomes to include and how to measure
+we were also able to capture important consequences of                   them. We have demonstrated that being an intensive car-
+informal care unique to younger caregivers. Sixteen percent              egiver is associated with economic penalties for a wide age
+of informal caregivers have cut back schooling or taken time             range of caregivers. Using commonly applied replacement
+off school to provide informal care. Of the caregivers who               cost methods, such as those used to calculate VA caregiver
+identified schooling penalties, 68% were under the age of                stipend rates, are efficient from the perspective of the gov-
+45 years. These types of disruptions to the accumulation of              ernment—replacement cost methods may be the only feasi-
+human capital earlier in an individual’s labor market trajec-            ble solution when there are budget limitations for a stipend
+tory can have important long-term ripple effects that are                program. They also provide an administratively facile way
+Table 4  Probability of experiencing negative labor market and school outcomes, all caregivers
+Characteristic                   Unpaid time off                 Cut back hours                   Quit work                       Early retirement               Cut back school
+                                 dy/dx    95% CI           Sig. dy/dx     95% CI            Sig. dy/dx    95% CI            Sig. dy/dx    95% CI           Sig. dy/dx    95% CI            Sig.
+
+CG status
+ Non-intensive CG (Ref)
+ Intensive CG                     0.06 0.02 to 0.10        **     0.04 0.001 to 0.09        *      0.12 0.08 to 0.15        ***    0.05 0.02 to 0.07       ***    0.03 0.005 to 0.05       *
+Post-9/11 CG                      0.13 0.02 to 0.24        *      0.10 − 0.01 to 0.20              0.08 − 0.01 to 0.17             0.06 − 0.02 to 0.15            0.08 0.01 to 0.15        *
+Relationship to care recipient
+ Spouse                           0.11 0.05 to 0.18        ***    0.11 0.04 to 0.17         ***    0.23 0.16 to 0.30        ***    0.08 0.03 to 0.13       ***    0.03 − 0.004 to 0.06
+ Parent                           0.14 0.06 to 0.22        ***    0.12 0.04 to 0.20         **     0.16 0.07 to 0.25        ***    0.06 0.01 to 0.11       *      0.02 − 0.02 to 0.06
+ Child                            0.05 − 0.003 to 0.10            0.05 − 0.001 to 0.10      *      0.10 0.05 to 0.14        ***    0.01 − 0.01 to 0.04            0.01 − 0.01 to 0.03
+ Other (Ref)
+No. of ADL tasks performed        0.01 0.002 to 0.02       *      0.01 0.001 to 0.02        *      0.01 0.004 to 0.02       **     0.00 − 0.001 to 0.01           0.00 − 0.01 to 0.003
+ by CG
+                                                                                                                                                                                                  Economic Spillover Effects of Intensive Unpaid Caregiving
+
+
+
+
+No. of IADL tasks performed       0.02 0.01 to 0.02        ***    0.02 0.01 to 0.03         ***    0.01 0.001 to 0.01       *      0.00 0.000 to 0.01      *      0.01 0.003 to 0.01       ***
+ by CG
+No. of CGs in network              0.00 − 0.01 to 0.01             0.01 − 0.003 to 0.02           − 0.01 − 0.02 to − 0.003 *    0.00 − 0.01 to 0.01         0.00 − 0.002 to 0.01
+Home owner                       − 0.03 − 0.07 to 0.01           − 0.01 − 0.05 to 0.03            − 0.03 − 0.07 to 0.003        0.00 − 0.02 to 0.02       − 0.02 − 0.04 to − 0.002 *
+Married/cohabiting               − 0.04 − 0.08 to 0.01           − 0.03 − 0.08 to 0.01            − 0.07 − 0.10 to − 0.03 *** − 0.04 − 0.07 to − 0.02 *** − 0.03 − 0.05 to − 0.005 *
+Age (years)
+ 18–34 (Ref)
+ 35–54                           − 0.04 − 0.09 to 0.02       − 0.01 − 0.07 to 0.04       − 0.01 − 0.05 to 0.04                     0.03 − 0.02 to 0.07         − 0.04 − 0.05 to − 0.02     ***
+ 55–65                           − 0.07 − 0.13 to − 0.01 *   − 0.08 − 0.14 to − 0.03 **    0.02 − 0.03 to 0.07                     0.19 0.10 to 0.29       *** − 0.06 − 0.08 to − 0.04     ***
+ ≥ 65                            − 0.18 − 0.23 to − 0.13 *** − 0.19 − 0.24 to − 0.15 *** − 0.02 − 0.07 to 0.03                     0.17 0.06 to 0.28       *** − 0.07 − 0.09 to − 0.06     ***
+Race/ethnicity
+ Non-Hispanic White (Ref)
+ Non-Hispanic Black              − 0.08   − 0.14 to − 0.02 **    − 0.06   − 0.11 to 0.00    *      0.00   − 0.05 to 0.06           0.02   − 0.02 to 0.05          0.03   − 0.01 to 0.06
+ Other                             0.10   − 0.01 to 0.22           0.04   − 0.07 to 0.14           0.10   − 0.001 to 0.21   *      0.01   − 0.05 to 0.06          0.01   − 0.03 to 0.05
+ Hispanic                          0.01   − 0.06 to 0.07           0.01   − 0.06 to 0.07           0.03   − 0.02 to 0.08           0.01   − 0.02 to 0.05          0.02   − 0.01 to 0.05
+ ≥ 2 races                         0.00   − 0.09 to 0.08           0.01   − 0.07 to 0.09           0.03   − 0.04 to 0.09           0.01   − 0.03 to 0.05          0.01   − 0.03 to 0.05
+Education
+ High school (Ref)
+ Some college                      0.07   0.02 to 0.12     *       0.10   0.05 to 0.15      *** − 0.01 − 0.05 to 0.02              0.01   − 0.01 to 0.04          0.08   0.05 to 0.12      ***
+ College                           0.08   0.02 to 0.14     *       0.09   0.03 to 0.16      ** − 0.01 − 0.05 to 0.03               0.01   − 0.02 to 0.04          0.08   0.03 to 0.14      ***
+ Post-college                      0.05   − 0.02 to 0.12           0.16   0.09 to 0.24      *** − 0.04 − 0.08 to − 0.01     *      0.00   − 0.03 to 0.03          0.12   0.05 to 0.20      ***
+Sex (male = 1)                     0.01   − 0.03 to 0.05           0.03   − 0.01 to 0.07        − 0.02 − 0.05 to 0.01              0.01   − 0.01 to 0.03          0.00   − 0.02 to 0.01
+No. of household members         − 0.01   − 0.03 to 0.01         − 0.01   − 0.03 to 0.00          0.01 − 0.01 to 0.02              0.00   − 0.01 to 0.01          0.00   − 0.003 to 0.01
+No. of children in household       0.01   − 0.01 to 0.03           0.02   − 0.005 to 0.04         0.01 − 0.01 to 0.03              0.01   − 0.01 to 0.02          0.00   − 0.01 to 0.01
+                                                                                                                                                                                                  559
+   560                                                                                                                                                                                                                                                                                                                                                                                    J. C. Jacobs et al.
+
+                                                                                                                                                                                                                                                                                                                                          in which to deliver the benefit. However, replacement cost
+
+
+
+
+                                                                                      ADL activities of daily living, CG caregiver, CI confidence interval, dy/dx marginal effect, IADL instrumental activities of daily living, Ref reference category, SE standard error, Sig. significance
+                                          Sig.
+                                                                                                                                                                                                                                                                                                                                          methods likely underestimate the true costs of family car-
+                                                                                                                                                                                                                                                                                                                                          egiving from the caregiver and societal perspectives.
+                                                         0.01 − 0.01 to 0.03
+                                                                                                                                                                                                                                                                                                                                              Similarly, opportunity cost approaches based on static
+                                                                                                                                                                                                                                                                                                                                          market wages may also understate the true opportunity
+
+
+                       Cut back school
+                                          95% CI         0.01 − 0.02 to 0.04
+                                                                                                                                                                                                                                                                                                                                          costs of informal care provision. Existing work has found
+                                                                                                                                                                                                                                                                                                                                          that accounting for the lower labor market returns women
+                                                       2576
+                                                                                                                                                                                                                                                                                                                                          aged 55 years and older experience after an informal car-
+
+                                          Sig. dy/dx
+                                                                                                                                                                                                                                                                                                                                          egiving spell results in a 2-year cost of informal care that is
+                                                                                                                                                                                                                                                                                                                                          seven times that found using current foregone wages [15].
+                                                                                                                                                                                                                                                                                                                                          These estimates, like most of the existing literature, overlook
+                                                                                                                                                                                                                                                                                                                                          disruptions to the accumulation of human capital early in
+                                                         0.00 − 0.03 to 0.02                                                                                                                                                                                                                                                              an individual’ career. Few data sources are available that
+                                                                                                                                                                                                                                                                                                                                          would allow researchers to reliably estimate the economic
+
+                       Early retirement
+                                          95% CI         0.01 − 0.03 to 0.04                                                                                                                                                                                                                                                              consequences of these types of disruptions. However, stud-
+                                                                                                                                                                                                                                                                                                                                          ies looking at retirement savings and economic security in
+                                                       2592                                                                                                                                                                                                                                                                               old age may reflect important avenues by which younger
+                                          Sig. dy/dx                                                                                                                                                                                                                                                                                      caregivers are affected later in their career trajectory.
+                                                                                                                                                                                                                                                                                                                                              A key strength of this study was that we were able to
+                                                                                                                                                                                                                                                                                                                                          include a wide age range of intensive caregivers and directly
+                                                                                                                                                                                                                                                                                                                                          ask these caregivers about their assessment of whether their
+                                                         0.00 − 0.04 to 0.03                                                                                                                                                                                                                                                              caregiving duties impacted a number of economic outcomes.
+                                                                                                                                                                                                                                                                                                                                          However, our study has limitations to consider. First, this
+                                          95% CI         0.05 − 0.01 to 0.10                                                                                                                                                                                                                                                              study uses a cross-sectional dataset, so we provide only a
+
+                       Quit work
+                                                                                                                                                                                                                                                                                                                                          snapshot of caregiving and economic outcomes. Second, the
+                                                       2582                                                                                                                                                                                                                                                                               caregiving literature is grappling with issues relating to the
+                                          Sig. dy/dx                                                                                                                                                                                                                                                                                      endogeneity of caregiving and labor market outcomes, often
+                                                                                                                                                                                                                                                                                                                                          using panel data methods and instrumental variable tech-
+
+                                                       − 0.06 − 0.12 to − 0.01 *
+                                                                                                                                                                                                                                                                                                                                          niques to disentangle the effect of caregiving. Rich family
+                                                                                                                                                                                                                                                                                                                                          structure variables were not available to us, which precluded
+                                                                                                                                                                                                                                                                                                                                          using an instrumental variables approach. Results from the
+                                                       − 0.02 − 0.08 to 0.04
+                                          95% CI
+                                                                                                                                                                                                                                                                                                                                          existing literature suggest, therefore, that our estimates may
+
+                       Cut back hours
+                                                                                                                                                                                                                                                                                                                                          understate the total effect of caregiving on the labor force
+                                                       2581
+                                                                                                                                                                                                                                                                                                                                          outcomes. That said, there is some evidence that endogene-
+
+                                          Sig. dy/dx
+                                                                                                                                                                                                                                                                                                                                          ity bias ultimately may not be a necessary consideration in
+                                                                                                                                                                                                                                                                                                                                          this strain of research. After controlling for repeated obser-
+                                                                                                                                                                                                                                                                                                                                          vations among individuals over time using fixed effects, and
+                                                                                                                                                                                                                                                                                                                                          with empirically strong instruments, Van Houtven et al. [9]
+                                                       − 0.03 − 0.08 to 0.03
+                                                                                                                                                                                                                                                                                                                                          could not reject exogeneity between informal care and work.
+                                                                                                                                                                                                                                                                                                                                          Our models control for a rich set of variables at the caregiver
+
+
+                       Unpaid time off
+                                          95% CI         0.03 − 0.04 to 0.10
+                                                                                                                                                                                                                                                                                                                                          and care recipient level, and we also know that caregiving
+                                                                                                                                                                                                                                                                                                                                          is less of a choice in the event of injury (e.g., the military
+                                                       2603
+                                                                                                                                                                                                                                                                                                                                          caregivers in the sample), which may minimize the risk of
+                                          dy/dx
+
+
+
+
+                                                                                                                                                                                                                                                                                                ***p < 0.001, **p < 0. 0 1, *p < 0. 0 5
+                                                                                                                                                                                                                                                                                                                                          endogeneity bias. Without an ability to measure the pres-
+                                                                                                                                                                                                                                                                                                                                          ence or magnitude of the bias, our estimates can be inter-
+                                                                                                                                                                                                                                                                                                                                          preted as conservative estimates of the effect of caregiving
+                                                       Urban residence                                                                                                                                                                                                                                                                    on these important outcomes. We also note that our focus on
+                                                                                                                                                                                                                                                                                                                                          a subgroup of intensive caregivers who were less likely to
+
+
+
+Table 4  (continued)
+                                                       Service-connected disability
+                                                                                                                                                                                                                                                                                                                                          have had a choice in their care provision [19] may decrease
+                                                                                                                                                                                                                                                                                                                                          the level of bias we would expect to see in an analysis of
+
+                       Characteristic
+                                                                                                                                                                                                                                                                                                                                          caregivers’ labor market outcomes. Third, for the caregiver-
+                                                       n
+                                                                                                                                                                                                                                                                                                                                          only models (Table 4), respondents were asked to relate their
+                                                                                                                                                                                                                                                                                                                                          work and schooling decisions to their caregiving decisions,
+Economic Spillover Effects of Intensive Unpaid Caregiving                                                                                 561
+
+which means that they could be over-estimating the role of             Compliance with Ethical Standards
+caregiving in relation to these outcomes (justification bias).
+The bias from this would lead to an over-estimate of the               Funding Support for this work was received from the Center of Innova-
+relationship. Thus, the downward bias that would appear if             tion for Health Services Research in Primary Care (CIN 13-410) and
+                                                                       the Health Economics Resource Center (ECN 99-017).
+endogeneity is present, combined with an upward bias if jus-
+tification bias is present, would have countervailing effects
+                                                                       Conflict of interest Josephine Jacobs, Courtney Van Houtven, Terri
+in unknown ways on the estimates presented in Table 4.                 Tanielian, and Rajeev Ramchand have no conflicts of interest to de-
+    Nevertheless, the value of this unique dataset is that it          clare.
+describes caregiving effects among a broad age range and
+                                                                       Informed consent Review by the Stanford Human Research Protec-
+type of caregiver. This helps illustrate the importance of
+                                                                       tion Program determined that this study did not meet the definition of
+expanding the spillovers from informal care that research-             human subjects research.
+ers typically consider—beyond quitting work entirely, eco-
+nomic spillovers to absenteeism and to investment in human             Data Availability Statement The dataset that supports these findings
+                                                                       was used with the permission of RAND Corporation and is not publicly
+capital through education could have substantial effects on
+                                                                       available. The STATA​® code and model underpinning the research are
+the economic security of caregivers over their life course.            available upon request from the corresponding author.
+Further, though we have focused on factors that affect human
+capital accumulation, there are also other less studied eco-
+                                                                       Open Access This article is distributed under the terms of the Crea-
+nomic outcomes related to lost raises, lower productivity,             tive Commons Attribution-NonCommercial 4.0 International License
+the economic costs associated with negative health effects of          (http://creativecommons.org/licenses/by-nc/4.0/), which permits any
+caregiving, and out-of-pocket costs. To truly understand the           noncommercial use, distribution, and reproduction in any medium,
+                                                                       provided you give appropriate credit to the original author(s) and the
+opportunity costs of informal care, we need more evidence
+                                                                       source, provide a link to the Creative Commons license, and indicate
+surrounding all of these potential societal costs of care. With        if changes were made.
+such data, programs that aim to mitigate the costs of caregiv-
+ing may be more effective.
+
+                                                                       References
+                                                                        1. van den Berg B, Brouwer W, van Exel J, Koopmanschap M, van
+5 Conclusion                                                              den Bos GA, Rutten F. Economic valuation of informal care:
+                                                                           lessons from the application of the opportunity costs and proxy
+It is unlikely that researchers and policy makers hoping                   good methods. Soc Sci Med. 2006;62(4):835–45. https​://doi.
+to calculate caregiver costs will take such a wide breadth                 org/10.1016/j.socsc​imed.2005.06.046.
+                                                                        2. Sanders GD, Neumann PJ, Basu A, Brock DW, Feeny D,
+of opportunity costs into account—particularly when it is
+                                                                           Krahn M, et al. Recommendations for conduct, methodologi-
+so difficult to quantify these costs. However, even if these               cal practices, and reporting of cost-effectiveness analyses: sec-
+opportunity costs cannot be routinely included in eco-                     ond Panel on Cost-Effectiveness in Health and Medicine.
+nomic evaluations of healthcare interventions or used to                   JAMA. 2016;316(10):1093–103. https ​ : //doi.org/10.1001/
+                                                                           jama.2016.12195​.
+quantify caregiver costs for stipend policies, policy makers
+                                                                        3. Tranmer JE, Guerriere DN, Ungar WJ, Coyte PC. Valuing patient
+and researchers need to understand them. The higher the                    and caregiver time: a review of the literature. Pharmacoeconom-
+opportunity costs of unpaid care provision, the less likely it             ics. 2005;23(5):449–59.
+is that caregivers will provide this care, which will impact            4. Feinberg L, Reinhard SC, Houser A, Choula R. Valuing the inval-
+                                                                           uable: 2011 update. The growing contributions and costs of family
+their future supply. Furthermore, the higher the direct costs
+                                                                           caregiving. Washington, DC: AARP Public Policy Institute; 2011.
+observed by caregivers, the less cost effective this ‘free’             5. Chari AV, Engberg J, Ray KN, Mehrotra A. The opportunity costs
+source of care is to society. These direct and indirect costs              of informal elder-care in the United States: new estimates from the
+are important when calculating net benefits of informal care               American Time Use Survey. Health Serv Res. 2015;50(3):871–82.
+                                                                           https​://doi.org/10.1111/1475-6773.12238​.
+from a societal perspective.
+                                                                        6. Berecki-Gisolf J, Lucke J, Hockey R, Dobson A. Transitions into
+                                                                           informal caregiving and out of paid employment of women in their
+Acknowledgements The authors would like to acknowledge Michael             50s. Soc Sci Med. 2008;67(1):122–7. https​://doi.org/10.1016/j.
+Robbins from the RAND Corporation for his guidance in using the            socsc​imed.2008.03.031.
+blended survey weights for the RAND Survey of Military and Veteran      7. Jacobs JC, Laporte A, Van Houtven CH, Coyte PC. Car-
+Caregivers.                                                                egiving intensity and retirement status in Canada. Soc Sci
+                                                                           Med. 2014;102:74–82. https ​ : //doi.org/10.1016/j.socsc​
+Author contributions JJ, CVH, TT, and RR contributed to the concep-        imed.2013.11.051.
+tualization and drafting of the manuscript. JJ and CVH conducted the    8. Jacobs JC, Lilly MB, Ng C, Coyte PC. The fiscal impact of
+analysis. RR and TT provided expertise surrounding the data as well        informal caregiving to home care recipients in Canada: how the
+as the survey methodology.                                                 intensity of care influences costs and benefits to government.
+562                                                                                                                                  J. C. Jacobs et al.
+
+      Soc Sci Med. 2013;81:102–9. https​://doi.org/10.1016/j.socsc​                Arbor: Michigan Retirment Research Center; 2017. Working
+      imed.2012.12.015.                                                            Paper No. 2017-356.
+ 9.   Van Houtven CH, Coe NB, Skira MM. The effect of informal care          15.   Skira MM. Dynamic wage and employment effects of elder parent
+      on work and wages. J Health Econ. 2013;32(1):240–52. https​://               care. Int Econ Rev. 2015;56(1):63–93.
+      doi.org/10.1016/j.jheal​eco.2012.10.006.                               16.   Ramchand R, Taneilian T, Fisher MP, Vaughan CA, Trail TE,
+10.   Heitmueller A. The chicken or the egg? Endogeneity in labour                 Epley C, et al. Hidden heroes: America’s military caregivers.
+      market participation of informal carers in England. J Health                 Santa Monica: RAND Corporation; 2014.
+      Econ. 2007;26(3):536–59. https ​ : //doi.org/10.1016/j.jheal​          17.   Robbins MW, Ghosh-Dastidar B, Ramchand R. Blending of prob-
+      eco.2006.10.005.                                                             ability and convenience samples as applied to a survey of military
+11.   Carmichael F, Charles S. The opportunity costs of informal care:             caregivers [abstract no. 324969]. JSM 2017; 29 Jul–3 Aug 2017;
+      does gender matter? J Health Econ. 2003;22(5):781–803. https​://             Baltimore.
+      doi.org/10.1016/S0167​-6296(03)00044​-4.                               18.   Long JS. Regression models for categorical and limited dependent
+12.   Jacobs JC, Van Houtven CH, Laporte AL, Coyte PC. The impact                  variables. 1st ed. Upper Saddle River: Sage; 1997.
+      of informal caregiving intensity on women’s retirement in the          19.   Al-Janabi H, Carmichael F, Oyebode J. Informal care: choice or
+      United States. J Popul Ageing. 2017;10(2):159–80.                            constraint? Scand J Caring Sci. 2018;32(1):157–67. https​://doi.
+13.   Jacobs JC, Van Houtven CV, Laporte AL, Coyte PC. Baby boomer                 org/10.1111/scs.12441​.
+      caregivers in the workforce: do they fare better or worse than their   20.   Carmichael F, Ercolani MG. Unpaid caregiving and paid work
+      predecessors. J Econ Ageing. 2015;6:89–101.                                  over life-courses: different pathways, diverging outcomes.
+14.   Fahle S, McGarry KM. Caregiving and work: the relationship                   Soc Sci Med. 2016;156:1–11. https​://doi.org/10.1016/j.socsc​
+      between labor market attachment and parental caregiving. Ann                 imed.2016.03.020.
+

@@ -42,7 +42,7 @@ Source file: `docs/sources/aarp-nac-caregiving-in-the-us-2025/full-report.pdf`. 
 - 11.2 million caregivers were paid for care in 2025 (p.13).
 - Dollar out-of-pocket spending: not in this report. [not in report]
 - Willingness to pay (Caregiver Action Network Tech Insights Survey 2026, 272 people from its email list, self-selected): 32% said any helpful tool should be free; 28% would pay $11 to $25 a month for something that really reduces their stress; "Only 12% said they would personally pay out of pocket"; 64% believe Medicare, Medicaid or insurance should cover caregiving technology.
-- Schulz et al. 2016 (512 caregivers, abstract only): about 20% would pay nothing for kitchen and self-care technologies; willing payers averaged about $50 a month for monitoring technology.
+- Schulz et al. 2016 (512 caregivers aged 18-64, full text read in PubMed Central; `docs/sources/literature/schulz-2016-willingness-to-pay-PMC5019044.*`): about 20% would pay nothing for kitchen and self-care technologies; willing payers averaged about $50 a month for monitoring technology and $70 for monitoring plus assistance, "capped at around $70 per month". Not about coordination apps; web panel survey.
 - Insurance type: not found.
 
 ## Psychographic (added)
@@ -70,3 +70,20 @@ Source file: `docs/sources/aarp-nac-caregiving-in-the-us-2025/full-report.pdf`. 
 
 ## Internal inconsistencies in the report itself (noted, not resolved)
 Key Takeaways say 40% high-intensity, body says 44%. Text says "57%" employed in one sentence and 60% elsewhere. The Executive Summary's "high emotional stress (64 percent)" is the moderate-or-high figure; the high-stress chart value is lower. The 2015 base appears as 43.5 and 44 million. Report text and tables differ by a point on LGBTQ+ and student shares.
+
+## By race and ethnicity (US caregivers; added 2026-11-01)
+
+Source: AARP and NAC, Caregiving in the US 2025, `docs/sources/aarp-nac-caregiving-in-the-us-2025/full-report.pdf`. **p. = PDF page** (printed = PDF minus 6). Why this is here: the US market includes families from cultures with strong parent-care traditions. Where the report gives a number it is shown; where it says only "more often" no number is given. The report does not break these groups down by caring for a parent, long distance, or sharing information with siblings. [not in report]
+
+- **Share of caregivers:** 61% non-Hispanic white, 16% Hispanic/Latino, 13% African American/Black, 6% Asian American, Native Hawaiian or Pacific Islander (AANHPI) (p.7, p.15).
+- **Living with the care recipient:** 40% overall; Hispanic/Latino 45%, African American/Black 43%. The report says this may reflect cultural comfort with multigenerational living, citing Guzman and Skow 2019 (p.22).
+- **Caring for an adult and a child at home (sandwich generation):** African American/Black 36%, Hispanic/Latino 43%, more than overall (p.24).
+- **Hours and difficulty of care:** African American/Black and Hispanic/Latino caregivers help with 2.2 daily-living tasks on average, vs 1.9 for all family caregivers of adults (p.30). A greater share of both groups are in high-intensity situations (p.33).
+- **Medical tasks:** African American/Black caregivers more often do medical and nursing tasks (62%) and are more often trained for them (27%) (p.34).
+- **Talking to providers and advocating:** African American/Black 70% and AANHPI 73% communicate with providers, vs all caregivers; advocating 65% and 69% (p.36).
+- **Employment:** 66% of African American/Black family caregivers work, vs 57% of all family caregivers (p.38).
+- **Money:** African American/Black, Hispanic/Latino, younger and lower-income caregivers more often report negative financial impacts (p.9).
+- **Health:** difficulty caring for own health 27% among Hispanic/Latino caregivers (p.47); physical strain 28% vs 19% for other caregivers (p.48).
+- **Meaning:** 58% of Hispanic/Latino caregivers say the role gives them a sense of purpose (p.50).
+- **Paid family caregivers** are more often Hispanic/Latino (23% vs 15% of unpaid), Black (21% vs 11%) and AANHPI (6% vs 4%) (p.16).
+- **Limits:** the survey used a web panel with added samples of Black, Hispanic and Asian American respondents (p.118); AANHPI is one broad group, with no sub-groups reported in the passages above. Group differences are from the report's text; I did not check each against its figures.

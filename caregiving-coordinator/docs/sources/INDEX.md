@@ -92,6 +92,12 @@ Folder: `literature/`. Eleven sources, each saved as `.html` or `.pdf` plus a `.
 
 Not found: any study of siblings coordinating care through an app, and any caregiver-specific study of AI visit summaries. Two AARP and NAC older technology reports were seen only as search snippets and were not used.
 
+### 2f-2. Schulz et al. 2016, full text now saved (collected 2026-11-01)
+
+`literature/schulz-2016-willingness-to-pay-PMC5019044.html` (exact page) and `.txt` (text extracted by code). Source: PubMed Central author manuscript, https://pmc.ncbi.nlm.nih.gov/articles/PMC5019044/ (the publisher's PDF returned 403 and was not retried). Schulz R, Beach SR, Matthews JT, et al. "Caregivers' Willingness to Pay for Technologies to Support Caregiving." The Gerontologist 2016;56(5):817-824.
+
+What the full text says: national web survey, N = 512 caregivers aged 18-64 caring for an older adult; nonprobability web panel, weighted to the NAC caregiver survey; 78% care for a parent, 56% live with the care recipient, 30% income $75,000 or more. About 20% would pay nothing for kitchen and self-care technologies; among payers the mean was about $50 a month for monitoring and $70 for monitoring plus assistance; the authors say willingness is "capped at around $70 per month"; most think government or private insurance should help pay. Limit: the technologies were kitchen and personal-care monitoring and assistance for the care recipient, not coordination or information-sharing tools, and the survey is from before 2016.
+
 ## 2g. Competitor sites and App Store reviews (collected 2026-11-01)
 
 Folder: `competitors/`. One subfolder per company with the pages read (`.html` plus `.txt`): Caring Village, CaringBridge, Lotsa Helping Hands, ianacare, Kin Health (meetkin.com), Cariloop, Wellthy, Papa, Honor, Medisafe, MyTherapy, Cozi, TimeTree, FamilyWall, Everplans, Trustworthy, A Place for Mom, Caring.com, Capsule, Amazon Pharmacy and PillPack. `carallel/` holds nothing useful: carallel.com returned HTTP 403.
@@ -147,6 +153,78 @@ Blocked and not used: jamanetwork.com, beckershospitalreview.com, academic.oup.c
 Folder: `indie/`. `producthunt-searches-2026-11-01.txt` holds the names and taglines returned by Product Hunt searches for caregiver, aging parents, eldercare and doctor visit notes, opened in Chrome through the Claude extension. A bot-check page appeared on some loads; I waited without interacting and did not solve it. The search "family caregiver" stayed behind it and returned nothing. Indie Hackers retired its search in 2026 (its page returns HTTP 410). GitHub and Hacker News results are in `github/` and `hackernews/` (sections 2c and 2d).
 
 Sources I could not open, with what I need from you: `from-user/README.md`.
+
+**Privacy warning for sections 2l, 2m and 2n:** the saved `.html` and `.json` files keep the original forum and YouTube usernames (the `.txt` files replace them with [member]). The repository is private. Before making it public or sharing the folder, delete the `.html` and raw `.json` files in `forums/` and `youtube/comments-raw/` and keep only the `.txt` files.
+
+## 2l. AgingCare caregiver forum threads (public, collected 2026-11-01; first open pass)
+
+Folder: `forums/agingcare/<topic>/<thread-id>.html` (exact page, saved byte for byte) and `.txt` (text extracted from that page by code). List of every thread: `forums/agingcare/manifest.csv`. Tool: `forums/fetch_agingcare.py` (plain HTTP request, 10 second delay, as the site's robots.txt asks; only thread pages).
+
+| Item | Detail |
+|---|---|
+| Source | AgingCare.com caregiver forum, https://www.agingcare.com/caregiver-forum |
+| Threads | 41, dated 2026-03-13 to 2026-10-31. Topics: Family Caregiver 7, Relationships 6, Caregiver Support 4, Financial Planning 4, Medications 4, New to Caregiving 4, Working Caregiver 4, Paying for Care 3, Power of Attorney 3, Care Decisions 2 |
+| How chosen | Recent threads from each topic's listing page, picked by agents with no keyword filter. Older "most popular" threads were skipped because they were dated before 2024 or undated. |
+| Handles | Member usernames are replaced with [member] in the .txt files. The .html files are untouched. |
+| Check run | 121 random lines from the 41 .txt files were searched for in the matching .html: all 121 found. |
+
+Limits: 5 of 41 threads show more answers on the page than the HTML holds (replies behind "See all" are not in the saved page). A first pass by model agents retyped the text and one typo was found, so those files were replaced by the code-made versions above. Forum posters skew toward frequent posters and dementia care. Not a representative sample. Facebook groups were not used (private; terms forbid scraping). Reddit: not yet collected (Firecrawl does not support it).
+
+## 2m. ALZConnected community threads (Alzheimer's Association; public; collected 2026-11-01; first open pass)
+
+Folder: `forums/alzconnected/discussions-recent/<thread-id>.html` (exact page) and `.txt` (text extracted from it by code). List: `forums/alzconnected/manifest.csv`. Tool: `forums/fetch_alzconnected.py` (plain HTTP request, 10 second delay; only `/discussions`, `/discussions/p<N>` and `/discussion/<id>/<slug>`, which the site's robots.txt allows).
+
+| Item | Detail |
+|---|---|
+| Source | https://alzconnected.org/discussions |
+| Threads | 101, the first four pages of "recent activity" on 2026-11-01; thread dates 2021-12-05 to 2026-11-01 (2 are older than 2024) |
+| Who they are about | By category: caring for a spouse or partner 45, caring for a parent 26, general caregiver topics 16, living with dementia 8, long distance 2, other 4. Mostly spouses, unlike AgingCare (mostly parents). |
+| How chosen | Page order only, no keyword filter |
+| Handles | Member usernames replaced with [member] in the .txt files; .html untouched |
+| Check run | 382 random lines from the .txt files searched for in the matching .html: 381 found; the one miss differs only by a non-breaking space |
+
+Limits: long threads show only page one of replies (later pages not fetched); no thread reached 50 messages. People in a dementia-focused community, so it skews to dementia care. Not a representative sample.
+
+## 2n. YouTube caregiver videos and comments (YouTube Data API v3; collected 2026-11-01)
+
+Folder: `youtube/`. `search-raw/` = Google's search answers saved byte for byte (7 topic searches); `candidates.csv` = the videos that passed the filters; `comments-raw/<video-id>/` = Google's comment answers (.json, exact) and `comments-raw/<video-id>.txt` = text extracted from them by code. Tool: `youtube/fetch_youtube.py`. The API key is in `.env` (not in git).
+
+| Item | Detail |
+|---|---|
+| Source | https://www.googleapis.com/youtube/v3/ (official API; terms: https://developers.google.com/youtube/terms/api-services-terms-of-service) |
+| Videos | 12 of the 13 that passed the filters (video 9, a video for mothers of estranged adult children, cut as off topic). Topics searched: caring for an aging parent, siblings not helping, caregiver burnout, long-distance caregiving, a parent's medications, power of attorney, dementia caregiving. |
+| Filters | Posted after 2023-11-01, English, 100+ comments, at most 2 per channel, top results by YouTube's relevance order. The long-distance and medications searches returned nothing with 100+ comments, and nothing at 50+, so those two topics are not covered. |
+| Comments | About 3,500 top-level threads (up to the first 500 by YouTube's "relevance" order per video) plus the replies shown with them |
+| Handles | Commenter names replaced with [member] in the .txt files; .json untouched |
+| Check run | 180 random lines from the .txt files searched for in the saved .json: all 180 found |
+
+Limits: comments are short and react to a video; commenters are the audience of each creator (many are coaches or self-help channels). Order is YouTube's "relevance," not a random sample. Firecrawl's YouTube reader was also tested (2 calls, 10 credits) but its output was not used: it cannot save to a file.
+
+## 2o. Academic papers on coordination, siblings, technology, cost and distance (collected 2026-11-01)
+
+Folder: `literature/papers/` (exact copy as `.html` or `.pdf`, plus `.txt` extracted by code; `status.csv` lists all 18). Found with `literature/search_openalex.py` (OpenAlex answers saved byte for byte in `literature/openalex-raw/`; all 89 results in `literature/openalex-candidates.csv`); copies fetched with `literature/fetch_papers.py` (PubMed Central first, then the open-access link; blocks are recorded, not worked around). 18 papers were picked by title and journal and approved by the project owner; 15 saved.
+
+| Paper | Year | Saved from |
+|---|---|---|
+| Family Caregiver Experiences Coordinating Care of Older Adults | 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12631485/ |
+| Caring in the Information Age: Personal Online Networks to Improve Caregiver Support | 2017 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5495540/ |
+| Family Care Partners and Paid Caregivers: National Estimates of Role-Sharing in Home Care | 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772859/ |
+| Designing Interactive Systems to Mediate Communication Between Formal and Informal Caregivers in Aged Care | 2019 | https://ieeexplore.ieee.org/ielx7/6287639/8600701/08906121.pdf |
+| “It made me feel like I wasn’t alone in the darkness”: exploring dementia care network communication and coordination through a digital health platform | 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9667183/ |
+| Designing trustworthy, low-threshold care coordination: co-creating a hybrid CareCompass with rural informal caregivers | 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13478116/ |
+| Division of Parent Care Among Adult Children | 2019 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7751154/ |
+| Paid Leave Mandates and Care for Older Parents | 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11576588/ |
+| Factors Predicting Decisions About Technology Adoption Among Older Adults | 2017 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6177084/ |
+| Sex and gender differences in technology needs and preferences among informal caregivers of persons with dementia | 2020 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7236350/ |
+| The burden of family caregiving in the United States: work productivity, health care resource utilization, and mental health among employed adults | 2017 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5723115/ |
+| Economic Spillover Effects of Intensive Unpaid Caregiving | 2019 | https://link.springer.com/content/pdf/10.1007/s40273-019-00784-7.pdf |
+| Close enough? Adult child-to-parent caregiving and residential proximity | 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8806164/ |
+| Spatial Distance Between Parents and Adult Children in the United States | 2019 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7537569/ |
+| Caregiving across distances: residential proximity, care activities, and mental health | 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13418846/ |
+
+Not saved (publisher returned 403; not retried): Technology Use among Family Caregivers of People with Dementia (2020); Patterns of help and care by adult only children and children with siblings (2022); Family caregiver readiness to adopt smart home technology to monitor care—Dependent older adults: A qualitative exploratory study (2023). If you can open them from your library, drop the PDFs in `docs/sources/from-user/`.
+
+Limits: PubMed Central slows requests that come too fast (a bot-check page appeared and cleared when requests were spaced 30 seconds apart). Findings from these papers are in `docs/academic-findings.md`, marked by what was read (abstract so far).
 
 ## 3. Earlier research (secondary sources; not yet re-read at the primary source)
 

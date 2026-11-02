@@ -1,0 +1,63 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "ZmOsn2dR2czCWvrB1_hKVfME5C4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "T_6_B0kSf1gPBcTa1-s9MmWuL88",
+      "id": "YlthrT39ps8",
+      "snippet": {
+        "publishedAt": "2026-05-02T00:00:40Z",
+        "channelId": "UChy5xzO6JM4v221lU4Z0hpw",
+        "title": "Why aging parents YELL at the caregiver who helps them MOST",
+        "description": "If your aging parent is yelling at you or blaming you for everything, it's not personal. Gerontologists call it the safe target effect: aging parents often direct their fear and anger at the adult child who shows up most, because that person feels safest to fall apart around. If you're the one doing the most caregiving and getting the most rage, this video explains why and what to do about it.\n\n#CaregiverSupport #AgingParents #DementiaCare #ElderCare #Shorts\n\n🔔 Every caregiver deserves to feel supported. Subscribe and join a community that gets it.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YlthrT39ps8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Neal K. Shah",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Why aging parents YELL at the caregiver who helps them MOST",
+          "description": "If your aging parent is yelling at you or blaming you for everything, it's not personal. Gerontologists call it the safe target effect: aging parents often direct their fear and anger at the adult child who shows up most, because that person feels safest to fall apart around. If you're the one doing the most caregiving and getting the most rage, this video explains why and what to do about it.\n\n#CaregiverSupport #AgingParents #DementiaCare #ElderCare #Shorts\n\n🔔 Every caregiver deserves to feel supported. Subscribe and join a community that gets it."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "184913",
+        "likeCount": "6714",
+        "favoriteCount": "0",
+        "commentCount": "209"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
