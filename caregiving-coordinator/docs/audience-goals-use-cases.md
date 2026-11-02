@@ -4,9 +4,11 @@ Process: the Community template "Audience Segmentation, Goals, Motivations, and 
 
 AARP report = AARP and NAC, Caregiving in the US 2025, full report: https://www.aarp.org/content/dam/aarp/ppi/topics/ltss/family-caregiving/caregiving-in-us-2025.doi.10.26419-2fppi.00373.001.pdf . **"p." is the PDF page** (printed page = PDF page minus 6). Saved copy and page-marked text: `docs/sources/aarp-nac-caregiving-in-the-us-2025/`. Every figure below was found by script on the cited page.
 
+**Naming note (2026-11-02):** the first draft used the labels "The family coordinator" and "The one who does it all". Those were my wording, with no research behind them, and "does it all" also fits parent caregivers (for example "I am the sole caregiver. I get no help.", thread agi-498946). The audiences are now named by the relationship the data separates: AARP Figure 3 (p.17) lists "Parent/Parent-in-law" and "Spouse/Partner" as the two biggest groups, and our forum tags found 55 and 54 threads.
+
 ## Step 2. Audiences, labels and traits (candidates A and B; the owner picks)
 
-### Audience A: "The family coordinator" (an adult child organizing a parent's care)
+### Audience A: Adult child caring for a parent
 | Trait | Evidence | Link and page |
 |---|---|---|
 | Cares for a parent (40%) or parent-in-law (7%) | "Most are caring for a parent (40 percent) or parent-in-law (7 percent) or for a spouse or partner (15 percent)" | AARP report p.17 |
@@ -18,7 +20,7 @@ AARP report = AARP and NAC, Caregiving in the US 2025, full report: https://www.
 | Also the project owner's own case | The owner and sisters bought gadgets for their father (Apple Watch, smart blood pressure cuff). One case, told in chat, not checked | Owner, 2026-11-02 chat |
 | Lives with or apart (forum threads that say) | 24 threads about a parent say where they live: 16 live apart, 8 live together. Most threads do not say | `docs/sources/forum-relevance/forum-final.json` |
 
-### Audience B: "The one who does it all" (main caregiver, often living with the person)
+### Audience B: Spouse or partner caring for a husband, wife or partner
 | Trait | Evidence | Link and page |
 |---|---|---|
 | Lives with the person | "Forty percent of caregivers live with their care recipient (up from 34 percent in 2015)" | AARP report p.22 |
@@ -46,7 +48,7 @@ Then step 3 (motivations) uses forum quotes with their web links.
 
 Source: the 109 forum threads that the strict check confirmed as caregiving and tagged as caring for a parent (55) or a spouse or partner (54) (`docs/sources/forum-relevance/forum-final.json`). Reader agents extracted exact quotes from each thread; a script confirmed all 428 quotes are exact matches to the saved thread text. **Counts are the number of threads where a reader found a clear statement of that kind. They are minimums, not shares of all caregivers**: readers kept up to 6 items per thread, and the forums are AgingCare and ALZConnected (a dementia community), not a sample of all caregivers. Groups are formed by keyword rules on the readers' labels (`themes_motiv.py`), so a quote can sit in a group that is only approximately right. Each quote links to its original forum thread.
 
-### Audience A: The family coordinator: caring for a parent (55 threads)
+### Audience A: Adult child caring for a parent (55 threads)
 
 **Motivations: what drives them**
 
@@ -100,7 +102,7 @@ Source: the 109 forum threads that the strict check confirmed as caregiving and 
 - **Their own health and sanity**: 1 of 55 threads
   - "I wish I had the courage to stop caregiving" ([thread agi-499771](https://www.agingcare.com/questions/anyone-else-dealing-with-2-sisters-who-live-their-own-lives-go-everywhere-without-me-leave-me-here-t-499771.htm))
 
-### Audience B: The one who does it all: caring for a spouse or partner (54 threads)
+### Audience B: Spouse or partner caring for a husband, wife or partner (54 threads)
 
 **Motivations: what drives them**
 
@@ -153,7 +155,7 @@ Source: the 109 forum threads that the strict check confirmed as caregiving and 
 
 Problems: the 286 problem statements that readers extracted from the 109 parent and spouse threads (151 and 135). A reader agent sorted each into a theme by reading the quote (`docs/sources/forum-relevance/usecase-assign-*.json`); counts are the number of threads per theme, so they are minimums and approximate. Examples are exact quotes, each checked against its saved thread (36 of 36). **The last two columns (business goal and future scenarios) are ASSUMPTIONS written as outcomes, not features, and are not research findings.** Themes that fit none (10 and 7 threads for parent and spouse caregivers) are left out. Prioritization on risk and certainty is still to do with the owner.
 
-### Audience 1: The family coordinator (parent)
+### Audience 1: Adult child caring for a parent
 
 - Exhaustion, guilt and no life of their own (23 of 55 threads)
 - Dementia behavior and hard conversations (14 of 55 threads)
@@ -165,7 +167,7 @@ Problems: the 286 problem statements that readers extracted from the 109 parent 
 - Getting answers from doctors and hospitals (4 of 55 threads)
 - Being far away and not knowing what is happening (2 of 55 threads)
 
-### Audience 2: The one who does it all (spouse or partner)
+### Audience 2: Spouse or partner caring for a husband, wife or partner
 
 - Exhaustion, loneliness and own health (22 of 54 threads)
 - Dementia behavior and hard conversations (18 of 54 threads)
