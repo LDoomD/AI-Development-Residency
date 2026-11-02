@@ -146,3 +146,33 @@ Source: the 109 forum threads that the strict check confirmed as caregiving and 
   - "starting with me getting back to taking my 30 minute walks which I used to do at least 5 times a week." ([thread alz-77427](https://alzconnected.org/discussion/77427/time-for-therapy-for-me))
 
 **Not found in the data, so not claimed:** how many caregivers share each motivation; any difference between the two audiences beyond what the counts above show (counts are small and the forums differ: ALZConnected is mostly spouses, AgingCare mostly parents).
+
+---
+
+## Step 5. Use cases to support (DRAFT, 2026-11-02; in the audience workshop board)
+
+Problems: the 286 problem statements that readers extracted from the 109 parent and spouse threads (151 and 135). A reader agent sorted each into a theme by reading the quote (`docs/sources/forum-relevance/usecase-assign-*.json`); counts are the number of threads per theme, so they are minimums and approximate. Examples are exact quotes, each checked against its saved thread (36 of 36). **The last two columns (business goal and future scenarios) are ASSUMPTIONS written as outcomes, not features, and are not research findings.** Themes that fit none (10 and 7 threads for parent and spouse caregivers) are left out. Prioritization on risk and certainty is still to do with the owner.
+
+### Audience 1: The family coordinator (parent)
+
+- Exhaustion, guilt and no life of their own (23 of 55 threads)
+- Dementia behavior and hard conversations (14 of 55 threads)
+- Money, legal papers and facility bills (11 of 55 threads)
+- Relatives do not help, or block each other (10 of 55 threads)
+- Medicines, eating and personal care (8 of 55 threads)
+- Choosing and arranging a place for them (6 of 55 threads)
+- Staying safe at home (6 of 55 threads)
+- Getting answers from doctors and hospitals (4 of 55 threads)
+- Being far away and not knowing what is happening (2 of 55 threads)
+
+### Audience 2: The one who does it all (spouse or partner)
+
+- Exhaustion, loneliness and own health (22 of 54 threads)
+- Dementia behavior and hard conversations (18 of 54 threads)
+- Personal care and medicines (12 of 54 threads)
+- Safety when they are alone or out (9 of 54 threads)
+- Aides, hospice and trusting others (8 of 54 threads)
+- Placing them and care costs (7 of 54 threads)
+- Money, scams and bills (6 of 54 threads)
+- Diagnosis and doctor delays (4 of 54 threads)
+- Relatives and others not helping or criticizing (3 of 54 threads)
