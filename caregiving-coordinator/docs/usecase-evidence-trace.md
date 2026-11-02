@@ -217,8 +217,8 @@ Each business goal and future scenario in the use case tables is an assumption. 
 - **future scenario**: The person takes medicine without a fight  
   Strength: **clear**. Wife refuses her meds when offered.
   - “My wife has determined to not take her meds when I offer them to her.” (agi-498938)
-- **future scenario**: Doctors can see the readings or notes the caregiver keeps  
-  Strength: **none**. No quote is about doctors seeing readings or notes the caregiver keeps.
+- **future scenario (REMOVED 2026-11-02)**: Doctors can see the readings or notes the caregiver keeps  
+  No quote in the data supports it, so it was cut from the use case table at the owner's request.
 
 ### Safety when they are alone or out
 
