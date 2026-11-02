@@ -179,24 +179,24 @@ Problems: the 286 problem statements that readers extracted from the 109 parent 
 
 ---
 
-## How the two audiences differ (table added 2026-11-02, in the audience workshop board)
+## How the two audiences differ (table in the audience workshop board)
 
-Share of forum threads (count in brackets). Approximate: one reader sorted each quote, the forums are mostly dementia caregivers, and the two audiences' problem themes are worded slightly differently. A gap under about 5 points is called "about the same".
+How to read this: each row is one theme. The two middle columns show the share of that audience's forum threads that were about it (the count of threads is in brackets). The last column says which audience has more of it, and by how many percentage points. Approximate: one reader sorted each quote, the forums are mostly dementia caregivers, and the problem themes are worded slightly differently for each audience. Under about 5 points is called "about the same".
 
-| What we compare | Audience 1: adult children caring for a parent (55 threads) | Audience 2: spouses and partners caring for a husband, wife or partner (54 threads) | Which is more common |
+| What we compare | Audience 1: adult children caring for a parent (55 threads) | Audience 2: spouses and partners caring for a husband, wife or partner (54 threads) | Which audience has more? (gap in points) |
 |---|---|---|---|
-| Problem: exhaustion, guilt, loneliness | 42% (23) | 41% (22) | About the same |
-| Problem: dementia behavior, hard conversations | 25% (14) | 33% (18) | Spouse more |
-| Problem: money, legal papers, bills | 20% (11) | 11% (6) | Parent more |
-| Problem: relatives not helping, or blocking | 18% (10) | 6% (3) | Parent more |
-| Problem: medicines, eating, personal care | 15% (8) | 22% (12) | Spouse more |
-| Problem: staying safe (home, alone, out) | 11% (6) | 17% (9) | Spouse more |
-| Problem: choosing or paying for a place | 11% (6) | 13% (7) | About the same |
-| Problem: answers and diagnosis from doctors | 7% (4) | 7% (4) | About the same |
-| Problem: trusting aides and hospice | not a separate theme | 15% (8) | Spouse only |
-| Problem: far away, not knowing what is happening | 4% (2) | not a separate theme | Parent only |
-| Motivation: love, loyalty, promises | 5% (3) | 17% (9) | Spouse more |
-| Life goal: own health and sanity | 2% (1) | 13% (7) | Spouse more |
-| Where they live (only threads that say) | 16 apart, 8 together (24 threads) | 4 apart, 12 together (16 threads) | Opposite |
+| Problem: exhaustion, guilt, loneliness | 42% (23) | 41% (22) | About the same (1 point) |
+| Problem: dementia behavior, hard conversations | 25% (14) | 33% (18) | Audience 2 has more (8 points) |
+| Problem: money, legal papers, bills | 20% (11) | 11% (6) | Audience 1 has more (9 points) |
+| Problem: relatives not helping, or blocking | 18% (10) | 6% (3) | Audience 1 has more (12 points) |
+| Problem: medicines, eating, personal care | 15% (8) | 22% (12) | Audience 2 has more (7 points) |
+| Problem: staying safe (home, alone, out) | 11% (6) | 17% (9) | Audience 2 has more (6 points) |
+| Problem: choosing or paying for a place | 11% (6) | 13% (7) | About the same (2 points) |
+| Problem: answers and diagnosis from doctors | 7% (4) | 7% (4) | About the same (0 points) |
+| Problem: trusting aides and hospice | not a separate theme | 15% (8) | Only Audience 2 has it |
+| Problem: far away, not knowing what is happening | 4% (2) | not a separate theme | Only Audience 1 has it |
+| Motivation: love, loyalty, promises | 5% (3) | 17% (9) | Audience 2 has more (12 points) |
+| Life goal: own health and sanity | 2% (1) | 13% (7) | Audience 2 has more (11 points) |
+| Where they live (only threads that say) | 16 apart, 8 together (24 threads) | 4 apart, 12 together (16 threads) | Reversed: Audience 1 mostly apart, Audience 2 mostly together |
 
 **My reading (not a finding):** the two audiences differ more in who they care for, where they live and who else helps than in what they want. Whether that is enough to treat them as two audiences is the owner's decision.
