@@ -270,3 +270,6 @@ Folder: `competitive-analysis/` and `competitors-2/`. Output: `docs/competitive-
 
 ## 2x. Audience Segmentation, Goals, Motivations, and Use Cases Workshop template (2026-11-02)
 - `audience-workshop-template/template-text.md`: text copy of all 7 sections of the community template the owner linked (https://www.figma.com/board/Q5jRpN3MbONqFQF6KTS70j/). Read-only. Used to set the order of work for audience goals and use cases.
+
+## 2y. Instructor notebook, check of the audience segmentation work (2026-11-02)
+- `instructor-notebook/answer-3-check-of-audience-work.txt`: the question (a summary of the audience work and six questions) and the notebook's full answer. Asked in the owner's signed-in Chrome session at the owner's request. Limit: the notebook's own words and quotes; I could not open the underlying course files, so its quotes are reported, not verified by me. Differences from the Community template board are noted in the chat reply.
