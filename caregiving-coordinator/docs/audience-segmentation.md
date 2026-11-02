@@ -96,7 +96,7 @@ Sources: `docs/community-voice-findings.md` (141 forum threads, 12 videos, quote
 
 - **Behavioral:** paper (notebooks, visit logs, accordion files) is the common tool and often works. Family dynamic per forum thread: siblings or family help 13, do not help 14, conflict 12, not mentioned 75, unclear 27. About three quarters of older adults get help from one child (NHATS 2011 to 2017), so many caregivers are the one doing the work.
 - **Geographic:** long-distance share is 11% of all caregivers (AARP) or 13.2% of adult children of Medicare beneficiaries 71+ (NHATS 2021). Different bases; do not combine.
-- **Psychographic:** burnout and guilt is the top theme (forums 17% main, 39% anywhere; YouTube about 21%). 17 of 141 threads mention account or login access. Coordination with doctors is the weakest-rated task in the 2025 JAMA Network Open paper.
+- **Psychographic:** burnout and guilt is the top theme (forums 17% main, 39% anywhere; YouTube about 21%). 17 of 141 threads (17 of the 117 caregiving-only threads) mention account or login access. Coordination with doctors is the weakest-rated task in the 2025 JAMA Network Open paper.
 - **Socioeconomic:** Schulz 2016 cap about $70 a month for monitoring (20% pay nothing); CAN 2026 survey 12% would pay out of pocket.
 - **Not covered:** younger text-coordinating caregivers (Reddit blocked), non-US, race and ethnicity in the forum data (profiles are not collected).
 

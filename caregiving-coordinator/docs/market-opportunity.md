@@ -54,12 +54,12 @@ The answer above used the NotebookLM summary (about 86 sources, not saved). That
 **Effect on the verdict:** Segment 1 stays on the list but confidence drops from medium to low to **low**. It is a hypothesis, not a leading answer.
 
 **Verdicts above that are now out of date**
-- **Segment 10 (vaults, accounts, access)** was "not a clear need" because it was not a theme in the Reddit file. 17 of 141 forum threads mention logins or accounts, and the quotes are concrete (one person wants read-only access for siblings "without taking on the credit exposure and liability"). Re-assess.
+- **Segment 10 (vaults, accounts, access)** was "not a clear need" because it was not a theme in the Reddit file. 17 of 141 forum threads (17 of the 117 caregiving-only threads) mention logins or accounts, and the quotes are concrete (one person wants read-only access for siblings "without taking on the credit exposure and liability"). Re-assess.
 - **Segments 11 and 12 (respite, caregiver mental health)** were "not assessed". Burnout, guilt, isolation and grief is the top theme in forums and YouTube. Assess.
 - **Segment 14 (insurance and benefits navigation)**: money, insurance and legal papers appear in 32% of forum threads. Assess.
 - **Segments 8 and 9 (visit notes, portals)**: doctors, appointments and records appear in 19% of threads, 2% as main topic. The need is real but small as a main topic; nobody asked for AI notes specifically.
 
-**Concrete pains seen in the threads (not framed as a solution):** access to accounts and records (17 of 141), not knowing what happened when you were not there (aide visits, visit logs), power of attorney and HIPAA forms, medications, placement costs.
+**Concrete pains seen in the threads (not framed as a solution):** access to accounts and records (17 of 141; 17 of the 117 caregiving-only threads), not knowing what happened when you were not there (aide visits, visit logs), power of attorney and HIPAA forms, medications, placement costs.
 
 **Limits:** the forums lean toward dementia, spouses and heavy writers. Reddit was blocked, so younger caregivers who coordinate by text are underrepresented. One reader assigned one theme per thread, so counts are approximate. These are secondary sources and cannot show willingness to pay or what people would do.
 
