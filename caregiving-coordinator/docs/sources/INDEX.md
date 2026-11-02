@@ -261,3 +261,6 @@ Folder: `competitive-analysis/` and `competitors-2/`. Output: `docs/competitive-
 
 ## 2u. Small Apple review samples for Everplans and Epic MyChart (2026-11-02)
 - Fetched with `app-reviews/fetch_apple_reviews3.py` (public feed; Everplans 8 reviews = all it returns, Epic MyChart 200 most recent); `reviews3.csv`, `all-reviews3.jsonl` (ids c-N); my reading of the 13 that mention a family word is in `app-reviews/analysis/sample3-tags.json` (every evidence quote checked as an exact substring). Raw files with usernames are in the gitignored `raw/`. Not part of the 439 caregiving count.
+
+## 2v. Guides on questions to ask about competitors (2026-11-02)
+- Folder `competitor-questions/`: saved copies (`.html` and `.txt`) of Aha! (https://www.aha.io/roadmapping/guide/product-strategy/how-should-product-managers-research-competitors), Productboard (https://www.productboard.com/glossary/competitor-analysis/), Coursera (https://www.coursera.org/articles/competitor-analysis) and Salesforce (https://www.salesforce.com/blog/small-business/what-is-competitor-anaylsis/). Fetched 2026-11-02 after a robots.txt check (all allowed). Text versions are tag-stripped by script. Used in `docs/competitor-questions.md`. Salesforce: the article is lines 14-70 of the text copy (the rest is a sign-up form and a country list); its product, cost and place questions are cited.
