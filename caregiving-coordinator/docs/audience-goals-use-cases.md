@@ -27,7 +27,7 @@ AARP report = AARP and NAC, Caregiving in the US 2025, full report: https://www.
 | Often alone in it | 34% have no other help (Figure 11) | AARP report p.25 |
 | Long-term | Average 5.5 years; nearly 30% five years or more | AARP report p.28 |
 | Medical tasks without training | 55% do medical or nursing tasks; 22% received training | AARP report p.34 |
-| Did not choose it | "Over half of family caregivers (56 percent) felt they had no choice"; only 42% of them find purpose in it | AARP report p.50 |
+| Did not choose it | "(56 percent) felt they had no choice in taking on their" role (the page text runs two columns together); "42 percent of involuntary caregivers find purpose in caregiving" | AARP report p.50 |
 | Feels alone and stressed | 24% say they feel alone (up from 21% in 2020) | AARP report p.9 |
 | Burned out and guilty | Burnout, guilt, isolation and grief is the main topic of 25 of 141 forum threads (17%) and appears in 55 (39%), the top or second theme in every source | `docs/community-voice-findings.md` |
 | Includes spouses | 15% of caregivers care for a spouse or partner. The report has no separate figures for them in our extraction, so they are folded into this audience | AARP report p.17 |
