@@ -6,7 +6,7 @@ rows = json.load(open(HERE / "table-rows.json"))
 src = (HERE / "compose.py").read_text()
 CATLABEL = ast.literal_eval(re.search(r"CATLABEL = (\{.*?\})\n", src, re.S).group(1))
 KEEP = ["Caring Village","CaringBridge","Lotsa Helping Hands","Medisafe","Everplans","Epic MyChart","Lively","Medical Guardian","Group texts","Paper notebook and visit log"]
-APP = {"Caring Village":["caring-village"],"CaringBridge":["caringbridge"],"Lotsa Helping Hands":["lotsa"],"Medisafe":["medisafe"],"Lively":["lively-link"],"Medical Guardian":["mymedicalguardian"]}
+APP = {"Caring Village":["caring-village"],"CaringBridge":["caringbridge"],"Lotsa Helping Hands":["lotsa-helping-hands"],"Medisafe":["medisafe"],"Lively":["lively-link"],"Medical Guardian":["mymedicalguardian"]}
 tags = json.load(open(AR / "verified-tags.json")); rel = json.load(open(AR / "relevance-final.json"))
 tags = [t for t in tags if rel.get(t["id"], {}).get("relevance") == "caregiving" and t.get("quote_verified")]
 norm = lambda s: s.lower().replace(" ", "-")
