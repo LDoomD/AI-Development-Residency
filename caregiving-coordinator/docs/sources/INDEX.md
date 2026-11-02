@@ -267,3 +267,6 @@ Folder: `competitive-analysis/` and `competitors-2/`. Output: `docs/competitive-
 
 ## 2w. Instructor NotebookLM notebook, two questions (2026-11-02)
 - Folder `instructor-notebook/`: the question sent and the notebook's full answer text for each (`answer-1-order-of-steps.txt`, `answer-2-followup.txt`). Asked in the owner's signed-in Chrome session with the owner's OK. The notebook is the instructor's ("AI Development Residency - Learning Materials", 93 sources). Limit: the notebook's own words and quotes; I could not open the underlying documents, so its quotes are reported, not verified by me. The two answers differ on whether a segment is chosen early (see the answers).
+
+## 2x. Audience Segmentation, Goals, Motivations, and Use Cases Workshop template (2026-11-02)
+- `audience-workshop-template/template-text.md`: text copy of all 7 sections of the community template the owner linked (https://www.figma.com/board/Q5jRpN3MbONqFQF6KTS70j/). Read-only. Used to set the order of work for audience goals and use cases.
