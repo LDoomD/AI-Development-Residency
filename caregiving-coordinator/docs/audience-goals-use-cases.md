@@ -179,18 +179,24 @@ Problems: the 286 problem statements that readers extracted from the 109 parent 
 
 ---
 
-## How the two audiences differ (added 2026-11-02, in the audience workshop board)
+## How the two audiences differ (table added 2026-11-02, in the audience workshop board)
 
-Counts are forum threads from the sorted quotes; approximate (one reader sorted each quote; the forums are mostly dementia caregivers).
+Share of forum threads (count in brackets). Approximate: one reader sorted each quote, the forums are mostly dementia caregivers, and the two audiences' problem themes are worded slightly differently. A gap under about 5 points is called "about the same".
 
-**The same for both:** exhaustion and loneliness is the top problem (23 of 55 parent threads, 22 of 54 spouse threads); dementia behavior is second (14 and 18); safety, money, finding or paying for a place, and doctor delays appear for both; motivations and life goals use the same themes.
+| What we compare | Audience 1: caring for a parent (55 threads) | Audience 2: caring for a spouse or partner (54 threads) | Which is more common |
+|---|---|---|---|
+| Problem: exhaustion, guilt, loneliness | 42% (23) | 41% (22) | About the same |
+| Problem: dementia behavior, hard conversations | 25% (14) | 33% (18) | Spouse more |
+| Problem: money, legal papers, bills | 20% (11) | 11% (6) | Parent more |
+| Problem: relatives not helping, or blocking | 18% (10) | 6% (3) | Parent more |
+| Problem: medicines, eating, personal care | 15% (8) | 22% (12) | Spouse more |
+| Problem: staying safe (home, alone, out) | 11% (6) | 17% (9) | Spouse more |
+| Problem: choosing or paying for a place | 11% (6) | 13% (7) | About the same |
+| Problem: answers and diagnosis from doctors | 7% (4) | 7% (4) | About the same |
+| Problem: trusting aides and hospice | not a separate theme | 15% (8) | Spouse only |
+| Problem: far away, not knowing what is happening | 4% (2) | not a separate theme | Parent only |
+| Motivation: love, loyalty, promises | 5% (3) | 17% (9) | Spouse more |
+| Life goal: own health and sanity | 2% (1) | 13% (7) | Spouse more |
+| Where they live (only threads that say) | 16 apart, 8 together (24 threads) | 4 apart, 12 together (16 threads) | Opposite |
 
-**Different:**
-- Where they live (only the threads that say): parent caregivers, 16 apart and 8 together; spouse caregivers, 12 together and 4 apart.
-- Relatives not helping or blocking: 10 of 55 parent threads, 3 of 54 spouse threads.
-- Love, loyalty and promises as a motivation: 3 of 55 and 9 of 54.
-- Own health and sanity as a life goal: 1 of 55 and 7 of 54.
-- Trusting aides and hospice: a theme for spouse caregivers (8 of 54 threads), not a separate theme for parent caregivers.
-- Being far away and not knowing what is happening: a theme for parent caregivers (2 of 55 threads), not a separate theme for spouse caregivers.
-
-**My reading (not a finding):** the audiences differ more in who they care for, where they live and who else is around to help than in what they want. Whether that is enough to treat them as two audiences is the owner's decision.
+**My reading (not a finding):** the two audiences differ more in who they care for, where they live and who else helps than in what they want. Whether that is enough to treat them as two audiences is the owner's decision.
