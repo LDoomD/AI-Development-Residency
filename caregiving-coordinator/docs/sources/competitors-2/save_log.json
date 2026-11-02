@@ -1,0 +1,204 @@
+[
+ {
+  "company": "lively",
+  "url": "https://www.lively.com/",
+  "robots_allowed": true,
+  "file": "lively/www_lively_com.html",
+  "status": 200,
+  "bytes": 345669
+ },
+ {
+  "company": "lively",
+  "url": "https://www.lively.com/mobile-apps/lively-link/",
+  "robots_allowed": true,
+  "file": "lively/www_lively_com_mobile_apps_lively_link.html",
+  "status": 200,
+  "bytes": 365,
+  "note": "possible bot page or tiny page: check before use"
+ },
+ {
+  "company": "lively",
+  "url": "https://www.lively.com/medical-alert-systems/",
+  "robots_allowed": true,
+  "file": "lively/www_lively_com_medical_alert_systems.html",
+  "status": 200,
+  "bytes": 365,
+  "note": "possible bot page or tiny page: check before use"
+ },
+ {
+  "company": "medical-guardian",
+  "url": "https://www.medicalguardian.com/",
+  "robots_allowed": true,
+  "file": "medical-guardian/www_medicalguardian_com.html",
+  "status": 200,
+  "bytes": 318324
+ },
+ {
+  "company": "medical-guardian",
+  "url": "https://www.medicalguardian.com/caregiver-portal",
+  "robots_allowed": true,
+  "file": null,
+  "status": "error: HTTP Error 404: Not Found",
+  "bytes": 0
+ },
+ {
+  "company": "medical-guardian",
+  "url": "https://www.medicalguardian.com/pricing",
+  "robots_allowed": true,
+  "file": "medical-guardian/www_medicalguardian_com_pricing.html",
+  "status": 200,
+  "bytes": 318324
+ },
+ {
+  "company": "aloe-care",
+  "url": "https://www.aloecare.com/",
+  "robots_allowed": true,
+  "file": "aloe-care/www_aloecare_com.html",
+  "status": 200,
+  "bytes": 102001
+ },
+ {
+  "company": "aloe-care",
+  "url": "https://www.aloecare.com/pages/aloe-care-app",
+  "robots_allowed": true,
+  "file": null,
+  "status": "error: HTTP Error 404: Not Found",
+  "bytes": 0
+ },
+ {
+  "company": "life360",
+  "url": "https://www.life360.com/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "life360",
+  "url": "https://www.life360.com/membership/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "apple-watch",
+  "url": "https://www.apple.com/watch/",
+  "robots_allowed": true,
+  "file": "apple-watch/www_apple_com_watch.html",
+  "status": 200,
+  "bytes": 628451
+ },
+ {
+  "company": "apple-watch",
+  "url": "https://support.apple.com/en-us/108896",
+  "robots_allowed": true,
+  "file": "apple-watch/support_apple_com_en_us_108896.html",
+  "status": 200,
+  "bytes": 166189
+ },
+ {
+  "company": "apple-watch",
+  "url": "https://support.apple.com/guide/watch/use-fall-detection-apd8ac6d8f6e/watchos",
+  "robots_allowed": true,
+  "file": "apple-watch/support_apple_com_guide_watch_use_fall_detection_apd8ac6d8f6e_watchos.html",
+  "status": 200,
+  "bytes": 760258
+ },
+ {
+  "company": "omron",
+  "url": "https://omronhealthcare.com/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "omron",
+  "url": "https://omronhealthcare.com/omron-connect-app",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "withings",
+  "url": "https://www.withings.com/us/en/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "withings",
+  "url": "https://www.withings.com/us/en/health-mate",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "1password",
+  "url": "https://1password.com/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "1password",
+  "url": "https://1password.com/features/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "1password",
+  "url": "https://1password.com/pricing/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "keeper",
+  "url": "https://www.keepersecurity.com/",
+  "robots_allowed": true,
+  "file": "keeper/www_keepersecurity_com.html",
+  "status": 200,
+  "bytes": 74937
+ },
+ {
+  "company": "keeper",
+  "url": "https://www.keepersecurity.com/features.html",
+  "robots_allowed": true,
+  "file": null,
+  "status": "error: HTTP Error 404: ",
+  "bytes": 0
+ },
+ {
+  "company": "keeper",
+  "url": "https://www.keepersecurity.com/pricing/personal-and-family.html",
+  "robots_allowed": true,
+  "file": "keeper/www_keepersecurity_com_pricing_personal_and_family_html.html",
+  "status": 200,
+  "bytes": 71565
+ },
+ {
+  "company": "epic-mychart",
+  "url": "https://www.mychart.org/",
+  "robots_allowed": true,
+  "file": "epic-mychart/www_mychart_org.html",
+  "status": 200,
+  "bytes": 201281
+ },
+ {
+  "company": "epic-mychart",
+  "url": "https://www.epic.com/epic/mychart/",
+  "robots_allowed": true,
+  "file": null,
+  "status": "error: HTTP Error 404: Not Found",
+  "bytes": 0
+ }
+]
