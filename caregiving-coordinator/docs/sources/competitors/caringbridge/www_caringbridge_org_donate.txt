@@ -1,0 +1,98 @@
+
+
+[NEXT_DATA TEXT]
+Make a donation to CaringBridge
+Letter Styling for NonTrib form NextAfter
+ 
+        Help Keep Friends and Family Connected
+     
+     
+        Hi, my name is Kelly.
+     
+     
+         
+             
+         
+     
+     
+        For 20 years, I've had the incredible privilege of not only working here at 
+        CaringBridge, but have been a proud donor and user myself. You and I may even share 
+        that in common!
+     
+     
+        First, I want to thank you for staying connected through CaringBridge. Your emotional 
+        support through comments, hearts, and care means so much.
+     
+     
+      If it's not too much to ask, would you consider giving a gift to help CaringBridge stay 
+        online? So many people benefit from CaringBridge—the authors who post, the family and 
+        friends who read updates, and the caregivers who receive support through the 
+        encouraging comments.
+     
+     
+        You know firsthand the impact that CaringBridge can have in very difficult circumstances. 
+        And we'd like to give you the opportunity to help provide that impact. We'd like to ask for 
+        your support to continue to provide CaringBridge to you and your loved ones.
+     
+     
+        If you're willing, please make your donation today. Thank you for your consideration!
+     
+     
+        —Kelly
+     
+     
+         
+             
+         -->
+         Kelly Espy Fundraising Campaign Manager 
+     
+
+ 
+main.centerLayout { background-color: white !important }
+main.centerLayout .backgroundImage { display: none !important }
+main.centerLayout .contentBkgd { background-color: white !important }
+main header ~ div h1 { font-size: 32px }
+main header ~ div p {
+  font-size: 16px;
+  margin: 0 0 0.5rem 0;
+}
+.signature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 2rem;
+}
+.signature picture { max-width: 100px } 
+.signature picture > img { max-width: 100px }
+.signature p {
+  position: relative;
+  margin: 0;
+}
+.signature p::before {
+  content: ' ';
+  position: absolute; top: 0; left: 0; bottom: 0;
+  transform: translateX(calc(-1rem - 2px)) scaleY(120%);
+  border-right: 2px solid #852470;
+}
+/* v2: align photo left after first paragraph*/
+main header ~ div .signature p { padding-left: 1.25rem }
+main header ~ div .signature p::before { transform: translateX(-1px) scaleY(100%) }
+main header ~ div picture {
+  max-width: 100px;
+  max-height: 100px;
+  height: fit-content;
+  display: block;
+} 
+main header ~ div picture > img {
+  max-width: 100px;
+  /*margin-bottom: 1rem;*/
+}
+@media only screen and (max-width: 580px) {
+  main header ~ div picture > img { margin-bottom: 0 }
+}
+.contentText:has(.ggeConfirmation) > div:not(:has(.ggeConfirmation)) {
+    display: none;
+}
+ 
+  

@@ -1,0 +1,511 @@
+
+JMIR Aging
+. 2024 Nov 20;7:e58517. doi: 10.2196/58517
+
+mHealth Apps for Dementia Caregivers: Systematic Examination of Mobile Apps
+
+Ning Zou
+
+Ning Zou, MS
+
+1School of Computing and Information, University of Pittsburgh, Pittsburgh, PA, United States
+
+Find articles by Ning Zou
+
+1,✉, Bo Xie
+
+Bo Xie, PhD
+
+2School of Nursing, The University of Texas at Austin, Austin, TX, United States
+
+3School of Information, The University of Texas at Austin, Austin, TX, United States
+
+Find articles by Bo Xie
+
+2,3, Daqing He
+
+Daqing He, PhD
+
+1School of Computing and Information, University of Pittsburgh, Pittsburgh, PA, United States
+
+Find articles by Daqing He
+
+1, Robin Hilsabeck
+
+Robin Hilsabeck, PhD
+
+4Glenn Biggs Institute for Alzheimer's & Neurodegenerative Diseases, Department of Neurology, University of Texas Health Sciences Center at San Antonio, San Antonio, TX, United States
+
+Find articles by Robin Hilsabeck
+
+4, Alyssa Aguirre
+
+Alyssa Aguirre, MSW
+
+5Department of Neurology, Dell Medical School, The University of Texas at Austin, Austin, TX, United States
+
+6Steve Hicks School of Social Work, The University of Texas at Austin, Austin, TX, United States
+
+Find articles by Alyssa Aguirre
+
+5,6
+
+Editor: Qiping Fan
+
+Author information
+
+Article notes
+
+Copyright and License information
+
+1School of Computing and Information, University of Pittsburgh, Pittsburgh, PA, United States
+
+2School of Nursing, The University of Texas at Austin, Austin, TX, United States
+
+3School of Information, The University of Texas at Austin, Austin, TX, United States
+
+4Glenn Biggs Institute for Alzheimer's & Neurodegenerative Diseases, Department of Neurology, University of Texas Health Sciences Center at San Antonio, San Antonio, TX, United States
+
+5Department of Neurology, Dell Medical School, The University of Texas at Austin, Austin, TX, United States
+
+6Steve Hicks School of Social Work, The University of Texas at Austin, Austin, TX, United States
+
+✉Ning Zou, MS, School of Computing and Information, University of Pittsburgh, 135 N Bellefield Ave IS Building, Pittsburgh, PA, 15213, United States, 1 3152892369; niz19@pitt.edu
+
+Received 2024 Mar 18; Revised 2024 Jul 4; Accepted 2024 Sep 6; Collection date 2024.
+
+Copyright © Ning Zou, Bo Xie, Daqing He, Robin Hilsabeck, Alyssa Aguirre. Originally published in JMIR Aging (https://aging.jmir.org)
+
+This is an open-access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in JMIR Aging, is properly cited. The complete bibliographic information, a link to the original publication on https://aging.jmir.org, as well as this copyright and license information must be included.
+
+PMC Copyright notice
+
+PMCID: PMC11617330  PMID: 39621936
+
+Abstract
+
+Background
+
+Informal caregivers of persons living with dementia are increasingly using mobile health (mHealth) apps to obtain care information. mHealth apps are seen as promising tools to better support caregivers’ complex and evolving information needs. Yet, little is known about the types and quality of dementia care information that these apps provide. Is this information for caregivers individually tailored; if so, how?
+
+Objective
+
+We aim to address the aforementioned gaps in the literature by systematically examining the types and quality of care-related information provided in publicly available apps for caregivers of persons living with dementia as well as app features used to tailor information to caregivers’ information wants and situations.
+
+Methods
+
+In September 2023, we used a multistage process to select mobile apps for caregivers of persons living with dementia. The final sample included 35 apps. We assessed (1) types of dementia care information provided in the apps, using our 3-item Alzheimer disease and related dementias daily care strategy framework, which encompasses educational information, tangible actions, and referral information; (2) quality of apps’ care information, using the 11 indicators recommended by the National Library of Medicine; and (3) types of tailoring to provide personalization, feedback, and content matching, which are common tailoring strategies described in the literature.
+
+Results
+
+Educational information was the most prevalent type of information provided (29/35 apps, 83%), followed by information about tangible actions (18/35, 51%) and referrals (14/35, 40%). All apps presented their objectives clearly and avoided unrealistic or emotional claims. However, few provided information to explain whether the app’s content was generated or reviewed by experts (7/35, 20%) or how its content was selected (4/35, 11%). Further, 6 of the 35 (17%) apps implemented 1 type of tailoring; of them, 4 (11%) used content matching and the other 2 (6%) used personalization. No app used 2 types of tailoring; only 2 (6%) used all 3 types (the third is feedback).
+
+Conclusions
+
+Existing dementia care apps do not provide sufficient high-quality, tailored information for informal caregivers. Caregivers should exercise caution when they use dementia care apps for informational support. Future research should focus on designing dementia care apps that incorporate quality-assured, transparency-enhanced, evidence-based artificial intelligence–enabled mHealth solutions for caregivers.
+
+Introduction
+
+Background
+
+Alzheimer disease and related dementias (ADRD) present a critical public health concern; in 2023, a total of 55 million individuals were estimated to live with dementia worldwide, with an increase of nearly 10 million expected each year [1]. Often, the care for these persons living with dementia falls on informal caregivers—family members, friends, neighbors, or others (hereafter, “caregivers”). In the United States, more than 11 million caregivers were estimated to have provided approximately 18 billion hours of care to people living with dementia in 2022, valued at over US $330 billion [2].
+
+Caregivers of persons living with dementia often lack formal training [2,3] or have little to no knowledge about dementia care [4], representing a substantial information gap [5,6], and they have health information wants (HIWs)—“health information that one would like to have and use to make important health decisions that may or may not be directly related to diagnosis or standard treatment” [7]. Centered around health consumer’s perspective, the ADRD HIWs framework suggests seven types of information that caregivers typically want for dementia care: (1) information about treatment or prevention, (2) characteristics of the patient’s health condition, (3) daily care strategies for patients at home, (4) practical information about care transition and coordination and end-of-life care, (5) psychosocial aspects of caregiving, (6) resources or scientific updates, and (7) legal, financial, or insurance-related information [8]. Unmet HIWs often lead to a severe care burden and increased stress for caregivers [9,10].
+
+Given the anticipated increase in the number of persons living with dementia and the unlikelihood of a cure in the near future, numerous interventions have been developed to equip caregivers with necessary competencies to fulfill their HIWs (see review by Whitlatch and Orsulic-Jeras [11]). However, the feasibility of most currently available face-to-face interventions is limited due to the demanding nature of caregiving, challenges in finding alternative care for persons living with dementia to attend the programs, and the scarcity of caregiver services, especially in rural or underdeveloped areas [12]. Consequently, internet-based interventions such as web-based courses [13,14], or web-based programs [15,16] have emerged as a potentially efficient alternative, providing information and support to caregivers, as evidenced by the volume of systematic reviews and meta-analyses on this topic [17-19].
+
+According to the review by Boots et al [17], internet-based interventions can be effective in supporting caregivers if they are tailored to the individual needs. For caregivers, timely and personally tailored information is important [20]. It improves their knowledge and enables them to develop coping abilities, so that they can provide competent care throughout the disease trajectory [21,22]. A recent meta-analysis of 17 randomized controlled trials of internet-based interventions has demonstrated improvements in dementia-related knowledge and care skills among caregivers [23]. Not surprisingly, it was discovered that personalized interventions are more beneficial than interventions that are not personalized. Despite these findings, a national caregiver survey in the United States reported that caregivers use health-related internet resources less frequently than the general public [24], which limits the reach and effectiveness of these programs for caregivers at large. Additionally, challenges such as the web layout’s inherent limitations and infrequent updates of features further hinder the delivery of tailored information [25,26], thus diminishing the potential effectiveness of internet-based interventions for caregivers. These findings underscore the need to explore more innovative technological solutions to better support caregivers’ complex and evolving HIWs.
+
+The Need of This Study
+
+As of 2023, there has been a substantial increase in smartphone uptake among US adults aged 65 years or older, with adoption rates rising from 13% to 76% over the preceding decade [27,28]. Consequently, the use of mobile health (mHealth) apps to support caregivers has attracted much attention recently [29,30]. These internet-based applications, installed on mobile devices (eg, smartphones, wireless tablets), have become important tools for accessing health information and providing real-time feedback, even without computer and network connectivity [31]. They are now the most prevalent technological solutions [32] and have been used to support health education and the care across a wide range of chronic health conditions [33], and have also been tested among different age groups, including older adults [34].
+
+Nevertheless, research on mHealth app–based interventions for caregivers is still at an early stage [29,35]. Recent literature reviews searched available apps, describing most apps as information resources for caregivers [36-38]. While these reviews acknowledged caregiving-related information as one of the most critical components of the apps, none of the studies systematically examined the quality of this information. Moreover, the extent to which these apps provide care-related information tailored to caregivers’ HIWs remains unclear. As Brodaty and Donkin [39] have noted, the success of caregiver interventions depends greatly on “the extent to which they are tailored to the needs of the individual and address issues to do with subjective burden.” Thus, it is critical to systematically examine mHealth apps for their information provision and tailoring, as a first step in assessing their effectiveness for the support of caregivers.
+
+In the use of mHealth apps to tailor support [40,41], three strategies for tailoring are common: (1) Personalization—strategies that convey “explicitly or implicitly, that the communication is designed specifically” for an individual [42]. This is typically carried out by drawing on personally identifiable information, making clear that the messages are designed specifically for the individual, and situating the messages within the individual’s specific context. (2) Feedback—the provision of “messages to users about their psychological or behavioral states” that reflect user updates [41]. (3) Content matching, which entails providing content suitable for individuals’ stages of changes [40,42]. Reviews of mHealth apps for caregivers have not considered these strategies as components of tailoring [36,43]. In our study, we therefore systematically examine whether these tailoring strategies have been implemented in existing mHealth apps for caregivers of persons living with dementia, and if so, how they have been implemented.
+
+Context of This Study and Objectives
+
+This study is an essential component of a larger project titled “Tailoring Responses to ADRD Caregivers' InfOrmation wants (TRACO) through Human-machine Collaboration” (R56AG075770). The primary goal of the project is to develop an artificial intelligence (AI)–based system with a mobile app interface that help caregivers in obtaining high-quality, relevant information tailored to their specific HIWs and unique caregiving contexts. While mHealth apps and AI tools can provide tailored information, their full tailoring potential has been underused [44-47]. Hence, this study is designed to systematically examine how mHealth apps provide information and serve as a foundational exploration to better support the development of the TRACO system.
+
+Specifically, this study aims to understand more about the characteristics and the delivery of these apps. Therefore, the following research questions are identified:
+
+What types of information do current mHealth apps offer to caregivers of persons living with dementia?
+
+What is the quality of information presented in these mHealth apps?
+
+How do current mHealth apps tailor their information to support caregivers of persons living with dementia?
+
+Methods
+
+Study Design
+
+Following the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines [48] and the procedures used in a previous systematic review of mHealth apps [49], we performed 3 rounds of screening to select relevant apps for examination. First, using keywords, we searched Apple’s App Store for iOS and Google’s Play Store for Android devices. Next, we screened the app store pages, using inclusion and exclusion criteria. Then we downloaded or attempted to download the apps to ensure their accessibility. Finally, using our criteria, we assessed the included apps in order to answer our research questions.
+
+Ethical Considerations
+
+This study did not involve human participants, human data, or any form of intervention with individuals, and therefore did not require approval from an institutional review board or ethics committee. According to the Office for Human Research Protections, research that does not include human participants falls outside the scope of institutional review board review [50]. As no human participants were involved in the research, no ethical concerns related to human subject research were applicable.
+
+App Selection
+
+Consistent with prior reviews [36,37,51], our search keywords included the following: “dementia care,” “dementia,” “Alzheimer’s care,” and “Alzheimer’s.” During initial screening, we realized that several apps’ titles used the abbreviation “Alz” instead of “dementia” or “Alzheimer’s”; we therefore expanded the search to include “Alz.” Our initial searches, performed in September 2023, yielded a total of 624 apps from Apple’s App Store for iOS and from Google’s Play Store for Android devices. We noted from the app store descriptions that many apps cater to various caregiver groups, not solely caregivers of persons living with dementia. These included caregivers of children with cognitive disorders or individuals with Ataxia, among others. Given our study’s specific aim to investigate mHealth apps exclusively for caregivers of persons living with dementia, we excluded apps not explicitly designed for dementia care at this stage. After removing duplicates, 127 apps remained.
+
+We then screened the 127 apps for inclusion. Consistent with the scope of this study, we included only apps developed specifically to support caregivers. Apps that did not directly support the care of persons living with dementia were excluded. Specifically, we exclude (1) apps designed to support other dementia care stakeholders, such as health professionals, clinicians, or residential care facilities; (2) apps developed solely as cognitive screening and testing tools or brain exercise games, as they did not focus on caregiving for persons living with dementia. We also excluded (3) apps not in English to maintain consistency with the larger project as stated in the introduction, and (4) those that required the use of second device (eg, smartwatch or wearable gadget). The adoption of such devices typically involves interactions with multiple stakeholders, not just caregivers [52], which is beyond the scope of this study. Both free and paid apps were included.
+
+The research team first discussed a randomly selected subset of 10 out of the 127 apps during weekly team meetings between September and October, 2023, using the established inclusion and exclusion criteria. Any disagreements were resolved through discussions. Subsequently, based on the agreed-upon criteria, 1 researcher (NZ) continued the screening process, ultimately including a total of 39 apps for further assessment. Then, 2 researchers (NZ and BX) independently reviewed a randomly selected sample of these 39 apps (n=13, representing 33% of the total). The agreement rate between the 2 reviewers was high (92.3%), and any differences were resolved through further discussions.
+
+Finally, we downloaded or attempted to download each of the 39 apps to an iPhone and an Android phone for further examination. During this step, we excluded 4 more apps that could not be opened or downloaded, for a final sample of 35 apps: 20 were iOS-only; 5 were Android-only; and 10 were available for both iOS and Android systems. App selection, including the numbers of apps excluded at each step, is illustrated in Figure 1.
+
+Figure 1. App selection process.
+
+Open in a new tab
+
+Measures
+
+The ADRD Daily Care Strategy Framework to Evaluate Types of Information Provided
+
+To assess the types of dementia care information provided in the apps, we used the ADRD Daily Care Strategy Framework developed in our earlier work [53]. We selected this framework because the types of information it encompasses have been proven in our prior work to be evidence-based care strategies that effectively match the responses to caregivers’ HIWs. This framework includes 3 types of information about care strategies: educational information, tangible actions that caregivers can take; and referrals for caregivers to seek help beyond the patient-caregiver dyad (Table 1). Each type of information found in the app was assigned a score of 1, and its absence was scored as 0; scores thus ranged from 0 to 3. Higher scores indicated more types of care information present in the apps.
+
+Table 1. The Alzheimer disease and related dementias daily care strategy framework.
+
+Types of information provided
+Operational definition
+
+Educational information
+Provides education about the behavior or situation in question; education about what caregivers could do on their own in response to challenges encountered; focus on caregivers’ own knowledge, preparation, and adjustments, not on others’
+
+Tangible actions
+Provides information about specific things caregivers can do (on their own) to address situations
+
+Referral information
+Provides referral information so that caregivers can seek help beyond the patient-caregiver dyad, for example, peer caregivers, health care professionals, financial advisors, an attorney for elder law, other family members, community organizations, and long-term care facilities
+
+Open in a new tab
+
+The National Library of Medicine’s Criteria for Evaluating the Quality of Web-Based Health Information
+
+The National Library of Medicine (NLM)’s tutorial on evaluating web-based health information offers a comprehensive checklist for assessing the quality of web-based health information [54].
+
+Although the Mobile App Rating Scale [55] is commonly used to evaluate mHealth apps for caregivers [38,51], its criteria for assessing the quality of information—ensuring the app content is correct, well-written, and relevant to the goal or topic of the app—appear too vague for comprehensively evaluating the care-related information provided by the apps. Drawing on the success of previous empirical research that used the NLM’s criteria to assess information quality in mHealth apps for cardiovascular disease [49], we adopted the NLM criteria and developed definitions for the context of dementia care to operationalize the NLM’s criteria (Table 2). These included 11 indicators of information quality; the presence of each indicator was recorded as 1, and each absence was recorded as 0 (scoring range: 0‐11). Higher scores indicated higher information quality.
+
+Table 2. National Library of Medicine’s criteria for information quality and our operational definitions.
+
+Evaluation criteria
+Operational definition
+
+Providing information on who is managing the app
+Provides information that could help users understand who oversees the app (eg, information about the app provider’s name). Such information is typically found via the About Us button in the app or on the app’s store page.
+
+Providing information about why the app is being provided
+Provides information that could help users understand the app’s purpose, intended users, and functionalities. Such information is typically found on the app’s store page or via the About this app or About us button in the app (eg, indicating that the app is developed for dementia caregivers, or to provide dementia care-related information, or to provide tailored support to dementia caregivers).
+
+Providing the app provider’s contact information
+Provides information about the physical address, a contact number or email address for the app developer or administrator, or an option for users to submit questions or comments.
+
+Providing information on the source of the content
+Provides information that could help users understand where the dementia care information used by the app comes from (eg, an article or book with authors’ names; or for web-based information, the website from which the information was retrieved).
+
+Providing information on how the content was selected
+Provides a logical explanation for how the app’s information was selected (eg, information selected from peer-reviewed journals).
+
+The content that goes on the app is reviewed by an expert
+Provides information to make clear that information presented in the app has been reviewed by qualified health care professionals.
+
+Does not use unbelievable or emotional claims
+Whether or not the app makes claims that are too good to be true or are based on emotions instead of scientific facts.
+
+Content is up to date
+The original National Library of Medicine guidelines do not specify what time frame would be considered up to date; in our study, we operationalized this indicator as app content updated in the past 12 months.
+
+Financial disclosure
+Provides information on where the money to support an app comes from (eg, government agencies, nonprofit organizations, or professional service companies). This information can help users understand whether an app’s providers have financial motives that users should be aware of (eg, the sale of courses or consultation services).
+
+Does not have advertisements
+Whether or not an app contains advertisements. Note: if a treatment option mentioned in an app was a part of scientific results (eg, reported in a research article), then it was not considered an advertisement.
+
+Personal data privacy disclosure
+Whether or not an app asks users to submit personal information (eg, name, phone number, or email address) and personal health indicators (eg, health status or medical history) in order to use certain app features. If asked, whether an app provides information on how users’ personal data will be used.
+
+Open in a new tab
+
+Types of Tailoring Strategies for Evaluating Apps’ Information Tailoring
+
+We examined whether apps provided the 3 types of tailoring strategies commonly reported in the literature: personalization, feedback, and content matching [40,42]. Our operational definitions for these 3 types of tailoring are provided in Table 3. The presence of each type of tailoring was recorded as 1, and each absence was recorded as 0 (scoring range: 0‐3). Higher scores indicate more types of tailoring.
+
+Table 3. Information tailoring strategies and our operational definitions.
+
+Evaluation criteria
+Operational definitions
+
+Personalization
+App’s output contains personal information (based on the user’s input, for example, the person living with dementia is the user’s grandmother) to make clear that the output was designed specifically for the user and places the messages in the user’s specific context.
+
+Feedback
+App’s output contains information acknowledging the user’s specific situation (based on the user’s input) to convey to the user that the system is aware of the user’s situation.
+
+Content matching
+App’s output contains relevant responses to the types of health information wants expressed in a user’s input.
+
+Open in a new tab
+
+Data Analysis
+
+We assessed (1) types of dementia care information provided in the apps, using our 3-item ADRD Daily Care Strategy Framework; (2) quality of dementia care information provided in the apps, using the 11 indicators recommended by the NLM; and (3) types of tailoring provided, using the 3 common tailoring strategies reported in the literature. Further, 2 members of the research team (NZ and BX) initially evaluated 7 randomly selected apps from the final sample according to these measures. For any items with a recorded disagreement, the 2 reviewers met to discuss and reach a consensus. Later, researcher NZ continued and completed the evaluation of the remaining apps. Discussions were consistently held between researchers NZ and BX to address any ambiguities that arose during the evaluation process. The ratings for each measure were entered into a Microsoft Excel spreadsheet, and we used descriptive statistics to analyze each rating.
+
+Results
+
+Overview
+
+Of the 35 apps in our final sample, 10 (29%) were developed between 2012 and 2017. Among them, only 1 (3%) was still having regular updates at the time of our study. Further, 6 (17%) of the apps had actively received updates, for an average duration of 5 (SD 1.55) years before stopping any further updates; 3 had not been updated at all since their initial release. The other 25 (71%) apps were developed between 2018 and 2023. Additionally, 13 (37%) were actively receiving updates by 2023; 7 (20%) had not received any updates since their release; and another 5 (14%) stopped receiving updates after an average of 2.4 (SD 1.95) years.
+
+In total, 15 (43%) apps were created by for-profit companies such as corporations providing health care services or consulting firms; 8 (23%) were developed by nonprofit health care organizations or charities; another 8 (23%) were developed by academic institutions; and the remaining 4 (11%) did not disclose any affiliation of app developers. Most apps were free (28/35; 80%); 5 (14%) were free with in-app purchases; only 2 (6%) were paid apps (requiring US $2.99 and US $3.99, respectively). The largest number of apps (15/35, 43%) were from the United States; 8 (23%) from the United Kingdom; 4 (11%) from Australia, 3 (9%) from Canada, and 1 (3%) from India. The 4 (11%) apps that provided no developer information also provided no information about where they were developed.
+
+Types of Information
+
+In total, 16 (46%) of the apps offered only 1 type of information. Among them, 12 (75%) provided educational information; 2 (13%) offered information about tangible actions, and 2 (13%) offered referral information. Further, 12 (34%) apps offered 2 types of information: 7 (58%) of them offered both educational information and information about tangible actions; 3 (25%) provided both educational information and referral information; and 2 (13%) provided both information about tangible actions and referral information. Only 7 (20%) apps in our final sample offered all 3 types of information. Of the reviewed apps, if an app attempted to offer more than one type of information, its content frequently remained broad and merely basic, in contrast to apps that specialized in providing only a specific type of information. Overall, educational information was the most commonly offered type of information (29/35, 83%), followed by information about tangible actions (18/35, 51%). Information about referrals (14/35, 40%) was the least common type of information provided in the apps.
+
+Information Quality
+
+Of the 35 apps, 17% (6 apps) met 3‐4 of the NLM’s criteria for web-based health information quality. Another 34% (12 apps) met 5‐6 criteria, and 40% (14 apps) met 7‐9 criteria. Only 11% (4 apps) met 10 of the NLM’s criteria, and none met all 11 criteria. Notably, the 4 apps that met 10 criteria were all developed by academic institutions, nonprofit health care organizations, or charities. In contrast, all 6 apps meeting only 3 or 4 criteria were developed by for-profit companies or developers of unknown origin. Apps available on both iOS and Android systems scored higher on average (mean 7.9, SD 2.28, 95% CI 7.14-8.66) than those available exclusively on iOS (mean 6.6, SD 1.73, 95% CI 6.03-7.17) or Android (mean 4, SD 1.41, 95% CI 3.53-4.47). All apps met 2 of the NLM criteria: they clearly stated the purpose of developing the app and avoided making unbelievable or emotional claims. Few explained whether the app’s content was reviewed by experts (7/35, 20%); and even fewer stated how the content was selected (4/35, 11%; Table 4).
+
+Table 4. National Library of Medicine’s information quality indicators covered by the apps.
+
+Information quality indicator
+Apps, n (%)
+
+Provided information about why the app is being provided
+35 (100)
+
+Does not use unbelievable or emotional claims
+35 (100)
+
+Provided information on who is managing the app
+30 (86)
+
+Does not have advertisements
+29 (83)
+
+Provided the app provider’s contact information
+25 (71)
+
+Personal information use disclosure
+22 (63)
+
+Provided information on the source of the content
+18 (51)
+
+Content is up to date
+15 (43)
+
+Financial disclosure
+13 (37)
+
+The content that goes on the app is reviewed by an expert
+7 (20)
+
+Providing information on how the content was selected
+4 (11)
+
+Open in a new tab
+
+Information Tailoring
+
+In total, 6 of the 35 (17%) apps implemented 1 type of tailoring strategy; of them, 4 (11%) used content matching and the remaining 2 (6%) used personalization. The specific content matching strategies varied among the 4 apps. Further, 2 of the apps used web-based discussion forums to deliver responses from platform-verified experts or peer caregivers. The other 2 offered a list of behavioral problems along with possible causes, allowing caregivers to choose, and, on the basis of the caregivers’ choice, the app tailored a list of care strategies to address the specific problem expressed by the caregiver.
+
+Of the 2 apps that entailed personalization, each used a unique approach to collect and use personal information. However, neither app successfully delivered tailored support. The first app gathered detailed information on the person living with dementia, such as disease stage and health conditions. The second app surveyed caregivers’ stress levels and the person living with dementia’s behavioral issues. Despite collecting such personal information, both apps failed to tailor the content depending on user input and provided the same responses regardless of the user data provided. This lack of customization and transparency about how personal information affected content raises concerns about the apps’ effectiveness and credibility for offering personalized support.
+
+No app used 2 types of tailoring strategies; 2 (6%) used all 3 tailoring strategies. Both apps used generative AI-enabled intelligent assistants to provide tailored responses. These platforms allowed caregivers to input any queries and provided personalized answers. One of these apps explicitly stated that it used ChatGPT for this purpose; the other did not specify what AI tool it used or how its intelligent assistant was developed.
+
+Discussion
+
+Principal Findings
+
+Previous reviews have found that dementia care apps mainly offer educational content along with generic care tips for coping [36,37]. In our study, we have examined the extent to which care-related information in the apps includes not only educational information but also information about tangible actions and referrals. Tangible action and referral information were underrepresented in the apps. As these 2 types of information can vary greatly depending on caregivers’ specific situations [56,57], it may be challenging for apps to provide such information. Current dementia care apps primarily provide extensive static educational information, and so they cannot meet caregivers’ specific HIWs [36,38]. Future dementia care apps should consider including elements designed to capture caregivers’ specific HIWs, which can evolve as the disease progresses [8].
+
+Recent reviews have primarily used the Mobile App Rating Scale [55] to evaluate apps and have found that the quality of information in dementia care apps falls below minimum acceptable scores [38,51]. Going beyond statistical validation of this known issue regarding poor information quality [36], we have adapted the NLM’s information quality evaluation criteria to examine specific attributes that affect information quality. Apps developed by academic institutions or nonprofit health care organizations appeared to align more closely with the NLM’s quality indicators. Nevertheless, the lack of indicators for expert-reviewed content and content selection remains a problem. Given the critical role of health care providers in ensuring the accuracy and reliability of information [49,58], further research is needed to explore how to design features that integrate dementia care professionals within information assessment and selection [58,59]. Implementing these improvements will enhance the credibility and reliability of caring-related information and potentially improve caregivers’ information-seeking and, ultimately, the apps’ adoption rates [60].
+
+Commonly recommended tailoring has yet to be successfully implemented in dementia care apps. By and large, apps’ tailoring merely replicates approaches found in web-based discussion forums [61,62]. Yet, there is potential for dementia care apps to provide more tailored, personally relevant learning [36]. The AI-enabled intelligent assistants found in 2 of the reviewed apps may represent a promising approach for delivering tailored information. Recent research suggests ChatGPT’s capability to generate high-quality responses to meet dementia caregivers’ HIWs [63]. Nonetheless, recent studies have raised concerns regarding ChatGPT’s use in health care, particularly its tendency to conceal its information sources and provide inappropriate references [64]; its outputs may require cautious human oversight to ensure quality [65].
+
+These concerns echo our findings for apps’ lack of explanation regarding information selection, including a lack of information about whether their content had been reviewed by health care professionals. If unaddressed, these issues are likely to persist in AI-enabled mHealth apps for caregivers. More rigorous efforts are needed in dementia care research and practice to investigate AI-enabled mHealth tools. There is a need to explore comprehensive frameworks that involve health care professionals in content validation, as well as advancements to streamline these technological processes.
+
+Limitations and Future Directions
+
+Limitations of this study include the following. App evaluation was carried out by researchers with professional expertise in the subject matter; no evaluation was performed by caregivers. Our evaluation relied on guidelines designed from a top-down perspective, reflecting what health care professionals would view as important for evaluating an app’s information quality. This approach might not fully align with caregivers’ perspectives, and the insights derived might differ from those of caregivers. Given the importance of user-centered design in developing mHealth technology for dementia caregiving [66], future research will benefit from caregivers’ evaluation of such technology. User-centered evaluation would ensure that apps meet caregivers’ actual needs and preferences. This study only included mHealth apps that were available in English, thus, there could be apps available in other languages that provide high-quality information to caregivers of persons living with dementia. This study did not consider app design or usability when evaluating the type and quality of information provided. Given that academic institutions and nonprofits produced mHealth apps with higher information quality, future developments could include collaborations with for-profit organizations to design tailored apps that meet the needs of caregivers of persons living with dementia.
+
+Conclusion
+
+Tailoring and the quality of care information is limited in current mHealth apps for caregivers. Caregivers should use current dementia care apps with caution when they seek information about caregiving and support. Although mHealth may potentially be effective in meeting caregivers’ HIWs, future research is needed in order to develop quality-assured, transparency-enhanced, evidence-based AI-enabled mHealth solutions for caregivers.
+
+Acknowledgments
+
+Research reported in this publication was supported by the National Institute On Aging of the National Institutes of Health (award R56AG075770). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. The authors wish to thank John Bellquist, PhD from the Cain Center for Nursing Research in the School of Nursing at the University of Texas at Austin for his professional editing assistance.
+
+Abbreviations
+
+ADRD
+Alzheimer disease and related dementias
+
+AI 
+artificial intelligence
+
+HIW
+health information want
+
+mHealth
+mobile health
+
+NLM
+National Library of Medicine
+
+PRISMA
+Preferred Reporting Items for Systematic Reviews and Meta-Analyses
+
+TRACO
+Tailoring Responses to Alzheimer Disease and Related Dementias Caregivers' Information
+
+Footnotes
+
+Conflicts of Interest: None declared
+
+Supplementary material
+
+References
+
+1.Dementia. World Heath Organization. 2023. [02-11-2023]. https://www.who.int/news-room/fact-sheets/detail/dementia URL. Accessed.
+
+2.2023 Alzheimer’s disease facts and figures. Alzheimers Dement. 2023 Apr;19(4):1598–1695. doi: 10.1002/alz.13016. doi. [DOI] [PubMed] [Google Scholar]
+
+3.Spillman BC, Wolff J, Freedman VA, Kasper JD. Informal caregiving for older americans:an analysis of the 2011 national study of caregiving. US Department of Health and HumanServices. 2014. [10-10-2024]. https://aspe.hhs.gov/reports/informal-caregiving-older-americans-analysis-2011-national-study-caregiving URL. Accessed.
+
+4.Peterson K, Hahn H, Lee AJ, Madison CA, Atri A. In the information age, do dementia caregivers get the information they need? Semi-structured interviews to determine informal caregivers’ education needs, barriers, and preferences. BMC Geriatr. 2016 Sep 23;16(1):164. doi: 10.1186/s12877-016-0338-7. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+5.McCabe M, You E, Tatangelo G. Hearing their voice: a systematic review of dementia family caregivers’ needs. Gerontologist. 2016 Oct;56(5):e70–e88. doi: 10.1093/geront/gnw078. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+6.Soong A, Au ST, Kyaw BM, Theng YL, Tudor Car L. Information needs and information seeking behaviour of people with dementia and their non-professional caregivers: a scoping review. BMC Geriatr. 2020 Feb 14;20(1):61. doi: 10.1186/s12877-020-1454-y. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+7.Xie B. Older adults’ health information wants in the internet age: implications for patient-provider relationships. J Health Commun. 2009 Sep;14(6):510–524. doi: 10.1080/10810730903089614. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+8.Wang Z, Zou N, Xie B, et al. In: Diversity, Divergence, Dialogue: 16th International Conference, iConference2021 Proceedings Part I. Toeppe K, Yan H, Chu SKW, editors. Springer Nature Switzerland; 2021. Characterizing dementia caregivers’ information exchange onsocial media: exploring an expert-machine co-development process; pp. 47–67. doi. [DOI] [Google Scholar]
+
+9.Ruggiano N, Brown EL, Shaw S, et al. The potential of information technology to navigate caregiving systems: perspectives from dementia caregivers. J Gerontol Soc Work. 2019;62(4):432–450. doi: 10.1080/01634372.2018.1546786. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+10.Hargreaves S, Sbaffi L, Ford N. Information seeking amongst informal caregivers of people with dementia: a qualitative study. JD. 2023 Mar 6;79(2):281–300. doi: 10.1108/JD-03-2022-0066. doi. [DOI] [Google Scholar]
+
+11.Whitlatch CJ, Orsulic-Jeras S. Meeting the informational, educational, and psychosocial support needs of persons living with dementia and their family caregivers. Gerontologist. 2018 Jan 18;58(suppl_1):S58–S73. doi: 10.1093/geront/gnx162. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+12.Cheng ST, Au A, Losada A, Thompson LW, Gallagher-Thompson D. Psychological interventions for dementia caregivers: what we have achieved, what we have learned. Curr Psychiatry Rep. 2019 Jun 6;21(7):59. doi: 10.1007/s11920-019-1045-9. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+13.Blom MM, Zarit SH, Groot Zwaaftink RBM, Cuijpers P, Pot AM. Effectiveness of an internet intervention for family caregivers of people with dementia: results of a randomized controlled trial. PLoS ONE. 2015;10(2):e0116622. doi: 10.1371/journal.pone.0116622. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+14.Hattink B, Meiland F, van der Roest H, et al. Web-based STAR E-learning course increases empathy and understanding in dementia caregivers: results from a randomized controlled trial in the Netherlands and the United Kingdom. J Med Internet Res. 2015 Oct 30;17(10):e241. doi: 10.2196/jmir.4025. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+15.Torkamani M, McDonald L, Saez Aguayo I, et al. A randomized controlled pilot study to evaluate a technology platform for the assisted living of people with dementia and their carers. J Alzheimers Dis. 2014;41(2):515–523. doi: 10.3233/JAD-132156. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+16.Kales HC, Gitlin LN, Stanislawski B, et al. Effect of the WeCareAdvisor™ on family caregiver outcomes in dementia: a pilot randomized controlled trial. BMC Geriatr. 2018 May 10;18(1):113. doi: 10.1186/s12877-018-0801-8. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+17.Boots LMM, de Vugt ME, van Knippenberg RJM, Kempen GIJM, Verhey FRJ. A systematic review of Internet-based supportive interventions for caregivers of patients with dementia. Int J Geriatr Psychiatry. 2014 Apr;29(4):331–344. doi: 10.1002/gps.4016. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+18.Christie HL, Bartels SL, Boots LMM, Tange HJ, Verhey FJJ, de Vugt ME. A systematic review on the implementation of eHealth interventions for informal caregivers of people with dementia. Internet Interv. 2018 Sep;13:51–59. doi: 10.1016/j.invent.2018.07.002. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+19.Hopwood J, Walker N, McDonagh L, et al. Internet-based interventions aimed at supporting family caregivers of people with dementia: systematic review. J Med Internet Res. 2018 Jun 12;20(6):e216. doi: 10.2196/jmir.9548. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+20.van der Roest HG, Meiland FJM, Jonker C, Dröes RM. User evaluation of the DEMentia-specific Digital Interactive Social Chart (DEM-DISC). A pilot study among informal carers on its impact, user friendliness and, usefulness. Aging Ment Health. 2010 May 1;14(4):461–470. doi: 10.1080/13607860903311741. doi. [DOI] [PubMed] [Google Scholar]
+
+21.Bressan V, Visintini C, Palese A. What do family caregivers of people with dementia need? A mixed-method systematic review. Health Soc Care Community. 2020 Nov;28(6):1942–1960. doi: 10.1111/hsc.13048. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+22.Kokorelias KM, Gignac MAM, Naglie G, et al. A grounded theory study to identify caregiving phases and support needs across the Alzheimer’s disease trajectory. Disabil Rehabil. 2022 Apr;44(7):1050–1059. doi: 10.1080/09638288.2020.1788655. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+23.Leng M, Zhao Y, Xiao H, Li C, Wang Z. Internet-based supportive interventions for family caregivers of people with dementia: systematic review and meta-analysis. J Med Internet Res. 2020 Sep 9;22(9):e19468. doi: 10.2196/19468. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar] [Retracted]
+
+24.Kim H. Understanding internet use among dementia caregivers: results of secondary data analysis using the US caregiver survey data. Interact J Med Res. 2015;4(1):e1. doi: 10.2196/ijmir.3127. doi. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+25.Gaugler JE, Reese M, Tanler R. Care to Plan: an online tool that offers tailored support to dementia caregivers. Gerontologist. 2016 Dec;56(6):1161–1174. doi: 10.1093/geront/gnv150. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+26.Kabir ZN, Leung AYM, Grundberg Å, et al. Care of family caregivers of persons with dementia (CaFCa) through a tailor-made mobile app: study protocol of a complex intervention study. BMC Geriatr. 2020 Aug 26;20(1):305. doi: 10.1186/s12877-020-01712-7. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+27.Faverio M. Share of those 67 and older who are tech users has grown in the past decade. Pew Research Center. 2022. [26-05-2024]. https://www.pewresearch.org/short-reads/2022/01/13/share-of-those-65-and-older-who-are-tech-users-has-grown-in-the-past-decade/ URL. Accessed.
+
+28.Mobile fact sheet. Pew Research Center. 2024. [10-10-2024]. https://www.pewresearch.org/internet/fact-sheet/mobile/ URL. Accessed.
+
+29.Brown EL, Ruggiano N, Li J, Clarke PJ, Kay ES, Hristidis V. Smartphone-based health technologies for dementia care: opportunities, challenges, and current practices. J Appl Gerontol. 2019 Jan;38(1):73–91. doi: 10.1177/0733464817723088. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+30.Faieta J, Sheehan J, DiGiovine C. Mhealth interventions to improve health and quality of life related outcomes for informal dementia caregivers: a scoping review. Assist Technol. 2022 May 4;34(3):362–374. doi: 10.1080/10400435.2020.1829174. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+31.Zhang MWB, Chan S, Wynne O, et al. Conceptualization of an evidence-based smartphone innovation for caregivers and persons living with dementia. Technol Health Care. 2016 Sep 14;24(5):769–773. doi: 10.3233/THC-161165. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+32.Rivera-Romero O, Gabarron E, Ropero J, Denecke K. Designing personalised mHealth solutions: an overview. J Biomed Inform. 2023 Oct;146:104500. doi: 10.1016/j.jbi.2023.104500. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+33.Kelley MM, Powell T, Camara D, et al. Mobile health apps, family caregivers, and care planning: scoping review. J Med Internet Res. 2024 May 23;26:e46108. doi: 10.2196/46108. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+34.Changizi M, Kaveh MH. Effectiveness of the mHealth technology in improvement of healthy behaviors in an elderly population-a systematic review. mHealth. 2017;3:51. doi: 10.21037/mhealth.2017.08.06. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+35.Lorca-Cabrera J, Grau C, Martí-Arques R, Raigal-Aran L, Falcó-Pegueroles A, Albacar-Riobóo N. Effectiveness of health web-based and mobile app-based interventions designed to improve informal caregiver’s well-being and quality of life: a systematic review. Int J Med Inform. 2020 Feb;134:104003. doi: 10.1016/j.ijmedinf.2019.104003. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+36.Wozney L, Freitas de Souza LM, Kervin E, Queluz F, McGrath PJ, Keefe J. Commercially available mobile apps for caregivers of people with Alzheimer disease or other related dementias: systematic search. JMIR Aging. 2018 Dec 7;1(2):e12274. doi: 10.2196/12274. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+37.Choi SK, Yelton B, Ezeanya VK, Kannaley K, Friedman DB. Review of the content and quality of mobile applications about Alzheimer’s disease and related dementias. J Appl Gerontol. 2020 Jun;39(6):601–608. doi: 10.1177/0733464818790187. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+38.Werner NE, Brown JC, Loganathar P, Holden RJ. Quality of mobile apps for care partners of people with Alzheimer disease and related dementias: mobile app rating scale evaluation. JMIR mHealth uHealth. 2022 Mar 29;10(3):e33863. doi: 10.2196/33863. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+39.Brodaty H, Donkin M. Family caregivers of people with dementia. Dialogues Clin Neurosci. 2009;11(2):217–228. doi: 10.31887/DCNS.2009.11.2/hbrodaty. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+40.Noar SM, Grant Harrington N, Van Stee SK, Shemanski Aldrich R. Tailored health communication to change lifestyle behaviors. Am J Lifestyle Med. 2011 Mar;5(2):112–122. doi: 10.1177/1559827610387255. doi. [DOI] [Google Scholar]
+
+41.Kamel Ghalibaf A, Nazari E, Gholian-Aval M, Tara M. Comprehensive overview of computer-based health information tailoring: a systematic scoping review. BMJ Open. 2019 Jan 9;9(1):e021022. doi: 10.1136/bmjopen-2017-021022. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+42.Hawkins RP, Kreuter M, Resnicow K, Fishbein M, Dijkstra A. Understanding tailoring in communicating about health. Health Educ Res. 2008 Jun;23(3):454–466. doi: 10.1093/her/cyn004. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+43.Kim E, Baskys A, Law AV, Roosan MR, Li Y, Roosan D. Scoping review: the empowerment of Alzheimer’s disease caregivers with mHealth applications. NPJ Digit Med. 2021 Sep 7;4(1):131. doi: 10.1038/s41746-021-00506-4. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+44.de Jongh T, Gurol-Urganci I, Vodopivec-Jamsek V, Car J, Atun R. Mobile phone messaging for facilitating self-management of long-term illnesses. Cochrane Database Syst Rev. 2012 Dec 12;12(12):CD007459. doi: 10.1002/14651858.CD007459.pub2. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+45.Kannisto KA, Koivunen MH, Välimäki MA. Use of mobile phone text message reminders in health care services: a narrative literature review. J Med Internet Res. 2014 Oct 17;16(10):e222. doi: 10.2196/jmir.3442. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+46.Nhavoto JA, Gronlund A. Mobile technologies and geographic information systems to improve health care systems: a literature review. JMIR mHealth uHealth. 2014;2(2):e21. doi: 10.2196/mhealth.3216. doi. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+47.Househ M. The role of short messaging service in supporting the delivery of healthcare: an umbrella systematic review. Health Informatics J. 2016 Jun;22(2):140–150. doi: 10.1177/1460458214540908. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+48.Liberati A, Altman DG, Tetzlaff J, et al. The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate health care interventions: explanation and elaboration. J Clin Epidemiol. 2009 Oct;62(10):e1–34. doi: 10.1016/j.jclinepi.2009.06.006. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+49.Nie L, Xie B, Yang Y, Shan YM. Characteristics of chinese m-Health applications for diabetes self-management. Telemed J E Health. 2016 Jul;22(7):614–619. doi: 10.1089/tmj.2015.0184. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+50.45 CFR 46. US Department of Health and Human Services. 2016. [27-09-2024]. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html URL. Accessed.
+
+51.Castillo LIR, Tran V, Hadjistavropoulos T. Are mobile apps meeting the needs of caregivers of people living with dementia? An evaluation of existing apps for caregivers. Aging Ment Health. 2024 Apr;28(4):577–586. doi: 10.1080/13607863.2023.2177832. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+52.Zou N, Chi Y, He D, Xie B, Wang Z. Together they shall not fade away: opportunities and challenges of self-tracking for dementia care. Inf Process Manag. 2022 Sep;59(5):103024. doi: 10.1016/j.ipm.2022.103024. doi. [DOI] [Google Scholar]
+
+53.Zou N, Ji Y, Xie B, He D, Luo Z. Mapping dementia caregivers’ comments on social media with evidence-based care strategies for memory loss and confusion. 2023 Conference on Human Information Interaction and Retrieval; Mar 19-23, 2023; Austin TX USA. Mar 19, 2023. pp. 362–367. Presented at. URL. doi. [DOI] [Google Scholar]
+
+54.Evaluating internet health information: a tutorial from the national library of medicine. MedlinePlus. 2023. [11-10-2024]. https://medlineplus.gov/webeval/EvaluatingInternetHealthInformationTutorial.pdf URL. Accessed.
+
+55.Stoyanov SR, Hides L, Kavanagh DJ, Zelenko O, Tjondronegoro D, Mani M. Mobile app rating scale: a new tool for assessing the quality of health mobile apps. JMIR mHealth uHealth. 2015;3(1):e27. doi: 10.2196/mhealth.3422. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+56.Cha J, Peterson CM, Millenbah AN, et al. Delivering personalized recommendations to support caregivers of people living with dementia: mixed methods study. J Aging. 2022 May 3;5(2):e35847. doi: 10.2196/35847. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+57.Gitlin LN, Marx K, Stanley IH, Hodgson N. Translating evidence-based dementia caregiving interventions into practice: state-of-the-science and next steps. Gerontologist. 2015 Apr;55(2):210–226. doi: 10.1093/geront/gnu123. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+58.Berridge C, Demiris G, Kaye J. Domain experts on dementia-care technologies: mitigating risk in design and implementation. Sci Eng Ethics. 2021 Feb 18;27(1):14. doi: 10.1007/s11948-021-00286-w. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+59.Gagnon MP, Ngangue P, Payne-Gagnon J, Desmartis M. m-Health adoption by healthcare professionals: a systematic review. J Am Med Inform Assoc. 2016 Jan;23(1):212–220. doi: 10.1093/jamia/ocv052. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+60.Rutkowski RA, Ponnala S, Younan L, Weiler DT, Bykovskyi AG, Werner NE. A process-based approach to exploring the information behavior of informal caregivers of people living with dementia. Int J Med Inform. 2021 Jan;145:104341. doi: 10.1016/j.ijmedinf.2020.104341. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+61.Rupert DJ, Gard Read J, Amoozegar JB, et al. Peer-generated health information: the role of online communities in patient and caregiver health decisions. J Health Commun. 2016 Nov;21(11):1187–1197. doi: 10.1080/10810730.2016.1237592. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+62.Wasilewski MB, Stinson JN, Cameron JI. Web-based health interventions for family caregivers of elderly individuals: a scoping review. Int J Med Inform. 2017 Jul;103:109–138. doi: 10.1016/j.ijmedinf.2017.04.009. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+63.Aguirre A, Hilsabeck R, Smith T, et al. Assessing the quality of ChatGPT responses to dementia caregivers. Quest Qual Anal JMIR Aging. 2024;7:e53019. doi: 10.2196/53019. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+64.Whiles BB, Bird VG, Canales BK, DiBianco JM, Terry RS. Caution! AI bot has entered the patient chat: ChatGPT has limitations in providing accurate urologic healthcare advice. Urology. 2023 Oct;180:278–284. doi: 10.1016/j.urology.2023.07.010. doi. Medline. [DOI] [PubMed] [Google Scholar]
+
+65.Spallek S, Birrell L, Kershaw S, Devine EK, Thornton L. Can we use ChatGPT for mental health and substance use education? Examining its quality and potential harms. JMIR Med Educ. 2023 Nov 30;9:e51243. doi: 10.2196/51243. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+66.Thorpe JR, Rønn-Andersen KVH, Bień P, Özkil AG, Forchhammer BH, Maier AM. Pervasive assistive technology for people with dementia: a UCD case. Healthc Technol Lett. 2016 Dec;3(4):297–302. doi: 10.1049/htl.2016.0057. doi. Medline. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Associated Data
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+Data Availability Statement
+

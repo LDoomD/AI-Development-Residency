@@ -1,0 +1,4 @@
+# Raw Census Economic Census files (over 400 MB; GitHub rejects files over 100 MB).
+# Kept on disk only. Re-download links are in docs/sources/INDEX.md section 2e.
+docs/sources/census-naics/ec2022-*/*.dat
+docs/sources/census-naics/ec2022-*/*.zip

@@ -1,0 +1,157 @@
+                                                                                 Archive ouverte UNIGE
+                                                                                https://archive-ouverte.unige.ch
+
+
+
+
+     Actes de conférence        2021                                 Accepted version         Public access
+
+
+
+
+This is an author manuscript post-peer-reviewing (accepted version) of the original publication. The layout of
+the published version may differ .
+
+
+
+
+   The role of technology in senior co-caregiving support: a scoping review of
+                                     senior care mobile applications
+
+
+
+
+Kaboha, Nathalie (ed.); Bani Hani, Jasem (ed.); Seigneur, Jean-Marc (ed.); Choukou, Mohamed-Amine (ed.)
+
+
+
+
+ How to cite
+
+ KABOHA, Nathalie et al., (eds.). The role of technology in senior co-caregiving support: a scoping review of
+ senior care mobile applications. ICPS : ACM, 2021. doi: 10.1145/3460881.3460886
+
+
+
+
+This publication URL:    https://archive-ouverte.unige.ch/unige:158901
+Publication DOI:         10.1145/3460881.3460886
+
+
+
+
+© This document is protected by copyright. Please refer to copyright holder(s) for terms of use.
+
+Last update in Archive ouverte UNIGE on 06.01.2026 14:32
+          The Role of Technology in Senior Co-Caregiving Support
+                                            A Scoping Review of Senior Care Mobile Applications
+
+                                Nathalie Kaboha                                                                   Jasem Bani Hani
+    College of Rehabilitation Sciences, University of Manitoba,                             College of Rehabilitation Sciences, University of Manitoba,
+                    Winnipeg (MB), Canada                                                                   Winnipeg (MB), Canada
+                   kabohan@myumanitoba.ca                                                                  banihanj@myumanitoba.ca
+
+                              Jean-Marc Seigneur                                                          Mohamed-Amine Choukou
+                      University of Geneva, Switzerland                                     College of Rehabilitation Sciences, University of Manitoba,
+                       Jean-Marc.Seigneur@unige.ch                                                          Winnipeg (MB), Canada
+                                                                                                         amine.choukou@umanitoba.ca
+ABSTRACT                                                                                     children provided senior care, at least two siblings were involved in
+This study aims to understand digital technology’s role in augment-                          sharing this task [2]. Indeed, an adult child is more likely to engage
+ing efficiency in caring for an aging population. More specifically,                         naturally in senior care if another sibling is involved [3]. In this
+we looked for mobile applications (apps) that support the activities                         paper, we have named the phenomena of multiple family members
+of multiple family members who share the task of attending to a                              participating in senior care co-caregiving.
+senior loved one. We screened a total of 4300 apps in the Google                                Today in the U.S., 60% of adult children who are actively in-
+Play store. Although we found a plethora of apps about seniors’                              volved in senior care also work at a paying job [4]. This burden has
+care, only a small number of them focused on caregiving, reflecting                          given rise to the need for efficient, time-saving ways to organize
+the need for more technological support in co-caregiving.                                    co-caregiving, and many businesses specialize in aiding with these
+                                                                                             tasks. With increasing smartphone efficiency and accessibility, apps
+CCS CONCEPTS                                                                                 that cater to seniors and senior care providers are not challenging
+                                                                                             to find and use. While most of these apps are designed for organi-
+• Applied Computing; • Life and medical sciences, Health In-
+                                                                                             zations that sell services for seniors or book senior care services,
+formatics;
+                                                                                             some are also designed to include the needs of family members
+                                                                                             who engage in co-caregiving.
+KEYWORDS
+Co-Caregiving, Applications, Mobile, Seniors                                                 2    METHODS
+ACM Reference Format:                                                                        We reviewed 4300 apps in the Google Play store to identify the
+Nathalie Kaboha, Jasem Bani Hani, Jean-Marc Seigneur, and Mohamed-
+                                                                                             apps dedicated to co-caregiving for seniors. To be included, apps
+Amine Choukou. 2021. The Role of Technology in Senior Co-Caregiving
+                                                                                             must meet the following co-caregiving criteria: (i) Co-caregiving
+Support: A Scoping Review of Senior Care Mobile Applications. In 12th
+Augmented Human International Conference (AH2021), May 27, 28, 2021,                         properties that allow multiple family members to log into the same
+Geneva, Switzerland. ACM, New York, NY, USA, 2 pages. https://doi.org/10.                    account and view activities pertaining to the care of the care re-
+1145/3460881.3460886                                                                         cipient. Once they have met that criteria, they must also meet one
+                                                                                             of the following 3 criteria: (i) designed primarily for senior care or
+1     BACKGROUND                                                                             readily adaptable to senior care, (ii) the app allows professional ser-
+                                                                                             vice booking for senior care or communication with a professional
+Elderly persons who necessitate caregiving rely on family members
+                                                                                             caregiver, (iii) the services offered (if any), are available in the U.S.
+to varying degrees for organizing or providing the needed care.
+                                                                                             or Canada. Apps that were not designed to allow for co-caregiving
+(This practice is referred to in this paper as senior care, and those
+                                                                                             were excluded, and each app had to additionally display the prop-
+receiving senior care are referred to as care recipients). In the U.S.,
+                                                                                             erties of at least one other of the three aforementioned inclusion
+55.8 % of people over the age of 80 need daily senior care, and
+                                                                                             criteria.
+the majority of senior care is often expected to be provided or
+                                                                                                There were 19 keywords terms used, and 6 of the keywords that
+organized by family members [1]. When senior care is provided
+                                                                                             are most readily associated with seniors were paired with more
+or managed by family members, it usually is done by more than
+                                                                                             general, organizational terms. For example, the keywords seniors
+one person. Literature indicates that in 74% of families where adult
+                                                                                             and geriatric were paired with the words organizing, scheduling,
+Permission to make digital or hard copies of part or all of this work for personal or        transport, planner, scheduler, and appointment.
+classroom use is granted without fee provided that copies are not made or distributed           In total, we screened 4,300 apps in the Google Play store for
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.       three days in a row in February 2021 using keywords related to
+For all other uses, contact the owner/author(s).                                             senior care, healthcare, and caregiving. The first 50 apps that each
+AH2021, May 27, 28, 2021, Geneva, Switzerland                                                keyword term produced were screened both in the free app and
+© 2021 Copyright held by the owner/author(s).
+ACM ISBN 978-1-4503-9030-9/21/05.                                                            paid app categories in the Google Play store, and the description
+https://doi.org/10.1145/3460881.3460886                                                      of each app was read. Apps that were duplicates or games were
+AH2021, May 27, 28, 2021, Geneva, Switzerland                                                                                            Nathalie Kaboha et al.
+
+
+excluded. The app descriptions, year of the latest update and the       study revealed that co-caregiving apps contribute to augmenting
+number of installs were also recorded.                                  the family role in caring for seniors and enable continuity of careers
+                                                                        and social participation [6]. However, apps that specifically cater
+3    RESULTS                                                            to senior care organizers and providers should pay attention to
+We found 180 apps that directly cater to senior persons or providers    the need for co-caregiving functions as retrieved in the 11 retained
+of senior care (including apps for professional caregivers). All of     apps in our study, such as the ability for multiple caregivers to log
+the apps found were last updated between 0-3 years by the day           into the same account, retrieve and add information about a care
+we screened them. Of these 180 senior-related apps, 11 of them          recipient for all caregivers to see, add updates, and schedule tasks.
+were designed to facilitate co-caregiving (such as creating shared
+schedules, storing important paperwork, and assigning tasks), and       5     CONCLUSION
+fit into at least one of the four aforementioned inclusion criteria.    It was not difficult to find many apps primarily designed for use by
+We noted that 9 of these 11 co-caregiver apps were designed for         seniors or their caregivers in the Google Play store. However, con-
+senior care, (e.g. reporting on visits to senior care recipients) and   ducting this exact search in the Apple App Store proved to be more
+seven apps allowed for either direct senior care service booking        challenging. It is primarily set up for searching via a mobile device
+or communication with a professional caregiver through the app.         (desktop searches produce results largely unrelated to keyword
+Lastly, six of the apps were related to professional senior care        terms), making large-scale screening and data import inefficient. Of
+services in Canada or the U.S. (such as Alberta and California). Of     the Google Play store apps that we screened and narrowed down ac-
+those, two apps were available in Canada, and four were available       cording to function, only 14% met our co-caregiving criteria. These
+in the U.S.                                                             results draw attention to the shortage of digital support for persons
+                                                                        engaging in co-caregiving and an opportunity for senior care app
+4    DISCUSSIONS AND RECOMMENDATIONS                                    creators to develop.
+While there is a large amount of academic literature and several
+studies on care for older adults and family caregivers, a very small    REFERENCES
+                                                                        [1] D. Redfoot, L. Feinberg, & A. N. Houser, “The aging of the baby boom and the
+amount of this information pertains to digital platforms for senior         growing care gap: A look at future declines in the availability of family caregivers,”
+care caregivers, such as apps. To our knowledge, no study has been          AARP Public Policy Institute 2013, pp. 1-12.
+done that showcases the role we found that technology plays in          [2] N. Tolkacheva, M. B. van Groenou, & T. van Tilburg, “Sibling similarities and
+                                                                            sharing the care of older parents,” Journal of Family Issues, vol. 35.3, 2014, pp.
+supporting co-caregiving. The recent updates of all senior-related          312-330.
+apps point to an increased reliance on digital technology in the        [3] R. Fontaine, A. Gramain,& J. Wittwer, “Providing care for an elderly parent: inter-
+                                                                            actions among siblings?” Health economics, vol. 18.9, 2009, pp. 1011-1029.
+senior and senior care sector. Aging populations will only prolong      [4] S. Reinhard, “Home alone revisited: Family caregivers providing complex care.
+and further raise the demand for multiple family members to par-            Innovation in Aging”, 3(Suppl 1), 2019, S747.
+ticipate in senior care [5]. With families increasingly spread across   [5] B. Lashewicz, & N. Keating, “Tensions among siblings in parent care.” European
+                                                                            Journal of Ageing, vol. 6.2, 2009, pp.127-135.
+the world and most family caregivers engaged in other occupations       [6] R. Wilding, & L. Baldassar, “Transnational family-work balance: Experiences of
+and social activities in addition to caring for aging loved ones, the       Australian migrants caring for ageing parents and young children across distance
+phenomena of co-caregiving will arguably continue to expand. This           and borders” Journal of Family Studies, vol. 15.2, 2009, 177-187.
+

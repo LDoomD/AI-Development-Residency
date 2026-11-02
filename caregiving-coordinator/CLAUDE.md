@@ -64,6 +64,13 @@ description-matching: `SessionStart` and `SubagentStart` load the skill list
 - Never silently fall back to base knowledge when a skill above applies, and
   never silently skip a relevant skill. If one is judged not relevant to a
   task, say so explicitly rather than defaulting to not using it.
+- Research must be auditable. Read the full primary source (the report
+  itself, never only a news or blog summary), cite every claim with a link and
+  a page number, and save a copy of each cited source in `docs/sources/` with an
+  entry in `docs/sources/INDEX.md` so the user can open it right away. List the
+  sources in the chat reply. Never offer "I did not read the full report" as a
+  limit: fetch and read it. If a source cannot be fetched, say what was tried
+  and ask for the file.
 - Ask before using the user's browser or the Chrome extension.
 - Never write or edit the user's homework summary. They write it themselves.
 - No RuFlo/claude-flow — removed from this residency's tooling; see memory.
