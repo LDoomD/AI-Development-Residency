@@ -1,0 +1,212 @@
+QUESTION SENT (2026-11-02):
+Please check my audience segmentation work against the course materials and tell me what is correct, what is wrong, and what is missing. Quote the exact wording and name the sources. My project is about family caregiving. What I did, step by step: (1) Segmentation definition: filled geographic, behavioral, demographic and socioeconomic boxes with figures from the AARP/NAC Caregiving in the US 2025 report (with page numbers) and counts from 117 caregiver forum threads I verified. (2) Chose two audiences because they are the two largest groups in both the AARP report (parent or parent-in-law 47%, spouse or partner 15%) and my forum threads (55 about a parent, 54 about a spouse): Audience 1 "The family coordinator" (caring for a parent) and Audience 2 "The one who does it all" (caring for a spouse or partner). (3) Motivations, situational goals and life goals: reader agents extracted exact quotes from those 109 threads where the caregiver states a motivation or goal; I grouped them into themes with counts such as "7 of 55 threads", and showed example quotes with thread ids. (4) I have NOT yet done the use case tables or the prioritization. Questions: (a) Is this the right process and order according to the workshop steps in the course? (b) Is it acceptable to base motivations and goals on forum quotes and a count of threads, or does the course expect something different (interviews, personas, assumptions)? (c) Should I define 2 or 3 audiences, and is choosing them by size correct, or should the choice be based on something else such as value to the business? (d) Do the segmentation boxes need anything else? (e) What should the use case table contain and how does the prioritization work? (f) Anything in the course materials that says what to do when there is no client or no direct access to users?
+
+NOTEBOOK ANSWER (page text; numbers are the notebook's own citation markers, and the list at the end names the sources it cites):
+
+
+Thoughts
+expand_more
+Here is a detailed audit of your Audience Segmentation work against the AI Development Residency curriculum, workshop templates, and ProblemOps frameworks.
+(a) Is this the right process and order according to the workshop steps?
+Yes, you followed steps 1 through 4 in the exact order specified by the course
+1
+.
+According to the official Audience Segmentation, Goals, Motivations, and Use Cases Workshop Template (export - Workshop Steps.csv
+1
+, export - Workshop Template Sections.csv
+2
+), the step-by-step workflow is:
+Step 1: Brainstorm Segment Traits across geographic, behavioral, demographic, and socioeconomic lenses
+1
+2
+. (Completed)
+Step 2: Choose Impactful Traits & Label Audiences to give the team shared semantic language
+1
+2
+. (Completed: "The family coordinator" and "The one who does it all")
+Step 3: Identify Motivations ("what drives each audience to take action, and what they desire")
+1
+2
+. (Completed)
+Step 4: Identify Situational Goals & Life Goals
+1
+2
+. (Completed)
+Step 5: Identify Use Cases to Support
+1
+2
+. (Pending)
+Step 6: Prioritize Use Cases on a MoSCoW matrix
+1
+2
+. (Pending)
+What is correct: Your execution of steps 1–4 matches the course template structure
+1
+.
+What is missing: You still need to produce Step 5 (Use Cases to Support Table) and Step 6 (Use Case Prioritization) to complete the deliverable
+1
+.
+(b) Is it acceptable to base motivations and goals on forum quotes and thread counts?
+Yes, this approach is fully aligned with the course's agile research principles
+3
+more_horiz
+.
+Secondary Research Grounding: In export - Activities.csv (Activity 23), Secondary Research is defined as "learning from what others have already published... It is a fast, cheap way to get grounded before investing in new studies"
+5
+.
+Open Coding & Frequency Analysis: In the AI Evals & PM curriculum (Why AI evals are the hottest new skill for product builders), Hamel Husain and Shreya Shankar demonstrate extracting categories (axial codes) from real user text traces and using pivot table counts to identify the most frequent user friction points
+4
+6
+.
+Product Requirements as Testable Assumptions: In Week 2 - Product Management - AI Development Residency.txt, instructor Morgan Denner stresses that initial personas and requirements are assumptions, not final truths:
+"A proto-persona is made by complete guesses and you use it as a grounding for research. That's the way that you're gonna treat anything that comes with requirements... Everything in product requirements is an assumption that we test. Nothing is the truth."
+3
+7
+Using verified forum quotes and thread counts provides a grounded set of proto-assumptions that serve as a strong baseline before conducting live primary research
+3
+5
+.
+(c) Should you define 2 or 3 audiences, and is choosing them by size correct?
+Number of Audiences: Defining 2 focus audiences is completely acceptable. The course template recommends identifying 2 to 3 focus audiences so the scope remains manageable
+1
+8
+. Morgan Denner notes in working sessions: "if I have two audiences, I'm gonna build an MVP for that audience and an MMP for that audience"
+8
+.
+Selection Criteria: Choosing target groups based on demographic size (e.g., 47% parent caregivers vs. 15% spousal caregivers) is a solid starting point for identifying broad volume
+1
+. However, in ProblemOps and Tech Fleet frameworks, selecting which audience to prioritize for MVP #1 should ultimately be guided by Impact, Risk, Certainty, and Value, not population size alone
+1
+more_horiz
+:
+In export - Workshop Steps.csv Step 92, the template specifies: "Pick the most impactful traits and use them to describe and label the focus audiences"
+1
+.
+In How to "Keep the Lights On" Proactively, prioritization ranks problems based on "complexity and value to the business (or audiences)"
+9
+ or "risk level and confidence level"
+10
+.
+A smaller demographic segment (e.g., spousal caregivers) might experience significantly higher emotional burnout or acute operational risks, making them a higher-value target for your initial MVP than a larger, less acute segment
+9
+11
+.
+(d) Do the segmentation boxes need anything else?
+Review your segmentation boxes against the official section definitions in export - Workshop Template Sections.csv
+2
+:
+4-Lens Trait Definition: Ensure all 4 categories (Geographic, Behavioral, Demographic, and Socioeconomic) are populated with defining traits
+1
+2
+.
+Semantic Labels & Traits: Ensure each focus audience has a clear, semantic label paired with its defining traits
+1
+2
+.
+Goal Separation: Verify that you have strictly separated:
+Situational Goals: What the caregiver wants to achieve within your application/experience (e.g., tracking medication schedules without missing doses)
+2
+12
+.
+Life Goals: Broader life outcomes outside the application (e.g., maintaining personal health, avoiding caregiver burnout)
+2
+12
+.
+(e) What should the use case table contain, and how does prioritization work?
+1. Use Case Table Structure
+According to export - Workshop Template Sections.csv Section 98 (Use Cases to Support), your use case table must contain 5 specific columns per audience
+2
+:
+Field / Column
+	
+Description & Wording from Course
+2
+
+
+Audience
+	
+The labeled focus audience (e.g., "The family coordinator")
+2
+.
+
+
+Current-State Problem Aspect
+	
+The specific scenario-based problem aspect occurring in the real world today
+2
+.
+
+
+When it Happens Today
+	
+The exact moment or situation in the customer journey when the issue occurs (e.g., "during hospital discharge")
+2
+13
+.
+
+
+Business Goal for Changing It
+	
+The outcome the business wants to achieve by solving it (expressed as an outcome, never a technical solution)
+2
+more_horiz
+.
+
+
+Future Scenarios to Support
+	
+The future-state experience or scenario the product will support
+2
+13
+.
+2. How Use Case Prioritization Works
+In export - Workshop Steps.csv Step 96, you prioritize use cases using a MoSCoW Matrix (Must, Should, Could, Won't) plotted across two axes: Risk (vertical) and Certainty (horizontal)
+1
+more_horiz
+:
+Must Have (Top Priority): High Risk & Low Certainty. (These represent your riskiest, unvalidated assumptions that must be tested first in MVP #1)
+2
+10
+.
+Should Have: High Risk & High Certainty
+2
+.
+Could Have: Low Risk & Low Certainty
+2
+.
+Won't Have (For Now): Low Risk & High Certainty
+2
+.
+(f) What to do when there is no client or no direct access to users?
+The course curriculum directly addresses how to operate when you lack client access or direct user access:
+Form Assumptive Product Requirements: In Week 2 - Product Management - AI Development Residency.txt, Morgan Denner explains that product managers create assumptive requirements to avoid freezing:
+"We operate in the cycle that everything gets produced and put into the hands of people quickly because we are always learning... That doesn't mean that we freeze. We haven't done any research. It means the opposite. It means that we're producing requirements like personas, competitive analysis, problem statements, even before we might have research because then those will be the grounding for research to validate the assumptions that we put into those materials."
+3
+Preventing Paralysis with ProblemOps: In On Assumptions and Continuous Evidence, Morgan writes:
+"Everything, and yes I do mean everything, is an assumption. Here's how ProblemOps specialists prevent freezing when everything is an assumption... Together, you can rank the assumptions based on risk and certainty level. You can decide together which assumptions to prioritize first."
+10
+more_horiz
+Use Found Materials & AI Co-Creation: In working sessions, Morgan demonstrates using public reports (AARP, CDC, W3C standards) and AI to generate initial drafts of requirements, then vetting them with human judgment to establish a working baseline
+18
+more_horiz
+.
+By using published report data and real caregiver forum threads, you have built a solid foundation of grounded assumptions
+3
+5
+. Your next step is to complete the Use Cases to Support Table and plot those use cases on the Risk vs. Certainty MoSCoW Matrix
+1
+2
+.
+💡 Next Step Suggestion: Would you like to draft your Use Cases to Support Table for "The family coordinator" and "The one who does it all", or plot your use cases on the Risk vs. Certainty MoSCoW Matrix?
+copy
+thumb_up
+thumb_down
+Let's draft the Use Cases to Support Table
+subdirectory_arrow_right
+How do I build the Risk vs Certainty MoSCoW matrix?
+subdirectory_arrow_right
+Let's review the MVP #1 Vision Board structure
+subdirectory_arrow_right
+keyboard_arrow_down
+93 sources
+arrow_upward

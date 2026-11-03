@@ -2,135 +2,121 @@
 
 **Evidence state:** `documented` for every quote (exact text, checked by script against the saved review); `reported` for the category counts (one reader assigned one category per review, so the counts are approximate). Nothing here is a finding about what caregivers would pay for or do.
 
+> **CORRECTION (2026-11-02).** The first version of this file (merged in pull request #20) counted 625 problem reviews from every selected review. Most of those reviews were not about caregiving: the word list also matches words like family, parent and senior in other uses. This version counts only the reviews where the reviewer is clearly caring for or helping a relative (439 reviews, 192 of them describing a problem). Every number below changed; for example, 'wrong readings or location' fell from 144 to 43 and 'price' from 42 to 6.
+
 ## How this was made (so you can check it)
 
 1. **Collected:** 9,448 Apple reviews (public review feed, 44 apps, 7 storefronts) and 4,777 Google Play reviews (10 apps, read in Chrome). Saved in `docs/sources/app-reviews/` (`raw/`, `reviews.csv`, `google-play/`). Details and limits: `docs/sources/INDEX.md` section 2p.
 2. **Selected:** `analysis/make_slices.py` keeps only reviews whose text or title matches a caregiving or family word list (mom, dad, parent, elderly, caregiver, wife, husband, dementia, loved one, and so on). That is 1,475 of 14,225 reviews. **The other 12,750 were not read for this analysis.**
-3. **Read:** four reader agents read all 1,475 selected reviews and gave each one a kind (problem, worked, none), one problem category, who the reviewer cares for, and one exact quote.
-4. **Checked:** `analysis/verify_tags.py` accepted a quote only if it is an exact substring of the review's text or title. Result: 1,312 quotes verified, 0 dropped. Every id is in `analysis/all-reviews.jsonl` (`../all-reviews.jsonl`) with its app, store, stars and date; Apple ids `a-N` are row N (from 0) of `reviews.csv`, Google ids `g-<app>-N` are item N (from 0) in that app's JSON file.
+3. **Read:** reader agents read the selected reviews and gave each one a kind (problem, worked, none), one problem category, who the reviewer cares for, and one exact quote.
+3b. **Filtered to caregiving only:** the 1,386 reviews that describe a problem or something that worked were checked one by one (`analysis/verify_relevance.py`, then a blind full-text recheck of 539, then my reading of the 84 upgrade candidates; the result is `analysis/relevance-final.json`). A review counts as caregiving only if it contains an exact quote showing the reviewer is caring for or helping a relative; if in doubt it is left out. Result: **439 caregiving reviews**, 668 not caregiving, 279 unclear. **Everything below counts only the 439.**
+4. **Checked:** `analysis/verify_tags.py` accepted a quote only if it is an exact substring of the review's text or title. Result: 439 quotes verified, 0 dropped. Every id is in `analysis/all-reviews.jsonl` (`../all-reviews.jsonl`) with its app, store, stars and date; Apple ids `a-N` are row N (from 0) of `reviews.csv`, Google ids `g-<app>-N` are item N (from 0) in that app's JSON file.
 
 ## What was read
 
-- 1,475 reviews: **625 describe a problem**, 687 describe something that worked, 163 had no usable content.
-- **Who the problem reviewers care for** (as stated): parent 187, not stated 132, other relative 105, spouse 92, child 62, self 45, client 2. So 384 of the 625 problem reviews are about a parent, spouse or other relative. Whether that person is old or ill is often not stated, so this is not the same as 'caring for an older or ill relative'. 62 are about a child, 45 about the reviewer themselves, 132 do not say.
+- 439 reviews: **192 describe a problem**, 247 describe something that worked, 0 had no usable content.
+- **Who the problem reviewers care for** (as stated): parent 111, not stated 26, other relative 24, self 14, spouse 9, child 7, client 1. So 152 of the 192 problem reviews are about a parent, spouse or other relative. Whether that person is old or ill is often not stated, so this is not the same as 'caring for an older or ill relative'. 7 are about a child, 14 about the reviewer themselves, 26 do not say.
 
 ## Problems by category
 
 | Problem | All problem reviews | About a parent, spouse or other relative | Apple | Google Play |
 |---|---|---|---|---|
-| Readings, location or detection wrong, false alarms, missed events | 144 | 112 | 95 | 49 |
-| Crashes, bugs, battery, connectivity in general | 129 | 81 | 101 | 28 |
-| Other problem | 88 | 40 | 69 | 19 |
-| Alerts or notifications missed, late, too many or not arriving | 48 | 31 | 35 | 13 |
-| Price, subscription, paywall, billing | 42 | 15 | 36 | 6 |
-| A person in danger and the tool did not help (falls, wandering, emergencies) | 33 | 24 | 21 | 12 |
-| Getting access, accounts, logins or permissions for another person | 30 | 21 | 21 | 9 |
-| Setup, pairing or phone compatibility trouble | 29 | 15 | 26 | 3 |
-| Data does not sync between devices or people | 19 | 15 | 13 | 6 |
-| Relatives or helpers cannot see the same information | 18 | 9 | 9 | 9 |
-| The older person cannot or will not use it | 12 | 9 | 11 | 1 |
-| Company or support did not help | 12 | 6 | 10 | 2 |
-| Privacy, tracking or trust worries | 12 | 5 | 8 | 4 |
-| Reminders or schedules (medication, appointments) failing | 9 | 1 | 5 | 4 |
-| **Total** | **625** | **384** | **460** | **165** |
+| Readings, location or detection wrong, false alarms, missed events | 43 | 37 | 38 | 5 |
+| Crashes, bugs, battery, connectivity in general | 42 | 31 | 34 | 8 |
+| A person in danger and the tool did not help (falls, wandering, emergencies) | 19 | 19 | 14 | 5 |
+| Other problem | 15 | 11 | 12 | 3 |
+| Getting access, accounts, logins or permissions for another person | 14 | 9 | 9 | 5 |
+| Alerts or notifications missed, late, too many or not arriving | 14 | 13 | 13 | 1 |
+| The older person cannot or will not use it | 10 | 8 | 9 | 1 |
+| Relatives or helpers cannot see the same information | 7 | 5 | 5 | 2 |
+| Setup, pairing or phone compatibility trouble | 6 | 5 | 6 | 0 |
+| Price, subscription, paywall, billing | 6 | 4 | 4 | 2 |
+| Data does not sync between devices or people | 6 | 4 | 4 | 2 |
+| Company or support did not help | 5 | 3 | 4 | 1 |
+| Reminders or schedules (medication, appointments) failing | 3 | 1 | 0 | 3 |
+| Privacy, tracking or trust worries | 2 | 2 | 2 | 0 |
+| **Total** | **192** | **152** | **154** | **38** |
 
 ## Quotes by problem (up to 4 per category, chosen by script: relatives first, longer quotes, one per app)
 
-### Readings, location or detection wrong, false alarms, missed events (144)
+### Readings, location or detection wrong, false alarms, missed events (43)
 
-- "It will say that my mom left our house in the middle of the night even though I know shes sleeping in the next room over." (Life360, google, 3 stars, July 2, 2026; who: parent; id `g-life360-494`)
-- "The message also give bad locations some time up to ten miles away when she is sitting in her house." (lively-link, apple, 3 stars, 2015-12-21; who: parent; id `a-7800`)
-- "my husband who obviously has sleep apnea will cause earthquakes through the night with his snoring" (google-health-fitbit, apple, 2 stars, 2026-10-14; who: spouse; id `a-4924`)
+- "This app is not accurate and does not allow me to keep up with my elderly father via smartphone." (lively-link, apple, 1 stars, 2018-10-02; who: parent; id `a-7601`)
 - "I am concerned that the device will not perform as advertised when there is an actual emergency." (MyMedicalGuardian, google, 1 stars, December 19, 2024; who: parent; id `g-mymedicalguardian-0`)
 
-### Crashes, bugs, battery, connectivity in general (129)
+### Crashes, bugs, battery, connectivity in general (42)
 
-- "My only gripes are that it has difficulty connecting when attempting to add a contact OR opening contacts causes a crash." (familywall, apple, 4 stars, 2024-10-15; who: other relative; id `a-5476`)
 - "I am unable to add any photos or write a journal without issues with the cursor moving downward on the page on its own." (CaringBridge, google, 2 stars, November 22, 2022; who: other relative; id `g-caringbridge-28`)
-- "They constantly pop up and completely cover the current location box of family members." (Life360, google, 2 stars, July 21, 2026; who: other relative; id `g-life360-92`)
 - "they leave us blinded to their status while they try to make the new one work." (mymedicalguardian, apple, 1 stars, 2025-04-18; who: other relative; id `a-3248`)
+- "since the last update, I noticed that all my groceries categories are gone" (familywall, apple, 5 stars, 2023-06-24; who: parent; id `a-5544`)
+- "Very frustrating to keep track of my Mother when the app doesn’t work." (honor-family, apple, 2 stars, 2023-06-02; who: parent; id `b-0`)
 
-### Other problem (88)
-
-- "now we have to delete on the machine all readings prior to taking measurements to avoid her readings on my phone and vice versa" (OMRON connect, google, 4 stars, September 13, 2026; who: spouse; id `g-omron-connect-328`)
-- "we kids just want to be able to remotely see and record his weight over time, to report to his doctor" (Withings, google, 2 stars, July 19, 2026; who: parent; id `g-withings-6`)
-- "The app has no appointment tracking capabilities and the note taking functionality is dismal." (tendercare, apple, 3 stars, 2026-07-17; who: parent; id `a-3283`)
-- "I have to have the cardwindow placed just slightly too far away to read her face properly" (carewindow, apple, 5 stars, 2026-03-13; who: parent; id `a-13`)
-
-### Alerts or notifications missed, late, too many or not arriving (48)
-
-- "My phone just lit up three times with a push notification saying that my sister was having a seizure and that no one had responded." (seizure-alert-my-medic-watch, apple, 2 stars, 2019-04-16; who: other relative; id `a-3160`)
-- "Sometimes it alerts at 45 minutes past the time, sometimes it alerts at 2 hours" (medisafe, apple, 4 stars, 2025-12-05; who: other relative; id `a-6294`)
-- "I still get several notifications regarding the features and premium benefits." (Life360, google, 1 stars, July 20, 2026; who: other relative; id `g-life360-324`)
-- "It mostly features changes I have made but not my husband or family members." (familywall, apple, 4 stars, 2026-08-26; who: spouse; id `a-5136`)
-
-### Price, subscription, paywall, billing (42)
-
-- "the paywall for new users to auto-import to the Apple Health app prompted me to dissuade my family member from buying a Withings scale" (withings, apple, 1 stars, 2026-10-13; who: other relative; id `a-5887`)
-- "I am extremely disappointed to learn that Caring Bridge is trying to raise money from my husband" (caringbridge, apple, 1 stars, 2025-08-25; who: spouse; id `a-3344`)
-- "The more activity a family member has in a day, the less amount of days I see!" (Life360, google, 1 stars, April 28, 2026; who: other relative; id `g-life360-122`)
-- "they want you to sign/buy an additional care package to just obtain a copy of your own EKG" (kardia, apple, 1 stars, 2026-05-31; who: self; id `a-6880`)
-
-### A person in danger and the tool did not help (falls, wandering, emergencies) (33)
+### A person in danger and the tool did not help (falls, wandering, emergencies) (19)
 
 - "He lay outside injured and unable to move for over an hour before a stranger found him." (lively-link, apple, 1 stars, 2019-03-17; who: parent; id `a-7567`)
 - "when my mom went missing (which is exactly ehen I needed it), it failed to work!!" (MyMedicalGuardian, google, 1 stars, July 28, 2022; who: parent; id `g-mymedicalguardian-61`)
 - "My mother had several falls as an elderly obese person that were not registered." (apple-watch-app, apple, 3 stars, 2026-01-30; who: parent; id `a-1164`)
-- "neither of our Life360 alerted anyone and we both have crash detection on" (Life360, google, 3 stars, July 12, 2026; who: spouse; id `g-life360-265`)
 
-### Getting access, accounts, logins or permissions for another person (30)
+### Other problem (15)
 
-- "Others in groups actively following the same pages that I am cannot even access CaringBridge (e.g., cannot log on)" (caringbridge, apple, 3 stars, 2024-08-10; who: other relative; id `a-3493`)
+- "we kids just want to be able to remotely see and record his weight over time, to report to his doctor" (Withings, google, 2 stars, July 19, 2026; who: parent; id `g-withings-6`)
+- "The app has no appointment tracking capabilities and the note taking functionality is dismal." (tendercare, apple, 3 stars, 2026-07-17; who: parent; id `a-3283`)
+- "I have to have the cardwindow placed just slightly too far away to read her face properly" (carewindow, apple, 5 stars, 2026-03-13; who: parent; id `a-13`)
+- "We miss the update that used to show why Great Link was called and why." (lively-link, apple, 3 stars, 2018-08-12; who: parent; id `a-7610`)
+
+### Getting access, accounts, logins or permissions for another person (14)
+
 - "An email invite had to be sent to an address not connected already with the device." (lively-link, apple, 5 stars, 2024-05-31; who: spouse; id `a-7458`)
+- "So many of my over 60 relatives have been not able to reaccess their account." (caringbridge, apple, 2 stars, 2024-07-19; who: parent; id `a-3525`)
 - "Log in as my MIL to see myself and my husband were removed as portal members" (mymedicalguardian, apple, 1 stars, 2025-08-07; who: other relative; id `a-3227`)
-- "My mom now blames me for constantly missing events and not knowing addresses" (cozi, apple, 1 stars, 2026-08-14; who: parent; id `a-4241`)
+- "When it is successful, they only get notified when I skip medicine, not when I take it." (Medisafe, google, 2 stars, March 29, 2023; who: self; id `g-medisafe-52`)
 
-### Setup, pairing or phone compatibility trouble (29)
+### Alerts or notifications missed, late, too many or not arriving (14)
 
-- "when my wife invited me it said I am on an iPhone and not allowed to participate." (samsung-health, apple, 1 stars, 2024-01-04; who: spouse; id `a-2829`)
-- "It works with Samsung phones, but it does not work with iPhones for some reason." (lively-link, apple, 2 stars, 2025-04-17; who: parent; id `a-7453`)
-- "I bought my mom the new google pixel watch because she has panic attacks" (wear-os, apple, 1 stars, 2025-07-10; who: parent; id `a-8963`)
-- "Following the directions step-by-step were not helpful at all for me, & I gave up." (OMRON connect, google, 2 stars, October 1, 2022; who: not stated; id `g-omron-connect-103`)
+- "My phone just lit up three times with a push notification saying that my sister was having a seizure and that no one had responded." (seizure-alert-my-medic-watch, apple, 2 stars, 2019-04-16; who: other relative; id `a-3160`)
+- "Sometimes it alerts at 45 minutes past the time, sometimes it alerts at 2 hours" (medisafe, apple, 4 stars, 2025-12-05; who: other relative; id `a-6294`)
+- "my mom would tell me she had gone shopping yet the app never notified me" (lively-link, apple, 3 stars, 2016-01-24; who: parent; id `a-7795`)
 
-### Data does not sync between devices or people (19)
+### The older person cannot or will not use it (10)
 
-- "This calendar app constantly unsyncs itself and my wife and I have to manually update almost daily to ensure our calendars match." (timetree, apple, 1 stars, 2026-09-08; who: spouse; id `a-8489`)
-- "if i try and share things from my apple calendar, it will only show on my phone and not my family members phones" (familywall, apple, 5 stars, 2026-01-01; who: other relative; id `a-5311`)
-- "I will add something and it will vanish when my husband refreshes his list" (cozi, apple, 1 stars, 2026-04-20; who: spouse; id `a-4392`)
-- "multiple medications of hers stopped showing up on my app, but not hers" (medisafe, apple, 1 stars, 2025-10-22; who: spouse; id `a-6307`)
-
-### Relatives or helpers cannot see the same information (18)
-
-- "I am handicapped and need to use an app that allows my caregivers total access to calendar, lists, notes, medications, etc." (familywall, apple, 3 stars, 2025-12-11; who: self; id `a-5318`)
-- "Wish the calendar appts would go to everyone in inner circles category instead of only to the person assigned." (caring-village, apple, 2 stars, 2023-04-06; who: not stated; id `a-1381`)
-- "none of my family or friends can see any of the posts from both Facebook and at the website either" (caringbridge, apple, 2 stars, 2024-07-04; who: not stated; id `a-3565`)
-- "Notifications only work for one family member (the first one to have access)." (lively-link, apple, 1 stars, 2025-08-16; who: not stated; id `a-7451`)
-
-### The older person cannot or will not use it (12)
-
-- "Mom cannot see charge light so she cannot tell if the unit is fully charged." (lively-link, apple, 2 stars, 2018-05-11; who: parent; id `a-7628`)
 - "Dementia patients and other mentally impaired patients could get confused." (medisafe, apple, 4 stars, 2024-12-22; who: spouse; id `a-6522`)
 - "What old person is going to remember to turn on their ball detection every single day." (fallcall-detect, apple, 1 stars, 2022-02-20; who: not stated; id `a-3202`)
 
-### Company or support did not help (12)
+### Relatives or helpers cannot see the same information (7)
 
-- "Spent over an hour on hold and 4 people refused to just close the account." (MyMedicalGuardian, google, 1 stars, June 11, 2024; who: other relative; id `g-mymedicalguardian-23`)
-- "So obviously the next step is to call but they will NEVER answer the phone and you have to leave a message." (snug, apple, 5 stars, 2024-12-12; who: self; id `a-2051`)
+- "I am handicapped and need to use an app that allows my caregivers total access to calendar, lists, notes, medications, etc." (familywall, apple, 3 stars, 2025-12-11; who: self; id `a-5318`)
 
-### Privacy, tracking or trust worries (12)
+### Setup, pairing or phone compatibility trouble (6)
 
-- "constant tracking can sometimes feel more like surveillance than protection" (Life360, google, 5 stars, August 11, 2026; who: other relative; id `g-life360-368`)
+- "It works with Samsung phones, but it does not work with iPhones for some reason." (lively-link, apple, 2 stars, 2025-04-17; who: parent; id `a-7453`)
+- "I bought my mom the new google pixel watch because she has panic attacks" (wear-os, apple, 1 stars, 2025-07-10; who: parent; id `a-8963`)
 
-### Reminders or schedules (medication, appointments) failing (9)
+### Price, subscription, paywall, billing (6)
+
+- "Paying for 3 circles seems unnecessary and is the only negative I have." (life360, apple, 4 stars, 2026-10-19; who: parent; id `a-3678`)
+- "it continues to state that we need to donate to caring bridge again, and that no one from her page has donated." (caringbridge, apple, 1 stars, 2026-09-13; who: not stated; id `a-3296`)
+
+### Data does not sync between devices or people (6)
+
+- "multiple medications of hers stopped showing up on my app, but not hers" (medisafe, apple, 1 stars, 2025-10-22; who: spouse; id `a-6307`)
+- "This has left me vulnerable for caregivers not showing up to care for me because the calendar did not show a change that another caregiver had entered." (familywall, apple, 1 stars, 2024-02-23; who: self; id `a-5519`)
+
+### Company or support did not help (5)
+
+
+### Reminders or schedules (medication, appointments) failing (3)
 
 - "First, weirdly, I would only get the notifications if I were connected to my PC at the time, then they stopped all together." (Medisafe, google, 1 stars, December 12, 2024; who: self; id `g-medisafe-338`)
 
+### Privacy, tracking or trust worries (2)
+
+
 ## Which apps the problems come from (the app choice shapes the counts)
 
-- **Readings, location or detection wrong, false alarms, missed events** (144): lively-link 67, life360 50, mymedicalguardian 11, withings 7, familywall 3
-- **A person in danger and the tool did not help (falls, wandering, emergencies)** (33): lively-link 14, life360 12, mymedicalguardian 5, apple-watch-app 1, fallcall-detect 1
-- **Getting access, accounts, logins or permissions for another person** (30): mymedicalguardian 6, caringbridge 5, withings 5, familywall 4, lively-link 3
-- **Relatives or helpers cannot see the same information** (18): medisafe 4, mytherapy 4, familywall 3, withings 3, careapp 1
+- **Readings, location or detection wrong, false alarms, missed events** (43): lively-link 33, mymedicalguardian 9, seizure-alert-my-medic-watch 1
+- **A person in danger and the tool did not help (falls, wandering, emergencies)** (19): lively-link 13, mymedicalguardian 5, apple-watch-app 1
+- **Getting access, accounts, logins or permissions for another person** (14): caringbridge 4, mymedicalguardian 3, lively-link 3, ask-annie-dementia-australia 1, caring-village 1
+- **Relatives or helpers cannot see the same information** (7): medisafe 4, familywall 2, careapp 1
 
 ## Limits
 

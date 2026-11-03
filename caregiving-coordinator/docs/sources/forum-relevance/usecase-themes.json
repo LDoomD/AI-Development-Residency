@@ -1,0 +1,318 @@
+{
+ "parent": {
+  "n": 55,
+  "problem_items": 151,
+  "themes": {
+   "Money, legal papers and facility bills": {
+    "threads": 14,
+    "items": 24,
+    "examples": [
+     {
+      "id": "alz-77396",
+      "quote": "the house needs several repairs before we can put it on the market, including interior painting, ceiling and window frame repairs from previous water leaks, and basement mold remediation.",
+      "label": "house needs repairs before sale"
+     },
+     {
+      "id": "agi-499298",
+      "quote": "the financial dept where she is a resident had me signing documents to apply for medicaid right now, this minute because the house hasn't sold as quick as I thought it would",
+      "label": "rushed to sign Medicaid papers at facility"
+     }
+    ]
+   },
+   "Medicines, eating and personal care": {
+    "threads": 12,
+    "items": 18,
+    "examples": [
+     {
+      "id": "alz-77460",
+      "quote": "At first we were telling her that he died but that would cause a meltdown every time and it was heartbreaking.",
+      "label": "Telling mom of death causes meltdowns"
+     },
+     {
+      "id": "agi-499448",
+      "quote": "It was a lot of work every morning of cleaning him up, and doing all the laundry.",
+      "label": "Morning cleanup and laundry workload"
+     }
+    ]
+   },
+   "Exhaustion, guilt and no life of their own": {
+    "threads": 18,
+    "items": 23,
+    "examples": [
+     {
+      "id": "agi-499699",
+      "quote": "Right now I’m resentful and really don’t understand why I can’t get over it and just be there for her the way a daughter should be.",
+      "label": "resentment while caring for mother"
+     },
+     {
+      "id": "alz-77398",
+      "quote": "I have been looking for a support group, but they are all during the day geared toward retired care gives.",
+      "label": "support groups only meet in the daytime"
+     }
+    ]
+   },
+   "Choosing and arranging a place for them": {
+    "threads": 8,
+    "items": 8,
+    "examples": [
+     {
+      "id": "alz-77401",
+      "quote": "My Mom had agreed to move into AL and then turned around yesterday (about a week before it was time to move) and says 100% no way.",
+      "label": "Mom refuses move days before"
+     },
+     {
+      "id": "alz-77440",
+      "quote": "Then at about 10pm last night, he had a psychotic episode - was verbally abusive and physically violent.",
+      "label": "Violent episode at night after move"
+     }
+    ]
+   },
+   "Getting answers from doctors and hospitals": {
+    "threads": 8,
+    "items": 10,
+    "examples": [
+     {
+      "id": "alz-77385",
+      "quote": "His diagnosis was missed by several doctors and with HIPPA, if it was caught, no one knew so we could start getting help sooner.",
+      "label": "missed diagnosis delayed help"
+     },
+     {
+      "id": "agi-499801",
+      "quote": "It took 3 weeks and 6 plus phone calls to get a return call regarding friendly visitors program.",
+      "label": "weeks of calls to get a callback"
+     }
+    ]
+   },
+   "Being far away and not knowing what is happening": {
+    "threads": 6,
+    "items": 8,
+    "examples": [
+     {
+      "id": "agi-499712",
+      "quote": "I’m POA to my elderly mother who lives out of state and I have been dealing with missing information from people close to her who live in her town which is causing me a great deal of stress",
+      "label": "POA from far away with missing information"
+     },
+     {
+      "id": "alz-77460",
+      "quote": "I feel like I can’t even call her (I don’t live nearby) because I will just be a reminder of my dad.",
+      "label": "Cannot call mom from far away"
+     }
+    ]
+   },
+   "Relatives do not help, or block each other": {
+    "threads": 13,
+    "items": 19,
+    "examples": [
+     {
+      "id": "agi-499771",
+      "quote": "When I broke down and begged them to help me, younger sister told me, \"We all make our choices.\"",
+      "label": "sisters refuse to help"
+     },
+     {
+      "id": "alz-77423",
+      "quote": "struggle with sisters who live near us but don’t help even after I have asked.",
+      "label": "sisters nearby will not help"
+     }
+    ]
+   },
+   "Other": {
+    "threads": 15,
+    "items": 16,
+    "examples": [
+     {
+      "id": "alz-77366",
+      "quote": "Part of the issue is planning for the future is hard when she doesn’t see the need for our help.",
+      "label": "mom sees no need for help"
+     },
+     {
+      "id": "alz-77417",
+      "quote": "Dad will definitely take them once he remembers to pick up the pillbox.",
+      "label": "dad forgets to pick up pillbox"
+     }
+    ]
+   },
+   "Dementia behavior and hard conversations": {
+    "threads": 14,
+    "items": 19,
+    "examples": [
+     {
+      "id": "alz-77399",
+      "quote": "We have tried many times to take her to lunch, shopping etc. but it always ends with her request to be taken \"home\" to see her dogs.",
+      "label": "outings end with pleas to go home"
+     },
+     {
+      "id": "alz-77432",
+      "quote": "But the idea of leaving my mom somewhere and her begging me to not leave her, I get sick whenever I think about it.",
+      "label": "Dreads mom begging not to be left"
+     }
+    ]
+   },
+   "Staying safe at home": {
+    "threads": 5,
+    "items": 6,
+    "examples": [
+     {
+      "id": "alz-77129",
+      "quote": "She has walked, \"jogged\", alone, up and down the street we live on every day and only recently, and on only one occasion (that we know of) gotten disoriented and lost.",
+      "label": "Mom walks alone and got lost"
+     },
+     {
+      "id": "alz-77393",
+      "quote": "My mom wandered from her usual walking route and was brought home by police after a neighbor recognized a disoriented senior on a bench in our neighborhood.",
+      "label": "Mom wandered, brought home by police"
+     }
+    ]
+   }
+  }
+ },
+ "spouse": {
+  "n": 54,
+  "problem_items": 135,
+  "themes": {
+   "Other": {
+    "threads": 20,
+    "items": 21,
+    "examples": [
+     {
+      "id": "alz-77406",
+      "quote": "my DH has low tolerance for interruptions to his routine… especially after 5 pm or so.",
+      "label": "routine interruptions upset him in evening"
+     },
+     {
+      "id": "alz-77390",
+      "quote": "Now I worry about living so far out with an uncertain future with my DH.",
+      "label": "worry about living remote with dementia"
+     }
+    ]
+   },
+   "Exhaustion, loneliness and own health": {
+    "threads": 16,
+    "items": 18,
+    "examples": [
+     {
+      "id": "alz-77379",
+      "quote": "I know patience is the #1 need in a caregiver, and I'm doing my best, and trying to teach our girls the same (ages 17, 15, and 12)...but we fall short way too often.",
+      "label": "hard to stay patient with spouse"
+     },
+     {
+      "id": "alz-77348",
+      "quote": "Trying to find the balance between being a partner and a caregiver has been one of my biggest challenges in caring for my DH.",
+      "label": "balancing partner and caregiver roles"
+     }
+    ]
+   },
+   "Dementia behavior and hard conversations": {
+    "threads": 20,
+    "items": 29,
+    "examples": [
+     {
+      "id": "alz-77457",
+      "quote": "She is determined to stay independent and takes offense to any questions or reminders about medications and other normal daily questions or reminders.",
+      "label": "spouse resents medicine reminders"
+     },
+     {
+      "id": "alz-77414",
+      "quote": "As my husband's mixed dementia got worse and his behavior became more aggressive I consented when his doctor suggested more drugs.",
+      "label": "spouse's aggression as dementia worsened"
+     }
+    ]
+   },
+   "Safety when they are alone or out": {
+    "threads": 13,
+    "items": 20,
+    "examples": [
+     {
+      "id": "alz-77470",
+      "quote": "I am tired of doing it all - cooking, cleaning, daily laundry, paying bills, grocery shoping, doctors appointments, I’m even tired of crying everyday",
+      "label": "doing every task alone"
+     },
+     {
+      "id": "alz-77263",
+      "quote": "when there’s no family restroom and my DH has to go into the men’s room by himself and there’s no other men going on or coming out",
+      "label": "no family restroom when out"
+     }
+    ]
+   },
+   "Money, scams and bills": {
+    "threads": 13,
+    "items": 15,
+    "examples": [
+     {
+      "id": "alz-77428",
+      "quote": "I am so overwhelmed with his bills- left so unintended- and the lack of addressing so many things when he walked out of his job",
+      "label": "overwhelmed by husband's neglected bills"
+     },
+     {
+      "id": "alz-77354",
+      "quote": "It is a huge decision for us, as what will I have after he’s gone? And living on my income if/when he is in MC will be tight!",
+      "label": "cost of memory care and own future"
+     }
+    ]
+   },
+   "Diagnosis and doctor delays": {
+    "threads": 5,
+    "items": 8,
+    "examples": [
+     {
+      "id": "alz-77371",
+      "quote": "DW finally getting actual sustained treatment after nine months of insurance changes, delays, one rogue neuro PA, etc.",
+      "label": "nine months of delays getting treatment"
+     },
+     {
+      "id": "alz-77409",
+      "quote": "There’s something off with some of his cognitive abilities but we do not have a why or what it is.",
+      "label": "no clear diagnosis for his decline"
+     }
+    ]
+   },
+   "Placing them and care costs": {
+    "threads": 4,
+    "items": 4,
+    "examples": [
+     {
+      "id": "alz-77364",
+      "quote": "When they started leaving her in her room all day in the same dirty clothes, I found another place as quickly as I could.",
+      "label": "poor care at first memory care"
+     },
+     {
+      "id": "alz-77354",
+      "quote": "I think I am an awful person for hoping one of those things happen sooner not later.",
+      "label": "guilt over wanting placement sooner"
+     }
+    ]
+   },
+   "Personal care and medicines": {
+    "threads": 10,
+    "items": 14,
+    "examples": [
+     {
+      "id": "alz-77112",
+      "quote": "She also forgets when she has a glass of wine if we go out to dinner and comes home and pours another.",
+      "label": "spouse forgets alcohol already had"
+     },
+     {
+      "id": "alz-77462",
+      "quote": "She's put it on her dry hair before outside the bath cycle.",
+      "label": "spouse misuses bath products"
+     }
+    ]
+   },
+   "Aides, hospice and trusting others": {
+    "threads": 4,
+    "items": 6,
+    "examples": [
+     {
+      "id": "agi-499829",
+      "quote": "when I was gone for a few hours at a time, she had nothing to hold her accountable, she didn't do anything at all.",
+      "label": "aide did nothing when I was away"
+     },
+     {
+      "id": "alz-77347",
+      "quote": "The very first day, a lady showed up at 8:00am thinking she was going to give me, rather than my wife a shower.",
+      "label": "hospice aide mixup on first day"
+     }
+    ]
+   }
+  }
+ }
+}

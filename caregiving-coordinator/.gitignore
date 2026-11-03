@@ -16,3 +16,8 @@ docs/sources/app-reviews/analysis/s2work/
 docs/sources/app-reviews/analysis/build1.py
 docs/sources/app-reviews/analysis/tags-part*.txt
 docs/sources/app-reviews/analysis/figma-payload.json
+
+# Competitive analysis scratch (intermediate; final data is table-rows.json, competitive-data.json, urls.json)
+docs/sources/competitive-analysis/chrome-batch-*.json
+docs/sources/competitive-analysis/chrome-todo.json
+docs/sources/competitive-analysis/chunk-*.json

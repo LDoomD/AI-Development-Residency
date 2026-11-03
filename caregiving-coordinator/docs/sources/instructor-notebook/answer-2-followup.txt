@@ -1,0 +1,185 @@
+QUESTION SENT (2026-11-02):
+Follow-up, please quote the exact wording from the course materials where you can. (1) Does the course expect me to pick one target audience or segment BEFORE the market analysis and competitor analysis, and what exactly does the Audience Segmentation deliverable require me to produce? (2) Does the course expect me to have chosen the problem to solve before the competitor analysis, or is the problem chosen later in the Vision Board? (3) Is there anything in the materials that says what the competitor analysis is for (what decision it feeds)? (4) How many competitors does the course expect in the competitor table: 5 to 7 direct competitors plus indirect ones, or ten in total? Please name the sources for each answer.
+
+NOTEBOOK ANSWER (page text; numbers are the notebook's own citation markers, and the list at the end names the sources it cites):
+
+
+Thoughts
+expand_more
+1. Target Audience Selection & Audience Segmentation Requirements
+Do you need to pick ONE target audience or segment BEFORE market & competitor analysis?
+No. The course materials do not expect you to lock yourself down to a single audience segment before running market and competitor analyses
+1
+2
+. In the Tech Fleet framework, Audience Segmentation, Market Analysis, and Competitor Analysis are parallel Discovery deliverables that inform one another
+1
+more_horiz
+.
+In practice, as demonstrated in working sessions, you start by conducting foundational domain research (for example, researching "What is ADHD? What are its symptoms? What activities are involved in budgeting?") to understand the broader population and problem space
+4
+more_horiz
+. During audience segmentation, you identify 2 or 3 focus audience segments
+7
+8
+. You do not have to eliminate segments up front; rather, when you later reach the Vision Board, you can select a primary segment to build your first MVP #1 board for
+8
+more_horiz
+.
+What exactly does the Audience Segmentation deliverable require you to produce?
+In the Week 2 Lecture Transcript, Morgan Denner defines audience segmentation as a:
+"semantic description of your population of audiences"
+7
+According to the official Audience Segmentation, Goals, Motivations, and Use Cases Workshop Template and lecture notes, the deliverable requires you to produce seven specific components
+11
+12
+:
+Segmentation Definition: Categorizing your target population across four lenses: geographic, behavioral, demographic, and socioeconomic segments
+11
+12
+.
+Audience Labels & Traits: Assigning a clear semantic label to each focus audience along with their defining traits ("A clear label gives the team shared language for each audience")
+11
+12
+.
+Motivations: Documenting "what drives them to act and what they desire"
+11
+.
+Situational Goals: Defining the specific outcomes the audience wants to achieve within your application/experience (e.g., knowing what is safe to spend)
+11
+more_horiz
+.
+Life Goals: Documenting broader life outcomes outside the immediate application context (e.g., achieving long-term financial independence)
+11
+more_horiz
+.
+Use Cases to Support: Identifying key scenarios by pairing the current-state problem aspect, when it occurs in the user journey, the business goal for changing it, and the future scenario to support
+11
+more_horiz
+.
+Use Case Prioritization: Organizing use cases on a MoSCoW matrix (Must, Should, Could, Won't) ranked by risk and certainty
+11
+12
+.
+Sources: Week 2 Lecture Transcript - Product Management
+7
+more_horiz
+, export - Workshop Steps.csv (Audience Segmentation Workshop, Steps 91–96)
+11
+, export - Workshop Template Sections.csv (Sections 93–99)
+12
+, and ai-dev-residency-transcript-working-session-10-27.txt
+4
+more_horiz
+.
+2. When Problem Selection Happens
+Is the problem chosen before competitor analysis, or later in the Vision Board?
+The problem to solve for your build is chosen later in the Vision Board.
+During market research and competitor analysis, you gather a broad list of assumed current-state problems, customer complaints, and market gaps across competing tools
+16
+more_horiz
+. You do not restrict yourself to a single problem yet
+10
+.
+When you transition to the Release Vision Board, you list the full set of assumed market problems in Box 2 (User Problems and Business Problems)—which forms your long-term Minimum Marketable Product (MMP) scope
+9
+more_horiz
+. Then, using human product judgment, you select a focused subset of 1 to 4 core problems to solve for your Minimum Viable Product (MVP #1)
+10
+20
+.
+Exact Quotes from Course Materials:
+In transcript-working-session-10-28.txt, Morgan Denner states:
+"Since this is the MMP board, we list the full set, not just what the first version will tackle... MVP is the smallest version. It solves only the one or two most critical problems... What changes for MVP is scope, especially the problem box for MVP. We don't try to solve all seven. We pick the core few."
+10
+20
+In Week 2 Lecture Summary - Product Management:
+"Morgan Denner distinguishes between initial Minimum Viable Products (MVPs) and long-term market releases, emphasizing that market releases function as tentative assumptions rather than absolute truths."
+21
+In Week 4 - Web Coding Lecture Notes (under Vision & Scope Milestone):
+Step 1: "Identify the most important problems to solve"
+Step 2: "Identify scenarios to support"
+Step 3: "Commit to near-term outcomes"
+Step 4: "Commit to long-term outcomes"
+22
+Sources: transcript-working-session-10-28.txt
+10
+20
+, Week 2 Lecture Summary - Product Management
+21
+, Week 4 - Web Coding Lecture Notes
+22
+.
+3. What the Competitor Analysis Is For (Decisions It Feeds)
+The competitor analysis is an exploratory discovery tool designed to prevent you from building duplicate or generic features
+17
+23
+. In the course materials, competitor analysis directly feeds four downstream decisions and deliverables
+11
+more_horiz
+:
+Feature Comparison Analysis: Feeding a side-by-side comparison chart to determine which capabilities are standard across the industry, which are rare, and which are completely missing
+11
+more_horiz
+.
+Identifying Unfilled Market Gaps: Pinpointing what existing competitors do poorly, ignore, or make overly complicated
+16
+more_horiz
+.
+Formulating the Unique Value Proposition (UVP) & Positioning Statement: Synthesizing market gaps into a statement that defines why your product wins over alternative choices
+23
+more_horiz
+.
+Populating the Vision Board: Directly providing the evidence needed for the Competitive Advantage box on your release vision board ("Unlike other orgs that do [crappy alternative], our product uniquely does [X]")
+21
+25
+.
+Exact Quotes from Course Materials:
+In Week 2 Lecture Transcript - Product Management, Morgan Denner states:
+"Your deliverable that's called the unique value proposition... is gonna be a combination of who you're serving... what problems are you trying to solve... which other competitors are trying to do the same thing... and how is your business impact different from competitors impact? What makes it unique on the market is specifically that."
+24
+ "Those things are all the things that you put into your vision board that make you unique. This thing right here, what makes your product unique, your competitive advantage? 'Unlike other orgs that do this thing, this crappy thing, our org does this uniquely.'"
+25
+In export - Workshop Steps.csv (Market Research and Competitive Analysis Workshop Template):
+Step 1: "Framing keeps the whole analysis pointed at a real decision."
+11
+
+Step 7: "Position on a real gap that competitors leave open."
+11
+Sources: Week 2 Lecture Transcript - Product Management
+24
+25
+, Week 2 Lecture Summary - Product Management
+23
+, export - Workshop Steps.csv (Market Research Workshop, Steps 26 & 32)
+11
+.
+4. Competitor Table Count Expectation
+How many competitors does the course expect?
+The official workshop template specifies 5 to 7 direct competitors plus key indirect competitors
+11
+.
+Exact Wording from Course Materials:
+In export - Workshop Steps.csv under Step 29 (Market Research and Competitive Analysis Workshop Template, Step 4):
+Exact Quote: "List your top five to seven direct competitors and key indirect ones, write the questions you want answered, then fill the table: business model, features, strengths, weaknesses, and how they differentiate."
+11
+(Note: When you list 5 to 7 direct competitors alongside 2 to 3 key indirect competitors, the total count naturally comes out to around 10 competitors in your table
+11
+).
+Sources: export - Workshop Steps.csv (Step 29)
+11
+ and export - Workshop Template Sections.csv (Section 22)
+27
+.
+💡 Would you like to map out your 5 to 7 direct and indirect caregiver competitors into the analysis questions table, or start drafting the MVP #1 Vision Board boxes?
+copy
+thumb_up
+thumb_down
+How do I perform error analysis on my caregiver app?
+subdirectory_arrow_right
+How do I use synthetic data to test my caregiver app?
+subdirectory_arrow_right
+How do I structure my AI roadmap around experiments?
+subdirectory_arrow_right
+keyboard_arrow_down
+93 sources
+arrow_upward

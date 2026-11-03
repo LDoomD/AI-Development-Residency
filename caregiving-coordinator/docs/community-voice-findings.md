@@ -14,12 +14,12 @@ Forum threads: primary theme (one per thread) and 'anywhere in the thread'. YouT
 
 | Theme | Forum threads (primary) | Forum threads (anywhere) | YouTube share of themed comments | YouTube share without the sibling-abuse video |
 |---|---|---|---|---|
-| Choosing, placing and paying for care | 13 (9%) | 38 (26%) | 5% | 6% |
+| Choosing, placing and paying for care | 12 (9%) | 38 (26%) | 5% | 6% |
 | Burnout, guilt, isolation, grief | 25 (17%) | 55 (39%) | 21% | 24% |
 | Family coordination, siblings | 7 (4%) | 29 (20%) | 10% | 10% |
 | Long-distance caregiving | 2 (1%) | 9 (6%) | 2% | 2% |
 | Medications | 9 (6%) | 20 (14%) | 1% | 1% |
-| Money, insurance, legal papers | 12 (8%) | 46 (32%) | 5% | 5% |
+| Money, insurance, legal papers | 13 (9%) | 46 (32%) | 5% | 5% |
 | Care recipient refuses help | 3 (2%) | 12 (8%) | 3% | 3% |
 | New diagnosis, crisis, "where do I start" | 12 (8%) | 19 (13%) | 2% | 2% |
 | Dementia behavior and communication | 22 (15%) | 44 (31%) | 11% | 12% |
@@ -197,3 +197,26 @@ Threads that mention logins or accounts: 17 of 141. Threads that mention the cos
 
 ## Not checked
 Whether a second reader would assign the same themes; long-distance and medication content on YouTube (those searches returned nothing); Reddit, TikTok and app reviews (not collected).
+
+## Corrected counts (2026-11-02): only the 117 threads the strict check confirmed as caregiving
+
+Two fixes to the table above. (1) The "main topic" counts for "Choosing, placing and paying for care" and "Money, insurance, legal papers" were swapped by one; from the per-thread tags they are 12 and 13 (above, now corrected). (2) The table counts all 141 threads. The strict check (`docs/sources/forum-relevance/`, exact evidence quote per thread, blind recheck of the rest) confirmed 117 as caregiving; 13 were unclear and 11 not caregiving. Counts below are on the 117 only, from the same one-reader theme tags, so they are approximate.
+
+| Theme | Main topic (of 117) | Anywhere in the thread (of 117) |
+|---|---|---|
+| Choosing, placing and paying for care | 11 (9%) | 35 (30%) |
+| Burnout, guilt, isolation, grief | 23 (20%) | 50 (43%) |
+| Family coordination, siblings | 7 (6%) | 28 (24%) |
+| Long-distance caregiving | 1 (1%) | 8 (7%) |
+| Medications | 8 (7%) | 19 (16%) |
+| Money, insurance, legal papers | 10 (9%) | 39 (33%) |
+| Care recipient refuses help | 3 (3%) | 12 (10%) |
+| New diagnosis, crisis, "where do I start" | 10 (9%) | 14 (12%) |
+| Dementia behavior and communication | 19 (16%) | 40 (34%) |
+| Safety | 6 (5%) | 28 (24%) |
+| Paid caregivers and agencies | 6 (5%) | 13 (11%) |
+| Doctors, appointments, records | 4 (3%) | 23 (20%) |
+| The caregiver's own life | 1 (1%) | 30 (26%) |
+| Other | 8 (7%) | 10 (9%) |
+
+Other counts on the 117: threads that mention logins or accounts 17; threads that mention the cost of a tool or app 8. Family dynamic as tagged: siblings or family do not help 14, conflict 10, help 13, not mentioned 59, unclear 21. Who is cared for: parent 55, spouse or partner 54, other relative 5, unclear 3. Where they live (only 42 threads say): 20 together (12 spouse, 8 parent), 22 apart (16 parent, 4 spouse).

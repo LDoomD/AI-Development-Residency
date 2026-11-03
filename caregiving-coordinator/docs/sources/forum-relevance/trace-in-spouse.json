@@ -1,0 +1,880 @@
+[
+ {
+  "theme": "Exhaustion, loneliness and own health",
+  "lines": [
+   {
+    "line_id": "L0-0",
+    "kind": "business_goal",
+    "text": "We want the spouse caregiver to keep their own health and have someone to lean on."
+   },
+   {
+    "line_id": "L0-1",
+    "kind": "future_scenario",
+    "text": "The caregiver gets regular breaks"
+   },
+   {
+    "line_id": "L0-2",
+    "kind": "future_scenario",
+    "text": "The caregiver has someone to talk to"
+   },
+   {
+    "line_id": "L0-3",
+    "kind": "future_scenario",
+    "text": "The caregiver's own medical needs are not put off"
+   }
+  ],
+  "items": [
+   {
+    "key": "s2",
+    "id": "alz-77390",
+    "quote": "There is no respite from this disease which progresses far too quickly."
+   },
+   {
+    "key": "s5",
+    "id": "alz-77411",
+    "quote": "I knew caring for both of them would be to much."
+   },
+   {
+    "key": "s20",
+    "id": "alz-75137",
+    "quote": "Right now I can't remember the happy times."
+   },
+   {
+    "key": "s21",
+    "id": "alz-75137",
+    "quote": "I am so riddled with grief and guilt that I am almost non-functional."
+   },
+   {
+    "key": "s29",
+    "id": "alz-77379",
+    "quote": "I don't really have anywhere else to vent."
+   },
+   {
+    "key": "s30",
+    "id": "alz-77364",
+    "quote": "I cannot seem to force myself to visit with her"
+   },
+   {
+    "key": "s32",
+    "id": "alz-77364",
+    "quote": "Now, when my help is here and I run an errand I dread going back."
+   },
+   {
+    "key": "s36",
+    "id": "alz-77375",
+    "quote": "I am sick and worn out"
+   },
+   {
+    "key": "s54",
+    "id": "alz-77381",
+    "quote": "The vocalizations are like a wavering whimper. Pretty much like Chinese water torture."
+   },
+   {
+    "key": "s80",
+    "id": "alz-77400",
+    "quote": "I just want to be home, not seeing anyone, not accomplishing anything."
+   },
+   {
+    "key": "s81",
+    "id": "alz-77400",
+    "quote": "Just counting the hours until I can go to bed for another night of restless sleep."
+   },
+   {
+    "key": "s85",
+    "id": "alz-77348",
+    "quote": "Trying to find the balance between being a partner and a caregiver has been one of my biggest challenges in caring for my DH."
+   },
+   {
+    "key": "s89",
+    "id": "alz-77392",
+    "quote": "Like you, I still work and arranging care at home is difficult."
+   },
+   {
+    "key": "s90",
+    "id": "agi-499222",
+    "quote": "I just feel so angry and tired and unsupported all the time."
+   },
+   {
+    "key": "s94",
+    "id": "agi-499378",
+    "quote": "They want him to exercise, but I cannot go for walks with him due to my rollator and bad knee from an irrepairable Achille's tendon tear."
+   },
+   {
+    "key": "s103",
+    "id": "alz-77354",
+    "quote": "I think I am an awful person for hoping one of those things happen sooner not later."
+   },
+   {
+    "key": "s106",
+    "id": "alz-77354",
+    "quote": "The stress is so overwhelming for me I fear a stroke or heart attack."
+   },
+   {
+    "key": "s108",
+    "id": "alz-77326",
+    "quote": "Sometimes I get frustrated by the re-doing as it is more work than if I had done it in the beginning"
+   },
+   {
+    "key": "s111",
+    "id": "alz-77284",
+    "quote": "I am exhausted, constantly crying through frustration and exhaustion."
+   },
+   {
+    "key": "s112",
+    "id": "alz-77284",
+    "quote": "The entertainment and engagement effort is exhausting to me."
+   },
+   {
+    "key": "s113",
+    "id": "alz-77406",
+    "quote": "I have so much on my plate as full time caregiver I just can’t do any more."
+   },
+   {
+    "key": "s115",
+    "id": "alz-77470",
+    "quote": "I am tired of doing it all - cooking, cleaning, daily laundry, paying bills, grocery shoping, doctors appointments, I’m even tired of crying everyday"
+   },
+   {
+    "key": "s119",
+    "id": "alz-77427",
+    "quote": "I don’t want to dump on my friends or family."
+   },
+   {
+    "key": "s121",
+    "id": "alz-77383",
+    "quote": "pretty much everything has changed and it is non stop on my side and it drains me to know end."
+   },
+   {
+    "key": "s122",
+    "id": "alz-77383",
+    "quote": "I work full time and it is just me. No family around this area."
+   },
+   {
+    "key": "s125",
+    "id": "alz-77449",
+    "quote": "I found these conversations very confronting and for most of this time I was in tears, distraught."
+   },
+   {
+    "key": "s128",
+    "id": "alz-77316",
+    "quote": "It’s very hard being solely responsible for him."
+   },
+   {
+    "key": "s129",
+    "id": "alz-77316",
+    "quote": "I don’t know how much longer this journey will last."
+   },
+   {
+    "key": "s131",
+    "id": "alz-77409",
+    "quote": "I’m a fixer and I can’t fix this."
+   }
+  ]
+ },
+ {
+  "theme": "Dementia behavior and hard conversations",
+  "lines": [
+   {
+    "line_id": "L1-0",
+    "kind": "business_goal",
+    "text": "We want caregivers to handle agitation, repeated questions and refusal without anger or exhaustion."
+   },
+   {
+    "line_id": "L1-1",
+    "kind": "future_scenario",
+    "text": "The caregiver finds something that calms the person when the usual tactics stop working"
+   },
+   {
+    "line_id": "L1-2",
+    "kind": "future_scenario",
+    "text": "Evening restlessness does not end the day in conflict"
+   },
+   {
+    "line_id": "L1-3",
+    "kind": "future_scenario",
+    "text": "The caregiver knows when to ask a doctor about behavior or medicine"
+   }
+  ],
+  "items": [
+   {
+    "key": "s9",
+    "id": "alz-77407",
+    "quote": "Her anxiety/ agitation/ emotional outbursts and general \"altered states\" are recently getting more pronounced."
+   },
+   {
+    "key": "s13",
+    "id": "alz-77414",
+    "quote": "As my husband's mixed dementia got worse and his behavior became more aggressive I consented when his doctor suggested more drugs."
+   },
+   {
+    "key": "s14",
+    "id": "alz-77414",
+    "quote": "sometimes the best caregiver behavioral techniques and environmental adjustments just aren't enough to prevent unsustainable crazytown."
+   },
+   {
+    "key": "s19",
+    "id": "alz-77371",
+    "quote": "My dh is not much of a talker about difficult things"
+   },
+   {
+    "key": "s24",
+    "id": "alz-77379",
+    "quote": "I know patience is the #1 need in a caregiver, and I'm doing my best, and trying to teach our girls the same (ages 17, 15, and 12)...but we fall short way too often."
+   },
+   {
+    "key": "s28",
+    "id": "alz-77379",
+    "quote": "if all the necessary details aren't there (where, what time do we leave, who's driving, who's going...), then it's a major struggle."
+   },
+   {
+    "key": "s33",
+    "id": "alz-77454",
+    "quote": "Woke up at 3:20 with husband cussing loudly, trying to get out of bed."
+   },
+   {
+    "key": "s45",
+    "id": "alz-77377",
+    "quote": "How should I respond to the same question multiple times everyday."
+   },
+   {
+    "key": "s46",
+    "id": "alz-77377",
+    "quote": "basically all day long he is asking me where is she when will she be back how is she getting home etc."
+   },
+   {
+    "key": "s47",
+    "id": "alz-77377",
+    "quote": "she said it was stuff she wanted to take home, we have lived here for 30 years"
+   },
+   {
+    "key": "s48",
+    "id": "alz-77377",
+    "quote": "At times, I actually miss the repetitive questions, as opposed to the awful silence."
+   },
+   {
+    "key": "s49",
+    "id": "agi-499873",
+    "quote": "I've been doing this for 10+ years for a combative husband who is in diapers."
+   },
+   {
+    "key": "s57",
+    "id": "agi-498938",
+    "quote": "Sometimes she gets down right mean, like sundowning on steroids'."
+   },
+   {
+    "key": "s60",
+    "id": "agi-498938",
+    "quote": "My husband says \"no\" to every question."
+   },
+   {
+    "key": "s63",
+    "id": "alz-77462",
+    "quote": "Can't communicate at all."
+   },
+   {
+    "key": "s73",
+    "id": "alz-77408",
+    "quote": "In the last week or so, DH has been trying to pick up things that are only the pattern in either the floor, bedspread, or countertop."
+   },
+   {
+    "key": "s74",
+    "id": "alz-77457",
+    "quote": "She is determined to stay independent and takes offense to any questions or reminders about medications and other normal daily questions or reminders."
+   },
+   {
+    "key": "s75",
+    "id": "alz-77457",
+    "quote": "told me I’m not a good caregiver"
+   },
+   {
+    "key": "s76",
+    "id": "alz-77457",
+    "quote": "This changing relationship between us is so painful and frustrating."
+   },
+   {
+    "key": "s77",
+    "id": "alz-77457",
+    "quote": "We just cannot get along, and I can’t find reactions or lack of reactions that work with her."
+   },
+   {
+    "key": "s84",
+    "id": "alz-77348",
+    "quote": "I am very angry about how this has changed my life and often engage him in arguments and yell at him."
+   },
+   {
+    "key": "s100",
+    "id": "alz-77263",
+    "quote": "I have to be sensitive to slight changes in his mood and to my reactions to things that happen because it’s easy for me to react strongly and hurt his feelings."
+   },
+   {
+    "key": "s107",
+    "id": "alz-77326",
+    "quote": "I am wondering whether this is something not to bother pointing out, as this tends to provoke a range of emotions, from irritation to anger."
+   },
+   {
+    "key": "s109",
+    "id": "alz-77284",
+    "quote": "She needs to be doing something all the time and expects me to provide her with something to do."
+   },
+   {
+    "key": "s114",
+    "id": "alz-77406",
+    "quote": "my DH has low tolerance for interruptions to his routine… especially after 5 pm or so."
+   },
+   {
+    "key": "s123",
+    "id": "alz-77449",
+    "quote": "My wife, who has Alzheimer’s, is constantly saying she wants to go home (we are living at home), she doesn’t want to be here anymore, and she can’t do this anymore."
+   },
+   {
+    "key": "s124",
+    "id": "alz-77449",
+    "quote": "I’ve tried telling her she’s safe here, asking her to tell me about home, and other tactics I’ve seen here and elsewhere, to no avail."
+   },
+   {
+    "key": "s126",
+    "id": "alz-77378",
+    "quote": "The constant criticism, being blamed for everything…it goes on and on."
+   }
+  ]
+ },
+ {
+  "theme": "Personal care and medicines",
+  "lines": [
+   {
+    "line_id": "L2-0",
+    "kind": "business_goal",
+    "text": "We want bathing, toileting, medicines and eating to be manageable at home."
+   },
+   {
+    "line_id": "L2-1",
+    "kind": "future_scenario",
+    "text": "Night-time incontinence does not wreck the caregiver's sleep"
+   },
+   {
+    "line_id": "L2-2",
+    "kind": "future_scenario",
+    "text": "The person takes medicine without a fight"
+   },
+   {
+    "line_id": "L2-3",
+    "kind": "future_scenario",
+    "text": "Doctors can see the readings or notes the caregiver keeps"
+   }
+  ],
+  "items": [
+   {
+    "key": "s34",
+    "id": "alz-77454",
+    "quote": "He refuses to shower even with help."
+   },
+   {
+    "key": "s35",
+    "id": "alz-77454",
+    "quote": "DH is up and down from about 3.30pm every night, a few overshoots in the bathroom"
+   },
+   {
+    "key": "s39",
+    "id": "alz-59049",
+    "quote": "It just got to be too much for me with the incontinence, helping her to eat, refusing showing, refusing to change her depends etc."
+   },
+   {
+    "key": "s50",
+    "id": "agi-499873",
+    "quote": "My husband hates being cleaned up, and yells \"help me!\" the entire time."
+   },
+   {
+    "key": "s51",
+    "id": "alz-77381",
+    "quote": "Sedative meds just make it more dangerous most times."
+   },
+   {
+    "key": "s52",
+    "id": "alz-77381",
+    "quote": "It’s impossible to know if she’s in distress but it doesn’t appear that she is."
+   },
+   {
+    "key": "s53",
+    "id": "alz-77381",
+    "quote": "Hospice is stumped because she doesn’t react to medications like most patients."
+   },
+   {
+    "key": "s55",
+    "id": "alz-77381",
+    "quote": "the neurologist definitely piled up way too many drugs to try to manage her aggression."
+   },
+   {
+    "key": "s56",
+    "id": "agi-498938",
+    "quote": "My wife has determined to not take her meds when I offer them to her."
+   },
+   {
+    "key": "s64",
+    "id": "alz-77462",
+    "quote": "She's put it on her dry hair before outside the bath cycle."
+   },
+   {
+    "key": "s66",
+    "id": "alz-77112",
+    "quote": "my spouse does not remember that she has eaten and therefore constantly eats."
+   },
+   {
+    "key": "s67",
+    "id": "alz-77112",
+    "quote": "She also forgets when she has a glass of wine if we go out to dinner and comes home and pours another."
+   },
+   {
+    "key": "s71",
+    "id": "alz-77372",
+    "quote": "We have very little room to store a big arm cuff unit"
+   },
+   {
+    "key": "s72",
+    "id": "alz-77372",
+    "quote": "It's so hard to gauge precision from reviews."
+   },
+   {
+    "key": "s79",
+    "id": "alz-77424",
+    "quote": "My husband had severe fluctuations in blood pressure and the doctors found nothing to cause it."
+   },
+   {
+    "key": "s83",
+    "id": "alz-77428",
+    "quote": "I have trouble getting him in the car. He gained alot of weight he is 200 lbs. I have trouble dressing him and getting him in shower."
+   },
+   {
+    "key": "s91",
+    "id": "agi-499222",
+    "quote": "I am constantly tired because, he just got a catheter."
+   },
+   {
+    "key": "s93",
+    "id": "agi-499378",
+    "quote": "If I happen to fall asleep, hubby, a type 2 diabetic will sneak ice cream and anything sweet he can find."
+   },
+   {
+    "key": "s95",
+    "id": "agi-499378",
+    "quote": "We are on free food from local pantries, which results in a high number of carbs which we cannot do much about"
+   }
+  ]
+ },
+ {
+  "theme": "Safety when they are alone or out",
+  "lines": [
+   {
+    "line_id": "L3-0",
+    "kind": "business_goal",
+    "text": "We want the person to be safe when the caregiver is not with them and when they go out."
+   },
+   {
+    "line_id": "L3-1",
+    "kind": "future_scenario",
+    "text": "The caregiver can leave the house briefly knowing the person is safe"
+   },
+   {
+    "line_id": "L3-2",
+    "kind": "future_scenario",
+    "text": "Public places work for a couple, for example restrooms"
+   },
+   {
+    "line_id": "L3-3",
+    "kind": "future_scenario",
+    "text": "A conversation about driving can happen in time"
+   }
+  ],
+  "items": [
+   {
+    "key": "s8",
+    "id": "alz-77407",
+    "quote": "I'm finding it really difficult to leave my DW to get a haircut, attend to car repairs/ maintenance, go to my own dr's & dentists appts."
+   },
+   {
+    "key": "s10",
+    "id": "alz-77407",
+    "quote": "I'm still worried about her safety when I'm away as well as her frantic phone calls minutes after I leave"
+   },
+   {
+    "key": "s11",
+    "id": "alz-77407",
+    "quote": "he is NOT safe to leave alone."
+   },
+   {
+    "key": "s25",
+    "id": "alz-77379",
+    "quote": "Last night she tried to do something while helping to cook dinner that was a clear fire hazard"
+   },
+   {
+    "key": "s27",
+    "id": "alz-77379",
+    "quote": "enough to make my girls not really want to ride with her."
+   },
+   {
+    "key": "s43",
+    "id": "alz-77395",
+    "quote": "Yet, our neurologist is insistent on me having her supervised 24/7."
+   },
+   {
+    "key": "s44",
+    "id": "alz-77395",
+    "quote": "My biggest concern was if he’d know what to do in an emergency."
+   },
+   {
+    "key": "s58",
+    "id": "agi-498938",
+    "quote": "Walking is becoming difficult because she tries to open other apartment doors."
+   },
+   {
+    "key": "s61",
+    "id": "alz-77410",
+    "quote": "lately he gets confused when he goes into the men’s room when we’re out somewhere."
+   },
+   {
+    "key": "s86",
+    "id": "alz-77437",
+    "quote": "I’ve been noticing when he drives he’s slowing down at all intersections even if the light is green."
+   },
+   {
+    "key": "s87",
+    "id": "alz-77437",
+    "quote": "I'm so heartbroken that this might be a conversation we need to have quickly. I thought we had time."
+   },
+   {
+    "key": "s102",
+    "id": "alz-77263",
+    "quote": "when there’s no family restroom and my DH has to go into the men’s room by himself and there’s no other men going on or coming out"
+   },
+   {
+    "key": "s105",
+    "id": "alz-77354",
+    "quote": "The falls started and I can’t get him up off the floor."
+   },
+   {
+    "key": "s133",
+    "id": "alz-77376",
+    "quote": "he wouldn't think to call 911 if there was a fire or other emergency"
+   }
+  ]
+ },
+ {
+  "theme": "Aides, hospice and trusting others",
+  "lines": [
+   {
+    "line_id": "L4-0",
+    "kind": "business_goal",
+    "text": "We want caregivers to trust paid help and know what happened while they were away."
+   },
+   {
+    "line_id": "L4-1",
+    "kind": "future_scenario",
+    "text": "The caregiver knows how an aide's visit went"
+   },
+   {
+    "line_id": "L4-2",
+    "kind": "future_scenario",
+    "text": "A hospice or aide visit happens as promised"
+   },
+   {
+    "line_id": "L4-3",
+    "kind": "future_scenario",
+    "text": "The caregiver can leave the person with others for a few hours"
+   }
+  ],
+  "items": [
+   {
+    "key": "s12",
+    "id": "alz-77407",
+    "quote": "My DW will not consent to either so that is a remaining hurdle."
+   },
+   {
+    "key": "s41",
+    "id": "alz-77395",
+    "quote": "then one day didn’t show up with no phone call or anything to alert us to her quitting."
+   },
+   {
+    "key": "s42",
+    "id": "alz-77395",
+    "quote": "I’m afraid to contact some of these as they will share my contact info to anyone they think could give them a"
+   },
+   {
+    "key": "s62",
+    "id": "alz-77410",
+    "quote": "It’s hard for me to leave him in someone else’s care even for a few hours"
+   },
+   {
+    "key": "s68",
+    "id": "alz-77347",
+    "quote": "The very first day, a lady showed up at 8:00am thinking she was going to give me, rather than my wife a shower."
+   },
+   {
+    "key": "s96",
+    "id": "agi-499829",
+    "quote": "Most days the aide comes while I am at work, and by evening I realize I honestly do not know how the visit went."
+   },
+   {
+    "key": "s97",
+    "id": "agi-499829",
+    "quote": "I feel guilty double-checking on people, but I feel worse not knowing."
+   },
+   {
+    "key": "s98",
+    "id": "agi-499829",
+    "quote": "I was worried about counting on an aide coming every day and being reliable."
+   },
+   {
+    "key": "s99",
+    "id": "agi-499829",
+    "quote": "when I was gone for a few hours at a time, she had nothing to hold her accountable, she didn't do anything at all."
+   },
+   {
+    "key": "s101",
+    "id": "alz-77263",
+    "quote": "It’s hard for me to leave him in someone else’s care even for a few hours because I know his specific needs"
+   },
+   {
+    "key": "s110",
+    "id": "alz-77284",
+    "quote": "I couldn't survive without this help but it's not enough."
+   },
+   {
+    "key": "s132",
+    "id": "alz-77376",
+    "quote": "The fact that I would suggest it would upset her and wouldn’t be happy about it"
+   }
+  ]
+ },
+ {
+  "theme": "Placing them and care costs",
+  "lines": [
+   {
+    "line_id": "L5-0",
+    "kind": "business_goal",
+    "text": "We want families to place a spouse in memory care at the right time, in a good place, and to be able to afford it."
+   },
+   {
+    "line_id": "L5-1",
+    "kind": "future_scenario",
+    "text": "The caregiver can judge when home care is no longer enough"
+   },
+   {
+    "line_id": "L5-2",
+    "kind": "future_scenario",
+    "text": "The caregiver can find a good place and pay for it"
+   },
+   {
+    "line_id": "L5-3",
+    "kind": "future_scenario",
+    "text": "Care in the new place meets the spouse's needs"
+   }
+  ],
+  "items": [
+   {
+    "key": "s31",
+    "id": "alz-77364",
+    "quote": "When they started leaving her in her room all day in the same dirty clothes, I found another place as quickly as I could."
+   },
+   {
+    "key": "s37",
+    "id": "alz-77375",
+    "quote": "I took my DH to memory care a few months ago as I could no longer take care of him at home."
+   },
+   {
+    "key": "s38",
+    "id": "alz-77375",
+    "quote": "the staff mostly did just enough to \"get by\" until I pressed them on things."
+   },
+   {
+    "key": "s40",
+    "id": "alz-59049",
+    "quote": "The adjustment for me is tougher than I thought."
+   },
+   {
+    "key": "s59",
+    "id": "agi-498938",
+    "quote": "Don't know how we would afford to go to assisted living and if they even have units were we could be together."
+   },
+   {
+    "key": "s88",
+    "id": "alz-77392",
+    "quote": "Honestly, there is no chance we will be able to pay for any memory care."
+   },
+   {
+    "key": "s104",
+    "id": "alz-77354",
+    "quote": "It is a huge decision for us, as what will I have after he’s gone? And living on my income if/when he is in MC will be tight!"
+   },
+   {
+    "key": "s127",
+    "id": "alz-77471",
+    "quote": "the weekend staffing level is not as good as the weekdays. I have to visit him most days to make sure he is ok."
+   }
+  ]
+ },
+ {
+  "theme": "Money, scams and bills",
+  "lines": [
+   {
+    "line_id": "L6-0",
+    "kind": "business_goal",
+    "text": "We want the spouse's money, bills and exposure to scams under control."
+   },
+   {
+    "line_id": "L6-1",
+    "kind": "future_scenario",
+    "text": "The caregiver can take over bills that were left behind"
+   },
+   {
+    "line_id": "L6-2",
+    "kind": "future_scenario",
+    "text": "The person cannot be scammed or overspend"
+   },
+   {
+    "line_id": "L6-3",
+    "kind": "future_scenario",
+    "text": "Care costs can be planned"
+   }
+  ],
+  "items": [
+   {
+    "key": "s3",
+    "id": "alz-77411",
+    "quote": "He has always taken care of all our finances. He refuses to give up control to me."
+   },
+   {
+    "key": "s4",
+    "id": "alz-77411",
+    "quote": "When DH nearly lost us $30,000 to a scammer, I realized that he wasn't always thinking clearly."
+   },
+   {
+    "key": "s6",
+    "id": "alz-77411",
+    "quote": "After DW wrote a check for 10K to a family member , I shut her down."
+   },
+   {
+    "key": "s7",
+    "id": "alz-77411",
+    "quote": "We are now living the results of DW in early stages getting scammed multiple times, turning our finances upside down."
+   },
+   {
+    "key": "s22",
+    "id": "alz-75137",
+    "quote": "I am terrified of not being able to keep the house."
+   },
+   {
+    "key": "s26",
+    "id": "alz-77379",
+    "quote": "She bought \"one or two things\" on TEMU the other day...12 things totaling over $200."
+   },
+   {
+    "key": "s82",
+    "id": "alz-77428",
+    "quote": "I am so overwhelmed with his bills- left so unintended- and the lack of addressing so many things when he walked out of his job"
+   },
+   {
+    "key": "s92",
+    "id": "agi-499222",
+    "quote": "I’m struggling with figuring out health insurance for myself and I’m tired."
+   },
+   {
+    "key": "s134",
+    "id": "alz-77473",
+    "quote": "Not sure what help to apply for first."
+   }
+  ]
+ },
+ {
+  "theme": "Diagnosis and doctor delays",
+  "lines": [
+   {
+    "line_id": "L7-0",
+    "kind": "business_goal",
+    "text": "We want a diagnosis and treatment without long waits."
+   },
+   {
+    "line_id": "L7-1",
+    "kind": "future_scenario",
+    "text": "A person with new symptoms sees a specialist within weeks"
+   },
+   {
+    "line_id": "L7-2",
+    "kind": "future_scenario",
+    "text": "The family understands what is wrong"
+   }
+  ],
+  "items": [
+   {
+    "key": "s15",
+    "id": "alz-77371",
+    "quote": "waiting 6 months feels like an eternity to me."
+   },
+   {
+    "key": "s16",
+    "id": "alz-77371",
+    "quote": "The doctor seemed reluctant to do blood work or,scan for plaques, and I’m not really sure why?"
+   },
+   {
+    "key": "s17",
+    "id": "alz-77371",
+    "quote": "DW finally getting actual sustained treatment after nine months of insurance changes, delays, one rogue neuro PA, etc."
+   },
+   {
+    "key": "s18",
+    "id": "alz-77371",
+    "quote": "we had lived with growing symptoms that were putting terrible strain on us for years."
+   },
+   {
+    "key": "s23",
+    "id": "alz-77086",
+    "quote": "At one office, the scheduler told me they had no openings for several months."
+   },
+   {
+    "key": "s69",
+    "id": "alz-77347",
+    "quote": "We swere promised a doctor visit but that never happened."
+   },
+   {
+    "key": "s130",
+    "id": "alz-77409",
+    "quote": "There’s something off with some of his cognitive abilities but we do not have a why or what it is."
+   }
+  ]
+ },
+ {
+  "theme": "Relatives and others not helping or criticizing",
+  "lines": [
+   {
+    "line_id": "L8-0",
+    "kind": "business_goal",
+    "text": "We want family and friends to support the caregiver, not criticize."
+   },
+   {
+    "line_id": "L8-1",
+    "kind": "future_scenario",
+    "text": "The caregiver has family who step in"
+   },
+   {
+    "line_id": "L8-2",
+    "kind": "future_scenario",
+    "text": "Criticism from relatives does not add to the stress"
+   }
+  ],
+  "items": [
+   {
+    "key": "s116",
+    "id": "alz-77470",
+    "quote": "those I held near and dear are “ too busy” to lend a hand, give me a call, or ask how I’m doing."
+   },
+   {
+    "key": "s118",
+    "id": "alz-77427",
+    "quote": "the bigger problem for me is his daughter and exwife that have given me more grief than anyone else. They aren't supportive, they degrade me"
+   },
+   {
+    "key": "s120",
+    "id": "alz-77374",
+    "quote": "She was upset that my DH did not have a polo shirt and jeans on."
+   }
+  ]
+ }
+]

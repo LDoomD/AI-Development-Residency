@@ -39,13 +39,13 @@ From the 141 forum threads (`docs/community-voice-findings.md`). First number: t
 |---|---|---|---|
 | 1 | Family care-coordination apps | Family coordination, siblings | 7 / 29 |
 | 2, 3 | Medication apps, pharmacy packaging | Medications | 9 / 20 |
-| 4 | Senior care referral and placement | Choosing, placing and paying for care | 13 / 38 |
+| 4 | Senior care referral and placement | Choosing, placing and paying for care | 12 / 38 |
 | 5 | Home care and marketplaces | Paid caregivers and agencies | 6 / 14 |
 | 6 | Remote monitoring and medical alert | Safety | 8 / 32 |
 | 8, 9 | Visit notes, patient portals | Doctors, appointments, records | 4 / 27 |
 | 10 | Digital vaults, emergency access | Logins and accounts mentioned | not a theme row; 17 threads mention it |
 | 11, 12 | Respite, caregiver mental health | Burnout, guilt, isolation, grief | 25 / 55 |
-| 14 | Insurance and benefits navigation | Money, insurance, legal papers | 12 / 46 |
+| 14 | Insurance and benefits navigation | Money, insurance, legal papers | 13 / 46 |
 | 7, 13 | Employer benefits, telehealth | No matching theme | none |
 
 Limits: the forums lean toward dementia, spouses and heavy writers; Reddit was blocked. Segments 11 to 14 still have no market-size research.

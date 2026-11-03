@@ -1,0 +1,262 @@
+QUESTION SENT (2026-11-02):
+Context: I am a student in the AI Development Residency, and we are in weeks 2 and 3 (market research and competitive analysis). My project is about family caregiving. So far I have market segments, market size, market opportunity, audience segmentation, a competitor table with 10 competitors, and a list of questions to answer about competitors. But I have not chosen a problem or a segment yet, and I feel I may have skipped a step. Using only the course materials: (1) In what order are the steps in weeks 2 and 3, and where does choosing the segment or the problem to solve happen (for example market selection and competitor selection)? (2) What must be decided before the competitive analysis starts? (3) What deliverables are expected at the end of weeks 2 and 3, and what is expected for the problem statement and unique value proposition? Please name the source documents you used.
+
+NOTEBOOK ANSWER (page text; numbers are the notebook's own citation markers, and the list at the end names the sources it cites):
+
+
+Thoughts
+expand_more
+In the AI Development Residency, weeks 2 and 3 cover product management, discovery, requirements engineering, and building a three-tier web application
+1
+more_horiz
+. Below is the detailed breakdown based on the course lectures, working sessions, data frameworks, and homework specifications.
+1. Workflow Order in Weeks 2 & 3 and Where Selection Happens
+In working sessions, the instructor notes that while discovery deliverables inform one another without a rigid, single lockstep order
+5
+, there is a clear logical sequence taught across the Discovery, Vision, Requirements, and Implement milestones
+6
+more_horiz
+.
+Step-by-Step Order of Operations
+Audience Segmentation (Market / Segment Selection Happens Here)
+9
+more_horiz
+:
+Where Segment Selection Happens: You begin by categorizing user populations and identifying their motivations, situational goals (what they want to achieve in the moment), and life goals
+11
+more_horiz
+. Here, you select which specific target caregiver group(s) you are focusing on (e.g., family caregivers managing aging parents with dementia vs. parents of neurodivergent children)
+9
+more_horiz
+.
+Market Analysis
+12
+more_horiz
+:
+Document the market channels (broad software categories), market segments, total market size/valuation, top competing companies, and projected growth (CAGR)
+12
+more_horiz
+.
+Competitor Analysis & Feature Analysis
+12
+more_horiz
+:
+Evaluate top competitors across specific questions (capabilities, strengths, weaknesses, customer feedback, unfulfilled gaps) and build a feature matrix comparing functional capabilities
+12
+more_horiz
+. You must validate AI outputs with observable evidence and source links
+16
+more_horiz
+.
+Unique Value Proposition (UVP) & Product Positioning
+12
+more_horiz
+:
+Synthesize market gaps and competitor weaknesses into a Unique Value Proposition and a formal positioning statement for your selected audience
+11
+more_horiz
+.
+Release Vision Board (Problem Selection Happens Here)
+26
+more_horiz
+:
+Where Problem Selection Happens: You transition to the Vision milestone and complete the 10-box Vision Board
+26
+more_horiz
+. You first list all potential current-state problems for your market (which forms your long-term Minimum Marketable Product / MMP scope)
+26
+more_horiz
+. Then, using human product judgment, you select the core 1 to 4 critical problems to solve for your Minimum Viable Product (MVP #1)
+26
+more_horiz
+.
+Backlog Breakdown (Epics, Features, Tasks & Acceptance Criteria)
+27
+more_horiz
+:
+Break the MVP problem outcomes down into epics, features, tasks, and testable acceptance criteria without prescribing technical solutions too early
+31
+more_horiz
+.
+Build Plan (Non-Functional Technical Architecture)
+34
+more_horiz
+:
+Define technical decisions for a three-tier network architecture: Vercel for hosting, Supabase for the database, GitHub for version control, and user account security protocols
+34
+more_horiz
+.
+Kanban Board, Pitch Deck & 1-Page Summary
+3
+44
+:
+Populate your backlog in Notion sorted by Kanban status, create a pitch deck summarizing your specifications, and write a 1-page human summary of what you built and learned
+3
+more_horiz
+.
+Week 3 Application Build & Launch
+4
+more_horiz
+:
+Take the Week 2 requirements and build the web application using Claude Code, Next.js with Material UI, Vercel, and Supabase
+4
+more_horiz
+.
+2. What Must Be Decided Before Competitive Analysis Starts
+Before you can run an effective competitive analysis, the course materials require that you establish three foundational inputs:
+Broad Domain & Target Audience Hypothesis: You must have identified the broad market category and target population (e.g., family caregivers) so you know which market channels and competitor categories to search for
+10
+more_horiz
+.
+Competitor Selection & Investigation Criteria: You must identify your top candidate competitors and define the specific evaluation questions/criteria you will ask (e.g., How do they differentiate themselves? What features do they offer? What do customers say about them? What gaps exist?)
+12
+more_horiz
+.
+Hypothesized User Needs & Current-State Scenarios: You need a baseline understanding (proto-personas or research findings) of user goals and pain points
+12
+more_horiz
+. Without knowing what caregivers struggle with, you cannot evaluate whether a competitor's feature set actually solves a real problem or leaves a critical gap unaddressed
+12
+more_horiz
+.
+3. Expected Deliverables & Expectations for Problem Statements and UVP
+Expected Deliverables at the End of Weeks 2 and 3
+Week 2 Deliverables (Product Specifications in Notion & FigJam):
+Audience Segmentation: Customer motivations, situational goals, life goals, and use case scenarios
+3
+more_horiz
+.
+Market Analysis, Competitor Analysis, Feature Analysis: Market size/valuation/CAGR table, 10-competitor analysis table with cited evidence/links, and feature analysis matrix
+3
+more_horiz
+.
+Product Positioning & Unique Value Proposition (UVP): UVP market gap list and positioning statement ("For [audience] who experience [problem], our product [UVP]... unlike [competitors]")
+3
+more_horiz
+.
+Release Vision & Scope: Completed 10-box Vision Boards for both MVP #1 and MMP
+3
+more_horiz
+.
+Backlog Definition: Epics, features, and tasks breakdown for MVP #1
+3
+more_horiz
+.
+Build Plan (Non-Functional Requirements): Architecture specification covering Vercel, Supabase, GitHub, and user data security
+34
+more_horiz
+.
+Notion Kanban Board: Populated backlog tasks sorted by proper Kanban statuses
+34
+more_horiz
+.
+Pitch Deck: Slide deck summarizing all product requirements
+3
+44
+.
+Public GitHub Repository: Created for Week 3 code merges (empty of code during Week 2)
+44
+.
+1-Page Human-Written Summary: Written without AI detailing what you did and learned
+44
+45
+.
+Week 3 Deliverables (Hosted Web Application):
+Supabase Database Architecture Diagram: ERD mapping user accounts and application tables
+4
+50
+.
+GitHub Repository: Containing working source code built with Next.js and Material UI
+4
+more_horiz
+.
+Live Vercel Application URL: Deployed three-tier web application connected to Supabase
+4
+more_horiz
+.
+Updated Notion Kanban Board: Documented backlog tickets moved through execution statuses
+4
+.
+1-Page Human-Written Summary: Written without AI detailing your build and learning experience
+4
+.
+(Note: Premium Residency participants complete their custom app specifications/codebase and submit an APA-formatted research paper and proposal on their specialization topic)
+3
+more_horiz
+.
+Expectations for Problem Statements
+In-Scope vs. Optional: Full standalone "Problem Statement Workshops" are marked optional/out-of-scope for the basic green-circle coding challenge minimum, but problem definitions are required inside Box 2 of your Vision Board and user stories
+10
+more_horiz
+.
+Current-State Focus: Problem statements must describe what is happening right now in the real world that needs to change from the user's perspective
+26
+more_horiz
+.
+Strict Solution-Free Constraint: Problem statements and user stories must never specify a solution (e.g., "As a user, I want a dashboard..."). They must describe user goals, pain points, and why the problem matters ("so that..."), leaving solution design open to creative execution
+27
+more_horiz
+.
+MVP Scope Filtering: Out of all problems identified for the market (MMP), you must explicitly select a focused subset (1–4 core problems) for your MVP #1
+26
+more_horiz
+.
+Expectations for Unique Value Proposition (UVP)
+Sharp Differentiation: The UVP must be a concise statement defining the specific, distinct benefit your product delivers that competing products fail to provide
+22
+56
+.
+Competitive Advantage Formula: It must state your unique edge: "Unlike other products that do [generic/flawed alternative], our product uniquely solves [specific caregiver problem] by providing [distinct impact]"
+13
+more_horiz
+.
+Evidence-Based Grounding: The UVP must be directly derived from observable market gaps identified in your competitor and feature analyses, rather than unverified assumptions
+16
+more_horiz
+.
+4. Source Documents Used
+The information above is drawn directly from the following course sources in your notebook:
+Week 2 Lecture Content - Product Management / Week 2 - Product Delivery Management (Lecture Notes)
+2
+8
+Week 2 Lecture Transcript - Product Management
+10
+more_horiz
+Week 2 Lecture Summary - Product Management
+12
+more_horiz
+AI Development Residency - Working Session - 2026/10/21 16:58 PDT - Notes by Gemini
+5
+more_horiz
+transcript-working-session-10-28.txt
+28
+more_horiz
+Homework Assignments / AI Development Residency Homework - Coding Challenges | Notion
+3
+more_horiz
+Week 2 Coding Challenge - Develop Product Specifications for the ADHD Budgeting App | Notion
+76
+Week 4 - Web Coding Lecture Notes
+77
+more_horiz
+export - Deliverables.csv
+27
+export - Milestones.csv
+9
+export - Activities.csv
+83
+Scenario-Based Problem Statement Generation Workshop
+54
+more_horiz
+💡 Next Step Suggestion: Would you like to draft your target audience segmentation profiles for caregivers, or work through the 10-box Vision Board structure box-by-box to define your MVP #1 scope?
+copy
+thumb_up
+thumb_down
+How do we map our caregiver project to the Vision Board?
+subdirectory_arrow_right
+Can we review the audience segmentation for caregivers?
+subdirectory_arrow_right
+How do we write the Unique Value Proposition for our app?
+subdirectory_arrow_right
+93 sources
+arrow_upward
