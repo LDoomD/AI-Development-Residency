@@ -281,3 +281,14 @@ Folder: `competitive-analysis/` and `competitors-2/`. Output: `docs/competitive-
 
 ## 3a. Instructor notebook, how to choose the problem (2026-11-02)
 - `instructor-notebook/answer-5-choosing-the-problem.txt`: the question (with a summary of where the project stands) and the notebook's full answer. Asked in the owner's signed-in Chrome session at the owner's request. Limit: the notebook's own words; its quotes are reported, not verified by me against the course files.
+
+## 2026-11-03 additions (source fixes after the board review)
+
+| File | What it is | Original URL | Used for |
+|---|---|---|---|
+| `market-reports/cnn-2024-10-06-mercer-caregiving-benefits.md` | CNN article (Jeanne Sahadi, 2024-10-06, WRAL copy) quoting Mercer's survey of employers with 500+ staff. Read in full. Secondary: journalist quoting Mercer; the survey report itself is gated and was not opened. | https://www.wral.com/archive/21660040/ | The "34% offer or plan elder care referrals, 10% offer digital tools for caregivers" line in the market analysis. |
+| `market-reports/mercer-2023-next-frontier-caregiving.md` | Mercer's own article "The next frontier: Caregiving of adults" (March 2023). Read in full. Primary for the 2023 figure: one-third of large employers offer elder-care referral services; 28% facility search; 19% backup elder care; 13% elder-care leave. | https://www.mercer.com/en-us/insights/us-health-news/ushn-202303-02/ | Confirms the order of magnitude of the CNN figure. |
+| `competitors/caring-village/www_caringvillage_com_faq.LIVE-CHECK-2026-11-03.md` | Fresh fetch of the Caring Village FAQ (HTTP 200, page last modified 2026-06-01) with the four quoted lines checked word for word. | https://caringvillage.com/faq/ | Clears the four "page link not verified" cells in the competitive analysis table. |
+
+Also resolved the same day without new files: the second pill-reminder market figure ($628M in 2025 to $2,068M in 2034, CAGR 14.2%) traces to a Topflight Apps blog post quoting an unnamed report, https://topflightapps.com/ideas/how-to-create-a-medication-reminder-app/ (recorded in `docs/market-research-prompt2-results.md`); it stays labelled "blog, publisher unnamed" and the HTF figure remains the main one.
+| `fleety/answer-1-feature-analysis-and-next-steps.md` | Fleety (Tech Fleet helper bot, TAL 9000) answer, asked 2026-11-03 in the owner's signed-in session with his approved question. Word for word, with the 6 guide.techfleet.org pages it cites. A bot answer, not a primary source; the cited guide pages were not opened. | https://techfleet.network/tal-9000 (sign-in required) | What a feature comparison must include, how to fill the "our company" row, and the order feature analysis, UVP, positioning, Vision Board. |
