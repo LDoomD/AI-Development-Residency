@@ -1,0 +1,385 @@
+[
+ {
+  "name": "Alzheimer's Association 24/7 Helpline and caregiver support",
+  "type": "nonprofit",
+  "urls": [
+   "https://www.alz.org/help-support/resources/helpline",
+   "https://www.alz.org/help-support/caregiving"
+  ],
+  "files": [
+   "alz-helpline-1.txt",
+   "alz-caregiving-2.txt"
+  ],
+  "serves": [
+   "A",
+   "B"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "Connect with a live person who can provide information, local resources, crisis assistance and emotional support.",
+    "file": "www-alz-org-help-support-resources-helpline.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   },
+   {
+    "quote": "How to understand and respond to dementia-related behaviors.",
+    "file": "www-alz-org-help-support-resources-helpline.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   },
+   {
+    "quote": "Managing caregiver stress.",
+    "file": "www-alz-org-help-support-resources-helpline.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   }
+  ],
+  "who_pays": {
+   "quote": "is a free service offering support for people living with dementia, caregivers, families and the public",
+   "file": "www-alz-org-help-support-resources-helpline.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "how_to_get_it": {
+   "quote": "We are available around the clock, 365 days a year at 800.272.3900",
+   "file": "www-alz-org-help-support-resources-helpline.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "limits": null
+ },
+ {
+  "name": "Family Caregiver Alliance (FCA)",
+  "type": "nonprofit",
+  "urls": [
+   "https://www.caregiver.org/"
+  ],
+  "files": [
+   "fca-1.txt"
+  ],
+  "serves": [
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "From assessment, care planning and direct care skills, to wellness programs, respite services, legal/financial consultation vouchers",
+    "file": "www-caregiver-org.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   },
+   {
+    "quote": "Learn important strategies for maintaining your own well-being as a caregiver.",
+    "file": "www-caregiver-org.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   }
+  ],
+  "who_pays": null,
+  "how_to_get_it": {
+   "quote": "Select your state to find a list of service organizations for caregivers near you and the person for whom you care.",
+   "file": "www-caregiver-org.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "limits": null,
+  "who_pays_note": "not stated on the pages saved"
+ },
+ {
+  "name": "ARCH National Respite Network and Resource Center",
+  "type": "nonprofit",
+  "urls": [
+   "https://archrespite.org/"
+  ],
+  "files": [
+   "arch-1.txt"
+  ],
+  "serves": [
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "Respite is planned or emergency care provided to a child or adult with special needs in order to provide temporary relief to family caregivers.",
+    "file": "archrespite-org.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   },
+   {
+    "quote": "Search for respite providers and programs in your area.",
+    "file": "archrespite-org.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   }
+  ],
+  "who_pays": null,
+  "how_to_get_it": {
+   "quote": "Search for respite providers and programs in your area.",
+   "file": "archrespite-org.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "limits": null,
+  "who_pays_note": "not stated on the pages saved"
+ },
+ {
+  "name": "Cariloop",
+  "type": "employer-paid service",
+  "urls": [
+   "https://www.cariloop.com/",
+   "https://www.cariloop.com/solutions/caregiver-support-platform/coaching"
+  ],
+  "files": [
+   "cariloop-1.txt",
+   "cariloop-2.txt"
+  ],
+  "serves": [
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "When caregiving gets overwhelming, our Coaches are there to listen and guide employees, easing stress and bringing back a sense of control.",
+    "file": "www-cariloop-com-solutions-caregiver-support-platform-coaching.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   },
+   {
+    "quote": "Support that relieves stress and restores balance for employees",
+    "file": "www-cariloop-com.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   },
+   {
+    "quote": "Our reimagined solution gives employees the support they need to manage care gaps without the scramble.",
+    "file": "www-cariloop-com.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   }
+  ],
+  "who_pays": {
+   "quote": "Care for your people and your business with an employee caregiving benefit that makes a real impact.",
+   "file": "www-cariloop-com.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "how_to_get_it": {
+   "quote": "Schedule a Demo",
+   "file": "www-cariloop-com.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "limits": null,
+  "claim_note": "Pages also list ROI and percentage figures; company claim, not used as evidence here."
+ },
+ {
+  "name": "Wellthy",
+  "type": "employer-paid service",
+  "urls": [
+   "https://www.wellthy.com/"
+  ],
+  "files": [
+   "wellthy-1.txt"
+  ],
+  "serves": [
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "taking tasks off your plate, helping you and your family access the right care at the right moment",
+    "file": "www-wellthy-com.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   },
+   {
+    "quote": "Expert-moderated peer-to-peer forums where family caregivers can find connection, support, and exchange knowledge",
+    "file": "www-wellthy-com.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   }
+  ],
+  "who_pays": {
+   "quote": "Learn how Wellthy can help your employees and members with the care they need through all of life's vital moments.",
+   "file": "www-wellthy-com.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "how_to_get_it": {
+   "quote": "Request more information",
+   "file": "www-wellthy-com.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "limits": null,
+  "claim_note": "Home page shows a 91% mental-health figure; company claim, not used as evidence here. Price not stated; page has For Employers / For Health Plans / For Families links, family page not saved."
+ },
+ {
+  "name": "Torchlight Parenting and Caregiving (LifeSpeak)",
+  "type": "employer-paid service",
+  "urls": [
+   "https://www.torchlight.care/"
+  ],
+  "files": [
+   "torchlight-1.txt"
+  ],
+  "serves": [
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "helps prevent crises and keeps caregivers employed with digital and human support",
+    "file": null,
+    "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+   },
+   {
+    "quote": "we have over 90 advisors who specialize in various caregiver-related topics to help employees set a strategy and plan",
+    "file": null,
+    "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+   }
+  ],
+  "who_pays": {
+   "quote": "The only digital-first comprehensive caregiver support solution for employers, health plans, and member organizations.",
+   "file": null,
+   "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+  },
+  "how_to_get_it": {
+   "quote": "Get in touch today to request a demo.",
+   "file": null,
+   "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+  },
+  "limits": null
+ },
+ {
+  "name": "Positive Approach to Care (Teepa Snow)",
+  "type": "consumer app or service",
+  "urls": [
+   "https://teepasnow.com/resources/for-families-and-friends/"
+  ],
+  "files": [
+   "pac-1.txt"
+  ],
+  "serves": [
+   "B",
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "You try your best to help, but your efforts often hit resistance",
+    "file": null,
+    "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+   },
+   {
+    "quote": "we’ll teach you practical care skills that create results.",
+    "file": null,
+    "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+   },
+   {
+    "quote": "Argue Less and Enjoy More Meaningful Interactions",
+    "file": null,
+    "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+   }
+  ],
+  "who_pays": {
+   "quote": "A 4 hour hands-on skills course with PAC Mentors for only $140",
+   "file": null,
+   "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+  },
+  "how_to_get_it": {
+   "quote": "Get A Complimentary Consultation",
+   "file": null,
+   "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+  },
+  "limits": null,
+  "claim_note": "Not a marketing number. Note: positiveapproach.co and pac.teepasnow.com did not resolve; teepasnow.com used. Prices of other PAC shop products not saved."
+ },
+ {
+  "name": "CMS GUIDE Model (Medicare dementia care model)",
+  "type": "government program",
+  "urls": [
+   "https://www.cms.gov/priorities/innovation/innovation-models/guide",
+   "https://www.cms.gov/priorities/innovation/files/guide-model-patient-caregiver-fs.pdf"
+  ],
+  "files": [
+   "cms-guide-1.txt",
+   "cms-guide-2.txt"
+  ],
+  "serves": [
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "Respite services are available to qualifying caregivers up to an annual cap, giving caregivers temporary relief when they need a break.",
+    "file": "www-cms-gov-priorities-innovation-files-guide-model-patient-caregiver-fs-pdf.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   },
+   {
+    "quote": "24/7 access to a support line, caregiver training and education, respite services up to $2,500 annually",
+    "file": "www-cms-gov-priorities-innovation-innovation-models-guide.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   }
+  ],
+  "who_pays": {
+   "quote": "CMS reimburses participants up to $2,500 annually per eligible patient for services that temporarily relieve qualifying caregivers of their caregiving responsibilities",
+   "file": "www-cms-gov-priorities-innovation-innovation-models-guide.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "how_to_get_it": {
+   "quote": "Contact a GUIDE doctor or care team to schedule a comprehensive assessment.",
+   "file": "www-cms-gov-priorities-innovation-files-guide-model-patient-caregiver-fs-pdf.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "limits": {
+   "quote": "Not living in a long-term nursing home.",
+   "file": "www-cms-gov-priorities-innovation-files-guide-model-patient-caregiver-fs-pdf.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  }
+ },
+ {
+  "name": "Savvy Caregiver program",
+  "type": "nonprofit",
+  "urls": [
+   "https://savvycaregiver.com/6-week-program/"
+  ],
+  "files": [
+   "savvy-1.txt"
+  ],
+  "serves": [
+   "B",
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "Learn and practice skills to successfully provide daily activities of ‘Contented Involvement’ for their family member living with dementia.",
+    "file": null,
+    "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+   },
+   {
+    "quote": "Appreciate the need for self-care strategies.",
+    "file": null,
+    "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+   }
+  ],
+  "who_pays": null,
+  "how_to_get_it": {
+   "quote": "Click here to find a location near you.",
+   "file": null,
+   "verified": "NOT re-checked: site returned 403 to direct download; wording came from a Firecrawl scrape"
+  },
+  "limits": null,
+  "claim_note": "Not a marketing number. Note: the saved page does not say who runs the program or what a family pays; the type label is unverified.",
+  "who_pays_note": "not stated on the pages saved"
+ },
+ {
+  "name": "Papa (companion care Papa Pals)",
+  "type": "consumer app or service",
+  "urls": [
+   "https://www.joinpapa.com/"
+  ],
+  "files": [
+   "papa-1.txt"
+  ],
+  "serves": [
+   "A"
+  ],
+  "does_for_problem": [
+   {
+    "quote": "Papa connects you and your loved ones with vetted, reliable Papa Pals for help with everyday tasks, transportation, light housework, and friendly companionship.",
+    "file": "www-joinpapa-com.txt",
+    "verified": "re-checked against a fresh direct download 2026-11-02"
+   }
+  ],
+  "who_pays": {
+   "quote": "Try it risk-free: $30/hour with zero long-term commitment or contracts.",
+   "file": "www-joinpapa-com.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "how_to_get_it": {
+   "quote": "Pick a date and time, select the services you need",
+   "file": "www-joinpapa-com.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "limits": {
+   "quote": "While they aren’t nurses or medical aides",
+   "file": "www-joinpapa-com.txt",
+   "verified": "re-checked against a fresh direct download 2026-11-02"
+  },
+  "claim_note": "Page does not use the word respite; companionship and help with tasks only."
+ }
+]
