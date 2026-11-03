@@ -1,0 +1,163 @@
+QUESTION SENT (2026-11-02), notebook 'AI Development Residency - Learning Materials' (asked in the owner's signed-in Chrome at the owner's request):
+Context given (the notebook has none of my data): weeks 2-3, family caregiving project; done: market analysis, competitor analysis, audience segmentation with 18 use cases on the effort and value matrix; not done: feature comparison, UVP, positioning statement, Vision Board; no problem chosen; short list = caregiver exhaustion, dementia behavior and hard conversations, relatives not helping. Asked: (1) how to choose the problem and the criteria, (2) at which step and where it is written down, (3) who decides when working alone, (4) MMP versus MVP #1 and how many problems, (5) what evidence supports the choice and how to record reasons.
+
+NOTEBOOK ANSWER (page text; numbers are the notebook's own citation markers; its quotes are reported, not verified by me against the course files):
+
+(5) What evidence does the course say should support the choice, and how do we record the reasons?
+
+Thoughts
+expand_more
+Here is how the course materials answer your five questions on choosing the problem to solve for your family caregiving project:
+(1) How do we choose the problem to solve? (Steps & Criteria)
+In the residency curriculum, selecting your problem is an intentional product management judgment call guided by specific evaluation criteria rather than guesswork or automated AI generation
+1
+2
+.
+Core Criteria for Problem Selection
+The Four Product Management Foundations: Morgan Denner teaches that problems selected for an MVP must be evaluated against four criteria: Usable, Minimal, Valuable, Testable
+3
+.
+Exact Quote: "I'd like to break it down this way... Usable, minimal, valuable, testable, because that's what the MVP should be. Usable, minimal, valuable, testable... Going to tattoo it on my face one day." (transcript-working-session-10-28.txt)
+3
+Prioritization Lenses (MoSCoW Matrix):
+Risk & Certainty Lens: Plotting problems on a MoSCoW matrix where Must Have (Top Priority) corresponds to High Risk and Low Certainty
+4
+more_horiz
+.
+Exact Quote: "place each HMW by risk and certainty: top priority is high risk and low certainty... Top priority is the risky, uncertain work; that is where ideation pays off most." (export - Workshop Steps.csv, Step 15)
+4
+Complexity & Value / Effort & Value Lens: Ranking problems by their value to users/business versus effort or complexity
+7
+more_horiz
+.
+Step-by-Step Selection Process
+Dump Assumed Problems: List all assumed current-state problems for your target audiences
+10
+11
+.
+Map the Full Set to MMP: Place all identified market problems into your long-term Minimum Marketable Product (MMP) scope
+12
+more_horiz
+.
+Vet Across Criteria: Evaluate the list against Usable, Minimal, Valuable, Testable and rank them on your MoSCoW prioritization matrix
+1
+more_horiz
+.
+Select Near-Term Core Problems: Apply human product judgment to select the core few problems for MVP #1
+2
+more_horiz
+.
+(2) At which step is the problem chosen, and where is it written down?
+When it is chosen
+The problem to solve for your build is chosen AFTER feature analysis, unique value proposition (UVP), product positioning, and audience segmentation are complete
+14
+more_horiz
+.
+Exact Quote: "These things in green are what you're gonna produce this week... product positioning, unique value proposition and audience segmentation... Then you will be able to have information that you put into your vision, your scope and your acceptance criteria that goes into the backlog." (Week 2 - Product Management - AI Development Residency.txt)
+17
+18
+Where it is written down
+Board: The Release Vision Board for MVP #1
+15
+more_horiz
+.
+Box: Box 2, titled "User Problems and Business Problems"
+12
+more_horiz
+.
+Exact Quote: "The second box is problems. What this box wants, all the problems your audience faces today with money... MVP is the smallest version. It solves only the one or two most critical problems... What changes for MVP is scope especially the problem box for MVP. We don't try to solve all seven. We pick the core few." (transcript-working-session-10-28.txt)
+12
+16
+(3) Who makes the decision, and how is it made when working alone with no client?
+Who makes the decision?
+YOU make the decision as the product manager
+2
+more_horiz
+.
+Exact Quote: "Well, it's whatever you decide. That's your judgment call to make... Whatever you decide is what goes into code in the class... You're the manager of the product and you have no clue what this thing is... You don't want to offload your brain to AI. That's why we're going box by box closely as closely as we possibly can." (transcript-working-session-10-28.txt)
+2
+more_horiz
+How it is made when working alone with AI
+Never Vibe-Code the Vision: Do not ask Claude to pick the problem or make the decision for you
+2
+more_horiz
+.
+Work Box-by-Box as a Co-Creator: Walk through the Vision Board box-by-box with Claude, treating Claude as your co-creator or virtual team member
+23
+more_horiz
+.
+Exercise Human Judgment on Grounded Assumptions: Review the candidate problems (e.g., your shortlist of caregiver exhaustion, dementia behavior, and relatives not helping) and apply your judgment based on research evidence
+1
+more_horiz
+.
+Treat the Choice as a Testable Assumption: Accept that everything in product requirements is an assumption to be validated progressively
+30
+more_horiz
+.
+Exact Quote: "Everything in product requirements is an assumption that we test. Nothing is the truth... I just get it to good. I get the assumption up and out, get an alignment and agreement, ship it and learn what I need to adjust." (Week 2 - Product Management - AI Development Residency.txt)
+32
+33
+(4) MMP vs. MVP #1 Difference & How Many Problems to Pick
+Difference between MMP and MVP #1
+MMP (Minimum Marketable Product): Represents the long-term vision at market release. It includes the full set of all user and business problems identified in your market research
+12
+more_horiz
+.
+MVP #1 (Minimum Viable Product): Is the smallest, most bare/deliberate version designed to test near-term outcomes. It deliberately tackles only the core critical problems
+16
+20
+.
+How many problems does the course say to pick?
+The course instructs you to pick 1 to 4 core problems for MVP #1
+1
+more_horiz
+.
+Exact Quotes:
+"MVP is the smallest version. It solves only the one or two most critical problems... We don't try to solve all seven. We pick the core few." (transcript-working-session-10-28.txt)
+16
+"So MVP would be doing something about tracking spending, doing something about bills forgotten, doing something about impulse spending, and doing something about no saving... P1, P2, P3, P4 is MVP." (transcript-working-session-10-28.txt)
+2
+24
+(5) What evidence should support the choice, and how do we record the reasons?
+Supporting Evidence Required
+Grounded Sourced Materials: Evidence drawn from published reports (e.g., AARP caregiver data) and qualitative user traces/forum threads
+27
+more_horiz
+.
+Competitor & Feature Gaps: Unfilled gaps identified during your competitor analysis (what existing tools ignore, do poorly, or fail to address)
+36
+more_horiz
+.
+Risk & Certainty Metrics: Quantitative evidence, such as thread frequencies or MoSCoW prioritization scores
+5
+more_horiz
+.
+Recognition of Evidential Assumptions: In ProblemOps, research evidence increases confidence but still forms an evidential assumption until tested in market
+29
+32
+.
+Exact Quote: "we want to collect evidence from Claude first... But if it's not a validated evidential assumption, then that's what makes it dangerous to make decisions on." (ai-dev-residency-transcript-working-session-10-27.txt)
+29
+How to Record the Reasons
+Dogfood Source Text (Markdown Documents): Have Claude record the rationale in markdown files so that you can "dogfood" them back as sources of truth for subsequent tasks
+26
+more_horiz
+.
+Vision Board Box 2 & Box 3: Record the selected user/business problems in Box 2 and the corresponding value points delivered per problem in Box 3
+1
+more_horiz
+.
+Scope of Outcomes & User Stories: Map the chosen problems to a Scope of Outcomes Table and turn them into user story statements ("As a [audience], I want [goal], so that [value]") without prescribing technical solutions
+46
+more_horiz
+.
+Sources Used
+Week 2 - Product Management - AI Development Residency.txt
+Week 2 Lecture Summary - Product Management
+transcript-working-session-10-28.txt
+ai-dev-residency-transcript-working-session-10-27.txt
+export - Workshop Steps.csv (Vision and Scope Workshop Template, Market Research Workshop Template, Rapid Ideation Workshop Template)
+export - Workshop Template Sections.csv
+Scenario-Based Problem Statement Generation Workshop
+On Assumptions and Continuous Evidence / How to "Keep the Lights On" Proactively
+💡 Next Step Suggestion: Would you like to evaluate your three candidate problems (caregiver exhaustion, dementia behavior, and relatives not helping) against the Usable, Minimal, Valuable, Testable criteria, or draft the exact text for Box 2 and Box 3 of your MVP #1 Vision Board?
