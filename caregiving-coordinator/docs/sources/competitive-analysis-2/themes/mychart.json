@@ -1,0 +1,1064 @@
+{
+ "competitor": "Epic MyChart (patient portal; proxy / family access)",
+ "items_in_pack": 279,
+ "items_kept": 78,
+ "dropped": {
+  "not caregiving": 195,
+  "says nothing about the product": 4,
+  "app maker / ad": 1,
+  "duplicate (same post in two subreddits)": 1
+ },
+ "kept_ids": [
+  "c-8",
+  "c-9",
+  "c-90",
+  "c-100",
+  "c-123",
+  "c-152",
+  "c-156",
+  "c-191",
+  "c-198",
+  "gp-mychart-0",
+  "gp-mychart-1",
+  "gp-mychart-2",
+  "gp-mychart-4",
+  "gp-mychart-5",
+  "gp-mychart-6",
+  "gp-mychart-9",
+  "gp-mychart-11",
+  "gp-mychart-12",
+  "gp-mychart-18",
+  "gp-mychart-21",
+  "gp-mychart-22",
+  "gp-mychart-24",
+  "gp-mychart-25",
+  "gp-mychart-26",
+  "gp-mychart-31",
+  "gp-mychart-32",
+  "gp-mychart-34",
+  "gp-mychart-35",
+  "gp-mychart-36",
+  "gp-mychart-37",
+  "gp-mychart-40",
+  "gp-mychart-41",
+  "gp-mychart-42",
+  "gp-mychart-43",
+  "gp-mychart-44",
+  "gp-mychart-45",
+  "gp-mychart-50",
+  "gp-mychart-51",
+  "gp-mychart-52",
+  "gp-mychart-55",
+  "gp-mychart-56",
+  "gp-mychart-57",
+  "reddit-p10mbytj",
+  "reddit-p115aoky",
+  "reddit-p12xglka",
+  "reddit-p1c6efrx",
+  "reddit-p1g4nx0m",
+  "reddit-p1g5biuf",
+  "reddit-p1gapdgc",
+  "reddit-p1hvi074",
+  "reddit-p1hyaqd5",
+  "reddit-p1l97otm",
+  "reddit-p1m14jh3",
+  "reddit-p1ndwb1q",
+  "reddit-p1o87exq",
+  "reddit-p1sg01yh",
+  "reddit-p1sunilg",
+  "reddit-p1tjv80m",
+  "reddit-p1u79xbe",
+  "reddit-p18lbzvt",
+  "reddit-p198lt82",
+  "reddit-p1co74va",
+  "reddit-p1d8vxdq",
+  "reddit-p1dw29ib",
+  "reddit-p1fg7lgp",
+  "reddit-p1h0fxvm",
+  "reddit-p1hvf3n4",
+  "reddit-p1ib4384",
+  "reddit-p1iwqbzd",
+  "reddit-p1k8azc5",
+  "reddit-p1m6lvc3",
+  "reddit-p1m6tuqz",
+  "reddit-p1mv38p6",
+  "reddit-p1n2s3z2",
+  "reddit-p1oedxx9",
+  "reddit-p1prpr5x",
+  "reddit-p1qxrhuz",
+  "reddit-p1xbfdsn"
+ ],
+ "works_well": [
+  {
+   "theme": "See a loved one's test results and doctor notes",
+   "what_it_means": "Caregivers read results, notes and diagnoses for the person they care for, often before or instead of a phone call.",
+   "count": 13,
+   "ids": [
+    "gp-mychart-32",
+    "gp-mychart-36",
+    "gp-mychart-45",
+    "gp-mychart-50",
+    "c-90",
+    "reddit-p1fg7lgp",
+    "reddit-p1mv38p6",
+    "reddit-p1m6tuqz",
+    "reddit-p1c6efrx",
+    "reddit-p1g4nx0m",
+    "reddit-p1xbfdsn",
+    "reddit-p1k8azc5",
+    "reddit-p1u79xbe"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1fg7lgp",
+     "quote": "I have access to her “my chart” and can see doctor’s notes."
+    },
+    {
+     "id": "reddit-p1mv38p6",
+     "quote": "By accessing their MyChart accounts, we can debunk their story by reading the report and we know in great detail what the doctor said and what was recommended."
+    }
+   ]
+  },
+  {
+   "theme": "Several family members' records under one login",
+   "what_it_means": "Caregivers like seeing their own chart plus a parent's, spouse's or children's charts without switching accounts.",
+   "count": 12,
+   "ids": [
+    "c-9",
+    "c-100",
+    "c-123",
+    "c-191",
+    "gp-mychart-12",
+    "gp-mychart-21",
+    "gp-mychart-34",
+    "gp-mychart-37",
+    "gp-mychart-42",
+    "gp-mychart-44",
+    "gp-mychart-45",
+    "gp-mychart-50"
+   ],
+   "quotes": [
+    {
+     "id": "c-123",
+     "quote": "now I can include and manage my mother’s account without switching"
+    },
+    {
+     "id": "gp-mychart-50",
+     "quote": "Allows me to see both my husband's and my records with a single log in."
+    }
+   ]
+  },
+  {
+   "theme": "Message a loved one's doctor directly",
+   "what_it_means": "Caregivers send questions and updates to the patient's care team through the app and often get quick replies.",
+   "count": 11,
+   "ids": [
+    "gp-mychart-0",
+    "gp-mychart-4",
+    "gp-mychart-22",
+    "gp-mychart-32",
+    "gp-mychart-36",
+    "gp-mychart-41",
+    "reddit-p115aoky",
+    "reddit-p1g5biuf",
+    "reddit-p1ib4384",
+    "reddit-p1m6lvc3",
+    "reddit-p1d8vxdq"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-22",
+     "quote": "it allows me to communicate with my mom's doctor and he always replies the same day."
+    },
+    {
+     "id": "reddit-p1ib4384",
+     "quote": "I sent the ingredients list to her doctor through MyChart who replied with a very clear \"NO.\""
+    }
+   ]
+  },
+  {
+   "theme": "Track a loved one's appointments and medicines",
+   "what_it_means": "Caregivers use it to keep up with another person's visits, medicine lists and treatment plans.",
+   "count": 11,
+   "ids": [
+    "c-90",
+    "gp-mychart-12",
+    "gp-mychart-21",
+    "gp-mychart-22",
+    "gp-mychart-32",
+    "gp-mychart-36",
+    "gp-mychart-37",
+    "gp-mychart-42",
+    "gp-mychart-43",
+    "gp-mychart-45",
+    "reddit-p1iwqbzd"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-43",
+     "quote": "this app has been of paramount importance in tracking my wife's many appointments battling cancer."
+    },
+    {
+     "id": "gp-mychart-21",
+     "quote": "proxy access helps me with managing appointments for dependents' too."
+    }
+   ]
+  },
+  {
+   "theme": "Keep up from far away without waiting on phone calls",
+   "what_it_means": "Long-distance caregivers follow a parent's care from another state or country.",
+   "count": 5,
+   "ids": [
+    "gp-mychart-18",
+    "gp-mychart-32",
+    "reddit-p1fg7lgp",
+    "reddit-p1qxrhuz",
+    "reddit-p1m6lvc3"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-18",
+     "quote": "this mychart keeps me up to date on everything and helps my stress levels so much no waiting for a fon call or sitting on hold for 30 mins"
+    },
+    {
+     "id": "gp-mychart-32",
+     "quote": "It helped me a lot follow up on my mom's medical condition from outside the country."
+    }
+   ]
+  },
+  {
+   "theme": "Follow a hospital stay day by day",
+   "what_it_means": "Family members watch treatment, medicines and vitals while a loved one is in the hospital.",
+   "count": 5,
+   "ids": [
+    "gp-mychart-9",
+    "gp-mychart-25",
+    "gp-mychart-45",
+    "gp-mychart-51",
+    "reddit-p1u79xbe"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-9",
+     "quote": "this app allowed me to see the actual treatment to my husband while he was hospitalized."
+    },
+    {
+     "id": "gp-mychart-45",
+     "quote": "When a loved one is hospitalized, daily care notes are informative and comforting."
+    }
+   ]
+  },
+  {
+   "theme": "Records ready to hand to others",
+   "what_it_means": "Caregivers pull up or download a loved one's records for schools, new facilities, doctors or siblings.",
+   "count": 5,
+   "ids": [
+    "gp-mychart-2",
+    "gp-mychart-34",
+    "gp-mychart-36",
+    "gp-mychart-41",
+    "reddit-p1h0fxvm"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-36",
+     "quote": "capture screenshots and save files to share with my brothers and other caregivers"
+    },
+    {
+     "id": "reddit-p1h0fxvm",
+     "quote": "downloaded some key records from MyChart/Epic and created a CareEverywhere link for the rest."
+    }
+   ]
+  },
+  {
+   "theme": "Less stress and more comfort for the caregiver",
+   "what_it_means": "Seeing what is happening calms the caregiver.",
+   "count": 3,
+   "ids": [
+    "gp-mychart-9",
+    "gp-mychart-18",
+    "gp-mychart-45"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-9",
+     "quote": "It gave me comfort to know day to day his treatment, and his medications."
+    },
+    {
+     "id": "gp-mychart-18",
+     "quote": "helps my stress levels so much"
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "Older loved ones can't or won't use it themselves",
+   "what_it_means": "The patient has no phone, poor memory, poor sight or hearing, or refuses to go online, so the work falls on family.",
+   "count": 11,
+   "ids": [
+    "gp-mychart-2",
+    "gp-mychart-26",
+    "reddit-p10mbytj",
+    "reddit-p1hvi074",
+    "reddit-p1co74va",
+    "reddit-p198lt82",
+    "reddit-p1k8azc5",
+    "reddit-p1mv38p6",
+    "reddit-p1qxrhuz",
+    "reddit-p1l97otm",
+    "reddit-p1n2s3z2"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p10mbytj",
+     "quote": "THE THING SHE DOESN'T HAVE AND WOULDN'T UNDERSTAND HOW TO USE???"
+    },
+    {
+     "id": "gp-mychart-26",
+     "quote": "cannot create account for my husband. he doesn't have a mobile phone."
+    }
+   ]
+  },
+  {
+   "theme": "No caregiver login of their own, so families share the patient's password",
+   "what_it_means": "Caregivers log in as the patient, which causes code hassles, lockouts and family fights over who holds the password.",
+   "count": 7,
+   "ids": [
+    "gp-mychart-5",
+    "gp-mychart-56",
+    "reddit-p1l97otm",
+    "reddit-p1d8vxdq",
+    "reddit-p1hvi074",
+    "reddit-p1sg01yh",
+    "reddit-p1hvf3n4"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1l97otm",
+     "quote": "They should make it so that when they have caregivers, we should have our own logons."
+    },
+    {
+     "id": "reddit-p1sg01yh",
+     "quote": "Arguing over the right to a password for MyChart as some sort of weird power move."
+    }
+   ]
+  },
+  {
+   "theme": "Getting access to a loved one's chart is hard to set up",
+   "what_it_means": "Sign-up codes go to the patient's phone, the patient must be present, or a spouse can't be added.",
+   "count": 6,
+   "ids": [
+    "gp-mychart-6",
+    "gp-mychart-26",
+    "reddit-p18lbzvt",
+    "reddit-p1k8azc5",
+    "reddit-p1dw29ib",
+    "reddit-p1n2s3z2"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p18lbzvt",
+     "quote": "I asked for the sign-up code and they insisted on sending it to her."
+    },
+    {
+     "id": "reddit-p1k8azc5",
+     "quote": "I could t sign up for it without having her present to talk to the admin"
+    }
+   ]
+  },
+  {
+   "theme": "The patient's privacy wishes clash with family access",
+   "what_it_means": "Parents block or resent family access, or caregivers worry the patient will see what they write to doctors.",
+   "count": 6,
+   "ids": [
+    "reddit-p115aoky",
+    "reddit-p1d8vxdq",
+    "reddit-p1m6tuqz",
+    "reddit-p1sunilg",
+    "reddit-p1hvf3n4",
+    "reddit-p1sg01yh"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1d8vxdq",
+     "quote": "there was a note that patient had called that morning requesting that the office no longer communicate with any of her 3 daughters."
+    },
+    {
+     "id": "reddit-p115aoky",
+     "quote": "will my mom be able to see the message and the doctor's reply from her myChart?"
+    }
+   ]
+  },
+  {
+   "theme": "Logging into a spouse's account keeps failing",
+   "what_it_means": "Lockouts, password resets and updates stop people from getting into a husband's or wife's account.",
+   "count": 5,
+   "ids": [
+    "gp-mychart-5",
+    "gp-mychart-24",
+    "gp-mychart-31",
+    "gp-mychart-35",
+    "reddit-p1l97otm"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-35",
+     "quote": "can not sign into my wife's account after update. can sign into mine."
+    },
+    {
+     "id": "gp-mychart-5",
+     "quote": "She has to change the password everytime."
+    }
+   ]
+  },
+  {
+   "theme": "Parents lose or struggle to get access to a minor child's chart",
+   "what_it_means": "Parents of children and young teens find access hard to start or cut off before age 18.",
+   "count": 4,
+   "ids": [
+    "c-152",
+    "gp-mychart-1",
+    "gp-mychart-11",
+    "gp-mychart-55"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-11",
+     "quote": "I, as a mom, should be allowed access to my child's medical records and not be told to go to the office and create a \"teen account\"."
+    },
+    {
+     "id": "gp-mychart-55",
+     "quote": "I also don't understand why parents lose or have limited access to their child's records before they turn 18."
+    }
+   ]
+  },
+  {
+   "theme": "Managing several family members in one app is clumsy",
+   "what_it_means": "With more than one patient, notices don't say who they are about and adding people is hard.",
+   "count": 4,
+   "ids": [
+    "c-8",
+    "c-198",
+    "gp-mychart-52",
+    "gp-mychart-57"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-52",
+     "quote": "Getting a random notification that \" you have a new test result\" but not knowing which family member ( when 3 were at the doctor yesterday) stinks!!!"
+    },
+    {
+     "id": "c-198",
+     "quote": "I need to add a third patient. It’s not really user friendly app."
+    }
+   ]
+  },
+  {
+   "theme": "Clinics send important news only through the app",
+   "what_it_means": "Surgery dates, closures, bills and pharmacy questions arrive as MyChart messages instead of a call, and get missed.",
+   "count": 4,
+   "ids": [
+    "reddit-p10mbytj",
+    "reddit-p1hvi074",
+    "reddit-p1oedxx9",
+    "reddit-p1qxrhuz"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p10mbytj",
+     "quote": "\"Well we sent a message out in MyChart.\" Are you fucking serious? She doesn't even have MyChart set up!"
+    },
+    {
+     "id": "reddit-p1oedxx9",
+     "quote": "I got a message in my mom’s MyChart that they’d scheduled the surgery a week from today."
+    }
+   ]
+  },
+  {
+   "theme": "Results show up before anyone explains them",
+   "what_it_means": "Raw results and notes cause worry or confusion until a doctor talks to the family.",
+   "count": 4,
+   "ids": [
+    "reddit-p1m14jh3",
+    "reddit-p1n2s3z2",
+    "reddit-p1u79xbe",
+    "reddit-p1hyaqd5"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1m14jh3",
+     "quote": "they get posted to MyChart sometimes before the doctor comes in, and this parent will fret over minor things"
+    },
+    {
+     "id": "reddit-p1n2s3z2",
+     "quote": "She calls me and blithely announces \"MyChart says I've got chlamydia!\""
+    }
+   ]
+  },
+  {
+   "theme": "Messages and refill requests go unanswered",
+   "what_it_means": "Caregivers' MyChart messages and requests are not answered or not passed on without extra calls.",
+   "count": 3,
+   "ids": [
+    "reddit-p1ndwb1q",
+    "reddit-p1m6lvc3",
+    "reddit-p12xglka"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1ndwb1q",
+     "quote": "She also doesn’t respond to my chart messages."
+    },
+    {
+     "id": "reddit-p1m6lvc3",
+     "quote": "it takes multiple voicemails and my chart messages to kick off the process."
+    }
+   ]
+  },
+  {
+   "theme": "Sharing records outside MyChart is hard",
+   "what_it_means": "Blocked screenshots, outside care teams that can't open links, and huge exports make sharing hard.",
+   "count": 3,
+   "ids": [
+    "gp-mychart-40",
+    "gp-mychart-56",
+    "reddit-p1prpr5x"
+   ],
+   "quotes": [
+    {
+     "id": "gp-mychart-56",
+     "quote": "When i need to share data with family and caregiver consultant, I can't !!!!"
+    },
+    {
+     "id": "reddit-p1prpr5x",
+     "quote": "hampered by the deluge of PDF, CSV, HTML, and RTF files to sort through."
+    }
+   ]
+  },
+  {
+   "theme": "Slow or missing updates during a long hospital stay",
+   "what_it_means": "During a family member's hospital stay, results lag or pile up with no easy way to sort them.",
+   "count": 2,
+   "ids": [
+    "c-156",
+    "gp-mychart-52"
+   ],
+   "quotes": [
+    {
+     "id": "c-156",
+     "quote": "Takes too long to refresh , which makes it hard to keep up to date with  my family member’s hospitalization."
+    },
+    {
+     "id": "gp-mychart-52",
+     "quote": "I liked this app UNTIL it became important with a family member's hospitalization."
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [
+   {
+    "theme": "Adult children and grandchildren managing a parent's care",
+    "what_it_means": "The largest group: grown children (and some grandchildren, nieces, in-laws) following an aging relative's care, often from far away.",
+    "count": 42,
+    "ids": [
+     "c-123",
+     "gp-mychart-0",
+     "gp-mychart-18",
+     "gp-mychart-22",
+     "gp-mychart-25",
+     "gp-mychart-32",
+     "gp-mychart-36",
+     "gp-mychart-40",
+     "gp-mychart-42",
+     "reddit-p10mbytj",
+     "reddit-p115aoky",
+     "reddit-p12xglka",
+     "reddit-p1c6efrx",
+     "reddit-p1g4nx0m",
+     "reddit-p1g5biuf",
+     "reddit-p1gapdgc",
+     "reddit-p1hvi074",
+     "reddit-p1hyaqd5",
+     "reddit-p1l97otm",
+     "reddit-p1m14jh3",
+     "reddit-p1ndwb1q",
+     "reddit-p1sg01yh",
+     "reddit-p1sunilg",
+     "reddit-p18lbzvt",
+     "reddit-p198lt82",
+     "reddit-p1co74va",
+     "reddit-p1d8vxdq",
+     "reddit-p1dw29ib",
+     "reddit-p1fg7lgp",
+     "reddit-p1h0fxvm",
+     "reddit-p1hvf3n4",
+     "reddit-p1ib4384",
+     "reddit-p1iwqbzd",
+     "reddit-p1k8azc5",
+     "reddit-p1m6lvc3",
+     "reddit-p1m6tuqz",
+     "reddit-p1mv38p6",
+     "reddit-p1n2s3z2",
+     "reddit-p1oedxx9",
+     "reddit-p1prpr5x",
+     "reddit-p1qxrhuz",
+     "reddit-p1xbfdsn"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1l97otm",
+      "quote": "I do all my mom's online stuff for her. I pay all her medical bills. I email her doctors for her. I make her appointments."
+     },
+     {
+      "id": "gp-mychart-42",
+      "quote": "for aging parents, you can get onto their information as a proxy to help manage their appointments and etc."
+     }
+    ]
+   },
+   {
+    "theme": "Spouses managing each other's care",
+    "what_it_means": "Husbands and wives track or log into each other's accounts.",
+    "count": 15,
+    "ids": [
+     "gp-mychart-2",
+     "gp-mychart-5",
+     "gp-mychart-6",
+     "gp-mychart-9",
+     "gp-mychart-12",
+     "gp-mychart-24",
+     "gp-mychart-26",
+     "gp-mychart-31",
+     "gp-mychart-35",
+     "gp-mychart-37",
+     "gp-mychart-43",
+     "gp-mychart-50",
+     "gp-mychart-51",
+     "gp-mychart-57",
+     "reddit-p1u79xbe"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-37",
+      "quote": "I can keep up with my Drs appts and my husband's appts and everything about us"
+     },
+     {
+      "id": "gp-mychart-43",
+      "quote": "this app has been of paramount importance in tracking my wife's many appointments battling cancer."
+     }
+    ]
+   },
+   {
+    "theme": "Parents managing a minor child's chart",
+    "what_it_means": "Parents of children and teens; kept separate from care of adults.",
+    "count": 9,
+    "ids": [
+     "c-90",
+     "c-100",
+     "c-152",
+     "c-191",
+     "gp-mychart-1",
+     "gp-mychart-4",
+     "gp-mychart-11",
+     "gp-mychart-41",
+     "gp-mychart-55"
+    ],
+    "quotes": [
+     {
+      "id": "c-191",
+      "quote": "It’s so convenient and easy to use to view my charts and my kids charts."
+     },
+     {
+      "id": "gp-mychart-41",
+      "quote": "is a really helpful tool for parents, I keep in touch whit my kids doctors tru de app"
+     }
+    ]
+   },
+   {
+    "theme": "Caregivers pay the loved one's medical bills through it",
+    "what_it_means": "The app is free to patients in this evidence; the money talk is about paying the loved one's medical bills.",
+    "count": 5,
+    "ids": [
+     "gp-mychart-6",
+     "gp-mychart-50",
+     "gp-mychart-51",
+     "reddit-p1l97otm",
+     "reddit-p10mbytj"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-6",
+      "quote": "will not add my wife to see or pay my bill"
+     },
+     {
+      "id": "reddit-p10mbytj",
+      "quote": "\"No we emailed her a link and she can pay it in MyChart.\""
+     }
+    ]
+   }
+  ],
+  "relatives_joining_and_sharing": [
+   {
+    "theme": "Getting access to a loved one's chart is hard to set up",
+    "what_it_means": "Codes, in-person visits and phone requirements slow down adding a relative.",
+    "count": 8,
+    "ids": [
+     "gp-mychart-1",
+     "gp-mychart-6",
+     "gp-mychart-11",
+     "gp-mychart-26",
+     "reddit-p18lbzvt",
+     "reddit-p1k8azc5",
+     "reddit-p1dw29ib",
+     "reddit-p1n2s3z2"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-1",
+      "quote": "Difficult for the parent to get the app started for a minor."
+     },
+     {
+      "id": "reddit-p1dw29ib",
+      "quote": "My husband has been playing the long game, slowly obtaining access to bank accounts, mychart, etc"
+     }
+    ]
+   },
+   {
+    "theme": "No caregiver login of their own, so families share the patient's password",
+    "what_it_means": "Instead of their own access, relatives use the patient's username, password and two-step codes.",
+    "count": 7,
+    "ids": [
+     "gp-mychart-5",
+     "gp-mychart-56",
+     "reddit-p1l97otm",
+     "reddit-p1d8vxdq",
+     "reddit-p1hvi074",
+     "reddit-p1sg01yh",
+     "reddit-p1hvf3n4"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1d8vxdq",
+      "quote": "she had given me her login credentials to help her schedule and keep up with appts, etc"
+     },
+     {
+      "id": "reddit-p1hvf3n4",
+      "quote": "My dad has her MyChart username and password but won’t share it with us"
+     }
+    ]
+   },
+   {
+    "theme": "Proxy access lets one person see another's chart from their own login",
+    "what_it_means": "Where it is set up, proxy access works well for parents, spouses and children.",
+    "count": 6,
+    "ids": [
+     "c-123",
+     "c-191",
+     "gp-mychart-21",
+     "gp-mychart-42",
+     "gp-mychart-50",
+     "reddit-p115aoky"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p115aoky",
+      "quote": "I have proxy access for my mom, so, from my own MyChart, I can get her test results, read appointment notes, and send messages to her doctors."
+     },
+     {
+      "id": "gp-mychart-21",
+      "quote": "proxy access helps me with managing appointments for dependents' too."
+     }
+    ]
+   },
+   {
+    "theme": "Siblings and other helpers get updates by screenshots or files",
+    "what_it_means": "There is no shared view for a wider family group, so the main caregiver passes things on by hand.",
+    "count": 3,
+    "ids": [
+     "gp-mychart-2",
+     "gp-mychart-36",
+     "gp-mychart-56"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-36",
+      "quote": "capture screenshots and save files to share with my brothers and other caregivers"
+     },
+     {
+      "id": "gp-mychart-56",
+      "quote": "need to take picture of my screen with ANOTHER phone in order to capture my information."
+     }
+    ]
+   }
+  ],
+  "cost_price_cancelling": [],
+  "emergencies_and_support_response": [
+   {
+    "theme": "In urgent moments, app messages did not replace a phone call",
+    "what_it_means": "When medicine ran out, vitals looked bad or surgery was booked, the app alone was not enough.",
+    "count": 4,
+    "ids": [
+     "reddit-p12xglka",
+     "reddit-p1u79xbe",
+     "reddit-p10mbytj",
+     "reddit-p1oedxx9"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p12xglka",
+      "quote": "I left a request on my chart and called the pharmacy to refill it. Wanted it covered on both ends."
+     },
+     {
+      "id": "reddit-p1u79xbe",
+      "quote": "BP was 81/36. That definitely wasn't right (they are supposed to check his right arm, not the left). But for a moment I was wondering why didn't they call me."
+     }
+    ]
+   },
+   {
+    "theme": "Little help when a loved one's account is locked",
+    "what_it_means": "Spouses locked out of a partner's account could not get support.",
+    "count": 2,
+    "ids": [
+     "gp-mychart-24",
+     "gp-mychart-35"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-24",
+      "quote": "there are no instructions on getting it unlocked. Apparently, no customer support."
+     },
+     {
+      "id": "gp-mychart-35",
+      "quote": "impossible to work with tech people to get this resolved."
+     }
+    ]
+   }
+  ],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "Getting access set up is the hard part",
+    "what_it_means": "Starting access for a child, spouse or parent is the main hurdle.",
+    "count": 6,
+    "ids": [
+     "gp-mychart-1",
+     "gp-mychart-6",
+     "gp-mychart-11",
+     "gp-mychart-26",
+     "reddit-p18lbzvt",
+     "reddit-p1k8azc5"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-11",
+      "quote": "outrageously complex and difficult to add my minor to my account."
+     },
+     {
+      "id": "reddit-p18lbzvt",
+      "quote": "Today I called the clinic and they promised to send the code to MY phone. It's been over an hour and no message."
+     }
+    ]
+   },
+   {
+    "theme": "Easy to use day to day once set up",
+    "what_it_means": "Caregivers who have access call it user friendly.",
+    "count": 5,
+    "ids": [
+     "c-123",
+     "gp-mychart-9",
+     "gp-mychart-21",
+     "gp-mychart-34",
+     "gp-mychart-36"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-9",
+      "quote": "Is user friendly and easy to use. Use this app."
+     },
+     {
+      "id": "gp-mychart-36",
+      "quote": "the ability to log in with my quick numeric code"
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [
+   {
+    "theme": "The patient's privacy wishes clash with family access",
+    "what_it_means": "Patients block family, resent lookups, or caregivers want private notes to the doctor.",
+    "count": 6,
+    "ids": [
+     "reddit-p115aoky",
+     "reddit-p1d8vxdq",
+     "reddit-p1m6tuqz",
+     "reddit-p1sunilg",
+     "reddit-p1hvf3n4",
+     "reddit-p1sg01yh"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1sunilg",
+      "quote": "she says it's because I look things up on MyChart and ask \"wrong\" questions"
+     },
+     {
+      "id": "reddit-p1m6tuqz",
+      "quote": "found out about signing herself out AMA when I was checking mychart about the break"
+     }
+    ]
+   },
+   {
+    "theme": "Security steps get in caregivers' way",
+    "what_it_means": "Two-step codes, password resets and blocked screenshots slow down family helpers.",
+    "count": 3,
+    "ids": [
+     "gp-mychart-5",
+     "gp-mychart-56",
+     "reddit-p1l97otm"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1l97otm",
+      "quote": "So I need to get the code from her phone or her email to log on. I live 2 states away."
+     },
+     {
+      "id": "gp-mychart-56",
+      "quote": "we need to share our data with who ever we need and choose, without giving out my credentials!!"
+     }
+    ]
+   }
+  ],
+  "why_people_stop_or_stay": [
+   {
+    "theme": "Stay because it becomes essential for a loved one's care",
+    "what_it_means": "Caregivers describe it as vital once they rely on it.",
+    "count": 4,
+    "ids": [
+     "gp-mychart-12",
+     "gp-mychart-22",
+     "gp-mychart-43",
+     "gp-mychart-45"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-12",
+      "quote": "Didn't want to do it at first, but now can't live without."
+     },
+     {
+      "id": "gp-mychart-22",
+      "quote": "This app is vital for keeping up with my mom's office visits and medication."
+     }
+    ]
+   },
+   {
+    "theme": "Lets them down when it matters most",
+    "what_it_means": "Hospital stays and lost access turn fans into critics.",
+    "count": 3,
+    "ids": [
+     "c-152",
+     "c-156",
+     "gp-mychart-52"
+    ],
+    "quotes": [
+     {
+      "id": "gp-mychart-52",
+      "quote": "I liked this app UNTIL it became important with a family member's hospitalization."
+     },
+     {
+      "id": "c-152",
+      "quote": "Never should you decide to take the right of the parent to a minor child’s medical records."
+     }
+    ]
+   }
+  ],
+  "what_people_use_instead_or_alongside": [
+   {
+    "theme": "Phone calls to the office or pharmacy alongside the app",
+    "what_it_means": "Caregivers still call to make sure requests actually happen.",
+    "count": 4,
+    "ids": [
+     "reddit-p12xglka",
+     "reddit-p1g5biuf",
+     "reddit-p1m6lvc3",
+     "reddit-p1oedxx9"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1g5biuf",
+      "quote": "she says that they never stopped giving her amlodopine and to check in with the pharmacy."
+     },
+     {
+      "id": "reddit-p1oedxx9",
+      "quote": "I called to request to speak with scheduling to get this pushed out a couple of weeks"
+     }
+    ]
+   },
+   {
+    "theme": "AI tools, search or remote access to handle the records",
+    "what_it_means": "Caregivers paste notes into AI, search exports, or remote into a parent's computer.",
+    "count": 4,
+    "ids": [
+     "reddit-p1hyaqd5",
+     "reddit-p1prpr5x",
+     "reddit-p1h0fxvm",
+     "reddit-p1m6lvc3"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1hyaqd5",
+      "quote": "Copy pasted physician notes from MyChart and asked for a layman’s summary. This was invaluable."
+     },
+     {
+      "id": "reddit-p1prpr5x",
+      "quote": "We've been getting by with text based search to hunt and peck for relevant records"
+     }
+    ]
+   },
+   {
+    "theme": "Paper and mailed copies for parents who won't go online",
+    "what_it_means": "Some parents get results on paper and mail them to the caregiver.",
+    "count": 2,
+    "ids": [
+     "reddit-p1co74va",
+     "reddit-p10mbytj"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1co74va",
+      "quote": "he offered to mail me a copy so I could also see the results."
+     },
+     {
+      "id": "reddit-p10mbytj",
+      "quote": "Did you mail her a statement with an envelope for a check?"
+     }
+    ]
+   }
+  ]
+ },
+ "single_mentions": [
+  {
+   "id": "reddit-p1o87exq",
+   "point": "After a loved one died, the caregiver could no longer log in and asked whether the account is deleted forever."
+  },
+  {
+   "id": "gp-mychart-40",
+   "point": "A father's VA home care team could not open outside links on government phones, so they could not see his hospital progress."
+  },
+  {
+   "id": "reddit-p1gapdgc",
+   "point": "A nurse's notes, including a report to Adult Protective Services, were accidentally posted to the mother's MyChart where the daughter read them."
+  },
+  {
+   "id": "c-9",
+   "point": "A retired nurse uses it to help friends and family, not just herself."
+  },
+  {
+   "id": "reddit-p1tjv80m",
+   "point": "A paid caregiver handles her client's medical tasks on the client's MyChart."
+  },
+  {
+   "id": "reddit-p1hyaqd5",
+   "point": "Caregiver printed an AI-made medicine calendar to hang on the fridge alongside MyChart notes."
+  }
+ ],
+ "reader_notes": "Kept 78 of 279: 9 of 200 Apple reviews, all 33 Google reviews, 36 of 46 Reddit posts. The 200 Apple reviews were not caregiving-filtered and are almost all patients writing about their own care (191 dropped as not caregiving); 4 Reddit posts were also dropped as the writer's own care. Who the caregiver is caring for, across the 78 kept: adult children / grandchildren / nieces / in-laws caring for an older relative = 42 (1 Apple, 8 Google, 33 Reddit); spouses = 15 (14 Google, 1 Reddit); parents of a minor child = 9 (4 Apple: c-90, c-100, c-152, c-191; 5 Google: gp-mychart-1, -4, -11, -41, -55), counted separately as asked; paid caregiver = 1 (reddit-p1tjv80m); unclear or mixed relation = 11. Minor-child items split: 5 praise seeing kids' records in one place, 4 complain that access for a parent is hard to start or is cut off before 18 (c-152, gp-mychart-1, -11, -55). Google reviews are short (often one sentence) and date Jul-Nov 2026; Apple reviews are all Oct 26-Nov 1 2026, one week only; Reddit posts span Jan 2023-Oct 2026, mostly r/CaregiverSupport and r/AgingParents, and carry the detail on proxy access and shared passwords. Several Reddit posts mention MyChart in passing inside longer stories; they were kept when they say how it was used. Two Reddit posts were cut at 4000 characters in the pack and had no MyChart mention in the kept text, so they were dropped. reddit-p1hyanlq is the same post as reddit-p1hyaqd5 in another subreddit; only one is counted. No item mentions a price for MyChart itself, so cost_price_cancelling is empty; the money talk is about paying the loved one's medical bills. gp-mychart-56 is written by the patient who wants to share with family and caregivers (kept because it passed the caregiving filter and is about family sharing). MyChart is run by each hospital or clinic, so features such as proxy access, teen-account rules and two-step login differ by organization; reviews cannot tell which rules are Epic's and which are the clinic's."
+}

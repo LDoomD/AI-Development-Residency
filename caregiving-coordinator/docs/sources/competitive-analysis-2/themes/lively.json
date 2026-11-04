@@ -1,0 +1,1899 @@
+{
+ "competitor": "Lively (formerly GreatCall / Jitterbug): medical alert devices, Jitterbug phones, Lively Link family app",
+ "items_in_pack": 220,
+ "items_kept": 193,
+ "dropped": {
+  "not caregiving": 4,
+  "says nothing about the product": 23,
+  "app maker / ad": 0
+ },
+ "kept_ids": [
+  "a-7446",
+  "a-7447",
+  "a-7448",
+  "a-7449",
+  "a-7450",
+  "a-7453",
+  "a-7454",
+  "a-7458",
+  "a-7460",
+  "a-7466",
+  "a-7467",
+  "a-7474",
+  "a-7481",
+  "a-7482",
+  "a-7484",
+  "a-7488",
+  "a-7492",
+  "a-7495",
+  "a-7496",
+  "a-7500",
+  "a-7501",
+  "a-7504",
+  "a-7509",
+  "a-7510",
+  "a-7518",
+  "a-7525",
+  "a-7531",
+  "a-7538",
+  "a-7542",
+  "a-7548",
+  "a-7550",
+  "a-7560",
+  "a-7561",
+  "a-7566",
+  "a-7567",
+  "a-7571",
+  "a-7573",
+  "a-7575",
+  "a-7580",
+  "a-7584",
+  "a-7590",
+  "a-7592",
+  "a-7595",
+  "a-7601",
+  "a-7603",
+  "a-7606",
+  "a-7607",
+  "a-7608",
+  "a-7610",
+  "a-7618",
+  "a-7625",
+  "a-7631",
+  "a-7633",
+  "a-7642",
+  "a-7643",
+  "a-7644",
+  "a-7645",
+  "a-7646",
+  "a-7648",
+  "a-7656",
+  "a-7657",
+  "a-7658",
+  "a-7660",
+  "a-7662",
+  "a-7663",
+  "a-7666",
+  "a-7675",
+  "a-7677",
+  "a-7681",
+  "a-7684",
+  "a-7686",
+  "a-7687",
+  "a-7688",
+  "a-7692",
+  "a-7694",
+  "a-7695",
+  "a-7696",
+  "a-7705",
+  "a-7708",
+  "a-7711",
+  "a-7716",
+  "a-7720",
+  "a-7724",
+  "a-7732",
+  "a-7735",
+  "a-7736",
+  "a-7739",
+  "a-7746",
+  "a-7751",
+  "a-7761",
+  "a-7762",
+  "a-7768",
+  "a-7775",
+  "a-7780",
+  "a-7783",
+  "a-7787",
+  "a-7790",
+  "a-7795",
+  "a-7801",
+  "a-7808",
+  "a-7811",
+  "a-7813",
+  "a-7815",
+  "a-7824",
+  "a-7827",
+  "a-7829",
+  "a-7830",
+  "a-7834",
+  "a-7837",
+  "a-7838",
+  "a-7842",
+  "a-7845",
+  "gp-lively-0",
+  "gp-lively-1",
+  "gp-lively-2",
+  "gp-lively-3",
+  "gp-lively-4",
+  "gp-lively-5",
+  "gp-lively-6",
+  "gp-lively-7",
+  "gp-lively-8",
+  "gp-lively-9",
+  "gp-lively-10",
+  "gp-lively-11",
+  "gp-lively-12",
+  "gp-lively-13",
+  "gp-lively-14",
+  "gp-lively-15",
+  "gp-lively-16",
+  "gp-lively-17",
+  "gp-lively-18",
+  "gp-lively-19",
+  "gp-lively-20",
+  "gp-lively-22",
+  "gp-lively-23",
+  "gp-lively-24",
+  "gp-lively-25",
+  "gp-lively-26",
+  "gp-lively-27",
+  "gp-lively-28",
+  "gp-lively-29",
+  "gp-lively-30",
+  "gp-lively-31",
+  "gp-lively-32",
+  "gp-lively-33",
+  "gp-lively-34",
+  "gp-lively-35",
+  "gp-lively-36",
+  "gp-lively-37",
+  "gp-lively-38",
+  "gp-lively-39",
+  "gp-lively-40",
+  "gp-lively-41",
+  "gp-lively-42",
+  "gp-lively-43",
+  "gp-lively-44",
+  "gp-lively-45",
+  "gp-lively-46",
+  "gp-lively-47",
+  "gp-lively-48",
+  "gp-lively-49",
+  "gp-lively-50",
+  "gp-lively-51",
+  "gp-lively-52",
+  "gp-lively-53",
+  "gp-lively-54",
+  "gp-lively-55",
+  "gp-lively-56",
+  "gp-lively-57",
+  "gp-lively-58",
+  "gp-lively-59",
+  "gp-lively-60",
+  "gp-lively-61",
+  "gp-lively-62",
+  "gp-lively-63",
+  "gp-lively-64",
+  "gp-lively-65",
+  "reddit-p162wvnv",
+  "reddit-p1fff03c",
+  "reddit-p17u1gzq",
+  "reddit-p17urbj4",
+  "reddit-p1aezsi3",
+  "reddit-p1df0k0k",
+  "reddit-p1eejdsd",
+  "reddit-p1eilqmz",
+  "reddit-p1ejugn2",
+  "reddit-p1ezl9kh",
+  "reddit-p1g0u82j",
+  "reddit-p1jr23u7",
+  "reddit-p1lx9g1u",
+  "reddit-p1oe2kqz",
+  "reddit-p1oea5rt",
+  "agingcare-5"
+ ],
+ "works_well": [
+  {
+   "theme": "Family feels reassured and at peace",
+   "what_it_means": "Relatives say the device and app ease their worry about a parent or spouse living alone.",
+   "count": 25,
+   "ids": [
+    "a-7482",
+    "a-7484",
+    "a-7575",
+    "a-7580",
+    "a-7675",
+    "a-7677",
+    "a-7687",
+    "a-7692",
+    "a-7694",
+    "a-7695",
+    "a-7696",
+    "a-7716",
+    "a-7720",
+    "a-7732",
+    "a-7783",
+    "a-7813",
+    "a-7824",
+    "a-7827",
+    "a-7829",
+    "a-7842",
+    "a-7845",
+    "gp-lively-43",
+    "gp-lively-55",
+    "gp-lively-62",
+    "gp-lively-64"
+   ],
+   "quotes": [
+    {
+     "id": "a-7827",
+     "quote": "I'm 424 miles from my 90 year old Mother and I can even tell when the device needs to be charged."
+    },
+    {
+     "id": "a-7829",
+     "quote": "Helps keep my sanity in check and I could not live without it."
+    }
+   ]
+  },
+  {
+   "theme": "Seeing where the person is and when they leave home",
+   "what_it_means": "When it works, family can see the person's location and get told when they leave or come home.",
+   "count": 23,
+   "ids": [
+    "a-7474",
+    "a-7482",
+    "a-7492",
+    "a-7580",
+    "a-7646",
+    "a-7666",
+    "a-7677",
+    "a-7686",
+    "a-7687",
+    "a-7696",
+    "a-7716",
+    "a-7724",
+    "a-7732",
+    "a-7780",
+    "a-7787",
+    "a-7824",
+    "a-7829",
+    "a-7830",
+    "a-7834",
+    "a-7842",
+    "gp-lively-35",
+    "gp-lively-59",
+    "gp-lively-64"
+   ],
+   "quotes": [
+    {
+     "id": "a-7830",
+     "quote": "always locates him within 30 feet"
+    },
+    {
+     "id": "a-7780",
+     "quote": "I can distinguish between her being in the backyard or in the house"
+    }
+   ]
+  },
+  {
+   "theme": "Emergency button reaches a helpful operator quickly",
+   "what_it_means": "Pressing the button gets a fast, kind operator who sends help and calls family.",
+   "count": 15,
+   "ids": [
+    "a-7466",
+    "a-7482",
+    "a-7484",
+    "a-7677",
+    "a-7692",
+    "a-7720",
+    "a-7780",
+    "a-7787",
+    "a-7824",
+    "gp-lively-35",
+    "gp-lively-43",
+    "gp-lively-55",
+    "gp-lively-59",
+    "gp-lively-63",
+    "agingcare-5"
+   ],
+   "quotes": [
+    {
+     "id": "a-7466",
+     "quote": "When necessary they stay on the line with her until family or professional help arrives."
+    },
+    {
+     "id": "gp-lively-63",
+     "quote": "when she pushes her button the DO answer immediately... And that is the most important thing."
+    }
+   ]
+  },
+  {
+   "theme": "Low-battery alerts so family can remind them to charge",
+   "what_it_means": "The app tells family when the device battery is low, so they call and remind the person.",
+   "count": 11,
+   "ids": [
+    "a-7447",
+    "a-7474",
+    "a-7482",
+    "a-7646",
+    "a-7666",
+    "a-7675",
+    "a-7696",
+    "a-7716",
+    "a-7827",
+    "a-7842",
+    "gp-lively-60"
+   ],
+   "quotes": [
+    {
+     "id": "a-7842",
+     "quote": "It also shows the battery level which is great, I can call him to remind him to charge it."
+    },
+    {
+     "id": "gp-lively-60",
+     "quote": "I especially like the battery status alerts....I can immediately call to have them charge up their phones."
+    }
+   ]
+  },
+  {
+   "theme": "Friendly, patient customer support",
+   "what_it_means": "Some families found support staff kind and helpful when they called.",
+   "count": 7,
+   "ids": [
+    "a-7518",
+    "a-7580",
+    "a-7584",
+    "a-7736",
+    "a-7830",
+    "gp-lively-43",
+    "agingcare-5"
+   ],
+   "quotes": [
+    {
+     "id": "a-7518",
+     "quote": "An easy match, but this service helped us every step of the way !"
+    },
+    {
+     "id": "agingcare-5",
+     "quote": "they were very helpful at troubleshooting and getting it fixed"
+    }
+   ]
+  },
+  {
+   "theme": "Simple phone the older person can actually use",
+   "what_it_means": "The Jitterbug or Lively phone itself is easy for some older people to use and hear.",
+   "count": 7,
+   "ids": [
+    "a-7482",
+    "a-7548",
+    "a-7692",
+    "a-7705",
+    "a-7736",
+    "reddit-p162wvnv",
+    "reddit-p1eilqmz"
+   ],
+   "quotes": [
+    {
+     "id": "a-7482",
+     "quote": "She loves it because it’s easier to use than her old flip phone."
+    },
+    {
+     "id": "reddit-p1eilqmz",
+     "quote": "My parent knows not to answer the phone if a name is not displayed so this phone is working out well."
+    }
+   ]
+  },
+  {
+   "theme": "Good signal in rural areas",
+   "what_it_means": "Families in rural or Verizon areas say the device gets a signal where others may not.",
+   "count": 4,
+   "ids": [
+    "a-7538",
+    "a-7692",
+    "a-7830",
+    "gp-lively-43"
+   ],
+   "quotes": [
+    {
+     "id": "a-7692",
+     "quote": "We live in a rural area of Illinois and I was worried it would not have a signal."
+    },
+    {
+     "id": "gp-lively-43",
+     "quote": "He lives in a rural area and connectivity has been great"
+    }
+   ]
+  },
+  {
+   "theme": "Shows whether the person is wearing the device",
+   "what_it_means": "The app lets family check that the person actually has the device on.",
+   "count": 3,
+   "ids": [
+    "a-7687",
+    "a-7824",
+    "a-7834"
+   ],
+   "quotes": [
+    {
+     "id": "a-7687",
+     "quote": "the app lets you know if they are wearing it or not!!"
+    },
+    {
+     "id": "a-7834",
+     "quote": "lets me know if she is wearing the alert necklace"
+    }
+   ]
+  },
+  {
+   "theme": "Weekly summary of the person's week",
+   "what_it_means": "A weekly report gives family an overview of activity.",
+   "count": 2,
+   "ids": [
+    "a-7675",
+    "a-7834"
+   ],
+   "quotes": [
+    {
+     "id": "a-7675",
+     "quote": "I like the weekly report"
+    },
+    {
+     "id": "a-7834",
+     "quote": "It also gives a review of her week"
+    }
+   ]
+  },
+  {
+   "theme": "Fall detection worked",
+   "what_it_means": "A couple of families say falls were detected and help came.",
+   "count": 2,
+   "ids": [
+    "a-7584",
+    "gp-lively-35"
+   ],
+   "quotes": [
+    {
+     "id": "a-7584",
+     "quote": "accurate “fall” and tracking device"
+    },
+    {
+     "id": "gp-lively-35",
+     "quote": "with a detected fall or push of a button"
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "Location is wrong, out of date, or won't update",
+   "what_it_means": "The map often shows the person in the wrong place, hours behind, or will not refresh, even in emergencies.",
+   "count": 58,
+   "ids": [
+    "a-7446",
+    "a-7447",
+    "a-7449",
+    "a-7450",
+    "a-7474",
+    "a-7481",
+    "a-7488",
+    "a-7492",
+    "a-7501",
+    "a-7509",
+    "a-7510",
+    "a-7542",
+    "a-7550",
+    "a-7560",
+    "a-7561",
+    "a-7580",
+    "a-7601",
+    "a-7606",
+    "a-7608",
+    "a-7625",
+    "a-7642",
+    "a-7643",
+    "a-7644",
+    "a-7645",
+    "a-7648",
+    "a-7660",
+    "a-7662",
+    "a-7663",
+    "a-7681",
+    "a-7684",
+    "a-7686",
+    "a-7688",
+    "a-7711",
+    "a-7735",
+    "a-7736",
+    "a-7739",
+    "a-7751",
+    "a-7761",
+    "a-7768",
+    "a-7775",
+    "a-7790",
+    "a-7795",
+    "a-7811",
+    "gp-lively-1",
+    "gp-lively-5",
+    "gp-lively-11",
+    "gp-lively-12",
+    "gp-lively-13",
+    "gp-lively-15",
+    "gp-lively-16",
+    "gp-lively-20",
+    "gp-lively-34",
+    "gp-lively-37",
+    "gp-lively-39",
+    "gp-lively-41",
+    "gp-lively-53",
+    "gp-lively-58",
+    "gp-lively-59"
+   ],
+   "quotes": [
+    {
+     "id": "a-7449",
+     "quote": "My father was lost and called us. Our Lively Link app is indicating that he is home when he is not!"
+    },
+    {
+     "id": "a-7739",
+     "quote": "She was in the emergency room, with the Splash in her possession!!!"
+    }
+   ]
+  },
+  {
+   "theme": "Support is slow, unhelpful, or can't fix it",
+   "what_it_means": "Families describe many calls, long waits, no replies, and problems that never get fixed.",
+   "count": 40,
+   "ids": [
+    "a-7448",
+    "a-7450",
+    "a-7453",
+    "a-7454",
+    "a-7460",
+    "a-7501",
+    "a-7542",
+    "a-7550",
+    "a-7560",
+    "a-7631",
+    "a-7633",
+    "a-7658",
+    "a-7662",
+    "a-7663",
+    "a-7705",
+    "a-7708",
+    "a-7746",
+    "a-7762",
+    "a-7775",
+    "a-7808",
+    "a-7811",
+    "gp-lively-0",
+    "gp-lively-1",
+    "gp-lively-9",
+    "gp-lively-11",
+    "gp-lively-22",
+    "gp-lively-28",
+    "gp-lively-29",
+    "gp-lively-34",
+    "gp-lively-39",
+    "gp-lively-41",
+    "gp-lively-49",
+    "gp-lively-53",
+    "gp-lively-54",
+    "gp-lively-56",
+    "gp-lively-57",
+    "gp-lively-58",
+    "gp-lively-59",
+    "reddit-p1jr23u7",
+    "reddit-p1oea5rt"
+   ],
+   "quotes": [
+    {
+     "id": "gp-lively-34",
+     "quote": "me I could call back in 90 days to check the status of the repairs."
+    },
+    {
+     "id": "a-7631",
+     "quote": "I have called approximately 8 times and spent hours on the phone with untrained, inefficient staff"
+    }
+   ]
+  },
+  {
+   "theme": "Can't log in, app crashes, or keeps signing out",
+   "what_it_means": "Many say the app will not let them sign in, crashes, or logs them out, so they can't check on the person.",
+   "count": 37,
+   "ids": [
+    "a-7595",
+    "a-7705",
+    "gp-lively-0",
+    "gp-lively-1",
+    "gp-lively-2",
+    "gp-lively-3",
+    "gp-lively-4",
+    "gp-lively-10",
+    "gp-lively-14",
+    "gp-lively-15",
+    "gp-lively-16",
+    "gp-lively-17",
+    "gp-lively-18",
+    "gp-lively-19",
+    "gp-lively-20",
+    "gp-lively-23",
+    "gp-lively-24",
+    "gp-lively-25",
+    "gp-lively-27",
+    "gp-lively-28",
+    "gp-lively-29",
+    "gp-lively-30",
+    "gp-lively-34",
+    "gp-lively-37",
+    "gp-lively-38",
+    "gp-lively-39",
+    "gp-lively-42",
+    "gp-lively-44",
+    "gp-lively-45",
+    "gp-lively-46",
+    "gp-lively-47",
+    "gp-lively-48",
+    "gp-lively-51",
+    "gp-lively-52",
+    "gp-lively-53",
+    "gp-lively-54",
+    "gp-lively-65"
+   ],
+   "quotes": [
+    {
+     "id": "gp-lively-17",
+     "quote": "I have to login in every time I get an alert. Why? It could waste precious minutes in the event of an emergency."
+    },
+    {
+     "id": "gp-lively-24",
+     "quote": "I use this to watch my dad. How do I know it's working if I can't even get in the app?"
+    }
+   ]
+  },
+  {
+   "theme": "App says the device is off when it is working",
+   "what_it_means": "The app loses its link to the device and shows it as off, out of service, or not reporting.",
+   "count": 28,
+   "ids": [
+    "a-7495",
+    "a-7496",
+    "a-7500",
+    "a-7501",
+    "a-7548",
+    "a-7560",
+    "a-7571",
+    "a-7573",
+    "a-7658",
+    "a-7711",
+    "a-7761",
+    "a-7762",
+    "a-7808",
+    "a-7811",
+    "a-7815",
+    "gp-lively-7",
+    "gp-lively-13",
+    "gp-lively-20",
+    "gp-lively-22",
+    "gp-lively-27",
+    "gp-lively-31",
+    "gp-lively-32",
+    "gp-lively-33",
+    "gp-lively-36",
+    "gp-lively-49",
+    "gp-lively-50",
+    "gp-lively-58",
+    "gp-lively-63"
+   ],
+   "quotes": [
+    {
+     "id": "a-7761",
+     "quote": "This, even when I'm TALKING to the user on the land line, and she's confirming that her cell phone is on and charged."
+    },
+    {
+     "id": "a-7815",
+     "quote": "Nearly always says \"the 5Star device may be off or not in service\" - even when I am standing there holding the turned-on phone."
+    }
+   ]
+  },
+  {
+   "theme": "Alerts to family come late or never",
+   "what_it_means": "Notifications about leaving home, falls, or button presses arrive hours late or not at all.",
+   "count": 27,
+   "ids": [
+    "a-7450",
+    "a-7453",
+    "a-7460",
+    "a-7474",
+    "a-7504",
+    "a-7525",
+    "a-7531",
+    "a-7561",
+    "a-7571",
+    "a-7573",
+    "a-7590",
+    "a-7603",
+    "a-7631",
+    "a-7633",
+    "a-7648",
+    "a-7795",
+    "gp-lively-9",
+    "gp-lively-10",
+    "gp-lively-15",
+    "gp-lively-17",
+    "gp-lively-26",
+    "gp-lively-28",
+    "gp-lively-29",
+    "gp-lively-34",
+    "gp-lively-41",
+    "gp-lively-53",
+    "gp-lively-58"
+   ],
+   "quotes": [
+    {
+     "id": "a-7525",
+     "quote": "I’ll get an alert 15-20 minutes AFTER my mother gets dropped off at her home"
+    },
+    {
+     "id": "a-7573",
+     "quote": "2 times within a month I didn’t find out that my mom was taken by ambulance to the hospital until the next day"
+    }
+   ]
+  },
+  {
+   "theme": "Hard for the older person to use",
+   "what_it_means": "Weak hands, poor eyesight, hearing, or memory make the lanyard, buttons, menus, or phone hard to use.",
+   "count": 13,
+   "ids": [
+    "a-7566",
+    "a-7592",
+    "a-7657",
+    "a-7681",
+    "a-7790",
+    "reddit-p17u1gzq",
+    "reddit-p17urbj4",
+    "reddit-p1aezsi3",
+    "reddit-p1df0k0k",
+    "reddit-p1eilqmz",
+    "reddit-p1ejugn2",
+    "reddit-p1ezl9kh",
+    "reddit-p1fff03c"
+   ],
+   "quotes": [
+    {
+     "id": "a-7657",
+     "quote": "my mom's fingers couldn't depress a small square on the back of the unit"
+    },
+    {
+     "id": "reddit-p17urbj4",
+     "quote": "he complains about having to push six buttons to call a number from his favorite contacts"
+    }
+   ]
+  },
+  {
+   "theme": "Getting family linked to the account is confusing",
+   "what_it_means": "Invites, sign-ups, and account access confuse family members trying to connect.",
+   "count": 13,
+   "ids": [
+    "a-7458",
+    "a-7705",
+    "gp-lively-2",
+    "gp-lively-5",
+    "gp-lively-7",
+    "gp-lively-8",
+    "gp-lively-36",
+    "gp-lively-37",
+    "gp-lively-52",
+    "gp-lively-54",
+    "gp-lively-56",
+    "gp-lively-61",
+    "gp-lively-64"
+   ],
+   "quotes": [
+    {
+     "id": "gp-lively-8",
+     "quote": "I cant even invite my wife...it says click \"manage invites\" in upper rightcorner....there is no \"manage invites\" there!!"
+    },
+    {
+     "id": "gp-lively-54",
+     "quote": "menu options that pertain to primary customer only, not the caregiver or family member"
+    }
+   ]
+  },
+  {
+   "theme": "Problems started after an app update or redesign",
+   "what_it_means": "Things that used to work broke after a new app version came out.",
+   "count": 13,
+   "ids": [
+    "a-7447",
+    "a-7448",
+    "a-7488",
+    "a-7509",
+    "a-7510",
+    "a-7739",
+    "gp-lively-5",
+    "gp-lively-14",
+    "gp-lively-16",
+    "gp-lively-17",
+    "gp-lively-18",
+    "gp-lively-46",
+    "gp-lively-65"
+   ],
+   "quotes": [
+    {
+     "id": "a-7447",
+     "quote": "The location has been awful since the Feb 2026 update."
+    },
+    {
+     "id": "gp-lively-16",
+     "quote": "Bring back the old app, I have had nothing but issues with this new app."
+    }
+   ]
+  },
+  {
+   "theme": "Replacement devices didn't fix the problem",
+   "what_it_means": "Families got second or third devices and the problem stayed.",
+   "count": 13,
+   "ids": [
+    "a-7453",
+    "a-7538",
+    "a-7580",
+    "a-7592",
+    "a-7625",
+    "a-7645",
+    "a-7681",
+    "a-7708",
+    "a-7736",
+    "gp-lively-12",
+    "gp-lively-41",
+    "gp-lively-49",
+    "gp-lively-53"
+   ],
+   "quotes": [
+    {
+     "id": "a-7453",
+     "quote": "I’m on the third one now and it still doesn’t work."
+    },
+    {
+     "id": "a-7736",
+     "quote": "we are now on our 3rd phone because of constant problems"
+    }
+   ]
+  },
+  {
+   "theme": "Activity history and weekly summary are wrong or missing",
+   "what_it_means": "The weekly review, activity log, or call log is wrong, missing, or late.",
+   "count": 12,
+   "ids": [
+    "a-7496",
+    "a-7531",
+    "a-7580",
+    "a-7590",
+    "a-7603",
+    "a-7625",
+    "a-7648",
+    "gp-lively-7",
+    "gp-lively-9",
+    "gp-lively-26",
+    "gp-lively-34",
+    "gp-lively-36"
+   ],
+   "quotes": [
+    {
+     "id": "a-7603",
+     "quote": "This week in review said my mother made no 911 calls.  That is not true"
+    },
+    {
+     "id": "a-7531",
+     "quote": "Mom fell and I get a message saying a week in review"
+    }
+   ]
+  },
+  {
+   "theme": "Paying for a service that doesn't work, no refunds",
+   "what_it_means": "Families keep paying monthly fees for features that fail and are refused refunds.",
+   "count": 11,
+   "ids": [
+    "a-7454",
+    "a-7538",
+    "a-7561",
+    "a-7643",
+    "a-7708",
+    "a-7815",
+    "gp-lively-9",
+    "gp-lively-42",
+    "gp-lively-47",
+    "gp-lively-57",
+    "gp-lively-61"
+   ],
+   "quotes": [
+    {
+     "id": "a-7708",
+     "quote": "I asked for a refund and was told we can not do refunds."
+    },
+    {
+     "id": "gp-lively-42",
+     "quote": "I am paying a monthly premium for this service it needs to work properly!"
+    }
+   ]
+  },
+  {
+   "theme": "Emergencies handled badly or family not told",
+   "what_it_means": "Some say help was slow, the call was dropped, or family was never told about an emergency.",
+   "count": 10,
+   "ids": [
+    "a-7531",
+    "a-7561",
+    "a-7567",
+    "a-7573",
+    "a-7603",
+    "a-7607",
+    "a-7610",
+    "a-7633",
+    "a-7648",
+    "a-7751"
+   ],
+   "quotes": [
+    {
+     "id": "a-7561",
+     "quote": "40 MINUTES BEFORE THE FIRST CALL IS PLACED TO A POINT OF CONTACT??"
+    },
+    {
+     "id": "a-7633",
+     "quote": "Neither my sister or I were called to be informed of the emergency."
+    }
+   ]
+  },
+  {
+   "theme": "Fixes need reboots the older person can't do",
+   "what_it_means": "Support's usual fix is rebooting the device, which is hard for older hands, eyes, and ears.",
+   "count": 9,
+   "ids": [
+    "a-7501",
+    "a-7592",
+    "a-7662",
+    "a-7663",
+    "a-7681",
+    "a-7775",
+    "gp-lively-53",
+    "gp-lively-54",
+    "gp-lively-58"
+   ],
+   "quotes": [
+    {
+     "id": "a-7501",
+     "quote": "Every time we call C/S they recommend a hard reboot! (Difficult for Seniors losing fine motor skills)"
+    },
+    {
+     "id": "gp-lively-53",
+     "quote": "I don't live with my mother and she cannot see well enough or comprehend instructions over the phone."
+    }
+   ]
+  },
+  {
+   "theme": "Battery and charging status is wrong",
+   "what_it_means": "The app shows charging when the device is worn, or a dead battery when it was charged.",
+   "count": 8,
+   "ids": [
+    "a-7501",
+    "a-7739",
+    "a-7775",
+    "gp-lively-6",
+    "gp-lively-12",
+    "gp-lively-34",
+    "gp-lively-36",
+    "gp-lively-48"
+   ],
+   "quotes": [
+    {
+     "id": "gp-lively-48",
+     "quote": "Mom will be wearing device, and I will be told it is still charging."
+    },
+    {
+     "id": "gp-lively-36",
+     "quote": "Great call showed my Mom's battery being fully discharged and the power off."
+    }
+   ]
+  },
+  {
+   "theme": "Works on one phone type but not another",
+   "what_it_means": "The family app fails on certain phones, like iPhones, Pixel, or some Samsungs.",
+   "count": 7,
+   "ids": [
+    "a-7446",
+    "a-7448",
+    "a-7453",
+    "a-7460",
+    "gp-lively-29",
+    "gp-lively-37",
+    "gp-lively-44"
+   ],
+   "quotes": [
+    {
+     "id": "a-7453",
+     "quote": "It works with Samsung phones, but it does not work with iPhones for some reason."
+    },
+    {
+     "id": "gp-lively-29",
+     "quote": "she asks if I\"m on a Pixel phone and then, \"oh there's a problem, it won't work with that phone.\""
+    }
+   ]
+  },
+  {
+   "theme": "Battery runs out too fast",
+   "what_it_means": "The device or phone battery doesn't last a full day.",
+   "count": 6,
+   "ids": [
+    "a-7592",
+    "a-7656",
+    "a-7705",
+    "gp-lively-6",
+    "gp-lively-11",
+    "gp-lively-34"
+   ],
+   "quotes": [
+    {
+     "id": "a-7656",
+     "quote": "Even with a full overnight charge it doesn't last a full day"
+    },
+    {
+     "id": "gp-lively-34",
+     "quote": "dying in less than 10 hours"
+    }
+   ]
+  },
+  {
+   "theme": "False alerts that the person is out at night",
+   "what_it_means": "The app says the person left home in the middle of the night when they were asleep, scaring family.",
+   "count": 5,
+   "ids": [
+    "a-7645",
+    "a-7660",
+    "a-7768",
+    "a-7795",
+    "a-7811"
+   ],
+   "quotes": [
+    {
+     "id": "a-7768",
+     "quote": "I've gotten Calls at 3am from concerned siblings!!"
+    },
+    {
+     "id": "a-7660",
+     "quote": "I thought she was having a problem and frightened her with a call at that time of night."
+    }
+   ]
+  },
+  {
+   "theme": "Fall detection missed real falls",
+   "what_it_means": "Falls happened and no alert went out.",
+   "count": 4,
+   "ids": [
+    "a-7467",
+    "a-7538",
+    "a-7618",
+    "gp-lively-3"
+   ],
+   "quotes": [
+    {
+     "id": "a-7467",
+     "quote": "My almost 95-year old mother fell twice in the past month. No alert sent."
+    },
+    {
+     "id": "a-7618",
+     "quote": "My husband has had at least 8 bad falls, we carry the fall feature and it never goes off"
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [
+   {
+    "theme": "Adult children far away buy it for a parent",
+    "what_it_means": "Many writers live hours or states away from the parent they watch over.",
+    "count": 12,
+    "ids": [
+     "a-7446",
+     "a-7610",
+     "a-7711",
+     "a-7732",
+     "a-7780",
+     "a-7811",
+     "a-7813",
+     "a-7827",
+     "a-7829",
+     "gp-lively-34",
+     "gp-lively-42",
+     "reddit-p17u1gzq"
+    ],
+    "quotes": [
+     {
+      "id": "a-7811",
+      "quote": "I live over 400 miles away from my 91 year old mother"
+     },
+     {
+      "id": "a-7813",
+      "quote": "My 87 year old mother lives 2000 miles from me"
+     }
+    ]
+   },
+   {
+    "theme": "Spouse buys it for a husband or wife",
+    "what_it_means": "Husbands and wives use it to watch over a partner with falls or illness.",
+    "count": 9,
+    "ids": [
+     "a-7458",
+     "a-7466",
+     "a-7484",
+     "a-7575",
+     "a-7618",
+     "a-7790",
+     "gp-lively-12",
+     "gp-lively-25",
+     "gp-lively-55"
+    ],
+    "quotes": [
+     {
+      "id": "a-7575",
+      "quote": "Peace of mind for me as a husband and caregiver of my wife"
+     },
+     {
+      "id": "gp-lively-55",
+      "quote": "I can now leave the house and know my husband has a means for help."
+     }
+    ]
+   },
+   {
+    "theme": "Used for people with dementia or memory loss",
+    "what_it_means": "Families bought it to keep track of someone with dementia, Alzheimer's, or memory problems.",
+    "count": 8,
+    "ids": [
+     "a-7488",
+     "a-7504",
+     "a-7560",
+     "a-7566",
+     "a-7808",
+     "reddit-p17urbj4",
+     "reddit-p1aezsi3",
+     "reddit-p1eilqmz"
+    ],
+    "quotes": [
+     {
+      "id": "a-7504",
+      "quote": "We got this for my dad who has dementia and it is consistently unreliable."
+     },
+     {
+      "id": "a-7808",
+      "quote": "The app is great for helping to keep track of the whereabouts of my memory impaired father."
+     }
+    ]
+   },
+   {
+    "theme": "The caregiver holds the account and pays",
+    "what_it_means": "The adult child or relative is the payer, sometimes with the account in their own name.",
+    "count": 5,
+    "ids": [
+     "a-7705",
+     "a-7708",
+     "gp-lively-5",
+     "gp-lively-42",
+     "gp-lively-57"
+    ],
+    "quotes": [
+     {
+      "id": "gp-lively-5",
+      "quote": "I'm the payer of my mother's account, however at last update it changed her name to mine."
+     },
+     {
+      "id": "a-7705",
+      "quote": "The account etc is in my name but she has it with her in a LTC facility."
+     }
+    ]
+   }
+  ],
+  "relatives_joining_and_sharing": [
+   {
+    "theme": "Getting family linked to the account is confusing",
+    "what_it_means": "Invites, sign-ups, and account access confuse family members trying to connect.",
+    "count": 13,
+    "ids": [
+     "a-7458",
+     "a-7705",
+     "gp-lively-2",
+     "gp-lively-5",
+     "gp-lively-7",
+     "gp-lively-8",
+     "gp-lively-36",
+     "gp-lively-37",
+     "gp-lively-52",
+     "gp-lively-54",
+     "gp-lively-56",
+     "gp-lively-61",
+     "gp-lively-64"
+    ],
+    "quotes": [
+     {
+      "id": "gp-lively-8",
+      "quote": "I cant even invite my wife...it says click \"manage invites\" in upper rightcorner....there is no \"manage invites\" there!!"
+     },
+     {
+      "id": "gp-lively-54",
+      "quote": "menu options that pertain to primary customer only, not the caregiver or family member"
+     }
+    ]
+   },
+   {
+    "theme": "Several relatives follow the same person",
+    "what_it_means": "Siblings, spouses, and children share the app to watch the same parent.",
+    "count": 10,
+    "ids": [
+     "a-7633",
+     "a-7675",
+     "a-7688",
+     "a-7732",
+     "a-7768",
+     "a-7845",
+     "gp-lively-9",
+     "gp-lively-25",
+     "gp-lively-43",
+     "gp-lively-62"
+    ],
+    "quotes": [
+     {
+      "id": "a-7675",
+      "quote": "4 siblings of a 96 year old living alone"
+     },
+     {
+      "id": "gp-lively-43",
+      "quote": "The app gives me and my other 2 siblings great piece of mind."
+     }
+    ]
+   },
+   {
+    "theme": "Following two people in one app is hard",
+    "what_it_means": "Families with two older relatives on the service find the app is not built for that.",
+    "count": 2,
+    "ids": [
+     "gp-lively-40",
+     "gp-lively-56"
+    ],
+    "quotes": [
+     {
+      "id": "gp-lively-40",
+      "quote": "Can the application accomodate two devices under the same account?"
+     },
+     {
+      "id": "gp-lively-56",
+      "quote": "God help you if you have two users with splash."
+     }
+    ]
+   }
+  ],
+  "cost_price_cancelling": [
+   {
+    "theme": "Paying for a service that doesn't work, no refunds",
+    "what_it_means": "Families keep paying monthly fees for features that fail and are refused refunds.",
+    "count": 11,
+    "ids": [
+     "a-7454",
+     "a-7538",
+     "a-7561",
+     "a-7643",
+     "a-7708",
+     "a-7815",
+     "gp-lively-9",
+     "gp-lively-42",
+     "gp-lively-47",
+     "gp-lively-57",
+     "gp-lively-61"
+    ],
+    "quotes": [
+     {
+      "id": "a-7708",
+      "quote": "I asked for a refund and was told we can not do refunds."
+     },
+     {
+      "id": "gp-lively-42",
+      "quote": "I am paying a monthly premium for this service it needs to work properly!"
+     }
+    ]
+   },
+   {
+    "theme": "Good value for the price",
+    "what_it_means": "Some families say the monthly cost is fair or worth it.",
+    "count": 6,
+    "ids": [
+     "a-7466",
+     "a-7492",
+     "a-7716",
+     "a-7824",
+     "gp-lively-35",
+     "gp-lively-55"
+    ],
+    "quotes": [
+     {
+      "id": "a-7466",
+      "quote": "I’d pay double without blinking an eye."
+     },
+     {
+      "id": "gp-lively-55",
+      "quote": "For $20 a mo you have a device wherever you go"
+     }
+    ]
+   },
+   {
+    "theme": "Cancelling is hard and not obvious",
+    "what_it_means": "Families struggle to find how to cancel and get little help or refund.",
+    "count": 3,
+    "ids": [
+     "a-7454",
+     "a-7566",
+     "gp-lively-57"
+    ],
+    "quotes": [
+     {
+      "id": "a-7454",
+      "quote": "Cancellation of the service/account on the app is not obvious."
+     },
+     {
+      "id": "gp-lively-57",
+      "quote": "I was offered the paltry sum of $15."
+     }
+    ]
+   },
+   {
+    "theme": "Fees and data plans are confusing",
+    "what_it_means": "Extra fees and data plan choices are not clear before buying.",
+    "count": 2,
+    "ids": [
+     "reddit-p1df0k0k",
+     "reddit-p1oea5rt"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1df0k0k",
+      "quote": "Phone rep told me there's no way to look that up. I just need to commit and wait for the first bill."
+     },
+     {
+      "id": "reddit-p1oea5rt",
+      "quote": "I don’t want to spend $30 a month if she only uses five or 10 MB"
+     }
+    ]
+   }
+  ],
+  "emergencies_and_support_response": [
+   {
+    "theme": "Emergency button reaches a helpful operator quickly",
+    "what_it_means": "Pressing the button gets a fast, kind operator who sends help and calls family.",
+    "count": 15,
+    "ids": [
+     "a-7466",
+     "a-7482",
+     "a-7484",
+     "a-7677",
+     "a-7692",
+     "a-7720",
+     "a-7780",
+     "a-7787",
+     "a-7824",
+     "gp-lively-35",
+     "gp-lively-43",
+     "gp-lively-55",
+     "gp-lively-59",
+     "gp-lively-63",
+     "agingcare-5"
+    ],
+    "quotes": [
+     {
+      "id": "a-7466",
+      "quote": "When necessary they stay on the line with her until family or professional help arrives."
+     },
+     {
+      "id": "gp-lively-63",
+      "quote": "when she pushes her button the DO answer immediately... And that is the most important thing."
+     }
+    ]
+   },
+   {
+    "theme": "Emergencies handled badly or family not told",
+    "what_it_means": "Some say help was slow, the call was dropped, or family was never told about an emergency.",
+    "count": 10,
+    "ids": [
+     "a-7531",
+     "a-7561",
+     "a-7567",
+     "a-7573",
+     "a-7603",
+     "a-7607",
+     "a-7610",
+     "a-7633",
+     "a-7648",
+     "a-7751"
+    ],
+    "quotes": [
+     {
+      "id": "a-7561",
+      "quote": "40 MINUTES BEFORE THE FIRST CALL IS PLACED TO A POINT OF CONTACT??"
+     },
+     {
+      "id": "a-7633",
+      "quote": "Neither my sister or I were called to be informed of the emergency."
+     }
+    ]
+   },
+   {
+    "theme": "Support takes days or weeks to reply",
+    "what_it_means": "Emails and tickets go unanswered for days, weeks, or months.",
+    "count": 10,
+    "ids": [
+     "a-7450",
+     "a-7560",
+     "a-7633",
+     "a-7658",
+     "a-7746",
+     "gp-lively-0",
+     "gp-lively-34",
+     "gp-lively-49",
+     "gp-lively-59",
+     "reddit-p1oea5rt"
+    ],
+    "quotes": [
+     {
+      "id": "gp-lively-49",
+      "quote": "We put in a support ticket on her previous device 6 weeks ago and still haven't been called back."
+     },
+     {
+      "id": "a-7658",
+      "quote": "it is concerning that technical support is not available 24/7"
+     }
+    ]
+   },
+   {
+    "theme": "Fall detection missed real falls",
+    "what_it_means": "Falls happened and no alert went out.",
+    "count": 4,
+    "ids": [
+     "a-7467",
+     "a-7538",
+     "a-7618",
+     "gp-lively-3"
+    ],
+    "quotes": [
+     {
+      "id": "a-7467",
+      "quote": "My almost 95-year old mother fell twice in the past month. No alert sent."
+     },
+     {
+      "id": "a-7618",
+      "quote": "My husband has had at least 8 bad falls, we carry the fall feature and it never goes off"
+     }
+    ]
+   },
+   {
+    "theme": "Accidental button presses",
+    "what_it_means": "People with dementia or habits press the button by mistake; families handle it differently.",
+    "count": 3,
+    "ids": [
+     "a-7566",
+     "a-7677",
+     "reddit-p1g0u82j"
+    ],
+    "quotes": [
+     {
+      "id": "a-7677",
+      "quote": "He's pressed it accidentally a few times, and the response was prompt each time."
+     },
+     {
+      "id": "reddit-p1g0u82j",
+      "quote": "she has a history of pressing the emergency button"
+     }
+    ]
+   }
+  ],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "Hard for the older person to use",
+    "what_it_means": "Weak hands, poor eyesight, hearing, or memory make the lanyard, buttons, menus, or phone hard to use.",
+    "count": 13,
+    "ids": [
+     "a-7566",
+     "a-7592",
+     "a-7657",
+     "a-7681",
+     "a-7790",
+     "reddit-p17u1gzq",
+     "reddit-p17urbj4",
+     "reddit-p1aezsi3",
+     "reddit-p1df0k0k",
+     "reddit-p1eilqmz",
+     "reddit-p1ejugn2",
+     "reddit-p1ezl9kh",
+     "reddit-p1fff03c"
+    ],
+    "quotes": [
+     {
+      "id": "a-7657",
+      "quote": "my mom's fingers couldn't depress a small square on the back of the unit"
+     },
+     {
+      "id": "reddit-p17urbj4",
+      "quote": "he complains about having to push six buttons to call a number from his favorite contacts"
+     }
+    ]
+   },
+   {
+    "theme": "Getting family linked to the account is confusing",
+    "what_it_means": "Invites, sign-ups, and account access confuse family members trying to connect.",
+    "count": 13,
+    "ids": [
+     "a-7458",
+     "a-7705",
+     "gp-lively-2",
+     "gp-lively-5",
+     "gp-lively-7",
+     "gp-lively-8",
+     "gp-lively-36",
+     "gp-lively-37",
+     "gp-lively-52",
+     "gp-lively-54",
+     "gp-lively-56",
+     "gp-lively-61",
+     "gp-lively-64"
+    ],
+    "quotes": [
+     {
+      "id": "gp-lively-8",
+      "quote": "I cant even invite my wife...it says click \"manage invites\" in upper rightcorner....there is no \"manage invites\" there!!"
+     },
+     {
+      "id": "gp-lively-54",
+      "quote": "menu options that pertain to primary customer only, not the caregiver or family member"
+     }
+    ]
+   },
+   {
+    "theme": "Simple phone the older person can actually use",
+    "what_it_means": "The Jitterbug or Lively phone itself is easy for some older people to use and hear.",
+    "count": 7,
+    "ids": [
+     "a-7482",
+     "a-7548",
+     "a-7692",
+     "a-7705",
+     "a-7736",
+     "reddit-p162wvnv",
+     "reddit-p1eilqmz"
+    ],
+    "quotes": [
+     {
+      "id": "a-7482",
+      "quote": "She loves it because it’s easier to use than her old flip phone."
+     },
+     {
+      "id": "reddit-p1eilqmz",
+      "quote": "My parent knows not to answer the phone if a name is not displayed so this phone is working out well."
+     }
+    ]
+   },
+   {
+    "theme": "Moving contacts to a new Jitterbug is hard",
+    "what_it_means": "Transferring contacts and messages to a new phone needs outside help or loses data.",
+    "count": 2,
+    "ids": [
+     "reddit-p1jr23u7",
+     "reddit-p1oe2kqz"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1jr23u7",
+      "quote": "He spent at least an hour with the support line only to be told that he had to make an appointment at Best Buy to get help."
+     },
+     {
+      "id": "reddit-p1oe2kqz",
+      "quote": "No SMS/MMS messages are transferred using this method."
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [
+   {
+    "theme": "Families stop trusting it with a loved one's safety",
+    "what_it_means": "Repeated failures make families say they can't rely on it in an emergency.",
+    "count": 10,
+    "ids": [
+     "a-7448",
+     "a-7606",
+     "a-7625",
+     "a-7660",
+     "a-7739",
+     "a-7751",
+     "gp-lively-12",
+     "gp-lively-27",
+     "gp-lively-42",
+     "gp-lively-47"
+    ],
+    "quotes": [
+     {
+      "id": "a-7606",
+      "quote": "Doesn’t give me any confidence that In an emergency I can locate her!"
+     },
+     {
+      "id": "a-7625",
+      "quote": "Waste of caregiver’s sanity, trust and pease of mind."
+     }
+    ]
+   },
+   {
+    "theme": "Privacy worries about personal data and access",
+    "what_it_means": "App showed a stranger, asked for broad permissions, shared data, or support asked for a Wi-Fi password.",
+    "count": 4,
+    "ids": [
+     "gp-lively-19",
+     "gp-lively-29",
+     "gp-lively-59",
+     "reddit-p1lx9g1u"
+    ],
+    "quotes": [
+     {
+      "id": "gp-lively-19",
+      "quote": "I am now connected to a strangers phone! Map and all!"
+     },
+     {
+      "id": "gp-lively-59",
+      "quote": "the privacy policy does say that they will share your personal info"
+     }
+    ]
+   }
+  ],
+  "why_people_stop_or_stay": [
+   {
+    "theme": "Leaving or planning to switch because it's unreliable",
+    "what_it_means": "Families say they will cancel or move to another service because the app or alerts fail.",
+    "count": 14,
+    "ids": [
+     "a-7460",
+     "a-7550",
+     "a-7631",
+     "a-7648",
+     "a-7660",
+     "a-7739",
+     "gp-lively-1",
+     "gp-lively-5",
+     "gp-lively-22",
+     "gp-lively-23",
+     "gp-lively-31",
+     "gp-lively-34",
+     "gp-lively-41",
+     "gp-lively-57"
+    ],
+    "quotes": [
+     {
+      "id": "a-7631",
+      "quote": "I’m switching her to another medical device program as soon as possible!"
+     },
+     {
+      "id": "gp-lively-41",
+      "quote": "We will be cancelling our account.    We we're a satisfied customer for over two years."
+     }
+    ]
+   },
+   {
+    "theme": "Staying despite problems for one key reason",
+    "what_it_means": "Some keep it for one need, like voice dialing, coverage, battery checks, or money already spent.",
+    "count": 6,
+    "ids": [
+     "a-7447",
+     "a-7538",
+     "a-7580",
+     "a-7736",
+     "a-7746",
+     "reddit-p1df0k0k"
+    ],
+    "quotes": [
+     {
+      "id": "a-7736",
+      "quote": "he has very low vision and can only use a phone that is voice activated, this is why we are still suffering through with it."
+     },
+     {
+      "id": "a-7746",
+      "quote": "I hate to change the device after investing her money in this one."
+     }
+    ]
+   },
+   {
+    "theme": "Stopping because the older person can't use the phone",
+    "what_it_means": "The phone turned out too hard for the parent, so families returned it or moved on.",
+    "count": 3,
+    "ids": [
+     "reddit-p1eilqmz",
+     "reddit-p1ejugn2",
+     "reddit-p1ezl9kh"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1ejugn2",
+      "quote": "I want to let other people know the Jitterbug for our mother was a big mistake."
+     },
+     {
+      "id": "reddit-p1ezl9kh",
+      "quote": "it's just not working for her and we need to find another solution"
+     }
+    ]
+   }
+  ],
+  "what_people_use_instead_or_alongside": [
+   {
+    "theme": "Calling the person to check or remind them",
+    "what_it_means": "Families phone the person to remind them to charge or to check a strange alert.",
+    "count": 6,
+    "ids": [
+     "a-7660",
+     "a-7663",
+     "a-7675",
+     "a-7716",
+     "a-7842",
+     "gp-lively-60"
+    ],
+    "quotes": [
+     {
+      "id": "a-7716",
+      "quote": "the app wants me to call my mom and tell her to put it on the charger on the battery is low"
+     },
+     {
+      "id": "a-7663",
+      "quote": "Surprised And concerned I called her to find her home."
+     }
+    ]
+   },
+   {
+    "theme": "Using the website when the app fails",
+    "what_it_means": "When the app won't work, some log in on the website on a computer instead.",
+    "count": 5,
+    "ids": [
+     "gp-lively-15",
+     "gp-lively-28",
+     "gp-lively-30",
+     "gp-lively-44",
+     "gp-lively-56"
+    ],
+    "quotes": [
+     {
+      "id": "gp-lively-15",
+      "quote": "I can login to My Link on my computer, but the same username and password doesn't work with the app."
+     },
+     {
+      "id": "gp-lively-28",
+      "quote": "I have to login to the website which isn't convenient"
+     }
+    ]
+   },
+   {
+    "theme": "Other alert devices, phones, or trackers",
+    "what_it_means": "Families look at Life Alert, the RAZ phone, or AirTags instead of or next to Lively.",
+    "count": 3,
+    "ids": [
+     "gp-lively-23",
+     "reddit-p1df0k0k",
+     "reddit-p1eejdsd"
+    ],
+    "quotes": [
+     {
+      "id": "gp-lively-23",
+      "quote": "Need to switch to Life Alert."
+     },
+     {
+      "id": "reddit-p1eejdsd",
+      "quote": "My mom has tried tapping an airtag on and getting her a case with an airtag on it."
+     }
+    ]
+   },
+   {
+    "theme": "Life360 for location tracking",
+    "what_it_means": "Life360 is named as a better or extra way to see where the parent goes.",
+    "count": 2,
+    "ids": [
+     "a-7580",
+     "a-7642"
+    ],
+    "quotes": [
+     {
+      "id": "a-7580",
+      "quote": "I now use Life360 to see a record of her daily activity."
+     },
+     {
+      "id": "a-7642",
+      "quote": "LIFE 360 app is far superior, but requires an iPhone."
+     }
+    ]
+   }
+  ]
+ },
+ "single_mentions": [
+  {
+   "id": "a-7474",
+   "point": "A missed-charging alert led family to check in and find the mother had taken too much of a medicine."
+  },
+  {
+   "id": "a-7642",
+   "point": "Location updates only every 20-25 minutes, so a lost parent driving a car could not be found."
+  },
+  {
+   "id": "a-7684",
+   "point": "Wants more frequent location updates for a while after an emergency call."
+  },
+  {
+   "id": "a-7815",
+   "point": "Location updates only a few times an hour unless the emergency button is pressed."
+  },
+  {
+   "id": "a-7610",
+   "point": "Wants the alert to say why the emergency line was called, so far-away family don't panic."
+  },
+  {
+   "id": "a-7607",
+   "point": "Wants calls to caregivers on button presses and a note for responders on where the door key is."
+  },
+  {
+   "id": "gp-lively-6",
+   "point": "Wants a battery percentage instead of 'normal' until it suddenly sends a low alert."
+  },
+  {
+   "id": "a-7687",
+   "point": "Wishes Lively made a watch, so the father would remember to wear it."
+  },
+  {
+   "id": "a-7824",
+   "point": "Uses the app to update the mother's medicines."
+  },
+  {
+   "id": "a-7492",
+   "point": "Medicine and appointment reminder features are not used."
+  },
+  {
+   "id": "a-7705",
+   "point": "Account holder could not make changes because the mother had the phone with her; the charger was loose."
+  },
+  {
+   "id": "a-7663",
+   "point": "Support said the device must be turned off and on often to get updates."
+  },
+  {
+   "id": "a-7681",
+   "point": "Device chimes are too quiet for the mother to hear; suggests older people test the product."
+  },
+  {
+   "id": "a-7450",
+   "point": "Notes the company is now part of Best Buy and still unresponsive."
+  },
+  {
+   "id": "reddit-p162wvnv",
+   "point": "Lively Flip 2 has no Wi-Fi calling, a problem where cell signal is weak."
+  },
+  {
+   "id": "reddit-p1aezsi3",
+   "point": "Older Jitterbug flip phone did not show family names on incoming calls."
+  },
+  {
+   "id": "reddit-p17u1gzq",
+   "point": "Mother could not dismiss an emergency alert test screen on her Jitterbug."
+  },
+  {
+   "id": "reddit-p1fff03c",
+   "point": "Grandmother can reach emergency help with the button but has no easy way to reach family for non-urgent help."
+  },
+  {
+   "id": "a-7657",
+   "point": "Lanyard could not be installed by the mother, and support admitted it was a general problem."
+  }
+ ],
+ "reader_notes": "181 of 220 items are app store reviews (116 Apple, 65 Google), mostly about the Lively Link / GreatCall Link family app rather than the alert device itself, and dated 2014-2026 with most from 2015-2020; many complaints repeat the same app-version problems (sign-in loops in 2017-2019, location and iPhone notification bugs 2024-2026). App store reviews lean toward strong opinions. Reddit posts (37) were mostly people asking about Jitterbug phones before buying; only 15 described real use and were kept. Four reviews were written by the device wearer, not a caregiver, and were dropped. Very little evidence on privacy or on who pays beyond the writer."
+}

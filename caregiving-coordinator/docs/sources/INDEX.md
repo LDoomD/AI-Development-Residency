@@ -336,3 +336,10 @@ Why: the owner asked for more qualitative evidence for the empty and vague boxes
 | `reddit/arctic-shift-2026-11-03/build_candidates.py`, `tagging/` | Picks posts by topic words, splits them for reading; `INSTRUCTIONS.md` is the tag rule; `tags-*.jsonl` are the tags (Claude helpers, one pass, quotes checked word for word) | — | Counts in the report |
 | `reddit/arctic-shift-2026-11-03/analyze_tags.py`, `reddit-findings.json` | Counts per feature, problem groups, quotes, wishes; removes app-maker posts and copies (list kept in the file) | — | Report numbers |
 | `reddit/arctic-shift-2026-11-03/app-mentions.json` | 37 posts that name a competitor and say how it worked | links inside | Added to `feature_ratings.py` through `extra-tags-2026-11-03.json` |
+
+## 2026-11-04 additions: Competitive Analysis 2
+
+- `competitive-analysis-2/packs/*.json`: one evidence pack per competitor (1,101 items) built from saved app reviews, Reddit downloads and forum mentions by `build_packs.py`. No new web fetching.
+- `competitive-analysis-2/themes/*.json`: the themes counted from every pack item read in full (577 caregiving items kept). Rules: `READER-INSTRUCTIONS.md`. Check: `verify_themes.py`.
+- `competitive-analysis-2/facts/*.json`: company answers drawn from every saved company page (`competitors/`, `competitors-2/`, app store listings, `docs/company-funding.md`). Check: `verify_facts.py`.
+- `competitive-analysis-2/answers-v2.json`, `figma-grid.json`: the table text. Checks: `audit_answers.py`, `audit_gaps_uvo.py` and Figma hash matches (220 of 220 table cells, 42 of 42 gaps and opportunities texts). Readable copy: `docs/competitive-analysis-2.md`.

@@ -1,0 +1,471 @@
+{
+ "competitor": "Medisafe",
+ "items_in_pack": 32,
+ "items_kept": 21,
+ "dropped": {
+  "not caregiving": 9,
+  "says nothing about the product": 1,
+  "app maker / ad": 1
+ },
+ "kept_ids": [
+  "a-6154",
+  "a-6171",
+  "a-6183",
+  "a-6248",
+  "a-6250",
+  "a-6294",
+  "a-6303",
+  "a-6306",
+  "a-6307",
+  "a-6356",
+  "a-6393",
+  "a-6394",
+  "a-6522",
+  "a-6538",
+  "a-6579",
+  "g-medisafe-67",
+  "g-medisafe-79",
+  "g-medisafe-142",
+  "g-medisafe-178",
+  "g-medisafe-196",
+  "g-medisafe-444"
+ ],
+ "works_well": [
+  {
+   "theme": "Keeps a loved one's complicated med schedule on track",
+   "what_it_means": "Caregivers use reminders and tracking to manage many meds, doses and times for a parent, spouse or child.",
+   "count": 10,
+   "ids": [
+    "a-6154",
+    "a-6171",
+    "a-6183",
+    "a-6303",
+    "a-6306",
+    "a-6522",
+    "a-6538",
+    "g-medisafe-67",
+    "g-medisafe-142",
+    "g-medisafe-444"
+   ],
+   "quotes": [
+    {
+     "id": "a-6303",
+     "quote": "I can’t imagine trying to manage his medication without it!"
+    },
+    {
+     "id": "a-6154",
+     "quote": "track complex medication schedules, dosages, etc. I love that it allows me to customize a schedule"
+    }
+   ]
+  },
+  {
+   "theme": "Managing meds for several family members in one app",
+   "what_it_means": "Caregivers keep their own and several relatives' med lists in one place.",
+   "count": 5,
+   "ids": [
+    "a-6393",
+    "a-6522",
+    "a-6579",
+    "g-medisafe-178",
+    "g-medisafe-444"
+   ],
+   "quotes": [
+    {
+     "id": "a-6522",
+     "quote": "Literally a life saver when you have medicine to keep up with for several people in your household!"
+    },
+    {
+     "id": "g-medisafe-444",
+     "quote": "It allows me to keep up with each of their medication lists as it changes"
+    }
+   ]
+  },
+  {
+   "theme": "Seeing from afar that doses were taken",
+   "what_it_means": "As a linked \"Medfriend\", a relative can check doses or get an alert when one is late, instead of calling.",
+   "count": 4,
+   "ids": [
+    "a-6294",
+    "a-6394",
+    "a-6579",
+    "g-medisafe-142"
+   ],
+   "quotes": [
+    {
+     "id": "a-6294",
+     "quote": "It gives me peace of mind, to just glance at the app and see that they’ve taken their meds."
+    },
+    {
+     "id": "g-medisafe-142",
+     "quote": "also contacts me if she's over 30min late on confirming any dose so I can check in"
+    }
+   ]
+  },
+  {
+   "theme": "Detailed, customizable meds and reminders",
+   "what_it_means": "Pill shape, color, custom schedules and reminder options help people who don't know drug names.",
+   "count": 3,
+   "ids": [
+    "a-6154",
+    "g-medisafe-67",
+    "g-medisafe-79"
+   ],
+   "quotes": [
+    {
+     "id": "g-medisafe-79",
+     "quote": "This is such a help for my elderly Mom who only knows \"the big blue one\" when it comes to drug identification."
+    },
+    {
+     "id": "g-medisafe-67",
+     "quote": "I like that I can completely customize how the reminders work"
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "Hard for more than one caregiver to share the work",
+   "what_it_means": "Only some people can mark doses, setup for several caregivers is confusing, and there's no family view.",
+   "count": 4,
+   "ids": [
+    "a-6154",
+    "a-6248",
+    "g-medisafe-67",
+    "g-medisafe-196"
+   ],
+   "quotes": [
+    {
+     "id": "g-medisafe-67",
+     "quote": "I wish that my husband and I could BOTH have access to marking my son's medications."
+    },
+    {
+     "id": "g-medisafe-196",
+     "quote": "The downside is there is no family version."
+    }
+   ]
+  },
+  {
+   "theme": "Caregiver's view goes out of sync or loses meds",
+   "what_it_means": "Meds vanish from the helper's screen or taken doses don't show, so the caregiver can't trust it.",
+   "count": 3,
+   "ids": [
+    "a-6154",
+    "a-6250",
+    "a-6307"
+   ],
+   "quotes": [
+    {
+     "id": "a-6250",
+     "quote": "The meds list suddenly disappeared from the “friends” profile not allowing me to see if she take it or not"
+    },
+    {
+     "id": "a-6307",
+     "quote": "multiple medications of hers stopped showing up on my app, but not hers"
+    }
+   ]
+  },
+  {
+   "theme": "Can't tell which person a dose or refill belongs to",
+   "what_it_means": "The app doesn't show which caregiver gave a dose or which family member a refill is for.",
+   "count": 2,
+   "ids": [
+    "a-6248",
+    "g-medisafe-178"
+   ],
+   "quotes": [
+    {
+     "id": "a-6248",
+     "quote": "it is difficult to track exactly who administered a dose"
+    },
+    {
+     "id": "g-medisafe-178",
+     "quote": "When I click my reminder to refill I can't tell if it's mine or hers."
+    }
+   ]
+  },
+  {
+   "theme": "Alerts are unreliable or unwanted",
+   "what_it_means": "Missed-dose alerts come late or not at all, and reminders keep coming after a dose is marked.",
+   "count": 2,
+   "ids": [
+    "a-6154",
+    "a-6294"
+   ],
+   "quotes": [
+    {
+     "id": "a-6294",
+     "quote": "Sometimes it alerts at 45 minutes past the time, sometimes it alerts at 2 hours, but worse is when there’s no alert at all."
+    },
+    {
+     "id": "a-6154",
+     "quote": "Stop sending reminder notifications once the meds have been marked taken on any device."
+    }
+   ]
+  },
+  {
+   "theme": "Setup is challenging",
+   "what_it_means": "Setting up meds and linking caregivers took several tries.",
+   "count": 2,
+   "ids": [
+    "a-6154",
+    "a-6306"
+   ],
+   "quotes": [
+    {
+     "id": "a-6306",
+     "quote": "Setup though keeps challenging me."
+    },
+    {
+     "id": "a-6154",
+     "quote": "setting up multiple users/caretakers was not intuitive- it took us a few tries."
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [
+   {
+    "theme": "Adult children tracking a parent's meds",
+    "what_it_means": "The largest group is sons and daughters managing a parent's medications, often a parent with dementia.",
+    "count": 7,
+    "ids": [
+     "a-6183",
+     "a-6250",
+     "a-6394",
+     "a-6538",
+     "g-medisafe-79",
+     "g-medisafe-142",
+     "g-medisafe-444"
+    ],
+    "quotes": [
+     {
+      "id": "a-6183",
+      "quote": "I use it to track my mother’s medication. She has Alzheimer’s so it helps me to keep up."
+     },
+     {
+      "id": "a-6538",
+      "quote": "This app made our life much easier to take care of my dad’s medications."
+     }
+    ]
+   },
+   {
+    "theme": "Spouses managing a partner's meds",
+    "what_it_means": "Husbands and wives use it after surgery or illness to manage their partner's meds.",
+    "count": 5,
+    "ids": [
+     "a-6154",
+     "a-6303",
+     "a-6306",
+     "a-6307",
+     "a-6522"
+    ],
+    "quotes": [
+     {
+      "id": "a-6306",
+      "quote": "Best app I’ve found for scheduling my wife’s medication & getting reminders."
+     },
+     {
+      "id": "a-6307",
+      "quote": "My wife and I started using this app after a recent surgery to help track her medications."
+     }
+    ]
+   },
+   {
+    "theme": "Parents tracking a child's meds",
+    "what_it_means": "Parents use it for a child's medication.",
+    "count": 3,
+    "ids": [
+     "a-6171",
+     "g-medisafe-67",
+     "g-medisafe-178"
+    ],
+    "quotes": [
+     {
+      "id": "a-6171",
+      "quote": "My son recently had his tonsils removed, so this app has been amazing to track his medication."
+     },
+     {
+      "id": "g-medisafe-67",
+      "quote": "I wish that my husband and I could BOTH have access to marking my son's medications."
+     }
+    ]
+   }
+  ],
+  "relatives_joining_and_sharing": [
+   {
+    "theme": "Linking a relative as a \"Medfriend\" works for watching doses",
+    "what_it_means": "Relatives linked to the patient can see doses and get late-dose alerts.",
+    "count": 4,
+    "ids": [
+     "a-6248",
+     "a-6294",
+     "a-6394",
+     "g-medisafe-142"
+    ],
+    "quotes": [
+     {
+      "id": "a-6294",
+      "quote": "It is also great for me as their medifriend. I no longer have to call and nag them near as often."
+     },
+     {
+      "id": "a-6394",
+      "quote": "but we can at least see that she took it"
+     }
+    ]
+   },
+   {
+    "theme": "Sharing breaks down between linked caregivers",
+    "what_it_means": "Linked views go out of sync, only one person can mark doses, and more than two caregivers is hard.",
+    "count": 4,
+    "ids": [
+     "a-6154",
+     "a-6250",
+     "a-6307",
+     "g-medisafe-67"
+    ],
+    "quotes": [
+     {
+      "id": "a-6154",
+      "quote": "There’s a disconnect between taken status and notifications when using multiple devices/users, but we share caretaking responsibilities."
+     },
+     {
+      "id": "a-6307",
+      "quote": "I often have to switch between my profile and hers to show updates"
+     }
+    ]
+   }
+  ],
+  "cost_price_cancelling": [],
+  "emergencies_and_support_response": [],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "Setup is challenging",
+    "what_it_means": "Two caregivers found setup hard; one other found adding meds a snap.",
+    "count": 2,
+    "ids": [
+     "a-6154",
+     "a-6306"
+    ],
+    "quotes": [
+     {
+      "id": "a-6306",
+      "quote": "Good app, but setup can be challenging"
+     },
+     {
+      "id": "a-6154",
+      "quote": "setting up multiple users/caretakers was not intuitive- it took us a few tries."
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [],
+  "why_people_stop_or_stay": [
+   {
+    "theme": "Leaving because the caregiver side fails",
+    "what_it_means": "People quit when the caregiver can't see the meds or the app keeps locking up.",
+    "count": 2,
+    "ids": [
+     "a-6250",
+     "a-6356"
+    ],
+    "quotes": [
+     {
+      "id": "a-6250",
+      "quote": "So it wont work for what I need."
+     },
+     {
+      "id": "a-6356",
+      "quote": "I'm changing to an alternate app."
+     }
+    ]
+   },
+   {
+    "theme": "Fans recommend it to others",
+    "what_it_means": "Satisfied caregivers say they have recommended it widely.",
+    "count": 2,
+    "ids": [
+     "a-6579",
+     "g-medisafe-142"
+    ],
+    "quotes": [
+     {
+      "id": "a-6579",
+      "quote": "I’ve recommended it to more people than I know"
+     },
+     {
+      "id": "g-medisafe-142",
+      "quote": "an otherwise fantastic app that I've recommended to many others!!"
+     }
+    ]
+   }
+  ],
+  "what_people_use_instead_or_alongside": [
+   {
+    "theme": "Replaced phone alarms and check-in calls",
+    "what_it_means": "Before the app, caregivers relied on many alarms or calling to nag about doses.",
+    "count": 2,
+    "ids": [
+     "a-6294",
+     "g-medisafe-142"
+    ],
+    "quotes": [
+     {
+      "id": "g-medisafe-142",
+      "quote": "soooooo much better and more discreet than using 6+ daily alarms that she dismisses and forgets to actually take"
+     },
+     {
+      "id": "a-6294",
+      "quote": "I no longer have to call and nag them near as often."
+     }
+    ]
+   }
+  ]
+ },
+ "single_mentions": [
+  {
+   "id": "a-6154",
+   "point": "Pays for premium but still can't turn off unwanted notification types; wants to manage messages in the updates area"
+  },
+  {
+   "id": "a-6248",
+   "point": "Family chats still fill with confusion and duplicate questions about who gave a dose"
+  },
+  {
+   "id": "a-6356",
+   "point": "Contacted customer service about daily lock-ups with no result"
+  },
+  {
+   "id": "g-medisafe-196",
+   "point": "Wants to view, edit and print family members' meds from own phone for hospital or doctor visits; a previous app with that was discontinued"
+  },
+  {
+   "id": "a-6522",
+   "point": "Weekly calendar scroll jumps a week, which confused a husband with a brain tumor"
+  },
+  {
+   "id": "a-6171",
+   "point": "Temperature tracker only in Celsius"
+  },
+  {
+   "id": "a-6183",
+   "point": "Wants more options for notes"
+  },
+  {
+   "id": "a-6393",
+   "point": "Wants sync between iPad and iPhone"
+  },
+  {
+   "id": "a-6394",
+   "point": "Mother has trouble adjusting the time when she takes pills late; suggests a small celebration when all doses are done"
+  },
+  {
+   "id": "g-medisafe-142",
+   "point": "Trying to get reminders onto the mother's Fitbit when her phone isn't nearby"
+  },
+  {
+   "id": "g-medisafe-444",
+   "point": "Parents can add notes about dosage for the adult child; doctors' contacts stored too"
+  }
+ ],
+ "reader_notes": "Kept items are all app reviews (15 Apple, 6 Google). 9 prefiltered reviews were dropped as not caregiving because the writer was the patient tracking their own meds (some mention a spouse or daughter helping, e.g. a-6147, a-6208, g-medisafe-248, g-medisafe-52, g-medisafe-338). The one Reddit post is an ad for a rival app; it claims Medisafe moved to a subscription in 2026 and capped free users at 2 medications, which is not confirmed by any kept item. The AlzConnected item only says Medisafe is free and the writer will try it. No kept item speaks about privacy, emergencies, or price directly."
+}

@@ -1,0 +1,248 @@
+{
+  "company": "Medisafe",
+  "slug": "medisafe",
+  "built": "2026-11-04",
+  "method": "All saved company pages read in full; quotes copied exactly from the saved file (whitespace may differ where the saved text breaks lines).",
+  "pages_read": [
+    "docs/sources/competitors/medisafe/pages-2026-11-03/features.txt",
+    "docs/sources/competitors/medisafe/premium.html",
+    "docs/sources/competitors/medisafe/premium.txt",
+    "docs/sources/competitors/medisafe/pricing.html",
+    "docs/sources/competitors/medisafe/pricing.txt",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_.html",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_faq.html",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_faq.txt",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_medfriend.html",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_medfriend.txt",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_pricing.html",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_pricing.txt",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.html",
+    "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+    "docs/sources/competitors/app-store-listings/medisafe.json",
+    "docs/company-funding.md"
+  ],
+  "notes": "pricing.*, premium.*, www_medisafeapp_com_pricing.* and www_medisafeapp_com_medfriend.* are all 404 'Page not found' pages, so no subscription price was saved. The FAQ page's question list did not load ('Sorry, we couldn't find any posts').",
+  "business_model": {
+    "answer": "Free app with an optional paid subscription (price not on saved pages). The company also sells a patient-engagement platform to drug makers and providers, runs sponsored 'Programs', and may share de-identified aggregated data with partners on commercial terms. Last known round: $30 million Series C (2021).",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "If you purchase a paid subscription to the Service"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "The patient engagement engine for pharma portfolios"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "Medisafe may offer you, from time to time and at our sole discretion, participation in customized programs"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "may be disclosed to and utilized by us, our partners and by third parties without restriction, on commercial terms"
+      },
+      {
+        "file": "docs/company-funding.md",
+        "quote": "$30 million Series C"
+      }
+    ],
+    "not_stated": false
+  },
+  "who_uses_who_pays": {
+    "answer": "Patients and family members use it to track medications; some users pay for a subscription, and drug companies and providers are the platform's business customers. Exactly who funds what is not broken down on the pages.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "Track all your loved one’s medication, measurements and appointments in one place - even know when they miss a dose!"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "We may receive information about you from our partners, such as pharmaceutical companies and medical providers"
+      }
+    ],
+    "not_stated": false
+  },
+  "cost": {
+    "answer": "The app is free to download. A paid subscription exists and may be required in some countries, but no price is on the saved pages (the pricing pages were 404s).",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "Get Medisafe (Free)"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/medisafe.json",
+        "quote": "\"formattedPrice\":\"Free\""
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "The availability of certain features or the requirement for a paid subscription may vary based on your country or region."
+      }
+    ],
+    "not_stated": false
+  },
+  "how_they_differentiate": {
+    "answer": "They claim to be the number-one medication reminder (ranked first by pharmacists), handling complicated dosing with drug-interaction warnings, backed by security certifications.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "The #1 Medication Reminder App"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/medisafe.json",
+        "quote": "Pharmacists rank Medisafe #1 out of 461 apps they've tested"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "The fastest, most secure and accurate way to track all of your meds and measurements."
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "256-BIT Encryption | ISO 27001 Certified"
+      }
+    ],
+    "not_stated": false
+  },
+  "unique_value_proposition": {
+    "answer": "Never miss or double a dose, so you think less about medications and live more.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "Spend Less Time Thinking About Medications - and More Time Living"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/medisafe.json",
+        "quote": "Never forget to take your meds and pills again"
+      }
+    ],
+    "not_stated": false
+  },
+  "retain_customers": {
+    "answer": "Daily dose and refill reminders, missed-dose alerts to a Medfriend, and an in-app community keep people using it. In some places access is limited without an active subscription, and data is kept up to seven years after last use.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/app-store-listings/medisafe.json",
+        "quote": "Rx refill reminds you when you need to restock your prescriptions."
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "If your access to the Service is suspended or limited because you do not maintain an active subscription in certain jurisdictions"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "If you use the Medisafe Community feature available through the App"
+      }
+    ],
+    "not_stated": false
+  },
+  "customer_experience": {
+    "answer": "A help center with FAQs, email support, a US phone number, and a Facebook beta community. AI is used to personalize things like reminder timing.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_faq.txt",
+        "quote": "We're dedicated to helping in any way with your journey."
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "(888) 289-5236"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_faq.txt",
+        "quote": "Visit our Beta Community on Facebook"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "such as determining the best time to send medication reminders"
+      }
+    ],
+    "not_stated": false
+  },
+  "relatives_joining": {
+    "answer": "Yes. A user invites a family member or friend as a 'Medfriend' (gets missed-dose alerts) or 'Caregiver' (can also be allowed to edit their information). One account can also manage a whole family's medications, and doctors can be invited.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "you may send family members or friends an invitation to be your “Medfriend” or “Caregiver” by means of the Service"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "At your decision, your chosen Caregivers may also receive permissions to edit your information on the Services."
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/pages-2026-11-03/features.txt",
+        "quote": "Or use our Medfriend feature to know when a loved one missed a dose so you can give them a nudge."
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/medisafe.json",
+        "quote": "Manage your entire family from one account!"
+      }
+    ],
+    "not_stated": false
+  },
+  "privacy_data_consent": {
+    "answer": "They collect medications, prescriptions, insurance and pharmacy details, and may share personal information with research institutes, drug makers, health systems and providers. They say they are not bound by medical secrecy, keep data up to seven years, and let users delete the account in the app (permanent).",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "We may share your Personal Information with third parties, such as research institutes, pharmaceutical manufacturers, healthcare systems and healthcare providers."
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "Please note that we are not subject to medical secrecy obligations."
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "We will retain your Personal Information for up to seven (7) years from your last interaction with the Service"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "Please note that we will be unable to restore your data once this process has been completed."
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "HIPAA & GDPR Compliant"
+      }
+    ],
+    "not_stated": false
+  },
+  "emergencies": {
+    "answer": "No emergency service or support hours are stated. They warn that phone battery-saver and cleaner apps can silently stop reminders, and that the app gives no medical advice.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "While cleaning your device, these apps terminate Medisafe’s reminders and put your health at risk."
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/medisafe.json",
+        "quote": "Medisafe does not provide medical advice, diagnosis or treatment."
+      }
+    ],
+    "not_stated": false
+  },
+  "setup": {
+    "answer": "The user downloads the free app (iPhone, Android, or web portal) and adds medications; an account is optional but backs up data. US iPhone users can import medications from Health Records. iPhone app needs iOS 17 or later.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_privacy_policy.txt",
+        "quote": "While you may use some of the functionality of the Service without creating a profile or registration"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "How do I create an account to backup my data?"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/medisafe.json",
+        "quote": "easily import your meds and prescriptions using Health Records on iPhone from more than 100 hospitals and health systems in the US"
+      },
+      {
+        "file": "docs/sources/competitors/medisafe/www_medisafeapp_com_.txt",
+        "quote": "Web Portal Login"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/medisafe.json",
+        "quote": "\"minimumOsVersion\":\"17.0\""
+      }
+    ],
+    "not_stated": false
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "company": "Lotsa Helping Hands",
+  "slug": "lotsa",
+  "built": "2026-11-04",
+  "method": "All saved company pages read in full; quotes copied exactly from the saved file (whitespace may differ where the saved text breaks lines).",
+  "pages_read": [
+    "docs/sources/competitors/lotsa-helping-hands/helpcenter-home.html",
+    "docs/sources/competitors/lotsa-helping-hands/helpcenter-home.txt",
+    "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.html",
+    "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+    "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_about_.html",
+    "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_about_.txt",
+    "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_faq_.txt",
+    "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_features_.txt",
+    "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_privacy_policy_.txt",
+    "docs/sources/competitors/lotsa-helping-hands/pages-2026-11-03/announcements-topic.txt",
+    "docs/sources/competitors/lotsa-helping-hands/pages-2026-11-03/create-groups.txt",
+    "docs/sources/competitors/lotsa-helping-hands/terms.html",
+    "docs/sources/competitors/lotsa-helping-hands/terms.txt",
+    "docs/sources/competitors/app-store-listings/lotsa.json",
+    "docs/company-funding.md"
+  ],
+  "notes": "lotsahelpinghands_com_faq_, _features_ and _privacy_policy_ are 404 pages; terms.html/.txt is an old-site 'File Not Found' page whose footer and support box are still quoted below. No privacy policy text was saved.",
+  "business_model": {
+    "answer": "Free to use; the saved pages do not say how it makes money. Footer links on an old page mention Sponsor, LotsaHelp@Work, Lotsa Marketplace and Partners, and the About page hosts CancerCare's 'My Cancer Circle', which suggests partner and sponsor deals, but no terms are shown. No funding figure was found.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "The easiest (and free!) way to help those wishing to help others."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/terms.txt",
+        "quote": "Newsroom Partners Sponsor LotsaHelp@Work Lotsa Marketplace"
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_about_.txt",
+        "quote": "My Cancer Circle is a free, private community to help support caregivers of people facing cancer"
+      },
+      {
+        "file": "docs/company-funding.md",
+        "quote": "| Lotsa Helping Hands | family coordination | NOT FOUND |"
+      }
+    ],
+    "not_stated": false
+  },
+  "who_uses_who_pays": {
+    "answer": "Caregivers, friends and family, neighborhood volunteers and new parents use it; the pages say it is free and name no payer.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "You need help organizing care for a loved one or family member."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "You want to help people in your neighborhood."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "Get started for free"
+      }
+    ],
+    "not_stated": false
+  },
+  "cost": {
+    "answer": "Free; no prices shown. The app is free in the App Store.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "Get started for free"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/lotsa.json",
+        "quote": "\"formattedPrice\":\"Free\""
+      }
+    ],
+    "not_stated": false
+  },
+  "how_they_differentiate": {
+    "answer": "They claim to be the easiest free way to organize volunteer help (meals, rides, visits) for someone in need, by tapping the people who want to help but don't know how.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_about_.txt",
+        "quote": "We believe that people want to help, but often don't know how."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_about_.txt",
+        "quote": "We think that harnessing the strength of the community is the best way to come to the aid of caregivers and families in need."
+      }
+    ],
+    "not_stated": false
+  },
+  "unique_value_proposition": {
+    "answer": "A free central place to organize meals, rides and other help from friends and family for someone in need.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "A central place to coordinate meals and help for friends & family."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "We're here to help the helpers."
+      }
+    ],
+    "not_stated": false
+  },
+  "retain_customers": {
+    "answer": "No contracts, tiers or limits are stated. What keeps a group active is its shared calendar of tasks, announcements emailed to the team, well wishes and a photo gallery.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "Schedule and sign up for tasks such as meal delivery and rides to appointments."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "Drop a line to say hello or offer support to the family."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/pages-2026-11-03/announcements-topic.txt",
+        "quote": "How do I email the entire community?"
+      }
+    ],
+    "not_stated": false
+  },
+  "customer_experience": {
+    "answer": "A small self-serve knowledge base split into member and administrator questions, plus contact emails. An old-site page claims a round-the-clock member support team and live chat, but that text sits on a 'File Not Found' page.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/helpcenter-home.txt",
+        "quote": "Common questions and support documentation"
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/helpcenter-home.txt",
+        "quote": "Want to Speak With the Lotsa Helping Hands Member Support Team"
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_about_.txt",
+        "quote": "Contact us at info@lotsahelpinghands.com"
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/terms.txt",
+        "quote": "Our Member Support Team is available to help you round the clock."
+      }
+    ],
+    "not_stated": false
+  },
+  "relatives_joining": {
+    "answer": "Yes. The organizer creates a community and invites family, friends, neighbors and colleagues, who join with their own login; site admins assign roles and can make private groups (for example 'Family') that only they can add people to.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/app-store-listings/lotsa.json",
+        "quote": "2. Invite family, friends, neighbors & colleagues to help with your Community."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/helpcenter-home.txt",
+        "quote": "Adding Members, Creating Groups, and Assigning Roles"
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/pages-2026-11-03/create-groups.txt",
+        "quote": "Groups can be private, which means only Site Admins can add people to them"
+      }
+    ],
+    "not_stated": false
+  },
+  "privacy_data_consent": {
+    "answer": "Only partly stated: admins can limit announcements, tasks and notes to chosen groups. Health-data handling, removal of a person and data deletion are not on the saved pages (the privacy policy page saved as a 404).",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/pages-2026-11-03/create-groups.txt",
+        "quote": "announcement posts, tasks, and/or notes are only emailed to and are only visible to the groups you select."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_privacy_policy_.txt",
+        "quote": "The page you are looking for doesn't exist or has been moved."
+      }
+    ],
+    "not_stated": false
+  },
+  "emergencies": {
+    "answer": "Not stated on its saved pages",
+    "evidence": [],
+    "not_stated": true
+  },
+  "setup": {
+    "answer": "The organizer creates a community (care team), invites people and posts tasks; helpers join an existing team. Web plus an iPhone/Android app (iPhone app needs iOS 15.1 or later).",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/app-store-listings/lotsa.json",
+        "quote": "1. Create a Lotsa Community."
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/lotsa.json",
+        "quote": "3. Add tasks to the feed, such as meal deliveries, so friends can volunteer."
+      },
+      {
+        "file": "docs/sources/competitors/lotsa-helping-hands/lotsahelpinghands_com_.txt",
+        "quote": "Coordinate help, volunteer for tasks, and communicate updates on the go."
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/lotsa.json",
+        "quote": "\"minimumOsVersion\":\"15.1\""
+      }
+    ],
+    "not_stated": false
+  }
+}

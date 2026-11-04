@@ -1,0 +1,708 @@
+{
+ "competitor": "Caring Village",
+ "items_in_pack": 32,
+ "items_kept": 29,
+ "dropped": {
+  "not caregiving": 0,
+  "says nothing about the product": 3,
+  "app maker / ad": 0
+ },
+ "kept_ids": [
+  "a-1349",
+  "a-1350",
+  "a-1351",
+  "a-1355",
+  "a-1356",
+  "a-1358",
+  "a-1360",
+  "a-1361",
+  "a-1362",
+  "a-1365",
+  "a-1370",
+  "a-1371",
+  "a-1372",
+  "a-1373",
+  "a-1379",
+  "a-1387",
+  "a-1388",
+  "a-1390",
+  "a-1391",
+  "a-1393",
+  "a-1396",
+  "a-1397",
+  "a-1399",
+  "g-caring-village-0",
+  "g-caring-village-2",
+  "g-caring-village-5",
+  "g-caring-village-10",
+  "g-caring-village-28",
+  "g-caring-village-31"
+ ],
+ "works_well": [
+  {
+   "theme": "Keeps the whole family updated and on the same page",
+   "what_it_means": "Family members say shared updates, notes and journal entries keep everyone informed about the loved one.",
+   "count": 10,
+   "ids": [
+    "a-1349",
+    "a-1350",
+    "a-1351",
+    "a-1356",
+    "a-1362",
+    "a-1370",
+    "a-1371",
+    "a-1387",
+    "a-1388",
+    "g-caring-village-31"
+   ],
+   "quotes": [
+    {
+     "id": "a-1350",
+     "quote": "Caring Village makes it easy to stay organized and keep everyone on the same page."
+    },
+    {
+     "id": "a-1351",
+     "quote": "The journal feature allows each of us to capture with our visits or calls with our parents to share with the family current health issues"
+    }
+   ]
+  },
+  {
+   "theme": "Everything about the loved one's care in one place",
+   "what_it_means": "People value having appointments, meds, updates and messages together instead of scattered.",
+   "count": 8,
+   "ids": [
+    "a-1349",
+    "a-1355",
+    "a-1358",
+    "a-1361",
+    "a-1362",
+    "a-1370",
+    "a-1372",
+    "g-caring-village-2"
+   ],
+   "quotes": [
+    {
+     "id": "a-1358",
+     "quote": "It is so convenient to have everything we need in one place."
+    },
+    {
+     "id": "a-1349",
+     "quote": "Everything is in one place—appointments, updates, and communication—so nothing gets missed."
+    }
+   ]
+  },
+  {
+   "theme": "Simple and easy to use",
+   "what_it_means": "Reviewers describe the app as simple, intuitive and easy across phone, tablet and laptop.",
+   "count": 7,
+   "ids": [
+    "a-1350",
+    "a-1351",
+    "a-1370",
+    "a-1371",
+    "a-1373",
+    "g-caring-village-2",
+    "g-caring-village-10"
+   ],
+   "quotes": [
+    {
+     "id": "a-1351",
+     "quote": "so simple to use on your laptop, iPad or phone"
+    },
+    {
+     "id": "a-1371",
+     "quote": "The app is great -- easy to use, and it clearly was built to do the things we need the most."
+    }
+   ]
+  },
+  {
+   "theme": "Shared calendar for appointments, schedules and tasks",
+   "what_it_means": "Families use the calendar to track appointments and decide who attends or covers a task.",
+   "count": 6,
+   "ids": [
+    "a-1350",
+    "a-1351",
+    "a-1355",
+    "a-1387",
+    "a-1396",
+    "g-caring-village-2"
+   ],
+   "quotes": [
+    {
+     "id": "a-1351",
+     "quote": "We also use the Calendar feature to track appointments so that one of us can join them in person or on a call"
+    },
+    {
+     "id": "a-1355",
+     "quote": "Having a shared calendar to coordinate tasks gave structure to days that felt overwhelming"
+    }
+   ]
+  },
+  {
+   "theme": "Medication lists and reminders",
+   "what_it_means": "Caregivers say the medication section takes one more thing off their mind.",
+   "count": 6,
+   "ids": [
+    "a-1355",
+    "a-1362",
+    "a-1370",
+    "a-1372",
+    "a-1396",
+    "g-caring-village-2"
+   ],
+   "quotes": [
+    {
+     "id": "a-1355",
+     "quote": "The medication management section alone was a godsend — one less thing to keep in my head"
+    },
+    {
+     "id": "a-1372",
+     "quote": "Reminders for meds, area for tasks and to dos that can be delegated to others"
+    }
+   ]
+  },
+  {
+   "theme": "Less stress and more peace of mind",
+   "what_it_means": "Reviewers say the app lowered their stress and made them feel less alone.",
+   "count": 5,
+   "ids": [
+    "a-1349",
+    "a-1350",
+    "a-1355",
+    "a-1356",
+    "a-1370"
+   ],
+   "quotes": [
+    {
+     "id": "a-1355",
+     "quote": "It dramatically lowered my stress and allowed me to be more present with my mom"
+    },
+    {
+     "id": "a-1350",
+     "quote": "It really relieves the stress from caregiving."
+    }
+   ]
+  },
+  {
+   "theme": "Handing out tasks and asking others for help",
+   "what_it_means": "The app makes it easier to split responsibilities and ask relatives or staff to cover tasks.",
+   "count": 4,
+   "ids": [
+    "a-1356",
+    "a-1365",
+    "a-1372",
+    "a-1387"
+   ],
+   "quotes": [
+    {
+     "id": "a-1356",
+     "quote": "It also makes asking for help so much easier."
+    },
+    {
+     "id": "a-1387",
+     "quote": "Also able to assign staff to tasks and ask for volunteer from family at times there is no staff in the home"
+    }
+   ]
+  },
+  {
+   "theme": "Group messaging and chat",
+   "what_it_means": "Messaging several people at once or privately is named as a strong point.",
+   "count": 4,
+   "ids": [
+    "a-1387",
+    "a-1393",
+    "a-1396",
+    "a-1397"
+   ],
+   "quotes": [
+    {
+     "id": "a-1397",
+     "quote": "The chat feature is outstanding!"
+    },
+    {
+     "id": "a-1387",
+     "quote": "-ability to message multiple people at once"
+    }
+   ]
+  },
+  {
+   "theme": "Less back-and-forth than texting",
+   "what_it_means": "Reviewers compare it favorably to texting and say it cuts down repeated messages.",
+   "count": 3,
+   "ids": [
+    "a-1351",
+    "a-1373",
+    "g-caring-village-2"
+   ],
+   "quotes": [
+    {
+     "id": "a-1351",
+     "quote": "It’s so much better than just texting each other."
+    },
+    {
+     "id": "a-1373",
+     "quote": "this eliminates so much back and forth"
+    }
+   ]
+  },
+  {
+   "theme": "Storing medical documents and doctor details",
+   "what_it_means": "Families upload documents and keep doctor information where everyone can find it.",
+   "count": 3,
+   "ids": [
+    "a-1351",
+    "a-1360",
+    "a-1391"
+   ],
+   "quotes": [
+    {
+     "id": "a-1351",
+     "quote": "The ability to upload documents and maintain all the information on each of their various Drs makes it really easy for us to coordinate."
+    },
+    {
+     "id": "a-1360",
+     "quote": "It was helpful managing her medical documentation as well."
+    }
+   ]
+  },
+  {
+   "theme": "Support team answers quickly",
+   "what_it_means": "Several reviewers say the support team was responsive and helpful.",
+   "count": 3,
+   "ids": [
+    "a-1351",
+    "a-1372",
+    "a-1387"
+   ],
+   "quotes": [
+    {
+     "id": "a-1372",
+     "quote": "Oh and the support team is very helpful and efficient."
+    },
+    {
+     "id": "a-1387",
+     "quote": "-support is quick to respond and helpful."
+    }
+   ]
+  },
+  {
+   "theme": "New AI question feature",
+   "what_it_means": "Two recent reviewers praise being able to ask the app questions about care.",
+   "count": 2,
+   "ids": [
+    "a-1372",
+    "a-1373"
+   ],
+   "quotes": [
+    {
+     "id": "a-1373",
+     "quote": "The new AI feature is a game changer!"
+    },
+    {
+     "id": "a-1372",
+     "quote": "even an AI capability to ask pertinent questions regarding care"
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "Care plan resets each day or is too rigid",
+   "what_it_means": "The daily care plan disappears or must be reset by hand, and can't handle things done several times a day.",
+   "count": 3,
+   "ids": [
+    "a-1387",
+    "g-caring-village-0",
+    "g-caring-village-5"
+   ],
+   "quotes": [
+    {
+     "id": "g-caring-village-0",
+     "quote": "I am having to reset and mark every event back to \"no\" at the beginning of each day."
+    },
+    {
+     "id": "g-caring-village-5",
+     "quote": "The care plan is so rigid and doesn't allow for things that happen multiple times a day like PT."
+    }
+   ]
+  },
+  {
+   "theme": "Bugs and lost or wrong entries",
+   "what_it_means": "Reviewers report bugs, duplicated medications, and past notes they can no longer find.",
+   "count": 3,
+   "ids": [
+    "a-1379",
+    "g-caring-village-5",
+    "g-caring-village-31"
+   ],
+   "quotes": [
+    {
+     "id": "a-1379",
+     "quote": "I can’t find any past the last 10 entries. Where do they go?"
+    },
+    {
+     "id": "g-caring-village-5",
+     "quote": "The app is super buggy and not user friendly."
+    }
+   ]
+  },
+  {
+   "theme": "\"Friends\" can see private medical details",
+   "what_it_means": "Outer-circle members can see almost everything, so families hold back documents or remove relatives.",
+   "count": 2,
+   "ids": [
+    "a-1387",
+    "a-1391"
+   ],
+   "quotes": [
+    {
+     "id": "a-1391",
+     "quote": "I was going to upload my dad’s medical cards, Medicare Card, etc, but realized friends and inner circle can see them as well."
+    },
+    {
+     "id": "a-1387",
+     "quote": "friends can see most of what the inner circle sees. This poses a privacy issue"
+    }
+   ]
+  },
+  {
+   "theme": "Medication tracking doesn't show who gave what",
+   "what_it_means": "Caregivers want a clear shared log of who gave a dose and when, and say the med flow is clumsy.",
+   "count": 2,
+   "ids": [
+    "g-caring-village-0",
+    "g-caring-village-5"
+   ],
+   "quotes": [
+    {
+     "id": "g-caring-village-0",
+     "quote": "I want a clear function to mark what time and who gave medication."
+    },
+    {
+     "id": "g-caring-village-5",
+     "quote": "In particular, the medication process was awful."
+    }
+   ]
+  },
+  {
+   "theme": "Calendar limits for recurring and shared events",
+   "what_it_means": "Recurring events can't be claimed by more than one person, and one reviewer saw dates shifted by a day.",
+   "count": 2,
+   "ids": [
+    "a-1390",
+    "g-caring-village-5"
+   ],
+   "quotes": [
+    {
+     "id": "a-1390",
+     "quote": "while you can have repeating events you can’t have more than one person sign up"
+    },
+    {
+     "id": "g-caring-village-5",
+     "quote": "The calendar was one day off."
+    }
+   ]
+  },
+  {
+   "theme": "Old records can't be kept or found",
+   "what_it_means": "Closed cases can't be archived and older entries or care plans vanish.",
+   "count": 2,
+   "ids": [
+    "a-1379",
+    "a-1387"
+   ],
+   "quotes": [
+    {
+     "id": "a-1387",
+     "quote": "-inability to archive closed cases for future reference. They can only be deleted"
+    },
+    {
+     "id": "a-1379",
+     "quote": "How is this helping me keep track of what her doctors have done?"
+    }
+   ]
+  },
+  {
+   "theme": "Hard to get everyone into the group",
+   "what_it_means": "Invites rely on email and the free group is capped at five people.",
+   "count": 2,
+   "ids": [
+    "a-1388",
+    "g-caring-village-5"
+   ],
+   "quotes": [
+    {
+     "id": "a-1388",
+     "quote": "One family member has issues using email so hasn’t joined the village."
+    },
+    {
+     "id": "g-caring-village-5",
+     "quote": "Also the limits to the village (only 5 people) is a real deterrent."
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [
+   {
+    "theme": "Groups of adult siblings caring for a parent",
+    "what_it_means": "Many reviewers are sets of siblings (3 to 8) sharing care of a parent.",
+    "count": 4,
+    "ids": [
+     "a-1351",
+     "a-1371",
+     "a-1391",
+     "g-caring-village-28"
+    ],
+    "quotes": [
+     {
+      "id": "g-caring-village-28",
+      "quote": "very helpful for me and my 6 siblings while carrying for our 90 yo mother"
+     },
+     {
+      "id": "a-1391",
+      "quote": "It’s perfect for us 5 siblings to coordinate care for our dad."
+     }
+    ]
+   },
+   {
+    "theme": "Paid helpers use it alongside family",
+    "what_it_means": "A care manager and a hired caregiver also work inside the family's group.",
+    "count": 2,
+    "ids": [
+     "a-1355",
+     "a-1387"
+    ],
+    "quotes": [
+     {
+      "id": "a-1387",
+      "quote": "I am a geriatric care manager and I discovered this app when I was trying to juggle communication among 30+ family members"
+     },
+     {
+      "id": "a-1355",
+      "quote": "being able to communicate with the caregiver we hired in the later months — all in one place — made an enormous difference"
+     }
+    ]
+   }
+  ],
+  "relatives_joining_and_sharing": [
+   {
+    "theme": "Big families join and share in one group",
+    "what_it_means": "Groups of siblings, cousins, and even 30+ relatives are invited into one shared space.",
+    "count": 5,
+    "ids": [
+     "a-1351",
+     "a-1371",
+     "a-1387",
+     "a-1391",
+     "g-caring-village-28"
+    ],
+    "quotes": [
+     {
+      "id": "a-1351",
+      "quote": "We set up Caring Village for my family of 8 siblings to help monitor and manage our parent’s health."
+     },
+     {
+      "id": "a-1371",
+      "quote": "for me and my 2 brothers to stay connected"
+     }
+    ]
+   },
+   {
+    "theme": "Limits on who can join and what they see",
+    "what_it_means": "Email-only invites, a five-person cap, and all-or-nothing visibility stop some relatives joining.",
+    "count": 4,
+    "ids": [
+     "a-1387",
+     "a-1388",
+     "a-1391",
+     "g-caring-village-5"
+    ],
+    "quotes": [
+     {
+      "id": "a-1391",
+      "quote": "Therefore, the cousins we invited had to be cancelled or revoked."
+     },
+     {
+      "id": "a-1388",
+      "quote": "I would suggest a new method to invite people to join."
+     }
+    ]
+   }
+  ],
+  "cost_price_cancelling": [],
+  "emergencies_and_support_response": [
+   {
+    "theme": "Support team answers quickly",
+    "what_it_means": "Support is described as responsive, though one request to pass on suggestions got no reply.",
+    "count": 3,
+    "ids": [
+     "a-1351",
+     "a-1372",
+     "a-1387"
+    ],
+    "quotes": [
+     {
+      "id": "a-1351",
+      "quote": "the team at Caring Village, particularly Linda, has been amazingly responsive"
+     },
+     {
+      "id": "a-1387",
+      "quote": "However when I asked to whom I could direct my recommendations to I got no response."
+     }
+    ]
+   }
+  ],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "Simple and easy to use",
+    "what_it_means": "Most reviewers call it easy; one recent reviewer calls it buggy and not user friendly.",
+    "count": 7,
+    "ids": [
+     "a-1350",
+     "a-1351",
+     "a-1370",
+     "a-1371",
+     "a-1373",
+     "g-caring-village-2",
+     "g-caring-village-10"
+    ],
+    "quotes": [
+     {
+      "id": "g-caring-village-2",
+      "quote": "It's intuitive to use and has helped reduce so much back and forth communication."
+     },
+     {
+      "id": "a-1370",
+      "quote": "The layout is simple, the tools are practical"
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [
+   {
+    "theme": "\"Friends\" can see private medical details",
+    "what_it_means": "Families want to choose which groups see medical documents; today outer members see almost everything.",
+    "count": 2,
+    "ids": [
+     "a-1387",
+     "a-1391"
+    ],
+    "quotes": [
+     {
+      "id": "a-1391",
+      "quote": "There’s absolutely no need for anyone else to see private documents."
+     },
+     {
+      "id": "a-1387",
+      "quote": "I have had to minimize information shared and can’t fully use the app in one of my cases"
+     }
+    ]
+   }
+  ],
+  "why_people_stop_or_stay": [
+   {
+    "theme": "Long, daily use by families who stay",
+    "what_it_means": "Reviewers report using it daily or for a year or more.",
+    "count": 5,
+    "ids": [
+     "a-1358",
+     "a-1379",
+     "a-1388",
+     "a-1399",
+     "g-caring-village-31"
+    ],
+    "quotes": [
+     {
+      "id": "a-1399",
+      "quote": "I use this every day many times a day."
+     },
+     {
+      "id": "a-1388",
+      "quote": "We have been using this for over a year with no issues"
+     }
+    ]
+   },
+   {
+    "theme": "Use ends when the loved one dies",
+    "what_it_means": "Active use stopped when a parent passed or care ended, and one family returned for the other parent.",
+    "count": 2,
+    "ids": [
+     "a-1360",
+     "a-1371"
+    ],
+    "quotes": [
+     {
+      "id": "a-1360",
+      "quote": "I never got to use all of its vast capabilities with mom passing so fast"
+     },
+     {
+      "id": "a-1371",
+      "quote": "A couple years later we are now caring for our mom, and so we immediately knew where to go."
+     }
+    ]
+   }
+  ],
+  "what_people_use_instead_or_alongside": [
+   {
+    "theme": "Used in place of texting and back-and-forth",
+    "what_it_means": "Reviewers say it replaced group texting and repeated messages.",
+    "count": 3,
+    "ids": [
+     "a-1351",
+     "a-1373",
+     "g-caring-village-2"
+    ],
+    "quotes": [
+     {
+      "id": "a-1351",
+      "quote": "It’s so much better than just texting each other."
+     },
+     {
+      "id": "g-caring-village-2",
+      "quote": "has helped reduce so much back and forth communication"
+     }
+    ]
+   }
+  ]
+ },
+ "single_mentions": [
+  {
+   "id": "g-caring-village-5",
+   "point": "Free group is 5 people; a bigger group costs $25 a month, and $15 already felt overpriced"
+  },
+  {
+   "id": "g-caring-village-5",
+   "point": "Can't skip a dose, and the mother using it was confused about how to see her next dose"
+  },
+  {
+   "id": "a-1390",
+   "point": "Wants to print the calendar for the elderly family member, and keep pending volunteer requests on the dashboard"
+  },
+  {
+   "id": "a-1387",
+   "point": "Email notifications only link to the site, not the item, so finding updates takes extra time"
+  },
+  {
+   "id": "a-1387",
+   "point": "Messages can't be taken back or edited"
+  },
+  {
+   "id": "a-1362",
+   "point": "Useful place to learn about outside caregiving resources"
+  },
+  {
+   "id": "g-caring-village-10",
+   "point": "Likes signing in with Google; new version is an upgrade"
+  },
+  {
+   "id": "a-1358",
+   "point": "Used for a special needs grandson; says it has saved the family numerous times"
+  },
+  {
+   "id": "a-1371",
+   "point": "The family has to play quarterback across doctors, hospitals and patient portals; the app helps with that"
+  }
+ ],
+ "reader_notes": "All 29 kept items are app reviews (23 Apple, 6 Google); none of the 3 Reddit posts described actually using it. 13 of the 29 are 5-star Apple reviews posted between Sept 2025 and Apr 2026 with similar upbeat wording, which may reflect prompted reviews. Most detailed complaints are old (2019-2020: a-1387, a-1388, a-1390, a-1391, g-0), so some may be fixed; the only recent critical review is g-caring-village-5 (Jan 2026). a-1361 praises the idea but says they did not use it while caregiving. Price evidence comes from one reviewer."
+}

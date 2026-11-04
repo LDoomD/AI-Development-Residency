@@ -1,0 +1,252 @@
+{
+  "company": "CaringBridge",
+  "slug": "caringbridge",
+  "built": "2026-11-04",
+  "method": "All saved company pages read in full; quotes copied exactly from the saved file (whitespace may differ where the saved text breaks lines).",
+  "pages_read": [
+    "docs/sources/competitors/caringbridge/help-center-2026-11-03/README.md",
+    "docs/sources/competitors/caringbridge/help-center-2026-11-03/create-a-request.txt",
+    "docs/sources/competitors/caringbridge/help-center-2026-11-03/help-home.txt",
+    "docs/sources/competitors/caringbridge/help-center-2026-11-03/meal-train.txt",
+    "docs/sources/competitors/caringbridge/help-center-2026-11-03/page-settings-topic.txt",
+    "docs/sources/competitors/caringbridge/help-center-2026-11-03/planner-retired-requests.txt",
+    "docs/sources/competitors/caringbridge/help-center-2026-11-03/privacy-settings.txt",
+    "docs/sources/competitors/caringbridge/help-center-2026-11-03/ways-to-help-topic.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_about.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_about.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_about_faq.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_about_faq.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_about_our_impact.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_about_our_impact.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_about_us.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_about_us.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_donate.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_donate.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_features.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_features.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_how_it_works.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_how_it_works.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_support.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_support.txt",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_terms_of_use.html",
+    "docs/sources/competitors/caringbridge/www_caringbridge_org_terms_of_use.txt",
+    "docs/sources/competitors/app-store-listings/caringbridge.json",
+    "docs/company-funding.md"
+  ],
+  "notes": "The saved .html files are script-rendered shells; their readable text is in the matching .txt files. about, about_faq, about_our_impact, features, how_it_works, privacy, support and terms_of_use came back empty (no text). The home page says 'ad-free' while the privacy policy describes ad-targeting cookies and sharing data for targeted advertising.",
+  "business_model": {
+    "answer": "A donor-supported 501(c)(3) nonprofit; the service is free. It asks users for donations, tribute gifts and planned gifts, and links out to partners (GoFundMe, Meal Train, Instacart, gift cards) for families' own needs. Its privacy policy also lists advertising and marketing as a use of data. Annual revenue was about $10.6 million (FY2025), 97% contributions.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "A donor-supported nonprofit founded in 1997"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_donate.txt",
+        "quote": "would you consider giving a gift to help CaringBridge stay"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "Solicit your financial support for the CaringBridge mission;"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "Engage in advertising and marketing."
+      },
+      {
+        "file": "docs/company-funding.md",
+        "quote": "annual revenue | $10,634,739"
+      }
+    ],
+    "not_stated": false
+  },
+  "who_uses_who_pays": {
+    "answer": "Patients and family caregivers create a page; friends and family read, comment and help. Nobody pays to use it; donors (often those same users and readers) fund it.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_donate.txt",
+        "quote": "So many people benefit from CaringBridge—the authors who post, the family and"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_about_us.txt",
+        "quote": "we pride ourselves on being responsible stewards of the generous donor dollars that make our work possible."
+      }
+    ],
+    "not_stated": false
+  },
+  "cost": {
+    "answer": "Free. No prices are shown; the app is free in the App Store.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "CaringBridge is a no-cost, 501(c)(3) nonprofit health platform"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "as a free online service"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/caringbridge.json",
+        "quote": "\"formattedPrice\":\"Free\""
+      }
+    ],
+    "not_stated": false
+  },
+  "how_they_differentiate": {
+    "answer": "They claim to be the established nonprofit built only for health journeys: private, ad-free, never selling personal data, around since 1997, which they say only a nonprofit can offer.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/app-store-listings/caringbridge.json",
+        "quote": "A trusted, private, and ad-free space that only a nonprofit like CaringBridge can provide"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "CaringBridge is an established nonprofit helping to build bridges of care through our communication platform specifically for sharing health journeys."
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "Customize your settings to make your updates private or public. Your personal data is never sold."
+      }
+    ],
+    "not_stated": false
+  },
+  "unique_value_proposition": {
+    "answer": "Update everyone at once about a loved one's health and gather support, so no one goes through a health journey alone.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "Communicate to everyone all at once in a safe and private space, relieving the burden of individually updating people."
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_about_us.txt",
+        "quote": "a world where no one goes through a health journey alone."
+      }
+    ],
+    "not_stated": false
+  },
+  "retain_customers": {
+    "answer": "No subscription or contract. People keep coming back for the community: comments and messages of support, notifications when a page updates, help requests that get matched, and journaling; they report people feel less alone after six months of use.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "of CaringBridge users receive a matched offer of support within 24 hours of their request"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "messages of love, hope, and support are posted every hour"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "to notify you about updates to Individual Pages or content"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_about_us.txt",
+        "quote": "4x improvement of feeling less alone after using CaringBridge for more than 6 months"
+      }
+    ],
+    "not_stated": false
+  },
+  "customer_experience": {
+    "answer": "A self-serve help center (getting started, login help, FAQs, video tutorials), customer care staff, and an online chat with a virtual or live agent. A journaling guide and podcast support the emotional side.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/help-center-2026-11-03/help-home.txt",
+        "quote": "Getting Started / Login Help / FAQs / Ways To Help / Mobile Apps / Donations"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "When you participate in an interactive chat, either with a virtual or live agent, the contents of the chat may be captured and kept as a transcript."
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "contact our customer care personnel"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "The Caregiver’s Companion Journaling Guide offers writing prompts for someone on a health journey."
+      }
+    ],
+    "not_stated": false
+  },
+  "relatives_joining": {
+    "answer": "Yes. The page Author can invite Co-Authors who help run the page; readers sign in with their own accounts. On a Private page only people on the Approved Visitors List can view it, and the Author can remove a Co-Author or block someone.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/help-center-2026-11-03/create-a-request.txt",
+        "quote": "As the Author or Co-Author of a CaringBridge, you can create Requests"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/help-center-2026-11-03/page-settings-topic.txt",
+        "quote": "How do I invite a Co-Author?"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/help-center-2026-11-03/privacy-settings.txt",
+        "quote": "Private - Only people you add to the Approved Visitors List can view your page."
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/help-center-2026-11-03/page-settings-topic.txt",
+        "quote": "How do I block or remove someone from viewing my page?"
+      }
+    ],
+    "not_stated": false
+  },
+  "privacy_data_consent": {
+    "answer": "The page creator picks Public, Semi-Private (the default: any signed-in user can see) or Private. Health details are collected only if users post them; CaringBridge says it does not sell health data but shares some data for targeted advertising, which state laws may count as a sale. Pages are deleted by emailing them and full deletion can take up to 90 days.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/help-center-2026-11-03/privacy-settings.txt",
+        "quote": "Semi-Private - All signed in users may see and respond to what you share."
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/help-center-2026-11-03/privacy-settings.txt",
+        "quote": "TIP: This is our most common privacy setting and is set as the default for new sites."
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "We do not sell Consumer Health Data."
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "some of the ways in which we share personal information for targeted advertising may be considered “sales”"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "It may take up to 90 days to delete all the activity on an account or an Individual Page."
+      }
+    ],
+    "not_stated": false
+  },
+  "emergencies": {
+    "answer": "Not stated on its saved pages",
+    "evidence": [],
+    "not_stated": true
+  },
+  "setup": {
+    "answer": "The patient or a caregiver creates a page on the website or in the app, signing up with email or a Google or Apple account, then sets privacy. Users must be 18 or older; the iPhone app needs iOS 18 or later.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_.txt",
+        "quote": "Create a CaringBridge Page"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "If you register for or sign into our Service using a third-party account (such as your Google, Apple, or social media account)"
+      },
+      {
+        "file": "docs/sources/competitors/caringbridge/www_caringbridge_org_privacy_policy.txt",
+        "quote": "CaringBridge does not permit children under the age of 18 to register as users"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/caringbridge.json",
+        "quote": "\"minimumOsVersion\":\"18.0\""
+      }
+    ],
+    "not_stated": false
+  }
+}

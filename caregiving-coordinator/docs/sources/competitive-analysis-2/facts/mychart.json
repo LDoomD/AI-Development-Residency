@@ -1,0 +1,176 @@
+{
+  "company": "Epic MyChart",
+  "slug": "mychart",
+  "built": "2026-11-04",
+  "method": "All saved company pages read in full; quotes copied exactly from the saved file (whitespace may differ where the saved text breaks lines).",
+  "pages_read": [
+    "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+    "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+    "docs/company-funding.md"
+  ],
+  "notes": "Only the mychart.org home page is saved. Several quotes come from help-menu text embedded in the saved .html (not shown in the .txt). The privacy policy is a link to epic.com and was not saved. No App Store listing is saved.",
+  "business_model": {
+    "answer": "Not stated directly. The page says MyChart is licensed from Epic Systems and that patients reach it through their own healthcare organization; no prices are shown. Epic as a whole reported about $5.7 billion revenue (FY2024, via a spokesperson).",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "MyChart licensed from Epic Systems Corporation © 1999–2026"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "What is your healthcare organization's name?"
+      },
+      {
+        "file": "docs/company-funding.md",
+        "quote": "annual revenue | $5.7 billion"
+      }
+    ],
+    "not_stated": false
+  },
+  "who_uses_who_pays": {
+    "answer": "Patients use it for themselves and their family; accounts come through the patient's healthcare organization. Who pays is not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Manage care for you and your family"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Find your MyChart"
+      }
+    ],
+    "not_stated": false
+  },
+  "cost": {
+    "answer": "Not stated on its saved pages",
+    "evidence": [],
+    "not_stated": true
+  },
+  "how_they_differentiate": {
+    "answer": "They claim scale (over 190 million patients) and one login that pulls care together even across several healthcare organizations.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Empowering over 190 million patients worldwide"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Use one login for all your care"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "even if you've been seen at multiple healthcare organizations."
+      }
+    ],
+    "not_stated": false
+  },
+  "unique_value_proposition": {
+    "answer": "See and manage all your medical information and care in one place.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "MyChart lets you see your medications, test results, upcoming appointments, medical bills, price estimates, and more all in one place"
+      }
+    ],
+    "not_stated": false
+  },
+  "retain_customers": {
+    "answer": "Not stated on its saved pages. The page lists everyday uses (results, scheduling, virtual visits) but no terms, tiers or retention features.",
+    "evidence": [],
+    "not_stated": true
+  },
+  "customer_experience": {
+    "answer": "Help is split: questions about care or your record go to your healthcare provider's office; technical questions go to Epic by email; there are help pages, scam warnings and a community training hub.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "Please reach out to your healthcare provider's office for help or to share feedback on your care."
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "For other questions, you can contact Epic at"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Learn how to spot MyChart scams and protect your account from fraud."
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Community training hub"
+      }
+    ],
+    "not_stated": false
+  },
+  "relatives_joining": {
+    "answer": "Yes, through 'proxy access' to someone else's chart, which is handled by the patient's healthcare organization; the saved page links to it but does not give the steps or forms.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "Accessing someone else's chart (proxy access)"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "Get or give proxy access"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Manage care for you and your family"
+      }
+    ],
+    "not_stated": false
+  },
+  "privacy_data_consent": {
+    "answer": "Barely covered on the saved page: two-factor login, scam warnings, and account deletion or deactivation routed to the patient's healthcare organization. The privacy policy itself was not saved.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "Deleting/deactivating my account"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "Using two-factor authentication"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Staying Safe from Scams and Fraud"
+      }
+    ],
+    "not_stated": false
+  },
+  "emergencies": {
+    "answer": "MyChart is not for emergencies: the help screens tell people to call 911 (or 988 for mental health) and say the support form is for non-urgent technical help only. Support hours are not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "For medical emergencies, dial 911 in the United States or your local emergency services number."
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "This form is for non-urgent technical help only."
+      }
+    ],
+    "not_stated": false
+  },
+  "setup": {
+    "answer": "The patient finds their healthcare organization's MyChart and creates an account there (or logs in with an Epic ID), on the web or the iPhone and Android apps.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Find your MyChart"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.txt",
+        "quote": "Log in with Epic ID"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "Download on the App Store"
+      },
+      {
+        "file": "docs/sources/competitors-2/epic-mychart/www_mychart_org.html",
+        "quote": "Get it on Google Play"
+      }
+    ],
+    "not_stated": false
+  }
+}

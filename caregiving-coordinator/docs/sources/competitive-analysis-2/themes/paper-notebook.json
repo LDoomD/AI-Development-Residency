@@ -1,0 +1,635 @@
+{
+ "competitor": "Paper tools workaround (notebooks, binders, whiteboards, paper calendars, log books)",
+ "items_in_pack": 136,
+ "items_kept": 51,
+ "dropped": {
+  "not caregiving": 12,
+  "says nothing about the product": 44,
+  "app maker / ad": 24,
+  "duplicate post": 2,
+  "removed by moderators / empty": 3
+ },
+ "kept_ids": [
+  "reddit-p185kck8",
+  "reddit-p1biqhy3",
+  "reddit-p1ctlkl5",
+  "reddit-p1ds30uv",
+  "reddit-p1e2rbjr",
+  "reddit-p1eg9ot8",
+  "reddit-p1iyz1pg",
+  "reddit-p1l43rcy",
+  "reddit-p1leqev5",
+  "reddit-p1lje9hv",
+  "reddit-p1n1ottl",
+  "reddit-p1nf3iw2",
+  "reddit-p1ntmfvi",
+  "reddit-p1o3n0zi",
+  "reddit-p1oz5p2h",
+  "reddit-p1qa4240",
+  "reddit-p1s003jf",
+  "reddit-p1syq9nw",
+  "reddit-p1tc3il8",
+  "reddit-p1thguab",
+  "reddit-p1tujbq5",
+  "reddit-p1u9ey0z",
+  "reddit-p1ukrcqs",
+  "reddit-p1v00npf",
+  "reddit-p1viux10",
+  "reddit-p1vnxw6l",
+  "reddit-p12p1ggk",
+  "reddit-p1617peh",
+  "reddit-p16sy7sr",
+  "reddit-p1b95adr",
+  "reddit-p1cc0q1s",
+  "reddit-p1ezdae9",
+  "reddit-p1fp2js6",
+  "reddit-p1gjgtgp",
+  "reddit-p1i9rvrr",
+  "reddit-p1k8r51q",
+  "reddit-p1kt2r5b",
+  "reddit-p1lbjt50",
+  "reddit-p1lrasl3",
+  "reddit-p1mgp8vt",
+  "reddit-p1mhdoxb",
+  "reddit-p1norrqe",
+  "reddit-p1oc9ev3",
+  "reddit-p1ocuml5",
+  "reddit-p1pb8snh",
+  "reddit-p1ql3vv1",
+  "reddit-p1xjx8ji",
+  "reddit-p1xc3lhb",
+  "reddit-p1wri00z",
+  "reddit-p1wi7o80",
+  "reddit-p1vmzs6w"
+ ],
+ "works_well": [
+  {
+   "theme": "Whiteboard with date and schedule calms repeat questions",
+   "what_it_means": "A whiteboard showing the day, date, visits and reminders helps a person with memory loss know what is happening.",
+   "count": 6,
+   "ids": [
+    "reddit-p1biqhy3",
+    "reddit-p1viux10",
+    "reddit-p1b95adr",
+    "reddit-p1kt2r5b",
+    "reddit-p1wri00z",
+    "reddit-p1wi7o80"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1biqhy3",
+     "quote": "I bought a smallish whiteboard with a built-in easel. On it we put the day, date, and activities coming up"
+    },
+    {
+     "id": "reddit-p1kt2r5b",
+     "quote": "Short term memory is pretty much gone, but manageable by leaving notes on the whiteboard in her room and around the house."
+    }
+   ]
+  },
+  {
+   "theme": "Notebook carried to every appointment to write everything down",
+   "what_it_means": "Caregivers bring one notebook to visits and record meds, readings and what doctors say, so they do not rely on memory.",
+   "count": 5,
+   "ids": [
+    "reddit-p1tc3il8",
+    "reddit-p1tujbq5",
+    "reddit-p1ukrcqs",
+    "reddit-p1vnxw6l",
+    "reddit-p1vmzs6w"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1vnxw6l",
+     "quote": "That notebook goes with me to every appointment. You will not remember everything, especially when you're tired or overwhelmed."
+    },
+    {
+     "id": "reddit-p1vmzs6w",
+     "quote": "Buy a cheap notebook, and record EVERYTHING.  It works miracles at all of your appts."
+    }
+   ]
+  },
+  {
+   "theme": "Written guide lets another caregiver step in",
+   "what_it_means": "A binder or shared notebook with routines, meds and contacts lets aides, respite staff or family take over.",
+   "count": 4,
+   "ids": [
+    "reddit-p1ds30uv",
+    "reddit-p1l43rcy",
+    "reddit-p1syq9nw",
+    "reddit-p1xc3lhb"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1syq9nw",
+     "quote": "Made a step-by-step caregiving binder with details of our routine, info on his condition, meds, his preferences, how to complete hygiene tasks etc."
+    },
+    {
+     "id": "reddit-p1l43rcy",
+     "quote": "we coordinate with a little notebook to make sure all of the housework and errands get done."
+    }
+   ]
+  },
+  {
+   "theme": "Paper kept ready to grab in an emergency",
+   "what_it_means": "A wallet sheet, folder or binder with meds, documents and passwords is ready when a hospital visit happens.",
+   "count": 4,
+   "ids": [
+    "reddit-p1oz5p2h",
+    "reddit-p1tujbq5",
+    "reddit-p1oc9ev3",
+    "reddit-p1pb8snh"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1tujbq5",
+     "quote": "now i keep a folded sheet in my wallet with everything updated."
+    },
+    {
+     "id": "reddit-p1oc9ev3",
+     "quote": "in a folder with a notebook and pens as a grab and go item."
+    }
+   ]
+  },
+  {
+   "theme": "Paper works without phones and anyone can write in it",
+   "what_it_means": "Some families pick paper because it needs no app, the older person can use it, and visiting nurses can write in it.",
+   "count": 4,
+   "ids": [
+    "reddit-p1o3n0zi",
+    "reddit-p12p1ggk",
+    "reddit-p1mhdoxb",
+    "reddit-p1ocuml5"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1ocuml5",
+     "quote": "he said he might not remember to use the app. And a notebook is better because visiting nurses can write down their results."
+    },
+    {
+     "id": "reddit-p12p1ggk",
+     "quote": "keeps track of them in a logbook"
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "Written notes and calendars get ignored, lost or erased",
+   "what_it_means": "The person cared for, or another relative, does not look at the whiteboard, binder, cards or calendar, or erases it.",
+   "count": 12,
+   "ids": [
+    "reddit-p1iyz1pg",
+    "reddit-p1leqev5",
+    "reddit-p1nf3iw2",
+    "reddit-p1o3n0zi",
+    "reddit-p1qa4240",
+    "reddit-p12p1ggk",
+    "reddit-p1fp2js6",
+    "reddit-p1gjgtgp",
+    "reddit-p1i9rvrr",
+    "reddit-p1k8r51q",
+    "reddit-p1xjx8ji",
+    "reddit-p1wi7o80"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1fp2js6",
+     "quote": "She is constantly writing things on slips of paper,  but never looks at them again."
+    },
+    {
+     "id": "reddit-p1wi7o80",
+     "quote": "It does help, but sometimes he erases it."
+    }
+   ]
+  },
+  {
+   "theme": "Paper records pile up and are hard to find fast",
+   "what_it_means": "Binders, loose papers and notebooks grow until the caregiver cannot find a test, dose or date when a doctor asks.",
+   "count": 7,
+   "ids": [
+    "reddit-p185kck8",
+    "reddit-p1lje9hv",
+    "reddit-p1ntmfvi",
+    "reddit-p1oz5p2h",
+    "reddit-p1v00npf",
+    "reddit-p1cc0q1s",
+    "reddit-p1mhdoxb"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1v00npf",
+     "quote": "it's impossible to search through when a new doctor asks for a specific test from 8 months ago."
+    },
+    {
+     "id": "reddit-p1mhdoxb",
+     "quote": "I’m flipping through radnom papers"
+    }
+   ]
+  },
+  {
+   "theme": "Paper stays with one person so family cannot see updates",
+   "what_it_means": "A notebook or paper calendar sits in one house or with one person, so siblings and others miss changes.",
+   "count": 6,
+   "ids": [
+    "reddit-p1n1ottl",
+    "reddit-p1o3n0zi",
+    "reddit-p1thguab",
+    "reddit-p1u9ey0z",
+    "reddit-p1cc0q1s",
+    "reddit-p1fp2js6"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1n1ottl",
+     "quote": "Google Calendar nobody updates, notebook only I write in."
+    },
+    {
+     "id": "reddit-p1u9ey0z",
+     "quote": "the time got changed and the message got lost in a group text."
+    }
+   ]
+  },
+  {
+   "theme": "Old paper documents and money records take huge effort",
+   "what_it_means": "Bills, stock records and ID papers kept on paper are messy, incomplete or wrong and take weeks to sort.",
+   "count": 4,
+   "ids": [
+    "reddit-p1ctlkl5",
+    "reddit-p1617peh",
+    "reddit-p16sy7sr",
+    "reddit-p1mgp8vt"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p16sy7sr",
+     "quote": "finding out where her handwritten records are accurate and where they aren't."
+    },
+    {
+     "id": "reddit-p1ctlkl5",
+     "quote": "I worry that any system will fall apart the moment someone forgets to count or turn in a receipt."
+    }
+   ]
+  },
+  {
+   "theme": "Handwritten logs can be faked or disputed",
+   "what_it_means": "Paper logs at home can be changed, filled in falsely by aides, or called lies by the person cared for.",
+   "count": 3,
+   "ids": [
+    "reddit-p1e2rbjr",
+    "reddit-p1eg9ot8",
+    "reddit-p1ukrcqs"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1e2rbjr",
+     "quote": "He even changed the time of a fall in the logbook"
+    },
+    {
+     "id": "reddit-p1eg9ot8",
+     "quote": "I will then go and look at the log book and it states they were here from 3-3:30am."
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [
+   {
+    "theme": "Main family caregiver keeps the notebook alone",
+    "what_it_means": "Usually one family member writes everything; others do not add to it.",
+    "count": 4,
+    "ids": [
+     "reddit-p1n1ottl",
+     "reddit-p1u9ey0z",
+     "reddit-p1ukrcqs",
+     "reddit-p1vnxw6l"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1n1ottl",
+      "quote": "notebook only I write in"
+     },
+     {
+      "id": "reddit-p1ukrcqs",
+      "quote": "I keep track of everything w/ the dialysis, and ALL appts in my calendar"
+     }
+    ]
+   },
+   {
+    "theme": "Paid aides and nurses write in a shared home log",
+    "what_it_means": "Agency aides, home care workers and visiting nurses record visits or results on paper in the home.",
+    "count": 4,
+    "ids": [
+     "reddit-p1e2rbjr",
+     "reddit-p1eg9ot8",
+     "reddit-p1l43rcy",
+     "reddit-p1ocuml5"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1eg9ot8",
+      "quote": "look at the log book"
+     },
+     {
+      "id": "reddit-p1ocuml5",
+      "quote": "visiting nurses can write down their results"
+     }
+    ]
+   },
+   {
+    "theme": "The person cared for keeps their own notebook",
+    "what_it_means": "Some parents keep their own med logbook, memory notebook or blood pressure notebook.",
+    "count": 3,
+    "ids": [
+     "reddit-p12p1ggk",
+     "reddit-p1lrasl3",
+     "reddit-p1ql3vv1"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1lrasl3",
+      "quote": "depends on a notebook that operates as a memory book."
+     },
+     {
+      "id": "reddit-p1ql3vv1",
+      "quote": "her notebook of readings to show EVERYONE"
+     }
+    ]
+   }
+  ],
+  "relatives_joining_and_sharing": [
+   {
+    "theme": "Paper stays with one person so family cannot see updates",
+    "what_it_means": "Relatives elsewhere cannot see a paper notebook or calendar; some want to update a wall display remotely instead.",
+    "count": 6,
+    "ids": [
+     "reddit-p1n1ottl",
+     "reddit-p1o3n0zi",
+     "reddit-p1thguab",
+     "reddit-p1u9ey0z",
+     "reddit-p1cc0q1s",
+     "reddit-p1fp2js6"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1thguab",
+      "quote": "We have many family involved in appointments and not much relay of information."
+     },
+     {
+      "id": "reddit-p1fp2js6",
+      "quote": "a SIMPLE digital Wall organizer that WE can manage remotely"
+     }
+    ]
+   },
+   {
+    "theme": "Binder handed to stand-in caregivers",
+    "what_it_means": "A written guide is given to respite staff, new aides or another family.",
+    "count": 3,
+    "ids": [
+     "reddit-p1ds30uv",
+     "reddit-p1syq9nw",
+     "reddit-p1xc3lhb"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1xc3lhb",
+      "quote": "handed us a small binder with her most trusted careworkers"
+     },
+     {
+      "id": "reddit-p1ds30uv",
+      "quote": "scanned our notes/binder folder of our daytime/nighttime schedule of  ADLs"
+     }
+    ]
+   }
+  ],
+  "cost_price_cancelling": [
+   {
+    "theme": "Cheap to start, but bought planners can disappoint",
+    "what_it_means": "Whiteboards and notebooks cost little; bought logbooks or planners were sometimes useless or never used.",
+    "count": 4,
+    "ids": [
+     "reddit-p1biqhy3",
+     "reddit-p1i9rvrr",
+     "reddit-p1mhdoxb",
+     "reddit-p1vmzs6w"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1biqhy3",
+      "quote": "The whiteboard was around $20."
+     },
+     {
+      "id": "reddit-p1i9rvrr",
+      "quote": "I bought an expensive work book, binder and planner"
+     }
+    ]
+   }
+  ],
+  "emergencies_and_support_response": [
+   {
+    "theme": "Paper ready for the hospital helps in a crisis",
+    "what_it_means": "A prepared sheet, folder or binder gave answers when a parent was suddenly hospitalized.",
+    "count": 3,
+    "ids": [
+     "reddit-p1tujbq5",
+     "reddit-p1oc9ev3",
+     "reddit-p1pb8snh"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1tujbq5",
+      "quote": "the nurse asked what blood thinner he was on and i froze"
+     },
+     {
+      "id": "reddit-p1pb8snh",
+      "quote": "my family just has to grab the binder from the safe."
+     }
+    ]
+   },
+   {
+    "theme": "Worry the notebook will not be at hand in an emergency",
+    "what_it_means": "Caregivers fear they will not remember or find the notebook during an ambulance or hospital trip.",
+    "count": 2,
+    "ids": [
+     "reddit-p185kck8",
+     "reddit-p1ocuml5"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1ocuml5",
+      "quote": "I dont want to have to try to remember a notebook."
+     },
+     {
+      "id": "reddit-p185kck8",
+      "quote": "if we’re in the hospital or at the doctor’s office, I can quickly pull it up for reference."
+     }
+    ]
+   }
+  ],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "People hunt for a ready-made care binder or make their own",
+    "what_it_means": "Caregivers ask what to put in a care binder, want a pre-made one, or build their own printable.",
+    "count": 5,
+    "ids": [
+     "reddit-p1oz5p2h",
+     "reddit-p1thguab",
+     "reddit-p1lbjt50",
+     "reddit-p1mhdoxb",
+     "reddit-p1norrqe"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1lbjt50",
+      "quote": "I'd like to build off of something pre-made instead of starting from scratch"
+     },
+     {
+      "id": "reddit-p1mhdoxb",
+      "quote": "I even bought a medical logbook on Amazon once, but it was terrible."
+     }
+    ]
+   },
+   {
+    "theme": "Simple whiteboard or planner setups are quick to keep up",
+    "what_it_means": "Magnets, white-out and set times make paper schedules quick to update.",
+    "count": 2,
+    "ids": [
+     "reddit-p1biqhy3",
+     "reddit-p1viux10"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1viux10",
+      "quote": "I created magnets for the repetitve/frequent/chronic aqctivities so that doing the weekly schedule is quick and easy."
+     },
+     {
+      "id": "reddit-p1biqhy3",
+      "quote": "You can write on both sides of it"
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [
+   {
+    "theme": "Handwritten logs can be faked or disputed",
+    "what_it_means": "Paper logs can be changed or falsely filled in, and there is no check on who wrote what.",
+    "count": 3,
+    "ids": [
+     "reddit-p1e2rbjr",
+     "reddit-p1eg9ot8",
+     "reddit-p1ukrcqs"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1e2rbjr",
+      "quote": "the nursing agency we hired requires the nurses to log everything electronically"
+     },
+     {
+      "id": "reddit-p1ukrcqs",
+      "quote": "they accuse me of lying, and being full of shit"
+     }
+    ]
+   }
+  ],
+  "why_people_stop_or_stay": [
+   {
+    "theme": "Looking for digital when paper gets too big or stuck in one place",
+    "what_it_means": "Caregivers want an app or remote display once notebooks, binders or whiteboards stop being enough.",
+    "count": 6,
+    "ids": [
+     "reddit-p185kck8",
+     "reddit-p1ntmfvi",
+     "reddit-p1v00npf",
+     "reddit-p1cc0q1s",
+     "reddit-p1fp2js6",
+     "reddit-p1wi7o80"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p185kck8",
+      "quote": "Right now, I use a notebook but there’s gotta be a better way."
+     },
+     {
+      "id": "reddit-p1wi7o80",
+      "quote": "I added a Memory Board so I could update it daily from my phone"
+     }
+    ]
+   },
+   {
+    "theme": "Staying with paper because it needs no phone",
+    "what_it_means": "Some keep paper because apps are easy to forget and the older person can use paper.",
+    "count": 2,
+    "ids": [
+     "reddit-p1mhdoxb",
+     "reddit-p1ocuml5"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1mhdoxb",
+      "quote": "I really don’t want to rely on my phone. I’d much rather have everything organized on paper."
+     },
+     {
+      "id": "reddit-p1ocuml5",
+      "quote": "he might not remember to use the app"
+     }
+    ]
+   }
+  ],
+  "what_people_use_instead_or_alongside": [
+   {
+    "theme": "Paper used together with digital calendars, chats and photos",
+    "what_it_means": "Paper sits next to Google Calendar, WhatsApp, group texts, iCloud, photos of pill bottles, email or agency electronic logs.",
+    "count": 11,
+    "ids": [
+     "reddit-p1e2rbjr",
+     "reddit-p1n1ottl",
+     "reddit-p1ntmfvi",
+     "reddit-p1qa4240",
+     "reddit-p1s003jf",
+     "reddit-p1tujbq5",
+     "reddit-p1u9ey0z",
+     "reddit-p1vnxw6l",
+     "reddit-p1ezdae9",
+     "reddit-p1oc9ev3",
+     "reddit-p1wi7o80"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1ntmfvi",
+      "quote": "Ive been using Google Calendar and a physical binder"
+     },
+     {
+      "id": "reddit-p1vnxw6l",
+      "quote": "Take pictures of medication bottles."
+     }
+    ]
+   }
+  ]
+ },
+ "single_mentions": [
+  {
+   "id": "reddit-p1n1ottl",
+   "point": "With only one person writing in the notebook, a sister nearly gave a second dose of heart medicine."
+  },
+  {
+   "id": "reddit-p1gjgtgp",
+   "point": "A written list of food on hand was not used by parents; writer considers a binder of menus for three rotating aides."
+  },
+  {
+   "id": "reddit-p1s003jf",
+   "point": "End-of-life care at home used med notebooks plus mass texts to keep family in the loop."
+  },
+  {
+   "id": "reddit-p1b95adr",
+   "point": "Whiteboard reminders grew to include 'DO NOT REMOVE CATHETER'; writing got bigger as the person kept asking the year."
+  },
+  {
+   "id": "reddit-p1ql3vv1",
+   "point": "A parent's own blood pressure notebook was shown to every staff member but did not change her diet."
+  },
+  {
+   "id": "reddit-p1vmzs6w",
+   "point": "Post-transplant caregiver lists daily readings to record in the notebook (meds, temperature, weight, blood pressure)."
+  }
+ ],
+ "reader_notes": "All 136 Reddit posts read in full (some texts are cut off in the pack). Kept 51. Dropped posts that only use a whiteboard to talk with a deaf or non-speaking person, that mention a notebook or binder in passing (journals, clothing binders, abdominal binders), that only ask the question without saying what they use, that are research questions from people not giving care, or that promote a logbook, journal or app (many 2025-2026 posts in r/CaregiverSupport are logbook or app promotions; one app maker, getsela.app, described their notebook as 'our bible' getting out of control, but was dropped as promotion). Two exact duplicate cross-posts dropped (same text as kept items). Most kept posts are 2023-2026, mostly r/CaregiverSupport and r/AgingParents; few from dementia-specific subs. Several kept posts describe a plan or a wish (binder recommendations) rather than long use, and only one post per writer is known, so counts show how often a point was raised, not how common it is among caregivers."
+}
