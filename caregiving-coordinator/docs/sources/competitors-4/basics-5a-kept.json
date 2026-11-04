@@ -1,0 +1,56 @@
+{
+ "Caring Village": {
+  "market_segment": "Family care-coordination apps",
+  "website": "https://caringvillage.com/",
+  "features": "One shared app for a family's care: calendar, to-dos, medication lists, care plan, journal, group messages, document storage, and an AI helper called Julia.",
+  "differentiation": "Claims to be one 'command center' that replaces scattered texts and spreadsheets, built by former caregivers, with a 24/7 AI assistant.",
+  "business_model": "Freemium subscription. A free plan with ads, plus paid Circle and Village plans. It also sells to businesses for their patients or clients, and offers gift subscriptions. No funding figure found.",
+  "who_pays_cost": "The caregiver who creates the 'village' pays. Everyone invited joins free. Free: 2 members. Circle: $14.99 a month (5 members). Village: $24.99 a month (50 members on the pricing page, 25 in the FAQ). 17% off yearly.",
+  "indirect_or_direct": "Direct (coordination)"
+ },
+ "CaringBridge": {
+  "market_segment": "Family care-coordination apps",
+  "website": "https://www.caringbridge.org/",
+  "features": "A private web page or app journal for health updates, with comments, a help calendar for meals and rides, and links to GoFundMe and Meal Train.",
+  "differentiation": "Claims to be the established nonprofit (since 1997) built only for health journeys: private, ad-free, and never selling personal data.",
+  "business_model": "A free, donation-funded nonprofit: about $10.6M revenue in FY2025, 97% from contributions. It asks users for gifts, and its privacy policy also lists sharing data for targeted ads.",
+  "who_pays_cost": "A patient or family caregiver creates the page, and friends and family read it. It's free for everyone. Donors fund it, often the same families (6).",
+  "indirect_or_direct": "Direct (coordination)"
+ },
+ "Medisafe": {
+  "market_segment": "Medication reminder apps",
+  "website": "https://medisafeapp.com/",
+  "features": "Medication reminders and refill alerts, drug-interaction warnings, one account for several family members' meds, and a 'Medfriend' who is alerted to missed doses.",
+  "differentiation": "Claims to be the number-one medication reminder, ranked first by pharmacists, with complicated dosing and security certifications.",
+  "business_model": "Free app with a paid subscription (price not shown, the pricing pages saved as 404s). It also sells a platform to drug makers and providers and may share de-identified data commercially. Raised a $30M Series C in 2021.",
+  "who_pays_cost": "Patients and family members use it; drug companies and providers are business customers. Free app; Premium on the App Store costs $2.99 to $9.99 a month or $27.99 to $39.99 a year (several price points listed). Source: competitors-4/medisafe/firecrawl_appstore_medisafe.txt",
+  "indirect_or_direct": "Indirect (covers part of the need)"
+ },
+ "Everplans": {
+  "market_segment": "Digital vaults and emergency access",
+  "website": "https://www.everplans.com/",
+  "features": "A secure online vault for documents, IDs, accounts and wishes, with guided checklists and 'deputies' who get access to chosen sections.",
+  "differentiation": "Claims to organize all of a person's life details and tell them what to do next, using a smart planning system.",
+  "business_model": "Freemium: free (3 items) or Premium at $99.99 a year, plus deals through financial advisors and partners. Owned by Precoa since October 2024.",
+  "who_pays_cost": "People organizing their own affairs pay for Premium themselves, or get it through an advisor (who pays then isn't stated). $99.99 a year.",
+  "indirect_or_direct": "Direct (access to accounts)"
+ },
+ "Group texts": {
+  "market_segment": "Workaround, not a company",
+  "website": "n/a",
+  "features": "Family group chats, group texts and WhatsApp groups used to share news and ask for help.",
+  "differentiation": "Not a company. Everyone already has it, it's free, and there's nothing to install.",
+  "business_model": "Not a company. Free.",
+  "who_pays_cost": "The main family caregiver, relatives, and also paid care staff and agencies (6). Free.",
+  "indirect_or_direct": "Indirect (what families use instead)"
+ },
+ "Paper notebook and visit log": {
+  "market_segment": "Workaround, not a company",
+  "website": "n/a",
+  "features": "Notebooks, binders, whiteboards, wall calendars and home visit logs for meds, appointments, papers and notes.",
+  "differentiation": "Not a company. It needs no phone, and anyone, including nurses and the parent, can write in it.",
+  "business_model": "Not a company. Cheap to start, but store-bought planners can disappoint (4).",
+  "who_pays_cost": "The main caregiver, paid aides and the person being cared for. Nearly free.",
+  "indirect_or_direct": "Indirect (what families use instead)"
+ }
+}

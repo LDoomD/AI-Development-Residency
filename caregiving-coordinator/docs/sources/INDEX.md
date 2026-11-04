@@ -359,3 +359,35 @@ Why: the owner asked for more qualitative evidence for the empty and vague boxes
 - `count_moments.py` → `moments-by-usecase.json`. `GROUPING-INSTRUCTIONS.md` → `groups-A1.json` and `groups-A2.json`.
 - `uc-A1.json` and `uc-A2.json` hold the table rows. `check_uc.py` checks that every line is a top group, in order. `boxes.json` holds the box lists. `check_boxes.py` checks them against `goals/audience-tables.json`.
 - `TABLE-RULES.md`: the readability and accessibility rules. `figma-teacher-format.json`: the data used in Figma section 2623:76. Readable copy: `docs/audience-teacher-format-2026-11-04.md`.
+
+## 2026-11-04: Competitive Analysis 3, step 3 research (`competitors-4/`)
+
+- `save_pages.py` saves each page byte for byte (`.html`) plus its text (`.txt`). It follows each site's robots.txt and logs blocked pages in `save_log.json` instead of working around them.
+- Saved: an AARP article on geriatric care managers (updated August 05, 2026), a PMC study on Trualta (PMC8293668), the Eldercare Locator pages (eldercare.acl.gov, usaging.org), and two Aeroflow Urology pages.
+- Blocked by robots.txt, so not saved: aginglifecare.org, trualta.com, aging.ny.gov (Trualta page), teepasnow.com.
+- `evidence.json`: each competitor's claims, with the exact quote, URL, saved file and limits. It also reuses 4 earlier saved pages (A Place for Mom, the Alzheimer's helpline, Cariloop, Medicare GUIDE).
+- `verify_quotes.py` proves every quote is in its saved page: 22 found, 0 not found (Calm and Headspace added from the 2026-11-02 saved pages).
+- **Step 5a (basics for all 15 competitors):**
+  - `basics-5a.json`: 10 new competitors, 6 fields each (segment, website, features, how they stand out, business model, who pays and the cost), each with exact quotes.
+  - `verify_basics_5a.py`: 119 quotes found, 0 not found.
+  - `basics-5a-kept.json`: the 5 kept competitors, copied from `docs/competitive-analysis-2.md`.
+  - New pages saved by `save_pages_5a.py`:
+    - an AgeWays page (an Area Agency on Aging, Michigan) saying Trualta is free to caregivers there
+    - Calm's plans page
+    - an Everyday Health review of Calm
+    - a lifestack.ai blog on Headspace prices (third-party, weaker)
+    - a Headspace page
+  - Blocked by robots.txt: trualta.com/getting-started, coaaa.org. Returned bot-check pages (files deleted, still logged): areaagencyonaging.org, hr.msu.edu.
+  - The step 3 log is kept as `save_log_step3.json`.
+- **Fixes 2026-11-04 (Firecrawl, which renders JavaScript):**
+  - `competitors-4/headspace/firecrawl_headspace_subscriptions.txt`: Headspace's official price, $69.99 a year or $12.99 a month. This replaces the third-party blog.
+  - `competitors-4/medisafe/firecrawl_appstore_medisafe.txt`: Medisafe's App Store in-app prices, $2.99 to $9.99 a month or $27.99 to $39.99 a year.
+  - Proof checks after the fixes: `verify_basics_5a.py` 120 found, 0 not found; `verify_quotes.py` 25 found, 0 not found.
+  - Still open: the robots.txt-blocked and bot-check pages (Trualta, Aging Life Care, coaaa.org, the Cariloop individual price). Chrome wasn't available this session.
+- **Fixes 2026-11-04 (read in the desktop app's built-in browser; the Chrome extension showed no connected browsers for this account):** in `competitors-4/manual-saves/`:
+  - `aginglifecare_org_home.txt`: the care managers' own site
+  - `coaaa_org_trualta.txt`: Central Ohio AAA, where Trualta is free to caregivers in 8 counties
+  - `hr_msu_edu_cariloop_faqs.txt`: Cariloop is free to MSU employees, with extended coaching at $249 a month
+  - trualta.com returned HTTP 500 (server error) in a real browser, so it can't be read today. Trualta's facts rest on two agency pages and the PMC study.
+  - Proof checks: `verify_basics_5a.py` 125 found, 0 not found, 0 answers too long; `verify_quotes.py` 30 found, 0 not found.
+  - Update: `manual-saves/trualta_com_for_caregivers.txt` is Trualta's own site, saved after the owner opened it in the built-in browser ("Offered at no cost through local partnerships"). Proof checks: 130 found and 32 found, 0 not found.
