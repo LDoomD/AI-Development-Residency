@@ -123,3 +123,34 @@ What the table shows (reading, not proof):
 - Unique: medical records (MyChart only); emergency help (Lively and Medical Guardian only).
 - Missing: no company offers all of family coordination, records and safety. Lively comes closest (safety plus a paid human coordinator), but its family app only sends emergency alerts.
 - Where there are enough reviews: coordination (Caring Village calendar and medications, CaringBridge updates) and MyChart records mostly work; letting relatives in is mixed at best (CaringBridge 6 of 11, MyChart 13 of 25) and mostly fails at Lively and Medisafe; safety alerts mostly have problems.
+
+## Step 4: gaps and opportunities (DRAFT for the owner to review)
+
+Board instruction: "Describe the feature-related gaps or opportunities. Look for features people want but no one offers well." Written as open problems, not features to build (discovery: nothing is chosen yet). Each gap says what the table shows, one caregiver's words, and what it does not show. Quotes are word for word from the saved files named.
+
+**1. Letting relatives in without sharing one login is offered almost everywhere but rarely works well.**
+- Table: 7 of 8 companies offer some way for relatives to join (column 3). Where there are enough reviews it is never "mostly works": CaringBridge Mixed (6 of 11), MyChart Mixed (13 of 25), Lively Mostly problems (3 of 45), Medisafe Mostly problems (0 of 5).
+- In their words: "my wife can never get on my chart. She has to change the password everytime." (MyChart, Google Play, `google-play-reviews-mychart-family.json` #5); "I cant even invite my wife...it says click \"manage invites\" in upper rightcorner....there is no \"manage invites\" there!!" (Lively Link, `google-play-reviews-lively-link-family-access.json` #8).
+- Does not show: whether the problems are the apps' design, health-system rules (MyChart proxy rules vary by hospital), or user error.
+
+**2. No company covers family coordination, medical records and safety together, so families stitch tools together.**
+- Table: coordination apps (Caring Village, CaringBridge, Lotsa) have no records or safety feature; MyChart has records but no family coordination; Lively and Medical Guardian have safety but no shared calendar (Lively's coordinator is a paid human service). The two workarounds left out of the table, group texts and paper notebooks, are what families use instead.
+- In their words: "A visit log kept at the house worked for us." (AgingCare forum, `sources/forums/agingcare/working-caregiver/499829.txt`, comment 1, listed in `docs/community-voice-findings.md`); "When i need to share data with family and caregiver consultant, I can't !!!!" (MyChart, `google-play-reviews-mychart-family.json` #56).
+- Does not show: whether families want one place for all of it, or are fine with several tools; how many families use group texts (only the owner's report).
+
+**3. Safety tools reach the person, but the family side (alerts, location) mostly fails in reviews.**
+- Table: emergency help (column 7) is Mostly problems at both companies that offer it (Lively 34 of 107, Medical Guardian 3 of 19); Lively's family alerts (column 2) are Mostly problems (3 of 46).
+- In their words: "I have received no notifications that my Mom is out and about" (Lively Link, `google-play-reviews-lively-link-family-access.json` #41); "She has fallen five or six times without it alerting" (Medical Guardian, AgingCare, `sources/forums/app-mentions-2026-11-03/agingcare.json`).
+- Does not show: how often alerts fail overall (reviews lean toward problems); several reviewers praise the emergency operators themselves.
+
+**4. Medication information the whole family can see exists in only two products, and works well in only one small sample.**
+- Table: column 4 is offered only by Caring Village (Mostly works, 4 of 5) and Medisafe (Mostly problems, 5 of 15). MyChart shows medications but does not remind.
+- Does not show: much, the sample is small; demand for shared medication tracking comes from earlier research (`docs/app-review-findings.md`), not this table.
+
+**5. Medical records work well in MyChart, but they stay inside MyChart.**
+- Table: column 6 is offered only by MyChart, and it mostly works (14 of 15). No coordination app connects to it, and its relatives-join column is Mixed.
+- Does not show: whether caregivers want records inside a family tool, or only need easier proxy access.
+
+**Not a gap claim (not enough evidence):** support for the caregiver (column 8) is offered by 6 of 8 companies, but no review was sorted by this topic, so how well it works is unknown. Shared calendars (column 1) work well at Caring Village (14 of 15); the other apps have too few caregiver reviews to judge.
+
+**Limits:** reviews come from people who chose to post and lean toward problems; Claude tagged them once and no person double-checked; the big apps were keyword-filtered. The companies were chosen by the team. No caregiver was asked, so these are hypotheses to test, not findings.
