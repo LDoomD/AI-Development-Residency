@@ -292,3 +292,34 @@ Folder: `competitive-analysis/` and `competitors-2/`. Output: `docs/competitive-
 
 Also resolved the same day without new files: the second pill-reminder market figure ($628M in 2025 to $2,068M in 2034, CAGR 14.2%) traces to a Topflight Apps blog post quoting an unnamed report, https://topflightapps.com/ideas/how-to-create-a-medication-reminder-app/ (recorded in `docs/market-research-prompt2-results.md`); it stays labelled "blog, publisher unnamed" and the HTF figure remains the main one.
 | `fleety/answer-1-feature-analysis-and-next-steps.md` | Fleety (Tech Fleet helper bot, TAL 9000) answer, asked 2026-11-03 in the owner's signed-in session with his approved question. Word for word, with the 6 guide.techfleet.org pages it cites. A bot answer, not a primary source; the cited guide pages were not opened. | https://techfleet.network/tal-9000 (sign-in required) | What a feature comparison must include, how to fill the "our company" row, and the order feature analysis, UVP, positioning, Vision Board. |
+
+## 2026-11-03 feature analysis: missing competitor pages found
+
+Why: several earlier saved pages were empty or 404. Checked 2026-11-03 in the built-in browser: most were guessed addresses that do not exist on the sites (Caring Village /features and /security, CaringBridge /how-it-works and /features, Lotsa /faq/ and /features/, Medisafe /medfriend and /pricing); Lively moved its pages to shop.lively.com. The real pages were found from each site's own menu and copied as text with the date and URL at the top of each file. Used in `docs/feature-analysis.md` (steps 2 and 3).
+
+| File or folder | What it is | Original URL | Used for |
+|---|---|---|---|
+| `competitors/caring-village/pages-2026-11-03/app.txt` | Caring Village "The App" page: seven tools, Julia, role-based invites, plans | https://caringvillage.com/app/ | Caring Village features |
+| `competitors/caringbridge/help-center-2026-11-03/` (7 files + README) | CaringBridge help center: Requests (replaced the Planner in Dec 2023), Meal Train, privacy settings, Ways to Help and Page Settings article lists | https://caringbridge.my.site.com/help/s/ (from www.caringbridge.org/help) | CaringBridge features |
+| `competitors/lotsa-helping-hands/pages-2026-11-03/` (2 files) | Lotsa help center: create groups (who sees what), announcements and emailing | https://lotsa.helpscoutdocs.com/ | Lotsa features |
+| `competitors/medisafe/pages-2026-11-03/features.txt` | Medisafe "App Features" page: Medfriend, refill and appointment reminders, 90+ trackers | https://medisafeapp.com/features/ | Medisafe features |
+| `competitors-2/lively/shop-pages-2026-11-03/` (4 files + README) | Lively caregivers, services, medical alert plans ($24.99/$34.99 per month; fall detection +$9.99), Everyday Support for Caregivers ($99/yr, Wellthy care coordinator, invite family) | https://shop.lively.com/pages/caregivers, /services, /medical-alert-compare-plan, /everyday-support-for-caregivers | Lively features |
+
+Not re-fetched: Everplans, Epic MyChart and Medical Guardian (their saved main pages had full text). Limit: copied page text, not full HTML; demo-screen text, product listings and repeated quotes were trimmed and marked as trimmed in each file.
+
+## 2026-11-03 feature analysis: more reviews
+
+Why: the owner asked to fill feature boxes that had too few reviews. Collected in the built-in browser. Google Play has no public feed; reviews were read through the Play Store page's own review data request (the same data the "See all reviews" window loads), newest first. Reviewer names are not saved. Big apps were filtered by keyword, so these are not random samples.
+
+| File | What it is | Original URL | Used for |
+|---|---|---|---|
+| `app-reviews/google-play/google-play-reviews-lotsa.json` | All 20 written Lotsa reviews on Google Play (page shows 51 ratings) | https://play.google.com/store/apps/details?id=com.lotsahelpinghands.android.lotsa | Lotsa row (none tagged: no reviewer clearly caring for a relative) |
+| `app-reviews/google-play/google-play-reviews-lively-link-family-access.json` | 66 of 1,451 Lively Link reviews: family word plus invite/access/log-in words | https://play.google.com/store/apps/details?id=com.greatcall.link | Lively columns 2, 3, 7 |
+| `app-reviews/google-play/google-play-reviews-caringbridge-family-help.json` | 36 of 2,080 CaringBridge reviews: family word plus help/requests/privacy/access words | https://play.google.com/store/apps/details?id=com.caringbridge.app | CaringBridge columns 1, 2, 3 |
+| `app-reviews/google-play/google-play-reviews-mychart-family.json` | 58 of the 6,169 newest MyChart reviews (2026-07-15 to 2026-11-02) with a family or caregiving word | https://play.google.com/store/apps/details?id=epic.mychart.android | MyChart columns 3 and 6 |
+| `forums/app-mentions-2026-11-03/agingcare.json` | AgingCare thread paragraphs naming the apps, word for word | thread URLs inside the file | Lively and Medical Guardian column 7 |
+| `forums/app-mentions-2026-11-03/alzconnected.json` | ALZConnected sentences naming the apps; none usable for counts | thread URLs inside the file | Not counted (see note in file) |
+| `app-reviews/analysis/extra-tags-2026-11-03.json` | Claude's column tags for the new reviews (one pass, not double-checked) | — | `feature_ratings.py` |
+| `app-reviews/analysis/feature_ratings.py`, `feature-ratings.json` | Script that counts every feature box, and its output | — | Feature table on the board and in `docs/feature-analysis.md` |
+
+Not found: Everplans has no Google Play reviews; Reddit is blocked in the built-in browser (not worked around); `app-reviews/save_play_2026_11_03.py` saved the Play files.
