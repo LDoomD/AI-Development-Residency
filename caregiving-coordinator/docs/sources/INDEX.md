@@ -323,3 +323,16 @@ Why: the owner asked to fill feature boxes that had too few reviews. Collected i
 | `app-reviews/analysis/feature_ratings.py`, `feature-ratings.json` | Script that counts every feature box, and its output | — | Feature table on the board and in `docs/feature-analysis.md` |
 
 Not found: Everplans has no Google Play reviews; Reddit is blocked in the built-in browser (not worked around); `app-reviews/save_play_2026_11_03.py` saved the Play files.
+
+## 2026-11-03 feature analysis: Reddit caregiver posts (Arctic Shift archive)
+
+Why: the owner asked for more qualitative evidence for the empty and vague boxes (documents, caregiver support, "Mixed"). Reddit itself is blocked in the built-in browser, so posts came from the Arctic Shift archive API (https://arctic-shift.photon-reddit.com/api, project https://github.com/ArthurHeitmann/arctic_shift), which is public and needs no login. Usernames were never requested. Report: `docs/reddit-caregiver-findings-2026-11-03.md`.
+
+| File | What it is | Original URL | Used for |
+|---|---|---|---|
+| `reddit/arctic-shift-2026-11-03/posts.jsonl` | 43,665 posts since 2023-01-01: all of r/CaregiverSupport, r/AgingParents to Feb 2026 (stopped once there was enough data) | each line has its reddit.com link | Search and tagging |
+| `reddit/arctic-shift-2026-11-03/posts_targeted.jsonl` | Newest ~500 posts from each of 11 other communities (dementia, Alzheimer's, caregivers, CaregiversOfReddit, eldercare, Parkinson's, stroke, ALS, MS, COPD, disability), plus 178 dementia posts from an early word search | each line has its link | Other-communities section of the report |
+| `reddit/arctic-shift-2026-11-03/collect.py`, `collect_targeted.py`, `collect_recent.py`, `log*.txt` | Download scripts and their logs (rate-limit retries, why each was stopped) | — | Re-running the download |
+| `reddit/arctic-shift-2026-11-03/build_candidates.py`, `tagging/` | Picks posts by topic words, splits them for reading; `INSTRUCTIONS.md` is the tag rule; `tags-*.jsonl` are the tags (Claude helpers, one pass, quotes checked word for word) | — | Counts in the report |
+| `reddit/arctic-shift-2026-11-03/analyze_tags.py`, `reddit-findings.json` | Counts per feature, problem groups, quotes, wishes; removes app-maker posts and copies (list kept in the file) | — | Report numbers |
+| `reddit/arctic-shift-2026-11-03/app-mentions.json` | 37 posts that name a competitor and say how it worked | links inside | Added to `feature_ratings.py` through `extra-tags-2026-11-03.json` |

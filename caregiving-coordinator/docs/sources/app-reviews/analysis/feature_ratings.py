@@ -3,7 +3,7 @@ Caregiving-only reviews (relevance-final.json == caregiving). "Worked" reviews a
 worked_themes.py; "problem" reviews by their category tag. A review can count in more than one column. Label rule: at least two
 thirds worked = "Mostly works"; at least two thirds problems = "Mostly problems"; otherwise "Mixed"; fewer than 5 matching reviews =
 "Too few reviews to judge". Run: python3 feature_ratings.py"""
-import json, re, pathlib
+import json, re, pathlib, collections
 from worked_themes import THEMES
 HERE = pathlib.Path(__file__).parent
 t = json.load(open(HERE / "verified-tags.json")); rel = json.load(open(HERE / "relevance-final.json"))
@@ -31,7 +31,9 @@ for co, keys in APPS.items():
         tot = len(w) + len(p)
         lab = ("Too few reviews to judge" if tot < 5 else "Mostly works" if len(w) * 3 >= tot * 2
                else "Mostly problems" if len(p) * 3 >= tot * 2 else "Mixed")
-        out[co][col] = {"worked": len(w), "problems": len(p), "total": tot, "label": lab}
+        cats = collections.Counter(x["category"] for x in rs if x["id"] in p)
+        out[co][col] = {"worked": len(w), "problems": len(p), "total": tot, "label": lab,
+                        "problem_types": cats.most_common()}
 # add the 2026-11-03 tags, skipping reviews whose text is already in the older saved file
 for src, d in EXTRA.items():
     path = HERE.parent / src
@@ -57,4 +59,4 @@ for co, d in out.items():
         c["label"] = ("Too few reviews to judge" if tot < 5 else "Mostly works" if w * 3 >= tot * 2
                       else "Mostly problems" if p * 3 >= tot * 2 else "Mixed")
 json.dump(out, open(HERE / "feature-ratings.json", "w"), indent=1)
-for co, d in out.items(): print(co, {c: f'{v["label"]} {v["worked"]}/{v["total"]}' for c, v in sorted(d.items())})
+for co, d in out.items(): print(co, {c: f'{v["label"]} {v["worked"]}/{v["total"]} {v.get("problem_types", [])[:2]}' for c, v in sorted(d.items())})

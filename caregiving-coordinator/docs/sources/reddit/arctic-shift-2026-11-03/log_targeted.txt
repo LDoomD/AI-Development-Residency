@@ -1,0 +1,31 @@
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&query=app&after=2023-01-01&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+dementia 'app': 100
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&query=power+of+attorney&after=2023-01-01&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry 2: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&query=power+of+attorney&after=2023-01-01&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry 3: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&query=power+of+attorney&after=2023-01-01&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+dementia 'power of attorney': 100
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&query=wish+there+was&after=2023-01-01&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry 2: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&query=wish+there+was&after=2023-01-01&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry 3: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&query=wish+there+was&after=2023-01-01&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+stopped 2026-11-03: full-text query search too slow (~7 min per query); switched to collect_recent.py
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1793466988
+retry 2: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1793466988
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dementia&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1792859834
+recent dementia: 490
+recent Alzheimers: 500
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=caregivers&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1790281655
+recent caregivers: 500
+recent CaregiversOfReddit: 482
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=eldercare&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1788976782
+recent eldercare: 500
+recent Parkinsons: 500
+recent stroke: 500
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ALS&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1786964508
+recent ALS: 500
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=MultipleSclerosis&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1793472335
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=MultipleSclerosis&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1793214567
+recent MultipleSclerosis: 500
+recent COPD: 500
+retry 1: Timeout. Maybe slow down a bit :: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=disability&after=2023-01-01&limit=100&sort=desc&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments&before=1792948538
+recent disability: 500
+RECENT DONE
