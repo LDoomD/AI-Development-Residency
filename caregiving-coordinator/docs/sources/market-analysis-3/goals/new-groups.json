@@ -1,0 +1,82 @@
+{
+ "Audience 1: parent|M": {
+  "groups": {
+   "Honor their wishes and make the time left count": 5,
+   "Relieve the other parent who is the main caregiver": 4,
+   "I'm the only one, they need me": 2,
+   "Preserve their life stories": 2,
+   "Other one-offs": 2
+  },
+  "one_offs": [
+   "protect mom from losing her home",
+   "Protect other people from her unsafe driving"
+  ],
+  "total": 15
+ },
+ "Audience 1: parent|S": {
+  "groups": {
+   "Get the parent to accept care and look after their own health": 16,
+   "Handle the parent's behavior and emotions": 7,
+   "Technology and simple devices for the parent": 7,
+   "End-of-life plans and wishes": 5,
+   "Equipment, hygiene and hands-on care": 5,
+   "Hold a facility to account and stay in touch with them": 4,
+   "Family roles and costs": 4,
+   "Other one-offs": 9
+  },
+  "one_offs": [
+   "record parents' life stories in an easy format",
+   "Clear out and clean mom's old apartment",
+   "Break nursing home news to mom gently",
+   "Give paid caregivers a fitting thank-you bonus",
+   "Find a fitting birthday gift for mom in memory care",
+   "Help dad find a new home",
+   "Get dad through air travel to visit",
+   "Find a specialist for a second opinion",
+   "Get diagnostic tests done without long waits"
+  ],
+  "total": 57
+ },
+ "Audience 1: parent|L": {
+  "groups": {
+   "Protect their own marriage, children and family": 9,
+   "Not be alone, and be seen": 5,
+   "A life and a home after caregiving": 4,
+   "Other one-offs": 0
+  },
+  "one_offs": [],
+  "total": 18
+ },
+ "Audience 2: spouse or partner|M": {
+  "groups": {
+   "Other one-offs": 0
+  },
+  "one_offs": [],
+  "total": 0
+ },
+ "Audience 2: spouse or partner|S": {
+  "groups": {
+   "Other one-offs": 7
+  },
+  "one_offs": [
+   "keep a home, food and healthcare for spouse",
+   "stock emergency supplies for medically fragile spouse",
+   "doctors who give consistent, timely feedback",
+   "Find incontinence underwear that fits husband",
+   "Help partner out of his mental health slump",
+   "Choose an agency to get paid as caregiver",
+   "Keep spouse's health insurance, doctors and meds"
+  ],
+  "total": 7
+ },
+ "Audience 2: spouse or partner|L": {
+  "groups": {
+   "Companionship, intimacy and someone who understands": 11,
+   "Other one-offs": 1
+  },
+  "one_offs": [
+   "protect own young kids from a tense home"
+  ],
+  "total": 12
+ }
+}

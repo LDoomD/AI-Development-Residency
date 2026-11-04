@@ -74,3 +74,30 @@ description-matching: `SessionStart` and `SubagentStart` load the skill list
 - Ask before using the user's browser or the Chrome extension.
 - Never write or edit the user's homework summary. They write it themselves.
 - No RuFlo/claude-flow — removed from this residency's tooling; see memory.
+
+## Dog feeding (how every session works, added 2026-11-04)
+
+The user follows the teacher's dog feeding method (Figma node 2390:7831, "Steps
+to Produce Literally Anything"). Each new document is made from saved,
+checked documents, never from chat memory.
+
+- **Start of session:** ask for the latest dog feeding report in
+  `docs/reports/` (newest `dogfood-*.md`) and the saved documents it lists.
+  Read them all, then say what you have and what is missing.
+- **One part at a time.** Do only the step the user asks, then stop and wait.
+  The user makes each choice. Never start the next step or change other work
+  unasked.
+- **Order of work:** market analysis → competitive → feature → positioning →
+  vision boards. New research updates the market analysis first.
+- **Say where each answer came from** (which saved document or data file).
+- **Remind the user to ask for a markdown file or report** at these moments,
+  in one line at the end of the reply:
+  1. A deliverable was approved: save it as a new markdown version.
+  2. Before a new chat or a compact: write a dog feeding report.
+  3. Something was redone or went wrong: write a short change report.
+  4. Before moving to the next step in the order.
+  5. End of the session.
+- **Superseded work:** a big yellow banner across the top of the section,
+  never a small sticky. Never delete.
+- **Tables:** follow `docs/sources/market-analysis-3/audience-v2/TABLE-RULES.md`
+  (the user has ADHD: short bullets, no IDs or quotes in cells, big text).

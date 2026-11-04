@@ -1,0 +1,150 @@
+{
+"A2|Exhaustion, loneliness and own health": {
+ "moments": [
+  {"label": "While carrying all care alone with no time away", "ids": ["p1rbayy0","p1evinci","p1u06d13","alz-77284","agi-498938","agi-499707","alz-77316","alz-77381","alz-77406","alz-77470","p1o1gfe6","alz-77407","p10vhcj5"]},
+  {"label": "While juggling care with work, children or another person's needs", "ids": ["p1nbo16c","p115z0h1","p1rmmdnb","p1h6ieq6","p1bmq9qz","agi-499222","alz-77379","alz-77383"]},
+  {"label": "While caregiving through own illness, injury, anxiety or depression", "ids": ["p1g6qapv","agi-499378","alz-77390","alz-77427","alz-77375","alz-77428"]},
+  {"label": "When feeling lonely, unheard, blamed or without affection", "ids": ["p1lp4ds3","p18e38kb","p1doc6sg","p1tfvk7x","p1l8heyz","p18zexh1","alz-77371","p1nc0bov"]},
+  {"label": "When grief, setbacks or decline make the load heavier", "ids": ["p1gyvvsw","p11w8ypn","p1kimaeg","p1nna7go","p16cvpu2","alz-77364","alz-77400","alz-77348","alz-75137","alz-77454"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to get real breaks and a life outside caregiving", "ids": ["p1nbo16c","p1u06d13","p1h6ieq6","alz-77284","agi-499707","alz-77407","alz-77454","p16cvpu2","p1evinci"]},
+  {"label": "We want them to have understanding people to talk to and lean on", "ids": ["p1nc0bov","p18e38kb","p1tfvk7x","p1kimaeg","alz-77427","alz-77371","alz-77379","p1rbayy0","p1rmmdnb","alz-77406","agi-499222"]},
+  {"label": "We want them to get affection and connection back from their partner", "ids": ["p1lp4ds3","p10vhcj5","p18zexh1","p1l8heyz"]},
+  {"label": "We want them to cope, stay well and keep going", "ids": ["p1g6qapv","p1gyvvsw","p1nna7go","alz-77375","alz-77428","alz-77470","agi-498938","alz-75137"]},
+  {"label": "We want them to have hope and understand what lies ahead", "ids": ["p1o1gfe6","alz-77400","alz-77364"]},
+  {"label": "other", "ids": ["p115z0h1","alz-77390"]}
+ ]
+},
+"A2|Dementia behavior and hard conversations": {
+ "moments": [
+  {"label": "When the partner repeats the same questions, stories or worries", "ids": ["p1q2fufu","alz-77377","alz-77449","alz-77379"]},
+  {"label": "When the partner's mood turns angry, mean or aggressive", "ids": ["agi-498938","alz-77378","alz-77414","alz-77406","alz-77407"]},
+  {"label": "When facing hard talks or arguments with the partner", "ids": ["p1g6qapv","p1doc6sg","alz-77437","alz-77348","alz-77371","alz-77392","alz-77457"]},
+  {"label": "While confusion and restlessness change the partner's daily behavior", "ids": ["p1wilbpg","alz-77408","alz-77462","alz-77326","alz-77424","agi-499707","alz-77284","alz-77381"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to understand the behavior and know how to respond", "ids": ["p1q2fufu","alz-77377","alz-77408","alz-77462","alz-77326","alz-77424","alz-77378"]},
+  {"label": "We want them to calm agitation and keep the partner occupied", "ids": ["alz-77284","alz-77449","alz-77407","alz-77457"]},
+  {"label": "We want them to have hard talks without blame, yelling or upset", "ids": ["p1doc6sg","alz-77437","alz-77348","alz-77371","alz-77392"]},
+  {"label": "other", "ids": ["p1wilbpg"]}
+ ]
+},
+"A2|Personal care and medicines": {
+ "moments": [
+  {"label": "When the partner refuses medicines, washing or daily care", "ids": ["agi-499378","agi-499873","alz-77347","agi-498938","alz-77470"]},
+  {"label": "When cleaning up incontinence and toileting messes", "ids": ["p1rmmdnb","p10vhcj5","alz-77454"]},
+  {"label": "While giving daily hands-on help with eating, dressing and moving", "ids": ["p1bmq9qz","alz-77263","alz-77410","agi-499222","alz-77473","alz-77112"]},
+  {"label": "When medicines are missed, changed, added or cause harm", "ids": ["p1h6ieq6","alz-77381","alz-77392","alz-77414","alz-77407"]},
+  {"label": "When handling supplies, procedures, devices and health tracking", "ids": ["p1jvhp24","p1ek96lh","p16cvpu2","p1xgafzi","alz-77372"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to know how to guide the partner's medicines, eating and hygiene", "ids": ["agi-498938","alz-77407","alz-77112","alz-77470"]},
+  {"label": "We want them to have the right medicines, given correctly and safely", "ids": ["p1h6ieq6","agi-499378","alz-77381","alz-77392"]},
+  {"label": "We want them to have reliable supplies and routines for daily care", "ids": ["p1jvhp24","p1xgafzi","alz-77454"]},
+  {"label": "We want them to stop being the only one tracking everything", "ids": ["p16cvpu2","alz-77372"]},
+  {"label": "other", "ids": ["p1ek96lh"]}
+ ]
+},
+"A2|Aides, hospice and trusting others": {
+ "moments": [
+  {"label": "When paid helpers are unreliable, inexperienced or hard to check", "ids": ["p10vhcj5","p1t6wlq5","alz-77395","agi-499829"]},
+  {"label": "While trying to arrange respite or leave them with helpers", "ids": ["alz-77263","alz-77410","p1h6ieq6","p1kimaeg"]},
+  {"label": "When hospice is raised, evaluated or begins", "ids": ["alz-77347","alz-77473","alz-77381","alz-77454","alz-77436","alz-77448"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to have a patient, trusted helper and know how visits go", "ids": ["p1t6wlq5","alz-77263","alz-77395","alz-77410","agi-499829"]},
+  {"label": "We want them to get respite sooner that can handle medicines", "ids": ["p1kimaeg","p1h6ieq6"]},
+  {"label": "We want them to understand hospice and get the care promised", "ids": ["alz-77347","alz-77454","alz-77448"]},
+  {"label": "other", "ids": ["alz-77381"]}
+ ]
+},
+"A2|Money, scams and bills": {
+ "moments": [
+  {"label": "When income, housing or food needs are uncertain", "ids": ["p1nbo16c","p1g6qapv","agi-499378","alz-77390"]},
+  {"label": "When dealing with insurance and treatment costs", "ids": ["p1nc0bov","p1mw0slj","p1gl814c","alz-77439"]},
+  {"label": "When seeking payment or tax credits for caregiving", "ids": ["p1t6wlq5","p1jvhq0s"]},
+  {"label": "When weighing ways to protect money and control finances", "ids": ["alz-77411","alz-77379","alz-77428"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to secure housing, food and healthcare", "ids": ["p1nbo16c","p1g6qapv"]},
+  {"label": "We want them to keep needed coverage and cut unused costs", "ids": ["p1gl814c","alz-77439"]},
+  {"label": "We want them to get paid and claim tax credits for caregiving", "ids": ["p1t6wlq5","p1jvhq0s"]},
+  {"label": "We want them to protect their finances, avoid debt, and manage money safely", "ids": ["alz-77411","alz-77428","alz-77390"]},
+  {"label": "other", "ids": []}
+ ]
+},
+"A2|Relatives and others not helping or criticizing": {
+ "moments": [
+  {"label": "When family or others criticize instead of support", "ids": ["p18e38kb","alz-77374","alz-77427","alz-77406","alz-77414"]},
+  {"label": "When family and friends ignore, doubt or drift away", "ids": ["p1nbo16c","p1nna7go","p1h6ieq6","alz-77470","p1rmmdnb"]},
+  {"label": "When offered help or listening does not match the need", "ids": ["p1u06d13","p1kimaeg"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to get real hands-on help and someone to call", "ids": ["p1u06d13","alz-77470"]},
+  {"label": "We want them to be listened to without being judged", "ids": ["p1kimaeg","alz-77414"]},
+  {"label": "We want them to have relatives who support rather than criticize", "ids": ["alz-77427","alz-77406","alz-77374"]},
+  {"label": "other", "ids": []}
+ ]
+},
+"A2|Diagnosis and doctor delays": {
+ "moments": [
+  {"label": "After long waits or pushing doctors for diagnosis and treatment", "ids": ["p1nbo16c","p1nc0bov","p1evinci","p1mw0slj","alz-77390","alz-77371","alz-77316"]},
+  {"label": "When sudden bad news or fast decline arrives", "ids": ["p1wvl91v","p1qjj9rg"]},
+  {"label": "When doctors overlook the household's situation or key symptoms", "ids": ["agi-499378","alz-77454"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to get clear, timely answers from doctors", "ids": ["p1evinci","alz-77371"]},
+  {"label": "We want them to be warned how fast a crisis can worsen", "ids": ["p1qjj9rg"]},
+  {"label": "We want them to have doctors take the whole situation seriously", "ids": ["agi-499378","alz-77454"]},
+  {"label": "other", "ids": []}
+ ]
+},
+"A2|The partner refuses help": {
+ "moments": [
+  {"label": "When the partner refuses a helper or help with care", "ids": ["p1nna7go","alz-77376","alz-77454"]},
+  {"label": "When the partner denies needs or resists questions and reminders", "ids": ["p16cvpu2","alz-77457","alz-77411","p1evinci"]},
+  {"label": "When the partner delays medical care or major changes", "ids": ["p1qjj9rg","alz-77390"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to bring in outside help the partner accepts", "ids": ["p1nna7go","alz-77376"]},
+  {"label": "We want them to check in and plan together without causing anger", "ids": ["p1evinci","alz-77457","alz-77390"]},
+  {"label": "We want them to settle who handles care tasks and finances", "ids": ["p16cvpu2","alz-77411"]},
+  {"label": "other", "ids": []}
+ ]
+},
+"A2|Placing them and care costs": {
+ "moments": [
+  {"label": "When weighing placement, care options and costs", "ids": ["p1h6ieq6","alz-77284","agi-498938","alz-77354"]},
+  {"label": "During the move into memory care", "ids": ["alz-59049","alz-77375","alz-77392"]},
+  {"label": "While the partner lives in a care facility", "ids": ["p1o1gfe6","alz-77364"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to afford a place without being left impoverished", "ids": ["p1h6ieq6","agi-498938"]},
+  {"label": "We want them to choose good care and ease the move", "ids": ["alz-77284","alz-77364","alz-77392"]},
+  {"label": "We want them to accept placement without guilt and keep their bond", "ids": ["alz-59049","alz-77375","alz-77354"]},
+  {"label": "other", "ids": []}
+ ]
+},
+"A2|Safety when they are alone or out": {
+ "moments": [
+  {"label": "When the partner walks, drives or uses public restrooms alone", "ids": ["alz-77380","alz-77437","agi-498938","alz-77263","alz-77410"]},
+  {"label": "While home and not closely watched by the caregiver", "ids": ["agi-499378","alz-77379","alz-77407"]},
+  {"label": "other", "ids": []}
+ ],
+ "wants": [
+  {"label": "We want them to reliably know where the partner is", "ids": ["alz-77380"]},
+  {"label": "We want them to keep everyone, including family, safe", "ids": ["alz-77437"]},
+  {"label": "other", "ids": []}
+ ]
+}
+}

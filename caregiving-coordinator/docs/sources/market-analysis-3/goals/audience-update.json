@@ -1,0 +1,417 @@
+{
+ "title": "UPDATED 2026-11-04 — AUDIENCES, MOTIVATIONS, GOALS AND USE CASES, WITH THE NEW REDDIT RESEARCH",
+ "intro": "Everything on this page checked against the new Reddit research: a random sample of 500 Reddit posts (412 by caregivers). 269 are about a parent (Audience 1) and 35 are about a spouse or partner (Audience 2). Each post was coded with the same lists this page uses: the 14 problem themes, the motivations, situational goals and life goals, plus anything new. The boxes to the left are unchanged. Read the tables as forums versus Reddit. The Reddit readers marked more items per post than the forum readers, so compare the order (rank), not the exact percentages.",
+ "changes": "WHAT CHANGED, IN SHORT\nAUDIENCES: still two. Audience 1 (adult child caring for a parent) is backed more strongly: 65% of Reddit caregiver posts are about a parent. Audience 2 (spouse or partner) has only 35 Reddit posts, so its changes are a signal, not proof.\n\nAUDIENCE 1\n• Motivations: the top two are the same: keeping the parent safe and comfortable first, avoiding blame or guilt second. Love, loyalty and promises moves up from #4 to #3. New: honoring the parent's wishes and making the time left count (5), and relieving the other parent who is the main caregiver (4).\n• Situational goals: the order changed. \"Understand what is happening and what to do\" moves from #4 to #1 (71 of 269 posts). Money and legal affairs stays #3 but is close behind (46). Finding a place drops from #2 to #5. New: getting the parent to accept care and look after their own health (16), handling the parent's behavior (7), and technology for the parent (7).\n• Life goals: the order flips. \"Their own health and sanity\" moves from #3 to #1 (72 posts), and \"time and breaks\" drops to #3. New: protecting their own marriage, children and family (9).\n• Use cases: all 9 hold. Two candidates are open for the owner to add: the parent refuses help (29 main, 63 mentioned), and getting into a parent's accounts (added 2026-11-03). Money, choosing a place, doctors and safety come up more often on Reddit.\n\nAUDIENCE 2 (small sample)\n• Motivations: love, loyalty and promises moves to #1 (15 of 35).\n• Situational goals: understanding what is happening and what to do shows up first (9 of 35). It isn't on this audience's board yet.\n• Life goals: same order, and their own health and sanity is still first. New and large: companionship, intimacy and someone who understands (11 of 35).\n• Use cases: exhaustion is still top. Dementia behavior is much lower on Reddit, because the forum spouses came mostly from a dementia community.\n",
+ "a1_traits": "AUDIENCE 1 LABEL AND TRAITS, added: on Reddit, 269 of 412 caregiver posts (65%) are about a parent, compared with 55 of 117 forum threads. Everything else in the label box stands.",
+ "a2_traits": "AUDIENCE 2 LABEL AND TRAITS, added: on Reddit, 35 of 412 caregiver posts (8%) are about a spouse or partner, compared with 54 of 117 forum threads. That's too few to change the label. The traits from AARP and the forums stand.",
+ "mcols": [
+  "Item",
+  "Forum threads (count, % of the audience's threads)",
+  "Reddit posts (count, % of the audience's posts)",
+  "Rank: forums → Reddit"
+ ],
+ "A": {
+  "Audience 1: parent": {
+   "n_reddit": 269,
+   "n_forum": 55,
+   "tables": {
+    "motivations": [
+     [
+      "Keep them safe and comfortable, spare them suffering (on the board)",
+      "7 (13%)",
+      "60 (22%)",
+      "#1 → #1"
+     ],
+     [
+      "Do the right thing, avoid blame or guilt (on the board)",
+      "6 (11%)",
+      "30 (11%)",
+      "#2 → #2"
+     ],
+     [
+      "Love, loyalty and promises (on the board)",
+      "3 (5%)",
+      "23 (9%)",
+      "#4 → #3"
+     ],
+     [
+      "Keep them at home and in control of their own life (on the board)",
+      "5 (9%)",
+      "19 (7%)",
+      "#3 → #4"
+     ],
+     [
+      "NEW from Reddit: Honor their wishes and make the time left count",
+      "not on the board",
+      "5 (2%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: Relieve the other parent who is the main caregiver",
+      "not on the board",
+      "4 (1%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: I'm the only one, they need me",
+      "not on the board",
+      "2 (1%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: Preserve their life stories",
+      "not on the board",
+      "2 (1%)",
+      "new"
+     ]
+    ],
+    "situational goals": [
+     [
+      "Understand what is happening and what to do (on the board)",
+      "2 (4%)",
+      "71 (26%)",
+      "#4 → #1"
+     ],
+     [
+      "Get help, relief or services (on the board)",
+      "11 (20%)",
+      "47 (17%)",
+      "#1 → #2"
+     ],
+     [
+      "Manage money and legal affairs (on the board)",
+      "3 (5%)",
+      "46 (17%)",
+      "#3 → #3"
+     ],
+     [
+      "Keep them safe and watch over them (on the board)",
+      "2 (4%)",
+      "36 (13%)",
+      "#5 → #4"
+     ],
+     [
+      "Find, choose or pay for a place (on the board)",
+      "6 (11%)",
+      "31 (12%)",
+      "#2 → #5"
+     ],
+     [
+      "Medicines (on the board)",
+      "1 (2%)",
+      "19 (7%)",
+      "#6 → #6"
+     ],
+     [
+      "NEW from Reddit: Get the parent to accept care and look after their own health",
+      "not on the board",
+      "16 (6%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: Handle the parent's behavior and emotions",
+      "not on the board",
+      "7 (3%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: Technology and simple devices for the parent",
+      "not on the board",
+      "7 (3%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: End-of-life plans and wishes",
+      "not on the board",
+      "5 (2%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: Equipment, hygiene and hands-on care",
+      "not on the board",
+      "5 (2%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: Hold a facility to account and stay in touch with them",
+      "not on the board",
+      "4 (1%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: Family roles and costs",
+      "not on the board",
+      "4 (1%)",
+      "new"
+     ]
+    ],
+    "life goals": [
+     [
+      "Their own health and sanity (on the board)",
+      "1 (2%)",
+      "72 (27%)",
+      "#3 → #1"
+     ],
+     [
+      "Keep their own life, job and money (on the board)",
+      "3 (5%)",
+      "49 (18%)",
+      "#2 → #2"
+     ],
+     [
+      "Time and breaks for themselves (on the board)",
+      "4 (7%)",
+      "19 (7%)",
+      "#1 → #3"
+     ],
+     [
+      "NEW from Reddit: Protect their own marriage, children and family",
+      "not on the board",
+      "9 (3%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: Not be alone, and be seen",
+      "not on the board",
+      "5 (2%)",
+      "new"
+     ],
+     [
+      "NEW from Reddit: A life and a home after caregiving",
+      "not on the board",
+      "4 (1%)",
+      "new"
+     ]
+    ]
+   }
+  },
+  "Audience 2: spouse or partner": {
+   "n_reddit": 35,
+   "n_forum": 54,
+   "tables": {
+    "motivations": [
+     [
+      "Love, loyalty and promises (on the board)",
+      "9 (17%)",
+      "15 (43%)",
+      "#2 → #1"
+     ],
+     [
+      "Keep them safe and comfortable, spare them suffering (on the board)",
+      "11 (20%)",
+      "3 (9%)",
+      "#1 → #2"
+     ],
+     [
+      "Do the right thing, avoid blame or guilt (on the board)",
+      "1 (2%)",
+      "0 (0%)",
+      "not seen on Reddit"
+     ],
+     [
+      "Keep them at home and in control of their own life (on the board)",
+      "4 (7%)",
+      "0 (0%)",
+      "not seen on Reddit"
+     ]
+    ],
+    "situational goals": [
+     [
+      "Understand what is happening and what to do (not on this audience's board)",
+      "not on the board",
+      "9 (26%)",
+      "new → #1"
+     ],
+     [
+      "Get help, relief or services (on the board)",
+      "6 (11%)",
+      "5 (14%)",
+      "#2 → #2"
+     ],
+     [
+      "Manage money and legal affairs (not on this audience's board)",
+      "not on the board",
+      "2 (6%)",
+      "new → #3"
+     ],
+     [
+      "Find, choose or pay for a place (on the board)",
+      "7 (13%)",
+      "1 (3%)",
+      "#1 → #4"
+     ],
+     [
+      "Keep them safe and watch over them (on the board)",
+      "5 (9%)",
+      "1 (3%)",
+      "#3 → #5"
+     ],
+     [
+      "Medicines (on the board)",
+      "1 (2%)",
+      "1 (3%)",
+      "#4 → #6"
+     ]
+    ],
+    "life goals": [
+     [
+      "Their own health and sanity (on the board)",
+      "7 (13%)",
+      "15 (43%)",
+      "#1 → #1"
+     ],
+     [
+      "Keep their own life, job and money (on the board)",
+      "4 (7%)",
+      "9 (26%)",
+      "#2 → #2"
+     ],
+     [
+      "Time and breaks for themselves (on the board)",
+      "2 (4%)",
+      "4 (11%)",
+      "#3 → #3"
+     ],
+     [
+      "NEW from Reddit: Companionship, intimacy and someone who understands",
+      "not on the board",
+      "11 (31%)",
+      "new"
+     ]
+    ]
+   }
+  }
+ },
+ "a1uc": [
+  [
+   "Use case on the board",
+   "Forum threads (of 55 parent threads, as on the board; % = count ÷ 55)",
+   "Reddit posts about a parent (269): main / anywhere",
+   "What Reddit shows"
+  ],
+  [
+   "Exhaustion, guilt and no life of their own",
+   "23 of 55",
+   "Burnout 50 (19%) / 138 (51%); the caregiver's own life 15 (6%) / 72 (27%)",
+   "Forums 42%, Reddit 51% mention it. Top in both."
+  ],
+  [
+   "Dementia behavior and hard conversations",
+   "14 of 55",
+   "27 (10%) / 72 (27%)",
+   "Forums 25%, Reddit 27%. Same."
+  ],
+  [
+   "Money, legal papers and facility bills",
+   "11 of 55",
+   "21 (8%) / 86 (32%)",
+   "Forums 20%, Reddit 32%. Bigger on Reddit, and the second most mentioned theme for parents."
+  ],
+  [
+   "Relatives don't help, or block each other",
+   "10 of 55",
+   "15 (6%) / 63 (23%)",
+   "Forums 18%, Reddit 23%. Similar. Rarely the main topic."
+  ],
+  [
+   "Medicines, eating and personal care",
+   "8 of 55",
+   "Medications 5 (2%) / 37 (14%); hands-on personal care as main topic 11",
+   "Forums 15%; Reddit medications 14%. Similar. Hands-on personal care (incontinence, bedbound care, supplies) also shows up on its own."
+  ],
+  [
+   "Choosing and arranging a place for them",
+   "6 of 55",
+   "24 (9%) / 68 (25%)",
+   "Forums 11%, Reddit 25%. Bigger on Reddit."
+  ],
+  [
+   "Staying safe at home",
+   "6 of 55",
+   "11 (4%) / 57 (21%)",
+   "Forums 11%, Reddit 21%. Bigger on Reddit."
+  ],
+  [
+   "Getting answers from doctors and hospitals",
+   "4 of 55",
+   "7 (3%) / 62 (23%)",
+   "Forums 7%, Reddit 23%. Much bigger on Reddit."
+  ],
+  [
+   "Being far away and not knowing what is happening",
+   "2 of 55",
+   "2 (1%) / 29 (11%)",
+   "Forums 4%, Reddit 11%. Small in both."
+  ],
+  [
+   "NEW (not a use case on the board yet): The parent refuses help",
+   "Not a use case (forums: 3 of 117 threads as main topic)",
+   "29 (11%) / 63 (23%)",
+   "New: after burnout, the most common main topic among the named themes in parent posts. Open for the owner to add as a use case."
+  ]
+ ],
+ "a2uc": [
+  [
+   "Use case on the board",
+   "Forum threads (of 54 spouse threads, as on the board; % = count ÷ 54)",
+   "Reddit posts about a spouse (35): main / anywhere",
+   "What Reddit shows (small sample)"
+  ],
+  [
+   "Exhaustion, loneliness and own health",
+   "22 of 54 (41%)",
+   "Burnout 19 (54%) / 25 (71%); own life 3 (9%) / 16 (46%)",
+   "Top in both."
+  ],
+  [
+   "Dementia behavior and hard conversations",
+   "18 of 54 (33%)",
+   "1 (3%) / 4 (11%)",
+   "Much lower on Reddit. The forum spouses came mostly from a dementia community (ALZConnected)."
+  ],
+  [
+   "Personal care and medicines",
+   "12 of 54 (22%)",
+   "Medications 0 (0%) / 7 (20%)",
+   "Similar."
+  ],
+  [
+   "Safety when they are alone or out",
+   "9 of 54 (17%)",
+   "0 (0%) / 2 (6%)",
+   "Lower on Reddit."
+  ],
+  [
+   "Aides, hospice and trusting others",
+   "8 of 54 (15%)",
+   "1 (3%) / 3 (9%)",
+   "Similar or lower."
+  ],
+  [
+   "Placing them and care costs",
+   "7 of 54 (13%)",
+   "0 (0%) / 3 (9%)",
+   "Similar or lower."
+  ],
+  [
+   "Money, scams and bills",
+   "6 of 54 (11%)",
+   "2 (6%) / 10 (29%)",
+   "Higher on Reddit."
+  ],
+  [
+   "Diagnosis and doctor delays",
+   "4 of 54 (7%)",
+   "1 (3%) / 12 (34%)",
+   "Much higher on Reddit."
+  ],
+  [
+   "Relatives and others not helping or criticizing",
+   "3 of 54 (6%)",
+   "0 (0%) / 4 (11%)",
+   "Similar."
+  ]
+ ],
+ "segments": "GEOGRAPHIC\n• Long-distance caregiving: 2 (0%) / 33 (8%) of Reddit caregiver posts (forums: 1 (1%) / 8 (7%) of 117). Both sources agree it's a small share.\n\nBEHAVIORAL\n• The person refuses help (won't accept aides, moving, doctors or devices): 38 (9%) / 83 (20%). Forums: 3 (3%) / 12 (10%). Much bigger on Reddit.\n• Family coordination and siblings: 17 (4%) / 97 (24%). Forums: 7 (6%) / 28 (24%). Same share mentioned.\n• Hands-on personal care (incontinence, bedbound care, wound care, supplies): 17 (4%) posts as main topic. Not a forum theme.\n• Tools families name (672 Reddit posts about tools, 2026-11-03): group chats and texts, paper notebooks, calendars, spreadsheets and pill boxes come up far more than any caregiving app.\n\nDEMOGRAPHIC\n• Who is cared for (Reddit sample): parent 269 (65%), other relative 68 (17%), spouse or partner 35 (8%), paid client 11 (3%), child 3 (1%), unclear 26 (6%). Forums: parent 55, spouse or partner 54 of 117. Reddit is mostly adult children caring for a parent (Audience 1). Spouse posts (Audience 2) are a small share on Reddit.\n\nSOCIOECONOMIC\n• The caregiver's own life (job, money, health): 20 (5%) / 113 (27%). Forums: 1 (1%) / 30 (26%).\n• Money, insurance and legal papers: 32 (8%) / 117 (28%). Forums: 10 (9%) / 39 (33%).",
+ "limits": "LIMITS: one reader coded each post once, and no person double-checked. Posts only, no comments. The forum and Reddit readers differ, so compare order, not exact shares. Audience 2 has 35 Reddit posts. The 'NEW' groups are Claude's grouping of the readers' notes (docs/sources/market-analysis-3/goals/group_new.py). Data: docs/sources/market-analysis-3/goals/ (GOALS-INSTRUCTIONS.md, codes-1..3.json, count_goals.py, build_audience.py). Nothing on the page was chosen or removed; adding or moving anything is the owner's call."
+}

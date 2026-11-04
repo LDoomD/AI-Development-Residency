@@ -343,3 +343,19 @@ Why: the owner asked for more qualitative evidence for the empty and vague boxes
 - `competitive-analysis-2/themes/*.json`: the themes counted from every pack item read in full (577 caregiving items kept). Rules: `READER-INSTRUCTIONS.md`. Check: `verify_themes.py`.
 - `competitive-analysis-2/facts/*.json`: company answers drawn from every saved company page (`competitors/`, `competitors-2/`, app store listings, `docs/company-funding.md`). Check: `verify_facts.py`.
 - `competitive-analysis-2/answers-v2.json`, `figma-grid.json`: the table text. Checks: `audit_answers.py`, `audit_gaps_uvo.py` and Figma hash matches (220 of 220 table cells, 42 of 42 gaps and opportunities texts). Readable copy: `docs/competitive-analysis-2.md`.
+- `competitive-analysis-2/feature-analysis-3/`: Feature Comparison Analysis 3 in the teacher's format. `theme-to-feature.json` (which counted theme belongs to which feature), `build_howwell.py` → `howwell-counts.json`, `fa3-text.json` (table text), `assemble_fa3.py` (builds `figma-fa3.json` and checks every number). Readable copy: `docs/feature-analysis-3.md`. Figma section `2584:10359`, hash-matched.
+
+## 2026-11-04 additions: market analysis updated with Reddit
+
+- `market-analysis-3/sample/`: random sample of 500 Reddit posts (no keyword filter) drawn by `build_sample.py` from the Arctic Shift downloads in `reddit/arctic-shift-2026-11-03/` (seed 20261104). No new web fetching.
+- `market-analysis-3/CODING-INSTRUCTIONS.md`, `codes/part-1..4.json`: each post coded with the 14 forum themes (Claude readers, one pass, quotes checked word for word).
+- `market-analysis-3/count_themes.py` → `reddit-sample-theme-counts.json`; `other_groups.py` → `other-groups.json`; `count_by_audience.py` → `reddit-sample-by-audience.json`.
+- `market-analysis-3/ma3-text.json` → `build_ma3.py` → `ma3-filled.json` (every number filled from the counts). Readable copy: `docs/market-analysis-3.md`. Figma: market page section `2598:10950`, Audience page section `2605:638`. Hash-checked.
+
+## 2026-11-04: Audience page in the teacher's format (`market-analysis-3/audience-v2/`)
+
+- `build_packs.py` → `pack-1..6.json`: the 304 Reddit parent and spouse posts (from `goals/posts-*.json`) and the 109 forum threads the audience page was built from (full text from `forums/`).
+- `MOMENTS-INSTRUCTIONS.md` → `codes-1..6.json`: for each problem in each item, when it happens, what the writer wants, and one exact quote (Claude readers, one pass). `verify_codes.py` checks the quotes and names (777 codes, 0 problems).
+- `count_moments.py` → `moments-by-usecase.json`. `GROUPING-INSTRUCTIONS.md` → `groups-A1.json` and `groups-A2.json`.
+- `uc-A1.json` and `uc-A2.json` hold the table rows. `check_uc.py` checks that every line is a top group, in order. `boxes.json` holds the box lists. `check_boxes.py` checks them against `goals/audience-tables.json`.
+- `TABLE-RULES.md`: the readability and accessibility rules. `figma-teacher-format.json`: the data used in Figma section 2623:76. Readable copy: `docs/audience-teacher-format-2026-11-04.md`.

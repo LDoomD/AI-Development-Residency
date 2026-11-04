@@ -1,0 +1,605 @@
+[
+ {
+  "id": "agi-498174",
+  "codes": [
+   {
+    "use_case": "Relatives don't help, or block each other",
+    "moment": "When a sibling caregiver stops sending mail and spending receipts",
+    "want": "Sibling to cooperate and share bills and receipts",
+    "quote": "Paul refuses to send me any of his past mail (which would include any outstanding bills), or any of his spending receipts"
+   },
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "When unknown bills and unagreed spending pile up",
+    "want": "Know every bill and keep spending to an agreed budget",
+    "quote": "I pay all of the bills online (that I am aware of)"
+   },
+   {
+    "use_case": "Being far away and not knowing what is happening",
+    "moment": "While handling the parent's affairs from hours away",
+    "want": "Know what is going on in the parent's home",
+    "quote": "I live a few hours away from him"
+   }
+  ]
+ },
+ {
+  "id": "agi-498946",
+  "codes": [
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "After the person holding legal authority took the parent's money and home",
+    "want": "Someone official to investigate and get justice",
+    "quote": "She took everything from him even his home."
+   },
+   {
+    "use_case": "Relatives don't help, or block each other",
+    "moment": "When the person with legal authority gives no help with care",
+    "want": "",
+    "quote": "She has not been to one doctors appointment. I take care of all of that. I am the sole caregiver. I get no help."
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "While fighting alone for months to find any help",
+    "want": "Help to get through each day",
+    "quote": "The mental and emotional damage to myself is immense."
+   }
+  ]
+ },
+ {
+  "id": "agi-499305",
+  "codes": [
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "Every week when driving the parent to errands and appointments",
+    "want": "Freedom to travel and not feel trapped",
+    "quote": "I am very resentful of the 4 hours a week that I run her around or when other appointments come up."
+   },
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "After home care services were denied because of income",
+    "want": "Affordable paid help for the parent at home",
+    "quote": "I had convinced her to accept an assessment for home care services who denied her based on her income."
+   },
+   {
+    "use_case": "The parent refuses help",
+    "moment": "When a move to assisted living is raised",
+    "want": "Parent to accept help beyond the caregiver",
+    "quote": "She is very resistant to assisted living that we can’t afford anyway"
+   }
+  ]
+ },
+ {
+  "id": "agi-499616",
+  "codes": []
+ },
+ {
+  "id": "agi-499712",
+  "codes": [
+   {
+    "use_case": "Being far away and not knowing what is happening",
+    "moment": "While handling the parent's affairs from out of state",
+    "want": "Complete information from people near the parent",
+    "quote": "Basically everything is in disarray due to the distance and communication problems and lack of communication from people close to her."
+   },
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "When an inherited retirement account causes trouble with Medicaid",
+    "want": "This paperwork nightmare to come to an end",
+    "quote": "currently I now have an IRA problem that was left to her as a beneficiary"
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "After months of sorting out the parent's paperwork alone",
+    "want": "A break from being the one in charge",
+    "quote": "I need a break as it’s affecting my physical and mental health."
+   },
+   {
+    "use_case": "Getting into the parent's accounts (bank, insurance, phone, portals, passwords)",
+    "moment": "When dealing with the parent's bank from a distance",
+    "want": "",
+    "quote": "bank problems and my mother refusing to go to the bank"
+   }
+  ]
+ },
+ {
+  "id": "agi-499762",
+  "codes": [
+   {
+    "use_case": "Choosing and arranging a place for them",
+    "moment": "After a hospital stay when no rehab place will accept her",
+    "want": "A rehab or care place that will take her",
+    "quote": "So far I haven't even found a nursing home with physical therapy options that will accept her having medicare, all are refusing her."
+   },
+   {
+    "use_case": "Getting answers from doctors and hospitals",
+    "moment": "While the parent is in the hospital before discharge",
+    "want": "A straight answer from the hospital",
+    "quote": "I can't get the hospital to tell me a straight answer."
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "During the parent's sudden hospital stay",
+    "want": "Someone to ask and cover for own appointments",
+    "quote": "I am sleep-deprived, have no one to ask, and am honestly in full despair."
+   }
+  ]
+ },
+ {
+  "id": "agi-499798",
+  "codes": [
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "After moving the parent into a nursing home",
+    "want": "To stop feeling guilty about the placement",
+    "quote": "Regardless of these realities, I still feel guilty about placing her in a nursing home."
+   },
+   {
+    "use_case": "Choosing and arranging a place for them",
+    "moment": "During a short hospital stay used to arrange placement",
+    "want": "",
+    "quote": "I used one of her short hospital stays to discharge her to a nursing home (a good one)."
+   },
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When the parent says she was tricked into the home",
+    "want": "",
+    "quote": "Sometimes she says I \"tricked\" her into being there."
+   },
+   {
+    "use_case": "Medicines, eating and personal care",
+    "moment": "When the facility avoids anxiety medicines seen as restraints",
+    "want": "The right medicine for the parent's anxiety",
+    "quote": "They have her on depakote. Not sure that’s the best thing but the nursing home worries about using medications that are considered “restraints”."
+   }
+  ]
+ },
+ {
+  "id": "agi-499818",
+  "codes": [
+   {
+    "use_case": "Relatives don't help, or block each other",
+    "moment": "After a sibling with legal authority bans visits",
+    "want": "To visit the parent who wants to see them",
+    "quote": "told me one day not to come to see my mom anymore that she had POA"
+   }
+  ]
+ },
+ {
+  "id": "agi-499890",
+  "codes": [
+   {
+    "use_case": "Choosing and arranging a place for them",
+    "moment": "When the parent should no longer live alone",
+    "want": "A care home with company, good food and activities",
+    "quote": "I, along with his doctor, believe he should not be living alone and should be somewhere with social interaction, good food and stuff to do."
+   },
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "While working out what care the parent can afford",
+    "want": "Know what the parent can afford and for how long",
+    "quote": "Who is the best person to help me with his financials and what I can do with them to provide a stream of income"
+   }
+  ]
+ },
+ {
+  "id": "alz-76894",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "Every day when the parent calls family dozens of times",
+    "want": "Calls to stop and the parent's anxiety to ease",
+    "quote": "my sister received 30 calls on Tuesday and by early afternoon yesterday had 15"
+   },
+   {
+    "use_case": "Relatives don't help, or block each other",
+    "moment": "When siblings disagree on taking away the parent's phone",
+    "want": "Siblings to agree on one decision",
+    "quote": "We have a family split 2 to 2 on removing the phone."
+   }
+  ]
+ },
+ {
+  "id": "alz-77349",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When the parent talks with eyes closed in the afternoon",
+    "want": "The parent to feel comfortable with little anxiety",
+    "quote": "My mom has entered a phase where she will “talk” to me with her eyes closed."
+   }
+  ]
+ },
+ {
+  "id": "alz-77382",
+  "codes": [
+   {
+    "use_case": "Staying safe at home",
+    "moment": "When the parent in a wheelchair keeps trying to stand and falls",
+    "want": "Keep the parent seated and stop the falls",
+    "quote": "My mom has recently become wheelchair bound and keeps attempting to stand or walk and falls."
+   }
+  ]
+ },
+ {
+  "id": "alz-77393",
+  "codes": [
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "After the parent's recent dementia diagnosis",
+    "want": "Advice on how to cope",
+    "quote": "This has really affected me not in a good way."
+   }
+  ]
+ },
+ {
+  "id": "alz-77398",
+  "codes": [
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "While working and looking for caregiver support",
+    "want": "An evening or weekend support group for adult children",
+    "quote": "I have been looking for a support group, but they are all during the day geared toward retired care gives."
+   }
+  ]
+ },
+ {
+  "id": "alz-77404",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When the husband withdraws and stops wanting to do things together",
+    "want": "To understand whether the change comes from the illness",
+    "quote": "Increasingly, he has no interest in doing anything together."
+   }
+  ]
+ },
+ {
+  "id": "alz-77417",
+  "codes": [
+   {
+    "use_case": "Medicines, eating and personal care",
+    "moment": "Every evening when the parent forgets the evening pills",
+    "want": "An alert when the evening pills are not taken",
+    "quote": "Looking for a pill box or dispenser that will sense if it's been picked up or opened or similar, and alert a caregiver if it has not."
+   },
+   {
+    "use_case": "Staying safe at home",
+    "moment": "When the parent living alone leaves the stove on",
+    "want": "Lower the worst safety risks while other plans fall into place",
+    "quote": "I installed wifi smart stove knobs on his stove because he was  occasionally leaving it on and burning pans."
+   }
+  ]
+ },
+ {
+  "id": "alz-77430",
+  "codes": [
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "When the parent orders products online and forgets doing it",
+    "want": "Limit charges and stop the scams",
+    "quote": "she often orders vitamins and other brain supplements—getting scammed—but doesn’t remember doing it"
+   }
+  ]
+ },
+ {
+  "id": "alz-77444",
+  "codes": [
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "During heated daily conflicts with the parent",
+    "want": "Time for own family and stable mental health",
+    "quote": "I'm so angry that she's ruining my life and destroying my mental health that I've worked so hard to stabilize."
+   },
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When early dementia makes the parent self-centered",
+    "want": "To stop being angry at the parent",
+    "quote": "She's still in fairly early stages of Alzheimer's so in some ways she's really still so much herself - but changing and so incredibly self-centered and frustrating."
+   }
+  ]
+ },
+ {
+  "id": "alz-77467",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "During visits when the parent asks the same questions nonstop",
+    "want": "",
+    "quote": "His short term memory is gone. The repetitive questions are nearly non stop."
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "After hard visits, with no family or friends to lean on",
+    "want": "Someone to lean on",
+    "quote": "And no, I've got no family support or anyone to lean on except his other caregivers"
+   },
+   {
+    "use_case": "Medicines, eating and personal care",
+    "moment": "When setting up the parent's weekly medicines",
+    "want": "",
+    "quote": "he will only take meds he's told are from the VA"
+   }
+  ]
+ },
+ {
+  "id": "agi-499378",
+  "codes": [
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "Every day when fighting the partner to take many pills",
+    "want": "Fewer pills, focused on quality of life",
+    "quote": "fighting him about taking the 8-15 pills daily, I have started asking about quality of life rather than quantity"
+   },
+   {
+    "use_case": "Safety when they are alone or out",
+    "moment": "While the caregiver sleeps and the diabetic partner sneaks sweets",
+    "want": "",
+    "quote": "If I happen to fall asleep, hubby, a type 2 diabetic will sneak ice cream and anything sweet he can find."
+   },
+   {
+    "use_case": "Diagnosis and doctor delays",
+    "moment": "When doctors order frequent visits that ignore their situation",
+    "want": "Doctors to factor in the whole situation",
+    "quote": "I feel like Primary Care and many other doctors only treat by looking at a sheet and giving everyone the same tests"
+   },
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "When told to walk with the partner despite own injury",
+    "want": "",
+    "quote": "They want him to exercise, but I cannot go for walks with him due to my rollator and bad knee"
+   },
+   {
+    "use_case": "Money, scams and bills",
+    "moment": "When relying on food pantries for the household's food",
+    "want": "",
+    "quote": "We are on free food from local pantries, which results in a high number of carbs"
+   }
+  ]
+ },
+ {
+  "id": "agi-499873",
+  "codes": [
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "When the partner refuses to change soiled pants",
+    "want": "",
+    "quote": "Dementia patient who doesn’t want to change soiled pants."
+   }
+  ]
+ },
+ {
+  "id": "alz-77086",
+  "codes": []
+ },
+ {
+  "id": "alz-77284",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "While the partner needs constant activity all day",
+    "want": "Ideas for keeping the partner occupied",
+    "quote": "She needs to be doing something all the time and expects me to provide her with something to do."
+   },
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "After daycare ends each afternoon and on weekends",
+    "want": "More relief than daycare gives",
+    "quote": "I couldn't survive without this help but it's not enough."
+   },
+   {
+    "use_case": "Placing them and care costs",
+    "moment": "When weighing memory care against daycare and home care",
+    "want": "To know if memory care would be better for her",
+    "quote": "I'm wondering if she would be better off living at a memory care facility"
+   }
+  ]
+ },
+ {
+  "id": "alz-77347",
+  "codes": [
+   {
+    "use_case": "Aides, hospice and trusting others",
+    "moment": "When hospice workers first arrive at the home",
+    "want": "Hospice that gives the care that was promised",
+    "quote": "Hospice was a bust. We requested care for midday to afternoon visits and to have English-speaking caretakers."
+   },
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "When the partner will not wake up for daily care",
+    "want": "",
+    "quote": "she would not wake up for daily care"
+   }
+  ]
+ },
+ {
+  "id": "alz-77364",
+  "codes": [
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "When planning to visit the partner in memory care",
+    "want": "To understand why visiting feels impossible",
+    "quote": "I cannot seem to force myself to visit with her, and I couldn’t, even to save my life, say why."
+   },
+   {
+    "use_case": "Placing them and care costs",
+    "moment": "After the first facility left the partner in dirty clothes all day",
+    "want": "A facility that keeps up good care",
+    "quote": "When they started leaving her in her room all day in the same dirty clothes, I found another place as quickly as I could."
+   }
+  ]
+ },
+ {
+  "id": "alz-77374",
+  "codes": [
+   {
+    "use_case": "Relatives and others not helping or criticizing",
+    "moment": "When a relative calls to criticize the partner's clothes in care",
+    "want": "Relatives to accept hygiene over appearance",
+    "quote": "She was upset that my DH did not have a polo shirt and jeans on."
+   }
+  ]
+ },
+ {
+  "id": "alz-77377",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "Every day when the partner asks the same question repeatedly",
+    "want": "To know how to respond",
+    "quote": "How should I respond to the same question multiple times everyday."
+   }
+  ]
+ },
+ {
+  "id": "alz-77380",
+  "codes": [
+   {
+    "use_case": "Safety when they are alone or out",
+    "moment": "When the partner goes out walking alone",
+    "want": "A reliable way to track where he is",
+    "quote": "My husband likes to walk so I need a tracking device"
+   }
+  ]
+ },
+ {
+  "id": "alz-77390",
+  "codes": [
+   {
+    "use_case": "The partner refuses help",
+    "moment": "When a move away from the remote home is raised",
+    "want": "To agree on a plan together",
+    "quote": "But he does not want to leave."
+   },
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "While deciding whether to move, in poor health herself",
+    "want": "To be closer to doctors and services",
+    "quote": "I'm a little older and not in the best of health either."
+   },
+   {
+    "use_case": "Diagnosis and doctor delays",
+    "moment": "After testing, while waiting for treatment approval",
+    "want": "",
+    "quote": "now it is just waiting for the review board and insurance to give the final approval"
+   },
+   {
+    "use_case": "Money, scams and bills",
+    "moment": "When planning to sell the home and buy another",
+    "want": "To avoid paying a fortune in loans",
+    "quote": "A big concern about all this is the coordination of selling and buying so that we aren't paying a fortune in loans."
+   }
+  ]
+ },
+ {
+  "id": "alz-77400",
+  "codes": [
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "After another family death brings back caregiving grief",
+    "want": "To know if it gets easier",
+    "quote": "I was finally feeling like there was life after dementia until my sister passed last week. The grief came flooding back."
+   }
+  ]
+ },
+ {
+  "id": "alz-77408",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When the partner tries to pick up patterns on surfaces",
+    "want": "To know if it is a concern",
+    "quote": "DH has been trying to pick up things that are only the pattern in either the floor, bedspread, or countertop."
+   }
+  ]
+ },
+ {
+  "id": "alz-77411",
+  "codes": [
+   {
+    "use_case": "Money, scams and bills",
+    "moment": "When the partner keeps making questionable financial decisions",
+    "want": "To take over the finances safely",
+    "quote": "He has been making very questionable financial decisions."
+   },
+   {
+    "use_case": "The partner refuses help",
+    "moment": "After diagnosis when the partner insists he is fine",
+    "want": "Partner to hand over control of finances",
+    "quote": "He refuses to give up control to me."
+   }
+  ]
+ },
+ {
+  "id": "alz-77427",
+  "codes": [
+   {
+    "use_case": "Relatives and others not helping or criticizing",
+    "moment": "When the partner's relatives degrade the caregiver",
+    "want": "Relatives to be supportive",
+    "quote": "the bigger problem for me is his daughter and exwife that have given me more grief than anyone else"
+   },
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "While caregiving with severe anxiety and depression",
+    "want": "Someone to talk to without judgement",
+    "quote": "someone I can talk to without judgement and willing to work WITH me to help with my severe anxiety and depression"
+   }
+  ]
+ },
+ {
+  "id": "alz-77437",
+  "codes": [
+   {
+    "use_case": "Safety when they are alone or out",
+    "moment": "When the partner drives and slows at green lights",
+    "want": "Everyone, including the grandchild, to be safe",
+    "quote": "I’ve been noticing when he drives he’s slowing down at all intersections even if the light is green."
+   },
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When it is time to tell family he should stop driving",
+    "want": "More time before the hard conversation",
+    "quote": "I'm so heartbroken that this might be a conversation we need to have quickly."
+   }
+  ]
+ },
+ {
+  "id": "alz-77449",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "Every day when the partner says she wants to go home",
+    "want": "New ideas to calm her",
+    "quote": "My wife, who has Alzheimer’s, is constantly saying she wants to go home (we are living at home)"
+   }
+  ]
+ },
+ {
+  "id": "alz-77462",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When correcting the partner's misuse of things at home",
+    "want": "To be able to communicate with her",
+    "quote": "Can't communicate at all."
+   }
+  ]
+ },
+ {
+  "id": "alz-77473",
+  "codes": [
+   {
+    "use_case": "Aides, hospice and trusting others",
+    "moment": "During the in-home hospice evaluation and signing",
+    "want": "",
+    "quote": "It was more emotional than I thought it was going to be."
+   },
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "When the partner stops eating, drinking and walking well",
+    "want": "",
+    "quote": "My DH has been having difficulty walking, getting up and down and barely speaking much and not eating or drinking well."
+   }
+  ]
+ }
+]

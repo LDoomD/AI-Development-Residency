@@ -1,0 +1,552 @@
+[
+ {
+  "id": "agi-498825",
+  "codes": [
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "When early signs of decline appear and bills start slipping",
+    "want": "Know which plans and services will cover his care",
+    "quote": "needs help with bills, rotting food in fridge, more forgetfulness. I know we need to find out what health/medicaid plans he has so we know what services will be covered."
+   }
+  ]
+ },
+ {
+  "id": "agi-499298",
+  "codes": [
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "While selling the parent's house and applying for Medicaid at once",
+    "want": "Less pressure to sign documents before understanding them",
+    "quote": "the financial dept where she is a resident had me signing documents to apply for medicaid right now, this minute"
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "After weeks of paperwork, house sale setbacks and a friend's death",
+    "want": "A few days away to rest and shut it out",
+    "quote": "I just want to go away for a few days even by myself and chill and shut some of this out."
+   }
+  ]
+ },
+ {
+  "id": "agi-499448",
+  "codes": [
+   {
+    "use_case": "Medicines, eating and personal care",
+    "moment": "Every night, when heavy urine soaks the diaper and bed by morning",
+    "want": "Keep her and the bed dry overnight without waking up",
+    "quote": "I use heavy absorbent diapers with an ultimate overnight pad. By 7 am she’s soaked and so is her bed."
+   }
+  ]
+ },
+ {
+  "id": "agi-499699",
+  "codes": [
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "While giving daily care to a parent who was emotionally distant",
+    "want": "To stop feeling resentful and not be judged",
+    "quote": "Right now I’m resentful and really don’t understand why I can’t get over it and just be there for her the way a daughter should be."
+   },
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When a stressor sets off repeated requests, worries and nagging",
+    "want": "",
+    "quote": "She’s constantly asking for the same things and states the same worries."
+   }
+  ]
+ },
+ {
+  "id": "agi-499761",
+  "codes": [
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "After a sudden move-in, while Medicaid waits on a co-POA problem",
+    "want": "Get the legal authority and Medicaid application sorted",
+    "quote": "It's been a month now and we still havent applied for Medicaid. We are waiting to speak to an attorney"
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "After a parent-in-law moves in suddenly following hospital discharge",
+    "want": "Know what their responsibility is and regain some control",
+    "quote": "I don't even know if I want to be a caregiver or have the ability to be. \nJust feels like I'm grasping at some kind of control."
+   }
+  ]
+ },
+ {
+  "id": "agi-499771",
+  "codes": [
+   {
+    "use_case": "Relatives don't help, or block each other",
+    "moment": "When siblings refuse help even after being begged",
+    "want": "Siblings who share the care",
+    "quote": "When I broke down and begged them to help me, younger sister told me, \"We all make our choices.\""
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "After years of caregiving since the parent's stroke",
+    "want": "The courage to stop caregiving",
+    "quote": "I am so tired of dealing with this for over 4 years since Mom's stroke. I wish I had the courage to stop caregiving"
+   }
+  ]
+ },
+ {
+  "id": "agi-499812",
+  "codes": []
+ },
+ {
+  "id": "agi-499852",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "At night when he sundowns badly and becomes aggressive",
+    "want": "",
+    "quote": "She is living with her grandpa, who has dementia and is sundowning VERY badly and becoming aggressive."
+   },
+   {
+    "use_case": "Staying safe at home",
+    "moment": "At night, to stop him hurting himself or leaving",
+    "want": "Him in a place with 24-hour care she can afford",
+    "quote": "She is forced to stay awake all night preventing him from hurting himself, hurting her cat, and leaving the house."
+   },
+   {
+    "use_case": "Relatives don't help, or block each other",
+    "moment": "When the relative holding POA refuses to act or answer",
+    "want": "The POA holder to take responsibility for care decisions",
+    "quote": "grandpa's POA is her uncle but he wants nothing to do with this situation and has practically abandoned her in this process"
+   },
+   {
+    "use_case": "Getting answers from doctors and hospitals",
+    "moment": "After the doctor's office promises a callback and goes silent",
+    "want": "The doctor's office to call back with advice",
+    "quote": "they said they would call back to help her but they have also gone missing and will no longer answer the phone"
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "While working full time and staying up all night watching him",
+    "want": "",
+    "quote": "My friend is at a loss, we are in our early 20s and we both no idea what to do and this is ruining her life"
+   }
+  ]
+ },
+ {
+  "id": "alz-76756",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "Every evening when sundowning brings hallucinations and repeated phrases",
+    "want": "Something that calms the episodes when reassurance and distraction fail",
+    "quote": "Lately, she has been suffering severely in the evenings with sundowning and hallucinations."
+   }
+  ]
+ },
+ {
+  "id": "alz-77129",
+  "codes": [
+   {
+    "use_case": "Staying safe at home",
+    "moment": "After the parent gets lost once on a daily walk alone",
+    "want": "Know if she can be left alone, and what risk is acceptable",
+    "quote": "Can she no longer be left alone? Do I hire a caregiver? For how many hours per day? Is it really \"that time\"?"
+   }
+  ]
+ },
+ {
+  "id": "alz-77373",
+  "codes": [
+   {
+    "use_case": "Money, legal papers and facility bills",
+    "moment": "While care costs drain both parents' savings toward running out",
+    "want": "Know the Medicaid process and when to get a lawyer",
+    "quote": "Both of these cost them individually about $5,000 - $7,000 per beyond their pension and Social Security income so the difference is coming out of their savings."
+   },
+   {
+    "use_case": "Choosing and arranging a place for them",
+    "moment": "While savings run down toward a Medicaid facility move",
+    "want": "Know when to start researching facilities and keep family input",
+    "quote": "how far in advance did you start researching facilities? Or does the family not really have any input once Medicaid is paying?"
+   }
+  ]
+ },
+ {
+  "id": "alz-77386",
+  "codes": [
+   {
+    "use_case": "Choosing and arranging a place for them",
+    "moment": "After a confused night changes which level of care is needed",
+    "want": "Respect her choice while still getting the move decided",
+    "quote": "I am struggling in giving her the respect of seeing her future home, and balancing that with getting the decisions made to move her"
+   },
+   {
+    "use_case": "The parent refuses help",
+    "moment": "When the parent tours a facility but says she is fine",
+    "want": "",
+    "quote": "But said there's no reason to move her, because she's doing just fine."
+   },
+   {
+    "use_case": "Relatives don't help, or block each other",
+    "moment": "While the far-away sibling only comments instead of helping",
+    "want": "",
+    "quote": "I have an older brother who lives 3 hours away and is present only enough to tell me \"this is so difficult, but what can we do?\""
+   }
+  ]
+ },
+ {
+  "id": "alz-77397",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When it is time to take car keys and credit card",
+    "want": "Help the other parent feel less guilty and act",
+    "quote": "Mom is feeling guilty about wanting to take dad's car keys and credit card away. She has been venting to me about this for awhile."
+   }
+  ]
+ },
+ {
+  "id": "alz-77401",
+  "codes": [
+   {
+    "use_case": "The parent refuses help",
+    "moment": "When the parent backs out a week before the move",
+    "want": "The parent to move somewhere safe",
+    "quote": "My Mom had agreed to move into AL and then turned around yesterday (about a week before it was time to move) and says 100% no way."
+   },
+   {
+    "use_case": "Relatives don't help, or block each other",
+    "moment": "When a sibling sides with the parent staying home",
+    "want": "The sibling to agree on how bad things really are",
+    "quote": "my sister says if she wants to stay, she should stay."
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "While caring for the parent instead of their own child's school years",
+    "want": "Help managing the grief, overwhelm and hopelessness",
+    "quote": "I'm supposed to be enjoying my one and only child's high school years and instead all I do is take care of my Mom and feel like dying."
+   },
+   {
+    "use_case": "Medicines, eating and personal care",
+    "moment": "When the caregiver is not there to make meals",
+    "want": "",
+    "quote": "Most days if I'm not there, she's eating cookies and chips and nothing else."
+   },
+   {
+    "use_case": "Choosing and arranging a place for them",
+    "moment": "When the facility will not accept the DPOA's signature",
+    "want": "Be able to sign the move-in papers as DPOA",
+    "quote": "I do have the DPOA but the community insists on having Mom sign it."
+   }
+  ]
+ },
+ {
+  "id": "alz-77413",
+  "codes": [
+   {
+    "use_case": "Medicines, eating and personal care",
+    "moment": "When seasons change and the parent in assisted living needs warmer clothes",
+    "want": "Let her still choose her own clothes",
+    "quote": "I tried buying her some warmer clothes and bringing them to her but I saw that she was frustrated because some fit, others did not"
+   },
+   {
+    "use_case": "Exhaustion, guilt and no life of their own",
+    "moment": "After the parent moves into a facility she does not want",
+    "want": "Know whether they are doing too much or the wrong thing",
+    "quote": "I am now questioning just about everything I do for my Mom."
+   }
+  ]
+ },
+ {
+  "id": "alz-77425",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "During visits when the parent in late stage barely speaks",
+    "want": "Know how to connect with her at this stage",
+    "quote": "She rarely speaks during visits. Her speech is mostly sounds"
+   }
+  ]
+ },
+ {
+  "id": "alz-77440",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "During the first night after moving into memory care",
+    "want": "It not to happen again",
+    "quote": "Then at about 10pm last night, he had a psychotic episode - was verbally abusive and physically violent."
+   }
+  ]
+ },
+ {
+  "id": "alz-77460",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "After the other parent dies and she keeps asking for him",
+    "want": "A way to answer that does not cause a meltdown",
+    "quote": "At first we were telling her that he died but that would cause a meltdown every time and it was heartbreaking."
+   }
+  ]
+ },
+ {
+  "id": "agi-499222",
+  "codes": [
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "While caring for partner and roommate and starting a job",
+    "want": "Feel supported and less tired",
+    "quote": "I just feel so angry and tired and unsupported all the time. I don’t have many friends and I struggle with making them."
+   },
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "After the partner gets a catheter and can barely move",
+    "want": "",
+    "quote": "I am constantly tired because, he just got a catheter. He hasn’t been able to move much for about two months"
+   }
+  ]
+ },
+ {
+  "id": "agi-499829",
+  "codes": [
+   {
+    "use_case": "Aides, hospice and trusting others",
+    "moment": "Every evening after the aide visits while the caregiver is at work",
+    "want": "Know how the visit actually went without guilty double-checking",
+    "quote": "Most days the aide comes while I am at work, and by evening I realize I honestly do not know how the visit went."
+   }
+  ]
+ },
+ {
+  "id": "alz-75137",
+  "codes": [
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "After the spouse dies, when grief returns months later",
+    "want": "To move through grief without losing her memories",
+    "quote": "The journey since has been difficult, painful, sleepless, guilt ridden, an abundance of tears at unexpected moments, lonely, oh so lonely"
+   }
+  ]
+ },
+ {
+  "id": "alz-77263",
+  "codes": [
+   {
+    "use_case": "Safety when they are alone or out",
+    "moment": "When out in public and he must use a restroom alone",
+    "want": "",
+    "quote": "there’s no family restroom and my DH has to go into the men’s room by himself"
+   },
+   {
+    "use_case": "Aides, hospice and trusting others",
+    "moment": "When thinking of leaving him with someone else for a few hours",
+    "want": "A helper patient enough to meet his specific needs",
+    "quote": "It’s hard for me to leave him in someone else’s care even for a few hours because I know his specific needs"
+   },
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "When he needs help dressing or rising and her body aches",
+    "want": "",
+    "quote": "he needs help getting up and my knees or back make me slow to stand and walk or bend down to help put on"
+   }
+  ]
+ },
+ {
+  "id": "alz-77326",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When the partner gets a once-easy household task wrong",
+    "want": "Know whether to point out mistakes without upsetting her",
+    "quote": "I am wondering whether this is something not to bother pointing out, as this tends to provoke a range of emotions, from irritation to anger."
+   }
+  ]
+ },
+ {
+  "id": "alz-77354",
+  "codes": [
+   {
+    "use_case": "Placing them and care costs",
+    "moment": "When thinking about placing the spouse while he still knows her",
+    "want": "To stop feeling like an awful person for wanting it",
+    "quote": "When I think about placing my DH into some level of care facility these thoughts come to mind:"
+   }
+  ]
+ },
+ {
+  "id": "alz-77372",
+  "codes": [
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "When the specialist asks for daily blood pressure readings at home",
+    "want": "A small device that sends readings to all her doctors",
+    "quote": "her cardiologist wants her to use a BP monitor for daily or twice daily reads since her BPs are trending higher. Their office recommended \"any home device.\""
+   }
+  ]
+ },
+ {
+  "id": "alz-77376",
+  "codes": [
+   {
+    "use_case": "The partner refuses help",
+    "moment": "When the caregiver needs someone to stay so they can leave",
+    "want": "Bring in a companion without upsetting her",
+    "quote": "how to you get someone in to spend time with her so I can leave her alone?? The fact that I would suggest it would upset her"
+   }
+  ]
+ },
+ {
+  "id": "alz-77379",
+  "codes": [
+   {
+    "use_case": "Safety when they are alone or out",
+    "moment": "While she helps cook and does something unsafe in the kitchen",
+    "want": "",
+    "quote": "Last night she tried to do something while helping to cook dinner that was a clear fire hazard"
+   },
+   {
+    "use_case": "Money, scams and bills",
+    "moment": "After she shops online and buys far more than she meant",
+    "want": "",
+    "quote": "She bought \"one or two things\" on TEMU the other day...12 things totaling over $200."
+   },
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "After a confusing appointment when she gets stuck on a worry",
+    "want": "",
+    "quote": "it took a few days of answering those questions/concerns over and over before she stopped asking about it."
+   },
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "While adjusting to a new early-onset diagnosis with three kids",
+    "want": "Somewhere to vent and be heard",
+    "quote": "I don't really have anywhere else to vent. Thank you for listening."
+   }
+  ]
+ },
+ {
+  "id": "alz-77383",
+  "codes": [
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "After a recent diagnosis, while working full time with no family nearby",
+    "want": "",
+    "quote": "it is non stop on my side and it drains me to know end.  I work full time and it is just me.  No family around this area."
+   }
+  ]
+ },
+ {
+  "id": "alz-77395",
+  "codes": [
+   {
+    "use_case": "Aides, hospice and trusting others",
+    "moment": "After the paid caregiver stops showing up without notice",
+    "want": "The same trusted caregiver every time, found through people they know",
+    "quote": "one day didn’t show up with no phone call or anything to alert us to her quitting. Then wouldn’t return my call."
+   }
+  ]
+ },
+ {
+  "id": "alz-77407",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "When anxiety and outbursts grow and non-drug methods stop working",
+    "want": "Get her anxiety and agitation under control",
+    "quote": "Her anxiety/ agitation/ emotional outbursts and general \"altered states\" are recently getting more pronounced."
+   },
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "When a new calming medicine is about to be prescribed",
+    "want": "Ways to get her to take the medicine",
+    "quote": "Getting the meds into her will likely be yet another new hurdle."
+   },
+   {
+    "use_case": "Exhaustion, loneliness and own health",
+    "moment": "When the caregiver needs own appointments or a break",
+    "want": "Time away for own doctor visits and a mental health break",
+    "quote": "I'm finding it really difficult to leave my DW to get a haircut, attend to car repairs/ maintenance, go to my own dr's & dentists appts."
+   },
+   {
+    "use_case": "Safety when they are alone or out",
+    "moment": "After the caregiver leaves the house for a few minutes",
+    "want": "",
+    "quote": "I'm still worried about her safety when I'm away as well as her frantic phone calls minutes after I leave"
+   }
+  ]
+ },
+ {
+  "id": "alz-77410",
+  "codes": [
+   {
+    "use_case": "Safety when they are alone or out",
+    "moment": "When out somewhere and he goes into a public restroom alone",
+    "want": "",
+    "quote": "lately he gets confused when he goes into the men’s room when we’re out somewhere. There are too many doors"
+   },
+   {
+    "use_case": "Personal care and medicines",
+    "moment": "Every day when he needs help dressing and walking",
+    "want": "",
+    "quote": "He needs help dressing and a hand to hold when walking because he loses his balance sometimes"
+   },
+   {
+    "use_case": "Aides, hospice and trusting others",
+    "moment": "When considering leaving him with another helper for a few hours",
+    "want": "A helper who is patient and calm with him",
+    "quote": "whoever helps him if I’m not around needs to be patient and not a bit irritated or nervous"
+   }
+  ]
+ },
+ {
+  "id": "alz-77424",
+  "codes": [
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "During a sudden blood pressure swing when he describes leaving his body",
+    "want": "Know if others have seen this happen",
+    "quote": "he said he was outside his body standing in corner looking into a painting"
+   }
+  ]
+ },
+ {
+  "id": "alz-77436",
+  "codes": [
+   {
+    "use_case": "Aides, hospice and trusting others",
+    "moment": "After the admissions nurse's exam moves care into hospice",
+    "want": "",
+    "quote": "After extensive visit and exam with admissions nurse, we went into hospice mode."
+   }
+  ]
+ },
+ {
+  "id": "alz-77448",
+  "codes": [
+   {
+    "use_case": "Aides, hospice and trusting others",
+    "moment": "When the neurologist suggests a hospice evaluation after recent changes",
+    "want": "Know what to expect and how hospice differs from palliative care",
+    "quote": "Recently, she has had some changes that has led her neurologist to suggesting we get a hospice evaluation."
+   }
+  ]
+ },
+ {
+  "id": "alz-77457",
+  "codes": [
+   {
+    "use_case": "The partner refuses help",
+    "moment": "When asking about medicines or giving daily reminders",
+    "want": "Check on her without causing offense",
+    "quote": "She is determined to stay independent and takes offense to any questions or reminders about medications and other normal daily questions or reminders."
+   },
+   {
+    "use_case": "Dementia behavior and hard conversations",
+    "moment": "During a rough talk when she says he is a bad caregiver",
+    "want": "Find reactions that calm things between them",
+    "quote": "We just cannot get along, and I can’t find reactions or lack of reactions that work with her."
+   }
+  ]
+ },
+ {
+  "id": "alz-77471",
+  "codes": []
+ }
+]

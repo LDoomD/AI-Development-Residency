@@ -1,0 +1,323 @@
+{
+ "how": "Market analysis updates, 3rd Version (2026-11-04). {Theme name} placeholders are filled by build_ma3.py from reddit-sample-theme-counts.json as 'main (main%) / anywhere (anywhere%) of N caregiver posts'. Forum numbers are copied from docs/community-voice-findings.md (117 caregiving threads). Reddit tool-post numbers are from docs/reddit-caregiver-findings-2026-11-03.md (672 posts). App-review and national numbers are copied from the Top four problems 2nd Version and Scoring 3rd Version sections, where their sources are given.",
+ "top_title": "TOP PROBLEMS 3rd Version: all sources side by side (2026-11-04)",
+ "top_intro": "The Top four problems 2nd Version is unchanged. That version was built from forums, YouTube and papers, and said \"Reddit was blocked.\" This version adds two kinds of Reddit research: (1) a random sample of 500 posts with no keyword filter, coded with the same 14 themes as the forum research, so the numbers can be compared ({N} were written by caregivers), and (2) the 672 caregiver posts about tools and needs from 2026-11-03. Numbers read as main topic / mentioned anywhere. Not a ranking and not a choice: the owner picks the problem.",
+ "top_columns": [
+  "Problem",
+  "Forums (117 caregiving threads)",
+  "Reddit random sample ({N} caregiver posts)",
+  "Reddit posts about tools and needs (672)",
+  "App reviews and national data",
+  "What changed from the 2nd Version"
+ ],
+ "top_rows": [
+  [
+   "1. Burnout, guilt, isolation, grief",
+   "23 (20%) / 50 (43%)",
+   "{Burnout, guilt, isolation, grief}",
+   "Doing it alone, family won't help 110; burnout with no one who understands 30; no respite 16",
+   "Not a topic in app reviews. AARP/NAC 2025: 24% feel alone; 30% want help managing stress (p.53). Alzheimer's Association 2026: 59% of dementia caregivers report high emotional stress (p.55).",
+   "Confirmed as the top problem in every source. On Reddit it's the main topic of 1 in 4 posts and comes up in half."
+  ],
+  [
+   "2. Money, accounts and legal papers",
+   "10 (9%) / 39 (33%); logins or accounts in 17",
+   "{Money, insurance, legal papers}",
+   "Getting into the parent's accounts 132 (banks refuse 46, lost passwords 32, codes to the parent's phone 22); documents and POA 97 (POA missing or rejected 29, papers scattered 22)",
+   "App reviews: access for another person 14 of 192 problem reviews. JMIR 2025: 49% of US adults have had digital proxy duties. AARP/NAC: 26% need help with paperwork (p.52).",
+   "Confirmed and stronger. Second most mentioned theme in the Reddit sample. The tool posts show the exact blocks: banks, passwords, sign-in codes, POA."
+  ],
+  [
+   "3. Choosing, placing and paying for care",
+   "11 (9%) / 35 (30%)",
+   "{Choosing, placing and paying for care}",
+   "Not measured (the tool posts were sorted by 8 tool features)",
+   "Not a topic in app reviews.",
+   "Confirmed but a little lower. The old \"biggest problem (21 sources)\" came from the unsaved NotebookLM summary. Neither the forums nor the Reddit sample show it as biggest."
+  ],
+  [
+   "4. Family coordination and siblings",
+   "7 (6%) / 28 (24%)",
+   "{Family coordination, siblings}",
+   "Siblings won't share the work 63; information spread across chats, calendars and paper 32; updates lost or ignored in group chats 28",
+   "App reviews: relatives can't see the same information 7 of 192. AARP/NAC: 53% have unpaid help (p.25). NHATS: about three quarters of older adults get help from one child.",
+   "Same pattern in both sources: rarely the main topic, but mentioned in 1 in 4. Reddit shows the core problem is siblings not helping, more than missing information."
+  ],
+  [
+   "5. Dementia behavior and communication",
+   "19 (16%) / 40 (34%)",
+   "{Dementia behavior and communication}",
+   "Not measured",
+   "Alzheimer's Association 2026: 48% of caregivers of older adults care for someone with dementia (p.49). AARP/NAC: 12% want help with challenging behaviors (p.53).",
+   "Lower on Reddit than in the forums (one forum, ALZConnected, is a dementia community), but still mentioned in about 1 in 4 posts. Stays on the list."
+  ],
+  [
+   "6. The person refuses help (NEW to this list)",
+   "3 (3%) / 12 (10%)",
+   "{Care recipient refuses help}",
+   "Parent forgets or refuses medications 25; parent won't wear the alert device 11",
+   "Competitor reviews: Lively is hard for the older person to use (13); Medical Guardian parents stop wearing it (5).",
+   "New. The second most common main topic among the named themes in the Reddit sample, much higher than in the forums. It also explains why tools fail: the parent won't use them."
+  ],
+  [
+   "7. Medications",
+   "8 (7%) / 19 (16%)",
+   "{Medications}",
+   "77 posts (medication changes not shared 24; parent forgets or refuses 25)",
+   "App reviews: reminders failing 3 of 192. AARP/NAC: 55% do medical or nursing tasks, only 22% were trained (p.34).",
+   "Lower as a main topic on Reddit. When it comes up, the risk is changes not being shared (near double doses)."
+  ],
+  [
+   "8. Safety and knowing a parent is OK",
+   "6 (5%) / 28 (24%)",
+   "{Safety}",
+   "59 posts (no way to know the parent is OK 19; won't wear the device 11)",
+   "App reviews: wrong readings or location 43 and danger with the tool not helping 19, of 192 (mostly two apps the team chose). AARP/NAC: remote monitoring use rose from 13% to 25% (p.37).",
+   "Similar to the forums. Families want alerts to reach them."
+  ],
+  [
+   "9. Doctors, appointments, records",
+   "4 (3%) / 23 (20%)",
+   "{Doctors, appointments, records}",
+   "67 posts (too many portals or proxy blocked 25; doctors' offices don't share 16)",
+   "AARP/NAC: 64% talk with providers, only 58% find coordinating easy (p.35-36).",
+   "Similar: rarely the main topic, mentioned in about 1 in 5."
+  ],
+  [
+   "10. Hands-on personal care, equipment and supplies (NEW)",
+   "Not a forum theme",
+   "{HANDS_ON} posts as main topic (found in Other)",
+   "Not measured",
+   "AARP/NAC: 55% do medical or nursing tasks, only 22% were trained (p.34).",
+   "New from Reddit: incontinence, bedbound hygiene, wound care, lifting, finding equipment and supplies."
+  ],
+  [
+   "11. The caregiver's own life (job, money, health)",
+   "1 (1%) / 30 (26%)",
+   "{The caregiver's own life}",
+   "Not measured",
+   "Not a topic in app reviews.",
+   "Similar: rarely the main topic, but mentioned in about 1 in 4."
+  ]
+ ],
+ "top_who": "WHO IS CARED FOR: Reddit sample: parent {CF_parent}, other relative {CF_other relative}, spouse or partner {CF_spouse or partner}, paid client {CF_client}, child {CF_child}, unclear {CF_unclear} (of {N}). Forums: parent 55, spouse or partner 54, other relative 5, unclear 3 (of 117). Reddit is mostly adult children caring for a parent. The forums were split because ALZConnected has many spouses.",
+ "top_new": "OTHER PROBLEMS FOUND IN THE REDDIT SAMPLE (main topic, not in the 14 forum themes): hands-on personal care, equipment and supplies {HANDS_ON}; technology the older person can't use or is misled by {TECH}; end-of-life decisions and conversations {EOL}; paid caregivers asking about their own work {PAID}; sharing good moments {GOOD}; one-offs {MIXED}. Grouping: docs/sources/market-analysis-3/other-groups.json.",
+ "top_limits": "LIMITS: one reader coded each post once, and no person double-checked. The sample is posts only (no comments), mostly from r/CaregiverSupport and r/AgingParents ({MAIN_TWO} of {N}). Reddit and forum writers choose to post and lean toward hard moments. Percentages from about 400 posts can move a few points by chance. Data: docs/sources/market-analysis-3/ (build_sample.py, CODING-INSTRUCTIONS.md, codes/, count_themes.py).",
+ "seg_reddit": {
+  "1": "Family coordination, siblings: {Family coordination, siblings}. Tool posts: siblings won't share the work 63, information scattered 32. Caregivers rarely name the coordination apps (Caring Village 3 posts).",
+  "2": "Medications: {Medications}. Tool posts: 77 (changes not shared 24, parent forgets or refuses 25). App makers post a lot on this topic.",
+  "3": "Medications: {Medications}. Packaging specifically was not checked.",
+  "4": "Choosing, placing and paying for care: {Choosing, placing and paying for care}. Not the biggest problem on Reddit; burnout is.",
+  "5": "Paid caregivers and agencies: {Paid caregivers and agencies}. Plus {PAID} posts by paid caregivers about their own work.",
+  "6": "Safety: {Safety}. Tool posts: 59 (no way to know the parent is OK 19; won't wear the device 11). Families want alerts to reach them.",
+  "7": "No matching theme. Closest: the caregiver's own life (job, money, health): {The caregiver's own life}. The buyer here is the employer.",
+  "8": "Doctors, appointments, records: {Doctors, appointments, records}. Visit notes specifically were not checked.",
+  "9": "Doctors, appointments, records: {Doctors, appointments, records}. Tool posts: too many portals or proxy blocked 25; MyChart is the competitor caregivers most often describe actually using (36 posts).",
+  "10": "Money, insurance, legal papers: {Money, insurance, legal papers}. Tool posts: getting into the parent's accounts 132 (lost passwords 32, codes to the parent's phone 22); documents and POA 97.",
+  "11": "Burnout, guilt, isolation, grief: {Burnout, guilt, isolation, grief}. Tool posts: no respite or breaks 16.",
+  "12": "Burnout, guilt, isolation, grief: {Burnout, guilt, isolation, grief}, the top theme. Tool posts: doing it alone 110, burnout 30.",
+  "13": "No matching theme in the Reddit sample.",
+  "14": "Money, insurance, legal papers (includes insurance): {Money, insurance, legal papers}. Tool posts: documents and POA 97.",
+  "15": "Same as segment 1: family coordination, siblings {Family coordination, siblings}."
+ },
+ "seg_col_title": "UPDATED 2026-11-04: what Reddit adds (random sample: main / anywhere of {N} caregiver posts; plus 672 tool posts)",
+ "opp_title": "UPDATED 2026-11-04 — MARKET OPPORTUNITY 3rd Version (adds Reddit)",
+ "opp_intro": "Copy of the Market Opportunity 2nd Version with one new column on the right: what the Reddit research adds for each segment. The 2nd Version is unchanged. The \"Unmet need?\" column still shows the first version's NotebookLM figures (\"15 Reddit sources\", \"biggest problem (21 sources)\"). Those sources were never saved, so use the new column instead. Effect: segment 4 (choosing and paying for care) is not the biggest need on Reddit. Burnout is (segments 11 and 12). Segment 10 (digital vaults) is supported more strongly than before: the parent's accounts and papers are the second most mentioned theme.",
+ "seg_title": "UPDATED 2026-11-04 — POSSIBLE MARKET SEGMENTS 3rd Version (adds Reddit)",
+ "seg_intro": "Copy of the Possible Market Segments 2nd Version with one new column on the right: the matching Reddit theme for each segment. The 2nd Version is unchanged.",
+ "size_title": "UPDATED 2026-11-04 — MARKET SIZE 3rd Version (adds Reddit demand evidence)",
+ "size_intro": "Copy of the Market Size 2nd Version with one new column on the right. The market sizes themselves do NOT change: Reddit says nothing about money. The new column only adds how often caregivers raise each segment's problem. The 2nd Version is unchanged.",
+ "analysis_title": "UPDATED 2026-11-04 — MARKET ANALYSIS 3rd Version (one note corrected)",
+ "analysis_intro": "Copy of the Market Analysis 2nd Version. Only one note changed, in the senior care referral row: it said \"Largest need in the Reddit research (21 of about 86 sources)\". That figure came from the unsaved NotebookLM summary. The real Reddit sample shows choosing, placing and paying for care as the main topic of {Choosing, placing and paying for care}, behind burnout. Sizes, funding and every other cell are the same. The 2nd Version is unchanged.",
+ "analysis_old": "Largest need in the Reddit research (21 of about 86 sources).",
+ "analysis_new": "Reddit random sample (2026-11-04): main topic / mentioned in {Choosing, placing and paying for care}, behind burnout. The old \"21 of about 86 sources\" came from the unsaved NotebookLM summary.",
+ "score_title": "UPDATED 2026-11-04 — MVP AND MMP SCORING 4th Version (adds Reddit evidence; no score changed)",
+ "score_intro": "The 3rd Version is unchanged. This version keeps every 3rd Version score as it was. The scores are the owner's judgment, so Claude doesn't change them. It adds what the Reddit research shows for each problem, and a note where that evidence might move a score, for the owner to decide. Three problems are added at the bottom from the Reddit sample and the market analysis short list. They're left unscored for the owner. Scoring method as before: Minimal, Valuable, Testable, Learnable.",
+ "score_columns": [
+  "Candidate problem",
+  "Minimal",
+  "Valuable",
+  "Testable",
+  "Learnable",
+  "What Reddit adds (2026-11-04)",
+  "Could this move a score? (owner decides)"
+ ],
+ "score_rows": [
+  [
+   "1. Family members hold scattered, different information about the care",
+   "Medium",
+   "Medium",
+   "High",
+   "High",
+   "Family coordination, siblings {Family coordination, siblings}. Tool posts: siblings won't share the work 63, information scattered 32, updates lost in group chats 28.",
+   "Maybe Valuable: the bigger Reddit signal is siblings not helping, not only scattered information."
+  ],
+  [
+   "2. Family and doctors don't know which medicines are current",
+   "High",
+   "Medium",
+   "High",
+   "Medium",
+   "Medications {Medications}. Tool posts: 77 (changes not shared 24).",
+   "No: still a small main topic."
+  ],
+  [
+   "3. Not remembering what the doctor said and recommended",
+   "Medium",
+   "Medium",
+   "High",
+   "Medium",
+   "Doctors, appointments, records {Doctors, appointments, records}. Tool posts: doctors' offices don't share 16.",
+   "No."
+  ],
+  [
+   "4. Access to accounts and records when the person who holds the login is unavailable",
+   "Low",
+   "High",
+   "Medium",
+   "Medium",
+   "Money, insurance, legal papers {Money, insurance, legal papers}, the second most mentioned theme. Tool posts: 132 (banks refuse 46, lost passwords 32, codes to the parent's phone 22).",
+   "Supports the High Valuable score. Testable may still be Medium."
+  ],
+  [
+   "5. Choosing and paying for care",
+   "Low",
+   "High",
+   "Low",
+   "Low",
+   "Choosing, placing and paying for care {Choosing, placing and paying for care}.",
+   "No: still real, but not the biggest need on Reddit."
+  ],
+  [
+   "6. Burnout, guilt and exhaustion",
+   "Low",
+   "High",
+   "Low",
+   "Low",
+   "Burnout, guilt, isolation, grief {Burnout, guilt, isolation, grief}, top again. Tool posts: doing it alone 110.",
+   "No: confirms High Valuable."
+  ],
+  [
+   "7. Insurance, benefits and paperwork",
+   "Low",
+   "Medium",
+   "Low",
+   "Low",
+   "Counted inside money, insurance, legal papers {Money, insurance, legal papers}. Tool posts: documents and POA 97.",
+   "Maybe Valuable: POA problems are concrete and common (29)."
+  ],
+  [
+   "8. Knowing a parent is safe when you're not there, and trusting the alert",
+   "Low",
+   "Medium",
+   "Low",
+   "Low",
+   "Safety {Safety}. Tool posts: 59 (no way to know the parent is OK 19).",
+   "No."
+  ],
+  [
+   "9. NEW: Dementia behavior and hard conversations (from the market analysis short list)",
+   "Owner to score",
+   "Owner to score",
+   "Owner to score",
+   "Owner to score",
+   "Dementia behavior and communication {Dementia behavior and communication}. Forums: 19 (16%) / 40 (34%).",
+   "New row for the owner."
+  ],
+  [
+   "10. NEW: The person refuses help",
+   "Owner to score",
+   "Owner to score",
+   "Owner to score",
+   "Owner to score",
+   "Care recipient refuses help {Care recipient refuses help}, the second most common main topic among the named themes. Tool posts: parent forgets or refuses medications 25, won't wear the device 11.",
+   "New row for the owner."
+  ],
+  [
+   "11. NEW: Hands-on personal care, equipment and supplies",
+   "Owner to score",
+   "Owner to score",
+   "Owner to score",
+   "Owner to score",
+   "{HANDS_ON} posts as main topic (incontinence, bedbound care, wound care, lifting, supplies).",
+   "New row for the owner."
+  ]
+ ],
+ "opp_question": "What market segment has the largest opportunity? Why? (updated 2026-11-04, DRAFT for the owner)",
+ "opp_answer": "The template's three tests are: big enough, few competitors, and a need that isn't fully met. Here's what Reddit changes for each segment it touches.\n\n• Segment 10, digital vaults and emergency access (the parent's accounts and papers): the unmet-need test is now passed more clearly than any other software segment. Money, insurance and legal papers is the second most mentioned theme ({Money, insurance, legal papers}). In the tool posts, 132 are about getting into the parent's accounts (banks refuse the caregiver 46, lost passwords 32, codes go to the parent's phone 22). Competitive Analysis 2 shows no competitor covers banks or insurers, and MyChart proxy access is hard to get. Against: the size figure is for all password managers ($3.1B to $3.75B), not caregivers. Much of the block is bank and legal policy a family can't change. It has the highest security and liability risk.\n\n• Segment 12, caregiver mental health and burnout: the biggest need in every source ({Burnout, guilt, isolation, grief}), but it fails \"few competitors\" (Calm, Headspace and other general apps). On Reddit the problem is people not helping, not a missing app.\n\n• Segment 1, family care-coordination apps: confidence stays LOW. Family coordination is the main topic of {Family coordination, siblings}, about the same as the forums. The core complaint is siblings not helping (63 tool posts), and the competitors share news but don't get relatives to act. Caregivers rarely name these apps.\n\n• Segment 4, choosing and paying for care: real ({Choosing, placing and paying for care}), but not the biggest need. The old \"biggest problem (21 sources)\" came from the unsaved NotebookLM summary. One fee-funded company still dominates.\n\n• Segment 6, remote monitoring: the family side fails (Competitive Analysis 2: Lively works 36, problems 100), but the market is crowded and depends on devices.\n\nReading (Claude's, not a decision): by the three tests, segment 10 now has the strongest evidence of an unmet need among the software segments. Segment 12 has the biggest need but is crowded. Segment 1 stays low. The owner chooses.",
+ "aud_title": "UPDATED 2026-11-04 — AUDIENCE EVIDENCE FROM REDDIT (adds to the audience segmentation and use cases; nothing removed)",
+ "aud_intro": "Same 14 themes as the forum research, coded on a random sample of 500 Reddit posts ({N} by caregivers). The audience boxes, labels, use cases and prioritization on this board are unchanged. This adds the Reddit numbers next to them so the owner can see where Reddit agrees or disagrees. Numbers read as main topic / mentioned anywhere.",
+ "aud_segments": "GEOGRAPHIC\n• Long-distance caregiving: {Long-distance caregiving} of Reddit caregiver posts (forums: 1 (1%) / 8 (7%) of 117). Both sources agree it's a small share.\n\nBEHAVIORAL\n• The person refuses help (won't accept aides, moving, doctors or devices): {Care recipient refuses help}. Forums: 3 (3%) / 12 (10%). Much bigger on Reddit.\n• Family coordination and siblings: {Family coordination, siblings}. Forums: 7 (6%) / 28 (24%). Same share mentioned.\n• Hands-on personal care (incontinence, bedbound care, wound care, supplies): {HANDS_ON} posts as main topic. Not a forum theme.\n• Tools families name (672 Reddit posts about tools, 2026-11-03): group chats and texts, paper notebooks, calendars, spreadsheets and pill boxes come up far more than any caregiving app.\n\nDEMOGRAPHIC\n• Who is cared for (Reddit sample): parent {CF_parent}, other relative {CF_other relative}, spouse or partner {CF_spouse or partner}, paid client {CF_client}, child {CF_child}, unclear {CF_unclear}. Forums: parent 55, spouse or partner 54 of 117. Reddit is mostly adult children caring for a parent (Audience 1). Spouse posts (Audience 2) are a small share on Reddit.\n\nSOCIOECONOMIC\n• The caregiver's own life (job, money, health): {The caregiver's own life}. Forums: 1 (1%) / 30 (26%).\n• Money, insurance and legal papers: {Money, insurance, legal papers}. Forums: 10 (9%) / 39 (33%).",
+ "aud_table_title": "AUDIENCE 1 (adult child caring for a parent): the use cases on this board, with Reddit added",
+ "aud_columns": [
+  "Use case on the board",
+  "Forum threads (of 55 parent threads, as on the board; % = count ÷ 55)",
+  "Reddit posts about a parent ({A1N}): main / anywhere",
+  "What Reddit shows"
+ ],
+ "aud_rows": [
+  [
+   "Exhaustion, guilt and no life of their own",
+   "23 of 55",
+   "Burnout {A1:Burnout, guilt, isolation, grief}; the caregiver's own life {A1:The caregiver's own life}",
+   "Forums 42%, Reddit 51% mention it. Top in both."
+  ],
+  [
+   "Dementia behavior and hard conversations",
+   "14 of 55",
+   "{A1:Dementia behavior and communication}",
+   "Forums 25%, Reddit 27%. Same."
+  ],
+  [
+   "Money, legal papers and facility bills",
+   "11 of 55",
+   "{A1:Money, insurance, legal papers}",
+   "Forums 20%, Reddit 32%. Bigger on Reddit, and the second most mentioned theme for parents."
+  ],
+  [
+   "Relatives don't help, or block each other",
+   "10 of 55",
+   "{A1:Family coordination, siblings}",
+   "Forums 18%, Reddit 23%. Similar. Rarely the main topic."
+  ],
+  [
+   "Medicines, eating and personal care",
+   "8 of 55",
+   "Medications {A1:Medications}; hands-on personal care as main topic {A1HANDS}",
+   "Forums 15%; Reddit medications 14%. Similar. Hands-on personal care (incontinence, bedbound care, supplies) also shows up on its own."
+  ],
+  [
+   "Choosing and arranging a place for them",
+   "6 of 55",
+   "{A1:Choosing, placing and paying for care}",
+   "Forums 11%, Reddit 25%. Bigger on Reddit."
+  ],
+  [
+   "Staying safe at home",
+   "6 of 55",
+   "{A1:Safety}",
+   "Forums 11%, Reddit 21%. Bigger on Reddit."
+  ],
+  [
+   "Getting answers from doctors and hospitals",
+   "4 of 55",
+   "{A1:Doctors, appointments, records}",
+   "Forums 7%, Reddit 23%. Much bigger on Reddit."
+  ],
+  [
+   "Being far away and not knowing what is happening",
+   "2 of 55",
+   "{A1:Long-distance caregiving}",
+   "Forums 4%, Reddit 11%. Small in both."
+  ],
+  [
+   "NEW (not a use case on the board yet): The parent refuses help",
+   "Not a use case (forums: 3 of 117 threads as main topic)",
+   "{A1:Care recipient refuses help}",
+   "New: after burnout, the most common main topic among the named themes in parent posts. Open for the owner to add as a use case."
+  ]
+ ],
+ "aud_a2": "AUDIENCE 2 (spouse or partner): only {A2N} spouse posts in the Reddit sample, too few to rank use cases. Burnout is the main topic of {A2:Burnout, guilt, isolation, grief}.",
+ "aud_limits": "LIMITS: one reader coded each post once, and no person double-checked. Posts only, no comments. The forum counts on the board came from a different reader and method, so compare the shares, not exact numbers. Data: caregiving-coordinator docs/sources/market-analysis-3/ (count_by_audience.py, reddit-sample-by-audience.json).",
+ "aud_note_pct": "The forum counts on the board look like 'mentioned anywhere' counts (23 of 55 = 42% matches burnout's 43% anywhere share), so they are compared with Reddit's 'anywhere' share."
+}

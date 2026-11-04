@@ -1,0 +1,272 @@
+{
+ "Audience 1: parent": {
+  "n_reddit": 269,
+  "n_forum": 55,
+  "tables": {
+   "motivations": [
+    [
+     "Keep them safe and comfortable, spare them suffering (on the board)",
+     "7 (13%)",
+     "60 (22%)",
+     "#1 → #1"
+    ],
+    [
+     "Do the right thing, avoid blame or guilt (on the board)",
+     "6 (11%)",
+     "30 (11%)",
+     "#2 → #2"
+    ],
+    [
+     "Love, loyalty and promises (on the board)",
+     "3 (5%)",
+     "23 (9%)",
+     "#4 → #3"
+    ],
+    [
+     "Keep them at home and in control of their own life (on the board)",
+     "5 (9%)",
+     "19 (7%)",
+     "#3 → #4"
+    ],
+    [
+     "NEW from Reddit: Honor their wishes and make the time left count",
+     "not on the board",
+     "5 (2%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: Relieve the other parent who is the main caregiver",
+     "not on the board",
+     "4 (1%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: I'm the only one, they need me",
+     "not on the board",
+     "2 (1%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: Preserve their life stories",
+     "not on the board",
+     "2 (1%)",
+     "new"
+    ]
+   ],
+   "situational goals": [
+    [
+     "Understand what is happening and what to do (on the board)",
+     "2 (4%)",
+     "71 (26%)",
+     "#4 → #1"
+    ],
+    [
+     "Get help, relief or services (on the board)",
+     "11 (20%)",
+     "47 (17%)",
+     "#1 → #2"
+    ],
+    [
+     "Manage money and legal affairs (on the board)",
+     "3 (5%)",
+     "46 (17%)",
+     "#3 → #3"
+    ],
+    [
+     "Keep them safe and watch over them (on the board)",
+     "2 (4%)",
+     "36 (13%)",
+     "#5 → #4"
+    ],
+    [
+     "Find, choose or pay for a place (on the board)",
+     "6 (11%)",
+     "31 (12%)",
+     "#2 → #5"
+    ],
+    [
+     "Medicines (on the board)",
+     "1 (2%)",
+     "19 (7%)",
+     "#6 → #6"
+    ],
+    [
+     "NEW from Reddit: Get the parent to accept care and look after their own health",
+     "not on the board",
+     "16 (6%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: Handle the parent's behavior and emotions",
+     "not on the board",
+     "7 (3%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: Technology and simple devices for the parent",
+     "not on the board",
+     "7 (3%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: End-of-life plans and wishes",
+     "not on the board",
+     "5 (2%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: Equipment, hygiene and hands-on care",
+     "not on the board",
+     "5 (2%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: Hold a facility to account and stay in touch with them",
+     "not on the board",
+     "4 (1%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: Family roles and costs",
+     "not on the board",
+     "4 (1%)",
+     "new"
+    ]
+   ],
+   "life goals": [
+    [
+     "Their own health and sanity (on the board)",
+     "1 (2%)",
+     "72 (27%)",
+     "#3 → #1"
+    ],
+    [
+     "Keep their own life, job and money (on the board)",
+     "3 (5%)",
+     "49 (18%)",
+     "#2 → #2"
+    ],
+    [
+     "Time and breaks for themselves (on the board)",
+     "4 (7%)",
+     "19 (7%)",
+     "#1 → #3"
+    ],
+    [
+     "NEW from Reddit: Protect their own marriage, children and family",
+     "not on the board",
+     "9 (3%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: Not be alone, and be seen",
+     "not on the board",
+     "5 (2%)",
+     "new"
+    ],
+    [
+     "NEW from Reddit: A life and a home after caregiving",
+     "not on the board",
+     "4 (1%)",
+     "new"
+    ]
+   ]
+  }
+ },
+ "Audience 2: spouse or partner": {
+  "n_reddit": 35,
+  "n_forum": 54,
+  "tables": {
+   "motivations": [
+    [
+     "Love, loyalty and promises (on the board)",
+     "9 (17%)",
+     "15 (43%)",
+     "#2 → #1"
+    ],
+    [
+     "Keep them safe and comfortable, spare them suffering (on the board)",
+     "11 (20%)",
+     "3 (9%)",
+     "#1 → #2"
+    ],
+    [
+     "Do the right thing, avoid blame or guilt (on the board)",
+     "1 (2%)",
+     "0 (0%)",
+     "#4 → #3"
+    ],
+    [
+     "Keep them at home and in control of their own life (on the board)",
+     "4 (7%)",
+     "0 (0%)",
+     "#3 → #4"
+    ]
+   ],
+   "situational goals": [
+    [
+     "Understand what is happening and what to do (not on this audience's board)",
+     "not on the board",
+     "9 (26%)",
+     "new → #1"
+    ],
+    [
+     "Get help, relief or services (on the board)",
+     "6 (11%)",
+     "5 (14%)",
+     "#2 → #2"
+    ],
+    [
+     "Manage money and legal affairs (not on this audience's board)",
+     "not on the board",
+     "2 (6%)",
+     "new → #3"
+    ],
+    [
+     "Find, choose or pay for a place (on the board)",
+     "7 (13%)",
+     "1 (3%)",
+     "#1 → #4"
+    ],
+    [
+     "Keep them safe and watch over them (on the board)",
+     "5 (9%)",
+     "1 (3%)",
+     "#3 → #5"
+    ],
+    [
+     "Medicines (on the board)",
+     "1 (2%)",
+     "1 (3%)",
+     "#4 → #6"
+    ]
+   ],
+   "life goals": [
+    [
+     "Their own health and sanity (on the board)",
+     "7 (13%)",
+     "15 (43%)",
+     "#1 → #1"
+    ],
+    [
+     "Keep their own life, job and money (on the board)",
+     "4 (7%)",
+     "9 (26%)",
+     "#2 → #2"
+    ],
+    [
+     "Time and breaks for themselves (on the board)",
+     "2 (4%)",
+     "4 (11%)",
+     "#3 → #3"
+    ],
+    [
+     "NEW from Reddit: Companionship, intimacy and someone who understands",
+     "not on the board",
+     "11 (31%)",
+     "new"
+    ]
+   ]
+  }
+ }
+}
