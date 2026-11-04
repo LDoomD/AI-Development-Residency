@@ -82,7 +82,7 @@ to Produce Literally Anything"). Each new document is made from saved,
 checked documents, never from chat memory.
 
 - **Start of session:** ask for the latest dog feeding report in
-  `docs/reports/` (newest `dogfood-*.md`) and the saved documents it lists.
+  `../Dog Feeding Docs/` (newest `dogfood-*.md`, one folder per week) and the saved documents it lists.
   Read them all, then say what you have and what is missing.
 - **One part at a time.** Do only the step the user asks, then stop and wait.
   The user makes each choice. Never start the next step or change other work
