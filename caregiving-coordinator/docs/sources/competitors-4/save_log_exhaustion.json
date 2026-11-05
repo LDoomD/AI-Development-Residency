@@ -1,0 +1,82 @@
+[
+ {
+  "company": "va-caregiver",
+  "url": "https://www.caregiver.va.gov/",
+  "robots_allowed": true,
+  "file": "va-caregiver/www_caregiver_va_gov.html",
+  "status": 200,
+  "bytes": 111015
+ },
+ {
+  "company": "va-caregiver",
+  "url": "https://www.caregiver.va.gov/support/support_services.asp",
+  "robots_allowed": true,
+  "file": "va-caregiver/www_caregiver_va_gov_support_support_services_asp.html",
+  "status": 200,
+  "bytes": 76750
+ },
+ {
+  "company": "va-caregiver",
+  "url": "https://www.va.gov/geriatrics/pages/Respite_Care.asp",
+  "robots_allowed": true,
+  "file": "va-caregiver/www_va_gov_geriatrics_pages_respite_care_asp.html",
+  "status": 200,
+  "bytes": 74835
+ },
+ {
+  "company": "va-caregiver",
+  "url": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/",
+  "robots_allowed": true,
+  "file": "va-caregiver/www_va_gov_family_and_caregiver_benefits_health_and_disability_comprehensive_ass.html",
+  "status": 200,
+  "bytes": 97411
+ },
+ {
+  "company": "hospice-respite",
+  "url": "https://www.medicare.gov/coverage/hospice-care",
+  "robots_allowed": true,
+  "file": "hospice-respite/www_medicare_gov_coverage_hospice_care.html",
+  "status": 200,
+  "bytes": 141593
+ },
+ {
+  "company": "adult-day",
+  "url": "https://www.nadsa.org/learn-more/about-adult-day-services/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "adult-day",
+  "url": "https://www.nadsa.org/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "respite-arch",
+  "url": "https://archrespite.org/",
+  "robots_allowed": true,
+  "file": "respite-arch/archrespite_org.html",
+  "status": 200,
+  "bytes": 290892
+ },
+ {
+  "company": "adult-day",
+  "url": "https://www.alz.org/help-support/caregiving/care-options/adult-day-centers",
+  "robots_allowed": true,
+  "file": "adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.html",
+  "status": 200,
+  "bytes": 159494
+ },
+ {
+  "company": "adult-day",
+  "url": "https://eldercare.acl.gov/Public/Resources/Factsheets/Adult_Day_Care.aspx",
+  "robots_allowed": true,
+  "file": null,
+  "status": "error: HTTP Error 404: Not Found",
+  "bytes": 0
+ }
+]

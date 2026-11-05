@@ -1,0 +1,586 @@
+{
+ "columns": [
+  "How do they make money?",
+  "Who pays, and the cost",
+  "How do they keep customers?",
+  "How do they approach customer experience?",
+  "What does it take to get started?"
+ ],
+ "rows": {
+  "Caring Village": [
+   "Monthly subscriptions, a free plan with ads, sales to businesses and gift subscriptions.",
+   "The caregiver pays: free for 2 people, or $14.99 to $24.99 a month.",
+   "The free plan caps at 2 members, pushing families to pay. Daily to-dos and reminders bring people back. Use ends when the parent dies.",
+   "Self-serve: help center, email, guided setup and an AI assistant. No phone support.",
+   "Sign up with email, Apple or Google in minutes, then invite relatives. Works on iPhone, Android and the web."
+  ],
+  "Everplans": [
+   "Yearly subscriptions, plus deals through financial advisors and partners.",
+   "The parent pays: free for 3 items, or $99.99 a year.",
+   "The free plan stops at 3 items. Date reminders bring people back.",
+   "Self-serve: FAQs, a contact form, articles and checklists.",
+   "The parent fills in their own plan on the web or the app."
+  ],
+  "Cariloop": [
+   "Employer contracts, priced per employee per month or in blocks of cases.",
+   "The employer pays. At MSU, keeping the coach yourself costs $249 a month.",
+   "Employer contracts. Members who leave the job get 30 days to switch to a paid individual plan.",
+   "Full-time care coaches who answer in under 2 hours on average.",
+   "An employer benefit first, then the web or mobile app."
+  ],
+  "A Place for Mom": [
+   "Referral fees: senior living places pay when a family moves in, and home care agencies pay per referral.",
+   "Senior living places pay it when a family moves in. Free to families.",
+   "Families are leads, not paying customers. Signing up allows calls and texts from its paying communities.",
+   "A free local advisor, a care quiz and a cost calculator.",
+   "Take a care quiz or contact a local advisor. Sales calls from communities follow."
+  ],
+  "Geriatric care managers": [
+   "Hourly fees of $150 to $300, a one-time first assessment, and sometimes travel time.",
+   "The family pays $150 to $300 an hour. Medicare and Medicaid usually don't.",
+   "Ongoing retainers and regular home visits. Families pay even in quiet months.",
+   "In person: home visits, doctor appointments, and reports back to the family.",
+   "A paid first assessment of 4 to 6 hours in the parent's home."
+  ],
+  "Group texts and notebooks": [
+   "None: free tools families already have.",
+   "Nobody: they're free or nearly free.",
+   "None. Caregivers mute, leave or refuse group chats to protect themselves.",
+   "None. No company stands behind them.",
+   "Nothing to install. Getting everyone onto one app is hard."
+  ],
+  "Area Agencies on Aging": [
+   "No revenue: federal funding through the Administration on Aging, with grants to states.",
+   "Federal and state grants pay. Free to families who qualify.",
+   "None: a free public service with no paying customers.",
+   "Phone, text, chat or email with trained staff. Staff are kind but often hard to reach.",
+   "Contact the Eldercare Locator, then meet eligibility rules and wait for services."
+  ],
+  "Respite and adult day services": [
+   "Fees per day or stay, sliding scales, and payments from Medicaid, the VA and Medicare hospice.",
+   "Families pay, often on sliding scales. Medicaid, the VA and hospice cover some.",
+   "Demand outruns supply: many areas have waitlists.",
+   "In person: trained staff, activities, meals and often rides.",
+   "Find a provider, then tour, apply, meet eligibility rules and often wait."
+  ],
+  "VA caregiver programs": [
+   "No revenue: a federal benefit for veterans' families.",
+   "The VA pays. Only veterans' families who qualify can use it.",
+   "Ongoing benefits with reassessments. Families stay while they qualify.",
+   "Local caregiver support teams and a weekday phone line. Some calls go unanswered.",
+   "The veteran and caregiver apply together online, by mail or in person. Approval can take months."
+  ]
+ },
+ "sources": {
+  "Caring Village": [
+   [
+    [
+     "c",
+     "Freemium subscription. A free plan with ads, plus paid Circle and Village plans. It also sells to businesses for their patients or clients, and offers gift subscriptions."
+    ]
+   ],
+   [
+    [
+     "c",
+     "Circle: $14.99 a month"
+    ],
+    [
+     "c",
+     "Village: $24.99 a month"
+    ]
+   ],
+   [
+    [
+     "c",
+     "The free plan's 2-member limit pushes larger families to pay, and daily to-dos, reminders and journal likes bring people back."
+    ],
+    [
+     "c",
+     "Use ends when the loved one dies (2)."
+    ]
+   ],
+   [
+    [
+     "c",
+     "Self-serve: a help center, a support email, guided setup, checklists and the Julia AI assistant. No phone support or hours are listed."
+    ]
+   ],
+   [
+    [
+     "c",
+     "The caregiver signs up with email, Apple or Google and is walked through it in a few minutes, then invites others. Works on iPhone, Android and the web."
+    ]
+   ]
+  ],
+  "Everplans": [
+   [
+    [
+     "c",
+     "Freemium: free (3 items) or Premium at $99.99 a year, plus deals through financial advisors and partners."
+    ]
+   ],
+   [
+    [
+     "c",
+     "Premium at $99.99 a year"
+    ],
+    [
+     "c",
+     "People organizing their own affairs pay for Premium themselves"
+    ]
+   ],
+   [
+    [
+     "c",
+     "The free tier stops at 3 items, and date reminders bring people back."
+    ]
+   ],
+   [
+    [
+     "c",
+     "Self-serve: FAQs, a contact form, articles and checklists."
+    ]
+   ],
+   [
+    [
+     "c",
+     "The person fills in their own plan on the web or the app."
+    ]
+   ]
+  ],
+  "Cariloop": [
+   [
+    [
+     "q",
+     "competitors/cariloop/www_cariloop_com_about_us_faqs.txt",
+     "While the vast majority of our work is done on a per employee per month basis, we also offer our services in blocks of cases."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "employees have the option to extend the coaching for $249/month."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors/cariloop/www_cariloop_com_about_us_faqs.txt",
+     "a 30-day countdown is triggered within our platform that allows the member to shift to an individual membership that they can cover the cost of on their own"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors/cariloop/www_cariloop_com_about_us_faqs.txt",
+     "All of our Care Coaches are full-time, W2 employees of Cariloop."
+    ],
+    [
+     "q",
+     "competitors/cariloop/www_cariloop_com_.txt",
+     "Timely access with average response times under 2 hours"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors/cariloop/www_cariloop_com_about_us_faqs.txt",
+     "Typically our minimum size group is 100 employees"
+    ],
+    [
+     "q",
+     "competitors/cariloop/www_cariloop_com_privacy_policy.txt",
+     "download and use our mobile application (whether it is the web application or the mobile application)"
+    ]
+   ]
+  ],
+  "A Place for Mom": [
+   [
+    [
+     "q",
+     "competitors/a-place-for-mom/www_aplaceformom_com_about.txt",
+     "A Place for Mom is paid by our senior living network communities when a family we refer chooses to move into a community."
+    ],
+    [
+     "q",
+     "competitors/a-place-for-mom/www_aplaceformom_com_about.txt",
+     "We are paid by home care agencies each time we refer a family to them."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "A Place for Mom is paid by our senior living network communities when a family we refer chooses to move into a community."
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Our services—including personalized guidance and support—are always free to families."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors/a-place-for-mom/www_aplaceformom_com_.txt",
+     "You also consent to receive texts and calls from us and our community customers, including telemarketing and/or advertising"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors/a-place-for-mom/www_aplaceformom_com_about_us.txt",
+     "Connect with a local advisor"
+    ],
+    [
+     "q",
+     "competitors/a-place-for-mom/www_aplaceformom_com_.txt",
+     "Take our free care quiz for personalized senior living advice"
+    ],
+    [
+     "q",
+     "competitors/a-place-for-mom/www_aplaceformom_com_.txt",
+     "Try our senior living cost calculator"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors/a-place-for-mom/www_aplaceformom_com_.txt",
+     "Take our free care quiz for personalized senior living advice"
+    ],
+    [
+     "q",
+     "competitors/a-place-for-mom/www_aplaceformom_com_about_us.txt",
+     "Connect with a local advisor"
+    ],
+    [
+     "t",
+     "A Place for Mom",
+     "problems",
+     "Nonstop calls and spam that won't stop"
+    ]
+   ]
+  ],
+  "Geriatric care managers": [
+   [
+    [
+     "q",
+     "competitors-4/aging-life-care/www_aarp_org_caregiving_basics_geriatric_care_manager.txt",
+     "Professionals charge by the hour, ranging from $150 to $300, depending on the geographic region."
+    ],
+    [
+     "q",
+     "competitors-4/aging-life-care/www_aarp_org_caregiving_basics_geriatric_care_manager.txt",
+     "Many begin with an initial assessment of 4 to 6 hours, which may require a one-time charge."
+    ],
+    [
+     "q",
+     "competitors-4/aging-life-care/www_aarp_org_caregiving_basics_geriatric_care_manager.txt",
+     "Some also charge for mileage and travel time."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Professionals charge by the hour, ranging from $150 to $300, depending on the geographic region."
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Neither Medicare nor Medicaid typically pays for care management services."
+    ]
+   ],
+   [
+    [
+     "k",
+     "p1woat2e",
+     "regular home visits to know parent"
+    ],
+    [
+     "k",
+     "p1woat2e",
+     "paying retainer for little in quiet periods"
+    ]
+   ],
+   [
+    [
+     "k",
+     "p1woat2e",
+     "regular home visits to know parent"
+    ],
+    [
+     "t",
+     "Geriatric care managers",
+     "worked",
+     "Goes to appointments and reports back"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/aging-life-care/www_aarp_org_caregiving_basics_geriatric_care_manager.txt",
+     "Many begin with an initial assessment of 4 to 6 hours, which may require a one-time charge."
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "An in-person assessment gives them the opportunity to observe the home environment"
+    ]
+   ]
+  ],
+  "Group texts and notebooks": [
+   [
+    [
+     "c",
+     "Not a company. Free."
+    ]
+   ],
+   [
+    [
+     "c",
+     "Nearly free."
+    ]
+   ],
+   [
+    [
+     "c",
+     "Caregivers mute, leave or refuse group chats to protect themselves (4)."
+    ]
+   ],
+   [
+    [
+     "c",
+     "Not a company."
+    ]
+   ],
+   [
+    [
+     "c",
+     "Nothing new to install, but getting everyone onto one app is hard (2)."
+    ]
+   ]
+  ],
+  "Area Agencies on Aging": [
+   [
+    [
+     "q",
+     "competitors-4/eldercare-locator/www_usaging_org_eldercareloc.txt",
+     "The Locator was established and is funded by the U.S. Administration on Aging"
+    ],
+    [
+     "q",
+     "competitors-4/manual-saves/acl_gov_nfcsp.txt",
+     "provides grants to states and territories"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/acl_gov_nfcsp.txt",
+     "provides grants to states and territories"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/eldercare-locator/www_usaging_org_eldercareloc.txt",
+     "The Locator was established and is funded by the U.S. Administration on Aging"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/eldercare-locator/eldercare_acl_gov_home.txt",
+     "Call or send a text message to trained staff."
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "worked",
+     "Helpful, kind or quick staff"
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Hard to reach or staff didn't know"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/eldercare-locator/eldercare_acl_gov_home.txt",
+     "Welcome to the Eldercare Locator"
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Little help, or strict eligibility"
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Long waits, low priority, no timeline"
+    ]
+   ]
+  ],
+  "Respite and adult day services": [
+   [
+    [
+     "q",
+     "competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt",
+     "Many centers offer services on sliding scales, where caregivers pay according to ability or income."
+    ],
+    [
+     "q",
+     "competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt",
+     "In some states, Medicaid covers cost for people with very low income and few assets."
+    ],
+    [
+     "q",
+     "competitors-4/va-caregiver/www_va_gov_family_and_caregiver_benefits_health_and_disability_comprehensive_ass.txt",
+     "At least 30 days of respite care per year."
+    ],
+    [
+     "q",
+     "competitors-4/hospice-respite/www_medicare_gov_coverage_hospice_care.txt",
+     "Medicare will cover your stay in the facility"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt",
+     "Many centers offer services on sliding scales, where caregivers pay according to ability or income."
+    ],
+    [
+     "q",
+     "competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt",
+     "In some states, Medicaid covers cost for people with very low income and few assets."
+    ],
+    [
+     "q",
+     "competitors-4/va-caregiver/www_va_gov_family_and_caregiver_benefits_health_and_disability_comprehensive_ass.txt",
+     "At least 30 days of respite care per year."
+    ],
+    [
+     "q",
+     "competitors-4/hospice-respite/www_medicare_gov_coverage_hospice_care.txt",
+     "You may pay 5% of the Medicare-approved amount for inpatient respite care"
+    ]
+   ],
+   [
+    [
+     "rc",
+     "respite_adultday",
+     "waitlist or no openings"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt",
+     "staffed activities such as music and exercise programs"
+    ],
+    [
+     "q",
+     "competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt",
+     "transportation and meals are often provided"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/respite-arch/archrespite_org.txt",
+     "Find a Respite Provider"
+    ],
+    [
+     "q",
+     "competitors-4/respite-arch/archrespite_org.txt",
+     "How to Choose a Respite Provider"
+    ],
+    [
+     "rc",
+     "respite_adultday",
+     "hard application or eligibility rules"
+    ],
+    [
+     "rc",
+     "respite_adultday",
+     "waitlist or no openings"
+    ]
+   ]
+  ],
+  "VA caregiver programs": [
+   [
+    [
+     "q",
+     "competitors-4/va-caregiver/www_va_gov_family_and_caregiver_benefits_health_and_disability_comprehensive_ass.txt",
+     "Program of Comprehensive Assistance for Family Caregivers (PCAFC)"
+    ],
+    [
+     "r",
+     "p1x2f8kr",
+     "payer_cost",
+     "VA pays the agency"
+    ]
+   ],
+   [
+    [
+     "r",
+     "p1x2f8kr",
+     "payer_cost",
+     "VA pays the agency"
+    ],
+    [
+     "q",
+     "competitors-4/va-caregiver/www_va_gov_family_and_caregiver_benefits_health_and_disability_comprehensive_ass.txt",
+     "You may be eligible if you and the Veteran you’re caring for meet all of these requirements."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/va-caregiver/www_caregiver_va_gov.txt",
+     "PCAFC Reassessments"
+    ],
+    [
+     "q",
+     "competitors-4/va-caregiver/www_caregiver_va_gov.txt",
+     "will not experience a decrease in the monthly stipend amount based on a reassessment"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/va-caregiver/www_va_gov_family_and_caregiver_benefits_health_and_disability_comprehensive_ass.txt",
+     "Monday through Friday, 8:00 a.m. to 8:00 p.m. ET"
+    ],
+    [
+     "r",
+     "p1vfh78m",
+     "barriers",
+     "other: nobody called back"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/va-caregiver/www_va_gov_family_and_caregiver_benefits_health_and_disability_comprehensive_ass.txt",
+     "You can apply online, by mail, or in person."
+    ],
+    [
+     "r",
+     "p1mbxwso",
+     "barriers",
+     "other: seven months to get approved"
+    ]
+   ]
+  ]
+ }
+}

@@ -440,3 +440,16 @@ Why: exhaustion is the #1 caregiver problem, but segments 11 and 12 were never r
 | `market-analysis-3/segments-11-12/research-checklist-audience-split.md` | Checklist filled in and shown to the owner before the audience split | — | Rule #1 |
 | `market-analysis-3/segments-11-12/label_audience.py` → `audience-script.json`, `audience-packs/`; `AUDIENCE-INSTRUCTIONS.md`, `audience-codes/acodes-1..5.json`, `verify_audience.py` | Labels each relief post with the "cared_for" labels: script for clear posts, readers for the rest, and a 40-post spot check (38 agree) | — | Audience split |
 | `market-analysis-3/segments-11-12/count_by_audience.py` → `audience-labels.json`, `results-by-audience.json` | Merged labels and every relief count split by Audience 1, Audience 2 and other | — | Findings, "split by audience" |
+
+## 2026-11-04 Competitive Analysis 3, version 2: exhaustion competitors
+
+Checklist: `docs/research-checklist-ca3-exhaustion.md`. Reader version 2: `docs/competitive-analysis-3-reader-v2.md` (version 1 kept).
+
+| File | What it is | Link | Used for |
+|---|---|---|---|
+| `competitors-4/save_pages_exhaustion.py`, `save_pages_exhaustion_2.py` → `save_log_exhaustion.json` | Saved pages, robots.txt respected. NADSA (nadsa.org) is disallowed by robots.txt and was not saved; one ACL fact sheet URL returned 404 | — | New rows |
+| `competitors-4/va-caregiver/*` | VA caregiver program pages (caregiver.va.gov home and support services, VA respite care, Program of Comprehensive Assistance for Family Caregivers) | https://www.caregiver.va.gov/ ; https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/ | VA row |
+| `competitors-4/hospice-respite/*` | Medicare hospice coverage page (inpatient respite, 5% copay) | https://www.medicare.gov/coverage/hospice-care | Respite row |
+| `competitors-4/adult-day/*` | Alzheimer's Association adult day centers page (hours, activities, sliding scales, Medicaid) | https://www.alz.org/help-support/caregiving/care-options/adult-day-centers | Respite row |
+| `competitors-4/respite-arch/*` | ARCH National Respite Network home page | https://archrespite.org/ | Respite row |
+| `competitive-analysis-3/grid/build_grid_v3.py` → `grid-v3.json`, `business-v2.json` | Grid version 3 and business table version 2: version 2 rows unchanged plus the 2 new rows. New source types check relief reader codes and relief barrier counts. Grid 117 cells, 214 sources; business 45 cells, 82 sources; 0 problems | — | Reader version 2, Figma |
