@@ -4,7 +4,7 @@
 >
 > **Titles restored 2026-11-05 (owner's rule: keep the template's titles):** every column title is back to its original or template wording, so the new titles in part 1 no longer apply. Only three titles differ from the originals:
 > - "Projected Growth in Market Size by 2040" is now "(2030 to 2036)," because the cells give those years.
-> - Merged columns got combined titles: "Official category and NAICS code (NAICS 2022)," "Publisher and source URL" and "What the forum research and Reddit add."
+> - Merged columns got combined titles: "Official category (NAICS)," "Source" and "What caregivers say" (shortened 2026-11-05; the merges stay because each makes the table easier to read and loses no fact).
 > - In section 2, "Business" cells now say "For-profit," to match the "Sector (for-profit / nonprofit)" title.
 
 The titles were approved in part 1. This file lists every cell that changes. **Cells not listed stay as they are**, because they already answer their title (for example, sizes and company names).
