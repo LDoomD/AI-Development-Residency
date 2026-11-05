@@ -1,6 +1,11 @@
 # Market analysis review, part 2: every cell answers its title (2026-11-05, for the owner)
 
 > **APPROVED AND APPLIED 2026-11-05** on the clean page (2782:15415). Rows 13-14 are now "Core." Section 1 has 14 columns, not the 15 that part 1 said: merging 5 source columns into 1, merging the 2 category columns, and dropping the definition column removes 6 columns. A final scan found none of the cut wording left.
+>
+> **Titles restored 2026-11-05 (owner's rule: keep the template's titles):** every column title is back to its original or template wording, so the new titles in part 1 no longer apply. Only three titles differ from the originals:
+> - "Projected Growth in Market Size by 2040" is now "(2030 to 2036)," because the cells give those years.
+> - Merged columns got combined titles: "Official category and NAICS code (NAICS 2022)," "Publisher and source URL" and "What the forum research and Reddit add."
+> - In section 2, "Business" cells now say "For-profit," to match the "Sector (for-profit / nonprofit)" title.
 
 The titles were approved in part 1. This file lists every cell that changes. **Cells not listed stay as they are**, because they already answer their title (for example, sizes and company names).
 
