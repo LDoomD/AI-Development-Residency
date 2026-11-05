@@ -268,7 +268,7 @@
      ]
     },
     "other (single mentions)": {
-     "n": 71,
+     "n": 73,
      "ids": [
       "p12i8t0z",
       "p141eftl",
@@ -307,22 +307,23 @@
       "p1kb5v1a",
       "p1kj80tn",
       "p1ko3zju",
+      "p1kvou0n",
       "p1lbihie",
       "p1ltq0yj",
       "p1moya4x",
       "p1mwbysg",
-      "p1myasny",
       "p1mym2av",
       "p1nckenq",
       "p1ondfaa",
       "p1oojy59",
-      "p1oslgkm",
       "p1oxyzhw",
       "p1pbtct3",
       "p1pcwf3h",
       "p1qm5jd8",
+      "p1riok43",
       "p1riorpo",
       "p1sesz72",
+      "p1titnxo",
       "p1tojejn",
       "p1u4ku62",
       "p1ua3gcg",
@@ -335,6 +336,7 @@
       "p1woa8ct",
       "p1woix5k",
       "p1wp4tlm",
+      "p1wt8999",
       "p1x3j2a1",
       "p1x427s1",
       "p1x9x353",
@@ -344,7 +346,7 @@
      ]
     },
     "family or friends won't help": {
-     "n": 57,
+     "n": 51,
      "ids": [
       "alzconnected-77423",
       "p10h6p87",
@@ -362,7 +364,6 @@
       "p1f2kpq8",
       "p1f9l5nf",
       "p1fhowx4",
-      "p1fwiyqh",
       "p1g1eokn",
       "p1gyhj99",
       "p1gyvd7k",
@@ -373,10 +374,10 @@
       "p1ji641g",
       "p1jq23bh",
       "p1klsvfo",
-      "p1kvou0n",
       "p1l2joyx",
       "p1lshhom",
       "p1ms8gjr",
+      "p1myasny",
       "p1n1lrxu",
       "p1ndyxm0",
       "p1okmhe4",
@@ -387,11 +388,9 @@
       "p1pusyrl",
       "p1qcq0m1",
       "p1ri7jhb",
-      "p1riok43",
       "p1sd4zyh",
       "p1sq4773",
       "p1svhfgu",
-      "p1titnxo",
       "p1truium",
       "p1ua3gcg",
       "p1uabuhm",
@@ -399,10 +398,7 @@
       "p1wixm80",
       "p1wlrtcw",
       "p1wp6eyh",
-      "p1wt8999",
-      "p1x7s6o6",
-      "p1xfgv6i",
-      "p1xjqtpx"
+      "p1xfgv6i"
      ]
     },
     "hard application or eligibility rules": {
@@ -552,7 +548,7 @@
      ]
     },
     "too few hours, minimum stays or other limits": {
-     "n": 21,
+     "n": 20,
      "ids": [
       "p16f5lb1",
       "p183zjqa",
@@ -567,7 +563,6 @@
       "p1m6kjs8",
       "p1p9dkvh",
       "p1pxlnnk",
-      "p1q7qsqd",
       "p1rlva01",
       "p1sg01yh",
       "p1ujkn7g",
@@ -660,6 +655,23 @@
       "p1xgi8wh"
      ]
     },
+    "support group doesn't fit or isn't available": {
+     "n": 12,
+     "ids": [
+      "p102duhi",
+      "p1cte145",
+      "p1f40t6t",
+      "p1fwiyqh",
+      "p1htie7f",
+      "p1k6c3xw",
+      "p1njos94",
+      "p1q7qsqd",
+      "p1x7s6o6",
+      "p1xfgola",
+      "p1xhu3kz",
+      "p1xjqtpx"
+     ]
+    },
     "no services nearby": {
      "n": 8,
      "ids": [
@@ -684,19 +696,6 @@
       "p1o42umr",
       "p1vwqa38",
       "p1xinklo"
-     ]
-    },
-    "support group doesn't fit or isn't available": {
-     "n": 8,
-     "ids": [
-      "p102duhi",
-      "p1cte145",
-      "p1f40t6t",
-      "p1htie7f",
-      "p1k6c3xw",
-      "p1njos94",
-      "p1xfgola",
-      "p1xhu3kz"
      ]
     },
     "agencies, social workers or helplines don't help": {
@@ -871,11 +870,13 @@
    },
    "barriers": {
     "other (single mentions)": {
-     "n": 14,
+     "n": 16,
      "ids": [
+      "alzconnected-77284",
       "alzconnected-77407",
       "alzconnected-77428",
       "p15j4418",
+      "p18s99gf",
       "p1bahk0o",
       "p1clihdw",
       "p1gv639c",
@@ -887,23 +888,6 @@
       "p1uquweh",
       "p1wcnm2o",
       "p1xed99p"
-     ]
-    },
-    "family or friends won't help": {
-     "n": 12,
-     "ids": [
-      "alzconnected-77284",
-      "p12jepmd",
-      "p17lxmn1",
-      "p18s99gf",
-      "p1apfb6y",
-      "p1emw0y2",
-      "p1hjpjiw",
-      "p1izmwwi",
-      "p1ly069b",
-      "p1mf2vea",
-      "p1ql99hx",
-      "p1wcnm2o"
      ]
     },
     "hard application or eligibility rules": {
@@ -919,6 +903,20 @@
       "p1ulb1ow",
       "p1ulyb8z",
       "p1x2f8kr"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 9,
+     "ids": [
+      "p12jepmd",
+      "p17lxmn1",
+      "p1apfb6y",
+      "p1hjpjiw",
+      "p1izmwwi",
+      "p1ly069b",
+      "p1mf2vea",
+      "p1ql99hx",
+      "p1wcnm2o"
      ]
     },
     "cost": {
@@ -973,25 +971,15 @@
      ]
     },
     "therapy doesn't help or isn't available": {
-     "n": 6,
+     "n": 7,
      "ids": [
       "alzconnected-77427",
       "p14w0n8e",
       "p18s99gf",
       "p1d5bh5a",
+      "p1emw0y2",
       "p1mnxlq5",
       "p1ot35z1"
-     ]
-    },
-    "too few hours, minimum stays or other limits": {
-     "n": 6,
-     "ids": [
-      "p14i6eyu",
-      "p19aj4pk",
-      "p1ai7fdz",
-      "p1b4mm45",
-      "p1peddwl",
-      "p1ulyb8z"
      ]
     },
     "waitlist or no openings": {
@@ -1005,12 +993,23 @@
      ]
     },
     "support group doesn't fit or isn't available": {
-     "n": 4,
+     "n": 5,
      "ids": [
+      "p19aj4pk",
       "p1c77tpa",
       "p1ffv59l",
       "p1pd655m",
       "p1w2se42"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 5,
+     "ids": [
+      "p14i6eyu",
+      "p1ai7fdz",
+      "p1b4mm45",
+      "p1peddwl",
+      "p1ulyb8z"
      ]
     },
     "agencies, social workers or helplines don't help": {
@@ -1351,9 +1350,8 @@
      ]
     },
     "family or friends won't help": {
-     "n": 24,
+     "n": 23,
      "ids": [
-      "p11cqk5x",
       "p11iztt7",
       "p15g2dxl",
       "p173vmwt",
@@ -1468,11 +1466,24 @@
       "p1veks8d"
      ]
     },
-    "too few hours, minimum stays or other limits": {
+    "support group doesn't fit or isn't available": {
      "n": 9,
      "ids": [
-      "p11sw4zw",
+      "alzconnected-77414",
+      "p11cqk5x",
       "p11xv4i3",
+      "p16yoywf",
+      "p1ayina1",
+      "p1evdjpv",
+      "p1gmwzqi",
+      "p1sgc5ts",
+      "p1tpvrus"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 8,
+     "ids": [
+      "p11sw4zw",
       "p164wt8v",
       "p18y0ng6",
       "p1veks8d",
@@ -1480,18 +1491,6 @@
       "p1wrl2v4",
       "p1x6ectj",
       "p1xbap1k"
-     ]
-    },
-    "support group doesn't fit or isn't available": {
-     "n": 7,
-     "ids": [
-      "alzconnected-77414",
-      "p16yoywf",
-      "p1ayina1",
-      "p1evdjpv",
-      "p1gmwzqi",
-      "p1sgc5ts",
-      "p1tpvrus"
      ]
     },
     "doesn't trust strangers with the parent": {

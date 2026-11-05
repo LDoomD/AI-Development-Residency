@@ -453,3 +453,12 @@ Checklist: `docs/research-checklist-ca3-exhaustion.md`. Reader version 2: `docs/
 | `competitors-4/adult-day/*` | Alzheimer's Association adult day centers page (hours, activities, sliding scales, Medicaid) | https://www.alz.org/help-support/caregiving/care-options/adult-day-centers | Respite row |
 | `competitors-4/respite-arch/*` | ARCH National Respite Network home page | https://archrespite.org/ | Respite row |
 | `competitive-analysis-3/grid/build_grid_v3.py` → `grid-v3.json`, `business-v2.json` | Grid version 3 and business table version 2: version 2 rows unchanged plus the 2 new rows. New source types check relief reader codes and relief barrier counts. Grid 117 cells, 214 sources; business 45 cells, 82 sources; 0 problems | — | Reader version 2, Figma |
+
+## 2026-11-05 Audit and corrections
+
+| File | What it is | Used for |
+|---|---|---|
+| `audit-2026-11-05/` | 6-agent audit: blind re-reads (`build_samples.py`, `recode-codes.json`, `relevance-check.json`, `audience-check.json`, `compare.py` → `compare-results.json`) and reports `audit-4-market.md`, `audit-5-audience.md`, `audit-6-competitive.md` | `docs/reports/audit-2026-11-05-results.md` |
+| `market-analysis-3/segments-11-12/count_results.py` (grouping rule corrected 2026-11-05) → `results.json`, `results-by-audience.json` | "Family won't help" recount (93 → 83) | Market and audience corrected sections |
+| `competitive-analysis-3/grid/build_grid_v4.py` → `grid-v4.json`, `business-v3.json` | Grid version 4 and business table version 3 with the audit fixes; 0 problems (grid 117 cells and 217 sources; business 45 cells and 85 sources) | `docs/competitive-analysis-3-reader-v2.md`, Figma 2645:12741 |
+| `competitors-4/adult-day/`, `va-caregiver/`, `hospice-respite/` | Quotes added: adult day counseling and behavior help, VA 70% disability rating, VA respite copay, hospice "terminally ill" | Corrected respite and VA cells |

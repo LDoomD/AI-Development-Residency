@@ -269,7 +269,9 @@ LIMITS: one reader coded each post once, and no person double-checked. Posts onl
 
 ## UPDATED 2026-11-04 — Segments 11 and 12 researched (respite and adult day; caregiver burnout support). Approved by the owner.
 
-Why: exhaustion is the #1 caregiver problem, but segments 11 and 12 had never been researched (segment 11 said "no names gathered"). Nothing above this section was changed. Full findings: `docs/market-analysis-segments-11-12-findings.md`. Inputs (every saved document on the topic, used or left out): `docs/market-analysis-segments-11-12-inputs.md`. Data: `docs/sources/market-analysis-3/segments-11-12/`.
+> **SUPERSEDED 2026-11-05:** corrected after an audit. Use the section "CORRECTED 2026-11-05 — Segments 11 and 12" at the end of this file.
+
+Why: exhaustion is the #1 caregiver problem, and segments 11 and 12 had been sized and listed (Figma 2598:10950, 2026-11-01) but never studied from caregivers' own experience of relief. (Corrected 2026-11-05: an earlier version said they "had never been researched," based on older repo copies.) Market size note: the Figma board uses adult day care, $19.3B (Grand View); this update cites elderly respite, $374.1M (Coherent Market Insights). The scopes differ. Nothing above this section was changed. Full findings: `docs/market-analysis-segments-11-12-findings.md`. Inputs (every saved document on the topic, used or left out): `docs/market-analysis-segments-11-12-inputs.md`. Data: `docs/sources/market-analysis-3/segments-11-12/`.
 
 **What was read:** 1,086 items in full: all 632 saved Reddit posts that mention respite or adult day, 115 posts naming programs and payers, random samples of 150 support-group and 150 therapist posts, and 39 forum threads. 831 were family caregivers writing about relief. Every quote was checked word for word by script.
 
@@ -292,3 +294,41 @@ Why: exhaustion is the #1 caregiver problem, but segments 11 and 12 had never be
 | Top barriers | Cost 16%, the parent refuses 15%, family won't help 12% | Family won't help 12%, eligibility rules 10%, cost 8% (small numbers) |
 
 Both audiences face the same access gap. Adult children are blocked most by cost and the parent refusing. Spouses are more often left with no help and lean on therapy and support groups. Details: `docs/market-analysis-segments-11-12-findings.md`, "split by audience."
+
+
+---
+
+## CORRECTED 2026-11-05 — Segments 11 and 12: how worn-out caregivers get a break, and what stops them
+
+This replaces the 2026-11-04 section above. It was rechecked by 6 independent agents (`docs/reports/audit-2026-11-05-results.md`). The counts were recounted with a fixed rule (`docs/sources/market-analysis-3/segments-11-12/count_results.py`).
+
+**What was read:** 1,086 caregiver posts and forum threads, read in full; 831 were from family caregivers writing about getting a break. A second reader re-read 50 of them without seeing the first answers and mostly agreed (49 of 50 on whether a post counts; 44 of 49 on what happened).
+
+**Words used here:**
+- **Respite:** a short break for the caregiver while someone else takes over the care, at home, at an adult day center, or in a short stay at a facility.
+- **Adult day center:** a place where the parent spends the day with staff and activities.
+
+| Segment | Who gives the help (programs caregivers name most) | What caregivers told us | What it means |
+|---|---|---|---|
+| 11. Respite care and adult day services | Medicaid and its waiver programs (77 posts), hospice (45), the VA (44), Area Agencies on Aging and local aging offices (26). Earlier research also found ARCH (a national directory of respite providers), Medicare GUIDE (pays up to $2,500 a year for respite for people with dementia), and Papa ($30 an hour). | Caregivers want breaks far more than they get them. Of 341 posts about respite, 128 had gotten a break, 78 wanted one but couldn't get it, and 81 were still trying. About a quarter of the 831 caregivers need a break and have no help at all. What stops them most: the cost (118 posts), the parent saying no (96), paperwork and rules to qualify (86; about 60 of these name the VA or Medicaid), and family who won't step in (83). Waitlists (59) and too few trained workers (38) also get in the way. | Help for worn-out caregivers exists, but many can't get it. The biggest blocks are cost, a parent who says no, paperwork and family who won't help. In some areas there also isn't enough help. This matches the national survey: 39% of caregivers say a break would help, but only 13% have ever used respite (AARP/NAC 2025, PDF pp.26-27). |
+| 12. Caregiver mental health and burnout support | Therapists and counselors, support groups, and online caregiver groups (Reddit, Facebook groups, ALZConnected). | Caregivers almost never mention burnout or meditation apps (a handful of posts out of 49,315). Of 139 posts about a therapist, 82 had one; some say it doesn't help or they can't afford it. Of 114 posts about support groups, 49 went; groups help them feel less alone, but some can't find one that fits. | The need is large, but the apps that crowd this market don't reach caregivers. Caregivers get support from people: therapists, support groups and other caregivers online. |
+
+**By audience** (486 posts from adult children caring for a parent; 98 from spouses or partners, a small number):
+
+| | Adult children caring for a parent | Spouses or partners |
+|---|---|---|
+| Need a break and have no help | About 1 in 4 | About 1 in 4 |
+| Got a break through respite | 79 of 486 posts | 12 of 98 posts |
+| Go to support groups | 12% of posts | 22% of posts (a real difference) |
+| What stops them most | The cost, the parent saying no, family who won't step in, paperwork and rules | Paperwork and rules (often the VA), family who won't step in, the cost, not finding reliable helpers |
+| Programs named most | Medicaid, hospice, the VA | The VA |
+
+**What changed from the 2026-11-04 version, and why:**
+1. "Family won't help" dropped from 93 to 83 posts. The sorting rule had counted unrelated reasons.
+2. The provider counts were too low (only exact names were counted). Medicaid, not the VA, is named most.
+3. "The gap is access, not supply" was rewritten in plain words. It also leaves out that waitlists and too few workers matter in some areas.
+4. "Spouses are more often left with no help (30% vs 25%)" was removed. On only 98 posts, that difference isn't real. The support group difference is real.
+5. "Confirms AARP" became "matches the national survey," because online posts can't confirm a national rate.
+6. The board's segment rows are dated "Researched 2026-11-01," inside sections dated 2026-11-04.
+
+**Limits:** people who post online are often the ones having a hard time, so these numbers show patterns, not national rates. Each post was read by one reader; a second reader agreed on most points, but the reasons for not getting a break are less certain than the main counts.

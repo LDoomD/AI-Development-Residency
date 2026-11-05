@@ -1,3 +1,5 @@
+> **Superseded (noted 2026-11-05).** The current competitive analysis is `docs/competitive-analysis-3-reader-v2.md` and Figma https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/?node-id=2645-12741. This file is kept as history.
+
 # Competitive Analysis 3 (started 2026-11-04)
 
 Built step by step from the saved documents listed in `Dog Feeding Docs/Week 2_3/dogfood-2026-11-04-start-competitive-analysis.md`. Each step is approved by the owner before the next. Figma: the "UPDATED 2026-11-04: COMPETITIVE ANALYSIS 3" section on the competitive analysis page.
@@ -34,7 +36,7 @@ Cover the top 7 problems. Each is seen in 46 or more Audience 1 posts and thread
 |---|---|---|---|---|
 | 1. Exhaustion, doing it alone | 138 | 45 | 51% / 43% (top) | No |
 | 2. Dementia behavior, hard talks | 82 | 24 | 24% / 34% | No |
-| 3. Money, legal papers, the parent's accounts | 74 (+132 accounts posts in the targeted search) | 13 | 28% / 33% (strongest unmet need) | Partly (Everplans, MyChart) |
+| 3. Money, legal papers, the parent's accounts | 74 (+132 accounts posts in the targeted search) | 13 | 28% / 33% (strong evidence of an unmet need (not confirmed by the owner)) | Partly (Everplans, MyChart) |
 | 4. Medicines and hands-on care | 62 | 24 | 13% / 16% (+17 hands-on posts) | Medicines only (Medisafe, Caring Village) |
 | 5. The parent refuses help | 60 | 9 | 20% / 10% (new) | No |
 | 6. Relatives don't help | 48 | 12 | 24% / 24% | Yes (Caring Village, CaringBridge, Lotsa, group texts) |
@@ -176,7 +178,7 @@ Following Fleety's advice and the teacher's template (which has 5 question colum
 |---|---|---|---|
 | 1 | Does it help the caregiver understand what's happening, handle hard behavior, and know what to do next? | #1 situational goal (73). Use case #2, dementia behavior (82). 55% do medical tasks, only 22% were trained (AARP p.34). | Dementia behavior 24% / 34%. No market segment serves it. |
 | 2 | Does it give the caregiver real relief: time, breaks, their own health? | Use case #1, exhaustion (138). #1 life goal, health and sanity (73). 34% have no other help (AARP p.25). | Burnout 51% / 43%, top everywhere. Segment 12: biggest need, crowded. Owner's scoring: Valuable High. |
-| 3 | Does it get the parent's money, papers and accounts under control? | Use case #3 (74). Situational goal #3 (49). | 28% / 33%; 132 targeted accounts posts. Segment 10: strongest unmet need. Owner's scoring: Valuable High. |
+| 3 | Does it get the parent's money, papers and accounts under control? | Use case #3 (74). Situational goal #3 (49). | 28% / 33%; 132 targeted accounts posts. Segment 10: strong evidence of an unmet need (not confirmed by the owner). Owner's scoring: Valuable High. |
 | 4 | Does it still work when the parent refuses help, and respect the parent's choices? | Use case #5 (60). Motivation: let the parent stay home and choose (24). | 20% / 10% (new from Reddit). No market segment serves it. |
 | 5 | Does it get relatives to actually share the work? | Use case #6 (48). 34% have no other help. | Family coordination 24% / 24%. Families use group chats, not apps (99 posts). Owner's scoring: Medium. |
 
@@ -193,7 +195,7 @@ Candidates: every company the market analysis names in a segment that touches th
 | # | Competitor | Type | Market analysis segment | Criteria it touches | Caregiver evidence |
 |---|---|---|---|---|---|
 | 1 | Caring Village | Direct (business) | 1 Family care-coordination apps | 5, 3 | 29 caregiver reviews |
-| 2 | Everplans | Direct (business) | 10 Digital vaults (strongest unmet need) | 3 | Thin: 1 caregiving review |
+| 2 | Everplans | Direct (business) | 10 Digital vaults (strong evidence of an unmet need (not confirmed by the owner)) | 3 | Thin: 1 caregiving review |
 | 3 | Cariloop | Direct (business, employer-paid) | 7 Employer caregiver benefits | 2, 3 | 0 posts; company pages and price saved |
 | 4 | A Place for Mom | Direct (business) | 4 Senior care referral (owner's scoring: Valuable High) | 2 | 21 caregiver posts |
 | 5 | Geriatric care managers | Direct (private professionals) | No segment; fills the gap for criteria 1 and 4 | 1, 4, 2 | 31 caregiver posts |
@@ -282,7 +284,7 @@ Added after the owner asked for the business questions from the board's "Questio
 | Cariloop is employer-only; care managers cost $150 to $300 an hour | Step 5 grid | Takeaway 2 |
 | Only 12% would pay out of pocket; willing payers cap near $70 a month; 70% are employed | Audience socioeconomic box (Figma 2378:7195; CAN 2026, Schulz 2016, AARP/NAC 2025) | Takeaway 2 |
 | Employer benefits verdict: a different customer (the employer pays) | Market segment 7 (`docs/competitive-analysis-3-inputs.md`) | Takeaway 2 |
-| Money, papers and accounts: the strongest unmet need; 132 accounts posts | Market segment 10, `docs/market-analysis-3.md` | Takeaway 3 |
+| Money, papers and accounts: the strong evidence of an unmet need (not confirmed by the owner); 132 accounts posts | Market segment 10, `docs/market-analysis-3.md` | Takeaway 3 |
 | Health data and consent are treated as a risk | Step 4 note | Takeaway 3 |
 | Burnout is the biggest need but crowded, with no competitor in the grid | Segment 12, step 3 trade-off | Note |
 | Medicines and hands-on care, and choosing a place, stay visible | Step 4 note | Note |
@@ -296,7 +298,7 @@ Added after the owner asked for the business questions from the board's "Questio
    - **Gap:** Cariloop's coaches come only through employers with 100 or more workers. Care managers cost $150 to $300 an hour. Only 12% of caregivers would pay out of pocket, and willing payers cap near $70 a month.
    - **Opening:** coach-level guidance under $70 a month, or sold through employers, since 70% of caregivers have jobs.
 3. **Help with money and accounts works only if the parent prepared ahead of time.**
-   - **Gap:** Everplans is useless unless the parent filled it in. Caring Village stores documents but can't get the caregiver into bank or insurer accounts. This is the strongest unmet need in the market analysis.
+   - **Gap:** Everplans is useless unless the parent filled it in. Caring Village stores documents but can't get the caregiver into bank or insurer accounts. This is the strong evidence of an unmet need (not confirmed by the owner) in the market analysis.
    - **Opening:** getting caregivers into a parent's accounts after the parent can no longer set it up.
    - **Risk:** health data and consent. Caring Village shows medical details to invited friends, and Everplans lets parents lock sections.
 

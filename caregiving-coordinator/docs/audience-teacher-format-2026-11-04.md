@@ -98,6 +98,8 @@ Figma: section 2623:76 on the audience page (2378:7107). Built from 412 caregive
 
 ## UPDATED 2026-11-04 — What blocks relief, under use case 1 for each audience (approved by the owner)
 
+> **SUPERSEDED 2026-11-05:** corrected after an audit. Use "CORRECTED 2026-11-05 — What stops caregivers from getting a break" at the end of this file.
+
 From the relief reading pass (`docs/market-analysis-segments-11-12-findings.md`). The table cells above are unchanged.
 
 **Audience 1, use case 1 (adult children carry the care, many of them alone):**
@@ -111,3 +113,23 @@ From the relief reading pass (`docs/market-analysis-segments-11-12-findings.md`)
 - 30% need a break and have no help in place (98 posts, so these numbers are rough).
 
 Neither audience uses burnout or meditation apps.
+
+
+## CORRECTED 2026-11-05 — What stops caregivers from getting a break, under use case 1 (approved by the owner)
+
+From 831 caregiver posts about getting a break (`docs/market-analysis-3.md`, "CORRECTED 2026-11-05" section). The table cells above are unchanged. **Respite** means a short break while someone else takes over the care.
+
+**Audience 1, adult children caring for a parent (use case 1: carrying the care, many of them alone):**
+- About 1 in 4 need a break and have no help in place.
+- What stops them: the cost, the parent saying no, family who won't step in, paperwork and rules to qualify, and worry about the quality of care.
+- Help they use: respite, paid aides, siblings or friends stepping in, adult day centers, therapy.
+- Programs they name most: Medicaid, hospice, the VA.
+
+**Audience 2, spouses or partners (use case 1: carrying the care, many of them alone):**
+- About 1 in 4 need a break and have no help in place.
+- What stops them: paperwork and rules (sometimes the VA), family who won't step in, the cost, not finding reliable helpers, and worry about the quality of care.
+- Help they use: support groups more than adult children do, plus therapy, respite and paid aides.
+- Program they name most: the VA.
+- Based on 98 posts, so these are a rough guide.
+
+Burnout and meditation apps almost never come up for either audience.

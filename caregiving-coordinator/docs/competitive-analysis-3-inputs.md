@@ -39,7 +39,7 @@ This table is the **starting list of competitors**. Step 2 of the competitive an
 | 7 | Employer and health-plan caregiver benefits | Cariloop, Wellthy, Carallel, ianacare | 1 exhaustion, 3 money and papers | Different customer (the employer pays) |
 | 8 | Patient-side AI visit notes | Kin Health, Citizen Health, Doctor Notes | Doctors (not top 7) | Open but unproven |
 | 9 | Patient portals with proxy access | Epic MyChart, Oracle Health, Meditech, athenahealth, GetWell | Doctors; 3 accounts (partly) | Not open (Epic dominates) |
-| 10 | Digital vaults and emergency access | Everplans (Precoa), Cake, Trustworthy, AARP Digital Vault, 1Password, Keeper | 3 money, papers, accounts | **3rd version: the strongest unmet need among the software segments** |
+| 10 | Digital vaults and emergency access | Everplans (Precoa), Cake, Trustworthy, AARP Digital Vault, 1Password, Keeper | 3 money, papers, accounts | **3rd version: strong evidence of an unmet need (Claude's reading, not confirmed by the owner)** |
 | 11 | Respite care and adult day services | No names gathered | 1 exhaustion | Not assessed |
 | 12 | Caregiver mental health and burnout support | Sanvello, Talkspace, Calm, ianacare (Headspace is named in the 3rd version opportunity text) | 1 exhaustion | **3rd version: the biggest need, but crowded** |
 | 13 | Telehealth and virtual care | No names gathered | Not top 7 | Not assessed |
@@ -99,4 +99,4 @@ A smaller sample. Its top use cases: exhaustion (45), dementia behavior (24), pe
    - The owner chooses 5 to 7 direct, plus indirect.
 4. **Questions (step 4):** from the audience goals and the segmentation facts.
 5. **Table cells (step 5):** **one short sentence** that answers the column's question for a caregiver (what job it does, and why it works or fails). Counts and quotes go in the evidence file. The model is the owner's Competitive Analysis 2 table.
-6. **Gaps and value opportunities:** measured against the problem sizes, the use case counts and the market opportunity verdicts (for example, segment 10 is the strongest unmet need, and segment 12 is the biggest need but crowded).
+6. **Gaps and value opportunities:** measured against the problem sizes, the use case counts and the market opportunity verdicts (for example, segment 10 is the strong evidence of an unmet need (not confirmed by the owner), and segment 12 is the biggest need but crowded).

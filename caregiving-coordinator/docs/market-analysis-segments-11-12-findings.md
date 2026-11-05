@@ -1,5 +1,7 @@
 # Findings: how caregivers get relief, and what stops them (segments 11 and 12, 2026-11-04)
 
+> **CORRECTED 2026-11-05 after an audit.** Use the corrected numbers in `docs/market-analysis-3.md`, section "CORRECTED 2026-11-05 — Segments 11 and 12": family won't help is 83 (not 93); providers named most are Medicaid and waivers 77, hospice 45, the VA 44, Area Agencies and aging offices 26; the spouse vs adult child "no help" difference isn't real; cost examples below in quote marks are not all word for word. Audit: `docs/reports/audit-2026-11-05-results.md`.
+
 Draft for the owner's review. The market analysis is not changed until the owner approves.
 
 ## What was read

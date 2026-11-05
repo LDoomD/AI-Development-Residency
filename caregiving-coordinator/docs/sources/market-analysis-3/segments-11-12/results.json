@@ -240,7 +240,7 @@
    },
    "barriers": {
     "other (single mentions)": {
-     "n": 69,
+     "n": 73,
      "ids": [
       "p12i8t0z",
       "p14hyfyg",
@@ -255,6 +255,7 @@
       "p185m4ne",
       "p185urqw",
       "p18olg3c",
+      "p18s99gf",
       "p1ao0cio",
       "p1b8hajl",
       "p1bahk0o",
@@ -277,6 +278,7 @@
       "p1iqjhcx",
       "p1jg09cj",
       "p1kcjt3j",
+      "p1kvou0n",
       "p1lbihie",
       "p1ltq0yj",
       "p1mk9mjj",
@@ -295,6 +297,7 @@
       "p1phocfe",
       "p1ptwxp6",
       "p1qroiog",
+      "p1riok43",
       "p1riorpo",
       "p1rze7rd",
       "p1sesz72",
@@ -303,6 +306,7 @@
       "p1uquweh",
       "p1va6osz",
       "p1woix5k",
+      "p1wt8999",
       "p1x3j2a1",
       "p1x6ectj",
       "p1xe0oeo",
@@ -428,47 +432,6 @@
       "p1xn2n4n"
      ]
     },
-    "family or friends won't help": {
-     "n": 36,
-     "ids": [
-      "p11not4k",
-      "p12jepmd",
-      "p15ilz3x",
-      "p173vmwt",
-      "p17f3mrn",
-      "p17fmeoh",
-      "p184v6in",
-      "p18s99gf",
-      "p18zhybf",
-      "p199f9t2",
-      "p1bo2sz0",
-      "p1dg3zj5",
-      "p1e4einl",
-      "p1hh59ir",
-      "p1i2mx8s",
-      "p1i4txah",
-      "p1kvou0n",
-      "p1ly069b",
-      "p1mf2vea",
-      "p1n1lrxu",
-      "p1ndyxm0",
-      "p1nhv4z5",
-      "p1pcgrfu",
-      "p1pusyrl",
-      "p1qzh1m2",
-      "p1ri7jhb",
-      "p1riok43",
-      "p1sd4zyh",
-      "p1syzln4",
-      "p1ua3gcg",
-      "p1uabuhm",
-      "p1wixm80",
-      "p1wp6eyh",
-      "p1wt8999",
-      "p1xfgv6i",
-      "p1xintv8"
-     ]
-    },
     "worry about quality or safety": {
      "n": 35,
      "ids": [
@@ -507,6 +470,43 @@
       "p1wsg3kb",
       "p1xgi52f",
       "p1xhluho"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 32,
+     "ids": [
+      "p11not4k",
+      "p12jepmd",
+      "p15ilz3x",
+      "p173vmwt",
+      "p17f3mrn",
+      "p17fmeoh",
+      "p184v6in",
+      "p18zhybf",
+      "p199f9t2",
+      "p1bo2sz0",
+      "p1dg3zj5",
+      "p1e4einl",
+      "p1hh59ir",
+      "p1i2mx8s",
+      "p1i4txah",
+      "p1ly069b",
+      "p1mf2vea",
+      "p1n1lrxu",
+      "p1ndyxm0",
+      "p1nhv4z5",
+      "p1pcgrfu",
+      "p1pusyrl",
+      "p1qzh1m2",
+      "p1ri7jhb",
+      "p1sd4zyh",
+      "p1syzln4",
+      "p1ua3gcg",
+      "p1uabuhm",
+      "p1wixm80",
+      "p1wp6eyh",
+      "p1xfgv6i",
+      "p1xintv8"
      ]
     },
     "hard application or eligibility rules": {
@@ -1027,11 +1027,12 @@
      ]
     },
     "other (single mentions)": {
-     "n": 28,
+     "n": 29,
      "ids": [
       "p10sju20",
       "p137l10c",
       "p15edl7o",
+      "p18s99gf",
       "p1ao0cio",
       "p1b8hajl",
       "p1bahk0o",
@@ -1060,13 +1061,12 @@
      ]
     },
     "family or friends won't help": {
-     "n": 22,
+     "n": 21,
      "ids": [
       "alzconnected-77423",
       "p10h6p87",
       "p139urv3",
       "p17lxmn1",
-      "p18s99gf",
       "p1au52xo",
       "p1cbdn53",
       "p1dg92h1",
@@ -1450,8 +1450,9 @@
      ]
     },
     "other (single mentions)": {
-     "n": 30,
+     "n": 31,
      "ids": [
+      "alzconnected-77284",
       "alzconnected-77407",
       "alzconnected-77428",
       "p166x33z",
@@ -1471,7 +1472,7 @@
       "p1mnxlq5",
       "p1ondfaa",
       "p1oojy59",
-      "p1oslgkm",
+      "p1riok43",
       "p1riorpo",
       "p1scy7q4",
       "p1sesz72",
@@ -1516,9 +1517,8 @@
      ]
     },
     "family or friends won't help": {
-     "n": 23,
+     "n": 21,
      "ids": [
-      "alzconnected-77284",
       "alzconnected-77423",
       "p139urv3",
       "p15g2dxl",
@@ -1538,7 +1538,6 @@
       "p1pusyrl",
       "p1qzh1m2",
       "p1ri7jhb",
-      "p1riok43",
       "p1wp6eyh",
       "p1xintv8"
      ]
@@ -1828,6 +1827,7 @@
       "p1jg57i2",
       "p1ji641g",
       "p1lshhom",
+      "p1myasny",
       "p1ndyxm0",
       "p1okmhe4",
       "p1olnbrm",
@@ -1836,7 +1836,6 @@
       "p1pmsqq2",
       "p1ql99hx",
       "p1svhfgu",
-      "p1titnxo",
       "p1truium",
       "p1ua3gcg",
       "p1vcxza3",
@@ -1851,7 +1850,7 @@
      ]
     },
     "other (single mentions)": {
-     "n": 33,
+     "n": 32,
      "ids": [
       "p1179uxg",
       "p141eftl",
@@ -1870,13 +1869,12 @@
       "p1jgxc08",
       "p1k5tq02",
       "p1lyg1c4",
-      "p1myasny",
       "p1nckenq",
-      "p1oslgkm",
       "p1pcwf3h",
       "p1scy7q4",
       "p1spfye6",
       "p1t7i4w7",
+      "p1titnxo",
       "p1tojejn",
       "p1u06d13",
       "p1ua3gcg",
@@ -2199,7 +2197,7 @@
    },
    "barriers": {
     "therapy doesn't help or isn't available": {
-     "n": 27,
+     "n": 28,
      "ids": [
       "agingcare-499059",
       "alzconnected-77401",
@@ -2217,6 +2215,7 @@
       "p1d5bh5a",
       "p1dsqqkz",
       "p1dt0xxy",
+      "p1emw0y2",
       "p1f7gwcd",
       "p1i7mzri",
       "p1ix8lya",
@@ -2228,6 +2227,28 @@
       "p1ratgxs",
       "p1v0a4n9",
       "p1vza0qq"
+     ]
+    },
+    "other (single mentions)": {
+     "n": 17,
+     "ids": [
+      "alzconnected-77428",
+      "p14b1bmo",
+      "p166x33z",
+      "p185urqw",
+      "p18qw843",
+      "p18s99gf",
+      "p1ax4qbl",
+      "p1clihdw",
+      "p1fl3g1g",
+      "p1hkemyl",
+      "p1hy6q9j",
+      "p1jb8dfc",
+      "p1jg09cj",
+      "p1jn2k3s",
+      "p1mnxlq5",
+      "p1rzd450",
+      "p1t7i4w7"
      ]
     },
     "cost": {
@@ -2251,27 +2272,6 @@
       "p1xlkn1i"
      ]
     },
-    "other (single mentions)": {
-     "n": 16,
-     "ids": [
-      "alzconnected-77428",
-      "p14b1bmo",
-      "p166x33z",
-      "p185urqw",
-      "p18qw843",
-      "p1ax4qbl",
-      "p1clihdw",
-      "p1fl3g1g",
-      "p1hkemyl",
-      "p1hy6q9j",
-      "p1jb8dfc",
-      "p1jg09cj",
-      "p1jn2k3s",
-      "p1mnxlq5",
-      "p1rzd450",
-      "p1t7i4w7"
-     ]
-    },
     "the parent refuses": {
      "n": 14,
      "ids": [
@@ -2291,21 +2291,6 @@
       "p1tu60qx"
      ]
     },
-    "family or friends won't help": {
-     "n": 10,
-     "ids": [
-      "p11cqk5x",
-      "p11not4k",
-      "p18s99gf",
-      "p1apfb6y",
-      "p1emw0y2",
-      "p1ext7ws",
-      "p1fdkeql",
-      "p1gyvd7k",
-      "p1klsvfo",
-      "p1okmhe4"
-     ]
-    },
     "hard application or eligibility rules": {
      "n": 9,
      "ids": [
@@ -2320,6 +2305,31 @@
       "p1vc7mvv"
      ]
     },
+    "support group doesn't fit or isn't available": {
+     "n": 8,
+     "ids": [
+      "p11cqk5x",
+      "p16yoywf",
+      "p19aj4pk",
+      "p1c77tpa",
+      "p1ffv59l",
+      "p1gmwzqi",
+      "p1htie7f",
+      "p1xfgola"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 7,
+     "ids": [
+      "p11not4k",
+      "p1apfb6y",
+      "p1ext7ws",
+      "p1fdkeql",
+      "p1gyvd7k",
+      "p1klsvfo",
+      "p1okmhe4"
+     ]
+    },
     "no trained or reliable providers": {
      "n": 7,
      "ids": [
@@ -2330,17 +2340,6 @@
       "p1clihdw",
       "p1dsqqkz",
       "p1pxe7ba"
-     ]
-    },
-    "support group doesn't fit or isn't available": {
-     "n": 6,
-     "ids": [
-      "p16yoywf",
-      "p1c77tpa",
-      "p1ffv59l",
-      "p1gmwzqi",
-      "p1htie7f",
-      "p1xfgola"
      ]
     },
     "waitlist or no openings": {
@@ -2400,13 +2399,6 @@
       "p1iuao25"
      ]
     },
-    "too few hours, minimum stays or other limits": {
-     "n": 2,
-     "ids": [
-      "p19aj4pk",
-      "p1hr9d7f"
-     ]
-    },
     "transport or logistics": {
      "n": 2,
      "ids": [
@@ -2432,6 +2424,12 @@
      "n": 1,
      "ids": [
       "p1ufaoxa"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 1,
+     "ids": [
+      "p1hr9d7f"
      ]
     }
    },
@@ -2510,26 +2508,33 @@
    },
    "barriers": {
     "support group doesn't fit or isn't available": {
-     "n": 18,
+     "n": 25,
      "ids": [
       "alzconnected-77414",
       "p102duhi",
+      "p11cqk5x",
+      "p11xv4i3",
       "p16yoywf",
+      "p19aj4pk",
       "p1ayina1",
       "p1c77tpa",
       "p1cte145",
       "p1evdjpv",
       "p1ffv59l",
+      "p1fwiyqh",
       "p1gmwzqi",
       "p1htie7f",
       "p1k6c3xw",
       "p1njos94",
       "p1pd655m",
+      "p1q7qsqd",
       "p1sgc5ts",
       "p1tpvrus",
       "p1w2se42",
+      "p1x7s6o6",
       "p1xfgola",
-      "p1xhu3kz"
+      "p1xhu3kz",
+      "p1xjqtpx"
      ]
     },
     "other (single mentions)": {
@@ -2547,19 +2552,6 @@
       "p1ohw2mm",
       "p1rzd450",
       "p1t7i4w7"
-     ]
-    },
-    "family or friends won't help": {
-     "n": 8,
-     "ids": [
-      "alzconnected-77423",
-      "p11cqk5x",
-      "p139urv3",
-      "p1f2kpq8",
-      "p1fwiyqh",
-      "p1pusyrl",
-      "p1x7s6o6",
-      "p1xjqtpx"
      ]
     },
     "cost": {
@@ -2634,13 +2626,13 @@
       "p1xbuw5r"
      ]
     },
-    "too few hours, minimum stays or other limits": {
+    "family or friends won't help": {
      "n": 4,
      "ids": [
-      "p11xv4i3",
-      "p19aj4pk",
-      "p1hr9d7f",
-      "p1q7qsqd"
+      "alzconnected-77423",
+      "p139urv3",
+      "p1f2kpq8",
+      "p1pusyrl"
      ]
     },
     "no trained or reliable providers": {
@@ -2689,6 +2681,12 @@
      "n": 1,
      "ids": [
       "p14rjvnz"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 1,
+     "ids": [
+      "p1hr9d7f"
      ]
     },
     "agencies, social workers or helplines don't help": {
@@ -3104,7 +3102,7 @@
    },
    "barriers": {
     "other (single mentions)": {
-     "n": 24,
+     "n": 25,
      "ids": [
       "p12i8t0z",
       "p15gaup5",
@@ -3123,6 +3121,7 @@
       "p1phocfe",
       "p1ptwxp6",
       "p1qroiog",
+      "p1riok43",
       "p1riorpo",
       "p1rze7rd",
       "p1sesz72",
@@ -3256,7 +3255,7 @@
      ]
     },
     "family or friends won't help": {
-     "n": 10,
+     "n": 9,
      "ids": [
       "p15ilz3x",
       "p17fmeoh",
@@ -3264,7 +3263,6 @@
       "p1n1lrxu",
       "p1qzh1m2",
       "p1ri7jhb",
-      "p1riok43",
       "p1ua3gcg",
       "p1wixm80",
       "p1xfgv6i"
@@ -3473,8 +3471,9 @@
      ]
     },
     "other (single mentions)": {
-     "n": 12,
+     "n": 14,
      "ids": [
+      "alzconnected-77284",
       "p137l10c",
       "p18ztaf1",
       "p1ch1lyn",
@@ -3483,6 +3482,7 @@
       "p1elmknm",
       "p1eu2d7w",
       "p1hwzkcg",
+      "p1titnxo",
       "p1tojejn",
       "p1u4ku62",
       "p1woa8ct",
@@ -3520,19 +3520,6 @@
       "p1x8maxn"
      ]
     },
-    "family or friends won't help": {
-     "n": 8,
-     "ids": [
-      "alzconnected-77284",
-      "alzconnected-77423",
-      "p1dg92h1",
-      "p1klsvfo",
-      "p1ri7jhb",
-      "p1titnxo",
-      "p1wp6eyh",
-      "p1xg0gw1"
-     ]
-    },
     "worry about quality or safety": {
      "n": 6,
      "ids": [
@@ -3542,6 +3529,17 @@
       "p1titnxo",
       "p1uaypm6",
       "p1wp6eyh"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 6,
+     "ids": [
+      "alzconnected-77423",
+      "p1dg92h1",
+      "p1klsvfo",
+      "p1ri7jhb",
+      "p1wp6eyh",
+      "p1xg0gw1"
      ]
     },
     "transport or logistics": {
@@ -3691,13 +3689,14 @@
    },
    "barriers": {
     "other (single mentions)": {
-     "n": 9,
+     "n": 10,
      "ids": [
       "p173vmwt",
       "p1e0vg7a",
       "p1e144pf",
       "p1gaisz3",
       "p1igixmj",
+      "p1kvou0n",
       "p1mym2av",
       "p1oojy59",
       "p1uquweh",
@@ -3730,12 +3729,11 @@
      ]
     },
     "family or friends won't help": {
-     "n": 7,
+     "n": 6,
      "ids": [
       "p173vmwt",
       "p1bo2sz0",
       "p1e4einl",
-      "p1kvou0n",
       "p1ndyxm0",
       "p1nhv4z5",
       "p1xintv8"
@@ -4058,7 +4056,7 @@
     "used": 1
    },
    "barriers": {
-    "family or friends won't help": {
+    "support group doesn't fit or isn't available": {
      "n": 1,
      "ids": [
       "p1x7s6o6"
@@ -4113,7 +4111,7 @@
     "used": 1
    },
    "barriers": {
-    "family or friends won't help": {
+    "support group doesn't fit or isn't available": {
      "n": 1,
      "ids": [
       "p1xjqtpx"
@@ -4153,12 +4151,6 @@
     "wanted but couldn't get": 1
    },
    "barriers": {
-    "inflexible program (hours, minimum stay, days)": {
-     "n": 1,
-     "ids": [
-      "p1wnm7mw"
-     ]
-    },
     "waitlist or no openings": {
      "n": 1,
      "ids": [
@@ -4166,6 +4158,12 @@
      ]
     },
     "cost": {
+     "n": 1,
+     "ids": [
+      "p1wnm7mw"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
      "n": 1,
      "ids": [
       "p1wnm7mw"
@@ -4217,13 +4215,13 @@
     "used": 1
    },
    "barriers": {
-    "therapy doesn't help or isn't available": {
+    "no trained or reliable providers": {
      "n": 1,
      "ids": [
       "alzconnected-77427"
      ]
     },
-    "no trained or reliable providers": {
+    "therapy doesn't help or isn't available": {
      "n": 1,
      "ids": [
       "alzconnected-77427"
@@ -4257,13 +4255,13 @@
     "used": 1
    },
    "barriers": {
-    "therapy doesn't help or isn't available": {
+    "no trained or reliable providers": {
      "n": 1,
      "ids": [
       "alzconnected-77427"
      ]
     },
-    "no trained or reliable providers": {
+    "therapy doesn't help or isn't available": {
      "n": 1,
      "ids": [
       "alzconnected-77427"
@@ -4310,13 +4308,13 @@
     "used": 1
    },
    "barriers": {
-    "other (single mentions)": {
+    "family or friends won't help": {
      "n": 1,
      "ids": [
       "p1wcnm2o"
      ]
     },
-    "family or friends won't help": {
+    "other (single mentions)": {
      "n": 1,
      "ids": [
       "p1wcnm2o"
@@ -4387,8 +4385,9 @@
  },
  "barriers_all": {
   "other (single mentions)": {
-   "n": 129,
+   "n": 133,
    "ids": [
+    "alzconnected-77284",
     "alzconnected-77407",
     "alzconnected-77428",
     "p10sju20",
@@ -4411,6 +4410,7 @@
     "p185urqw",
     "p18olg3c",
     "p18qw843",
+    "p18s99gf",
     "p18ztaf1",
     "p1ao0cio",
     "p1ax4qbl",
@@ -4458,6 +4458,7 @@
     "p1kcjt3j",
     "p1kj80tn",
     "p1ko3zju",
+    "p1kvou0n",
     "p1lbihie",
     "p1ltq0yj",
     "p1lyg1c4",
@@ -4466,7 +4467,6 @@
     "p1mnxlq5",
     "p1moya4x",
     "p1mwbysg",
-    "p1myasny",
     "p1mym2av",
     "p1n2tzt5",
     "p1n7noh2",
@@ -4475,7 +4475,6 @@
     "p1olyc62",
     "p1ondfaa",
     "p1oojy59",
-    "p1oslgkm",
     "p1oxyzhw",
     "p1p4xeed",
     "p1pbtct3",
@@ -4484,6 +4483,7 @@
     "p1ptwxp6",
     "p1qm5jd8",
     "p1qroiog",
+    "p1riok43",
     "p1riorpo",
     "p1rzd450",
     "p1rze7rd",
@@ -4491,6 +4491,7 @@
     "p1sesz72",
     "p1spfye6",
     "p1t7i4w7",
+    "p1titnxo",
     "p1tojejn",
     "p1u06d13",
     "p1u4ku62",
@@ -4508,6 +4509,7 @@
     "p1woa8ct",
     "p1woix5k",
     "p1wp4tlm",
+    "p1wt8999",
     "p1x3j2a1",
     "p1x427s1",
     "p1x6ectj",
@@ -4744,104 +4746,6 @@
     "p1xn2n4n"
    ]
   },
-  "family or friends won't help": {
-   "n": 93,
-   "ids": [
-    "alzconnected-77284",
-    "alzconnected-77423",
-    "p10h6p87",
-    "p11cqk5x",
-    "p11iztt7",
-    "p11not4k",
-    "p12jepmd",
-    "p139urv3",
-    "p15g2dxl",
-    "p15ilz3x",
-    "p173vmwt",
-    "p17f3mrn",
-    "p17fmeoh",
-    "p17lxmn1",
-    "p184v6in",
-    "p18s99gf",
-    "p18zhybf",
-    "p1997vj7",
-    "p199f9t2",
-    "p1apfb6y",
-    "p1au52xo",
-    "p1bo2sz0",
-    "p1cbdn53",
-    "p1dg3zj5",
-    "p1dg92h1",
-    "p1e4einl",
-    "p1emw0y2",
-    "p1ext7ws",
-    "p1f2kpq8",
-    "p1f9l5nf",
-    "p1fdkeql",
-    "p1ffn6ro",
-    "p1fhowx4",
-    "p1fwiyqh",
-    "p1g1eokn",
-    "p1gyhj99",
-    "p1gyvd7k",
-    "p1he0nkf",
-    "p1hh59ir",
-    "p1hjpjiw",
-    "p1i2mx8s",
-    "p1i4txah",
-    "p1izmwwi",
-    "p1jg57i2",
-    "p1ji641g",
-    "p1jq23bh",
-    "p1klsvfo",
-    "p1kvou0n",
-    "p1l2joyx",
-    "p1lshhom",
-    "p1ly069b",
-    "p1mf2vea",
-    "p1ms8gjr",
-    "p1n1lrxu",
-    "p1ndyxm0",
-    "p1nhv4z5",
-    "p1okmhe4",
-    "p1olnbrm",
-    "p1oslgkm",
-    "p1pcgrfu",
-    "p1pmsqq2",
-    "p1pusyrl",
-    "p1qcq0m1",
-    "p1ql99hx",
-    "p1qzh1m2",
-    "p1ri7jhb",
-    "p1riok43",
-    "p1sd4zyh",
-    "p1sq4773",
-    "p1svhfgu",
-    "p1syzln4",
-    "p1titnxo",
-    "p1truium",
-    "p1ua3gcg",
-    "p1uabuhm",
-    "p1vcxza3",
-    "p1vfh78m",
-    "p1vzh1pw",
-    "p1w5sq0g",
-    "p1w9gnx3",
-    "p1wcnm2o",
-    "p1wh12um",
-    "p1wixm80",
-    "p1wl7ajy",
-    "p1wlrtcw",
-    "p1wp6eyh",
-    "p1wt8999",
-    "p1x0c1ao",
-    "p1x7s6o6",
-    "p1xfgv6i",
-    "p1xg0gw1",
-    "p1xintv8",
-    "p1xjqtpx"
-   ]
-  },
   "hard application or eligibility rules": {
    "n": 86,
    "ids": [
@@ -4931,6 +4835,94 @@
     "p1xgi52f",
     "p1xgi8wh",
     "p1xhwxes"
+   ]
+  },
+  "family or friends won't help": {
+   "n": 83,
+   "ids": [
+    "alzconnected-77423",
+    "p10h6p87",
+    "p11iztt7",
+    "p11not4k",
+    "p12jepmd",
+    "p139urv3",
+    "p15g2dxl",
+    "p15ilz3x",
+    "p173vmwt",
+    "p17f3mrn",
+    "p17fmeoh",
+    "p17lxmn1",
+    "p184v6in",
+    "p18zhybf",
+    "p1997vj7",
+    "p199f9t2",
+    "p1apfb6y",
+    "p1au52xo",
+    "p1bo2sz0",
+    "p1cbdn53",
+    "p1dg3zj5",
+    "p1dg92h1",
+    "p1e4einl",
+    "p1ext7ws",
+    "p1f2kpq8",
+    "p1f9l5nf",
+    "p1fdkeql",
+    "p1ffn6ro",
+    "p1fhowx4",
+    "p1g1eokn",
+    "p1gyhj99",
+    "p1gyvd7k",
+    "p1he0nkf",
+    "p1hh59ir",
+    "p1hjpjiw",
+    "p1i2mx8s",
+    "p1i4txah",
+    "p1izmwwi",
+    "p1jg57i2",
+    "p1ji641g",
+    "p1jq23bh",
+    "p1klsvfo",
+    "p1l2joyx",
+    "p1lshhom",
+    "p1ly069b",
+    "p1mf2vea",
+    "p1ms8gjr",
+    "p1myasny",
+    "p1n1lrxu",
+    "p1ndyxm0",
+    "p1nhv4z5",
+    "p1okmhe4",
+    "p1olnbrm",
+    "p1oslgkm",
+    "p1pcgrfu",
+    "p1pmsqq2",
+    "p1pusyrl",
+    "p1qcq0m1",
+    "p1ql99hx",
+    "p1qzh1m2",
+    "p1ri7jhb",
+    "p1sd4zyh",
+    "p1sq4773",
+    "p1svhfgu",
+    "p1syzln4",
+    "p1truium",
+    "p1ua3gcg",
+    "p1uabuhm",
+    "p1vcxza3",
+    "p1vfh78m",
+    "p1vzh1pw",
+    "p1w5sq0g",
+    "p1w9gnx3",
+    "p1wcnm2o",
+    "p1wh12um",
+    "p1wixm80",
+    "p1wl7ajy",
+    "p1wlrtcw",
+    "p1wp6eyh",
+    "p1x0c1ao",
+    "p1xfgv6i",
+    "p1xg0gw1",
+    "p1xintv8"
    ]
   },
   "waitlist or no openings": {
@@ -5141,17 +5133,15 @@
    ]
   },
   "too few hours, minimum stays or other limits": {
-   "n": 36,
+   "n": 33,
    "ids": [
     "p11sw4zw",
-    "p11xv4i3",
     "p14i6eyu",
     "p164wt8v",
     "p16f5lb1",
     "p183zjqa",
     "p18qbl96",
     "p18y0ng6",
-    "p19aj4pk",
     "p1ai7fdz",
     "p1b4mm45",
     "p1bha84r",
@@ -5165,7 +5155,6 @@
     "p1p9dkvh",
     "p1peddwl",
     "p1pxlnnk",
-    "p1q7qsqd",
     "p1rlva01",
     "p1sg01yh",
     "p1ujkn7g",
@@ -5182,7 +5171,7 @@
    ]
   },
   "therapy doesn't help or isn't available": {
-   "n": 27,
+   "n": 28,
    "ids": [
     "agingcare-499059",
     "alzconnected-77401",
@@ -5200,6 +5189,7 @@
     "p1d5bh5a",
     "p1dsqqkz",
     "p1dt0xxy",
+    "p1emw0y2",
     "p1f7gwcd",
     "p1i7mzri",
     "p1ix8lya",
@@ -5211,6 +5201,37 @@
     "p1ratgxs",
     "p1v0a4n9",
     "p1vza0qq"
+   ]
+  },
+  "support group doesn't fit or isn't available": {
+   "n": 26,
+   "ids": [
+    "alzconnected-77414",
+    "p102duhi",
+    "p11cqk5x",
+    "p11xv4i3",
+    "p16yoywf",
+    "p19aj4pk",
+    "p1ayina1",
+    "p1c77tpa",
+    "p1cte145",
+    "p1evdjpv",
+    "p1f40t6t",
+    "p1ffv59l",
+    "p1fwiyqh",
+    "p1gmwzqi",
+    "p1htie7f",
+    "p1k6c3xw",
+    "p1njos94",
+    "p1pd655m",
+    "p1q7qsqd",
+    "p1sgc5ts",
+    "p1tpvrus",
+    "p1w2se42",
+    "p1x7s6o6",
+    "p1xfgola",
+    "p1xhu3kz",
+    "p1xjqtpx"
    ]
   },
   "inflexible program (hours, minimum stay, days)": {
@@ -5240,30 +5261,6 @@
     "p1wnm7mw",
     "p1xbuw5r",
     "p1xhwxes"
-   ]
-  },
-  "support group doesn't fit or isn't available": {
-   "n": 19,
-   "ids": [
-    "alzconnected-77414",
-    "p102duhi",
-    "p16yoywf",
-    "p1ayina1",
-    "p1c77tpa",
-    "p1cte145",
-    "p1evdjpv",
-    "p1f40t6t",
-    "p1ffv59l",
-    "p1gmwzqi",
-    "p1htie7f",
-    "p1k6c3xw",
-    "p1njos94",
-    "p1pd655m",
-    "p1sgc5ts",
-    "p1tpvrus",
-    "p1w2se42",
-    "p1xfgola",
-    "p1xhu3kz"
    ]
   },
   "transport or logistics": {

@@ -16,9 +16,10 @@ def is_resp(c):
     hs = c.get("help", [])
     return any(h in RESP or "respite" in h.lower() for h in hs) or (not hs and "respite" in [t.lower() for t in items[c["id"]]["matched"]])
 # Free-text "other:" barriers grouped by keyword (rules in order; the first match wins). Unmatched stay "other (single mentions)".
-OTHER = [("family or friends won't help", r"famil|sibling|brother|sister|relative|in-law|no one to|nobody|no help|no support network|husband|spouse|son |daughter"),
- ("too few hours, minimum stays or other limits", r"hour|minimum|limit|curfew|weekend|only|days a week|week"),
+OTHER = [  # corrected 2026-11-05 after the audit: support-group text first; no "husband/spouse/son " matching
  ("support group doesn't fit or isn't available", r"group"),
+ ("family or friends won't help", r"famil|sibling|brother|sister|relative|in-law|\bsons?\b|daughter|nobody|no one|no help|support network|won't help|step in|no backup"),
+ ("too few hours, minimum stays or other limits", r"hour|minimum|limit|curfew|weekend|only|days a week|week"),
  ("therapy doesn't help or isn't available", r"therap|counsel"),
  ("the break isn't restful (worry, more work, chores)", r"worry|anxiety continues|during the break|harder|more work|chores|can't relax|preparing"),
  ("agencies, social workers or helplines don't help", r"agenc|social work|helpline|pamphlet|staff|case manager|hospice"),

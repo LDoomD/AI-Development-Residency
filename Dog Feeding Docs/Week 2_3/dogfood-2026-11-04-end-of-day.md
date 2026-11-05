@@ -4,6 +4,13 @@
 
 > Paste to start: "Read this report, then the files in section 9. Tell me what you have and what's missing. Then fill in docs/research-checklist.md for the next step and show it to me before doing anything."
 
+> **Corrections, 2026-11-05 (after an audit; see `caregiving-coordinator/docs/reports/update-inventory-2026-11-05.md`):**
+> 1. "Who pays for relief today: mostly government" is not supported. Caregivers name government programs as *providers* far more than companies, but families pay about as often as public programs do (about 58 vs 60 of 153 posts).
+> 2. "Segments 11 and 12 had never been researched" is wrong. The Figma board already sized and listed them on 2026-11-01 (2598:10950). Last night added caregivers' own experience of relief.
+> 3. The feature analysis isn't "not started." Feature Analysis 3 exists (Figma 2584:10359) but is built on the old competitors and needs a full audit.
+> 4. Two open items were missing: the duplicate audience section 2061:543 in FigJam Q5jRpN3MbONqFQF6KTS70j, and the unrequested Feature Analysis 3 gaps rewrite.
+> 5. Fixed on the board and in the repo on 2026-11-05: "70% of working-age caregivers," the unconfirmed "strongest unmet need" ranking removed in 5 places, outdated segment 12 notes, the misleading audience correction bullet, and a dated update note beside the old market opportunity answer.
+
 ---
 
 ## 1. RULE #1 (read before anything else)

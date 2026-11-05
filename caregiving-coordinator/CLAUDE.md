@@ -131,6 +131,11 @@ checked documents, never from chat memory.
   owner plainly that the biggest need will have no competitor. Candidates come
   from the full researched list, never from pages that happen to be saved.
   Mistake log: `docs/reports/competitive-analysis-3-change-report-2026-11-04b.md`.
+- **Write for the owner (2026-11-05).** Every output (chat, reports, tables,
+  Figma) uses UX writing best practices at an 8th-grade reading level: what it
+  means first, then the number; full sentences; caregiver words, not research
+  jargon ("supply," "coded," "keyword rule"). Test: would the owner understand
+  it on first read?
 - **Questions get answers, not edits.** When the owner asks a question, answer
   it and stop. Change files only after a clear yes.
 - **Every research pass splits by audience.** Before any reading starts, the
