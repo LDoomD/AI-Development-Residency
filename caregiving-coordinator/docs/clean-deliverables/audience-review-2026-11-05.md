@@ -66,3 +66,19 @@ The national facts and the by-audience table stay word for word.
 | Forum and Reddit columns | Written as "23 (20%) / 50 (43%)" | "Main topic in 23; mentioned in 50 (43%)": the same numbers, in words that say what they count |
 
 The notes below the table ("Who is cared for," "Other problems found," "Limits") stay word for word.
+
+---
+
+## Synthesis update (approved and applied 2026-11-05)
+
+The owner asked for the break research (831 posts) to be **merged into the earlier findings**, not kept as a separate section.
+
+1. **Use case 1, both audiences, updated** in section 2 (tables 2834:2884 and 2834:2900).
+   - Adult children: can't get a break even when help exists. Cost, paperwork or a refusing parent blocks breaks, and siblings won't step in. New scenarios: find an affordable break they qualify for, get the parent to accept help, get relatives to cover time off.
+   - Spouses: lose breaks too. Paperwork and rules (often the VA's) block breaks. New scenarios: find a support group, qualify for help including VA programs.
+   - "Seen in" counts stay from the 412-post study. The 831 break posts were picked for being about breaks, so their counts aren't added.
+2. **The national facts** (39% vs 13%, 30% stress, 59% dementia stress) moved into the "Where this comes from" note in section 2. **The separate section 3 was removed** from the clean page. Its by-audience points now live in the use case rows, in market analysis section 2 (programs) and in section 4 (burnout apps).
+3. **Top problems, row 1** gained: "AARP/NAC 2025: 39% say a break would help, only 13% have used one (PDF pp.26-27)."
+4. **Market analysis section 1:** the add-on column "What caregivers say about getting a break" was dropped. Its facts live in sections 2 and 4.
+
+The audience segmentation now has 3 sections: 1. definition (2834:2844), 2. motivations, goals and use cases (2834:2867), 3. top problems (2834:16750).
