@@ -462,3 +462,11 @@ Checklist: `docs/research-checklist-ca3-exhaustion.md`. Reader version 2: `docs/
 | `market-analysis-3/segments-11-12/count_results.py` (grouping rule corrected 2026-11-05) → `results.json`, `results-by-audience.json` | "Family won't help" recount (93 → 83) | Market and audience corrected sections |
 | `competitive-analysis-3/grid/build_grid_v4.py` → `grid-v4.json`, `business-v3.json` | Grid version 4 and business table version 3 with the audit fixes; 0 problems (grid 117 cells and 217 sources; business 45 cells and 85 sources) | `docs/competitive-analysis-3-reader-v2.md`, Figma 2645:12741 |
 | `competitors-4/adult-day/`, `va-caregiver/`, `hospice-respite/` | Quotes added: adult day counseling and behavior help, VA 70% disability rating, VA respite copay, hospice "terminally ill" | Corrected respite and VA cells |
+
+## VA row fix, Competitive Analysis 3 version 3 (2026-11-05)
+
+- `competitive-analysis-3/grid/build_grid_v5.py` → `grid-v5.json`, `business-v4.json`: four VA cells fixed; older versions' files are not rewritten (0 problems).
+- `competitive-analysis-3/va-check/va-cells-change-2026-11-05.md`: what changed and why, with the post ids.
+- `competitive-analysis-3/va-check/research-checklist-va-2026-11-05.md`: checklist for a 187-post VA reading, not run (kept for the feature analysis).
+- `competitive-analysis-3/va-check/va_ids.json`, `va_archive_ids.json`: the post lists.
+- Repo copy: `docs/competitive-analysis-3-reader-v3.md` (version 2 marked superseded).

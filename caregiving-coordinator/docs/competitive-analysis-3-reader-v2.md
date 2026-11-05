@@ -1,5 +1,7 @@
 # Competitive Analysis 3: reader version 2 (2026-11-04)
 
+> **SUPERSEDED 2026-11-05 by `docs/competitive-analysis-3-reader-v3.md`** (four VA cells fixed). Kept for history.
+
 Version 2 adds two competitors for the #1 caregiver problem (exhaustion), rewords gap 2 and adds gap 4 (approved by the owner 2026-11-04). Version 1 is kept: `docs/competitive-analysis-3-reader.md`. Checklist: `docs/research-checklist-ca3-exhaustion.md`. Corrected 2026-11-05 after audits (`docs/reports/update-inventory-2026-11-05.md`, `docs/reports/audit-2026-11-05-results.md`): grid version 4 and business table version 3 (`build_grid_v4.py`), respite and VA cells fixed, gap 2 reworded with Medicare GUIDE, gap 4 narrowed: "70% of working-age caregivers," and the unconfirmed "strongest unmet need" ranking removed (it was Claude's reading, not the owner's decision).
 
 The same approved content as `docs/competitive-analysis-3.md`, put in the teacher's template order with clear titles. The working file keeps the full build history (first versions, replaced steps). Figma: section "UPDATED 2026-11-04: COMPETITIVE ANALYSIS 3".
