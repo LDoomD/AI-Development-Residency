@@ -17,7 +17,7 @@ Working file: `caregiving-coordinator/docs/competitive-analysis-3.md`.
 | 3. Competitors | Approved (second version): 7 from the market analysis segments |
 | 4. Criteria | Approved (second version): 5 from Audience 1's top needs |
 | **5. Competitor grid** | **Approved and saved** as step 5 in `competitive-analysis-3.md` |
-| 6. Three takeaways (gaps and value opportunities) | **Next. Not started.** |
+| 6. Three takeaways (gaps and value opportunities) | **Approved and saved** as step 6 (after this report was first written) |
 | 7. Figma section, then the starting brief for the feature analysis | Not started. Figma has only steps 1 and 2 (section 2645:12741) |
 
 **Git:** everything is committed and pushed. The latest commit is e56343e on branch `feature-analysis`.
@@ -107,6 +107,22 @@ Working file: `caregiving-coordinator/docs/competitive-analysis-3.md`.
 2. Save the takeaways in `competitive-analysis-3.md`, then commit.
 3. Build the Figma section (steps 3 to 6) next to section 2645:12741.
 4. Write the starting brief for the feature analysis.
+
+**Open research: who pays (agreed 2026-11-04, from step 1 business problem 4)**
+
+- **When:** after the feature analysis, before positioning. It's new research, so it updates the market analysis first.
+- **Why:** positioning and the value proposition depend on who the customer is: families, employers or Medicare.
+- **What we already know:**
+  - Families: only 12% would pay out of pocket, and willing payers cap near $70 a month (CAN 2026, Schulz 2016).
+  - Employers pay for Cariloop (segment 7).
+  - Senior living places pay A Place for Mom when a family moves in.
+  - Grants fund Area Agencies on Aging.
+  - Medicare and Medicaid usually don't pay for care managers.
+- **Research needed:**
+  1. **Employers:** do they buy caregiver benefits, which employers, and what do they pay per employee? (Cariloop's $249 a month at MSU is the only price so far.)
+  2. **Medicare and government programs:** what Medicare GUIDE pays for dementia care help, who can bill it, and whether it covers family caregiver support. It's named in `docs/exhaustion-dementia-research.md` but not researched yet. Also check other public programs that pay for caregiver support.
+  3. **Families:** confirm the 12% and $70-a-month figures, and what families pay today for the alternatives.
+- **Rules:** read full primary sources, cite with a link and a page number, save copies in `docs/sources/` with entries in `INDEX.md`.
 
 **Still open from earlier (the owner's call):**
 - Keep or remove the Feature Analysis 3 gaps-report rewrite.

@@ -257,7 +257,57 @@ Candidates: every company the market analysis names in a segment that touches th
 | **Group texts and notebooks** | Partly: a written guide lets someone else step in. No advice on what to do. | No: constant messages wear the caregiver down. | Partly: a binder holds papers. Records pile up and can't be searched. | Partly: work without the parent using any tech. Nothing helps when the parent refuses. | Partly: everyone hears at once. Requests get silence or a 'like'. |
 | **Area Agencies on Aging** | Partly: information and training. Staff often don't know the answer. | Partly: can pay for respite or home help. Long waits and strict rules. | Partly: Medicare counseling. Otherwise referrals, no hands-on help with accounts. | No: can't act without the parent's consent. | No: services go to one caregiver. Nothing for relatives to share. |
 
+## Step 6: Three takeaways, gaps and value opportunities (approved 2026-11-04)
+
+### What the takeaways are built from
+
+| Input | Where it comes from | Used for |
+|---|---|---|
+| No competitor gets a Yes on criteria 4 (parent refuses) or 5 (relatives share) | Step 5 grid | Takeaway 1 |
+| Problem sizes: parent refuses 60, relatives don't help 48 | Audience page (`docs/audience-teacher-format-2026-11-04.md`) | Takeaway 1 |
+| Cariloop is employer-only; care managers cost $150 to $300 an hour | Step 5 grid | Takeaway 2 |
+| Only 12% would pay out of pocket; willing payers cap near $70 a month; 70% are employed | Audience socioeconomic box (Figma 2378:7195; CAN 2026, Schulz 2016, AARP/NAC 2025) | Takeaway 2 |
+| Employer benefits verdict: a different customer (the employer pays) | Market segment 7 (`docs/competitive-analysis-3-inputs.md`) | Takeaway 2 |
+| Money, papers and accounts: the strongest unmet need; 132 accounts posts | Market segment 10, `docs/market-analysis-3.md` | Takeaway 3 |
+| Health data and consent are treated as a risk | Step 4 note | Takeaway 3 |
+| Burnout is the biggest need but crowded, with no competitor in the grid | Segment 12, step 3 trade-off | Note |
+| Medicines and hands-on care, and choosing a place, stay visible | Step 4 note | Note |
+
+### The takeaways
+
+1. **No one handles a parent who refuses help or gets relatives to share the work.**
+   - **Gap:** every competitor gets Partly or No on both. A Place for Mom's advisor even told a family to lie to the parent. Caring Village can't get relatives to join.
+   - **Opening:** help that works around a refusing parent and splits real tasks among relatives.
+2. **Real guidance is locked behind an employer or a $150-an-hour bill.**
+   - **Gap:** Cariloop's coaches come only through employers with 100 or more workers. Care managers cost $150 to $300 an hour. Only 12% of caregivers would pay out of pocket, and willing payers cap near $70 a month.
+   - **Opening:** coach-level guidance under $70 a month, or sold through employers, since 70% of caregivers have jobs.
+3. **Help with money and accounts works only if the parent prepared ahead of time.**
+   - **Gap:** Everplans is useless unless the parent filled it in. Caring Village stores documents but can't get the caregiver into bank or insurer accounts. This is the strongest unmet need in the market analysis.
+   - **Opening:** getting caregivers into a parent's accounts after the parent can no longer set it up.
+   - **Risk:** health data and consent. Caring Village shows medical details to invited friends, and Everplans lets parents lock sections.
+
+**Also noted:**
+- Burnout, the biggest need, has no competitor in the grid because it's crowded.
+- Medicines and hands-on care, and choosing a place, stay in the competitor rows but aren't takeaways.
+
 ## Next steps (not started)
 
-6. Three takeaways: where competitors fail the audience, and where the opening is, tied to the market opportunity verdicts.
-7. Figma section, then the starting brief for the feature analysis.
+7. Figma section (steps 3 to 6) next to section 2645:12741.
+8. Starting brief for the feature analysis.
+
+**Open research: who pays (agreed 2026-11-04, from step 1 business problem 4)**
+
+- **When:** after the feature analysis, before positioning. It's new research, so it updates the market analysis first.
+- **Why:** positioning and the value proposition depend on who the customer is: families, employers or Medicare.
+- **What we already know:**
+  - Families: only 12% would pay out of pocket, and willing payers cap near $70 a month (CAN 2026, Schulz 2016).
+  - Employers pay for Cariloop (segment 7).
+  - Senior living places pay A Place for Mom when a family moves in.
+  - Grants fund Area Agencies on Aging.
+  - Medicare and Medicaid usually don't pay for care managers.
+- **Research needed:**
+  1. **Employers:** do they buy caregiver benefits, which employers, and what do they pay per employee? (Cariloop's $249 a month at MSU is the only price so far.)
+  2. **Medicare and government programs:** what Medicare GUIDE pays for dementia care help, who can bill it, and whether it covers family caregiver support. It's named in `docs/exhaustion-dementia-research.md` but not researched yet. Also check other public programs that pay for caregiver support.
+  3. **Families:** confirm the 12% and $70-a-month figures, and what families pay today for the alternatives.
+- **Rules:** read full primary sources, cite with a link and a page number, save copies in `docs/sources/` with entries in `INDEX.md`.
+
