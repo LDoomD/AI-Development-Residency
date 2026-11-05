@@ -109,6 +109,18 @@ checked documents, never from chat memory.
   one short sentence that answers the column's question, in the style of the
   owner's earlier tables. Counts and quotes go in the evidence file. One entity
   per row, labeled business, nonprofit, government program or workaround.
+- **Search all saved research on a topic first (rule added 2026-11-04, after
+  `docs/exhaustion-dementia-research.md` was missed).** Before working on any
+  problem, segment or competitor, search every saved document in `docs/` for
+  that topic (for example `find docs -name "*.md" -exec grep -l -i -E
+  "exhaust|burnout|respite" {} \;`), and list each file found in the inputs
+  table as used, or left out and why. Don't rely only on the files a report
+  lists. Never filter out the segment for the #1 problem without telling the
+  owner plainly that the biggest need will have no competitor. Candidates come
+  from the full researched list, never from pages that happen to be saved.
+  Mistake log: `docs/reports/competitive-analysis-3-change-report-2026-11-04b.md`.
+- **Questions get answers, not edits.** When the owner asks a question, answer
+  it and stop. Change files only after a clear yes.
 - **How to answer a table question from data (owner-approved style,
   2026-11-04, after 4 rejected drafts).** Every cell must pass all of these:
   1. **Answer the column's question directly, in the first word.** Don't

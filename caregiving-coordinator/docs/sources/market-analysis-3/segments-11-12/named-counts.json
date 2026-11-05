@@ -1,0 +1,33 @@
+{
+ "patterns": {
+  "ARCH National Respite Network": "\\barch (national )?respite\\b|archrespite",
+  "Family Caregiver Alliance": "family caregiver alliance|caregiver\\.org\\b",
+  "Alzheimer's Association helpline": "alz(heimer'?s)? (association )?(24/7 |24 hour )?help ?line|800[- .]?272[- .]?3900",
+  "Medicare GUIDE program": "\\bGUIDE (model|program)\\b",
+  "Papa (companions)": "\\bjoinpapa\\b|\\bpapa pals?\\b|\\bpapa (app|inc|health)\\b",
+  "Wellthy": "\\bwellthy\\b",
+  "Torchlight": "\\btorchlight\\b",
+  "Teepa Snow / Positive Approach to Care": "\\bteepa\\b|positive approach to care",
+  "Savvy Caregiver": "savvy caregiver",
+  "Cariloop": "\\bcariloop\\b",
+  "VA caregiver or respite program": "\\bVA\\b.{0,40}\\b(respite|caregiver)\\b|\\bPCAFC\\b|\\b(respite|caregiver)\\b.{0,40}\\bVA\\b",
+  "Medicaid waiver": "medicaid waiver|waiver program|home and community[- ]based|\\bHCBS\\b",
+  "Hospice respite": "hospice.{0,60}respite|respite.{0,60}hospice",
+  "Area Agency on Aging": "area agenc(y|ies) on aging"
+ },
+ "counts": {
+  "Hospice respite": 27,
+  "Medicaid waiver": 74,
+  "VA caregiver or respite program": 33,
+  "Area Agency on Aging": 26,
+  "Family Caregiver Alliance": 1,
+  "Wellthy": 2,
+  "Medicare GUIDE program": 4,
+  "Teepa Snow / Positive Approach to Care": 2,
+  "ARCH National Respite Network": 1,
+  "Papa (companions)": 1,
+  "Torchlight": 1,
+  "Alzheimer's Association helpline": 2
+ },
+ "posts_not_already_matched": 115
+}

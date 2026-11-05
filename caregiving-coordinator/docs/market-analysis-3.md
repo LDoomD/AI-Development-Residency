@@ -264,3 +264,20 @@ AUDIENCE 2 LABEL AND TRAITS, added: on Reddit, 35 of 412 caregiver posts (8%) ar
 | Relatives and others not helping or criticizing | 3 of 54 (6%) | 0 (0%) / 4 (11%) | Similar. |
 
 LIMITS: one reader coded each post once, and no person double-checked. Posts only, no comments. The forum and Reddit readers differ, so compare order, not exact shares. Audience 2 has 35 Reddit posts. The 'NEW' groups are Claude's grouping of the readers' notes (docs/sources/market-analysis-3/goals/group_new.py). Data: docs/sources/market-analysis-3/goals/ (GOALS-INSTRUCTIONS.md, codes-1..3.json, count_goals.py, build_audience.py). Nothing on the page was chosen or removed; adding or moving anything is the owner's call.
+
+---
+
+## UPDATED 2026-11-04 — Segments 11 and 12 researched (respite and adult day; caregiver burnout support). Approved by the owner.
+
+Why: exhaustion is the #1 caregiver problem, but segments 11 and 12 had never been researched (segment 11 said "no names gathered"). Nothing above this section was changed. Full findings: `docs/market-analysis-segments-11-12-findings.md`. Inputs (every saved document on the topic, used or left out): `docs/market-analysis-segments-11-12-inputs.md`. Data: `docs/sources/market-analysis-3/segments-11-12/`.
+
+**What was read:** 1,086 items in full: all 632 saved Reddit posts that mention respite or adult day, 115 posts naming programs and payers, random samples of 150 support-group and 150 therapist posts, and 39 forum threads. 831 were family caregivers writing about relief. Every quote was checked word for word by script.
+
+| Segment | Who provides it (as caregivers name it, plus the earlier research) | What the research shows | Verdict |
+|---|---|---|---|
+| 11. Respite care and adult day services | Respite (in-home, facility, hospice), adult day programs, the VA (28 posts), Medicaid waivers (about 16), Medicare hospice respite, Area Agencies on Aging (10). From the earlier research: ARCH National Respite Network, Medicare GUIDE (respite up to $2,500 a year), Papa ($30 an hour). | 341 posts about respite: 128 used it, 78 wanted it and couldn't get it, 81 were still looking. 214 of 831 caregivers need a break and have no help. Barriers: cost 118, the parent refuses 96, family won't help 93, eligibility rules 86, rigid hours and minimum stays 59, waitlists 59, quality worries 52, guilt 38. AARP/NAC 2025: 39% say respite would help, 13% use it. Market size: elderly respite $374.1M in 2026 (Coherent Market Insights, free page). | **A real unmet need. The gap is access, not supply.** Help exists, but cost, eligibility rules, waitlists, rigid hours, the parent refusing and family not helping block it. |
+| 12. Caregiver mental health and burnout support | Therapists and counselors, support groups, online communities (Reddit, Facebook groups, ALZConnected). Apps named in the segment: ianacare, Sanvello, Talkspace, Calm. | Therapy: 139 posts, 82 used it. Barriers: therapy doesn't help or isn't caregiver-aware 27, cost 16. Support groups: 114 posts, 49 used them; they help caregivers feel less alone, but 19 say no group fits. Burnout and meditation apps: 9 posts in 49,315 (BetterHelp 5, Calm app 2, Talkspace 2; several say they can't afford them). No dedicated market size found. | **The need is large, but "crowded" was wrong for caregivers.** Burnout apps are crowded in general, yet caregivers almost never use them. They rely on therapy, support groups and peer communities. |
+
+**What this changes in the opportunity reading above:** segment 12 is no longer "the biggest need, but crowded." The biggest need is exhaustion, and its unmet part is access to relief (segment 11). Two of the three biggest barriers (the parent refusing, family not helping) are the same problems with no competitor coverage in Competitive Analysis 3 (criteria 4 and 5). Getting through VA and Medicaid applications (86 posts) links to segment 10 (accounts and papers) and to the who-pays research.
+
+**Limits:** Reddit and forum writers aren't a random sample and lean toward people having a hard time. Counts are posts, not national rates. Respite types are combined because readers labeled them differently.

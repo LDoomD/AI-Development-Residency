@@ -1,0 +1,6887 @@
+{
+ "items_read": 1086,
+ "relevant": 831,
+ "relevant_by_group": {
+  "respite or adult day": 541,
+  "support group sample": 99,
+  "named program": 84,
+  "forum thread": 28,
+  "therapist sample": 79
+ },
+ "wanted_break_no_help": {
+  "n": 214,
+  "ids": [
+   "agingcare-499707",
+   "alzconnected-77407",
+   "p101mrgl",
+   "p1179uxg",
+   "p11iztt7",
+   "p11not4k",
+   "p124ugu2",
+   "p1357ztk",
+   "p14i6eyu",
+   "p14rjvnz",
+   "p15f8egn",
+   "p15ilz3x",
+   "p15j4418",
+   "p15ory27",
+   "p163frvg",
+   "p179l51m",
+   "p17f3mrn",
+   "p17fmeoh",
+   "p17m966i",
+   "p17rd731",
+   "p17uf3lk",
+   "p184v6in",
+   "p18olg3c",
+   "p18zhybf",
+   "p18ztaf1",
+   "p1997vj7",
+   "p1amn1uw",
+   "p1ao0cio",
+   "p1apfb6y",
+   "p1av052q",
+   "p1axzz1c",
+   "p1b3523g",
+   "p1b4mm45",
+   "p1b4tfwz",
+   "p1b5uc5l",
+   "p1bd6d8k",
+   "p1bha84r",
+   "p1bkz3b2",
+   "p1bo2sz0",
+   "p1bu3g77",
+   "p1bvbjya",
+   "p1bw8yh7",
+   "p1bx0wau",
+   "p1bx5ch2",
+   "p1c5iuxz",
+   "p1cbdn53",
+   "p1cbmszm",
+   "p1cdmk21",
+   "p1cup3c9",
+   "p1dg3jlm",
+   "p1dg3zj5",
+   "p1ds45xe",
+   "p1dsz35o",
+   "p1e14eta",
+   "p1e62vfg",
+   "p1eh9j4o",
+   "p1emw0y2",
+   "p1en52mw",
+   "p1f2kpq8",
+   "p1f9l5nf",
+   "p1fa6zr0",
+   "p1fa8j7t",
+   "p1fdkeql",
+   "p1ffn6ro",
+   "p1fn58nj",
+   "p1g1eokn",
+   "p1gaisz3",
+   "p1gedjsz",
+   "p1gfz22e",
+   "p1gmwzqi",
+   "p1goa9oj",
+   "p1gxh77m",
+   "p1gyvd7k",
+   "p1hcenqq",
+   "p1he0nkf",
+   "p1hjpjiw",
+   "p1hr9d7f",
+   "p1hy5hqt",
+   "p1i2rxge",
+   "p1i4txah",
+   "p1ih133l",
+   "p1ikxebi",
+   "p1ikzpnz",
+   "p1iuao25",
+   "p1ixj9ic",
+   "p1izmwwi",
+   "p1j0mlv3",
+   "p1jg09cj",
+   "p1ji641g",
+   "p1jpx4h5",
+   "p1jq23bh",
+   "p1js48s2",
+   "p1jx4dtn",
+   "p1kcjt3j",
+   "p1kimaeg",
+   "p1kvou0n",
+   "p1lid9kd",
+   "p1lqefuq",
+   "p1lshhom",
+   "p1m57yno",
+   "p1mcryrg",
+   "p1me7t0p",
+   "p1mf2vea",
+   "p1mhi2ck",
+   "p1mk9mjj",
+   "p1mncyaf",
+   "p1moya4x",
+   "p1mpgvpc",
+   "p1ms8gjr",
+   "p1muny9d",
+   "p1n1lrxu",
+   "p1n555x9",
+   "p1nhv4z5",
+   "p1nkhd4j",
+   "p1nlbez0",
+   "p1np0dlg",
+   "p1o4bdng",
+   "p1o6x9me",
+   "p1o8zjx8",
+   "p1oelk5y",
+   "p1olnbrm",
+   "p1olyc62",
+   "p1ondfaa",
+   "p1oslgkm",
+   "p1ou9adj",
+   "p1oufhcc",
+   "p1ozrm3l",
+   "p1p10r6a",
+   "p1p476tf",
+   "p1pc6v12",
+   "p1pcgrfu",
+   "p1pcwf3h",
+   "p1plo08h",
+   "p1pxcmkr",
+   "p1pxe7ba",
+   "p1q64hk3",
+   "p1qe29i3",
+   "p1qqvdw1",
+   "p1qssjv5",
+   "p1r27en7",
+   "p1raobdj",
+   "p1ratgxs",
+   "p1ri7jhb",
+   "p1riok43",
+   "p1riorpo",
+   "p1rlnzlf",
+   "p1rze7rd",
+   "p1s0c8za",
+   "p1s1bjoj",
+   "p1sd4zyh",
+   "p1sesz72",
+   "p1sfpcp0",
+   "p1sgxswa",
+   "p1slxhqd",
+   "p1sq4773",
+   "p1ssqrqc",
+   "p1stubkn",
+   "p1svhfgu",
+   "p1t6rfix",
+   "p1titnxo",
+   "p1truium",
+   "p1tu60qx",
+   "p1txz9d6",
+   "p1tz3yy2",
+   "p1u3jeub",
+   "p1uabuhm",
+   "p1ukazl4",
+   "p1ulb1ow",
+   "p1ulutf3",
+   "p1utcy86",
+   "p1v06g1b",
+   "p1v0a4n9",
+   "p1v22j98",
+   "p1v33com",
+   "p1v33ljm",
+   "p1v99w5x",
+   "p1vc7mvv",
+   "p1vcxza3",
+   "p1vedf5r",
+   "p1veks8d",
+   "p1vfhnzo",
+   "p1vmd2lx",
+   "p1vrziuu",
+   "p1vsdr3f",
+   "p1vwpvg5",
+   "p1vwqa38",
+   "p1vydzrh",
+   "p1vz7i3n",
+   "p1vzh1pw",
+   "p1w5j7ue",
+   "p1w5sq0g",
+   "p1w9gnx3",
+   "p1wcnm2o",
+   "p1wh12um",
+   "p1wh6ott",
+   "p1whn0rg",
+   "p1win54c",
+   "p1wl7ajy",
+   "p1wl7yq6",
+   "p1wl7yvf",
+   "p1wlrtcw",
+   "p1wt8999",
+   "p1x0c1ao",
+   "p1x3j2a1",
+   "p1x8maxn",
+   "p1x9x353",
+   "p1xcuw96",
+   "p1xgc0mj",
+   "p1xgdxji",
+   "p1xgi52f",
+   "p1xgi8wh",
+   "p1xhluho",
+   "p1xintv8",
+   "p1xn2n4n"
+  ]
+ },
+ "help": {
+  "ALL RESPITE (any type, combined)": {
+   "posts": 341,
+   "status": {
+    "used": 128,
+    "wanted but couldn't get": 78,
+    "looking or considering": 81,
+    "mentioned only": 32,
+    "tried and stopped": 18,
+    "recommends to others": 4
+   },
+   "barriers": {
+    "other (single mentions)": {
+     "n": 69,
+     "ids": [
+      "p12i8t0z",
+      "p14hyfyg",
+      "p14ne7u4",
+      "p15gaup5",
+      "p15j4418",
+      "p166x33z",
+      "p173vmwt",
+      "p17uf3lk",
+      "p17uspml",
+      "p17wmq7b",
+      "p185m4ne",
+      "p185urqw",
+      "p18olg3c",
+      "p1ao0cio",
+      "p1b8hajl",
+      "p1bahk0o",
+      "p1buxtha",
+      "p1clihdw",
+      "p1cup3c9",
+      "p1dj98vf",
+      "p1e0vg7a",
+      "p1e144pf",
+      "p1e14eta",
+      "p1f44p4z",
+      "p1gaisz3",
+      "p1gfyf62",
+      "p1h067tp",
+      "p1h0yuec",
+      "p1h1fo09",
+      "p1h6ieq6",
+      "p1igixmj",
+      "p1ih133l",
+      "p1iqjhcx",
+      "p1jg09cj",
+      "p1kcjt3j",
+      "p1lbihie",
+      "p1ltq0yj",
+      "p1mk9mjj",
+      "p1moya4x",
+      "p1mwbysg",
+      "p1mym2av",
+      "p1n2tzt5",
+      "p1n7noh2",
+      "p1nckenq",
+      "p1olyc62",
+      "p1oojy59",
+      "p1oxyzhw",
+      "p1p4xeed",
+      "p1pbtct3",
+      "p1pcwf3h",
+      "p1phocfe",
+      "p1ptwxp6",
+      "p1qroiog",
+      "p1riorpo",
+      "p1rze7rd",
+      "p1sesz72",
+      "p1spfye6",
+      "p1ua3gcg",
+      "p1uquweh",
+      "p1va6osz",
+      "p1woix5k",
+      "p1x3j2a1",
+      "p1x6ectj",
+      "p1xe0oeo",
+      "p1xed99p",
+      "p1xgdxji",
+      "p1xhluho",
+      "p1xhwxes",
+      "p1xn2n4n"
+     ]
+    },
+    "cost": {
+     "n": 59,
+     "ids": [
+      "p10vv5x0",
+      "p10ysuq2",
+      "p11265me",
+      "p11l4qnk",
+      "p12i8t0z",
+      "p13v0log",
+      "p141n3zy",
+      "p15gaup5",
+      "p15j4418",
+      "p163frvg",
+      "p166x33z",
+      "p17662pg",
+      "p18olg3c",
+      "p1av052q",
+      "p1b8hajl",
+      "p1bd6d8k",
+      "p1cup3c9",
+      "p1dj98vf",
+      "p1dnhryk",
+      "p1ds30uv",
+      "p1dt8ytt",
+      "p1fa6zr0",
+      "p1fz2tkc",
+      "p1g1q8i5",
+      "p1h0yuec",
+      "p1h7eswt",
+      "p1h9xsuw",
+      "p1ih133l",
+      "p1kvswws",
+      "p1l2ln2l",
+      "p1lqefuq",
+      "p1m57yno",
+      "p1mpgvpc",
+      "p1mt0s3w",
+      "p1mvv0py",
+      "p1nckenq",
+      "p1nlbez0",
+      "p1nzrvux",
+      "p1o8zjx8",
+      "p1oojy59",
+      "p1oufhcc",
+      "p1ozrm3l",
+      "p1pxe7ba",
+      "p1qw6qud",
+      "p1qzh1m2",
+      "p1r27en7",
+      "p1rze7rd",
+      "p1s6ibn8",
+      "p1t2d8aw",
+      "p1tu60qx",
+      "p1u3jeub",
+      "p1uaw6vo",
+      "p1wnm7mw",
+      "p1wq1sbu",
+      "p1xgc0mj",
+      "p1xgi52f",
+      "p1xgi8wh",
+      "p1xinklo",
+      "p1xintv8"
+     ]
+    },
+    "the parent refuses": {
+     "n": 46,
+     "ids": [
+      "p10vv5x0",
+      "p10ysuq2",
+      "p11265me",
+      "p13esz0k",
+      "p13v0log",
+      "p141n3zy",
+      "p145ol40",
+      "p14ipx7y",
+      "p15gaup5",
+      "p15ilz3x",
+      "p17k0at9",
+      "p182rcx3",
+      "p18zhybf",
+      "p1agyae2",
+      "p1bu3g77",
+      "p1dg3jlm",
+      "p1f44p4z",
+      "p1hy5hqt",
+      "p1j235bb",
+      "p1jg09cj",
+      "p1jv5b2n",
+      "p1jx4dtn",
+      "p1l12auz",
+      "p1mcryrg",
+      "p1mt0s3w",
+      "p1n555x9",
+      "p1nhv4z5",
+      "p1nzrvux",
+      "p1o8zjx8",
+      "p1otdi3t",
+      "p1ozrm3l",
+      "p1pjz76s",
+      "p1pxe7ba",
+      "p1q64hk3",
+      "p1ri7jhb",
+      "p1ss3076",
+      "p1tu60qx",
+      "p1tvqu4d",
+      "p1v1e3ig",
+      "p1vrziuu",
+      "p1vz7i3n",
+      "p1w5j7ue",
+      "p1whn0rg",
+      "p1wixm80",
+      "p1xbap1k",
+      "p1xn2n4n"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 36,
+     "ids": [
+      "p11not4k",
+      "p12jepmd",
+      "p15ilz3x",
+      "p173vmwt",
+      "p17f3mrn",
+      "p17fmeoh",
+      "p184v6in",
+      "p18s99gf",
+      "p18zhybf",
+      "p199f9t2",
+      "p1bo2sz0",
+      "p1dg3zj5",
+      "p1e4einl",
+      "p1hh59ir",
+      "p1i2mx8s",
+      "p1i4txah",
+      "p1kvou0n",
+      "p1ly069b",
+      "p1mf2vea",
+      "p1n1lrxu",
+      "p1ndyxm0",
+      "p1nhv4z5",
+      "p1pcgrfu",
+      "p1pusyrl",
+      "p1qzh1m2",
+      "p1ri7jhb",
+      "p1riok43",
+      "p1sd4zyh",
+      "p1syzln4",
+      "p1ua3gcg",
+      "p1uabuhm",
+      "p1wixm80",
+      "p1wp6eyh",
+      "p1wt8999",
+      "p1xfgv6i",
+      "p1xintv8"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 35,
+     "ids": [
+      "p13klqob",
+      "p14hnoft",
+      "p163frvg",
+      "p17sn1oy",
+      "p18i7ypx",
+      "p18p6tnx",
+      "p199f9t2",
+      "p1amhy8v",
+      "p1b4mm45",
+      "p1bahk0o",
+      "p1bo2sz0",
+      "p1cgw0j9",
+      "p1clihdw",
+      "p1ds30uv",
+      "p1g7dv4j",
+      "p1gaisz3",
+      "p1h0yuec",
+      "p1h1fo09",
+      "p1hy5hqt",
+      "p1jmpdxc",
+      "p1jx4dtn",
+      "p1ku0wu0",
+      "p1l2ln2l",
+      "p1mpgvpc",
+      "p1mvv0py",
+      "p1oo0a0m",
+      "p1otp51j",
+      "p1p0ly0n",
+      "p1p6cgeo",
+      "p1pmlg14",
+      "p1txz9d6",
+      "p1wp6eyh",
+      "p1wsg3kb",
+      "p1xgi52f",
+      "p1xhluho"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 31,
+     "ids": [
+      "p15ilz3x",
+      "p166x33z",
+      "p1841dgz",
+      "p18txz7r",
+      "p1amhy8v",
+      "p1bmb2kd",
+      "p1bw8yh7",
+      "p1cbmszm",
+      "p1eh9j4o",
+      "p1fa8j7t",
+      "p1fz2tkc",
+      "p1g6q58p",
+      "p1hre1zw",
+      "p1i4txah",
+      "p1l0d9o5",
+      "p1l9w918",
+      "p1m57yno",
+      "p1mf2vea",
+      "p1mpgvpc",
+      "p1n7noh2",
+      "p1nlbez0",
+      "p1oojy59",
+      "p1oufhcc",
+      "p1qw6qud",
+      "p1ri7jhb",
+      "p1s0c8za",
+      "p1vlexpl",
+      "p1wixm80",
+      "p1xgi52f",
+      "p1xgi8wh",
+      "p1xhwxes"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 29,
+     "ids": [
+      "p11not4k",
+      "p11sw4zw",
+      "p15f8egn",
+      "p15tmvwj",
+      "p17662pg",
+      "p17uf3lk",
+      "p1bha84r",
+      "p1bmb2kd",
+      "p1cbmszm",
+      "p1ds30uv",
+      "p1fa8j7t",
+      "p1g6q58p",
+      "p1juqdro",
+      "p1kvou0n",
+      "p1muny9d",
+      "p1n555x9",
+      "p1nkhd4j",
+      "p1nwn90z",
+      "p1o4bdng",
+      "p1o6x9me",
+      "p1oufhcc",
+      "p1stubkn",
+      "p1v33com",
+      "p1vwpvg5",
+      "p1win54c",
+      "p1wnm7mw",
+      "p1xgi52f",
+      "p1xgi8wh",
+      "p1xintv8"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 25,
+     "ids": [
+      "p14seksz",
+      "p15tmvwj",
+      "p18zhybf",
+      "p1bahk0o",
+      "p1cgw0j9",
+      "p1clihdw",
+      "p1e144pf",
+      "p1e746tb",
+      "p1h9xsuw",
+      "p1hh59ir",
+      "p1jmy1pj",
+      "p1me7t0p",
+      "p1mkc0pb",
+      "p1nckenq",
+      "p1odxjm7",
+      "p1pxlnnk",
+      "p1sd4zyh",
+      "p1sesz72",
+      "p1ss3076",
+      "p1u3jeub",
+      "p1vgm6un",
+      "p1vrziuu",
+      "p1vwpvg5",
+      "p1whn0rg",
+      "p1wq7xaa"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 22,
+     "ids": [
+      "p15f8egn",
+      "p163frvg",
+      "p1amhy8v",
+      "p1ao0cio",
+      "p1axzz1c",
+      "p1clihdw",
+      "p1eq545l",
+      "p1fa8j7t",
+      "p1h067tp",
+      "p1h6ieq6",
+      "p1h7eswt",
+      "p1jbos7w",
+      "p1jmpdxc",
+      "p1jx4dtn",
+      "p1kccf7l",
+      "p1lt55zc",
+      "p1m7atkq",
+      "p1mpgvpc",
+      "p1p4xeed",
+      "p1pxe7ba",
+      "p1rze7rd",
+      "p1vwpvg5"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 22,
+     "ids": [
+      "p11sw4zw",
+      "p14i6eyu",
+      "p164wt8v",
+      "p183zjqa",
+      "p1b4mm45",
+      "p1bha84r",
+      "p1e62vfg",
+      "p1eq545l",
+      "p1ey5f9r",
+      "p1iz3lvv",
+      "p1p9dkvh",
+      "p1peddwl",
+      "p1pxlnnk",
+      "p1sg01yh",
+      "p1ujkn7g",
+      "p1v60a2m",
+      "p1veks8d",
+      "p1wk7gnc",
+      "p1wrl2v4",
+      "p1x6ectj",
+      "p1xbap1k",
+      "p1xfgv6i"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 16,
+     "ids": [
+      "p163frvg",
+      "p18txz7r",
+      "p199f9t2",
+      "p1av052q",
+      "p1bd6d8k",
+      "p1ds30uv",
+      "p1emjuya",
+      "p1iz88h9",
+      "p1kvswws",
+      "p1pjz76s",
+      "p1rze7rd",
+      "p1spfye6",
+      "p1ud1usq",
+      "p1veks8d",
+      "p1wnm7mw",
+      "p1xhwxes"
+     ]
+    },
+    "transport or logistics": {
+     "n": 8,
+     "ids": [
+      "p163frvg",
+      "p199f9t2",
+      "p1nwn90z",
+      "p1p9dkvh",
+      "p1wp6eyh",
+      "p1xbap1k",
+      "p1xgi52f",
+      "p1xgi8wh"
+     ]
+    },
+    "no services nearby": {
+     "n": 7,
+     "ids": [
+      "p1cdmk21",
+      "p1ixj9ic",
+      "p1jx4dtn",
+      "p1kimaeg",
+      "p1m7atkq",
+      "p1mbj6mq",
+      "p1xgc0mj"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 6,
+     "ids": [
+      "p1clihdw",
+      "p1i4txah",
+      "p1jg09cj",
+      "p1mncyaf",
+      "p1n7noh2",
+      "p1ptwxp6"
+     ]
+    },
+    "the person cared for is anxious or worse away from home": {
+     "n": 6,
+     "ids": [
+      "p17uspml",
+      "p17wmq7b",
+      "p18o9itc",
+      "p1amhy8v",
+      "p1me7t0p",
+      "p1ujskrt"
+     ]
+    },
+    "agencies, social workers or helplines don't help": {
+     "n": 6,
+     "ids": [
+      "p163frvg",
+      "p1qe29i3",
+      "p1stubkn",
+      "p1vedf5r",
+      "p1w4oijc",
+      "p1xcuw96"
+     ]
+    },
+    "the break isn't restful (worry, more work, chores)": {
+     "n": 5,
+     "ids": [
+      "p1d40xvz",
+      "p1dnhryk",
+      "p1mrttmn",
+      "p1pmlg14",
+      "p1t2d8aw"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 4,
+     "ids": [
+      "p1eh9j4o",
+      "p1juqdro",
+      "p1lqefuq",
+      "p1xintv8"
+     ]
+    },
+    "no time or energy to arrange it": {
+     "n": 3,
+     "ids": [
+      "p145ol40",
+      "p1ukazl4",
+      "p1xinklo"
+     ]
+    },
+    "therapy doesn't help or isn't available": {
+     "n": 3,
+     "ids": [
+      "p18s99gf",
+      "p1amhy8v",
+      "p1pxe7ba"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "guilt-free lunch with friends",
+     2
+    ],
+    [
+     "massage and quiet time alone",
+     2
+    ],
+    [
+     "date with spouse",
+     1
+    ],
+    [
+     "time with pets",
+     1
+    ],
+    [
+     "relaxed for the first time in months",
+     1
+    ],
+    [
+     "parent enjoyed socializing",
+     1
+    ],
+    [
+     "a relaxed evening at home",
+     1
+    ],
+    [
+     "time for social plans",
+     1
+    ],
+    [
+     "sleeping in with spouse",
+     1
+    ],
+    [
+     "feel less isolated",
+     1
+    ],
+    [
+     "could travel overseas",
+     1
+    ],
+    [
+     "can leave the house for own needs",
+     1
+    ],
+    [
+     "va got dad an aide",
+     1
+    ],
+    [
+     "weekday hours covered by state workers",
+     1
+    ],
+    [
+     "a few days away",
+     1
+    ]
+   ]
+  },
+  "named program": {
+   "posts": 216,
+   "status": {
+    "wanted but couldn't get": 58,
+    "used": 72,
+    "looking or considering": 70,
+    "recommends to others": 12,
+    "tried and stopped": 2,
+    "mentioned only": 2
+   },
+   "barriers": {
+    "hard application or eligibility rules": {
+     "n": 78,
+     "ids": [
+      "alzconnected-77423",
+      "p11awqmt",
+      "p162cj0e",
+      "p162cj0e",
+      "p162cj0e",
+      "p18sk5gq",
+      "p18txz7r",
+      "p18y0ljz",
+      "p18y0ng6",
+      "p19db6db",
+      "p1ad88m9",
+      "p1bmb2kd",
+      "p1bx5ch2",
+      "p1cbdn53",
+      "p1d89ew3",
+      "p1ewklrx",
+      "p1ext7ws",
+      "p1f20olm",
+      "p1f20olm",
+      "p1f2wn8b",
+      "p1f2wn8b",
+      "p1f2wn8b",
+      "p1fa8j7t",
+      "p1fj8paq",
+      "p1fkx8rt",
+      "p1fkx8rt",
+      "p1frmgnj",
+      "p1frmgnj",
+      "p1g6q58p",
+      "p1g6uozh",
+      "p1g6uozh",
+      "p1gad8ky",
+      "p1gad8ky",
+      "p1gg4psm",
+      "p1goa9oj",
+      "p1hcv5bi",
+      "p1hr9d7f",
+      "p1hrd87h",
+      "p1i2rxge",
+      "p1j9odkj",
+      "p1jpx4h5",
+      "p1js48s2",
+      "p1js48s2",
+      "p1kj80tn",
+      "p1kj80tn",
+      "p1ktx64i",
+      "p1l0d9o5",
+      "p1l9w918",
+      "p1l9w918",
+      "p1l9w918",
+      "p1mf2vea",
+      "p1pxcmkr",
+      "p1rlva01",
+      "p1ssqrqc",
+      "p1ssqrqc",
+      "p1ssqrqc",
+      "p1u10o61",
+      "p1u5wh64",
+      "p1ulb1ow",
+      "p1ulb1ow",
+      "p1ulb1ow",
+      "p1ulyb8z",
+      "p1vcxza3",
+      "p1vlexpl",
+      "p1wixm80",
+      "p1wombot",
+      "p1wubszy",
+      "p1x0c1ao",
+      "p1x2f8kr",
+      "p1x8maxn",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xhwxes"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 45,
+     "ids": [
+      "p11awqmt",
+      "p11c03l7",
+      "p1255olt",
+      "p14w0n8e",
+      "p18tvsik",
+      "p18wg3va",
+      "p1b5uc5l",
+      "p1bha84r",
+      "p1bmb2kd",
+      "p1bx5ch2",
+      "p1bzkk76",
+      "p1c6efrx",
+      "p1c9w7gg",
+      "p1c9w7gg",
+      "p1c9w7gg",
+      "p1conram",
+      "p1ewklrx",
+      "p1f20olm",
+      "p1f20olm",
+      "p1fa8j7t",
+      "p1fj8paq",
+      "p1fpacqt",
+      "p1fpacqt",
+      "p1fuy4iw",
+      "p1g6q58p",
+      "p1g6uozh",
+      "p1g6uozh",
+      "p1h0fxvm",
+      "p1hcv5bi",
+      "p1i2rxge",
+      "p1juqdro",
+      "p1juqdro",
+      "p1p10r6a",
+      "p1q21ujo",
+      "p1tojejn",
+      "p1ulutf3",
+      "p1x8maxn",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xintv8"
+     ]
+    },
+    "cost": {
+     "n": 36,
+     "ids": [
+      "p113twdm",
+      "p11awqmt",
+      "p1255olt",
+      "p139urv3",
+      "p18wg3va",
+      "p18y0ljz",
+      "p18y0ng6",
+      "p1ad88m9",
+      "p1b8hajl",
+      "p1bx5ch2",
+      "p1d89ew3",
+      "p1fuy4iw",
+      "p1gedjsz",
+      "p1ib912j",
+      "p1ihnm5n",
+      "p1izmwwi",
+      "p1izmwwi",
+      "p1jpx4h5",
+      "p1js48s2",
+      "p1js48s2",
+      "p1qzh1m2",
+      "p1scy7q4",
+      "p1tojejn",
+      "p1tu60qx",
+      "p1wkta3y",
+      "p1wombot",
+      "p1wp4tlm",
+      "p1wq1sbu",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xintv8"
+     ]
+    },
+    "other (single mentions)": {
+     "n": 28,
+     "ids": [
+      "p10sju20",
+      "p137l10c",
+      "p15edl7o",
+      "p1ao0cio",
+      "p1b8hajl",
+      "p1bahk0o",
+      "p1d7ji5q",
+      "p1fl3g1g",
+      "p1h9p97b",
+      "p1hcv5bi",
+      "p1hkemyl",
+      "p1kj80tn",
+      "p1kj80tn",
+      "p1mbxwso",
+      "p1qm5jd8",
+      "p1qroiog",
+      "p1scy7q4",
+      "p1t7i4w7",
+      "p1tojejn",
+      "p1ua3gcg",
+      "p1uwn1tr",
+      "p1vlzuw7",
+      "p1vmd2lx",
+      "p1wh6ott",
+      "p1wp4tlm",
+      "p1x427s1",
+      "p1xhluho",
+      "p1xhwxes"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 22,
+     "ids": [
+      "alzconnected-77423",
+      "p10h6p87",
+      "p139urv3",
+      "p17lxmn1",
+      "p18s99gf",
+      "p1au52xo",
+      "p1cbdn53",
+      "p1dg92h1",
+      "p1e4einl",
+      "p1ext7ws",
+      "p1izmwwi",
+      "p1izmwwi",
+      "p1l2joyx",
+      "p1mf2vea",
+      "p1qcq0m1",
+      "p1qzh1m2",
+      "p1ua3gcg",
+      "p1vcxza3",
+      "p1vfh78m",
+      "p1wixm80",
+      "p1x0c1ao",
+      "p1xintv8"
+     ]
+    },
+    "the parent refuses": {
+     "n": 19,
+     "ids": [
+      "p14ankjn",
+      "p182rcx3",
+      "p1au52xo",
+      "p1c4ehv3",
+      "p1ffa4ed",
+      "p1fl3g1g",
+      "p1gedjsz",
+      "p1hkemyl",
+      "p1i7k19o",
+      "p1ib912j",
+      "p1k1pgf1",
+      "p1ktx64i",
+      "p1lid9kd",
+      "p1m9ig5r",
+      "p1mukdww",
+      "p1tu60qx",
+      "p1u5wh64",
+      "p1wixm80",
+      "p1wkta3y"
+     ]
+    },
+    "transport or logistics": {
+     "n": 15,
+     "ids": [
+      "p1255olt",
+      "p1bx5ch2",
+      "p1f2wn8b",
+      "p1f2wn8b",
+      "p1f2wn8b",
+      "p1p9dkvh",
+      "p1tojejn",
+      "p1xbuw5r",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xgi8wh",
+      "p1xgi8wh"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 14,
+     "ids": [
+      "p18y0ng6",
+      "p1b4mm45",
+      "p1bha84r",
+      "p1hr9d7f",
+      "p1lid9kd",
+      "p1m6kjs8",
+      "p1p9dkvh",
+      "p1peddwl",
+      "p1pxlnnk",
+      "p1rlva01",
+      "p1ulyb8z",
+      "p1v60a2m",
+      "p1wk7gnc",
+      "p1wombot"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 12,
+     "ids": [
+      "alzconnected-77395",
+      "p14w0n8e",
+      "p1ao0cio",
+      "p1axzz1c",
+      "p1bx5ch2",
+      "p1fa8j7t",
+      "p1g1jb5f",
+      "p1jbos7w",
+      "p1m7atkq",
+      "p1q21ujo",
+      "p1qu598w",
+      "p1x2f8kr"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 12,
+     "ids": [
+      "p1av9voi",
+      "p1b4mm45",
+      "p1bahk0o",
+      "p1cbdn53",
+      "p1ewklrx",
+      "p1p10r6a",
+      "p1pxcmkr",
+      "p1x2f8kr",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xgi52f",
+      "p1xhluho"
+     ]
+    },
+    "agencies, social workers or helplines don't help": {
+     "n": 11,
+     "ids": [
+      "p162cj0e",
+      "p162cj0e",
+      "p162cj0e",
+      "p1nhz441",
+      "p1nhz60z",
+      "p1ulb1ow",
+      "p1ulb1ow",
+      "p1ulb1ow",
+      "p1v6qqg5",
+      "p1v6qqg5",
+      "p1w4oijc"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 6,
+     "ids": [
+      "p18txz7r",
+      "p1i2rxge",
+      "p1qcq0m1",
+      "p1tojejn",
+      "p1xbuw5r",
+      "p1xhwxes"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 5,
+     "ids": [
+      "p139urv3",
+      "p1juqdro",
+      "p1juqdro",
+      "p1t7i4w7",
+      "p1xintv8"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 5,
+     "ids": [
+      "p1f20olm",
+      "p1f20olm",
+      "p1gg4psm",
+      "p1hcv5bi",
+      "p1q21ujo"
+     ]
+    },
+    "no services nearby": {
+     "n": 4,
+     "ids": [
+      "alzconnected-77423",
+      "p10h6p87",
+      "p1d4ps0u",
+      "p1m7atkq"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 4,
+     "ids": [
+      "p1bahk0o",
+      "p1c4ehv3",
+      "p1ewklrx",
+      "p1pxlnnk"
+     ]
+    },
+    "support group doesn't fit or isn't available": {
+     "n": 2,
+     "ids": [
+      "p102duhi",
+      "p1ffv59l"
+     ]
+    },
+    "therapy doesn't help or isn't available": {
+     "n": 2,
+     "ids": [
+      "p14w0n8e",
+      "p18s99gf"
+     ]
+    },
+    "the break isn't restful (worry, more work, chores)": {
+     "n": 1,
+     "ids": [
+      "p1d7jegj"
+     ]
+    },
+    "no time or energy to arrange it": {
+     "n": 1,
+     "ids": [
+      "p1krf9sj"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "monthly payments",
+     3
+    ],
+    [
+     "30 days respite care",
+     3
+    ],
+    [
+     "20 hours a week home caregiver",
+     3
+    ],
+    [
+     "learned great lessons at al-anon",
+     2
+    ],
+    [
+     "a professional to talk with",
+     2
+    ],
+    [
+     "daughter helps so she can stay home",
+     2
+    ],
+    [
+     "days off to recharge",
+     1
+    ],
+    [
+     "can leave the house for own needs",
+     1
+    ],
+    [
+     "therapy helps set caregiving boundaries",
+     1
+    ],
+    [
+     "va got dad an aide",
+     1
+    ],
+    [
+     "weekday hours covered by state workers",
+     1
+    ],
+    [
+     "stipend helps after early retirement",
+     1
+    ],
+    [
+     "grandmother helped for 18 years",
+     1
+    ],
+    [
+     "got a break while she was in rehab",
+     1
+    ],
+    [
+     "therapy showed her lifelong pattern",
+     1
+    ]
+   ]
+  },
+  "paid aide or companion": {
+   "posts": 185,
+   "status": {
+    "wanted but couldn't get": 34,
+    "used": 84,
+    "looking or considering": 56,
+    "recommends to others": 4,
+    "tried and stopped": 7
+   },
+   "barriers": {
+    "cost": {
+     "n": 54,
+     "ids": [
+      "agingcare-499707",
+      "p10vv5x0",
+      "p10ysuq2",
+      "p11265me",
+      "p113twdm",
+      "p11awqmt",
+      "p11l4qnk",
+      "p1255olt",
+      "p139urv3",
+      "p1523b5v",
+      "p163frvg",
+      "p166x33z",
+      "p18wg3va",
+      "p18y0ljz",
+      "p18y0ng6",
+      "p1aelasw",
+      "p1ai7fdz",
+      "p1apfb6y",
+      "p1ayk8qk",
+      "p1b2ei7l",
+      "p1b8hajl",
+      "p1bx0wau",
+      "p1bx5ch2",
+      "p1dt8ytt",
+      "p1eqjlc0",
+      "p1ib912j",
+      "p1ih133l",
+      "p1izmwwi",
+      "p1k0c7e7",
+      "p1knkt0c",
+      "p1kueigu",
+      "p1l2ln2l",
+      "p1m57yno",
+      "p1mpgvpc",
+      "p1nzrvux",
+      "p1oojy59",
+      "p1pa6ff2",
+      "p1pxe7ba",
+      "p1qzh1m2",
+      "p1scy7q4",
+      "p1tojejn",
+      "p1tu60qx",
+      "p1uaw6vo",
+      "p1utcy86",
+      "p1w3j44g",
+      "p1wkta3y",
+      "p1wmdtc0",
+      "p1wnm7mw",
+      "p1woa8ct",
+      "p1wombot",
+      "p1wp4tlm",
+      "p1xgc0mj",
+      "p1xintv8",
+      "p1xlkn1i"
+     ]
+    },
+    "the parent refuses": {
+     "n": 37,
+     "ids": [
+      "alzconnected-77284",
+      "alzconnected-77376",
+      "alzconnected-77428",
+      "p10vv5x0",
+      "p10ysuq2",
+      "p11265me",
+      "p1257oet",
+      "p13esz0k",
+      "p14ankjn",
+      "p179l51m",
+      "p17k0at9",
+      "p18ch5e8",
+      "p18we6y2",
+      "p1axhmwj",
+      "p1byad4o",
+      "p1dmkhg2",
+      "p1eqjlc0",
+      "p1fl3g1g",
+      "p1gfz22e",
+      "p1hcenqq",
+      "p1hkemyl",
+      "p1ib912j",
+      "p1ji641g",
+      "p1jx4dtn",
+      "p1lid9kd",
+      "p1mukdww",
+      "p1nzrvux",
+      "p1pa6ff2",
+      "p1pjz76s",
+      "p1pxe7ba",
+      "p1ri7jhb",
+      "p1tu60qx",
+      "p1tvqu4d",
+      "p1u5wh64",
+      "p1whn0rg",
+      "p1wkta3y",
+      "p1xhu3kz"
+     ]
+    },
+    "other (single mentions)": {
+     "n": 30,
+     "ids": [
+      "alzconnected-77407",
+      "alzconnected-77428",
+      "p166x33z",
+      "p1b8hajl",
+      "p1clihdw",
+      "p1e0vg7a",
+      "p1fl3g1g",
+      "p1h067tp",
+      "p1h6ieq6",
+      "p1hkemyl",
+      "p1hy6q9j",
+      "p1i6s4k3",
+      "p1ih133l",
+      "p1jb8dfc",
+      "p1jgxc08",
+      "p1ltq0yj",
+      "p1mnxlq5",
+      "p1ondfaa",
+      "p1oojy59",
+      "p1oslgkm",
+      "p1riorpo",
+      "p1scy7q4",
+      "p1sesz72",
+      "p1tojejn",
+      "p1uquweh",
+      "p1utcy86",
+      "p1uwn1tr",
+      "p1woa8ct",
+      "p1wp4tlm",
+      "p1xe0oeo"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 26,
+     "ids": [
+      "alzconnected-77423",
+      "p11awqmt",
+      "p166x33z",
+      "p18sk5gq",
+      "p18txz7r",
+      "p18y0ljz",
+      "p18y0ng6",
+      "p1amhy8v",
+      "p1ayk8qk",
+      "p1b2ei7l",
+      "p1bx5ch2",
+      "p1ext7ws",
+      "p1gfz22e",
+      "p1hcenqq",
+      "p1hr9d7f",
+      "p1i2rxge",
+      "p1m57yno",
+      "p1mpgvpc",
+      "p1oojy59",
+      "p1ri7jhb",
+      "p1rlva01",
+      "p1u5wh64",
+      "p1uaypm6",
+      "p1wombot",
+      "p1x2f8kr",
+      "p1x8maxn"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 23,
+     "ids": [
+      "alzconnected-77284",
+      "alzconnected-77423",
+      "p139urv3",
+      "p15g2dxl",
+      "p199f9t2",
+      "p1apfb6y",
+      "p1e4einl",
+      "p1ext7ws",
+      "p1ffn6ro",
+      "p1g1eokn",
+      "p1gyvd7k",
+      "p1hh59ir",
+      "p1izmwwi",
+      "p1ji641g",
+      "p1ly069b",
+      "p1ms8gjr",
+      "p1oslgkm",
+      "p1pusyrl",
+      "p1qzh1m2",
+      "p1ri7jhb",
+      "p1riok43",
+      "p1wp6eyh",
+      "p1xintv8"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 20,
+     "ids": [
+      "alzconnected-77395",
+      "p163frvg",
+      "p1aelasw",
+      "p1amhy8v",
+      "p1bx5ch2",
+      "p1clihdw",
+      "p1g1jb5f",
+      "p1h067tp",
+      "p1h6ieq6",
+      "p1i6s4k3",
+      "p1jx4dtn",
+      "p1lt55zc",
+      "p1m7atkq",
+      "p1mpgvpc",
+      "p1pxe7ba",
+      "p1q21ujo",
+      "p1qu598w",
+      "p1w9rdcu",
+      "p1wl7yvf",
+      "p1x2f8kr"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 16,
+     "ids": [
+      "alzconnected-77407",
+      "p14hnoft",
+      "p163frvg",
+      "p199f9t2",
+      "p1amhy8v",
+      "p1av9voi",
+      "p1clihdw",
+      "p1jx4dtn",
+      "p1k0c7e7",
+      "p1l2ln2l",
+      "p1mpgvpc",
+      "p1ondfaa",
+      "p1uaypm6",
+      "p1wl7yvf",
+      "p1wp6eyh",
+      "p1x2f8kr"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 14,
+     "ids": [
+      "p11awqmt",
+      "p1255olt",
+      "p18wg3va",
+      "p1bx5ch2",
+      "p1conram",
+      "p1en52mw",
+      "p1i2rxge",
+      "p1q21ujo",
+      "p1tojejn",
+      "p1uaypm6",
+      "p1ulutf3",
+      "p1wnm7mw",
+      "p1x8maxn",
+      "p1xintv8"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 11,
+     "ids": [
+      "p183zjqa",
+      "p18qbl96",
+      "p18y0ng6",
+      "p1ai7fdz",
+      "p1hr9d7f",
+      "p1iz3lvv",
+      "p1lid9kd",
+      "p1m6kjs8",
+      "p1p9dkvh",
+      "p1rlva01",
+      "p1wombot"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 10,
+     "ids": [
+      "p163frvg",
+      "p18txz7r",
+      "p199f9t2",
+      "p1emjuya",
+      "p1i2rxge",
+      "p1iz88h9",
+      "p1pjz76s",
+      "p1tojejn",
+      "p1wk2cx7",
+      "p1wnm7mw"
+     ]
+    },
+    "transport or logistics": {
+     "n": 8,
+     "ids": [
+      "p1255olt",
+      "p163frvg",
+      "p199f9t2",
+      "p1bx0wau",
+      "p1bx5ch2",
+      "p1p9dkvh",
+      "p1tojejn",
+      "p1wp6eyh"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 5,
+     "ids": [
+      "p1clihdw",
+      "p1hfrz2d",
+      "p1hh59ir",
+      "p1sesz72",
+      "p1whn0rg"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 5,
+     "ids": [
+      "p1bx0wau",
+      "p1clihdw",
+      "p1q21ujo",
+      "p1wl7yvf",
+      "p1xhv1fc"
+     ]
+    },
+    "no services nearby": {
+     "n": 4,
+     "ids": [
+      "alzconnected-77423",
+      "p1jx4dtn",
+      "p1m7atkq",
+      "p1xgc0mj"
+     ]
+    },
+    "agencies, social workers or helplines don't help": {
+     "n": 4,
+     "ids": [
+      "p163frvg",
+      "p1ec1pm2",
+      "p1ms8gjr",
+      "p1ufaoxa"
+     ]
+    },
+    "therapy doesn't help or isn't available": {
+     "n": 4,
+     "ids": [
+      "p1amhy8v",
+      "p1f7gwcd",
+      "p1mnxlq5",
+      "p1pxe7ba"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 2,
+     "ids": [
+      "p139urv3",
+      "p1xintv8"
+     ]
+    },
+    "support group doesn't fit or isn't available": {
+     "n": 2,
+     "ids": [
+      "p1cte145",
+      "p1xhu3kz"
+     ]
+    },
+    "no time or energy to arrange it": {
+     "n": 2,
+     "ids": [
+      "p18ydyi9",
+      "p1o42umr"
+     ]
+    },
+    "the person cared for is anxious or worse away from home": {
+     "n": 1,
+     "ids": [
+      "p1amhy8v"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "family visits gave a mental break",
+     1
+    ],
+    [
+     "time away from caregiving",
+     1
+    ],
+    [
+     "aide helped mom",
+     1
+    ],
+    [
+     "va got dad an aide",
+     1
+    ],
+    [
+     "weekday hours covered by state workers",
+     1
+    ],
+    [
+     "calm months with no drama",
+     1
+    ],
+    [
+     "real sleep improved depression",
+     1
+    ],
+    [
+     "remembered what marriage felt like",
+     1
+    ],
+    [
+     "son visits to give her time out",
+     1
+    ],
+    [
+     "two in-office work days a week",
+     1
+    ],
+    [
+     "aide handled sister's behaviours well",
+     1
+    ],
+    [
+     "reliable aides look after mom well",
+     1
+    ],
+    [
+     "glad for some respite",
+     1
+    ],
+    [
+     "therapy showed her lifelong pattern",
+     1
+    ],
+    [
+     "a few hours break here and there",
+     1
+    ]
+   ]
+  },
+  "family or friend stepping in": {
+   "posts": 160,
+   "status": {
+    "wanted but couldn't get": 39,
+    "used": 85,
+    "looking or considering": 28,
+    "tried and stopped": 4,
+    "mentioned only": 3,
+    "recommends to others": 1
+   },
+   "barriers": {
+    "family or friends won't help": {
+     "n": 44,
+     "ids": [
+      "alzconnected-77423",
+      "p10h6p87",
+      "p11iztt7",
+      "p11not4k",
+      "p139urv3",
+      "p15g2dxl",
+      "p15ilz3x",
+      "p17fmeoh",
+      "p18zhybf",
+      "p1997vj7",
+      "p199f9t2",
+      "p1apfb6y",
+      "p1cbdn53",
+      "p1ext7ws",
+      "p1fhowx4",
+      "p1g1eokn",
+      "p1gyhj99",
+      "p1gyvd7k",
+      "p1he0nkf",
+      "p1hjpjiw",
+      "p1izmwwi",
+      "p1jg57i2",
+      "p1ji641g",
+      "p1lshhom",
+      "p1ndyxm0",
+      "p1okmhe4",
+      "p1olnbrm",
+      "p1oslgkm",
+      "p1pcgrfu",
+      "p1pmsqq2",
+      "p1ql99hx",
+      "p1svhfgu",
+      "p1titnxo",
+      "p1truium",
+      "p1ua3gcg",
+      "p1vcxza3",
+      "p1vzh1pw",
+      "p1w5sq0g",
+      "p1w9gnx3",
+      "p1wh12um",
+      "p1wixm80",
+      "p1wl7ajy",
+      "p1wlrtcw",
+      "p1xintv8"
+     ]
+    },
+    "other (single mentions)": {
+     "n": 33,
+     "ids": [
+      "p1179uxg",
+      "p141eftl",
+      "p14hyfyg",
+      "p15gaup5",
+      "p15j4418",
+      "p1ax4qbl",
+      "p1b4tfwz",
+      "p1clihdw",
+      "p1elmknm",
+      "p1gv639c",
+      "p1hkemyl",
+      "p1i6s4k3",
+      "p1jb8dfc",
+      "p1jg09cj",
+      "p1jgxc08",
+      "p1k5tq02",
+      "p1lyg1c4",
+      "p1myasny",
+      "p1nckenq",
+      "p1oslgkm",
+      "p1pcwf3h",
+      "p1scy7q4",
+      "p1spfye6",
+      "p1t7i4w7",
+      "p1tojejn",
+      "p1u06d13",
+      "p1ua3gcg",
+      "p1vmd2lx",
+      "p1vwr0hl",
+      "p1wh12um",
+      "p1woa8ct",
+      "p1wp4tlm",
+      "p1x6ectj"
+     ]
+    },
+    "cost": {
+     "n": 29,
+     "ids": [
+      "p1179uxg",
+      "p11awqmt",
+      "p1255olt",
+      "p139urv3",
+      "p15gaup5",
+      "p15j4418",
+      "p18wg3va",
+      "p1aelasw",
+      "p1apfb6y",
+      "p1b2ei7l",
+      "p1b4tfwz",
+      "p1bx0wau",
+      "p1g1q8i5",
+      "p1ihnm5n",
+      "p1izmwwi",
+      "p1m57yno",
+      "p1nckenq",
+      "p1nzrvux",
+      "p1o8zjx8",
+      "p1pa6ff2",
+      "p1ql99hx",
+      "p1scy7q4",
+      "p1tojejn",
+      "p1uaw6vo",
+      "p1v0a4n9",
+      "p1wihep1",
+      "p1woa8ct",
+      "p1wp4tlm",
+      "p1xintv8"
+     ]
+    },
+    "the parent refuses": {
+     "n": 18,
+     "ids": [
+      "p14rjvnz",
+      "p15gaup5",
+      "p15ilz3x",
+      "p18zhybf",
+      "p1dg3jlm",
+      "p1e5l51l",
+      "p1fhowx4",
+      "p1hkemyl",
+      "p1i7k19o",
+      "p1jg09cj",
+      "p1ji641g",
+      "p1m9ig5r",
+      "p1np0dlg",
+      "p1nzrvux",
+      "p1o8zjx8",
+      "p1pa6ff2",
+      "p1v06g1b",
+      "p1wixm80"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 16,
+     "ids": [
+      "p12qouhj",
+      "p199f9t2",
+      "p1amhy8v",
+      "p1cbdn53",
+      "p1cgw0j9",
+      "p1clihdw",
+      "p1ewklrx",
+      "p1jg57i2",
+      "p1m3eazt",
+      "p1p10r6a",
+      "p1p6cgeo",
+      "p1pmlg14",
+      "p1qu6kvp",
+      "p1titnxo",
+      "p1uaypm6",
+      "p1wl7yvf"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 15,
+     "ids": [
+      "alzconnected-77423",
+      "p11awqmt",
+      "p15ilz3x",
+      "p1amhy8v",
+      "p1b2ei7l",
+      "p1cbdn53",
+      "p1ewklrx",
+      "p1ext7ws",
+      "p1f20olm",
+      "p1g6uozh",
+      "p1m57yno",
+      "p1t3rm4q",
+      "p1uaypm6",
+      "p1vcxza3",
+      "p1wixm80"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 13,
+     "ids": [
+      "p11awqmt",
+      "p11mfwvk",
+      "p11not4k",
+      "p1255olt",
+      "p18tvsik",
+      "p18wg3va",
+      "p1ewklrx",
+      "p1f20olm",
+      "p1g6uozh",
+      "p1p10r6a",
+      "p1tojejn",
+      "p1uaypm6",
+      "p1xintv8"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 12,
+     "ids": [
+      "p14rjvnz",
+      "p18zhybf",
+      "p1cgw0j9",
+      "p1clihdw",
+      "p1cr35o4",
+      "p1ewklrx",
+      "p1lnvr56",
+      "p1lywzzq",
+      "p1nckenq",
+      "p1qu6kvp",
+      "p1tmv0fc",
+      "p1vbu0wu"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 7,
+     "ids": [
+      "p1aelasw",
+      "p1amhy8v",
+      "p1clihdw",
+      "p1i6s4k3",
+      "p1jbos7w",
+      "p1m3eazt",
+      "p1wl7yvf"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 7,
+     "ids": [
+      "p1bx0wau",
+      "p1clihdw",
+      "p1f20olm",
+      "p1jg09cj",
+      "p1tmv0fc",
+      "p1wl7yvf",
+      "p1xhv1fc"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 6,
+     "ids": [
+      "p164wt8v",
+      "p183zjqa",
+      "p18qbl96",
+      "p1peddwl",
+      "p1sg01yh",
+      "p1x6ectj"
+     ]
+    },
+    "no services nearby": {
+     "n": 5,
+     "ids": [
+      "alzconnected-77423",
+      "p10h6p87",
+      "p1b4tfwz",
+      "p1m3eazt",
+      "p1mbj6mq"
+     ]
+    },
+    "transport or logistics": {
+     "n": 5,
+     "ids": [
+      "p1255olt",
+      "p199f9t2",
+      "p1bx0wau",
+      "p1tojejn",
+      "p1wihep1"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 3,
+     "ids": [
+      "p139urv3",
+      "p1t7i4w7",
+      "p1xintv8"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 3,
+     "ids": [
+      "p199f9t2",
+      "p1spfye6",
+      "p1tojejn"
+     ]
+    },
+    "therapy doesn't help or isn't available": {
+     "n": 2,
+     "ids": [
+      "p1amhy8v",
+      "p1v0a4n9"
+     ]
+    },
+    "the break isn't restful (worry, more work, chores)": {
+     "n": 1,
+     "ids": [
+      "p1pmlg14"
+     ]
+    },
+    "the person cared for is anxious or worse away from home": {
+     "n": 1,
+     "ids": [
+      "p1amhy8v"
+     ]
+    },
+    "no time or energy to arrange it": {
+     "n": 1,
+     "ids": [
+      "p1krf9sj"
+     ]
+    },
+    "support group doesn't fit or isn't available": {
+     "n": 1,
+     "ids": [
+      "p1pd655m"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "family visits gave a mental break",
+     1
+    ],
+    [
+     "could travel overseas",
+     1
+    ],
+    [
+     "got weekends back",
+     1
+    ],
+    [
+     "took a much needed vacation",
+     1
+    ],
+    [
+     "real sleep improved depression",
+     1
+    ],
+    [
+     "remembered what marriage felt like",
+     1
+    ],
+    [
+     "son visits to give her time out",
+     1
+    ],
+    [
+     "a day out doing whatever i want",
+     1
+    ],
+    [
+     "went to a function and the movies",
+     1
+    ],
+    [
+     "grandmother helped for 18 years",
+     1
+    ],
+    [
+     "therapist helped her decide to take a trip",
+     1
+    ],
+    [
+     "got a break while she was in rehab",
+     1
+    ],
+    [
+     "first time for herself in months",
+     1
+    ],
+    [
+     "got a massage and nails done",
+     1
+    ],
+    [
+     "three hours without worry",
+     1
+    ]
+   ]
+  },
+  "therapist or counselor for the caregiver": {
+   "posts": 139,
+   "status": {
+    "used": 82,
+    "wanted but couldn't get": 11,
+    "looking or considering": 29,
+    "tried and stopped": 12,
+    "recommends to others": 4,
+    "mentioned only": 1
+   },
+   "barriers": {
+    "therapy doesn't help or isn't available": {
+     "n": 27,
+     "ids": [
+      "agingcare-499059",
+      "alzconnected-77401",
+      "alzconnected-77427",
+      "p10pegn1",
+      "p11bq3kp",
+      "p14vh0k9",
+      "p14w0n8e",
+      "p164o4y2",
+      "p16yoywf",
+      "p18s99gf",
+      "p196re2l",
+      "p1amhy8v",
+      "p1at8dq1",
+      "p1d5bh5a",
+      "p1dsqqkz",
+      "p1dt0xxy",
+      "p1f7gwcd",
+      "p1i7mzri",
+      "p1ix8lya",
+      "p1mnxlq5",
+      "p1o3b8cz",
+      "p1ot35z1",
+      "p1pxe7ba",
+      "p1r9rz2u",
+      "p1ratgxs",
+      "p1v0a4n9",
+      "p1vza0qq"
+     ]
+    },
+    "cost": {
+     "n": 16,
+     "ids": [
+      "p11cqk5x",
+      "p166x33z",
+      "p1apfb6y",
+      "p1b2ei7l",
+      "p1bx5ch2",
+      "p1gmwzqi",
+      "p1iuao25",
+      "p1pe8sb3",
+      "p1pxe7ba",
+      "p1ratgxs",
+      "p1tu60qx",
+      "p1v0a4n9",
+      "p1vfuemn",
+      "p1vwqa38",
+      "p1xgc0mj",
+      "p1xlkn1i"
+     ]
+    },
+    "other (single mentions)": {
+     "n": 16,
+     "ids": [
+      "alzconnected-77428",
+      "p14b1bmo",
+      "p166x33z",
+      "p185urqw",
+      "p18qw843",
+      "p1ax4qbl",
+      "p1clihdw",
+      "p1fl3g1g",
+      "p1hkemyl",
+      "p1hy6q9j",
+      "p1jb8dfc",
+      "p1jg09cj",
+      "p1jn2k3s",
+      "p1mnxlq5",
+      "p1rzd450",
+      "p1t7i4w7"
+     ]
+    },
+    "the parent refuses": {
+     "n": 14,
+     "ids": [
+      "alzconnected-77428",
+      "p1257oet",
+      "p14rjvnz",
+      "p179l51m",
+      "p18we6y2",
+      "p1e5l51l",
+      "p1fdkeql",
+      "p1fl3g1g",
+      "p1hkemyl",
+      "p1jg09cj",
+      "p1klsvfo",
+      "p1o3b8cz",
+      "p1pxe7ba",
+      "p1tu60qx"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 10,
+     "ids": [
+      "p11cqk5x",
+      "p11not4k",
+      "p18s99gf",
+      "p1apfb6y",
+      "p1emw0y2",
+      "p1ext7ws",
+      "p1fdkeql",
+      "p1gyvd7k",
+      "p1klsvfo",
+      "p1okmhe4"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 9,
+     "ids": [
+      "p166x33z",
+      "p1amhy8v",
+      "p1b2ei7l",
+      "p1bx5ch2",
+      "p1ext7ws",
+      "p1hr9d7f",
+      "p1imz9xf",
+      "p1l0d9o5",
+      "p1vc7mvv"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 7,
+     "ids": [
+      "alzconnected-77427",
+      "p14w0n8e",
+      "p1amhy8v",
+      "p1bx5ch2",
+      "p1clihdw",
+      "p1dsqqkz",
+      "p1pxe7ba"
+     ]
+    },
+    "support group doesn't fit or isn't available": {
+     "n": 6,
+     "ids": [
+      "p16yoywf",
+      "p1c77tpa",
+      "p1ffv59l",
+      "p1gmwzqi",
+      "p1htie7f",
+      "p1xfgola"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 5,
+     "ids": [
+      "p11mfwvk",
+      "p11not4k",
+      "p14w0n8e",
+      "p1bx5ch2",
+      "p1conram"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 4,
+     "ids": [
+      "p14rjvnz",
+      "p1clihdw",
+      "p1lywzzq",
+      "p1vfuemn"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 4,
+     "ids": [
+      "p12qouhj",
+      "p1amhy8v",
+      "p1clihdw",
+      "p1pbokag"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 3,
+     "ids": [
+      "alzconnected-77427",
+      "p1i7mzri",
+      "p1t7i4w7"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 2,
+     "ids": [
+      "p1clihdw",
+      "p1jg09cj"
+     ]
+    },
+    "no services nearby": {
+     "n": 2,
+     "ids": [
+      "p1cyolvk",
+      "p1xgc0mj"
+     ]
+    },
+    "the person cared for is anxious or worse away from home": {
+     "n": 2,
+     "ids": [
+      "p1amhy8v",
+      "p1iuao25"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 2,
+     "ids": [
+      "p19aj4pk",
+      "p1hr9d7f"
+     ]
+    },
+    "transport or logistics": {
+     "n": 2,
+     "ids": [
+      "p1bx5ch2",
+      "p1xbuw5r"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 2,
+     "ids": [
+      "p16yoywf",
+      "p1xbuw5r"
+     ]
+    },
+    "no time or energy to arrange it": {
+     "n": 2,
+     "ids": [
+      "p1k4w8fb",
+      "p1vwqa38"
+     ]
+    },
+    "agencies, social workers or helplines don't help": {
+     "n": 1,
+     "ids": [
+      "p1ufaoxa"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "therapist helps navigate the situation",
+     1
+    ],
+    [
+     "stay positive and avoid spiraling",
+     1
+    ],
+    [
+     "family visits gave a mental break",
+     1
+    ],
+    [
+     "aide helped mom",
+     1
+    ],
+    [
+     "therapy helps set caregiving boundaries",
+     1
+    ],
+    [
+     "made new friends",
+     1
+    ],
+    [
+     "time to work on myself",
+     1
+    ],
+    [
+     "understood unhealthy family dynamics",
+     1
+    ],
+    [
+     "learned to talk to a lawyer",
+     1
+    ],
+    [
+     "son visits to give her time out",
+     1
+    ],
+    [
+     "learned great lessons at al-anon",
+     1
+    ],
+    [
+     "helped decide to seek outside care",
+     1
+    ],
+    [
+     "therapist helped her decide to take a trip",
+     1
+    ],
+    [
+     "first time for herself in months",
+     1
+    ],
+    [
+     "got a massage and nails done",
+     1
+    ]
+   ]
+  },
+  "support group": {
+   "posts": 114,
+   "status": {
+    "used": 49,
+    "looking or considering": 43,
+    "wanted but couldn't get": 6,
+    "tried and stopped": 4,
+    "mentioned only": 3,
+    "recommends to others": 9
+   },
+   "barriers": {
+    "support group doesn't fit or isn't available": {
+     "n": 18,
+     "ids": [
+      "alzconnected-77414",
+      "p102duhi",
+      "p16yoywf",
+      "p1ayina1",
+      "p1c77tpa",
+      "p1cte145",
+      "p1evdjpv",
+      "p1ffv59l",
+      "p1gmwzqi",
+      "p1htie7f",
+      "p1k6c3xw",
+      "p1njos94",
+      "p1pd655m",
+      "p1sgc5ts",
+      "p1tpvrus",
+      "p1w2se42",
+      "p1xfgola",
+      "p1xhu3kz"
+     ]
+    },
+    "other (single mentions)": {
+     "n": 12,
+     "ids": [
+      "alzconnected-77407",
+      "alzconnected-77428",
+      "p18qw843",
+      "p1fl3g1g",
+      "p1g81b0g",
+      "p1jb8dfc",
+      "p1jn2k3s",
+      "p1kb5v1a",
+      "p1ko3zju",
+      "p1ohw2mm",
+      "p1rzd450",
+      "p1t7i4w7"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 8,
+     "ids": [
+      "alzconnected-77423",
+      "p11cqk5x",
+      "p139urv3",
+      "p1f2kpq8",
+      "p1fwiyqh",
+      "p1pusyrl",
+      "p1x7s6o6",
+      "p1xjqtpx"
+     ]
+    },
+    "cost": {
+     "n": 7,
+     "ids": [
+      "p11cqk5x",
+      "p139urv3",
+      "p1bx5ch2",
+      "p1gmwzqi",
+      "p1qygmtn",
+      "p1wmdtc0",
+      "p1xinklo"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 6,
+     "ids": [
+      "alzconnected-77427",
+      "p139urv3",
+      "p1i7mzri",
+      "p1naqwa5",
+      "p1t7i4w7",
+      "p1v2rdhv"
+     ]
+    },
+    "no time or energy to arrange it": {
+     "n": 5,
+     "ids": [
+      "p1k4w8fb",
+      "p1nln88n",
+      "p1ohw2mm",
+      "p1ou9adj",
+      "p1xinklo"
+     ]
+    },
+    "the parent refuses": {
+     "n": 5,
+     "ids": [
+      "alzconnected-77428",
+      "p14rjvnz",
+      "p1e5l51l",
+      "p1fl3g1g",
+      "p1xhu3kz"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 5,
+     "ids": [
+      "alzconnected-77423",
+      "p1bx5ch2",
+      "p1g81b0g",
+      "p1hr9d7f",
+      "p1imz9xf"
+     ]
+    },
+    "therapy doesn't help or isn't available": {
+     "n": 5,
+     "ids": [
+      "alzconnected-77427",
+      "p10pegn1",
+      "p16yoywf",
+      "p1d5bh5a",
+      "p1i7mzri"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 4,
+     "ids": [
+      "alzconnected-77398",
+      "p16yoywf",
+      "p1n61bp9",
+      "p1xbuw5r"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 4,
+     "ids": [
+      "p11xv4i3",
+      "p19aj4pk",
+      "p1hr9d7f",
+      "p1q7qsqd"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 3,
+     "ids": [
+      "alzconnected-77427",
+      "p1964vcf",
+      "p1bx5ch2"
+     ]
+    },
+    "no services nearby": {
+     "n": 2,
+     "ids": [
+      "alzconnected-77423",
+      "p1qqvdw1"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 2,
+     "ids": [
+      "p1bx5ch2",
+      "p1sgc5ts"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 2,
+     "ids": [
+      "alzconnected-77407",
+      "p1pbokag"
+     ]
+    },
+    "transport or logistics": {
+     "n": 2,
+     "ids": [
+      "p1bx5ch2",
+      "p1xbuw5r"
+     ]
+    },
+    "the break isn't restful (worry, more work, chores)": {
+     "n": 1,
+     "ids": [
+      "p1mrttmn"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 1,
+     "ids": [
+      "p14rjvnz"
+     ]
+    },
+    "agencies, social workers or helplines don't help": {
+     "n": 1,
+     "ids": [
+      "p1ec1pm2"
+     ]
+    },
+    "the person cared for is anxious or worse away from home": {
+     "n": 1,
+     "ids": [
+      "p1ou9adj"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "felt less alone",
+     3
+    ],
+    [
+     "feel less alone",
+     3
+    ],
+    [
+     "parent enjoyed socializing",
+     1
+    ],
+    [
+     "a relaxed evening at home",
+     1
+    ],
+    [
+     "therapist helps navigate the situation",
+     1
+    ],
+    [
+     "time for social plans",
+     1
+    ],
+    [
+     "sleeping in with spouse",
+     1
+    ],
+    [
+     "feel less isolated",
+     1
+    ],
+    [
+     "stay grounded and prepare for what's ahead",
+     1
+    ],
+    [
+     "therapy helps set caregiving boundaries",
+     1
+    ],
+    [
+     "made new friends",
+     1
+    ],
+    [
+     "time to work on myself",
+     1
+    ],
+    [
+     "felt stronger reading other caregivers' posts",
+     1
+    ],
+    [
+     "learned to talk to a lawyer",
+     1
+    ],
+    [
+     "caring, non-judging forum members",
+     1
+    ]
+   ]
+  },
+  "short-stay respite (facility)": {
+   "posts": 106,
+   "status": {
+    "used": 44,
+    "looking or considering": 37,
+    "wanted but couldn't get": 18,
+    "tried and stopped": 7
+   },
+   "barriers": {
+    "other (single mentions)": {
+     "n": 25,
+     "ids": [
+      "p14hyfyg",
+      "p173vmwt",
+      "p1b8hajl",
+      "p1bahk0o",
+      "p1buxtha",
+      "p1clihdw",
+      "p1dj98vf",
+      "p1gaisz3",
+      "p1gfyf62",
+      "p1h067tp",
+      "p1h0yuec",
+      "p1h1fo09",
+      "p1h6ieq6",
+      "p1ih133l",
+      "p1kcjt3j",
+      "p1ltq0yj",
+      "p1nckenq",
+      "p1oxyzhw",
+      "p1pbtct3",
+      "p1pcwf3h",
+      "p1rze7rd",
+      "p1spfye6",
+      "p1x3j2a1",
+      "p1xed99p",
+      "p1xhwxes"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 18,
+     "ids": [
+      "p199f9t2",
+      "p1amhy8v",
+      "p1b4mm45",
+      "p1bahk0o",
+      "p1cgw0j9",
+      "p1clihdw",
+      "p1ds30uv",
+      "p1gaisz3",
+      "p1h0yuec",
+      "p1h1fo09",
+      "p1hy5hqt",
+      "p1jmpdxc",
+      "p1jx4dtn",
+      "p1ku0wu0",
+      "p1l2ln2l",
+      "p1oo0a0m",
+      "p1otp51j",
+      "p1wp6eyh"
+     ]
+    },
+    "cost": {
+     "n": 17,
+     "ids": [
+      "p17662pg",
+      "p1av052q",
+      "p1b8hajl",
+      "p1bd6d8k",
+      "p1dj98vf",
+      "p1ds30uv",
+      "p1h0yuec",
+      "p1ih133l",
+      "p1l2ln2l",
+      "p1lqefuq",
+      "p1m57yno",
+      "p1nckenq",
+      "p1nzrvux",
+      "p1qw6qud",
+      "p1rze7rd",
+      "p1wnm7mw",
+      "p1xinklo"
+     ]
+    },
+    "the parent refuses": {
+     "n": 15,
+     "ids": [
+      "p13esz0k",
+      "p145ol40",
+      "p14ipx7y",
+      "p17k0at9",
+      "p18zhybf",
+      "p1bu3g77",
+      "p1hy5hqt",
+      "p1jv5b2n",
+      "p1jx4dtn",
+      "p1n555x9",
+      "p1nzrvux",
+      "p1otdi3t",
+      "p1pjz76s",
+      "p1tvqu4d",
+      "p1v1e3ig"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 13,
+     "ids": [
+      "p14seksz",
+      "p15tmvwj",
+      "p18zhybf",
+      "p1bahk0o",
+      "p1cgw0j9",
+      "p1clihdw",
+      "p1e746tb",
+      "p1me7t0p",
+      "p1mkc0pb",
+      "p1nckenq",
+      "p1pxlnnk",
+      "p1vwpvg5",
+      "p1wq7xaa"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 12,
+     "ids": [
+      "p11not4k",
+      "p11sw4zw",
+      "p15f8egn",
+      "p15tmvwj",
+      "p17662pg",
+      "p1ds30uv",
+      "p1juqdro",
+      "p1n555x9",
+      "p1nwn90z",
+      "p1o4bdng",
+      "p1vwpvg5",
+      "p1wnm7mw"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 11,
+     "ids": [
+      "p199f9t2",
+      "p1av052q",
+      "p1bd6d8k",
+      "p1ds30uv",
+      "p1iz88h9",
+      "p1pjz76s",
+      "p1rze7rd",
+      "p1spfye6",
+      "p1ud1usq",
+      "p1wnm7mw",
+      "p1xhwxes"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 9,
+     "ids": [
+      "p15f8egn",
+      "p1amhy8v",
+      "p1clihdw",
+      "p1h067tp",
+      "p1h6ieq6",
+      "p1jmpdxc",
+      "p1jx4dtn",
+      "p1rze7rd",
+      "p1vwpvg5"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 7,
+     "ids": [
+      "p1841dgz",
+      "p1amhy8v",
+      "p1eh9j4o",
+      "p1m57yno",
+      "p1qw6qud",
+      "p1vlexpl",
+      "p1xhwxes"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 7,
+     "ids": [
+      "p11not4k",
+      "p173vmwt",
+      "p18zhybf",
+      "p199f9t2",
+      "p1ly069b",
+      "p1pusyrl",
+      "p1wp6eyh"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 4,
+     "ids": [
+      "p11sw4zw",
+      "p183zjqa",
+      "p1b4mm45",
+      "p1pxlnnk"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 3,
+     "ids": [
+      "p1eh9j4o",
+      "p1juqdro",
+      "p1lqefuq"
+     ]
+    },
+    "transport or logistics": {
+     "n": 3,
+     "ids": [
+      "p199f9t2",
+      "p1nwn90z",
+      "p1wp6eyh"
+     ]
+    },
+    "no time or energy to arrange it": {
+     "n": 2,
+     "ids": [
+      "p145ol40",
+      "p1xinklo"
+     ]
+    },
+    "the person cared for is anxious or worse away from home": {
+     "n": 2,
+     "ids": [
+      "p1amhy8v",
+      "p1me7t0p"
+     ]
+    },
+    "the break isn't restful (worry, more work, chores)": {
+     "n": 1,
+     "ids": [
+      "p1mrttmn"
+     ]
+    },
+    "therapy doesn't help or isn't available": {
+     "n": 1,
+     "ids": [
+      "p1amhy8v"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 1,
+     "ids": [
+      "p1clihdw"
+     ]
+    },
+    "agencies, social workers or helplines don't help": {
+     "n": 1,
+     "ids": [
+      "p1w4oijc"
+     ]
+    },
+    "no services nearby": {
+     "n": 1,
+     "ids": [
+      "p1jx4dtn"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "date with spouse",
+     1
+    ],
+    [
+     "time with pets",
+     1
+    ],
+    [
+     "relaxed for the first time in months",
+     1
+    ],
+    [
+     "parent enjoyed socializing",
+     1
+    ],
+    [
+     "a relaxed evening at home",
+     1
+    ],
+    [
+     "time for social plans",
+     1
+    ],
+    [
+     "sleeping in with spouse",
+     1
+    ],
+    [
+     "feel less isolated",
+     1
+    ],
+    [
+     "could travel overseas",
+     1
+    ],
+    [
+     "son visits to give her time out",
+     1
+    ],
+    [
+     "two in-office work days a week",
+     1
+    ],
+    [
+     "went to a function and the movies",
+     1
+    ],
+    [
+     "therapist helped her decide to take a trip",
+     1
+    ],
+    [
+     "enjoyed grandkids again",
+     1
+    ],
+    [
+     "be his wife, not his caregiver",
+     1
+    ]
+   ]
+  },
+  "in-home respite": {
+   "posts": 105,
+   "status": {
+    "wanted but couldn't get": 25,
+    "used": 46,
+    "looking or considering": 25,
+    "tried and stopped": 6,
+    "recommends to others": 3
+   },
+   "barriers": {
+    "other (single mentions)": {
+     "n": 24,
+     "ids": [
+      "p12i8t0z",
+      "p15gaup5",
+      "p15j4418",
+      "p166x33z",
+      "p17uf3lk",
+      "p185m4ne",
+      "p185urqw",
+      "p1ao0cio",
+      "p1e14eta",
+      "p1f44p4z",
+      "p1h6ieq6",
+      "p1jg09cj",
+      "p1mwbysg",
+      "p1olyc62",
+      "p1phocfe",
+      "p1ptwxp6",
+      "p1qroiog",
+      "p1riorpo",
+      "p1rze7rd",
+      "p1sesz72",
+      "p1ua3gcg",
+      "p1woix5k",
+      "p1x6ectj",
+      "p1xe0oeo"
+     ]
+    },
+    "cost": {
+     "n": 21,
+     "ids": [
+      "p10vv5x0",
+      "p10ysuq2",
+      "p11265me",
+      "p11l4qnk",
+      "p12i8t0z",
+      "p15gaup5",
+      "p15j4418",
+      "p163frvg",
+      "p166x33z",
+      "p1av052q",
+      "p1fa6zr0",
+      "p1g1q8i5",
+      "p1h7eswt",
+      "p1mpgvpc",
+      "p1mt0s3w",
+      "p1o8zjx8",
+      "p1qzh1m2",
+      "p1r27en7",
+      "p1rze7rd",
+      "p1xgi52f",
+      "p1xgi8wh"
+     ]
+    },
+    "the parent refuses": {
+     "n": 19,
+     "ids": [
+      "p10vv5x0",
+      "p10ysuq2",
+      "p11265me",
+      "p15gaup5",
+      "p15ilz3x",
+      "p182rcx3",
+      "p1f44p4z",
+      "p1j235bb",
+      "p1jg09cj",
+      "p1jx4dtn",
+      "p1l12auz",
+      "p1mt0s3w",
+      "p1n555x9",
+      "p1o8zjx8",
+      "p1ri7jhb",
+      "p1ss3076",
+      "p1whn0rg",
+      "p1wixm80",
+      "p1xbap1k"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 15,
+     "ids": [
+      "p164wt8v",
+      "p1bha84r",
+      "p1eq545l",
+      "p1ey5f9r",
+      "p1iz3lvv",
+      "p1p9dkvh",
+      "p1peddwl",
+      "p1sg01yh",
+      "p1v60a2m",
+      "p1veks8d",
+      "p1wk7gnc",
+      "p1wrl2v4",
+      "p1x6ectj",
+      "p1xbap1k",
+      "p1xfgv6i"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 14,
+     "ids": [
+      "p15ilz3x",
+      "p166x33z",
+      "p18txz7r",
+      "p1bmb2kd",
+      "p1fa8j7t",
+      "p1g6q58p",
+      "p1l0d9o5",
+      "p1l9w918",
+      "p1mf2vea",
+      "p1mpgvpc",
+      "p1ri7jhb",
+      "p1wixm80",
+      "p1xgi52f",
+      "p1xgi8wh"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 13,
+     "ids": [
+      "p163frvg",
+      "p1ao0cio",
+      "p1axzz1c",
+      "p1eq545l",
+      "p1fa8j7t",
+      "p1h6ieq6",
+      "p1h7eswt",
+      "p1jbos7w",
+      "p1jx4dtn",
+      "p1lt55zc",
+      "p1m7atkq",
+      "p1mpgvpc",
+      "p1rze7rd"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 11,
+     "ids": [
+      "p14hnoft",
+      "p163frvg",
+      "p17sn1oy",
+      "p18i7ypx",
+      "p18p6tnx",
+      "p1jx4dtn",
+      "p1mpgvpc",
+      "p1p0ly0n",
+      "p1p6cgeo",
+      "p1pmlg14",
+      "p1xgi52f"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 10,
+     "ids": [
+      "p15ilz3x",
+      "p17fmeoh",
+      "p1mf2vea",
+      "p1n1lrxu",
+      "p1qzh1m2",
+      "p1ri7jhb",
+      "p1riok43",
+      "p1ua3gcg",
+      "p1wixm80",
+      "p1xfgv6i"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 8,
+     "ids": [
+      "p17uf3lk",
+      "p1bha84r",
+      "p1bmb2kd",
+      "p1fa8j7t",
+      "p1g6q58p",
+      "p1n555x9",
+      "p1xgi52f",
+      "p1xgi8wh"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 6,
+     "ids": [
+      "p163frvg",
+      "p18txz7r",
+      "p1av052q",
+      "p1emjuya",
+      "p1rze7rd",
+      "p1veks8d"
+     ]
+    },
+    "transport or logistics": {
+     "n": 5,
+     "ids": [
+      "p163frvg",
+      "p1p9dkvh",
+      "p1xbap1k",
+      "p1xgi52f",
+      "p1xgi8wh"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 4,
+     "ids": [
+      "p1odxjm7",
+      "p1sesz72",
+      "p1ss3076",
+      "p1whn0rg"
+     ]
+    },
+    "no services nearby": {
+     "n": 3,
+     "ids": [
+      "p1jx4dtn",
+      "p1m7atkq",
+      "p1mbj6mq"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 2,
+     "ids": [
+      "p1jg09cj",
+      "p1ptwxp6"
+     ]
+    },
+    "the break isn't restful (worry, more work, chores)": {
+     "n": 1,
+     "ids": [
+      "p1pmlg14"
+     ]
+    },
+    "agencies, social workers or helplines don't help": {
+     "n": 1,
+     "ids": [
+      "p163frvg"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "can leave the house for own needs",
+     1
+    ],
+    [
+     "weekday hours covered by state workers",
+     1
+    ],
+    [
+     "mom cared for six hours",
+     1
+    ],
+    [
+     "got weekends back",
+     1
+    ],
+    [
+     "took a much needed vacation",
+     1
+    ],
+    [
+     "two in-office work days a week",
+     1
+    ],
+    [
+     "aide handled sister's behaviours well",
+     1
+    ],
+    [
+     "a day out doing whatever i want",
+     1
+    ],
+    [
+     "grandmother helped for 18 years",
+     1
+    ],
+    [
+     "cut 24/7 care to 5.5 days",
+     1
+    ],
+    [
+     "mum did the cleaning for a while",
+     1
+    ],
+    [
+     "weekly cleaner",
+     1
+    ],
+    [
+     "time to take kids to pool or library",
+     1
+    ],
+    [
+     "a few nights away at a friend's house",
+     1
+    ],
+    [
+     "breaks when the other grandmother helped",
+     1
+    ]
+   ]
+  },
+  "adult day program": {
+   "posts": 101,
+   "status": {
+    "used": 38,
+    "wanted but couldn't get": 17,
+    "looking or considering": 33,
+    "recommends to others": 6,
+    "tried and stopped": 6,
+    "mentioned only": 1
+   },
+   "barriers": {
+    "cost": {
+     "n": 24,
+     "ids": [
+      "agingcare-499707",
+      "p113twdm",
+      "p1255olt",
+      "p18y0ljz",
+      "p18y0ng6",
+      "p18ztaf1",
+      "p1ayk8qk",
+      "p1bx0wau",
+      "p1dhbthn",
+      "p1ds30uv",
+      "p1e6hhyu",
+      "p1eqjlc0",
+      "p1jvgqyf",
+      "p1k0c7e7",
+      "p1knkt0c",
+      "p1kueigu",
+      "p1mpl6a9",
+      "p1mt0s3w",
+      "p1tojejn",
+      "p1uaw6vo",
+      "p1w3j44g",
+      "p1wihep1",
+      "p1wkta3y",
+      "p1woa8ct"
+     ]
+    },
+    "the parent refuses": {
+     "n": 23,
+     "ids": [
+      "alzconnected-77284",
+      "alzconnected-77376",
+      "p17m966i",
+      "p18ch5e8",
+      "p18wv0s5",
+      "p1c4ehv3",
+      "p1dhbthn",
+      "p1ea6sbh",
+      "p1eqjlc0",
+      "p1ihysxc",
+      "p1ikxebi",
+      "p1ikzpnz",
+      "p1jvgqyf",
+      "p1klsvfo",
+      "p1m9ig5r",
+      "p1mt0s3w",
+      "p1n7zp6s",
+      "p1np0dlg",
+      "p1o3b8cz",
+      "p1ri7jhb",
+      "p1uuz5qf",
+      "p1v06g1b",
+      "p1wkta3y"
+     ]
+    },
+    "other (single mentions)": {
+     "n": 12,
+     "ids": [
+      "p137l10c",
+      "p18ztaf1",
+      "p1ch1lyn",
+      "p1dwtf66",
+      "p1e6hhyu",
+      "p1elmknm",
+      "p1eu2d7w",
+      "p1hwzkcg",
+      "p1tojejn",
+      "p1u4ku62",
+      "p1woa8ct",
+      "p1x9x353"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 12,
+     "ids": [
+      "alzconnected-77423",
+      "p18y0ljz",
+      "p18y0ng6",
+      "p1ayk8qk",
+      "p1ewklrx",
+      "p1i2rxge",
+      "p1l0d9o5",
+      "p1q7jgxu",
+      "p1ri7jhb",
+      "p1rlva01",
+      "p1uaypm6",
+      "p1x8maxn"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 9,
+     "ids": [
+      "p1255olt",
+      "p1ds30uv",
+      "p1ewklrx",
+      "p1i2rxge",
+      "p1tojejn",
+      "p1uaypm6",
+      "p1ulutf3",
+      "p1vwpvg5",
+      "p1x8maxn"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 8,
+     "ids": [
+      "alzconnected-77284",
+      "alzconnected-77423",
+      "p1dg92h1",
+      "p1klsvfo",
+      "p1ri7jhb",
+      "p1titnxo",
+      "p1wp6eyh",
+      "p1xg0gw1"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 6,
+     "ids": [
+      "p1ds30uv",
+      "p1ewklrx",
+      "p1k0c7e7",
+      "p1titnxo",
+      "p1uaypm6",
+      "p1wp6eyh"
+     ]
+    },
+    "transport or logistics": {
+     "n": 6,
+     "ids": [
+      "p1255olt",
+      "p1bx0wau",
+      "p1mpl6a9",
+      "p1tojejn",
+      "p1wihep1",
+      "p1wp6eyh"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 5,
+     "ids": [
+      "p16f5lb1",
+      "p18qbl96",
+      "p18y0ng6",
+      "p1rlva01",
+      "p1vcc3oh"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 4,
+     "ids": [
+      "p1c4ehv3",
+      "p1dwtf66",
+      "p1ewklrx",
+      "p1vwpvg5"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 3,
+     "ids": [
+      "alzconnected-77395",
+      "p1qssjv5",
+      "p1vwpvg5"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 3,
+     "ids": [
+      "p1ds30uv",
+      "p1i2rxge",
+      "p1tojejn"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 2,
+     "ids": [
+      "p1bx0wau",
+      "p1xhv1fc"
+     ]
+    },
+    "therapy doesn't help or isn't available": {
+     "n": 2,
+     "ids": [
+      "alzconnected-77401",
+      "p1o3b8cz"
+     ]
+    },
+    "no time or energy to arrange it": {
+     "n": 1,
+     "ids": [
+      "p1f2rkoy"
+     ]
+    },
+    "no services nearby": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77423"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "can go on vacation",
+     2
+    ],
+    [
+     "time away from caregiving",
+     1
+    ],
+    [
+     "days off to recharge",
+     1
+    ],
+    [
+     "real sleep improved depression",
+     1
+    ],
+    [
+     "remembered what marriage felt like",
+     1
+    ],
+    [
+     "feels like a bright spot",
+     1
+    ],
+    [
+     "reliable aides look after mom well",
+     1
+    ],
+    [
+     "parent stays active and monitored",
+     1
+    ],
+    [
+     "may stay home more",
+     1
+    ],
+    [
+     "a professional to talk with",
+     1
+    ],
+    [
+     "some much-needed breathing room",
+     1
+    ],
+    [
+     "same reliable aide each week",
+     1
+    ],
+    [
+     "agency sends a substitute when needed",
+     1
+    ],
+    [
+     "second therapist taught ways to calm down",
+     1
+    ],
+    [
+     "anxiety medication made a big difference",
+     1
+    ]
+   ]
+  },
+  "hospice respite": {
+   "posts": 40,
+   "status": {
+    "used": 20,
+    "looking or considering": 6,
+    "wanted but couldn't get": 10,
+    "tried and stopped": 2,
+    "mentioned only": 2
+   },
+   "barriers": {
+    "other (single mentions)": {
+     "n": 9,
+     "ids": [
+      "p173vmwt",
+      "p1e0vg7a",
+      "p1e144pf",
+      "p1gaisz3",
+      "p1igixmj",
+      "p1mym2av",
+      "p1oojy59",
+      "p1uquweh",
+      "p1xhluho"
+     ]
+    },
+    "worry about quality or safety": {
+     "n": 8,
+     "ids": [
+      "p13klqob",
+      "p1amhy8v",
+      "p1bo2sz0",
+      "p1g7dv4j",
+      "p1gaisz3",
+      "p1txz9d6",
+      "p1wsg3kb",
+      "p1xhluho"
+     ]
+    },
+    "cost": {
+     "n": 7,
+     "ids": [
+      "p13v0log",
+      "p1dt8ytt",
+      "p1kvswws",
+      "p1oojy59",
+      "p1pxe7ba",
+      "p1r27en7",
+      "p1xintv8"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 7,
+     "ids": [
+      "p173vmwt",
+      "p1bo2sz0",
+      "p1e4einl",
+      "p1kvou0n",
+      "p1ndyxm0",
+      "p1nhv4z5",
+      "p1xintv8"
+     ]
+    },
+    "waitlist or no openings": {
+     "n": 5,
+     "ids": [
+      "p1cbmszm",
+      "p1kvou0n",
+      "p1nkhd4j",
+      "p1stubkn",
+      "p1xintv8"
+     ]
+    },
+    "the parent refuses": {
+     "n": 4,
+     "ids": [
+      "p13v0log",
+      "p1dg3jlm",
+      "p1nhv4z5",
+      "p1pxe7ba"
+     ]
+    },
+    "hard application or eligibility rules": {
+     "n": 4,
+     "ids": [
+      "p1amhy8v",
+      "p1cbmszm",
+      "p1hre1zw",
+      "p1oojy59"
+     ]
+    },
+    "therapy doesn't help or isn't available": {
+     "n": 2,
+     "ids": [
+      "p1amhy8v",
+      "p1pxe7ba"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 2,
+     "ids": [
+      "p1amhy8v",
+      "p1pxe7ba"
+     ]
+    },
+    "agencies, social workers or helplines don't help": {
+     "n": 2,
+     "ids": [
+      "p1stubkn",
+      "p1xcuw96"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 2,
+     "ids": [
+      "p1e144pf",
+      "p1vgm6un"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 1,
+     "ids": [
+      "p1xintv8"
+     ]
+    },
+    "the person cared for is anxious or worse away from home": {
+     "n": 1,
+     "ids": [
+      "p1amhy8v"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 1,
+     "ids": [
+      "p1kvswws"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "va got dad an aide",
+     1
+    ],
+    [
+     "a few days away",
+     1
+    ],
+    [
+     "son visits to give her time out",
+     1
+    ],
+    [
+     "things seemed to get better",
+     1
+    ],
+    [
+     "father-in-law liked new friends and activities",
+     1
+    ],
+    [
+     "grandpa says they treat him well",
+     1
+    ],
+    [
+     "therapy helped in a way",
+     1
+    ],
+    [
+     "a break while hospice took over",
+     1
+    ],
+    [
+     "short break",
+     1
+    ],
+    [
+     "day away",
+     1
+    ],
+    [
+     "9 hours a week away from the house",
+     1
+    ],
+    [
+     "quiet, restful days while dad in hospital",
+     1
+    ],
+    [
+     "glad to have five days off",
+     1
+    ],
+    [
+     "mom gets a break",
+     1
+    ],
+    [
+     "hospice covered many costs",
+     1
+    ]
+   ]
+  },
+  "respite (type not said)": {
+   "posts": 13,
+   "status": {
+    "wanted but couldn't get": 3,
+    "tried and stopped": 2,
+    "used": 5,
+    "mentioned only": 1,
+    "looking or considering": 2
+   },
+   "barriers": {
+    "cost": {
+     "n": 5,
+     "ids": [
+      "p1ozrm3l",
+      "p1t2d8aw",
+      "p1u3jeub",
+      "p1uaw6vo",
+      "p1xgc0mj"
+     ]
+    },
+    "guilt or shame about handing off care": {
+     "n": 3,
+     "ids": [
+      "p1hh59ir",
+      "p1u3jeub",
+      "p1vrziuu"
+     ]
+    },
+    "the parent refuses": {
+     "n": 2,
+     "ids": [
+      "p1ozrm3l",
+      "p1vrziuu"
+     ]
+    },
+    "family or friends won't help": {
+     "n": 2,
+     "ids": [
+      "p1hh59ir",
+      "p1pcgrfu"
+     ]
+    },
+    "too few hours, minimum stays or other limits": {
+     "n": 2,
+     "ids": [
+      "p14i6eyu",
+      "p1ujkn7g"
+     ]
+    },
+    "no services nearby": {
+     "n": 1,
+     "ids": [
+      "p1xgc0mj"
+     ]
+    },
+    "the break isn't restful (worry, more work, chores)": {
+     "n": 1,
+     "ids": [
+      "p1t2d8aw"
+     ]
+    },
+    "doesn't trust strangers with the parent": {
+     "n": 1,
+     "ids": [
+      "p1mncyaf"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 1,
+     "ids": [
+      "p1kccf7l"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "real sleep improved depression",
+     1
+    ],
+    [
+     "remembered what marriage felt like",
+     1
+    ]
+   ]
+  },
+  "app or online tool: Reddit": {
+   "posts": 10,
+   "status": {
+    "used": 6,
+    "looking or considering": 2,
+    "wanted but couldn't get": 1,
+    "mentioned only": 1
+   },
+   "barriers": {
+    "support group doesn't fit or isn't available": {
+     "n": 2,
+     "ids": [
+      "p1f40t6t",
+      "p1njos94"
+     ]
+    },
+    "the person cared for is anxious or worse away from home": {
+     "n": 1,
+     "ids": [
+      "p1iuao25"
+     ]
+    },
+    "cost": {
+     "n": 1,
+     "ids": [
+      "p1iuao25"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 1,
+     "ids": [
+      "p1v2rdhv"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "felt less alone",
+     2
+    ],
+    [
+     "felt stronger reading other caregivers' posts",
+     1
+    ],
+    [
+     "a place to rant",
+     1
+    ],
+    [
+     "venting to people who understand",
+     1
+    ]
+   ]
+  },
+  "app or online tool: ALZConnected forum": {
+   "posts": 2,
+   "status": {
+    "used": 1,
+    "recommends to others": 1
+   },
+   "barriers": {},
+   "helped_top": [
+    [
+     "weekly three-hour break alone",
+     1
+    ],
+    [
+     "support groups saved their sanity",
+     1
+    ],
+    [
+     "felt less alone",
+     1
+    ],
+    [
+     "learning about the disease",
+     1
+    ],
+    [
+     "online forum saved her early on",
+     1
+    ],
+    [
+     "learned the value of a support group",
+     1
+    ]
+   ]
+  },
+  "app or online tool: WhatsApp group": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {
+    "family or friends won't help": {
+     "n": 1,
+     "ids": [
+      "p1x7s6o6"
+     ]
+    }
+   },
+   "helped_top": []
+  },
+  "app or online tool: Facebook dementia group": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {
+    "support group doesn't fit or isn't available": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77414"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "caring, non-judging forum members",
+     1
+    ]
+   ]
+  },
+  "app or online tool: ALZConnected": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {
+    "support group doesn't fit or isn't available": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77414"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "caring, non-judging forum members",
+     1
+    ]
+   ]
+  },
+  "app or online tool: WhatsApp": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {
+    "family or friends won't help": {
+     "n": 1,
+     "ids": [
+      "p1xjqtpx"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "feel less alone",
+     1
+    ]
+   ]
+  },
+  "app or online tool: Reddit caregiver community": {
+   "posts": 1,
+   "status": {
+    "tried and stopped": 1
+   },
+   "barriers": {
+    "support group doesn't fit or isn't available": {
+     "n": 1,
+     "ids": [
+      "p1xfgola"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "felt less alone in online community",
+     1
+    ]
+   ]
+  },
+  "app or online tool: remote monitoring system": {
+   "posts": 1,
+   "status": {
+    "wanted but couldn't get": 1
+   },
+   "barriers": {
+    "waitlist or no openings": {
+     "n": 1,
+     "ids": [
+      "p1wnm7mw"
+     ]
+    },
+    "inflexible program (hours, minimum stay, days)": {
+     "n": 1,
+     "ids": [
+      "p1wnm7mw"
+     ]
+    },
+    "cost": {
+     "n": 1,
+     "ids": [
+      "p1wnm7mw"
+     ]
+    }
+   },
+   "helped_top": []
+  },
+  "app or online tool: Torchlight": {
+   "posts": 1,
+   "status": {
+    "looking or considering": 1
+   },
+   "barriers": {},
+   "helped_top": []
+  },
+  "app or online tool: care.com": {
+   "posts": 1,
+   "status": {
+    "looking or considering": 1
+   },
+   "barriers": {
+    "cost": {
+     "n": 1,
+     "ids": [
+      "p1eqjlc0"
+     ]
+    },
+    "the parent refuses": {
+     "n": 1,
+     "ids": [
+      "p1eqjlc0"
+     ]
+    }
+   },
+   "helped_top": []
+  },
+  "app or online tool: Facebook groups": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {},
+   "helped_top": []
+  },
+  "app or online tool: Psychology Today": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {
+    "therapy doesn't help or isn't available": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77427"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77427"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77427"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "someone to talk to without judgement",
+     1
+    ],
+    [
+     "tools to process emotions",
+     1
+    ],
+    [
+     "plan to get back to daily walks",
+     1
+    ]
+   ]
+  },
+  "app or online tool: SonderMind": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {
+    "therapy doesn't help or isn't available": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77427"
+     ]
+    },
+    "didn't know it existed": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77427"
+     ]
+    },
+    "no trained or reliable providers": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77427"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "someone to talk to without judgement",
+     1
+    ],
+    [
+     "tools to process emotions",
+     1
+    ],
+    [
+     "plan to get back to daily walks",
+     1
+    ]
+   ]
+  },
+  "app or online tool: Caregiver Support Discord server": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {},
+   "helped_top": [
+    [
+     "enjoying the online community",
+     1
+    ]
+   ]
+  },
+  "app or online tool: Facebook support groups": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {
+    "family or friends won't help": {
+     "n": 1,
+     "ids": [
+      "p1wcnm2o"
+     ]
+    },
+    "other (single mentions)": {
+     "n": 1,
+     "ids": [
+      "p1wcnm2o"
+     ]
+    }
+   },
+   "helped_top": [
+    [
+     "guidance and advice",
+     1
+    ]
+   ]
+  },
+  "app or online tool: Reddit AgingParents": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {},
+   "helped_top": [
+    [
+     "commiserate with others in same situation",
+     1
+    ]
+   ]
+  },
+  "app or online tool: ALZConnected forums": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {},
+   "helped_top": [
+    [
+     "learning to accept father's decline",
+     1
+    ]
+   ]
+  },
+  "app or online tool: Careblazers YouTube": {
+   "posts": 1,
+   "status": {
+    "used": 1
+   },
+   "barriers": {},
+   "helped_top": [
+    [
+     "learned how to interact with loved one",
+     1
+    ]
+   ]
+  },
+  "app or online tool: Zencare": {
+   "posts": 1,
+   "status": {
+    "looking or considering": 1
+   },
+   "barriers": {
+    "therapy doesn't help or isn't available": {
+     "n": 1,
+     "ids": [
+      "p196re2l"
+     ]
+    }
+   },
+   "helped_top": []
+  }
+ },
+ "barriers_all": {
+  "other (single mentions)": {
+   "n": 129,
+   "ids": [
+    "alzconnected-77407",
+    "alzconnected-77428",
+    "p10sju20",
+    "p1179uxg",
+    "p12i8t0z",
+    "p137l10c",
+    "p141eftl",
+    "p14b1bmo",
+    "p14hyfyg",
+    "p14ne7u4",
+    "p15edl7o",
+    "p15gaup5",
+    "p15j4418",
+    "p166x33z",
+    "p173vmwt",
+    "p17uf3lk",
+    "p17uspml",
+    "p17wmq7b",
+    "p185m4ne",
+    "p185urqw",
+    "p18olg3c",
+    "p18qw843",
+    "p18ztaf1",
+    "p1ao0cio",
+    "p1ax4qbl",
+    "p1b4tfwz",
+    "p1b8hajl",
+    "p1bahk0o",
+    "p1buxtha",
+    "p1ch1lyn",
+    "p1clihdw",
+    "p1cup3c9",
+    "p1d7ji5q",
+    "p1dj98vf",
+    "p1dwtf66",
+    "p1e0vg7a",
+    "p1e144pf",
+    "p1e14eta",
+    "p1e6hhyu",
+    "p1elmknm",
+    "p1eu2d7w",
+    "p1f44p4z",
+    "p1fl3g1g",
+    "p1g81b0g",
+    "p1gaisz3",
+    "p1gfyf62",
+    "p1gv639c",
+    "p1h067tp",
+    "p1h0yuec",
+    "p1h1fo09",
+    "p1h6ieq6",
+    "p1h9p97b",
+    "p1hcv5bi",
+    "p1hkemyl",
+    "p1hwzkcg",
+    "p1hy6q9j",
+    "p1i6s4k3",
+    "p1igixmj",
+    "p1ih133l",
+    "p1iqjhcx",
+    "p1jb8dfc",
+    "p1jg09cj",
+    "p1jgxc08",
+    "p1jn2k3s",
+    "p1k5tq02",
+    "p1kb5v1a",
+    "p1kcjt3j",
+    "p1kj80tn",
+    "p1ko3zju",
+    "p1lbihie",
+    "p1ltq0yj",
+    "p1lyg1c4",
+    "p1mbxwso",
+    "p1mk9mjj",
+    "p1mnxlq5",
+    "p1moya4x",
+    "p1mwbysg",
+    "p1myasny",
+    "p1mym2av",
+    "p1n2tzt5",
+    "p1n7noh2",
+    "p1nckenq",
+    "p1ohw2mm",
+    "p1olyc62",
+    "p1ondfaa",
+    "p1oojy59",
+    "p1oslgkm",
+    "p1oxyzhw",
+    "p1p4xeed",
+    "p1pbtct3",
+    "p1pcwf3h",
+    "p1phocfe",
+    "p1ptwxp6",
+    "p1qm5jd8",
+    "p1qroiog",
+    "p1riorpo",
+    "p1rzd450",
+    "p1rze7rd",
+    "p1scy7q4",
+    "p1sesz72",
+    "p1spfye6",
+    "p1t7i4w7",
+    "p1tojejn",
+    "p1u06d13",
+    "p1u4ku62",
+    "p1ua3gcg",
+    "p1uquweh",
+    "p1utcy86",
+    "p1uwn1tr",
+    "p1va6osz",
+    "p1vlzuw7",
+    "p1vmd2lx",
+    "p1vwr0hl",
+    "p1wcnm2o",
+    "p1wh12um",
+    "p1wh6ott",
+    "p1woa8ct",
+    "p1woix5k",
+    "p1wp4tlm",
+    "p1x3j2a1",
+    "p1x427s1",
+    "p1x6ectj",
+    "p1x9x353",
+    "p1xe0oeo",
+    "p1xed99p",
+    "p1xgdxji",
+    "p1xhluho",
+    "p1xhwxes",
+    "p1xn2n4n"
+   ]
+  },
+  "cost": {
+   "n": 118,
+   "ids": [
+    "agingcare-499707",
+    "p10vv5x0",
+    "p10ysuq2",
+    "p11265me",
+    "p113twdm",
+    "p1179uxg",
+    "p11awqmt",
+    "p11cqk5x",
+    "p11l4qnk",
+    "p1255olt",
+    "p12i8t0z",
+    "p139urv3",
+    "p13v0log",
+    "p141n3zy",
+    "p1523b5v",
+    "p15gaup5",
+    "p15j4418",
+    "p163frvg",
+    "p166x33z",
+    "p17662pg",
+    "p18olg3c",
+    "p18wg3va",
+    "p18y0ljz",
+    "p18y0ng6",
+    "p18ztaf1",
+    "p1ad88m9",
+    "p1aelasw",
+    "p1ai7fdz",
+    "p1apfb6y",
+    "p1av052q",
+    "p1ayk8qk",
+    "p1b2ei7l",
+    "p1b4tfwz",
+    "p1b8hajl",
+    "p1bd6d8k",
+    "p1bx0wau",
+    "p1bx5ch2",
+    "p1cup3c9",
+    "p1d89ew3",
+    "p1dhbthn",
+    "p1dj98vf",
+    "p1dnhryk",
+    "p1ds30uv",
+    "p1dt8ytt",
+    "p1e6hhyu",
+    "p1eqjlc0",
+    "p1fa6zr0",
+    "p1fuy4iw",
+    "p1fz2tkc",
+    "p1g1q8i5",
+    "p1gedjsz",
+    "p1gmwzqi",
+    "p1h0yuec",
+    "p1h7eswt",
+    "p1h9xsuw",
+    "p1ib912j",
+    "p1ih133l",
+    "p1ihnm5n",
+    "p1iuao25",
+    "p1izmwwi",
+    "p1jpx4h5",
+    "p1js48s2",
+    "p1jvgqyf",
+    "p1k0c7e7",
+    "p1knkt0c",
+    "p1kueigu",
+    "p1kvswws",
+    "p1l2ln2l",
+    "p1lqefuq",
+    "p1lxict4",
+    "p1m57yno",
+    "p1mpgvpc",
+    "p1mpl6a9",
+    "p1mt0s3w",
+    "p1mvv0py",
+    "p1nckenq",
+    "p1nlbez0",
+    "p1nzrvux",
+    "p1o8zjx8",
+    "p1oojy59",
+    "p1oufhcc",
+    "p1ozrm3l",
+    "p1pa6ff2",
+    "p1pe8sb3",
+    "p1pxe7ba",
+    "p1ql99hx",
+    "p1qw6qud",
+    "p1qygmtn",
+    "p1qzh1m2",
+    "p1r27en7",
+    "p1ratgxs",
+    "p1rze7rd",
+    "p1s6ibn8",
+    "p1scy7q4",
+    "p1t2d8aw",
+    "p1tojejn",
+    "p1tu60qx",
+    "p1u3jeub",
+    "p1uaw6vo",
+    "p1utcy86",
+    "p1v0a4n9",
+    "p1vfuemn",
+    "p1vwqa38",
+    "p1w3j44g",
+    "p1wihep1",
+    "p1wkta3y",
+    "p1wmdtc0",
+    "p1wnm7mw",
+    "p1woa8ct",
+    "p1wombot",
+    "p1wp4tlm",
+    "p1wq1sbu",
+    "p1xgc0mj",
+    "p1xgi52f",
+    "p1xgi8wh",
+    "p1xinklo",
+    "p1xintv8",
+    "p1xlkn1i"
+   ]
+  },
+  "the parent refuses": {
+   "n": 96,
+   "ids": [
+    "alzconnected-77284",
+    "alzconnected-77376",
+    "alzconnected-77428",
+    "p10vv5x0",
+    "p10ysuq2",
+    "p11265me",
+    "p1257oet",
+    "p13esz0k",
+    "p13v0log",
+    "p141n3zy",
+    "p145ol40",
+    "p14ankjn",
+    "p14ipx7y",
+    "p14rjvnz",
+    "p15gaup5",
+    "p15ilz3x",
+    "p179l51m",
+    "p17k0at9",
+    "p17m966i",
+    "p182rcx3",
+    "p18ch5e8",
+    "p18we6y2",
+    "p18wv0s5",
+    "p18zhybf",
+    "p1agyae2",
+    "p1au52xo",
+    "p1axhmwj",
+    "p1bu3g77",
+    "p1byad4o",
+    "p1c4ehv3",
+    "p1dg3jlm",
+    "p1dhbthn",
+    "p1dmkhg2",
+    "p1e5l51l",
+    "p1ea6sbh",
+    "p1eqjlc0",
+    "p1f44p4z",
+    "p1fdkeql",
+    "p1ffa4ed",
+    "p1fhowx4",
+    "p1fl3g1g",
+    "p1gedjsz",
+    "p1gfz22e",
+    "p1hcenqq",
+    "p1hkemyl",
+    "p1hy5hqt",
+    "p1i7k19o",
+    "p1ib912j",
+    "p1ihysxc",
+    "p1ikxebi",
+    "p1ikzpnz",
+    "p1j235bb",
+    "p1jg09cj",
+    "p1ji641g",
+    "p1jv5b2n",
+    "p1jvgqyf",
+    "p1jx4dtn",
+    "p1k1pgf1",
+    "p1klsvfo",
+    "p1ktx64i",
+    "p1l12auz",
+    "p1lid9kd",
+    "p1m9ig5r",
+    "p1mcryrg",
+    "p1mt0s3w",
+    "p1mukdww",
+    "p1n555x9",
+    "p1n7zp6s",
+    "p1nhv4z5",
+    "p1np0dlg",
+    "p1nzrvux",
+    "p1o3b8cz",
+    "p1o8zjx8",
+    "p1otdi3t",
+    "p1ozrm3l",
+    "p1pa6ff2",
+    "p1pjz76s",
+    "p1pxe7ba",
+    "p1q64hk3",
+    "p1ri7jhb",
+    "p1ss3076",
+    "p1tu60qx",
+    "p1tvqu4d",
+    "p1u5wh64",
+    "p1uuz5qf",
+    "p1v06g1b",
+    "p1v1e3ig",
+    "p1vrziuu",
+    "p1vz7i3n",
+    "p1w5j7ue",
+    "p1whn0rg",
+    "p1wixm80",
+    "p1wkta3y",
+    "p1xbap1k",
+    "p1xhu3kz",
+    "p1xn2n4n"
+   ]
+  },
+  "family or friends won't help": {
+   "n": 93,
+   "ids": [
+    "alzconnected-77284",
+    "alzconnected-77423",
+    "p10h6p87",
+    "p11cqk5x",
+    "p11iztt7",
+    "p11not4k",
+    "p12jepmd",
+    "p139urv3",
+    "p15g2dxl",
+    "p15ilz3x",
+    "p173vmwt",
+    "p17f3mrn",
+    "p17fmeoh",
+    "p17lxmn1",
+    "p184v6in",
+    "p18s99gf",
+    "p18zhybf",
+    "p1997vj7",
+    "p199f9t2",
+    "p1apfb6y",
+    "p1au52xo",
+    "p1bo2sz0",
+    "p1cbdn53",
+    "p1dg3zj5",
+    "p1dg92h1",
+    "p1e4einl",
+    "p1emw0y2",
+    "p1ext7ws",
+    "p1f2kpq8",
+    "p1f9l5nf",
+    "p1fdkeql",
+    "p1ffn6ro",
+    "p1fhowx4",
+    "p1fwiyqh",
+    "p1g1eokn",
+    "p1gyhj99",
+    "p1gyvd7k",
+    "p1he0nkf",
+    "p1hh59ir",
+    "p1hjpjiw",
+    "p1i2mx8s",
+    "p1i4txah",
+    "p1izmwwi",
+    "p1jg57i2",
+    "p1ji641g",
+    "p1jq23bh",
+    "p1klsvfo",
+    "p1kvou0n",
+    "p1l2joyx",
+    "p1lshhom",
+    "p1ly069b",
+    "p1mf2vea",
+    "p1ms8gjr",
+    "p1n1lrxu",
+    "p1ndyxm0",
+    "p1nhv4z5",
+    "p1okmhe4",
+    "p1olnbrm",
+    "p1oslgkm",
+    "p1pcgrfu",
+    "p1pmsqq2",
+    "p1pusyrl",
+    "p1qcq0m1",
+    "p1ql99hx",
+    "p1qzh1m2",
+    "p1ri7jhb",
+    "p1riok43",
+    "p1sd4zyh",
+    "p1sq4773",
+    "p1svhfgu",
+    "p1syzln4",
+    "p1titnxo",
+    "p1truium",
+    "p1ua3gcg",
+    "p1uabuhm",
+    "p1vcxza3",
+    "p1vfh78m",
+    "p1vzh1pw",
+    "p1w5sq0g",
+    "p1w9gnx3",
+    "p1wcnm2o",
+    "p1wh12um",
+    "p1wixm80",
+    "p1wl7ajy",
+    "p1wlrtcw",
+    "p1wp6eyh",
+    "p1wt8999",
+    "p1x0c1ao",
+    "p1x7s6o6",
+    "p1xfgv6i",
+    "p1xg0gw1",
+    "p1xintv8",
+    "p1xjqtpx"
+   ]
+  },
+  "hard application or eligibility rules": {
+   "n": 86,
+   "ids": [
+    "alzconnected-77423",
+    "p11awqmt",
+    "p15ilz3x",
+    "p162cj0e",
+    "p166x33z",
+    "p1841dgz",
+    "p18sk5gq",
+    "p18txz7r",
+    "p18y0ljz",
+    "p18y0ng6",
+    "p19db6db",
+    "p1ad88m9",
+    "p1amhy8v",
+    "p1ayk8qk",
+    "p1b2ei7l",
+    "p1bmb2kd",
+    "p1bw8yh7",
+    "p1bx5ch2",
+    "p1cbdn53",
+    "p1cbmszm",
+    "p1d89ew3",
+    "p1eh9j4o",
+    "p1ewklrx",
+    "p1ext7ws",
+    "p1f20olm",
+    "p1f2wn8b",
+    "p1fa8j7t",
+    "p1fj8paq",
+    "p1fkx8rt",
+    "p1frmgnj",
+    "p1fz2tkc",
+    "p1g6q58p",
+    "p1g6uozh",
+    "p1g81b0g",
+    "p1gad8ky",
+    "p1gfz22e",
+    "p1gg4psm",
+    "p1goa9oj",
+    "p1hcenqq",
+    "p1hcv5bi",
+    "p1hr9d7f",
+    "p1hrd87h",
+    "p1hre1zw",
+    "p1i2rxge",
+    "p1i4txah",
+    "p1imz9xf",
+    "p1j9odkj",
+    "p1jpx4h5",
+    "p1js48s2",
+    "p1kj80tn",
+    "p1ktx64i",
+    "p1l0d9o5",
+    "p1l9w918",
+    "p1lxict4",
+    "p1m57yno",
+    "p1mf2vea",
+    "p1mpgvpc",
+    "p1n7noh2",
+    "p1nlbez0",
+    "p1oojy59",
+    "p1oufhcc",
+    "p1pxcmkr",
+    "p1q7jgxu",
+    "p1qw6qud",
+    "p1ri7jhb",
+    "p1rlva01",
+    "p1s0c8za",
+    "p1ssqrqc",
+    "p1t3rm4q",
+    "p1u10o61",
+    "p1u5wh64",
+    "p1uaypm6",
+    "p1ulb1ow",
+    "p1ulyb8z",
+    "p1vc7mvv",
+    "p1vcxza3",
+    "p1vlexpl",
+    "p1wixm80",
+    "p1wombot",
+    "p1wubszy",
+    "p1x0c1ao",
+    "p1x2f8kr",
+    "p1x8maxn",
+    "p1xgi52f",
+    "p1xgi8wh",
+    "p1xhwxes"
+   ]
+  },
+  "waitlist or no openings": {
+   "n": 59,
+   "ids": [
+    "p11awqmt",
+    "p11c03l7",
+    "p11mfwvk",
+    "p11not4k",
+    "p11sw4zw",
+    "p1255olt",
+    "p14w0n8e",
+    "p15f8egn",
+    "p15tmvwj",
+    "p17662pg",
+    "p17uf3lk",
+    "p18tvsik",
+    "p18wg3va",
+    "p1b5uc5l",
+    "p1bha84r",
+    "p1bmb2kd",
+    "p1bx5ch2",
+    "p1bzkk76",
+    "p1c6efrx",
+    "p1c9w7gg",
+    "p1cbmszm",
+    "p1conram",
+    "p1ds30uv",
+    "p1en52mw",
+    "p1ewklrx",
+    "p1f20olm",
+    "p1fa8j7t",
+    "p1fj8paq",
+    "p1fpacqt",
+    "p1fuy4iw",
+    "p1g6q58p",
+    "p1g6uozh",
+    "p1h0fxvm",
+    "p1hcv5bi",
+    "p1i2rxge",
+    "p1juqdro",
+    "p1kvou0n",
+    "p1muny9d",
+    "p1n555x9",
+    "p1nkhd4j",
+    "p1nwn90z",
+    "p1o4bdng",
+    "p1o6x9me",
+    "p1oufhcc",
+    "p1p10r6a",
+    "p1q21ujo",
+    "p1sgc5ts",
+    "p1stubkn",
+    "p1tojejn",
+    "p1uaypm6",
+    "p1ulutf3",
+    "p1v33com",
+    "p1vwpvg5",
+    "p1win54c",
+    "p1wnm7mw",
+    "p1x8maxn",
+    "p1xgi52f",
+    "p1xgi8wh",
+    "p1xintv8"
+   ]
+  },
+  "worry about quality or safety": {
+   "n": 52,
+   "ids": [
+    "alzconnected-77407",
+    "p12qouhj",
+    "p13klqob",
+    "p14hnoft",
+    "p163frvg",
+    "p17sn1oy",
+    "p18i7ypx",
+    "p18p6tnx",
+    "p199f9t2",
+    "p1amhy8v",
+    "p1av9voi",
+    "p1b4mm45",
+    "p1bahk0o",
+    "p1bo2sz0",
+    "p1cbdn53",
+    "p1cgw0j9",
+    "p1clihdw",
+    "p1ds30uv",
+    "p1ewklrx",
+    "p1g7dv4j",
+    "p1gaisz3",
+    "p1h0yuec",
+    "p1h1fo09",
+    "p1hy5hqt",
+    "p1jg57i2",
+    "p1jmpdxc",
+    "p1jx4dtn",
+    "p1k0c7e7",
+    "p1ku0wu0",
+    "p1l2ln2l",
+    "p1m3eazt",
+    "p1mpgvpc",
+    "p1mvv0py",
+    "p1ondfaa",
+    "p1oo0a0m",
+    "p1otp51j",
+    "p1p0ly0n",
+    "p1p10r6a",
+    "p1p6cgeo",
+    "p1pbokag",
+    "p1pmlg14",
+    "p1pxcmkr",
+    "p1qu6kvp",
+    "p1titnxo",
+    "p1txz9d6",
+    "p1uaypm6",
+    "p1wl7yvf",
+    "p1wp6eyh",
+    "p1wsg3kb",
+    "p1x2f8kr",
+    "p1xgi52f",
+    "p1xhluho"
+   ]
+  },
+  "guilt or shame about handing off care": {
+   "n": 38,
+   "ids": [
+    "p14rjvnz",
+    "p14seksz",
+    "p15tmvwj",
+    "p18zhybf",
+    "p1bahk0o",
+    "p1c4ehv3",
+    "p1cgw0j9",
+    "p1clihdw",
+    "p1cr35o4",
+    "p1dwtf66",
+    "p1e144pf",
+    "p1e746tb",
+    "p1ewklrx",
+    "p1h9xsuw",
+    "p1hfrz2d",
+    "p1hh59ir",
+    "p1j6qkjn",
+    "p1jmy1pj",
+    "p1lnvr56",
+    "p1lywzzq",
+    "p1me7t0p",
+    "p1mkc0pb",
+    "p1nckenq",
+    "p1odxjm7",
+    "p1pxlnnk",
+    "p1qu6kvp",
+    "p1sd4zyh",
+    "p1sesz72",
+    "p1ss3076",
+    "p1tmv0fc",
+    "p1u3jeub",
+    "p1vbu0wu",
+    "p1vfuemn",
+    "p1vgm6un",
+    "p1vrziuu",
+    "p1vwpvg5",
+    "p1whn0rg",
+    "p1wq7xaa"
+   ]
+  },
+  "no trained or reliable providers": {
+   "n": 38,
+   "ids": [
+    "alzconnected-77395",
+    "alzconnected-77427",
+    "p14w0n8e",
+    "p15f8egn",
+    "p163frvg",
+    "p1964vcf",
+    "p1aelasw",
+    "p1amhy8v",
+    "p1ao0cio",
+    "p1axzz1c",
+    "p1bx5ch2",
+    "p1clihdw",
+    "p1dsqqkz",
+    "p1eq545l",
+    "p1fa8j7t",
+    "p1g1jb5f",
+    "p1h067tp",
+    "p1h6ieq6",
+    "p1h7eswt",
+    "p1i6s4k3",
+    "p1jbos7w",
+    "p1jmpdxc",
+    "p1jx4dtn",
+    "p1kccf7l",
+    "p1lt55zc",
+    "p1m3eazt",
+    "p1m7atkq",
+    "p1mpgvpc",
+    "p1p4xeed",
+    "p1pxe7ba",
+    "p1q21ujo",
+    "p1qssjv5",
+    "p1qu598w",
+    "p1rze7rd",
+    "p1vwpvg5",
+    "p1w9rdcu",
+    "p1wl7yvf",
+    "p1x2f8kr"
+   ]
+  },
+  "too few hours, minimum stays or other limits": {
+   "n": 36,
+   "ids": [
+    "p11sw4zw",
+    "p11xv4i3",
+    "p14i6eyu",
+    "p164wt8v",
+    "p16f5lb1",
+    "p183zjqa",
+    "p18qbl96",
+    "p18y0ng6",
+    "p19aj4pk",
+    "p1ai7fdz",
+    "p1b4mm45",
+    "p1bha84r",
+    "p1e62vfg",
+    "p1eq545l",
+    "p1ey5f9r",
+    "p1hr9d7f",
+    "p1iz3lvv",
+    "p1lid9kd",
+    "p1m6kjs8",
+    "p1p9dkvh",
+    "p1peddwl",
+    "p1pxlnnk",
+    "p1q7qsqd",
+    "p1rlva01",
+    "p1sg01yh",
+    "p1ujkn7g",
+    "p1ulyb8z",
+    "p1v60a2m",
+    "p1vcc3oh",
+    "p1veks8d",
+    "p1wk7gnc",
+    "p1wombot",
+    "p1wrl2v4",
+    "p1x6ectj",
+    "p1xbap1k",
+    "p1xfgv6i"
+   ]
+  },
+  "therapy doesn't help or isn't available": {
+   "n": 27,
+   "ids": [
+    "agingcare-499059",
+    "alzconnected-77401",
+    "alzconnected-77427",
+    "p10pegn1",
+    "p11bq3kp",
+    "p14vh0k9",
+    "p14w0n8e",
+    "p164o4y2",
+    "p16yoywf",
+    "p18s99gf",
+    "p196re2l",
+    "p1amhy8v",
+    "p1at8dq1",
+    "p1d5bh5a",
+    "p1dsqqkz",
+    "p1dt0xxy",
+    "p1f7gwcd",
+    "p1i7mzri",
+    "p1ix8lya",
+    "p1mnxlq5",
+    "p1o3b8cz",
+    "p1ot35z1",
+    "p1pxe7ba",
+    "p1r9rz2u",
+    "p1ratgxs",
+    "p1v0a4n9",
+    "p1vza0qq"
+   ]
+  },
+  "inflexible program (hours, minimum stay, days)": {
+   "n": 24,
+   "ids": [
+    "alzconnected-77398",
+    "p163frvg",
+    "p16yoywf",
+    "p18txz7r",
+    "p199f9t2",
+    "p1av052q",
+    "p1bd6d8k",
+    "p1ds30uv",
+    "p1emjuya",
+    "p1i2rxge",
+    "p1iz88h9",
+    "p1kvswws",
+    "p1n61bp9",
+    "p1pjz76s",
+    "p1qcq0m1",
+    "p1rze7rd",
+    "p1spfye6",
+    "p1tojejn",
+    "p1ud1usq",
+    "p1veks8d",
+    "p1wk2cx7",
+    "p1wnm7mw",
+    "p1xbuw5r",
+    "p1xhwxes"
+   ]
+  },
+  "support group doesn't fit or isn't available": {
+   "n": 19,
+   "ids": [
+    "alzconnected-77414",
+    "p102duhi",
+    "p16yoywf",
+    "p1ayina1",
+    "p1c77tpa",
+    "p1cte145",
+    "p1evdjpv",
+    "p1f40t6t",
+    "p1ffv59l",
+    "p1gmwzqi",
+    "p1htie7f",
+    "p1k6c3xw",
+    "p1njos94",
+    "p1pd655m",
+    "p1sgc5ts",
+    "p1tpvrus",
+    "p1w2se42",
+    "p1xfgola",
+    "p1xhu3kz"
+   ]
+  },
+  "transport or logistics": {
+   "n": 16,
+   "ids": [
+    "p1255olt",
+    "p163frvg",
+    "p199f9t2",
+    "p1bx0wau",
+    "p1bx5ch2",
+    "p1f2wn8b",
+    "p1mpl6a9",
+    "p1nwn90z",
+    "p1p9dkvh",
+    "p1tojejn",
+    "p1wihep1",
+    "p1wp6eyh",
+    "p1xbap1k",
+    "p1xbuw5r",
+    "p1xgi52f",
+    "p1xgi8wh"
+   ]
+  },
+  "no services nearby": {
+   "n": 14,
+   "ids": [
+    "alzconnected-77423",
+    "p10h6p87",
+    "p1b4tfwz",
+    "p1cdmk21",
+    "p1cyolvk",
+    "p1d4ps0u",
+    "p1ixj9ic",
+    "p1jx4dtn",
+    "p1kimaeg",
+    "p1m3eazt",
+    "p1m7atkq",
+    "p1mbj6mq",
+    "p1qqvdw1",
+    "p1xgc0mj"
+   ]
+  },
+  "doesn't trust strangers with the parent": {
+   "n": 14,
+   "ids": [
+    "p1bx0wau",
+    "p1clihdw",
+    "p1f20olm",
+    "p1gg4psm",
+    "p1hcv5bi",
+    "p1i4txah",
+    "p1jg09cj",
+    "p1mncyaf",
+    "p1n7noh2",
+    "p1ptwxp6",
+    "p1q21ujo",
+    "p1tmv0fc",
+    "p1wl7yvf",
+    "p1xhv1fc"
+   ]
+  },
+  "agencies, social workers or helplines don't help": {
+   "n": 14,
+   "ids": [
+    "p162cj0e",
+    "p163frvg",
+    "p1ec1pm2",
+    "p1ms8gjr",
+    "p1nhz441",
+    "p1nhz60z",
+    "p1qe29i3",
+    "p1stubkn",
+    "p1ufaoxa",
+    "p1ulb1ow",
+    "p1v6qqg5",
+    "p1vedf5r",
+    "p1w4oijc",
+    "p1xcuw96"
+   ]
+  },
+  "no time or energy to arrange it": {
+   "n": 12,
+   "ids": [
+    "p145ol40",
+    "p18ydyi9",
+    "p1f2rkoy",
+    "p1k4w8fb",
+    "p1krf9sj",
+    "p1nln88n",
+    "p1o42umr",
+    "p1ohw2mm",
+    "p1ou9adj",
+    "p1ukazl4",
+    "p1vwqa38",
+    "p1xinklo"
+   ]
+  },
+  "didn't know it existed": {
+   "n": 10,
+   "ids": [
+    "alzconnected-77427",
+    "p139urv3",
+    "p1eh9j4o",
+    "p1i7mzri",
+    "p1juqdro",
+    "p1lqefuq",
+    "p1naqwa5",
+    "p1t7i4w7",
+    "p1v2rdhv",
+    "p1xintv8"
+   ]
+  },
+  "the person cared for is anxious or worse away from home": {
+   "n": 8,
+   "ids": [
+    "p17uspml",
+    "p17wmq7b",
+    "p18o9itc",
+    "p1amhy8v",
+    "p1iuao25",
+    "p1me7t0p",
+    "p1ou9adj",
+    "p1ujskrt"
+   ]
+  },
+  "the break isn't restful (worry, more work, chores)": {
+   "n": 6,
+   "ids": [
+    "p1d40xvz",
+    "p1d7jegj",
+    "p1dnhryk",
+    "p1mrttmn",
+    "p1pmlg14",
+    "p1t2d8aw"
+   ]
+  }
+ },
+ "named_providers": {
+  "VA": {
+   "n": 28,
+   "ids": [
+    "p1ffa4ed",
+    "p13p6ixd",
+    "p1wk7gnc",
+    "p1ifpmxx",
+    "p1u5wh64",
+    "p1l0d9o5",
+    "p1m6kjs8",
+    "p1udyrtl",
+    "p1n6o2b0",
+    "p1vfh78m",
+    "p1ua3gcg",
+    "p13njcjy",
+    "p1ext7ws",
+    "p1axzz1c",
+    "p1x0bfh0",
+    "p1goa9oj",
+    "p19db6db",
+    "p1krf9sj",
+    "p1w4oijc",
+    "p1l9w918",
+    "p1v60a2m",
+    "p17lxmn1",
+    "p141eftl",
+    "p1u10o61",
+    "p1au52xo",
+    "p1av9voi",
+    "p18s99gf",
+    "p164o4y2"
+   ]
+  },
+  "hospice": {
+   "n": 20,
+   "ids": [
+    "p1txz9d6",
+    "p1ird081",
+    "p13klqob",
+    "p1kib7zh",
+    "p1xhluho",
+    "p1v2cv3j",
+    "p1woix5k",
+    "p1kvou0n",
+    "p1rztsy5",
+    "p1whplww",
+    "p1e0vg7a",
+    "p1ndyxm0",
+    "p1wsg3kb",
+    "p1mym2av",
+    "p1cbmszm",
+    "p1igixmj",
+    "p1vgm6un",
+    "p173vmwt",
+    "p1oojy59",
+    "p1dg3jlm"
+   ]
+  },
+  "Area Agency on Aging": {
+   "n": 10,
+   "ids": [
+    "p1es2sv2",
+    "p1c9w7gg",
+    "p1nhz441",
+    "p1uwn1tr",
+    "p1ad88m9",
+    "p1frmgnj",
+    "p1c6efrx",
+    "p1mukdww",
+    "p1b5uc5l",
+    "p1bzkk76"
+   ]
+  },
+  "Alzheimer's Association": {
+   "n": 6,
+   "ids": [
+    "alzconnected-77398",
+    "p1v6qqg5",
+    "p1xbuw5r",
+    "alzconnected-77005",
+    "alzconnected-77397",
+    "alzconnected-77462"
+   ]
+  },
+  "Medicaid": {
+   "n": 6,
+   "ids": [
+    "p1hr9d7f",
+    "p1vlexpl",
+    "p1b8hajl",
+    "p1ulutf3",
+    "p1f9nxqg",
+    "p1ely534"
+   ]
+  },
+  "Medicaid waiver": {
+   "n": 4,
+   "ids": [
+    "p1ib912j",
+    "p1hrd87h",
+    "p1q21ujo",
+    "p18tvsik"
+   ]
+  },
+  "Medicaid waiver program": {
+   "n": 3,
+   "ids": [
+    "p1ktx64i",
+    "p1p10r6a",
+    "p1vcxza3"
+   ]
+  },
+  "SCDHHS": {
+   "n": 2,
+   "ids": [
+    "p1xgi52f",
+    "p1xgi8wh"
+   ]
+  },
+  "Wellthy": {
+   "n": 2,
+   "ids": [
+    "p1h9p97b",
+    "p15edl7o"
+   ]
+  },
+  "department of aging": {
+   "n": 2,
+   "ids": [
+    "p11awqmt",
+    "p1bx5ch2"
+   ]
+  },
+  "Council for the Aging": {
+   "n": 2,
+   "ids": [
+    "alzconnected-77383",
+    "alzconnected-77379"
+   ]
+  },
+  "Alzheimer's Association (ALZConnected)": {
+   "n": 2,
+   "ids": [
+    "alzconnected-77348",
+    "alzconnected-77393"
+   ]
+  },
+  "Teepa Snow": {
+   "n": 2,
+   "ids": [
+    "p1kcfrpm",
+    "p1sp2p5y"
+   ]
+  },
+  "VA; county day program": {
+   "n": 2,
+   "ids": [
+    "p18y0ljz",
+    "p18y0ng6"
+   ]
+  },
+  "IHSS": {
+   "n": 2,
+   "ids": [
+    "p1x0c1ao",
+    "p1ao0cio"
+   ]
+  },
+  "Medicare Advantage plan": {
+   "n": 1,
+   "ids": [
+    "p1bd6d8k"
+   ]
+  },
+  "WhatsApp": {
+   "n": 1,
+   "ids": [
+    "p1x7s6o6"
+   ]
+  },
+  "AgingCare": {
+   "n": 1,
+   "ids": [
+    "agingcare-499298"
+   ]
+  },
+  "Medicaid waiver (Alabama)": {
+   "n": 1,
+   "ids": [
+    "p1d7ji5q"
+   ]
+  },
+  "DDS": {
+   "n": 1,
+   "ids": [
+    "p1dg92h1"
+   ]
+  },
+  "hospice; state aged and disabled waiver": {
+   "n": 1,
+   "ids": [
+    "p1xintv8"
+   ]
+  },
+  "California Assisted Living Waiver program": {
+   "n": 1,
+   "ids": [
+    "p1fpacqt"
+   ]
+  },
+  "Passages": {
+   "n": 1,
+   "ids": [
+    "p1qzh1m2"
+   ]
+  },
+  "Medicare": {
+   "n": 1,
+   "ids": [
+    "p1juqdro"
+   ]
+  },
+  "retirement community caregiver coordinator": {
+   "n": 1,
+   "ids": [
+    "p1dmkhg2"
+   ]
+  },
+  "major children's hospital caregiver support group": {
+   "n": 1,
+   "ids": [
+    "p1sgc5ts"
+   ]
+  },
+  "agency (not named)": {
+   "n": 1,
+   "ids": [
+    "p1pmlg14"
+   ]
+  },
+  "VA PCAFC Caregiver Support Program": {
+   "n": 1,
+   "ids": [
+    "p1mbxwso"
+   ]
+  },
+  "Huntington's Disease support group": {
+   "n": 1,
+   "ids": [
+    "p18qw843"
+   ]
+  },
+  "ALZConnected": {
+   "n": 1,
+   "ids": [
+    "alzconnected-77414"
+   ]
+  },
+  "WelbeHealth": {
+   "n": 1,
+   "ids": [
+    "p1m9ig5r"
+   ]
+  },
+  "Aegis": {
+   "n": 1,
+   "ids": [
+    "p1abmgsr"
+   ]
+  },
+  "Medicaid Waiver (Florida)": {
+   "n": 1,
+   "ids": [
+    "p1f2wn8b"
+   ]
+  },
+  "VA LTC facility": {
+   "n": 1,
+   "ids": [
+    "p1fl3g1g"
+   ]
+  },
+  "Millennial & Gen X Alzheimer's Caregivers (WhatsApp)": {
+   "n": 1,
+   "ids": [
+    "p1xjqtpx"
+   ]
+  },
+  "Al-Anon": {
+   "n": 1,
+   "ids": [
+    "p1qbg7me"
+   ]
+  },
+  "memory care facility (not named)": {
+   "n": 1,
+   "ids": [
+    "p12124uy"
+   ]
+  },
+  "local regional center": {
+   "n": 1,
+   "ids": [
+    "p1jbos7w"
+   ]
+  },
+  "Meals on Wheels": {
+   "n": 1,
+   "ids": [
+    "p1js48s2"
+   ]
+  },
+  "North Carolina Medicaid": {
+   "n": 1,
+   "ids": [
+    "p1d89ew3"
+   ]
+  },
+  "area agency on aging": {
+   "n": 1,
+   "ids": [
+    "p1nhz60z"
+   ]
+  },
+  "NHS": {
+   "n": 1,
+   "ids": [
+    "p1uabuhm"
+   ]
+  },
+  "Ontario Health at Home": {
+   "n": 1,
+   "ids": [
+    "p1uaypm6"
+   ]
+  },
+  "IRIS": {
+   "n": 1,
+   "ids": [
+    "p1x427s1"
+   ]
+  },
+  "Pima Council on Aging": {
+   "n": 1,
+   "ids": [
+    "p1o0izil"
+   ]
+  },
+  "Papa": {
+   "n": 1,
+   "ids": [
+    "p18a42uc"
+   ]
+  },
+  "agency people with disabilities": {
+   "n": 1,
+   "ids": [
+    "p1pxcmkr"
+   ]
+  },
+  "hospice company": {
+   "n": 1,
+   "ids": [
+    "p1gaisz3"
+   ]
+  },
+  "package provider": {
+   "n": 1,
+   "ids": [
+    "p15ilz3x"
+   ]
+  },
+  "elderly affairs": {
+   "n": 1,
+   "ids": [
+    "p1pc6v12"
+   ]
+  },
+  "VA; local agency": {
+   "n": 1,
+   "ids": [
+    "alzconnected-77395"
+   ]
+  },
+  "Torchlight": {
+   "n": 1,
+   "ids": [
+    "p1e6j86w"
+   ]
+  },
+  "Oklahoma Department of Human Services ADvantage program": {
+   "n": 1,
+   "ids": [
+    "p1g6q58p"
+   ]
+  },
+  "AgeOptions / Kenneth Young Center": {
+   "n": 1,
+   "ids": [
+    "p1h0fxvm"
+   ]
+  },
+  "VA, Home Instead": {
+   "n": 1,
+   "ids": [
+    "p1qu598w"
+   ]
+  },
+  "Seniors Helping Seniors": {
+   "n": 1,
+   "ids": [
+    "p139urv3"
+   ]
+  },
+  "Medicaid waiver (Kentucky)": {
+   "n": 1,
+   "ids": [
+    "p1k1pgf1"
+   ]
+  },
+  "VA; respite agency (unnamed)": {
+   "n": 1,
+   "ids": [
+    "p1fa8j7t"
+   ]
+  },
+  "New York City Caregiving for Aging Parents Meetup group": {
+   "n": 1,
+   "ids": [
+    "p11jyv4e"
+   ]
+  },
+  "Medicaid waiver (Indiana); home care agency": {
+   "n": 1,
+   "ids": [
+    "p18txz7r"
+   ]
+  },
+  "Medicaid waiver; Florida department of elderly affairs": {
+   "n": 1,
+   "ids": [
+    "p1gg4psm"
+   ]
+  },
+  "waiver plan for the disabled": {
+   "n": 1,
+   "ids": [
+    "p1g1jb5f"
+   ]
+  },
+  "Emotions Anonymous": {
+   "n": 1,
+   "ids": [
+    "p1oyuoci"
+   ]
+  },
+  "nursing homes/respite facilities, Gloucester County NJ": {
+   "n": 1,
+   "ids": [
+    "p199f9t2"
+   ]
+  },
+  "Medicaid waiver (PA); ACT150 Waiver": {
+   "n": 1,
+   "ids": [
+    "p1gad8ky"
+   ]
+  },
+  "Medicaid waiver; Area Agency on Aging (Florida)": {
+   "n": 1,
+   "ids": [
+    "p1f20olm"
+   ]
+  },
+  "VA; Medicaid": {
+   "n": 1,
+   "ids": [
+    "p1kj80tn"
+   ]
+  },
+  "local PCA company": {
+   "n": 1,
+   "ids": [
+    "p1i2rxge"
+   ]
+  },
+  "Iowa DHS Medicaid elderly waiver program": {
+   "n": 1,
+   "ids": [
+    "p189fjiz"
+   ]
+  },
+  "OSS (state long term care Medicaid support)": {
+   "n": 1,
+   "ids": [
+    "p113twdm"
+   ]
+  },
+  "New Mexico Medicaid": {
+   "n": 1,
+   "ids": [
+    "p1ulyb8z"
+   ]
+  },
+  "Florida Medicaid": {
+   "n": 1,
+   "ids": [
+    "p11c03l7"
+   ]
+  },
+  "Psychology Today; SonderMind": {
+   "n": 1,
+   "ids": [
+    "alzconnected-77427"
+   ]
+  },
+  "home care package": {
+   "n": 1,
+   "ids": [
+    "p14ankjn"
+   ]
+  },
+  "Florida Community Care; Humana": {
+   "n": 1,
+   "ids": [
+    "p1rlva01"
+   ]
+  },
+  "Wyoming Medicaid": {
+   "n": 1,
+   "ids": [
+    "p1j9odkj"
+   ]
+  },
+  "Area Agency on Aging; Medicaid": {
+   "n": 1,
+   "ids": [
+    "p1hcv5bi"
+   ]
+  },
+  "state Medicaid waiver program": {
+   "n": 1,
+   "ids": [
+    "p1fuy4iw"
+   ]
+  },
+  "PACE program": {
+   "n": 1,
+   "ids": [
+    "p1b4mm45"
+   ]
+  },
+  "care company": {
+   "n": 1,
+   "ids": [
+    "p1s1bjoj"
+   ]
+  },
+  "Medicaid provider": {
+   "n": 1,
+   "ids": [
+    "p1scy7q4"
+   ]
+  },
+  "healthcare team": {
+   "n": 1,
+   "ids": [
+    "p1oxyzhw"
+   ]
+  },
+  "DSHS (Washington)": {
+   "n": 1,
+   "ids": [
+    "p1999em1"
+   ]
+  },
+  "home health agencies": {
+   "n": 1,
+   "ids": [
+    "p1h7eswt"
+   ]
+  },
+  "Facebook group for millennial family caregivers": {
+   "n": 1,
+   "ids": [
+    "p1f2kpq8"
+   ]
+  },
+  "bereavement group": {
+   "n": 1,
+   "ids": [
+    "alzconnected-75137"
+   ]
+  },
+  "DHS": {
+   "n": 1,
+   "ids": [
+    "p1fj8paq"
+   ]
+  },
+  "VA; home health agency": {
+   "n": 1,
+   "ids": [
+    "p1x2f8kr"
+   ]
+  },
+  "Alabama Department of Senior Services": {
+   "n": 1,
+   "ids": [
+    "p1wubszy"
+   ]
+  },
+  "Medi-Cal": {
+   "n": 1,
+   "ids": [
+    "p10h6p87"
+   ]
+  },
+  "the state": {
+   "n": 1,
+   "ids": [
+    "p1cbdn53"
+   ]
+  },
+  "Advanced Care at Home": {
+   "n": 1,
+   "ids": [
+    "p1wombot"
+   ]
+  },
+  "Ohio Medicaid waiver": {
+   "n": 1,
+   "ids": [
+    "p1i7k19o"
+   ]
+  },
+  "Home Instead; hospice": {
+   "n": 1,
+   "ids": [
+    "p1pxe7ba"
+   ]
+  },
+  "state DHHS": {
+   "n": 1,
+   "ids": [
+    "p1x8maxn"
+   ]
+  },
+  "social care; carers' charities": {
+   "n": 1,
+   "ids": [
+    "p1hkemyl"
+   ]
+  },
+  "Hospice; VA; caregiver service": {
+   "n": 1,
+   "ids": [
+    "p1e4einl"
+   ]
+  },
+  "CCP program": {
+   "n": 1,
+   "ids": [
+    "alzconnected-77423"
+   ]
+  },
+  "local Carer Support Service (UK)": {
+   "n": 1,
+   "ids": [
+    "p14w0n8e"
+   ]
+  },
+  "nursing home": {
+   "n": 1,
+   "ids": [
+    "p1ltq0yj"
+   ]
+  },
+  "senior center": {
+   "n": 1,
+   "ids": [
+    "p1wz1207"
+   ]
+  },
+  "Visiting Angels": {
+   "n": 1,
+   "ids": [
+    "p1nuphf8"
+   ]
+  },
+  "Indiana Medicaid waiver program": {
+   "n": 1,
+   "ids": [
+    "p18sk5gq"
+   ]
+  },
+  "Carers Trust": {
+   "n": 1,
+   "ids": [
+    "p182rcx3"
+   ]
+  },
+  "Area Agency on Aging; ChampVA": {
+   "n": 1,
+   "ids": [
+    "p1bmb2kd"
+   ]
+  },
+  "PACE": {
+   "n": 1,
+   "ids": [
+    "p1bahk0o"
+   ]
+  }
+ },
+ "payer_cost": [
+  {
+   "id": "p11265me",
+   "payer_cost": "family pays the respite caregiver $25",
+   "url": "https://www.reddit.com/r/AgingParents/comments/11265me/"
+  },
+  {
+   "id": "p1ffa4ed",
+   "payer_cost": "the VA pays her to take care of him",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1ffa4ed/"
+  },
+  {
+   "id": "p1xinklo",
+   "payer_cost": "paid from dad's own money, before Medicaid spend-down",
+   "url": "https://www.reddit.com/r/dementia/comments/1xinklo/"
+  },
+  {
+   "id": "p1dt8ytt",
+   "payer_cost": "family would pay for more help for a couple months",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1dt8ytt/"
+  },
+  {
+   "id": "p1bd6d8k",
+   "payer_cost": "unsure if Medicare Advantage covers respite",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1bd6d8k/"
+  },
+  {
+   "id": "p1d7ji5q",
+   "payer_cost": "Medicaid waiver pays for 15 hours a week",
+   "url": "https://www.reddit.com/r/caregiversofreddit/comments/1d7ji5q/"
+  },
+  {
+   "id": "p18wg3va",
+   "payer_cost": "$1600 a month for 40 hours a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/18wg3va/"
+  },
+  {
+   "id": "p166x33z",
+   "payer_cost": "The home care we have now we pay for.",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/166x33z/"
+  },
+  {
+   "id": "agingcare-499707",
+   "payer_cost": "Of course there's a cost but worth every penny. And if money is an issue, most offer some financial help as does the VA",
+   "url": "forums/agingcare/caregiver-support/499707.txt"
+  },
+  {
+   "id": "p1rze7rd",
+   "payer_cost": "more than $2,000 for a 2 week minimum",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1rze7rd/"
+  },
+  {
+   "id": "p1xlkn1i",
+   "payer_cost": "family savings pays home health aides; agency keeps a third",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1xlkn1i/"
+  },
+  {
+   "id": "p1dg92h1",
+   "payer_cost": "state pays her for 25 hours a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1dg92h1/"
+  },
+  {
+   "id": "p1qzh1m2",
+   "payer_cost": "California covers weekday workers; he could self-pay 10-14 days, expects 'a fortune'",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1qzh1m2/"
+  },
+  {
+   "id": "p1dfihha",
+   "payer_cost": "Australia: subsidised care if required",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1dfihha/"
+  },
+  {
+   "id": "p1gxh77m",
+   "payer_cost": "room & board plus a monthly stipend (idea)",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1gxh77m/"
+  },
+  {
+   "id": "p1u3jeub",
+   "payer_cost": "out of pocket; her insurance won't pay",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1u3jeub/"
+  },
+  {
+   "id": "p1juqdro",
+   "payer_cost": "Medicare pays for 2 five-day stays per year; family can pay for a day or two in between",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1juqdro/"
+  },
+  {
+   "id": "p1pmlg14",
+   "payer_cost": "husband's family pays for agency care",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1pmlg14/"
+  },
+  {
+   "id": "p1uaw6vo",
+   "payer_cost": "over $2000 for 6 nights, husband paid; family covered the day; earlier paid aide 4 days a week herself",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1uaw6vo/"
+  },
+  {
+   "id": "p1mbxwso",
+   "payer_cost": "VA stipend",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1mbxwso/"
+  },
+  {
+   "id": "p1f2wn8b",
+   "payer_cost": "Medicaid waiver will pay her as caregiver (not paid yet)",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1f2wn8b/"
+  },
+  {
+   "id": "p1amhy8v",
+   "payer_cost": "money isn't an issue; mom pays a family member for 2 weeks",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1amhy8v/"
+  },
+  {
+   "id": "p15gaup5",
+   "payer_cost": "family pays 'a lot of money' for 9 hours a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/15gaup5/"
+  },
+  {
+   "id": "p137l10c",
+   "payer_cost": "hopefully 100% paid by Medicaid",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/137l10c/"
+  },
+  {
+   "id": "p1l0d9o5",
+   "payer_cost": "VA",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1l0d9o5/"
+  },
+  {
+   "id": "p1h9p97b",
+   "payer_cost": "offered as a benefit at my job",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1h9p97b/"
+  },
+  {
+   "id": "p1d89ew3",
+   "payer_cost": "parent must meet an $1800 monthly deductible",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1d89ew3/"
+  },
+  {
+   "id": "p1knkt0c",
+   "payer_cost": "around $4,000 a month, paid from inheritance",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1knkt0c/"
+  },
+  {
+   "id": "p18nd7ft",
+   "payer_cost": "daughter and son in law would pay",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/18nd7ft/"
+  },
+  {
+   "id": "p1mvv0py",
+   "payer_cost": "$1500-$3000 in respite care for 2 weeks",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1mvv0py/"
+  },
+  {
+   "id": "p1x427s1",
+   "payer_cost": "paid through a Medicaid community waiver",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1x427s1/"
+  },
+  {
+   "id": "p18a42uc",
+   "payer_cost": "mom's supplemental Medicare plan, 30 free hours a year",
+   "url": "https://www.reddit.com/r/AgingParents/comments/18a42uc/"
+  },
+  {
+   "id": "p1uwn1tr",
+   "payer_cost": "grant pays 75% up to $1500 per year",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1uwn1tr/"
+  },
+  {
+   "id": "p1m6kjs8",
+   "payer_cost": "VA covers caregiver, up to 4hrs/day on hospice",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1m6kjs8/"
+  },
+  {
+   "id": "p1523b5v",
+   "payer_cost": "$225 per week for 9 hours",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1523b5v/"
+  },
+  {
+   "id": "p182fegl",
+   "payer_cost": "Medicare allows while on hospice",
+   "url": "https://www.reddit.com/r/AgingParents/comments/182fegl/"
+  },
+  {
+   "id": "p1qjlcjn",
+   "payer_cost": "Medicare and Medicaid Waiver",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1qjlcjn/"
+  },
+  {
+   "id": "p1dhbthn",
+   "payer_cost": "$80 a day",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1dhbthn/"
+  },
+  {
+   "id": "p1h9xsuw",
+   "payer_cost": "insurance wouldn't cover full time care",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1h9xsuw/"
+  },
+  {
+   "id": "p1imz9xf",
+   "payer_cost": "no medi-cal so I can’t be paid to be her care giver",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1imz9xf/"
+  },
+  {
+   "id": "p1wmdtc0",
+   "payer_cost": "an aid or memory care which cost an arm and a leg",
+   "url": "https://www.reddit.com/r/Alzheimers/comments/1wmdtc0/"
+  },
+  {
+   "id": "p1wnm7mw",
+   "payer_cost": "private care, which is super expensive",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1wnm7mw/"
+  },
+  {
+   "id": "p1ua3gcg",
+   "payer_cost": "VA (who is paying)",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ua3gcg/"
+  },
+  {
+   "id": "p1xhv1fc",
+   "payer_cost": "sister pays for Mom’s adult day program",
+   "url": "https://www.reddit.com/r/Alzheimers/comments/1xhv1fc/"
+  },
+  {
+   "id": "p1gedjsz",
+   "payer_cost": "Medicaid; they will take her social security every month",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1gedjsz/"
+  },
+  {
+   "id": "p1lqefuq",
+   "payer_cost": "over 1k a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1lqefuq/"
+  },
+  {
+   "id": "p1av052q",
+   "payer_cost": "47-60$ an hour",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1av052q/"
+  },
+  {
+   "id": "alzconnected-77395",
+   "payer_cost": "the VA chose, and pays for, care through a local agency",
+   "url": "forums/alzconnected/discussions-recent/77395.txt"
+  },
+  {
+   "id": "p1peddwl",
+   "payer_cost": "family pays",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1peddwl/"
+  },
+  {
+   "id": "p1kvswws",
+   "payer_cost": "$300 per day after the 5 days",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1kvswws/"
+  },
+  {
+   "id": "p1e6j86w",
+   "payer_cost": "company benefits",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1e6j86w/"
+  },
+  {
+   "id": "p1g6uozh",
+   "payer_cost": "spent about 100 dollars on documents",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1g6uozh/"
+  },
+  {
+   "id": "p1wl7yvf",
+   "payer_cost": "respite hours used to pay helpers",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1wl7yvf/"
+  },
+  {
+   "id": "p1g6q58p",
+   "payer_cost": "state program pays respite",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1g6q58p/"
+  },
+  {
+   "id": "p1g1q8i5",
+   "payer_cost": "family pays a respite company; 'so pricey'",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1g1q8i5/"
+  },
+  {
+   "id": "p1wp4tlm",
+   "payer_cost": "self-paid; 'pricey'",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1wp4tlm/"
+  },
+  {
+   "id": "p1b95adr",
+   "payer_cost": "hospice program covers five days per month",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1b95adr/"
+  },
+  {
+   "id": "p1m5eybj",
+   "payer_cost": "brother paid for the vacation",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1m5eybj/"
+  },
+  {
+   "id": "p1d7jegj",
+   "payer_cost": "Medicaid waiver pays caregiver 15 hours a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1d7jegj/"
+  },
+  {
+   "id": "p10vv5x0",
+   "payer_cost": "family pays; $10+ more per hour than others",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/10vv5x0/"
+  },
+  {
+   "id": "p1eqjlc0",
+   "payer_cost": "dad would pay; adult daycare $80 a day per person; care.com about $20 an hour",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1eqjlc0/"
+  },
+  {
+   "id": "p13njcjy",
+   "payer_cost": "VA, 3 hours a day",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/13njcjy/"
+  },
+  {
+   "id": "p1l2ln2l",
+   "payer_cost": "about $250 per day in assisted living; about $600 a day for 24/7 in-home shifts",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1l2ln2l/"
+  },
+  {
+   "id": "p1ib912j",
+   "payer_cost": "shared cost; tight but affordable per writer",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1ib912j/"
+  },
+  {
+   "id": "p1b8hajl",
+   "payer_cost": "in-home caregivers paid from mom's money, spending down to Medicaid",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1b8hajl/"
+  },
+  {
+   "id": "p139urv3",
+   "payer_cost": "hired for as little as 2 hrs a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/139urv3/"
+  },
+  {
+   "id": "p150qrne",
+   "payer_cost": "writer pays respite workers an hourly rate",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/150qrne/"
+  },
+  {
+   "id": "p1fa8j7t",
+   "payer_cost": "VA stopped paying for nursing home stay",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1fa8j7t/"
+  },
+  {
+   "id": "p1ulutf3",
+   "payer_cost": "Medicaid, after about a year wait",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ulutf3/"
+  },
+  {
+   "id": "p11jyv4e",
+   "payer_cost": "free; seems to have a sponsor",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/11jyv4e/"
+  },
+  {
+   "id": "p17fmeoh",
+   "payer_cost": "asked sister to pay a nursing company for a month",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/17fmeoh/"
+  },
+  {
+   "id": "p17662pg",
+   "payer_cost": "private pay or vouchers asked about",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/17662pg/"
+  },
+  {
+   "id": "p18txz7r",
+   "payer_cost": "Medicaid waiver: 120 hours of respite care per month",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/18txz7r/"
+  },
+  {
+   "id": "p1axhmwj",
+   "payer_cost": "parents are wealthy and can afford private care",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1axhmwj/"
+  },
+  {
+   "id": "p1hfrz2d",
+   "payer_cost": "writer pays for two nurses",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1hfrz2d/"
+  },
+  {
+   "id": "p1hrd87h",
+   "payer_cost": "Medicaid waiver pays room and board; recipient keeps $50-$90 a month",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1hrd87h/"
+  },
+  {
+   "id": "p1oyuoci",
+   "payer_cost": "free",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1oyuoci/"
+  },
+  {
+   "id": "p199f9t2",
+   "payer_cost": "about $225 per day; niece $1,500 cash for the week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/199f9t2/"
+  },
+  {
+   "id": "p1ext7ws",
+   "payer_cost": "VA caregiver stipend planned to pay for in-home help",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1ext7ws/"
+  },
+  {
+   "id": "p1xgdxji",
+   "payer_cost": "insurance covers it",
+   "url": "https://www.reddit.com/r/Alzheimers/comments/1xgdxji/"
+  },
+  {
+   "id": "p1mpgvpc",
+   "payer_cost": "thousands of dollars for a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1mpgvpc/"
+  },
+  {
+   "id": "p1axzz1c",
+   "payer_cost": "VA: 13 hours of supplemental support; writer was paid to fill it",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1axzz1c/"
+  },
+  {
+   "id": "p113twdm",
+   "payer_cost": "writer can afford 4 hours of care a day Mon-Fri, using mom's SSDI",
+   "url": "https://www.reddit.com/r/AgingParents/comments/113twdm/"
+  },
+  {
+   "id": "p1x0bfh0",
+   "payer_cost": "VA: monthly paycheck and paid respite",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1x0bfh0/"
+  },
+  {
+   "id": "p1q7jgxu",
+   "payer_cost": "insurance covers adult day program costs",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1q7jgxu/"
+  },
+  {
+   "id": "p1ulyb8z",
+   "payer_cost": "must spend down almost half of 401(k) to qualify",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ulyb8z/"
+  },
+  {
+   "id": "p11c03l7",
+   "payer_cost": "pays unskilled caregivers at a heavily discounted hourly rate",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/11c03l7/"
+  },
+  {
+   "id": "p1257oet",
+   "payer_cost": "parents' long-term care insurance pays for assisted living",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1257oet/"
+  },
+  {
+   "id": "p15edl7o",
+   "payer_cost": "free employer benefit",
+   "url": "https://www.reddit.com/r/AgingParents/comments/15edl7o/"
+  },
+  {
+   "id": "p141n3zy",
+   "payer_cost": "mom won't pay for respite",
+   "url": "https://www.reddit.com/r/AgingParents/comments/141n3zy/"
+  },
+  {
+   "id": "p1f7gwcd",
+   "payer_cost": "writer paid all expenses",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1f7gwcd/"
+  },
+  {
+   "id": "alzconnected-77427",
+   "payer_cost": "therapist takes Medicare and supplemental insurance",
+   "url": "forums/alzconnected/discussions-recent/77427.txt"
+  },
+  {
+   "id": "p1pa6ff2",
+   "payer_cost": "insurance covers 12 hours per month of non-medical care; more in-home care out of pocket is too expensive",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1pa6ff2/"
+  },
+  {
+   "id": "p1rlva01",
+   "payer_cost": "Medicaid waiver",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1rlva01/"
+  },
+  {
+   "id": "p1ewklrx",
+   "payer_cost": "writer pays her sister to help on Mondays",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ewklrx/"
+  },
+  {
+   "id": "p1v0a4n9",
+   "payer_cost": "free UK therapy",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1v0a4n9/"
+  },
+  {
+   "id": "p1hcv5bi",
+   "payer_cost": "caregiver subsidy that would barely cover groceries",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1hcv5bi/"
+  },
+  {
+   "id": "p1bx0wau",
+   "payer_cost": "not a lot of money for a fill-in helper",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1bx0wau/"
+  },
+  {
+   "id": "p1frmgnj",
+   "payer_cost": "Medicaid (not yet approved)",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1frmgnj/"
+  },
+  {
+   "id": "p10ysuq2",
+   "payer_cost": "respite worker paid $25/hr a couple nights a week; looking for someone at $15",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/10ysuq2/"
+  },
+  {
+   "id": "p1wkta3y",
+   "payer_cost": "paid from mom's funds; Medicaid will only cover some hours",
+   "url": "https://www.reddit.com/r/Alzheimers/comments/1wkta3y/"
+  },
+  {
+   "id": "p1l9w918",
+   "payer_cost": "about $7k a month plus the caregiver, paid by VA",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1l9w918/"
+  },
+  {
+   "id": "p1scy7q4",
+   "payer_cost": "Medicaid pays mom as caregiver; child's father barely paid",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1scy7q4/"
+  },
+  {
+   "id": "p1ds30uv",
+   "payer_cost": "$450 per day at rehab facilities",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ds30uv/"
+  },
+  {
+   "id": "p1wsg3kb",
+   "payer_cost": "hospice covers 5 days; $800 getaway",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1wsg3kb/"
+  },
+  {
+   "id": "p1tojejn",
+   "payer_cost": "pays caregivers out of own and parents' savings",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1tojejn/"
+  },
+  {
+   "id": "p1h7eswt",
+   "payer_cost": "hh agencies are charging 900 a day for nursing care",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1h7eswt/"
+  },
+  {
+   "id": "p11l4qnk",
+   "payer_cost": "$900-$1000 per month, 2 evenings a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/11l4qnk/"
+  },
+  {
+   "id": "p1x2f8kr",
+   "payer_cost": "VA pays the agency",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1x2f8kr/"
+  },
+  {
+   "id": "p17lxmn1",
+   "payer_cost": "VA monthly stipend, if approved",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/17lxmn1/"
+  },
+  {
+   "id": "p141eftl",
+   "payer_cost": "Sister paid from mother's savings and VA money; helpers unpaid, $100 gas per trip",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/141eftl/"
+  },
+  {
+   "id": "p18y0ljz",
+   "payer_cost": "Day program requires Medi-Cal, otherwise $5,600/month out of pocket; family can afford about $500/month; VA pays a few hours a week of a private caregiver",
+   "url": "https://www.reddit.com/r/AgingParents/comments/18y0ljz/"
+  },
+  {
+   "id": "p1igixmj",
+   "payer_cost": "Writer is unpaid",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1igixmj/"
+  },
+  {
+   "id": "p1cbdn53",
+   "payer_cost": "State covers only 10 hours of help",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1cbdn53/"
+  },
+  {
+   "id": "p1pxlnnk",
+   "payer_cost": "Australian government provides partial financial assistance with home care",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1pxlnnk/"
+  },
+  {
+   "id": "p1h0yuec",
+   "payer_cost": "Respite up to about 63 days per year available for all senior Australians; nicer home wanted a $800,000 deposit",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1h0yuec/"
+  },
+  {
+   "id": "p1q21ujo",
+   "payer_cost": "Medicaid waiver gives funds to hire staff",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1q21ujo/"
+  },
+  {
+   "id": "p1ai7fdz",
+   "payer_cost": "Loved one pays the family a little; memory care starts at $10k/month",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ai7fdz/"
+  },
+  {
+   "id": "p1wombot",
+   "payer_cost": "Family pays for 20 hours a week of in-home caregiver; expensive",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1wombot/"
+  },
+  {
+   "id": "p1t7i4w7",
+   "payer_cost": "State paid medical leave",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1t7i4w7/"
+  },
+  {
+   "id": "p1f9nxqg",
+   "payer_cost": "Medicaid pays $24 an hour for 28 hours a week",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1f9nxqg/"
+  },
+  {
+   "id": "p1woa8ct",
+   "payer_cost": "Private day program; homecare extra hours",
+   "url": "https://www.reddit.com/r/Alzheimers/comments/1woa8ct/"
+  },
+  {
+   "id": "p1ely534",
+   "payer_cost": "Writer is his paid caregiver",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ely534/"
+  },
+  {
+   "id": "p15g2dxl",
+   "payer_cost": "Family paid writer $100 a day as agreed",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/15g2dxl/"
+  },
+  {
+   "id": "p1pxe7ba",
+   "payer_cost": "Mother says hiring help is too expensive",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1pxe7ba/"
+  },
+  {
+   "id": "p1aelasw",
+   "payer_cost": "Writer pays a friend a few hundred per week and ran a fundraiser for private help",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1aelasw/"
+  },
+  {
+   "id": "p13v0log",
+   "payer_cost": "No money for private care",
+   "url": "https://www.reddit.com/r/AgingParents/comments/13v0log/"
+  },
+  {
+   "id": "p1w5sq0g",
+   "payer_cost": "Respite offered free; writer may leave about $1,000; grandma gets about $2,052 a month",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1w5sq0g/"
+  },
+  {
+   "id": "p1w3j44g",
+   "payer_cost": "Can't afford full-time outside caregivers",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1w3j44g/"
+  },
+  {
+   "id": "p1lbihie",
+   "payer_cost": "Respite paid through insurance",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1lbihie/"
+  },
+  {
+   "id": "alzconnected-77423",
+   "payer_cost": "CCP pays some daily care; rest paid from Mom's social security; day program private pay hourly",
+   "url": "forums/alzconnected/discussions-recent/77423.txt"
+  },
+  {
+   "id": "p1oojy59",
+   "payer_cost": "hospice has helped with the cost of a lot of things",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1oojy59/"
+  },
+  {
+   "id": "p18y0ng6",
+   "payer_cost": "day program requires Medicaid/Medi-Cal, otherwise out of pocket $5,600/month; family can afford about $500/month",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/18y0ng6/"
+  },
+  {
+   "id": "p14w0n8e",
+   "payer_cost": "free therapy with student counsellors",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/14w0n8e/"
+  },
+  {
+   "id": "p18olg3c",
+   "payer_cost": "no savings; family refuses to pay out of pocket",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/18olg3c/"
+  },
+  {
+   "id": "p1dg3jlm",
+   "payer_cost": "Hospice pays for 5 days in a rehab facility",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1dg3jlm/"
+  },
+  {
+   "id": "p1x9x353",
+   "payer_cost": "on Medicaid",
+   "url": "https://www.reddit.com/r/dementia/comments/1x9x353/"
+  },
+  {
+   "id": "p1b2ei7l",
+   "payer_cost": "out of pocket at $20/hr: $40 a week for bathing help; almost $2,000 per month for weekend overnights",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1b2ei7l/"
+  },
+  {
+   "id": "p1nckenq",
+   "payer_cost": "in-home care would be thousands of dollars as opposed to hundreds",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1nckenq/"
+  },
+  {
+   "id": "p1qw6qud",
+   "payer_cost": "asks if insurance would pay; doesn't qualify for Medicaid",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1qw6qud/"
+  },
+  {
+   "id": "p1jb8dfc",
+   "payer_cost": "siblings offered to pay for a hired caregiver",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1jb8dfc/"
+  },
+  {
+   "id": "p1b3523g",
+   "payer_cost": "uncle can afford to pay a relief caregiver",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1b3523g/"
+  },
+  {
+   "id": "p1pbtct3",
+   "payer_cost": "family pays both rents for a month",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1pbtct3/"
+  },
+  {
+   "id": "p1ao0cio",
+   "payer_cost": "IHSS pays dad enough to live on",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ao0cio/"
+  },
+  {
+   "id": "p1h067tp",
+   "payer_cost": "family pays nightly, food included",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1h067tp/"
+  },
+  {
+   "id": "p1byad4o",
+   "payer_cost": "mom can pay for care",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1byad4o/"
+  },
+  {
+   "id": "p1qroiog",
+   "payer_cost": "insurance, usually 100% for home health",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1qroiog/"
+  },
+  {
+   "id": "p1e6hhyu",
+   "payer_cost": "Medicaid does not cover it",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1e6hhyu/"
+  },
+  {
+   "id": "p1ih133l",
+   "payer_cost": "family pays for home care over 1 hour",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1ih133l/"
+  },
+  {
+   "id": "p1nzrvux",
+   "payer_cost": "mom pays $2,000 a month for a few hours a day of home health",
+   "url": "https://www.reddit.com/r/AgingParents/comments/1nzrvux/"
+  },
+  {
+   "id": "p18sk5gq",
+   "payer_cost": "Medicaid",
+   "url": "https://www.reddit.com/r/AgingParents/comments/18sk5gq/"
+  },
+  {
+   "id": "alzconnected-77462",
+   "payer_cost": "Alz Assoc social worker at no charge",
+   "url": "forums/alzconnected/discussions-recent/77462.txt"
+  },
+  {
+   "id": "p1s86dto",
+   "payer_cost": "therapist free under a national program",
+   "url": "https://www.reddit.com/r/CaregiverSupport/comments/1s86dto/"
+  }
+ ]
+}

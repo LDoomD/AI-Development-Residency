@@ -423,3 +423,17 @@ Why: the owner asked for more qualitative evidence for the empty and vague boxes
 | `competitors-4/manual-saves/google_play_cariloop_full_2026-11-04.txt` | Full Cariloop Google Play page text (the earlier save was missing part of the description), read in the built-in browser. Reviewer names removed | https://play.google.com/store/apps/details?id=com.cariloop.member | Cariloop cells |
 
 | `competitive-analysis-3/grid/build_business.py` → `business.json` | Business questions table (how they make money, who pays, how they keep customers, customer experience, getting started) for the 7 competitors. Checker: 35 cells, 57 sources, 0 problems | — | Step 5, fourth table |
+
+## 2026-11-04 Market analysis update: segments 11 (respite, adult day) and 12 (burnout support)
+
+Why: exhaustion is the #1 caregiver problem, but segments 11 and 12 were never researched, so the competitive analysis had no competitors for it. No new web fetching in this pass.
+
+| File | What it is | Link | Used for |
+|---|---|---|---|
+| `market-analysis-3/segments-11-12/search_saved_posts.py` | Searches the 49,315 saved Arctic Shift Reddit posts (`reddit/arctic-shift-2026-11-03/posts.jsonl`, `posts_targeted.jsonl`) with the word patterns listed in the script | — | Counts below |
+| `market-analysis-3/segments-11-12/term-counts.json` | Posts matching each term, with the exact patterns used | — | Sizing segments 11 and 12 |
+| `market-analysis-3/segments-11-12/matches.jsonl` | Every matching post: reddit.com link, community, date, terms, and an excerpt around each match | links inside | Auditing the counts; reading pass next |
+| `market-analysis-3/segments-11-12/search_named_programs.py` → `named-counts.json`, `named-matches.jsonl` | Second search of the same saved posts for named offerings and payers (VA, Medicaid waivers, hospice respite, Area Agencies on Aging, the 10 offerings in `exhaustion-dementia-research.md`). 115 posts not already matched | links inside | Reading set |
+| `market-analysis-3/segments-11-12/build_reading_packs.py` → `packs/pack-1..11.json`, `packs/manifest.json` | 1,086 items: all 632 respite or adult day posts, 115 named-program posts, random 150 support-group and 150 therapist posts (seed 20261104), 39 forum threads (text around each mention) | links inside | Reading pass |
+| `market-analysis-3/segments-11-12/READING-INSTRUCTIONS.md`, `codes/codes-1..11.json`, `verify_codes.py` | Reader rules, the 11 readers' codes, and the checker (every item coded once, every quote exact: 0 problems) | — | Counts |
+| `market-analysis-3/segments-11-12/count_results.py` → `results.json` | Counts per kind of help, barriers (with grouping rules for free-text barriers), providers, payers and costs, each with the post ids behind it | — | `docs/market-analysis-segments-11-12-findings.md` |
