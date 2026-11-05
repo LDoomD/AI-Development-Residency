@@ -109,6 +109,32 @@ checked documents, never from chat memory.
   one short sentence that answers the column's question, in the style of the
   owner's earlier tables. Counts and quotes go in the evidence file. One entity
   per row, labeled business, nonprofit, government program or workaround.
+- **How to answer a table question from data (owner-approved style,
+  2026-11-04, after 4 rejected drafts).** Every cell must pass all of these:
+  1. **Answer the column's question directly, in the first word.** Don't
+     repeat the row's name (the label already says it). Don't lead in.
+  2. **No filler.** Cut words that add no fact: "quickly", "overwhelmed",
+     "for them", "when a parent completes it ahead of time", "so everyone".
+  3. **Concrete examples from the data.** Give several when the data has
+     several, as a list of facts. Never vague words like "easy to use" or
+     "helpful".
+  4. **No quotes, counts, IDs or research words** ("evidence", "mentions",
+     "company claim", "no data") in the cell. They go in the evidence file.
+  5. **No tags or fragments** that don't answer ("Shows options and some
+     prices"). **No long, wordy sentences** either. Two short sentences at most.
+  6. **Thin data means getting more data** (BBB, Trustpilot, app stores,
+     Reddit through the Arctic Shift archive), never a cell saying it's thin.
+  7. **Yes / Partly / No questions** start with that word, then the facts:
+     "Partly: stores documents. No help getting into bank, insurer or portal
+     accounts."
+  - Approved examples: "Lists nearby senior living options with prices and
+    books tours." / "Shares families' contact details, causing nonstop sales
+    calls. Commission-paid advisors know little about the places." / "Cost
+    $150 to $300 an hour, offer unclear services, and sometimes never make
+    the agreed care plan."
+  - Before showing a table, check every cell against these 7 rules and its
+    saved source (for example with a checker script like
+    `docs/sources/competitive-analysis-3/grid/build_grid_v2.py`).
 - **Superseded work:** a big yellow banner across the top of the section,
   never a small sticky. Never delete.
 - **Tables:** follow `docs/sources/market-analysis-3/audience-v2/TABLE-RULES.md`

@@ -26,3 +26,16 @@ The user has ADHD and found the old use case table (Figma 2378:7144) hard to rea
    - All pass 4.5:1.
    - Color is never the only signal.
 10. **Short headers,** each with a one-line question in plain words, using the teacher's four column names.
+
+## How to write the words in a cell (owner-approved, 2026-11-04)
+
+Every table also follows the 7 rules in `CLAUDE.md` under "How to answer a table question from data":
+1. Answer first, without repeating the row's name.
+2. No filler words.
+3. Concrete examples from the data, several when the data has them.
+4. No quotes, counts or research words.
+5. No fragments and no long sentences.
+6. Get more data when it's thin.
+7. Yes / Partly / No first for yes-or-no questions.
+
+Approved example: "Lists nearby senior living options with prices and books tours."

@@ -412,3 +412,12 @@ Why: the owner asked for more qualitative evidence for the empty and vague boxes
   - `competitors-4/review-sites/trustpilot_everplans_2026-11-04.txt`: Everplans' only Trustpilot review.
   - Checked but no reviews: Shortlister (Cariloop, "Reviews pending").
   - After the rewrite: 91 cells, 131 sources, 0 problems.
+
+## 2026-11-04 Competitive Analysis 3 grid, version 2 (cells rewritten as direct answers)
+
+| File | What it is | Link | Used for |
+|---|---|---|---|
+| `competitive-analysis-3/grid/build_grid_v2.py` → `grid-v2.json` | Grid version 2: every cell rewritten to answer its column's question. Checker: 91 cells, 0 problems (each source found word for word, no cell over 16 words, no semicolons or research words, no "no data" sources). Version 1 (`build_grid.py`, `grid.json`) unchanged | — | The grid |
+| `competitive-analysis-3/grid/fetch_threads.py` → `reddit-threads/*_<id>.txt` | 6 Reddit threads naming Everplans (5) or Cariloop (1), from the public Arctic Shift archive (Reddit is blocked for Firecrawl and the built-in browser). Usernames removed | reddit.com link at the top of each file | Everplans and Cariloop "do well" cells |
+| `competitive-analysis-3/grid/search_comments.py` → `reddit-threads/search_everplans.json`, `search_cariloop.json` | Archive word search in 12 communities. Most searches were refused by the archive (HTTP 422 and 429), so this found only 5 Everplans items and 0 Cariloop | links inside | Not used in cells; kept to show what was tried |
+| `competitors-4/manual-saves/google_play_cariloop_full_2026-11-04.txt` | Full Cariloop Google Play page text (the earlier save was missing part of the description), read in the built-in browser. Reviewer names removed | https://play.google.com/store/apps/details?id=com.cariloop.member | Cariloop cells |

@@ -212,8 +212,52 @@ Candidates: every company the market analysis names in a segment that touches th
 
 **Trade-off (the owner kept the list as is):** segment 12, mental health and burnout (the biggest need, but crowded), has no competitor in the grid.
 
+## Step 5: The competitor grid (approved 2026-11-04)
+
+7 competitors from step 3, the teacher's template columns, and the 5 criteria from step 4. Every cell answers its column's question from data, in the owner-approved style (CLAUDE.md, "How to answer a table question from data").
+
+**Sources and checks:**
+- `docs/sources/competitive-analysis-3/grid/build_grid_v2.py` lists the saved source behind every point.
+- The output is `grid-v2.json`, checked with 91 cells, 158 sources and 0 problems.
+- Version 1 (`build_grid.py`) is kept and replaced.
+
+### The basics
+
+| Competitor | Type | Market segment | Website | Main features | How they stand out | Who pays, and the cost |
+|---|---|---|---|---|---|---|
+| **Caring Village** | Direct (business) | 1 Family care-coordination apps | caringvillage.com | A shared family app with a calendar, to-dos, medication lists, documents and an AI helper. | Built by former caregivers as one place for the whole family's care. | The caregiver pays: free for 2 people, or $14.99 to $24.99 a month. |
+| **Everplans** | Direct (business) | 10 Digital vaults and emergency access | everplans.com | Online vault for documents, accounts and wishes, shared with chosen family. | Walks a person through organizing all their life details and next steps. | The parent pays: free for 3 items, or $99.99 a year. |
+| **Cariloop** | Direct (business, employer-paid) | 7 Employer and health-plan caregiver benefits | cariloop.com | A personal care coach, a care-booking marketplace, a family Care Team and document storage. | Full-time coaches who take no money from the care providers they suggest. | The employer pays. At MSU, keeping the coach yourself costs $249 a month. |
+| **A Place for Mom** | Direct (business) | 4 Senior care referral and placement | aplaceformom.com | A free advisor, a care and cost check, local places with prices, and tours. | Says it has the country's largest senior care network. | Senior living places pay it when a family moves in. Free to families. |
+| **Geriatric care managers** | Direct (private professionals) | None of the 14 segments (private care management) | aginglifecare.org (to find one) | Home visits, care plans, hiring and checking aides, appointments, and help for families far away. | Trained local professionals who see the parent and the home in person. | The family pays $150 to $300 an hour. Medicare and Medicaid usually don't. |
+| **Group texts and notebooks** | Indirect (workaround) | What families use instead (not a company) | n/a | Family group chats, notebooks, binders and whiteboards. | Everyone already has them, they're free, and there's nothing to install. | Nobody: they're free or nearly free. |
+| **Area Agencies on Aging** | Indirect (government program) | None of the 14 segments (free public service) | eldercare.acl.gov (finds your local agency) | Caregiver information, help finding services, counseling, support groups, training and respite. | Local, government-funded and free to families who qualify. | Federal and state grants pay. Free to families who qualify. |
+
+### What they do well, and what they don't
+
+| Competitor | What they do well | What they don't do well |
+|---|---|---|
+| **Caring Village** | Shared calendar and medication list keep all siblings on the same care information. | Loses entries, resets the care plan, shows medical details to friends, and cannot get relatives to join. |
+| **Everplans** | Gives adult children the parent's accounts, insurance policies and end-of-life wishes in one place. | Useless unless the parent filled it in. The iPad app runs only at phone size. |
+| **Cariloop** | Assigns a full-time care coach who guides families through a crisis. | Available only through employers with 100 or more workers. The app freezes. |
+| **A Place for Mom** | Lists nearby senior living options with prices and books tours. | Shares families' contact details, causing nonstop sales calls. Commission-paid advisors know little about the places. |
+| **Geriatric care managers** | Attend doctor visits, evaluate care facilities and arrange respite during a crisis. | Cost $150 to $300 an hour, offer unclear services, and sometimes never make the agreed care plan. |
+| **Group texts and notebooks** | Reach every relative instantly for free. A whiteboard schedule reduces a parent's repeated questions. | Help requests get ignored or just a 'like.' Notes and calendars get lost or erased. |
+| **Area Agencies on Aging** | Connect families to free local services, support groups and Medicare counseling. Some fund respite. | Mostly referrals, long waitlists, hard-to-reach staff and strict eligibility. |
+
+### The 5 criteria
+
+| Competitor | 1. Understand, handle behavior, know what to do | 2. Real relief for the caregiver | 3. Money, papers, accounts | 4. Works when the parent refuses help | 5. Relatives share the work |
+|---|---|---|---|---|---|
+| **Caring Village** | Partly: an AI helper answers care questions. No help with dementia behavior. | Partly: less stress and back-and-forth. Takes no care tasks off the caregiver. | Partly: stores documents. No help getting into bank, insurer or portal accounts. | No: nothing for a parent who refuses help. | Partly: relatives join free with their own login. Can't make them do tasks. |
+| **Everplans** | No: stores papers only. No care or behavior advice. | No: takes no care work or time off the caregiver. | Yes, if the parent fills it in: accounts, papers, insurance and wishes in one vault. | No: the parent must fill it in and can lock sections until death. | Partly: relatives see chosen sections. Nothing splits the work. |
+| **Cariloop** | Yes: coaches explain diagnoses like Alzheimer's and find the right doctors and care. | Partly: coaches find and book care. Only if the employer offers it. | Yes: help paying for care, with Medicare, Medicaid and VA benefits, and POAs. | Partly: coaches handle family dynamics. Nothing for a parent who refuses. | Partly: relatives join the Care Team and get updates. Tasks aren't split. |
+| **A Place for Mom** | Partly: an advisor guides the search. Advisors often don't know the places. | Partly: saves search time. Nonstop calls add stress. | Partly: cost calculator and assessment. No help for Medicaid-only families. | No: an advisor told one family to lie to the parent to move her. | No: one family contact. Nothing for relatives to share. |
+| **Geriatric care managers** | Yes: explain hard topics to the parent and family, and make a care plan. | Yes, for a price: respite, doctor visits and place tours taken off the caregiver. | Partly: advise on financial options. One took power of attorney without telling the family. | Partly: talk with the parent directly. Some parents still refuse them. | Partly: stand up to difficult relatives. Family fights often follow. |
+| **Group texts and notebooks** | Partly: a written guide lets someone else step in. No advice on what to do. | No: constant messages wear the caregiver down. | Partly: a binder holds papers. Records pile up and can't be searched. | Partly: work without the parent using any tech. Nothing helps when the parent refuses. | Partly: everyone hears at once. Requests get silence or a 'like'. |
+| **Area Agencies on Aging** | Partly: information and training. Staff often don't know the answer. | Partly: can pay for respite or home help. Long waits and strict rules. | Partly: Medicare counseling. Otherwise referrals, no hands-on help with accounts. | No: can't act without the parent's consent. | No: services go to one caregiver. Nothing for relatives to share. |
+
 ## Next steps (not started)
 
-5b. What they do well, what they don't, and do caregivers use it (question 8).
-5c. Questions 2 to 7.
-5d. Gaps and unique value opportunities.
+6. Three takeaways: where competitors fail the audience, and where the opening is, tied to the market opportunity verdicts.
+7. Figma section, then the starting brief for the feature analysis.
