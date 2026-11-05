@@ -99,6 +99,23 @@ checked documents, never from chat memory.
 - **Where reports go:** save every new dog feeding report or starting brief
   straight into `../Dog Feeding Docs/<week folder>/` (for example `Week 2_3`),
   organized by the course week. Ask which week if unsure.
+- **A dog feeding report is a handoff report (owner, 2026-11-05).** Its outcome:
+  the next Claude, in a new session or the same one, can start the next
+  deliverable from this file alone. It must hold:
+  1. where we are and where to start
+  2. all the rules
+  3. **the actual outcomes of every finished deliverable**: key tables,
+     verdicts, answers and numbers with sources, not just links
+  4. what the next deliverable needs (homework and template)
+  5. what's out of date and why
+  6. exact first steps
+  7. open and parked items
+  8. where things live
+  9. git status
+
+  A list of what happened is not enough. Name it
+  `dogfood-<date>-handoff-<next deliverable>.md`, and say which older reports
+  it replaces. Example: `Dog Feeding Docs/Week 2_3/dogfood-2026-11-05-handoff-feature-analysis.md`.
 - **One part at a time.** Do only the step the user asks, then stop and wait.
   The user makes each choice. Never start the next step or change other work
   unasked.

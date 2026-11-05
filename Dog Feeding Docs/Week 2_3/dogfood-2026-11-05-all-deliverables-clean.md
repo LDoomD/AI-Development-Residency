@@ -1,3 +1,5 @@
+> **REPLACED 2026-11-05 by `dogfood-2026-11-05-handoff-feature-analysis.md`** (a full handoff report with each deliverable's outcomes). Kept as history.
+
 # Dog feeding report: all three deliverables on the clean page (2026-11-05, evening)
 
 **This is the newest dog feeding report. Start the next session with it.** It replaces `dogfood-2026-11-05-clean-page.md` (afternoon) and `dogfood-2026-11-05-audit-and-corrections.md` (morning). Both are still useful as history.
