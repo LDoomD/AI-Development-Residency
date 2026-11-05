@@ -1,0 +1,957 @@
+{
+ "columns": [
+  "Type",
+  "Market segment",
+  "Website",
+  "Main features",
+  "How they stand out",
+  "What they do well",
+  "What they don't do well",
+  "Who pays, and the cost",
+  "1. Understand, handle behavior, know what to do",
+  "2. Real relief for the caregiver",
+  "3. Money, papers, accounts",
+  "4. Works when the parent refuses help",
+  "5. Relatives share the work"
+ ],
+ "rows": {
+  "Caring Village": [
+   "Direct (business)",
+   "1 Family care-coordination apps",
+   "caringvillage.com",
+   "One family app: shared calendar, to-dos, medication lists, documents, AI helper.",
+   "Says it's one 'command center' built by former caregivers.",
+   "Keeps the whole family on the same page about the parent's care.",
+   "Can't make relatives help, and getting everyone to join is hard.",
+   "The caregiver pays: free for 2 people, or $14.99 to $24.99 a month.",
+   "Partly: a 24/7 AI helper gives guidance, but no caregiver says it helped.",
+   "Partly: reviewers say less stress, but it gives no hands-on help.",
+   "Partly: stores documents, but no help with banks, insurers or accounts.",
+   "No: nothing in its features or 29 reviews addresses a refusing parent.",
+   "Partly: relatives join free with their own login, but it can't make them act."
+  ],
+  "Everplans": [
+   "Direct (business)",
+   "10 Digital vaults and emergency access",
+   "everplans.com",
+   "Online vault for documents, accounts and wishes, shared with chosen 'deputies'.",
+   "Says it organizes all of a person's life details and next steps.",
+   "Families find a parent's notes and papers in one place after a death.",
+   "Only works if the parent set it up first; the iPad app is phone-sized.",
+   "The person pays: free for 3 items, or $99.99 a year.",
+   "No: it's a document vault with no care guidance.",
+   "No: it stores papers but takes no care work off the caregiver.",
+   "Yes, if the parent set it up: papers, accounts and wishes in one vault.",
+   "No: it only works if the parent filled it in ahead of time.",
+   "Partly: deputies see chosen sections, but it doesn't divide the work."
+  ],
+  "Cariloop": [
+   "Direct (business, employer-paid)",
+   "7 Employer and health-plan caregiver benefits",
+   "cariloop.com",
+   "A care coach, a provider marketplace, family Care Team, and document storage.",
+   "Full-time coaches, and no referral fees from care providers.",
+   "Members call its care coaches very helpful in a crisis (few public reviews).",
+   "Only through an employer; leaving the job means paying yourself.",
+   "The employer pays; extending coaching yourself costs $249 a month (MSU example).",
+   "Yes (company claim): coaches explain diagnoses like Alzheimer's and next options.",
+   "Partly: a coach and booking help, but only if your employer buys it.",
+   "Yes (company claim): help with paying for care, benefits, POA, and document storage.",
+   "Partly: coaches handle family dynamics; nothing specific for a refusing parent.",
+   "Partly: relatives can join the Care Team and stay updated; no task sharing."
+  ],
+  "A Place for Mom": [
+   "Direct (business)",
+   "4 Senior care referral and placement",
+   "aplaceformom.com",
+   "Free advisor, care and cost assessment, local list with prices, and tours.",
+   "Claims the largest senior care network in the country.",
+   "Quickly lines up nearby places and tours, guiding families who don't know where to start.",
+   "Shares families' details with many places, causing nonstop calls; pushy, commission-driven advisors.",
+   "Senior living communities pay referral fees; free to families.",
+   "Partly: an advisor guides the search, but families say they don't know the places.",
+   "Partly: saves search time, but families then face nonstop calls.",
+   "Partly: has a cost calculator, but can't help Medicaid-only families.",
+   "No: one family says an advisor told them to trick the parent into moving.",
+   "No: it works with one contact person; no tools for relatives to share work."
+  ],
+  "Geriatric care managers": [
+   "Direct (private professionals)",
+   "None of the 14 segments (private care management)",
+   "aginglifecare.org (to find one)",
+   "Home assessments, care plans, hiring aides, appointments, and acting for distant families.",
+   "In-person, trained professionals with local connections.",
+   "Take the load off in a crisis and go to appointments for the family.",
+   "Expensive hourly billing, and families aren't sure what they do.",
+   "The family pays $150 to $300 an hour; Medicare and Medicaid usually don't.",
+   "Yes: they explain hard topics to the parent and family, and give practical advice.",
+   "Yes, at a price: they take over doctor visits and touring places.",
+   "Partly: they advise on money options, but bill for every call and email.",
+   "Partly: they talk with the parent directly, but some parents still refuse.",
+   "Partly: they can stand up to a difficult relative, but conflict often follows."
+  ],
+  "Group texts and notebooks": [
+   "Indirect (workaround)",
+   "What families use instead (not a company)",
+   "n/a",
+   "Family group chats, notebooks, binders and whiteboards.",
+   "Free, already there, nothing to install.",
+   "Tell everyone at once; a whiteboard calms repeated questions.",
+   "Requests get silence, and notes get lost or stay with one person.",
+   "Free or nearly free.",
+   "No: they pass on notes but no advice; a written guide helps others step in.",
+   "No: constant messages wear the caregiver down.",
+   "Partly: paper holds the papers, but it piles up and can't be searched.",
+   "Yes: they work without the parent needing a phone or app.",
+   "Partly: everyone hears at once, but requests get silence or just a 'like'."
+  ],
+  "Area Agencies on Aging": [
+   "Indirect (government program)",
+   "None of the 14 segments (free public service)",
+   "eldercare.acl.gov (finds your local agency)",
+   "Caregiver information, help getting services, counseling, support groups, training, respite.",
+   "Local, government-funded, and free to eligible families.",
+   "Point families to local services, support groups and Medicare counseling.",
+   "Long waitlists, and often referrals without concrete help.",
+   "Federal and state grants pay; free to eligible families.",
+   "Partly: they offer information and training, but staff sometimes don't know answers.",
+   "Partly: can fund respite or home help, after long waits and strict eligibility.",
+   "Partly: Medicare counseling and legal referrals, but no hands-on help with accounts.",
+   "No: they can't act without the parent's consent.",
+   "No: nothing in the program or posts helps relatives share the work."
+  ]
+ },
+ "sources": {
+  "Caring Village": [
+   [
+    [
+     "c",
+     "Direct (coordination)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Family care-coordination apps"
+    ]
+   ],
+   [
+    [
+     "c",
+     "https://caringvillage.com/"
+    ]
+   ],
+   [
+    [
+     "c",
+     "calendar, to-dos, medication lists, care plan, journal, group messages, document storage"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Claims to be one 'command center'"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Keeps the whole family updated and on the same page (10 of 29)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "can't make relatives help"
+    ],
+    [
+     "c",
+     "it's hard to get everyone into the group (2)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Circle: $14.99 a month"
+    ],
+    [
+     "c",
+     "Village: $24.99 a month"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors/caring-village/www_caringvillage_com_about.txt",
+     "get 24/7 guidance from Julia, our AI caregiving assistant"
+    ],
+    [
+     "x",
+     "no review or post describes the AI helper helping"
+    ]
+   ],
+   [
+    [
+     "c",
+     "say it means less stress (5)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "group messages, document storage"
+    ],
+    [
+     "c",
+     "It doesn't help with getting into the parent's bank, insurer or portal accounts"
+    ]
+   ],
+   [
+    [
+     "x",
+     "not found in the 29 reviews or company pages"
+    ]
+   ],
+   [
+    [
+     "c",
+     "each joins free with their own account"
+    ],
+    [
+     "c",
+     "can't make relatives help"
+    ]
+   ]
+  ],
+  "Everplans": [
+   [
+    [
+     "c",
+     "Direct (access to accounts)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Digital vaults and emergency access"
+    ]
+   ],
+   [
+    [
+     "c",
+     "https://www.everplans.com/"
+    ]
+   ],
+   [
+    [
+     "c",
+     "A secure online vault for documents, IDs, accounts and wishes"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Claims to organize all of a person's life details"
+    ]
+   ],
+   [
+    [
+     "q",
+     "app-reviews/reviews4.csv",
+     "After my dad passed away, we discovered a wealth of notes he had left for us"
+    ],
+    [
+     "q",
+     "app-reviews/reviews4.csv",
+     "a secure, cloud-based repository"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Everplans needs the parent to set everything up ahead of time, and no caregiver use was found"
+    ],
+    [
+     "q",
+     "app-reviews/reviews4.csv",
+     "the iPad app forces an iPhone size"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Premium at $99.99 a year"
+    ]
+   ],
+   [
+    [
+     "c",
+     "A secure online vault for documents, IDs, accounts and wishes"
+    ]
+   ],
+   [
+    [
+     "c",
+     "A secure online vault for documents, IDs, accounts and wishes"
+    ]
+   ],
+   [
+    [
+     "c",
+     "A secure online vault for documents, IDs, accounts and wishes"
+    ],
+    [
+     "c",
+     "Everplans needs the parent to set everything up ahead of time"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Everplans needs the parent to set everything up ahead of time"
+    ]
+   ],
+   [
+    [
+     "c",
+     "deputies' who get access to chosen sections"
+    ]
+   ]
+  ],
+  "Cariloop": [
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Typically our minimum size group is 100 employees"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "The caregiving benefit for every employee"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "SOURCE: https://www.cariloop.com/"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Give your employees access to a dedicated Coach"
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Employees can search, compare, book, and pay for care all in one place."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "All of our Care Coaches are full-time, W2 employees of Cariloop."
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "We do not accept referral, lead generation, or subscription fees of any kind from any healthcare provider."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/google_play_cariloop.txt",
+     "Staff wonderful incredibly helpful in your time of need"
+    ],
+    [
+     "q",
+     "competitors-4/review-sites/bbb_2026-11-04.txt",
+     "complaints total: 0. customer reviews total: 0."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Typically our minimum size group is 100 employees"
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "a 30-day countdown is triggered within our platform that allows the member to shift to an individual membership that they can cover the cost of on their own"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "employees have the option to extend the coaching for $249/month."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/google_play_cariloop.txt",
+     "Understanding diagnoses like ADHD, Alzheimer’s, Anxiety, Autism, Cancer, Down Syndrome, Parkinson’s, etc."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Employees can search, compare, book, and pay for care all in one place."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/google_play_cariloop.txt",
+     "Understanding how to pay for a loved one’s care"
+    ],
+    [
+     "q",
+     "competitors-4/manual-saves/google_play_cariloop.txt",
+     "Filling out important legal caregiving documents (wills, POAs, DNRs, etc.)"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/google_play_cariloop.txt",
+     "Managing family dynamics related to your loved one’s care"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/google_play_cariloop.txt",
+     "Add whoever needs to be involved in the care of your loved ones to your Care Team"
+    ]
+   ]
+  ],
+  "A Place for Mom": [
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "A Place for Mom is a referral service."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "A Place for Mom is a referral service."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Find Assisted Living, Memory Care and Senior Living Near Me | A Place for Mom"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Receive a free care and financial assessment"
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Get clear pricing and details so you can make an informed decision."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Our senior care network is the largest in the country"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/review-sites/bbb_2026-11-04.txt",
+     "You helped me to figure out the process of finding a place for mom when I had no idea of where to even start"
+    ],
+    [
+     "q",
+     "competitors-4/review-sites/bbb_2026-11-04.txt",
+     "the setting up of appointments"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/review-sites/bbb_2026-11-04.txt",
+     "A Place for Mom has distributed my phone number and email to every assisted living facility in my area without my consent."
+    ],
+    [
+     "t",
+     "A Place for Mom",
+     "problems",
+     "Nonstop calls and spam that won't stop"
+    ],
+    [
+     "t",
+     "A Place for Mom",
+     "problems",
+     "Paid by commission, not truly free"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "A Place for Mom is paid by our senior living network communities when a family we refer chooses to move into a community."
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Our services—including personalized guidance and support—are always free to families."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Receive a free care and financial assessment"
+    ],
+    [
+     "t",
+     "A Place for Mom",
+     "problems",
+     "Doesn't know places or care about quality"
+    ]
+   ],
+   [
+    [
+     "t",
+     "A Place for Mom",
+     "worked",
+     "Shows options and some prices"
+    ],
+    [
+     "t",
+     "A Place for Mom",
+     "problems",
+     "Nonstop calls and spam that won't stop"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Try our senior living cost calculator"
+    ],
+    [
+     "t",
+     "A Place for Mom",
+     "problems",
+     "No help for Medicaid-only families"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/review-sites/bbb_2026-11-04.txt",
+     "Told me the best way to get our mother in a nursing home is to just lie to her"
+    ]
+   ],
+   [
+    [
+     "x",
+     "no feature or post about relatives sharing work"
+    ]
+   ]
+  ],
+  "Geriatric care managers": [
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Count on paying out of pocket"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "These professionals act as advocates and guides for family members"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "for those who are members of the Aging Life Care Association"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Evaluating, arranging for and monitoring hired caregivers, such as home health aides."
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Acting as a liaison to families who may be hundreds of miles away."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "An in-person assessment gives them the opportunity to observe the home environment"
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Our specialized experience and local connections can speed families through the roadblocks they often encounter."
+    ]
+   ],
+   [
+    [
+     "t",
+     "Geriatric care managers",
+     "worked",
+     "Takes load off in a crisis"
+    ],
+    [
+     "t",
+     "Geriatric care managers",
+     "worked",
+     "Goes to appointments and reports back"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Geriatric care managers",
+     "problems",
+     "Unsure it's worth the cost"
+    ],
+    [
+     "t",
+     "Geriatric care managers",
+     "problems",
+     "Unclear what they do or how to choose"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Professionals charge by the hour, ranging from $150 to $300, depending on the geographic region."
+    ],
+    [
+     "q",
+     "competitors-4/basics-5a.json",
+     "Neither Medicare nor Medicaid typically pays for care management services."
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/aging-life-care/www_aarp_org_caregiving_basics_geriatric_care_manager.txt",
+     "Explaining complex or difficult topics to care recipients and their families."
+    ],
+    [
+     "t",
+     "Geriatric care managers",
+     "worked",
+     "Takes load off in a crisis"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Geriatric care managers",
+     "worked",
+     "Goes to appointments and reports back"
+    ],
+    [
+     "t",
+     "Geriatric care managers",
+     "worked",
+     "Tours and evaluates places, finds resources"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Geriatric care managers",
+     "worked",
+     "Tours and evaluates places, finds resources"
+    ],
+    [
+     "t",
+     "Geriatric care managers",
+     "problems",
+     "Heavy billing"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/aging-life-care/www_aarp_org_caregiving_basics_geriatric_care_manager.txt",
+     "Explaining complex or difficult topics to care recipients and their families."
+    ],
+    [
+     "t",
+     "Geriatric care managers",
+     "problems",
+     "Family conflict or refusal around them"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Geriatric care managers",
+     "worked",
+     "Stands up to difficult relatives"
+    ],
+    [
+     "t",
+     "Geriatric care managers",
+     "problems",
+     "Family conflict or refusal around them"
+    ]
+   ]
+  ],
+  "Group texts and notebooks": [
+   [
+    [
+     "c",
+     "Indirect (what families use instead)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Workaround, not a company"
+    ]
+   ],
+   [
+    [
+     "c",
+     "n/a"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Family group chats, group texts and WhatsApp groups"
+    ],
+    [
+     "c",
+     "Notebooks, binders, whiteboards, wall calendars"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Everyone already has it, it's free, and there's nothing to install."
+    ]
+   ],
+   [
+    [
+     "c",
+     "One place to tell the whole family what's happening (6 of 53)"
+    ],
+    [
+     "c",
+     "A whiteboard with the date and schedule calms repeated questions"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Requests and updates get silence or just a 'like' (10)"
+    ],
+    [
+     "c",
+     "Notes and calendars get ignored, lost or erased (12)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Nearly free."
+    ]
+   ],
+   [
+    [
+     "c",
+     "a written guide lets someone else step in (4)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "constant messages wear the caregiver down (7)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "records pile up and can't be searched when a doctor asks (7)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "it works without phones (4)"
+    ]
+   ],
+   [
+    [
+     "c",
+     "Requests and updates get silence or just a 'like' (10)"
+    ]
+   ]
+  ],
+  "Area Agencies on Aging": [
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/acl_gov_nfcsp.txt",
+     "provides grants to states and territories"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/eldercare-locator/eldercare_acl_gov_home.txt",
+     "a public service of the Administration for Community Living"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/eldercare-locator/eldercare_acl_gov_home.txt",
+     "Welcome to the Eldercare Locator"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/acl_gov_nfcsp.txt",
+     "individual counseling, organization of support groups, and caregiver training"
+    ],
+    [
+     "q",
+     "competitors-4/manual-saves/acl_gov_nfcsp.txt",
+     "respite care; and"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/acl_gov_nfcsp.txt",
+     "provides grants to states and territories"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "worked",
+     "Referrals to local services, groups and Medicare counseling"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Long waits, low priority, no timeline"
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Only referrals, nothing concrete"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/acl_gov_nfcsp.txt",
+     "provides grants to states and territories"
+    ]
+   ],
+   [
+    [
+     "q",
+     "competitors-4/manual-saves/acl_gov_nfcsp.txt",
+     "information to caregivers about available services"
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Hard to reach or staff didn't know"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "worked",
+     "Paid for respite or home help"
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Long waits, low priority, no timeline"
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Little help, or strict eligibility"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "worked",
+     "Referrals to local services, groups and Medicare counseling"
+    ],
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Only referrals, nothing concrete"
+    ]
+   ],
+   [
+    [
+     "t",
+     "Eldercare Locator and Area Agencies on Aging",
+     "problems",
+     "Only referrals, nothing concrete"
+    ]
+   ],
+   [
+    [
+     "x",
+     "not in the 47 caregiver posts or the program page"
+    ]
+   ]
+  ]
+ }
+}

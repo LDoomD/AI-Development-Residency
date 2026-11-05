@@ -1,0 +1,203 @@
+{
+ "Eldercare Locator and Area Agencies on Aging": {
+  "worked": {
+   "Referrals to local services, groups and Medicare counseling": [
+    "agi-498825",
+    "alz-77278",
+    "alz-77398",
+    "p12hnruv",
+    "p1h0fxvm",
+    "p1o0izil",
+    "p1xgi52f",
+    "p1xgi8wh"
+   ],
+   "Helpful, kind or quick staff": [
+    "agi-499801",
+    "p12hnruv",
+    "p1ayyhkc",
+    "p1glsnif",
+    "p1h0fxvm"
+   ],
+   "Paid for respite or home help": [
+    "alz-77423",
+    "p15mvqmm",
+    "p1uwn1tr"
+   ]
+  },
+  "problems": {
+   "Only referrals, nothing concrete": [
+    "alz-77395",
+    "p12hnruv",
+    "p1726a3n",
+    "p1ayyhkc",
+    "p1e5q7wy",
+    "p1jmmomg",
+    "p1og2w6f",
+    "p1pcz5nj",
+    "p1w05t2p",
+    "p1xgi52f"
+   ],
+   "Long waits, low priority, no timeline": [
+    "p1b5uc5l",
+    "p1bmb2kd",
+    "p1bzkk76",
+    "p1c6efrx",
+    "p1c9w7gg",
+    "p1f20olm",
+    "p1h0fxvm",
+    "p1hcv5bi"
+   ],
+   "Hard to reach or staff didn't know": [
+    "agi-499801",
+    "p130ibg9",
+    "p162cj0e",
+    "p1f20olm",
+    "p1hcv5bi",
+    "p1nhz441",
+    "p1nhz60z"
+   ],
+   "Little help, or strict eligibility": [
+    "agi-499801",
+    "alz-77395",
+    "p15mvqmm",
+    "p15nym3h",
+    "p1kkv8p3",
+    "p1og2w6f",
+    "p1uwn1tr"
+   ],
+   "Paperwork and caregiver pay problems": [
+    "p162cj0e",
+    "p1f20olm",
+    "p1f2wn8b",
+    "p1frmgnj",
+    "p1hcv5bi"
+   ]
+  }
+ },
+ "Geriatric care managers": {
+  "worked": {
+   "Tours and evaluates places, finds resources": [
+    "agi-499305",
+    "alz-77278",
+    "p1kxe3qv",
+    "p1mj5yyg",
+    "p1woat2e"
+   ],
+   "Takes load off in a crisis": [
+    "p1er9pkg",
+    "p1p1nazq",
+    "p1sl9uat",
+    "p1woat2e"
+   ],
+   "Goes to appointments and reports back": [
+    "p1kxe3qv",
+    "p1mxef8i",
+    "p1viweky",
+    "p1x1x66f"
+   ],
+   "Stands up to difficult relatives": [
+    "p1mxef8i"
+   ]
+  },
+  "problems": {
+   "Family conflict or refusal around them": [
+    "p1msan1e",
+    "p1mxef8i",
+    "p1n3ht5l",
+    "p1sl9uat",
+    "p1woat2e"
+   ],
+   "Unsure it's worth the cost": [
+    "p13wp1no",
+    "p19ax1dy",
+    "p1qldy9o",
+    "p1qv1kmo"
+   ],
+   "Unclear what they do or how to choose": [
+    "p13wp1no",
+    "p19ax1dy",
+    "p1hkgbf3",
+    "p1qv1kmo"
+   ],
+   "Didn't deliver": [
+    "p16jpagx",
+    "p1x0fqwe",
+    "p1xgwk7r"
+   ],
+   "Heavy billing": [
+    "p1woat2e",
+    "p1x0fqwe"
+   ]
+  }
+ },
+ "A Place for Mom": {
+  "worked": {
+   "Shows options and some prices": [
+    "p11zvnoj",
+    "p1f1s43u"
+   ]
+  },
+  "problems": {
+   "Nonstop calls and spam that won't stop": [
+    "p11zvnoj",
+    "p17kp1k8",
+    "p1bvdp2t",
+    "p1d55k9e",
+    "p1fm6k24",
+    "p1htr11h",
+    "p1icxwp0",
+    "p1kocgug",
+    "p1nw7z5i",
+    "p1qhihlw"
+   ],
+   "Doesn't know places or care about quality": [
+    "alz-77373",
+    "p1d55k9e",
+    "p1d89242",
+    "p1dj429j",
+    "p1h0fxvm",
+    "p1icxwp0",
+    "p1ijdg4c",
+    "p1j1vrmx",
+    "p1qhihlw"
+   ],
+   "Paid by commission, not truly free": [
+    "p1d55k9e",
+    "p1hl0pzj",
+    "p1htr11h",
+    "p1l8ln29"
+   ],
+   "Shares or sells family's details": [
+    "p11zvnoj",
+    "p17kp1k8",
+    "p1htr11h"
+   ],
+   "No help for Medicaid-only families": [
+    "p1icxwp0"
+   ]
+  }
+ },
+ "Alzheimer's Association helpline": {
+  "worked": {
+   "Information, facility lists, social worker": [
+    "alz-77462",
+    "p1gd0a0i",
+    "p1wwjiis"
+   ],
+   "Support groups and trained facilitators": [
+    "alz-77398",
+    "p1gd0a0i"
+   ]
+  },
+  "problems": {
+   "Generic advice, didn't listen": [
+    "p1gd0a0i",
+    "p1v6qqg5"
+   ],
+   "Few groups, inconvenient times": [
+    "alz-77398",
+    "p1xbuw5r"
+   ]
+  }
+ }
+}

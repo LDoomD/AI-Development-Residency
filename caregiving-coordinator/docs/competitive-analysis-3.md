@@ -62,7 +62,11 @@ Audience 1 counts, from `docs/sources/market-analysis-3/audience-v2/moments-by-u
 
 6 of the 7 are in the top 7 of both. **"The parent refuses help" comes almost entirely from the new Reddit research.** The forums barely mention it. Treat it as the least proven of the 7 in the older data. (In the forums alone, safety at home would be 7th.)
 
-## Step 3: Which competitors to analyze (approved 2026-11-04, option A)
+## Step 3 (first version, REPLACED 2026-11-04 by the second version below)
+
+Kept as a record. Replaced because its competitors weren't taken from the market analysis segment table (see `docs/reports/competitive-analysis-3-change-report-2026-11-04.md`).
+
+### Step 3, first version: which competitors to analyze (approved 2026-11-04, option A)
 
 The list is rebuilt around the top 7 problems from step 2. Evidence: `docs/sources/competitors-4/evidence.json`. Proof check: `docs/sources/competitors-4/verify_quotes.py` (18 quotes found in the saved pages, 0 not found).
 
@@ -96,7 +100,11 @@ The list is rebuilt around the top 7 problems from step 2. Evidence: `docs/sourc
 - **Gap:** nothing was found that's built specifically for a parent who refuses help. Care managers and Trualta touch it, but neither is made only for it.
 - **Fixed 2026-11-04:** pages blocked to the save script were read in the desktop app's built-in browser and saved in `docs/sources/competitors-4/manual-saves/`: aginglifecare.org, coaaa.org (Trualta) and hr.msu.edu (Cariloop's $249-a-month price). trualta.com failed at first (HTTP 500), then loaded when the owner opened it, and was saved. aging.ny.gov and teepasnow.com are no longer needed (other sources cover Trualta, and Teepa Snow isn't on the list).
 
-## Step 4: Which questions to answer about the competitors (approved 2026-11-04, option A, refined with the whole audience page)
+## Step 4 (first version, REPLACED 2026-11-04 by the 5 criteria below)
+
+Kept as a record. Replaced after the owner reviewed Fleety's (Tech Fleet) advice: use about 5 criteria taken from the audience's top needs.
+
+### Step 4, first version: which questions to answer about the competitors (approved 2026-11-04, option A, refined with the whole audience page)
 
 The owner approved option A and asked that it reflect everything on the audience segmentation page. The four questions marked "refined" were widened using that page: the labels and traits, the four segmentation boxes (geographic, behavioral, demographic, socioeconomic), and the motivations, goals and use cases.
 
@@ -159,6 +167,50 @@ The teacher's template columns, plus question 1. New competitors: `docs/sources/
 - Cariloop's $249 a month comes from one employer (Michigan State University).
 - Medisafe lists several App Store price points.
 - The care managers' prices come from an AARP article.
+
+## Step 4, second version: the 5 criteria (approved 2026-11-04)
+
+Following Fleety's advice and the teacher's template (which has 5 question columns), each competitor is judged on 5 criteria taken from Audience 1's top needs. Checked against Figma: the audience section 2623:76, the segmentation boxes 2378:7186 to 2378:7195, and the updated market analysis 2598:10950.
+
+| # | Criterion | Audience data (Figma 2623:76, segmentation boxes) | Market analysis (Figma 2598:10950) |
+|---|---|---|---|
+| 1 | Does it help the caregiver understand what's happening, handle hard behavior, and know what to do next? | #1 situational goal (73). Use case #2, dementia behavior (82). 55% do medical tasks, only 22% were trained (AARP p.34). | Dementia behavior 24% / 34%. No market segment serves it. |
+| 2 | Does it give the caregiver real relief: time, breaks, their own health? | Use case #1, exhaustion (138). #1 life goal, health and sanity (73). 34% have no other help (AARP p.25). | Burnout 51% / 43%, top everywhere. Segment 12: biggest need, crowded. Owner's scoring: Valuable High. |
+| 3 | Does it get the parent's money, papers and accounts under control? | Use case #3 (74). Situational goal #3 (49). | 28% / 33%; 132 targeted accounts posts. Segment 10: strongest unmet need. Owner's scoring: Valuable High. |
+| 4 | Does it still work when the parent refuses help, and respect the parent's choices? | Use case #5 (60). Motivation: let the parent stay home and choose (24). | 20% / 10% (new from Reddit). No market segment serves it. |
+| 5 | Does it get relatives to actually share the work? | Use case #6 (48). 34% have no other help. | Family coordination 24% / 24%. Families use group chats, not apps (99 posts). Owner's scoring: Medium. |
+
+- **Kept in the template's own columns, not criteria:** business model, who pays and the cost (only 12% would pay out of pocket), and what customers say (do caregivers use it).
+- **Considered for criterion 5 but not chosen (owner's choice):** medicines and hands-on care (62); choosing and paying for a place (46, owner's scoring Valuable High). Both stay visible in the competitor rows and the takeaways.
+- **Health data and consent:** treated as a risk in the takeaways.
+
+**Next:** step 3 is redone from the market analysis segments (`docs/competitive-analysis-3-inputs.md`). The new competitor list is 7: 5 from the segments, plus what families use instead (group texts and notebooks), plus Area Agencies on Aging. Parts 5a and 5b above are kept as evidence and will be redone for the final list.
+
+## Step 3, second version: the 7 competitors, taken from the market analysis segments (approved 2026-11-04)
+
+Candidates: every company the market analysis names in a segment that touches the 5 criteria (`docs/competitive-analysis-3-inputs.md`). Caregiver mentions were counted by `docs/sources/competitive-analysis-3/count_segment_candidates.py` (49,315 saved Reddit posts).
+
+| # | Competitor | Type | Market analysis segment | Criteria it touches | Caregiver evidence |
+|---|---|---|---|---|---|
+| 1 | Caring Village | Direct (business) | 1 Family care-coordination apps | 5, 3 | 29 caregiver reviews |
+| 2 | Everplans | Direct (business) | 10 Digital vaults (strongest unmet need) | 3 | Thin: 1 caregiving review |
+| 3 | Cariloop | Direct (business, employer-paid) | 7 Employer caregiver benefits | 2, 3 | 0 posts; company pages and price saved |
+| 4 | A Place for Mom | Direct (business) | 4 Senior care referral (owner's scoring: Valuable High) | 2 | 21 caregiver posts |
+| 5 | Geriatric care managers | Direct (private professionals) | No segment; fills the gap for criteria 1 and 4 | 1, 4, 2 | 31 caregiver posts |
+| 6 | Group texts and notebooks | Indirect (workaround) | What families use instead | 5 | Named in about 100 posts each |
+| 7 | Area Agencies on Aging | Indirect (government program) | What families use instead | 2, 3 | 47 caregiver posts, 29 describe using it |
+
+**Left out, with reasons:**
+- CaringBridge, Lotsa: same segment and criterion as Caring Village.
+- Caring.com: same segment as A Place for Mom, 2 mentions.
+- Trustworthy, Cake, AARP Digital Vault, 1Password, Keeper: 0 caregiver mentions.
+- Calm, Talkspace, Sanvello, BetterHelp, ianacare: 0 to 5 mentions, general apps.
+- Wellthy, Carallel: 0 to 2 mentions.
+- Medication apps, pharmacies, home care: medicines isn't a criterion.
+- Alert devices, visit notes, MyChart, Chapter: their problems aren't in the top 7.
+- Trualta, Medicare GUIDE, the Alzheimer's helpline: almost no caregiver evidence.
+
+**Trade-off (the owner kept the list as is):** segment 12, mental health and burnout (the biggest need, but crowded), has no competitor in the grid.
 
 ## Next steps (not started)
 

@@ -391,3 +391,24 @@ Why: the owner asked for more qualitative evidence for the empty and vague boxes
   - trualta.com returned HTTP 500 (server error) in a real browser, so it can't be read today. Trualta's facts rest on two agency pages and the PMC study.
   - Proof checks: `verify_basics_5a.py` 125 found, 0 not found, 0 answers too long; `verify_quotes.py` 30 found, 0 not found.
   - Update: `manual-saves/trualta_com_for_caregivers.txt` is Trualta's own site, saved after the owner opened it in the built-in browser ("Offered at no cost through local partnerships"). Proof checks: 130 found and 32 found, 0 not found.
+
+## 2026-11-04: Competitive Analysis 3, step 5b (`competitive-analysis-3/5b/`)
+
+- `count_new_mentions.py` → `mentions.json`: every saved Reddit post (49,315) naming a new competitor.
+- `build_packs.py` → `pack-1.json` and `pack-2.json` (207 items): the Reddit posts in full, plus forum threads (the text around each mention). For the Alzheimer's Association, forum matches count only if they name the helpline, because ALZConnected is run by the Association.
+- `READING-INSTRUCTIONS.md` → `codes-1.json` and `codes-2.json`, written by two Claude readers, one pass each.
+- `verify_and_count.py` → `counts-5b.json`: 207 coded, 135 relevant, 0 problems (every quote exact).
+- `group_themes.py` → `themes-5b.json`: themes counted by distinct post. Unmatched labels are printed; none were left.
+
+## 2026-11-04: Competitive Analysis 3 grid (`competitive-analysis-3/grid/`)
+
+- `build_grid.py` → `grid.json`: 7 competitors × 13 columns (the teacher's template columns plus the 5 criteria). Every cell has a source: an exact quote in a saved file, exact text in Competitive Analysis 2, a 5b theme, a count, or "no evidence found" stated as such. The script checks them all: 91 cells, 125 sources, 0 problems.
+- `competitive-analysis-3/count_segment_candidates.py` → `segment-candidate-mentions.json`: Reddit mentions for every company the market analysis names in the relevant segments.
+- `competitors-4/manual-saves/acl_gov_nfcsp.txt`: the National Family Caregiver Support Program page (the federal program behind Area Agencies on Aging' caregiver services). robots.txt blocked the save script, so it was read in the built-in browser.
+- **Grid fix (same day): more review sources, and every cell answers its question.**
+  - `app-reviews/fetch_apple_reviews4.py` → `reviews4.csv`: Everplans App Store reviews (8). Cariloop had no written App Store reviews.
+  - `competitors-4/manual-saves/google_play_cariloop.txt`: Cariloop's Google Play listing and its 2 written reviews.
+  - `competitors-4/review-sites/bbb_2026-11-04.txt`: BBB records. Cariloop has 0 complaints and 0 reviews. A Place for Mom has 272 reviews (3.95 stars) and 109 complaints in 3 years. Excerpts are copied word for word.
+  - `competitors-4/review-sites/trustpilot_everplans_2026-11-04.txt`: Everplans' only Trustpilot review.
+  - Checked but no reviews: Shortlister (Cariloop, "Reviews pending").
+  - After the rewrite: 91 cells, 131 sources, 0 problems.

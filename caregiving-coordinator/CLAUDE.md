@@ -100,6 +100,15 @@ checked documents, never from chat memory.
   3. Something was redone or went wrong: write a short change report.
   4. Before moving to the next step in the order.
   5. End of the session.
+- **Earlier deliverables lead the next one (rule added after repeated mistakes,
+  2026-11-04).** Start each step from the earlier deliverables' actual tables. For
+  example, the competitive analysis takes its competitors from the market
+  analysis segment table and its named companies
+  (`docs/competitive-analysis-3-inputs.md`). Before giving options, show an
+  inputs table: each relevant item, used or left out, and why. Table cells are
+  one short sentence that answers the column's question, in the style of the
+  owner's earlier tables. Counts and quotes go in the evidence file. One entity
+  per row, labeled business, nonprofit, government program or workaround.
 - **Superseded work:** a big yellow banner across the top of the section,
   never a small sticky. Never delete.
 - **Tables:** follow `docs/sources/market-analysis-3/audience-v2/TABLE-RULES.md`
