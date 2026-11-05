@@ -95,3 +95,19 @@ Figma: section 2623:76 on the audience page (2378:7107). Built from 412 caregive
 - Audience 2 has only 35 Reddit posts. 3 forum threads were filed under the wrong audience.
 - The scenarios are our own wording of what caregivers want: open problems, not features or decisions.
 - The box counts come from the earlier goals coding (269 Reddit parent posts, which includes one post that appears twice).
+
+## UPDATED 2026-11-04 — What blocks relief, under use case 1 for each audience (approved by the owner)
+
+From the relief reading pass (`docs/market-analysis-segments-11-12-findings.md`). The table cells above are unchanged.
+
+**Audience 1, use case 1 (adult children carry the care, many of them alone):**
+- What blocks real time off: cost, the parent refusing, family not helping, eligibility rules for VA and Medicaid programs, rigid hours or minimum stays, and waitlists.
+- Help they use: respite, paid aides, siblings or friends stepping in, adult day programs, therapy.
+- 25% need a break and have no help in place (486 posts).
+
+**Audience 2, use case 1 (spouses carry the care, many of them alone):**
+- What blocks real time off: family not helping, eligibility rules (often the VA), cost, no reliable providers, and quality worries.
+- Help they use: therapy and support groups more than adult children do, plus respite and paid aides. The VA is their most named provider.
+- 30% need a break and have no help in place (98 posts, so these numbers are rough).
+
+Neither audience uses burnout or meditation apps.

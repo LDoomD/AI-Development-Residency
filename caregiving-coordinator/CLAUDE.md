@@ -81,6 +81,18 @@ The user follows the teacher's dog feeding method (Figma node 2390:7831, "Steps
 to Produce Literally Anything"). Each new document is made from saved,
 checked documents, never from chat memory.
 
+> **RULE #1: EVERY DELIVERABLE IS PART OF ONE PROJECT (the owner's words, 2026-11-04,
+> after repeated mistakes).** Market analysis, audience segmentation, competitive
+> analysis, feature analysis, positioning and vision boards are not separate tasks.
+> Each one is built on the ones before it and feeds the ones after it. Any research,
+> table or step must use the structure the project already set: the two audiences
+> (Audience 1 = adult child caring for a parent, Audience 2 = spouse or partner),
+> the top caregiver problems, the market segments, the 5 criteria, and the open
+> questions (such as who pays). **No research, reading pass or new table starts
+> until `docs/research-checklist.md` is filled in and shown to the owner.** When new
+> research changes one deliverable, say which other deliverables it changes, and
+> update them in order.
+
 - **Start of session:** ask for the latest dog feeding report in
   `../Dog Feeding Docs/` (newest `dogfood-*.md`, one folder per week) and the saved documents it lists.
   Read them all, then say what you have and what is missing.
@@ -121,6 +133,11 @@ checked documents, never from chat memory.
   Mistake log: `docs/reports/competitive-analysis-3-change-report-2026-11-04b.md`.
 - **Questions get answers, not edits.** When the owner asks a question, answer
   it and stop. Change files only after a clear yes.
+- **Every research pass splits by audience.** Before any reading starts, the
+  instructions must record who the writer cares for, with the market analysis
+  labels ("cared_for": parent, spouse or partner, other relative, child,
+  client, unclear). Audience 1 = adult child (or child-in-law) caring for a
+  parent; Audience 2 = spouse or partner (Figma 2378:7111, 2378:7177).
 - **How to answer a table question from data (owner-approved style,
   2026-11-04, after 4 rejected drafts).** Every cell must pass all of these:
   1. **Answer the column's question directly, in the first word.** Don't

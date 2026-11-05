@@ -11,6 +11,7 @@ The first change report from today is `competitive-analysis-3-change-report-2026
 | 3 | **Earlier research was missed:** `docs/exhaustion-dementia-research.md` (2026-11-02) already has AARP's 39% (respite would help) vs 13% (use it), the reasons caregivers don't use respite, and 10 offerings that serve exhaustion (ARCH National Respite Network, Medicare GUIDE, Papa, Wellthy, the Alzheimer's Association helpline and more). It was never carried into the market analysis or the competitive analysis. | Segment 11 stayed empty. Step 3 dismissed GUIDE and the helpline for "almost no caregiver evidence" without using this file. Takeaway 2 may be overstated (see below). |
 | 4 | When proposing a burnout competitor, I named only Calm and Headspace because their pages were already saved. | Picking from handy sources instead of the market analysis list, the same mistake as step 3's first version. |
 | 5 | I wrote the reading-pass questions myself, modeled on the grid, instead of starting from the earlier exhaustion research. | The most important question (why caregivers don't use help that exists) was missing. |
+| 7 | The relief reading instructions didn't record which audience each writer belongs to (adult child or spouse), even though every earlier deliverable splits by Audience 1 and Audience 2, and the market analysis coding already had a "cared_for" field. | The relief findings couldn't be split by audience. Fixed by labeling each post afterwards with the same "cared_for" labels. |
 | 6 | I started rewriting the Figma titles before the owner approved, while the owner was still asking questions. | The owner had to stop me. No edits had been saved, but the rule is: questions get answers, not edits. |
 
 ## Why it happened
@@ -42,4 +43,5 @@ I read only the files the dog feeding report and the inputs file listed. The inp
 - **Before working on any problem, segment or competitor, search every saved document for that topic** and list each one found in the inputs table: used, or left out and why. Not only the files a report lists.
 - **Never filter out the segment for the #1 problem without telling the owner plainly** that the biggest need will have no competitor.
 - **Candidates come from the full researched list, never from pages that happen to be saved.**
+- **Every reading instruction records which audience the writer belongs to** (the market analysis "cared_for" labels), before any reading starts.
 - **Questions get answers, not edits.** Change files only after a clear yes.

@@ -91,3 +91,37 @@ Caregivers who got a break describe sleep, time alone, a date with a spouse, see
 - Readers made some judgment calls, listed in their reports: borderline caregivers (parents of disabled children, siblings) counted as relevant, and "respite" with no type handled differently. That's why respite is reported combined.
 - "Other" barriers were grouped by keyword rules written in `count_results.py`. 129 one-off barriers stay ungrouped.
 - Each quote shows a post's main point, not always the barrier it's counted under. Use the ids in `results.json` to read the post behind any count.
+
+---
+
+## Added 2026-11-04: the findings split by audience
+
+Checklist: `sources/market-analysis-3/segments-11-12/research-checklist-audience-split.md`. Each of the 831 relief posts was labeled with the market analysis "cared_for" labels.
+- **How:** a script labeled the 278 clear posts. Readers labeled the other 553, each with an exact quote checked by script (0 problems).
+- **Accuracy:** a random 40 of the script's labels were re-read, and 38 agreed (95%).
+- **Files:** `audience-labels.json` (every label and how it was decided), `count_by_audience.py` → `results-by-audience.json`.
+
+**Labels:** parent 486 (Audience 1), spouse or partner 98 (Audience 2), other relative 119, unclear 103, own child 24, client 1.
+
+**No new search needed.** The checklist's rule was to search again if fewer than 50 spouse posts turned up, and there are 98. But some Audience 2 barriers have under 10 posts each, so read their order as a rough guide.
+
+| | Audience 1: adult child caring for a parent (486 posts) | Audience 2: spouse or partner (98 posts) |
+|---|---|---|
+| Need a break, no help in place | 121 (25%) | 29 (30%) |
+| Respite, any type | 205 (42%): 79 used, 48 wanted it and couldn't get it, 48 looking | 34 (35%): 12 used, 9 couldn't get it, 9 looking |
+| Adult day program | 70 (14%) | 9 (9%) |
+| Therapist or counselor for themselves | 85 (17%) | 25 (26%) |
+| Support group | 58 (12%) | 22 (22%) |
+| Family or friend stepping in | 97 (20%) | 13 (13%) |
+| Top barriers | Cost 77 (16%), the parent refuses 75 (15%), family won't help 57 (12%), eligibility rules 45 (9%), quality worries 30 (6%), waitlists 29 (6%) | Family won't help 12 (12%), eligibility rules 10 (10%), cost 8 (8%), no reliable providers 8 (8%), quality worries 8 (8%), the spouse refuses 7 (7%) |
+| Providers named most | Hospice 16, VA 15, Alzheimer's Association 5, Area Agency on Aging 4, Medicaid and waivers 10 | VA 7, local aging councils 2, Medicaid 1 |
+
+**What differs between the audiences:**
+1. **Adult children** are blocked most by cost and by the parent refusing. They lean on respite, paid aides and siblings, and family not helping is a major barrier.
+2. **Spouses** are more often left with no help (30% vs 25%). They turn more to therapy and support groups for themselves (26% and 22%, vs 17% and 12%), and less to adult day programs. Family not helping and eligibility rules lead their barriers. The VA is their most named provider.
+3. **Both audiences share** the same core blockers (family not helping, eligibility rules, cost, the person refusing), so the access gap applies to both.
+
+**Limits:**
+- 247 posts (other relatives, own children, unclear) belong to neither audience and are counted separately.
+- Two spot-check posts disagreed with the script, both edge cases (a partner's child, and a parent and child mix-up).
+- Some forum threads are cut off at the start, so their labels come from the replies.

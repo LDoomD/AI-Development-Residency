@@ -281,3 +281,14 @@ Why: exhaustion is the #1 caregiver problem, but segments 11 and 12 had never be
 **What this changes in the opportunity reading above:** segment 12 is no longer "the biggest need, but crowded." The biggest need is exhaustion, and its unmet part is access to relief (segment 11). Two of the three biggest barriers (the parent refusing, family not helping) are the same problems with no competitor coverage in Competitive Analysis 3 (criteria 4 and 5). Getting through VA and Medicaid applications (86 posts) links to segment 10 (accounts and papers) and to the who-pays research.
 
 **Limits:** Reddit and forum writers aren't a random sample and lean toward people having a hard time. Counts are posts, not national rates. Respite types are combined because readers labeled them differently.
+
+**By audience (added 2026-11-04, approved):** of the 831 relief posts, 486 are from adult children caring for a parent (Audience 1) and 98 from spouses or partners (Audience 2). The labels were checked; a 40-post spot check agreed 95%.
+
+| | Audience 1 (486) | Audience 2 (98) |
+|---|---|---|
+| Need a break, no help in place | 25% | 30% |
+| Respite, any type | 42% (79 used, 48 couldn't get it) | 35% (12 used, 9 couldn't get it) |
+| Therapy for themselves / support groups | 17% / 12% | 26% / 22% |
+| Top barriers | Cost 16%, the parent refuses 15%, family won't help 12% | Family won't help 12%, eligibility rules 10%, cost 8% (small numbers) |
+
+Both audiences face the same access gap. Adult children are blocked most by cost and the parent refusing. Spouses are more often left with no help and lean on therapy and support groups. Details: `docs/market-analysis-segments-11-12-findings.md`, "split by audience."

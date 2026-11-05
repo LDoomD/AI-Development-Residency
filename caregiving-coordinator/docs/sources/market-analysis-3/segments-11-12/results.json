@@ -3769,14 +3769,14 @@
       "p1oojy59"
      ]
     },
-    "therapy doesn't help or isn't available": {
+    "no trained or reliable providers": {
      "n": 2,
      "ids": [
       "p1amhy8v",
       "p1pxe7ba"
      ]
     },
-    "no trained or reliable providers": {
+    "therapy doesn't help or isn't available": {
      "n": 2,
      "ids": [
       "p1amhy8v",
@@ -3980,13 +3980,13 @@
       "p1njos94"
      ]
     },
-    "the person cared for is anxious or worse away from home": {
+    "cost": {
      "n": 1,
      "ids": [
       "p1iuao25"
      ]
     },
-    "cost": {
+    "the person cared for is anxious or worse away from home": {
      "n": 1,
      "ids": [
       "p1iuao25"
@@ -4153,6 +4153,12 @@
     "wanted but couldn't get": 1
    },
    "barriers": {
+    "cost": {
+     "n": 1,
+     "ids": [
+      "p1wnm7mw"
+     ]
+    },
     "waitlist or no openings": {
      "n": 1,
      "ids": [
@@ -4160,12 +4166,6 @@
      ]
     },
     "inflexible program (hours, minimum stay, days)": {
-     "n": 1,
-     "ids": [
-      "p1wnm7mw"
-     ]
-    },
-    "cost": {
      "n": 1,
      "ids": [
       "p1wnm7mw"
@@ -4217,6 +4217,12 @@
     "used": 1
    },
    "barriers": {
+    "no trained or reliable providers": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77427"
+     ]
+    },
     "therapy doesn't help or isn't available": {
      "n": 1,
      "ids": [
@@ -4224,12 +4230,6 @@
      ]
     },
     "didn't know it existed": {
-     "n": 1,
-     "ids": [
-      "alzconnected-77427"
-     ]
-    },
-    "no trained or reliable providers": {
      "n": 1,
      "ids": [
       "alzconnected-77427"
@@ -4257,6 +4257,12 @@
     "used": 1
    },
    "barriers": {
+    "no trained or reliable providers": {
+     "n": 1,
+     "ids": [
+      "alzconnected-77427"
+     ]
+    },
     "therapy doesn't help or isn't available": {
      "n": 1,
      "ids": [
@@ -4264,12 +4270,6 @@
      ]
     },
     "didn't know it existed": {
-     "n": 1,
-     "ids": [
-      "alzconnected-77427"
-     ]
-    },
-    "no trained or reliable providers": {
      "n": 1,
      "ids": [
       "alzconnected-77427"
@@ -4310,13 +4310,13 @@
     "used": 1
    },
    "barriers": {
-    "family or friends won't help": {
+    "other (single mentions)": {
      "n": 1,
      "ids": [
       "p1wcnm2o"
      ]
     },
-    "other (single mentions)": {
+    "family or friends won't help": {
      "n": 1,
      "ids": [
       "p1wcnm2o"

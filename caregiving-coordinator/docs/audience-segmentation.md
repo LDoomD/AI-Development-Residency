@@ -108,3 +108,19 @@ Two cases, not interviews, and not checked against anything.
 
 How they line up with the forums (keyword search of the 1,121 verified quotes, 2026-11-02, rough): about 15 quotes on rotating care or scheduling; about 6 on siblings not contributing money (e.g. "he did not contributed a single penny, i was economically drained"); about 3 on trackers (e.g. "All a tracker does is tell you where they are- not if it is safe for them"). Gender of who helps was not tagged.
 - **Added 2026-11-02 (project owner, told in chat):** the newest Apple Watch was used for emergency contact after a fall (medical and insurance information on it), location tracking and occasional vitals; accuracy unknown. A smart blood pressure cuff synced readings to a database, "very helpful". The watch data was not shared with the rest of the family in one place. One case, not research data. AARP/NAC 2025 p.37: remote monitoring 25% of caregivers (13% in 2020), technology to track health records 41% (30% in 2020).
+
+## UPDATED 2026-11-04 — Exhaustion and relief (approved by the owner)
+
+Added from `docs/exhaustion-dementia-research.md` (AARP/NAC 2025, Alzheimer's Association 2026) and the relief reading pass (`docs/market-analysis-segments-11-12-findings.md`). Nothing above was changed.
+
+**Psychographic and behavioral, added:**
+- Respite: 39% of caregivers say it would help, but only 13% use it (AARP pp.8, 22, 26).
+- The top thing caregivers want help with: managing emotional and physical stress, 30% (AARP p.53).
+- 59% of dementia caregivers rate their emotional stress as high or very high (Alzheimer's Association 2026, p.55).
+- In caregiver posts about relief, 25% of adult children and 30% of spouses say they need a break and have no help in place (486 and 98 posts).
+- What blocks relief, by audience:
+  - **Adult children:** cost (16% of posts), the parent refuses (15%), family won't help (12%), eligibility rules (9%).
+  - **Spouses:** family won't help (12%), eligibility rules (10%), cost (8%). Small numbers.
+- Spouses turn more to therapy (26%) and support groups (22%) than adult children do (17% and 12%).
+
+**Correction to the line "The report does not measure guilt, overwhelm or burnout":** the report measures emotional stress (nearly two-thirds moderate or high, p.48) and respite use (13%, p.26), but not guilt or burnout by name. The original line above is left as it was.
