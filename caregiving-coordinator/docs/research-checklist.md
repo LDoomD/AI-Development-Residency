@@ -14,7 +14,7 @@ Rule #1 in `CLAUDE.md`: every deliverable is part of one project. Nothing is sea
 |---|---|---|
 | Audience page (Figma 2378:7111, 2378:7177; `docs/audience-teacher-format-2026-11-04.md`) | Audience 1 = adult child (or child-in-law) caring for a parent. Audience 2 = spouse or partner. Their goals, motivations and use cases. | Every count is split by audience (the "cared_for" labels below). |
 | Market analysis (`docs/market-analysis-3.md`) | The top caregiver problems and their sizes, the 14 market segments and their verdicts | |
-| Competitive analysis (`docs/competitive-analysis-3-reader.md`) | The 7 competitors, the 5 criteria, the business questions, the 3 gaps | |
+| Competitive analysis (clean page; `docs/clean-deliverables/competitive-preview-2026-11-05.md`) | The 9 competitors, the 5 needs, the 5 business questions, the 4 gaps | |
 | Open questions (for example who pays) | | |
 
 ## 3. All saved research on the topic

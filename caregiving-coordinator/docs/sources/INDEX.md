@@ -470,3 +470,12 @@ Checklist: `docs/research-checklist-ca3-exhaustion.md`. Reader version 2: `docs/
 - `competitive-analysis-3/va-check/research-checklist-va-2026-11-05.md`: checklist for a 187-post VA reading, not run (kept for the feature analysis).
 - `competitive-analysis-3/va-check/va_ids.json`, `va_archive_ids.json`: the post lists.
 - Repo copy: `docs/competitive-analysis-3-reader-v3.md` (version 2 marked superseded).
+
+## GitHub practices (2026-11-06, for the wrap-up skill audit)
+Saved from the GitHub Docs article API (`https://docs.github.com/api/article/body?pathname=...`) on 2026-11-06. Audit: `docs/reports/wrap-up-github-audit-2026-11-06.md`.
+- `github-practices/github-flow.md`: GitHub flow (branch, commit, PR, merge, delete branch). https://docs.github.com/en/get-started/using-github/github-flow
+- `github-practices/helping-others-review.md`: small PRs, context, self-review, security review.
+- `github-practices/repo-best-practices.md`: minimum security features; protected branches.
+- `github-practices/merge-methods.md`, `protected-branches.md`, `rulesets.md`, `auto-delete-branches.md`, `deleting-branches.md`, `status-checks.md`, `reviewing-changes.md`, `ignoring-files.md`, `about-ci.md`.
+- `github-practices/push-protection.md`, `secret-scanning.md`, `dependabot-alerts.md`, `github-plans.md`: what each plan and repo type includes.
+- `github-practices/git-book-contributing.html`: Pro Git 2nd ed., "Contributing to a Project" (Commit Guidelines). https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project
