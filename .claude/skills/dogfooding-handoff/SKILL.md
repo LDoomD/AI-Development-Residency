@@ -52,3 +52,7 @@ The same steps apply when a report is fed back in the same session after a compa
 ## Length
 
 Most handoffs run 150 to 400 lines. Detail the next milestone doesn't need stays in the linked files.
+
+## If this skill didn't load when it should have
+
+The hook in `.claude/hooks/dogfood-handoff-trigger.mjs` only fires on specific phrases. When the owner says they asked for a report and the skill didn't load, add a row to `.claude/hooks/dogfood-handoff-misses.md` with their exact words, add the phrase to the hook and its test file, and run `node --test .claude/hooks/dogfood-handoff-trigger.test.mjs`.

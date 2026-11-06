@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 // UserPromptSubmit hook for the dogfooding-handoff skill (user level, any project).
-// Fires only when the prompt sounds like writing or receiving a handoff report.
-// Prints nothing otherwise, so it costs no tokens on other messages.
+// Fires only when the owner's message asks for, or feeds in, a handoff / dog feeding
+// report, or says the session is ending. Prints nothing otherwise (no token cost).
+//
+// Narrowed 2026-11-06: fewer, specific phrases. Broad words such as "handoff" alone,
+// "new chat", "start fresh" no longer fire. The skill's own description still covers
+// those casual phrasings. Phrases that should have fired and didn't go in
+// dogfood-handoff-misses.md, then into the lists below.
 import { readFileSync } from "node:fs";
 
 let prompt = "";
@@ -11,23 +16,60 @@ try {
   process.exit(0);
 }
 
-// Skip messages that are not typed by the user: subagent hand-backs, messages
-// from other sessions, and system or app event frames. These often contain the
-// word "handoff" and caused false fires (seen 2026-11-05).
+// 1. Skip messages the owner didn't type: helper-agent reports, other sessions, system frames.
 const head = prompt.trimStart().slice(0, 300);
 const NOT_USER =
   /^(Another Claude session sent a message|\[SYSTEM NOTIFICATION|<(agent-message|teammate-message|task-notification|system-reminder|side-sessions-event|ci-monitor-event|local-command|command-name)\b)/i;
 if (NOT_USER.test(head)) process.exit(0);
 
-const WRITE = /\b(hand-?off|dog ?f(ee|oo)d(ing)?|before (i|we) (compact|clear|close|stop|end)|new (chat|session|conversation)|start (over|fresh)|feed (you|claude|it)|(write|make|give|create) (me )?(a |the |my )?(session |progress |end[- ]of[- ]day )?(report|recap|summary)|wrap (this |it |things )?up)\b/i;
-// Session-ending phrases, including the common typo "warp up".
-const WRAP = /\b((wrap|warp)(ping)? (this |it |things )?up|call(ing)? it (a day|a night|for (today|tonight))|done for (today|tonight|the day))\b/i;
-const RECEIVE = /\b(pick up where|where (we|i) left off|here'?s (my|the) (report|handoff|summary)|read (this|my|the) (report|handoff) first|continue from (this|my|the) (report|handoff))\b/i;
+// 2. Skip quoted lines (start with ">"): the owner often quotes Claude's earlier words.
+let text = prompt
+  .split("\n")
+  .filter((line) => !/^\s*>/.test(line))
+  .join("\n");
+
+// 3. Skip talk ABOUT the wrap-up skill ("my wrap up skill", "the wrap-up routine").
+text = text
+  .replace(/\b(my|the|your|this|that|our)\s+(wrap|warp)[- ]?up\b(\s+(skill|routine|hook|step|process|command))?/gi, " ")
+  .replace(/\b(wrap|warp)[- ]?up\s+(skill|routine|hook|step|process|command)\b/gi, " ");
+
+// "dog feeding" as the owner says it, including speech-to-text slips seen in chat
+// (dock/dark fitting). The word after it must be report/handoff/brief, so the folder name
+// "Dog Feeding Docs" never fires.
+const DOG = "(dog|dock|dark)[ -]?(feed|food|fitt?)(ing|er)?";
+
+const RECEIVE = new RegExp(
+  [
+    "\\bpick up where\\b",
+    "\\bwhere (we|i) left off\\b",
+    "\\bhere'?s (my|the) (report|handoff|hand-off)\\b",
+    "\\bread (this|my|the) (handoff|hand-off|report|" + DOG + " report) first\\b",
+    "\\bread this (handoff|hand-off)\\b",
+    "\\bcontinue from (this|my|the) (report|handoff|hand-off)\\b",
+    "\\bdogfood-\\d{4}-\\d{2}-\\d{2}[\\w-]*\\.md\\b", // a dragged-in report file
+  ].join("|"),
+  "i",
+);
+
+// Session ending (also the typo "warp up"). Routes to the project's wrap-up skill.
+const WRAP = /\b((wrap|warp)(ping)?([- ]| (this|it|things|everything) )up|call(ing)? it (a day|a night|for (today|tonight))|done for (today|tonight|the day))\b/i;
+
+const WRITE = new RegExp(
+  [
+    "\\bhand-?off (report|doc|document|brief)\\b",
+    "\\b" + DOG + "[ -]?(report|handoff|hand-off|brief|doc|document)\\b", // "doc" singular only: the folder is "Dog Feeding Docs"
+    "\\b(write|make|give|create|need|want) (me )?(a |the |my )?hand-?off\\b",
+    "\\bbefore (i|we) (compact|clear)\\b",
+    "\\bfeed (you|claude) (the|this|that|a|my) (report|handoff|brief)\\b",
+    "\\breport (i'?ll|i will|to) feed\\b",
+  ].join("|"),
+  "i",
+);
 
 let mode = null;
-if (RECEIVE.test(prompt)) mode = "receive";
-else if (WRAP.test(prompt)) mode = "wrap";
-else if (WRITE.test(prompt)) mode = "write";
+if (RECEIVE.test(text)) mode = "receive";
+else if (WRAP.test(text)) mode = "wrap";
+else if (WRITE.test(text)) mode = "write";
 if (!mode) process.exit(0);
 
 const context = {
