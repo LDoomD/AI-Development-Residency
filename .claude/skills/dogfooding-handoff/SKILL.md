@@ -34,7 +34,7 @@ This skill has two modes: **write** a handoff, and **receive** one.
 
    If not, fix it. For an important milestone, if subagents are available, give a fresh subagent only the report and ask it those four questions.
 6. **Save** where the project's rules say. If they say nothing, use `docs/handoffs/`. Name it `<YYYY-MM-DD>-handoff-<next-milestone>.md`, unless the project has its own naming rule. Add the "Replaced by" note to the older reports.
-7. **Tell the owner** in a few lines: where it's saved, what it replaces, and the paste-to-start line. Commit or push only if the owner or the project rules say to.
+7. **Tell the owner** in two or three lines: where it's saved and what it replaces. Don't repeat the paste-to-start line in chat; it's already in the report. Commit or push only if the owner or the project rules say to.
 
 ## Receive mode
 
@@ -44,7 +44,7 @@ This skill has two modes: **write** a handoff, and **receive** one.
    - the next milestone
    - which files are present and which are missing
    - any conflicts between the report and the files: files win, but flag it to the owner
-3. **Follow the report's first steps.** If they say to show something before starting (a checklist, a plan), show it and stop.
+3. **Follow the report's first steps** when the owner just says to pick up where we left off. If they say to show something before starting (a checklist, a plan), show it and stop. **If the owner asks for something different, do that first.** The report's first steps are the default, not an order.
 4. **Treat Approved outcomes and exclusions as settled.** Don't reopen them unless the owner asks. Treat Proposed items as open.
 
 The same steps apply when a report is fed back in the same session after a compact.
