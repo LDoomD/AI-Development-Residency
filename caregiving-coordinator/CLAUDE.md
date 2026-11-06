@@ -158,6 +158,15 @@ checked documents, never from chat memory.
   means first, then the number; full sentences; caregiver words, not research
   jargon ("supply," "coded," "keyword rule"). Test: would the owner understand
   it on first read?
+- **Short replies, and say what you mean (owner, 2026-11-06, at 90% usage).**
+  The owner has ADHD and reads fast, and every extra word costs usage.
+  - Say only what the owner needs to act or decide. Cut recaps, filler and
+    anything already saved in a file. Never paste the handoff report's
+    "Paste to start" line in chat: it lives inside the report.
+  - Never write "the results," "it," "that file" or "the test" without saying
+    which one and where it is. The owner doesn't carry every earlier line in
+    mind. Name it the first time, then keep it short.
+  - Short words, one idea per line, and a small table instead of a paragraph.
 - **Questions get answers, not edits.** When the owner asks a question, answer
   it and stop. Change files only after a clear yes.
 - **Every research pass splits by audience.** Before any reading starts, the
