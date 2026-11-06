@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → finish the dogfooding-handoff skill tests, then the feature analysis (2026-11-05)
 
+> **Replaced by** `dogfood-2026-11-06-handoff-feature-analysis.md` (2026-11-06). All the skill-test steps in this report are done. The project tables still live in `dogfood-2026-11-05-handoff-feature-analysis.md`.
+
 Replaces: `dogfood-2026-11-05-handoff-feature-analysis.md` (its project outcomes are still correct and are summarized here; read it for the full tables)
 
 > Paste to start: "Read this handoff report. Confirm in a few lines where we are. Then finish step 1 (grade the skill tests) and show me the results before doing anything else. Don't start the feature analysis until I say."
