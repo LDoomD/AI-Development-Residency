@@ -1,0 +1,154 @@
+{
+ "label": "full-build-hook-on",
+ "project": "/Users/landodoom/Desktop/AI Developer Residency /caregiving-coordinator",
+ "runs_per_query": 1,
+ "hooks": true,
+ "should_trigger_fired": "7/12",
+ "wrong_fires": "0/12",
+ "rows": [
+  {
+   "query": "split this task: build the caregiver dashboard so a parent's medication reminders show up for the whole family",
+   "should_trigger": true,
+   "hits": 1,
+   "runs": 1
+  },
+  {
+   "query": "let's use INVEST to audit the feature 'share the care schedule with siblings'",
+   "should_trigger": true,
+   "hits": 1,
+   "runs": 1
+  },
+  {
+   "query": "write a user story with acceptance criteria for letting a caregiver request a break",
+   "should_trigger": true,
+   "hits": 1,
+   "runs": 1
+  },
+  {
+   "query": "can you break this feature down into smaller tasks I can build in a week",
+   "should_trigger": true,
+   "hits": 1,
+   "runs": 1
+  },
+  {
+   "query": "okay let's work on this new deliverable",
+   "should_trigger": true,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "ready for the next deliverable, the release vision",
+   "should_trigger": true,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "let's start the feature analysis and scope it",
+   "should_trigger": true,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "my teacher wants the backlog in epics, features and tasks. help me write the tasks",
+   "should_trigger": true,
+   "hits": 1,
+   "runs": 1
+  },
+  {
+   "query": "write Given/When/Then scenarios for the login story",
+   "should_trigger": true,
+   "hits": 1,
+   "runs": 1
+  },
+  {
+   "query": "this story feels too big. is it small enough?",
+   "should_trigger": true,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "right-size these tickets before I put them on the Kanban board",
+   "should_trigger": true,
+   "hits": 1,
+   "runs": 1
+  },
+  {
+   "query": "turn this feature into stories with acceptance criteria",
+   "should_trigger": true,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "fix the typo in the README heading",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "what's the difference between a pull request and a merge?",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "summarize the competitive analysis table in two lines",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "I want to invest more time in the research this week",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "write the handoff report",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "explain what a market segment is",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "rename the folder to Week 2 Coding Challenge",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "open the PR and show me the checklist",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "what does the Dependabot alert mean?",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "which competitors are in the table?",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "what is a deliverable?",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  },
+  {
+   "query": "commit these changes",
+   "should_trigger": false,
+   "hits": 0,
+   "runs": 1
+  }
+ ]
+}
