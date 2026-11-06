@@ -124,10 +124,15 @@ checked documents, never from chat memory.
 - **Say where each answer came from** (which saved document or data file).
 - **Remind the user to ask for a markdown file or report** at these moments,
   in one line at the end of the reply:
-  1. A deliverable was approved: save it as a new markdown version.
+  1. A deliverable was approved: save it as a new markdown version, and open
+     its pull request (one deliverable = one branch = one PR) so the owner can
+     review and merge it.
   2. Before a new chat or a compact: write a dog feeding report.
   3. Something was redone or went wrong: write a short change report.
-  4. Before moving to the next step in the order.
+  4. Before moving to the next step in the order: check that the last
+     deliverable's PR is merged (`gh pr list --state open`, or `gh pr view`). If
+     it isn't, say one line: "<Deliverable>'s PR isn't merged yet. Merge it
+     first, or keep going?" It's a reminder, not a block: the owner decides.
   5. End of the session.
 - **Earlier deliverables lead the next one (rule added after repeated mistakes,
   2026-11-04).** Start each step from the earlier deliverables' actual tables. For
