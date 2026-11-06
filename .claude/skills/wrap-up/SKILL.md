@@ -1,6 +1,6 @@
 ---
 name: wrap-up
-description: Closes out a Claude Code session end-to-end for this residency repo — summarizes progress, updates persistent memory, writes the handoff report for the next session, runs the full git workflow (branch/commit/push/PR), writes a dated reflection entry to the user's Notion log, and names the next session's starting point. Use whenever the user says "wrap up," signals they're ending a session (e.g. "I have to go," "that's it for today"), or asks what's left open before stopping.
+description: Closes out a Claude Code session end-to-end for this residency repo — summarizes progress, updates persistent memory, writes the handoff report for the next session, runs the full git workflow (branch/commit/push/PR, a plain-words pre-merge check, and merges on the user's yes), writes a dated reflection entry to the user's Notion log, and names the next session's starting point. Use whenever the user says "wrap up," signals they're ending a session (e.g. "I have to go," "that's it for today"), or asks what's left open before stopping.
 ---
 
 # Wrap-up
@@ -19,7 +19,7 @@ Wrap-up progress:
 - [ ] 1. Summarize session progress
 - [ ] 2. Update persistent memory
 - [ ] 3. Write the handoff report (dogfooding-handoff skill)
-- [ ] 4. Git: branch → commit → push → PR
+- [ ] 4. Git: branch → commit → push → PR → pre-merge check → ask to merge
 - [ ] 5. Notion reflection: ask yes/no first; if yes, 4 mandatory questions, one at a time
 - [ ] 6. Next-session starting point
 ```
@@ -47,8 +47,28 @@ Do the full git workflow yourself — the user isn't running git commands from t
 - Follow the existing repo convention (see memory: `github-org-convention`): **feature branch → commit → push → open a PR**, never a direct commit to `main`.
 - Branch name describes the session's work, not just "wrap-up" (e.g. `caregiving-market-research-segments`).
 - Commit message follows the repo's existing style (see `git log` for examples).
-- After pushing, open the PR (`gh pr create`) so it's ready for the user to review/merge — don't merge it yourself.
-- Tell the user the PR link at the end.
+- Before committing, check the branch's PR is still open (`gh pr view --json state`). If it was already merged or closed, start a new branch from the latest `main` for the new work instead of adding to the old one.
+- After pushing, open the PR (`gh pr create`), or reuse the open one, and tell the user the PR link.
+
+### 4b. Pre-merge check, then ask before merging
+
+The user is learning GitHub and doesn't know yet what to look for in a PR, so do the check for him and explain it in plain words. Never merge without his yes.
+
+Run these checks on the PR (`gh pr diff --name-only`, `gh pr view`, `gh pr checks`) and show a short table, one line each, with ✅ or ⚠️:
+
+| Check | What it looks for |
+|---|---|
+| The right files | Only files from this work. Name any file that doesn't belong. |
+| Nothing deleted by mistake | List any deleted files, and say whether that was intended. |
+| No secrets | No passwords, API keys or tokens in the changes. |
+| No junk | No `.DS_Store`, `.textClipping`, temp or test leftovers. |
+| Checks pass | GitHub's automatic checks are green, or say "no automatic checks on this repo". |
+| The description matches | The PR title and description say what the changes really do. |
+
+Then ask with the AskUserQuestion popup: **"Merge this PR into main now?"** Options: "Yes, merge it" / "Not now". If any line is ⚠️, say which and recommend "Not now" until it's fixed.
+
+- **Yes** → `gh pr merge <number> --merge` (the repo's existing style: a merge commit). Then tell him it's merged and that the next work starts on a new branch from the updated `main`. Don't switch the local branch or delete branches without asking: other sessions may be using this folder (see memory: `other-sessions-are-the-user`).
+- **Not now** → leave the PR open and give him the link.
 
 ## 5. Write the session's Notion reflection entry
 
@@ -112,6 +132,8 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 - 2026-10-31: Rewrote the 4 questions. The user found "what happened and why" meaningless. The old wording came from merging questions to cut effort, not from journaling research. New questions are drawn from the `ai-case-study-journal` skill's entry fields (decision and why, where the AI was wrong or got pushed back on, what was hard and how it felt, what was learned) and the user approved the wording. "What's next" moved out of the questions into step 5.
 
 - 2026-11-06: Added step 3, the handoff report (dogfooding-handoff skill), before git, so it gets committed. Owner's call after a check showed wrap-up only left a chat summary and a one-line next step, never a saved handoff report.
+
+- 2026-11-06: Added step 4b. Wrap-up now checks the PR (files, deletions, secrets, junk, checks, description), shows the result in plain words, and asks "Merge this PR into main now?". It merges only on a yes. Also checks the PR is still open before adding commits. Owner asked for this because he is new to GitHub and didn't know what to check.
 
 ## Notes
 
