@@ -1,6 +1,6 @@
 ---
 name: wrap-up
-description: Closes out a Claude Code session end-to-end for this residency repo — summarizes progress, updates persistent memory, writes the handoff report for the next session, runs the full git workflow (branch/commit/push/PR, a plain-words pre-merge check, and merges on the user's yes), writes a dated reflection entry to the user's Notion log, and names the next session's starting point. Use whenever the user says "wrap up," signals they're ending a session (e.g. "I have to go," "that's it for today"), or asks what's left open before stopping.
+description: Closes out a Claude Code session end-to-end for this residency repo — summarizes progress, updates persistent memory, writes the handoff report for the next session, runs the git workflow (one branch and PR per deliverable, a plain-words pre-merge check, then hands the PR to the user with short steps to review and merge it themselves), writes a dated reflection entry to the user's Notion log, and names the next session's starting point. Use whenever the user says "wrap up," signals they're ending a session (e.g. "I have to go," "that's it for today"), or asks what's left open before stopping.
 ---
 
 # Wrap-up
@@ -19,7 +19,7 @@ Wrap-up progress:
 - [ ] 1. Summarize session progress
 - [ ] 2. Update persistent memory
 - [ ] 3. Write the handoff report (dogfooding-handoff skill)
-- [ ] 4. Git: branch → commit → push → PR → pre-merge check → ask to merge
+- [ ] 4. Git: branch → commit → push → PR → pre-merge check → hand the PR to the owner to merge
 - [ ] 5. Notion reflection: ask yes/no first; if yes, 4 mandatory questions, one at a time
 - [ ] 6. Next-session starting point
 ```
@@ -43,7 +43,11 @@ The step 1 summary is for the user to skim now. The handoff report is for the ne
 
 Do the full git workflow yourself. The user isn't running git commands from this session. These steps follow GitHub flow and GitHub's pull request guidance; sources and the audit behind them: `caregiving-coordinator/docs/reports/wrap-up-github-audit-2026-11-06.md`.
 
-**One task = one branch = one pull request.** Small pull requests are easier to check and safer to merge. Don't keep adding new work to an old branch across sessions.
+**One deliverable = one branch = one pull request.** Small pull requests are easier to check and safer to merge. Name the branch after the deliverable (for example `feature-analysis-4`). Work that isn't a deliverable (a skill, a fix) follows the same rule: one task, one PR.
+
+- **Deliverable not approved yet:** keep adding to the same branch and PR across sessions. The PR stays open.
+- **Deliverable approved:** the PR is ready for review and merge (step 4b). The next deliverable starts a new branch.
+- **Not sure if it's approved?** Check the newest handoff report (an **Approved** tag) or ask the owner once: "Is this deliverable approved?"
 
 - **Check where things stand:** `git status`, the current branch, and whether its PR is still open (`gh pr view --json state`).
   - Open PR for the *same* task → keep using it.
@@ -57,28 +61,51 @@ Do the full git workflow yourself. The user isn't running git commands from this
   - **Why:** the problem it solves.
   - **Where to look:** the most important files, and anything risky.
 
-### 4b. Pre-merge check, then ask before merging
+### 4b. Hand the PR to the owner (learner mode)
 
-The user is learning GitHub and doesn't know yet what to look for in a PR, so do the check for him and explain it in plain words. Never merge without his yes.
+The owner is new to GitHub and is learning to review and merge, so **the owner does the merge**. You open the PR, check it, and guide. **Don't run `gh pr merge`.** If the owner asks you to merge, remind them once that they chose to merge it themselves while learning, and merge only if they still say yes.
 
-Run these checks on the PR (`gh pr diff --name-only`, `gh pr view`, `gh pr checks`, `git fetch origin` and `git rev-list --count HEAD..origin/main`) and show a short table, one line each, with ✅ or ⚠️:
+Only do this when the deliverable (or task) is approved. If it isn't, say "PR #N stays open until the deliverable is approved", give the link, and stop.
 
-| Check | What it looks for |
-|---|---|
-| The right files | Only files from this task. Name any file that doesn't belong. |
-| Small enough to check | Say how many files changed. If it mixes unrelated work, say so and suggest splitting it. |
-| Nothing deleted by mistake | List any deleted files, and say whether that was intended. |
-| No secrets | No passwords, API keys or tokens in the changes. GitHub doesn't scan this private repo, so this check is the only one. |
-| No junk | No `.DS_Store`, `.textClipping`, temp or test leftovers. |
-| Tests pass | The project's tests ran and passed (show the command), or "no tests yet". |
-| Checks pass | GitHub's automatic checks are green, or say "no automatic checks on this repo". |
-| Up to date with main | The branch has every commit from `main`. If not, update it first (`git merge origin/main` on the branch) and fix any conflicts. |
-| The description matches | The PR description says what changed, why, and where to look, and matches the real changes. |
+**Keep it short.** The owner has ADHD, so no paragraphs. First run the checks (`gh pr diff --name-only`, `gh pr view`, `gh pr checks`, `git fetch origin` then `git rev-list --count HEAD..origin/main`, and the project's tests). Then show exactly this:
 
-Then ask with the AskUserQuestion popup: **"Merge this PR into main now?"** Options: "Yes, merge it" / "Not now". If any line is ⚠️, say which and recommend "Not now" until it's fixed.
+**Your turn: review and merge PR #N**
+Link: <url>
+What it does: <one line>
 
-- **Yes** → `gh pr merge <number> --merge` (the repo's existing style: a merge commit). GitHub deletes the branch on GitHub automatically after the merge (setting on). Then offer to tidy up locally: switch to `main`, pull the merge, and delete the old local branch. Ask first: other sessions may be using this folder.
-- **Not now** → leave the PR open and give him the link.
+| Check | Result | What it means |
+|---|---|---|
+| The right files | ✅ or ⚠️ | Only files from this task. Name any that don't belong. |
+| Small enough to check | ✅ or ⚠️ | Say how many files. Flag mixed, unrelated work. |
+| Nothing deleted by mistake | ✅ or ⚠️ | List deleted files, and whether that was intended. |
+| No secrets | ✅ or ⚠️ | No passwords, keys or tokens. GitHub doesn't scan this private repo, so this is the only check. |
+| No junk | ✅ or ⚠️ | No `.DS_Store`, `.textClipping`, temp or test leftovers. |
+| Tests pass | ✅ or ⚠️ | The project's tests ran (show the command), or "no tests yet". |
+| Checks pass | ✅ or ⚠️ | GitHub's automatic checks are green, or "no automatic checks on this repo". |
+| Up to date with main | ✅ or ⚠️ | Has every commit from `main`. If not, update the branch first. |
+| The description matches | ✅ or ⚠️ | What / why / where to look, and it matches the real changes. |
+
+Keep each "What it means" cell under about 8 words in the output.
+
+**Your steps on GitHub (about 5 minutes):**
+1. Open the link. Read the description. Does it match what we did?
+2. Click **Files changed**.
+3. Look at these first: <the 2-3 files that matter most>. Skip `docs/sources/`: those are saved web pages.
+4. Tick **Viewed** on each file you've looked at.
+5. Confused? Ask me "what is this change in <file>?" before merging.
+6. All good? Click the **Conversation** tab, then **Merge pull request**, then **Confirm merge**.
+
+End with: "Tell me 'merged', or tell me what looked wrong."
+
+If any row is ⚠️, say which, and replace step 6 with "Not yet: I'll fix it first."
+
+**After the owner says "merged":**
+- Check it: `gh pr view <number> --json state,mergedAt`. Confirm in one line.
+- Offer to tidy up locally: switch to `main`, pull, delete the old local branch. Ask first: other sessions may be using this folder.
+
+**If the owner reports a problem:** fix it on the same branch, push, and run the checks again.
+
+**Later:** when the owner says they're ready to hand merging back, switch to the earlier mode: show the table, ask "Merge this PR into main now?", and run `gh pr merge <number> --merge` only on a yes.
 
 ## 5. Write the session's Notion reflection entry
 
@@ -144,6 +171,7 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 - 2026-11-06: Added step 3, the handoff report (dogfooding-handoff skill), before git, so it gets committed. Owner's call after a check showed wrap-up only left a chat summary and a one-line next step, never a saved handoff report.
 
 - 2026-11-06: Rewrote step 4 after a GitHub best-practices audit (docs/reports/wrap-up-github-audit-2026-11-06.md): one branch and one PR per task, one commit per separate change, run tests before pushing, a 3-part PR description, the main-branch guard hook, an up-to-date check, a size check, and local tidy-up after a merge.
+- 2026-11-06: Step 4b is now learner mode: the owner reviews and merges the PR themselves, with a short 6-step guide and a check table that says what each line means. One deliverable = one branch = one PR; the PR stays open until the deliverable is approved. Owner asked for this because they are new to GitHub and don't want Claude to have full autonomy over merging.
 - 2026-11-06: Added step 4b. Wrap-up now checks the PR (files, deletions, secrets, junk, checks, description), shows the result in plain words, and asks "Merge this PR into main now?". It merges only on a yes. Also checks the PR is still open before adding commits. Owner asked for this because he is new to GitHub and didn't know what to check.
 
 ## Notes
