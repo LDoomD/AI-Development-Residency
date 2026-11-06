@@ -30,8 +30,5 @@ Helping worn-out caregivers get relief (segments 11 and 12).
 
 ## Still open
 
-- **Section 4, the "What the forum threads, videos and papers add" column:** old to-do phrases remain:
-  - row 10: "OUT OF DATE…"
-  - rows 11 and 14: "Re-assess."
-  - row 12: "still not researched"
+- Nothing open in section 4. The old to-do phrases (row 10 "OUT OF DATE…", rows 11 and 14 "Re-assess.", row 12 "still not researched") were removed on Figma on 2026-11-05. Checked on Figma 2026-11-06: none found in sections 1-4.
 - **The market analysis is complete at section 4.** No section 5.
