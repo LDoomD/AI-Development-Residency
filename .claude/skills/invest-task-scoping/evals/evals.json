@@ -1,0 +1,75 @@
+{
+ "skill_name": "invest-task-scoping",
+ "evals": [
+  {
+   "id": 1,
+   "name": "split-vague-dashboard",
+   "prompt": "split this task: build the caregiver dashboard so a parent's medication reminders show up for the whole family",
+   "expected_output": "The original fails several letters; it is split into small slices a person can use, in build order; Story 1 is written in full; it stops for approval.",
+   "assertions": [
+    "Grades all six letters (Independent, Negotiable, Valuable, Estimable, Small, Testable) pass or fail, with a reason for each fail",
+    "Every piece it proposes is sized at 2 weeks or less",
+    "Story 1 uses the formula: As a [audience], I want [goal], so that [value]",
+    "Story 1 has acceptance criteria and at least one Given/When Then scenario",
+    "Describes outcomes and does not prescribe screens, tools or code",
+    "Ends with a receipt (Audited, Split, Written, Not checked)",
+    "Stops after Story 1 and asks for approval before Story 2",
+    "scripts/check_invest.py passes on the answer (run on the saved text)"
+   ]
+  },
+  {
+   "id": 2,
+   "name": "audit-already-good-story",
+   "prompt": "Audit this user story with INVEST: As an adult child caring for a parent, I want to ask a sibling to cover one evening, so that I can take a break without calling everyone. It takes about a week.",
+   "expected_output": "Passes most letters, is not over-split, notes anything weak (for example how a sibling answers), and still ends with a receipt.",
+   "assertions": [
+    "Grades all six letters",
+    "Does not split a story that already passes Small",
+    "Ends with a receipt",
+    "Stops and waits for the owner"
+   ]
+  },
+  {
+   "id": 3,
+   "name": "rewrite-solution-shaped-story",
+   "prompt": "user story: As a user, I want a dropdown menu in the sidebar with a red Remind button, so that I can click it.",
+   "expected_output": "Flags that it names a solution and has no benefit; rewrites it as an outcome for a named audience.",
+   "assertions": [
+    "Fails Negotiable and says why (dropdown, sidebar and button are solutions)",
+    "Rewrites the story as an outcome for a named audience",
+    "Does not keep the dropdown or button in the rewritten story"
+   ]
+  },
+  {
+   "id": 4,
+   "name": "scope-the-whole-app",
+   "prompt": "let's use INVEST to scope the whole caregiver app for the MVP",
+   "expected_output": "Says this is far too big; proposes epics and features, not 40 tickets; asks before generating a long list.",
+   "assertions": [
+    "Fails Small and Independent for the whole app",
+    "Asks before producing a long list (more than about 9 pieces)",
+    "Does not write dozens of full stories at once"
+   ]
+  },
+  {
+   "id": 5,
+   "name": "homework-deliverable",
+   "prompt": "scope the feature analysis deliverable with INVEST. It is a homework analysis table, not code.",
+   "expected_output": "Uses homework mode or asks which mode; grades and splits the deliverable into checkable steps with a definition of done; no forced 'As a user' sentence.",
+   "assertions": [
+    "Uses homework mode or asks the owner which mode to use",
+    "Gives a definition of done and checks for each step",
+    "Does not force an app-feature story sentence onto an analysis"
+   ]
+  },
+  {
+   "id": 6,
+   "name": "tiny-fix-should-not-trigger",
+   "prompt": "fix the typo in the README heading",
+   "expected_output": "The skill does not load.",
+   "assertions": [
+    "The invest-task-scoping skill is not used"
+   ]
+  }
+ ]
+}
