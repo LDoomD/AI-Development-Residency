@@ -1,3 +1,5 @@
+> **Replaced by `dogfood-2026-11-05-handoff-skill-evals-then-feature-analysis.md`** (2026-11-05). Its project outcomes (sections 3-6) are still correct and are the inputs for the feature analysis.
+
 # Handoff report: start the feature analysis (2026-11-05)
 
 **This is the newest dog feeding report.** It replaces the three 2026-11-05 reports:
