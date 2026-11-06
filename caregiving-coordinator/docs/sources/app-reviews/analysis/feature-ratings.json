@@ -1,0 +1,493 @@
+{
+ "Caring Village": {
+  "1": {
+   "worked": 14,
+   "problems": 1,
+   "total": 15,
+   "label": "Mostly works",
+   "problem_types": [
+    [
+     "reminders_failing",
+     1
+    ]
+   ]
+  },
+  "2": {
+   "worked": 2,
+   "problems": 1,
+   "total": 3,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "app_reliability",
+     1
+    ]
+   ]
+  },
+  "3": {
+   "worked": 0,
+   "problems": 1,
+   "total": 1,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "access_for_others",
+     1
+    ]
+   ]
+  },
+  "4": {
+   "worked": 4,
+   "problems": 1,
+   "total": 5,
+   "label": "Mostly works",
+   "problem_types": [
+    [
+     "reminders_failing",
+     1
+    ]
+   ]
+  },
+  "6": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "7": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  }
+ },
+ "CaringBridge": {
+  "1": {
+   "worked": 4,
+   "problems": 1,
+   "total": 5,
+   "label": "Mostly works",
+   "problem_types": []
+  },
+  "2": {
+   "worked": 63,
+   "problems": 10,
+   "total": 73,
+   "label": "Mostly works",
+   "problem_types": [
+    [
+     "app_reliability",
+     8
+    ],
+    [
+     "alerts_unreliable",
+     1
+    ]
+   ]
+  },
+  "3": {
+   "worked": 6,
+   "problems": 5,
+   "total": 11,
+   "label": "Mixed",
+   "problem_types": [
+    [
+     "access_for_others",
+     4
+    ]
+   ]
+  },
+  "4": {
+   "worked": 2,
+   "problems": 1,
+   "total": 3,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "alerts_unreliable",
+     1
+    ]
+   ]
+  },
+  "6": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "7": {
+   "worked": 0,
+   "problems": 1,
+   "total": 1,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "alerts_unreliable",
+     1
+    ]
+   ]
+  }
+ },
+ "Lotsa Helping Hands": {
+  "1": {
+   "worked": 1,
+   "problems": 0,
+   "total": 1,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "2": {
+   "worked": 0,
+   "problems": 2,
+   "total": 2,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "app_reliability",
+     2
+    ]
+   ]
+  },
+  "3": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "4": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "6": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "7": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  }
+ },
+ "Lively": {
+  "1": {
+   "worked": 1,
+   "problems": 1,
+   "total": 2,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "not_syncing",
+     1
+    ]
+   ]
+  },
+  "2": {
+   "worked": 3,
+   "problems": 43,
+   "total": 46,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "app_reliability",
+     12
+    ],
+    [
+     "alerts_unreliable",
+     9
+    ],
+    [
+     "not_syncing",
+     1
+    ]
+   ]
+  },
+  "3": {
+   "worked": 3,
+   "problems": 42,
+   "total": 45,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "access_for_others",
+     3
+    ]
+   ]
+  },
+  "4": {
+   "worked": 0,
+   "problems": 10,
+   "total": 10,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "alerts_unreliable",
+     9
+    ],
+    [
+     "not_syncing",
+     1
+    ]
+   ]
+  },
+  "6": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "7": {
+   "worked": 34,
+   "problems": 78,
+   "total": 112,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "readings_wrong",
+     33
+    ],
+    [
+     "safety_gap",
+     13
+    ],
+    [
+     "alerts_unreliable",
+     9
+    ]
+   ]
+  }
+ },
+ "Medical Guardian": {
+  "1": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "2": {
+   "worked": 0,
+   "problems": 12,
+   "total": 12,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "app_reliability",
+     11
+    ],
+    [
+     "alerts_unreliable",
+     1
+    ]
+   ]
+  },
+  "3": {
+   "worked": 0,
+   "problems": 3,
+   "total": 3,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "access_for_others",
+     3
+    ]
+   ]
+  },
+  "4": {
+   "worked": 0,
+   "problems": 1,
+   "total": 1,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "alerts_unreliable",
+     1
+    ]
+   ]
+  },
+  "6": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "7": {
+   "worked": 5,
+   "problems": 22,
+   "total": 27,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "readings_wrong",
+     9
+    ],
+    [
+     "safety_gap",
+     5
+    ],
+    [
+     "alerts_unreliable",
+     1
+    ]
+   ]
+  }
+ },
+ "Medisafe": {
+  "1": {
+   "worked": 1,
+   "problems": 4,
+   "total": 5,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "not_syncing",
+     2
+    ],
+    [
+     "reminders_failing",
+     2
+    ]
+   ]
+  },
+  "2": {
+   "worked": 0,
+   "problems": 10,
+   "total": 10,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "family_cant_see_same_info",
+     4
+    ],
+    [
+     "app_reliability",
+     2
+    ],
+    [
+     "alerts_unreliable",
+     2
+    ],
+    [
+     "not_syncing",
+     2
+    ]
+   ]
+  },
+  "3": {
+   "worked": 0,
+   "problems": 5,
+   "total": 5,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "family_cant_see_same_info",
+     4
+    ],
+    [
+     "access_for_others",
+     1
+    ]
+   ]
+  },
+  "4": {
+   "worked": 5,
+   "problems": 10,
+   "total": 15,
+   "label": "Mostly problems",
+   "problem_types": [
+    [
+     "family_cant_see_same_info",
+     4
+    ],
+    [
+     "alerts_unreliable",
+     2
+    ],
+    [
+     "not_syncing",
+     2
+    ],
+    [
+     "reminders_failing",
+     2
+    ]
+   ]
+  },
+  "6": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "7": {
+   "worked": 2,
+   "problems": 2,
+   "total": 4,
+   "label": "Too few reviews to judge",
+   "problem_types": [
+    [
+     "alerts_unreliable",
+     2
+    ]
+   ]
+  }
+ },
+ "Epic MyChart": {
+  "1": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "2": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "3": {
+   "worked": 17,
+   "problems": 19,
+   "total": 36,
+   "label": "Mixed",
+   "problem_types": []
+  },
+  "4": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  },
+  "6": {
+   "worked": 25,
+   "problems": 8,
+   "total": 33,
+   "label": "Mostly works",
+   "problem_types": []
+  },
+  "7": {
+   "worked": 0,
+   "problems": 0,
+   "total": 0,
+   "label": "Too few reviews to judge",
+   "problem_types": []
+  }
+ }
+}

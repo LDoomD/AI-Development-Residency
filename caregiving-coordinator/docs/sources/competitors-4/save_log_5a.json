@@ -1,0 +1,76 @@
+[
+ {
+  "company": "trualta",
+  "url": "https://www.trualta.com/getting-started/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "trualta",
+  "url": "https://areaagencyonaging.org/trualta-caregiver-support/",
+  "robots_allowed": true,
+  "file": "trualta/areaagencyonaging_org_trualta_caregiver_support.html",
+  "status": 200,
+  "bytes": 844,
+  "note": "possible bot page or tiny page: check before use"
+ },
+ {
+  "company": "trualta",
+  "url": "https://www.ageways.org/caregiver-services/trualta-family-caregiver-online-learning/",
+  "robots_allowed": true,
+  "file": "trualta/www_ageways_org_caregiver_services_trualta_family_caregiver_online_learning.html",
+  "status": 200,
+  "bytes": 107289
+ },
+ {
+  "company": "trualta",
+  "url": "https://www.coaaa.org/services/trualta-online-caregiver-resource/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "cariloop",
+  "url": "https://hr.msu.edu/benefits/caregiving/cariloop-faqs.html",
+  "robots_allowed": true,
+  "file": "cariloop/hr_msu_edu_benefits_caregiving_cariloop_faqs_html.html",
+  "status": 200,
+  "bytes": 956,
+  "note": "possible bot page or tiny page: check before use"
+ },
+ {
+  "company": "calm",
+  "url": "https://www.calm.com/freetrial/plans",
+  "robots_allowed": true,
+  "file": "calm/www_calm_com_freetrial_plans.html",
+  "status": 200,
+  "bytes": 42918
+ },
+ {
+  "company": "calm",
+  "url": "https://www.everydayhealth.com/mental-health-services/calmapp-review/",
+  "robots_allowed": true,
+  "file": "calm/www_everydayhealth_com_mental_health_services_calmapp_review.html",
+  "status": 200,
+  "bytes": 294755
+ },
+ {
+  "company": "headspace",
+  "url": "https://www.headspace.com/teachers/sam",
+  "robots_allowed": true,
+  "file": "headspace/www_headspace_com_teachers_sam.html",
+  "status": 200,
+  "bytes": 310812
+ },
+ {
+  "company": "headspace",
+  "url": "https://lifestack.ai/blog/headspace-pricing",
+  "robots_allowed": true,
+  "file": "headspace/lifestack_ai_blog_headspace_pricing.html",
+  "status": 200,
+  "bytes": 248435
+ }
+]

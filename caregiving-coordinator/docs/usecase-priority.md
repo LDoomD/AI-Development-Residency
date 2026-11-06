@@ -34,3 +34,20 @@ Placed on the effort and value matrix in the audience workshop board ("Prioritiz
 Audience 1 = adult child caring for a parent (55 threads). Audience 2 = spouse or partner caring for a husband, wife or partner (54 threads). Themes are worded slightly differently for each audience.
 
 **Limits:** forums skew to dementia caregivers (AgingCare, ALZConnected). Counts are minimums. The effort proxy says what exists today, not how hard anything is to build.
+
+## Update 2026-11-03: one new use case from Reddit (added; the existing rows are unchanged)
+
+**Getting into a parent's accounts (banks, insurers, patient portals, passwords): Audience 1.**
+- **Evidence:** 147 of 825 caregiver posts on Reddit (18%). Of those, 108 are by someone caring for a parent, 4 by someone caring for a spouse, 9 both, and 26 unclear, so it belongs to Audience 1.
+- **What goes wrong:** banks, insurers or agencies won't deal with the caregiver, even with a POA (52); the parent's passwords are lost, forgotten, hidden or on scraps of paper (35); sign-in codes go to the parent's phone or email (23).
+- **In their words:**
+  - "Can't get a code because it gets sent to my moms phone." ([r/CaregiverSupport, 2026-01-02](https://www.reddit.com/r/CaregiverSupport/comments/1q1q82k/))
+  - "They write it down on daily mail, random sheets of paper, and occassionally type it in a word doc." ([r/AgingParents, 2024-08-05](https://www.reddit.com/r/AgingParents/comments/1el0weu/))
+- **Value: High.** 18% is above the 15% line, though this is a different base (Reddit posts, not forum threads).
+- **Effort (proxy): High.** Coverage is partial: Everplans shares accounts (Premium, no caregiver reviews found) and MyChart has proxy access (Mixed, 17 of 36), but neither helps with banks or other sign-ins.
+- **Quadrant: 2, high priority (high effort, high value).**
+- **Why it's new:** the forum read folded this into "Money, legal papers, facility bills". Reddit shows it's mostly about logins and institutions refusing the caregiver, not the papers themselves.
+
+**Checked but not added:** "Answers from doctors and hospitals" came up in 58 of 825 Reddit posts (7%, doctors not sharing with family plus portal problems). That's still under the 15% line, so it stays Low.
+
+Sources: `docs/reddit-caregiver-findings-2026-11-03.md`; counts in `docs/sources/reddit/arctic-shift-2026-11-03/mention-counts.json` and `reddit-findings*.json` (`count_mentions.py`, `analyze_tags.py`). Limits: tagged once by Claude helpers; who the writer cares for was found by words like "my mom" and "my husband".

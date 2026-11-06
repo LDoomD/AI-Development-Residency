@@ -1,0 +1,316 @@
+[
+ {
+  "company": "Geriatric care managers (Aging Life Care professionals)",
+  "problems": [
+   "The parent refuses help",
+   "Choosing and paying for a place",
+   "Dementia behavior, hard talks"
+  ],
+  "url": "https://www.aarp.org/caregiving/basics/geriatric-care-manager/",
+  "file": "aging-life-care/www_aarp_org_caregiving_basics_geriatric_care_manager.txt",
+  "claims": [
+   [
+    "What they do",
+    "Explaining complex or difficult topics to care recipients and their families."
+   ],
+   [
+    "What they do",
+    "Creating short- and long-term care plans that could include assisted living or nursing homes."
+   ],
+   [
+    "Who pays",
+    "Professionals charge by the hour, ranging from $150 to $300, depending on the geographic region."
+   ],
+   [
+    "Who pays",
+    "Neither Medicare nor Medicaid typically pays for care management services."
+   ],
+   [
+    "Who they serve",
+    "they generally serve clients and families whose incomes are too high to qualify for publicly funded services"
+   ]
+  ],
+  "limit": "The association's own site (aginglifecare.org) blocks automated saving in robots.txt, so these facts come from an AARP article (updated August 05, 2026)."
+ },
+ {
+  "company": "Trualta (online caregiver skills training)",
+  "problems": [
+   "Dementia behavior, hard talks",
+   "Medicines and hands-on care",
+   "The parent refuses help"
+  ],
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8293668/",
+  "file": "trualta/pmc_ncbi_nlm_nih_gov_articles_pmc8293668.txt",
+  "claims": [
+   [
+    "The problem it targets",
+    "family members are often tasked with managing the behavioral symptoms of dementia, such as agitation, rejection/refusal of care, and apathy"
+   ],
+   [
+    "What caregivers used",
+    "nearly half of the caregiver population used skills they learned to address personal care activities, promote safety, and access local resources"
+   ]
+  ],
+  "limit": "Trualta's own site and the New York aging page block automated saving, so who pays and the price are NOT checked. The source is a published study with Trualta staff among the authors (45 caregivers)."
+ },
+ {
+  "company": "Eldercare Locator and Area Agencies on Aging (public, free)",
+  "problems": [
+   "Exhaustion, doing it alone",
+   "Choosing and paying for a place",
+   "Money, legal papers, the parent's accounts"
+  ],
+  "url": "https://www.usaging.org/eldercareloc",
+  "file": "eldercare-locator/www_usaging_org_eldercareloc.txt",
+  "claims": [
+   [
+    "What it is",
+    "the Eldercare Locator is the only national information and referral resource to provide support to consumers across the spectrum of issues affecting older Americans"
+   ],
+   [
+    "Who pays",
+    "The Locator was established and is funded by the U.S. Administration on Aging"
+   ]
+  ],
+  "limit": "A referral service: it connects families to local agencies. What each local agency offers varies and was not checked."
+ },
+ {
+  "company": "Eldercare Locator (government page)",
+  "problems": [],
+  "url": "https://eldercare.acl.gov/home",
+  "file": "eldercare-locator/eldercare_acl_gov_home.txt",
+  "claims": [
+   [
+    "How to reach it",
+    "Welcome to the Eldercare Locator, a public service of the Administration for Community Living connecting you to services for older adults and their families."
+   ]
+  ],
+  "limit": ""
+ },
+ {
+  "company": "Aeroflow Urology (incontinence supplies through insurance)",
+  "problems": [
+   "Medicines and hands-on care"
+  ],
+  "url": "https://aeroflowurology.com/incontinence-supplies-medicaid",
+  "file": "aeroflow-urology/aeroflowurology_com_incontinence_supplies_medicaid.txt",
+  "claims": [
+   [
+    "Who pays",
+    "Learn how to receive $0 incontinence supplies through Medicaid"
+   ],
+   [
+    "What it does",
+    "Submit your information, call your doctor, select your free products, and we'll ship them to you"
+   ],
+   [
+    "Who it is for",
+    "If you or a loved one lives with incontinence, you shouldn’t have to worry about paying for supplies like diapers or pads."
+   ]
+  ],
+  "limit": "Covers supplies only, and only when Medicaid or other insurance covers them. The company's own page."
+ },
+ {
+  "company": "A Place for Mom (senior living referral)",
+  "problems": [
+   "Choosing and paying for a place"
+  ],
+  "url": "https://www.aplaceformom.com/about",
+  "file": "../competitors/a-place-for-mom/www_aplaceformom_com_about.txt",
+  "claims": [
+   [
+    "Who pays",
+    "are always free to families. A Place for Mom is paid by our senior living network communities"
+   ]
+  ],
+  "limit": "Saved 2026-11-01 for the competitor camps. The company's own page."
+ },
+ {
+  "company": "Alzheimer's Association 24/7 Helpline",
+  "problems": [
+   "Dementia behavior, hard talks",
+   "Exhaustion, doing it alone"
+  ],
+  "url": "https://www.alz.org/help-support/resources/helpline",
+  "file": "../competitors-3/pages/www-alz-org-help-support-resources-helpline.txt",
+  "claims": [
+   [
+    "What it does",
+    "How to understand and respond to dementia-related behaviors"
+   ],
+   [
+    "Who pays",
+    "is a free service offering support for people living with dementia, caregivers, families and the public"
+   ]
+  ],
+  "limit": "Saved 2026-11-02. A nonprofit."
+ },
+ {
+  "company": "Cariloop (employer caregiving benefit)",
+  "problems": [
+   "Exhaustion, doing it alone"
+  ],
+  "url": "https://www.cariloop.com/solutions/caregiver-support-platform/coaching",
+  "file": "../competitors-3/pages/www-cariloop-com-solutions-caregiver-support-platform-coaching.txt",
+  "claims": [
+   [
+    "What it does",
+    "When caregiving gets overwhelming, our Coaches are there to listen and guide employees"
+   ]
+  ],
+  "limit": "Saved 2026-11-02. Paid by employers; the price is not stated."
+ },
+ {
+  "company": "Medicare GUIDE Model (dementia care)",
+  "problems": [
+   "Dementia behavior, hard talks",
+   "Exhaustion, doing it alone"
+  ],
+  "url": "https://www.cms.gov/priorities/innovation/innovation-models/guide",
+  "file": "../competitors-3/pages/www-cms-gov-priorities-innovation-innovation-models-guide.txt",
+  "claims": [
+   [
+    "What it covers",
+    "respite services up to $2,500 annually"
+   ]
+  ],
+  "limit": "Saved 2026-11-02. Government program, only for people in participating practices."
+ },
+ {
+  "company": "Calm (general mental health app)",
+  "problems": [
+   "Exhaustion, doing it alone"
+  ],
+  "url": "https://www.calm.com/",
+  "file": "../competitors-2/calm/www_calm_com.txt",
+  "claims": [
+   [
+    "What it does",
+    "Get in-the-moment relief for stress and anxiety so you can get back to living."
+   ],
+   [
+    "How it sells",
+    "Try Calm for Free"
+   ]
+  ],
+  "limit": "Saved 2026-11-02. Not made for caregivers. The market analysis names it as crowding the burnout segment (segment 12)."
+ },
+ {
+  "company": "Headspace (general mental health app)",
+  "problems": [
+   "Exhaustion, doing it alone"
+  ],
+  "url": "https://www.headspace.com/",
+  "file": "../competitors-2/headspace/www_headspace_com.txt",
+  "claims": [
+   [
+    "What it does",
+    "Mental health app with expert-led meditations and tools"
+   ],
+   [
+    "Who pays",
+    "Online therapy that accepts insurance"
+   ]
+  ],
+  "limit": "Saved 2026-11-02. Not made for caregivers. The market analysis names it as crowding the burnout segment (segment 12)."
+ },
+ {
+  "company": "Medisafe (App Store prices)",
+  "problems": [
+   "Medicines and hands-on care"
+  ],
+  "url": "https://apps.apple.com/us/app/medisafe-medication-management/id573916946",
+  "file": "medisafe/firecrawl_appstore_medisafe.txt",
+  "claims": [
+   [
+    "Price",
+    "Monthly Premium Upgrade$2.99"
+   ],
+   [
+    "Price",
+    "1 Year Premium Subscription$39.99"
+   ],
+   [
+    "Price",
+    "1 Year Premium Subscription$27.99"
+   ]
+  ],
+  "limit": "Firecrawl scrape 2026-11-04 (renders JavaScript). Several price points are listed; which one a user sees isn't stated."
+ },
+ {
+  "company": "Aging Life Care Association (own site)",
+  "problems": [
+   "The parent refuses help",
+   "Choosing and paying for a place"
+  ],
+  "url": "https://www.aginglifecare.org/",
+  "file": "manual-saves/aginglifecare_org_home.txt",
+  "claims": [
+   [
+    "What they do",
+    "Through consultation, assessment, care coordination and advocacy, an Aging Life Care Professional works with clients and families to address these challenges."
+   ]
+  ],
+  "limit": "Read in the built-in browser 2026-11-04."
+ },
+ {
+  "company": "Trualta via Central Ohio Area Agency on Aging",
+  "problems": [
+   "Dementia behavior, hard talks",
+   "Medicines and hands-on care"
+  ],
+  "url": "https://www.coaaa.org/services/trualta-online-caregiver-resource/",
+  "file": "manual-saves/coaaa_org_trualta.txt",
+  "claims": [
+   [
+    "Who pays",
+    "to offer this resource at no cost to central Ohio caregivers who live in COAAA's eight-county area"
+   ],
+   [
+    "What it covers",
+    "managing challenging behaviors"
+   ]
+  ],
+  "limit": "Read in the built-in browser 2026-11-04. trualta.com returned HTTP 500 in the browser that day."
+ },
+ {
+  "company": "Cariloop via Michigan State University",
+  "problems": [
+   "Exhaustion, doing it alone"
+  ],
+  "url": "https://hr.msu.edu/benefits/caregiving/cariloop-faqs.html",
+  "file": "manual-saves/hr_msu_edu_cariloop_faqs.txt",
+  "claims": [
+   [
+    "Who pays",
+    "this benefit is provided at no cost to MSU employees"
+   ],
+   [
+    "Price to extend",
+    "employees have the option to extend the coaching for $249/month."
+   ]
+  ],
+  "limit": "One employer's terms; other employers may differ."
+ },
+ {
+  "company": "Trualta (own site)",
+  "problems": [
+   "Dementia behavior, hard talks",
+   "Medicines and hands-on care",
+   "Exhaustion, doing it alone"
+  ],
+  "url": "https://www.trualta.com/",
+  "file": "manual-saves/trualta_com_for_caregivers.txt",
+  "claims": [
+   [
+    "Who pays",
+    "Offered at no cost through local partnerships"
+   ],
+   [
+    "What it does",
+    "Ask questions, share advice, and get support 24/7"
+   ]
+  ],
+  "limit": "Read in the built-in browser 2026-11-04. Its satisfaction figures (90%, 4.8/5) are the company's own claims."
+ }
+]

@@ -1,0 +1,649 @@
+{
+ "how": "Reviews and forum posts collected 2026-11-03 to fill thin cells. Read and tagged by Claude in this session (one pass, no person double-checked). Only posts where the writer is caring for or helping a relative are tagged. Each entry: index in the source file's list, and per column W (worked) or P (problem). Columns: 1 shared calendar and task sign-up, 2 one update reaches everyone, 3 relatives join with their own access, 6 see medical records and test results, 7 emergency help and alerts. Posts naming no app feature, or about the writer's own care only, are left untagged.",
+ "sources": {
+  "google-play/google-play-reviews-lotsa.json": {
+   "app": "Lotsa Helping Hands",
+   "tags": {},
+   "note": "None of the 20 reviews clearly say the writer is caring for a relative, so none are tagged."
+  },
+  "google-play/google-play-reviews-mychart-family.json": {
+   "app": "Epic MyChart",
+   "tags": {
+    "0": {
+     "6": "W"
+    },
+    "1": {
+     "3": "P"
+    },
+    "2": {
+     "3": "W"
+    },
+    "4": {
+     "6": "W"
+    },
+    "5": {
+     "3": "P"
+    },
+    "6": {
+     "3": "P"
+    },
+    "9": {
+     "6": "W"
+    },
+    "11": {
+     "3": "P"
+    },
+    "12": {
+     "3": "W",
+     "6": "W"
+    },
+    "18": {
+     "3": "W",
+     "6": "W"
+    },
+    "21": {
+     "3": "W"
+    },
+    "22": {
+     "3": "W",
+     "6": "W"
+    },
+    "24": {
+     "3": "P"
+    },
+    "25": {
+     "6": "W"
+    },
+    "26": {
+     "3": "P"
+    },
+    "31": {
+     "3": "P"
+    },
+    "32": {
+     "6": "W"
+    },
+    "34": {
+     "3": "W",
+     "6": "W"
+    },
+    "35": {
+     "3": "P"
+    },
+    "36": {
+     "3": "W",
+     "6": "W"
+    },
+    "37": {
+     "3": "W"
+    },
+    "40": {
+     "3": "P"
+    },
+    "41": {
+     "6": "W"
+    },
+    "42": {
+     "3": "W"
+    },
+    "43": {
+     "3": "W"
+    },
+    "44": {
+     "3": "W"
+    },
+    "45": {
+     "3": "W",
+     "6": "W"
+    },
+    "50": {
+     "3": "W",
+     "6": "W"
+    },
+    "51": {
+     "6": "W"
+    },
+    "52": {
+     "6": "P"
+    },
+    "55": {
+     "3": "P"
+    },
+    "56": {
+     "3": "P"
+    },
+    "57": {
+     "3": "P"
+    }
+   }
+  },
+  "google-play/google-play-reviews-caringbridge-family-help.json": {
+   "app": "CaringBridge",
+   "dedupe_against": "google-play/google-play-reviews-caringbridge.json",
+   "tags": {
+    "0": {
+     "3": "P"
+    },
+    "1": {
+     "2": "W"
+    },
+    "2": {
+     "2": "W"
+    },
+    "3": {
+     "1": "P",
+     "3": "W"
+    },
+    "4": {
+     "2": "W"
+    },
+    "5": {
+     "2": "W"
+    },
+    "6": {
+     "2": "W",
+     "3": "W"
+    },
+    "7": {
+     "2": "W"
+    },
+    "8": {
+     "2": "W"
+    },
+    "9": {
+     "2": "W"
+    },
+    "10": {
+     "2": "W"
+    },
+    "11": {
+     "2": "W"
+    },
+    "12": {
+     "3": "W"
+    },
+    "13": {
+     "2": "W"
+    },
+    "14": {
+     "2": "W",
+     "3": "W"
+    },
+    "15": {
+     "2": "W"
+    },
+    "16": {
+     "2": "W"
+    },
+    "17": {
+     "3": "P"
+    },
+    "18": {
+     "2": "W"
+    },
+    "19": {
+     "2": "W",
+     "3": "W"
+    },
+    "20": {
+     "2": "W"
+    },
+    "21": {
+     "2": "W"
+    },
+    "22": {
+     "2": "W"
+    },
+    "23": {
+     "2": "W"
+    },
+    "24": {
+     "2": "W"
+    },
+    "25": {
+     "1": "W",
+     "2": "W"
+    },
+    "26": {
+     "2": "W"
+    },
+    "27": {
+     "2": "W"
+    },
+    "28": {
+     "1": "W",
+     "2": "W"
+    },
+    "29": {
+     "2": "W"
+    },
+    "30": {
+     "2": "W"
+    },
+    "31": {
+     "2": "W"
+    },
+    "32": {
+     "2": "P"
+    },
+    "33": {
+     "2": "W",
+     "3": "W"
+    },
+    "34": {
+     "2": "P"
+    },
+    "35": {
+     "2": "W"
+    }
+   }
+  },
+  "google-play/google-play-reviews-lively-link-family-access.json": {
+   "app": "Lively",
+   "tags": {
+    "0": {
+     "3": "P"
+    },
+    "1": {
+     "7": "P"
+    },
+    "2": {
+     "3": "P"
+    },
+    "3": {
+     "3": "P",
+     "7": "P"
+    },
+    "4": {
+     "3": "P"
+    },
+    "5": {
+     "3": "P",
+     "7": "P"
+    },
+    "6": {
+     "2": "P"
+    },
+    "7": {
+     "2": "P"
+    },
+    "8": {
+     "3": "P"
+    },
+    "9": {
+     "2": "P"
+    },
+    "10": {
+     "3": "P",
+     "2": "P"
+    },
+    "11": {
+     "7": "P"
+    },
+    "12": {
+     "7": "P"
+    },
+    "13": {
+     "7": "P"
+    },
+    "14": {
+     "3": "P"
+    },
+    "15": {
+     "3": "P",
+     "2": "P",
+     "7": "P"
+    },
+    "16": {
+     "3": "P",
+     "7": "P"
+    },
+    "17": {
+     "3": "P",
+     "2": "P"
+    },
+    "18": {
+     "3": "P"
+    },
+    "19": {
+     "3": "P",
+     "7": "P"
+    },
+    "20": {
+     "3": "P",
+     "7": "P"
+    },
+    "22": {
+     "2": "P"
+    },
+    "23": {
+     "3": "P"
+    },
+    "24": {
+     "3": "P"
+    },
+    "25": {
+     "7": "P"
+    },
+    "26": {
+     "2": "P"
+    },
+    "27": {
+     "2": "P"
+    },
+    "28": {
+     "3": "P",
+     "2": "P"
+    },
+    "29": {
+     "3": "P",
+     "2": "P"
+    },
+    "30": {
+     "3": "P"
+    },
+    "31": {
+     "2": "P"
+    },
+    "32": {
+     "2": "P"
+    },
+    "33": {
+     "3": "P"
+    },
+    "34": {
+     "7": "P",
+     "2": "P",
+     "3": "P"
+    },
+    "35": {
+     "7": "W"
+    },
+    "36": {
+     "3": "P"
+    },
+    "37": {
+     "3": "P",
+     "7": "P"
+    },
+    "38": {
+     "3": "P"
+    },
+    "39": {
+     "3": "P"
+    },
+    "40": {
+     "7": "W"
+    },
+    "41": {
+     "2": "P"
+    },
+    "42": {
+     "3": "P"
+    },
+    "43": {
+     "3": "W",
+     "7": "W"
+    },
+    "44": {
+     "3": "P"
+    },
+    "45": {
+     "3": "P"
+    },
+    "46": {
+     "3": "P",
+     "7": "P"
+    },
+    "47": {
+     "2": "P",
+     "3": "P"
+    },
+    "48": {
+     "3": "P",
+     "7": "P"
+    },
+    "49": {
+     "2": "P"
+    },
+    "50": {
+     "2": "P"
+    },
+    "51": {
+     "3": "P"
+    },
+    "52": {
+     "3": "P"
+    },
+    "53": {
+     "7": "P",
+     "2": "P",
+     "3": "P"
+    },
+    "54": {
+     "3": "P"
+    },
+    "55": {
+     "7": "W"
+    },
+    "56": {
+     "3": "P"
+    },
+    "57": {
+     "7": "P"
+    },
+    "58": {
+     "2": "P",
+     "7": "P"
+    },
+    "59": {
+     "2": "P"
+    },
+    "60": {
+     "2": "W",
+     "3": "W"
+    },
+    "61": {
+     "3": "P"
+    },
+    "62": {
+     "7": "W"
+    },
+    "63": {
+     "3": "P"
+    },
+    "64": {
+     "3": "W",
+     "7": "W"
+    },
+    "65": {
+     "3": "P"
+    }
+   }
+  },
+  "../forums/app-mentions-2026-11-03/agingcare.json": {
+   "app_by_thread": true,
+   "tags": {
+    "3": {
+     "app": "Lively",
+     "7": "W"
+    },
+    "4": {
+     "app": "Lively",
+     "7": "W"
+    },
+    "5": {
+     "app": "Lively",
+     "7": "W"
+    },
+    "6": {
+     "app": "Medical Guardian",
+     "7": "P"
+    }
+   },
+   "note": "Index = thread position in the file. CaringBridge posts there describe the service but not the writer's own use, so they are not tagged."
+  },
+  "../reddit/arctic-shift-2026-11-03/app-mentions.json": {
+   "app_by_thread": true,
+   "tags": {
+    "0": {
+     "app": "Epic MyChart",
+     "3": "W",
+     "6": "W"
+    },
+    "1": {
+     "app": "Epic MyChart",
+     "3": "W",
+     "6": "W"
+    },
+    "2": {
+     "app": "Epic MyChart",
+     "3": "W",
+     "6": "W"
+    },
+    "3": {
+     "app": "Epic MyChart",
+     "3": "W",
+     "6": "P"
+    },
+    "4": {
+     "app": "Epic MyChart",
+     "3": "P",
+     "6": "P"
+    },
+    "5": {
+     "app": "Epic MyChart",
+     "3": "P"
+    },
+    "6": {
+     "app": "Epic MyChart",
+     "3": "P"
+    },
+    "7": {
+     "app": "Epic MyChart",
+     "3": "P"
+    },
+    "8": {
+     "app": "Epic MyChart",
+     "3": "P"
+    },
+    "9": {
+     "app": "Epic MyChart",
+     "3": "P",
+     "6": "P"
+    },
+    "10": {
+     "app": "Epic MyChart",
+     "3": "P",
+     "6": "P"
+    },
+    "11": {
+     "app": "Epic MyChart",
+     "6": "W"
+    },
+    "12": {
+     "app": "Epic MyChart",
+     "6": "W"
+    },
+    "13": {
+     "app": "Epic MyChart",
+     "6": "W"
+    },
+    "14": {
+     "app": "Epic MyChart",
+     "6": "W"
+    },
+    "15": {
+     "app": "Epic MyChart",
+     "6": "W"
+    },
+    "16": {
+     "app": "Epic MyChart",
+     "6": "W"
+    },
+    "17": {
+     "app": "Epic MyChart",
+     "6": "W"
+    },
+    "18": {
+     "app": "Epic MyChart",
+     "6": "W"
+    },
+    "19": {
+     "app": "Epic MyChart",
+     "6": "P"
+    },
+    "20": {
+     "app": "Epic MyChart",
+     "6": "P"
+    },
+    "21": {
+     "app": "Epic MyChart",
+     "6": "P"
+    },
+    "22": {
+     "app": "Lively",
+     "7": "P"
+    },
+    "23": {
+     "app": "Lively",
+     "7": "P"
+    },
+    "24": {
+     "app": "Lively",
+     "7": "P"
+    },
+    "25": {
+     "app": "Lively",
+     "7": "P"
+    },
+    "26": {
+     "app": "Lively",
+     "7": "P"
+    },
+    "27": {
+     "app": "Medical Guardian",
+     "7": "W"
+    },
+    "28": {
+     "app": "Medical Guardian",
+     "7": "W"
+    },
+    "29": {
+     "app": "Medical Guardian",
+     "7": "P"
+    },
+    "30": {
+     "app": "Medical Guardian",
+     "7": "P"
+    },
+    "31": {
+     "app": "Medical Guardian",
+     "7": "P"
+    },
+    "32": {
+     "app": "Medical Guardian",
+     "7": "P"
+    },
+    "33": {
+     "app": "Medical Guardian",
+     "7": "P"
+    },
+    "34": {
+     "app": "Medical Guardian",
+     "7": "P"
+    },
+    "35": {
+     "app": "CaringBridge",
+     "2": "W"
+    },
+    "36": {
+     "app": "CaringBridge",
+     "2": "W",
+     "1": "P"
+    }
+   },
+   "note": "Reddit, r/CaregiverSupport and r/AgingParents, 2023-01-01 to 2026-11-04"
+  }
+ }
+}

@@ -1,0 +1,639 @@
+{
+ "caring-village": {
+  "1": {
+   "works_items": 9,
+   "problem_items": 4,
+   "works": [
+    [
+     "Shared calendar for appointments, schedules and tasks",
+     6
+    ],
+    [
+     "Handing out tasks and asking others for help",
+     4
+    ]
+   ],
+   "problems": [
+    [
+     "Care plan resets each day or is too rigid",
+     3
+    ],
+    [
+     "Calendar limits for recurring and shared events",
+     2
+    ]
+   ]
+  },
+  "2": {
+   "works_items": 13,
+   "problem_items": 0,
+   "works": [
+    [
+     "Keeps the whole family updated and on the same page",
+     10
+    ],
+    [
+     "Group messaging and chat",
+     4
+    ]
+   ],
+   "problems": []
+  },
+  "3": {
+   "works_items": 5,
+   "problem_items": 4,
+   "works": [
+    [
+     "Big families join and share in one group",
+     5
+    ]
+   ],
+   "problems": [
+    [
+     "Limits on who can join and what they see",
+     4
+    ],
+    [
+     "\"Friends\" can see private medical details",
+     2
+    ],
+    [
+     "Hard to get everyone into the group",
+     2
+    ]
+   ]
+  },
+  "4": {
+   "works_items": 6,
+   "problem_items": 2,
+   "works": [
+    [
+     "Medication lists and reminders",
+     6
+    ]
+   ],
+   "problems": [
+    [
+     "Medication tracking doesn't show who gave what",
+     2
+    ]
+   ]
+  },
+  "5": {
+   "works_items": 3,
+   "problem_items": 2,
+   "works": [
+    [
+     "Storing medical documents and doctor details",
+     3
+    ]
+   ],
+   "problems": [
+    [
+     "Old records can't be kept or found",
+     2
+    ]
+   ]
+  },
+  "8": {
+   "works_items": 2,
+   "problem_items": 0,
+   "works": [
+    [
+     "New AI question feature",
+     2
+    ]
+   ],
+   "problems": []
+  }
+ },
+ "caringbridge": {
+  "1": {
+   "works_items": 0,
+   "problem_items": 3,
+   "works": [],
+   "problems": [
+    [
+     "Not built for day-to-day care coordination",
+     3
+    ]
+   ]
+  },
+  "2": {
+   "works_items": 62,
+   "problem_items": 2,
+   "works": [
+    [
+     "One post reaches everyone, so far fewer calls and texts",
+     49
+    ],
+    [
+     "Family far away can follow along and feel close",
+     15
+    ],
+    [
+     "Everyone gets the same accurate news at the same time",
+     6
+    ],
+    [
+     "Readers get alerts and choose how closely to follow",
+     4
+    ],
+    [
+     "Share one link and people follow, often without signing up",
+     4
+    ]
+   ],
+   "problems": [
+    [
+     "Can't easily see who read or reacted",
+     2
+    ]
+   ]
+  },
+  "3": {
+   "works_items": 8,
+   "problem_items": 3,
+   "works": [
+    [
+     "Only invited people can see the updates",
+     6
+    ],
+    [
+     "More than one family member can post",
+     2
+    ]
+   ],
+   "problems": [
+    [
+     "After the 2024 update, family could not sign in",
+     3
+    ],
+    [
+     "Older relatives got locked out when sign-in changed",
+     2
+    ]
+   ]
+  },
+  "8": {
+   "works_items": 9,
+   "problem_items": 0,
+   "works": [
+    [
+     "Comments and messages lift up the family",
+     9
+    ]
+   ],
+   "problems": []
+  }
+ },
+ "lotsa": {
+  "1": {
+   "works_items": 3,
+   "problem_items": 0,
+   "works": [
+    [
+     "Signing up helpers for shifts, tasks and meals",
+     3
+    ]
+   ],
+   "problems": []
+  }
+ },
+ "medisafe": {
+  "3": {
+   "works_items": 5,
+   "problem_items": 6,
+   "works": [
+    [
+     "Seeing from afar that doses were taken",
+     4
+    ],
+    [
+     "Linking a relative as a \"Medfriend\" works for watching doses",
+     4
+    ]
+   ],
+   "problems": [
+    [
+     "Hard for more than one caregiver to share the work",
+     4
+    ],
+    [
+     "Sharing breaks down between linked caregivers",
+     4
+    ],
+    [
+     "Caregiver's view goes out of sync or loses meds",
+     3
+    ]
+   ]
+  },
+  "4": {
+   "works_items": 16,
+   "problem_items": 8,
+   "works": [
+    [
+     "Keeps a loved one's complicated med schedule on track",
+     10
+    ],
+    [
+     "Managing meds for several family members in one app",
+     5
+    ],
+    [
+     "Seeing from afar that doses were taken",
+     4
+    ],
+    [
+     "Detailed, customizable meds and reminders",
+     3
+    ]
+   ],
+   "problems": [
+    [
+     "Hard for more than one caregiver to share the work",
+     4
+    ],
+    [
+     "Caregiver's view goes out of sync or loses meds",
+     3
+    ],
+    [
+     "Can't tell which person a dose or refill belongs to",
+     2
+    ],
+    [
+     "Alerts are unreliable or unwanted",
+     2
+    ]
+   ]
+  }
+ },
+ "mychart": {
+  "3": {
+   "works_items": 13,
+   "problem_items": 25,
+   "works": [
+    [
+     "Several family members' records under one login",
+     12
+    ],
+    [
+     "Proxy access lets one person see another's chart from their own login",
+     6
+    ]
+   ],
+   "problems": [
+    [
+     "Getting access to a loved one's chart is hard to set up",
+     8
+    ],
+    [
+     "No caregiver login of their own, so families share the patient's password",
+     7
+    ],
+    [
+     "Getting access to a loved one's chart is hard to set up",
+     6
+    ],
+    [
+     "The patient's privacy wishes clash with family access",
+     6
+    ],
+    [
+     "Logging into a spouse's account keeps failing",
+     5
+    ],
+    [
+     "Parents lose or struggle to get access to a minor child's chart",
+     4
+    ],
+    [
+     "Siblings and other helpers get updates by screenshots or files",
+     3
+    ]
+   ]
+  },
+  "6": {
+   "works_items": 34,
+   "problem_items": 5,
+   "works": [
+    [
+     "See a loved one's test results and doctor notes",
+     13
+    ],
+    [
+     "Message a loved one's doctor directly",
+     11
+    ],
+    [
+     "Track a loved one's appointments and medicines",
+     11
+    ],
+    [
+     "Follow a hospital stay day by day",
+     5
+    ],
+    [
+     "Records ready to hand to others",
+     5
+    ]
+   ],
+   "problems": [
+    [
+     "Sharing records outside MyChart is hard",
+     3
+    ],
+    [
+     "Slow or missing updates during a long hospital stay",
+     2
+    ]
+   ]
+  }
+ },
+ "lively": {
+  "3": {
+   "works_items": 10,
+   "problem_items": 14,
+   "works": [
+    [
+     "Several relatives follow the same person",
+     10
+    ]
+   ],
+   "problems": [
+    [
+     "Getting family linked to the account is confusing",
+     13
+    ],
+    [
+     "Following two people in one app is hard",
+     2
+    ]
+   ]
+  },
+  "7": {
+   "works_items": 36,
+   "problem_items": 100,
+   "works": [
+    [
+     "Seeing where the person is and when they leave home",
+     23
+    ],
+    [
+     "Emergency button reaches a helpful operator quickly",
+     15
+    ],
+    [
+     "Low-battery alerts so family can remind them to charge",
+     11
+    ],
+    [
+     "Shows whether the person is wearing the device",
+     3
+    ],
+    [
+     "Fall detection worked",
+     2
+    ]
+   ],
+   "problems": [
+    [
+     "Location is wrong, out of date, or won't update",
+     58
+    ],
+    [
+     "App says the device is off when it is working",
+     28
+    ],
+    [
+     "Alerts to family come late or never",
+     27
+    ],
+    [
+     "Emergencies handled badly or family not told",
+     10
+    ],
+    [
+     "False alerts that the person is out at night",
+     5
+    ],
+    [
+     "Fall detection missed real falls",
+     4
+    ]
+   ]
+  }
+ },
+ "medical-guardian": {
+  "3": {
+   "works_items": 7,
+   "problem_items": 16,
+   "works": [
+    [
+     "Checking on a parent from your phone is the main draw",
+     7
+    ]
+   ],
+   "problems": [
+    [
+     "The family app won't sign in, spins, or errors",
+     16
+    ],
+    [
+     "Relatives' app access is uneven or gets lost",
+     2
+    ]
+   ]
+  },
+  "7": {
+   "works_items": 5,
+   "problem_items": 20,
+   "works": [
+    [
+     "Help comes fast when the button is pressed",
+     5
+    ],
+    [
+     "Several relatives are called after an alert",
+     2
+    ]
+   ],
+   "problems": [
+    [
+     "Steps, battery, and location shown are wrong",
+     9
+    ],
+    [
+     "Fall detection misses falls or goes off by mistake",
+     7
+    ],
+    [
+     "Family isn't told when something happens",
+     6
+    ],
+    [
+     "Response failed or was slow in a real emergency",
+     4
+    ]
+   ]
+  }
+ },
+ "group-texts": {
+  "1": {
+   "works_items": 3,
+   "problem_items": 10,
+   "works": [
+    [
+     "Quick way to ask someone to cover a shift",
+     3
+    ]
+   ],
+   "problems": [
+    [
+     "Requests for help and updates get silence or just a like",
+     10
+    ],
+    [
+     "Being in the chat does not mean helping",
+     7
+    ]
+   ]
+  },
+  "2": {
+   "works_items": 6,
+   "problem_items": 20,
+   "works": [
+    [
+     "One place to tell the whole family what is happening",
+     6
+    ]
+   ],
+   "problems": [
+    [
+     "Requests for help and updates get silence or just a like",
+     10
+    ],
+    [
+     "Important details get buried, causing missed appointments and near double doses",
+     10
+    ]
+   ]
+  },
+  "3": {
+   "works_items": 0,
+   "problem_items": 4,
+   "works": [],
+   "problems": [
+    [
+     "Not everyone can or will join the same chat",
+     2
+    ],
+    [
+     "Side chats leave some people out",
+     2
+    ],
+    [
+     "Getting everyone onto one app is hard",
+     2
+    ],
+    [
+     "Some people are kept out of the chat",
+     2
+    ]
+   ]
+  },
+  "4": {
+   "works_items": 0,
+   "problem_items": 10,
+   "works": [],
+   "problems": [
+    [
+     "Important details get buried, causing missed appointments and near double doses",
+     10
+    ]
+   ]
+  },
+  "7": {
+   "works_items": 0,
+   "problem_items": 5,
+   "works": [],
+   "problems": [
+    [
+     "Not dependable when something urgent happens",
+     3
+    ],
+    [
+     "Alarming news arrives with no warning",
+     2
+    ]
+   ]
+  }
+ },
+ "paper-notebook": {
+  "1": {
+   "works_items": 6,
+   "problem_items": 16,
+   "works": [
+    [
+     "Whiteboard with date and schedule calms repeat questions",
+     6
+    ]
+   ],
+   "problems": [
+    [
+     "Written notes and calendars get ignored, lost or erased",
+     12
+    ],
+    [
+     "Paper stays with one person so family cannot see updates",
+     6
+    ]
+   ]
+  },
+  "4": {
+   "works_items": 0,
+   "problem_items": 6,
+   "works": [],
+   "problems": [
+    [
+     "Paper stays with one person so family cannot see updates",
+     6
+    ]
+   ]
+  },
+  "5": {
+   "works_items": 8,
+   "problem_items": 12,
+   "works": [
+    [
+     "Written guide lets another caregiver step in",
+     4
+    ],
+    [
+     "Paper kept ready to grab in an emergency",
+     4
+    ],
+    [
+     "Binder handed to stand-in caregivers",
+     3
+    ]
+   ],
+   "problems": [
+    [
+     "Paper records pile up and are hard to find fast",
+     7
+    ],
+    [
+     "Old paper documents and money records take huge effort",
+     4
+    ],
+    [
+     "Worry the notebook will not be at hand in an emergency",
+     2
+    ]
+   ]
+  }
+ }
+}

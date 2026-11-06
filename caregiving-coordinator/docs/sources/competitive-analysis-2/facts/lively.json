@@ -1,0 +1,231 @@
+{
+  "company": "Lively",
+  "slug": "lively",
+  "built": "2026-11-04",
+  "method": "All saved company pages read in full; quotes copied exactly from the saved file (whitespace may differ where the saved text breaks lines).",
+  "pages_read": [
+    "docs/sources/competitors-2/lively/shop-pages-2026-11-03/README.md",
+    "docs/sources/competitors-2/lively/shop-pages-2026-11-03/caregivers.txt",
+    "docs/sources/competitors-2/lively/shop-pages-2026-11-03/everyday-support-for-caregivers.txt",
+    "docs/sources/competitors-2/lively/shop-pages-2026-11-03/medical-alert-compare-plan.txt",
+    "docs/sources/competitors-2/lively/shop-pages-2026-11-03/services.txt",
+    "docs/sources/competitors-2/lively/www_lively_com.html",
+    "docs/sources/competitors-2/lively/www_lively_com.txt",
+    "docs/sources/competitors-2/lively/www_lively_com_medical_alert_systems.html",
+    "docs/sources/competitors-2/lively/www_lively_com_medical_alert_systems.txt",
+    "docs/sources/competitors-2/lively/www_lively_com_mobile_apps_lively_link.html",
+    "docs/sources/competitors-2/lively/www_lively_com_mobile_apps_lively_link.txt",
+    "docs/company-funding.md"
+  ],
+  "notes": "www_lively_com_medical_alert_systems.* and www_lively_com_mobile_apps_lively_link.* are redirects to the shop, not content. On the plan page, which plan includes which service was a grid that did not copy as text. Privacy policies are footer links only, not saved.",
+  "business_model": {
+    "answer": "Sells senior phones and a medical-alert device plus monthly service plans, add-ons such as fall detection, and a $99/year caregiver bundle of partner services (Wellthy, AARP, Norton, Instacart). It is part of Best Buy Health; Best Buy agreed to buy its parent GreatCall for $800 million in 2018.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/medical-alert-compare-plan.txt",
+        "quote": "PLANS: Basic $24.99/month + taxes and fees; Premium $34.99/month + taxes and fees"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/everyday-support-for-caregivers.txt",
+        "quote": "Get support for $99/yr"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/caregivers.txt",
+        "quote": "Everyday Support will connect you with services from Wellthy, AARP, Norton, and Instacart"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "© 2026 Lively from Best Buy Health, All rights reserved."
+      },
+      {
+        "file": "docs/company-funding.md",
+        "quote": "acquired for | $800 million in cash"
+      }
+    ],
+    "not_stated": false
+  },
+  "who_uses_who_pays": {
+    "answer": "The older adult carries the phone or alert device; adult children often buy it, and caregivers buy the separate caregiver subscription for themselves. The device is FSA/HSA eligible. Who pays the monthly plan is not spelled out.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "Got this for my Mom."
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/everyday-support-for-caregivers.txt",
+        "quote": "Everyday Support for Caregivers is an annual subscription"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/medical-alert-compare-plan.txt",
+        "quote": "FSA and HSA eligible"
+      }
+    ],
+    "not_stated": false
+  },
+  "cost": {
+    "answer": "Lively Mobile2 alert $89.99 on sale (regular $119.99) plus a plan: Basic $24.99/month or Premium $34.99/month plus taxes and fees; fall detection adds $9.99/month. Phones from $59.99 (Jitterbug Flip3 on sale) to $369 (RAZ). Caregiver bundle $99/year, auto-renewing.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "Lively Mobile2 All-in-One Medical Alert Sale price $89.99 Regular price $119.99"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/medical-alert-compare-plan.txt",
+        "quote": "PLANS: Basic $24.99/month + taxes and fees; Premium $34.99/month + taxes and fees"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/medical-alert-compare-plan.txt",
+        "quote": "Fall Detection - Calls for help: Add $9.99/mo."
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "Jitterbug Flip3 64GB Cell Phone for Seniors Sale price $59.99"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/everyday-support-for-caregivers.txt",
+        "quote": "Get access to these trusted brands for one low price — $99/year. Auto renews unless cancelled."
+      }
+    ],
+    "not_stated": false
+  },
+  "how_they_differentiate": {
+    "answer": "They claim their people and services set them apart: 100% US-based advisors, trained Urgent Response agents, nurses on call and ride booking, on easy senior phones with no long-term contract.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "Our services set us apart From our 100% U.S.-based advisors to specially trained Urgent Response agents"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.html",
+        "quote": "Lively from Best Buy Health combines easy-to-use Jitterbug phones, Personal Emergency Response, and BYOD options with essential services like Urgent Response, Nurse On-Call, and fall detection."
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/services.txt",
+        "quote": "U.S.-based support / No long-term contracts / Keep your number / Nationwide coverage"
+      }
+    ],
+    "not_stated": false
+  },
+  "unique_value_proposition": {
+    "answer": "Older adults stay independent and protected with easy phones and one-button help, while their family feels reassured.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "Stay connected. Feel protected."
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/caregivers.txt",
+        "quote": "Mom feels independent. You feel reassured."
+      }
+    ],
+    "not_stated": false
+  },
+  "retain_customers": {
+    "answer": "Ongoing monthly service plans (no long-term contract), an auto-renewing yearly caregiver subscription, and the Lively Link family app; the caregiver bundle adds savings and an online caregiver community.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "No long-term contracts"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/everyday-support-for-caregivers.txt",
+        "quote": "Auto renews unless cancelled."
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/everyday-support-for-caregivers.txt",
+        "quote": "Community: ...access to an online community of caregivers who can relate"
+      }
+    ],
+    "not_stated": false
+  },
+  "customer_experience": {
+    "answer": "Human, phone-first support: a US-based Ask Lively team any time, Urgent Response agents, Nurse On-Call, a Care Advocate for wellness plans, and (in the caregiver bundle) a personal Care Coordinator from Wellthy. Also a help center, phone line and stores.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/services.txt",
+        "quote": "Call our 100% U.S.-based Ask Lively team anytime, day or night"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/services.txt",
+        "quote": "With Nurse On-Call, nurses or doctors can provide medical advice anytime"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/everyday-support-for-caregivers.txt",
+        "quote": "get access to a personal Care Coordinator who helps you figure out first steps and what comes next"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "Questions? Call us: 1-800-918-8543"
+      }
+    ],
+    "not_stated": false
+  },
+  "relatives_joining": {
+    "answer": "Yes. The device owner invites friends and family to connect through the Lively Link app, and they then get Urgent Response alerts and can see location. The caregiver bundle's Wellthy platform also lets you invite family members.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/services.txt",
+        "quote": "Invite friends and family to connect to your Lively device"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/services.txt",
+        "quote": "Once connected, they'll receive Urgent Response alerts"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/everyday-support-for-caregivers.txt",
+        "quote": "Secure platform with the option to invite family members, so everyone stays organized and informed"
+      }
+    ],
+    "not_stated": false
+  },
+  "privacy_data_consent": {
+    "answer": "Only partly stated: connected family see the person's location when an alert fires. Privacy, consumer-health-data and do-not-sell policies are linked in the footer but were not saved; deletion and removal are not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/caregivers.txt",
+        "quote": "you'll be sent an alert and can view her location"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "Consumer Health Data Privacy Statement Do Not Sell My Personal Information"
+      }
+    ],
+    "not_stated": false
+  },
+  "emergencies": {
+    "answer": "Pressing the button reaches certified US-based Urgent Response agents 24/7 who confirm location, send emergency services or call a caregiver, and stay on the line; fall detection (paid add-on) can connect automatically. What happens if the service fails is not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/services.txt",
+        "quote": "Certified agents are ready to respond in emergencies, big or small, 24/7"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/medical-alert-compare-plan.txt",
+        "quote": "whether that's coordinating with emergency services or calling a caregiver or loved one to help. The agent will stay on the line until your situation is resolved."
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/medical-alert-compare-plan.txt",
+        "quote": "will automatically connect you to an Urgent Response agent, even if you're unable to press the button. Requires a subscription to fall detection."
+      }
+    ],
+    "not_stated": false
+  },
+  "setup": {
+    "answer": "Buy the device online or in a store, then activate it and pick a plan online or by phone; you can keep your number. Family download the Lively Link app on their own smartphones.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "When it arrives, activate it and select your plan online or by phone"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/www_lively_com.txt",
+        "quote": "Keep your number"
+      },
+      {
+        "file": "docs/sources/competitors-2/lively/shop-pages-2026-11-03/services.txt",
+        "quote": "Have them download the Link app to their smartphone"
+      }
+    ],
+    "not_stated": false
+  }
+}

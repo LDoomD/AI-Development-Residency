@@ -83,3 +83,35 @@ Same table as the template section "Summarize the unique value opportunities for
 | 7. Medication reminders | Reviewers say (Medisafe, 12 worked reviews): 5 are about medications, "now I never miss my pills" (g-medisafe-74); "My husband could keep track from his phone" (g-medisafe-248). | Alerts can come late: "Sometimes it alerts at 45 minutes past the time, sometimes it alerts at 2 hours" (a-6294). Relatives cannot see the same information is Medisafe's most common problem (4 reviews). | Not a strong gap: crowded and small to build. Opportunity not established. | Medisafe reviews; docs/app-review-findings.md |
 
 Limits: reviews are of apps the team chose; Everplans and Epic MyChart reviews are small samples; no product was tested and no caregiver was asked.
+
+## Update 2026-11-03: what families use instead (Reddit; added, the table is unchanged)
+
+A keyword count across all 49,315 Reddit posts downloaded from 13 caregiving communities (2023 to November 2026). A mention isn't use: "dad refuses Life Alert" counts too.
+
+| Named in posts | Posts |
+|---|---|
+| Life Alert | 137 |
+| Apple Watch | 107 |
+| Group chat or group text | 99 |
+| Notebook or binder | 98 |
+| WhatsApp | 84 |
+| Pill organizer or pill box | 79 |
+| Lively / Jitterbug | 68 |
+| Spreadsheet | 62 |
+| MyChart | 46 |
+| Medical Guardian | 33 |
+| Whiteboard | 19 |
+| Google Calendar | 15 |
+| Life360 | 14 |
+| CaringBridge | 7 |
+| Lotsa | 4 |
+| Caring Village | 3 |
+| Medisafe | 1 |
+| Everplans | 0 |
+
+**What it adds:**
+- **For coordination, families' real alternative is everyday tools, not apps.** Group chats, WhatsApp, notebooks, spreadsheets and pill boxes each come up 60 to 100 times. The coordination apps in our table come up 0 to 7 times. Caregivers also say these tools fall apart ("Google Calendar nobody updates", [r/AgingParents, 2025-08-27](https://www.reddit.com/r/AgingParents/comments/1n1rbmb/)).
+- **For safety, two names not in our table come up more than any company in it:** Life Alert (137) and Apple Watch (107). Medical Guardian has 33 and Lively/Jitterbug 68.
+- **Few caregivers here seem to know the coordination apps.** That's an inference from how rarely they're named, not a measured awareness rate.
+
+Source: `docs/sources/reddit/arctic-shift-2026-11-03/mention-counts.json` (`python3 -I count_mentions.py`). Limits: simple keyword match (for example "notebook" can mean a laptop, and "lotsa" a slang word), posts are about any topic, and Reddit users aren't all caregivers.

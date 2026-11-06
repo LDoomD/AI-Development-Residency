@@ -1,0 +1,241 @@
+{
+ "posts": 500,
+ "caregiver_posts": 412,
+ "not_caregiver": 88,
+ "by_group": {
+  "main two": 357,
+  "other 11": 55
+ },
+ "cared_for": {
+  "parent": 269,
+  "spouse or partner": 35,
+  "client": 11,
+  "other relative": 68,
+  "unclear": 26,
+  "child": 3
+ },
+ "themes": [
+  {
+   "theme": "Choosing, placing and paying for care",
+   "main": 29,
+   "main_pct": 7,
+   "anywhere": 90,
+   "anywhere_pct": 22,
+   "main_by_group": {
+    "other 11": 3,
+    "main two": 26
+   }
+  },
+  {
+   "theme": "Burnout, guilt, isolation, grief",
+   "main": 102,
+   "main_pct": 25,
+   "anywhere": 210,
+   "anywhere_pct": 51,
+   "main_by_group": {
+    "main two": 96,
+    "other 11": 6
+   }
+  },
+  {
+   "theme": "Family coordination, siblings",
+   "main": 17,
+   "main_pct": 4,
+   "anywhere": 97,
+   "anywhere_pct": 24,
+   "main_by_group": {
+    "main two": 16,
+    "other 11": 1
+   }
+  },
+  {
+   "theme": "Long-distance caregiving",
+   "main": 2,
+   "main_pct": 0,
+   "anywhere": 33,
+   "anywhere_pct": 8,
+   "main_by_group": {
+    "main two": 2
+   }
+  },
+  {
+   "theme": "Medications",
+   "main": 8,
+   "main_pct": 2,
+   "anywhere": 55,
+   "anywhere_pct": 13,
+   "main_by_group": {
+    "main two": 5,
+    "other 11": 3
+   }
+  },
+  {
+   "theme": "Money, insurance, legal papers",
+   "main": 32,
+   "main_pct": 8,
+   "anywhere": 117,
+   "anywhere_pct": 28,
+   "main_by_group": {
+    "main two": 27,
+    "other 11": 5
+   }
+  },
+  {
+   "theme": "Care recipient refuses help",
+   "main": 38,
+   "main_pct": 9,
+   "anywhere": 83,
+   "anywhere_pct": 20,
+   "main_by_group": {
+    "main two": 33,
+    "other 11": 5
+   }
+  },
+  {
+   "theme": "New diagnosis, crisis, \"where do I start\"",
+   "main": 18,
+   "main_pct": 4,
+   "anywhere": 41,
+   "anywhere_pct": 10,
+   "main_by_group": {
+    "other 11": 4,
+    "main two": 14
+   }
+  },
+  {
+   "theme": "Dementia behavior and communication",
+   "main": 35,
+   "main_pct": 8,
+   "anywhere": 99,
+   "anywhere_pct": 24,
+   "main_by_group": {
+    "main two": 29,
+    "other 11": 6
+   }
+  },
+  {
+   "theme": "Safety",
+   "main": 16,
+   "main_pct": 4,
+   "anywhere": 77,
+   "anywhere_pct": 19,
+   "main_by_group": {
+    "main two": 14,
+    "other 11": 2
+   }
+  },
+  {
+   "theme": "Paid caregivers and agencies",
+   "main": 18,
+   "main_pct": 4,
+   "anywhere": 50,
+   "anywhere_pct": 12,
+   "main_by_group": {
+    "main two": 15,
+    "other 11": 3
+   }
+  },
+  {
+   "theme": "Doctors, appointments, records",
+   "main": 10,
+   "main_pct": 2,
+   "anywhere": 88,
+   "anywhere_pct": 21,
+   "main_by_group": {
+    "main two": 6,
+    "other 11": 4
+   }
+  },
+  {
+   "theme": "The caregiver's own life",
+   "main": 20,
+   "main_pct": 5,
+   "anywhere": 113,
+   "anywhere_pct": 27,
+   "main_by_group": {
+    "main two": 19,
+    "other 11": 1
+   }
+  },
+  {
+   "theme": "Other",
+   "main": 67,
+   "main_pct": 16,
+   "anywhere": 68,
+   "anywhere_pct": 17,
+   "main_by_group": {
+    "main two": 55,
+    "other 11": 12
+   }
+  }
+ ],
+ "other_new_themes": [
+  "Paid caregiver mistreated and uncomfortable with a client",
+  "Medical equipment broke and supplier will not help",
+  "Parent will not downsize or let go of belongings",
+  "Asking why adult children care for parents who failed them",
+  "Paid aide working unpaid and pressured to cover shifts",
+  "Asking for shared words for levels of care",
+  "Washing the hair of a bedbound paralyzed person",
+  "Equipment to turn and clean a heavy bedbound person",
+  "Sharing a funny moment with an aging parent",
+  "Finding personal care products a person with dementia can keep using",
+  "Parents fight over and distrust new technology",
+  "Parent with possible senility harming a foster child's health",
+  "Shopping trips with a parent in a wheelchair",
+  "Clearing out and paying for a parent's old home after a move",
+  "Whether family should be paid for caregiving labor",
+  "Making technology simple for a person with dementia",
+  "Cleaning up after a parent's incontinence",
+  "lack of community and social connection for people with dementia",
+  "doing nurse-level wound care at home, finally recognized by doctor",
+  "finding simple devices for a parent with very poor eyesight",
+  "repeatedly helping parents use their phones and technology",
+  "noticing which abilities remain as a grandparent declines",
+  "talking with a dying parent about end-of-life and burial wishes",
+  "how a caregiver's partner can best support them",
+  "whether a gadget like a robot vacuum helps or frustrates an aging relative",
+  "finding the right medical equipment, like oxygen hose length",
+  "managing a parent's social media, hacked accounts and online content",
+  "end-of-life decisions such as refusing a feeding tube",
+  "sharing a funny moment to lighten the mood",
+  "whether to keep a catheter the hospice put in",
+  "caring for an aging parent is harder than childcare, despite the 'we owe them' view",
+  "helping a very old parent recover after surgery",
+  "hoping caregiving can be calm and rewarding, not miserable",
+  "finding equipment so one person can move a paralyzed relative",
+  "finding activities to calm and distract an anxious older relative",
+  "protecting a parent from misleading online videos",
+  "setting boundaries with a distant parent's constant long texts",
+  "incontinence and the embarrassment and stigma around it",
+  "choosing gifts for a parent in memory care",
+  "finding incontinence supplies that fit and are in stock",
+  "recording parents' life stories before they decline",
+  "treating a pressure sore and finding the right supplies",
+  "new paid aide unsure if mostly-companionship visits are normal",
+  "getting daily chores like laundry done after surgery",
+  "breaking bad news to a mentally ill sibling without triggering an episode",
+  "parent avoids discussing funeral and burial wishes",
+  "stockpiling medical supplies for emergencies or unrest",
+  "helping a partner recover emotionally after serious illness",
+  "advocating to lawmakers for a child's rare disease",
+  "new paid aide unable to lift or transfer residents",
+  "getting urine smell out of laundry and bedding",
+  "parents refuse to discuss burial wishes and end-of-life plans",
+  "trying a costly unproven device to ease dementia symptoms",
+  "sharing a funny, positive moment with a loved one",
+  "preparing practical skills and supplies for end-of-life care",
+  "choosing a trustworthy caregiver certification course",
+  "partner in severe pain asking for euthanasia",
+  "Aging father-in-law wants a false doctor title on headstone",
+  "Parent cannot learn or remember how to use technology",
+  "New paid carer afraid of harming a client by mistake",
+  "Whether a license is needed to sit overnight with someone",
+  "Deciding resuscitation and end-of-life care level for parent",
+  "Finding simple everyday tools a frail parent can use",
+  "Recording aging father's life stories and family history",
+  "Live-in parent relies on adult child for daily tasks and micromanages",
+  "Worried about mother-in-law's decline, constant sleeping and heavy drinking",
+  "Deciding which chores to take over from aging parents"
+ ]
+}

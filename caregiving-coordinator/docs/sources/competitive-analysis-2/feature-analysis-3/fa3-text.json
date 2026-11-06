@@ -1,0 +1,353 @@
+{
+ "how": "Feature Comparison Analysis 3 (2026-11-04), in the teacher's format (example table node 5:823, template 5:3064). Main table: the teacher's columns and question row; feature cells are only ✅ (the product offers it, per its own saved pages or, where marked, its family app as reviewers describe it) or 🚫. The how-well table counts distinct caregiving items from themes/*.json mapped by theme-to-feature.json (howwell-counts.json). Label rule: total under 5 = Too few to judge; works at least 2 of 3 = Mostly works; problems at least 2 of 3 = Mostly problems; otherwise Mixed. Phrases are written by Claude from the counted themes. OUR COMPANY is left for the owner.",
+ "features": [
+  [
+   "SHARED CALENDAR AND TASK SIGN-UP",
+   "Does the product offer ways for family and friends to share one calendar and sign up for tasks?"
+  ],
+  [
+   "ONE UPDATE REACHES EVERYONE",
+   "Does the product offer ways to send one update to the whole family at once?"
+  ],
+  [
+   "RELATIVES JOIN WITH THEIR OWN ACCESS",
+   "Does the product offer ways for relatives to join with their own login and permissions, without sharing a password?"
+  ],
+  [
+   "MEDICATION REMINDERS FAMILY CAN SEE",
+   "Does the product offer ways to remind about medications and show family when a dose is missed?"
+  ],
+  [
+   "STORE AND SHARE IMPORTANT DOCUMENTS",
+   "Does the product offer ways to keep and share documents like IDs, legal and medical papers?"
+  ],
+  [
+   "SEE MEDICAL RECORDS AND TEST RESULTS",
+   "Does the product offer ways for a caregiver to see the person's medical records and test results?"
+  ],
+  [
+   "EMERGENCY HELP AND ALERTS TO FAMILY",
+   "Does the product offer ways for the older person to get emergency help, with an alert to family?"
+  ],
+  [
+   "SUPPORT FOR THE CAREGIVER",
+   "Does the product offer ways to support the caregiver, such as guidance, messages or community?"
+  ]
+ ],
+ "info_columns": [
+  [
+   "COMPANY",
+   ""
+  ],
+  [
+   "WEBSITE",
+   "What’s the product’s website URL?"
+  ],
+  [
+   "PRICING STRUCTURE",
+   "How does the product “charge” for its services to its clients and customers?"
+  ],
+  [
+   "MARKET",
+   "Care coordination, health records, medication, safety or document software?"
+  ],
+  [
+   "MARKET SEGMENT / CHANNEL",
+   "Which segment of the family caregiving market does this company fit (based on customers and website language)?"
+  ],
+  [
+   "CUSTOMERS OF THE SOFTWARE",
+   "Who are the main customers of the competitor?"
+  ]
+ ],
+ "rows": [
+  {
+   "slug": "our-company",
+   "info": [
+    "OUR COMPANY",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "offers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "slug": "caring-village",
+   "info": [
+    "CARING VILLAGE",
+    "https://caringvillage.com/",
+    "Freemium: free plan (2 members, with ads); Circle $14.99/month; Village $24.99/month",
+    "FAMILY CARE COORDINATION",
+    "Families caring for a loved one; care businesses for their clients",
+    "Family caregivers (B2C); some care businesses (B2B)"
+   ],
+   "offers": [
+    "✅",
+    "✅",
+    "✅",
+    "✅",
+    "✅",
+    "🚫",
+    "🚫",
+    "✅"
+   ]
+  },
+  {
+   "slug": "caringbridge",
+   "info": [
+    "CARINGBRIDGE",
+    "https://www.caringbridge.org/",
+    "Free; nonprofit funded by donations",
+    "FAMILY CARE COORDINATION",
+    "Patients and families during a health journey",
+    "Patients and family caregivers (B2C); donors fund it"
+   ],
+   "offers": [
+    "✅",
+    "✅",
+    "✅",
+    "🚫",
+    "🚫",
+    "🚫",
+    "🚫",
+    "✅"
+   ]
+  },
+  {
+   "slug": "lotsa",
+   "info": [
+    "LOTSA HELPING HANDS",
+    "https://lotsahelpinghands.com/",
+    "Free",
+    "FAMILY CARE COORDINATION",
+    "Caregivers, friends, neighbors and volunteer helpers",
+    "Caregivers and volunteer helpers (B2C)"
+   ],
+   "offers": [
+    "✅",
+    "✅",
+    "✅",
+    "🚫",
+    "🚫",
+    "🚫",
+    "🚫",
+    "✅"
+   ]
+  },
+  {
+   "slug": "everplans",
+   "info": [
+    "EVERPLANS",
+    "https://www.everplans.com/",
+    "Freemium: free (3 items); Premium $99.99/year; also through financial advisors",
+    "DOCUMENT VAULT",
+    "People planning their own affairs; financial advisors and partners",
+    "Individuals and households (B2C); financial advisors (B2B)"
+   ],
+   "offers": [
+    "🚫",
+    "🚫",
+    "✅",
+    "🚫",
+    "✅",
+    "🚫",
+    "🚫",
+    "✅"
+   ]
+  },
+  {
+   "slug": "mychart",
+   "info": [
+    "EPIC MYCHART",
+    "https://www.mychart.org/",
+    "Free to patients; licensed by Epic to healthcare organizations (price not stated)",
+    "HEALTH RECORDS (PATIENT PORTAL)",
+    "Health systems and their patients",
+    "Healthcare organizations (B2B); patients and family proxies use it"
+   ],
+   "offers": [
+    "🚫",
+    "🚫",
+    "✅",
+    "🚫",
+    "🚫",
+    "✅",
+    "🚫",
+    "🚫"
+   ]
+  },
+  {
+   "slug": "lively",
+   "info": [
+    "LIVELY",
+    "https://www.lively.com/",
+    "Device ($89.99) plus monthly plan ($24.99 or $34.99); fall detection +$9.99/month; caregiver bundle $99/year",
+    "SENIOR SAFETY (MEDICAL ALERT)",
+    "Older adults and their families; sold online and in stores",
+    "Older adults, and the adult children or spouses who buy it (B2C)"
+   ],
+   "offers": [
+    "🚫",
+    "✅",
+    "✅",
+    "🚫",
+    "🚫",
+    "🚫",
+    "✅",
+    "✅"
+   ]
+  },
+  {
+   "slug": "medical-guardian",
+   "info": [
+    "MEDICAL GUARDIAN",
+    "https://www.medicalguardian.com/",
+    "Monitoring subscription, about $1 a day; device often free with a promo; cancellation fees may apply",
+    "SENIOR SAFETY (MEDICAL ALERT)",
+    "Older adults and families; also dealers, health plans and senior living",
+    "Older adults and families (B2C); health plans and partners (B2B)"
+   ],
+   "offers": [
+    "🚫",
+    "🚫",
+    "✅",
+    "🚫",
+    "🚫",
+    "🚫",
+    "✅",
+    "🚫"
+   ]
+  },
+  {
+   "slug": "medisafe",
+   "info": [
+    "MEDISAFE",
+    "https://medisafeapp.com/",
+    "Free app with a paid subscription (price not stated); also sold to drug makers and providers",
+    "MEDICATION",
+    "Patients and family members; drug makers and providers",
+    "Patients and family caregivers (B2C); drug makers and providers (B2B)"
+   ],
+   "offers": [
+    "🚫",
+    "🚫",
+    "✅",
+    "✅",
+    "🚫",
+    "🚫",
+    "🚫",
+    "✅"
+   ]
+  },
+  {
+   "slug": "group-texts",
+   "info": [
+    "GROUP TEXTS (WORKAROUND)",
+    "n/a",
+    "Free",
+    "WORKAROUND, NOT CARE SOFTWARE",
+    "Every family; also paid care staff and agencies",
+    "Family caregivers and relatives"
+   ],
+   "offers": [
+    "🚫",
+    "✅",
+    "🚫",
+    "🚫",
+    "🚫",
+    "🚫",
+    "🚫",
+    "🚫"
+   ]
+  },
+  {
+   "slug": "paper-notebook",
+   "info": [
+    "PAPER NOTEBOOK AND VISIT LOG (WORKAROUND)",
+    "n/a",
+    "Nearly free (store-bought planners cost a little)",
+    "WORKAROUND, NOT CARE SOFTWARE",
+    "Families caring at home",
+    "The main caregiver, paid aides and the person being cared for"
+   ],
+   "offers": [
+    "✅",
+    "🚫",
+    "🚫",
+    "🚫",
+    "✅",
+    "🚫",
+    "🚫",
+    "🚫"
+   ]
+  }
+ ],
+ "offer_notes": "✅ comes from the company's own saved pages (docs/feature-analysis.md step 2 and facts/*.json). Exceptions: Medical Guardian 'relatives join' is ✅ because reviewers describe its MyMedicalGuardian family app (its saved pages only list family as emergency contacts). Group texts 'relatives join' is 🚫 because anyone can be added but there are no permissions. Paper calendar and documents are ✅ for use inside the home only. MyChart shows medications but has no reminders, so medication is 🚫.",
+ "phrases": {
+  "caring-village|1": "Shared calendar and handing out tasks work. Some say the care plan resets or is too rigid (3).",
+  "caring-village|2": "Keeps the whole family updated and on the same page (10). No complaints found.",
+  "caring-village|3": "Big families share one group (5), but there are limits on who can join and what they see (4), and getting everyone in is hard (2).",
+  "caring-village|4": "Medication lists and reminders work (6). Logs don't show who gave a dose (2).",
+  "caring-village|5": "Storing documents works (3), but old records can't be kept or found (2).",
+  "caring-village|8": "Only the new AI question feature is mentioned (2).",
+  "caringbridge|1": "Reviewers say it isn't built for day-to-day coordination (3).",
+  "caringbridge|2": "Its main strength: one post reaches everyone (49), and far-away family can follow (15).",
+  "caringbridge|3": "Invite-only pages work (6), but the 2024 sign-in change locked family out (3).",
+  "caringbridge|8": "Comments and messages lift up the family (9).",
+  "lotsa|1": "Helpers sign up for tasks (3). Very little evidence.",
+  "lotsa|2": "",
+  "lotsa|3": "",
+  "lotsa|8": "",
+  "everplans|3": "",
+  "everplans|5": "",
+  "everplans|8": "",
+  "mychart|3": "Several family members under one login works (12), but access is hard to set up (8), and with no caregiver login families share the password (7).",
+  "mychart|6": "Results and doctor notes (13), messaging the doctor (11), appointments and meds (11). Hard to share outside MyChart (3).",
+  "lively|2": "",
+  "lively|3": "Several relatives follow one person (10), but linking family is confusing (13).",
+  "lively|7": "Seeing location (23) and a quick operator (15) work, but location is wrong (58), the device shows as off (28), and family alerts come late or never (27).",
+  "lively|8": "",
+  "medical-guardian|3": "Checking on a parent from a phone is the main draw (7), but the family app won't sign in (16).",
+  "medical-guardian|7": "Help comes fast (5), but readings and location are wrong (9), fall detection misses (7), and family isn't told (6).",
+  "medisafe|3": "Watching a relative's doses works (4), but sharing breaks between linked caregivers (4).",
+  "medisafe|4": "Keeps a loved one's complicated schedule on track (10), but caregivers can't share the work (4) and views go out of sync (3).",
+  "medisafe|8": "",
+  "group-texts|1": "Quick to ask someone to cover a shift (3), but requests get silence (10), and being in the chat doesn't mean helping (7).",
+  "group-texts|2": "One place to tell everyone (6), but updates get silence (10) and details get buried (10).",
+  "group-texts|3": "Not everyone joins (2), and side chats leave people out (2).",
+  "group-texts|4": "Medication changes get buried, causing near double doses (10).",
+  "group-texts|7": "Not dependable when something urgent happens (3).",
+  "paper-notebook|1": "A whiteboard calms repeated questions (6), but notes get ignored, lost or erased (12) and stay with one person (6).",
+  "paper-notebook|4": "Paper stays with one person, so family miss medication changes (6).",
+  "paper-notebook|5": "A binder lets someone step in (4) and is ready in a crisis (4), but records pile up and can't be found fast (7)."
+ },
+ "gaps_title": "FEATURE GAPS AND OPPORTUNITIES (version 3, 2026-11-04)",
+ "gaps_intro": "Features caregivers want that no one offers well. They're written as open problems, not things to build, and nothing is chosen. Counts are caregiving items from the how-well table. Reddit numbers come from 672 caregiver posts (docs/reddit-caregiver-findings-2026-11-03.md).",
+ "gaps": [
+  "1. Relatives joining with their own access: all 8 companies offer it, but it rarely works well. It's mixed at MyChart (works 13, problems 25), Lively (10, 14), Medisafe (5, 6) and Caring Village (5, 4), and mostly problems at Medical Guardian (7, 16). Only CaringBridge mostly works (8, 3). On Reddit it goes beyond apps (Reddit 132): banks refuse the caregiver (46), passwords are lost (32), and codes go to the parent's phone (22).",
+  "2. Shared calendar and task sign-up: only 3 companies offer it. Caring Village mostly works (9, 4), CaringBridge isn't built for day-to-day use (3), and Lotsa is too thin to judge. Families fall back on group texts (mostly problems: 3, 10) and paper (6, 16). No tool gets relatives to follow through: siblings won't share the work (Reddit 63), and caregivers are doing it alone (Reddit 217).",
+  "3. Emergency help with alerts to family: only the 2 safety companies offer it, and both mostly have problems: Lively (works 36, problems 100) and Medical Guardian (5, 20). The button reaches help, but the family side fails: wrong location, late alerts, family not told.",
+  "4. Medication reminders family can see: offered by 2 companies. Both work for one caregiver (Caring Village 6, 2; Medisafe 16, 8), but break when caregivers share: on Medisafe, sharing the work (4), views out of sync (3), whose dose (2). Group texts (10) and paper (6) lose medication changes. On Reddit, unshared changes caused double doses or mix-ups (Reddit 24).",
+  "5. Documents: offered by 2 companies (Caring Village, Everplans), with little caregiver evidence (Caring Village mixed: 3, 2; Everplans none). Paper binders are mixed (8, 12). No one helps when a POA is missing or rejected (Reddit 29) or papers are scattered (Reddit 22).",
+  "6. Medical records: only MyChart offers them, and they mostly work once a caregiver is in (34, 5). The gap is getting in (gap 1), and records stay inside MyChart.",
+  "7. Support for the caregiver: 6 companies offer something (AI questions, comments, well wishes, guides, a care-coordinator bundle, resource centers). Caregivers mention only CaringBridge comments (9) and Caring Village's AI feature (2). The biggest Reddit theme is about people, not tools: doing it alone (Reddit 217), burnout with no one who understands (Reddit 30).",
+  "8. The whole job: Caring Village offers the most (6 of 8 features, but no records or emergency alerts), yet caregivers on Reddit almost never name it (3 posts, none describing use). Families stitch tools together instead."
+ ],
+ "gaps_limits": "Limits: ✅ only means a company says it offers the feature. It doesn't mean it works, which is why the how-well table exists. Reviews and Reddit lean toward strong opinions. Everplans (1 caregiving review) and Lotsa (4 items) are too thin to judge. The theme-to-feature mapping is Claude's (docs/sources/competitive-analysis-2/feature-analysis-3/theme-to-feature.json) and is open for the owner to check.",
+ "owner_note": "OUR COMPANY row: left empty for the owner to fill with ✅/🚫, as in the teacher's example. Claude doesn't choose.",
+ "gaps_report": "FEATURE GAPS AND OPPORTUNITIES (updated 2026-11-04, from the updated market analysis)\nWhat this is: the features caregivers need that no company does well. These are open problems, not things to build. Nothing is chosen.\nHow to read the numbers: \"(13, 25)\" means 13 caregiving reviews or posts say it works and 25 report a problem. \"How big\" is the share of caregiving forum threads (117) and Reddit caregiver posts (412) that mention the problem, from the updated market analysis.\n\n1. Relatives rarely get working access of their own\n• How big: money, accounts and legal papers: forums 33%, Reddit 28%. On Reddit, banks refuse the caregiver (46), passwords are lost (32), codes go to the parent's phone (22).\n• Offered by: all 8 companies\n• Works well at: only CaringBridge (8, 3)\n• Mixed at: MyChart (13, 25), Lively (10, 14), Medisafe (5, 6), Caring Village (5, 4)\n• Mostly problems at: Medical Guardian (7, 16)\n\n2. Shared calendars don't get relatives to help\n• How big: family coordination: forums 24%, Reddit 24%. On Reddit, siblings won't share the work (63).\n• Offered by: 3 companies. Caring Village mostly works (9, 4). CaringBridge isn't built for day-to-day use (3). Lotsa is too thin to judge.\n• Families fall back on group texts (3, 10) and paper (6, 16), and both mostly have problems\n\n3. Emergency alerts don't reach the family\n• How big: safety: forums 24%, Reddit 19%\n• Offered by: 2 companies, and both mostly have problems: Lively (36, 100), Medical Guardian (5, 20)\n• The button reaches help, but location is wrong, alerts come late, and family isn't told\n\n4. Medication info breaks when caregivers share it\n• How big: medications: forums 16%, Reddit 13%. On Reddit, unshared changes caused double doses or mix-ups (24).\n• Offered by: 2 companies. Both work for one caregiver: Caring Village (6, 2), Medisafe (16, 8)\n• Breaks when shared (Medisafe): sharing the work (4), views out of sync (3), whose dose it is (2)\n• Group texts (10) and paper (6) lose medication changes\n\n5. Documents and power of attorney have no real home\n• How big: inside money, accounts and legal papers (forums 33%, Reddit 28%). On Reddit, POA missing or rejected (29), papers scattered (22).\n• Offered by: 2 companies, with little evidence: Caring Village is mixed (3, 2), Everplans has none\n• Paper binders are mixed (8, 12). No company helps with a rejected POA.\n\n6. Medical records stay inside MyChart\n• How big: doctors, appointments and records: forums 20%, Reddit 21%\n• Only MyChart offers them, and they mostly work once a caregiver is in (34, 5)\n• The problem is getting in (see gap 1)\n\n7. Caregiver support misses the real problem\n• How big: burnout and doing it alone, the top problem everywhere (forums 43%, Reddit 51%)\n• 6 companies offer something: AI questions, comments, well wishes, guides, a care-coordinator bundle, resource centers\n• Caregivers only mention CaringBridge comments (9) and Caring Village's AI feature (2)\n\n8. No one covers the whole job\n• Caring Village offers the most (6 of 8 features), but has no records or emergency alerts\n• Caregivers on Reddit almost never name it (3 posts, none describing use). Families stitch tools together instead.\n\nPROBLEMS NO FEATURE COLUMN COVERS (from the updated market analysis)\n• Dementia behavior and hard conversations: forums 34%, Reddit 24%. None of the 8 companies covers it.\n• The person refuses help: forums 10%, Reddit 20%. Every tool assumes the older person will use it.\n• Choosing, placing and paying for care: forums 30%, Reddit 22%. Not covered by these companies.\n• Hands-on personal care and supplies: 17 Reddit posts as main topic. Not covered.\n\nLIMITS\n• ✅ only means a company says it offers a feature, not that it works\n• Reviews and Reddit posts lean toward strong opinions\n• Everplans (1 caregiving review) and Lotsa (4 items) are too thin to judge\n• Which theme counts toward which feature was Claude's call (feature-analysis-3/theme-to-feature.json)\n\nNEXT STEP FOR YOU\n• Fill the OUR COMPANY row with ✅ or 🚫. Claude doesn't choose.",
+ "howwell_title": "HOW WELL EACH FEATURE WORKS FOR CAREGIVERS (evidence from 577 caregiving reviews and posts)",
+ "howwell_sub": "The table on the left shows whether a company offers a feature. This table shows whether it actually works for caregivers. Each box: a label (🟢 Mostly works, 🟠 Mixed, 🔴 Mostly problems, or Too few to judge if under 5 items), how many items say it works and how many report a problem, and the main reasons.",
+ "main_title": "FEATURE COMPARISON TABLE (teacher's format: ✅ = offered on the company's own website, 🚫 = not found)"
+}

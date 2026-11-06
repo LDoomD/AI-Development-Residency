@@ -1,0 +1,165 @@
+# Feature comparison analysis (started 2026-11-03)
+
+Follows the four steps on the Figma board, section "ABOUT FEATURE ANALYSIS" (file `HcDDdEGAnikTImO8v7UPMp`, node `5:2593`). Discovery only: no product ideas go into the feature columns. The OUR COMPANY row stays empty until the gaps (step 4) are written, then holds "planned" guesses only (Fleety, `docs/sources/fleety/answer-1-feature-analysis-and-next-steps.md`).
+
+## Step 1: competitors (approved 2026-11-03)
+
+Approved by the owner 2026-11-03: the 8 businesses from the competitor analysis (`docs/competitive-analysis.md`, same as the Figma table): 7 direct, 1 indirect. The two workarounds in that table (group texts, paper notebook and visit log) are not businesses and have no features to compare; they go in the gaps box (step 4) as "what families use instead". Info columns use the company's own words from that file; nothing new was researched.
+
+| Company | Direct or indirect | Kind of tool (market segment) | Website | Pricing (company's words) | Who uses it and who pays (company's words) |
+|---|---|---|---|---|---|
+| Caring Village | Direct (coordination) | Family care-coordination app | https://caringvillage.com/ | Free plan, up to two members, ad-supported; Popular Circle $14.99/month | Family and professional caregivers; joining a village as a member is free; businesses contact sales |
+| CaringBridge | Direct (coordination) | Family care-coordination app | https://www.caringbridge.org/ | No cost; donor-supported nonprofit | Family caregivers and the people they update; paid for by donors |
+| Lotsa Helping Hands | Direct (coordination) | Family care-coordination app | https://lotsahelpinghands.com/ | Free | Caregivers organizing care, and friends and family who want to help |
+| Everplans | Direct (access to accounts) | Digital vault and emergency access | https://www.everplans.com/ | Base app free; Premium $99.99/year | Individuals and families; also offered through financial advisors and enterprise partners |
+| Epic MyChart | Direct (access to records) | Patient portal with proxy access | https://www.mychart.org/ | Not found in the saved pages | "over 190 million patients"; who pays not found in the saved pages |
+| Lively | Direct (monitoring and safety) | Medical alert and senior phone | https://www.lively.com/ | Devices (Mobile2 $89.99 sale) plus service plans; no long-term contracts; annual caregiver subscription | Older adults and their caregivers |
+| Medical Guardian | Direct (monitoring and safety) | Medical alert | https://www.medicalguardian.com/ | "about $1 a day"; device may be discounted or free through insurance | Older adults and families ("over 600,000+ families") |
+| Medisafe | Indirect (covers part of the need) | Medication reminder app | https://medisafeapp.com/ | Free, with a paid subscription; also sold to pharma ("patient engagement engine") | Patients and their "Medfriend" or caregiver |
+
+Template wording to change in the second version: the question under MARKET ("Community engagement or loyalty software?") becomes "What kind of caregiving tool is it?", and under MARKET SEGMENT ("...Community Engagement Software market...") becomes "Which caregiving market segment does it fit?". The table has 6 competitor rows; 2 rows will be added for the eight.
+
+## Step 2: what each competitor offers (DRAFT for the owner to review; updated 2026-11-03 with the pages found)
+
+Features as each company names them on its own saved pages (paths under `docs/sources/`). Company claims only: whether a feature works well is judged in step 3 from reviews. The first save had empty or "page not found" files; on 2026-11-03 the real pages were found from each site's own menu and saved (see `docs/sources/INDEX.md`, "2026-11-03 feature analysis: missing competitor pages found").
+
+**Caring Village** (`competitors/caring-village/`: home, faq, pricing, about, and `pages-2026-11-03/app.txt`)
+- Shared calendar: "One calendar for the whole village", "request volunteers for appointments", "Changes synced to every phone"; Google Calendar sync and printable calendar on paid plans
+- Shareable to-do lists: "Tasks with a named owner", "Claimed with one tap: 'I'll do it'"
+- Medication tracking: "Each dose marked as taken", "Missed-dose reminders"
+- Wellness journal: "one shared timeline", "Mood, symptoms and daily check-ins"; export for doctors on paid plans
+- Secure messaging: "Send one update and the whole village has it"
+- Document storage: "medical records, legal documents and IDs" (custom folders on paid plans)
+- Customizable care plans: "Progress the whole family can see"
+- Preparedness checklists; AI assistant "Julia" ("answers caregiving questions 24/7")
+- Invites: "Add family, friends and care pros with role-based permissions"; "Family members join free"; free plan 1 village, 2 members
+
+**CaringBridge** (`competitors/caringbridge/`: home, about-us; App Store listing; `help-center-2026-11-03/`)
+- Posts: health updates to everyone at once; journal of the health journey, journaling guide
+- Requests (replaced the Planner in December 2023): ask for childcare, chores, errands, meals, pet care, transportation, visiting, with dates and times; "One person can pick up each request"
+- Meal Train link; Instacart; gift cards; GoFundMe fundraising
+- Privacy: Public, Semi-Private (default), or Private ("Only people you add to the Approved Visitors List can view your page"); access requests; Co-Authors; block or remove a visitor
+- Comments, reactions, private messages; text-message notifications
+
+**Lotsa Helping Hands** (`competitors/lotsa-helping-hands/`: home, about, help center; App Store listing; `pages-2026-11-03/`)
+- Care calendar where helpers sign up for tasks (meals, rides to appointments, visits)
+- Announcements to the whole team or only to chosen groups, by email
+- Groups: posts, tasks and notes "only visible to the groups you select"; private groups only Site Admins can add people to
+- Well wishes; photo gallery
+- No features or FAQ page exists on the site (checked 2026-11-03)
+
+**Everplans** (`competitors/everplans/`: home, pricing, about)
+- Store family documents, IDs, vital info and accounts in one place
+- Secure sharing of items with trusted people (Premium)
+- Reminders and alerts about important dates
+- Guided planning ("smart planning system"), articles, videos and checklists
+- Free plan limited to 3 items
+
+**Epic MyChart** (`competitors-2/epic-mychart/www_mychart_org.txt`)
+- View medications, test results and bills
+- Find and schedule care
+- "Manage care for you and your family" (proxy access)
+- Connect with your doctor virtually
+- Access and share your information in one place; one login for all your care
+
+**Lively** (`competitors-2/lively/www_lively_com.txt` and `shop-pages-2026-11-03/`)
+- Urgent Response button: "Certified agents are ready to respond in emergencies, big or small, 24/7"; agents may call "a caregiver or loved one"
+- Fall detection on the Mobile2 device ("Requires a subscription to fall detection", add $9.99/month)
+- Lively Link app: "Invite friends and family to connect to your Lively device"; "they'll receive Urgent Response alerts" and "can view her location"
+- Medical alert plans: Basic $24.99/month, Premium $34.99/month (device $89.99 on sale)
+- Nurse On-Call (can refill prescriptions by phone), Ask Lively 24/7 operators, Lively Rides, Care Advocate
+- Everyday Support for Caregivers ($99/year, through Wellthy, AARP, Instacart, Norton): "Dedicated Care Coordinator", "Assistance coordinating appointments, paperwork, insurance, transportation", "option to invite family members, so everyone stays organized and informed", online caregiver community
+
+**Medical Guardian** (`competitors-2/medical-guardian/www_medicalguardian_com.txt`)
+- Wearable and home medical alert devices with one-button help to a 24/7 U.S. monitoring center
+- GPS location; fall detection (add-on; "does not work 100% of the time")
+- Monitoring center can contact "a neighbor, caregiver, or family member"
+- Member portal (MyGuardian); water-resistant devices
+
+**Medisafe** (`competitors/medisafe/www_medisafeapp_com_.txt` and `pages-2026-11-03/features.txt`)
+- Medication management for complex and "as needed" schedules
+- Family scheduling and tracking: "track all your family's medication doses and schedules in one place"; "Medfriend feature to know when a loved one missed a dose so you can give them a nudge"
+- Drug interaction warnings
+- Refill and appointment reminders
+- 90+ measurement trackers; reports sent to doctors
+- Resource centers for a dozen conditions
+
+Limits: Everplans, MyChart and Medical Guardian were not re-fetched (their saved main pages had full text, but they are single pages, so smaller features may be missing). Lively's plan grid did not copy as text, so which plan includes the Lively Link app is not known.
+
+## Step 3: side-by-side comparison (DRAFT for the owner to review; updated 2026-11-03)
+
+Feature columns approved by the owner 2026-11-03, grouped by caregiver need. Same content as the Figma section "FEATURE COMPARISON ANALYSIS 2 — CAREGIVING" (node `2436:9443`, right of the Feature Analysis section; the blank template is unchanged).
+
+**How to read each box**
+- A filled box means the company names the feature on its own saved pages (step 2). **Not found on their site** = we could not find it; it may still exist.
+- First line: what caregivers say in app reviews. 🟢 **Mostly works** = at least 2 out of 3 reviews about it say it worked. 🔴 **Mostly problems** = at least 2 out of 3 describe a problem. 🟠 **Mixed** = in between. **Too few reviews to judge** = fewer than 5. **No one mentions it** = the company offers it, but no review or Reddit post we found talks about it. **No reviews or posts** = no caregiver reviews or posts for this app. Red and mixed boxes name the top problems with counts.
+- Second line: the real count. Third line: what the feature is.
+
+**Where the review counts come from (re-runnable):** `python3 docs/sources/app-reviews/analysis/feature_ratings.py` writes `feature-ratings.json`. It uses the 439 caregiving-only reviews (`verified-tags.json` filtered by `relevance-final.json`). "Worked" reviews are matched to a column by the keyword themes in `worked_themes.py`; "problem" reviews by their category tag (column 1: organized vs not_syncing, reminders_failing; column 2: updates vs alerts_unreliable, not_syncing, family_cant_see_same_info, app_reliability; column 3: access_for_others, family_cant_see_same_info; column 4: meds vs reminders_failing, alerts_unreliable, family_cant_see_same_info, not_syncing; column 7: where, emergency vs readings_wrong, alerts_unreliable, safety_gap). A review can count in more than one column. Claude sorted each review once in an earlier session; no person double-checked. Epic MyChart and Everplans reviews are small separate samples, not part of the 439.
+
+Change from the first draft: the counts were rerun by this one script. Lively "one update reaches everyone" moved from not rated to Mostly problems (2 of 24), because problem reviews about the family app crashing or alerts not arriving are now counted in column 2; Lively emergency was 25 of 80 before the 2026-11-03 additions (26 of 81 in the first draft; one review was counted twice).
+
+**More reviews added 2026-11-03 (owner asked to fill the thin boxes).** Collected in the built-in browser and saved under `docs/sources/` (see INDEX.md, "2026-11-03 feature analysis: more reviews"):
+- Google Play, read through the Play Store's own review data: Lotsa (all 20 written reviews), Lively Link (1,451 read; 66 about family access kept), CaringBridge (2,080 read; 36 about family and help kept), Epic MyChart (6,169 newest read, July to November 2026; 58 with a family or caregiving word kept). Everplans has no reviews on Google Play. Caring Village's 42 Play reviews were already saved.
+- Caregiver forums: AgingCare and ALZConnected threads that name the apps (found with DuckDuckGo). Reddit is blocked in the built-in browser and was not used.
+- Claude tagged each new review by column (`docs/sources/app-reviews/analysis/extra-tags-2026-11-03.json`); `feature_ratings.py` adds them to the counts and skips reviews already in the older files.
+- Still thin: Lotsa (none of its 20 Play reviews clearly come from someone caring for a relative), Everplans (no caregiver reviews anywhere we looked), Caring Village (every review the stores show is already counted), and the columns no review talks about.
+- Kept to a keyword filter for the big apps, so these are not random samples.
+
+| Company | 1. Shared calendar and task sign-up | 2. One update reaches everyone | 3. Relatives join with their own access | 4. Medication reminders family can see | 5. Store and share important documents | 6. See medical records and test results | 7. Emergency help button and fall alerts | 8. Support for the caregiver |
+|---|---|---|---|---|---|---|---|---|
+| OUR COMPANY | (left empty until step 4) | | | | | | | |
+| Caring Village | 🟢 Mostly works · 14 of 15 · calendar, claimable to-dos | Too few (3) · journal and messages | Too few (1) · role-based invites | 🟢 Mostly works · 4 of 5 · doses checked off, missed-dose reminders | No one mentions it · medical, legal, IDs | Not found | Not found | No one mentions it · AI assistant Julia, checklists |
+| CaringBridge | 🟢 Mostly works · 4 of 5 (thin) · Requests with dates, one helper each; a Reddit poster says it is "better for sharing health updates" than day-to-day coordination | 🟢 Mostly works · 63 of 73 · posts to everyone | 🟠 Mixed · 6 of 11 · problem: relatives can't get in or wait to be approved (4) · private page, approved visitors | Not found | Not found | Not found | Not found | No one mentions it · support messages, journaling guide, Meal Train |
+| Lotsa Helping Hands | Too few (1) · care calendar with sign-up | Too few (2) · announcements by email | Too few (0) · groups set who sees what | Not found | Not found | Not found | Not found | No one mentions it · well wishes |
+| Everplans | Not found | Not found | No reviews or posts · secure sharing (Premium) | Not found | No reviews or posts · documents, IDs, accounts | Not found | Not found | No reviews or posts · planning articles |
+| Epic MyChart | Not found | Not found | 🟠 Mixed · 17 of 36 · problems: sign-in codes go to the parent's phone; family shares one password; proxy access refused · proxy access | Too few (0) · shows medications, no reminders | Not found | 🟢 Mostly works · 25 of 33 · when it fails: messages go to a parent who never checks · results, medications, bills | Not found | Not found |
+| Lively | Too few (2) · paid human Care Coordinator; no shared calendar | 🔴 Mostly problems · 3 of 46 · problems: family app crashes (12), alerts don't arrive (9) | 🔴 Mostly problems · 3 of 45 · problem: invites and sign-in fail | Not found | Not found | Not found | 🔴 Mostly problems · 34 of 112 · problems: wrong locations (33), safety gaps (13); calling family takes several steps (Reddit) | No one mentions it · Care Coordinator, Nurse On-Call |
+| Medical Guardian | Not found | Not found · family contacted only in an emergency | Not found | Not found | Not found | Not found | 🔴 Mostly problems · 5 of 27 · problems: wrong readings (9), safety gaps (5); parents won't wear it; the call shows up as an unknown number (Reddit) | Not found |
+| Medisafe | Not found | Not found | 🔴 Mostly problems · 0 of 5 · problem: family can't see the same info (4) · Medfriend | 🔴 Mostly problems · 5 of 15 · problems: family can't see the same info (4), alerts don't arrive (2) | Not found | Not found | Not found | No one mentions it · condition resource centers |
+| **Caregivers on Reddit, any tool (825 posts)** | 144 posts · siblings won't share the work (77); info spread across chats and calendars (35) | 78 posts · updates lost or ignored in group chats (29) | 147 posts · bank or agency won't deal with the caregiver (52); parent's passwords lost (35); codes go to the parent's phone (23) | 88 posts · parent forgets or refuses (30); med changes not shared, near double doses (25) | 128 posts · no POA or POA rejected (42); papers scattered or lost (32) | 90 posts · doctors don't share with family (31); too many portals, proxy blocked (27) | 66 posts · no way to know the parent is OK (22); parent won't wear the device (11) | 292 posts · doing it alone, family won't help (137); burnout, no one understands (57); no respite (20) |
+
+**Reddit row (added 2026-11-03):** 825 posts by caregivers from 13 communities, 2023 to November 2026. They're about any tool or none, not one company. Full report with links: `docs/reddit-caregiver-findings-2026-11-03.md`. Boxes marked "(Reddit)" add problems from posts that name that company (`docs/sources/reddit/arctic-shift-2026-11-03/app-mentions.json`). "No one mentions it" = the company offers it, but no review or Reddit post we found talks about it.
+
+What the table shows (reading, not proof):
+- Common: relatives joining (7 of 8) and support for the caregiver (6 of 8) are offered by most companies, but few reviews speak to how well they work.
+- Unique: medical records (MyChart only); emergency help (Lively and Medical Guardian only).
+- Missing: no company offers all of family coordination, records and safety. Lively comes closest (safety plus a paid human coordinator), but its family app only sends emergency alerts.
+- Where there are enough reviews: coordination (Caring Village calendar and medications, CaringBridge updates) and MyChart records mostly work; letting relatives in is mixed at best (CaringBridge 6 of 11, MyChart 13 of 25) and mostly fails at Lively and Medisafe; safety alerts mostly have problems.
+
+## Step 4: gaps and opportunities (DRAFT for the owner to review)
+
+Board instruction: "Describe the feature-related gaps or opportunities. Look for features people want but no one offers well." Written as open problems, not features to build (discovery: nothing is chosen yet). Each gap says what the table shows, one caregiver's words, and what it does not show. Quotes are word for word from the saved files named.
+
+**1. Letting relatives in without sharing one login is offered almost everywhere but rarely works well.** *Reddit: confirmed, and it reaches past apps. 147 posts; the blockers are banks and agencies that won't deal with the caregiver (52), lost passwords (35), and sign-in codes sent to the parent's phone (23).*
+- Table: 7 of 8 companies offer some way for relatives to join (column 3). Where there are enough reviews it is never "mostly works": CaringBridge Mixed (6 of 11), MyChart Mixed (13 of 25), Lively Mostly problems (3 of 45), Medisafe Mostly problems (0 of 5).
+- In their words: "my wife can never get on my chart. She has to change the password everytime." (MyChart, Google Play, `google-play-reviews-mychart-family.json` #5); "I cant even invite my wife...it says click \"manage invites\" in upper rightcorner....there is no \"manage invites\" there!!" (Lively Link, `google-play-reviews-lively-link-family-access.json` #8).
+- Does not show: whether the problems are the apps' design, health-system rules (MyChart proxy rules vary by hospital), or user error.
+
+**2. No company covers family coordination, medical records and safety together, so families stitch tools together.** *Reddit: confirmed. Group chats, calendars, spreadsheets, pill boxes and paper are named far more than any competitor, and posts say the pieces fall apart ("WhatsApp group (17 unread messages), Google Calendar nobody updates, notebook only I write in." [r/AgingParents, 2025-08-27](https://www.reddit.com/r/AgingParents/comments/1n1rbmb/)).*
+- Table: coordination apps (Caring Village, CaringBridge, Lotsa) have no records or safety feature; MyChart has records but no family coordination; Lively and Medical Guardian have safety but no shared calendar (Lively's coordinator is a paid human service). The two workarounds left out of the table, group texts and paper notebooks, are what families use instead.
+- In their words: "A visit log kept at the house worked for us." (AgingCare forum, `sources/forums/agingcare/working-caregiver/499829.txt`, comment 1, listed in `docs/community-voice-findings.md`); "When i need to share data with family and caregiver consultant, I can't !!!!" (MyChart, `google-play-reviews-mychart-family.json` #56).
+- Does not show: whether families want one place for all of it, or are fine with several tools; how many families use group texts (only the owner's report).
+
+**3. Safety tools reach the person, but the family side (alerts, location) mostly fails in reviews.** *Reddit: confirmed, with new detail. Families want the button to reach them, not a dispatcher; parents often won't wear the device; and the call center's call shows up as an unknown number.*
+- Table: emergency help (column 7) is Mostly problems at both companies that offer it (Lively 34 of 107, Medical Guardian 3 of 19); Lively's family alerts (column 2) are Mostly problems (3 of 46).
+- In their words: "I have received no notifications that my Mom is out and about" (Lively Link, `google-play-reviews-lively-link-family-access.json` #41); "She has fallen five or six times without it alerting" (Medical Guardian, AgingCare, `sources/forums/app-mentions-2026-11-03/agingcare.json`).
+- Does not show: how often alerts fail overall (reviews lean toward problems); several reviewers praise the emergency operators themselves.
+
+**4. Medication information the whole family can see exists in only two products, and works well in only one small sample.** *Reddit: confirmed but possibly overstated. 88 posts (parents forget or refuse: 30; med changes not shared, near double doses: 25), but app makers post a lot on this topic.*
+- Table: column 4 is offered only by Caring Village (Mostly works, 4 of 5) and Medisafe (Mostly problems, 5 of 15). MyChart shows medications but does not remind.
+- Does not show: much, the sample is small; demand for shared medication tracking comes from earlier research (`docs/app-review-findings.md`), not this table.
+
+**5. Medical records work well in MyChart, but they stay inside MyChart.** *Reddit: unclear. MyChart works once a caregiver gets in (25 of 33). The bigger problems are getting in (gap 1) and doctors' offices not sharing with the family (31 posts).*
+- Table: column 6 is offered only by MyChart, and it mostly works (14 of 15). No coordination app connects to it, and its relatives-join column is Mixed.
+- Does not show: whether caregivers want records inside a family tool, or only need easier proxy access.
+
+**New gaps from Reddit (2026-11-03), not visible in the review data:**
+
+**6. Important documents: offered by two companies, but caregivers' problems are mostly about the power of attorney.** 128 Reddit posts. Banks reject or delay the POA, or there is none (42); papers are scattered across binders, camera rolls and portals (32). Caring Village and Everplans offer document storage, but no review or post talks about it. "the bank system rejected it with a message saying “The POA document presented does not have appropriate documentation or basis for successor agent to act”" ([r/AgingParents, 2024-05-01](https://www.reddit.com/r/AgingParents/comments/1chtota/)). Does not show: whether storage would help, since most problems come from banks and parents.
+
+**7. Support for the caregiver: the biggest topic, and mostly about people, not tools.** 292 Reddit posts. Doing it alone because family won't help (137); burnout with no one who understands (57); no respite (20). Six companies offer some support feature, but no one mentions any of them. "it all falls on me." ([r/CaregiverSupport, 2025-05-24](https://www.reddit.com/r/CaregiverSupport/comments/1kuhw71/)). Does not show: what kind of support would help. Reddit support communities are where people go, and posters there are more likely to be struggling.
+
+Shared calendars (column 1) still work well at Caring Village (14 of 15); on Reddit the main calendar problem is siblings not sharing the work (77), not the tool.
+
+**Limits:** reviews come from people who chose to post and lean toward problems; Claude tagged them once and no person double-checked; the big apps were keyword-filtered. The companies were chosen by the team. Reddit (2026-11-03) adds 825 caregiver posts. Those were tagged once by Claude helpers, the documents and support topics were sampled, and people with problems post more. These are patterns from desk research, not measured rates.

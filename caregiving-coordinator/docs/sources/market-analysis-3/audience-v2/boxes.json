@@ -1,0 +1,53 @@
+{
+ "how": "Box statements for the teacher-format audience page (2026-11-04). Each statement = one coded item from the audience page lists, ordered by forum threads + Reddit posts that show it. Details after the dash come from the coded labels and quotes (forum-relevance/motiv-themes.json, goals/codes-1..3.json). Counts: [forum, reddit]. Audience 1 bases: 55 forum threads, 269 Reddit posts. Audience 2: 54 forum threads, 35 Reddit posts.",
+ "A1": {
+  "motivations": [
+   ["Keeping their parent safe and comfortable, and sparing them suffering: worry about falls, not eating, wounds, or a home that is no longer safe.", 7, 60],
+   ["Doing the right thing and not carrying guilt or blame: duty to a parent, fear of not doing enough, being the one who has to step up.", 6, 30],
+   ["Love, loyalty and promises: not wanting to abandon a parent, not ready to say goodbye, keeping a promise made years ago.", 3, 23],
+   ["Letting the parent stay at home and keep making their own choices, even when it is risky.", 5, 19],
+   ["Honoring the parent's wishes and making the time they have left count.", 0, 5],
+   ["Taking the load off the other parent, who is the main caregiver.", 0, 4]
+  ],
+  "situational goals": [
+   ["Understand what is happening and what to do next: is this dementia or a side effect, what is normal, how others handled it.", 2, 71],
+   ["Get help, relief or services: respite, more in-home help, approval for long-term care, someone who can step in.", 11, 47],
+   ["Get the parent's money, bills and legal papers under control: power of attorney, Medicaid, bills paid twice, whether the parent can still sign.", 3, 46],
+   ["Keep the parent safe and know they are OK: alone at home, falls, scams, a new facility where no one speaks up for them.", 2, 36],
+   ["Find, choose and pay for the right place: memory care that accepts Medicaid, moving a parent closer or across states.", 6, 31],
+   ["Get medicines right: taken on time, refused, side effects, refills.", 1, 19],
+   ["Get the parent to accept care and look after their own health.", 0, 16],
+   ["Handle the parent's moods and behavior without a fight.", 0, 7]
+  ],
+  "life goals": [
+   ["Keep their own health and sanity: sleep, stress, not falling apart.", 1, 72],
+   ["Keep their own life, job and money: career, studies, savings, not losing their income.", 3, 49],
+   ["Get time and breaks for themselves, without feeling guilty.", 4, 19],
+   ["Protect their own marriage, children and family.", 0, 9],
+   ["Not be alone in it, and be seen by others.", 0, 5],
+   ["Have a life and a home of their own after caregiving.", 0, 4]
+  ]
+ },
+ "A2": {
+  "motivations": [
+   ["Love, loyalty and their vows: staying by their partner's side and wanting to spend the rest of their life together.", 9, 15],
+   ["Keeping their partner safe, comfortable and with dignity, and sparing them suffering.", 11, 3],
+   ["Keeping their partner at home, with the friends and pleasures they still enjoy.", 4, 0],
+   ["Doing right by their partner.", 1, 0]
+  ],
+  "situational goals": [
+   ["Get help, relief or services: someone to stay with the partner, hospice, veterans' or other programs.", 6, 5],
+   ["Understand what is happening and what to do: what to expect next, how others handle it.", 0, 9],
+   ["Find, choose and pay for the right place: tour memory care, join waitlists, find a way to pay.", 7, 1],
+   ["Keep the partner safe and know the care was done: walking off, driving, blood pressure, aides doing their job.", 5, 1],
+   ["Make sense of money and insurance: keeping coverage and doctors, getting paid as a caregiver.", 0, 2],
+   ["Keep medicines manageable: fewer pills, quality of life first.", 1, 1]
+  ],
+  "life goals": [
+   ["Keep their own health and sanity: get through each day, cope, get help for their own anxiety and depression.", 7, 15],
+   ["Keep their own life, job and money: keep working, have a life left afterward.", 4, 9],
+   ["Companionship, closeness and someone who understands: they feel alone in the marriage.", 0, 11],
+   ["Get time to themselves and real breaks.", 2, 4]
+  ]
+ }
+}

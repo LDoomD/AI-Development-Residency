@@ -1,0 +1,208 @@
+{
+  "company": "Everplans",
+  "slug": "everplans",
+  "built": "2026-11-04",
+  "method": "All saved company pages read in full; quotes copied exactly from the saved file (whitespace may differ where the saved text breaks lines).",
+  "pages_read": [
+    "docs/sources/competitors/everplans/www_everplans_com_.html",
+    "docs/sources/competitors/everplans/www_everplans_com_.txt",
+    "docs/sources/competitors/everplans/www_everplans_com_about.html",
+    "docs/sources/competitors/everplans/www_everplans_com_about.txt",
+    "docs/sources/competitors/everplans/www_everplans_com_pricing.html",
+    "docs/sources/competitors/everplans/www_everplans_com_pricing.txt",
+    "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.html",
+    "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+    "docs/company-funding.md"
+  ],
+  "notes": "No App Store listing for Everplans is saved in competitors/app-store-listings. Privacy policy is dated 05/12/2022 and names Beyondly, Inc.",
+  "business_model": {
+    "answer": "Freemium: a free tier (3 items) and Premium at $99.99/year, plus enterprise partnerships where financial advisors or partner providers invite clients. Acquired by Precoa in October 2024; no funding or price figure was found.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_pricing.txt",
+        "quote": "Everplans Premium - $99.99/year"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_pricing.txt",
+        "quote": "To learn more about Everplans for enterprise customers, visit our partnerships page"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_about.txt",
+        "quote": "In October 2024, Everplans was acquired by Precoa"
+      },
+      {
+        "file": "docs/company-funding.md",
+        "quote": "| Everplans | end-of-life planning | NOT FOUND |"
+      }
+    ],
+    "not_stated": false
+  },
+  "who_uses_who_pays": {
+    "answer": "Individuals and households organizing their own documents use it; people they trust get access. Users pay for Premium themselves, or reach Premium through an invitation from a financial advisor or partner; who pays in that case is not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "if you accepted an Invitation from that financial advisor or Partner Provider, as applicable, to sign up for and access the Premium Services"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_.txt",
+        "quote": "Securely share items from your Everplan with people you trust"
+      }
+    ],
+    "not_stated": false
+  },
+  "cost": {
+    "answer": "Free (up to 3 items) or Premium $99.99 a year (unlimited items, premium checklists, secure sharing). A Household Membership is mentioned without a price.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_pricing.txt",
+        "quote": "Store up to 3 items"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_pricing.txt",
+        "quote": "Everplans Premium - $99.99/year"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "If you are enrolled in a Household Membership"
+      }
+    ],
+    "not_stated": false
+  },
+  "how_they_differentiate": {
+    "answer": "They claim to organize all of a person's life details for them and tell them what to do next, using a smart, algorithm-led planning system.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_.txt",
+        "quote": "Everplans organizes the details of your life for you, and keeps you one step ahead of what you need to do next."
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_.txt",
+        "quote": "Let our smart planning system guide your next step"
+      }
+    ],
+    "not_stated": false
+  },
+  "unique_value_proposition": {
+    "answer": "Keep every important document and decision of your life in one safe place you can share with the people who will need it.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_.txt",
+        "quote": "All the pieces of your world in one place"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_about.txt",
+        "quote": "Everplans helps you organize, store, and securely share all of your most important information."
+      }
+    ],
+    "not_stated": false
+  },
+  "retain_customers": {
+    "answer": "The free tier stops at 3 items, so serious use needs Premium; reminders about important dates and a content library bring people back. Cancellation terms are not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_pricing.txt",
+        "quote": "Store up to 3 items"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_pricing.txt",
+        "quote": "Add unlimited items to your Everplan"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_.txt",
+        "quote": "Receive reminders and alerts about important dates"
+      }
+    ],
+    "not_stated": false
+  },
+  "customer_experience": {
+    "answer": "Self-serve: FAQs, a help center and contact form, plus articles, videos and checklists. They stress they are not doctors, lawyers or financial advisors.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_.txt",
+        "quote": "Access informative articles, videos,"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "please contact us through our help center at"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_.txt",
+        "quote": "Everplans is not a licensed healthcare provider, medical professional, law firm, or financial advisory firm"
+      }
+    ],
+    "not_stated": false
+  },
+  "relatives_joining": {
+    "answer": "Yes. The owner names 'Read or Write Access Deputies' with permission for only chosen sections, can mark sections to open only after death (unlocked by a named 'Unlocker'), and a Household Membership adds Co-Administrators with full edit rights.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "including the permissions you set that give any particular Read Or Write Access Deputy access to only certain designated portions of your Everplan"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "you may designate one of your Read or Write Access Deputies as an “Unlocker” of your “After Death Sections.”"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "Co-Administrators can equally view, edit, and administrate all parts of the Everplan that you are using."
+      }
+    ],
+    "not_stated": false
+  },
+  "privacy_data_consent": {
+    "answer": "Health, financial and legal details are encrypted and, they say, not readable by staff day to day; shared only with deputies the owner chooses; stored with a HIPAA-compliant host. The owner deletes the account with a self-serve button, but other personal (non-secure) information may be kept afterward.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "have access to the content or details of any Secure Information you privately submit through the Services because it is encrypted"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "your Secure Information is stored in a HIPAA-compliant hosting provider"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "When you delete your account, all of your Secure Information will be deleted or (if applicable) transferred to a Co-Administrator."
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "Please note that we may keep your Non-Personal Information and any of your Personal Information other than your Secure Information even after your account deletion."
+      }
+    ],
+    "not_stated": false
+  },
+  "emergencies": {
+    "answer": "No emergency service or support hours are stated. The nearest thing is the after-death release of chosen sections to deputies; they also disclaim liability if data is lost or breached.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "the Unlocker will be able to alert Everplans that you have been “Declared Dead” through their use of the Services"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "EVERPLANS SHALL NOT BE RESPONSIBLE OR LIABLE FOR UNAUTHORIZED ACCESS, HACKING OR OTHER SECURITY INTRUSIONS"
+      }
+    ],
+    "not_stated": false
+  },
+  "setup": {
+    "answer": "The person signs up on the web or the mobile app (iOS, now also Android) and fills in their Everplan, guided by the planning system. Time needed is not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_.txt",
+        "quote": "The Everplans mobile app is now available for Android!"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_pricing.txt",
+        "quote": "Mobile App (iOS)"
+      },
+      {
+        "file": "docs/sources/competitors/everplans/www_everplans_com_privacy_policy.txt",
+        "quote": "in particular when you fill out an Everplan"
+      }
+    ],
+    "not_stated": false
+  }
+}

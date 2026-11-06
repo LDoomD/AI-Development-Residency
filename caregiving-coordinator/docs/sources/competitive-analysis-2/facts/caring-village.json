@@ -1,0 +1,261 @@
+{
+  "company": "Caring Village",
+  "slug": "caring-village",
+  "built": "2026-11-04",
+  "method": "All saved company pages read in full; quotes copied exactly from the saved file (whitespace may differ where the saved text breaks lines).",
+  "pages_read": [
+    "docs/sources/competitors/caring-village/pages-2026-11-03/app.txt",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_.html",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_.txt",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_about.html",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_about.txt",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_faq.LIVE-CHECK-2026-11-03.md",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_faq.html",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_features.html",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_features.txt",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.html",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.txt",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_privacy_policy.html",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_privacy_policy.txt",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_security.html",
+    "docs/sources/competitors/caring-village/www_caringvillage_com_security.txt",
+    "docs/sources/competitors/app-store-listings/caring-village.json",
+    "docs/company-funding.md"
+  ],
+  "notes": "www_caringvillage_com_features.* and www_caringvillage_com_security.* are 'Page not found' pages. The FAQ says 25 members per Village plan; the pricing and app pages say 50.",
+  "business_model": {
+    "answer": "Freemium subscription. A free plan (ad-supported, 1 village, 2 members) and two paid plans, Circle and Village, sold inside the app; businesses can contact them to use it for patients or clients, and gift subscriptions exist. Run by Caring Village Inc. (App Store seller: Caring Village Holdings, LLC); no funding figure was found.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "Our Free Plan allows up to two members and is ad-supported."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.txt",
+        "quote": "Subscribe to a Premium plan to bring your family and care into one trusted, secure place."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "If you're a business looking to use Caring Village for your patients or clients, please contact us"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/caring-village.json",
+        "quote": "\"sellerName\":\"Caring Village Holdings, LLC\""
+      },
+      {
+        "file": "docs/company-funding.md",
+        "quote": "| Caring Village | family coordination | NOT FOUND |"
+      }
+    ],
+    "not_stated": false
+  },
+  "who_uses_who_pays": {
+    "answer": "Family caregivers and their helpers use it. The person who creates the village pays if they need more members or villages; everyone they invite joins free. Someone can also buy a gift subscription for a caregiver, and businesses can arrange use for their clients.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "It’s always free to join a village as a member"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "Caring Village is for both family and professional caregivers."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.txt",
+        "quote": "Buying for a caregiver? Explore gift subscriptions"
+      }
+    ],
+    "not_stated": false
+  },
+  "cost": {
+    "answer": "Free: $0 (1 village, 2 members). Circle: $14.99/month (2 villages, 5 members each). Village: $24.99/month (5 villages, 50 members each on the pricing page, 25 in the FAQ). Annual billing saves 17% ($12.49 and $20.83 a month billed yearly). The app download is free.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.txt",
+        "quote": "$14.99"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.txt",
+        "quote": "$24.99"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.txt",
+        "quote": "Save 17% with annual billing"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/pages-2026-11-03/app.txt",
+        "quote": "Circle $12.49/month billed annually (up to 2 villages, 5 members each"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "Village Plan: Up to 5 villages and 25 members per village"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/caring-village.json",
+        "quote": "\"formattedPrice\":\"Free\""
+      }
+    ],
+    "not_stated": false
+  },
+  "how_they_differentiate": {
+    "answer": "They claim to be one shared command center for all of a family's caregiving (calendar, medications, journal, messages, documents) instead of scattered texts and spreadsheets, built by people who were caregivers themselves, with a 24/7 AI assistant called Julia.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_about.txt",
+        "quote": "Caring Village replaces the scattered texts, spreadsheets, and sticky notes with a single command center."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "Caring Village is a first-of-its kind online dashboard and mobile app"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_about.txt",
+        "quote": "We've walked in your shoes. Every feature we build starts with real caregiver struggles we've lived through ourselves."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/pages-2026-11-03/app.txt",
+        "quote": "Julia answers caregiving questions 24/7"
+      }
+    ],
+    "not_stated": false
+  },
+  "unique_value_proposition": {
+    "answer": "One free app where the whole family coordinates a loved one's care together, so no one carries it alone.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_.txt",
+        "quote": "Join families using Caring Village to simplify caregiving with a single, free app that keeps everyone connected and informed."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_about.txt",
+        "quote": "Coordinating care together, so no one does it alone."
+      }
+    ],
+    "not_stated": false
+  },
+  "retain_customers": {
+    "answer": "The free plan caps a village at 2 members, so larger families must upgrade; paid plans remove ads and add document folders, care plans and calendar sync. Plans can be cancelled any time in the app. Day-to-day pull comes from shared to-dos, reminders and a wellness journal family members can like and comment on.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "Our free villages can have up to two members."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.txt",
+        "quote": "Yes! You can upgrade, downgrade, or cancel your subscription at any time from the My Subscription section in the app."
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/caring-village.json",
+        "quote": "Share photos and updates with your care circle, where family members can like, comment, and stay emotionally connected"
+      }
+    ],
+    "not_stated": false
+  },
+  "customer_experience": {
+    "answer": "Self-serve: a help center, a support email, a guided village setup, a 30-second plan quiz, expert checklists, and the AI assistant Julia for caregiving questions at any hour. No human phone support or hours are mentioned.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "Be sure to visit our help center"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "you will be walked through the process of creating your very own village."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_pricing.txt",
+        "quote": "Take the 30-second quiz"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_about.txt",
+        "quote": "get 24/7 guidance from Julia, our AI caregiving assistant"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_privacy_policy.txt",
+        "quote": "Email:  support@caringvillage.com"
+      }
+    ],
+    "not_stated": false
+  },
+  "relatives_joining": {
+    "answer": "Yes. The village creator invites family, friends, neighbors and care professionals; each joins with their own free account and gets role-based permissions. How many can join depends on the creator's plan (2 free, up to 5 or 50 paid).",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "Users can build an online village for their loved ones and invite family members, friends, neighbors, and professional caregivers to participate in their care."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/pages-2026-11-03/app.txt",
+        "quote": "Add family, friends and care pros with role-based permissions."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "view pending invitations for other villages"
+      }
+    ],
+    "not_stated": false
+  },
+  "privacy_data_consent": {
+    "answer": "They collect medications, appointments, journal entries and uploaded medical and legal documents. Data is encrypted, seen only by village members according to roles the creator controls, never sold, and shared with hosting, payment and analytics providers. Account and data deletion is by emailing support; how a single member is removed is not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_privacy_policy.txt",
+        "quote": "Uploaded documents (medical records, legal documents, etc.)"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_privacy_policy.txt",
+        "quote": "Access to personal and health information is restricted to authorized village members based on role-based permissions you control."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_privacy_policy.txt",
+        "quote": "We never sell your personal or health information."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_privacy_policy.txt",
+        "quote": "We work with trusted third-party providers (hosting, payment processing, analytics)"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_privacy_policy.txt",
+        "quote": "You can request deletion of your account and associated data at any time by contacting us at"
+      }
+    ],
+    "not_stated": false
+  },
+  "emergencies": {
+    "answer": "No emergency service, outage plan or support hours are stated. The only related items are preparedness checklists (including emergency planning) and the AI assistant being available any time.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "Preparedness Checklists: Prepare for the unexpected of tomorrow"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/caring-village.json",
+        "quote": "from daily routines to emergency planning"
+      }
+    ],
+    "not_stated": false
+  },
+  "setup": {
+    "answer": "The caregiver signs up with email, Apple or Google and is walked through creating a village, then invites others; they say it takes a few minutes. Works on iPhone, Android and the web (iPhone app needs iOS 17 or later).",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors/caring-village/www_caringvillage_com_faq.txt",
+        "quote": "To create a village, Sign Up with either your e-mail, Apple or Google account."
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/pages-2026-11-03/app.txt",
+        "quote": "Free on iPhone, Android and web"
+      },
+      {
+        "file": "docs/sources/competitors/caring-village/pages-2026-11-03/app.txt",
+        "quote": "Takes a few minutes / Invite family for free"
+      },
+      {
+        "file": "docs/sources/competitors/app-store-listings/caring-village.json",
+        "quote": "\"minimumOsVersion\":\"17.0\""
+      }
+    ],
+    "not_stated": false
+  }
+}

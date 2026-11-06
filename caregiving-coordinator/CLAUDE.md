@@ -74,3 +74,119 @@ description-matching: `SessionStart` and `SubagentStart` load the skill list
 - Ask before using the user's browser or the Chrome extension.
 - Never write or edit the user's homework summary. They write it themselves.
 - No RuFlo/claude-flow — removed from this residency's tooling; see memory.
+
+## Dog feeding (how every session works, added 2026-11-04)
+
+The user follows the teacher's dog feeding method (Figma node 2390:7831, "Steps
+to Produce Literally Anything"). Each new document is made from saved,
+checked documents, never from chat memory.
+
+> **RULE #1: EVERY DELIVERABLE IS PART OF ONE PROJECT (the owner's words, 2026-11-04,
+> after repeated mistakes).** Market analysis, audience segmentation, competitive
+> analysis, feature analysis, positioning and vision boards are not separate tasks.
+> Each one is built on the ones before it and feeds the ones after it. Any research,
+> table or step must use the structure the project already set: the two audiences
+> (Audience 1 = adult child caring for a parent, Audience 2 = spouse or partner),
+> the top caregiver problems, the market segments, the 5 criteria, and the open
+> questions (such as who pays). **No research, reading pass or new table starts
+> until `docs/research-checklist.md` is filled in and shown to the owner.** When new
+> research changes one deliverable, say which other deliverables it changes, and
+> update them in order.
+
+- **Start of session:** ask for the latest dog feeding report in
+  `../Dog Feeding Docs/` (newest `dogfood-*.md`, one folder per week) and the saved documents it lists.
+  Read them all, then say what you have and what is missing.
+- **Where reports go:** save every new dog feeding report or starting brief
+  straight into `../Dog Feeding Docs/<week folder>/` (for example `Week 2_3`),
+  organized by the course week. Ask which week if unsure.
+- **A dog feeding report is a handoff report (owner, 2026-11-05).** Its outcome:
+  the next Claude, in a new session or the same one, can start the next
+  deliverable from this file alone. It must hold:
+  1. where we are and where to start
+  2. all the rules
+  3. **the actual outcomes of every finished deliverable**: key tables,
+     verdicts, answers and numbers with sources, not just links
+  4. what the next deliverable needs (homework and template)
+  5. what's out of date and why
+  6. exact first steps
+  7. open and parked items
+  8. where things live
+  9. git status
+
+  A list of what happened is not enough. Name it
+  `dogfood-<date>-handoff-<next deliverable>.md`, and say which older reports
+  it replaces. Example: `Dog Feeding Docs/Week 2_3/dogfood-2026-11-05-handoff-feature-analysis.md`.
+- **One part at a time.** Do only the step the user asks, then stop and wait.
+  The user makes each choice. Never start the next step or change other work
+  unasked.
+- **Order of work:** market analysis → competitive → feature → positioning →
+  vision boards. New research updates the market analysis first.
+- **Say where each answer came from** (which saved document or data file).
+- **Remind the user to ask for a markdown file or report** at these moments,
+  in one line at the end of the reply:
+  1. A deliverable was approved: save it as a new markdown version.
+  2. Before a new chat or a compact: write a dog feeding report.
+  3. Something was redone or went wrong: write a short change report.
+  4. Before moving to the next step in the order.
+  5. End of the session.
+- **Earlier deliverables lead the next one (rule added after repeated mistakes,
+  2026-11-04).** Start each step from the earlier deliverables' actual tables. For
+  example, the competitive analysis takes its competitors from the market
+  analysis segment table and its named companies
+  (`docs/competitive-analysis-3-inputs.md`). Before giving options, show an
+  inputs table: each relevant item, used or left out, and why. Table cells are
+  one short sentence that answers the column's question, in the style of the
+  owner's earlier tables. Counts and quotes go in the evidence file. One entity
+  per row, labeled business, nonprofit, government program or workaround.
+- **Search all saved research on a topic first (rule added 2026-11-04, after
+  `docs/exhaustion-dementia-research.md` was missed).** Before working on any
+  problem, segment or competitor, search every saved document in `docs/` for
+  that topic (for example `find docs -name "*.md" -exec grep -l -i -E
+  "exhaust|burnout|respite" {} \;`), and list each file found in the inputs
+  table as used, or left out and why. Don't rely only on the files a report
+  lists. Never filter out the segment for the #1 problem without telling the
+  owner plainly that the biggest need will have no competitor. Candidates come
+  from the full researched list, never from pages that happen to be saved.
+  Mistake log: `docs/reports/competitive-analysis-3-change-report-2026-11-04b.md`.
+- **Write for the owner (2026-11-05).** Every output (chat, reports, tables,
+  Figma) uses UX writing best practices at an 8th-grade reading level: what it
+  means first, then the number; full sentences; caregiver words, not research
+  jargon ("supply," "coded," "keyword rule"). Test: would the owner understand
+  it on first read?
+- **Questions get answers, not edits.** When the owner asks a question, answer
+  it and stop. Change files only after a clear yes.
+- **Every research pass splits by audience.** Before any reading starts, the
+  instructions must record who the writer cares for, with the market analysis
+  labels ("cared_for": parent, spouse or partner, other relative, child,
+  client, unclear). Audience 1 = adult child (or child-in-law) caring for a
+  parent; Audience 2 = spouse or partner (Figma 2378:7111, 2378:7177).
+- **How to answer a table question from data (owner-approved style,
+  2026-11-04, after 4 rejected drafts).** Every cell must pass all of these:
+  1. **Answer the column's question directly, in the first word.** Don't
+     repeat the row's name (the label already says it). Don't lead in.
+  2. **No filler.** Cut words that add no fact: "quickly", "overwhelmed",
+     "for them", "when a parent completes it ahead of time", "so everyone".
+  3. **Concrete examples from the data.** Give several when the data has
+     several, as a list of facts. Never vague words like "easy to use" or
+     "helpful".
+  4. **No quotes, counts, IDs or research words** ("evidence", "mentions",
+     "company claim", "no data") in the cell. They go in the evidence file.
+  5. **No tags or fragments** that don't answer ("Shows options and some
+     prices"). **No long, wordy sentences** either. Two short sentences at most.
+  6. **Thin data means getting more data** (BBB, Trustpilot, app stores,
+     Reddit through the Arctic Shift archive), never a cell saying it's thin.
+  7. **Yes / Partly / No questions** start with that word, then the facts:
+     "Partly: stores documents. No help getting into bank, insurer or portal
+     accounts."
+  - Approved examples: "Lists nearby senior living options with prices and
+    books tours." / "Shares families' contact details, causing nonstop sales
+    calls. Commission-paid advisors know little about the places." / "Cost
+    $150 to $300 an hour, offer unclear services, and sometimes never make
+    the agreed care plan."
+  - Before showing a table, check every cell against these 7 rules and its
+    saved source (for example with a checker script like
+    `docs/sources/competitive-analysis-3/grid/build_grid_v2.py`).
+- **Superseded work:** a big yellow banner across the top of the section,
+  never a small sticky. Never delete.
+- **Tables:** follow `docs/sources/market-analysis-3/audience-v2/TABLE-RULES.md`
+  (the user has ADHD: short bullets, no IDs or quotes in cells, big text).

@@ -1,0 +1,108 @@
+{
+ "competitor": "Lotsa Helping Hands",
+ "items_in_pack": 6,
+ "items_kept": 4,
+ "dropped": {
+  "not caregiving": 0,
+  "says nothing about the product": 2,
+  "app maker / ad": 0
+ },
+ "kept_ids": [
+  "a-7848",
+  "a-7900",
+  "a-7901",
+  "reddit-p1wrnjau"
+ ],
+ "works_well": [
+  {
+   "theme": "Signing up helpers for shifts, tasks and meals",
+   "what_it_means": "People use it so helpers can claim shifts or tasks and see who signed up.",
+   "count": 3,
+   "ids": [
+    "a-7848",
+    "a-7900",
+    "reddit-p1wrnjau"
+   ],
+   "quotes": [
+    {
+     "id": "a-7900",
+     "quote": "Great to have on-the-go when you need to check who has signed up for different tasks."
+    },
+    {
+     "id": "reddit-p1wrnjau",
+     "quote": "Lotsa Helping Hands (great for meal trains, not for meds/money)"
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "Glitches block basic actions",
+   "what_it_means": "The app shows a blank screen or crashes, stopping people from signing up or adding events.",
+   "count": 2,
+   "ids": [
+    "a-7848",
+    "a-7901"
+   ],
+   "quotes": [
+    {
+     "id": "a-7848",
+     "quote": "I NEED to sign up for shifts next week but just cannot get the app to let me do it."
+    },
+    {
+     "id": "a-7901",
+     "quote": "Not useful or trustworthy if there are glitches like this."
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [],
+  "relatives_joining_and_sharing": [],
+  "cost_price_cancelling": [],
+  "emergencies_and_support_response": [],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "Glitches block basic actions",
+    "what_it_means": "Two of three reviewers could not complete simple steps because the app froze, crashed or went blank.",
+    "count": 2,
+    "ids": [
+     "a-7848",
+     "a-7901"
+    ],
+    "quotes": [
+     {
+      "id": "a-7848",
+      "quote": "I Go into the app and I can’t get anything to show up. It just is a blank screen."
+     },
+     {
+      "id": "a-7901",
+      "quote": "every time it asks if I want to add to my calendar and I say yes, it crashes."
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [],
+  "why_people_stop_or_stay": [],
+  "what_people_use_instead_or_alongside": []
+ },
+ "single_mentions": [
+  {
+   "id": "a-7848",
+   "point": "Used by friends of a family with a child in cancer treatment to sign up for help shifts; website also glitchy"
+  },
+  {
+   "id": "a-7900",
+   "point": "Long-time user says the mobile app is as good as or easier than the website"
+  },
+  {
+   "id": "a-7901",
+   "point": "iPhone only, no iPad app; tester did not trust it after crashes"
+  },
+  {
+   "id": "reddit-p1wrnjau",
+   "point": "Seen as good for meal trains but not for medications or money; family still runs care through a group chat, an unused shared Notes app and photos of pill bottles"
+  }
+ ],
+ "reader_notes": "Very thin evidence: 4 items. Two of the three app reviews are from 2013, so they describe an old app. The Reddit writer is a caregiver but says they are thinking about building their own product, and their Lotsa comment is a short judgment, not a description of using it. The two dropped Reddit posts matched only on the word 'lotsa' (as in 'lotsa room') or did not mention the product at all."
+}

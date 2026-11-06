@@ -1,0 +1,1443 @@
+[
+ {
+  "id": "p1ed5t4w",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1x0bfh0",
+  "relevant": true,
+  "help": [
+   "named program: VA family caregiver program",
+   "family or friend stepping in"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "VA",
+  "payer_cost": "VA: monthly paycheck and paid respite",
+  "quote": "We decided then that we would start pursuing the VA’s program for family caregivers, which would grant me a monthly paycheck, paid respite, and a bunch of other supports."
+ },
+ {
+  "id": "p10r2iec",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1q7jgxu",
+  "relevant": true,
+  "help": [
+   "adult day program"
+  ],
+  "status": "used",
+  "helped": [
+   "insurance now pays for adult day program"
+  ],
+  "barriers": [
+   "hard application or eligibility rules"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "insurance covers adult day program costs",
+  "quote": "her insurance is FINALLY covering her adult day program costs; and she only had to turn 60 to be eligible for the services"
+ },
+ {
+  "id": "p1goa9oj",
+  "relevant": true,
+  "help": [
+   "named program: VA benefits"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "hard application or eligibility rules"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "VA",
+  "payer_cost": "",
+  "quote": "hell at this point I just want respite care so I can go recharge"
+ },
+ {
+  "id": "p1ulyb8z",
+  "relevant": true,
+  "help": [
+   "named program: New Mexico Aged & Disabled Waiver"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "hard application or eligibility rules",
+   "other: only local agency rejects their Medicare plan"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "New Mexico Medicaid",
+  "payer_cost": "must spend down almost half of 401(k) to qualify",
+  "quote": "Their determination is that HE needs to spend down almost half it before he qualifies for the waiver"
+ },
+ {
+  "id": "p1e6lvba",
+  "relevant": true,
+  "help": [],
+  "status": "used",
+  "helped": [
+   "time away on a solo trip"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I got respite care and am going to Hawaii on my own"
+ },
+ {
+  "id": "p11c03l7",
+  "relevant": true,
+  "help": [
+   "named program: Florida SMMC LTC"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "waitlist or no openings"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "Florida Medicaid",
+  "payer_cost": "pays unskilled caregivers at a heavily discounted hourly rate",
+  "quote": "There is a waitlist, but I am not sure how long the waitlist is."
+ },
+ {
+  "id": "p1k4w8fb",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver",
+   "support group"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "other: doesn't know where to start"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I need therapy asap and I don’t even know who to see or where to start."
+ },
+ {
+  "id": "p1h5ub06",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I would work part time and work on my mental health (therapy,gym,eating healthier)"
+ },
+ {
+  "id": "p1m2q02j",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1emw0y2",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "other: husband mocks her therapy as wasted money"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I have been doing therapy. He refuses to see a therapist or do couples therapy."
+ },
+ {
+  "id": "p1vbu0wu",
+  "relevant": true,
+  "help": [
+   "family or friend stepping in"
+  ],
+  "status": "used",
+  "helped": [
+   "family made time for respite"
+  ],
+  "barriers": [
+   "guilt or shame about handing off care"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "One of the first things they did was make sure I could even take time for respite."
+ },
+ {
+  "id": "p1iqjhcx",
+  "relevant": true,
+  "help": [],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "other: texted with questions during respite day"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "Even if I get a respite day, I am texted the entire time with stupid questions."
+ },
+ {
+  "id": "p17f3mrn",
+  "relevant": true,
+  "help": [],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "other: no family support"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "After dreaming of respite or help or a family that supported me (for 3 years!), I realized it was never going to happen"
+ },
+ {
+  "id": "p1vedf5r",
+  "relevant": true,
+  "help": [],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "other: begged agencies for years, got nothing"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "My experience of begging for help in almost 4 years has got me no where. Not one day of respite."
+ },
+ {
+  "id": "p1257oet",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver",
+   "paid aide or companion"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "the parent refuses"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "parents' long-term care insurance pays for assisted living",
+  "quote": "I am going back to see my therapist next week."
+ },
+ {
+  "id": "p15edl7o",
+  "relevant": true,
+  "help": [
+   "named program: Wellthy"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "other: unsure it is responsive or worth learning"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "Wellthy",
+  "payer_cost": "free employer benefit",
+  "quote": "My work recently added Wellthy"
+ },
+ {
+  "id": "p1sgc1hz",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1cn7vha",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1crfztq",
+  "relevant": true,
+  "help": [
+   "app or online tool: Facebook groups"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I frequently ask questions/chat in FB groups because emotional support by others who are knowledgeable or at minimum good listeners/empathetic is a big need for me"
+ },
+ {
+  "id": "p1ohn673",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1wl7ajy",
+  "relevant": true,
+  "help": [
+   "family or friend stepping in"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "other: fears adult siblings would refuse",
+   "other: in-laws too old to give respite"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I really want a break to badly for a few weeks, and I have considered asking one of them to have him over for a week or two"
+ },
+ {
+  "id": "p1964vcf",
+  "relevant": true,
+  "help": [
+   "support group"
+  ],
+  "status": "used",
+  "helped": [
+   "advice to blame bad behavior on disease"
+  ],
+  "barriers": [
+   "no trained or reliable providers"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "Nobody can seem to find decent respite or tandem care to release pressure for the main caregiver."
+ },
+ {
+  "id": "p141n3zy",
+  "relevant": true,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [
+   "the parent refuses",
+   "cost"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "mom won't pay for respite",
+  "quote": "won't pay for any respite care because she's saving what's left for when she's fully incapacitated"
+ },
+ {
+  "id": "p1q7qsqd",
+  "relevant": true,
+  "help": [
+   "support group"
+  ],
+  "status": "used",
+  "helped": [
+   "members gave useful suggestions"
+  ],
+  "barriers": [
+   "other: local group only covers dementia"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I am hoping someone would have a line on a zoom support group?"
+ },
+ {
+  "id": "p1hjpjiw",
+  "relevant": true,
+  "help": [
+   "family or friend stepping in"
+  ],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "other: husband's family won't help"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I’ve asked for respite, for help from his family which sadly I have come to learn all share narcissistic traits."
+ },
+ {
+  "id": "p1f7gwcd",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver",
+   "paid aide or companion"
+  ],
+  "status": "used",
+  "helped": [
+   "helped decide to prioritize herself"
+  ],
+  "barriers": [
+   "other: therapist away on vacation"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "writer paid all expenses",
+  "quote": "after numerous Reddit posts, many conversations with friends, and a lot of therapy, I decided to go."
+ },
+ {
+  "id": "p1pwakzb",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1n7zp6s",
+  "relevant": true,
+  "help": [
+   "adult day program"
+  ],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "the parent refuses"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "This is the main reason I can't get her to go to adult daycare."
+ },
+ {
+  "id": "p1tujbq5",
+  "relevant": true,
+  "help": [],
+  "status": "recommends to others",
+  "helped": [
+   "even four hours away counts",
+   "naming anticipatory grief"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "take the respite. even four hours at a coffee shop with your phone face down counts."
+ },
+ {
+  "id": "p1s6ibn8",
+  "relevant": true,
+  "help": [],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "cost"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I can only afford occasional overnight respite"
+ },
+ {
+  "id": "alzconnected-77427",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver",
+   "support group",
+   "app or online tool: Psychology Today",
+   "app or online tool: SonderMind"
+  ],
+  "status": "used",
+  "helped": [
+   "someone to talk to without judgement",
+   "tools to process emotions",
+   "plan to get back to daily walks"
+  ],
+  "barriers": [
+   "no trained or reliable providers",
+   "other: few therapists take Medicare",
+   "didn't know it existed"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "Psychology Today; SonderMind",
+  "payer_cost": "therapist takes Medicare and supplemental insurance",
+  "quote": "I have a therapist who is mine. Listens to me on Zoom for one hour every Monday and it's the best thing I have ever done for myself."
+ },
+ {
+  "id": "p1ix8lya",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "other: therapist can't relate to a young caregiver"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "My therapist (she’s great) has admitted that even she can’t necessarily relate"
+ },
+ {
+  "id": "p1x9ws8b",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p11mfwvk",
+  "relevant": true,
+  "help": [
+   "family or friend stepping in",
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "used",
+  "helped": [
+   "about ten days to relax"
+  ],
+  "barriers": [
+   "waitlist or no openings"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "Today I dropped my mum off with one of her friends which means for roughly 10 days I can relax a bit."
+ },
+ {
+  "id": "p1wh12um",
+  "relevant": true,
+  "help": [
+   "family or friend stepping in"
+  ],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "other: older son didn't show up",
+   "other: too tired to look for respite"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I am too tired to look for respite."
+ },
+ {
+  "id": "p1oelk5y",
+  "relevant": true,
+  "help": [
+   "support group",
+   "adult day program"
+  ],
+  "status": "looking or considering",
+  "helped": [
+   "relief when mom attended day program"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "if anyone has suggestions of online support groups that like meet to talk, I'd love to hear what you have."
+ },
+ {
+  "id": "p1s5mbcr",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p14ankjn",
+  "relevant": true,
+  "help": [
+   "named program: home care package",
+   "paid aide or companion"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "the parent refuses"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "home care package",
+  "payer_cost": "",
+  "quote": "we’re working our way towards respite care for me. But, my grandmas getting in her own way."
+ },
+ {
+  "id": "p1pa6ff2",
+  "relevant": true,
+  "help": [
+   "paid aide or companion",
+   "family or friend stepping in"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "the parent refuses",
+   "cost"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "insurance covers 12 hours per month of non-medical care; more in-home care out of pocket is too expensive",
+  "quote": "We have presented options- respite care (no), assisted living facility (told me yes, but really it was no)"
+ },
+ {
+  "id": "p187k72j",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1rlva01",
+  "relevant": true,
+  "help": [
+   "named program: Florida LTC Medicaid waiver",
+   "adult day program",
+   "paid aide or companion"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "hard application or eligibility rules",
+   "other: no way to compare plan hours"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "Florida Community Care; Humana",
+  "payer_cost": "Medicaid waiver",
+  "quote": "am given 3 days of day care and 4 hours of nursing a week. Only 1 of those being for personal care, aka, showers."
+ },
+ {
+  "id": "p1ewklrx",
+  "relevant": true,
+  "help": [
+   "named program: Medicaid waiver",
+   "family or friend stepping in",
+   "adult day program"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "waitlist or no openings",
+   "hard application or eligibility rules",
+   "worry about quality or safety",
+   "guilt or shame about handing off care"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "writer pays her sister to help on Mondays",
+  "quote": "no local companies have waiver spots open or you have to provide your own caregiver, which we don't have."
+ },
+ {
+  "id": "p1m52cu0",
+  "relevant": true,
+  "help": [
+   "short-stay respite (facility)"
+  ],
+  "status": "used",
+  "helped": [
+   "sleeping better",
+   "stomach issues cleared up"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "My stomach and gut issues have cleared up. I'm sleeping better at night."
+ },
+ {
+  "id": "p1wxe6eo",
+  "relevant": true,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I know about respite care and Medicaid waivers."
+ },
+ {
+  "id": "p1xh53a2",
+  "relevant": true,
+  "help": [
+   "paid aide or companion",
+   "adult day program",
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "finally we are starting to get some homecare hours and enrolled my mom in a day program."
+ },
+ {
+  "id": "p1vvftrd",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p18ztaf1",
+  "relevant": true,
+  "help": [
+   "adult day program"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "cost",
+   "other: Medicaid long-term care process unknown"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I was suggested to consider adult day programs. Did anyone find they help?"
+ },
+ {
+  "id": "p1kcfrpm",
+  "relevant": true,
+  "help": [
+   "named program: Teepa Snow / Positive Approach to Care"
+  ],
+  "status": "recommends to others",
+  "helped": [
+   "tips for starting hard care conversations"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "Teepa Snow",
+  "payer_cost": "",
+  "quote": "The first several minutes are devoted to incredibly positive ways to begin some of those harder conversations about care planning and management."
+ },
+ {
+  "id": "p1l2onhl",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1cm2mve",
+  "relevant": true,
+  "help": [
+   "support group"
+  ],
+  "status": "used",
+  "helped": [
+   "hope that life goes on while caregiving"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "My caregiver support group said it's possible to live life anyway, and people do get married and have kids while caregiving."
+ },
+ {
+  "id": "p1uk6req",
+  "relevant": true,
+  "help": [
+   "named program: Medicaid waiver",
+   "adult day program"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "Are there Medicaid waiver programs or disability services I should ask about?"
+ },
+ {
+  "id": "p19db6db",
+  "relevant": true,
+  "help": [
+   "named program: VA family caregiver program"
+  ],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "hard application or eligibility rules"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "VA",
+  "payer_cost": "",
+  "quote": "I was told it was because they determined he is not going to need ongoing care for 6 months or longer which isn’t true."
+ },
+ {
+  "id": "p1ko3zju",
+  "relevant": true,
+  "help": [
+   "support group"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "other: going would make it feel too real"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "Are support groups actually helpful? I recommend them all the time to my clients’ caregivers, but somehow it feels like I’m not allowed to go myself."
+ },
+ {
+  "id": "p1dsqqkz",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "no trained or reliable providers",
+   "other: therapist stopped taking insurance"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "My most recent therapist turned our sessions into \"God is in control,\" and my therapist before that quit taking insurance."
+ },
+ {
+  "id": "p1ou9adj",
+  "relevant": true,
+  "help": [
+   "support group"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "other: grandma upset after respite care",
+   "other: no time to attend in person"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I know we need respite care desperately."
+ },
+ {
+  "id": "p1o4ny5d",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1sp2p5y",
+  "relevant": true,
+  "help": [
+   "named program: Teepa Snow / Positive Approach to Care"
+  ],
+  "status": "used",
+  "helped": [
+   "useful dementia care advice"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "Teepa Snow",
+  "payer_cost": "",
+  "quote": "Some very good pieces of advice I’m going to use."
+ },
+ {
+  "id": "p1bcpjb3",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p11sw4zw",
+  "relevant": true,
+  "help": [
+   "short-stay respite (facility)"
+  ],
+  "status": "used",
+  "helped": [
+   "five day break"
+  ],
+  "barriers": [
+   "waitlist or no openings",
+   "other: hospice gives only an hour or two"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "In a few hours I get a five day break and I can’t wait."
+ },
+ {
+  "id": "p1j9odkj",
+  "relevant": true,
+  "help": [
+   "named program: Wyoming Medicaid waiver"
+  ],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "hard application or eligibility rules"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "Wyoming Medicaid",
+  "payer_cost": "",
+  "quote": "Since I'm legally my son's guardian they won't allow my wife to be a paid caregiver."
+ },
+ {
+  "id": "p1uoqe5q",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1lp9741",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1ok6epf",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p192sr6r",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1bi6hr4",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1v9qfjt",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1lmwx2m",
+  "relevant": true,
+  "help": [
+   "app or online tool: Caregiver Support Discord server"
+  ],
+  "status": "used",
+  "helped": [
+   "enjoying the online community"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I just joined yesterday and already enjoying it."
+ },
+ {
+  "id": "p13visu3",
+  "relevant": true,
+  "help": [],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "things were just getting on track with getting us (my grandma and myself) help around the house and respite care for me"
+ },
+ {
+  "id": "p1krf9sj",
+  "relevant": true,
+  "help": [
+   "named program: VA in-home support",
+   "family or friend stepping in"
+  ],
+  "status": "used",
+  "helped": [
+   "time to breathe"
+  ],
+  "barriers": [
+   "other: father angry she took time away"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "VA",
+  "payer_cost": "",
+  "quote": "I recently took four days away after a really bad argument. My son and my Oma (his mom) were around to help him. I needed time to breathe."
+ },
+ {
+  "id": "p1u2l20c",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1490r26",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1qdv2bp",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1f40t6t",
+  "relevant": true,
+  "help": [
+   "app or online tool: Reddit"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "other: group is emotional, not practical"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "Can anyone recommend a group reddit or otherwise"
+ },
+ {
+  "id": "p1v0a4n9",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver",
+   "family or friend stepping in"
+  ],
+  "status": "tried and stopped",
+  "helped": [],
+  "barriers": [
+   "cost",
+   "other: free therapy did not help"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "free UK therapy",
+  "quote": "I know I need to get myself therapy but I can’t afford it right now"
+ },
+ {
+  "id": "p1gf4l06",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p18o9itc",
+  "relevant": true,
+  "help": [],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "other: MIL upset, feels like a burden"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "my MIL is upset that we're even considering respite care as she didn't realise she \"was such a burden\""
+ },
+ {
+  "id": "p1hcv5bi",
+  "relevant": true,
+  "help": [
+   "named program: Area Agency on Aging caregiver subsidy"
+  ],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "waitlist or no openings",
+   "hard application or eligibility rules",
+   "other: subsidy barely covers groceries",
+   "doesn't trust strangers with the parent"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "Area Agency on Aging; Medicaid",
+  "payer_cost": "caregiver subsidy that would barely cover groceries",
+  "quote": "Putting grandma who was physically disabled, and battling a horrific bout of delirium, at the bottom of the fucking waiting list."
+ },
+ {
+  "id": "p1nlbez0",
+  "relevant": true,
+  "help": [],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "cost",
+   "hard application or eligibility rules"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I feel like I'm always half a step from a mental breakdown and I cannot get a break."
+ },
+ {
+  "id": "p1w5j7ue",
+  "relevant": true,
+  "help": [],
+  "status": "wanted but couldn't get",
+  "helped": [],
+  "barriers": [
+   "the parent refuses"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "I discussed it with my mom and her visiting nurse and she just flipped out"
+ },
+ {
+  "id": "p1eu2d7w",
+  "relevant": true,
+  "help": [
+   "adult day program"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "other: mom too sharp for dementia programs"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "We're going to look at an adult daycare soon that will allow her to interact with others."
+ },
+ {
+  "id": "p1pd655m",
+  "relevant": true,
+  "help": [
+   "support group",
+   "family or friend stepping in"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "other: group members older, hard to relate"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "Im in a support group for caregivers for people with his cancer but they are all older and sometimes it's hard to relate."
+ },
+ {
+  "id": "p1l59g7l",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p179l51m",
+  "relevant": true,
+  "help": [
+   "paid aide or companion",
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "the parent refuses"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "She refuses any hired help or PCA that I would like to bring in to give myself some respite."
+ },
+ {
+  "id": "p18w8dza",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1o4p02g",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p14giyyy",
+  "relevant": true,
+  "help": [
+   "support group"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "Starting my search for a Caregiver support group that I can use that had either in person or online video meetings."
+ },
+ {
+  "id": "p1b5zjnt",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1ax4qbl",
+  "relevant": true,
+  "help": [
+   "family or friend stepping in",
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "tried and stopped",
+  "helped": [],
+  "barriers": [
+   "other: mom too medicated to watch the kid"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "the idea was she could spend more time w her and I could get some respite."
+ },
+ {
+  "id": "p17cyna5",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "p1w4oijc",
+  "relevant": true,
+  "help": [
+   "short-stay respite (facility)",
+   "named program: VA respite"
+  ],
+  "status": "used",
+  "helped": [],
+  "barriers": [
+   "other: staff kept calling her to assist"
+  ],
+  "wanted_break_no_help": false,
+  "provider": "VA",
+  "payer_cost": "",
+  "quote": "He has been at the VA doing respite, where we tried to use that time to address a few issues"
+ },
+ {
+  "id": "p1aqdemd",
+  "relevant": true,
+  "help": [
+   "therapist or counselor for the caregiver"
+  ],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "My brother and I are setting up a session with a family therapist to see how best to navigate this"
+ },
+ {
+  "id": "p1vcw5rq",
+  "relevant": false,
+  "help": [],
+  "status": "mentioned only",
+  "helped": [],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "",
+  "payer_cost": "",
+  "quote": ""
+ },
+ {
+  "id": "alzconnected-77005",
+  "relevant": true,
+  "help": [
+   "support group",
+   "named program: Alzheimer's Association"
+  ],
+  "status": "used",
+  "helped": [
+   "live support group was a huge help"
+  ],
+  "barriers": [],
+  "wanted_break_no_help": false,
+  "provider": "Alzheimer's Association",
+  "payer_cost": "",
+  "quote": "The live support group has been a huge help! Thank you!"
+ },
+ {
+  "id": "p1i4txah",
+  "relevant": true,
+  "help": [],
+  "status": "looking or considering",
+  "helped": [],
+  "barriers": [
+   "doesn't trust strangers with the parent",
+   "hard application or eligibility rules",
+   "other: no family to help"
+  ],
+  "wanted_break_no_help": true,
+  "provider": "",
+  "payer_cost": "",
+  "quote": "how can I get my mom with early dementia relocated ASAP? Or respite care ASAP."
+ }
+]

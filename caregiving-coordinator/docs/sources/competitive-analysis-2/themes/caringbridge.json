@@ -1,0 +1,958 @@
+{
+ "competitor": "CaringBridge",
+ "items_in_pack": 123,
+ "items_kept": 95,
+ "dropped": {
+  "not caregiving": 9,
+  "says nothing about the product": 4,
+  "app maker / ad": 0,
+  "duplicate of another item in pack": 15
+ },
+ "kept_ids": [
+  "a-3296",
+  "a-3300",
+  "a-3331",
+  "a-3333",
+  "a-3371",
+  "a-3373",
+  "a-3398",
+  "a-3423",
+  "a-3500",
+  "a-3525",
+  "a-3537",
+  "a-3590",
+  "g-caringbridge-0",
+  "g-caringbridge-4",
+  "g-caringbridge-11",
+  "g-caringbridge-14",
+  "g-caringbridge-15",
+  "g-caringbridge-18",
+  "g-caringbridge-19",
+  "g-caringbridge-28",
+  "g-caringbridge-30",
+  "g-caringbridge-32",
+  "g-caringbridge-46",
+  "g-caringbridge-50",
+  "g-caringbridge-52",
+  "g-caringbridge-54",
+  "g-caringbridge-60",
+  "g-caringbridge-93",
+  "g-caringbridge-96",
+  "g-caringbridge-99",
+  "g-caringbridge-106",
+  "g-caringbridge-117",
+  "g-caringbridge-118",
+  "g-caringbridge-121",
+  "g-caringbridge-133",
+  "g-caringbridge-136",
+  "g-caringbridge-149",
+  "g-caringbridge-154",
+  "g-caringbridge-159",
+  "g-caringbridge-162",
+  "g-caringbridge-165",
+  "g-caringbridge-171",
+  "g-caringbridge-183",
+  "g-caringbridge-184",
+  "g-caringbridge-193",
+  "g-caringbridge-194",
+  "g-caringbridge-198",
+  "g-caringbridge-203",
+  "g-caringbridge-209",
+  "g-caringbridge-212",
+  "g-caringbridge-213",
+  "g-caringbridge-237",
+  "g-caringbridge-259",
+  "g-caringbridge-261",
+  "g-caringbridge-268",
+  "g-caringbridge-274",
+  "g-caringbridge-299",
+  "g-caringbridge-304",
+  "g-caringbridge-320",
+  "g-caringbridge-335",
+  "g-caringbridge-349",
+  "g-caringbridge-351",
+  "g-caringbridge-372",
+  "g-caringbridge-386",
+  "g-caringbridge-393",
+  "g-caringbridge-427",
+  "g-caringbridge-450",
+  "g-caringbridge-451",
+  "g-caringbridge-463",
+  "g-caringbridge-480",
+  "g-caringbridge-521",
+  "gp-caringbridge-1",
+  "gp-caringbridge-2",
+  "gp-caringbridge-4",
+  "gp-caringbridge-7",
+  "gp-caringbridge-8",
+  "gp-caringbridge-11",
+  "gp-caringbridge-12",
+  "gp-caringbridge-15",
+  "gp-caringbridge-17",
+  "gp-caringbridge-18",
+  "gp-caringbridge-19",
+  "gp-caringbridge-22",
+  "gp-caringbridge-23",
+  "gp-caringbridge-26",
+  "gp-caringbridge-27",
+  "gp-caringbridge-29",
+  "gp-caringbridge-31",
+  "gp-caringbridge-33",
+  "gp-caringbridge-34",
+  "gp-caringbridge-35",
+  "reddit-p1qamq8e",
+  "reddit-p1uvfef8",
+  "reddit-p1ohiafw",
+  "reddit-p1wrnjau"
+ ],
+ "works_well": [
+  {
+   "theme": "One post reaches everyone, so far fewer calls and texts",
+   "what_it_means": "Caregivers write one update and the whole circle of family and friends sees it, instead of answering each person.",
+   "count": 49,
+   "ids": [
+    "a-3398",
+    "a-3525",
+    "a-3333",
+    "g-caringbridge-18",
+    "g-caringbridge-30",
+    "g-caringbridge-54",
+    "g-caringbridge-60",
+    "g-caringbridge-93",
+    "g-caringbridge-96",
+    "g-caringbridge-99",
+    "g-caringbridge-106",
+    "g-caringbridge-117",
+    "g-caringbridge-118",
+    "g-caringbridge-121",
+    "g-caringbridge-133",
+    "g-caringbridge-136",
+    "g-caringbridge-154",
+    "g-caringbridge-171",
+    "g-caringbridge-183",
+    "g-caringbridge-193",
+    "g-caringbridge-194",
+    "g-caringbridge-198",
+    "g-caringbridge-203",
+    "g-caringbridge-209",
+    "g-caringbridge-212",
+    "g-caringbridge-213",
+    "g-caringbridge-237",
+    "g-caringbridge-259",
+    "g-caringbridge-261",
+    "g-caringbridge-268",
+    "g-caringbridge-274",
+    "g-caringbridge-299",
+    "g-caringbridge-349",
+    "g-caringbridge-351",
+    "g-caringbridge-386",
+    "g-caringbridge-393",
+    "g-caringbridge-463",
+    "gp-caringbridge-2",
+    "gp-caringbridge-8",
+    "gp-caringbridge-15",
+    "gp-caringbridge-19",
+    "gp-caringbridge-26",
+    "gp-caringbridge-29",
+    "gp-caringbridge-33",
+    "gp-caringbridge-35",
+    "g-caringbridge-11",
+    "g-caringbridge-14",
+    "g-caringbridge-52",
+    "reddit-p1uvfef8"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-213",
+     "quote": "I was responding to 50-60 texts a day with everyone saying \"Keep me posted\" or \"Let me know what they are saying\"."
+    },
+    {
+     "id": "g-caringbridge-209",
+     "quote": "I had literally 100+ people wanting updates on her condition. This app allowed me to accomplish the task with a single daily post."
+    }
+   ]
+  },
+  {
+   "theme": "Frees the caregiver's time to be with the sick person",
+   "what_it_means": "Less time spent updating people means more time and energy for the patient and for the caregiver's own tasks.",
+   "count": 19,
+   "ids": [
+    "g-caringbridge-11",
+    "g-caringbridge-52",
+    "g-caringbridge-93",
+    "g-caringbridge-106",
+    "g-caringbridge-118",
+    "g-caringbridge-121",
+    "g-caringbridge-136",
+    "g-caringbridge-154",
+    "g-caringbridge-198",
+    "g-caringbridge-203",
+    "g-caringbridge-213",
+    "g-caringbridge-259",
+    "g-caringbridge-299",
+    "g-caringbridge-393",
+    "g-caringbridge-463",
+    "gp-caringbridge-15",
+    "gp-caringbridge-26",
+    "gp-caringbridge-31",
+    "a-3525"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-121",
+     "quote": "And you can spend your time as a caregiver where it needs to be; with the patient!"
+    },
+    {
+     "id": "g-caringbridge-154",
+     "quote": "It frees me up to do more for my wife"
+    }
+   ]
+  },
+  {
+   "theme": "Easy to use for posting and reading",
+   "what_it_means": "Writers and readers describe the app as simple, quick to post in, and easy to read.",
+   "count": 16,
+   "ids": [
+    "g-caringbridge-4",
+    "g-caringbridge-14",
+    "g-caringbridge-18",
+    "g-caringbridge-19",
+    "g-caringbridge-32",
+    "g-caringbridge-46",
+    "g-caringbridge-52",
+    "g-caringbridge-96",
+    "g-caringbridge-133",
+    "g-caringbridge-162",
+    "g-caringbridge-165",
+    "g-caringbridge-237",
+    "g-caringbridge-351",
+    "g-caringbridge-386",
+    "gp-caringbridge-22",
+    "a-3500"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-46",
+     "quote": "Very user friendly for both author and readers."
+    },
+    {
+     "id": "g-caringbridge-4",
+     "quote": "Posting journal entries is super easy though."
+    }
+   ]
+  },
+  {
+   "theme": "Family far away can follow along and feel close",
+   "what_it_means": "Relatives in other states or countries, or who cannot visit, keep up with the patient through the posts.",
+   "count": 15,
+   "ids": [
+    "g-caringbridge-60",
+    "g-caringbridge-149",
+    "g-caringbridge-159",
+    "g-caringbridge-184",
+    "g-caringbridge-193",
+    "g-caringbridge-198",
+    "g-caringbridge-304",
+    "g-caringbridge-427",
+    "g-caringbridge-451",
+    "gp-caringbridge-1",
+    "gp-caringbridge-2",
+    "gp-caringbridge-4",
+    "gp-caringbridge-11",
+    "gp-caringbridge-17",
+    "gp-caringbridge-19"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-60",
+     "quote": "Even family members in Europe can keep up to date."
+    },
+    {
+     "id": "gp-caringbridge-19",
+     "quote": "My 85 year young mama can catch up from her phone and see the pictures- very helpful to visit without the long travel."
+    }
+   ]
+  },
+  {
+   "theme": "Comments and messages lift up the family",
+   "what_it_means": "Readers send love, prayers and encouragement back, which supports the patient and the caregiver.",
+   "count": 9,
+   "ids": [
+    "g-caringbridge-118",
+    "g-caringbridge-212",
+    "g-caringbridge-259",
+    "g-caringbridge-261",
+    "g-caringbridge-521",
+    "gp-caringbridge-4",
+    "gp-caringbridge-23",
+    "gp-caringbridge-31",
+    "reddit-p1qamq8e"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-212",
+     "quote": "My son's spirits were boosted by all of the feedback and encouragement he received."
+    },
+    {
+     "id": "g-caringbridge-259",
+     "quote": "The outpouring of support our family receives in return lightens our load and lifts our spirits."
+    }
+   ]
+  },
+  {
+   "theme": "Same site works again for each new health crisis",
+   "what_it_means": "Families come back to the same tool, or the same page, across years and repeat illnesses.",
+   "count": 8,
+   "ids": [
+    "a-3398",
+    "a-3500",
+    "g-caringbridge-11",
+    "g-caringbridge-19",
+    "g-caringbridge-46",
+    "g-caringbridge-52",
+    "g-caringbridge-99",
+    "gp-caringbridge-33"
+   ],
+   "quotes": [
+    {
+     "id": "a-3398",
+     "quote": "I was very pleased that her site was still in place and working after two plus years."
+    },
+    {
+     "id": "g-caringbridge-46",
+     "quote": "After not using it for 3 years she had a relapse I was able to restart it with no problems"
+    }
+   ]
+  },
+  {
+   "theme": "Everyone gets the same accurate news at the same time",
+   "what_it_means": "One shared source cuts down on mixed messages and rumors between relatives.",
+   "count": 6,
+   "ids": [
+    "a-3398",
+    "g-caringbridge-54",
+    "g-caringbridge-203",
+    "g-caringbridge-268",
+    "g-caringbridge-259",
+    "g-caringbridge-351"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-203",
+     "quote": "Caring Bridge assures that everyone gets the same information at the same time."
+    },
+    {
+     "id": "g-caringbridge-54",
+     "quote": "It is an amazing resource to update in real time and eliminate miscommunication."
+    }
+   ]
+  },
+  {
+   "theme": "Only invited people can see the updates",
+   "what_it_means": "Families like that the page stays inside a chosen group instead of public social media.",
+   "count": 6,
+   "ids": [
+    "a-3331",
+    "g-caringbridge-52",
+    "g-caringbridge-121",
+    "gp-caringbridge-4",
+    "gp-caringbridge-12",
+    "gp-caringbridge-19"
+   ],
+   "quotes": [
+    {
+     "id": "gp-caringbridge-19",
+     "quote": "Keeps the tender and raw moments within a chosen group instead of the whole internet gawking."
+    },
+    {
+     "id": "g-caringbridge-121",
+     "quote": "You can limit viewing to only those you grant permission."
+    }
+   ]
+  },
+  {
+   "theme": "Doubles as a journal and record of what happened",
+   "what_it_means": "Posts build a dated history of the illness that families value keeping.",
+   "count": 5,
+   "ids": [
+    "g-caringbridge-19",
+    "g-caringbridge-136",
+    "g-caringbridge-372",
+    "g-caringbridge-480",
+    "a-3590"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-372",
+     "quote": "It also provides a way to record what happens and when."
+    },
+    {
+     "id": "g-caringbridge-480",
+     "quote": "My niece posted every day, so it also became her medical journal."
+    }
+   ]
+  },
+  {
+   "theme": "Readers get alerts and choose how closely to follow",
+   "what_it_means": "Followers can sign up for notices of new posts or just check in when they want.",
+   "count": 4,
+   "ids": [
+    "g-caringbridge-18",
+    "g-caringbridge-19",
+    "g-caringbridge-30",
+    "g-caringbridge-46"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-18",
+     "quote": "People can sign up to get notifications or just check the app for new posts."
+    },
+    {
+     "id": "g-caringbridge-30",
+     "quote": "They can choose for themselves whether or not to receive all of the updates"
+    }
+   ]
+  },
+  {
+   "theme": "Reaches relatives who are not on Facebook",
+   "what_it_means": "It gets news to people who do not use social media, or links with Facebook to reach more people.",
+   "count": 2,
+   "ids": [
+    "g-caringbridge-14",
+    "g-caringbridge-335"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-335",
+     "quote": "especially for folks not on Facebook"
+    },
+    {
+     "id": "g-caringbridge-14",
+     "quote": "simple integration with Facebook, which enabled me to reach even more people."
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "Posting from the app freezes, loses posts, or mangles photos",
+   "what_it_means": "Writers report autosave hangs, posts not submitting, drafts and photos lost, or photos turned sideways.",
+   "count": 7,
+   "ids": [
+    "a-3371",
+    "a-3373",
+    "a-3423",
+    "g-caringbridge-15",
+    "g-caringbridge-28",
+    "g-caringbridge-50",
+    "gp-caringbridge-34"
+   ],
+   "quotes": [
+    {
+     "id": "a-3371",
+     "quote": "Once I am done writing, it gets stuck on autosave and I can’t post."
+    },
+    {
+     "id": "g-caringbridge-50",
+     "quote": "photos disappear from drafts, submitting a post doesn't always actually submit the post"
+    }
+   ]
+  },
+  {
+   "theme": "App is weaker than the website, so people switch",
+   "what_it_means": "Several reviewers say the website works well but the phone app does not, and fall back to a computer.",
+   "count": 6,
+   "ids": [
+    "a-3371",
+    "g-caringbridge-4",
+    "g-caringbridge-11",
+    "g-caringbridge-14",
+    "g-caringbridge-15",
+    "g-caringbridge-50"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-15",
+     "quote": "I really like caring bridge when I access it on my computer- it's a phenomenal way to keep family/friends updated. But this phone app leaves so much to be desired."
+    },
+    {
+     "id": "a-3371",
+     "quote": "Am deleting the app and going straight to the webpage."
+    }
+   ]
+  },
+  {
+   "theme": "After the 2024 update, features broke or went missing",
+   "what_it_means": "The redesigned app lost photos and drafts, showed wrong dates and counts, broke shared links and dropped text alerts.",
+   "count": 4,
+   "ids": [
+    "a-3300",
+    "a-3423",
+    "a-3537",
+    "a-3590"
+   ],
+   "quotes": [
+    {
+     "id": "a-3590",
+     "quote": "Most of my photos, including profile pics, have disappeared."
+    },
+    {
+     "id": "a-3537",
+     "quote": "please bring back text notifications when there is a new post. We are missing many crucial updates for a sick family member."
+    }
+   ]
+  },
+  {
+   "theme": "Hard to find your way around the app",
+   "what_it_means": "Settings and past journal entries are hard to reach, and the layout feels dated.",
+   "count": 4,
+   "ids": [
+    "a-3300",
+    "g-caringbridge-4",
+    "g-caringbridge-11",
+    "g-caringbridge-15"
+   ],
+   "quotes": [
+    {
+     "id": "g-caringbridge-11",
+     "quote": "Why can't I see all the journal entries in one list?"
+    },
+    {
+     "id": "g-caringbridge-4",
+     "quote": "Navigating the site settings is unintuitive."
+    }
+   ]
+  },
+  {
+   "theme": "After the 2024 update, family could not sign in",
+   "what_it_means": "A sign-in change in mid-2024 locked out authors and readers, especially older relatives.",
+   "count": 3,
+   "ids": [
+    "a-3500",
+    "a-3525",
+    "g-caringbridge-0"
+   ],
+   "quotes": [
+    {
+     "id": "a-3525",
+     "quote": "So many of my over 60 relatives have been not able to reaccess their account."
+    },
+    {
+     "id": "a-3525",
+     "quote": "As the caregivers we should not be your I.T. Department."
+    }
+   ]
+  },
+  {
+   "theme": "Not built for day-to-day care coordination",
+   "what_it_means": "People caring with siblings, or arranging meals, find it is a news feed, not a tool for daily tasks.",
+   "count": 3,
+   "ids": [
+    "g-caringbridge-32",
+    "reddit-p1ohiafw",
+    "reddit-p1wrnjau"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1ohiafw",
+     "quote": "they seem better for sharing health updates with extended family than for the day-to-day coordination between us."
+    },
+    {
+     "id": "g-caringbridge-32",
+     "quote": "I do wish the meal train was included on this site rather than a third-party site."
+    }
+   ]
+  },
+  {
+   "theme": "Donation requests feel pushy",
+   "what_it_means": "The donate banner keeps asking even after giving, and some readers think gifts go to the family.",
+   "count": 2,
+   "ids": [
+    "a-3296",
+    "g-caringbridge-96"
+   ],
+   "quotes": [
+    {
+     "id": "a-3296",
+     "quote": "it continues to state that we need to donate to caring bridge again, and that no one from her page has donated."
+    },
+    {
+     "id": "g-caringbridge-96",
+     "quote": "The only thing with the app that I don't love is the donate button being front and center."
+    }
+   ]
+  },
+  {
+   "theme": "Can't easily see who read or reacted",
+   "what_it_means": "Authors want to see who visited and who left hearts, and the app hides or miscounts this.",
+   "count": 2,
+   "ids": [
+    "a-3423",
+    "g-caringbridge-4"
+   ],
+   "quotes": [
+    {
+     "id": "a-3423",
+     "quote": "it always shows 0 comments and 0 reactions when there actually are reactions and comments"
+    },
+    {
+     "id": "g-caringbridge-4",
+     "quote": "You cannot see who hearts a post from the app."
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [
+   {
+    "theme": "A spouse or parent usually posts; relatives and friends read",
+    "what_it_means": "The writer is most often the patient's husband, wife or parent, with grandparents, cousins and friends following.",
+    "count": 14,
+    "ids": [
+     "g-caringbridge-209",
+     "g-caringbridge-213",
+     "g-caringbridge-154",
+     "g-caringbridge-299",
+     "gp-caringbridge-15",
+     "gp-caringbridge-26",
+     "g-caringbridge-96",
+     "g-caringbridge-349",
+     "g-caringbridge-212",
+     "a-3423",
+     "g-caringbridge-184",
+     "g-caringbridge-193",
+     "gp-caringbridge-2",
+     "g-caringbridge-480"
+    ],
+    "quotes": [
+     {
+      "id": "g-caringbridge-299",
+      "quote": "Updating everyone at same time allowed me to focus on my husband and his recovery."
+     },
+     {
+      "id": "gp-caringbridge-2",
+      "quote": "This is so much easier for my daughter and son-in-law to send updates to friends and family in one message."
+     }
+    ]
+   },
+   {
+    "theme": "Free to use; families donate to keep it going",
+    "what_it_means": "No one reports paying a fee; several say they gave money by choice.",
+    "count": 6,
+    "ids": [
+     "a-3296",
+     "a-3331",
+     "a-3500",
+     "g-caringbridge-96",
+     "g-caringbridge-209",
+     "g-caringbridge-274"
+    ],
+    "quotes": [
+     {
+      "id": "g-caringbridge-96",
+      "quote": "The website is free to use and donations do not go to the families."
+     },
+     {
+      "id": "a-3500",
+      "quote": "our family and friends have donated thousands of dollars to this app to keep it going."
+     }
+    ]
+   }
+  ],
+  "relatives_joining_and_sharing": [
+   {
+    "theme": "Share one link and people follow, often without signing up",
+    "what_it_means": "Families send one link or invite and readers join on their own terms.",
+    "count": 4,
+    "ids": [
+     "g-caringbridge-18",
+     "g-caringbridge-30",
+     "g-caringbridge-32",
+     "gp-caringbridge-33"
+    ],
+    "quotes": [
+     {
+      "id": "g-caringbridge-30",
+      "quote": "I just sent one email with the Caring Bridge link to everyone who might be interested in following his progress."
+     },
+     {
+      "id": "g-caringbridge-32",
+      "quote": "visitors can get information without having to sign up."
+     }
+    ]
+   },
+   {
+    "theme": "Older relatives got locked out when sign-in changed",
+    "what_it_means": "When accounts became required or changed, older readers could not get back in.",
+    "count": 2,
+    "ids": [
+     "a-3500",
+     "a-3525"
+    ],
+    "quotes": [
+     {
+      "id": "a-3500",
+      "quote": "Now since the update barely anyone can even sign in."
+     },
+     {
+      "id": "a-3525",
+      "quote": "Your dealing with old people and technology changes are hard on them."
+     }
+    ]
+   },
+   {
+    "theme": "More than one family member can post",
+    "what_it_means": "Co-authors share the job of writing updates.",
+    "count": 2,
+    "ids": [
+     "g-caringbridge-30",
+     "g-caringbridge-0"
+    ],
+    "quotes": [
+     {
+      "id": "g-caringbridge-30",
+      "quote": "There are two of us posting to the site so we can avoid sending duplicate updates."
+     },
+     {
+      "id": "g-caringbridge-0",
+      "quote": "I'm a co-author on a site for my dad while he battles pancreatic cancer"
+     }
+    ]
+   }
+  ],
+  "cost_price_cancelling": [
+   {
+    "theme": "Free, but donation prompts are pushy",
+    "what_it_means": "The service costs nothing, yet donation banners and buttons bother some families.",
+    "count": 2,
+    "ids": [
+     "a-3296",
+     "g-caringbridge-96"
+    ],
+    "quotes": [
+     {
+      "id": "a-3296",
+      "quote": "your developers should really trigger the funding banner to sleep after a donation has been made"
+     },
+     {
+      "id": "g-caringbridge-96",
+      "quote": "The website is free to use and donations do not go to the families."
+     }
+    ]
+   }
+  ],
+  "emergencies_and_support_response": [],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "Easy to start and easy to restart",
+    "what_it_means": "Setup is described as simple, and old pages come back to life for a new crisis.",
+    "count": 6,
+    "ids": [
+     "g-caringbridge-14",
+     "g-caringbridge-18",
+     "g-caringbridge-46",
+     "g-caringbridge-52",
+     "g-caringbridge-96",
+     "a-3398"
+    ],
+    "quotes": [
+     {
+      "id": "g-caringbridge-52",
+      "quote": "It's easy to manage and use, limiting access to those we approve"
+     },
+     {
+      "id": "g-caringbridge-14",
+      "quote": "it has already streamlined my communications with tons of family and friends while my parents are both in the hospital."
+     }
+    ]
+   },
+   {
+    "theme": "App posting is buggy, so the website is the fallback",
+    "what_it_means": "The phone app freezes or loses posts, and caregivers copy text over to the website.",
+    "count": 5,
+    "ids": [
+     "a-3371",
+     "a-3373",
+     "g-caringbridge-15",
+     "g-caringbridge-28",
+     "g-caringbridge-50"
+    ],
+    "quotes": [
+     {
+      "id": "a-3373",
+      "quote": "If I am interrupted, which can happen frequently for a caregiver, the issue reoccurs."
+     },
+     {
+      "id": "g-caringbridge-28",
+      "quote": "I am unable to add any photos or write a journal without issues with the cursor moving downward on the page on its own."
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [
+   {
+    "theme": "Families trust it as a private, invite-only space",
+    "what_it_means": "Reviewers value that only approved people see health news.",
+    "count": 6,
+    "ids": [
+     "a-3331",
+     "g-caringbridge-52",
+     "g-caringbridge-121",
+     "gp-caringbridge-4",
+     "gp-caringbridge-12",
+     "gp-caringbridge-19"
+    ],
+    "quotes": [
+     {
+      "id": "a-3331",
+      "quote": "it makes a very difficult time easier by allowing me one, secure platform to communicate to loved ones."
+     },
+     {
+      "id": "gp-caringbridge-4",
+      "quote": "being able to share info without compromising health"
+     }
+    ]
+   },
+   {
+    "theme": "Lost photos and wrong dates hurt trust in the record",
+    "what_it_means": "When the update changed dates and removed photos, families worried about their history.",
+    "count": 2,
+    "ids": [
+     "a-3590",
+     "a-3423"
+    ],
+    "quotes": [
+     {
+      "id": "a-3590",
+      "quote": "Having the correct dates is critical!"
+     },
+     {
+      "id": "a-3423",
+      "quote": "I can’t believe that user testing would’ve proven the update was ready."
+     }
+    ]
+   }
+  ],
+  "why_people_stop_or_stay": [
+   {
+    "theme": "People stay because it saves time in every crisis",
+    "what_it_means": "Families return to it for each new illness and recommend it to others.",
+    "count": 8,
+    "ids": [
+     "a-3398",
+     "a-3500",
+     "g-caringbridge-11",
+     "g-caringbridge-19",
+     "g-caringbridge-46",
+     "g-caringbridge-52",
+     "g-caringbridge-99",
+     "gp-caringbridge-33"
+    ],
+    "quotes": [
+     {
+      "id": "g-caringbridge-99",
+      "quote": "Caring Bridge is our Go-To app when we have a medical situation."
+     },
+     {
+      "id": "gp-caringbridge-33",
+      "quote": "This is my third experience with Caring Bridge."
+     }
+    ]
+   },
+   {
+    "theme": "People drop the app (not the service) when posting fails",
+    "what_it_means": "Frustrated writers delete or reinstall the app and keep using the website.",
+    "count": 2,
+    "ids": [
+     "a-3371",
+     "g-caringbridge-28"
+    ],
+    "quotes": [
+     {
+      "id": "a-3371",
+      "quote": "Huge waste of time."
+     },
+     {
+      "id": "g-caringbridge-28",
+      "quote": "I've already uninstalled/re-installed the app without any positive results."
+     }
+    ]
+   }
+  ],
+  "what_people_use_instead_or_alongside": [
+   {
+    "theme": "Linked with GoFundMe, meal trains, and Facebook",
+    "what_it_means": "Families pair it with fundraising, meal sign-up and social media tools, which live outside it.",
+    "count": 5,
+    "ids": [
+     "a-3296",
+     "g-caringbridge-14",
+     "g-caringbridge-32",
+     "g-caringbridge-54",
+     "gp-caringbridge-34"
+    ],
+    "quotes": [
+     {
+      "id": "g-caringbridge-54",
+      "quote": "options for linking in meal train and go fund me links"
+     },
+     {
+      "id": "gp-caringbridge-34",
+      "quote": "I cannot connect to GoFundMe through it either."
+     }
+    ]
+   },
+   {
+    "theme": "Group texts, notes and spreadsheets for daily coordination",
+    "what_it_means": "Siblings sharing care still run day-to-day tasks through group chats and shared notes.",
+    "count": 3,
+    "ids": [
+     "reddit-p1ohiafw",
+     "reddit-p1wrnjau",
+     "reddit-p1uvfef8"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1ohiafw",
+      "quote": "We've tried group texts but important information gets buried."
+     },
+     {
+      "id": "reddit-p1wrnjau",
+      "quote": "a family group chat that never stops"
+     }
+    ]
+   }
+  ]
+ },
+ "single_mentions": [
+  {
+   "id": "gp-caringbridge-17",
+   "point": "A cousin in Australia could not get access; writer asks if it is US only."
+  },
+  {
+   "id": "gp-caringbridge-27",
+   "point": "Five siblings and twelve grandchildren use it to coordinate being there for a mother with dementia who lives alone."
+  },
+  {
+   "id": "a-3373",
+   "point": "Share button shows no options on iPad."
+  },
+  {
+   "id": "g-caringbridge-4",
+   "point": "Tapping external links crashes the app."
+  },
+  {
+   "id": "reddit-p1uvfef8",
+   "point": "Caregiver used the page to post rules about texting, saying no new post means no change."
+  },
+  {
+   "id": "g-caringbridge-54",
+   "point": "Has a calendar so helpers can sign up to support the family."
+  },
+  {
+   "id": "reddit-p1qamq8e",
+   "point": "Caregiver asks followers to support her too, not only the patient."
+  }
+ ],
+ "reader_notes": "Most kept items are short Google Play reviews from 2020-2023 that praise the same thing (one update for everyone); many are 5-star and very brief. Problem reviews cluster around the mid-2024 app redesign (sign-in, lost photos, drafts). 15 gp- items were exact copies of g- items and were dropped as duplicates (extra drop reason added). Items marked prefiltered_caregiving were treated as caregiving unless the writer was clearly the patient writing about their own illness (7 dropped). Several kept generic reviews (e.g. 'keep family updated about a loved one') do not name the writer's relationship. Only 6 kept items come from Reddit; no forum item was kept (writers' own caregiving not stated, or no experience). reddit-p1wrnjau is written by someone thinking about building a tool; kept because it gives their own family's experience. No item says anything about customer support response."
+}

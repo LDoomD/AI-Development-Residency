@@ -1,0 +1,401 @@
+{
+ "audit1": {
+  "n": 50,
+  "relevant_agree": 49,
+  "both_relevant": 49,
+  "help_full_agree": 35,
+  "help_mean_overlap": 0.83,
+  "status_agree": 44,
+  "break_flag_agree": 49,
+  "barrier_agreement": {
+   "worry about quality or safety": "4 of 7 posts where either reader named it",
+   "the parent refuses": "7 of 7 posts where either reader named it",
+   "hard application or eligibility rules": "4 of 7 posts where either reader named it",
+   "cost": "5 of 6 posts where either reader named it",
+   "guilt or shame about handing off care": "4 of 5 posts where either reader named it",
+   "inflexible program (hours, minimum stay, days)": "2 of 4 posts where either reader named it",
+   "no trained or reliable providers": "3 of 4 posts where either reader named it",
+   "waitlist or no openings": "2 of 3 posts where either reader named it",
+   "doesn't trust strangers with the parent": "1 of 2 posts where either reader named it",
+   "transport or logistics": "1 of 1 posts where either reader named it"
+  },
+  "rows": [
+   {
+    "id": "p1stubkn",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": false,
+    "break_same": true
+   },
+   {
+    "id": "alzconnected-77379",
+    "relevant_same": true,
+    "help_jaccard": 0.75,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p15us932",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1igixmj",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "alzconnected-77407",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1ely534",
+    "relevant_same": false
+   },
+   {
+    "id": "p1netnol",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p12jepmd",
+    "relevant_same": true,
+    "help_jaccard": 0.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1997vj7",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1xbap1k",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1u4ku62",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": false,
+    "break_same": true
+   },
+   {
+    "id": "p1clihdw",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1jd3u1y",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1vwr0hl",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p17lxmn1",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1qu6kvp",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1jg57i2",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1eq545l",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1nzrvux",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p11iztt7",
+    "relevant_same": true,
+    "help_jaccard": 0.5,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1sesz72",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1aqdemd",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1mhi2ck",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p18sk5gq",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1uaw6vo",
+    "relevant_same": true,
+    "help_jaccard": 0.75,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1mf2vea",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1ulutf3",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1pjz76s",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p198e1ed",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1f2kpq8",
+    "relevant_same": true,
+    "help_jaccard": 0.5,
+    "status_same": false,
+    "break_same": true
+   },
+   {
+    "id": "p1wk7gnc",
+    "relevant_same": true,
+    "help_jaccard": 0.5,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1wixm80",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": false,
+    "break_same": true
+   },
+   {
+    "id": "p15j4418",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1ou9adj",
+    "relevant_same": true,
+    "help_jaccard": 0.5,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1av052q",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1u5wh64",
+    "relevant_same": true,
+    "help_jaccard": 0.5,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1g1jb5f",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": false,
+    "break_same": true
+   },
+   {
+    "id": "alzconnected-77354",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1p6cgeo",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1pbokag",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1sd4zyh",
+    "relevant_same": true,
+    "help_jaccard": 0.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1gfz22e",
+    "relevant_same": true,
+    "help_jaccard": 0.5,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1kcjt3j",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1oelk5y",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1xinklo",
+    "relevant_same": true,
+    "help_jaccard": 0.5,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1hre1zw",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p15f8egn",
+    "relevant_same": true,
+    "help_jaccard": 1.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1i7k19o",
+    "relevant_same": true,
+    "help_jaccard": 0.5,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p1iqjhcx",
+    "relevant_same": true,
+    "help_jaccard": 0.0,
+    "status_same": true,
+    "break_same": true
+   },
+   {
+    "id": "p17wmq7b",
+    "relevant_same": true,
+    "help_jaccard": 0.0,
+    "status_same": true,
+    "break_same": true
+   }
+  ]
+ },
+ "audit2": {
+  "n": 40,
+  "confirmed_not_relevant": 37,
+  "judged_relevant_now": [
+   [
+    "p1jo7nfy",
+    "Caregiver for a parent asks about support groups for caregivers."
+   ],
+   [
+    "p1kft7jn",
+    "POA relative caring for aunt was told to seek support groups."
+   ],
+   [
+    "p1hnx5ix",
+    "Adult child planning parents' care will look into caregiver program PCAFC."
+   ]
+  ]
+ },
+ "audit3": {
+  "n": 40,
+  "agree": 39,
+  "disagreements": [
+   [
+    "p1aer97p",
+    "unclear",
+    "client"
+   ]
+  ]
+ }
+}

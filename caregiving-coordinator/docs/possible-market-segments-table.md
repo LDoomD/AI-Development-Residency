@@ -1,3 +1,5 @@
+> **Older than the Figma board (noted 2026-11-05).** The current version is the market analysis section on the board, https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/?node-id=2598-10950 (3rd versions, 2026-11-04), plus https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/?node-id=2704-13380 for segments 11 and 12. Use the board.
+
 # Possible market segments (FigJam template section)
 
 Written 2026-11-01. Template text: "Market segments are smaller groups of people within a big market who have similar interests, needs, or characteristics... The market can include for-profit or nonprofit organizations trying to sustain their business and solving the same problems. Define the possible segments that the organization fits into."

@@ -1,0 +1,71 @@
+{
+ "posts_searched": {
+  "posts.jsonl": 43665,
+  "posts_targeted.jsonl": 5650
+ },
+ "patterns": {
+  "respite": "\\brespite\\b",
+  "adult day program or center": "\\badult day\\b|\\badult daycare\\b|\\badult day ?care\\b|\\bday program\\b|\\bsenior day ?care\\b|\\bmemory care day\\b",
+  "therapist or counselor (for the caregiver)": "(?<!physical )(?<!occupational )(?<!speech )(?<!respiratory )\\b(therapist|counselor|counsellor|counseling|counselling)\\b",
+  "caregiver support group": "\\bsupport groups?\\b",
+  "Calm app": "\\bcalm app\\b|\\bcalm\\.com\\b|\\bthe calm app\\b",
+  "Headspace app": "\\bheadspace app\\b|\\bheadspace\\.com\\b|\\b(use|used|using|try|tried|trying) headspace\\b",
+  "Talkspace": "\\btalkspace\\b",
+  "BetterHelp": "\\bbetterhelp\\b",
+  "Sanvello": "\\bsanvello\\b",
+  "ianacare": "\\biana ?care\\b",
+  "meditation app": "\\bmeditation apps?\\b",
+  "burnout words (reference)": "\\bburn(ed|t)? ?out\\b|\\bburnout\\b"
+ },
+ "counts": {
+  "respite": {
+   "posts.jsonl": 517,
+   "posts_targeted.jsonl": 23,
+   "total": 540
+  },
+  "adult day program or center": {
+   "posts.jsonl": 88,
+   "posts_targeted.jsonl": 13,
+   "total": 101
+  },
+  "therapist or counselor (for the caregiver)": {
+   "posts.jsonl": 1120,
+   "posts_targeted.jsonl": 71,
+   "total": 1191
+  },
+  "caregiver support group": {
+   "posts.jsonl": 289,
+   "posts_targeted.jsonl": 33,
+   "total": 322
+  },
+  "Calm app": {
+   "posts.jsonl": 2,
+   "total": 2
+  },
+  "Headspace app": {
+   "total": 0
+  },
+  "Talkspace": {
+   "posts.jsonl": 2,
+   "total": 2
+  },
+  "BetterHelp": {
+   "posts.jsonl": 5,
+   "total": 5
+  },
+  "Sanvello": {
+   "total": 0
+  },
+  "ianacare": {
+   "total": 0
+  },
+  "meditation app": {
+   "total": 0
+  },
+  "burnout words (reference)": {
+   "posts.jsonl": 1723,
+   "posts_targeted.jsonl": 68,
+   "total": 1791
+  }
+ }
+}

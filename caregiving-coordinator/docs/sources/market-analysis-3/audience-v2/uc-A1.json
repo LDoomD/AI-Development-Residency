@@ -1,0 +1,489 @@
+[
+ {
+  "uc": "Exhaustion, guilt and no life of their own",
+  "problem": "Adult children carry the care, many of them alone, and lose rest, plans and health.",
+  "moments": [
+   [
+    "While carrying all the care alone, often for years",
+    "While carrying all the care alone, often for years"
+   ],
+   [
+    "When their own plans or breaks clash with care",
+    "When own plans, breaks or stepping back clash with care"
+   ],
+   [
+    "While juggling care with work, school or their own family",
+    "While juggling care with work, school, family or own illness"
+   ],
+   [
+    "When constant calls, demands and worry leave no rest",
+    "When constant calls, demands and worry leave no rest"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to have time, health and a life of their own",
+    "We want them to have time, health and a life of their own back"
+   ],
+   [
+    "We want them to cope with guilt and grief, and know next steps",
+    "We want them to cope with guilt, anger and grief, and know next steps"
+   ],
+   [
+    "We want them to have someone to lean on and real help",
+    "We want them to have someone to lean on and real help"
+   ],
+   [
+    "We want them to set limits without guilt or judgment",
+    "We want them to set limits or step away without guilt or judgment"
+   ]
+  ],
+  "scenarios": [
+   "Help them get real time off while the parent is cared for",
+   "Help them handle guilt and know what to do next",
+   "Help them find people who can step in",
+   "Help them set limits they can keep"
+  ]
+ },
+ {
+  "uc": "Dementia behavior and hard conversations",
+  "problem": "A parent's anger, confusion and anxiety make visits, calls and big talks hard.",
+  "moments": [
+   [
+    "When the parent rages, argues, accuses or turns violent",
+    "When the parent rages, argues, accuses or turns violent"
+   ],
+   [
+    "When new confusion or strange behavior appears",
+    "When new confusion, memory loss or strange behavior appears"
+   ],
+   [
+    "When raising hard topics: final wishes, care plans, car keys",
+    "When raising hard topics: final wishes, care plans, keys, news"
+   ],
+   [
+    "When anxiety brings nonstop calls and questions",
+    "When the parent's anxiety brings nonstop calls, questions and fixations"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to handle hard talks about final wishes",
+    "We want them to handle hard talks and decisions about final wishes"
+   ],
+   [
+    "We want them to know if a change is the illness, and what's next",
+    "We want them to know whether changes are the illness, and what comes next"
+   ],
+   [
+    "We want them to calm outbursts and calls, and stay calm themselves",
+    "We want them to calm outbursts, anxiety and calls, and stay calm themselves"
+   ],
+   [
+    "We want them to be treated with respect, not accused",
+    "We want them to be treated with respect, not accused or fought with"
+   ]
+  ],
+  "scenarios": [
+   "Help them prepare for a hard talk",
+   "Help them tell the illness from a new medical problem",
+   "Help them calm an outburst in the moment",
+   "Help them cope with nonstop calls without losing their day"
+  ]
+ },
+ {
+  "uc": "Money, legal papers and facility bills",
+  "problem": "Care costs, benefits and legal papers pile up faster than families can handle them.",
+  "moments": [
+   [
+    "When care costs outrun savings, income or insurance",
+    "When care costs and bills outrun savings, income or insurance"
+   ],
+   [
+    "When applying for Medicaid, benefits or caregiver pay",
+    "When seeking Medicaid, insurance, benefits or caregiver pay"
+   ],
+   [
+    "When the parent overspends, gets scammed or stops paying bills",
+    "When the parent overspends, gets scammed or stops paying bills"
+   ],
+   [
+    "When power of attorney and legal papers need sorting",
+    "When power of attorney, wills and legal papers need sorting"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to have legal authority and papers sorted in time",
+    "We want them to have legal authority and papers sorted in time"
+   ],
+   [
+    "We want them to understand and get Medicaid and benefits",
+    "We want them to understand and get Medicaid, insurance and benefits"
+   ],
+   [
+    "We want them to control bills and stop scams and overspending",
+    "We want them to control bills and stop scams, theft and overspending"
+   ],
+   [
+    "We want them to find and afford the care the parent needs",
+    "We want them to find and afford the care the parent needs"
+   ]
+  ],
+  "scenarios": [
+   "Help them get legal papers in place before a crisis",
+   "Help them find and apply for benefits",
+   "Help them spot scams and missed bills early",
+   "Help them plan how to pay for care"
+  ]
+ },
+ {
+  "uc": "Medicines, eating and personal care",
+  "problem": "Daily hands-on care, meals and medicines fall on the caregiver.",
+  "moments": [
+   [
+    "During toileting, incontinence and bathing",
+    "During toileting, incontinence and bathing care"
+   ],
+   [
+    "While running daily medicines, meals and errands",
+    "While running daily medicines, pharmacies, meals and errands"
+   ],
+   [
+    "After a hospital stay or new health problem changes care",
+    "After surgery, hospital stays or new health problems change care"
+   ],
+   [
+    "When the parent skips, refuses or forgets medicines",
+    "When the parent skips, refuses or forgets medicines"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to see the parent take medicines and eat safely",
+    "We want them to see the parent take medicines and eat safely"
+   ],
+   [
+    "We want them to know which medicine or treatment is right",
+    "We want them to know which medicine or treatment is right"
+   ],
+   [
+    "We want them to have safe tools for moving, healing and pills",
+    "We want them to have safe tools for moving, healing and handling pills"
+   ],
+   [
+    "We want them to have hands-on help with care and chores",
+    "We want them to have hands-on help with care, meals and chores"
+   ]
+  ],
+  "scenarios": [
+   "Help them know medicines were taken",
+   "Help them learn hands-on care safely",
+   "Help them adjust care after a hospital stay",
+   "Help them share daily tasks with others"
+  ]
+ },
+ {
+  "uc": "The parent refuses help",
+  "problem": "The parent says no to doctors, help, moving or giving up the car.",
+  "moments": [
+   [
+    "When the parent refuses doctors, treatment or medicine",
+    "When the parent refuses doctors, treatment or medicine"
+   ],
+   [
+    "When the parent won't change habits or do therapy",
+    "When the parent won't change habits, exercise or do therapy"
+   ],
+   [
+    "When the parent resists moving somewhere safer",
+    "When the parent resists moving to a safer place"
+   ],
+   [
+    "When the parent turns down paid help or aids",
+    "When the parent turns down paid help, services or aids"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to get the parent to accept doctors or help",
+    "We want them to get the parent to accept doctors, treatment or help"
+   ],
+   [
+    "We want them to see the parent take care of their health",
+    "We want them to see the parent take care of their own health"
+   ],
+   [
+    "We want them to get the parent to accept a safer move",
+    "We want them to get the parent to accept a move to safety"
+   ],
+   [
+    "We want them to find next steps the parent will accept",
+    "We want them to find next steps the parent will accept, and keep going"
+   ]
+  ],
+  "scenarios": [
+   "Help them raise help in a way the parent accepts",
+   "Help them try small steps when the answer is no",
+   "Help them know when to step in for safety",
+   "Help them keep going after a refusal"
+  ]
+ },
+ {
+  "uc": "Relatives don't help, or block each other",
+  "problem": "Relatives stay away, refuse to help or fight over decisions, leaving one person alone.",
+  "moments": [
+   [
+    "While relatives stay away and leave all care to one",
+    "While relatives stay away and leave all care to one"
+   ],
+   [
+    "When the other parent avoids or blocks care",
+    "When the parent's partner avoids, blocks or overrides care"
+   ],
+   [
+    "When relatives distrust, accuse or override the caregiver",
+    "When relatives distrust, accuse, override or fight around the caregiver"
+   ],
+   [
+    "When siblings refuse to help, even when asked",
+    "When siblings refuse to help, even when asked"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to have siblings share the care and costs",
+    "We want them to have siblings share the care and costs"
+   ],
+   [
+    "We want them to have relatives agree and follow through",
+    "We want them to have relatives agree and follow through on care decisions"
+   ],
+   [
+    "We want them to be informed, heard and able to visit",
+    "We want them to be informed, heard and able to see the parent"
+   ],
+   [
+    "We want them to get the parent the care doctors advised",
+    "We want them to protect the parent and get the care doctors advised"
+   ]
+  ],
+  "scenarios": [
+   "Help them split care and costs among relatives",
+   "Help them reach and keep family decisions",
+   "Help them keep every relative informed",
+   "Help them show what the care really takes"
+  ]
+ },
+ {
+  "uc": "Choosing and arranging a place for them",
+  "problem": "Families must choose, afford and arrange a new home, sometimes in a rush.",
+  "moments": [
+   [
+    "When deciding where, when and whether to move the parent",
+    "When deciding where, when and whether to move the parent"
+   ],
+   [
+    "During and after the move into a new home",
+    "During and after moving the parent into a new home"
+   ],
+   [
+    "When a hospital or rehab stay forces a fast move",
+    "When a hospital or rehab stay forces a fast placement"
+   ],
+   [
+    "While searching for an affordable place that will take them",
+    "While searching for an affordable place that will take them"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to decide on a move in time, with family input",
+    "We want them to decide on a move in time, with family input"
+   ],
+   [
+    "We want them to find an affordable place that will take the parent",
+    "We want them to find an affordable place that will take the parent"
+   ],
+   [
+    "We want them to find a place with caring staff and good days",
+    "We want them to have a place with caring staff and good daily life"
+   ],
+   [
+    "We want them to ease the move for everyone",
+    "We want them to ease the move for the parent and themselves"
+   ]
+  ],
+  "scenarios": [
+   "Help them plan a move before a crisis",
+   "Help them compare places and costs",
+   "Help them check how a place really treats people",
+   "Help them settle the parent into a new home"
+  ]
+ },
+ {
+  "uc": "Staying safe at home",
+  "problem": "A parent living at home falls, wanders or gets hurt doing everyday things.",
+  "moments": [
+   [
+    "When the parent falls at home, again and again",
+    "When the parent falls at home, often again and again"
+   ],
+   [
+    "While a frail parent risks falling with no one there",
+    "While a frail parent at home risks unaided falls"
+   ],
+   [
+    "When a declining parent is left alone or wanders",
+    "When a declining parent is left alone or wanders"
+   ],
+   [
+    "When cooking, pills or chores become risky",
+    "When cooking, pills or chores at home become risky"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to know which risks to accept and what to do",
+    "We want them to know which risks to accept and what to do"
+   ],
+   [
+    "We want them to have fall alerts and ways to call help",
+    "We want them to have reliable fall alerts and ways to call help"
+   ],
+   [
+    "We want them to move the parent somewhere safer",
+    "We want them to move the parent somewhere safer with care"
+   ],
+   [
+    "We want them to have hands-on help that prevents falls",
+    "We want them to have hands-on help that prevents falls"
+   ]
+  ],
+  "scenarios": [
+   "Help them find and fix the biggest risks at home",
+   "Help them know quickly when something goes wrong",
+   "Help them decide when home is no longer safe"
+  ]
+ },
+ {
+  "uc": "Getting answers from doctors and hospitals",
+  "problem": "Families wait for answers, get dismissed and hear about problems late.",
+  "moments": [
+   [
+    "While waiting months for tests, specialists or a diagnosis",
+    "While waiting months for tests, specialists or a diagnosis"
+   ],
+   [
+    "When doctors dismiss or can't explain symptoms",
+    "When doctors dismiss, contradict or can't explain symptoms"
+   ],
+   [
+    "After care causes harm, often without telling family",
+    "After care causes harm or errors, often without telling family"
+   ],
+   [
+    "When trying to reach staff or get a callback",
+    "When trying to reach staff, get callbacks or share concerns"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to get clear answers, causes and next steps",
+    "We want them to get clear answers, causes and next steps"
+   ],
+   [
+    "We want them to get faster tests, specialists and callbacks",
+    "We want them to get faster assessments, specialists and callbacks"
+   ],
+   [
+    "We want them to be told quickly when things go wrong",
+    "We want them to be told quickly and accurately when things go wrong"
+   ],
+   [
+    "We want them to have discharge plans the family can handle",
+    "We want them to have rehab and discharge plans the family can handle"
+   ]
+  ],
+  "scenarios": [
+   "Help them get clear answers and next steps",
+   "Help them reach the care team and be heard",
+   "Help them prepare for discharge",
+   "Help them track what doctors said"
+  ]
+ },
+ {
+  "uc": "Being far away and not knowing what is happening",
+  "problem": "Children who live far away can't tell how the parent really is.",
+  "moments": [
+   [
+    "While living far away, unsure how the parent really is",
+    "While living far away, unsure how the parent really is"
+   ],
+   [
+    "While managing care from another state or country",
+    "While managing care and affairs from another state or country"
+   ],
+   [
+    "When a crisis hits and family is far away",
+    "When a crisis hits while family lives far away"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to know what is happening now and what to expect",
+    "We want them to know what is happening now and what to expect"
+   ],
+   [
+    "We want them to be closer, or able to help from afar",
+    "We want them to be closer or able to help from afar"
+   ],
+   [
+    "We want them to have someone with the parent when they can't be",
+    "We want them to have someone with the parent when they can't be"
+   ]
+  ],
+  "scenarios": [
+   "Help them know how the parent is doing day to day",
+   "Help them help from far away",
+   "Help them find someone nearby who can check in"
+  ]
+ },
+ {
+  "uc": "Getting into the parent's accounts",
+  "problem": "Children can't get into a parent's bank, phone or online accounts to help.",
+  "moments": [
+   [
+    "When they need the parent's bank to pay bills",
+    "When needing access to the parent's bank to pay bills"
+   ],
+   [
+    "When scams or misuse hit the parent's phone or accounts",
+    "When scams or misuse hit the parent's phone or accounts"
+   ],
+   [
+    "When the parent's phone or social media need changing",
+    "When the parent's phone or social media need changing"
+   ]
+  ],
+  "wants": [
+   [
+    "We want them to get access to pay bills and help remotely",
+    "We want them to get access to pay bills and help remotely"
+   ],
+   [
+    "We want them to block scam calls and account misuse",
+    "We want them to block scam calls and misuse of accounts"
+   ],
+   [
+    "We want them to change the parent's phone and online settings",
+    "We want them to change the parent's phone and online settings"
+   ]
+  ],
+  "scenarios": [
+   "Help them get their own access to pay bills",
+   "Help them protect the parent's accounts from scams",
+   "Help them manage the parent's phone settings"
+  ]
+ }
+]

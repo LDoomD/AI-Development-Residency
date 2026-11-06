@@ -1,0 +1,220 @@
+{
+  "company": "Medical Guardian",
+  "slug": "medical-guardian",
+  "built": "2026-11-04",
+  "method": "All saved company pages read in full; quotes copied exactly from the saved file (whitespace may differ where the saved text breaks lines).",
+  "pages_read": [
+    "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.html",
+    "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+    "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com_pricing.html",
+    "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com_pricing.txt",
+    "docs/company-funding.md"
+  ],
+  "notes": "The saved 'pricing' page is the home page (same text; both canonical to medicalguardian.com/), so no monthly plan prices were saved. No App Store listing is saved.",
+  "business_model": {
+    "answer": "Sells medical-alert devices with ongoing monitoring subscriptions (offers mention annual subscriptions), often giving the equipment free with a promo code; also sells through dealers, healthcare, government and senior-living partners. Owned by Medical Guardian LLC; no funding figure was found.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "* Offer valid for Annual subscriptions by new customers only."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "FREE Guardian Flex Equipment: Call 1 (800) 668-9200"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Partners Dealers Healthcare Government Patient Referral Senior Living"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "©2026 Medical Guardian LLC. All rights reserved."
+      },
+      {
+        "file": "docs/company-funding.md",
+        "quote": "| Medical Guardian | medical alert | NOT FOUND |"
+      }
+    ],
+    "not_stated": false
+  },
+  "who_uses_who_pays": {
+    "answer": "The older adult wears the device; adult children often arrange it. Buyers pay by phone or online, and some health insurance plans may cover a free or discounted device. Who pays the monthly fee is not spelled out.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "“As their son, it gives me a huge sense of relief when I am not there.”"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Depending on your insurance plan, you may be eligible for a discounted or free device!"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "All of our devices are available for purchase via phone or online."
+      }
+    ],
+    "not_stated": false
+  },
+  "cost": {
+    "answer": "About $1 a day for monitoring; the Guardian Flex device is free with a holiday promo, with free activation, shipping and lock box. Exact plan prices are not on the saved pages, and cancellation fees may apply.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "For about $1 a day, you and your loved ones can feel the peace of mind that comes with 24-hour emergency response at the push of a button."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Call to Get FREE with Promo Code: HOLIDAY25"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "†† Cancellation fees may apply."
+      }
+    ],
+    "not_stated": false
+  },
+  "how_they_differentiate": {
+    "answer": "They claim to be faster and more personal than calling 911 because their monitoring center already knows who and where you are and can send EMS or a trusted person; plus their lightest device with 5-day battery and GPS, and an AARP 'Best Overall' award.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "We already know your name, location, and emergency contacts, so we can act fast."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "It’s faster, more personal, and built around you."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Named Best Overall Medical Alert System by AARP Smart Picks"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Trusted by over 600,000+ families."
+      }
+    ],
+    "not_stated": false
+  },
+  "unique_value_proposition": {
+    "answer": "One button gets you to a 24/7 monitoring center that sends the right help fast, at home or on the go.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "When you press your button, you’re connected instantly to our 24/7 U.S.-based monitoring center"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Choose 24/7 protection with our mobile and home-based systems."
+      }
+    ],
+    "not_stated": false
+  },
+  "retain_customers": {
+    "answer": "Ongoing (often annual) subscriptions with possible cancellation fees, and a member portal for managing services.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "* Offer valid for Annual subscriptions by new customers only."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "†† Cancellation fees may apply."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "please log into your MyGuardian Member Portal"
+      }
+    ],
+    "not_stated": false
+  },
+  "customer_experience": {
+    "answer": "A 24/7 US monitoring center, a Member Support phone line, a Life Safety Consultant who calls new leads, a product quiz and buyer's guide; they say AI improves response times and may use AI chat tools in sales contact.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "call Member Support at 1 (800) 313-1191"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "A Life Safety Consultant will call you shortly to answer your questions and provide further assistance."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "learn how Medical Guardian’s AI actually improves response times!"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "including via automated systems such as artificial intelligence chat tools, pre-recorded messages, and text messages."
+      }
+    ],
+    "not_stated": false
+  },
+  "relatives_joining": {
+    "answer": "Not stated on its saved pages. Family appear only as emergency contacts the monitoring center may call; no family login or invite is described.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "whether that’s EMS or someone you trust like a neighbor, caregiver, or family member."
+      }
+    ],
+    "not_stated": true
+  },
+  "privacy_data_consent": {
+    "answer": "Only marketing consent is stated: submitting a form authorizes contact by AI chat tools, recorded messages and texts (texts are optional). The monitoring center holds your name, location and emergency contacts. Health-data handling and deletion are not stated; the privacy policy was not saved.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "By submitting my information, I authorize Medical Guardian, its accredited members, authorized dealers, and agents to communicate with me regarding product and service options"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "By leaving this box unchecked I will not be opted in for SMS messages at this time."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "We already know your name, location, and emergency contacts, so we can act fast."
+      }
+    ],
+    "not_stated": false
+  },
+  "emergencies": {
+    "answer": "Pressing the button connects to a 24/7 US monitoring center that sends EMS or a chosen contact. They warn fall detection does not always work and tell members to press the button if they can.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "When you press your button, you’re connected instantly to our 24/7 U.S.-based monitoring center"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Remember, fall detection is very good but does not work 100% of the time. In an emergency, if you are able, please press your button for help."
+      }
+    ],
+    "not_stated": false
+  },
+  "setup": {
+    "answer": "Pick an on-the-go device (Guardian Flex, MG Move) or a home system (cellular or landline), order by phone or online with free activation, and wear it on the neck or wrist; the Flex charges every few days. Who does the setup is not stated.",
+    "evidence": [
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Guardian Flex MG Move Home Systems Coverage for you where you are the most."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "MG Home Cellular MG Home Landline"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "N FREE Activation N FREE Ground Shipping"
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "Because the devices are worn around the neck or on the wrist, help is always within reach."
+      },
+      {
+        "file": "docs/sources/competitors-2/medical-guardian/www_medicalguardian_com.txt",
+        "quote": "can stay charged for up to 5 days"
+      }
+    ],
+    "not_stated": false
+  }
+}

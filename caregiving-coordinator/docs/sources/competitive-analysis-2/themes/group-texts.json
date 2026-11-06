@@ -1,0 +1,684 @@
+{
+ "competitor": "Workaround: family group chats, group texts and WhatsApp groups",
+ "items_in_pack": 189,
+ "items_kept": 53,
+ "dropped": {
+  "not caregiving": 11,
+  "says nothing about the product": 80,
+  "app maker / ad": 44,
+  "duplicate of a kept post": 1
+ },
+ "kept_ids": [
+  "reddit-p12nroz3",
+  "reddit-p13jpc0p",
+  "reddit-p13w88bv",
+  "reddit-p1622zrn",
+  "reddit-p1780qni",
+  "reddit-p1854c0y",
+  "reddit-p1arh58g",
+  "reddit-p1cc4fgt",
+  "reddit-p1ct3r7y",
+  "reddit-p1g70h9t",
+  "reddit-p1gjz6yv",
+  "reddit-p1gozxxr",
+  "reddit-p1k9pm2p",
+  "reddit-p1kbputd",
+  "reddit-p1kc22on",
+  "reddit-p1kx8lrb",
+  "reddit-p1lu35be",
+  "reddit-p1mim3ug",
+  "reddit-p1n1ottl",
+  "reddit-p1oa4y9y",
+  "reddit-p1qcigud",
+  "reddit-p1qx44h8",
+  "reddit-p1qxnzwk",
+  "reddit-p1rbu6k7",
+  "reddit-p1ricuz1",
+  "reddit-p1s5e0jz",
+  "reddit-p1sahm1c",
+  "reddit-p1sny03h",
+  "reddit-p1u9ey0z",
+  "reddit-p1usly7q",
+  "reddit-p1v0i2br",
+  "reddit-p1vqv0bn",
+  "reddit-p1wlrtcw",
+  "reddit-p1wxbg7f",
+  "reddit-p1x4kmj4",
+  "reddit-p16pmqb9",
+  "reddit-p195bxme",
+  "reddit-p1ao3pxf",
+  "reddit-p1drrui7",
+  "reddit-p1kj37qj",
+  "reddit-p1kp9ufi",
+  "reddit-p1l4bofd",
+  "reddit-p1nmuwp9",
+  "reddit-p1ohiafw",
+  "reddit-p1paa27s",
+  "reddit-p1q2kzsl",
+  "reddit-p1qggj5g",
+  "reddit-p1qjr6ug",
+  "reddit-p1qz5lc3",
+  "reddit-p1x1sxer",
+  "reddit-p1tunxsg",
+  "reddit-p1wrnjau",
+  "reddit-p1w86ssj"
+ ],
+ "works_well": [
+  {
+   "theme": "One place to tell the whole family what is happening",
+   "what_it_means": "The main caregiver uses the chat to pass on news from doctors, hospital stays and scheduling to everyone at once.",
+   "count": 6,
+   "ids": [
+    "reddit-p1622zrn",
+    "reddit-p1854c0y",
+    "reddit-p1kx8lrb",
+    "reddit-p1q2kzsl",
+    "reddit-p1qggj5g",
+    "reddit-p1x1sxer"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1kx8lrb",
+     "quote": "Talking to various doctors and communicating with their 3 children age 60-70 via call and group text."
+    },
+    {
+     "id": "reddit-p1854c0y",
+     "quote": "I will check it when I feel like it, which is still multiple times a day, and I text any updates from medical professionals."
+    }
+   ]
+  },
+  {
+   "theme": "Quick way to ask someone to cover a shift",
+   "what_it_means": "Families and care staff use the chat to ask for cover or remind the next person to arrive on time.",
+   "count": 3,
+   "ids": [
+    "reddit-p1arh58g",
+    "reddit-p1usly7q",
+    "reddit-p1x1sxer"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1usly7q",
+     "quote": "a coworker reached out to our group chat asking for coverage for the following day because her MIL had a heart attack"
+    },
+    {
+     "id": "reddit-p1arh58g",
+     "quote": "I sent Y a text this morning, to our group chat, asking that she please be on time"
+    }
+   ]
+  },
+  {
+   "theme": "Works well enough until care gets complicated",
+   "what_it_means": "Some say the chat sort of works, but they worry things slip through once there is a lot to track.",
+   "count": 2,
+   "ids": [
+    "reddit-p1ricuz1",
+    "reddit-p1qjr6ug"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1ricuz1",
+     "quote": "Right now, we've been using a messy group chat, random Google Calendar for appointments. It kind of works, but always feel like we might've missed something."
+    },
+    {
+     "id": "reddit-p1qjr6ug",
+     "quote": "group texts and sticky notes work until they don't."
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "Requests for help and updates get silence or just a like",
+   "what_it_means": "Caregivers post updates or ask for specific help and relatives read it but do not answer or act.",
+   "count": 10,
+   "ids": [
+    "reddit-p12nroz3",
+    "reddit-p13jpc0p",
+    "reddit-p13w88bv",
+    "reddit-p1ct3r7y",
+    "reddit-p1v0i2br",
+    "reddit-p1x4kmj4",
+    "reddit-p195bxme",
+    "reddit-p1kj37qj",
+    "reddit-p1paa27s",
+    "reddit-p1qz5lc3"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p12nroz3",
+     "quote": "I asked the family chat for a link to buy a small recording device so the medical advocate can easily record. I got a vague “try something like this”."
+    },
+    {
+     "id": "reddit-p1x4kmj4",
+     "quote": "I put in the group chat with, like, upwards of 20 relatives asking if they could all pitch in like $20 and all I got was crickets."
+    }
+   ]
+  },
+  {
+   "theme": "Important details get buried, causing missed appointments and near double doses",
+   "what_it_means": "Messages pile up across threads, so changed times, given doses and follow-ups get lost.",
+   "count": 10,
+   "ids": [
+    "reddit-p1lu35be",
+    "reddit-p1n1ottl",
+    "reddit-p1ricuz1",
+    "reddit-p1s5e0jz",
+    "reddit-p1u9ey0z",
+    "reddit-p1ohiafw",
+    "reddit-p1q2kzsl",
+    "reddit-p1qjr6ug",
+    "reddit-p1tunxsg",
+    "reddit-p1wrnjau"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1n1ottl",
+     "quote": "Last week we almost doubled his heart medication because my sister didn't know I'd already given it."
+    },
+    {
+     "id": "reddit-p1u9ey0z",
+     "quote": "She missed one once, not because she forgot it existed, but because the time got changed and the message got lost in a group text."
+    }
+   ]
+  },
+  {
+   "theme": "Relatives use the chat to judge or second-guess the caregiver",
+   "what_it_means": "The chat becomes where relatives criticize the main caregiver's choices, effort, or decisions about care.",
+   "count": 8,
+   "ids": [
+    "reddit-p1g70h9t",
+    "reddit-p1kbputd",
+    "reddit-p1kc22on",
+    "reddit-p1qcigud",
+    "reddit-p1qxnzwk",
+    "reddit-p1wlrtcw",
+    "reddit-p1x4kmj4",
+    "reddit-p16pmqb9"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p16pmqb9",
+     "quote": "I had to leave the family group chat because every other message felt like a passive aggressive complaint at my \"not stepping up\""
+    },
+    {
+     "id": "reddit-p1wlrtcw",
+     "quote": "None of the siblings have offered any respite care and have critiqued me wanting to put my mom in an ALF in the group chat."
+    }
+   ]
+  },
+  {
+   "theme": "Constant messages wear the caregiver down",
+   "what_it_means": "Nonstop updates, demands for fast replies, or required check-ins take away rest and free time.",
+   "count": 7,
+   "ids": [
+    "reddit-p1622zrn",
+    "reddit-p1854c0y",
+    "reddit-p1kx8lrb",
+    "reddit-p1n1ottl",
+    "reddit-p1oa4y9y",
+    "reddit-p1rbu6k7",
+    "reddit-p1wrnjau"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1622zrn",
+     "quote": "with all of the updates in the family group chat; she wasn’t able to actually de stress (and she felt guilty for leaving)"
+    },
+    {
+     "id": "reddit-p1854c0y",
+     "quote": "having someone get upset because I didn't respond immediately made me realize that I was definitely giving too much."
+    }
+   ]
+  },
+  {
+   "theme": "Paid caregivers get blamed in front of the client's family or bosses",
+   "what_it_means": "Home care workers say coworkers, guardians or managers use the shared chat to point out their mistakes publicly.",
+   "count": 4,
+   "ids": [
+    "reddit-p1cc4fgt",
+    "reddit-p1gjz6yv",
+    "reddit-p1k9pm2p",
+    "reddit-p1rbu6k7"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1gjz6yv",
+     "quote": "often times, something that could be texted privately to me, Julie puts in the group chat to make me look bad or dumb"
+    },
+    {
+     "id": "reddit-p1rbu6k7",
+     "quote": "Which she often does usually along with a picture of what we did wrong."
+    }
+   ]
+  },
+  {
+   "theme": "Showy or careless posts hurt the main caregiver",
+   "what_it_means": "Relatives post praise-seeking, party or joking messages that sting the person doing daily care.",
+   "count": 3,
+   "ids": [
+    "reddit-p1780qni",
+    "reddit-p1sahm1c",
+    "reddit-p1vqv0bn"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1780qni",
+     "quote": "I hate seeing your notifications, that you’ve messaged the family group chat showing her the card you made her, or how you showered her at the hospital."
+    },
+    {
+     "id": "reddit-p1vqv0bn",
+     "quote": "screenshot it the moment before he fell and sent it to the family group chat as a meme."
+    }
+   ]
+  },
+  {
+   "theme": "Not dependable when something urgent happens",
+   "what_it_means": "Urgent messages go unanswered, so people fall back on phone calls.",
+   "count": 3,
+   "ids": [
+    "reddit-p13w88bv",
+    "reddit-p1854c0y",
+    "reddit-p1qx44h8"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1qx44h8",
+     "quote": "tried escalating multiple of the calls going off, privately messaging her, messaging the group chat, and still could not get ahold of her."
+    },
+    {
+     "id": "reddit-p1854c0y",
+     "quote": "If there's an emergency, they'll call. Or the facility will call."
+    }
+   ]
+  },
+  {
+   "theme": "Not everyone can or will join the same chat",
+   "what_it_means": "Different phones, cost worries, or refusal to install an app split the family across channels.",
+   "count": 2,
+   "ids": [
+    "reddit-p1l4bofd",
+    "reddit-p1nmuwp9"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1nmuwp9",
+     "quote": "We all do not have the same cell service or phones so group texts are a problem."
+    },
+    {
+     "id": "reddit-p1l4bofd",
+     "quote": "I texted my aunt and asked her to download it, but she declined and said she rather just keep one person updated"
+    }
+   ]
+  },
+  {
+   "theme": "Side chats leave some people out",
+   "what_it_means": "Separate chats exclude a spouse or the caregiver, so they miss information or are talked about.",
+   "count": 2,
+   "ids": [
+    "reddit-p1wxbg7f",
+    "reddit-p1kp9ufi"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1wxbg7f",
+     "quote": "I recently was made aware of a group chat with everyone but me in it to which everyone was like she doesn’t want to work."
+    },
+    {
+     "id": "reddit-p1kp9ufi",
+     "quote": "He has a group text with his siblings. No in-laws are in it which is fine. I feel like I can’t fully help when I don’t know the whole situation."
+    }
+   ]
+  },
+  {
+   "theme": "Private things end up in the wrong chat",
+   "what_it_means": "Photos or confidential matters posted to a wider group start fights.",
+   "count": 2,
+   "ids": [
+    "reddit-p1qcigud",
+    "reddit-p1ao3pxf"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1qcigud",
+     "quote": "I sent it to the wrong group chat instead of it being me, mom and my s/o"
+    },
+    {
+     "id": "reddit-p1ao3pxf",
+     "quote": "My husband is now annoyed with me for \"wrecking everything\" and breaking confidentiality"
+    }
+   ]
+  },
+  {
+   "theme": "The person being cared for posts alarming messages",
+   "what_it_means": "The care recipient drops big decisions or confusing messages into the chat, shocking the family.",
+   "count": 2,
+   "ids": [
+    "reddit-p1mim3ug",
+    "reddit-p1drrui7"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1mim3ug",
+     "quote": "Then one day she sent a message to the family group chat saying she’s decided to go home and the hospice had agreed. We were all completely thrown off guard."
+    },
+    {
+     "id": "reddit-p1drrui7",
+     "quote": "she has started putting my S/O in group chats and sending random unintelligible messages causing concern for everyone"
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [
+   {
+    "theme": "Paid care staff and agencies also run care through group chats",
+    "what_it_means": "Home care workers, client families, guardians and facility staff share chats for updates, cover and complaints.",
+    "count": 6,
+    "ids": [
+     "reddit-p1cc4fgt",
+     "reddit-p1gjz6yv",
+     "reddit-p1k9pm2p",
+     "reddit-p1qx44h8",
+     "reddit-p1rbu6k7",
+     "reddit-p1usly7q"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1cc4fgt",
+      "quote": "The 4 of us have a group chat, if I do something Julie thinks is wrong (when it isn’t), she texts it to the whole group chat"
+     },
+     {
+      "id": "reddit-p1k9pm2p",
+      "quote": "a message I had sent in a group chat set by my client coordinator"
+     }
+    ]
+   },
+   {
+    "theme": "The main caregiver does most of the posting",
+    "what_it_means": "One person sends the updates and handles the doctors; others mostly read.",
+    "count": 4,
+    "ids": [
+     "reddit-p13jpc0p",
+     "reddit-p13w88bv",
+     "reddit-p1854c0y",
+     "reddit-p1kx8lrb"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p13jpc0p",
+      "quote": "I send regular updates in a family group chat, most of the time I don't even get a response."
+     },
+     {
+      "id": "reddit-p1kx8lrb",
+      "quote": "Talking to various doctors and communicating with their 3 children age 60-70 via call and group text."
+     }
+    ]
+   }
+  ],
+  "relatives_joining_and_sharing": [
+   {
+    "theme": "Being in the chat does not mean helping",
+    "what_it_means": "Relatives are members of the chat but ignore asks, only react, or say they did not see it.",
+    "count": 7,
+    "ids": [
+     "reddit-p12nroz3",
+     "reddit-p1ct3r7y",
+     "reddit-p1x4kmj4",
+     "reddit-p195bxme",
+     "reddit-p1kj37qj",
+     "reddit-p1paa27s",
+     "reddit-p1qz5lc3"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1kj37qj",
+      "quote": "Meanwhile, your sibling just likes the group text."
+     },
+     {
+      "id": "reddit-p1qz5lc3",
+      "quote": "ignores group chats, barely comes home, and when called out on this, she just says \"I'm busy with work\" or \"I didn't see it\"."
+     }
+    ]
+   },
+   {
+    "theme": "Getting everyone onto one app is hard",
+    "what_it_means": "Phones, services and preferences differ, so not all relatives join one chat.",
+    "count": 2,
+    "ids": [
+     "reddit-p1l4bofd",
+     "reddit-p1nmuwp9"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1nmuwp9",
+      "quote": "We all do not have the same cell service or phones so group texts are a problem."
+     },
+     {
+      "id": "reddit-p1l4bofd",
+      "quote": "I texted my aunt and asked her to download it, but she declined and said she rather just keep one person updated"
+     }
+    ]
+   },
+   {
+    "theme": "Some people are kept out of the chat",
+    "what_it_means": "Spouses or the caregiver are left out of a sibling or family chat.",
+    "count": 2,
+    "ids": [
+     "reddit-p1wxbg7f",
+     "reddit-p1kp9ufi"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1wxbg7f",
+      "quote": "I recently was made aware of a group chat with everyone but me in it to which everyone was like she doesn’t want to work."
+     },
+     {
+      "id": "reddit-p1kp9ufi",
+      "quote": "He has a group text with his siblings. No in-laws are in it which is fine."
+     }
+    ]
+   }
+  ],
+  "cost_price_cancelling": [
+   {
+    "theme": "Money asks and money disputes run through the chat",
+    "what_it_means": "Caregivers use the chat to ask relatives to chip in or to sort out who paid or charged what.",
+    "count": 3,
+    "ids": [
+     "reddit-p1kbputd",
+     "reddit-p1x4kmj4",
+     "reddit-p1wrnjau"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1kbputd",
+      "quote": "So I messaged the family chat and asked everyone to remove her card from their amazon accounts"
+     },
+     {
+      "id": "reddit-p1wrnjau",
+      "quote": "a running argument about who paid for the last home-help shift"
+     }
+    ]
+   }
+  ],
+  "emergencies_and_support_response": [
+   {
+    "theme": "Not dependable when something urgent happens",
+    "what_it_means": "Urgent messages go unanswered, so people fall back on phone calls.",
+    "count": 3,
+    "ids": [
+     "reddit-p13w88bv",
+     "reddit-p1854c0y",
+     "reddit-p1qx44h8"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p13w88bv",
+      "quote": "Most of the time, I don't get any responses, even when alerting them we are in the hospital."
+     },
+     {
+      "id": "reddit-p1854c0y",
+      "quote": "If there's an emergency, they'll call. Or the facility will call."
+     }
+    ]
+   },
+   {
+    "theme": "Alarming news arrives with no warning",
+    "what_it_means": "Big decisions or confusing messages from the person being cared for land in the chat and shock everyone.",
+    "count": 2,
+    "ids": [
+     "reddit-p1mim3ug",
+     "reddit-p1drrui7"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1mim3ug",
+      "quote": "We were all completely thrown off guard."
+     },
+     {
+      "id": "reddit-p1drrui7",
+      "quote": "sending random unintelligible messages causing concern for everyone"
+     }
+    ]
+   }
+  ],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "Getting everyone onto one app is hard",
+    "what_it_means": "Phones, services and preferences differ, so not all relatives join one chat.",
+    "count": 2,
+    "ids": [
+     "reddit-p1l4bofd",
+     "reddit-p1nmuwp9"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1nmuwp9",
+      "quote": "There’s whatsapp or email but one doesn’t want whatsapp and two don’t want to rely on email."
+     },
+     {
+      "id": "reddit-p1l4bofd",
+      "quote": "I immediately started campaigning for us to have a WhatsApp group so that we can all have the same information at the same time"
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [
+   {
+    "theme": "Private things end up in the wrong chat",
+    "what_it_means": "Photos or confidential matters posted to a wider group start fights.",
+    "count": 2,
+    "ids": [
+     "reddit-p1qcigud",
+     "reddit-p1ao3pxf"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1qcigud",
+      "quote": "Mom saying don’t post those to instagram"
+     },
+     {
+      "id": "reddit-p1ao3pxf",
+      "quote": "breaking confidentiality as I wasn't supposed to admit that I knew about them asking me to sign a statement"
+     }
+    ]
+   }
+  ],
+  "why_people_stop_or_stay": [
+   {
+    "theme": "Caregivers mute, leave, or refuse group chats to protect themselves",
+    "what_it_means": "The stress of the chat leads caregivers to mute it, leave it, think about closing it, or refuse to start one.",
+    "count": 4,
+    "ids": [
+     "reddit-p13w88bv",
+     "reddit-p1854c0y",
+     "reddit-p1oa4y9y",
+     "reddit-p16pmqb9"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p13w88bv",
+      "quote": "I'm trying so hard not to close the group chat and cease communication."
+     },
+     {
+      "id": "reddit-p1oa4y9y",
+      "quote": "The suggestion alone that I should start a stupid group chat makes me feel resentful and angry."
+     }
+    ]
+   }
+  ],
+  "what_people_use_instead_or_alongside": [
+   {
+    "theme": "Shared calendars, docs and notes run next to the chat",
+    "what_it_means": "Families add Google Calendar, Google Docs, spreadsheets, notes apps or CaringBridge, but these often go un-updated.",
+    "count": 6,
+    "ids": [
+     "reddit-p1lu35be",
+     "reddit-p1n1ottl",
+     "reddit-p1ricuz1",
+     "reddit-p1nmuwp9",
+     "reddit-p1ohiafw",
+     "reddit-p1wrnjau"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1lu35be",
+      "quote": "One person started a Google Doc, another tried a group calendar - but it still felt scattered."
+     },
+     {
+      "id": "reddit-p1ohiafw",
+      "quote": "We've tried group texts but important information gets buried. Spreadsheets are messy and my brother doesn't use them."
+     }
+    ]
+   },
+   {
+    "theme": "Paper and memory fill the gaps",
+    "what_it_means": "Paper calendars, a notebook only one person writes in, and memory sit alongside the chat.",
+    "count": 3,
+    "ids": [
+     "reddit-p1n1ottl",
+     "reddit-p1s5e0jz",
+     "reddit-p1u9ey0z"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1u9ey0z",
+      "quote": "All on a paper calendar and in her memory."
+     },
+     {
+      "id": "reddit-p1s5e0jz",
+      "quote": "Right now we’re using group chats and memory, which clearly isn’t working."
+     }
+    ]
+   }
+  ]
+ },
+ "single_mentions": [
+  {
+   "id": "reddit-p1gozxxr",
+   "point": "A sibling set up a family safe word in the chat so anyone overwhelmed can ask for a break without explaining."
+  },
+  {
+   "id": "reddit-p1qggj5g",
+   "point": "A cousin announcing in the family chat that they were sharing care with a sibling made an only-child caregiver feel more alone."
+  },
+  {
+   "id": "reddit-p1x1sxer",
+   "point": "A relative asks when to stop including the person with Alzheimer's in scheduling group texts to avoid confusing them."
+  },
+  {
+   "id": "reddit-p1w86ssj",
+   "point": "In a senior living community, family WhatsApp groups are where water and infection problems at the facility surface."
+  },
+  {
+   "id": "reddit-p1sny03h",
+   "point": "A caregiver once told siblings her feelings in a group text years ago and nothing changed."
+  },
+  {
+   "id": "reddit-p1tunxsg",
+   "point": "WhatsApp messages are one of the scattered places medical reports live, making them hard to find when a doctor asks."
+  }
+ ],
+ "reader_notes": "All 189 items are Reddit posts (2023-2026), mostly r/CaregiverSupport and r/AgingParents; no comments were included. 'Says nothing about the product' here means the post mentions a chat but not to coordinate care or keep family informed (friends' chats, scams via WhatsApp, a parent's one-to-one WhatsApp flood, peer support group invites, tech-help questions). 44 posts were app makers or ads; many of them describe group chats failing (lost info, near double doses), but they were dropped as sales framing. Several kept posts (reddit-p1lu35be, reddit-p1n1ottl, reddit-p1ricuz1, reddit-p1s5e0jz, reddit-p1u9ey0z, reddit-p1ohiafw, reddit-p1qjr6ug, reddit-p1wrnjau) read like research or pre-build questions and one (reddit-p1wrnjau) says the writer may build something; they were kept because no product is named. Vent posts dominate, so conflict and silence are over-represented compared with families where the chat works quietly. Six kept posts are from paid caregivers, not family. Item reddit-p1n1rbmb is a word-for-word cross-post of a kept post (reddit-p1n1ottl) and was dropped. Few posts say anything about cost, privacy settings or setup."
+}

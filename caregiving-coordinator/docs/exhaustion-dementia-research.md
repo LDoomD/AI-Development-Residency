@@ -13,7 +13,7 @@ Evidence states: **documented** = read in a saved primary source, page given; **
 | Reasons for low use (the report cites other studies) | "inflexible program design, lack of trained providers, and difficult application processes", and "lack of trust, shame around handing off care to someone else, or uncertainty about the quality of available respite services" | AARP PDF p.26 (printed p.20) |
 | Topic caregivers say they need more help or information on, highest of the list | "Managing emotional/physical stress" 30% | AARP PDF p.53, Figure 41 |
 | Same list, behavior | "Managing recipient's challenging behaviors" 12% (all caregivers, not only dementia; dementia is the main condition for 11%, AARP PDF p.21) | AARP PDF p.53 |
-| Dementia caregivers who rate the emotional stress as high or very high | 59% | Alzheimer's Association *2026 Facts and Figures*, PDF p.55 (`sources/alz-facts-figures-2026/`) |
+| Dementia caregivers who rate the emotional stress as high or very high | 59% | Alzheimer's Association *2026 Facts and Figures*, Figure 12, printed p.52 (PDF p.54; corrected 2026-11-05) (`sources/alz-facts-figures-2026/`) |
 | Extra care time for dementia caregivers | "27 hours more care per month on average (92 hours versus 65 hours)" | Facts and Figures PDF p.52 |
 | Americans giving unpaid dementia care | "More than 12 million" | Facts and Figures PDF p.49 |
 | Share of caregivers of older adults who care for someone with dementia | "Nearly half of all caregivers (48%)" | Facts and Figures PDF p.49 |

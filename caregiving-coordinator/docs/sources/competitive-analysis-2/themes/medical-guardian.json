@@ -1,0 +1,767 @@
+{
+ "competitor": "Medical Guardian",
+ "items_in_pack": 76,
+ "items_kept": 52,
+ "dropped": {
+  "not caregiving": 4,
+  "says nothing about the product": 16,
+  "app maker / ad": 4
+ },
+ "kept_ids": [
+  "a-3207",
+  "a-3216",
+  "a-3221",
+  "a-3222",
+  "a-3223",
+  "a-3224",
+  "a-3227",
+  "a-3229",
+  "a-3232",
+  "a-3233",
+  "a-3245",
+  "a-3246",
+  "a-3248",
+  "a-3253",
+  "a-3254",
+  "a-3256",
+  "a-3261",
+  "a-3263",
+  "a-3268",
+  "g-mymedicalguardian-0",
+  "g-mymedicalguardian-3",
+  "g-mymedicalguardian-4",
+  "g-mymedicalguardian-6",
+  "g-mymedicalguardian-7",
+  "g-mymedicalguardian-10",
+  "g-mymedicalguardian-11",
+  "g-mymedicalguardian-13",
+  "g-mymedicalguardian-16",
+  "g-mymedicalguardian-17",
+  "g-mymedicalguardian-20",
+  "g-mymedicalguardian-44",
+  "g-mymedicalguardian-47",
+  "g-mymedicalguardian-50",
+  "g-mymedicalguardian-61",
+  "g-mymedicalguardian-66",
+  "g-mymedicalguardian-69",
+  "g-mymedicalguardian-84",
+  "g-mymedicalguardian-98",
+  "g-mymedicalguardian-105",
+  "reddit-p1b8jwaa",
+  "reddit-p1gea8rg",
+  "reddit-p1dkfbav",
+  "reddit-p1dq6jk7",
+  "reddit-p1hntcjr",
+  "reddit-p1lp5xif",
+  "reddit-p1m4pjos",
+  "reddit-p1o39ts5",
+  "reddit-p1q17iqw",
+  "reddit-p1r9zd7l",
+  "agingcare-6",
+  "agingcare-7",
+  "alzconnected-4"
+ ],
+ "works_well": [
+  {
+   "theme": "Checking on a parent from your phone is the main draw",
+   "what_it_means": "Family members value seeing if the device is charged, worn, and moving; many bought it for this reason.",
+   "count": 7,
+   "ids": [
+    "a-3227",
+    "a-3245",
+    "a-3248",
+    "a-3256",
+    "g-mymedicalguardian-44",
+    "g-mymedicalguardian-47",
+    "g-mymedicalguardian-105"
+   ],
+   "quotes": [
+    {
+     "id": "a-3256",
+     "quote": "I can check to see if it’s charged, and see if my Father is wearing it!"
+    },
+    {
+     "id": "a-3248",
+     "quote": "Being able to check my uncle’s well being is why I got him the Medical Guardian."
+    }
+   ]
+  },
+  {
+   "theme": "Help comes fast when the button is pressed",
+   "what_it_means": "When a parent pressed the button or the device went off, operators answered quickly and sent help.",
+   "count": 5,
+   "ids": [
+    "a-3207",
+    "g-mymedicalguardian-10",
+    "g-mymedicalguardian-11",
+    "g-mymedicalguardian-69",
+    "reddit-p1q17iqw"
+   ],
+   "quotes": [
+    {
+     "id": "a-3207",
+     "quote": "Pressed her button, My Guardian called us and within 10 minutes after her fall, we had EMS there and on the way to the ER."
+    },
+    {
+     "id": "g-mymedicalguardian-11",
+     "quote": "The operator answers in seconds."
+    }
+   ]
+  },
+  {
+   "theme": "Peace of mind and more independence for the parent",
+   "what_it_means": "Families feel safer leaving a parent alone, and the parent can keep living on their own.",
+   "count": 5,
+   "ids": [
+    "a-3216",
+    "a-3256",
+    "g-mymedicalguardian-10",
+    "g-mymedicalguardian-66",
+    "reddit-p1b8jwaa"
+   ],
+   "quotes": [
+    {
+     "id": "g-mymedicalguardian-66",
+     "quote": "Our guardian angel for our mom when we cannot be there. Thus allows her to have much more independence."
+    },
+    {
+     "id": "a-3216",
+     "quote": "it makes me feel secure knowing she can get help when she needs it."
+    }
+   ]
+  }
+ ],
+ "does_not_work_well": [
+  {
+   "theme": "The family app won't sign in, spins, or errors",
+   "what_it_means": "Since app updates in 2024-2025, many caregivers cannot log in or load their parent's device for weeks or months.",
+   "count": 16,
+   "ids": [
+    "a-3221",
+    "a-3222",
+    "a-3224",
+    "a-3227",
+    "a-3232",
+    "a-3233",
+    "a-3245",
+    "a-3246",
+    "a-3248",
+    "a-3253",
+    "a-3254",
+    "a-3261",
+    "a-3263",
+    "g-mymedicalguardian-44",
+    "g-mymedicalguardian-47",
+    "g-mymedicalguardian-61"
+   ],
+   "quotes": [
+    {
+     "id": "a-3221",
+     "quote": "How are we supposed to monitor a loved one if we cannot get into the app?"
+    },
+    {
+     "id": "a-3254",
+     "quote": "we cannot even get on the app. It just keeps spinning."
+    }
+   ]
+  },
+  {
+   "theme": "Steps, battery, and location shown are wrong",
+   "what_it_means": "The app shows impossible step counts, stale battery levels, and locations miles off, so families can't rely on it.",
+   "count": 9,
+   "ids": [
+    "a-3223",
+    "a-3229",
+    "a-3268",
+    "g-mymedicalguardian-0",
+    "g-mymedicalguardian-4",
+    "g-mymedicalguardian-6",
+    "g-mymedicalguardian-7",
+    "g-mymedicalguardian-16",
+    "g-mymedicalguardian-98"
+   ],
+   "quotes": [
+    {
+     "id": "a-3229",
+     "quote": "It shows my dad took 57 steps at 3PM, but his device was on the charger at that time."
+    },
+    {
+     "id": "g-mymedicalguardian-7",
+     "quote": "the location tracker was off by miles, in day and middle of the night"
+    }
+   ]
+  },
+  {
+   "theme": "Support gives different answers, long waits, or rudeness",
+   "what_it_means": "Callers get conflicting fixes, multi-day callbacks, long holds, or agents described as rude or insensitive.",
+   "count": 7,
+   "ids": [
+    "a-3221",
+    "a-3227",
+    "a-3254",
+    "g-mymedicalguardian-3",
+    "g-mymedicalguardian-17",
+    "g-mymedicalguardian-20",
+    "g-mymedicalguardian-50"
+   ],
+   "quotes": [
+    {
+     "id": "a-3254",
+     "quote": "Every time you call support they say something different."
+    },
+    {
+     "id": "g-mymedicalguardian-20",
+     "quote": "Finally got through to the most insensitive customer service agent."
+    }
+   ]
+  },
+  {
+   "theme": "Fall detection misses falls or goes off by mistake",
+   "what_it_means": "Parents fell several times with no alert, while drops or nothing at all set off false alarms.",
+   "count": 7,
+   "ids": [
+    "a-3222",
+    "g-mymedicalguardian-4",
+    "g-mymedicalguardian-6",
+    "g-mymedicalguardian-17",
+    "g-mymedicalguardian-50",
+    "agingcare-6",
+    "reddit-p1o39ts5"
+   ],
+   "quotes": [
+    {
+     "id": "agingcare-6",
+     "quote": "She has fallen five or six times without it alerting, and alerted one time when she hadn't fallen."
+    },
+    {
+     "id": "g-mymedicalguardian-6",
+     "quote": "Fall detection never alerted me after my Mother had fallen two different times."
+    }
+   ]
+  },
+  {
+   "theme": "App trouble makes families doubt the emergency service",
+   "what_it_means": "When the app fails, caregivers start to wonder if the button will work in a real emergency.",
+   "count": 7,
+   "ids": [
+    "a-3221",
+    "a-3224",
+    "a-3253",
+    "a-3263",
+    "g-mymedicalguardian-0",
+    "g-mymedicalguardian-4",
+    "g-mymedicalguardian-7"
+   ],
+   "quotes": [
+    {
+     "id": "a-3224",
+     "quote": "If they can’t have a user friendly or working App, chances are the service would be no better in an emergency."
+    },
+    {
+     "id": "a-3253",
+     "quote": "Will they help my Dad in an emergency? I have my doubts after seeing the absolute garbage app they have provided."
+    }
+   ]
+  },
+  {
+   "theme": "Family isn't told when something happens",
+   "what_it_means": "Relatives miss alerts: no app notice, no low-battery warning, or a call from an unknown number.",
+   "count": 6,
+   "ids": [
+    "a-3222",
+    "a-3261",
+    "g-mymedicalguardian-0",
+    "g-mymedicalguardian-6",
+    "g-mymedicalguardian-84",
+    "reddit-p1dq6jk7"
+   ],
+   "quotes": [
+    {
+     "id": "g-mymedicalguardian-84",
+     "quote": "I wasn't particularly thrilled when my mother-in-law called and said the paramedics showed up at her door and I didn't even know anything had happened."
+    },
+    {
+     "id": "reddit-p1dq6jk7",
+     "quote": "I have ignored the call coming to me from the call center because it was just a random phone number"
+    }
+   ]
+  },
+  {
+   "theme": "Parents stop wearing it",
+   "what_it_means": "False alarms, frequent charging, looks, or surprise 911 calls lead parents to leave it off.",
+   "count": 5,
+   "ids": [
+    "a-3263",
+    "g-mymedicalguardian-17",
+    "g-mymedicalguardian-84",
+    "reddit-p1r9zd7l",
+    "alzconnected-4"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1r9zd7l",
+     "quote": "my mom (79) has a medical guardian necklace she never wears. says it’s ugly and makes her feel like a patient."
+    },
+    {
+     "id": "g-mymedicalguardian-17",
+     "quote": "After multiple false alarms my mother refuses to wear it any longer."
+    }
+   ]
+  },
+  {
+   "theme": "Extra fees, billing mix-ups, and hard refunds",
+   "what_it_means": "Families report surprise add-on fees, bills sent to the wrong person, and refusals or tricks around returns.",
+   "count": 5,
+   "ids": [
+    "a-3222",
+    "g-mymedicalguardian-3",
+    "g-mymedicalguardian-20",
+    "reddit-p1gea8rg",
+    "reddit-p1o39ts5"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1gea8rg",
+     "quote": "When I set it up I learned there is an additional $120 per year fee for fall protection."
+    },
+    {
+     "id": "reddit-p1o39ts5",
+     "quote": "And they were deceitful about their return policy."
+    }
+   ]
+  },
+  {
+   "theme": "Device doesn't fit some people or places",
+   "what_it_means": "No stretchy watch band, a lanyard that stays wet, weak speaker, no signal in rural Alaska, nothing that works without pressing.",
+   "count": 5,
+   "ids": [
+    "reddit-p1dkfbav",
+    "reddit-p1hntcjr",
+    "reddit-p1lp5xif",
+    "reddit-p1m4pjos",
+    "reddit-p1o39ts5"
+   ],
+   "quotes": [
+    {
+     "id": "reddit-p1m4pjos",
+     "quote": "They were super helpful but couldn’t get it to work so they had us send everything back 2 days ago to process a refund."
+    },
+    {
+     "id": "reddit-p1lp5xif",
+     "quote": "require manual operation by the elderly person, and do absolutely nothing if the person dies."
+    }
+   ]
+  },
+  {
+   "theme": "Battery needs charging too often",
+   "what_it_means": "Short battery life means the device spends time on the charger instead of on the parent.",
+   "count": 2,
+   "ids": [
+    "a-3263",
+    "reddit-p1o39ts5"
+   ],
+   "quotes": [
+    {
+     "id": "a-3263",
+     "quote": "you almost constantly have to charge it which means it’s not around her neck."
+    },
+    {
+     "id": "reddit-p1o39ts5",
+     "quote": "It claimed to last 5 days on a charge, but in reality, it needed to be charged every 2–3 days."
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "who_uses_and_who_pays": [
+   {
+    "theme": "Adult children buy it for a parent and watch from afar",
+    "what_it_means": "The buyer and payer is usually a son, daughter or in-law; the wearer is the older parent.",
+    "count": 10,
+    "ids": [
+     "a-3216",
+     "a-3224",
+     "a-3248",
+     "g-mymedicalguardian-3",
+     "g-mymedicalguardian-17",
+     "g-mymedicalguardian-50",
+     "g-mymedicalguardian-84",
+     "reddit-p1gea8rg",
+     "reddit-p1q17iqw",
+     "agingcare-7"
+    ],
+    "quotes": [
+     {
+      "id": "g-mymedicalguardian-3",
+      "quote": "The billing should come to me and the device is with her."
+     },
+     {
+      "id": "g-mymedicalguardian-50",
+      "quote": "I bought this system for my father less than a week ago"
+     }
+    ]
+   }
+  ],
+  "relatives_joining_and_sharing": [
+   {
+    "theme": "Several relatives are called after an alert",
+    "what_it_means": "The call center rings family contacts as well as 911.",
+    "count": 2,
+    "ids": [
+     "a-3207",
+     "reddit-p1q17iqw"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1q17iqw",
+      "quote": "When she didn’t respond they called 911 and me. They also left a message for my brother."
+     },
+     {
+      "id": "a-3207",
+      "quote": "My Guardian called us"
+     }
+    ]
+   },
+   {
+    "theme": "Relatives' app access is uneven or gets lost",
+    "what_it_means": "Family members added to the app get removed, or one sibling can log in while another cannot.",
+    "count": 2,
+    "ids": [
+     "a-3227",
+     "g-mymedicalguardian-44"
+    ],
+    "quotes": [
+     {
+      "id": "a-3227",
+      "quote": "Log in as my MIL to see myself and my husband were removed as portal members"
+     },
+     {
+      "id": "g-mymedicalguardian-44",
+      "quote": "My brother is able to log in on his iPhone. I can't log in on the Samsung Galaxy anymore."
+     }
+    ]
+   }
+  ],
+  "cost_price_cancelling": [
+   {
+    "theme": "Extra fees, billing mix-ups, and hard refunds",
+    "what_it_means": "Surprise add-on fees, bills in the wrong name, and pushback on returns or refunds.",
+    "count": 5,
+    "ids": [
+     "a-3222",
+     "g-mymedicalguardian-3",
+     "g-mymedicalguardian-20",
+     "reddit-p1gea8rg",
+     "reddit-p1o39ts5"
+    ],
+    "quotes": [
+     {
+      "id": "a-3222",
+      "quote": "They want money for notifications on the event your loved one falls"
+     },
+     {
+      "id": "g-mymedicalguardian-20",
+      "quote": "Basically said I was stuck with the equipment and could only cancel the service from this point forward."
+     }
+    ]
+   },
+   {
+    "theme": "Prices people report paying",
+    "what_it_means": "Reported costs range from $400 a year to $80 a month for two devices, plus $120 a year for fall detection.",
+    "count": 3,
+    "ids": [
+     "reddit-p1gea8rg",
+     "reddit-p1r9zd7l",
+     "agingcare-7"
+    ],
+    "quotes": [
+     {
+      "id": "agingcare-7",
+      "quote": "$400 per year, no monthly charges and you can program it to do what you need."
+     },
+     {
+      "id": "reddit-p1r9zd7l",
+      "quote": "we’re paying $80/month for nothing."
+     }
+    ]
+   },
+   {
+    "theme": "Paying a lot for something that doesn't work",
+    "what_it_means": "Caregivers point to the price when the device or app fails.",
+    "count": 2,
+    "ids": [
+     "g-mymedicalguardian-6",
+     "g-mymedicalguardian-7"
+    ],
+    "quotes": [
+     {
+      "id": "g-mymedicalguardian-6",
+      "quote": "Highly disappointed for what I paid for the system to ensure my Mom's safety!"
+     },
+     {
+      "id": "g-mymedicalguardian-7",
+      "quote": "I shouldn't have to do that every time I want to check on my mom, especially for the price."
+     }
+    ]
+   }
+  ],
+  "emergencies_and_support_response": [
+   {
+    "theme": "Support gives different answers, long waits, or rudeness",
+    "what_it_means": "Conflicting fixes, multi-day callbacks, long holds, rude agents.",
+    "count": 7,
+    "ids": [
+     "a-3221",
+     "a-3227",
+     "a-3254",
+     "g-mymedicalguardian-3",
+     "g-mymedicalguardian-17",
+     "g-mymedicalguardian-20",
+     "g-mymedicalguardian-50"
+    ],
+    "quotes": [
+     {
+      "id": "a-3227",
+      "quote": "I was told to check on the app again in 24-48 hours."
+     },
+     {
+      "id": "g-mymedicalguardian-50",
+      "quote": "This lady was instantly defensive and rude."
+     }
+    ]
+   },
+   {
+    "theme": "Help comes fast when the button is pressed",
+    "what_it_means": "Operators answered within seconds and help arrived within minutes.",
+    "count": 5,
+    "ids": [
+     "a-3207",
+     "g-mymedicalguardian-10",
+     "g-mymedicalguardian-11",
+     "g-mymedicalguardian-69",
+     "reddit-p1q17iqw"
+    ],
+    "quotes": [
+     {
+      "id": "g-mymedicalguardian-10",
+      "quote": "easy set up and very rapid response time"
+     },
+     {
+      "id": "g-mymedicalguardian-69",
+      "quote": "Very good service. Has used plenty. Falls a lot. Rescue has code to enter house."
+     }
+    ]
+   },
+   {
+    "theme": "Response failed or was slow in a real emergency",
+    "what_it_means": "Some families report no help, a slow automated answer, or a device that failed when it mattered.",
+    "count": 4,
+    "ids": [
+     "g-mymedicalguardian-13",
+     "g-mymedicalguardian-20",
+     "g-mymedicalguardian-50",
+     "g-mymedicalguardian-61"
+    ],
+    "quotes": [
+     {
+      "id": "g-mymedicalguardian-20",
+      "quote": "Equipment didn't work, parent had a medical emergency and ended up dying."
+     },
+     {
+      "id": "g-mymedicalguardian-61",
+      "quote": "when my mom went missing (which is exactly ehen I needed it), it failed to work!!"
+     }
+    ]
+   }
+  ],
+  "setup_and_ease_of_use": [
+   {
+    "theme": "The family app won't sign in, spins, or errors",
+    "what_it_means": "Day-to-day use of the app is the biggest complaint in the pack.",
+    "count": 16,
+    "ids": [
+     "a-3221",
+     "a-3222",
+     "a-3224",
+     "a-3227",
+     "a-3232",
+     "a-3233",
+     "a-3245",
+     "a-3246",
+     "a-3248",
+     "a-3253",
+     "a-3254",
+     "a-3261",
+     "a-3263",
+     "g-mymedicalguardian-44",
+     "g-mymedicalguardian-47",
+     "g-mymedicalguardian-61"
+    ],
+    "quotes": [
+     {
+      "id": "a-3246",
+      "quote": "If you log out and close App when you re-login it has the device listed. As soon as you select it gets an error and says to try later."
+     },
+     {
+      "id": "a-3263",
+      "quote": "The app works very seldom, and you can’t x out, it just spins and spins."
+     }
+    ]
+   },
+   {
+    "theme": "Setup fails: no connection or info won't save",
+    "what_it_means": "Devices don't connect, entered details won't submit, or account roles get overwritten.",
+    "count": 5,
+    "ids": [
+     "a-3227",
+     "a-3233",
+     "g-mymedicalguardian-3",
+     "reddit-p1m4pjos",
+     "reddit-p1hntcjr"
+    ],
+    "quotes": [
+     {
+      "id": "a-3233",
+      "quote": "Now it has completely wiped my device information, asks me to reenter everything but then won’t allow me to submit the new info."
+     },
+     {
+      "id": "reddit-p1hntcjr",
+      "quote": "it came with only one lanyard (the non adjustable) and it’s made of a material that will end up soaked for a long time if she showers with it."
+     }
+    ]
+   }
+  ],
+  "privacy_data_trust": [
+   {
+    "theme": "Families can't trust the data shown",
+    "what_it_means": "Wrong steps, battery and location make the monitoring hard to believe.",
+    "count": 9,
+    "ids": [
+     "a-3223",
+     "a-3229",
+     "a-3268",
+     "g-mymedicalguardian-0",
+     "g-mymedicalguardian-4",
+     "g-mymedicalguardian-6",
+     "g-mymedicalguardian-7",
+     "g-mymedicalguardian-16",
+     "g-mymedicalguardian-98"
+    ],
+    "quotes": [
+     {
+      "id": "a-3268",
+      "quote": "checking the steps data to verify that my loved one is up and about leaves absolutely no confidence in the data."
+     },
+     {
+      "id": "g-mymedicalguardian-98",
+      "quote": "if there was an accident I worry the GPS will be very wrong and emergency services won't find my father."
+     }
+    ]
+   }
+  ],
+  "why_people_stop_or_stay": [
+   {
+    "theme": "Families cancel, return, or plan to leave",
+    "what_it_means": "App failures, false alarms, connection problems and rude support push people to cancel or return.",
+    "count": 8,
+    "ids": [
+     "a-3224",
+     "a-3253",
+     "g-mymedicalguardian-3",
+     "g-mymedicalguardian-17",
+     "g-mymedicalguardian-20",
+     "g-mymedicalguardian-50",
+     "reddit-p1m4pjos",
+     "reddit-p1o39ts5"
+    ],
+    "quotes": [
+     {
+      "id": "g-mymedicalguardian-17",
+      "quote": "I deleted the app and will delete the service when the contract ends."
+     },
+     {
+      "id": "a-3253",
+      "quote": "If it’s not better in 6 months, I’ll find another provider."
+     }
+    ]
+   },
+   {
+    "theme": "Parents stop wearing it",
+    "what_it_means": "Even when families keep paying, the wearer leaves it in a drawer.",
+    "count": 5,
+    "ids": [
+     "a-3263",
+     "g-mymedicalguardian-17",
+     "g-mymedicalguardian-84",
+     "reddit-p1r9zd7l",
+     "alzconnected-4"
+    ],
+    "quotes": [
+     {
+      "id": "alzconnected-4",
+      "quote": "She had a Medical Guardian, but she never wore it in the 2 years she had it."
+     },
+     {
+      "id": "g-mymedicalguardian-84",
+      "quote": "she's not wearing her pendant anymore because they call 911 without even notifying anyone"
+     }
+    ]
+   }
+  ],
+  "what_people_use_instead_or_alongside": [
+   {
+    "theme": "Cameras, tablets, other brands, or an Apple Watch",
+    "what_it_means": "Families add cameras or a tablet alongside, or turn to other alert brands or watches instead.",
+    "count": 5,
+    "ids": [
+     "reddit-p1q17iqw",
+     "reddit-p1b8jwaa",
+     "reddit-p1o39ts5",
+     "reddit-p1dkfbav",
+     "reddit-p1lp5xif"
+    ],
+    "quotes": [
+     {
+      "id": "reddit-p1q17iqw",
+      "quote": "Additionally, we installed Ring cameras in every room of her house."
+     },
+     {
+      "id": "reddit-p1dkfbav",
+      "quote": "I understand that an Apple Watch could be used for this"
+     }
+    ]
+   }
+  ]
+ },
+ "single_mentions": [
+  {
+   "id": "g-mymedicalguardian-13",
+   "point": "Calls now go through an automated system first; took four minutes to reach help."
+  },
+  {
+   "id": "reddit-p1dq6jk7",
+   "point": "Call center rings family from an unknown number, so family ignored it."
+  },
+  {
+   "id": "a-3227",
+   "point": "Website works when the app does not."
+  },
+  {
+   "id": "reddit-p1o39ts5",
+   "point": "Necklace speaker was hard for a hard-of-hearing mother to hear."
+  },
+  {
+   "id": "reddit-p1lp5xif",
+   "point": "No option that checks for signs of life without the person pressing anything."
+  },
+  {
+   "id": "reddit-p1b8jwaa",
+   "point": "Caregiver charges and tests the button before leaving her mother alone for a few hours each week."
+  },
+  {
+   "id": "agingcare-7",
+   "point": "Can be programmed to call family members."
+  }
+ ],
+ "reader_notes": "Most kept items (39 of 52) are app-store reviews of the family app, not the alert service itself; most are 1-star and cluster in 2024-2025 around a forced app update and sign-in failures. The few 5-star reviews are short. Reddit had many posts that only asked questions, were removed, or read like ads for a rival brand (Bay Alarm Medical) or keyword-stuffed review bait; those were dropped. reddit-p1jgve81 (billed $600 after a neighbor died) was dropped as not caregiving because the writer says she was added without a role, but it is a billing warning worth knowing. reddit-p1r9zd7l mentions building their own device; kept because it reports the family's own experience. Prices come from only three items. No item speaks about privacy of location or health data."
+}

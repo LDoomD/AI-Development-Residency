@@ -1,0 +1,82 @@
+[
+ {
+  "company": "aging-life-care",
+  "url": "https://www.aginglifecare.org/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "aging-life-care",
+  "url": "https://www.aarp.org/caregiving/basics/geriatric-care-manager/",
+  "robots_allowed": true,
+  "file": "aging-life-care/www_aarp_org_caregiving_basics_geriatric_care_manager.html",
+  "status": 200,
+  "bytes": 1102852
+ },
+ {
+  "company": "trualta",
+  "url": "https://www.trualta.com/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "trualta",
+  "url": "https://aging.ny.gov/ny-caregiver-portal-trualta-partnership-program-training",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ },
+ {
+  "company": "trualta",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8293668/",
+  "robots_allowed": true,
+  "file": "trualta/pmc_ncbi_nlm_nih_gov_articles_pmc8293668.html",
+  "status": 200,
+  "bytes": 190222
+ },
+ {
+  "company": "eldercare-locator",
+  "url": "https://eldercare.acl.gov/home",
+  "robots_allowed": true,
+  "file": "eldercare-locator/eldercare_acl_gov_home.html",
+  "status": 200,
+  "bytes": 66999
+ },
+ {
+  "company": "eldercare-locator",
+  "url": "https://www.usaging.org/eldercareloc",
+  "robots_allowed": true,
+  "file": "eldercare-locator/www_usaging_org_eldercareloc.html",
+  "status": 200,
+  "bytes": 41998
+ },
+ {
+  "company": "aeroflow-urology",
+  "url": "https://aeroflowurology.com/incontinence-supplies-medicaid",
+  "robots_allowed": true,
+  "file": "aeroflow-urology/aeroflowurology_com_incontinence_supplies_medicaid.html",
+  "status": 200,
+  "bytes": 423115
+ },
+ {
+  "company": "aeroflow-urology",
+  "url": "https://aeroflowurology.com/adult-incontinence",
+  "robots_allowed": true,
+  "file": "aeroflow-urology/aeroflowurology_com_adult_incontinence.html",
+  "status": 200,
+  "bytes": 357617
+ },
+ {
+  "company": "teepa-snow",
+  "url": "https://teepasnow.com/",
+  "robots_allowed": false,
+  "file": null,
+  "status": "disallowed by robots.txt",
+  "bytes": 0
+ }
+]

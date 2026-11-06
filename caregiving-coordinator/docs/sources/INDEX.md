@@ -292,3 +292,181 @@ Folder: `competitive-analysis/` and `competitors-2/`. Output: `docs/competitive-
 
 Also resolved the same day without new files: the second pill-reminder market figure ($628M in 2025 to $2,068M in 2034, CAGR 14.2%) traces to a Topflight Apps blog post quoting an unnamed report, https://topflightapps.com/ideas/how-to-create-a-medication-reminder-app/ (recorded in `docs/market-research-prompt2-results.md`); it stays labelled "blog, publisher unnamed" and the HTF figure remains the main one.
 | `fleety/answer-1-feature-analysis-and-next-steps.md` | Fleety (Tech Fleet helper bot, TAL 9000) answer, asked 2026-11-03 in the owner's signed-in session with his approved question. Word for word, with the 6 guide.techfleet.org pages it cites. A bot answer, not a primary source; the cited guide pages were not opened. | https://techfleet.network/tal-9000 (sign-in required) | What a feature comparison must include, how to fill the "our company" row, and the order feature analysis, UVP, positioning, Vision Board. |
+
+## 2026-11-03 feature analysis: missing competitor pages found
+
+Why: several earlier saved pages were empty or 404. Checked 2026-11-03 in the built-in browser: most were guessed addresses that do not exist on the sites (Caring Village /features and /security, CaringBridge /how-it-works and /features, Lotsa /faq/ and /features/, Medisafe /medfriend and /pricing); Lively moved its pages to shop.lively.com. The real pages were found from each site's own menu and copied as text with the date and URL at the top of each file. Used in `docs/feature-analysis.md` (steps 2 and 3).
+
+| File or folder | What it is | Original URL | Used for |
+|---|---|---|---|
+| `competitors/caring-village/pages-2026-11-03/app.txt` | Caring Village "The App" page: seven tools, Julia, role-based invites, plans | https://caringvillage.com/app/ | Caring Village features |
+| `competitors/caringbridge/help-center-2026-11-03/` (7 files + README) | CaringBridge help center: Requests (replaced the Planner in Dec 2023), Meal Train, privacy settings, Ways to Help and Page Settings article lists | https://caringbridge.my.site.com/help/s/ (from www.caringbridge.org/help) | CaringBridge features |
+| `competitors/lotsa-helping-hands/pages-2026-11-03/` (2 files) | Lotsa help center: create groups (who sees what), announcements and emailing | https://lotsa.helpscoutdocs.com/ | Lotsa features |
+| `competitors/medisafe/pages-2026-11-03/features.txt` | Medisafe "App Features" page: Medfriend, refill and appointment reminders, 90+ trackers | https://medisafeapp.com/features/ | Medisafe features |
+| `competitors-2/lively/shop-pages-2026-11-03/` (4 files + README) | Lively caregivers, services, medical alert plans ($24.99/$34.99 per month; fall detection +$9.99), Everyday Support for Caregivers ($99/yr, Wellthy care coordinator, invite family) | https://shop.lively.com/pages/caregivers, /services, /medical-alert-compare-plan, /everyday-support-for-caregivers | Lively features |
+
+Not re-fetched: Everplans, Epic MyChart and Medical Guardian (their saved main pages had full text). Limit: copied page text, not full HTML; demo-screen text, product listings and repeated quotes were trimmed and marked as trimmed in each file.
+
+## 2026-11-03 feature analysis: more reviews
+
+Why: the owner asked to fill feature boxes that had too few reviews. Collected in the built-in browser. Google Play has no public feed; reviews were read through the Play Store page's own review data request (the same data the "See all reviews" window loads), newest first. Reviewer names are not saved. Big apps were filtered by keyword, so these are not random samples.
+
+| File | What it is | Original URL | Used for |
+|---|---|---|---|
+| `app-reviews/google-play/google-play-reviews-lotsa.json` | All 20 written Lotsa reviews on Google Play (page shows 51 ratings) | https://play.google.com/store/apps/details?id=com.lotsahelpinghands.android.lotsa | Lotsa row (none tagged: no reviewer clearly caring for a relative) |
+| `app-reviews/google-play/google-play-reviews-lively-link-family-access.json` | 66 of 1,451 Lively Link reviews: family word plus invite/access/log-in words | https://play.google.com/store/apps/details?id=com.greatcall.link | Lively columns 2, 3, 7 |
+| `app-reviews/google-play/google-play-reviews-caringbridge-family-help.json` | 36 of 2,080 CaringBridge reviews: family word plus help/requests/privacy/access words | https://play.google.com/store/apps/details?id=com.caringbridge.app | CaringBridge columns 1, 2, 3 |
+| `app-reviews/google-play/google-play-reviews-mychart-family.json` | 58 of the 6,169 newest MyChart reviews (2026-07-15 to 2026-11-02) with a family or caregiving word | https://play.google.com/store/apps/details?id=epic.mychart.android | MyChart columns 3 and 6 |
+| `forums/app-mentions-2026-11-03/agingcare.json` | AgingCare thread paragraphs naming the apps, word for word | thread URLs inside the file | Lively and Medical Guardian column 7 |
+| `forums/app-mentions-2026-11-03/alzconnected.json` | ALZConnected sentences naming the apps; none usable for counts | thread URLs inside the file | Not counted (see note in file) |
+| `app-reviews/analysis/extra-tags-2026-11-03.json` | Claude's column tags for the new reviews (one pass, not double-checked) | — | `feature_ratings.py` |
+| `app-reviews/analysis/feature_ratings.py`, `feature-ratings.json` | Script that counts every feature box, and its output | — | Feature table on the board and in `docs/feature-analysis.md` |
+
+Not found: Everplans has no Google Play reviews; Reddit is blocked in the built-in browser (not worked around); `app-reviews/save_play_2026_11_03.py` saved the Play files.
+
+## 2026-11-03 feature analysis: Reddit caregiver posts (Arctic Shift archive)
+
+Why: the owner asked for more qualitative evidence for the empty and vague boxes (documents, caregiver support, "Mixed"). Reddit itself is blocked in the built-in browser, so posts came from the Arctic Shift archive API (https://arctic-shift.photon-reddit.com/api, project https://github.com/ArthurHeitmann/arctic_shift), which is public and needs no login. Usernames were never requested. Report: `docs/reddit-caregiver-findings-2026-11-03.md`.
+
+| File | What it is | Original URL | Used for |
+|---|---|---|---|
+| `reddit/arctic-shift-2026-11-03/posts.jsonl` | 43,665 posts since 2023-01-01: all of r/CaregiverSupport, r/AgingParents to Feb 2026 (stopped once there was enough data) | each line has its reddit.com link | Search and tagging |
+| `reddit/arctic-shift-2026-11-03/posts_targeted.jsonl` | Newest ~500 posts from each of 11 other communities (dementia, Alzheimer's, caregivers, CaregiversOfReddit, eldercare, Parkinson's, stroke, ALS, MS, COPD, disability), plus 178 dementia posts from an early word search | each line has its link | Other-communities section of the report |
+| `reddit/arctic-shift-2026-11-03/collect.py`, `collect_targeted.py`, `collect_recent.py`, `log*.txt` | Download scripts and their logs (rate-limit retries, why each was stopped) | — | Re-running the download |
+| `reddit/arctic-shift-2026-11-03/build_candidates.py`, `tagging/` | Picks posts by topic words, splits them for reading; `INSTRUCTIONS.md` is the tag rule; `tags-*.jsonl` are the tags (Claude helpers, one pass, quotes checked word for word) | — | Counts in the report |
+| `reddit/arctic-shift-2026-11-03/analyze_tags.py`, `reddit-findings.json` | Counts per feature, problem groups, quotes, wishes; removes app-maker posts and copies (list kept in the file) | — | Report numbers |
+| `reddit/arctic-shift-2026-11-03/app-mentions.json` | 37 posts that name a competitor and say how it worked | links inside | Added to `feature_ratings.py` through `extra-tags-2026-11-03.json` |
+
+## 2026-11-04 additions: Competitive Analysis 2
+
+- `competitive-analysis-2/packs/*.json`: one evidence pack per competitor (1,101 items) built from saved app reviews, Reddit downloads and forum mentions by `build_packs.py`. No new web fetching.
+- `competitive-analysis-2/themes/*.json`: the themes counted from every pack item read in full (577 caregiving items kept). Rules: `READER-INSTRUCTIONS.md`. Check: `verify_themes.py`.
+- `competitive-analysis-2/facts/*.json`: company answers drawn from every saved company page (`competitors/`, `competitors-2/`, app store listings, `docs/company-funding.md`). Check: `verify_facts.py`.
+- `competitive-analysis-2/answers-v2.json`, `figma-grid.json`: the table text. Checks: `audit_answers.py`, `audit_gaps_uvo.py` and Figma hash matches (220 of 220 table cells, 42 of 42 gaps and opportunities texts). Readable copy: `docs/competitive-analysis-2.md`.
+- `competitive-analysis-2/feature-analysis-3/`: Feature Comparison Analysis 3 in the teacher's format. `theme-to-feature.json` (which counted theme belongs to which feature), `build_howwell.py` → `howwell-counts.json`, `fa3-text.json` (table text), `assemble_fa3.py` (builds `figma-fa3.json` and checks every number). Readable copy: `docs/feature-analysis-3.md`. Figma section `2584:10359`, hash-matched.
+
+## 2026-11-04 additions: market analysis updated with Reddit
+
+- `market-analysis-3/sample/`: random sample of 500 Reddit posts (no keyword filter) drawn by `build_sample.py` from the Arctic Shift downloads in `reddit/arctic-shift-2026-11-03/` (seed 20261104). No new web fetching.
+- `market-analysis-3/CODING-INSTRUCTIONS.md`, `codes/part-1..4.json`: each post coded with the 14 forum themes (Claude readers, one pass, quotes checked word for word).
+- `market-analysis-3/count_themes.py` → `reddit-sample-theme-counts.json`; `other_groups.py` → `other-groups.json`; `count_by_audience.py` → `reddit-sample-by-audience.json`.
+- `market-analysis-3/ma3-text.json` → `build_ma3.py` → `ma3-filled.json` (every number filled from the counts). Readable copy: `docs/market-analysis-3.md`. Figma: market page section `2598:10950`, Audience page section `2605:638`. Hash-checked.
+
+## 2026-11-04: Audience page in the teacher's format (`market-analysis-3/audience-v2/`)
+
+- `build_packs.py` → `pack-1..6.json`: the 304 Reddit parent and spouse posts (from `goals/posts-*.json`) and the 109 forum threads the audience page was built from (full text from `forums/`).
+- `MOMENTS-INSTRUCTIONS.md` → `codes-1..6.json`: for each problem in each item, when it happens, what the writer wants, and one exact quote (Claude readers, one pass). `verify_codes.py` checks the quotes and names (777 codes, 0 problems).
+- `count_moments.py` → `moments-by-usecase.json`. `GROUPING-INSTRUCTIONS.md` → `groups-A1.json` and `groups-A2.json`.
+- `uc-A1.json` and `uc-A2.json` hold the table rows. `check_uc.py` checks that every line is a top group, in order. `boxes.json` holds the box lists. `check_boxes.py` checks them against `goals/audience-tables.json`.
+- `TABLE-RULES.md`: the readability and accessibility rules. `figma-teacher-format.json`: the data used in Figma section 2623:76. Readable copy: `docs/audience-teacher-format-2026-11-04.md`.
+
+## 2026-11-04: Competitive Analysis 3, step 3 research (`competitors-4/`)
+
+- `save_pages.py` saves each page byte for byte (`.html`) plus its text (`.txt`). It follows each site's robots.txt and logs blocked pages in `save_log.json` instead of working around them.
+- Saved: an AARP article on geriatric care managers (updated August 05, 2026), a PMC study on Trualta (PMC8293668), the Eldercare Locator pages (eldercare.acl.gov, usaging.org), and two Aeroflow Urology pages.
+- Blocked by robots.txt, so not saved: aginglifecare.org, trualta.com, aging.ny.gov (Trualta page), teepasnow.com.
+- `evidence.json`: each competitor's claims, with the exact quote, URL, saved file and limits. It also reuses 4 earlier saved pages (A Place for Mom, the Alzheimer's helpline, Cariloop, Medicare GUIDE).
+- `verify_quotes.py` proves every quote is in its saved page: 22 found, 0 not found (Calm and Headspace added from the 2026-11-02 saved pages).
+- **Step 5a (basics for all 15 competitors):**
+  - `basics-5a.json`: 10 new competitors, 6 fields each (segment, website, features, how they stand out, business model, who pays and the cost), each with exact quotes.
+  - `verify_basics_5a.py`: 119 quotes found, 0 not found.
+  - `basics-5a-kept.json`: the 5 kept competitors, copied from `docs/competitive-analysis-2.md`.
+  - New pages saved by `save_pages_5a.py`:
+    - an AgeWays page (an Area Agency on Aging, Michigan) saying Trualta is free to caregivers there
+    - Calm's plans page
+    - an Everyday Health review of Calm
+    - a lifestack.ai blog on Headspace prices (third-party, weaker)
+    - a Headspace page
+  - Blocked by robots.txt: trualta.com/getting-started, coaaa.org. Returned bot-check pages (files deleted, still logged): areaagencyonaging.org, hr.msu.edu.
+  - The step 3 log is kept as `save_log_step3.json`.
+- **Fixes 2026-11-04 (Firecrawl, which renders JavaScript):**
+  - `competitors-4/headspace/firecrawl_headspace_subscriptions.txt`: Headspace's official price, $69.99 a year or $12.99 a month. This replaces the third-party blog.
+  - `competitors-4/medisafe/firecrawl_appstore_medisafe.txt`: Medisafe's App Store in-app prices, $2.99 to $9.99 a month or $27.99 to $39.99 a year.
+  - Proof checks after the fixes: `verify_basics_5a.py` 120 found, 0 not found; `verify_quotes.py` 25 found, 0 not found.
+  - Still open: the robots.txt-blocked and bot-check pages (Trualta, Aging Life Care, coaaa.org, the Cariloop individual price). Chrome wasn't available this session.
+- **Fixes 2026-11-04 (read in the desktop app's built-in browser; the Chrome extension showed no connected browsers for this account):** in `competitors-4/manual-saves/`:
+  - `aginglifecare_org_home.txt`: the care managers' own site
+  - `coaaa_org_trualta.txt`: Central Ohio AAA, where Trualta is free to caregivers in 8 counties
+  - `hr_msu_edu_cariloop_faqs.txt`: Cariloop is free to MSU employees, with extended coaching at $249 a month
+  - trualta.com returned HTTP 500 (server error) in a real browser, so it can't be read today. Trualta's facts rest on two agency pages and the PMC study.
+  - Proof checks: `verify_basics_5a.py` 125 found, 0 not found, 0 answers too long; `verify_quotes.py` 30 found, 0 not found.
+  - Update: `manual-saves/trualta_com_for_caregivers.txt` is Trualta's own site, saved after the owner opened it in the built-in browser ("Offered at no cost through local partnerships"). Proof checks: 130 found and 32 found, 0 not found.
+
+## 2026-11-04: Competitive Analysis 3, step 5b (`competitive-analysis-3/5b/`)
+
+- `count_new_mentions.py` → `mentions.json`: every saved Reddit post (49,315) naming a new competitor.
+- `build_packs.py` → `pack-1.json` and `pack-2.json` (207 items): the Reddit posts in full, plus forum threads (the text around each mention). For the Alzheimer's Association, forum matches count only if they name the helpline, because ALZConnected is run by the Association.
+- `READING-INSTRUCTIONS.md` → `codes-1.json` and `codes-2.json`, written by two Claude readers, one pass each.
+- `verify_and_count.py` → `counts-5b.json`: 207 coded, 135 relevant, 0 problems (every quote exact).
+- `group_themes.py` → `themes-5b.json`: themes counted by distinct post. Unmatched labels are printed; none were left.
+
+## 2026-11-04: Competitive Analysis 3 grid (`competitive-analysis-3/grid/`)
+
+- `build_grid.py` → `grid.json`: 7 competitors × 13 columns (the teacher's template columns plus the 5 criteria). Every cell has a source: an exact quote in a saved file, exact text in Competitive Analysis 2, a 5b theme, a count, or "no evidence found" stated as such. The script checks them all: 91 cells, 125 sources, 0 problems.
+- `competitive-analysis-3/count_segment_candidates.py` → `segment-candidate-mentions.json`: Reddit mentions for every company the market analysis names in the relevant segments.
+- `competitors-4/manual-saves/acl_gov_nfcsp.txt`: the National Family Caregiver Support Program page (the federal program behind Area Agencies on Aging' caregiver services). robots.txt blocked the save script, so it was read in the built-in browser.
+- **Grid fix (same day): more review sources, and every cell answers its question.**
+  - `app-reviews/fetch_apple_reviews4.py` → `reviews4.csv`: Everplans App Store reviews (8). Cariloop had no written App Store reviews.
+  - `competitors-4/manual-saves/google_play_cariloop.txt`: Cariloop's Google Play listing and its 2 written reviews.
+  - `competitors-4/review-sites/bbb_2026-11-04.txt`: BBB records. Cariloop has 0 complaints and 0 reviews. A Place for Mom has 272 reviews (3.95 stars) and 109 complaints in 3 years. Excerpts are copied word for word.
+  - `competitors-4/review-sites/trustpilot_everplans_2026-11-04.txt`: Everplans' only Trustpilot review.
+  - Checked but no reviews: Shortlister (Cariloop, "Reviews pending").
+  - After the rewrite: 91 cells, 131 sources, 0 problems.
+
+## 2026-11-04 Competitive Analysis 3 grid, version 2 (cells rewritten as direct answers)
+
+| File | What it is | Link | Used for |
+|---|---|---|---|
+| `competitive-analysis-3/grid/build_grid_v2.py` → `grid-v2.json` | Grid version 2: every cell rewritten to answer its column's question. Checker: 91 cells, 0 problems (each source found word for word, no cell over 16 words, no semicolons or research words, no "no data" sources). Version 1 (`build_grid.py`, `grid.json`) unchanged | — | The grid |
+| `competitive-analysis-3/grid/fetch_threads.py` → `reddit-threads/*_<id>.txt` | 6 Reddit threads naming Everplans (5) or Cariloop (1), from the public Arctic Shift archive (Reddit is blocked for Firecrawl and the built-in browser). Usernames removed | reddit.com link at the top of each file | Everplans and Cariloop "do well" cells |
+| `competitive-analysis-3/grid/search_comments.py` → `reddit-threads/search_everplans.json`, `search_cariloop.json` | Archive word search in 12 communities. Most searches were refused by the archive (HTTP 422 and 429), so this found only 5 Everplans items and 0 Cariloop | links inside | Not used in cells; kept to show what was tried |
+| `competitors-4/manual-saves/google_play_cariloop_full_2026-11-04.txt` | Full Cariloop Google Play page text (the earlier save was missing part of the description), read in the built-in browser. Reviewer names removed | https://play.google.com/store/apps/details?id=com.cariloop.member | Cariloop cells |
+
+| `competitive-analysis-3/grid/build_business.py` → `business.json` | Business questions table (how they make money, who pays, how they keep customers, customer experience, getting started) for the 7 competitors. Checker: 35 cells, 57 sources, 0 problems | — | Step 5, fourth table |
+
+## 2026-11-04 Market analysis update: segments 11 (respite, adult day) and 12 (burnout support)
+
+Why: exhaustion is the #1 caregiver problem, but segments 11 and 12 were never researched, so the competitive analysis had no competitors for it. No new web fetching in this pass.
+
+| File | What it is | Link | Used for |
+|---|---|---|---|
+| `market-analysis-3/segments-11-12/search_saved_posts.py` | Searches the 49,315 saved Arctic Shift Reddit posts (`reddit/arctic-shift-2026-11-03/posts.jsonl`, `posts_targeted.jsonl`) with the word patterns listed in the script | — | Counts below |
+| `market-analysis-3/segments-11-12/term-counts.json` | Posts matching each term, with the exact patterns used | — | Sizing segments 11 and 12 |
+| `market-analysis-3/segments-11-12/matches.jsonl` | Every matching post: reddit.com link, community, date, terms, and an excerpt around each match | links inside | Auditing the counts; reading pass next |
+| `market-analysis-3/segments-11-12/search_named_programs.py` → `named-counts.json`, `named-matches.jsonl` | Second search of the same saved posts for named offerings and payers (VA, Medicaid waivers, hospice respite, Area Agencies on Aging, the 10 offerings in `exhaustion-dementia-research.md`). 115 posts not already matched | links inside | Reading set |
+| `market-analysis-3/segments-11-12/build_reading_packs.py` → `packs/pack-1..11.json`, `packs/manifest.json` | 1,086 items: all 632 respite or adult day posts, 115 named-program posts, random 150 support-group and 150 therapist posts (seed 20261104), 39 forum threads (text around each mention) | links inside | Reading pass |
+| `market-analysis-3/segments-11-12/READING-INSTRUCTIONS.md`, `codes/codes-1..11.json`, `verify_codes.py` | Reader rules, the 11 readers' codes, and the checker (every item coded once, every quote exact: 0 problems) | — | Counts |
+| `market-analysis-3/segments-11-12/count_results.py` → `results.json` | Counts per kind of help, barriers (with grouping rules for free-text barriers), providers, payers and costs, each with the post ids behind it | — | `docs/market-analysis-segments-11-12-findings.md` |
+| `market-analysis-3/segments-11-12/research-checklist-audience-split.md` | Checklist filled in and shown to the owner before the audience split | — | Rule #1 |
+| `market-analysis-3/segments-11-12/label_audience.py` → `audience-script.json`, `audience-packs/`; `AUDIENCE-INSTRUCTIONS.md`, `audience-codes/acodes-1..5.json`, `verify_audience.py` | Labels each relief post with the "cared_for" labels: script for clear posts, readers for the rest, and a 40-post spot check (38 agree) | — | Audience split |
+| `market-analysis-3/segments-11-12/count_by_audience.py` → `audience-labels.json`, `results-by-audience.json` | Merged labels and every relief count split by Audience 1, Audience 2 and other | — | Findings, "split by audience" |
+
+## 2026-11-04 Competitive Analysis 3, version 2: exhaustion competitors
+
+Checklist: `docs/research-checklist-ca3-exhaustion.md`. Reader version 2: `docs/competitive-analysis-3-reader-v2.md` (version 1 kept).
+
+| File | What it is | Link | Used for |
+|---|---|---|---|
+| `competitors-4/save_pages_exhaustion.py`, `save_pages_exhaustion_2.py` → `save_log_exhaustion.json` | Saved pages, robots.txt respected. NADSA (nadsa.org) is disallowed by robots.txt and was not saved; one ACL fact sheet URL returned 404 | — | New rows |
+| `competitors-4/va-caregiver/*` | VA caregiver program pages (caregiver.va.gov home and support services, VA respite care, Program of Comprehensive Assistance for Family Caregivers) | https://www.caregiver.va.gov/ ; https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/ | VA row |
+| `competitors-4/hospice-respite/*` | Medicare hospice coverage page (inpatient respite, 5% copay) | https://www.medicare.gov/coverage/hospice-care | Respite row |
+| `competitors-4/adult-day/*` | Alzheimer's Association adult day centers page (hours, activities, sliding scales, Medicaid) | https://www.alz.org/help-support/caregiving/care-options/adult-day-centers | Respite row |
+| `competitors-4/respite-arch/*` | ARCH National Respite Network home page | https://archrespite.org/ | Respite row |
+| `competitive-analysis-3/grid/build_grid_v3.py` → `grid-v3.json`, `business-v2.json` | Grid version 3 and business table version 2: version 2 rows unchanged plus the 2 new rows. New source types check relief reader codes and relief barrier counts. Grid 117 cells, 214 sources; business 45 cells, 82 sources; 0 problems | — | Reader version 2, Figma |
+
+## 2026-11-05 Audit and corrections
+
+| File | What it is | Used for |
+|---|---|---|
+| `audit-2026-11-05/` | 6-agent audit: blind re-reads (`build_samples.py`, `recode-codes.json`, `relevance-check.json`, `audience-check.json`, `compare.py` → `compare-results.json`) and reports `audit-4-market.md`, `audit-5-audience.md`, `audit-6-competitive.md` | `docs/reports/audit-2026-11-05-results.md` |
+| `market-analysis-3/segments-11-12/count_results.py` (grouping rule corrected 2026-11-05) → `results.json`, `results-by-audience.json` | "Family won't help" recount (93 → 83) | Market and audience corrected sections |
+| `competitive-analysis-3/grid/build_grid_v4.py` → `grid-v4.json`, `business-v3.json` | Grid version 4 and business table version 3 with the audit fixes; 0 problems (grid 117 cells and 217 sources; business 45 cells and 85 sources) | `docs/competitive-analysis-3-reader-v2.md`, Figma 2645:12741 |
+| `competitors-4/adult-day/`, `va-caregiver/`, `hospice-respite/` | Quotes added: adult day counseling and behavior help, VA 70% disability rating, VA respite copay, hospice "terminally ill" | Corrected respite and VA cells |
+
+## VA row fix, Competitive Analysis 3 version 3 (2026-11-05)
+
+- `competitive-analysis-3/grid/build_grid_v5.py` → `grid-v5.json`, `business-v4.json`: four VA cells fixed; older versions' files are not rewritten (0 problems).
+- `competitive-analysis-3/va-check/va-cells-change-2026-11-05.md`: what changed and why, with the post ids.
+- `competitive-analysis-3/va-check/research-checklist-va-2026-11-05.md`: checklist for a 187-post VA reading, not run (kept for the feature analysis).
+- `competitive-analysis-3/va-check/va_ids.json`, `va_archive_ids.json`: the post lists.
+- Repo copy: `docs/competitive-analysis-3-reader-v3.md` (version 2 marked superseded).

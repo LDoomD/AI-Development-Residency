@@ -1,3 +1,5 @@
+> **Older than the Figma board (noted 2026-11-05).** The current version is the market analysis section on the board, https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/?node-id=2598-10950 (3rd versions, 2026-11-04), plus https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/?node-id=2704-13380 for segments 11 and 12. Use the board.
+
 # Market opportunity
 
 Written 2026-11-01. Template text: "Market opportunity is the chance a business has to make money by meeting a need or solving a problem that isn't being fully taken care of yet... If you find a segment that's big enough and doesn't have too many competitors, that's a good sign... What market segment has the largest opportunity? Why?"

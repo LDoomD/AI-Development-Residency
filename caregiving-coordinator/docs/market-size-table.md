@@ -1,3 +1,5 @@
+> **Older than the Figma board (noted 2026-11-05).** The current version is the market analysis section on the board, https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/?node-id=2598-10950 (3rd versions, 2026-11-04), plus https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/?node-id=2704-13380 for segments 11 and 12. Use the board.
+
 # Market size table (FigJam template section)
 
 Written 2026-11-01. Same titles and layout as the template, plus one added column, **Evidence**, so each row shows how solid it is. "Audience Fit" is changed from "Neurodivergent / Professional / Both" to fit this niche: **Family caregivers / Professional caregivers or institutions / Both**.
