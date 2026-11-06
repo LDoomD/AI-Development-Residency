@@ -1,0 +1,98 @@
+[
+ {
+  "query": "split this task: build the caregiver dashboard so a parent's medication reminders show up for the whole family",
+  "should_trigger": true
+ },
+ {
+  "query": "let's use INVEST to audit the feature 'share the care schedule with siblings'",
+  "should_trigger": true
+ },
+ {
+  "query": "write a user story with acceptance criteria for letting a caregiver request a break",
+  "should_trigger": true
+ },
+ {
+  "query": "can you break this feature down into smaller tasks I can build in a week",
+  "should_trigger": true
+ },
+ {
+  "query": "okay let's work on this new deliverable",
+  "should_trigger": true
+ },
+ {
+  "query": "ready for the next deliverable, the release vision",
+  "should_trigger": true
+ },
+ {
+  "query": "let's start the feature analysis and scope it",
+  "should_trigger": true
+ },
+ {
+  "query": "my teacher wants the backlog in epics, features and tasks. help me write the tasks",
+  "should_trigger": true
+ },
+ {
+  "query": "write Given/When/Then scenarios for the login story",
+  "should_trigger": true
+ },
+ {
+  "query": "this story feels too big. is it small enough?",
+  "should_trigger": true
+ },
+ {
+  "query": "right-size these tickets before I put them on the Kanban board",
+  "should_trigger": true
+ },
+ {
+  "query": "turn this feature into stories with acceptance criteria",
+  "should_trigger": true
+ },
+ {
+  "query": "fix the typo in the README heading",
+  "should_trigger": false
+ },
+ {
+  "query": "what's the difference between a pull request and a merge?",
+  "should_trigger": false
+ },
+ {
+  "query": "summarize the competitive analysis table in two lines",
+  "should_trigger": false
+ },
+ {
+  "query": "I want to invest more time in the research this week",
+  "should_trigger": false
+ },
+ {
+  "query": "write the handoff report",
+  "should_trigger": false
+ },
+ {
+  "query": "explain what a market segment is",
+  "should_trigger": false
+ },
+ {
+  "query": "rename the folder to Week 2 Coding Challenge",
+  "should_trigger": false
+ },
+ {
+  "query": "open the PR and show me the checklist",
+  "should_trigger": false
+ },
+ {
+  "query": "what does the Dependabot alert mean?",
+  "should_trigger": false
+ },
+ {
+  "query": "which competitors are in the table?",
+  "should_trigger": false
+ },
+ {
+  "query": "what is a deliverable?",
+  "should_trigger": false
+ },
+ {
+  "query": "commit these changes",
+  "should_trigger": false
+ }
+]

@@ -479,3 +479,9 @@ Saved from the GitHub Docs article API (`https://docs.github.com/api/article/bod
 - `github-practices/merge-methods.md`, `protected-branches.md`, `rulesets.md`, `auto-delete-branches.md`, `deleting-branches.md`, `status-checks.md`, `reviewing-changes.md`, `ignoring-files.md`, `about-ci.md`.
 - `github-practices/push-protection.md`, `secret-scanning.md`, `dependabot-alerts.md`, `github-plans.md`: what each plan and repo type includes.
 - `github-practices/git-book-contributing.html`: Pro Git 2nd ed., "Contributing to a Project" (Commit Guidelines). https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project
+
+## INVEST and skill writing (2026-11-06, for the full invest-task-scoping skill)
+- `invest/agile-alliance-invest.md`: Agile Alliance glossary entry on INVEST (extract). https://agilealliance.org/glossary/invest/
+- `invest/bill-wake-invest.md`: Bill Wake's 2003 INVEST article (extract). https://xp123.com/invest-in-good-stories-and-smart-tasks/
+- `invest/cucumber-gherkin-reference-text.txt`: Cucumber Gherkin reference, text of the whole page (Given/When/Then meanings). https://cucumber.io/docs/gherkin/reference/
+- `invest/anthropic-skill-best-practices-text.txt`: Anthropic, Skill authoring best practices, text of the whole page. https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
