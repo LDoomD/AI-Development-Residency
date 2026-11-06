@@ -39,35 +39,45 @@ The step 1 summary is for the user to skim now. The handoff report is for the ne
 - If nothing changed since the newest handoff report, say so in one line and skip this step.
 - If the dogfooding-handoff skill isn't available, say so in one line. Don't write a report from memory instead.
 
-## 4. Git — commit and push (the user works in VS Code, not this CLI)
+## 4. Git — branch, commit, push, pull request
 
-Do the full git workflow yourself — the user isn't running git commands from this session:
+Do the full git workflow yourself. The user isn't running git commands from this session. These steps follow GitHub flow and GitHub's pull request guidance; sources and the audit behind them: `caregiving-coordinator/docs/reports/wrap-up-github-audit-2026-11-06.md`.
 
-- Check `git status` for anything changed this session.
-- Follow the existing repo convention (see memory: `github-org-convention`): **feature branch → commit → push → open a PR**, never a direct commit to `main`.
-- Branch name describes the session's work, not just "wrap-up" (e.g. `caregiving-market-research-segments`).
-- Commit message follows the repo's existing style (see `git log` for examples).
-- Before committing, check the branch's PR is still open (`gh pr view --json state`). If it was already merged or closed, start a new branch from the latest `main` for the new work instead of adding to the old one.
-- After pushing, open the PR (`gh pr create`), or reuse the open one, and tell the user the PR link.
+**One task = one branch = one pull request.** Small pull requests are easier to check and safer to merge. Don't keep adding new work to an old branch across sessions.
+
+- **Check where things stand:** `git status`, the current branch, and whether its PR is still open (`gh pr view --json state`).
+  - Open PR for the *same* task → keep using it.
+  - PR merged or closed, or this session's work is a *different* task → start a new branch from the latest `main` (`git fetch origin` then `git switch -c <task-name> origin/main`). Ask first if the working folder has changes that aren't from this session: other sessions may be using it (see memory: `other-sessions-are-the-user`).
+- **Never commit to `main` or push to it.** A local guard hook (`.claude/hooks/protect-main.mjs`) blocks this, because GitHub Free can't protect `main` on a private repo. If the guard blocks a command, follow its message; never work around it.
+- **Branch name:** short and descriptive, about the task (e.g. `caregiving-feature-analysis-4`, `fix-login-timeout`), not "wrap-up".
+- **Commits:** one commit per separate change, so any one change can be undone on its own. For example, the skill fix in one commit and the research notes in another. Commit message follows the repo's style (see `git log`). Only stage files from this session's work; never `git add -A` blindly.
+- **Run the project's tests before pushing,** if it has any (for example `npm test`, `node --test`, `pytest`). Save the command and its result for the 4b table. If there are no tests, say so.
+- **Push the branch,** then open the PR (`gh pr create`) with a description that has three short parts:
+  - **What changed:** a few bullets.
+  - **Why:** the problem it solves.
+  - **Where to look:** the most important files, and anything risky.
 
 ### 4b. Pre-merge check, then ask before merging
 
 The user is learning GitHub and doesn't know yet what to look for in a PR, so do the check for him and explain it in plain words. Never merge without his yes.
 
-Run these checks on the PR (`gh pr diff --name-only`, `gh pr view`, `gh pr checks`) and show a short table, one line each, with ✅ or ⚠️:
+Run these checks on the PR (`gh pr diff --name-only`, `gh pr view`, `gh pr checks`, `git fetch origin` and `git rev-list --count HEAD..origin/main`) and show a short table, one line each, with ✅ or ⚠️:
 
 | Check | What it looks for |
 |---|---|
-| The right files | Only files from this work. Name any file that doesn't belong. |
+| The right files | Only files from this task. Name any file that doesn't belong. |
+| Small enough to check | Say how many files changed. If it mixes unrelated work, say so and suggest splitting it. |
 | Nothing deleted by mistake | List any deleted files, and say whether that was intended. |
-| No secrets | No passwords, API keys or tokens in the changes. |
+| No secrets | No passwords, API keys or tokens in the changes. GitHub doesn't scan this private repo, so this check is the only one. |
 | No junk | No `.DS_Store`, `.textClipping`, temp or test leftovers. |
+| Tests pass | The project's tests ran and passed (show the command), or "no tests yet". |
 | Checks pass | GitHub's automatic checks are green, or say "no automatic checks on this repo". |
-| The description matches | The PR title and description say what the changes really do. |
+| Up to date with main | The branch has every commit from `main`. If not, update it first (`git merge origin/main` on the branch) and fix any conflicts. |
+| The description matches | The PR description says what changed, why, and where to look, and matches the real changes. |
 
 Then ask with the AskUserQuestion popup: **"Merge this PR into main now?"** Options: "Yes, merge it" / "Not now". If any line is ⚠️, say which and recommend "Not now" until it's fixed.
 
-- **Yes** → `gh pr merge <number> --merge` (the repo's existing style: a merge commit). Then tell him it's merged and that the next work starts on a new branch from the updated `main`. Don't switch the local branch or delete branches without asking: other sessions may be using this folder (see memory: `other-sessions-are-the-user`).
+- **Yes** → `gh pr merge <number> --merge` (the repo's existing style: a merge commit). GitHub deletes the branch on GitHub automatically after the merge (setting on). Then offer to tidy up locally: switch to `main`, pull the merge, and delete the old local branch. Ask first: other sessions may be using this folder.
 - **Not now** → leave the PR open and give him the link.
 
 ## 5. Write the session's Notion reflection entry
@@ -133,6 +143,7 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 
 - 2026-11-06: Added step 3, the handoff report (dogfooding-handoff skill), before git, so it gets committed. Owner's call after a check showed wrap-up only left a chat summary and a one-line next step, never a saved handoff report.
 
+- 2026-11-06: Rewrote step 4 after a GitHub best-practices audit (docs/reports/wrap-up-github-audit-2026-11-06.md): one branch and one PR per task, one commit per separate change, run tests before pushing, a 3-part PR description, the main-branch guard hook, an up-to-date check, a size check, and local tidy-up after a merge.
 - 2026-11-06: Added step 4b. Wrap-up now checks the PR (files, deletions, secrets, junk, checks, description), shows the result in plain words, and asks "Merge this PR into main now?". It merges only on a yes. Also checks the PR is still open before adding commits. Owner asked for this because he is new to GitHub and didn't know what to check.
 
 ## Notes
