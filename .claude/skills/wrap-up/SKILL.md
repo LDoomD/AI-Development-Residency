@@ -67,37 +67,18 @@ The owner is new to GitHub and is learning to review and merge, so **the owner d
 
 Only do this when the deliverable (or task) is approved. If it isn't, say "PR #N stays open until the deliverable is approved", give the link, and stop.
 
-**Keep it short.** The owner has ADHD, so no paragraphs. First run the checks (`gh pr diff --name-only`, `gh pr view`, `gh pr checks`, `git fetch origin` then `git rev-list --count HEAD..origin/main`, and the project's tests). Then show exactly this:
+**Keep it short.** The owner has ADHD and every extra word costs usage. First run the checks (`gh pr diff --name-only`, `gh pr view`, `gh pr checks`, `git fetch origin` then `git rev-list --count HEAD..origin/main`, and the project's tests). Put the **full 9-row check table in the PR description** under "Checks", with ✅ or ⚠️ and a few words each: right files, small enough to check, nothing deleted by mistake, no secrets (GitHub doesn't scan this private repo, so this is the only check), no junk (`.DS_Store`, `.textClipping`, temp files), tests pass (show the command), checks pass, up to date with `main`, description matches.
 
-**Your turn: review and merge PR #N**
-Link: <url>
-What it does: <one line>
+Then show exactly this in chat, about 40 words:
 
-| Check | Result | What it means |
-|---|---|---|
-| The right files | ✅ or ⚠️ | Only files from this task. Name any that don't belong. |
-| Small enough to check | ✅ or ⚠️ | Say how many files. Flag mixed, unrelated work. |
-| Nothing deleted by mistake | ✅ or ⚠️ | List deleted files, and whether that was intended. |
-| No secrets | ✅ or ⚠️ | No passwords, keys or tokens. GitHub doesn't scan this private repo, so this is the only check. |
-| No junk | ✅ or ⚠️ | No `.DS_Store`, `.textClipping`, temp or test leftovers. |
-| Tests pass | ✅ or ⚠️ | The project's tests ran (show the command), or "no tests yet". |
-| Checks pass | ✅ or ⚠️ | GitHub's automatic checks are green, or "no automatic checks on this repo". |
-| Up to date with main | ✅ or ⚠️ | Has every commit from `main`. If not, update the branch first. |
-| The description matches | ✅ or ⚠️ | What / why / where to look, and it matches the real changes. |
+**PR #N:** <link> <what it does, 8 words or fewer>
+✅ All 9 checks passed.
+**Do:** open the link → **Files changed** → look at <the 1-2 files that matter most> → **Merge pull request**.
+Say "merged," or what looked wrong.
 
-Keep each "What it means" cell under about 8 words in the output.
-
-**Your steps on GitHub (about 5 minutes):**
-1. Open the link. Read the description. Does it match what we did?
-2. Click **Files changed**.
-3. Look at these first: <the 2-3 files that matter most>. Skip `docs/sources/`: those are saved web pages.
-4. Tick **Viewed** on each file you've looked at.
-5. Confused? Ask me "what is this change in <file>?" before merging.
-6. All good? Click the **Conversation** tab, then **Merge pull request**, then **Confirm merge**.
-
-End with: "Tell me 'merged', or tell me what looked wrong."
-
-If any row is ⚠️, say which, and replace step 6 with "Not yet: I'll fix it first."
+- If any check is ⚠️, list only those, with a few words each, and replace the **Do** line with "Not yet: I'll fix it first."
+- Link the key files with working GitHub links: `https://github.com/<owner>/<repo>/pull/N/files#diff-<sha256 of the file path>`. Skip `docs/sources/` files.
+- **Only if the owner asks** what a check means or how to review, give the full steps: open the link, read the description, click **Files changed**, tick **Viewed** on each file, ask about anything unclear, then **Conversation** tab → **Merge pull request** → **Confirm merge**.
 
 **After the owner says "merged":**
 - Check it: `gh pr view <number> --json state,mergedAt`. Confirm in one line.
@@ -171,6 +152,7 @@ End with one short, explicit line: "Next session, start with: ___." Pull this fr
 - 2026-11-06: Added step 3, the handoff report (dogfooding-handoff skill), before git, so it gets committed. Owner's call after a check showed wrap-up only left a chat summary and a one-line next step, never a saved handoff report.
 
 - 2026-11-06: Rewrote step 4 after a GitHub best-practices audit (docs/reports/wrap-up-github-audit-2026-11-06.md): one branch and one PR per task, one commit per separate change, run tests before pushing, a 3-part PR description, the main-branch guard hook, an up-to-date check, a size check, and local tidy-up after a merge.
+- 2026-11-06: Shortened the step 4b chat output to about 40 words (link, one line, "all 9 checks passed", 3 actions). The full check table moves to the PR description; the 6-step review guide is given only when the owner asks. Owner: the long guide cost too much usage.
 - 2026-11-06: Step 4b is now learner mode: the owner reviews and merges the PR themselves, with a short 6-step guide and a check table that says what each line means. One deliverable = one branch = one PR; the PR stays open until the deliverable is approved. Owner asked for this because they are new to GitHub and don't want Claude to have full autonomy over merging.
 - 2026-11-06: Added step 4b. Wrap-up now checks the PR (files, deletions, secrets, junk, checks, description), shows the result in plain words, and asks "Merge this PR into main now?". It merges only on a yes. Also checks the PR is still open before adding commits. Owner asked for this because he is new to GitHub and didn't know what to check.
 
