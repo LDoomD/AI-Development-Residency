@@ -479,6 +479,12 @@ Saved from the GitHub Docs article API (`https://docs.github.com/api/article/bod
 - `github-practices/merge-methods.md`, `protected-branches.md`, `rulesets.md`, `auto-delete-branches.md`, `deleting-branches.md`, `status-checks.md`, `reviewing-changes.md`, `ignoring-files.md`, `about-ci.md`.
 - `github-practices/push-protection.md`, `secret-scanning.md`, `dependabot-alerts.md`, `github-plans.md`: what each plan and repo type includes.
 - `github-practices/git-book-contributing.html`: Pro Git 2nd ed., "Contributing to a Project" (Commit Guidelines). https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project
+- `github-practices/about-pr-reviews.md`: About pull request reviews (GitHub Docs, saved 2026-11-06).
+- `github-practices/skills-introduction-to-github.md`, `skills-review-pull-requests.md`, `skills-resolve-merge-conflicts.md`, `skills-introduction-to-repository-management.md`: GitHub Skills course READMEs, https://github.com/skills/<name> (saved 2026-11-06).
+
+## Seeing Claude usage (2026-11-06)
+- `usage-tools/usage-tools-research-2026-11-06.md`: official help pages and open-source usage tools, with what each needs and its limits.
+- `usage-tools/claude-code-statusline-docs.md`: full copy of https://code.claude.com/docs/en/statusline.
 
 ## INVEST and skill writing (2026-11-06, for the full invest-task-scoping skill)
 - `invest/agile-alliance-invest.md`: Agile Alliance glossary entry on INVEST (extract). https://agilealliance.org/glossary/invest/
