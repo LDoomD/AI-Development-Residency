@@ -491,3 +491,18 @@ Saved from the GitHub Docs article API (`https://docs.github.com/api/article/bod
 - `invest/bill-wake-invest.md`: Bill Wake's 2003 INVEST article (extract). https://xp123.com/invest-in-good-stories-and-smart-tasks/
 - `invest/cucumber-gherkin-reference-text.txt`: Cucumber Gherkin reference, text of the whole page (Given/When/Then meanings). https://cucumber.io/docs/gherkin/reference/
 - `invest/anthropic-skill-best-practices-text.txt`: Anthropic, Skill authoring best practices, text of the whole page. https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+
+## 2026-11-06: Competitive Analysis 4, saved live pages (`competitive-analysis-4/live-pages/`)
+
+Why: independent auditors read these pages live and found evidence that changes cells in the competitive analysis. They are saved here so each claim can be cited.       15 files, with an `EVIDENCE.md` (finding, URL, exact quote, whether the claim holds), `QUOTE-CHECK.txt` and the robots.txt checks.
+
+| File | What it is |
+|---|---|
+| `ny-nysofa-26-tam-01-caregiver-directed-respite.txt` | New York State Office for the Aging memo (Feb 10, 2026): family members may be hired as respite providers. The main caregiver cannot be the hire, and each local agency chooses whether to offer it. |
+| `il-money-management-program.txt`, `ma-money-management-program.txt` | Illinois and Massachusetts programs where volunteers or staff help older people pay bills. Eligibility limits apply. |
+| `va-veteran-directed-care.txt` | VA page: a veteran can hire a family member or neighbor as a paid helper. Enrolled veterans only. |
+| `arch-how-do-i-get-paid-to-be-a-family-caregiver.txt`, `arch-how-to-pay-for-respite.txt` | ARCH pages on paying family caregivers and paying for respite. Only partly supports the paid-relative claim. |
+
+Not committed: `live-pages/raw/il.html`, the raw Illinois page. It embeds a public map token that GitHub's push protection blocked. The text copy `il-money-management-program.txt` holds the same content. The file stays on the owner's computer.
+
+Limits: Alabama voucher rules, local availability, and later changes to these pages were not checked. Draft that uses them: `docs/clean-deliverables/competitive-analysis-4-changes-draft-2026-11-06.md`.

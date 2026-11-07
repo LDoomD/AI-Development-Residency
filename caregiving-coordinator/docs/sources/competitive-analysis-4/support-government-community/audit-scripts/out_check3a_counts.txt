@@ -1,0 +1,15 @@
+PACE               raw hits in all 50547 items:   62 | helper read 62 | hits not read by helper: 0 | read but not matching my regex: 0 | caregiver reports(1-3): 41 | in 831-relief set hits: 2
+IHSS               raw hits in all 50547 items:  101 | helper read 101 | hits not read by helper: 0 | read but not matching my regex: 0 | caregiver reports(1-3): 77 | in 831-relief set hits: 4
+Hospice respite    raw hits in all 50547 items:   30 | helper read 27 | hits not read by helper: 3 | read but not matching my regex: 0 | caregiver reports(1-3): 23 | in 831-relief set hits: 30
+Alz Assoc          raw hits in all 50547 items:   22 | helper read 25 | hits not read by helper: 0 | read but not matching my regex: 3 | caregiver reports(1-3): 19 | in 831-relief set hits: 15
+Facebook(narrow)   raw hits in all 50547 items:   63 | helper read 64 | hits not read by helper: 0 | read but not matching my regex: 1 | caregiver reports(1-3): 21 | in 831-relief set hits: 11
+Support group      raw hits in all 50547 items:  347 | helper read 41 | hits not read by helper: 308 | read but not matching my regex: 2 | caregiver reports(1-3): 37 | in 831-relief set hits: 175
+post ids that count as a caregiver report under >1 candidate: 15
+[(('IHSS (Californ', 'PACE (all-incl'), 3), (('Al-Anon', 'Subreddit comm'), 1), (('Al-Anon', 'Support group '), 1), (("Alzheimer's As", 'Teepa Snow / P'), 1), (('ALZConnected f', "Alzheimer's As"), 1), (('ALZConnected f', 'Support group '), 1), (('ALZConnected f', 'Facebook careg'), 1), (('ALZConnected f', 'Medicare GUIDE'), 1), (('Discord caregi', 'Facebook careg', 'Medicaid waive'), 1), (('IHSS (Californ', 'Regional Cente'), 1), (('Meals on Wheel', 'Medicaid waive'), 1), (('Medicaid waive', 'SHIP counselor'), 1), (('Subreddit comm', 'Support group '), 1)]
+PACE (all-inclusive care progr reports 41 | same first-120-chars groups 0 [] | forum reports 0 in 0 threads
+IHSS (California paid family c reports 77 | same first-120-chars groups 0 [] | forum reports 0 in 0 threads
+Hospice respite benefit        reports 23 | same first-120-chars groups 0 [] | forum reports 0 in 0 threads
+Alzheimer's Association (helpl reports 19 | same first-120-chars groups 0 [] | forum reports 9 in 9 threads
+Facebook caregiver groups      reports 21 | same first-120-chars groups 0 [] | forum reports 2 in 1 threads
+Support group (generic; any sp reports 37 | same first-120-chars groups 0 [] | forum reports 4 in 4 threads
+Medicaid waiver / HCBS / paid- reports 78 | same first-120-chars groups 0 [] | forum reports 1 in 1 threads

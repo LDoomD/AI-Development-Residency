@@ -1,0 +1,26 @@
+import re
+R={
+'Home care agency or care company (type)': r"\b(home ?care|home health|caregiv\w*|care|nursing|private[- ]pay|companion|staffing)\s+(agenc(y|ies)|compan(y|ies))\b|\bagency (aide|caregiver|caretaker|nurse|worker|staff)s?\b|\bthrough (an|the|a) agency\b|\b(the|an|our|this|local) agency\b|\bagencies\b",
+'Aide or caregiver hired directly or privately (type)': r"\bprivate (duty |pay )?(caregiver|aide|nurse|caretaker|help|sitter)s?\b|\bhired (a |an |some |someone |two |three |another |additional |part[- ]time |full[- ]time |live-in |in[- ]home |private |respite |outside )*(caregiver|aide|helper|sitter|nurse|caretaker|companion|home health aide|person|someone|cna)s?\b|\bhire (a |an |someone |outside |in[- ]home |private |respite |another |part[- ]time )*(caregiver|aide|helper|sitter|nurse|caretaker|companion|help|someone)\b|\bhired help\b",
+'Respite worker or in-home respite (type)': r"respite (worker|caregiver|sitter|aide|nurse|help)s?|in-?home respite|respite (care )?(at|in) (the )?home",
+'Aide paid by a program: Medicaid waiver, VA, Area Agency on Aging, IHSS (type)': r"waiver|\bIHSS\b|CDPAP|\bIRIS\b|Area Agency on Aging|Aid (and|&) Attendance|VA (caregiver|aide|respite|home)|PCAFC|home care package|Council (on|for the) Aging|CAP/DA",
+'Doctor-ordered home health visits (nurse, aide, CNA) (type)': r"home health(?! aide)\b|visiting nurse|home health (nurse|aide)|\bHHAs?\b|\bCNAs?\b",
+'Companion service (Papa, Seniors Helping Seniors, non-medical) (type)': r"companion (care|service)|seniors helping seniors|non-medical caregiver|Papa Pals",
+'Cleaner, housekeeper, meal delivery (type)': r"\b(cleaner|housekeeper|handyman|Meals on Wheels|meal[- ]delivery)\b",
+'Therapist or counselor for the writer (type)': r"\b(my|a|an|her|his|our|own|the) (own |new |current |former |first |second |good |great )?(therapist|counselor|counsellor|psychologist)\b|\b(in|into|seeing|see|start(ed)?|going to|go to) (talk )?(therapy|counseling|counselling)\b",
+'Online or telehealth therapy (type)': r"online therap|telehealth|therapy online|therapist online|virtual (session|therap)|BetterHelp|Talkspace|Zencare|SonderMind|via zoom|on zoom",
+'Couples, marriage or family counseling (type)': r"(couple|couples|marriage|family) (therapy|counsel\w*|therapist)|couple's counseling",
+'Employer program (EAP, benefit) (type)': r"employee assistance|\bEAP\b|Wellthy|Torchlight|Cariloop",
+'Hospice, carer-service or peer counselor (type)': r"hospice (counsel|bereavement)|spiritual counselor|Carer Support Service|carers? (charity|charities|centre|center)|peer counselor|bereavement",
+'Free, public or insurance-limited therapy (type)': r"free therapy|therapy.{0,40}(Medicare|Medicaid|insurance)|(Medicare|Medicaid|insurance).{0,40}therap|in[- ]network|waiting list.{0,30}(therap|counsel)|VA .{0,20}therapist|\bNHS\b|talking therapy",
+'Psychiatrist for the writer (type)': r"\bmy psychiatrist|psychiatric nurse|psych nurse",
+'Care.com': r"\bcare\.com\b|\bcare dot com\b",
+'Visiting Angels': r"\bvisiting angels?\b",
+'Home Instead': r"\bHome Instead\b|home instead \(which",
+'Papa (Papa Pals)': r"\bPapa Pals?\b|\bjoinpapa\b",
+'Seniors Helping Seniors': r"\bseniors helping seniors\b",
+'Zencare': r"\bzencare\b",'Psychology Today': r"\bpsychology today\b",'SonderMind': r"\bsonder ?mind\b",'BetterHelp': r"\bBetterHelp\b|\bBetterhelp\b",'Talkspace': r"\btalkspace\b",
+'Centerwell (home health company)': r"\bcenterwell\b",'Wellthy (employer benefit)': r"\bwellthy\b",'Torchlight (employer benefit)': r"\btorchlight\b",
+'Aegis (respite or senior living)': r"\baegis\b|\bargis\b",'Passages': r"\bpassages\b",'Advanced Care at Home (hospital-at-home)': r"advanced care at home",
+}
+C={k:re.compile(v,(0 if k in ('BetterHelp',) else re.I)) for k,v in R.items()}
