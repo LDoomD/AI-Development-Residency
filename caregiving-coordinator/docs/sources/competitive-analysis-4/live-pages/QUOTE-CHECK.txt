@@ -1,0 +1,16 @@
+1   words=17 MATCH <- ny-nysofa-26-tam-01-caregiver-directed-respite.txt
+1b  words= 5 MATCH <- ny-nysofa-26-tam-01-caregiver-directed-respite.txt
+1c  words=12 MATCH <- ny-nysofa-26-tam-01-caregiver-directed-respite.txt
+2   words=20 MATCH <- il-money-management-program.txt
+2b  words=14 MATCH <- il-money-management-program.txt
+2c  words=18 MATCH <- il-money-management-program.txt
+3   words=11 MATCH <- ma-money-management-program.txt
+3b  words=18 MATCH <- ma-money-management-program.txt
+3c  words=10 MATCH <- ma-money-management-program.txt
+4   words=11 MATCH <- va-veteran-directed-care.txt
+4b  words=16 MATCH <- va-veteran-directed-care.txt
+5   words=11 MATCH <- arch-how-do-i-get-paid-to-be-a-family-caregiver.txt
+5b  words=15 MATCH <- arch-how-do-i-get-paid-to-be-a-family-caregiver.txt
+5c  words=19 MATCH <- arch-how-do-i-get-paid-to-be-a-family-caregiver.txt
+5d  words=16 MATCH <- arch-how-do-i-get-paid-to-be-a-family-caregiver.txt
+rows failing: 0

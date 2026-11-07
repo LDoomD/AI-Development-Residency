@@ -1,0 +1,24 @@
+paid-aide posts 185 therapist posts 139 union 298 manual_codes sizes 185 139 sets equal: True True
+agency                 n= 19 A1  15 A2   0 other   4 | missing audience label: 0
+      A1 {'X': 5, 'N': 7, 'M': 2, 'W': 1}
+      A2 {}
+family-paid            n= 84 A1  58 A2  16 other  10 | missing audience label: 0
+      A1 {'X': 36, 'M': 10, 'W': 8, 'N': 4}
+      A2 {'X': 9, 'M': 5, 'W': 2}
+program-paid           n= 41 A1  22 A2   5 other  14 | missing audience label: 0
+      A1 {'M': 6, 'N': 3, 'X': 9, 'W': 4}
+      A2 {'W': 1, 'M': 3, 'X': 1}
+respite worker         n=  6 A1   6 A2   0 other   0 | missing audience label: 0
+      A1 {'M': 4, 'X': 1, 'N': 1}
+      A2 {}
+therapist              n=123 A1  72 A2  23 other  28 | missing audience label: 0
+      A1 {'N': 14, 'W': 15, 'X': 39, 'M': 4}
+      A2 {'W': 5, 'X': 12, 'M': 5, 'N': 1}
+couples                n=  6 A1   4 A2   2 other   0 | missing audience label: 0
+      A1 {'X': 3, 'W': 1}
+      A2 {'N': 2}
+agency 19 {'cost': 10, 'trust': 3, 'rules': 3, 'refuses': 3, 'wait': 1}
+family-paid 84 {'cost': 24, 'refuses': 22, 'trust': 7, 'rules': 7, 'wait': 4}
+program-paid 41 {'rules': 15, 'cost': 10, 'wait': 9, 'refuses': 9, 'trust': 5}
+therapist 123 {'refuses': 13, 'cost': 16, 'wait': 5, 'trust': 4, 'rules': 7}
+[('cost', 118), ('the parent refuses', 96), ('hard application or eligibility rules', 86), ('waitlist or no openings', 59), ('worry about quality or safety', 52), ('guilt or shame about handing off care', 38), ('no trained or reliable providers', 38), ('inflexible program (hours, minimum stay, days)', 24), ('transport or logistics', 16), ("doesn't trust strangers with the parent", 14), ("didn't know it existed", 10), ("other: family won't help", 4)]

@@ -1,0 +1,20 @@
+label agreement 41/50 = 82%
+outcome agreement (both say caregiver report 1-3) 35/37 = 95%
+cared_for agreement (both 1-3) 33/37 = 89%
+agree on "is a caregiver report (1-3) vs not (4-5)": 46/50 = 92%
+DISAGREEMENTS 15
+  #3 p1uf0jsd [NAMI] LABEL mine 3 vs helper 5
+  #4 p1dg490a [PACE (all-inclusive care pro] CARED_FOR mine P vs helper U
+  #5 alzconnected-77086-COMMENT3 [Eldercare Locator] LABEL mine 3 vs helper 5
+  #7 p1r8ob9p [IHSS (California paid family] LABEL mine 1 vs helper 2
+  #13 p1xgi8wh [Medicaid waiver / HCBS / pai] OUTCOME mine N vs helper D
+  #17 p1dxh2xf [Medicaid waiver / HCBS / pai] LABEL mine 1 vs helper 2
+  #18 p1uod3tm [Subreddit communities (r/Car] CARED_FOR mine P vs helper U
+  #24 alzconnected-77414-COMMENT15 [Facebook caregiver groups] LABEL mine 1 vs helper 3
+  #30 p1xgi8wh [SHIP counselor] LABEL mine 2 vs helper 1
+  #36 p158bctp [Subreddit communities (r/Car] LABEL mine 4 vs helper 1
+  #42 p1d89ew3 [Medicaid waiver / HCBS / pai] OUTCOME mine D vs helper M
+  #47 p1n1ottl [WhatsApp family group chat] LABEL mine 1 vs helper 4
+  #49 p1kb5v1a [Support group (generic; any ] LABEL mine 2 vs helper 3
+  #49 p1kb5v1a [Support group (generic; any ] CARED_FOR mine S vs helper P
+  #50 p1hp30b0 [Meal Train] CARED_FOR mine U vs helper O

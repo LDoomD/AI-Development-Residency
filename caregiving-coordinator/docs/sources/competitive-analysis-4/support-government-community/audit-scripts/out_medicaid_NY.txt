@@ -1,0 +1,28 @@
+Medicaid reports (labels1-3): 78
+[(('cdpap/ppl', '2023-12'), 2), (('cdpap/ppl', '2024-04'), 1), (('cdpap/ppl', '2024-06'), 1), (('cdpap/ppl', '2024-09'), 1), (('cdpap/ppl', '2025-02'), 1), (('cdpap/ppl', '2025-03'), 10), (('cdpap/ppl', '2025-04'), 20), (('cdpap/ppl', '2025-05'), 1), (('cdpap/ppl', '2025-06'), 2), (('cdpap/ppl', '2025-08'), 2), (('cdpap/ppl', '2025-10'), 1), (('cdpap/ppl', '2025-11'), 1), (('cdpap/ppl', '2025-12'), 2), (('cdpap/ppl', '2026-01'), 1), (('cdpap/ppl', '2026-02'), 1), (('cdpap/ppl', '2026-06'), 1), (('other', '2023-12'), 2), (('other', '2024-03'), 2), (('other', '2024-05'), 1), (('other', '2024-06'), 3), (('other', '2024-07'), 1), (('other', '2024-08'), 2), (('other', '2024-09'), 2), (('other', '2024-10'), 2), (('other', '2025-01'), 2), (('other', '2025-04'), 2), (('other', '2025-07'), 1), (('other', '2026-03'), 1), (('other', '2026-05'), 2), (('other', '2026-06'), 1), (('other', '2026-07'), 3), (('other', '2026-10'), 2), (('other', 'forum/undated'), 1)]
+reports whose text mentions CDPAP or PPL: 48
+ of which dated 2025-03 or 2025-04: 30
+ of which dated 2025-03..2025-06: 33
+ not CDPAP/PPL mention but dated 2025-03/04: 2
+months of cdpap/ppl reports: Counter({'2025-04': 20, '2025-03': 10, '2025-12': 2, '2023-12': 2, '2025-06': 2, '2025-08': 2, '2025-10': 1, '2024-09': 1, '2026-02': 1, '2024-04': 1, '2025-02': 1, '2026-01': 1, '2026-06': 1, '2025-11': 1, '2024-06': 1, '2025-05': 1})
+strict (CDPAP/PPL + payroll/transition words + dated Mar/Apr 2025): 25
+ids counted as BOTH Medicaid and IHSS reports: 0 []
+Medicaid+IHSS reports 155 unique posts 155
+cdpap/ppl outside Mar-Apr 25: ('p1ojorwg', '2025-10-30', True, True, 1, 'DID NOT WORK')
+cdpap/ppl outside Mar-Apr 25: ('p1fjd2zb', '2024-09-17', True, False, 2, 'DID NOT WORK')
+cdpap/ppl outside Mar-Apr 25: ('p1qxq1ej', '2026-02-06', True, False, 1, 'DID NOT WORK')
+cdpap/ppl outside Mar-Apr 25: ('p1pfh276', '2025-12-06', True, False, 1, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p1cbfk00', '2024-04-23', True, True, 1, 'MIXED')
+cdpap/ppl outside Mar-Apr 25: ('p1iwen82', '2025-02-23', True, True, 2, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p18meabw', '2023-12-19', True, True, 2, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p1qegurd', '2026-01-16', True, False, 2, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p1ljnwdd', '2025-06-24', True, False, 1, 'DID NOT WORK')
+cdpap/ppl outside Mar-Apr 25: ('p1lcgjb0', '2025-06-16', True, False, 1, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p1pod22t', '2025-12-16', True, True, 1, 'DID NOT WORK')
+cdpap/ppl outside Mar-Apr 25: ('p1txmq2p', '2026-06-05', True, False, 1, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p18u4cud', '2023-12-30', True, False, 2, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p1ooh03f', '2025-11-04', True, False, 1, 'DID NOT WORK')
+cdpap/ppl outside Mar-Apr 25: ('p1dj9nca', '2024-06-19', True, True, 2, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p1n24j0r', '2025-08-28', True, True, 1, 'NO OUTCOME')
+cdpap/ppl outside Mar-Apr 25: ('p1ki0yo4', '2025-05-08', True, False, 1, 'DID NOT WORK')
+cdpap/ppl outside Mar-Apr 25: ('p1miq4ku', '2025-08-06', True, False, 1, 'NO OUTCOME')

@@ -509,3 +509,18 @@ Limits: Trustpilot, Reddit, aginglifecare.org, nadsa.org and some A Place for Mo
 ## 2026-11-06: Research history log (`research-history/`)
 
 Why: the owner asked for a record of what went wrong in the research and when. `EVENT-LOG.md` lists 48 events through Nov 4, each with a commit hash or file path. The helper that built it was stopped at the owner's request, so Nov 5 to 6 are only partly logged. Used by `docs/reports/working-with-claude-analysis-2026-11-06.md`.
+
+## 2026-11-06: Competitive Analysis 4, saved live pages (`competitive-analysis-4/live-pages/`)
+
+Why: independent auditors read these pages live and found evidence that changes cells in the competitive analysis. They are saved here so each claim can be cited.       15 files, with an `EVIDENCE.md` (finding, URL, exact quote, whether the claim holds), `QUOTE-CHECK.txt` and the robots.txt checks.
+
+| File | What it is |
+|---|---|
+| `ny-nysofa-26-tam-01-caregiver-directed-respite.txt` | New York State Office for the Aging memo (Feb 10, 2026): family members may be hired as respite providers. The main caregiver cannot be the hire, and each local agency chooses whether to offer it. |
+| `il-money-management-program.txt`, `ma-money-management-program.txt` | Illinois and Massachusetts programs where volunteers or staff help older people pay bills. Eligibility limits apply. |
+| `va-veteran-directed-care.txt` | VA page: a veteran can hire a family member or neighbor as a paid helper. Enrolled veterans only. |
+| `arch-how-do-i-get-paid-to-be-a-family-caregiver.txt`, `arch-how-to-pay-for-respite.txt` | ARCH pages on paying family caregivers and paying for respite. Only partly supports the paid-relative claim. |
+
+Not committed: `live-pages/raw/il.html`, the raw Illinois page. It embeds a public map token that GitHub's push protection blocked. The text copy `il-money-management-program.txt` holds the same content. The file stays on the owner's computer.
+
+Limits: Alabama voucher rules, local availability, and later changes to these pages were not checked. Draft that uses them: `docs/clean-deliverables/competitive-analysis-4-changes-draft-2026-11-06.md`.

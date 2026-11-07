@@ -1,0 +1,49 @@
+reports tagged used_for=break (labels1-3), by candidate:
+   18 (used it: 10)  Hospice respite benefit
+   12 (used it: 10)  PACE (all-inclusive care program)
+    4 (used it:  3)  IHSS (California paid family caregiver program)
+    3 (used it:  3)  Franchise home care (Home Instead, Visiting Angels)
+    3 (used it:  0)  Medicare GUIDE program
+    3 (used it:  1)  Regional Center / state developmental disability agency
+    2 (used it:  0)  Named respite facilities (Aegis, Passages)
+    2 (used it:  1)  Meal Train
+    1 (used it:  1)  Hospice hotline
+    1 (used it:  0)  Meetup caregiver group (NYC)
+    1 (used it:  0)  Papa Pals
+
+break + label1 + WORKED: [('p1vgm6un', 'Hospice resp'), ('p1pk41yo', 'IHSS (Califo'), ('p1ubklew', 'IHSS (Califo'), ('p14pgf4l', 'PACE (all-in'), ('p1bahk0o', 'PACE (all-in'), ('p1uf28br', 'PACE (all-in')]
+
+Facebook reports 21 Counter({(1, 'emotional supp', 'DID NOT WORK'): 5, (1, 'emotional supp', 'MIXED'): 4, (1, 'info', 'DID NOT WORK'): 3, (1, 'emotional supp', 'WORKED'): 2, (3, 'emotional supp', 'DID NOT WORK'): 1, (2, 'emotional supp', 'NO OUTCOME'): 1, (1, 'emotional supp', 'NO OUTCOME'): 1, (1, 'info', 'NO OUTCOME'): 1, (1, 'paid aide hiri', 'NO OUTCOME'): 1, (2, 'info', 'NO OUTCOME'): 1, (1, 'paid aide hiri', 'DID NOT WORK'): 1})
+FB label1 emotional-support users: 12 Counter({'DID NOT WORK': 5, 'MIXED': 4, 'WORKED': 2, 'NO OUTCOME': 1})
+FB all label1 users: 18 Counter({'DID NOT WORK': 9, 'MIXED': 4, 'NO OUTCOME': 3, 'WORKED': 2})
+FB all reports outcome: Counter({'DID NOT WORK': 10, 'NO OUTCOME': 5, 'MIXED': 4, 'WORKED': 2})
+Counter({'emotional support': 12, 'info': 5, 'emotional support, info': 2, 'paid aide hiring': 2})
+
+ Discord caregiver servers read 37 Counter({5: 15, 4: 12, 2: 8, 1: 2})
+  notes: [('wrong meaning (the word "discord")', 2), ('family chat', 2), ('organizer recruiting for a young caregiver se', 2), ('organizer recruiting (crosspost)', 2), ('title only, post removed', 1), ('family updates by Discord', 1)]
+   L2 NO  p101nb9d | I recently found discord communities and was curious if there was any like this subreddit?
+   L2 NO  p14w2jm7 | Can someone post the link to this discord server?
+   L2 NO  p157fqsf | Is there any discord chat groups for us carers to help support eachother
+   L1 NO  p15upsyi | I'm usually found in the Discord server
+   L2 NO  p1cd6y5e | We need a chat room or discord. Anyone know if one exists?
+   L2 DID p1ghdx77 | I cant enter to the Discord room, is still available?
+   L1 WOR p1lmwx2m | I just joined yesterday and already enjoying it.
+   L2 DID p1nzmloi | I tried to find a Discord server, since I like the more instantaneous communication
+   L2 NO  p1rlva01 | Facebook groups, reddit threads, discord servers, zoom calls, anything that might help.
+   L2 NO  p1sj5u9l | Years ago, someone sent me a discord link for an online community, but it's long since expired.
+
+ WhatsApp caregiver community groups read 76 Counter({5: 43, 4: 28, 2: 4, 1: 1})
+  notes: [('phone, scam or family-contact use; not a care', 42), ('builder, ad or spam post', 26), ('pharmacist recruiting for a group', 1), ('pharmacist recruiting (crosspost)', 1), ('same organizer as p1x7s6o6, follow-up post', 1)]
+   L2 NO  p1s54boa | I was thinking of how useful it would be to have a WhatsApp group
+   L2 NO  p1x3k3jd | would be interested in joining a private WhatsApp group?
+   L2 NO  p1x49fv6 | Anyone interested in a WhatsApp group for caregiver support?
+   L2 NO  p1x4ejkv | Anyone want to start a private WhatsApp group to vent/support each other?
+   L1 NO  p1x7s6o6 | So I started a WhatsApp group: Millennial & Gen X Alzheimer's Caregivers.
+
+ WhatsApp family group chat read 8 Counter({1: 3, 4: 2, 2: 2, 5: 1})
+  notes: [('likely product-research post, posted twice', 1), ('likely product-research post (crosspost)', 1), ("residents' groups at a facility, not caregive", 1)]
+   L2 NO  p1t7iast | I’m really curious what actually works in real life — apps, notebooks, calendars, WhatsApp groups, a
+   L1 DID p1ao3pxf | I ranted in the family WhatsApp group
+   L2 DID p1l4bofd | so that we can all have the same information at the same time
+   L1 DID p1nmuwp9 | There’s whatsapp or email but one doesn’t want whatsapp
+   L1 DID p1pxyncn | We have a family chat room (whatsapp) which is seldom used.

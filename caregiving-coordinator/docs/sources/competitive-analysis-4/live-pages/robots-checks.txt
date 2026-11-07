@@ -1,0 +1,245 @@
+robots.txt checks, read 2026-11-06 (curl, then Firecrawl for mass.gov)
+Rule used: skip a page if disallowed for User-agent: * or for ClaudeBot. No file below has a ClaudeBot group.
+
+===== https://aging.ny.gov/robots.txt
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
+Disallow: /user/logout
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password
+Disallow: /index.php/user/register
+Disallow: /index.php/user/login
+Disallow: /index.php/user/logout
+
+===== https://ilaging.illinois.gov/robots.txt
+# robots.txt for a Public Government Website (PRODUCTION)
+# Goal: Maximize search visibility while blocking ad crawlers, data harvesters,
+#       and low‑value/fraudulent bots. English content is prioritized naturally
+#       by mainstream search engines.
+
+##############
+# ALLOW LIST #
+##############
+
+# Major Search Engines (allowed)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Accessibility / Quality Assurance Tools (allowed)
+User-agent: SiteimproveBot-Crawler
+Allow: /
+
+User-agent: W3C_Validator
+Allow: /
+
+# Internet Archive (allowed)
+User-agent: Archive.org_bot
+Allow: /
+
+################
+# BLOCK LIST   #
+################
+
+# Block Google Ads-related crawlers
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+# Block Amazon indexing crawler (not used for Alexa/Echo)
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+# Block Microsoft/Bing Ads-related crawlers
+User-agent: BingAdsBot
+Disallow: /
+
+User-agent: MSNBot-Media
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Yeti
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+# Block Known Scrapers / Data Harvesters / Non-indexing commercial bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Path specific block for all crawlers/indexers
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+
+##########################
+# DEFAULT (everyone else)
+##########################
+
+User-agent: *
+Allow: /
+===== https://www.va.gov/robots.txt
+User-agent: usasearch
+Allow: /
+
+# existing disallow on va.gov (may not be needed)
+User-agent: Synapse
+Disallow: /
+
+# block Amazon's AI training crawler
+User-agent: Amazonbot
+Disallow: /
+
+# existing disallow from vets.gov
+User-Agent: *
+Disallow: /analytics-opt-out.html
+Disallow: /cgi-bin/
+Disallow: /drupal
+Disallow: /covid19screen
+Disallow: /service-member-benefits/solid-start/schedule
+Disallow: /sitemap.xml
+# on-site search results are not useful to index
+Disallow: /search
+
+# disallow WIP VAMCs
+# make sure to add a trailing slash at the end of the path
+# to prevent sub-directories from being indexed
+# see https://developers.google.com/search/docs/advanced/robots/create-robots-txt#useful-robots.txt-rules
+
+
+# sitemap index
+Sitemap: https://www.va.gov/sitemap_index.xml
+Sitemap: https://www.va.gov/sitemap-cb.xml
+Sitemap: https://www.va.gov/sitemap-nb.xml
+
+===== https://archrespite.org/robots.txt
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: *post_type=tribe_events*
+Disallow: *hide_subsequent_recurrences=*
+Disallow: *tribe-bar-date=*
+Disallow: *tribe-venue=*
+Disallow: *eventDisplay=*
+Disallow: *eventDate=*
+Disallow: *paged=*
+Disallow: *pagename=*
+Disallow: *shortcode=*
+Disallow: *ical=*
+Disallow: *outlook-ical=*
+Disallow: *related_series=*
+Disallow: *tribe_geofence=*
+Disallow: *tribe_organizer=*
+Allow: /events/*
+Allow: /event/*
+
+Sitemap: https://archrespite.org/sitemap.xml
+Sitemap: https://archrespite.org/sitemap.rss
+
+===== https://www.mass.gov/robots.txt (curl got HTTP 403, so this copy came through Firecrawl)
+Disallow lines that matter for /info-details/: none. Disallowed: /core/ /profiles/ /admin/ /search/ /node/* /media/* /taxonomy/term/* /user/* and similar. SemrushBot is blocked entirely. No ClaudeBot group.
