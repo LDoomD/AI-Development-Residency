@@ -1,0 +1,17 @@
+Care.com regex hits: all 82 reddit 78 forum 4
+  total occurrences: 132
+  broader 'care.com' without word boundary (agingcare.com etc): 105  'carecom' no dot: 0
+  helper's Care.com ids: 82 missing from helper: [] in helper but not my regex: []
+  label->ids {2: 34, 1: 18, 4: 18, 5: 11, 3: 1}
+  used rows 18 distinct ids 18 independent flag true 18
+  indep 1-3: 52
+  Care.com label 1-3 ids that are forum messages: ['agingcare-499812-COMMENT6']
+  dup text prefixes among independent: []
+
+Visiting Angels regex hits 22 helper ids 22 missing: [] extra: []
+  labels {4: 7, 3: 1, 2: 7, 5: 2, 1: 5}
+Home Instead regex hits 53 helper ids 12
+  hits not followed by 'of': 24
+  helper 12 ids: ['alzconnected-77395-COMMENT2', 'p14ahwv3', 'p15mkqm3', 'p17wkj4q', 'p1faqh6s', 'p1hdsbd5', 'p1hdsgrs', 'p1i7l01d', 'p1ixdp83', 'p1pxe7ba', 'p1qu598w', 'p1uajbci']
+  hits NOT in helper's 12: 41
+  of those with capital-H-capital-I and not 'of': []

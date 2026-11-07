@@ -1,0 +1,29 @@
+Medicaid+IHSS reports 155 used_for paying: 151 (claim 151 of 155)
+Medicaid used_for Counter({'paying for care': 78})
+Medicaid+IHSS worked 7 (claim 7)
+Medicaid+IHSS cared_for Counter({'unclear': 31, 'parent': 30, 'other relative': 11, 'child': 3, 'spouse or partner': 2, 'client': 1}) Counter({'parent': 51, 'other relative': 11, 'unclear': 9, 'spouse or partner': 3, 'client': 2, 'child': 1})
+hospice outcomes Counter({'NO OUTCOME': 11, 'DID NOT WORK': 8, 'MIXED': 3, 'WORKED': 1}) label Counter({1: 14, 2: 9})
+hospice blockers Counter({'parent refused': 3, 'patient refused': 2, 'APS complaint about overuse': 1, 'parent wanted to stay': 1, 'guilt': 1, 'guilt, decline during stay': 1, 'hospice did not place him on the dates': 1, 'not regularly available': 1, 'waiting for social worker': 1, 'quality worry': 1, 'guilt, needed social worker push': 1, 'bad facility experience': 1})
+hospice break 18 refus in blockers 5
+hospice DNW detail:
+   p1dg3jlm 2 patient refused | Hospice pays for 5 days in a rehab facility to give me a break, and sh
+   p1e746tb 1 guilt, decline during stay | Dad came back from respite Wednesday nonverbal and agitated.
+   p1kvou0n 1 hospice did not place him on the dates | Husband's respite fell through
+   p1mcryrg 2 parent refused | She would accuse me of wanting her to die every time I brought up hosp
+   p1ndyxm0 2 parent refused | she is declining respite care offered by the hospice to help with burn
+   p1nhv4z5 2 patient refused | The only respite available is for her to go to hospice house for a few
+   p1nkhd4j 2 not regularly available | Respite is not regularly available to us, despite her being in hospice
+   p1wsg3kb 1 bad facility experience | Annoyed at hospice facility respite experience
+hospice worked/mixed:
+   p173vmwt MIXED | we took advantage of the respite system that was provided by hospice and that it
+   p182fegl MIXED | We sent my father in law to a nursing home for a 5 day respite which Medicare al
+   p1e144pf MIXED | They put him on hospice a week ago and I jumped at the 5 day respite.
+   p1vgm6un WORKED | I am glad they offered respite during the time on it.
+support group by label Counter({2: 16, 1: 15, 3: 6}) outcomes Counter({'NO OUTCOME': 23, 'WORKED': 8, 'DID NOT WORK': 4, 'MIXED': 2})
+support group asking (label 2): 16 (claim 16)
+support group label1 outcomes Counter({'WORKED': 7, 'NO OUTCOME': 4, 'DID NOT WORK': 2, 'MIXED': 2}) (claim 7 of 15 worked in sec 6; table says worked 8 overall)
+Alz label1 / outcomes 7 Counter({'NO OUTCOME': 11, 'WORKED': 5, 'DID NOT WORK': 3}) Counter({'info': 9, 'emotional support': 3, 'info, emotional support': 1, 'dementia skills, info': 1, 'paying for care': 1, 'emotional support, info': 1, 'info, paying for care': 1, 'info, paperwork': 1, 'emotional support, dementia skills': 1})
+Alz label3 WORKED (recommendations marked worked): ['alzconnected-77005-COMMENT2', 'alzconnected-77348-COMMENT3', 'alzconnected-77398-COMMENT3']
+IHSS label2 and denial blockers: 39 ; blockers with eligib: 23
+PACE worked by cared_for Counter({('spouse or partner', 'WORKED'): 3, ('spouse or partner', 'MIXED'): 2, ('spouse or partner', 'NO OUTCOME'): 2})
+PACE break reports: [('p14pgf4l', 1, 'WOR'), ('p14t1yn1', 1, 'MIX'), ('p190uh3d', 1, 'MIX'), ('p1b4mm45', 1, 'MIX'), ('p1bahk0o', 1, 'WOR'), ('p1buxxon', 1, 'MIX'), ('p1c28i82', 1, 'NO '), ('p1hvc21c', 2, 'NO '), ('p1tff3xo', 1, 'NO '), ('p1u8ryhm', 2, 'NO '), ('p1uf28br', 1, 'WOR'), ('p1vmuey3', 1, 'MIX')]

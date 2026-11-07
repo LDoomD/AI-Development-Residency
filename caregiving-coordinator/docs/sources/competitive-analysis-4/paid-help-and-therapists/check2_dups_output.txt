@@ -1,0 +1,6 @@
+rows label1-3: 86 distinct ids: 80
+ids counted for >1 brand (label1-3): {'alzconnected-77395-COMMENT2': 4, 'p11bowfc': 2, 'p15mkqm3': 2, 'p17wkj4q': 2}
+near-duplicate text pairs among all cited ids: [('p1k2fdi8', 'p1k2fe6g', 1.0), ('p1n1i991', 'p1n1iak7', 1.0), ('p1wisur2', 'p1woym4s', 1.0), ('p1x1tgt8', 'p1x21nge', 1.0)]
+helper-flagged repeats: [('p1wu65tj', 'p1wu66hr', 'Senior Helpers', 5, False), ('p1wisur2', 'p1woym4s', 'Right at Home', 4, False), ('p1k2fe6g', 'p1k2fdi8', 'Talkspace', 4, False), ('p1hdsgrs', 'p1hdsbd5', 'Home Instead', 3, False), ('p1x1tgt8', 'p1x1tdgi', 'Care.com', 4, False), ('p1x21nge', 'p1x1tdgi', 'Care.com', 4, False), ('p1x48i33', 'p1x1tdgi', 'Care.com', 4, False), ('p1n1i991', 'p1n1iak7', 'Care.com', 2, False)]
+same sub+same day, label1-3, different ids: [[('p1hdsbd5', 'Home Instead'), ('p1hdsgrs', 'Home Instead')], [('p1k2n2pf', 'Care.com'), ('p1k2q90r', 'Care.com')]]
+same quote under different ids: ["how have people's experiences with platforms like"]
