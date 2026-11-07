@@ -167,3 +167,5 @@ Full rules: `caregiving-coordinator/CLAUDE.md` and the memory files. The ones mo
 - Checks run: `check_handoff.py` on this report; hook tests (30 of 30); handoff unit tests (9 of 9); the benchmark file re-read for 94% and 80%.
 - Not checked: the owner's usage numbers are live and will change. The full INVEST skill's live trigger and quality evals (only one live run was done). The INVEST hook is on, but it was only pipe-tested and only the trigger batch was started live. Whether the desktop app shows a status line. The Week 2 submission list and the course dates (NotebookLM summaries, not the original files). The new Week 2 due date. Whether the instructor can currently see the repo. Whether learner mode works well over several real PRs (it has run on PR 25 and 26 only).
 - How this prevents drift: decisions are tagged Approved or Proposed, parked items list where they come back, the first step is the research checklist shown to the owner before any research, and the course facts name their source.
+
+> **Replaced by** `dogfood-2026-11-06-handoff-competitive-analysis-4.md` (2026-11-06, evening). Its first steps are done; its project tables still stand.
