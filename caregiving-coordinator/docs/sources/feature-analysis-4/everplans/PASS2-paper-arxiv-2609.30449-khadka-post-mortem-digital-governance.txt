@@ -1,0 +1,393 @@
+URL: https://arxiv.org/pdf/2609.30449 | Date read: 2026-11-06 | pdftotext; page breaks are form-feed characters
+                                              Who Acts When the User Is Gone? Digital Remains, Survivor
+                                                        Claims, and Post-Mortem Governance
+                                                          Supriya Khadka                                          Dhiman Goswami                                     Sanchari Das
+                                                      George Mason University                                  George Mason University                         George Mason University
+                                                       Fairfax, Virginia, USA                                   Fairfax, Virginia, USA                          Fairfax, Virginia, USA
+                                                         skhadk@gmu.edu                                          dgoswam@gmu.edu                                  sdas35@gmu.edu
+
+                                         Abstract                                                                                photos, messages, or account recovery codes that survivors cannot
+                                         Digital systems continue to govern accounts, devices, data, and                         otherwise retrieve. A social media profile may continue appearing
+                                         recovery channels after an account holder dies, leaving survivors                       in notifications, become a space for remembrance, or face unwanted
+                                         to manage digital remains through mechanisms built around a                             access. Email, cloud storage, financial accounts, subscriptions, and
+
+
+
+
+arXiv:2609.30449v1 [cs.HC] 24 Sep 2026
+                                         living user. We examine post-mortem digital governance as a so-                         password managers remain governed by platform policies, billing
+                                         ciotechnical problem of cooperative and contested work, focusing                        cycles, fraud controls, and recovery procedures [1, 7, 12, 25, 27, 41].
+                                         on who acts when the user is gone, what claims they make, and                              For surviving family members, partners, friends, executors, and
+                                         what barriers shape recovery, preservation, closure, and protec-                        other affected actors, death can transform ordinary security mech-
+                                         tion. We conducted a content analysis of 800 Reddit posts about                         anisms into urgent problems of privacy, memory, fraud, evidence,
+                                         post-mortem digital privacy and security, coding posts across as-                       and estate management [17, 19, 28]. These situations expose a
+                                         sets, actors, actions, privacy tensions, access barriers, policy gaps,                  boundary condition for account-centric security, since the systems
+                                         emotional contexts, and risks. Findings show that phones/devices                        persist, but the user can no longer participate in decisions about
+                                         often act as gateways to other digital remains, socially connected                      them [2, 12]. The resulting work is cooperative and contested, re-
+                                         actors make most claims, and data loss emerges as a central harm.                       quiring survivors to navigate family relationships, platform rules,
+                                         We synthesize these findings into a Post-Mortem Digital Gover-                          legal procedures, institutional processes, and technical recovery
+                                         nance Framework for designing mechanisms that support survivor                          mechanisms while making claims over digital remains.
+                                         coordination while limiting access by purpose, asset, actor, and                           We use post-user security to describe security and privacy prob-
+                                         context.                                                                                lems that emerge when digital systems continue operating after
+                                                                                                                                 the account holder can no longer act. Prior work on digital legacy,
+                                         CCS Concepts                                                                            posthumous privacy, and account recovery has established the nor-
+                                                                                                                                 mative and legal challenges surrounding post-mortem data, often
+                                         • Security and privacy → Social aspects of security and pri-
+                                                                                                                                 examining issues through institutional categories such as heirs, fidu-
+                                         vacy; Usability in security and privacy; • Human-centered
+                                                                                                                                 ciaries, consent, dignity, property, and platform terms [11, 17, 32, 38].
+                                         computing → Empirical studies in HCI .
+                                                                                                                                 Our work complements this literature by focusing on the opera-
+                                                                                                                                 tional breakdowns that arise when these assumptions continue to
+                                         Keywords
+                                                                                                                                 govern accounts after the user is no longer able to participate. We
+                                         post-user security, post-mortem privacy, digital remains, digital                       use the term post-user to emphasize that the central problem is not
+                                         legacy, platform governance, Reddit content analysis                                    death itself, but the absence of the user while the system continues
+                                         ACM Reference Format:                                                                   to assume their availability. Systems continue to expect authentica-
+                                         Supriya Khadka, Dhiman Goswami, and Sanchari Das. 2026. Who Acts                        tion, consent, objections, and clarification of intent, even though
+                                         When the User Is Gone? Digital Remains, Survivor Claims, and Post-Mortem                the account holder can no longer provide them. We examine these
+                                         Governance. In Companion of the Computer-Supported Cooperative Work                     challenges through the lens of post-mortem digital governance,
+                                         and Social Computing (CSCW Companion ’26), October 10–14, 2026, Salt Lake
+                                                                                                                                 which encompasses the social, technical, and institutional arrange-
+                                         City, UT, USA. ACM, New York, NY, USA, 5 pages. https://doi.org/10.1145/
+                                                                                                                                 ments that determine who can act, what actions are possible, and
+                                         3785651.3831560
+                                                                                                                                 whose interests are protected. In practice, however, acting on behalf
+                                                                                                                                 of a deceased user remains difficult because social responsibility,
+                                         1    Introduction
+                                                                                                                                 legal authority, technical access, and platform policy often fail to
+                                         When an account holder dies, the digital systems connected to                           align [11, 31, 36, 39].
+                                         them often remain active. Accounts, devices, data, and recovery                            To understand how post-mortem digital governance becomes
+                                         channels may still require decisions about access, preservation,                        cooperative and contested work among survivors, platforms, and
+                                         closure, and protection while continuing to operate under assump-                       institutions, we ask:
+                                         tions built for an active user. A locked phone may contain family
+                                                                                                                                     • What digital assets become privacy and security problems
+                                                                                                                                       after death?
+                                         This work is licensed under a Creative Commons Attribution 4.0 International License.       • Who attempts to act, and what kinds of post-mortem claims
+                                         CSCW Companion ’26, Salt Lake City, UT, USA                                                   do they make?
+                                         © 2026 Copyright held by the owner/author(s).
+                                         ACM ISBN 979-8-4007-2378-0/2026/10                                                          • What barriers, risks, and policy gaps shape post-mortem
+                                         https://doi.org/10.1145/3785651.3831560                                                       digital governance?
+CSCW Companion ’26, October 10–14, 2026, Salt Lake City, UT, USA                                                                        Khadka et al.
+
+
+   We contribute an empirical analysis of 800 Reddit posts and            Table 1: Most frequent labels across key coding dimensions.
+introduce the Post-Mortem Digital Governance Framework.
+The framework reframes post-mortem digital privacy and security           Dimension          Most frequent labels
+as a governance problem involving digital remains, claiming actors,       Digital asset      Phone/device: 239 (29.9%); Social media profile: 135
+post-mortem actions, governance tensions, access barriers, policy                            (16.9%); Financial account: 100 (12.5%).
+gaps, emotional context, and risk.
+                                                                          Actor              Child: 229 (28.6%); Extended family: 122 (15.2%); Self-
+                                                                                             planning: 109 (13.6%).
+2    Background: Digital Remains and
+                                                                          Desired action     Recover: 169 (21.1%); Access: 141 (17.6%); Plan ahead:
+     Post-Mortem Governance                                                                  98 (12.2%).
+Prior CSCW and HCI work shows that digital data remains socially,         Barrier            Locked device/account: 157 (19.6%); Platform policy:
+emotionally, legally, and economically significant after death. Re-                          98 (12.3%); Technical recovery issue: 96 (12.0%).
+searchers have examined memorial profiles [1, 7, 9, 10, 22], personal
+                                                                          Policy gap         Device access unsupported: 243 (30.4%); No digital
+archives [4, 30], inheritance and estate management [13, 32, 38],
+                                                                                             legacy plan: 109 (13.6%); Platform process unclear:
+and medical or genetic records [26, 34, 35]. This literature identifies                      105 (13.1%).
+tensions between heir access and deceased privacy, legal authority
+and platform terms, and individual autonomy and family bene-              Risk type          Data loss: 393 (49.1%); Financial loss: 126 (15.8%);
+                                                                                             None/unclear: 106 (13.2%).
+fit [3, 18, 21, 31, 33, 40].
+    We build on this work by focusing on the everyday operational
+breakdowns that occur when systems continue to operate after the
+user can no longer authenticate, reset credentials, approve recovery,
+appeal decisions, or clarify intent. These problems often center on
+specific actions such as recovering photos, closing accounts, ex-
+                                                                             We manually screened posts against two criteria, requiring both
+porting files, preserving evidence, preventing fraud, memorializing
+                                                                          a mortality or post-mortem context and a digital, privacy, security,
+profiles, or planning future disclosure [5, 6, 24, 37]. We therefore
+                                                                          or data-governance issue. The final corpus contained 800 relevant
+treat post-mortem digital governance as a sociotechnical problem
+                                                                          posts from 2009–2026. Each case was coded across eight dimensions:
+shaped by technical mechanisms, social relationships, emotional
+                                                                          digital_asset, actor_requesting_access, desired_acti
+stakes, and institutional processes [11, 12, 19, 28].
+                                                                          on, privacy_tension, barrier, policy_gap, emotional_co
+    Post-mortem digital governance often involves distributed work
+                                                                          ntext, and risk_type. Coding combined deductive categories
+among relatives, friends, partners, executors, platforms, legal insti-
+                                                                          derived from our research questions with inductive refinement
+tutions, and financial services. These actors must make decisions
+                                                                          during screening and initial coding, following qualitative content
+under grief, uncertainty, incomplete authority, missing credentials,
+                                                                          analysis and constant-comparison approaches [15, 20, 29]. When
+and conflicting privacy expectations [8]. In this paper, we treat
+                                                                          multiple labels were plausible, we assigned the dominant label
+digital remains as objects around which social and institutional
+                                                                          representing the central issue. A single researcher coded the corpus,
+work is organized.
+                                                                          and the codebook was reviewed by a second researcher before
+                                                                          coding began. Ambiguous cases were revisited after the initial
+3    Method                                                               coding pass.
+We conducted a qualitative content analysis of 800 public Red-               We computed descriptive frequencies for each coding dimen-
+dit posts about post-mortem digital privacy and security. Reddit          sion and examined recurring patterns across them. We use these
+provides rich discussions of these issues across everyday advice-         patterns descriptively to characterize how post-mortem digital gov-
+seeking communities, including technical support, legal advice,           ernance appears in the corpus rather than to estimate population-
+estate planning, personal finance, grief support, relationships, pri-     level prevalence. Because the corpus concerns death, grief, family
+vacy, and general advice forums.                                          conflict, fraud, and sensitive personal data, we treated the posts
+   We constructed the corpus through a multi-stage search and             as sensitive user-generated content. We did not retain usernames
+screening process. We began with exploratory searches to identify         in the reporting dataset, report findings only in aggregate, and do
+communities where post-mortem digital issues recur. Because these         not publish raw post text, URLs, or post identifiers. When exam-
+discussions are not confined to privacy-focused forums, we selected       ples informed our interpretation, we paraphrased them to reduce
+ten subreddits spanning technical support, legal advice, estate plan-     searchability and re-identification risk.
+ning, personal finance, grief support, relationships, privacy, and
+general advice. We prioritized topical relevance over community
+size, treating the corpus as a source of recurring sociotechnical         4   Findings
+patterns rather than a representative sample; consequently, smaller       We organize the findings around our three research questions. Sec-
+communities contribute fewer posts. We then searched these sub-           tion 4.1 addresses which digital assets become problems (RQ1),
+reddits using mortality-related and digital-account terms, including      Section 4.2 addresses who acts and what claims they make (RQ2),
+digital legacy, dead man switch, legacy contact, passed                   and Sections 4.3 and 4.4 address the harms and governance gaps
+away password, deceased account, and dead person phone,                   that shape post-mortem governance (RQ3). Table 1 summarizes the
+yielding 3,990 candidate posts.                                           most frequent labels.
+Who Acts When the User Is Gone? Digital Remains, Survivor Claims, and Post-Mortem Governance      CSCW Companion ’26, October 10–14, 2026, Salt Lake City, UT, USA
+
+
+4.1     Digital remains span devices, accounts, and                                 on harms associated with confidentiality failures, including expo-
+        records                                                                     sure, unauthorized access, disclosure, and misuse [2]. Our corpus
+                                                                                    highlights an additional class of harms centered on availability and
+The most common digital asset was the deceased person’s phone
+                                                                                    stewardship.
+or device (Table 1), followed by social media profiles, financial ac-
+                                                                                       Data loss emerged as the dominant risk in the corpus. Posts
+counts, email or cloud accounts, photos or videos, credentials, and
+                                                                                    described survivors unable to retrieve photos or messages from
+messages. Post-mortem governance therefore spans local devices,
+                                                                                    locked devices, recover accounts because a recovery phone or au-
+platform accounts, financial systems, communication records, and
+                                                                                    thentication app was unavailable, manage accounts after death, or
+personal media. Phones and devices often acted as gateways to
+                                                                                    preserve records with family, financial, or evidentiary value. For
+other digital remains [14]. Authentication apps, recovery prompts,
+                                                                                    survivors, data loss was concrete and emotionally significant.
+and saved credentials resided on the device, so phones sat upstream
+                                                                                       These findings broaden how post-mortem harms are under-
+of the accounts they unlocked. A single locked handset could trigger
+                                                                                    stood. In post-mortem settings, harm can arise from permanent
+a chain of downstream account failures that no individual platform
+                                                                                    loss, blocked preservation, unresolved obligations, or failed evi-
+policy could resolve, and device-level barriers shaped what sur-
+                                                                                    dence protection alongside the confidentiality concerns that have
+vivors could attempt before any platform process became available.
+                                                                                    traditionally received greater attention. Survivor access should still
+In device-related posts, survivors most often sought access and re-
+                                                                                    be carefully limited, since disclosure can create privacy and abuse
+covery, and data loss was the dominant risk. Governance frequently
+                                                                                    risks. At the same time, systems that prevent unauthorized access
+began with a physical object in the home. Phones, laptops, hard
+                                                                                    while also preventing legitimate preservation can create additional
+drives, password notebooks, and recovery devices all became focal
+                                                                                    harms. Preservation, transfer, closure, and selective access therefore
+points for family coordination and access to institutions.
+                                                                                    become part of the cooperative work of post-mortem governance.
+4.2     Post-mortem claims come from socially
+        connected actors                                                            4.4        Governance gaps are fragmented across
+The actor attempting to act after death was usually someone with                               systems
+a social or practical connection to the deceased. Children were the                 The most common policy gap was unsupported device access, fol-
+largest actor category, followed by extended family, self-planning                  lowed by absent digital legacy planning, unclear platform processes,
+cases, unknown actors, friends, siblings, spouses or partners, and                  fraud response gaps, platform unresponsiveness, and legal uncer-
+parents. Executors or legal representatives appeared in only a small                tainty. These gaps appeared across several layers, including devices
+share of posts. These patterns show that post-mortem governance                     and local data, platform account processes, planning tools, fraud
+is shaped by relational responsibility as well as formal authority.                 response, and legal authority. This fragmentation means that sur-
+    The claims made by these actors varied. Children often described                vivors often face multiple systems with different rules, evidence
+managing a parent’s devices, accounts, bills, or memories. Siblings                 requirements, timelines, and assumptions about who is allowed to
+and extended family described recovering data, preserving photos,                   act.
+or resolving account issues. Friends and partners appeared in cases                    Post-mortem tasks often depended on sequences of access across
+involving online traces, messages, memorialization, evidence, or                    people, devices, platforms, and institutions. A survivor may need
+emotional connection. Self-planning cases involved users deciding                   the deceased person’s phone to reach an email account, the email
+what should happen to their accounts, passwords, files, or messages                 account to reset another service, a death certificate to close a finan-
+after death.                                                                        cial account, or a platform-specific form to memorialize or remove a
+    Beyond who appears, these actors made different kinds of claims.                profile. These dependencies make post-mortem governance brittle,
+Practical claims involved managing bills, closing accounts, recov-                  since failure at one point can block the following task. They also
+ering files, or completing estate tasks; emotional claims involved                  show why post-mortem governance cannot be solved through a
+preserving photos, messages, or voice recordings; protective claims                 single account setting or platform policy.
+focused on preventing fraud or securing accounts; and evidentiary
+claims sought to preserve or recover messages after suspicious or
+contested circumstances. These claims often collided within a single                5     Post-Mortem Digital Governance Framework
+case, such as when a child sought to close an account while a part-                 We synthesize these findings into a Post-Mortem Digital Gover-
+ner wanted to preserve its messages. The design question therefore                  nance Framework (Figure 1), which treats post-mortem digital gov-
+concerns not only which actors are admitted, but also which claims                  ernance as cooperative work around digital remains. Emotional
+a given action serves. These findings show why systems cannot rely                  context and risk type cut across its dimensions and help explain
+solely on formal roles such as executors or pre-designated legacy                   why a request matters and what harm is at stake. For CSCW re-
+contacts.                                                                           searchers and designers, the framework shows where coordination
+                                                                                    can break down between assets and actions, social relationships
+4.3     Data loss is a central post-mortem harm                                     and formal authority, emotional stakes and institutional procedures,
+We use post-mortem harm to mean a setback to the interests of                       and access barriers and policy support.
+the deceased, survivors, or third parties that is produced or left                     The framework supports four design commitments. First, gov-
+unaddressed by how a system behaves once the user can no longer                     ernance should be purpose-limited. Systems should distinguish
+act. Conventional privacy and security research has largely focused                 read-only review, data export, account closure, fraud freeze, billing
+CSCW Companion ’26, October 10–14, 2026, Salt Lake City, UT, USA                                                                                                              Khadka et al.
+
+
+                                                                 Emotional context
+                                                              grief, memorialization, es-
+                                                              tate administration, family
+                                                               conflict, suspicious death
+
+
+
+    Post-user condition                                                                                                                                                   Post-mortem
+     User can no longer          Digital                           Post-mortem                                            Access                   Policy
+                                                Claiming                                         Governance                                                            digital governance
+    authenticate, consent,                                                                                               barriers
+                                remains          actors               actions                      tensions                                         gaps                 Purpose-limited,
+     recover access, ob-      What persists?                       What is sought?                                      What blocks         What is unsupported?
+                                                Who acts?                                     What values conflict?                                                    asset-specific, actor-
+    ject, or clarify intent                                                                                             resolution?
+                                                                                                                                                                     sensitive, context-aware
+
+
+
+                                                                       Risk type
+                                                              data loss, fraud, privacy vi-
+                                                               olation, financial loss, le-
+                                                               gal risk, emotional harm
+
+
+
+                                               Figure 1: Post-Mortem Digital Governance Framework.
+
+
+management, evidence preservation, memorialization, and trusted-                                though they cannot carry the whole system. Many cases involve
+contact notification rather than treating post-mortem requests as a                             absent planning, unclear instructions, inaccessible recovery chan-
+single category. Each action names a beneficiary, which lets plat-                              nels, sudden death, or actors who are socially responsible with-
+forms scope disclosure to the interest a request actually serves.                               out being formally designated. Post-mortem governance therefore
+Second, governance should be asset-specific. A phone, cloud archive,                            needs cautious fallback pathways, including document-based re-
+social media profile, financial account, and private message thread                             view, limited-purpose requests, preservation holds, fraud freezes,
+raise different risks and support needs. Third, governance should                               delayed disclosure, logging, review, and appeal. These mechanisms
+be actor-sensitive. Legal representatives, designated contacts, chil-                           should support legitimate post-mortem needs while reducing risks
+dren, partners, friends, and suspicious actors require different levels                         of surveillance, coercion, family conflict, and opportunistic account
+of scrutiny and support. Fourth, governance should be context-                                  takeover [16].
+aware [23]. The same request can carry different stakes in cases
+involving grief, estate administration, fraud, family conflict, or sus-                         7       Conclusion
+picious death.                                                                                  When an account holder dies, the digital systems connected to them
+                                                                                                often remain active, but the person those systems are designed to
+6      Discussion and Implications                                                              rely on can no longer participate. Based on an analysis of 800 Reddit
+                                                                                                posts, we show that post-mortem digital privacy and security prob-
+Our findings position post-user security as a stress test for account-
+                                                                                                lems span devices, accounts, records, relationships, and institutions.
+centric security. This creates a governance gap between persistent
+                                                                                                We introduce post-user security to describe the security and privacy
+digital systems and the absence of the person those systems were
+                                                                                                problems that emerge when digital systems outlast the user’s ability
+designed to serve.
+                                                                                                to act, and we offer a Post-Mortem Digital Governance Framework
+    For CSCW and sociotechnical systems research, this gap shows
+                                                                                                for designing purpose-limited, asset-specific, actor-sensitive, and
+how digital remains become sites of cooperative and contested
+                                                                                                context-aware responses. These findings suggest that post-mortem
+work. It extends prior accounts of memorialization and steward-
+                                                                                                digital governance should support coordinated work across sur-
+ship, which show how survivors care for and curate the profiles
+                                                                                                vivors, platforms, and institutions while protecting the deceased,
+of the dead [7, 8, 22], as well as work on digital inheritance that
+                                                                                                survivors, and third parties.
+examines the transfer of assets to heirs [13, 32, 38]. That work as-
+sumes a survivor who has already reached the asset. Our corpus
+shows survivors confronting operational breakdowns in access and
+                                                                                                Acknowledgements
+recovery before care, stewardship [8], or transfer can begin, and it                            We acknowledge the Data Agency and Security (DAS) Lab at George
+shows those breakdowns distributed across relatives, platforms, and                             Mason University (GMU), and Google for partially supporting this
+institutions holding uneven authority and knowledge [11, 12, 19].                               work. The opinions expressed are solely those of the authors.
+This shifts the design focus from account recovery alone to the
+coordination work required when responsibility, authority, and                                  Generative AI Disclosure
+access are distributed across multiple people and systems. Fami-                                The authors did not use generative AI or large language model tools
+lies, friends, partners, executors, platforms, and institutions may                             in the preparation of this submission.
+all become involved, though they do not share the same authority,
+knowledge, emotional relationship, or exposure to risk. Survivors                               References
+pursue these actions while platforms and institutions must protect                                [1] Amelia Acker and Jed R Brubaker. 2014. Death, memorialization, and social
+the deceased person, third parties, and the integrity of their systems.                               media: A platform perspective for personal archives. Archivaria 77 (2014), 1–23.
+                                                                                                  [2] Alessandro Acquisti, Laura Brandimarte, and George Loewenstein. 2015. Privacy
+Post-mortem digital governance therefore requires support for co-                                     and human behavior in the age of information. Science 347, 6221 (2015), 509–514.
+ordination across actors whose responsibilities and permissions do                                [3] Andrick Adhikari, Sanchari Das, and Rinku Dewri. 2023. Evolution of composi-
+not always align.                                                                                     tion, readability, and structure of privacy policies over two decades. In Proceedings
+                                                                                                      on Privacy Enhancing Technologies. PETS, Lausanne, Switzerland, 16 pages.
+    Planning tools such as legacy contacts, digital wills, inactive-                              [4] Akmaljon A Akramov, Nilufar Kh Rakhmonkulova, Odilbek T Khazratkulov, El-
+account managers, and password managers can reduce uncertainty,                                       nora E Inamdjanova, Diyora I Imamalieva, Shakhzoda R Tuychieva, Sayidkomil B
+Who Acts When the User Is Gone? Digital Remains, Survivor Claims, and Post-Mortem Governance               CSCW Companion ’26, October 10–14, 2026, Salt Lake City, UT, USA
+
+
+     Ibodullaev, Azamat E Ergashev, Shokhrukh Khamidov, and Nodira R Rustamova.                 (2022), 1343–1362.
+     2024. The impact of digitalization in inheritance law. Qubahan Academic Journal       [29] Jai Kruthunz Naveen Kumar, Aishwarya Umeshkumar Surani, Harkirat Singh,
+     4, 3 (2024), 100–134.                                                                      and Sanchari Das. 2026. Privacy Discourse and Emotional Dynamics in Mental
+ [5] Anita L Allen and Jennifer E Rothman. 2024. Postmortem privacy. Mich. L. Rev.              Health Information Interaction on Reddit. In Proceedings of the 2026 Conference
+     123 (2024), 285.                                                                           on Human Information Interaction and Retrieval. ACM, Seattle, Washington, USA,
+ [6] Dragomir Andreea-Nicoleta, Vesmas, Daiana-Maura, and Ana Morari. 2026. Post-               491–496.
+     Mortem Justice: Human Dignity and Legal Protections in the European Union.            [30] Akiko Orita. 2022. Inheritance of Personal Postmortem Data Reflecting Daily
+     Access to Justice in Eastern Europe Issue 1/2026 11 (2026), 43 pages.                      Life in the COVID-19 Era. In Proceedings of the Pacific Asia Conference on Infor-
+ [7] Jed R Brubaker and Vanessa Callison-Burch. 2016. Legacy contact: Designing and             mation Systems (PACIS 2022). Association for Information Systems, Virtual Event,
+     implementing post-mortem stewardship at Facebook. In Proceedings of the 2016               349 pages. https://aisel.aisnet.org/pacis2022/349/
+     CHI conference on human factors in computing systems. ACM, San Jose, California,      [31] Yong Jin Park, Yoonmo Sang, Hoon Lee, and S Mo Jones-Jang. 2020. The ontology
+     USA, 2908–2919.                                                                            of digital asset after death: policy complexities, suggestions and critique of digital
+ [8] Jed R Brubaker, Lynn S Dombrowski, Anita M Gilbert, Nafiri Kusumakaulika,                  platforms. Digital Policy, Regulation and Governance 22, 1 (2020), 1–14.
+     and Gillian R Hayes. 2014. Stewarding a legacy: responsibilities and relationships    [32] Francesco Paolo Patti and Francesca Bartolini. 2019. Digital inheritance and post
+     in the management of post-mortem data. In Proceedings of the SIGCHI Conference             mortem data protection: The Italian reform. Eur. Rev. Private L. 27 (2019), 1181.
+     on Human Factors in Computing Systems. Association for Computing Machinery,           [33] Joachim Pierer. 2019. Inheritability of Digital Content under Austrian Law.
+     Toronto, ON, Canada, 4157–4166.                                                            European Review of Private Law 27, 5 (2019), 16 pages.
+ [9] Jed R Brubaker and Gillian R Hayes. 2011. "We will never forget you [online]" an      [34] Jess Shade, Hilary Coon, and Anna R Docherty. 2019. Ethical implications of using
+     empirical investigation of post-mortem myspace comments. In Proceedings of the             biobanks and population databases for genetic suicide research. American Journal
+     ACM 2011 conference on Computer supported cooperative work. Association for                of Medical Genetics Part B: Neuropsychiatric Genetics 180, 8 (2019), 601–608.
+     Computing Machinery, Hangzhou, China, 123–132.                                        [35] Laura A Siminoff, Maureen Wilson-Genderson, Maghboeba Mosavel, Laura
+[10] Jed R Brubaker, Gillian R Hayes, and Melissa Mazmanian. 2019. Orienting to                 Barker, Jennifer Trgina, and Heather M Traino. 2017. Confidentiality in biobank-
+     networked grief: Situated perspectives of communal mourning on Facebook.                   ing research: A comparison of donor and nondonor families’ understanding of
+     Proceedings of the ACM on Human-Computer Interaction 3, CSCW (2019), 1–19.                 risks. Genetic testing and molecular biomarkers 21, 3 (2017), 171–177.
+[11] JC Buitelaar. 2017. Post-mortem privacy and informational self-determination.         [36] Matthew Slaughter. 2015. The barriers of Facebook’s terms of service agree-
+     Ethics and Information Technology 19, 2 (2017), 129–142.                                   ment: hardships placed on fiduciaries access to digital assets. Information &
+[12] Dylan Thomas Doyle and Jed R Brubaker. 2023. Digital legacy: a systematic                  Communications Technology Law 24, 2 (2015), 183–204.
+     literature review. Proceedings of the ACM on Human-Computer Interaction 7,            [37] Ramprabu Thangaraj, Jed R Brubaker, Nathan Malkin, and Alisha Pradhan. 2025.
+     CSCW2 (2023), 1–26.                                                                        " That’s something that as a senior person you have to consider now": Unpacking
+[13] Mohammad Owais Farooqui, Bhavna Sharma, and Dhawal Gupta. 2022. Inher-                     Older Adults’ Preferences for End-of-Life Data Planning. In Proceedings of the
+     itance of digital assets: Analyzing the concept of digital inheritance on social           2025 ACM Designing Interactive Systems Conference. ACM, Funchal, Madeira,
+     media platforms. Novum Jus 16, 3 (2022), 413–435.                                          Portugal, 663–675.
+[14] Angel N Fernandes, Philipp Markert, and Sanchari Das. 2023. Where you’re              [38] Yulia Tkach, Mychailo Shelest, Ivan Lukinov, and Andrej Yurchenko. 2024. A
+     logged in: analyzing the usability of device activity pages (work-in-progress).            Model of the Digital Inheritance Process. In 2024 IEEE 5th International Conference
+     In Annual Computer Security Applications Conference, ser. ACSAC, Vol. 22. ACM,             on Advanced Trends in Information Theory (ATIT). IEEE, IEEE, Lviv, Ukraine, 234–
+     Austin, Texas, USA, 1 pages.                                                               239.
+[15] Barney G Glaser. 1965. The constant comparative method of qualitative analysis.       [39] Priscilla Ulguim. 2018. Digital Remains Made Public: Sharing the dead online and
+     Social problems 12, 4 (1965), 436–445.                                                     our future digital mortuary landscape. AP: Online Journal in Public Archaeology
+[16] Naman Gupta, Kate Walsh, Sanchari Das, and Rahul Chatterjee. 2024. " I really              8, 2 (2018), 153–176.
+     just leaned on my community for support": Barriers, Challenges, and Coping            [40] Gabriel Trocha Viana, Cristiano Maciel, Patricia Cristiane de Souza, and Ney Alves
+     Mechanisms Used by Survivors of { Technology-Facilitated } Abuse to Seek Social            de Arruda. 2017. Analysis of terms of use and privacy policies in social networks
+     Support. In 33rd USENIX Security Symposium (USENIX Security 24). USENIX                    to treat users’ death. In Workshop of Human-Computer Interaction Aspects to the
+     Association, Philadelphia, Pennsylvania, USA, 4981–4998.                                   Social Web. Springer, Springer, Joinville, Brazil, 60–78.
+[17] Edina Harbinja. 2017. Post-mortem privacy 2.0: theory, law, and technology.           [41] Kathryn Walsh, Faiza Tazi, Philipp Markert, and Sanchari Das. 2021. My account
+     International Review of Law, Computers & Technology 31, 1 (2017), 26–42.                   is compromised-what do i do? towards an intercultural analysis of account
+[18] Edina Harbinja, Lilian Edwards, and Marisa McVey. 2023. Governing ghostbots.               remediation for websites. In Proceedings of the Sixth Workshop on Inclusive Privacy
+     Computer Law & Security Review 48 (2023), 105791.                                          and Security (WIPS 2021): In Association with the Seventeenth Symposium on
+[19] Jack Holt, James Nicholson, and Jan David Smeddinck. 2021. From personal                   Usable Privacy and Security (SOUPS 2021). USENIX Association, Vancouver, British
+     data to digital legacy: Exploring conflicts in the sharing, security and privacy of        Columbia, Canada, 6 pages.
+     post-mortem data. In Proceedings of the Web Conference 2021. ACM, Ljubljana,
+     Slovenia, 2745–2756.
+[20] Hsiu-Fang Hsieh and Sarah E Shannon. 2005. Three approaches to qualitative
+     content analysis. Qualitative health research 15, 9 (2005), 1277–1288.
+[21] Stephen Hutt, Sanchari Das, and Ryan S Baker. 2023. The Right to Be Forgotten
+     and Educational Data Mining: Challenges and Paths Forward.. In International
+     Educational Data Mining Society. ERIC, Bengaluru, India, 9 pages.
+[22] Jialun" Aaron" Jiang and Jed R Brubaker. 2018. Tending unmarked graves: clas-
+     sification of post-mortem content on social media. Proceedings of the ACM on
+     Human-Computer Interaction 2, CSCW (2018), 1–19.
+[23] Supriya Khadka and Sanchari Das. 2026. A Formal Risk-Cost Model for Adap-
+     tive Authentication in Financial Systems. In 2026 IEEE European Symposium
+     on Security and Privacy Workshops (EuroS&PW) (SeRIM ’26). IEEE, Lisbon, Por-
+     tugal, 8 pages. 2nd International Workshop on Security and Risk in Identity
+     Management (SeRIM).
+[24] Noam Kutler. 2011. Protecting your online you: a new approach to handling your
+     online persona after death. Berkeley Tech. LJ 26 (2011), 1641.
+[25] Michael E Locasto, Michael Massimi, and Peter J DePasquale. 2011. Security and
+     privacy considerations in digital death. In Proceedings of the 2011 New Security
+     Paradigms Workshop. ACM, Marin County, California, USA, 1–10.
+[26] Andrew H Maixner and Karine Morin. 2001. Confidentiality of health information
+     postmortem. Archives of pathology & laboratory medicine 125, 9 (2001), 1189–
+     1192.
+[27] Philipp Markert, Andrick Adhikari, and Sanchari Das. 2023. A Transcontinental
+     Analysis of Account Remediation Protocols of Popular Websites. In Symposium
+     on Usable Security and Privacy (USEC) (USEC ’23). Internet Society, San Diego,
+     CA, USA, 14 pages. doi:10.14722/usec.2023.235078
+[28] Tal Morse and Michael Birnhack. 2022. The posthumous privacy paradox: Privacy
+     preferences and behavior regarding digital remains. New Media & Society 24, 6
+

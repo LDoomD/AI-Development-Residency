@@ -492,6 +492,24 @@ Saved from the GitHub Docs article API (`https://docs.github.com/api/article/bod
 - `invest/cucumber-gherkin-reference-text.txt`: Cucumber Gherkin reference, text of the whole page (Given/When/Then meanings). https://cucumber.io/docs/gherkin/reference/
 - `invest/anthropic-skill-best-practices-text.txt`: Anthropic, Skill authoring best practices, text of the whole page. https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
 
+## 2026-11-06: Feature Analysis 4, feature research (`feature-analysis-4/`)
+
+Why: the approved competitive analysis scored 5 needs, not the 9 features of the new feature table. These files check, company by company, which of the 9 features each of the 9 competitors offers. Each company folder has an `EVIDENCE.md` (cell, YES / LIMITED / NO / VERIFY, file, short quote) and the saved pages it cites.      156 files in all.
+
+| File or folder | What it is |
+|---|---|
+| `feature-analysis-4/figma-competitive-tables-2026-11-06.md` | The owner's live Figma competitive tables (node 2843:15117), read 2026-11-06. The source of truth the research was compared against. |
+| `feature-analysis-4/first-pass-grid-and-evidence-2026-11-06.md` | First-pass 9 x 9 grid from saved pages only (29 of 81 cells "verify"). |
+| `feature-analysis-4/caring-village/`, `everplans/`, `group-texts-notebooks/` | Research pass 1. Pages from the companies' own sites, help centers, Reddit posts from the saved Arctic Shift archive. |
+| `feature-analysis-4/cariloop/`, `a-place-for-mom/`, `aging-life-care/` | Research pass 2. Note: 23 A Place for Mom pages were read although its robots.txt names ClaudeBot as blocked. The owner had them deleted on 2026-11-06, and that company's verdicts are withdrawn (VERIFY). |
+| `feature-analysis-4/area-agencies-on-aging/`, `respite-adult-day/`, `va-caregiver/` | Research pass 3. Local and national agency pages, ARCH respite pages, VA caregiver pages. Pages blocked by robots.txt were not scraped. |
+
+Limits: Trustpilot, Reddit, aginglifecare.org, nadsa.org and some A Place for Mom paths are blocked to crawlers and were not scraped. Silent pages are recorded as VERIFY, never as NO. Change report: `docs/reports/feature-analysis-4-change-report-2026-11-06.md`.
+
+## 2026-11-06: Research history log (`research-history/`)
+
+Why: the owner asked for a record of what went wrong in the research and when. `EVENT-LOG.md` lists 48 events through Nov 4, each with a commit hash or file path. The helper that built it was stopped at the owner's request, so Nov 5 to 6 are only partly logged. Used by `docs/reports/working-with-claude-analysis-2026-11-06.md`.
+
 ## 2026-11-06: Competitive Analysis 4, saved live pages (`competitive-analysis-4/live-pages/`)
 
 Why: independent auditors read these pages live and found evidence that changes cells in the competitive analysis. They are saved here so each claim can be cited.       15 files, with an `EVIDENCE.md` (finding, URL, exact quote, whether the claim holds), `QUOTE-CHECK.txt` and the robots.txt checks.

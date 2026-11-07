@@ -1,0 +1,30 @@
+# Evidence: Caring Village
+
+Date: 2026-11-06. Paths are under docs/sources/. Quotes are copied from the saved file.
+
+| Cell | Answer | File | Quote (max 20 words) | Why |
+|---|---|---|---|---|
+| F1 Relief finder | YES | feature-analysis-4/caring-village/caringvillage_com_homecare.md | "Respite care services provide temporary relief to regular family caregivers, from a few hours a day to several weeks" | Free zip-code search ('Find a Caregiver Near Me') through Care.com lists respite providers; a separate housing page lists senior living by location. Limit: the providers come from Care.com, and I did not test coverage in any area. |
+| F2 Eligibility and applications | VERIFY | feature-analysis-4/caring-village/caringvillage_com_blog_family_caregiving_getting_paid_as_family_caregiver.md | "Each state has its own set of rules, budget, and eligibility requirements." | The blog explains VA and state programs and eligibility. I found no eligibility checker and no apply button in the app or help center; pages are silent, which is not proof of NO. |
+| F3 Paying for relief | YES | feature-analysis-4/caring-village/caringvillage_com_blog_family_caregiving_in_home_care_cost.md | "a plug-in estimator to convert any hourly quote into a monthly figure, real state numbers" | Blog guide has a monthly cost estimator, state rates, and what Medicare, Medicaid and VA cover. Limit: it is a web article, not inside the app. |
+| F4 Refusing parent support | VERIFY | feature-analysis-4/caring-village/caringvillage_com_blog_dementia_care_understanding_dementia.md | "Resistance during personal care is one of the most common flashpoints" | Blog gives tips when a person with dementia refuses a bath or pills. I found nothing about getting a parent to accept outside help (aides, day programs), so I cannot say NO. |
+| F5 Relatives cover time | YES | feature-analysis-4/caring-village/caringvillage_com_app.md | "Share out the work, set reminders and let people claim tasks." | To-dos get a named owner, can be claimed with 'I'll do it', and show 'Done by' with name and date. The calendar can 'request volunteers'. Help center: edit 'assigned members'; completed items lock. Limit: the app cannot force a relative to act, and the 'Done by' example is a marketing demo. |
+| F5 (what users report) | YES | feature-analysis-4/caring-village/user-reviews-read-2026-11-06.md | "Reminders for meds, area for tasks and to dos that can be delegated to others" | Real App Store reviewer says tasks can be handed to others. Problems users name: a relative who would not use email never joined (a-1388), and a recurring event cannot have more than one person sign up (a-1390). No review says relatives ignored tasks. |
+| F6 Account access | VERIFY | feature-analysis-4/caring-village/caringvillage_com_app.md | "Upload medical records, legal documents and IDs, and reach them securely from any device." | The app stores papers. I found no tool for getting into a parent's bank, insurance or portal accounts; pages are silent. Leans NO. |
+| F8 Personal guidance | VERIFY | feature-analysis-4/caring-village/caringvillage_com_app.md | "Julia answers caregiving questions 24/7 and turns what's happening in your village into clear next steps." | Guidance found is an AI assistant plus a free Ask-A-Nurse video series. I found no human coach or one-to-one expert. Leans NO for a coach, YES for an AI helper. |
+| F9 Behavior help | YES | feature-analysis-4/caring-village/caringvillage_com_blog_dementia_care_understanding_dementia.md | "Late-day restlessness, irritability, and confusion are called sundowning" | Blog has stage-by-stage dementia guides on sundowning, aggression, refusing bathing or medicine, plus an Ask-A-Nurse episode on aggression. Limit: articles and videos on the website, not tools inside the app. |
+| F9 Hard-talk help | VERIFY | feature-analysis-4/caring-village/caringvillage_com_blog_dementia_care_understanding_dementia.md | "Change How You Talk Before You Change What You Do" | Only tips on how to speak to a person with dementia. I found nothing on hard family talks such as moving, driving or money. |
+| F10 People who understand | VERIFY | feature-analysis-4/caring-village/caringvillage_com_blog_caregiver_wellness_caregiver_burnout.md | "Seek out caregiver support groups." | The blog points to outside groups. The village is for your own family and care team; I found no caregiver community or group finder in the product. Leans NO. |
+
+## Differs from Figma
+- F1: Figma says the app gives no real relief. The site has a free Find a Caregiver Near Me search (respite providers via Care.com) and a senior housing directory. Figma may be right that it gives no relief by itself; the finder is a link-out.
+- F5: Figma says relatives 'can't make them do tasks'. No saved source says that. The product can assign, let relatives claim, and show who finished. It cannot force action. I rate YES; the owner may keep 'Partly' only by changing the question to 'forces relatives'.
+- F3: Figma says no money help. The blog has a cost estimator and a Medicare/Medicaid/VA walk-through.
+- F9: Figma says no dementia behavior help. The blog has it (not the app). Hard-talk help stays VERIFY.
+- F2, F4, F6, F8, F10: agrees with Figma's NO in spirit, but I can only prove silence, so VERIFY.
+
+## Notes and limits
+- Not scraped: none blocked. caringvillage.com robots.txt only blocks calendar pages; help.caringvillage.com showed a bot challenge to plain download, so help pages were read with Firecrawl (served normally, status 200).
+- The Marketplace page (caringvillage.com/marketplace) is a list of product review categories (stair lifts, GPS trackers, In-Home Care, Senior Living, Family Caregiver Support). It is not a respite search. Saved: caringvillage_com_marketplace.md.
+- Apple App Store listing page returned empty on download; Google Play listing saved but text is mostly page menus. Review data came from saved docs/sources/app-reviews files.
+- Reddit: 3 saved posts mention Caring Village by name (p1jwq5te, p1q4s3sb, p1qk7k7k); all ask whether it is good. None describe using it.

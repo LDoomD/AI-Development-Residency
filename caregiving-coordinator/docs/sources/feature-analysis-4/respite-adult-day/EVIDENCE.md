@@ -1,0 +1,27 @@
+# Evidence: Respite and adult day services
+
+Date: 2026-11-06. Verdicts: YES, LIMITED (narrow group, limit named), NO, VERIFY (sources silent), info (context only). Files are in docs/sources/ (paths below).
+
+| Cell | Verdict | File | Quote | Why |
+|---|---|---|---|---|
+| F2 Eligibility and applications | LIMITED | feature-analysis-4/respite-adult-day/archrespite_org_ta_center_for_respite_respite_voucher_programs_apply_for_state_lifespan_re.txt | "Each state has its own eligibility criteria." | ARCH's map links to each state's voucher application, but only some states have one. Colorado says it is not taking 2026 applications. |
+| F2 (state example) | LIMITED | feature-analysis-4/respite-adult-day/coloradorespitecoalition_org_our_programs_family_voucher_program.txt | "The program is no longer accepting applications for 2026." | Shows a limit: money runs out and the window closes. |
+| F3 Paying for relief | YES | feature-analysis-4/respite-adult-day/archrespite_org_caregiver_resources_how_to_pay_for_respite.txt | "you may pay 5% of the Medicare-approved amount for inpatient respite care." | ARCH's page lists who pays: Medicaid waivers, vouchers, the Agency on Aging, the VA, Medicare hospice and private grants. |
+| F3 (adult day cost) | YES | competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt | "Many centers offer services on sliding scales, where caregivers pay according to ability or income." | The Alzheimer's Association tells caregivers what day centers cost and who helps pay. |
+| F3 (hospice respite) | YES | competitors-4/hospice-respite/www_medicare_gov_coverage_hospice_care.txt | "Medicare will cover your stay in the facility." | Limit: only for people already on Medicare hospice, whose team arranges the stay. |
+| F4 Refusing parent support | NO | competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt | "Some people may resist going at first, but they often look forward to the visit after several weeks" | The page only says refusal is common and fades. It also says to try twice a week for a month. It gives no script or helper for a parent who says no. |
+| F4 (real users) | NO | feature-analysis-4/respite-adult-day/reddit_posts_selected_from_arctic_shift_2026-11-03.jsonl | "She has refused paid respite care." | Caregivers report a parent refusing even free hospice respite. Another says his dad refuses day programs and respite. |
+| F8 Personal guidance | LIMITED | competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt | "Counseling: The center may provide support services for people with dementia and their families." | Only some day centers offer counseling. Connecticut's program gives a care manager, but only for dementia. |
+| F8 (Connecticut) | LIMITED | feature-analysis-4/respite-adult-day/portal_ct_gov_aginganddisability_content_pages_programs_connecticut_statewide_respite_care.txt | "A care manager helps decide how much support you can get." | The care manager sets the plan and amount, up to $7,500 a year. Not an ongoing coach. |
+| F9 Behavior help | LIMITED | competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt | "Behavior management: Find out if the center is prepared to deal with behaviors associated with dementia." | Staff handle behavior during the visit at some centers. The page does not teach the caregiver about behavior. |
+| F9 Hard-talk help | VERIFY | competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt | "what good will I be to the person with dementia?" | Only a guilt reframe. ARCH pages say nothing on hard talks. |
+| F10 People who understand | VERIFY | competitors-4/adult-day/www_alz_org_help_support_caregiving_care_options_adult_day_centers.txt | "Daily activities may include music, art, recreation, discussion and support groups." | The groups are for the person attending, not caregivers. No respite page says caregivers meet each other. |
+| Extra F5 Relatives cover time | LIMITED | feature-analysis-4/respite-adult-day/alabamarespite_org_apply_for_respite.txt | "the Respite Provider signs the timesheet to confirm the date and time respite was received." | Some state voucher programs pay a relative to cover and need a signed timesheet. It is a payment rule, not a family tool. Owner decides. |
+| Extra F5 (New York) | LIMITED | feature-analysis-4/respite-adult-day/nyscrc_org_help_paying_for_respite_care.txt | "which could be an agency, individual contractor, or even a family member or friend" | Same limit: New York's voucher can pay a relative. |
+
+## Differs from Figma
+- Figma 'No: the parent refusing to go...' (F4): kept NO. The Alzheimer's page only offers reassurance and a one-month trial; real users say it does not work.
+- Figma 'Partly: some adult day centers offer family counseling and behavior help': kept as LIMITED. The page says to ask the center; it is not a caregiver tool.
+- Figma F5 'No': some state voucher programs pay a relative and require a signed timesheet. LIMITED; owner decides if that counts.
+- F10: no source shows caregivers meet each other through respite. VERIFY.
+- Alzheimer's adult day page confirmed saved at competitors-4/adult-day/. ARCH 'Apply for State Lifespan Respite Voucher Programs' URL: archrespite.org/ta-center-for-respite/respite-voucher-programs/apply-for-state-lifespan-respite-voucher-programs/. 'How to Pay for Respite' URL: archrespite.org/caregiver-resources/how-to-pay-for-respite/.
