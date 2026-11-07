@@ -1,0 +1,411 @@
+URL: https://arxiv.org/pdf/2309.00154 | Date read: 2026-11-06 | text from pdftotext, page breaks are form-feed characters
+                                         Learning From Peers: A Survey of Perception and
+                                         Utilization of Online Peer Support Among Informal
+                                                         Dementia Caregivers
+                                              Zhijun Yin1,2 , Lauren Stratton3 , Qingyuan Song2 , Congning Ni2 , Lijun Song2 , Patricia A. Commiskey1 ,
+                                                                 Qingxia Chen1 , Monica Moreno3 , Sam Fazio3 , Bradley A. Malin1,2
+                                                                        1 Vanderbilt University Medical Center, Nashville, USA
+                                                                                  2 Vanderbilt University, Nashville, USA
+                                                                                3 Alzheimer’s Association, Chicago, USA
+
+
+
+
+arXiv:2309.00154v1 [cs.CY] 31 Aug 2023
+                                                                   {zhijun.yin, cindy.chen, patricia.commiskey, b.malin}@vumc.org
+                                                                      {qingyuang.song, congning.ni, lijunsong}@vanderbilt.edu
+                                                                                   {lstratton, mmoreno, sfazio}@alz.org
+
+
+                                            Abstract—Informal dementia caregivers are those who care for        social engagement due to caring for PLWD, which increases
+                                         a person living with dementia (PLWD) without receiving payment         their risk of developing Alzheimer’s disease or some other
+                                         (e.g., family members, friends, or other unpaid caregivers).           dementia [4]–[6] and early death [7], [8]. To ensure sufficient
+                                         These informal caregivers are subject to substantial mental,
+                                         physical, and financial burdens. Online communities enable these       support for both informal caregivers and care recipients, it is
+                                         caregivers to exchange caregiving strategies and communicate           essential for society to develop effective support mechanisms
+                                         experiences with other caregivers who they generally do not            for the needs of informal dementia caregivers [9].
+                                         know in real life. Research has demonstrated the benefits of              Research on how to best support informal dementia care-
+                                         peer support in online communities, but they are limited in            givers has focused primarily on assistance from credentialed
+                                         focusing merely on caregivers who are already online users. In
+                                         this paper, we designed and administered a survey to investigate       professionals [10]–[12]. This type of assistance can improve a
+                                         the perception and utilization of online peer support from             caregiver’s emotional well-being and caring skills, but main-
+                                         140 informal dementia caregivers (with 100 online-community            taining this assistance over time can be difficult to achieve on a
+                                         caregivers). Our findings show that the behavior to access any         large scale. This is due, in part, to an insufficiently sized work-
+                                         online community is only significantly associated with their belief    force, limited financial support [13], [14], the stigma of asking
+                                         in the value of online peer support (p = 0.006). Moreover, 33
+                                         (83%) of the 40 non-online-community caregivers had a belief           for help, and difficulties encountered when leaving individuals
+                                         score above 24, a score assigned when a neutral option is selected     with dementia [15], [16]. In addition, if they lack a shared
+                                         for each belief question. The reasons most articulated for not         experience, it may be difficult for healthcare professionals
+                                         accessing any online community were no time to do so (14; 10%),        or other family members to respond to the specific needs of
+                                         and insufficient online information searching skills (9; 6%). Our      informal caregivers. This perception that “they simply do not
+                                         findings suggest that online peer support is valuable, but practical
+                                         strategies are needed to assist informal dementia caregivers who       understand” [17] can contribute to feelings of loneliness [18],
+                                         have limited time or searching skills.                                 which were found to be negatively associated with the health
+                                            Index Terms—informal dementia caregiver, online health com-         and well-being of these caregivers [19].
+                                         munity, social support, survey                                            The integration of the Internet into daily life has enabled
+                                                                                                                many people, including informal caregivers, to discuss health-
+                                                                I. I NTRODUCTION                                related topics in online social media platforms [20], [21].
+                                            Alzheimer’s disease, the most common cause of dementia, is          For example, ALZConnected (https://www.alzconnected.org)
+                                         a brain disorder that affects the thinking, comprehension, and         organized by the Alzheimer’s Association, is the largest online
+                                         learning capacity of more than 6 million Americans and is the          community for PLWD and their caregivers in North America.
+                                         seventh leading cause of death in the US [1]. An estimated             ALZConnected has accumulated tens of thousands of online
+                                         80% of people living with Alzheimer’s disease or related               users to discuss a broad range of topics regarding dementia
+                                         dementia (PLWD) are cared for by unpaid informal caregivers            caregiving and disease management [22]. Through online
+                                         (e.g., family members, friends, or other unpaid caregivers)            communities, informal dementia caregivers seek support and
+                                         [2]. In 2021, over 11 million informal dementia caregivers             are willing to share experiences and practical information that
+                                         provided 16 billion hours of care to PLWD [1]. While this care         they believe will assist other caregivers [23]. A study analyzing
+                                         was valued at nearly $271.6 billion, it imposed a substantial          an Alzheimer’s caregiver group on Facebook found that online
+                                         physical, financial, and mental burden on these informal care-         peer social support had decreased the caregivers’ burden while
+                                         givers [3]. Additionally, 30% of informal dementia caregivers          increasing their emotional and informational well-being [3].
+                                         are aged 65 or older [1]. They are likely to experience reduced        Similarly, a survey found that increased online activity among
+caregivers was associated with lower levels of depression and       reviewed and deemed exempt from human subjects research by
+loneliness [24]. In addition, many online communities provide       the Vanderbilt University Medical Center Institutional Review
+the added benefits like supporting anonymity, asynchronous          Board.
+participation, and connection to numerous caregivers without        A. Questionnaire Design
+physical location and time constraints [25], which provide
+a cost-effective and convenient way for informal dementia              We designed the survey based on the Andersen and Newman
+caregivers to gain support and access resources.                    Framework of Health Services Utilization (ANFHSU), where
+   Based on the Internet utilization, informal dementia care-       an informal dementia caregiver’s access to or utilization of
+givers can be categorized into: 1) non-Internet caregivers who      online peer support is considered to be a function of three
+never use the Internet; 2) non-online-community caregivers          characteristics (see Figure 1):
+who use the Internet but do not participate in online commu-           Predisposing Factors, which are the socio-cultural charac-
+nities; and 3) online-community caregivers who both use the         teristics of individuals or other factors that exist before being a
+Internet and participate in online communities. Current social      dementia caregiver. Specifically, we included the predisposing
+media-based dementia caregiving research primarily focuses          factors as follows:
+                                                                       • Socio-demographics. They include age, biological sex,
+on online-community caregivers [24]–[26]. While improving
+the online experiences of these caregivers is important [27],             education level, race and ethnicity, occupational status,
+understanding how non-online-community caregivers perceive                and income. We also inquired about the number of
+the value of online peer support is significant as well. This             children that are taken care of (if applicable), since the
+will inform the development of interventions for non-online-              “sandwich generation” caregivers encounter non-trivial
+community caregivers in utilizing and benefiting from online              life balance [22].
+                                                                       • Relationship between the caregiver and the PLWD. This
+peer support, thereby helping to mitigate the potential digital
+divide and decreasing existing health disparities in accessing            is because caregivers who have different relationships
+online peer support [28].                                                 with a PLWD face different caregiving challenges and
+   Hence, the primary objective of this research is to gain               burdens.
+                                                                       • Belief in the value of online peer support. We asked
+insight into the perceptions and utilization of online commu-
+nity support among informal dementia caregivers, specifically,            five 7-point Likert scale (from “Strongly disagree” to
+non-online-community caregivers and online-community care-                “Strongly agree”) questions: Do you believe that reading
+givers. To do so, we designed and administered a survey based             online discussions from, or directly writing posts to
+on the Andersen and Newman Framework of Health Services                   discuss with, other caregivers whom you do not know in
+Utilization (ANFHSU) [29]. ANFHSU is a classical model to                 the real world will help a) find caregiving resources that
+identify and describe the factors that may affect a person’s              you need, b) increase caregiving knowledge, c) increase
+access to and utilization of health services. We distributed              understanding of the disease and patient, d) improve
+the survey through the Alzheimer’s Association using their                caregiving skills, e) increase confidence in caregiving,
+online website and ALZConnected community and obtained                    f) reduce caregiving stress or f) reduce the feeling of
+responses from 100 online-community caregivers and 40 non-                loneliness as a caregiver?
+                                                                       • Health of the caregiver. We collected the factor through
+online-community caregivers during a three-month period. Our
+findings suggest that online peer support is valuable, but                a 7-point Likert scale question.
+practical strategies are needed to assist caregivers with limited      Enabling Factors, which refer to the logistic aspects of
+time or online information-searching skills. This investigation     accessing online peer support.
+marks the initial step towards addressing a long-term research         • Access to high-speed network band, which is an important
+
+objective, aiming to comprehensively elucidate the intricate              contributor to the digital [30].
+mechanisms underlying online social support in dementia                • eHealth Literacy. It is measured through the eHealth
+
+caregiving.                                                               Literacy Scale (eHEALS) [31], which evaluates if a care-
+                                                                          giver has can process online health-related information.
+                        II. M ETHODS                                   Need Factors, which refer to the most immediate cause of
+   We begin this section with the definition of online peer         seeking online peer support.
+support. While peer support groups can be organized in an on-          • Health of the PLWD. For simplicity, caregivers report the
+line format (e.g., via Zoom meetings), the online peer support            dementia stage for PLWD as an early, middle, or late
+in this paper refers to the communications between informal               stage.
+dementia caregivers who may not know each other in real                • Care Involvement. This is measured through two ques-
+life but connect in online communities, forums, or websites               tions: 1) How long have you been taking care of the
+(e.g., Twitter, Facebook, Reddit, or ALZConnected). More                  PLWD (caregiving duration)? and 2) how frequently do
+broadly, since reading online caregiving discussions from other           you care for the PLWD per week (caregiving workload)?
+caregivers can be a way to learn information, resources, or               This design is based on the fact that dementia caregiving
+caregiving skills, we also treat reading online posts as a                is a long-term dynamic process, and the weekly caregiv-
+behavior of seeking online peer support. This project was                 ing workload will affect the need for online peer support.
+Fig. 1. The Predispoing, Enabling, and Need factors in the Andersen and Newman Framework of Health Service Utilization (ANFHSU). Please refer to the
+main text for the detailed components of each key factor.
+
+
+
+  •  Caregiving Challenges. This question collects the most                survey link through two online locations. The first is ALZ-
+     challenging issues that caregivers have faced when caring             Connected where we posted the survey link at the top of the
+     for the PLWD.                                                         thread board in its two major caregiver forums: 1) Caregivers
+   • Offline Support Sources. Where to obtain support in the               Forum and 2) Spouse or Partner Caregiver Forum. The second
+     real world to handle the aforementioned challenges?                   is the Alzheimer’s Association website (https://www.alz.org/)
+   • Satisfaction with any support received in offline environ-            where an advertisement for this survey was created to allow
+     ments (7-point Likert scale).                                         any person who visited the website would have a chance
+   • Caregiving stress. This is important psychological well-              to access the survey link. Since this website is a popular
+     being that many interventions focus on improving. The                 information source for dementia patients and caregiving, this
+     intuition is that the more stress a caregiver experiences,            is where we expected to obtain survey responses from non-
+     the more likely they will seek support. We measure this               online-community caregivers.
+     factor using the Zarit Burden Interview (12-item) scale
+     [32].                                                                 C. Analysis
+   • Caregiver Competence. This is a self-evaluation of one’s
+                                                                              We performed three types of analysis. First, we summarized
+     capacity to care for the PLWD. We measure this factor
+                                                                           the answers to the multiple-choice questions by illustrating the
+     using the CARERS Interview (4-item) scale [33].
+                                                                           distribution of each selected choice. This was done to paint a
+The rationale of the design of the survey is that, if an                   broad picture of who the responded caregivers are, and their
+informal dementia caregiver finds offline support insufficient             perception and utilization of online peer support.
+in solving their caregiving challenges, they may turn to online               Second, we summarized the answers to the open-ended
+environments for peer support.                                             questions through manual annotation. This is not a trivial
+   In addition to the ANFHSU factors, we surveyed each                     task because the responses were filled with free text and
+participant’s experience in using online peer support in the               there were no pre-defined categories before the annotation. To
+past three months (behavior). For the survey participants who              address these issues, two authors (CN, QS) read the responses
+are already online community users, we identified, 1) Which                and annotated the categories for each open-ended question
+online platforms have you visited in the past three months?                independently. Next, both annotators compared and discussed
+2) How frequently did you visit those online communities?                  their summarized categories to create the final categories with
+3) Will you intend to revisit these online communities in the              category names and definitions. Then, both independently
+next three months (intention)? 4) If the answer to question 3)             modified their annotations with the agreed categories, again.
+is yes, what are your motivations for revisiting these online              For each response, we adopted a conservative approach and
+communities? For participants who are not online community                 only reported the interaction of the categories summarized by
+users, we asked them an open-ended question regarding why                  the two annotators.
+they did not seek online peer support in the past three months.               Finally, we fitted a logistic regression model (R v4.2.2) to
+                                                                           analyze how the proposed ANFHSU factors were associated
+B. Implementation and Dissemination                                        with utilizing online peer support. Due to the small sample
+   We implemented the survey questionnaire in REDCap                       size, we converted some categorical variables into binary ones.
+(https://www.project-redcap.org/), a secure web application for            Specially, we encoded gender as female/non-female, race as
+building and managing online surveys. We distributed the                   white/non-white, education level as a 4-year college degree
+                                                             TABLE I
+                    S UMMARY OF THE SOCIO - DEMOGRAPHICS AND CAREGIVING BASICS OF THE 140 SURVEY PARTICIPANTS .
+
+                  Characteristic                  Participants (N = 140)     Characteristic        Participants (N = 140)
+                  Age                                                        Age of PLWD
+                  Mean (SD)                                 54 (± 13.5)      Mean (SD)                         76 (±9.5)
+                  Range                                         [19, 87]     Range                               [46, 97]
+                  Gender                                                     Gender of PLWD
+                  Female                                      123 (87%)      Female                             91 (65%)
+                  Male                                         16 (11%)      Male                               49 (35%)
+                  Undifferentiated                               1 (1%)      Relationship
+                  Race                                                       Adult child                        71 (51%)
+                  White                                       126 (90%)      Spouse/Partner                     41 (29%)
+                  Asian                                          8 (6%)      Other Relative                     19 (14%)
+                  Black or African American                      5 (4%)      Grandchild                           6 (4%)
+                  Unknown                                        1 (1%)      Neighbor                             1 (1%)
+                  Ethnicity                                                  Friend                               1 (1%)
+                  Not Hispanic or Latino                      130 (93%)      Other                                1 (1%)
+                  Hispanic or Latino                            10 (7%)      Dementia Stage
+                  Education Level                                            Early-stage                        24 (17%)
+                  4-year college degree above                  57 (41%)      Middle-stage                       86 (61%)
+                  4-year college graduate                      32 (23%)      Late-stage                         30 (21%)
+                  Some college or 2-year degree                40 (29%)      Caregiving Duration
+                  High school or GED                            11 (8%)      <6 months                           12 (9%)
+                  Employment Status                                          6 - 12 months                       13 (9%)
+                  Full-time                                    57 (41%)      1 - 2 years                        35 (25%)
+                  Retired                                      40 (29%)      2 - 4 years                        35 (25%)
+                  Part-time                                    22 (16%)      >4 years                           45 (32%)
+                  Unemployed                                   21 (15%)      Caregiving Workload
+                  #Cared Children                                            <1 time a week                       6 (4%)
+                  1                                            15 (11%)      1 - 2 times a week                 21 (15%)
+                  2                                            20 (14%)      3 - 6 times a week                 20 (14%)
+                  3                                              2 (1%)      Daily                              93 (66%)
+                  >3                                             3 (2%)
+                  Does not apply                              100 (71%)
+                  Annual Income
+                  Less than $25,000                            24 (17%)
+                  $25,000 - $49,999                            30 (21%)
+                  $50,000 - $74,999                            26 (19%)
+                  $75,000 - $99,999                            21 (15%)
+                  $100,000 - $149,999                          28 (20%)
+                  $150,000 or more                              11 (8%)
+
+
+
+or above/below 4-year college degree, access to high-speed                 4-year college education level. Only 40% of these caregivers
+network as yes/no, relationship as spouse/non-spouse, and all              were employed, and 29% took care of the PLWD and at least
+the other categorical variables (e.g., annual income, dementia             one child simultaneously. The caregivers’ annual income was
+stage, caregiving duration, and caregiving workload) as ordinal            approximately uniformly distributed from less than $25,000 to
+variables (e.g., numerical values with equal distance). A two-             a range between $100,000 and $149,999. Only 8% of these
+sided p-value smaller than 0.05 is considered to be statistically          caregivers earned more than $149,999.
+significant.                                                                  The age of the PLWDs ranged from 46-97 with a mean of
+                                                                           76, and 65% were female. A majority of the PLWD’s care-
+                         III. R ESULTS                                     givers were their adult children (51%), followed by spouses
+   We distributed the survey link on November 14, 2022,                    or partners (29%), and other relatives (14%). Over 60% of
+leaving it open for over three months until Feb 23, 2023.                  these PLWDs were at the middle stage, 21% were at the late
+During this time period, we collected responses from 172                   stage, and 17% were at the early stage. 18% of the respondents
+dementia caregivers. Among these participants, 140 (81.4%)                 reported taking care of their PLWD for < 1 year, 32% for > 4
+completed the entire survey.                                               years, and 66% provided daily care.
+A. Characteristics of Caregivers and their PLWD                            B. Caregiving Challenges and Support Sources
+  Table I summarizes the socio-demographics of the dementia                   Figure 2 summarizes reported caregiving challenges and
+caregivers, their relationship with PLWD, care involvement,                the sources where caregivers seek support. The main care-
+and the PLWD’s dementia stage. These caregivers are aged                   giving challenges include dealing with a PLWD’s memory
+19-87 with a mean of 54, and a majority are female (88%)                   issue (29%), supporting a PLWD in their daily life (such
+or White (90%). Over 60% of these caregivers had a 4-year                  as showering and transportation; 21%), and maintaining a
+college or plus degree, compared to 36% who had below a                    balanced life (17%). It should be noted that this category
+                             Fig. 2. Summary of caregiving challenges (left) and specific support sources (right).
+
+
+
+includes the ability to balance between 1) taking care of one’s             Figure 5 provides a detailed illustration, in the form of a
+children and a PLWD; 2) work and caregiving; and 3) social               heatmap, of the responses to each belief category (left) and the
+life and caregiving. Dealing with the emotional fluctuations of          correlation in the responses (right). It shows that obtaining the
+the PLWD (15%) and financial issues (10%) were also major                needed resources, increasing the understanding of the patient
+caregiving challenges. Some caregivers expressed concerns                and disease, and improving caregiving skills and confidence
+about the dementia treatment (8%) for PLWD and their own                 were the top “believed” values of online peer support. By
+mental health issues (7%).                                               contrast, reducing caregiving stress and loneliness of being
+                                                                         a caregiver was slightly more challenging. However, both
+C. Satisfaction of Support and Network Access                            categories received more “Likely” responses than “Unlikely”
+   Figure 3 depicts the distribution of caregivers’ satisfaction         responses, with 57% and 65% of caregivers selecting at least
+with the support they sought and their access to a high-speed            “Likely” responses, respectively. There are several interesting
+network. 69 (49%) caregivers reported an “agree” or above                observations here: First, reducing loneliness as a caregiver
+about the satisfaction of their sought support. Among the                was highly correlated with reducing stress. Second, improving
+54 caregivers who reported negative experience (39%), 12                 caregiving skills was highly correlated with increasing caregiv-
+reported “extremely disagree” (9%), indicating the challenging           ing confidence. Third, reducing stress was correlated with im-
+situation faced by these caregivers. Only 6 caregivers reported          proving caregiving skills and increasing caregiving confidence.
+that they could not access a high-speed network.                         While correlation does not necessarily imply causation, these
+                                                                         results suggest that improving caregiving skills and reducing
+D. Measures of Caregiving Stress and Competence, eHEALS,                 loneliness may help reduce caregiving stress.
+and Belief
+   Figure 4 illustrates the distribution of the score associated         E. Utilization of Online Peer Support
+with caregiving stress, caregiving competence, eHealth lit-                 Among the 140 survey participants, 40 caregivers (29%)
+eracy, and a caregiver’s belief in the value of peer support             reported never using any online community to either read
+from an online environment. The Chronbach’s Alpha, which                 online caregiving discussions or discuss caregiving issues with
+measures the internal consistency of a questionnaire or survey           other online peers in the past three months. The regression
+(the higher, the better), of these measures was 0.86 (95% con-           analysis showed that only the belief score was statistically
+fidence interval (CI) [0.82, 0.89]), 0.83 (95% CI [0.78, 0.87]),         significantly associated with the utilization of online peer
+0.87 (95% CI [0.84, 0.90]), and 0.87 (95% CI [0.83, 0.89]),              support (β = 0.11, sd = 0.041, p = 0.006). All of the
+respectively. This indicates a very good internal consistency.           other factors, including socio-demographics, care duration and
+Specifically, there are 121 (84%) caregivers who had a stress            workload, dementia stage, access to a high-speed network,
+score above 30 (the score when “neutral” is selected for all the         eHealth literacy, stress score, and competence score, did not
+questions, similar below), 67 (48%) who had a competence                 have statistically significant effects. Particularly, 33 of the 40
+score above 12, 138 (99%) who had eHealth literacy score                 (83%) non-online-community caregivers had a belief score
+above 20, and 125 (89%) who had belief score above 24. These             above 24, the score when “neutral” is selected for all the
+results suggested that most of the caregivers were in stressful          questions. Reasons for not using any online community to
+caregiving experiences, had high eHealth literacy, and believed          access online peer support were no time for online activities
+in the value of online peer support. However, over half of these         due to the intensive caregiving workload (14; 10%), followed
+caregivers were not confident in their caregiving skills.                by limited online searching skills (9; 6%), unreliable online in-
+                  Fig. 3. Distribution of satisfaction in support that was sought (left) and access to a high-speed network (right).
+
+
+
+formation (6; 4%), and security/privacy concerns (2; 1%). Four              these three caregivers in our respondents believe in the value
+(3%) caregivers reported not wanting to spend time online after             of online peer support, but may not know how to search online
+working on a computer during the daytime. Interestingly, 99                 communities for peer support. Notably, the caregiver who
+of the 100 online-community caregivers reported an intention                relied on books for information seeking exhibited the lowest
+to revisit online communities in the following three months.                belief score of 25, indicating the survey result’s reliability.
+The only caregiver who did not do so said that too many                        Another main result of this study was that, whether an in-
+sad stories in online communities made her worry about her                  formal dementia caregiver accessed online health communities
+father’s future.                                                            in the past three months depended upon their beliefs in the
+                                                                            value of peer support obtained from online health communities
+            IV. D ISCUSSION AND C ONCLUSION                                 but not upon their socio-demographics or any other ANFHSU
+   This section discusses the implications of our research                  factors. For example, one caregiver who said ”I don’t find
+findings, limitations, and future directions.                               comfort from strangers on the internet. I would love to and I
+   First, when comparing with the Alzheimer’s Facts and                     am willing to go to an in-person meeting of a support group,
+Figures (AFF) in 2022 [1], we observed that our survey                      but I don’t have anyone to watch my mother so that I could
+recruited a similar proportion of caregivers who were Hispanic              attend” exhibited a belief score of 14, which is logical based
+caregivers (7% vs. 8% in AFF) and Asian caregivers (6% vs.                  on their reason for not accessing any online communities. At
+5% in AFF). However, the proportion of Black or African                     the same time, it further highlights the dilemma that there is
+American caregivers we recruited was far below that reported                limited time to attend local support groups because of intensive
+in AFF (4% vs. 10%), which suggests that Asian and Hispanic                 caregiving [15]. Another caregiver with a belief score of 14
+caregivers are more likely to participate in research studies               indicated the health insurance could only cover 40 days of
+compared to Black caregivers [34]. To gain greater insight into             at-home-nursing support in one year, which made their family
+the situation, we reviewed the responses of the five caregivers             feel so “helpless and alone”. Despite various reasons for not
+who reported Black race. We found that two of the caregivers                using online health communities in the past three months, over
+accessed online communities in the past three months, with                  80% of respondents exhibited a belief score above 24. This
+one (age 49, college degree, stress score of 51) reporting this             suggests that online peer support is valuable to them, but an
+at least once a week and the other (age 50, more than a 4-                  effective strategy to “bridge” their needs and the desired online
+year college degree, stress score of 19) reporting doing this               peer support is needed.
+when she had a caregiving question that needed an answer.                      There are, however, several limitations to this study that can
+Among the three remaining caregivers reporting Black race                   serve as a basis for future research. First, since we distributed
+who did not access any online community in the past three                   our survey link in the ALZConnected online community and
+months, one (age 60, 4-year college degree, stress score of                 the Alzheimer’s Association’s website, our results may be bi-
+55) said “I have used books and I think some information on                 ased towards online-community users. A less biased approach
+the internet can be misinterpreted”, and another one (age 29,               may be designed to collect data that reflects the perception and
+some college or 2-year degree, stress score of 55) said “In                 utilization of online peer support in the dementia caregiver
+recently started looking for online communities”, while the                 population. Making online peer support beneficial to non-
+third (age 30, some college or 2-year degree, stress score of               Internet caregivers is equally essential, but how to address the
+52) said they were “unaware”. However, all their belief scores              Internet access issue is a priority and is beyond the scope of
+were above 24 and ranged from 25 to 42, which suggests that                 this study. Second, only a small percentage of the participants
+Fig. 4. Distribution of scores of the four measures. The red vertical lines in caregiving Stress, eHealth Literacy, and Belief in online peer support corresponds
+to the scores when “neutral” or “undecided” is selected for all the questions in each measure. The red vertical line in caregiving competence corresponds to
+the score when the “fairly” option is selected for all the questions.
+
+
+
+are caregivers reported Black race. Increasing participation                           givers,” International journal of geriatric psychiatry, vol. 27, no. 6, pp.
+with this group would increase the understanding of their                              628–636, 2012.
+                                                                                   [3] S. Oh and S. Y. Syn, “Motivations for sharing information and social
+perception and utilization of online peer support. Third, the                          support in social media: A comparative analysis of f acebook, t witter,
+analysis was based on 140 completed responses with limited                             d elicious, y ou t ube, and f lickr,” Journal of the Association for
+power. While statistically significant findings were discovered,                       Information Science and Technology, vol. 66, no. 10, pp. 2045–2060,
+                                                                                       2015.
+larger sample sizes are needed to investigate this research more
+                                                                                   [4] L. L. Barnes, C. M. De Leon, R. S. Wilson, J. L. Bienias, and D. A.
+accurately. Fourth, we asked what kinds of offline support                             Evans, “Social resources and cognitive decline in a population of older
+were received to address the caregiving challenges in an                               african americans and whites,” Neurology, vol. 63, no. 12, pp. 2322–
+open-ended question. Some caregivers included online peer                              2326, 2004.
+                                                                                   [5] L. Boss, D.-H. Kang, and S. Branson, “Loneliness and cognitive function
+support in their free text, such that the answer to the following                      in the older adult: a systematic review,” International psychogeriatrics,
+question (satisfaction of the offline support) was not aligned                         vol. 27, no. 4, pp. 541–553, 2015.
+with the original design. Future investigations should clarify or                  [6] L. Fratiglioni, H.-X. Wang, K. Ericsson, M. Maytan, and B. Winblad,
+convert this question into a multiple-choice version. Finally,                         “Influence of social network on occurrence of dementia: a community-
+                                                                                       based longitudinal study,” The lancet, vol. 355, no. 9212, pp. 1315–1319,
+it is essential to study how to help caregivers without time                           2000.
+or sufficient information-searching skills screen the online                       [7] J. Holt-Lunstad, T. B. Smith, and J. B. Layton, “Social relationships and
+caregiving discussions they need. Overall, our findings serve as                       mortality risk: a meta-analytic review,” PLoS medicine, vol. 7, no. 7, p.
+                                                                                       e1000316, 2010.
+valuable evidence for leveraging online peer support to assist                     [8] J. Holt-Lunstad, T. B. Smith, M. Baker, T. Harris, and D. Stephenson,
+informal dementia caregivers effectively.                                              “Loneliness and social isolation as risk factors for mortality: a meta-
+                                                                                       analytic review,” Perspectives on psychological science, vol. 10, no. 2,
+                              R EFERENCES                                              pp. 227–237, 2015.
+                                                                                   [9] A. Wennberg, C. Dye, B. Streetman-Loy, and H. Pham, “Alzheimer’s
+ [1] A. Association, “2022 Alzheimer’s Disease Facts and Figures,” https://            patient familial caregivers: a review of burden and interventions,” Health
+     www.alz.org/media/Documents/alzheimers-facts-and-figures.pdf, 2022,               & Social Work, vol. 40, no. 4, pp. e162–e169, 2015.
+     [Online; accessed March 11, 2023].                                           [10] M. Devor and M. Renvall, “An educational intervention to support
+ [2] A. Corbett, J. Stevens, D. Aarsland, S. Day, E. Moniz-Cook, R. Woods,             caregivers of elders with dementia,” American Journal of Alzheimer’s
+     D. Brooker, and C. Ballard, “Systematic review of services providing              Disease & Other Dementias®, vol. 23, no. 3, pp. 233–241, 2008.
+     information and/or advice to people with dementia and/or their care-         [11] T. Kwok, A. Au, B. Wong, I. Ip, V. Mak, and F. Ho, “Effectiveness of
+Fig. 5. The number of survey participants in each pair of belief category and scale. Resources: help find resources; Understanding: understanding patients
+or the disease; Skill: improve caregiving skill; Confidence, increase caregiving confidence or competence; Stress: reduce caregiving stress; Loneliness: reduce
+the feeling of loneliness as a caregiver.
+
+
+
+     online cognitive behavioral therapy on family caregivers of people with            dementia from online communities through a structured topic modeling
+     dementia,” Clinical Interventions in Aging, pp. 631–636, 2014.                     approach,” in AMIA Annual Symposium Proceedings, vol. 2022. Amer-
+[12] S.-T. Cheng, E. P. Mak, T. Kwok, H. Fung, and L. C. Lam, “Benefit-                 ican Medical Informatics Association, 2022, p. 149.
+     finding intervention delivered individually to alzheimer family care-         [23] S. Erdelez, S. F. Tanacković, and K. P. Balog, “Online behavior of
+     givers: Longer-term outcomes of a randomized double-blind controlled               the alzheimer’s disease patient caregivers on croatian online discussion
+     trial,” The Journals of Gerontology: Series B, vol. 75, no. 9, pp. 1884–           forum,” Proceedings of the Association for Information Science and
+     1893, 2020.                                                                        Technology, vol. 56, no. 1, pp. 78–88, 2019.
+[13] S. Sanders, C. H. Ott, S. T. Kelber, and P. Noonan, “The experience           [24] M. Leszko, “The role of online communication among spousal care-
+     of high levels of grief in caregivers of persons with alzheimer’s disease          givers of individuals with alzheimer’s disease,” Journal of Women &
+     and related dementia,” Death studies, vol. 32, no. 6, pp. 495–523, 2008.           Aging, vol. 32, no. 4, pp. 462–480, 2020.
+[14] R. T. Woods, M. Orrell, E. Bruce, R. T. Edwards, Z. Hoare, B. Houn-           [25] P. Hodgkin, L. Horsley, and B. Metz, “The emerging world of online
+     some, J. Keady, E. Moniz-Cook, V. Orgeta, J. Rees et al., “Remcare:                health communities,” Stanford Social Innovation Review, 2018.
+     pragmatic multi-centre randomised trial of reminiscence groups for peo-       [26] C. Ni, B. Malin, L. Song, A. Jefferson, P. Commiskey, and Z. Yin,
+     ple with dementia and their family carers: effectiveness and economic              ““rough day. . . need a hug”: Learning challenges and experiences of
+     analysis,” PloS one, vol. 11, no. 4, p. e0152843, 2016.                            the alzheimer’s disease and related dementia caregivers on reddit,” in
+[15] H. Brodaty, C. Thomson, C. Thompson, and M. Fine, “Why caregivers of               Proceedings of the International AAAI Conference on Web and Social
+     people with dementia and memory loss don’t use services,” International            Media, vol. 16, 2022, pp. 711–722.
+     journal of geriatric psychiatry, vol. 20, no. 6, pp. 537–546, 2005.           [27] C. Vaughan, T. E. Trail, A. Mahmud, S. Dellva, T. Tanielian, and
+[16] V. M. Ta Park, Q. Ly, J. von Oppenfeld, Y. Lee, Y. Joo, H.-W. Shin,                E. Friedman, “Informal caregivers’ experiences and perceptions of a
+     Y. Rhee, and L. G. Park, “A scoping review of dementia caregiving for              web-based peer support network: mixed-methods study,” Journal of
+     korean americans and recommendations for future research,” Clinical                medical Internet research, vol. 20, no. 8, p. e257, 2018.
+     gerontologist, vol. 46, no. 2, pp. 223–239, 2023.
+                                                                                   [28] A. Olagoke, H. Kaur, and A. M. Hughes, “Digital divide among care-
+[17] J. Bruinsma, K. Peetoom, C. Bakker, L. Boots, F. Verhey, and
+                                                                                        givers of chronic disease patients,” in Proceedings of the International
+     M. de Vugt, “‘they simply do not understand’: a focus group study
+                                                                                        Symposium on Human Factors and Ergonomics in Health Care, vol. 8,
+     exploring the lived experiences of family caregivers of people with
+                                                                                        no. 1. SAGE Publications Sage CA: Los Angeles, CA, 2019, pp. 43–46.
+     frontotemporal dementia,” Aging & Mental Health, vol. 26, no. 2, pp.
+     277–285, 2022.                                                                [29] R. Andersen and N. JF, “Andersen and newman framework of health
+[18] R. A. Beeson, “Loneliness and depression in spousal caregivers of those            services utilization,” Journal of Health and Social Behavior, vol. 36,
+     with alzheimer’s disease versus non-caregiving spouses,” Archives of               no. March, pp. 1–10, 1995.
+     psychiatric nursing, vol. 17, no. 3, pp. 135–143, 2003.                       [30] C. K. Sanders and E. Scanlon, “The digital divide is a human rights is-
+[19] M. Kovaleva, S. Spangler, C. Clevenger, and K. Hepburn, “Chronic                   sue: Advancing social inclusion through social work advocacy,” Journal
+     stress, social isolation, and perceived loneliness in dementia caregivers,”        of Human Rights and Social Work, vol. 6, pp. 130–143, 2021.
+     Journal of psychosocial nursing and mental health services, vol. 56,          [31] C. D. Norman and H. A. Skinner, “eheals: the ehealth literacy scale,”
+     no. 10, pp. 36–43, 2018.                                                           Journal of medical Internet research, vol. 8, no. 4, p. e507, 2006.
+[20] Z. Yin, W. Xie, and B. A. Malin, “Talking about my care: detecting            [32] M. Bédard, D. W. Molloy, L. Squire, S. Dubois, J. A. Lever, and
+     mentions of hormonal therapy adherence behavior in an online breast                M. O’Donnell, “The zarit burden interview: a new short version and
+     cancer community,” in AMIA Annual Symposium Proceedings, vol. 2017.                screening version,” The gerontologist, vol. 41, no. 5, pp. 652–657, 2001.
+     American Medical Informatics Association, 2017, p. 1868.                      [33] W. Pan, B. Feng, and C. Shen, “Examining social capital, social support,
+[21] Z. Yin, B. Malin, J. Warner, P.-Y. Hsueh, and C.-H. Chen, “The power               and language use in an online depression forum: social network and
+     of the patient voice: learning indicators of treatment adherence from an           content analysis,” Journal of Medical Internet Research, vol. 22, no. 6,
+     online breast cancer forum,” in Proceedings of the International AAAI              p. e17365, 2020.
+     Conference on Web and Social Media, vol. 11, no. 1, 2017, pp. 337–346.        [34] N. J. Barrett, K. L. Ingraham, T. V. Hawkins, and P. G. Moorman,
+[22] K. Cheng and Z. Yin, ““please advise”: Understanding the needs of                  “Engaging african americans in research: the recruiter’s perspective,”
+     informal caregivers of people with alzheimer’s disease and related                 Ethnicity & disease, vol. 27, no. 4, p. 453, 2017.
+

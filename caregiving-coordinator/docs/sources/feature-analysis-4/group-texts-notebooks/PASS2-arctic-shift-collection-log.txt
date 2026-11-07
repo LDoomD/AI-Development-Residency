@@ -1,0 +1,102 @@
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=personalfinance&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry1 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=personalfinance&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry2 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=personalfinance&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+POSTS 'personalfinance' 'everplans' -> 2
+POSTS 'EstatePlanning' 'everplans' -> 2
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=LifeProTips&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry1 Too many requests https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=LifeProTips&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry0 Too many requests https://arctic-shift.photon-reddit.com/api/posts/search?query=caring+village&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry0 Too many requests https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1i56ze6&limit=100&sort=asc&fields=id%2Cbody%2Ccreated_utc%2Csubreddit%2Cparent_id%2Cscore
+retry1 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=caring+village&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+COMMENTS 1i56ze6 page0 -> 2
+COMMENTS 1tmpm3i page0 -> 6
+retry0 Too many requests https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1r7scv7&limit=100&sort=asc&fields=id%2Cbody%2Ccreated_utc%2Csubreddit%2Cparent_id%2Cscore
+retry2 Too many requests https://arctic-shift.photon-reddit.com/api/posts/search?query=caring+village&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+COMMENTS 1r7scv7 page0 -> 8
+COMMENTS mb0o23 page0 -> 100
+COMMENTS mb0o23 page1 -> 100
+retry3 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=caring+village&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+COMMENTS mb0o23 page2 -> 100
+COMMENTS mb0o23 page3 -> 100
+COMMENTS mb0o23 page4 -> 100
+COMMENTS mb0o23 page5 -> 100
+COMMENTS mb0o23 page6 -> 100
+COMMENTS mb0o23 page7 -> 19
+COMMENTS 1jwq5te page0 -> 4
+COMMENTS 1q4s3sb page0 -> 0
+COMMENTS 1qk7k7k page0 -> 0
+POSTS 'CaregiverSupport' 'caring village' -> 12
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=caring+village&subreddit=AgingParents&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry1 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=caring+village&subreddit=AgingParents&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+COMMENTS 1ohiafw page0 -> 33
+COMMENTS 1tvy6e1 page0 -> 39
+COMMENTS 13uowge page0 -> 19
+COMMENTS 1n1rbmb page0 -> 18
+COMMENTS 1n1ottl page0 -> 8
+COMMENTS 1m48zh6 page0 -> 16
+COMMENTS 1wna5m4 page0 -> 11
+COMMENTS 1mgp8vt page0 -> 16
+COMMENTS 1gjgtgp page0 -> 11
+COMMENTS 1nq99ci page0 -> 11
+COMMENTS 12xgw3a page0 -> 9
+COMMENTS 1sp6alh page0 -> 11
+COMMENTS 1fvhrl2 page0 -> 9
+COMMENTS 1xavusx page0 -> 4
+COMMENTS 1ex5hig page0 -> 15
+COMMENTS 1ctlkl5 page0 -> 7
+COMMENTS 1lje9hv page0 -> 7
+COMMENTS 1w4r4ld page0 -> 8
+COMMENTS 1p6pf7i page0 -> 6
+COMMENTS 1norrqe page0 -> 6
+COMMENTS 1thguab page0 -> 4
+COMMENTS 1u6mbn6 page0 -> 3
+COMMENTS 1xhlfvc page0 -> 7
+COMMENTS 1vbe8my page0 -> 8
+COMMENTS 1ocibas page0 -> 19
+COMMENTS 1sj5u9l page0 -> 0
+COMMENTS 1e2c8u9 page0 -> 2
+COMMENTS 1l804fr page0 -> 3
+COMMENTS 1x4ejkv page0 -> 1
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1v9qevr&limit=100&sort=asc&fields=id%2Cbody%2Ccreated_utc%2Csubreddit%2Cparent_id%2Cscore
+COMMENTS 1v9qevr page0 -> 0
+COMMENTS 1x3k3jd page0 -> 2
+COMMENTS 1jf1w7n page0 -> 28
+COMMENTS 1n2pezc page0 -> 4
+COMMENTS 1af8zpl page0 -> 44
+COMMENTS 1ricuz1 page0 -> 23
+COMMENTS 1qjr6ug page0 -> 100
+COMMENTS 1qjr6ug page1 -> 7
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1ezdae9&limit=100&sort=asc&fields=id%2Cbody%2Ccreated_utc%2Csubreddit%2Cparent_id%2Cscore
+COMMENTS 1ezdae9 page0 -> 4
+COMMENTS 1lu35be page0 -> 0
+POSTS 'personalfinance' 'everplans' -> 2
+POSTS 'EstatePlanning' 'everplans' -> 2
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=LifeProTips&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+POSTS 'LifeProTips' 'everplans' -> 1
+POSTS 'AgingParents' 'everplans' -> 0
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry1 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+COMMENTS 1vq70er page0 -> 26
+COMMENTS 1qcv5e4 page0 -> 15
+COMMENTS 1i0tdtm page0 -> 3
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/comments/search?link_id=14rxg4k&limit=100&sort=asc&fields=id%2Cbody%2Ccreated_utc%2Csubreddit%2Cparent_id%2Cscore
+retry2 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+COMMENTS 14rxg4k page0 -> 7
+COMMENTS 1sp6alh page0 -> 11
+retry3 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+COMMENTS 1el0weu page0 -> 21
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1jjmxea&limit=100&sort=asc&fields=id%2Cbody%2Ccreated_utc%2Csubreddit%2Cparent_id%2Cscore
+COMMENTS 1jjmxea page0 -> 18
+COMMENTS 1d4f8tm page0 -> 14
+COMMENTS 1lp4e2e page0 -> 13
+retry4 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+COMMENTS 1nlnlvy page0 -> 19
+COMMENTS 1iopf27 page0 -> 12
+COMMENTS 12ylt55 page0 -> 16
+retry5 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+GAVEUP https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=CaregiverSupport&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+POSTS 'CaregiverSupport' 'everplans' -> FAIL
+POSTS 'dementia' 'everplans' -> 0
+retry0 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=legaladvice&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry1 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=legaladvice&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
+retry2 Timeout. Maybe slow down a bit https://arctic-shift.photon-reddit.com/api/posts/search?query=everplans&subreddit=legaladvice&limit=100&fields=id%2Ctitle%2Cselftext%2Ccreated_utc%2Csubreddit%2Cnum_comments
