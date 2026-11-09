@@ -524,3 +524,27 @@ Why: independent auditors read these pages live and found evidence that changes 
 Not committed: `live-pages/raw/il.html`, the raw Illinois page. It embeds a public map token that GitHub's push protection blocked. The text copy `il-money-management-program.txt` holds the same content. The file stays on the owner's computer.
 
 Limits: Alabama voucher rules, local availability, and later changes to these pages were not checked. Draft that uses them: `docs/clean-deliverables/competitive-analysis-4-changes-draft-2026-11-06.md`.
+
+## 2026-11-07: Anthropic docs on skills and file navigation (`anthropic-skills-navigation/`)
+
+Why: to check that the `Resources/` week folders and the `residency-context` skill let Claude find the right week's files. Downloaded 2026-11-07 as markdown (add `.md` to each page's address). Web pages have no page numbers, so claims cite the saved file and line number.
+
+| File | Source and what it covers |
+|---|---|
+| `claude-code-skills.md` (1,258 lines) | https://code.claude.com/docs/en/skills: where skills load from, frontmatter, arguments, shell injection, size and description limits. Read in full by a helper; 13 quotes re-checked by the owner's Claude. |
+| `claude-code-memory.md` (667 lines) | https://code.claude.com/docs/en/memory: how CLAUDE.md loads, `@` imports, `.claude/rules/` and `paths:`, added directories, size limits. Read in full by a helper; 13 quotes re-checked. |
+| `agent-skills-overview.md` (405 lines) | https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview: the three loading levels, name and description rules, surfaces that do not sync. Read in full by a helper; quotes re-checked. |
+| `agent-skills-best-practices.md` (1,191 lines) | https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices: one-level-deep references, table of contents over 100 lines, naming, testing. Read in full by a helper; quotes re-checked. |
+| `claude-code-permissions.md` (834 lines) | https://code.claude.com/docs/en/permissions: only the "Working directories" section (lines 662 to 683) was read, to answer whether a sibling folder is readable without a prompt. |
+
+Limits: none of these says whether a skill may point at files outside its own folder, or how a plain relative path in `SKILL.md` resolves. Those are untested.
+
+## 2026-11-07: Skill++ paper on skill routing (`arxiv-2611-00544/`)
+
+Why: the owner found it while we checked that the `residency-context` skill will be picked correctly. Downloaded from https://arxiv.org/pdf/2611.00544v1 (20 pages, preprint v1 dated 31 Oct 2026, not peer reviewed). All 20 pages were read. Cite by PDF page number.
+
+| File | What it is |
+|---|---|
+| `arxiv-2611.00544v1.pdf` | "Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement" (Zhang et al.). As a skill library grows, a router that reads only names and descriptions starts picking the wrong skill. The paper rewrites each new skill's name and description at install time (differentiate, add "does not cover", clarify the name). |
+
+Limits: text-only tests; routers were GPT, Claude Haiku 4.5 and Qwen models plus the Codex CLI agent. Claude Code itself was not tested. The paper does not study folder layout, file paths or how a skill reaches files outside its folder.

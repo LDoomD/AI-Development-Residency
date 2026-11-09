@@ -140,3 +140,5 @@ Full rules: `caregiving-coordinator/CLAUDE.md` and the memory files. Most likely
 - **Checks run:** quotes machine-checked in every research file (about 1,000, all but a few matched); independent audits of all three company groups and both candidate groups; git and PR state read with `git` and `gh`.
 - **Not checked:** the history helper's output (it was still running); whether every change in the 20-cell draft matches the audits exactly (taken from the audit summaries); ConsumerAffairs invited-review status; real use of any product; replies on Reddit beyond the threads fetched; the Oct 28 session transcript; whether Figma changed after today.
 - **How this prevents drift:** each decision is tagged Approved or Proposed, the open decisions are listed, the first step is to finish the report and show it, and the owner's rules are in section 7.
+
+> **Replaced by** `dogfood-2026-11-07-handoff-feature-comparison-analysis.md` (2026-11-07). The competitive analysis is finished and in Figma. Its project tables are superseded by section 2 of the new report.
