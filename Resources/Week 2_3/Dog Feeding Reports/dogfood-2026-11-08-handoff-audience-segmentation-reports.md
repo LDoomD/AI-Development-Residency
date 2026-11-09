@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → audience segmentation reference reports (2026-11-08)
 
+> Replaced by: `dogfood-2026-11-09-handoff-vision-and-scope.md` (2026-11-09).
+
 Replaces: none. It sits beside `dogfood-2026-11-07-handoff-feature-comparison-analysis.md`, which still holds the feature comparison plan and the audience, market and competitive outcomes.
 
 > Paste to start: "Read this handoff report. Confirm in a few lines where we are and what the audience segmentation reference reports start from. Then ask me for the first audience segmentation table as a CSV and wait. Keep replies short, plain, and one thing at a time. Confirm every change against the saved research and original sources before making it."
