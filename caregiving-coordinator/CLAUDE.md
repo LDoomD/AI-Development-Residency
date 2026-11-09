@@ -94,10 +94,10 @@ checked documents, never from chat memory.
 > update them in order.
 
 - **Start of session:** ask for the latest dog feeding report in
-  `../Dog Feeding Docs/` (newest `dogfood-*.md`, one folder per week) and the saved documents it lists.
+  `../Resources/<week folder>/Dog Feeding Reports/` (newest `dogfood-*.md`) and the saved documents it lists.
   Read them all, then say what you have and what is missing.
 - **Where reports go:** save every new dog feeding report or starting brief
-  straight into `../Dog Feeding Docs/<week folder>/` (for example `Week 2_3`),
+  straight into `../Resources/<week folder>/Dog Feeding Reports/` (for example `Week 2_3`),
   organized by the course week. Ask which week if unsure.
 - **A dog feeding report is a handoff report (owner, 2026-11-05).** Its outcome:
   the next Claude, in a new session or the same one, can start the next
@@ -115,7 +115,7 @@ checked documents, never from chat memory.
 
   A list of what happened is not enough. Name it
   `dogfood-<date>-handoff-<next deliverable>.md`, and say which older reports
-  it replaces. Example: `Dog Feeding Docs/Week 2_3/dogfood-2026-11-05-handoff-feature-analysis.md`.
+  it replaces. Example: `Resources/Week 2_3/Dog Feeding Reports/dogfood-2026-11-08-handoff-audience-segmentation-reports.md`.
 - **One part at a time.** Do only the step the user asks, then stop and wait.
   The user makes each choice. Never start the next step or change other work
   unasked.

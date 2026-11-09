@@ -1,0 +1,20 @@
+"Section 3, table 3b: Top Problems Sources and Limits"
+"Who the posts are about, other problems found, and what table 3a cannot show. Read this before drawing conclusions from 3a."
+Note type,Note
+About this table,"The problems family caregivers write about most, with each kind of source side by side."
+Who is cared for: Reddit sample,"Parent 269 (65%), other relative 68 (17%), spouse or partner 35 (8%), paid client 11 (3%), child 3 (1%), unclear 26 (6%) (of 412)"
+Who is cared for: forums,"Parent 55, spouse or partner 54, other relative 5, unclear 3 (of 117)"
+Who is cared for: what it means,Reddit is mostly adult children caring for a parent. The forums were split because ALZConnected has many spouses.
+Other problems in the Reddit sample: how counted,"Main topic, not in the 14 forum themes."
+Other problem in the Reddit sample,"Hands-on personal care, equipment and supplies 17 (4%)"
+Other problem in the Reddit sample,Technology the older person can't use or is misled by 9 (2%)
+Other problem in the Reddit sample,End-of-life decisions and conversations 7 (2%)
+Other problem in the Reddit sample,Paid caregivers asking about their own work 7 (2%)
+Other problem in the Reddit sample,Sharing good moments 7 (2%)
+Other problem in the Reddit sample,One-offs 20 (5%)
+Where the files are,Grouping: docs/sources/market-analysis-3/other-groups.json.
+Limit,"One reader coded each post once, and no person double-checked."
+Limit,"The sample is posts only (no comments), mostly from r/CaregiverSupport and r/AgingParents (357 of 412)."
+Limit,Reddit and forum writers choose to post and lean toward hard moments.
+Limit,Percentages from about 400 posts can move a few points by chance.
+Where the files are,"Data: docs/sources/market-analysis-3/ (build_sample.py, CODING-INSTRUCTIONS.md, codes/, count_themes.py)."
