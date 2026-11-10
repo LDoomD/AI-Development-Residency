@@ -1,6 +1,8 @@
 # Competitive analysis 4: updated tables, version for review (2026-11-07)
 
 > **DRAFT FOR THE OWNER'S REVIEW. Figma is not changed.** This is a new version. The approved original (`competitive-preview-2026-11-05.md`) is untouched.
+>
+> **Updated 2026-11-09 to match the Figma V2 fixes** (node 2949:2168, owner approved). Three places changed, each marked **[changed 2026-11-09]**: Gap 1, Gap 4 and the respite evidence row. The other Figma fixes are in parts this file doesn't hold (part 1, table 2a, table 3 and the intro).
 
 **What this is:** the 20 changed cells from `competitive-analysis-4-changes-draft-2026-11-06.md`, applied to the approved tables 4a (profiles) and 4c (needs met). Each changed cell ends with **[changed]**. Evidence for each change is in the draft.
 
@@ -39,7 +41,7 @@ Care manager price now reads $150 to $350 an hour everywhere, to match cell 18. 
 
 ## Still not in the 20 (not changed)
 
-- **Section 5, Gap 1:** says every competitor gets Partly or No on refusing parent and relatives sharing. Still true after the changes, but it quotes the advisor who told a family to lie. Cell 8 now says one complaint, and also that guides exist.
+- **Section 5, Gap 1:** says every competitor gets Partly or No on refusing parent and relatives sharing. Still true after the changes, but it quotes the advisor who told a family to lie. Cell 8 now says one complaint, and also that guides exist. **Fixed 2026-11-09:** Gap 1 now says "one complaint," to match cell 8 and Figma V2.
 
 ## 4a, Competitor profiles (changed cells: 17 to 20)
 
@@ -92,7 +94,7 @@ Care manager price now reads $150 to $350 an hour everywhere, to match cell 18. 
 ## 5. Gaps we could fill (changed: care manager price)
 
 1. **No one handles a parent who refuses help or gets relatives to share the work.**
-   - **Gap:** every competitor gets Partly or No on both. A Place for Mom's advisor even told a family to lie to the parent. Caring Village can't get relatives to join.
+   - **Gap:** no competitor gets a Yes on either. Most get Partly or No, and 3 can't be scored yet. One complaint says an A Place for Mom advisor suggested lying to the parent. Caring Village can't get relatives to join. **[changed 2026-11-09, matches Figma V2]**
    - **Opening:** help that works around a refusing parent and splits real tasks among relatives.
 2. **Personal, ongoing guidance is mostly locked behind an employer or a $150-an-hour bill.** **[changed: "(Reworded 2026-11-05 after the audit.)" removed]**
    - **Gap:**
@@ -112,7 +114,7 @@ Care manager price now reads $150 to $350 an hour everywhere, to match cell 18. 
 4. **Relief exists, but caregivers can't reach it.** **[changed: "(New in version 2.)" removed]**
    - **Gap:**
      - 39% of caregivers say respite would help, but only 13% have ever used it (AARP/NAC 2025, PDF pp.26-27).
-     - In caregiver posts, 128 used respite, 78 couldn't get it and 81 were still looking.
+     - Of 341 caregiver posts about respite, 128 used it, 78 couldn't get it, 81 were looking, 18 tried and stopped, 32 only mentioned it and 4 recommended it. **[changed 2026-11-09, matches Figma V2]**
      - Cost, the parent refusing, family not helping, eligibility rules, waitlists and rigid hours block it, for adult children most of all. Spouses face the same blocks, in a slightly different order.
      - Respite services and the VA give real relief once a family gets in.
    - **Opening:** helping caregivers find, qualify for, pay for and actually use relief, including getting the parent to agree and relatives to cover.
@@ -133,7 +135,7 @@ Care manager price now reads $150 to $350 an hour everywhere, to match cell 18. 
 | Free and public help is limited: Medicare GUIDE, the VA, the Alzheimer's helpline, Area Agencies | Company and program pages | 2 |
 | 132 posts about getting into a parent's accounts | Market analysis, segment 10 | 3 |
 | Health data and consent are a risk | 4a, Competitor profiles **[changed: was "Step 4 note"]** | 3 |
-| Respite: 39% would like it, 13% use it; 128 used, 78 couldn't get it, 81 looking; blocks by audience | AARP/NAC 2025; audience segmentation, use case 1 | 4 |
+| Respite: 39% would like it, 13% use it. Of 341 respite posts: 128 used, 78 couldn't get it, 81 looking, 18 tried and stopped, 32 only mentioned it, 4 recommended it **[changed 2026-11-09]** | AARP/NAC 2025; market analysis, segment 11 **[changed 2026-11-09]** | 4 |
 
 **[changed]** The "Used for" column became **"Gap"**, and "Takeaway 1" became "1," because the section calls them gaps. The two "medicines and choosing a place" rows were removed: they support the "Also noted" line, not a gap.
 
