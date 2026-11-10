@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → product vision and scope (2026-11-09)
 
+> **Replaced by:** `dogfood-2026-11-10-handoff-vision-and-scope-part-3.md` (Parts 1 and 2 of the vision and scope are done).
+
 Replaces: `dogfood-2026-11-08-handoff-audience-segmentation-reports.md` (all its steps are done or carried over here). It sits beside `dogfood-2026-11-07-handoff-feature-comparison-analysis.md`, which still holds the feature comparison plan (deferred, section 3).
 
 > Paste to start: "Read this handoff report and the three master reports it lists. Confirm in a few lines where we are and what the vision and scope starts from. Then ask me for the vision and scope template and which audience goes first, and wait. Keep replies short, plain, and one thing at a time. Confirm every change against the saved research and original sources before making it."
