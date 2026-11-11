@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → vision and scope, Part 3 onward (2026-11-10)
 
+Replaced by: `dogfood-2026-11-10-handoff-positioning-statements.md`
+
 Replaces: `dogfood-2026-11-09-handoff-vision-and-scope.md` (its steps 1 to 4 are done; its open decisions are answered or carried over here).
 
 > Paste to start: "Read this handoff report, the three master reports and the lecture parts it lists. Confirm in a few lines where we are and what Part 3 starts from. Then ask me whether Part 3 picks the top 3 or the top 5 problems, and wait. Keep replies short, plain, and one thing at a time. Suggest only verified data (Approved or Fact)."
