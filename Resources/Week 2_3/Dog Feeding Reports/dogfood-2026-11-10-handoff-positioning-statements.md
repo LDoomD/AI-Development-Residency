@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → positioning statements (2026-11-10)
 
+Replaced by: `dogfood-2026-11-11-handoff-epics-features-tasks.md`
+
 Replaces: `dogfood-2026-11-10-handoff-vision-and-scope-part-3.md` (its Part 3 work is done; its open decisions are answered or carried over here).
 
 > Paste to start: "Read this handoff report and the vision and scope record it lists. Confirm in a few lines where we are. Then ask me which open decision to take first (positioning statements, or skipping the roadmap), and wait. Keep replies short, plain, and one thing at a time. Suggest only verified data (Approved or Fact)."
