@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → epics, features and tasks (2026-11-11)
 
+Replaced by: `dogfood-2026-11-11-handoff-requirements.md`
+
 Replaces: `dogfood-2026-11-10-handoff-positioning-statements.md` (its next milestone, positioning, is done; its open decisions are answered or carried over here). Also confirms `dogfood-2026-11-10-handoff-vision-and-scope-part-3.md` stays replaced.
 
 > Paste to start: "Read this handoff report and the 2 records it lists (positioning and vision and scope). Confirm in a few lines where we are. Run `gh pr view 44`. Then ask me which comes next (epics, features and tasks; the Notion copy; or the roadmap question), and wait. Keep replies short, plain, and one thing at a time. Suggest only verified data (Approved or Fact)."
