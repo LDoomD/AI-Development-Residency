@@ -1,0 +1,303 @@
+ How to build and maintain HIPAA-compliant applications on Vercel | Vercel Knowledge Base 
+ Skip to content 
+ Copy Wordmark Copy Logo 
+ Download Brand Assets Brand Guidelines 
+ Docs Build Build with AI
+ AI Gateway 
+ AI SDK 
+ Sandbox 
+ Container Registry 
+ Workflow 
+ Vercel Agent 
+ v0 ↗ 
+ Vercel MCP 
+ AI Integrations 
+ Deploy & scale
+ Deployments 
+ CLI 
+ Functions 
+ Delivery Network 
+ Storage 
+ Integrations 
+ Microfrontends 
+ Domains 
+ Operate & protect
+ Firewall 
+ Observability 
+ Feature Flags 
+ Toolbar 
+ Bot Management 
+ BotID 
+ Deployment Protection 
+ Compliance 
+ Learn Resources
+ Changelog ↗ 
+ Blog ↗ 
+ Community ↗ 
+ Knowledge Base 
+ APIs & SDKs 
+ Templates 
+ Getting Started 
+ Ask AI Log In Sign Up 
+ Build Build with AI
+ AI Gateway 
+ AI SDK 
+ Sandbox 
+ Container Registry 
+ Workflow 
+ Vercel Agent 
+ v0 ↗ 
+ Vercel MCP 
+ AI Integrations 
+ Deploy & scale
+ Deployments 
+ CLI 
+ Functions 
+ Delivery Network 
+ Storage 
+ Integrations 
+ Microfrontends 
+ Domains 
+ Operate & protect
+ Firewall 
+ Observability 
+ Feature Flags 
+ Toolbar 
+ Bot Management 
+ BotID 
+ Deployment Protection 
+ Compliance 
+ Learn Resources
+ Changelog ↗ 
+ Blog ↗ 
+ Community ↗ 
+ Knowledge Base 
+ APIs & SDKs 
+ Templates 
+ Getting Started 
+ Ask AI Sign Up Log In 
+ Agent Stack
+ AI SDK 
+ AI Gateway 
+ Sandbox 
+ Workflows 
+ Connect New 
+ Passport New 
+ eve New 
+ Core Platform
+ Build and deploy 
+ Vercel CI New 
+ Fluid Compute 
+ Content Delivery 
+ Observability 
+ Security
+ Platform Security 
+ WAF 
+ Bot Management 
+ BotID 
+ Tools
+ Vercel Drop 
+ Vercel Agent 
+ Vercel Plugin 
+ Agent Skills 
+ Domains 
+ v0 
+ Frameworks
+ eve New 
+ Next.js 
+ Nuxt 
+ SvelteKit 
+ Nitro 
+ Turborepo 
+ Tanstack Start 
+ FastAPI 
+ All frameworks 
+ SDKs
+ Vercel SDK 
+ Workflow SDK 
+ Flags SDK 
+ Chat SDK 
+ Queues SDK 
+ Streamdown 
+ Build
+ AI Apps 
+ Web Apps 
+ Marketing Sites 
+ Platforms 
+ Commerce 
+ Platform Engineers 
+ Design Engineers 
+ Learn
+ Docs 
+ Blog 
+ Changelog 
+ Knowledge Base 
+ Academy 
+ Articles 
+ Community 
+ Is Agentic 
+ Explore
+ Customers 
+ Marketplace 
+ Templates 
+ Partner Finder 
+ Vercel + AWS 
+ Company
+ About 
+ Careers 
+ Press 
+ Events 
+ Startups 
+ Shipped on Vercel 
+ Open Source Program 
+ Enterprise 
+ Pricing 
+ Help 
+ Legal & Trust
+ Privacy Policy 
+ Terms of Service 
+ Cookie Policy 
+ DPA 
+ Acceptable Use Policy 
+ Legal (all documents) 
+ Trust Center 
+ Status 
+ Cookie Preferences 
+ Social
+ GitHub 
+ X 
+ LinkedIn 
+ YouTube 
+ Instagram 
+ How to build and maintain HIPAA-compliant applications on Vercel
+ Deploy HIPAA-compliant healthcare apps on Vercel with built-in security, BAAs, and scalable serverless infrastructure.
+ Vercel 
+ Knowledge Base Security 
+ 3 Nov 2025
+ 8 min read Copy 
+ Add as preferred 
+ Add as preferred 
+ If you're building healthcare software that creates, receives, maintains, or transmits Protected Health Information (PHI), HIPAA compliance isn't optional, and where you deploy that software matters. This guide explains how Vercel supports HIPAA compliance and walks you through configuring your application to meet your obligations.
+ Important: HIPAA compliance is a shared responsibility between the customer and Vercel, and customers are ultimately responsible for ensuring their own compliance with all applicable laws and regulations. 
+ This guide is for informational purposes only and does not constitute legal advice. Each customer is responsible for independently evaluating its own use of the services, in accordance with our Shared Responsibility Model . Consult your own legal advisors on how to configure your use of the Vercel platform to maintain compliance with the data privacy laws and security standards relevant to your business. 
+ With that in place, here's how to take an application from deployed on Vercel to deployed on Vercel and configured for HIPAA.
+ Copy link to heading What HIPAA requires before you deploy
+ Before you configure anything, get clear on what HIPAA governs. The Health Insurance Portability and Accountability Act (HIPAA) is one of the most significant sectoral privacy regulations in the United States.
+ The Secretary for Health and Human Services (HHS) developed a set of required national standards that protect the confidentiality, integrity, and availability of health data. Two categories of organization, covered entities and business associates, must comply with these standards so that health data is transmitted without compromising its security.
+ Knowing which category you fall into matters, because it decides who signs what and where Vercel fits. That's the next thing to establish.
+ Copy link to heading How Vercel supports HIPAA compliance
+ Vercel supports HIPAA compliance as a business associate. In practice, we commit to three things:
+ We implement and maintain appropriate technical and organizational security measures designed to safeguard a customer's Protected Health Information (PHI).
+ We notify customers of any data breaches without undue delay.
+ We sign Business Associate Agreements (BAAs) with customers.
+ Vercel also conducts a HIPAA audit annually. For more information about this and our other compliance frameworks, see the Vercel Trust Center .
+ Once the BAA relationship is in place, much of the HIPAA-relevant security is already handled by the platform. Here's what that covers.
+ Copy link to heading What Vercel's security architecture covers for HIPAA
+ Vercel's security architecture provides several advantages for HIPAA compliance before you write a line of configuration. The three areas healthcare teams ask about most are global infrastructure, serverless architecture, and zero-configuration security.
+ Copy link to heading Global infrastructure with consistent security
+ Vercel's HIPAA BAA covers our entire global infrastructure, and that coverage gives healthcare organizations several advantages. Multi-regional redundancy keeps your healthcare applications available during regional outages, supporting the business continuity requirements essential to patient care systems.
+ Our CDN places your application closer to users, reducing latency for time-sensitive healthcare services. Security controls remain consistent across all regions, so you don't have to manage varying implementations from one region to the next. Because there are no geographic restrictions on compliant deployments, you can serve patients globally while maintaining HIPAA compliance.
+ Copy link to heading Serverless architecture benefits
+ Vercel's serverless approach carries security advantages for healthcare applications. Serverless functions reduce the attack surface, limiting potential entry points for attackers targeting sensitive health information.
+ Automatic scaling keeps your application responsive during usage spikes without manual intervention, which matters for healthcare systems that see sudden demand. Built-in security features operate without additional configuration, and ephemeral execution environments create a fresh environment for each execution, reducing the risk of persistent vulnerabilities.
+ Copy link to heading Zero-configuration security
+ Vercel handles several security requirements automatically, so your developers can focus on building applications rather than configuring security. Automatic HTTPS with SSL/TLS encryption protects patient data in transit and meets HIPAA transmission-security requirements without additional setup.
+ Built-in DDoS mitigation and a Web Application Firewall safeguard healthcare applications from common attack vectors. Integrated bot management and threat detection identify and mitigate suspicious activity before it affects patient data or service availability, and secure-by-default configurations apply across all services.
+ These advantages come standard. The next step is knowing which services fall under the BAA and how responsibility is divided.
+ Copy link to heading Which Vercel services fall under the HIPAA BAA
+ Vercel provides a secure infrastructure for storing and processing PHI. Understanding the division of security and compliance duties between Vercel and customers is essential for effective HIPAA implementation.
+ When implementing security features, consult your organization's legal, compliance, and IT security advisors to determine the configuration requirements that align with your HIPAA obligations and risk management strategy. For the full division of duties, see our security and compliance measures .
+ Copy link to heading Core platform services
+ Our foundational services are designed with security in mind and fully covered under the BAA:
+ CDN for secure, global content delivery
+ Vercel Functions for secure serverless application logic
+ Global Config for low-latency configuration and feature-flag data
+ Build and deploy pipeline with security controls throughout
+ Environment variable management for secure credential handling
+ Static IPs for secure integration with healthcare backends
+ These services form the baseline for a HIPAA-ready deployment, and each one is included in the BAA you sign with Vercel.
+ Copy link to heading Enterprise security features
+ Healthcare organizations benefit from our enterprise-grade security capabilities:
+ Vercel Secure Compute: Isolated cloud networks with dedicated IP addresses that provide security boundaries for sensitive workloads.
+ Fine-grained RBAC and access control: Identity and access management that integrates with existing healthcare identity systems.
+ Audit logging: Activity tracking that supports compliance requirements and security investigations.
+ Together, these controls give healthcare teams network isolation, access governance, and an audit trail that HIPAA risk assessments tend to scrutinize first.
+ Copy link to heading Development and integration tools
+ Our secure development tools support the entire healthcare application lifecycle:
+ Vercel CLI and development tools for secure local development
+ Git integrations and version control for code integrity and auditability
+ Marketplace integrations with HIPAA-compliant providers for extended functionality
+ Third-party service integrations that connect to your existing healthcare technology stack
+ Knowing what's covered is half the work. The other half is configuring it correctly for your application.
+ Copy link to heading How to configure Vercel for HIPAA compliance
+ This is where the shared responsibility model becomes concrete. Set up the following platform controls and workflow practices.
+ Copy link to heading Security settings
+ Start with the platform controls that map most directly to your HIPAA obligations:
+ Enable Secure Compute: Available on Enterprise plans, Secure Compute gives you control over which resources can access your information through private, isolated cloud environments and dedicated outgoing IP addresses.
+ Set up VPC peering and VPN support: Built on top of Secure Compute, these let you create fewer entry points into your networks by establishing secure tunnels within your AWS infrastructure.
+ Configure custom domains: Serve traffic over your own domains with valid SSL/TLS certificates.
+ Set up team management: Apply role-based access controls so team members only reach what they need.
+ Enable audit logging: Turn on audit logging for compliance monitoring and reporting.
+ Configure environment variables: Store credentials in environment variables rather than in code.
+ Configure these once, and they apply to every deployment in the project, which keeps your security posture consistent as the application grows.
+ Copy link to heading Development best practices
+ Keep your delivery workflow as disciplined as the platform configuration. Implement proper separation between development, staging, and production environments using custom environments, so PHI never reaches a preview or test context that isn't covered by your controls.
+ With the platform configuration locked down, turn to where your PHI actually lives.
+ Copy link to heading How to secure your databases and storage for HIPAA
+ Most PHI ends up in a database or storage layer, and much of that sits outside Vercel. Treat those integrations with the same rigor you apply to the platform itself.
+ Copy link to heading External database integration
+ Apply the same scrutiny to every provider that touches PHI on your behalf:
+ Confirm your database providers offer HIPAA-compliant services.
+ Execute BAAs with those providers.
+ Verify encryption at rest and in transit.
+ Implement proper backup and disaster recovery procedures.
+ Use Static IPs or Secure Compute to securely reach backend providers.
+ Each provider that stores or processes PHI is a business associate in its own right, so the BAA chain has to extend all the way down your stack.
+ Copy link to heading Data residency and backup
+ Know where your data lives and how you would recover it:
+ Understand your data storage locations and their cross-border implications.
+ Implement appropriate backup retention policies.
+ Confirm disaster recovery procedures meet your business continuity requirements.
+ Document data handling procedures for audit purposes.
+ Documenting these decisions now gives you the paper trail an auditor or breach investigation will ask for later. Once your data is secured, compliance becomes a matter of maintaining that security.
+ Copy link to heading How to maintain HIPAA compliance over time
+ HIPAA compliance isn't a one-time setup. The teams that stay compliant treat it as an ongoing practice rather than a launch checklist, built around regular monitoring and current records.
+ Copy link to heading Ongoing monitoring
+ Build these reviews into a recurring cadence rather than a one-time pass:
+ Review access logs and audit trails regularly.
+ Monitor security alerts and incidents continuously.
+ Review team member access and permissions periodically.
+ Assess third-party integrations and dependencies regularly.
+ Catching access drift and dependency changes early is what keeps a compliant launch from quietly becoming a noncompliant production system.
+ Copy link to heading Compliance auditing
+ Keep your evidence current so you can demonstrate compliance on demand:
+ Document all security configurations and procedures.
+ Maintain records of risk assessments and mitigation strategies.
+ Prepare for compliance audits and assessments.
+ Review and update security policies regularly.
+ Well-maintained records turn an audit from a scramble into a routine review.
+ Copy link to heading Next steps
+ Vercel gives healthcare teams a HIPAA-ready foundation. Our BAA covers the entire global infrastructure; services are secure by default; and enterprise controls like Secure Compute, fine-grained RBAC, and audit logging provide the network isolation and access governance that HIPAA assessments look for. Your side of the shared responsibility model is to configure those controls, vet your database and storage providers, and maintain monitoring over time.
+ To put that foundation in place from your first deploy, start a Vercel project . To begin from a working example instead, browse the templates .
+ Copy link to heading Related resources
+ Shared Responsibility Model 
+ Security and compliance measures 
+ Vercel Secure Compute 
+ Vercel supports HIPAA compliance 
+ Vercel Trust Center 
+ Copy link to heading Frequently asked questions
+ Copy link to heading How can my organization sign a BAA with Vercel?
+ The HIPAA BAA is available to Enterprise and Pro customers who are covered entities or business associates under HIPAA. Pro customers purchase the HIPAA add-on under Settings \> Billing in the dashboard to obtain a BAA. Enterprise customers should contact their Customer Success Manager or Account Executive.
+ Copy link to heading Does having a BAA with Vercel guarantee HIPAA compliance?
+ No. A BAA helps support your HIPAA compliance, but using Vercel doesn't automatically make your organization compliant. You remain responsible for your own compliance programs and internal processes, and for ensuring that your specific use of Vercel aligns with HIPAA requirements throughout your application.
+ Copy link to heading My healthcare SaaS runs on Vercel. Do my customers need their own BAA?
+ No. If you're a SaaS provider with a healthcare solution on Vercel, your customers can sign a BAA directly with you. Your own BAA with Vercel already covers the infrastructure your product runs on. They don't need a separate BAA with Vercel, unless they also use Vercel services independently of your product.
+ Copy link to heading Is Vercel a conduit or a business associate under HIPAA?
+ Generally, Vercel is a business associate. Our services typically involve creating, receiving, maintaining, or transmitting PHI, which qualifies Vercel as a business associate. The conduit exception is limited and applies only to pure transmission services with temporary storage incident to that transmission.
+ Copy link to heading Can I store PHI internationally and stay HIPAA compliant?
+ Yes. HIPAA permits international data storage with proper BAAs and safeguards in place. You must conduct a risk assessment that considers geographic and geopolitical risks, then implement additional safeguards as needed to protect PHI stored or processed outside your primary region.
+ Ready to deploy?
+ Start deploying Talk to an expert 
+ Loading status…
+ Select a display theme: system light dark 
+ 

@@ -1,0 +1,399 @@
+Configuring regions for Vercel Functions
+Skip to content
+Copy WordmarkCopy Logo
+Download Brand AssetsBrand GuidelinesDocs
+Build
+Build with AI
+AI Gateway
+AI SDK
+Sandbox
+Container Registry
+Workflow
+Vercel Agent
+v0↗
+Vercel MCP
+AI Integrations
+Deploy & scale
+Deployments
+CLI
+Functions
+Delivery Network
+Storage
+Integrations
+Microfrontends
+Domains
+Operate & protect
+Firewall
+Observability
+Feature Flags
+Toolbar
+Bot Management
+BotID
+Deployment Protection
+ComplianceLearn
+Resources
+Changelog↗
+Blog↗
+Community↗
+Knowledge Base
+APIs & SDKs
+TemplatesGetting Started
+Ask AI
+Log InSign Up
+Build
+Build with AI
+AI Gateway
+AI SDK
+Sandbox
+Container Registry
+Workflow
+Vercel Agent
+v0↗
+Vercel MCP
+AI Integrations
+Deploy & scale
+Deployments
+CLI
+Functions
+Delivery Network
+Storage
+Integrations
+Microfrontends
+Domains
+Operate & protect
+Firewall
+Observability
+Feature Flags
+Toolbar
+Bot Management
+BotID
+Deployment Protection
+Compliance
+Learn
+Resources
+Changelog↗
+Blog↗
+Community↗
+Knowledge Base
+APIs & SDKs
+Templates
+Getting Started
+Ask AI
+Sign UpLog In
+Search Docs⌘ K
+Start
+Getting started
+Fundamentals
+Frameworks
+Incremental Migration
+Production Checklist
+Agent Checklist
+Build AI apps
+AI Gateway
+Token Pass
+AI SDK
+Chat SDK
+MCP
+Vercel Connect
+Agent Harnesses
+Agent Resources
+Run agents and backends
+Functions
+Fluid Compute
+Routing Middleware
+Background Workers
+Schedules
+Queues
+Daemons
+Workflows
+Sandbox
+Container Registry
+Ship and scale
+Projects
+Git
+Drop
+new
+CLI
+Monorepos
+Builds
+CI
+Deployments
+Domains
+Vercel for Platforms
+Routing
+CDN
+Microfrontends
+Storage
+Integrations
+Vercel Agent
+Services
+Observe and improve
+Observability
+Agent Runs
+Vercel Toolbar
+Feature Flags
+Rolling Releases
+Instant Rollback
+Secure and govern
+Firewall
+Bot Management
+BotID
+Deployment Protection
+Key Management
+Passport
+new
+Identity & Access
+Networking
+Security & Compliance
+Manage
+Pricing
+Plans
+Spend Management
+Limits
+Notifications
+Support Center
+Reference
+Project Configuration
+REST API
+Vercel SDK
+Build Output API
+Webhooks
+Marketplace APIs
+Checks
+Errors
+Glossary
+Functions
+Overview
+Getting Started
+Streaming
+WebSockets
+RuntimesExpand menu
+Node.jsExpand menu
+Bun
+PythonExpand menu
+Rust
+Go RuntimeGo
+Ruby
+Wasm
+Container
+Configuring FunctionsExpand menu
+Duration
+Memory
+Runtime
+Region
+Advanced Configuration
+API ReferenceExpand menu
+Node.js
+Python
+Logs
+Limits
+Concurrency Scaling
+Debug Slow Functions
+PricingExpand menu
+Legacy Usage & Pricing
+OG Image GenerationExpand menu
+@vercel/og
+Examples
+On this page
+Setting your default region
+Dashboard
+Project configuration
+Per-function configuration
+Vercel CLI
+Limits
+Available regions
+Automatic failover
+Node.js runtime failover
+Copy pageCopy page
+Configuring regions for Vercel Functions
+Copy pageCopy page
+The Vercel platform caches all static content in the CDN by default. This means your users will always get static files like HTML, CSS, and JavaScript served from the region that is closest to them. See the regions page for a full list of our regions.
+In a globally distributed application, the physical distance between your function and its data source can impact latency and response times. Therefore, Vercel allows you to specify the region in which your functions execute, ideally close to your data source (such as your database).
+By default, Vercel Functions execute in Washington, D.C., USA (iad1) for all new projects to ensure they are located close to most external data sources, which are hosted on the East Coast of the USA. You can set a new default region through your project's settings on Vercel
+You can define the region in your vercel.json using the regions setting
+You can set your region in the Vercel CLI
+You can override regions for individual functions using the functions property in your project configuration
+Setting your default region
+The default Function region is Washington, D.C., USA (iad1) for all new projects.
+Dashboard
+To change the default regions in the dashboard:
+Choose the appropriate project from your dashboard on Vercel
+Open Settings in the sidebar
+From the left side, select Functions
+Use the Function Regions accordion to select your project's default regions:
+The Function Regions setting in a Vercel project's dashboard
+Project configuration
+To change the default region in your vercel.json configuration file, add the region code(s) to the "regions" key:
+vercel.json
+{
+ "$schema": "https://openapi.vercel.sh/vercel.json",
+ "regions": ["sfo1"]
+}
+Additionally, Pro and Enterprise teams can deploy Vercel Functions to multiple regions. See Limits for the number of regions available on each plan.
+Enterprise users can also use functionFailoverRegions to specify regions that a Vercel Function should failover to if the default region is out of service.
+Per-function configuration
+You can override the project-level regions and functionFailoverRegions settings for individual functions using the functions property in your project configuration. This is useful when different functions access different data sources in different regions.
+vercel.json
+{
+ "$schema": "https://openapi.vercel.sh/vercel.json",
+ "regions": ["iad1"],
+ "functionFailoverRegions": ["cle1"],
+ "functions": {
+ "api/eu-data.js": {
+ "regions": ["cdg1"],
+ "functionFailoverRegions": ["lhr1"]
+ },
+ "api/us-west.js": {
+ "regions": ["sfo1"],
+ "functionFailoverRegions": ["pdx1"]
+ }
+ }
+}
+In this example:
+api/eu-data.js runs in Paris (cdg1) and fails over to London (lhr1)
+api/us-west.js runs in San Francisco (sfo1) and fails over to Portland (pdx1)
+All other functions use the project-level defaults: Washington, D.C. (iad1) with Cleveland (cle1) as failover
+Per-function regions accepts an array of region identifiers. Per-function functionFailoverRegions is Enterprise only and accepts up to 4 region identifiers. When set on a function, these values completely override the corresponding project-level setting for that function.
+Vercel CLI
+Pass --regions to vercel deploy (or the default vercel command) from your project's root directory with a region value, for example vercel --regions sfo1. The flag requires a region value; running vercel --regions on its own fails with option requires argument: --regions. Learn more about setting regions with the --regions flag in the CLI docs.
+Limits
+The number of regions your functions can run in depends on your plan:
+Plan
+Function regions
+Hobby
+Single region
+Pro
+5 regions
+Enterprise
+All regions
+Deploying to more regions than your plan allows causes the deployment to fail before the build step.
+Vercel deploys Routing Middleware to all regions by default, regardless of your region settings. On the Hobby plan, Routing Middleware runs in fewer regions.
+If your functions communicate with external services, choosing regions far
+from those services increases latency. Select only regions close to your
+external services.
+Available regions
+To learn more about the regions that you can set for your Functions, see the region list.
+Automatic failover
+Vercel Functions have multiple availability zone redundancy by default. Multi-region redundancy is available depending on your runtime.
+Node.js runtime failover
+Setting failover regions are available on Enterprise plans
+Enterprise teams can enable multi-region redundancy for Vercel Functions using Node.js.
+To automatically failover to the closest region in the event of an outage:
+Select your project from your team's dashboard
+Open Settings in the sidebar and select Functions
+If your project uses fluid compute, select Advanced Settings. Then enable the Function Failover toggle:
+To manually specify the fallback region, you can pass one or more regions to the functionFailoverRegions property in your vercel.json file:
+vercel.json
+{
+ "$schema": "https://openapi.vercel.sh/vercel.json",
+ "functionFailoverRegions": ["dub1", "fra1"]
+}
+You can also set functionFailoverRegions on a per-function basis using the functions property. See per-function configuration above.
+The region(s) set in the functionFailoverRegions property must be different from the default region(s) specified in the regions property.
+During an automatic failover, Vercel will reroute application traffic to the next closest region, meaning the order of the regions in functionFailoverRegions does not matter. For more information on how failover routing works, see functionFailoverRegions.
+You can view your default and failover regions through the deployment summary:
+Failover regions for your Vercel functions shown in the deployment summary.
+Region failover is supported with Secure Compute. See Region Failover to learn more.
+Last updated August 11, 2026
+Previous
+Runtime
+Next
+Advanced Configuration
+Was this helpful?
+supported.
+Send
+Functions
+Configuring FunctionsRegion
+Agent Stack
+AI SDK
+AI Gateway
+Sandbox
+Workflows
+ConnectNew
+PassportNew
+eveNew
+Core Platform
+Build and deploy
+Vercel CINew
+Fluid Compute
+Content Delivery
+Observability
+Security
+Platform Security
+WAF
+Bot Management
+BotID
+Tools
+Vercel Drop
+Vercel Agent
+Vercel Plugin
+Agent Skills
+Domains
+v0
+Frameworks
+eveNew
+Next.js
+Nuxt
+SvelteKit
+Nitro
+Turborepo
+Tanstack Start
+FastAPI
+All frameworks
+SDKs
+Vercel SDK
+Workflow SDK
+Flags SDK
+Chat SDK
+Queues SDK
+Streamdown
+Build
+AI Apps
+Web Apps
+Marketing Sites
+Platforms
+Commerce
+Platform Engineers
+Design Engineers
+Learn
+Docs
+Blog
+Changelog
+Knowledge Base
+Academy
+Articles
+Community
+Is Agentic
+Explore
+Customers
+Marketplace
+Templates
+Partner Finder
+Vercel + AWS
+Company
+About
+Careers
+Press
+Events
+Startups
+Shipped on Vercel
+Open Source Program
+Enterprise
+Pricing
+Help
+Legal & Trust
+Privacy Policy
+Terms of Service
+Cookie Policy
+DPA
+Acceptable Use Policy
+Legal (all documents)
+Trust Center
+Status
+Cookie Preferences
+Social
+GitHub
+X
+LinkedIn
+YouTube
+Instagram

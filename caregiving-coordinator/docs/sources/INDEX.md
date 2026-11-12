@@ -548,3 +548,62 @@ Why: the owner found it while we checked that the `residency-context` skill will
 | `arxiv-2611.00544v1.pdf` | "Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement" (Zhang et al.). As a skill library grows, a router that reads only names and descriptions starts picking the wrong skill. The paper rewrites each new skill's name and description at install time (differentiate, add "does not cover", clarify the name). |
 
 Limits: text-only tests; routers were GPT, Claude Haiku 4.5 and Qwen models plus the Codex CLI agent. Claude Code itself was not tested. The paper does not study folder layout, file paths or how a skill reaches files outside its folder.
+
+## 2026-11-12: Laws, consent and security research (`laws-consent-research-2026-11-12/`)
+
+Research run `wf_328460b2-5ee` (104 agents). `research-run-result.txt` is the report, and `research-run-journal.jsonl` holds every agent's result. Sources were saved and dated on 2026-11-12. HTML and PDF files were downloaded directly. The `.md` files were saved with Firecrawl because HHS and FTC refuse plain downloads. Plain-text copies are in `sources/text/`. The checked findings are in `verified-findings-2026-11-12.md`.
+
+| File (in `sources/`) | What it is | Page date | Original URL |
+|---|---|---|---|
+| `01-hhs-app-developer-scenarios-2016.md` | HHS OCR, health app scenarios and HIPAA | Feb 2016 (file name only) | https://www.hhs.gov/sites/default/files/ocr-health-app-developer-scenarios-2-2016.pdf |
+| `02-hhs-health-apps.md` | HHS, resources for health app developers | Reviewed Apr 22, 2026 | https://www.hhs.gov/hipaa/for-professionals/special-topics/health-apps/index.html |
+| `03-ftc-hbnr-final-rule-fr-notice.md` | FTC landing page for the 2024 final rule (links to the Federal Register; no rule text) | May 30, 2024 | https://www.ftc.gov/legal-library/browse/federal-register-notices/health-breach-notification-final-rule |
+| `04-ftc-complying-with-hbnr.md` | FTC, complying with the Health Breach Notification Rule | Jul 2024, edited Jan 2025 | https://www.ftc.gov/business-guidance/resources/complying-ftcs-health-breach-notification-rule-0 |
+| `05-ftc-press-2024-04-hbnr-final.md` | FTC press release, rule changes finalized | Apr 26, 2024 | https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-finalizes-changes-health-breach-notification-rule |
+| `06-ftc-hipaa-ftcact-hbnr-guide.md` | FTC, HIPAA vs FTC Act vs the breach rule | Aug 2024 | https://www.ftc.gov/business-guidance/resources/collecting-using-or-sharing-consumer-health-information-look-hipaa-ftc-act-health-breach |
+| `07-wa-rcw-19-373-mhmda.html` | Washington My Health My Data Act, full chapter | Only 2023 c 191 history | https://app.leg.wa.gov/RCW/default.aspx?cite=19.373&full=true |
+| `08-nv-nrs-603a.html` | Nevada NRS 603A (health data at 603A.400 to .550) | Rev. 4/15/2026; health sections added 2023, no 2025 changes | https://www.leg.state.nv.us/NRS/NRS-603A.html |
+| `09-ct-ag-ctdpa-page.html` | Connecticut AG, CTDPA page | Not dated; does not mention the 2025 amendment | https://portal.ct.gov/ag/sections/privacy/the-connecticut-data-privacy-act |
+| `10-ca-ag-ccpa.html` | California AG, CCPA page | Updated Aug 28, 2026 | https://oag.ca.gov/privacy/ccpa |
+| `11-nv-sb370-2023.pdf` | Nevada SB 370 (2023) bill text | 2023 | https://leg.state.nv.us/Session/82nd2023/Bills/SB/SB370.pdf |
+| `12-ct-ag-ctdpa-report-2024.pdf` | Connecticut AG, CTDPA enforcement report | 2024 | https://portal.ct.gov/-/media/ag/press_releases/2024/ctdpa-final-report.pdf |
+| `13-hhs-personal-representatives.md` | HHS, HIPAA personal representatives | Reviewed Jan 5, 2024 | https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/personal-representatives/index.html |
+| `14-hhs-faq-health-care-poa.md` | HHS FAQ, health care power of attorney | Reviewed Dec 28, 2022 | https://www.hhs.gov/hipaa/for-professionals/faq/does-having-health-care-power-attorney-allow-access-patients-medical-mental-health-records-under-hipaa/index.html |
+| `15-ecfr-45-cfr-164-502.html` | eCFR, 45 CFR 164.502 (HIPAA uses and disclosures) | Current as of 11/09/2026 | https://www.ecfr.gov/current/title-45/section-164.502 |
+| `16-wa-ag-mhmda.html` | Washington AG, My Health My Data page | Not dated | https://www.atg.wa.gov/protecting-washingtonians-personal-health-data-and-privacy |
+| `17-supabase-shared-responsibility.html` | Supabase, shared responsibility model | Updated Oct 6, 2026 | https://supabase.com/docs/guides/deployment/shared-responsibility-model |
+| `18-supabase-hipaa-projects.html` | Supabase, HIPAA projects | Updated Oct 30, 2026 | https://supabase.com/docs/guides/platform/hipaa-projects |
+| `19-vercel-compliance.html` | Vercel, compliance measures | Updated Sep 8, 2026 | https://vercel.com/docs/security/compliance |
+| `20-vercel-hipaa-guide.html` | Vercel, HIPAA guide | Nov 3, 2025 | https://vercel.com/kb/guide/hipaa-compliance-guide-vercel |
+| `21-ftc-mobile-health-apps-tool.md` | FTC, mobile health apps interactive tool | Nov 2024 | https://www.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool |
+| `22-ftc-blog-2024-04-hbnr.md` | FTC business blog on the updated rule | Apr 26, 2024 | https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps |
+| `23-ecfr-16-cfr-318.html` | eCFR, 16 CFR Part 318 (the breach rule) | Current as of 11/09/2026; last amended 89 FR 47054, May 30, 2024 | https://www.ecfr.gov/current/title-16/part-318 |
+| `24-ftc-press-2026-09-withdraws-policy.md` | FTC withdraws its 2021 health app policy statement | Sep 9, 2026 | https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-withdraws-obsolete-policy-statement |
+| `25-ct-public-act-25-113-sb1295.pdf` | Connecticut Public Act 25-113 (SB 1295), amends the CTDPA | Signed Jun 2025; in effect Jul 1, 2026 | https://www.cga.ct.gov/2025/act/pa/pdf/2025PA-00113-R00SB-01295-PA.pdf |
+| `26-ca-cppa-ccpa-updates-2026.html` | California Privacy Protection Agency, 2026 rule updates | Rules in effect Jan 1, 2026 | https://cppa.ca.gov/regulations/ccpa_updates.html |
+| `27-ca-cppa-7-things-2026.pdf` | CPPA, "7 things to know before 2026 CCPA updates" | 2025 | https://cppa.ca.gov/pdf/things_to_know_before_2026_updates.pdf |
+
+Files 25 to 27 were added in the 2026-11-12 check for 2025 to 2026 changes. Not fetched: the FTC's GoodRx, BetterHelp and Flo case pages. The run cited those cases from memory, so they are left out of the findings.
+
+### Law-database pass, files 28 to 73 (2026-11-12)
+
+Checklist: `docs/research-checklist-laws-database-2026-11-12.md`. Answers: section 2 of `verified-findings-2026-11-12.md`. Original URLs for every file are in `laws-consent-research-2026-11-12/sources/urls.tsv`. 27 key quotes were checked word for word against these files.
+
+| Files | What they are | Date |
+|---|---|---|
+| 28 | Washington RCW 11.125, power of attorney act | Section histories; 11.125.050 changed 2026 (signing rules); 11.125.400 last changed 2020 |
+| 29 | Washington RCW 7.70.065, who can consent to health care | Last changed 2022 |
+| 30 | Nevada NRS 162A, power of attorney, with the health care and dementia forms | Rev. 4/15/2026 |
+| 31, 32, 33 | Connecticut statutes: ch. 15c power of attorney, ch. 368w health care representative, ch. 743jj privacy act (version before the 2025 amendment) | Current pub; 2026 Supplement not fetched |
+| 38, 39 | FTC Health Breach Notification Rule, 2024 final rule with preamble (89 FR 47028), PDF and HTML, from govinfo | May 30, 2024 |
+| 40 to 43 | FTC case pages: GoodRx (2023), Easy Healthcare/Premom (2023), BetterHelp (2023), Flo Health (2021) | Updated 2021 to 2024 |
+| 44 | FTC Health Breach Notification Rule page | Modified 2026-09-09 |
+| 48, 49, 50, 54 | California Civil Code 56.06, 56.05, 56.10 (excerpt), 56.101 (medical privacy law, CMIA), from leginfo via Firecrawl | Histories: 2023, 2025, 2025, 2024 |
+| 51, 53 | California CCPA statute and regulations, CPPA PDFs | Effective Jan 1, 2026 |
+| 52 | CPPA inflation adjustment ($26,625,000) | Effective Jan 1, 2025 |
+| 56 to 61 | Supabase: regions, backups, pricing, SOC 2, changing region, security page | Updated Jul to Nov 2026 (pricing and security undated) |
+| 62, 63 | Vercel: function regions, pricing | Aug 11, 2026; pricing undated |
+| 64 to 69, 72, 73 | CourtListener complaints, orders and docket feeds: Maxwell v. Amazon, K.R. v. 1400 23rd, Brenneise v. Aios, K.P. v. Courier Plus, Olivier v. KBI, States v. 23andMe, Rusow v. SkinSpirit, plus the search feed | Filed 2025 to 2026 |
+| 70, 71 | Connecticut AG privacy act enforcement reports for 2025 (Jan 2026) and 2024 (Apr 17, 2025) | As listed |
+
+Plain-text copies are in `sources/text/`. Numbers 34 to 37, 45 to 47 and 55 are unused.
