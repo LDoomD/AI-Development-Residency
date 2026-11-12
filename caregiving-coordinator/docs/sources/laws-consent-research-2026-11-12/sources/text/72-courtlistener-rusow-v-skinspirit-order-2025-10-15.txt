@@ -1,0 +1,1233 @@
+                                       Case 3:24-cv-09317-CRB          Document 44       Filed 10/15/25     Page 1 of 27
+
+
+
+
+                                   1
+                                   2
+                                   3
+                                   4
+                                   5
+                                   6                         IN THE UNITED STATES DISTRICT COURT
+                                   7                     FOR THE NORTHERN DISTRICT OF CALIFORNIA
+                                   8
+                                   9     KOURTNEY RUSOW, et al.,                          Case No. 24-cv-09317-CRB
+                                  10                   Plaintiffs,
+                                                                                          ORDER ON MOTION TO DISMISS
+                                  11             v.
+                                  12     SKINSPIRIT ESSENTIAL LLC, et al.,
+
+
+ United States District Court
+                                  13                   Defendants.
+                                  14          This is a putative class action in which Plaintiffs Kourtney Rusow and T.S. allege
+                                  15   that Defendants SkinSpirit Essential and two other companies used third-party data-
+
+
+
+Northern District of California
+                                  16   gathering tools to illegally disclose their private information. SkinSpirit, a skincare
+                                  17   company offering online appointments for dermatological consultations and procedures,
+                                  18   allegedly allowed tracking software by Google and LinkedIn to lift user information from
+                                  19   its website for third-party advertising. Plaintiffs allege that this use of third-party tracking
+                                  20   software violated various federal and state laws protecting consumers’ privacy. Rusow
+                                  21   and T.S. bring one claim together—violation of the federal Electronic Communications
+                                  22   Privacy Act (ECPA)—and Rusow brings two on her own—violation of the California
+                                  23   Invasion of Privacy Act (CIPA) and invasion of privacy under the California Constitution.
+                                  24   The other Defendant companies, SkinSpirit Holdings, LLC, and Dean Vistnes, M.D., Inc.,
+                                  25   move to dismiss all claims against them because of lack of personal jurisdiction or
+                                  26   sufficient notice. All three Defendants assert that Plaintiffs’ three claims are legally
+                                  27   insufficient. Because the Court concludes that Rusow adequately pleaded her
+                                  28   constitutional claim, and that Plaintiffs did not adequately plead a claim under CIPA, the
+                                       Case 3:24-cv-09317-CRB         Document 44       Filed 10/15/25    Page 2 of 27
+
+
+
+
+                                   1   ECPA, or any claim against SkinSpirit Holdings or Vistnes, M.D., the Court GRANTS in
+                                   2   part and DENIES in part the motion.
+                                   3   I.     BACKGROUND
+                                   4          A.     The Parties
+                                   5          SkinSpirit Essential, LLC is the primary defendant in this case. It is a dermatology
+                                   6   practice that offers medical and cosmetic appointments on its website in more than a dozen
+                                   7   states. Am. Compl. (dkt. 14) ¶¶ 1–2. Rusow and T.S. each used SkinSpirit’s website to
+                                   8   create an account and book appointments with SkinSpirit. Id. ¶¶ 7, 10. Plaintiffs allege
+                                   9   that SkinSpirit used LinkedIn’s and Google’s tracking software on its website to facilitate
+                                  10   the third parties’ interception of confidential information. Id.
+                                  11          Plaintiffs name two other Defendants: SkinSpirit Holdings, LLC, and Dean Vistnes,
+                                  12   M.D., Inc. (the Vistnes Company). SkinSpirit Holdings wholly owns SkinSpirit Essential.
+
+
+
+ United States District Court
+                                  13   Heublein Decl. (dkt. 29-1) ¶ 4. Plaintiffs allege that SkinSpirit Holdings controls its
+                                  14   subsidiary SkinSpirit Essential, and that such control includes the relevant website. Am.
+                                  15   Compl. ¶ 12. Plaintiffs allege that SkinSpirit’s medical director, M. Dean Vistnes,
+
+
+
+Northern District of California
+                                  16   operates the Vistnes Company and that it serves as SkinSpirit’s business associate.
+                                  17   Id. ¶ 13.
+                                  18          SkinSpirit Essential and the Vistnes Company are allegedly domiciled in California.
+                                  19   See id. ¶¶ 11, 13. SkinSpirit Holdings is domiciled in Delaware and Washington. See
+                                  20   Heublein Decl. ¶ 6.
+                                  21          B.     Third-Party Tracking
+                                  22          Plaintiffs allege all of the following. Every device capable of accessing websites
+                                  23   does so through a web browser, such as Google Chrome or Safari. Am. Compl. ¶ 43.
+                                  24   Websites frequently instruct web browsers to send or receive information via HTTP
+                                  25   requests.1 Id. ¶¶ 44–45. These HTTP requests can send and receive certain information
+                                  26
+                                       1
+                                  27         The Internet is made up of many resources hosted on different servers. To access
+                                       content on the Internet, the browser must ask these servers for the resources it wants.
+                                  28   Browsers quickly send and receive information from many servers this way. Hypertext
+                                       Transfer Protocol (HTTP) is the command language used for these requests, so they are
+                                                                                    2
+                                       Case 3:24-cv-09317-CRB         Document 44       Filed 10/15/25     Page 3 of 27
+
+
+
+
+                                   1   (like appointment booking information) that is necessary for a booking website to function.
+                                   2   Id. ¶ 46. But they can also send and receive information surreptitiously to and from third
+                                   3   parties without a user’s knowledge if a website so directs. Id. ¶ 48.
+                                   4          LinkedIn and Google are major players in the advertising industry, making use of
+                                   5   targeted advertising to increase their advertising’s efficacy. Id. ¶¶ 23–24, 49–50.
+                                   6   LinkedIn and Google have created data-gathering tools—the LinkedIn Insight Tag and
+                                   7   Google Analytics—which some companies implement on their websites to harvest and
+                                   8   summarize information about their websites’ users. Id. ¶¶ 25–26, 56–57.
+                                   9          These tools employ a variety of techniques to use available information to match a
+                                  10   user’s activity to her real identity, thus facilitating targeted advertising. For example, with
+                                  11   Google’s so-called browser-fingerprint technique, “developers have found ways to use tiny
+                                  12   bits of information that vary between users, such as what device they have or what fonts
+
+
+
+ United States District Court
+                                  13   they have installed to generate a unique identifier which can then be used to match a user
+                                  14   across websites.” Id. ¶ 68 (footnote omitted). LinkedIn employs similar techniques. See
+                                  15   id. ¶ 25.
+
+
+
+Northern District of California
+                                  16          Companies that install either the LinkedIn Insight Tag or Google Analytics receive
+                                  17   a useful summary of information but also allow users’ information to be transmitted to
+                                  18   LinkedIn and Google. Id. ¶¶ 30–31, 56–57. These tools work under a website’s hood,
+                                  19   invisible to a user when they are collecting data and only detectable with technically
+                                  20   advanced public developer tools. See id. at 18–21 figs.2, 3, 4, 5, 6 & 7.
+                                  21          C.     Allegations as to Plaintiffs
+                                  22          Rusow and T.S. each used SkinSpirit Essential’s website to book several medical
+                                  23   appointments. Id. ¶¶ 7, 10. For example, Rusow booked a consultation for Botox and
+                                  24   laser treatment on May 12, 2023, and T.S. booked an appointment for “Derma Filler” on
+                                  25   December 6, 2024. Id. During the online booking process, Plaintiffs had to create an
+                                  26   account and provide information, such as desired location and reason for the appointment.
+                                  27
+                                  28   known as HTTP requests. See generally HTTP Requests, Sematext (last visited July 23,
+                                       2025), https://sematext.com/glossary/http-requests/.
+                                                                                    3
+                                       Case 3:24-cv-09317-CRB         Document 44       Filed 10/15/25    Page 4 of 27
+
+
+
+
+                                   1   Id. ¶¶ 78–79, 81. Because SkinSpirit had installed LinkedIn’s and Google’s tracking
+                                   2   software, those third parties “were tracking [Plaintiffs’] activity [from] the moment they
+                                   3   entered the Defendants’ Website.” Id. ¶ 80. LinkedIn and Google intercepted personal
+                                   4   information such as the appointment’s location, specific procedure, desired provider, date,
+                                   5   and time. Id. ¶¶ 81, 87. This information, combined with LinkedIn’s and Google’s
+                                   6   probabilistic identity matching techniques, would allow these third parties to link
+                                   7   Plaintiffs’ information with their identities. See id. ¶¶ 36, 67. Google further intercepted
+                                   8   Plaintiffs’ IP addresses, which would make identity matching even easier for Google.2 Id.
+                                   9   ¶ 88.
+                                  10           D.    LinkedIn’s Privacy Policy
+                                  11           Rusow maintained an account on LinkedIn “at all relevant times.” Id. ¶ 6. Creation
+                                  12   of that account necessarily means that Rusow accepted, among other contracts, LinkedIn’s
+
+
+
+ United States District Court
+                                  13   Privacy Policy, which contains a clause that purportedly assents to LinkedIn’s tracking on
+                                  14   other websites. See id. ¶ 38. The relevant section reads:
+                                  15                 We use cookies and similar technologies (e.g., pixels and ad
+                                                     tags) to collect data (e.g., device IDs) to recognize you and your
+
+
+Northern District of California
+                                  16                 device(s) on, off and across different services and devices where
+                                                     you have engaged with our Services. We also allow some others
+                                  17                 to use cookies as described in our Cookie Policy.
+                                  18   Id. ¶ 40 (citation modified). Rusow was not presented with this contract on SkinSpirit’s
+                                  19   website; she separately assented to LinkedIn’s Privacy Policy when creating a LinkedIn
+                                  20   account sometime before the events in question. See id. ¶¶ 6, 38.
+                                  21           E.    Procedural History
+                                  22           Rusow sued SkinSpirit Essential on December 20, 2024. See Compl. (dkt. 1).
+                                  23   Following SkinSpirit Essential’s first motion to dismiss, Rusow amended her complaint to
+                                  24   add T.S. as a plaintiff and to add SkinSpirit Holdings and the Vistnes Company as
+                                  25   defendants. See Am. Compl. Plaintiffs bring three claims: violations of (1) the federal
+                                  26
+                                  27   2
+                                              An Internet Protocol (IP) address is a string of characters that uniquely identifies a
+                                  28   computer using the Internet. See generally IP Address, Britannica (last updated June 21,
+                                       2025), https://www.britannica.com/technology/IP-address.
+                                                                                     4
+                                       Case 3:24-cv-09317-CRB          Document 44      Filed 10/15/25     Page 5 of 27
+
+
+
+
+                                   1   Electronic Communications Privacy Act (both Plaintiffs), (2) the California Invasion of
+                                   2   Privacy Act (Rusow), and (3) the California Constitution’s guarantee of privacy (Rusow).3
+                                   3   See id. ¶¶ 126–60; 173–79. SkinSpirit Holdings moved to dismiss for lack of personal
+                                   4   jurisdiction and all Defendants moved to dismiss for failure to state a claim. Mot. (dkt. 29)
+                                   5   at 4–10, 13–25.
+                                   6   II.    LEGAL STANDARD
+                                   7          A.     Lack of Personal Jurisdiction
+                                   8          SkinSpirit Holdings, a Delaware corporation with its principal place of business in
+                                   9   Washington, moves to dismiss for lack of personal jurisdiction in California.4 “A court
+                                  10   may exercise personal jurisdiction over a defendant if such jurisdiction is authorized by
+                                  11   applicable law and the exercise of that jurisdiction does not violate federal due process.”
+                                  12   Doe v. WebGroup Czech Republic, a.s., 93 F.4th 442, 450 (9th Cir. 2024) (citation
+
+
+
+ United States District Court
+                                  13   modified), overruled on other grounds by Briskin v. Shopify, Inc., 135 F.4th 739 (9th Cir.
+                                  14   2025) (en banc). Here, no applicable federal statute confers personal jurisdiction to this
+                                  15   Court, and the applicable California long-arm statute provides for personal jurisdiction to
+
+
+
+Northern District of California
+                                  16   the maximum extent that federal due process allows. See Briskin, 135 F.4th at 750
+                                  17   (citations omitted); Cal. Civ. Proc. Code § 410.10 (West 2025). Under the Due Process
+                                  18   Clause, a court may exercise personal jurisdiction if the defendant has sufficient minimum
+                                  19   contacts with the forum state “such that the maintenance of the suit does not offend
+                                  20   ‘traditional notions of fair play and substantial justice.’ ” Int’l Shoe Co. v. Wash., Off. of
+                                  21   Unemployment Comp. & Placement, 326 U.S. 310, 316 (1945) (quoting Milliken v.
+                                  22   Meyer, 311 U.S. 457, 463 (1940)).
+                                  23
+                                  24   3
+                                               Plaintiffs included two other claims based on California and Washington law, see
+                                  25   Am. Compl. ¶¶ 161–72, 180–86, but they conceded dismissal of those claims by failing to
+                                       address them in opposition to this motion. See Opp’n (dkt. 31) at 3 n.1; Tovar v. City of
+                                  26   San Jose, No. 5:21-cv-02497-EJD, 2021 WL 6126931, at *2 (N.D. Cal. Dec. 28, 2021)
+                                       (failure to respond to certain claims constitutes conceding dismissal); Tyler v. Travelers
+                                  27   Com. Ins. Co., 499 F. Supp. 3d 693, 701 (N.D. Cal. 2020) (same), appeal dismissed, No.
+                                       20-17365, 2021 WL 2231126 (9th Cir. May 6, 2021).
+                                       4
+                                  28           SkinSpirit Essential and the Vistnes Company do not dispute the Court’s personal
+                                       jurisdiction.
+                                                                                      5
+                                       Case 3:24-cv-09317-CRB          Document 44         Filed 10/15/25   Page 6 of 27
+
+
+
+                                              B.     Failure to State a Claim
+                                   1
+                                              All defendants assert that Plaintiffs have failed to state a claim. “Detailed factual
+                                   2
+                                       allegations” are not required, but a complaint must contain sufficient factual matter,
+                                   3
+                                       accepted as true, to “state a claim to relief that is plausible on its face.” Ashcroft v. Iqbal,
+                                   4
+                                       556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 555, 570
+                                   5
+                                       (2007)). A claim is plausible “when the plaintiff pleads factual content that allows the
+                                   6
+                                       court to draw the reasonable inference that the defendant is liable for the misconduct
+                                   7
+                                       alleged.” Id. (citation omitted). A court must accept all factual allegations as true but may
+                                   8
+                                       ignore “legal conclusions couched as factual allegations.” Id. (citation modified).
+                                   9
+                                       Additionally, if a complaint “shows that relief is barred by the applicable statute of
+                                  10
+                                       limitations,” it is “subject to dismissal for failure to state a claim” under Rule 12(b)(6).
+                                  11
+                                       Jones v. Bock, 549 U.S. 199, 215 (2007) (citation modified).
+                                  12
+
+
+
+ United States District Court
+                                       III.   DISCUSSION
+                                  13
+                                              This order addresses five issues.
+                                  14
+                                              First, the Court addresses the SkinSpirit Holdings motion to dismiss for lack of
+                                  15
+                                       personal jurisdiction, and concludes that the Court indeed lacks personal jurisdiction as
+
+
+Northern District of California
+                                  16
+                                       currently pleaded. The Court accordingly dismisses all claims against SkinSpirit Holdings
+                                  17
+                                       with leave to amend.
+                                  18
+                                              Second, the Court addresses the Vistnes Company motion to dismiss for group
+                                  19
+                                       pleading that fails to provide sufficient notice, and dismisses all claims against the Vistnes
+                                  20
+                                       Company for that reason with leave to amend.
+                                  21
+                                              Third, the Court addresses Rusow’s CIPA claim, and concludes that she has not
+                                  22
+                                       plausibly alleged delayed discovery, making the claim untimely. The Court dismisses the
+                                  23
+                                       CIPA claim on that basis with leave to amend.
+                                  24
+                                              Fourth, the Court addresses Rusow’s constitutional claim, and concludes that it
+                                  25
+                                       plausibly states a claim.
+                                  26
+                                              Fifth, the Court addresses Plaintiffs’ ECPA claim, and concludes that their
+                                  27
+                                       allegations undermine one of the necessary elements, such that the Court dismisses their
+                                  28
+                                                                                       6
+                                       Case 3:24-cv-09317-CRB         Document 44         Filed 10/15/25   Page 7 of 27
+
+
+
+
+                                   1   ECPA claim without leave to amend.
+                                   2          A.     Personal Jurisdiction over SkinSpirit Holdings
+                                   3          Personal jurisdiction may be either general or specific. Goodyear Dunlop Tires
+                                   4   Operations, S.A. v. Brown, 564 U.S. 915, 919 (2011) (citation omitted). General personal
+                                   5   jurisdiction allows a court to hear “any and all claims against [defendants] when their
+                                   6   affiliations with the State are so ‘continuous and systematic’ as to render them essentially
+                                   7   at home in the forum State.” Id. (quoting Int’l Shoe, 326 U.S. at 317). Specific
+                                   8   jurisdiction, on the other hand, “depends on an affiliation between the forum and the
+                                   9   underlying controversy, principally, activity or an occurrence that takes place in the forum
+                                  10   State and is therefore subject to the State’s regulation.” Id. (citation modified). A court
+                                  11   must have either general or specific jurisdiction over a defendant.
+                                  12          When a defendant challenges a court’s personal jurisdiction, the “plaintiff bears the
+
+
+
+ United States District Court
+                                  13   burden of establishing that jurisdiction is proper.” Herbal Brands, Inc. v. Photoplaza, Inc.,
+                                  14   72 F.4th 1085, 1090 (9th Cir. 2023) (citation modified). On a motion to dismiss, “the
+                                  15   plaintiff need only make a prima facie showing of jurisdictional facts.” Id. (citation
+
+
+
+Northern District of California
+                                  16   omitted). Plaintiffs need only present facts that, if true, would be sufficient for
+                                  17   jurisdiction—any conflicts between the parties’ facts must be resolved in Plaintiffs’ favor
+                                  18   at this stage. See WebGroup, 93 F.4th at 447 (citation omitted).
+                                  19                 1.     General Jurisdiction
+                                  20          The paradigmatic forum for general jurisdiction over a corporation is its place of
+                                  21   incorporation and its principal place of business, with rare exceptions. BNSF Ry. Co. v.
+                                  22   Tyrrell, 581 U.S. 402, 413 (2017) (citing Daimler AG v. Bauman, 571 U.S. 117, 137
+                                  23   (2014)). Plaintiffs do not assert that SkinSpirit Holdings is from California, and rightly
+                                  24   so—it is incorporated in Delaware and has its principal place of business in Washington.
+                                  25   See Heublein Decl. ¶ 6. Plaintiffs only allege that SkinSpirit Holdings has “systematically
+                                  26   and continually conducted business in California” as a basis for general jurisdiction. Am.
+                                  27   Compl. ¶ 15. But SkinSpirit Holdings refutes this conclusory allegation by declaration,
+                                  28   see Heublein Decl. ¶¶ 7–11, and in any case, “a corporation’s continuous activity of some
+                                                                                      7
+                                       Case 3:24-cv-09317-CRB          Document 44       Filed 10/15/25     Page 8 of 27
+
+
+
+
+                                   1   sorts within a state is generally not enough to support” an assertion of general jurisdiction.
+                                   2   See Williams v. Yamaha Motor Co., 851 F.3d 1015, 1020 (9th Cir. 2017) (citation
+                                   3   modified). There is accordingly no general jurisdiction over SkinSpirit Holdings.
+                                   4                 2.      Specific Jurisdiction
+                                   5          To establish specific jurisdiction over a defendant, a plaintiff must meet three
+                                   6   requirements: “(1) the defendant either purposefully directs its activities or purposefully
+                                   7   avails itself of the benefits afforded by the forum’s laws; (2) the claim arises out of or
+                                   8   relates to the defendant’s forum-related activities; and (3) the exercise of jurisdiction
+                                   9   comports with fair play and substantial justice, i.e., it is reasonable.” Id. at 1023 (citation
+                                  10   modified).
+                                  11          SkinSpirit Holding’s parent-subsidiary relationship with SkinSpirit Essential (over
+                                  12   whom there is certainly personal jurisdiction) cannot alone form the basis for specific
+
+
+
+ United States District Court
+                                  13   jurisdiction here. See Ranza v. Nike, Inc., 793 F.3d 1059, 1073 (9th Cir. 2015) (holding
+                                  14   that such a relationship is only sufficient where one is an “alter ego” for the other); see also
+                                  15   Opp’n at 6 (acknowledging this point). But Plaintiffs allege a greater connection than that.
+
+
+
+Northern District of California
+                                  16   They allege that SkinSpirit Holdings actually operates the relevant website from which this
+                                  17   litigation arises, which would mean that SkinSpirit Holdings thereby purposefully avails
+                                  18   itself of California’s laws. Opp’n at 5–6.
+                                  19          There is a factual dispute here. The SkinSpirit Holdings CEO (who is also the
+                                  20   SkinSpirit Essential CEO) declared that SkinSpirit Holdings “does not publish, own,
+                                  21   control or operate any website, including” the website in question here. Heublein Decl.
+                                  22   ¶ 15. Plaintiffs counter by pointing to the website itself, which explicitly names SkinSpirit
+                                  23   Holdings as a party to the website’s Terms of Use.5 Westcot Decl. (dkt. 31-1) Ex. A.
+                                  24
+                                  25   5
+                                              Plaintiffs also point to the fact that the CEO lives in California as a basis for
+                                  26   specific jurisdiction. Opp’n at 5–6. SkinSpirit Holdings responds that its CEO’s physical
+                                       presence in a state says nothing about the corporation’s “presence” for jurisdictional
+                                  27   purposes; federal due process requires looking to the corporation’s contacts with the forum
+                                       state. Reply (dkt. 38) at 4. SkinSpirit Holdings is correct. See Martinez v. Aero
+                                  28   Caribbean, 764 F.3d 1062, 1068 (9th Cir. 2014) (“An officer of a corporation is not the
+                                       corporation, even when the officer acts on the corporation’s behalf.”).
+                                                                                        8
+                                       Case 3:24-cv-09317-CRB         Document 44         Filed 10/15/25   Page 9 of 27
+
+
+
+
+                                   1   Plaintiffs argue that the website’s inclusion of SkinSpirit Holdings on its Terms of Use
+                                   2   refutes the CEO’s contention that it does not control the website. Opp’n at 5.
+                                   3          Because Plaintiffs need only make a prima facie showing, the Court need only
+                                   4   decide whether SkinSpirit’s inclusion on the website’s Terms of Use (taken as true) is
+                                   5   sufficient for specific jurisdiction, without deciding the truth of the matter. See
+                                   6   WebGroup, 93 F.4th at 447. SkinSpirit Holdings cites two relevant California Court of
+                                   7   Appeal cases that hold “the use of ‘we’ or ‘the Company’ ” on corporate documents does
+                                   8   not “turn a holding company into an operating company” for jurisdictional purposes. Mot.
+                                   9   at 3; see BBA Aviation PLC v. Superior Ct., 190 Cal. App. 4th 421, 432 (2010) (citation
+                                  10   modified); accord Sonora Diamond Corp. v. Superior Ct., 83 Cal. App. 4th 523, 550
+                                  11   (2000). Federal courts are in accord. See, e.g., Corcoran v. CVS Health Corp., 169 F.
+                                  12   Supp. 3d 970, 984 (N.D. Cal. 2016) (holding that “separate corporate entities presenting
+
+
+
+ United States District Court
+                                  13   themselves as one online” does not mean that one entity exercised control over the other);
+                                  14   In re Packaged Seafood Prods. Antitrust Litig., 338 F. Supp. 3d 1118, 1146–47 (S.D. Cal.
+                                  15   2018) (same); Gardner v. Starkist Co., 418 F. Supp. 3d 443, 464 (N.D. Cal. 2019) (same).
+
+
+
+Northern District of California
+                                  16          Plaintiffs cite no cases to support their contention that inclusion of SkinSpirit
+                                  17   Holdings on the website’s Terms of Use implies that it “in some part, owns and operates”
+                                  18   the website, see Opp’n at 6, and for good reason—the weight of precedent comes out the
+                                  19   other way. Accordingly, SkinSpirit Holdings has not purposefully availed itself of or
+                                  20   directed its conduct to California solely by including itself on the website’s Terms of Use.
+                                  21          The Court therefore GRANTS the SkinSpirit Holdings motion to dismiss for lack
+                                  22   of personal jurisdiction with leave to amend to allow Plaintiffs the chance to plausibly
+                                  23   allege facts showing that defendant’s involvement with the website.
+                                  24                 3.     Jurisdictional Discovery
+                                  25          Plaintiffs request the opportunity to conduct jurisdictional discovery. Id. at 6 n.2.
+                                  26   “Discovery should ordinarily be granted where pertinent facts bearing on the question of
+                                  27   jurisdiction are controverted or where a more satisfactory showing of the facts is
+                                  28   necessary.” Laub v. U.S. Dep’t of the Interior, 342 F.3d 1080, 1093 (9th Cir. 2003)
+                                                                                      9
+                                       Case 3:24-cv-09317-CRB         Document 44       Filed 10/15/25     Page 10 of 27
+
+
+
+
+                                   1   (citation modified). As pleaded, the lack of jurisdiction is not based on controverted facts,
+                                   2   but an insufficient legal inference based on Plaintiffs’ facts. Plaintiffs point to the
+                                   3   inclusion of SkinSpirit Holdings on the website, but even taken as true, this is still
+                                   4   insufficient to cure the jurisdictional defect. Plaintiffs’ weak inference does not contradict
+                                   5   the CEO’s assertion that SkinSpirit Holdings does not control the website, and
+                                   6   jurisdictional discovery is not likely to change that conclusion. As such, the Court will not
+                                   7   grant discovery. See X Corp. v. Ctr. for Countering Digit. Hate Ltd., 724 F. Supp. 3d 921,
+                                   8   947 (N.D. Cal. 2024) (denying jurisdictional discovery for a similar reason).
+                                   9          B.     Failure to State a Claim Against the Vistnes Company for Impermissible
+                                                     Group Pleading
+                                  10
+                                              Defendant Vistnes Company argues that Plaintiffs fail to state a claim against it
+                                  11
+                                       because Plaintiffs base liability solely on a business relationship with SkinSpirit Essential.6
+                                  12
+
+
+
+ United States District Court
+                                       Mot. at 4–6. “Undifferentiated group pleading that does not indicate which individual
+                                  13
+                                       defendant or defendants were responsible for which wrongful act is impermissible”
+                                  14
+                                       because it fails to provide adequate notice under Rule 8 of the Federal Rules of Civil
+                                  15
+                                       Procedure. Russo v. Fed. Med. Servs., Inc., 744 F. Supp. 3d 914, 922 (N.D. Cal. 2024)
+
+
+Northern District of California
+                                  16
+                                       (citation modified). Plaintiffs make collective allegations against all three defendants
+                                  17
+                                       throughout their complaint. “Yet, so-called group pleading is not fatal as long as the
+                                  18
+                                       complaint gives defendants fair notice of the claims against them.” EcoHub, LLC v.
+                                  19
+                                       Recology Inc., No. 3:22-cv-09181-TSH, 2023 WL 6725632, at *6 (N.D. Cal. Oct. 11,
+                                  20
+                                       2023) (citation modified).
+                                  21
+                                              Courts that have rejected complaints for failure to give adequate notice because of
+                                  22
+                                       group pleading generally do so when there are many defendants, and lumping them
+                                  23
+                                       together obscures which defendant allegedly did which act. See, e.g., Corazon v. Aurora
+                                  24
+                                       Loan Servs., LLC, No. 3:11-cv-00542-SC, 2011 WL 1740099, at *4 (N.D. Cal. May 5,
+                                  25
+                                       2011) (concluding that the plaintiff failed to provide adequate notice where she sued more
+                                  26
+                                  27   6
+                                             SkinSpirit Holdings also advances this argument in the event that the Court
+                                  28   concludes that it has personal jurisdiction. Its arguments parallel those of the Vistnes
+                                       Company. Mot. at 4–6.
+                                                                                     10
+                                       Case 3:24-cv-09317-CRB        Document 44          Filed 10/15/25   Page 11 of 27
+
+
+
+
+                                   1   than fifty defendants and nearly every allegation referred to them collectively). But where
+                                   2   the defendants are more closely related and the complaint “can fairly be read to claim that
+                                   3   each defendant participated in the specific wrongful conduct alleged,” collective
+                                   4   allegations still give adequate notice. See Tivoli LLC v. Targetti Sankey, S.p.A., No.
+                                   5   8:14-cv-01285-DOC-JCG, 2015 WL 12683801, at *4 (C.D. Cal. Feb. 3, 2015) (citation
+                                   6   modified) (declining to dismiss a complaint with collective allegations where the group of
+                                   7   defendants was “much narrower, closely related, and in the same general line of
+                                   8   business”).
+                                   9          Doe v. Kaiser Foundation Health Plan, Inc., No. 3:23-cv-02865-EMC, 2024 WL
+                                  10   1589982 (N.D. Cal. Apr. 11, 2024), is instructive here. In that case, the plaintiffs alleged
+                                  11   that a group of related corporate healthcare defendants illegally intercepted information on
+                                  12   a certain website. Id. at *2. But because the plaintiffs did not suggest that “the health care
+
+
+
+ United States District Court
+                                  13   providers had the same exact role vis-à-vis the website,” undifferentiated group pleading
+                                  14   was insufficient. Id. at *4 (citation modified).
+                                  15          So too here. Plaintiffs do not plausibly allege how the Vistnes Company is
+
+
+
+Northern District of California
+                                  16   involved with the website. They allege that the company is operated by SkinSpirit
+                                  17   Essential’s “full-time Medical Director” and that the two entities are business associates.
+                                  18   Am. Compl. ¶ 13. But without more, this does not suggest that the Vistnes Company is
+                                  19   sufficiently involved with SkinSpirit Essential’s website such that the complaint “can
+                                  20   fairly be read” as against both entities throughout. See Tivoli, 2015 WL 12683801, at *4.
+                                  21   While it is conceivable that the Vistnes Company (and SkinSpirit Holdings, if the
+                                  22   jurisdictional defects are cured) controlled the website, Plaintiffs have not yet plausibly
+                                  23   alleged as much. Accordingly, the Court GRANTS the Vistnes Company’s motion to
+                                  24   dismiss with leave to amend so that Plaintiffs may have a chance to plead additional facts
+                                  25   showing that defendant’s involvement.
+                                  26          C.     California Invasion of Privacy Act
+                                  27          Turning to the claims’ sufficiency, Rusow alleges that SkinSpirit violated CIPA.
+                                  28   Am. Compl. ¶¶ 149–60. SkinSpirit Essential argues that Rusow’s CIPA claim is
+                                                                                     11
+                                       Case 3:24-cv-09317-CRB         Document 44       Filed 10/15/25     Page 12 of 27
+
+
+
+
+                                   1   (1) untimely and (2) legally insufficient. Mot. at 13–18.
+                                   2                 1.      Timeliness
+                                   3          CIPA claims are subject to a one-year statute of limitations. See Cal. Civ. Proc.
+                                   4   Code § 340(a) (West 2025); Javier v. Assurance IQ, LLC, 649 F. Supp. 3d 891, 901 (N.D.
+                                   5   Cal. 2023). Rusow alleges that she visited SkinSpirit’s website on May 12, 2023, and she
+                                   6   sued Defendants on December 20, 2024—outside her one-year window. See Am. Compl.
+                                   7   ¶ 7. She therefore relies on California’s delayed discovery doctrine. Opp’n at 6–8. For
+                                   8   the delayed discovery rule to save her otherwise untimely claim, Rusow must plead facts
+                                   9   showing “(1) the time and manner of discovery and (2) the inability to have made earlier
+                                  10   discovery despite reasonable diligence.” See Fox v. Ethicon Endo-Surgery, Inc., 35 Cal.
+                                  11   4th 797, 808 (2005). Under this rule, Rusow’s accrual of her CIPA claim is delayed until
+                                  12   she had inquiry notice of the cause of action. See id. at 807.
+
+
+
+ United States District Court
+                                  13          Rusow alleges that because of the tracking software’s surreptitious nature, she only
+                                  14   became aware of the tracking after receiving targeted advertisements for SkinSpirit
+                                  15   procedures. Am. Compl. ¶ 7. After receiving these advertisements, she alleges that she
+
+
+
+Northern District of California
+                                  16   discovered SkinSpirit’s third-party tracking software in November 2024. Id.
+                                  17          SkinSpirit relies on two cases to argue that Rusow’s CIPA complaint does not
+                                  18   sufficiently allege delayed discovery. First, in Javier, the plaintiff sued life insurer
+                                  19   Assurance for a similar third-party website-activity tracking claim. 649 F. Supp. 3d at 894.
+                                  20   This Court rejected the plaintiff’s delayed discovery because he had constructive notice of
+                                  21   Assurance’s privacy policy, which gave notice of the third-party tracking, more than one
+                                  22   year before his suit. Id. at 902. Second, in Saedi v. SPD Swiss Precision Diagnostics
+                                  23   GmbH, No. 2:24-cv-06525-WLH-E, 2025 WL 1141168 (C.D. Cal. Feb. 27, 2025), the
+                                  24   plaintiff sued defendant SPD for using third-party tracking software. Id. at *1–2. The
+                                  25   court rejected the plaintiff’s delayed discovery allegations because she also had
+                                  26   constructive notice of SPD’s privacy policy and because she began seeing targeted
+                                  27   advertisements more than one year before her complaint. Id. at *10.
+                                  28          SkinSpirit makes parallel arguments here. First, while it does not point to its own
+                                                                                      12
+                                       Case 3:24-cv-09317-CRB        Document 44      Filed 10/15/25    Page 13 of 27
+
+
+
+
+                                   1   privacy policy as providing constructive notice, it argues that LinkedIn’s Privacy Policy
+                                   2   (to which Rusow had previously assented, see Am. Compl. ¶¶ 6, 38) gave constructive
+                                   3   notice of its third-party tracking more than one year before this action. Reply at 6. But
+                                   4   this case is distinguishable. Whereas the plaintiffs in Javier and Saedi had constructive
+                                   5   notice from the defendants’ own privacy policies about specific tracking practices,
+                                   6   LinkedIn’s Privacy Policy broadly admonishes users that it generally engages in third-
+                                   7   party tracking, and “only where [it] has lawful bases.” Am. Compl. ¶ 41 (emphasis
+                                   8   omitted). Rusow received no constructive notice from SkinSpirit, who actually operated
+                                   9   the website in question. See Mot. at 14–15. This general warning is not sufficient to put a
+                                  10   reasonable user on notice of a job-networking site’s data tracking everywhere, especially
+                                  11   on a healthcare website. See In re Meta Pixel Healthcare Litig., 647 F. Supp. 3d 778, 793–
+                                  12   94 (N.D. Cal. 2022) (expressing skepticism that Meta’s similarly phrased privacy policy
+
+
+
+ United States District Court
+                                  13   would have made a reasonable user understand that Meta’s data-tracking practices
+                                  14   extended to health information). In contrast to Javier and Saedi, Rusow did not have
+                                  15   constructive notice of the tracking from a privacy policy.
+
+
+
+Northern District of California
+                                  16          Second, SkinSpirit argues that Rusow has not sufficiently alleged delayed discovery
+                                  17   because she does not allege when she began seeing targeted advertisements. Reply at 6.
+                                  18   This argument is persuasive. Rusow “surely had inquiry notice when she began seeing
+                                  19   ads,” see Saedi, 2025 WL 1141168, at *10 (citation omitted), but does not allege when she
+                                  20   first saw the targeted advertisements, see Am. Compl. ¶ 7. Rusow’s statement that she
+                                  21   “did not realize that Defendants disclosed her PII and PHI to LinkedIn and Google until
+                                  22   November 2024” cannot suffice unless she specifies when she began seeing ads, for she is
+                                  23   charged with inquiry notice at that point, not when she actually made the discovery. See
+                                  24   id.; Fox, 35 Cal. 4th at 807. Accordingly, the Court dismisses Rusow’s CIPA claim with
+                                  25   leave to amend this delayed-discovery pleading defect.7
+                                  26
+                                       7
+                                  27         Rusow relies on Gaige v. Exer Holding Co., No. 2:24-cv-06099-AH-AJR, 2025
+                                       WL 559719 (C.D. Cal Mar. 2, 2025), B.K. v. Desert Care Network, No. 2:23-cv-05021-
+                                  28   SPG-PD, 2024 WL 1343305 (C.D. Cal. Feb. 1, 2024), and Doe v. FullStory, Inc., 712 F.
+                                       Supp. 3d 1244 (N.D. Cal. 2024), to argue that her November 2024 discovery allegation
+                                                                                  13
+                                       Case 3:24-cv-09317-CRB         Document 44     Filed 10/15/25    Page 14 of 27
+
+
+
+                                                     2.      Legal Sufficiency
+                                   1
+                                              Setting aside the remediable statute-of-limitations defect, Rusow alleges that
+                                   2
+                                       SkinSpirit violated CIPA’s wiretapping provision. See Am. Compl. ¶¶ 149–60; Cal. Penal
+                                   3
+                                       Code § 631(a) (West 2025). Section 631(a) prohibits unauthorized third-party
+                                   4
+                                       interceptions of communications, or aiding efforts thereto. Id. Because section 631(a)
+                                   5
+                                       concerns third-party interceptions, a party to a communication cannot violate the section
+                                   6
+                                       except by aiding another’s violation. See Smith v. Google, LLC (Smith), 735 F. Supp. 3d
+                                   7
+                                       1188, 1196–97 (N.D. Cal. 2024) (footnote omitted) (first citing Rogers v. Ulrich, 52 Cal.
+                                   8
+                                       App. 3d 894, 899 (1975) and then Cody v. Boscov’s, Inc., No. 8:22-cv-01434-SSS-DTB,
+                                   9
+                                       2024 WL 2228973, at *2 (C.D. Cal. May 6, 2024)).
+                                  10
+                                              Rusow alleges that SkinSpirit aided LinkedIn’s and Google’s violation of section
+                                  11
+                                       631. Am. Compl. ¶¶ 149–60. This is derivative liability—LinkedIn or Google (not
+                                  12
+
+
+
+ United States District Court
+                                       defendants) must have violated the statute if SkinSpirit did, otherwise there would be
+                                  13
+                                       nothing to aid. See Smith v. YETI Coolers, LLC (YETI), 754 F. Supp. 3d 933, 942 (N.D.
+                                  14
+                                       Cal. 2024). To allege that SkinSpirit aided a CIPA violation, Rusow must allege that
+                                  15
+                                       (a) LinkedIn or Google violated section 631, and that (b) SkinSpirit acted with knowledge
+
+
+Northern District of California
+                                  16
+                                       of and intent to aid that violation. See id.
+                                  17
+                                                             a.     The Underlying Violation
+                                  18
+                                              Rusow must allege an underlying violation of section 631 by LinkedIn or Google.
+                                  19
+                                       Section 631 prohibits “unauthorized” interception of communications through any means.
+                                  20
+                                       Rusow has sufficiently pleaded that LinkedIn and Google intercepted her communications
+                                  21
+                                       with SkinSpirit. See Am. Compl. ¶¶ 83–89; Smith, 735 F. Supp. 3d at 1197 (holding that
+                                  22
+                                  23
+                                       should be sufficient on its own because the tracking was not reasonably discoverable
+                                  24   earlier. Opp’n at 7. These cases all allowed mere allegations of delayed discovery “given
+                                       the type of case” and alleged injury—one where the plaintiffs inherently could not have,
+                                  25   through any reasonable means, discovered their injuries sooner. See FullStory, 712 F.
+                                       Supp. 3d at 1255; accord Gaige, 2025 WL 559719, at *3; Desert Care, 2024 WL 1343305,
+                                  26   at *5. But here, Rusow alleges that she saw targeted advertisements, which would have
+                                       put a reasonable user on inquiry notice, see Saedi, 2025 WL 1141168, at *10 (citation
+                                  27   omitted), whereas the plaintiffs in Gaige, Desert Care, and FullStory did not. Because she
+                                       has the burden of alleging timely delayed discovery, she must allege that she first saw
+                                  28   these ads within one year of her complaint to survive dismissal. See Javier, 649 F. Supp.
+                                       3d at 901.
+                                                                                    14
+                                       Case 3:24-cv-09317-CRB        Document 44       Filed 10/15/25    Page 15 of 27
+
+
+
+
+                                   1   Google Analytics is a third-party interceptor of communications for purposes of
+                                   2   section 631); Jackson v. LinkedIn Corp., 744 F. Supp. 3d 986, 994 (N.D. Cal. 2024)
+                                   3   (holding the same for the LinkedIn Insight Tag). Rusow must also plead a lack of consent
+                                   4   to show that the alleged interception was “unauthorized.” See Turner v. Nuance
+                                   5   Commc’ns, Inc., 735 F. Supp. 3d 1169, 1177–78 (N.D. Cal. 2024) (citations omitted).
+                                   6   SkinSpirit points to Rusow’s prior acceptance of LinkedIn’s Privacy Policy as evidence of
+                                   7   her consent. Mot. at 16–17; see Am. Compl. ¶¶ 6, 38 (noting that Rusow had assented to
+                                   8   LinkedIn’s Privacy Policy “at all relevant times”). It makes no argument that Rusow
+                                   9   consented to Google’s interception. So, the only question here is whether LinkedIn’s
+                                  10   Privacy Policy constitutes consent to its interceptions of Rusow’s health data. See YETI,
+                                  11   754 F. Supp. 3d at 940 (requiring “absence of consent” to state a section 631 claim).
+                                  12          LinkedIn’s Privacy Policy allegedly states:
+
+
+
+ United States District Court
+                                  13                 We use cookies and similar technologies (e.g., pixels and ad
+                                                     tags) to collect data (e.g., device IDs) to recognize you and your
+                                  14                 device(s) on, off and across different services and devices where
+                                                     you have engaged with our Services. We also allow some others
+                                  15                 to use cookies as described in our Cookie Policy.
+
+
+
+Northern District of California
+                                  16   Am. Compl. ¶ 40 (citation modified).
+                                  17          Courts that have considered similarly broad language in other privacy policies have
+                                  18   found such language to be sufficient to establish consent to third-party tracking on other
+                                  19   websites. See, e.g., Lakes v. Ubisoft, Inc., No. 3:24-cv-06943-TLT, 2025 WL 1036639, at
+                                  20   *6 (N.D. Cal. Apr. 2, 2025) (holding that the plaintiffs’ assent to Ubisoft’s similarly
+                                  21   worded privacy policy consented to Ubisoft’s disclosure of their video-game-related data
+                                  22   to Meta), appeal docketed, No. 25-2857 (9th Cir. May 2, 2025); Libman v. Apple, Inc.,
+                                  23   No. 5:22-cv-07069-EJD, 2024 WL 4314791, at *7–8 (N.D. Cal. Sept. 26, 2024)
+                                  24   (concluding that Apple’s broadly phrased privacy policy established consent to data
+                                  25   collection on Apple’s services); Silver v. Stripe, Inc., No. 4:20-cv-08196-YGR, 2021 WL
+                                  26   3191752, at *4 (N.D. Cal. July 28, 2021) (similarly concluding that Instacart’s privacy
+                                  27   policy established consent to Stripe’s third-party tracking on Instacart’s website).
+                                  28          But courts have not interpreted privacy policies with the same liberality when it
+                                                                                     15
+                                       Case 3:24-cv-09317-CRB        Document 44       Filed 10/15/25    Page 16 of 27
+
+
+
+
+                                   1   comes to health data. See, e.g., Meta Pixel, 647 F. Supp. 3d at 793–94 (Orrick, J.)
+                                   2   (doubting that a reasonable user would understand Meta’s privacy policy as consenting to
+                                   3   the surreptitious disclosure of protected health information); Doe v. Microsoft Corp., No.
+                                   4   2:23-cv-00718-JCC, 2023 WL 8780879, at *6 (W.D. Wash. Dec. 19, 2023) (similarly
+                                   5   doubting that Kaiser Permanente’s general data collection disclosure in its privacy policy
+                                   6   would inform a reasonable user that it extended to “personal health information”).
+                                   7          The Court follows the Meta Pixel and Microsoft courts in declining to read a
+                                   8   general third-party tracking consent as extending to health data lifted from other websites.
+                                   9   The Microsoft court even refused to read the privacy policy of Kaiser Permanente—a
+                                  10   medical provider—as extending to the disclosure of medical information from Kaiser’s
+                                  11   website to third parties. 2023 WL 8780879, at *6. These courts have correctly drawn the
+                                  12   line. Contracts should be interpreted according to their most natural meaning. A contract
+
+
+
+ United States District Court
+                                  13   consenting to the general disclosure of a user’s information can perhaps reasonably extend
+                                  14   to what video games he plays or what groceries he buys, but not to his private health
+                                  15   information. See In re Facebook, Inc., Consumer Priv. User Profile Litig., 402 F. Supp. 3d
+
+
+
+Northern District of California
+                                  16   767, 789–90 (N.D. Cal. 2019) (concluding that a lack of consent allegation is sufficient if a
+                                  17   reasonable user “could plausibly have interpreted the contract language as not disclosing”
+                                  18   the practice at issue); Am. Compl. ¶ 92 (explicitly alleging a lack of consent).
+                                  19          This is especially true considering LinkedIn’s primary function as a job networking
+                                  20   site. A reasonable user would have no occasion to believe that a job networking site would
+                                  21   collect health information. And Rusow’s ostensible consent was not given to SkinSpirit,
+                                  22   but to a third party at some previous time. The Court does not construe LinkedIn’s general
+                                  23   Privacy Policy as reasonably consenting to the disclosure of health information from other
+                                  24   websites.
+                                  25          Because a reasonable user would not have understood that she had authorized
+                                  26   LinkedIn to intercept her health data by accepting its Privacy Policy, LinkedIn’s
+                                  27   interception was unauthorized. Because SkinSpirit makes no argument that Rusow
+                                  28   consented to Google’s interception, it too was unauthorized. Accordingly, Rusow has
+                                                                                    16
+                                       Case 3:24-cv-09317-CRB          Document 44      Filed 10/15/25     Page 17 of 27
+
+
+
+
+                                   1   alleged an underlying violation of section 631 by LinkedIn and Google.
+                                   2                         b.      Knowledge of and Intent to Aid the Violation
+                                   3          Having adequately alleged an underlying violation, Rusow must also allege that
+                                   4   SkinSpirit “aided, agreed with, employed, or conspired with” LinkedIn and Google to “do,
+                                   5   permit, or cause” the violation. See Cal. Penal Code § 631(a) (citation modified). Under
+                                   6   the statute, Rusow must allege that SkinSpirit acted “with the third party in order to have
+                                   7   the third party perform acts that violate the statute.” See YETI, 754 F. Supp. 3d at 942
+                                   8   (emphasis omitted). “At the very least, that requires both knowledge of the conduct that
+                                   9   will violate the statute and a purpose of aiding, agreeing, or employing the third party to
+                                  10   commit those acts.” Id. (emphasis added). The parties’ core dispute is whether SkinSpirit
+                                  11   must purposely aid conduct that it knows violates CIPA, or just knowingly and purposely
+                                  12   aid the acts that result in the violation.
+
+
+
+ United States District Court
+                                  13          Courts in this circuit are split on the issue. Contrast, e.g., Tate v. VITAS
+                                  14   Healthcare Corp., 762 F. Supp. 3d 949, 959 (E.D. Cal. 2025) (construing CIPA to require
+                                  15   only intent to aid, not intent to violate the statute), St. Aubin v. Carbon Health Techs., Inc.,
+
+
+
+Northern District of California
+                                  16   No. 4:24-cv-00667-JST, 2024 WL 4369675, at *8 (N.D. Cal. Oct. 1, 2024) (same), and
+                                  17   Cousin v. Sharp Healthcare, 681 F. Supp. 3d 1117, 1129–30 (S.D. Cal. 2023) (same), with
+                                  18   Rodriguez v. Ford Motor Co., 722 F. Supp. 3d 1104, 1123–24 (S.D. Cal. 2024)
+                                  19   (incorporating the common-law “aiding and abetting” standard, which requires knowledge
+                                  20   of illegality), and Esparza v. UAG Escondido A1 Inc., 3:23-cv-00102-DMS-KSC, 2024
+                                  21   WL 559241, at *6 (S.D. Cal. Feb. 12, 2024) (same).
+                                  22          Tate and like cases have the better argument. It is a long-standing rule of
+                                  23   construction to adopt a term’s common-law definition in the absence of a precise statutory
+                                  24   definition. See City of Long Beach v. Payne, 3 Cal. 2d 184, 191 (1935); People v. Moses,
+                                  25   10 Cal. 5th 893, 903 (2020) (reaffirming this principle). But the Legislature used the term
+                                  26   “aided, agreed with, employed, or conspired with,” Cal. Penal Code § 631(a), not the term
+                                  27   “aid and abet.” Yet some courts have read the common law’s “aid and abet” standard into
+                                  28   section 631 anyway. See, e.g., Rodriguez, 722 F. Supp. 3d at 1123–24.
+                                                                                     17
+                                       Case 3:24-cv-09317-CRB        Document 44       Filed 10/15/25     Page 18 of 27
+
+
+
+
+                                   1          Section 631 does not exist in a vacuum. The Legislature invoked the “aid and abet”
+                                   2   phrase in a neighboring section of CIPA, but not in section 631. See Cal. Penal Code
+                                   3   § 632.01(a)(2) (creating liability for those who “aid and abet” section 632 violations).
+                                   4   “One of the fundamental rules of statutory construction is that interrelated statutory
+                                   5   provisions should be harmonized.” People v. Partee, 8 Cal. 5th 860, 868 (2020); accord
+                                   6   Turkiye Halk Bankasi A.S. v. United States, 598 U.S. 264, 273–74 (2023). Courts that
+                                   7   read section 631’s “aid” provision to mean “aid and abet” create an interpretive clash with
+                                   8   section 632.01’s “aid and abet” provision, rendering the word “abet” superfluous. See
+                                   9   Curle v. Superior Ct., 24 Cal. 4th 1057, 1063 (2001) (recognizing that statutes should not
+                                  10   be construed in a manner that renders any part superfluous). Considering CIPA as a
+                                  11   whole, the word “abet” in section 632.01 can only have effect if section 631’s “aid”
+                                  12   provision does not take the common-law meaning.
+
+
+
+ United States District Court
+                                  13          Some courts in this circuit have taken this approach. The Tate court, for example,
+                                  14   looked to the statute’s text to distinguish aiding (merely providing support) from aiding
+                                  15   and abetting (knowingly facilitating illegal action). 762 F. Supp. 3d at 959 (“The plain text
+
+
+
+Northern District of California
+                                  16   of section 631(a) is unambiguous on this issue: the statute requires that a party ‘aids,
+                                  17   agrees with, employs, or conspires’ with another party. § 631(a). It does not require that a
+                                  18   party aid and abet.”). Relying on the statute’s text, it rejected the common law’s
+                                  19   heightened intent standard. Tate, 762 F. Supp. 3d at 959.
+                                  20          Courts that have gone the other way, such as Esparza, decided to apply the
+                                  21   common-law standard in the absence of a statutory definition. See 2024 WL 559241, at
+                                  22   *6. To support this interpolation, the Esparza court cited cases where other courts did the
+                                  23   same thing, but for statutes with aiding and abetting provisions. See Fiol v. Doellstedt, 50
+                                  24   Cal. App. 4th 1318, 1325–26 (1996) (incorporating the common-law standard for an aid-
+                                  25   and-abet provision in the California Fair Employment and Housing Act); Twitter, Inc. v.
+                                  26   Taamneh, 598 U.S. 471, 484–85 (2023) (interpreting the federal Antiterrorism Act’s aid-
+                                  27   and-abet provision consistently with the common-law standard). As Tate points out,
+                                  28   section 631’s text covers not aiders-and-abettors, but mere aiders—this means the common
+                                                                                     18
+                                       Case 3:24-cv-09317-CRB         Document 44       Filed 10/15/25     Page 19 of 27
+
+
+
+
+                                   1   law aid-and-abet standard is inapposite. See 762 F. Supp. 3d at 959.
+                                   2          The analogous federal Wiretap Act includes the same aid-but-not-abet requirement
+                                   3   for intent. Its intent prong requires a plaintiff to allege that the defendant “acted
+                                   4   consciously and deliberately with the goal of intercepting wire communications”—but not
+                                   5   necessarily with the goal of violating the statute. United States v. Christensen, 828 F.3d
+                                   6   763, 791–92 (9th Cir. 2015). “Intent under CIPA is determined consistently with intent
+                                   7   under ECPA [the Wiretap Act].” Doe v. Meta Platforms, Inc., 690 F. Supp. 3d 1064, 1079
+                                   8   (N.D. Cal. 2023), interlocutory appeal denied, No. 3:22-cv-03580-WHO, 2024 WL
+                                   9   4375776 (N.D. Cal. Oct. 2, 2024). Although SkinSpirit correctly points out that there is no
+                                  10   analogous aiding provision of the Wiretap Act, see Reply at 8–9, the Wiretap Act’s
+                                  11   principles of intent can still apply to CIPA, especially given how freely courts merge the
+                                  12   two analyses. See, e.g., Heerde v. Learfield Commc’ns, LLC, 741 F. Supp. 3d 849, 865
+
+
+
+ United States District Court
+                                  13   (C.D. Cal. 2024) (“The analysis for a violation of the Federal Wiretap act [sic] is the same
+                                  14   as under CIPA.”); Heiting v. Taro Pharms. USA, Inc., 728 F. Supp. 3d 1112, 1122 n.7
+                                  15   (C.D. Cal. 2024) (“District courts in this circuit frequently apply the federal wiretap
+
+
+
+Northern District of California
+                                  16   analysis to different elements of CIPA claims.”); Hammerling v. Google LLC, 615 F.
+                                  17   Supp. 3d 1069, 1092 (N.D. Cal. 2022) (same).8
+                                  18          SkinSpirit relies on YETI and other cases to argue that Rusow must allege
+                                  19   knowledge and purpose to violate the statute—not just knowledge and purpose to aid the
+                                  20   underlying actions. See Mot. at 17–18; Reply at 9–10 (first citing YETI, 754 F. Supp. 3d
+                                  21   at 942–43; then Graham v. Noom, Inc., 533 F. Supp. 3d 823, 833 (N.D. Cal. 2021); and
+                                  22   then Licea v. Finish Line, Inc., No. 23STCV22390, slip op. at 5–6 (Cal. Super. Ct. July 10,
+                                  23   2024)). But none of these cases support SkinSpirit’s conclusion: each dismissed a CIPA
+                                  24   aiding claim because the defendants did not know of the underlying conduct that formed
+                                  25   the violation, not because they did not know of the underlying conduct’s illegality.
+                                  26   Accordingly, the Court reads section 631 as only requiring intentional conduct, not
+                                  27
+                                       8
+                                  28         SkinSpirit argues that the lack of an exact parallel provision renders useless Wiretap
+                                       Act cases regarding intent, but it cites no cases to support this proposition. See Reply at 9.
+                                                                                      19
+                                       Case 3:24-cv-09317-CRB         Document 44       Filed 10/15/25    Page 20 of 27
+
+
+
+
+                                   1   knowledge of illegality.
+                                   2          Under that standard, there is little question that Rusow sufficiently alleged that
+                                   3   SkinSpirit was aware of and intended to allow LinkedIn and Google to intercept her
+                                   4   communications. “At the pleading stage, interception may be considered intentional where
+                                   5   a defendant is aware of the defect causing the interception but takes no remedial action.”
+                                   6   Lopez v. Apple, Inc., 519 F. Supp. 3d 672, 684 (N.D. Cal. 2021) (citation modified).
+                                   7   Rusow alleged that SkinSpirit intentionally embedded the third-party tracking tools on its
+                                   8   website, with knowledge that those tracking tools would transmit users’ communications
+                                   9   to LinkedIn and Google. Am. Compl. ¶¶ 81–82, 86–89. Accordingly, Rusow has
+                                  10   sufficiently alleged the substance of a CIPA violation.
+                                  11          Because Rusow’s complaint suffers from a statute-of-limitations defect, the Court
+                                  12   GRANTS the motion to dismiss her CIPA claim with leave to amend. If Rusow cures that
+
+
+
+ United States District Court
+                                  13   defect, the claim is otherwise sufficient.
+                                  14          D.     Invasion of Privacy Under the California Constitution
+                                  15          Rusow alleges that SkinSpirit’s disclosure of her information violated her right to
+
+
+
+Northern District of California
+                                  16   privacy under the California Constitution. Id. ¶¶ 173–79. To sustain a private right of
+                                  17   action under article I, section 1’s privacy guarantee, Rusow must allege (1) that she
+                                  18   possessed a “legally protected privacy interest,” (2) that she maintained “a reasonable
+                                  19   expectation of privacy,” and (3) that the intrusion is so serious as to constitute an
+                                  20   “egregious breach of the social norms” such that the breach is “highly offensive.” See In
+                                  21   re Facebook, Inc. Internet Tracking Litig., 956 F.3d 589, 601 (9th Cir. 2020) (quoting
+                                  22   Hernandez v. Hillsides, Inc., 47 Cal. 4th 272, 287 (2009)).
+                                  23                 1.     Rusow’s Legally Protected Privacy Interest
+                                  24          “Whether a legally recognized privacy interest is present in a given case is a
+                                  25   question of law to be decided by the court.” Hill v. NCAA, 7 Cal. 4th 1, 40 (1994). “It is
+                                  26   clear that patients have a bona fide interest in the confidentiality of their medical
+                                  27   information.” County of Los Angeles v. Superior Ct., 65 Cal. App. 5th 621, 641 (2021)
+                                  28   (citation modified). Rusow alleges that the third parties intercepted confidential
+                                                                                     20
+                                       Case 3:24-cv-09317-CRB         Document 44      Filed 10/15/25     Page 21 of 27
+
+
+
+
+                                   1   information, including “the state the appointment is in, the type of procedure a patient is
+                                   2   interested in, the specific procedure they want completed, the reason for the procedure, the
+                                   3   provider they wish to see, the day, and time for the appointment.” Am. Compl. ¶ 83;
+                                   4   accord id. ¶ 87. She also alleges that they intercepted sufficient personally identifiable
+                                   5   information to link the disclosed data with patients’ identities. Id. ¶ 88.
+                                   6          SkinSpirit argues that the intercepted information was not medical information and
+                                   7   therefore is subject to a diminished privacy interest. Reply at 11. It cites authority holding
+                                   8   that “medical information cannot mean just any patient-related information held by a
+                                   9   health care provider, but must include a patient’s medical history, mental or physical
+                                  10   condition, or treatment.” See Reply at 11; Eisenhower Med. Ctr. v. Superior Ct., 226 Cal.
+                                  11   App. 4th 430, 435 (2014) (citation modified). While this definition comes from courts’
+                                  12   interpretation of the Confidentiality of Medical Information Act, not the California
+
+
+
+ United States District Court
+                                  13   Constitution, it can nonetheless inform the meaning of “medical information.”9
+                                  14          Medical information (under CMIA) “must be ‘substantive,’ rather than merely
+                                  15   administrative,” Tamraz v. Bakotic Pathology Assocs., LLC, No. 3:22-cv-00725-BAS-
+
+
+
+Northern District of California
+                                  16   WVG, 2022 WL 16985001, at *4 (S.D. Cal. Nov. 16, 2022) (citation omitted), and must
+                                  17   be “individually identifiable,” Eisenhower, 226 Cal. App. 4th at 434. While a patient’s
+                                  18   name, phone number, “treating physician names, medical treatment appointment
+                                  19   information, and medical treatment discharge dates and times” are not substantive
+                                  20   “medical information” under CMIA, see Wilson v. Rater8, LLC, No. 3:20-cv-01515-
+                                  21   DMS-LL, 2021 WL 4865930, at *5 (S.D. Cal. Oct. 18, 2021), Rusow alleged that the third
+                                  22   parties intercepted more than that. Specifically, Rusow alleged interception of “the
+                                  23   specific procedure [patients] want completed” and “the reason for the procedure.” Am.
+                                  24   Compl. ¶ 83.
+                                  25
+                                  26   9
+                                              Rusow does not bring an independent claim under CMIA. She included a CMIA
+                                  27   claim in her original complaint, but she waived the claim by failing to address it in her
+                                       opposition. See Opp’n at 3 n.1; Tyler, 499 F. Supp. 3d at 701. SkinSpirit in its reply uses
+                                  28   courts’ definitions of “medical information” under CMIA solely to inform the
+                                       constitutional issue. Reply at 11.
+                                                                                    21
+                                       Case 3:24-cv-09317-CRB        Document 44       Filed 10/15/25    Page 22 of 27
+
+
+
+
+                                   1          A patient’s desired procedure and its underlying reason are not merely
+                                   2   administrative. Whereas “the fact that an individual’s name is on a list released by doctor
+                                   3   X or clinic Y” is not medical information, see Eisenhower, 226 Cal. App. 4th at 435, “the
+                                   4   individual’s right to privacy encompasses detailed complaints of [his] physical ills,” Los
+                                   5   Angeles, 65 Cal. App. 5th at 641 (citation modified); see also id. (“The state of a person’s
+                                   6   gastro-intestinal tract is as much entitled to privacy from unauthorized public or
+                                   7   bureaucratic snooping as is that person’s bank account, the contents of his library or his
+                                   8   membership in the NAACP.”). In that same vein, Rusow surely communicated
+                                   9   “complaints of [her dermatological] ills” and the “state of [her skin’s health]” when she
+                                  10   indicated her specific desired procedure and the underlying medical reason for the
+                                  11   procedure on SkinSpirit’s website. See id.; Am. Compl. ¶ 83. This is more than merely
+                                  12   administrative; it is the substance of her medical needs. Because this information is
+
+
+
+ United States District Court
+                                  13   allegedly tied to her personally identifiable information, see Am. Compl. ¶¶ 88–91, Rusow
+                                  14   has alleged a legally recognizable privacy interest under the California Constitution.
+                                  15                 2.     Reasonable Expectation of Privacy
+
+
+
+Northern District of California
+                                  16          Next, Rusow must allege that she had a “reasonable expectation of privacy in the
+                                  17   circumstances.” Hill, 7 Cal. 4th at 40. SkinSpirit again relies on Rusow’s acceptance of
+                                  18   LinkedIn’s Privacy Policy to argue she did not have a reasonable expectation of privacy
+                                  19   over the intercepted information. Mot. at 19.
+                                  20          “Whether plaintiff has a reasonable expectation of privacy in the circumstances is
+                                  21   [a] mixed question of law and fact.” Hill, 7 Cal. 4th at 40 (citation modified). As a matter
+                                  22   of law, there is generally no reasonable expectation of privacy over the information
+                                  23   communicated on a website. See Thomas v. Papa Johns Int’l, Inc., No. 3:22-cv-02012-
+                                  24   DMS-MSB, 2024 WL 2060140, at *2 (S.D. Cal. May 8, 2024) (collecting cases). But
+                                  25   there are exceptions to this rule. See, e.g., Facebook Internet Tracking, 956 F.3d at 601–03
+                                  26   (concluding that a reasonable expectation of privacy existed where Facebook’s Privacy
+                                  27   Policy indicated that tracking would conclude when users logged out); Brown v. Google
+                                  28   LLC, 685 F. Supp. 3d 909, 941 (N.D. Cal. 2023) (concluding that users in private or
+                                                                                    22
+                                       Case 3:24-cv-09317-CRB         Document 44      Filed 10/15/25     Page 23 of 27
+
+
+
+
+                                   1   incognito mode had a reasonable expectation of privacy); Calhoun v. Google LLC, 526 F.
+                                   2   Supp. 3d 605, 630 (N.D. Cal. 2021) (recognizing that a defendant’s representations can
+                                   3   give rise to a reasonable expectation of privacy).
+                                   4          Here, the question is whether a reasonable user would expect privacy against
+                                   5   unwanted disclosure of her administrative and health information on SkinSpirit’s website.
+                                   6   Such a reasonable expectation can exist where the third parties “gained ‘unwanted access
+                                   7   to data by electronic or other covert means, in violation of the law or social norms.’ ”
+                                   8   Facebook Internet Tracking, 956 F.3d at 601–02 (quoting Hernandez, 47 Cal. 4th at 286).
+                                   9   Courts frequently hold that patients have a reasonable expectation of privacy over their
+                                  10   medical information. See, e.g., Los Angeles, 65 Cal. App. 5th at 643–45 (recognizing such
+                                  11   a reasonable expectation); Lewis v. Superior Ct., 172 Cal. Rptr. 3d 491, 504 (Ct. App.
+                                  12   2014) (same), aff’d and superseded, 3 Cal. 5th 561 (2017); L.A. Gay & Lesbian Ctr. v.
+
+
+
+ United States District Court
+                                  13   Superior Ct., 194 Cal. App. 4th 288, 308 (2011) (same). This Court also recognizes the
+                                  14   same reasonable expectation between a prospective or current patient and her medical
+                                  15   provider, notwithstanding the general rule about websites.
+
+
+
+Northern District of California
+                                  16          SkinSpirit does not contest this point. It only argues that Rusow gave up this
+                                  17   reasonable expectation by assenting to LinkedIn’s Privacy Policy, and it makes no
+                                  18   argument as to Google. See Mot. at 19. But just as LinkedIn’s broadly phrased third-party
+                                  19   policy does not constitute consent under CIPA, it also does not mitigate Rusow’s
+                                  20   otherwise reasonable expectation of privacy over the information she input on SkinSpirit’s
+                                  21   website. See Meta Pixel, 647 F. Supp. 3d at 800 (holding that Meta’s general privacy
+                                  22   policy, which did not disclose Meta’s collection of health data, did not affect the plaintiffs’
+                                  23   reasonable expectation of privacy); Microsoft, 2023 WL 8780879, at *9 (rejecting a
+                                  24   nonparty’s broadly phrased privacy policy as evidence against a reasonable expectation).
+                                  25          Accordingly, the Court rejects SkinSpirit’s argument and concludes that Rusow has
+                                  26   alleged a reasonable expectation of privacy.
+                                  27                 3.     Highly Offensive Invasion of Privacy
+                                  28          Finally, Rusow must allege that SkinSpirit’s intrusion was “highly offensive.”
+                                                                                      23
+                                       Case 3:24-cv-09317-CRB          Document 44      Filed 10/15/25      Page 24 of 27
+
+
+
+
+                                   1   Facebook Internet Tracking, 956 F.3d at 601. Because this question is fact-intensive,
+                                   2   “courts must be reluctant to reach a conclusion at the pleading stage about how offensive
+                                   3   or serious [a] privacy intrusion is.” Facebook Consumer Priv., 402 F. Supp. 3d at 797
+                                   4   (citation omitted). In determining the “offensiveness” of an invasion of a privacy interest,
+                                   5   courts may consider “the degree of the intrusion, the context, conduct and circumstances
+                                   6   surrounding the intrusion as well as the intruder’s motives and objectives, the setting into
+                                   7   which he intrudes, and the expectations of those whose privacy is invaded.” Hill, 7 Cal.
+                                   8   4th at 26 (citation omitted).
+                                   9          It is true that “courts in this district have consistently refused to characterize the
+                                  10   disclosure of common, basic digital information to third parties as serious or egregious
+                                  11   violations of social norms.” Meta Pixel, 647 F. Supp. 3d at 801 (citation modified). But
+                                  12   Rusow alleges that SkinSpirit disclosed more than mere “basic digital information”—she
+
+
+
+ United States District Court
+                                  13   alleges that third parties intercepted her medical information. Am. Compl. ¶¶ 83, 89.
+                                  14          In response, SkinSpirit cites no cases where the disclosure of medical information
+                                  15   was not a serious invasion of privacy—and the authorities it does cite do not support its
+
+
+
+Northern District of California
+                                  16   position. Hammerling, Low v. LinkedIn Corp., 900 F. Supp. 2d 1010 (N.D. Cal 2012), In
+                                  17   re Google, Inc. Privacy Policy Litigation, 58 F. Supp. 3d 968 (N.D. Cal. 2014), In re
+                                  18   iPhone Litigation, 844 F. Supp. 2d 1040 (N.D. Cal. 2012), and Williams v. DDR Media,
+                                  19   LLC, No. 3:22-cv-03789-SI, 2023 WL 5352896 (N.D. Cal. Aug. 18, 2023), did not
+                                  20   involve medical information. All involved browsing history or similar information.
+                                  21          In re Ambry Genetics Data Breach Litigation, 567 F. Supp. 3d 1130 (C.D. Cal
+                                  22   2021), is more on point. There, the plaintiffs alleged that defendant Ambry Genetics
+                                  23   disclosed “names, dates of birth, Ambry account numbers, health insurance information,
+                                  24   confidential medical information, medical diagnoses, billing information including
+                                  25   addresses, email addresses, and telephone numbers, and Social Security numbers.” Id.
+                                  26   at 1138. The court held that the allegations sufficiently stated a “highly offensive” breach
+                                  27   of social norms because of the sensitive nature of the data involved. Id. at 1143 (citation
+                                  28   omitted); see also Stasi v. Inmediata Health Grp. Corp., 501 F. Supp. 3d 898, 926 (S.D.
+                                                                                      24
+                                       Case 3:24-cv-09317-CRB        Document 44       Filed 10/15/25     Page 25 of 27
+
+
+
+
+                                   1   Cal. 2020) (holding that similar allegations of unwanted disclosures of medical
+                                   2   information plausibly alleged a “serious invasion of privacy”).
+                                   3          Rusow’s allegations mirror those of Ambry Genetics and Stasi, though with slight
+                                   4   factual differences. Although Rusow does not allege disclosure of actual diagnoses or
+                                   5   Social Security numbers, at this early stage of litigation on such a fact-based inquiry, the
+                                   6   Court need not take a position on the offensiveness of SkinSpirit’s disclosure. At this
+                                   7   point, Rusow has plausibly alleged a highly offensive disclosure.
+                                   8          Accordingly, Rusow plausibly states a claim for relief under the California
+                                   9   Constitution. The Court DENIES SkinSpirit’s motion on this claim.
+                                  10          E.     Electronic Communications and Privacy Act (Wiretap Act)
+                                  11          Rusow and T.S. allege that SkinSpirit violated the ECPA. Am. Compl. ¶¶ 126–48.
+                                  12   The ECPA creates a cause of action against any defendant who intercepts communications
+
+
+
+ United States District Court
+                                  13   without consent. 18 U.S.C. §§ 2511(1), 2520(a). Unlike CIPA, a party to a
+                                  14   communication (like SkinSpirit) cannot be liable under § 2511 as an accomplice.
+                                  15   § 2511(2)(d). A party can only be liable if he intercepts the communication “for the
+
+
+
+Northern District of California
+                                  16   purpose of committing any criminal or tortious act” (the crime-tort exception). Id. So, the
+                                  17   principal question here is whether Plaintiffs have alleged “sufficient facts to support an
+                                  18   inference that the offender intercepted the communication for the purpose of a tortious or
+                                  19   criminal act that is independent of the intentional act of the recording or interception
+                                  20   itself.” B.K. v. Eisenhower Med. Ctr., 721 F. Supp. 3d 1056, 1065 (C.D. Cal. 2024) (first
+                                  21   emphasis added) (citation omitted), reconsideration granted in part on other grounds, No.
+                                  22   5:23-cv-02092-JGB-DTB, 2024 WL 2037404 (C.D. Cal. Apr. 11, 2024).
+                                  23          The crime-tort exception’s “focus is upon whether the purpose for the
+                                  24   interception—its intended use—was criminal or tortious.” Sussman v. Am. Broad. Cos.,
+                                  25   186 F.3d 1200, 1202 (citation modified). SkinSpirit points to Plaintiffs’ allegations that
+                                  26   undermine any assertion that its purpose in intercepting data was criminal or tortious.
+                                  27   Reply at 13–14 (citing Am. Compl. ¶¶ 82, 139). These paragraphs allege that SkinSpirit’s
+                                  28   purpose was “to monetize that data for targeted advertising.” Am. Compl. ¶ 82; accord id.
+                                                                                     25
+                                       Case 3:24-cv-09317-CRB        Document 44       Filed 10/15/25     Page 26 of 27
+
+
+
+
+                                   1   ¶ 139. Even if SkinSpirit in fact committed an invasion of privacy tort, as Rusow alleges,
+                                   2   Plaintiffs do not allege that it did so for the express purpose of committing that tort. See
+                                   3   Sussman, 186 F.3d at 1202–03 (“Where the purpose is not illegal or tortious, but the means
+                                   4   are, the victims must seek redress elsewhere.”).
+                                   5          Allen v. Quicken Loans Inc., No. 2:17-cv-12352-ES-MAH, 2018 WL 5874088
+                                   6   (D.N.J. Nov. 9, 2018), is on point and persuasive here. There, defendant Quicken Loans
+                                   7   installed third-party tracking software on its website to obtain useful summaries of user
+                                   8   activity. Id. at *1–2. The court rejected application of the crime-tort exception because
+                                   9   Quicken Loans did not have the “purpose of facilitating some further impropriety, such as
+                                  10   blackmail.” Id. at *5 (quoting Sussman, 186 F.3d at 1203). Unlike CIPA’s aiding
+                                  11   liability, which does not require an accomplice to know his acts are illegal, the ECPA
+                                  12   requires exactly that knowledge and purpose. Plaintiffs’ own allegations acknowledge that
+
+
+
+ United States District Court
+                                  13   such knowledge is lacking here.
+                                  14          Furthermore, Plaintiffs’ arguments “plainly fail because the alleged tortious or
+                                  15   criminal activities are not independent from the intentional act of intercepting; they are the
+
+
+
+Northern District of California
+                                  16   interception itself.” See id. at *6 (citing In re Google Inc. Cookie Placement Consumer
+                                  17   Priv. Litig., 806 F.3d 125, 145 (3d Cir. 2015)). For the crime-tort exception to apply,
+                                  18   Plaintiffs must allege that SkinSpirit had an “independent criminal or tortious purpose at
+                                  19   the time” the interceptions were made. See Planned Parenthood Fed’n of Am., Inc. v.
+                                  20   Newman, 51 F.4th 1125, 1135–36 (9th Cir. 2022). Here, Plaintiffs allege no independent
+                                  21   criminal or tortious intent; they accordingly fail to state a valid claim under the ECPA.
+                                  22          The Court accordingly GRANTS Defendants’ motion to dismiss the ECPA claim,
+                                  23   with prejudice.
+                                  24          F.     T.S.’s Use of a Pseudonym
+                                  25          Finally, Defendants correctly note that T.S. has not sought leave of the Court to
+                                  26   proceed under a pseudonym. Mot. at 1 n.1. Anonymous plaintiffs must seek the district
+                                  27   court’s approval to use a pseudonym or fictitious name. See Does I Thru XXIII v.
+                                  28   Advanced Textile Corp., 214 F.3d 1058, 1067–68 (9th Cir. 2000) (citing Fed. R. Civ.
+                                                                                     26
+                                       Case 3:24-cv-09317-CRB        Document 44      Filed 10/15/25     Page 27 of 27
+
+
+
+
+                                   1   P. 10(a)). T.S. brings only an ECPA claim, which the Court dismisses with prejudice.
+                                   2   Accordingly, this issue is moot.
+                                   3   IV.   CONCLUSION
+                                   4         In summary, the Court GRANTS IN PART AND DENIES IN PART Defendants’
+                                   5   motion as follows:
+                                   6             • The Court dismisses with leave to amend: (1) all three claims against
+                                   7                SkinSpirit Holdings for lack of personal jurisdiction, (2) all three claims
+                                   8                against the Vistnes Company for group pleading, and (3) Rusow’s CIPA
+                                   9                claim against all Defendants as untimely. Plaintiffs must amend within thirty
+                                  10                days. Failure to do so could result in dismissal with prejudice.
+                                  11             • The Court dismisses without leave to amend Plaintiffs’ ECPA claim against
+                                  12                all Defendants, as Plaintiffs’ allegations undermine a necessary element.
+
+
+
+ United States District Court
+                                  13             • Finally, the Court denies Defendants’ motion to dismiss Rusow’s
+                                  14                constitutional claim against SkinSpirit Essential.
+                                  15          IT IS SO ORDERED.
+
+
+
+Northern District of California
+                                  16          Dated: October ___,
+                                                             15 2025
+                                                                                        CHARLES R. BREYER
+                                  17                                                    United States District Judge
+                                  18
+                                  19
+                                  20
+                                  21
+                                  22
+                                  23
+                                  24
+                                  25
+                                  26
+                                  27
+                                  28
+                                                                                   27
+

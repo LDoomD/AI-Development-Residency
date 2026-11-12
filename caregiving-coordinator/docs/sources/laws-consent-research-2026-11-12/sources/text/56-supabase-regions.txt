@@ -1,0 +1,163 @@
+Available regions | Supabase Docs
+Skip to content
+DOCS
+Start
+Products 
+Build 
+Manage 
+Reference 
+Resources 
+DOCS
+SearchCtrlK Ask AI Main menu
+Open menu
+Main menu
+StartProductsBuildManageReferenceResourcesManage
+Platform ManagementSecurity & ComplianceObservability
+Platform
+Add-onsAdd-ons
+Custom Domains
+Database Backups
+IPv4 Address
+Read Replicas
+Overview
+Getting started
+Upgrades & MigrationsUpgrades & Migrations
+Upgrading
+Migrating within Supabase
+Overview
+Restore Dashboard backup
+Backup and restore using CLI
+Project & Account ManagementProject & Account Management
+Access Control
+Personal Access Tokens
+Multi-factor Authentication
+Overview
+Enforce MFA on organization
+Transfer Project
+Restore to a new project
+Project Pausing
+Delete Project
+Single Sign-On
+Overview
+Understanding Login Flows
+Choosing a Login Flow
+SSO with Azure AD
+SSO with Google Workspace
+SSO with Okta
+Multiple SSO Providers
+Testing and Best Practices
+Enterprise-Managed Authorization for MCP
+Platform Webhooks
+Overview
+Events
+Platform ConfigurationPlatform Configuration
+Regions
+Compute and Disk
+Database Size
+HIPAA Projects
+Network Restrictions
+Temporary Access
+Map team members to Postgres roles
+Performance Tuning
+SSL Enforcement
+Postgres Connection Logging
+Default Platform Permissions
+PrivateLink
+BillingBilling
+About billing on Supabase
+Get set up for billing
+Manage your subscription
+Manage your usage
+Overview
+Compute
+Egress
+Disk Size
+Disk Throughput
+Disk IOPS
+Monthly Active Users
+Monthly Active Third-Party Users
+Monthly Active SSO Users
+Storage Size
+Storage Image Transformations
+Edge Function Invocations
+Realtime Messages
+Realtime Peak Connections
+Custom Domains
+Point-in-Time Recovery
+IPv4
+MFA Phone
+Read Replicas
+Branching
+Logs
+Logs Ingest
+Logs Query
+Log Drains
+Pipelines
+Your monthly invoice
+Control your costs
+Credits
+AWS Marketplace
+Overview
+Getting Started
+Account Setup
+Manage your subscription
+Invoices
+FAQ
+Billing FAQ
+DOCS
+Start
+Products 
+Build 
+Manage 
+Reference 
+Resources 
+DOCS
+SearchCtrlK Ask AI Main menu
+Open menu
+Updated Oct 19, 2026
+Available regions
+Each Supabase project is deployed to one primary region. Choose the location closest to your users for the best performance.
+Data residency
+The region you choose also determines where your primary project data is stored. If your data residency requirements call for data to stay within a specific jurisdiction, choose a specific region rather than a general region grouping.
+General regions deploy to an available AWS region within that broader area, which may not match a specific jurisdiction. For example, the "Europe" general region includes London and Zurich, which are not EU member states. Region selection is a data-location control, not proof of regulatory compliance. For GDPR considerations, see the GDPR compliance guide.
+General regions
+For most projects, we recommend choosing a general region. Supabase will deploy your project to an available AWS region within that area based on current infrastructure capacity.
+AmericasEast US (North Virginia)
+EuropeCentral EU (Frankfurt)
+APACSoutheast Asia (Singapore)
+Note: General regions aren’t yet supported for read replicas or management via the API.
+Specific regions
+If you prefer, you can choose an exact AWS region for your project.
+West US (North California)us-west-1
+West US (Oregon)us-west-2
+East US (North Virginia)us-east-1
+East US (Ohio)us-east-2
+Canada (Central)ca-central-1
+West EU (Ireland)eu-west-1
+West Europe (London)eu-west-2
+West EU (Paris)eu-west-3
+Central EU (Frankfurt)eu-central-1
+Central Europe (Zurich)eu-central-2
+North EU (Stockholm)eu-north-1
+South Asia (Mumbai)ap-south-1
+Southeast Asia (Singapore)ap-southeast-1
+Northeast Asia (Tokyo)ap-northeast-1
+Northeast Asia (Seoul)ap-northeast-2
+Oceania (Sydney)ap-southeast-2
+South America (São Paulo)sa-east-1
+Edit this page
+Is this helpful?
+ No Yes 
+AI tools
+Connect your AI agentCopy as MarkdownAsk ChatGPTAsk ClaudePrefer on Google
+Need some help?Contact support
+Latest product updates?See Changelog
+Something's not right?Check system status
+© Supabase Inc—ContributingAuthor StyleguideOpen SourceSupaSquadPrivacy Settings
+Twitter
+GitHub
+Discord
+Youtube
+Platform
+Platform Configuration
+Regions

@@ -1,0 +1,2813 @@
+       Case 1:26-cv-03458-GBD               Document 1      Filed 04/27/26      Page 1 of 55
+
+
+
+
+                             UNITED STATES DISTRICT COURT
+                            SOUTHERN DISTRICT OF NEW YORK
+
+
+  CASEY OLIVIER, AMELIA WALSH,
+  and MICHAELLA WALSH, individually                     Case No. 1:26-cv-3458
+  and on behalf of all others similarly situated,
+                                                        JURY TRIAL DEMANDED
+                       Plaintiffs,
+
+            v.
+
+  KBI SERVICES, INC. d/b/a KINDBODY,
+
+                       Defendant.
+
+
+
+                                     CLASS ACTION COMPLAINT
+
+       Plaintiffs Casey Olivier, Amelia Walsh, and Michaella Walsh (“Plaintiffs”), individually
+
+and on behalf of all similarly situated persons, allege the following against Defendant KBI
+
+Services, Inc. d/b/a Kindbody (“Kindbody” or “Defendant”), based upon personal knowledge
+
+with respect to themselves and on information and belief derived from, among other things,
+
+investigation by their counsel and review of public documents as to all other matters:
+
+                                       I.     INTRODUCTION
+
+       1.        Information concerning an individual’s health is among the most sensitive, and
+
+closely guarded information in our society.
+
+       2.        The unwanted disclosure of such information can be enormously harmful. It can
+
+result in discrimination in the workplace, and denial of insurance coverage. And, if people are
+
+unable to trust that their sensitive health information will be kept confidential, they are much less
+
+likely to seek medical care when they need it most.
+
+       3.        Kindbody is a fertility and wellness company that provides a wide range of
+
+reproductive and family-building services, including fertility assessments, IVF, egg freezing,
+
+
+                                                    1
+         Case 1:26-cv-03458-GBD          Document 1        Filed 04/27/26      Page 2 of 55
+
+
+
+
+sperm and embryo banking, genetic testing, and general gynecological care through its telehealth
+
+platform and clinics nationwide.1
+
+         4.      Through the Kindbody website - https://kindbody.com/ - and patient portal located
+
+therein (collectively, the “Website”), patients can schedule and modify appointments, message
+
+their care team directly, track their menstrual cycle or pregnancy, and view their medical records
+
+and test results.
+
+         5.      Unfortunately, unbeknownst to Plaintiffs and other visitors to the Website, their
+
+private personal and health information was not actually being kept private. Instead, through the
+
+Website, Defendant collected and transmitted personally identifiable, sensitive health information
+
+pertaining to Plaintiffs’ and other patients’ upcoming appointments, including the services they
+
+are seeking, the specific clinic they and the information they input into the patient portal
+
+(collectively, “Sensitive Health Information”) to unauthorized third parties, including Alphabet,
+
+Inc. (“Google”), through the use of surreptitious online tracking tools.
+
+         6.      Online advertising giants like Google compile as much information as possible
+
+about American consumers, including information relating to the most private aspects of their
+
+lives. This information is then used to fuel for a massive, targeted advertising enterprise.
+
+         7.      Thus, any information about a person captured by Google can be used to stream
+
+ads to that person, among other uses. If, for example, Google receives information that a person
+
+is seeking fertility treatments, it will collect that information and allow its clients to use that
+
+information to stream ads related to family planning products and services to that person’s
+
+computers and smartphones.
+
+
+
+
+1
+    See Meet Kindbody, KINDBODY, https://kindbody.com/about-us/ (last visited Apr. 22, 2026).
+
+                                                  2
+       Case 1:26-cv-03458-GBD            Document 1        Filed 04/27/26      Page 3 of 55
+
+
+
+
+       8.      Google offers website operators access to its proprietary suites of marketing,
+
+advertising, and customer analytics software, including Google Analytics, Google AdSense, and
+
+Google Tag Manager (collectively, the “Business Tools”). Armed with these Business Tools,
+
+website operators can leverage Google’s enormous database of consumer information for the
+
+purposes of deploying targeted advertisements, performing minute analyses of their customer
+
+bases, and identifying new market segments that may be exploited.
+
+       9.      Google’s massive databases of consumer information can only exist with the help
+
+of users of the Business Tools, like Defendant. To use any one of Google’s Business Tools, a
+
+website operator must install Google’s internet surveillance software onto their website, including
+
+tracking pixels (“Pixels”) and cookies (collectively, the “Tracking Tools”). After being installed,
+
+the Tracking Tools capture detailed information about every visitor to the website, which may
+
+include the specific webpages visited by a website user, information entered into an online form
+
+by a website user, and the device characteristics of a website user’s phone or computer. Moreover,
+
+this sensitive information often includes a unique identifier that Google uses to identify that user,
+
+regardless of what computer or phone is used to access the website.
+
+       10.     In essence, when website operators use Google’s Business Tools, they choose to
+
+participate in Google’s mass surveillance network and, in turn, benefit from Google’s collection
+
+of user data at the expense of their website user’s privacy.
+
+       11.     Kindbody is one company that has chosen to prioritize its marketing efforts and
+
+profits over its patients’ privacy by installing the Tracking Tools on its Website.
+
+       12.     Plaintiffs and Class Members visited the Website and had their personal Sensitive
+
+Health Information tracked by Defendant using the Tracking Tools. However, Defendant never
+
+obtained authorization from Plaintiffs or Class Members to share their Sensitive Health
+
+
+
+
+                                                  3
+         Case 1:26-cv-03458-GBD           Document 1       Filed 04/27/26      Page 4 of 55
+
+
+
+
+Information with third parties. At all relevant times to this action, Plaintiffs and Class Members
+
+gave no informed consent for their Sensitive Health Information to be transmitted to third parties,
+
+including to one of the largest advertisers and compilers of user information.
+
+          13.    Health information is regulated by both state and federal law, including the Health
+
+Insurance Portability and Accountability Act (“HIPAA”), which imposes criminal penalties on
+
+disclosing individually identifiable health information to a third party, including information that
+
+“is created or received by a health care provider” and “relates to the past, present, or future
+
+physical or mental health or condition of an individual, the provision of health care to an
+
+individual, or the past, present, or future payment for the provision of health care to an
+
+individual[.]”2 Accordingly, Defendant’s disclosure of Plaintiffs’ and Class Members’ Sensitive
+
+Health Information constitutes a violation of HIPAA.
+
+          14.    As a result of Defendant’s conduct, Plaintiffs and Class Members have suffered
+
+numerous injuries, including: (i) invasion of medical privacy; (ii) lack of trust in communicating
+
+with medical providers; (iii) emotional distress and heightened concerns related to the release of
+
+Sensitive Health Information to third parties, (iv) loss of benefit of the bargain; (v) diminution of
+
+value of the Sensitive Health Information; (vi) statutory damages; and (vii) continued and ongoing
+
+risk to their Sensitive Health Information.
+
+          15.    Therefore, Plaintiffs seek, on behalf of themselves and a class of similarly situated
+
+persons, to remedy these harms and assert the following statutory and common law claims against
+
+Defendant: Invasion of Privacy; Negligence; Breach of Implied Contract; Unjust Enrichment;
+
+violations of the Electronic Communications Privacy Act (“ECPA”), 18 U.S.C. § 2511(1), et seq.;
+
+
+
+
+2
+    18 U.S.C. § 1320d-(6).
+
+                                                   4
+           Case 1:26-cv-03458-GBD         Document 1       Filed 04/27/26       Page 5 of 55
+
+
+
+
+violations of the Washington Consumer Privacy Act, Wash. Rev. Code Ann. § 19.86.010, et seq.;
+
+and violations of the California Invasion of Privacy Act (“CIPA”), Cal. Pen. Code § 630, et seq.
+
+                                          II.    PARTIES
+
+Plaintiff Casey Olivier
+
+           16.   Plaintiff Olivier is a citizen of the State of Colorado, residing in Denver County,
+
+and brings this action both in an individual capacity, and on behalf of all others similarly situated.
+
+           17.   In or around August and September 2024, Plaintiff Olivier utilized the Website on
+
+her personal electronic device to schedule a fertility assessment and genetic testing when her and
+
+her husband were trying to conceive, in the same manner as depicted in §IV(d), infra. Plaintiff
+
+Olivier subsequently utilized the Website to message her care team directly and view her test
+
+results.
+
+           18.   Unbeknownst to Plaintiff Olivier, the Website transmitted the Sensitive Health
+
+Information that she input into her patient portal and appointment form, including the reason for
+
+her appointment, the date of her last period, and her cycle length.
+
+           19.   Plaintiff Olivier never authorized Kindbody to disclose any aspect of her
+
+communications with Kindbody through the Website to third parties, including the Sensitive
+
+Health Information that she provided through the Website.
+
+           20.   On every occasion that she visited the Website, Plaintiff Olivier possessed accounts
+
+with Google, and she accessed the Website while logged into her accounts on the same device.
+
+           21.   After providing her Sensitive Health Information to Defendant through the Website,
+
+Plaintiff Olivier immediately began seeing targeted online advertisements related to family
+
+planning, for example, on her social media accounts.
+
+
+
+
+                                                  5
+          Case 1:26-cv-03458-GBD         Document 1       Filed 04/27/26      Page 6 of 55
+
+
+
+
+Plaintiff Amelia Walsh
+
+          22.   Plaintiff Amelia Walsh is a citizen of the State of Washington, residing in King
+
+County, and brings this action both in an individual capacity, and on behalf of all others similarly
+
+situated.
+
+          23.   In or around June and July 2024, Plaintiff Amelia Walsh utilized the Website on
+
+her personal electronic device to schedule appointments for embryo freezing, in the same manner
+
+as depicted in §IV(d), infra. Plaintiff Amelia Walsh subsequently utilized the Website to upload
+
+data and photos of pregnancy test results, message her care team, and view her medical records
+
+and test results.
+
+          24.   Unbeknownst to Plaintiff Amelia Walsh, the Website transmitted the Sensitive
+
+Health Information that she input into her patient portal and appointment form, including the
+
+reason for her appointments, the date of her last period, and her cycle length.
+
+          25.   Plaintiff Amelia Walsh never authorized Kindbody to disclose any aspect of her
+
+communications with Kindbody through the Website to third parties, including the Sensitive
+
+Health Information that she provided through the Website.
+
+          26.   On every occasion that she visited the Website, Plaintiff Amelia Walsh possessed
+
+accounts with Google, and she accessed the Website while logged into her accounts on the same
+
+device.
+
+          27.   After providing her Sensitive Health Information to Defendant through the Website,
+
+Plaintiff Amelia Walsh immediately began seeing targeted online advertisements related to family
+
+planning and pregnancy supplements, for example, on her social media accounts.
+
+
+
+
+                                                 6
+          Case 1:26-cv-03458-GBD         Document 1       Filed 04/27/26      Page 7 of 55
+
+
+
+
+Plaintiff Michaella Walsh
+
+          28.   Plaintiff Michaella Walsh is a citizen of the State of California, residing in Santa
+
+Clara County, and brings this action both in an individual capacity, and on behalf of all others
+
+similarly situated.
+
+          29.   In or around June 2024, when her and her wife were trying to start a family,
+
+Plaintiff Michaella Walsh utilized the Website on her personal electronic device to schedule
+
+appointments while undergoing IVF treatment, in the same manner as depicted in §IV(d), infra.
+
+Plaintiff Michaella Walsh subsequently utilized the Website to upload data and photos of fertility
+
+test results, message her care team, and view her medical records and lab results.
+
+          30.   Unbeknownst to Plaintiff Michaella Walsh, the Website transmitted the Sensitive
+
+Health Information that she input into her patient portal and appointment form, including the
+
+reason for her appointments, the date of her last period, and her cycle length.
+
+          31.   Plaintiff Michaella Walsh never authorized Kindbody to disclose any aspect of her
+
+communications with Kindbody through the Website to third parties, including the Sensitive
+
+Health Information that she provided through the Website.
+
+          32.   On every occasion that she visited the Website, Plaintiff Michaella Walsh possessed
+
+accounts with Google, and she accessed the Website while logged into her accounts on the same
+
+device.
+
+          33.   After providing her Sensitive Health Information to Defendant through the Website,
+
+Plaintiff Walsh immediately began seeing targeted online advertisements related to sperm banks,
+
+fertility apps, and pregnancy and child-rearing, for example, on her social media accounts.
+
+Defendant KBI Services, Inc. d/b/a Kindbody
+
+          34.   Defendant Kindbody is a Delaware corporation with its principal place of business
+
+at 102 Fifth Ave, New York, NY in New York County.
+
+                                                  7
+        Case 1:26-cv-03458-GBD            Document 1         Filed 04/27/26      Page 8 of 55
+
+
+
+
+                              III.    JURISDICTION AND VENUE
+
+        35.     This Court has subject matter jurisdiction pursuant to the Class Action Fairness
+
+Act of 2005 (“CAFA”), 28 U.S.C. § 1332(d). The amount in controversy exceeds the sum of
+
+$5,000,000 exclusive of interest and costs, there are more than 100 putative class members and
+
+minimal diversity exists because many putative class members are citizens of a different state
+
+than Defendant, including Plaintiffs. Indeed, Defendant provides virtual care and in-person
+
+appointments at their clinics nationwide. Additionally, this Court also has subject matter
+
+jurisdiction over this action under 28 U.S.C. § 1331 because this Complaint asserts a claim for
+
+violation of federal law, specifically, the ECPA, 18 U.S.C. § 2511. This Court also has
+
+supplemental jurisdiction pursuant to 28 U.S.C. § 1367(a) because all claims alleged herein form
+
+part of the same case or controversy.
+
+        36.     This Court has personal jurisdiction over Defendant because it is headquartered in
+
+and maintains its principal place of business in the State of New York and in this District. Further,
+
+the acts giving rise to Plaintiffs’ claims, including Defendant’s decisions regarding management
+
+of the Website and the incorporation of the Tracking Tools, were purposefully directed from this
+
+District.
+
+        37.     Venue is proper in this District under 28 U.S.C. § 1391(a)-(d) because: a
+
+substantial part of the events giving rise to this action occurred in this District, including decisions
+
+made by the Defendant’s governance and management personnel or inaction by those individuals
+
+that led to the unauthorized sharing of Plaintiffs’ and Class Members’ Sensitive Health
+
+Information; Defendant’s principal place of business is located in this District; Defendant collects
+
+and redistributes Plaintiffs’ and Class Members’ Sensitive Health Information in this District; and
+
+Defendant caused harm to Class Members residing in this District.
+
+
+
+
+                                                   8
+       Case 1:26-cv-03458-GBD                Document 1       Filed 04/27/26      Page 9 of 55
+
+
+
+
+                                  IV.     FACTUAL ALLEGATIONS
+
+    A. DEFENDANT’S USE OF THIRD-PARTY TRACKING TECHNOLOGIES
+
+      i.         Google’s Mass Advertising Surveillance Operation
+
+           38.      Google is the largest digital advertiser in the country, accounting for 26.8-percent
+
+of the total digital advertising revenue generated in the United States. 3 In 2023, Google’s
+
+advertising revenue of $238 billion accounted for 77-percent of its total revenue for the year. 4
+
+           39.      Google advertises Google Analytics and other Business Tools to website operators,
+
+like Defendant, claiming they will allow the operator to “[u]nderstand [their] site and app users,”
+
+“check the performance of [their] marketing,” and “[g]et insights only Google can give.” 5 But, in
+
+order for website operators to get information from Google Analytics about their website’s
+
+visitors, they must allow data collection through installation of Google’s Tracking Tools on their
+
+website.6
+
+
+
+
+3
+  Share of major ad-selling companies in digital advertising revenue in the United States,
+STATISTA (May 2024), https://www.statista.com/statistics/242549/digital-ad-market-share-of-
+major-ad-selling-companies-in-the-us-by-
+revenue/#:~:text=In%202023%2C%20Google%20accounted%20for,21.1%20and%2012.5%20p
+ercent%2C%20respectively       https://www.scientificamerican.com/article/7-in-10-smartphone-
+apps-share-your-data-with-third-party-services/ (last visited Apr. 22, 2026).
+4
+   Florian Zandt, Google's Ad Revenue Dwarfs Competitors, STATISTA (Sep. 10, 2024),
+https://www.statista.com/chart/33017/annual-advertising-revenue-of-selected-tech-companies-
+offering-search-
+solutions/#:~:text=Online%20advertising&text=Alphabet%2C%20the%20company%20behind
+%20the,overall%20revenue%20this%20past%20year (last visited Apr. 22, 2026).
+5
+             Welcome             to           Google            Analytics,           GOOGLE,
+https://analytics.google.com/analytics/web/provision/?authuser=0#/provision (last visited Apr.
+22, 2026).
+6
+  See Aaron Ankin & Surya Matta, The High Privacy Cost of a “Free” Website, THE MARKUP,
+https://themarkup.org/blacklight/2020/09/22/blacklight-tracking-advertisers-digital-privacy-
+sensitive-websites (last visited Apr. 22, 2026).
+
+
+                                                      9
+          Case 1:26-cv-03458-GBD         Document 1         Filed 04/27/26      Page 10 of 55
+
+
+
+
+          40.   Indeed, on its Privacy & Terms page, Google admits that it collects information
+
+from third party websites, stating that “[m]any websites and apps use Google services to improve
+
+their content and keep it free. When they integrate our services, these sites and apps share
+
+information with Google.”7
+
+          41.   Google also admits that it uses the information collected from third party websites,
+
+such as the Website, to sell targeted advertising, explaining to users that, “[f]or example, a website
+
+that sells mountain bikes might use Google's ad services. After you visit that site, you could see
+
+an ad for mountain bikes on a different site that shows ads served by Google.” 8
+
+          42.   While Google admits that they collect information from third-party websites
+
+through the Tracking Tools, they do not provide, nor could they provide, a publicly available list
+
+of every webpage on which its Tracking Tools are installed. As such, vague descriptions of data
+
+collection practices referenced above could not give Plaintiffs and Class Members any reason to
+
+think that Defendant was part of Google’s surveillance networks.
+
+          43.   Google aggregates the user information that they collect from third-party websites
+
+into “advertising profiles” consisting of all of the data that they have collected about a given user. 9
+
+With these advertising profiles, Google can sell hyper-precise advertising services, allowing its
+
+clients to target internet users based on combinations of their location, age, race, interests,
+
+hobbies, life events (e.g., recent marriages, graduation, or relocation), political affiliation,
+
+
+
+
+7
+ Privacy & Terms – How Google uses information from sites or apps that use our services,
+GOOGLE, https://policies.google.com/technologies/partner-sites (last visited Apr. 22, 2026).
+8
+    Id.
+9
+  Bennett Cyphers & Gennie Gebhart, Behind the One-Way Mirror: A Deep Dive Into the
+Technology of Corporate Surveillance, ELECTRONIC FRONTIER FOUNDATION (2019), available
+online         at:         https://www.eff.org/files/2019/12/11/behind_the_one-way_mirror-
+a_deep_dive_into_the_technology_of_corporate_surveillance_0.pdf.
+
+
+                                                   10
+           Case 1:26-cv-03458-GBD             Document 1        Filed 04/27/26      Page 11 of 55
+
+
+
+
+education level, home ownership status, marital status, household income, type of employment,
+
+use of specific apps or websites, and more.10
+
+           44.      The surveillance of individuals’ internet usage is ubiquitous. In 2017, Scientific
+
+American reported that over 70-percent of smartphone apps report “personal data to third-party
+
+tracking companies like Google,”11 and Google trackers are present on 74-percent of all web
+
+traffic.
+
+           45.      Moreover, as in this case, the data collected by Google often pertains to the most
+
+personal and sensitive aspects of an individual’s life. For example:
+
+                 a. 93-percent of pornography websites allow third parties, including Google,
+                    to collect their user’s browsing habits. 12 In fact, Google advertising trackers
+                    were found on 73-percent of pornography websites. 13
+
+                 b. 81-percent of the most popular mobile apps for managing depression and
+                    quitting smoking allowed Facebook and/or Google to access subscriber
+                    information, including health diary entries and self-reports about substance
+                    abuse.14
+
+                 c. Twelve of the largest pharmacy providers in the United States send
+                    information regarding user’s purchases of products such as pregnancy tests,
+
+
+10
+     About audience segments, GOOGLE ADS, https://support.google.com/google-
+ads/answer/2497941?hl=en#zippy=%2Cin-market-segments%2Caffinity-segments%2Clife-
+events%2Cdetailed-demographics (last visited Apr. 22, 2026).
+11
+   Narseo Vallina-Rodriguez & Srikanth Sundaresan, 7 in 10 Smartphone Apps Share Your Data
+with      Third-Party       Services,      SCIENTIFIC AMERICAN       (May      30,     2017),
+https://www.scientificamerican.com/article/7-in-10-smartphone-apps-share-your-data-with-
+third-party-services/ (last visited Apr. 22, 2026).
+12
+  Elena Maris, Timothy Libert & Jennifer R. Henrichsen, Tracking sex: The implications of
+widespread sexual data leakage and tracking on porn websites, NEW MEDIA & SOCIETY (2020),
+available online at: https://journals.sagepub.com/doi/10.1177/1461444820924632.
+13
+     Id.
+14
+  Kit Huckvale, John Torous & Mark E. Larsen, Assessment of the Data Sharing and Privacy
+Practices of Smartphone Apps for Depression and Smoking Cessation, JAMA NETWORK OPEN
+(2019), available online at: https://pubmed.ncbi.nlm.nih.gov/31002321/.
+
+
+                                                       11
+       Case 1:26-cv-03458-GBD           Document 1        Filed 04/27/26      Page 12 of 55
+
+
+
+
+               HIV tests, prenatal vitamins, and Plan B to online advertisers. 15 For
+               example, when an online shopper searches for a pregnancy test, views the
+               product page for a pregnancy test, or adds a pregnancy test to their online
+               shopping cart on Kroger’s website, that information is transmitted to
+               Google.16
+
+       46.     This monumental, invasive surveillance of Americans’ internet usage and resulting
+
+violation of their privacy is not accidental. As Google’s then-CEO, Eric Schmit, admitted in 2010:
+
+“We know where you are. We know where you’ve been. We can more or less know what you’re
+
+thinking about.”17
+
+       47.     In fact, Google values user information so highly that they provide their Business
+
+Tools to many website operators for free, all to expand its surveillance apparatus. 18
+
+       48.     When website operators, like Defendant, make use of Google’s Business Tools,
+
+they are essentially choosing to participate in Google’s mass surveillance network and, in return,
+
+they benefit from Google’s collection of user data at the expense of their website users’ privacy.
+
+For example, Google rewards website operators for providing it with user information by granting
+
+such website operators access to its Analytics platform, which then leverages demographic data
+
+collected by Google to provide detailed analyses of the website’s user base. 19
+
+
+15
+  Darius Tahir & Simon Fondrie-Teitler, Need to Get Plan B or an HIV Test Online? Facebook
+May Know About It, THE MARKUP (June 30, 2023), https://themarkup.org/pixel-
+hunt/2023/06/30/need-to-get-plan-b-or-an-hiv-test-online-facebook-may-know-about-it   (last
+visited Apr. 22, 2026).
+16
+  Jon Keegan, Forget Milk and Eggs: Supermarkets Are Having a Fire Sale on Data About You,
+THE MARKUP (Feb. 16, 2023), https://themarkup.org/privacy/2023/02/16/forget-milk-and-eggs-
+supermarkets-are-having-a-fire-sale-on-data-about-you (last visited Apr. 22, 2026).
+17
+  Andrew Orlowski, Google's Schmidt: We know what you're thinking, THE REGISTER (Oct. 4,
+2020), https://www.theregister.com/2010/10/04/google_ericisms/ (last visited Apr. 22, 2026).
+18
+   See, e.g., Analytics Overview, GOOGLE, https://marketingplatform.google.com/about/analytics/
+(last visited Apr. 22, 2026) (“Google Analytics gives you the tools, free of charge”).
+19
+          Google         Marketing       Platform          –          Features,         GOOGLE,
+https://marketingplatform.google.com/about/analytics/features/ (last visited Apr. 22, 2026).
+
+
+                                                 12
+            Case 1:26-cv-03458-GBD                Document 1        Filed 04/27/26      Page 13 of 55
+
+
+
+
+                 49.      Unfortunately, it is usually the case that a website operator’s use of third-party
+
+tracking software is not disclosed whatsoever in its privacy policy. 20 And even where the use of
+
+such third-party software is disclosed, such disclosures are often hidden and cloaked in such
+
+confusing, technical and overly legal language as to be indecipherable to the typical internet
+
+user.21
+
+                 50.      Moreover, for even a conscientious internet user, the massive volume of privacy
+
+policies encountered through routine internet use makes reviewing each and every one practically
+
+impossible. According to one study, it would take the average internet user 244 hours – or 30.5
+
+working days – to read the privacy policy of every new website that they visited in a single year. 22
+
+           ii.         Pixels Can Record Almost Every Interaction Between a User and a Website
+
+                 51.      In order to use Google’s Business Tools, Defendant installed Google’s Tracking
+
+Tools, including tracking Pixels, onto the Website.
+
+                 52.      Pixels are one of the tools used by website operators to track user behavior. As the
+
+Federal Trade Commission (“FTC”) explains, a Pixel is:
+
+                 [A] small piece of code that will be placed into the website or ad and define [the
+                 Pixel operator’s] tracking goals such as purchases, clicks, or pageviews…
+
+                 Pixel tracking can be monetized several ways. One way to monetize pixel tracking
+                 is for companies to use the tracking data collected to improve the company's own
+                 marketing campaigns…Another is that companies can monetize the data collected
+
+
+
+
+20
+  See Woodrow Hartzog, Privacy’s Blueprint, 60-67 (Harvard University Press 2018) (detailing
+deficiencies with online privacy policies).
+21
+     Id.
+22
+   Aleecia M. McDonald & Lorrie Faith Cantor, The Cost of Reading Privacy Policies, I/S: A
+JOURNAL OF LAW AND POLICY FOR THE INFORMATION SOCIETY (2008), available online at:
+https://lorrie.cranor.org/pubs/readingPolicyCost-authorDraft.pdf.
+
+
+                                                           13
+         Case 1:26-cv-03458-GBD           Document 1       Filed 04/27/26      Page 14 of 55
+
+
+
+
+          by further optimizing their own ad targeting systems and charging other companies
+          to use its advertising offerings.23
+
+          53.      Pixels can collect a shocking amount of information regarding an individual’s
+
+online behavior—including the webpages viewed by the user, the amount of time spent by the user
+
+on specific webpages, the buttons and hyperlinks that the user clicks while using a website, the
+
+items that the user adds to an online shopping cart, the purchases that a user makes through an
+
+online retailer, the text entered by the user into a website search bar, and even the information
+
+provided by the user on an online form—all transmitted in real-time as the user navigates a
+
+website.24
+
+          54.      But most internet users are completely unaware that substantial information about
+
+their internet usage is being collected through tracking Pixels. The FTC warns that:
+
+          Traditional controls such as blocking third party cookies may not entirely prevent
+          pixels from collecting and sharing information. Additionally, many consumers may
+          not realize that tracking pixels exist because they’re invisibly embedded within web
+          pages that users might interact with…Academic and public reporting teams have
+          found that thousands of the most visited webpages have pixels and other methods
+          that leak personal information to third parties.25
+
+       iii.     The Pixels Installed on the Website Transmit Personally Identifiable
+                Information and Protected Health Information to Google
+
+          55.      Every website is hosted by a computer “server” that holds the website’s contents.
+
+
+
+
+23
+   Lurking Beneath the Surface: Hidden Impacts of Pixel Tracking, FEDERAL TRADE COMMISSION
+– OFFICE OF TECHNOLOGY (Mar. 6, 2023), https://www.ftc.gov/policy/advocacy-research/tech-at-
+ftc/2023/03/lurking-beneath-surface-hidden-impacts-pixel-tracking (last visited Apr. 22, 2026).
+24
+     See id.; How does retargeting on Facebook help your business?, META,
+https://www.facebook.com/business/goals/retargeting (last visited Apr. 22, 2026); Tom Kemp,
+“Oops! I Did It Again” … Meta Pixel Still Hoovering Up Our Sensitive Data, MEDIUM,
+https://tomkemp00.medium.com/oops-i-did-it-again-meta-pixel-still-hoovering-up-our-
+sensitive-data-f99c7b779d47#_ftn1 (last visited Apr. 22, 2026).
+25
+     Lurking Beneath the Surface, supra note 23.
+
+
+                                                   14
+       Case 1:26-cv-03458-GBD          Document 1          Filed 04/27/26    Page 15 of 55
+
+
+
+
+       56.     To access a website, individuals use “web browsers.” Web browsers are software
+
+applications that allow consumers to navigate the web and view and exchange electronic
+
+information and communications over the Internet. Each “client device” (such as computer,
+
+tablet, or smartphone) accesses web content through a web browser (such as Google’s Chrome,
+
+Mozilla’s Firefox, Apple’s Safari, or Microsoft’s Edge).
+
+       57.     Communications between a website server and web browser consist of Requests
+
+and Responses. Any given browsing session may consist of hundreds or even thousands of
+
+individual Requests and Responses. A web browser’s Request essentially asks the website to
+
+provide certain information, such as the contents of a given webpage when the user clicks a link,
+
+and the Response from the website sends back the requested information – the web pages’ images,
+
+words, buttons, and other features that the browser shows on the user’s screen as they navigate
+
+the website.
+
+       58.     Additionally, on most websites, the Response sent back to the user’s web browser
+
+directs the browser to create small files known as ‘cookies’ on the user’s device. 26 These cookies
+
+are saved by the user’s web browser, and are used to identify the website user as they browse the
+
+website or on subsequent visits to the site.27 For example, in a more innocuous use case, a cookie
+
+may allow the website to remember a user’s name and password, language settings, or shopping
+
+cart contents.28
+
+
+
+
+26
+   What is a web browser?, MOZILLA, https://www.mozilla.org/en-US/firefox/browsers/what-is-
+a-browser/ (last visited Apr. 22, 2026).
+27
+   Id.
+28
+   Id.
+
+                                                15
+         Case 1:26-cv-03458-GBD         Document 1        Filed 04/27/26      Page 16 of 55
+
+
+
+
+         59.    When a user logs onto their Google account, their web browser records a tracking
+
+cookie.29 This cookie includes a specific line of code that links the web browser to the user’s
+
+Google account.30
+
+         60.    Google’s Pixels use cookies but operate differently than a cookie. Rather than
+
+directing the browser to save a file on the user’s device, the Pixels acquire information from the
+
+browser without notifying the user. The information can include details about the user, his or her
+
+interactions with the website, and information about the user’s environment (e.g., type of device,
+
+type of browser, and sometimes even the physical location of the device), all relayed
+
+contemporaneously as the website user navigates the website.
+
+         61.    Simultaneously, the Pixels, like those installed on the Website, request identifying
+
+information from any Google cookies previously installed on the user’s web browser.
+
+         62.    The Pixels then combine the data received from the browser with the data acquired
+
+from the cookie, and instructs the web browser to transmit the information back to Google. As a
+
+result, Google can link all of the user information collected by their Pixels to the user’s identity,
+
+via the user’s Google profile. Thus, even if a user never actually logs into a website or fills out a
+
+form, the website, along with Google, can know the user’s identity.
+
+         63.    A remarkable number of Americans possess a Google account. Just one of
+
+Google’s many products, its Gmail e-mail client, is used by over one-third of Americans. 31 When
+
+these users visit a website that utilizes Google’s Pixels, like Defendant’s Website, any information
+
+
+29
+     Cyphers & Gebhart, supra note 9.
+30
+     Id.
+31
+  See Harsha Kiran, 49 Gmail Statistics To Show How Big It Is In 2024, TECHJURY (Jan. 3, 2024),
+https://techjury.net/blog/gmail-statistics/ (last visited Apr. 22, 2026) (“Gmail accounts for 130.9
+million of the total email users in the US”). The United States population is approximately 337.4
+million. See UNITED STATES CENSUS BUREAU, https://www.census.gov/popclock/ (last visited
+Apr. 22, 2026).
+
+
+                                                 16
+           Case 1:26-cv-03458-GBD             Document 1       Filed 04/27/26      Page 17 of 55
+
+
+
+
+collected by the Pixels can be linked to the user’s identity through Google’s cookies installed on
+
+the user’s web browser.
+
+             64.      However, it is not only account holders that are at risk of having Pixel-collected
+
+website data linked to their identities. Rather, Google utilizes sophisticated data tracking methods
+
+to identify even those few users who do not have a Google account.
+
+             65.      Google’s Pixels, like those on the Website, can acquire information about the
+
+user’s device and browser, such as their screen resolution, time zone setting, browser software
+
+type and version, operating system type and version, language setting, and IP address.
+
+             66.      An internet user’s combination of such device and browser characteristics,
+
+commonly referred to as their “browser fingerprint,” is “often unique.” 32 By tracking this browser
+
+fingerprint, Google is able to compile a user’s activity across the internet. 33 And, as Google
+
+continuously compiles user data over time, their understanding of the user’s browser fingerprint
+
+becomes more sophisticated such that they need only collect a single piece of identifying
+
+information to identify the user linked to a browser fingerprint.
+
+       iv.         Defendant Disclosed Plaintiffs’ and Class Members’ Sensitive Health
+                   Information to Google.
+
+             67.      To obtain Defendant’s fertility, family planning, and wellness services, Plaintiffs
+
+and Class Members were required to utilize the patient portal through the Website to book their
+
+appointments.
+
+             68.      Unbeknownst to Plaintiffs and Class Members, Defendant intentionally
+
+configured the Tracking Tools installed on the Website to capture and transmit the Sensitive
+
+Health Information communicated through the Website to third parties, including Google.
+
+
+32
+     Cyphers & Gebhart, supra note 9.
+33
+     Id.
+
+
+                                                       17
+      Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26      Page 18 of 55
+
+
+
+
+       69.     The following screenshots (“Figures 1-4”) depict the network transmissions made
+
+by the Google Tracking Tools installed on the Website. The information provided in Figures 1-4
+
+is exemplar information collected on the Website, and is not Plaintiffs’ information, but the
+
+Tracking Tools installed on the Website collected from the Plaintiffs information that in sum and
+
+substance was similar to what is shown in the Figures. As Figures 1-4 show, when patients
+
+schedule an appointment through the Website and input information related to their menstrual
+
+cycles to the Website, the Sensitive Health Information requested and contemporaneously
+
+transmitted to Google by the Tracking Tools installed on the Website include the fact that the
+
+patient is scheduling an appointment, the reason for the patient’s appointment, the location of the
+
+patient’s appointment, and the sensitive details they provide.
+
+       70.     Further, the information that was transmitted to Google was accompanied by
+
+specific lines of code linking the Sensitive Health Information provided by Plaintiffs to their
+
+identities. The following screenshots show that the Google Pixel on the Website transmitted the
+
+identifier number attached to Google’s ‘cid’ and ‘sid’ cookies, which identify the user’s Google
+
+account. The information is additionally transmitted along with other information that is
+
+commonly used to create a browser fingerprint, such as the user’s language selection, screen
+
+resolution, IP address, web browser software and version number, and operating system and
+
+version number.
+
+
+
+
+                                                18
+      Case 1:26-cv-03458-GBD         Document 1      Filed 04/27/26    Page 19 of 55
+
+
+
+
+Figure 1. Exemplar screenshot depicting network traffic from the Website which shows
+information transmitted to Google when a Website user seeks to schedule an appointment for a
+male fertility assessment.
+
+
+
+
+                                             19
+      Case 1:26-cv-03458-GBD        Document 1      Filed 04/27/26    Page 20 of 55
+
+
+
+
+Figure 2. Exemplar screenshot depicting network traffic from the Website which shows
+information transmitted to Google when a Website user chooses Kindbody’s New York location
+for in-person treatment.
+
+
+
+
+                                            20
+     Case 1:26-cv-03458-GBD      Document 1     Filed 04/27/26   Page 21 of 55
+
+
+
+
+Figure 3. Exemplar screenshot depicting network traffic from the Website which shows
+information transmitted to Google when a Website adds the date of their last period.
+
+
+
+
+                                         21
+      Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26      Page 22 of 55
+
+
+
+
+Figure 4. Screenshot depicting network traffic from the Website which shows information
+transmitted to Google when Website users use the Website’s fertility calculator to estimate the
+number of eggs that may be collected through treatment.
+
+       71.     In their default state, Google’s Pixels record and transmit only “automatic events,”
+
+consisting largely of routine user behavior, such as clicking a link, clicking on an advertisement,
+
+
+
+
+                                                22
+         Case 1:26-cv-03458-GBD                Document 1        Filed 04/27/26      Page 23 of 55
+
+
+
+
+or viewing a webpage.34 The Pixels on the Website were purposefully configured to collect and
+
+transmit additional user data, including the information entered by patients on their Assessment.
+
+              72.      Moreover, because Google’s cookies are sufficient to identify the subject of the
+
+Sensitive Health Information collected through the Tracking Tools, scheduling an appointment
+
+and inputting medical details to the patient portal independently constitute a disclosure of the
+
+user’s Sensitive Health Information since these identifier cookies are transmitted
+
+contemporaneously with the data collected and transmitted by the Tracking Tools in both use
+
+cases.
+
+              73.      By installing third-party Tracking Tools, including tracking Pixels, on the Website,
+
+further configuring those Pixels to collect their patients’ Sensitive Health Information, and/or by
+
+directing their patients to communicate through the Website despite having actual or constructive
+
+knowledge of the disclosures caused by the Tracking Tools, Defendant knowingly and
+
+intentionally caused Plaintiffs’ and Class Members’ Sensitive Health Information to be
+
+transmitted to third parties, including Google.
+
+     B. DEFENDANT DISCLOSED PLAINTIFFS’ AND CLASS MEMBERS’
+        SENSITIVE HEALTH INFORMATION TO THIRD PARTIES WITHOUT
+        THEIR KNOWLEDGE OR CONSENT
+
+         i.         Defendant failed to inform Plaintiffs and Class Members of their disclosure of
+                    Plaintiffs’ and Class Members’ Sensitive Health Information
+
+              74.      Defendant breached Plaintiffs’ and Class Members’ right to privacy by unlawfully
+
+disclosing their Sensitive Health Information to third parties, including Google.
+
+              75.      Plaintiffs and Class Members had a reasonable expectation of privacy that
+
+Defendant would not disclose their Sensitive Health Information to third parties.
+
+
+
+34
+         Automatically      Collected       Events,      GOOGLE         ANALYTICS                    HELP,
+https://support.google.com/analytics/answer/9234069 (last visited Apr. 22, 2026).
+
+
+                                                        23
+      Case 1:26-cv-03458-GBD                Document 1       Filed 04/27/26     Page 24 of 55
+
+
+
+
+           76.      By allowing third parties such as Google to intercept Plaintiffs’ and Class
+
+Members’ Sensitive Health Information and use it for advertising purposes without Plaintiffs’ and
+
+Class Members’ consent, Defendant violated Plaintiffs’ and Class Members’ right to privacy and
+
+unlawfully disclosed their Sensitive Health Information.
+
+     ii.         The Tracking Tools Used by Defendant Were Imperceptible to Plaintiffs and
+                 Class Members
+
+           77.      The Tracking Tools installed on the Website were invisible to Plaintiffs and Class
+
+Members. Without analyzing the network information transmitted by the Website through
+
+examination of its source code or the use of sophisticated web developer tools, there was no way
+
+for a Website user to discover the presence of the Tracking Tools. As a result, typical internet
+
+users, such as Plaintiffs and Class Members, were unable to detect the Tracking Tools on the
+
+Website.
+
+           78.      Plaintiffs and Class Members were shown no disclaimer or warning that their
+
+Sensitive Health Information would be disclosed to any unauthorized third party without their
+
+express consent.
+
+           79.      Plaintiffs and Class Members did not know that their Sensitive Health Information
+
+was being collected and transmitted to an unauthorized third party.
+
+           80.      Because Plaintiffs and Class Members were not aware of the Tracking Tools on
+
+the Website, or that their Sensitive Health Information would be collected and transmitted to
+
+Google, they could not and did not consent to Defendant’s conduct.
+
+
+
+
+                                                    24
+       Case 1:26-cv-03458-GBD               Document 1      Filed 04/27/26     Page 25 of 55
+
+
+
+
+     C. DEFENDANT WAS ENRICHED BY ITS DISCLOSURE OF PLAINTIFFS’
+        AND CLASS MEMBERS’ SENSITIVE HEALTH INFORMATION TO THIRD
+        PARTIES
+
+       i.         Defendant Received Material Benefits in Exchange for Plaintiffs’ Sensitive
+                  Health Information
+
+            81.      As explained, supra, users of Google’s Business Tools, like Defendant, receive
+
+access to advertising and marketing analytics services in exchange for installing Google’s
+
+Tracking Tools on their website.
+
+            82.      Upon information and belief, Defendant, as a user of Google’s Business Tools,
+
+received compensation in the form of advanced advertising services and cost-effective marketing
+
+on third-party platforms in exchange for allowing Google to collect Plaintiffs’ and Class
+
+Members’ Sensitive Health Information.
+
+      ii.         Plaintiffs’ and Class Members’ Data Had Financial Value
+
+            83.      Moreover, Plaintiffs’ and Class Members’ Sensitive Health Information has value
+
+and Defendant’s disclosure and interception of that Sensitive Health Information harmed
+
+Plaintiffs and the Class.
+
+            84.      According to the annual reports of Facebook, another major online advertising
+
+proprietor, the value it derives from user data has continuously risen. “In 2013, the average
+
+American’s data was worth about $19 per year in advertising sales to Facebook, according to its
+
+financial statements. In 2020, [it] was worth $164 per year.” 35
+
+
+
+
+35
+   Geoffrey A. Fowler, There’s no escape from Facebook, even if you don’t use it, THE
+WASHINGTON                 POST              (Aug.                29,           2021),
+https://www.washingtonpost.com/technology/2021/08/29/facebook-privacy-monopoly/   (last
+visited Apr. 22, 2026).
+
+
+                                                    25
+      Case 1:26-cv-03458-GBD           Document 1        Filed 04/27/26      Page 26 of 55
+
+
+
+
+       85.     Conservative estimates suggest that in 2018, Internet companies earned $202 per
+
+American user from mining and selling data. That figure is only due to keep increasing; estimates
+
+for 2022 are as high as $434 per user, for a total of more than $200 billion industry wide.
+
+       86.     Moreover, health information is particularly valuable. Healthcare data brokers
+
+charge up to $125 per clinical data record, with electronic healthcare databases selling for up to
+
+$500,000.36 In fact, compared to other types of personal data, healthcare data records are by far
+
+the most valuable, fetching prices of up to $250 per record on the black market, compared to
+
+$5.40 for the next highest value record (a payment card). 37
+
+       87.     Several companies have products through which they pay consumers for a license
+
+to track certain information. Indeed, Nielsen, UpVoice, HoneyGain, and SavvyConnect are all
+
+companies, in addition to Google, that pay for browsing history information.
+
+       88.     The unauthorized disclosure of Plaintiffs’ and Class Members’ private and
+
+Sensitive Health Information has diminished the value of that information, resulting in harm to
+
+Plaintiffs and Class Members.
+
+     D. DEFENDANT’S USE OF THE TRACKING TOOLS VIOLATED HIPAA
+
+       89.     The disclosure of Plaintiffs’ and Class Members’ Private Information via the
+
+Pixels contravened the letter and spirit of HIPAA’s “Standards for Privacy of Individually
+
+Identifiable Health Information” (also known as the “Privacy Rule”) which governs how health
+
+
+
+
+36
+    The Value of Data, TRUSTWAVE (2017), available online at: https://www.infopoint-
+security.de/media/TrustwaveValue_of_Data_Report_Final_PDF.pdf.
+37
+   Todd Zigrang & Jessica Bailey-Wheaton, Valuing Healthcare Data, THE VALUE EXAMINER
+(2023),                       available                      online                     at:
+https://www.healthcapital.com/researchmaterialdocuments/publishedarticles/Valuing%20Health
+care%20Data.pdf
+
+
+                                                26
+       Case 1:26-cv-03458-GBD            Document 1        Filed 04/27/26      Page 27 of 55
+
+
+
+
+care providers must safeguard and protect Private Information. 38
+
+       90.     The HIPAA Privacy Rule sets forth policies to protect all Individually Identifiable
+
+Health Information (“IIHI”) and Personal Health Information (“PHI”) that is held or transmitted
+
+by a covered entity such as Defendant.
+
+       91.     IIHI is defined as “a subset of health information, including demographic
+
+information collected from an individual” that is: (1) “created or received by a health care
+
+provider, health plan, employer, or health care clearinghouse”; (2) “[r]elates to the past, present,
+
+or future physical or mental health or condition of an individual; the provision of health care to
+
+an individual; or the past, present, or future payment for the provision of health care to an
+
+individual”; and (3) either (a) “identifies the individual” or (b) “[w]ith respect to which there is a
+
+reasonable basis to believe the information can be used to identify the individual.” 45 C.F.R. §
+
+160.103.
+
+       92.     The Privacy Rule broadly defines PHI as IIHI that is “transmitted by electronic
+
+media; maintained in electronic media; or transmitted or maintained in any other form or
+
+medium.” 45 C.F.R. § 160.103.
+
+       93.     There are 18 HIPAA Identifiers that are considered personally identifiable
+
+information because this information can be used to identify, contact, or locate a specific person
+
+or can be used with other sources (such as a person’s Google account) to identify a single
+
+individual. When IIHI is used in conjunction with one’s physical or mental health or condition,
+
+health care, and/or one’s payment for that health care, it becomes Personal Health Information
+
+(“PHI”).
+
+
+
+38
+  The HIPAA Privacy Rule, https://www.hhs.gov/hipaa/for-professionals/privacy/index.html (last
+visited Apr. 22, 2026).
+
+
+                                                  27
+      Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26      Page 28 of 55
+
+
+
+
+       94.     Additionally, information revealing that an individual is receiving medical service
+
+or treatment is PHI. In its 2012 Guidance regarding Methods for De-identification of Protected
+
+Health Information in Accordance with the Health Insurance Portability and Accountability Act
+
+Privacy Rule, the U.S. Department of Health and Human Services (HHS) instructed health care
+
+providers that, while identifying information alone is not necessarily PHI if it is part of a public
+
+source uncoupled from health data (e.g., a phone book), “[i]f such information was listed with
+
+health condition, health care provision, or payment data, such as an indication that the individual
+
+was treated at a certain clinic, then this information would be PHI.”
+
+       95.     HHS has repeatedly instructed covered entities that patient status is protected by
+
+the HIPAA Privacy Rule:
+
+       a. “The sale of a patient list to a marketing firm” is not permitted under HIPAA.
+          65 Fed. Reg. 82717 (Dec. 28, 2000);
+
+       b. “A covered entity must have the individual’s prior written authorization to use
+          or disclose protected health information for marketing communications,” which
+          includes disclosure of mere patient status through a patient list. 67 Fed. Reg.
+          53186 (Aug. 14, 2002); and
+
+       c. It would be a HIPAA violation “if a covered entity impermissibly disclosed a
+          list of patient names, addresses, and hospital identification numbers.” 78 Fed.
+          Reg. 5642 (Jan. 25, 2013).
+
+       96.     While healthcare entities regulated under HIPAA may use third-party tracking
+
+tools, such as the Tracking Tools, they can do so only in a very limited way, i.e., to perform
+
+analysis on data key to their operations.
+
+       97.     When the information that a regulated entity collects through technologies or
+
+discloses to third parties (e.g., tracking technology vendors like Google) includes PHI, the
+
+
+
+
+                                                 28
+       Case 1:26-cv-03458-GBD           Document 1        Filed 04/27/26      Page 29 of 55
+
+
+
+
+protections under the HIPAA Privacy Rule apply. 39
+
+       98.     Put simply, HIPAA covered entities such as Defendant are not permitted to use
+
+tracking technology tools (like Pixels) in a way that exposes an individual’s PHI to any third party
+
+without that individual’s express and informed consent.
+
+       99.     In a joint letter to approximately 130 hospital systems and telehealth provides, the
+
+Office for Civil Rights (OCR) at the HHS and Federal Trade Commission (FTC) acknowledged
+
+that tracking technology tools “gather identifiable information about users as they interact with a
+
+website or mobile app, often in ways which are not avoidable by and largely unknown to users.” 40
+
+Disclosures to third parties by these tracking tools can “reveal sensitive information including
+
+health conditions, diagnoses, medications, medical treatments, frequency of visits to health care
+
+professionals, where an individual seeks medical treatment, and more.” 41
+
+       100.    The HHS and FTC warn that the “[i]mpermissible disclosures of an individual’s
+
+[PHI] to third parties may result in a wide range of harms to an individual or others,” including
+
+“identity theft, financial loss, discrimination, stigma, mental anguish, or other serious negative
+
+consequences to the reputation, health, or physical safety of the individual or to others.” 42
+
+       101.    Under Federal Law, a healthcare provider may not disclose personally identifiable,
+
+non-public medical information about a patient, a potential patient, or household member of a
+
+patient for marketing purposes without the patients’ express written authorization. 43
+
+       102.    Consistent with this restriction, the HHS has issued marketing guidance that
+
+
+39
+   See Letter regarding Use of Online Tracking Technologies, FEDERAL TRADE COMMISSION,
+available    at:    https://www.ftc.gov/system/files/ftc_gov/pdf/FTC-OCR-Letter-Third-Party-
+Trackers-07-20-2023.pdf (last visited Apr. 22, 2026).
+40
+   Id.
+41
+   Id.
+42
+   Id.
+43
+   HIPAA, 42 U.S.C. § 1320; 45 C.F.R. §§ 164.502; 164.508(a)(3), 164.514(b)(2)(i).
+
+
+                                                 29
+      Case 1:26-cv-03458-GBD           Document 1       Filed 04/27/26       Page 30 of 55
+
+
+
+
+provides:
+
+       With limited exceptions, the [Privacy] Rule requires an individual’s written
+       authorization before a use or disclosure of his or her protected health information
+       can be made for marketing . . . . Simply put, a covered entity may not sell protected
+       health information to a business associate or any other third party for that party’s
+       own purposes. Moreover, covered entities may not sell lists of patients or enrollees
+       to third parties without obtaining authorization from each person on the list. 44
+
+       103.    The HIPAA Privacy Rule further requires any “covered entity”—which includes
+
+Defendant—to maintain appropriate safeguards to protect the privacy of protected health
+
+information and sets limits and conditions on the uses and disclosures that may be made of
+
+protected health information without authorization. 45 C.F.R. §§ 160.103, 164.502.
+
+       104.    In contravention of HIPAA, Defendant failed to “review and modify the security
+
+measures implemented . . . as needed to continue provision of reasonable and appropriate
+
+protection of electronic protected health information[,]” 45 C.F.R. § 164.306(c), and to
+
+“[i]mplement technical policies and procedures for electronic information systems that maintain
+
+electronic protected health information to allow access only to those persons or software
+
+programs that have been granted access rights.” 45 C.F.R. § 164.312(a)(1).
+
+       105.    Defendant failed to comply with other HIPAA safeguard regulations as follows:
+
+            a. Failing to ensure the confidentiality and integrity of electronic PHI that
+               Defendant created, received, maintained, and transmitted in violation of
+               45 C.F.R. § 164.306(a)(1);
+
+            b. Failing to implement policies and procedures to prevent, detect, contain,
+               and correct security violations in violation of 45 C.F.R. section
+               164.308(a)(1);
+
+            c. Failing to identify and respond to suspected or known security incidents
+               and mitigate harmful effects of security incidents known to Defendant in
+               violation of 45 C.F.R. § 164.308(a)(6)(ii);
+
+
+44
+                  Marketing,               HHS,                 https://www.hhs.gov/hipaa/for-
+professionals/privacy/guidance/marketing/index.html (last visited Apr. 22, 2026).
+
+
+                                                30
+       Case 1:26-cv-03458-GBD           Document 1       Filed 04/27/26     Page 31 of 55
+
+
+
+
+           d. Failing to protect against reasonably anticipated threats or hazards to the
+              security or integrity of electronic PHI in violation of 45 C.F.R. §
+              164.306(a)(2);
+
+           e. Failing to protect against reasonably anticipated uses or disclosures of
+              electronic PHI not permitted under the privacy rules pertaining to
+              individually identifiable health information in violation of 45 C.F.R. §
+              164.306(a)(3);
+
+           f. Failing to effectively train their workforces (including independent
+              contractors) on the policies and procedures for PHI as necessary and
+              appropriate to carry out job functions while maintaining security of PHI
+              beyond using imitation phishing email software in violation of 45 C.F.R.
+              §§ 164.530(b) and 164.308(a)(5); and
+
+           g. Failing to design, implement, and enforce policies and procedures that
+              would establish physical and administrative safeguards to reasonably
+              safeguard PHI in violation of 45 C.F.R. § 164.530(c).
+
+       106.    Defendant violated the Privacy Rule by providing patient information to third
+
+parties without first obtaining express consent from Plaintiffs and Class Members.
+
+   E. DEFENDANT’S USE OF THE TRACKING TOOLS VIOLATED THE
+      WASHSINGTON MY HEALTH MY DATA ACT
+
+       107.    The Washington legislature enacted the My Health My Data Act (“MHMDA”) in
+
+2023 to expand protections for privacy of all medical information, even that not protected under
+
+HIPAA. Specifically, the legislature states that:
+
+       The legislature finds that the people of Washington regard their privacy as a
+       fundamental right and an essential element of their individual freedom.
+       Washington’s Constitution explicitly provides the right to privacy. Fundamental
+       privacy rights have long been and continue to be integral to protecting
+       Washingtonians and to safeguarding our democratic republic….
+
+       Information related to an individual’s health conditions or attempts to obtain health
+       care services is among the most personal and sensitive categories of data collected.
+       Washingtonians expect that their health data is protected under laws like the health
+       information portability and accountability act (HIPAA). However, HIPAA only
+       covers health data collected by specific health care entities, including most health
+       care providers. Health data collected by noncovered entities, including certain apps
+       and websites, are not afforded the same protections. [The My Health My Data Act]
+       works to close the gap between consumer knowledge and industry practice by
+       providing stronger privacy protections for all Washington consumers’ health data.
+
+                                                    31
+       Case 1:26-cv-03458-GBD           Document 1       Filed 04/27/26      Page 32 of 55
+
+
+
+
+Wash. Rev. Code Ann. § 19.373.005.
+
+       108.      The MHMDA protects against the unauthorized disclosure of “consumer health
+
+data,” defined as “personal information that is linked or reasonably linkable to a consumer and that
+
+identifies the consumer’s past, present, or future physical or mental health status,” including a
+
+consumer’s “[u]se or purchase of prescribed medication[.]” Wash. Rev. Code Ann. §
+
+19.373.010(8).
+
+       109.      Under the MHMDA, an entity may not collect any consumer health data without
+
+obtaining consent from the consumer for “such collection for a specified purpose[.]” Wash. Rev.
+
+Code Ann. § 19.373.030(a). To comply with this requirement, the entity must maintain a
+
+“consumer health data privacy policy that clearly and conspicuously discloses” the categories and
+
+source of any consumer health data collected, as well as the identity of any third parties with which
+
+such health data is being shared. Wash. Rev. Code Ann. § 19.373.020(1)(a). The policy must also
+
+document the procedure through which the consumer may opt out of any data collection. Id; see
+
+also Wash. Rev. Code Ann. § 19.373.040 (documenting right of consumer to opt out of data
+
+collection). A violation of the MHMDA also constitutes a violation of the Washington Consumer
+
+Protection Act [Wash. Rev. Code Ann. § 19.86]. Wash. Rev. Code Ann. § 19.373.090.
+
+       110.      On its Website, Defendant does not disclose their collection and disclosure of
+
+website visitors’ Sensitive Health Information through the Tracking Tools. The Website
+
+additionally does not provide any documentation of how website users can opt out of data
+
+collection.
+
+       111.      Accordingly, Defendant’s use of the Tracking Tools violates the MHMDA.
+
+
+
+
+                                                 32
+      Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26         Page 33 of 55
+
+
+
+
+     F. PLAINTIFFS’ AND CLASS MEMBERS’ REASONABLE EXPECTATION OF
+        PRIVACY
+
+       112.     At all times when Plaintiffs and Class Members provided their Sensitive Health
+
+Information to Defendant, they each had a reasonable expectation that the information would
+
+remain confidential and that Defendant would not share the Sensitive Health Information with
+
+third parties for a commercial purpose, unrelated to providing them with health care.
+
+       113.     Privacy polls and studies show that the overwhelming majority of Americans
+
+consider obtaining an individual’s affirmative informed consent before a company collects and
+
+shares that individual’s data to be one of the most important privacy rights.
+
+       114.     For example, a recent Consumer Reports study shows that 92-percent of
+
+Americans believe that internet companies and websites should be required to obtain consent
+
+before selling or sharing consumer data, and the same percentage believe those companies and
+
+websites should be required to provide consumers with a complete list of the data that is collected
+
+about them.45
+
+       115.     Moreover, Americans are particularly interested in the safety of their health
+
+information. Over 50-percent of Americans believe that “medical-records privacy is not
+
+sufficiently protected today by law and organizational practices.” 46 And, in a study performed by
+
+
+
+
+45
+   Consumers Less Confident About Healthcare, Data Privacy, and Car Safety, New Survey Finds,
+CONSUMER REPORTS (May 11, 2017), https://www.consumerreports.org/consumer-
+reports/consumers-less-confident-about-healthcare-data-privacy-and-car-safety-a3980496907
+(last visited Apr. 22, 2026).
+46
+   The Value of Data, TRUSTWAVE (2017), available online at: https://www.infopoint-
+security.de/media/TrustwaveValue_of_Data_Report_Final_PDF.pdf.
+
+
+                                                33
+       Case 1:26-cv-03458-GBD              Document 1       Filed 04/27/26      Page 34 of 55
+
+
+
+
+the National Institutes of Health (“NIH”), nearly 80-percent of respondents reported being “very
+
+concerned” or “concerned” about the privacy of medical records. 47
+
+           116.   Personal data privacy and obtaining consent to share Sensitive Health Information
+
+are material to Plaintiffs and Class Members.
+
+                                V.      TOLLING AND ESTOPPEL
+
+           117.   Any applicable statutes of limitation have been tolled by Defendant’s knowing
+
+and active concealment of the incorporation of Google’s Tracking Tools onto the Website.
+
+           118.   The Tracking Tools on the Website were and are invisible to the average website
+
+visitor.
+
+           119.   Through no fault or lack of diligence, Plaintiffs and Class Members were deceived
+
+and could not reasonably discover Defendant’s deception and unlawful conduct.
+
+           120.   Plaintiffs were ignorant of the information essential to pursue their claims, without
+
+any fault or lack of diligence on their part.
+
+           121.   Defendant had exclusive knowledge that the Website incorporated the Pixels and
+
+other Tracking Tools and yet failed to disclose to patients, including Plaintiffs and Class
+
+Members, that by scheduling appointments and inputting sensitive medical information through
+
+the Website, Plaintiffs’ and Class Members’ Sensitive Health Information would be disclosed or
+
+released to unauthorized third parties, including Google.
+
+           122.   Under the circumstances, Defendant was under a duty to disclose the nature,
+
+significance, and consequences of its collection and treatment of its patients’ Sensitive Health
+
+
+
+
+47
+  Daniel S Gaylin, Adil Moiduddin, Shamis Mohamoud, Katie Lundeen, Jennifer A Kelly, Public
+Attitudes about Health Information Technology, and Its Relationship to Health Care Quality,
+Costs,    and     Privacy,   HEALTH SERV. RES. (2011),             available   online   at:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3097409/pdf/hesr0046-0920.pdf.
+
+
+                                                   34
+       Case 1:26-cv-03458-GBD              Document 1        Filed 04/27/26      Page 35 of 55
+
+
+
+
+Information. In fact, to the present, Defendant has not conceded, acknowledged, or otherwise
+
+indicated to their patients that they have disclosed or released their Sensitive Health Information
+
+to unauthorized third parties. Accordingly, Defendant is estopped from relying on any statute of
+
+limitations.
+
+       123.       Moreover, all applicable statutes of limitation have also been tolled pursuant to the
+
+discovery rule.
+
+       124.       The earliest that Plaintiffs or Class Members, acting with due diligence, could have
+
+reasonably discovered Defendant’s conduct would have been shortly before the filing of this
+
+Complaint.
+
+                                   VI.     CLASS ALLEGATIONS
+
+       125.       This action is brought by the named Plaintiffs on their behalf and on behalf of a
+
+proposed Class of all other persons similarly situated under Federal Rules of Civil Procedure
+
+23(b)(2), 23(b)(3), and 23(c)(4).
+
+       126.       The Nationwide Class that Plaintiffs seek to represent is defined as follows:
+
+       The Nationwide Class
+
+       All natural persons who used the Website to schedule an appointment and utilize
+       the patient portal, and whose Sensitive Health Information was disclosed or
+       transmitted to Google, or any other unauthorized third party.
+
+       127.       In addition to the claims asserted on behalf of the Nationwide Class, Plaintiffs assert
+
+claims on behalf of separate Colorado, Washington, and California Subclasses, which are defined
+
+as follows:
+
+       Colorado Subclass
+
+       All natural persons residing in the State of Colorado, who used the Website to
+       schedule an appointment and utilize the patient portal, and whose Sensitive Health
+       Information was disclosed or transmitted to Google, or any other unauthorized third
+       party.
+
+
+
+                                                    35
+       Case 1:26-cv-03458-GBD           Document 1        Filed 04/27/26      Page 36 of 55
+
+
+
+
+       Washington Subclass
+
+       All natural persons residing in the State of Washington, who used the Website to
+       schedule an appointment and utilize the patient portal, and whose Sensitive Health
+       Information was disclosed or transmitted to Google, or any other unauthorized third
+       party.
+
+       California Subclass
+
+       All natural persons residing in the State of California, who used the Website to
+       schedule an appointment and utilize the patient portal, and whose Sensitive Health
+       Information was disclosed or transmitted to Google, or any other unauthorized third
+       party.
+
+       128.    The Nationwide Class and Colorado, Washington, and California Subclasses are
+
+collectively referred to herein as the “Class.” Excluded from the proposed Class are any claims
+
+for personal injury, wrongful death, or other property damage sustained by the Class; Defendant
+
+and its parents or subsidiaries, any entities in which it has a controlling interest, as well as its
+
+officers, directors, affiliates, legal representatives, heirs, predecessors, successors, and assigns;
+
+and any Judge conducting any proceeding in this action and members of their immediate families.
+
+       129.    Plaintiffs reserve the right to amend the definitions of the Class, or add subclasses
+
+if further information and discovery indicate that the definitions of the Class should be narrowed,
+
+expanded, or otherwise modified.
+
+       130.    Numerosity. The Class is so numerous that the individual joinder of all members
+
+is impracticable. There are hundreds of thousands of individuals that have been impacted by
+
+Defendant’s actions. Moreover, the exact number of those impacted is generally ascertainable by
+
+appropriate discovery and is in the exclusive control of Defendant.
+
+       131.    Commonality. Common questions of law or fact arising from Defendant’s
+
+conduct exist as to all members of the Class, which predominate over any questions affecting only
+
+individual Class Members. These common questions include, but are not limited to, the following:
+
+
+
+
+                                                 36
+       Case 1:26-cv-03458-GBD           Document 1       Filed 04/27/26      Page 37 of 55
+
+
+
+
+       a)       Whether and to what extent Defendant had a duty to protect the
+                Sensitive Health Information of Plaintiffs and Class Members;
+
+       b)       Whether Defendant had duties not to disclose the Sensitive Health
+                Information of Plaintiffs and Class Members to unauthorized third
+                parties;
+
+       c)       Whether Defendant adequately, promptly, and accurately informed
+                Plaintiffs and Class Members that their Sensitive Health Information
+                would be disclosed to third parties;
+
+       d)       Whether Defendant violated the law by failing to promptly notify
+                Plaintiffs and Class Members that their Sensitive Health Information
+                was being disclosed without their consent;
+
+       e)       Whether Defendant adequately addressed and fixed the practices
+                which permitted the unauthorized disclosure of patients’ Sensitive
+                Health Information;
+
+       f)       Whether Defendant engaged in unfair, unlawful, or deceptive practices
+                by failing to keep the Sensitive Health Information belonging to
+                Plaintiffs and Class Members free from unauthorized disclosure;
+
+       g)       Whether Defendant violated the statutes asserted as claims in this
+                Complaint;
+
+       h)       Whether Plaintiffs and Class Members are entitled to actual,
+                consequential, and/or nominal damages as a result of Defendant’s
+                wrongful conduct;
+
+       i)       Whether Defendant knowingly omitted material representations with
+                respect to their data security and/or privacy policy practices; and
+
+       j)       Whether Plaintiffs and Class Members are entitled to injunctive relief
+                to redress the imminent and currently ongoing harm faced as a result of
+                Defendant’s disclosure of their Sensitive Health Information.
+
+       132.    Typicality. Plaintiffs’ claims are typical of those of other Class Members because
+
+Plaintiffs’ Sensitive Health Information, like that of every other Class Member, was compromised
+
+as a result of Defendant’s incorporation and use of the Tracking Tools.
+
+       133.    Adequacy. Plaintiffs will fairly and adequately represent and protect the interests
+
+of the members of the Class in that Plaintiffs have no disabling conflicts of interest that would be
+
+
+                                                 37
+       Case 1:26-cv-03458-GBD            Document 1        Filed 04/27/26       Page 38 of 55
+
+
+
+
+antagonistic to those of the other members of the Class. Plaintiffs seek no relief that is antagonistic
+
+or adverse to the members of the Class and the infringement of the rights and the damages
+
+Plaintiffs have suffered are typical of other Class Members. Plaintiffs have also retained counsel
+
+experienced in complex class action litigation, and Plaintiffs intend to prosecute this action
+
+vigorously.
+
+        134.    Predominance. Defendant has engaged in a common course of conduct toward
+
+Plaintiffs and Class Members in that all the Plaintiffs’ and Class Members’ data was unlawfully
+
+stored and disclosed to unauthorized third parties, including Google, in the same way. The
+
+common issues arising from Defendant’s conduct affecting Class Members set out above
+
+predominate over any individualized issues. Adjudication of these common issues in a single
+
+action has important and desirable advantages of judicial economy.
+
+        135.    Superiority. A class action is superior to other available methods for the fair and
+
+efficient adjudication of the controversy. Class treatment of common questions of law and fact is
+
+superior to multiple individual actions or piecemeal litigation. Absent a class action, most Class
+
+Members would likely find that the cost of litigating their individual claim is prohibitively high
+
+and would therefore have no effective remedy. The prosecution of separate actions by individual
+
+Class Members would create a risk of inconsistent or varying adjudications with respect to
+
+individual Class Members, which would establish incompatible standards of conduct for
+
+Defendant. In contrast, the conduct of this action as a class action presents far fewer management
+
+difficulties, conserves judicial resources and the parties’ resources, and protects the rights of each
+
+Class Member.
+
+
+
+
+                                                  38
+       Case 1:26-cv-03458-GBD             Document 1    Filed 04/27/26      Page 39 of 55
+
+
+
+
+       136.    Defendant acted on grounds that apply generally to the Class as a whole so that
+
+class certification, injunctive relief, and corresponding declaratory relief are appropriate on a
+
+class-wide basis.
+
+       137.    Likewise, particular issues under Fed. R. Civ. P. 23(c)(4) are appropriate for
+
+certification because such claims present only particular, common issues, the resolution of which
+
+would advance the disposition of this matter and the parties’ interests therein. Such particular
+
+issues include, but are not limited to:
+
+           a) Whether Defendant owed a legal duty to Plaintiffs and the Class to
+              exercise due care in collecting, storing, and safeguarding their Sensitive
+              Health Information and not disclosing it to unauthorized third parties;
+
+           b) Whether Defendant breached a legal duty to Plaintiffs and Class
+              Members to exercise due care in collecting, storing, using, and
+              safeguarding their Sensitive Health Information;
+
+           c) Whether Defendant failed to comply with their own policies and
+              applicable laws, regulations, and industry standards relating to data
+              security;
+
+           d) Whether Defendant adequately and accurately informed Plaintiffs and
+              Class Members that their Sensitive Health Information would be
+              disclosed to third parties;
+
+           e) Whether Defendant failed to implement and maintain reasonable
+              security procedures and practices appropriate to the nature and scope of
+              the information disclosed to third parties; and
+
+           f) Whether Class Members are entitled to actual, consequential, and/or
+              nominal damages and/or injunctive relief as a result of Defendant’s
+              wrongful conduct.
+
+       138.    Finally, all members of the proposed Class are readily ascertainable. Defendant
+
+has access to Class Members’ names and addresses affected by the unauthorized disclosures that
+
+have taken place.
+
+
+
+
+                                                39
+       Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26      Page 40 of 55
+
+
+
+
+                                         COUNT I
+                      COMMON LAW INVASION OF PRIVACY
+      (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Colorado,
+                         Washington, and California Subclass(es))
+
+        139.    Plaintiffs repeat and reallege the allegations contained in paragraphs 1 through 138
+
+as if fully set forth herein.
+
+        140.    Plaintiffs and Class Members have an interest in: (1) precluding the dissemination
+
+and/or misuse of their highly personal and statutorily protected Sensitive Health Information; and
+
+(2) making personal decisions and/or conducting personal activities without observation, intrusion
+
+or interference, including, but not limited to, the right to visit and interact with various internet
+
+sites without being subjected to the exfiltration and/or unauthorized sharing of their
+
+communications without Plaintiffs’ and Class Members’ knowledge or consent, and (3) preventing
+
+the distribution of their Sensitive Health Information through Google’s advertising networks.
+
+        141.    Plaintiffs and Class Members had a reasonable expectation of privacy in their
+
+communications with Defendant via the Website and the communications platforms and services
+
+therein.
+
+        142.    Plaintiffs and Class Members communicated Sensitive Health Information that they
+
+intended for only Defendant to receive and that they understood Defendant would keep private
+
+and secure.
+
+        143.    Defendant’s disclosure of the substance and nature of those communications to
+
+third parties without the knowledge and informed consent of Plaintiffs and Class Members is an
+
+intentional intrusion on Plaintiffs’ and Class Members’ solitude or seclusion.
+
+        144.    Moreover, Defendant’s knowing disclosure of Plaintiffs’ Sensitive Health
+
+Information to Google, the largest advertiser in the world, to be used for advertising purposes,
+
+constitutes a publication of private facts.
+
+
+                                                 40
+       Case 1:26-cv-03458-GBD            Document 1        Filed 04/27/26      Page 41 of 55
+
+
+
+
+          145.   Plaintiffs and Class Members have a general expectation that their communications
+
+regarding sensitive, highly personal information would be protected from surreptitious disclosure
+
+to third parties.
+
+          146.   Defendant’s disclosure of Plaintiffs’ and Class Members’ Sensitive Health
+
+Information coupled with individually identifying information is highly offensive to the reasonable
+
+person.
+
+          147.   As a result of Defendant’s actions, Plaintiffs and Class Members have suffered
+
+harm and injury including, but not limited to, an invasion of their privacy rights.
+
+          148.   Plaintiffs and Class Members have been damaged as a direct and proximate result
+
+of Defendant’s invasion of their privacy and are entitled to compensatory and/or nominal damages.
+
+          149.   Plaintiffs and Class Members seek appropriate relief for that injury including, but
+
+not limited to, damages that will reasonably compensate Plaintiffs and Class Members for the harm
+
+to their privacy interests as a result of the intrusions upon their privacy.
+
+          150.   Plaintiffs and Class Members are also entitled to punitive damages resulting from
+
+the malicious, willful and intentional nature of Defendant’s actions, directed at injuring Plaintiffs
+
+and Class Members in conscious disregard of their rights. Such damages are needed to deter
+
+Defendant from engaging in such conduct in the future.
+
+          151.   Plaintiffs also seek such other relief as the Court may deem just and proper.
+
+                                        COUNT II
+                                     NEGLIGENCE
+      (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Colorado,
+                         Washington, and California Subclass(es))
+
+          152.   Plaintiffs repeat and reallege the allegations contained in paragraphs 1 through 138
+
+as if fully set forth herein.
+
+          153.   Through their use of the Website, Plaintiffs and Class Members provided
+
+
+                                                  41
+       Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26      Page 42 of 55
+
+
+
+
+Defendant with their Sensitive Health Information, believing such Information would be kept
+
+confidential.
+
+       154.     By collecting and storing this data, Defendant had a duty of care to use reasonable
+
+means to secure and safeguard it from unauthorized disclosure to third parties.
+
+       155.     Defendant negligently failed to take reasonable steps to protect Plaintiffs’ and Class
+
+Members’ Sensitive Health Information from being disclosed to third parties, without their
+
+consent, including to Google.
+
+       156.     Defendant further negligently omitted to inform Plaintiffs and the Class that they
+
+would use their Sensitive Health Information for marketing purposes, and/or that their Sensitive
+
+Health Information would be transmitted to third parties.
+
+       157.     Defendant knew, or reasonably should have known, that Plaintiffs and the Class
+
+would not have provided their Sensitive Health Information to Defendant had they known that
+
+Defendant intended to use that Information for unlawful purposes.
+
+       158.     Defendant’s conduct has caused Plaintiffs and the Class to suffer damages by
+
+having their highly personal, personally identifiable Sensitive Health Information accessed, stored,
+
+and disseminated without their knowledge or consent.
+
+       159.     Plaintiffs and Class Members are entitled to compensatory, nominal, and/or
+
+punitive damages.
+
+       160.     Defendant’s negligent conduct is ongoing, in that it still holds the Sensitive Health
+
+Information of Plaintiffs and Class Members in an unsafe and unsecure manner. Therefore,
+
+Plaintiffs and Class Members are also entitled to injunctive relief requiring Defendant to (i)
+
+strengthen their data security systems and monitoring procedures; (ii) submit to future annual
+
+audits of those systems and monitoring procedures; and (iii) provide adequate credit monitoring to
+
+
+
+
+                                                 42
+       Case 1:26-cv-03458-GBD           Document 1        Filed 04/27/26      Page 43 of 55
+
+
+
+
+all Class Members.
+
+                                        COUNT III
+                         BREACH OF IMPLIED CONTRACT
+      (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Colorado,
+                         Washington, and California Subclass(es))
+
+        161.    Plaintiffs repeat and reallege the allegations contained in paragraphs 1 through 138
+
+as if fully set forth herein.
+
+        162.    When Plaintiffs and Class Members provided their Sensitive Health Information
+
+to Defendant in exchange for health-related services, they entered into an implied contract
+
+pursuant to which Defendant agreed to safeguard and not disclose their Sensitive Health
+
+Information without consent.
+
+        163.    Plaintiffs and Class Members accepted Defendant’s offers and provided their
+
+Sensitive Health Information to Defendant.
+
+        164.    Plaintiffs and Class Members would not have entrusted Defendant with their
+
+Sensitive Health Information in the absence of an implied contract between them and Defendant
+
+obligating Defendant to not disclose Sensitive Health Information without consent.
+
+        165.    Defendant breached these implied contracts by disclosing Plaintiffs’ and Class
+
+Members’ Sensitive Health Information to third parties like Google.
+
+        166.    As a direct and proximate result of Defendant’s breaches of these implied
+
+contracts, Plaintiffs and Class Members sustained damages as alleged herein.
+
+        167.    Plaintiffs and Class Members would not have used Defendant’s services, or would
+
+have paid substantially less for those services, had they known their Sensitive Health Information
+
+would be disclosed.
+
+        168.    Plaintiffs and Class Members are entitled to compensatory, consequential, and/or
+
+nominal damages as a result of Defendant’s breaches of implied contract.
+
+
+                                                 43
+         Case 1:26-cv-03458-GBD         Document 1        Filed 04/27/26      Page 44 of 55
+
+
+
+
+                                        COUNT IV
+                                UNJUST ENRICHMENT
+      (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Colorado,
+                         Washington, and California Subclass(es))
+
+         169.   Plaintiffs repeat and reallege the allegations contained in paragraphs 1 through 138
+
+as if fully set forth herein.
+
+         170.   Plaintiffs plead this claim in the alternative to their breach of implied contract
+
+claim.
+
+         171.   Plaintiffs and Class Members conferred a monetary benefit on Defendant in
+
+exchange for healthcare related services. Specifically, they provided their Sensitive Health
+
+Information to Defendant which Defendant then utilized for marketing and advertising purposes,
+
+as described, supra.
+
+         172.   Defendant knew that Plaintiffs and Class Members conferred a benefit upon them,
+
+which Defendant accepted. Defendant profited from the Sensitive Health Information of Plaintiffs
+
+and Class Members by exchanging it for marketing and advertising services.
+
+         173.   In particular, Defendant enriched itself by obtaining the inherent value of
+
+Plaintiffs’ and Class Members’ Sensitive Health Information, and by saving the costs it
+
+reasonably should have expended on marketing and/or data security measures to secure Plaintiffs’
+
+and Class Members’ Sensitive Health Information.
+
+         174.   Plaintiffs and Class Members, on the other hand, suffered as a direct and proximate
+
+result of Defendant’s decision to prioritize its own profits over the privacy of its patients’
+
+Sensitive Health Information.
+
+         175.   Under the principles of equity and good conscience, Defendant should not be
+
+permitted to retain such benefits obtained by their surreptitious collection and transmission of
+
+Plaintiffs’ and Class Members’ Sensitive Health Information.
+
+
+                                                 44
+       Case 1:26-cv-03458-GBD           Document 1        Filed 04/27/26      Page 45 of 55
+
+
+
+
+        176.    If Plaintiffs and Class Members knew that Defendant had not reasonably secured
+
+their Sensitive Health Information, they would not have agreed to provide their Sensitive Health
+
+Information to Defendant.
+
+        177.    Plaintiffs and Class Members have no adequate remedy at law for this count. An
+
+unjust enrichment theory provides the equitable disgorgement of profits even where an individual
+
+has not suffered a corresponding loss in the form of money damages.
+
+        178.    As a direct and proximate result of Defendant’s conduct, Plaintiffs and Class
+
+Members have suffered and will continue to suffer injury.
+
+        179.    Defendant should be compelled to disgorge into a common fund or constructive
+
+trust, for the benefit of Plaintiffs and Class Members, proceeds that they unjustly received from
+
+them, or to refund the amounts that Plaintiffs and Class Members overpaid for Defendant’s
+
+services.
+
+                                        COUNT V
+    VIOLATIONS OF THE ELECTRONIC COMMUNICATIONS PRIVACY ACT
+                                18 U.S.C. § 2511(1), et seq.
+                     Unauthorized Interception, Use, and Disclosure
+      (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Colorado,
+                         Washington, and California Subclass(es))
+
+        180.    Plaintiffs repeat and reallege the allegations contained in paragraphs 1 through 138
+
+as if fully set forth herein.
+
+        181.    The ECPA protects both sending and receipt of communications.
+
+        182.    18 U.S.C. § 2520(a) provides a private right of action to any person whose wire or
+
+electronic communications are intercepted, disclosed, or intentionally used in violation of Chapter
+
+119.
+
+        183.    The transmissions of Plaintiffs’ Sensitive Health Information to the Website
+
+qualify as “communications” under the ECPA’s definition of 18 U.S.C. § 2510(12).
+
+
+                                                 45
+      Case 1:26-cv-03458-GBD          Document 1       Filed 04/27/26      Page 46 of 55
+
+
+
+
+       184.   Electronic Communications. The transmission of Sensitive Health Information
+
+between Plaintiffs and Class Members and the Website with which they chose to exchange
+
+communications are “transfer[s] of signs, signals, writing,…data, [and] intelligence of [some]
+
+nature transmitted in whole or in part by a wire, radio, electromagnetic, photoelectronic, or
+
+photooptical system that affects interstate commerce” and are therefore “electronic
+
+communications” within the meaning of 18 U.S.C. § 2510(2).
+
+       185.   Content. The ECPA defines content, when used with respect to electronic
+
+communications, to “include[] any information concerning the substance, purport, or meaning of
+
+that communication.” 18 U.S.C. § 2510(8) (emphasis added).
+
+       186.   Interception. The ECPA defines the interception as the “acquisition of the contents
+
+of any wire, electronic, or oral communication through the use of any electronic, mechanical, or
+
+other device” and “contents … include any information concerning the substance, purport, or
+
+meaning of that communication.” 18 U.S.C. § 2510(4), (8).
+
+       187.   Electronical, Mechanical or Other Device. The ECPA defines “electronic,
+
+mechanical, or other device” as “any device … which can be used to intercept a[n] … electronic
+
+communication[.]” 18 U.S.C. § 2510(5). The following constitute “devices” within the meaning
+
+of 18 U.S.C. § 2510(5):
+
+       a.     Plaintiffs’ and Class Members’ browsers;
+
+       b.     Plaintiffs’ and Class Members’ computing devices;
+
+       c.     Defendant’s web-servers; and
+
+       d.     The Pixel code deployed by Defendant to effectuate the sending and acquisition
+
+              of patient communications.
+
+
+
+
+                                               46
+      Case 1:26-cv-03458-GBD           Document 1       Filed 04/27/26      Page 47 of 55
+
+
+
+
+       188.    By utilizing and embedding the Pixels on the Website, Defendant intentionally
+
+intercepted, endeavored to intercept, and procured another person to intercept, the electronic
+
+communications of Plaintiffs and Class Members, in violation of 18 U.S.C. § 2511(1)(a).
+
+       189.    Specifically, Defendant intercepted Plaintiffs’ and Class Members’ electronic
+
+communications via the Pixels, which tracked, stored, and unlawfully disclosed Plaintiffs’ and
+
+Class Members’ Private Information to third parties such as Google.
+
+       190.    Defendant’s intercepted communications include, but are not limited to,
+
+communications to/from Plaintiffs and Class Members regarding their Sensitive Health
+
+Information, including their full names, name of the medical provider that they were visiting, the
+
+reason for their appointment, their phone numbers, and their insurance provider.
+
+       191.    By intentionally disclosing or endeavoring to disclose the electronic
+
+communications of Plaintiffs and Class Members to third parties, while knowing or having reason
+
+to know that such information was obtained through the interception of an electronic
+
+communication in violation of 18 U.S.C. § 2511(1)(a), Defendant violated 18 U.S.C. § 2511(1)(c).
+
+       192.    By intentionally using, or endeavoring to use, the contents of the electronic
+
+communications of Plaintiffs and Class Members, while knowing or having reason to know that
+
+the information was obtained through the interception of an electronic communication in violation
+
+of 18 U.S.C. § 2511(1)(a), Defendant violated 18 U.S.C. § 2511(1)(d).
+
+       193.    Unauthorized Purpose. Defendant intentionally intercepted the contents of
+
+Plaintiffs’ and Class Members’ electronic communications for the purpose of committing a
+
+tortious act in violation of the Constitution or laws of the United States or of any State—namely,
+
+invasion of privacy, among others.
+
+
+
+
+                                                47
+      Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26      Page 48 of 55
+
+
+
+
+       194.    The ECPA provides that a “party to the communication” may be liable where a
+
+“communication is intercepted for the purpose of committing any criminal or tortious act in
+
+violation of the Constitution or laws of the United States or of any State.” 18 U.S.C § 2511(2)(d).
+
+       195.    Defendant is not party to the communication based on their unauthorized
+
+duplication and transmission of communications with Plaintiffs and the Class. However, even
+
+assuming Defendant is a party, Defendant’s simultaneous, unknown duplication, forwarding, and
+
+interception of Plaintiffs’ and Class Members’ Sensitive Health Information does not qualify for
+
+the party exemption.
+
+       196.    Defendant’s acquisition of sensitive communications that was used and disclosed
+
+to Google was done for purposes of committing criminal and tortious acts in violation of the laws
+
+of the United States and individual States nationwide as set forth herein, including:
+
+       a.      Invasion of privacy;
+
+       b.      Breach of implied contract;
+
+       c.      Violations of HIPAA, 42 U.S.C. § 1320d-6(a)(3);
+
+       d.      Violations of the Washington My Health My Data Act (“MHMDA”), Wash. Rev.
+
+               Code Ann. § 19.373.005, et seq., and
+
+       e.      Violations of the California Invasion of Privacy Act (“CIPA”), Cal. Pen. Code §
+
+               630, et seq.
+
+
+       197.    Defendant’s conduct violated 42 U.S.C. § 1320d-6 in that it used and caused to be
+
+used cookie identifiers associated with specific users, including Plaintiffs and Class Members,
+
+without user authorization; and disclosed individually identifiable Sensitive Health Information
+
+to Google without user authorization.
+
+       198.    Defendant is not exempt from ECPA liability under 18 U.S.C. § 2511(2)(d) on the
+
+ground that it was a participant in Plaintiffs’ and Class Members’ communications about their
+
+                                                48
+       Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26       Page 49 of 55
+
+
+
+
+Sensitive Health Information on the Website, because they used its participation in these
+
+communications to improperly share Plaintiffs’ and Class Members’ Private Information with
+
+Google and other third-parties that did not participate in these communications, that Plaintiffs and
+
+Class Members did not know were receiving their Sensitive Health Information, and that Plaintiffs
+
+and Class Members did not consent to receive their Sensitive Health Information.
+
+       199.    As such, Defendant cannot viably claim any exception to ECPA liability.
+
+       200.    Plaintiffs and Class Members have suffered damages as a direct and proximate
+
+result of Defendant’s invasion of privacy in that:
+
+       a.     Learning that Defendant has intruded upon, intercepted, transmitted, shared,
+              and used their Sensitive Health Information for commercial purposes has
+              caused Plaintiffs and Class Members to suffer emotional distress;
+
+       b.     Defendant received substantial financial benefits from their use of Plaintiffs’
+              and Class Members’ Sensitive Health Information without providing any
+              value or benefit to Plaintiffs or Class Members;
+
+       c.     Defendant received substantial, quantifiable value from their use of
+              Plaintiffs’ and Class Members’ Sensitive Health Information, such as
+              understanding how people use the Website and determining what ads people
+              see on the Website, without providing any value or benefit to Plaintiffs or
+              Class Members;
+
+       d.     Defendant failed to provide Plaintiffs and Class Members with the full value
+              of the services for which they paid, which included a duty to maintain the
+              confidentiality of their Sensitive Health Information; and
+
+       e.     The diminution in value of Plaintiffs’ and Class Members’ Sensitive Health
+              Information and/or the loss of privacy due to Defendant making such
+              Sensitive Health Information, which Plaintiffs and Class Members intended
+              to remain private, no longer private.
+
+       201.    Defendant intentionally used the wire or electronic communications to increase
+
+their profit margins. Defendant specifically used the Tracking Tools to track and utilize Plaintiffs’
+
+and Class Members’ Sensitive Health Information for financial gain.
+
+
+
+
+                                                  49
+       Case 1:26-cv-03458-GBD           Document 1        Filed 04/27/26      Page 50 of 55
+
+
+
+
+       202.    Defendant was not acting under color of law to intercept Plaintiffs’ and Class
+
+Members’ wire or electronic communication.
+
+       203.    Plaintiffs and Class Members did not authorize Defendant to acquire the content
+
+of their communications for purposes of invading their privacy via the Pixels.
+
+       204.    Any purported consent that Defendant may claim they received from Plaintiffs and
+
+Class Members was not valid.
+
+       205.    In sending and acquiring the content of Plaintiffs’ and Class Members’
+
+communications relating to their use of the Website, Defendant’s purpose was tortious, criminal,
+
+and designed to violate federal and state legal provisions including a knowing intrusion into a
+
+private, place, conversation, or matter that would be highly offensive to a reasonable person.
+
+       206.    As a result of Defendant’s violation of the ECPA, Plaintiffs and the Class are
+
+entitled to all damages available under 18 U.S.C. § 2520, including statutory damages of
+
+whichever is the greater of $100 a day for each day of violation or $10,000, equitable or
+
+declaratory relief, compensatory and punitive damages, and attorney’s fees and costs.
+
+                                   COUNT VI
+VIOLATIONS OF THE WASHINGTON CONSUMER PROTECTION ACT (“WCPA”)
+                   Wash. Rev. Code Ann. § 19.86.010, et seq.
+        (On Behalf of Plaintiff Amelia Walsh and the Washington Subclass)
+
+       207.    Plaintiff Amelia Walsh (“Plaintiff” for purposes of this count) repeats and realleges
+
+the allegations contained in the paragraphs 1 through 138 as if fully set forth herein.
+
+       208.    The WCPA prohibits “unfair or deceptive acts or practices in the conduct of any
+
+trade or commerce[.]” Wash. Rev. Code Ann. § 19.86.020. The Washington legislature has
+
+instructed that the WCPA should be “liberally construed that its beneficial purposes may be
+
+served.” Wash. Rev. Code Ann. § 19.86.920.
+
+
+
+
+                                                 50
+      Case 1:26-cv-03458-GBD             Document 1       Filed 04/27/26     Page 51 of 55
+
+
+
+
+       209.    Any violation of the Washington My Health My Data Act constitutes a violation of
+
+the WCPA. Wash. Rev. Code Ann. § 19.373.090. As Defendant violated the MHMDA, as set forth
+
+above, it is also liable under the WCPA.
+
+       210.    Defendant additionally violated the WCPA by:
+
+           a. Falsely promising that it would keep confidential and not disclose Plaintiff’s and
+
+               Washington Subclass Members’ Sensitive Health Information;
+
+           b. Failing to inform Plaintiff and Washington Subclass Members that it would provide
+
+               their Sensitive Health Information to third parties in exchange for advertising and
+
+               marketing services; and
+
+           c. Surreptitiously collecting and sharing Plaintiff’s and Washington Subclass
+
+               Members’ Sensitive Health Information with third parties.
+
+       211.    As a result of Defendant’s violations of the WCPA, Plaintiff and Washington
+
+Subclass Members suffered injury, including the diminished economic value of their Sensitive
+
+Health Information, as explained, supra.
+
+       212.    Defendant’s violations of the WCPA were, and are, injurious to the public interest
+
+because:
+
+           a. Defendant has repeatedly collected and shared the Sensitive Health Information of
+
+               thousands of individuals, despite the vulnerable nature of its clientele; and
+
+           b. Defendant will continue to collect and disclose the Sensitive Health Information of
+
+               all users of its Website, absent court intervention.
+
+       213.    As a result of Defendant’s violations of the WCPA, Plaintiff and Washington
+
+Subclass Members are entitled to all damages available under Wash. Rev. Code Ann. § 19.86.090.
+
+
+
+
+                                                 51
+         Case 1:26-cv-03458-GBD         Document 1        Filed 04/27/26      Page 52 of 55
+
+
+
+
+including actual damages, treble damages, equitable or declaratory relief, and attorney’s fees and
+
+costs.
+
+                                     COUNT VII
+    VIOLATIONS OF THE CALIFORNIA INVASION OF PRIVACY ACT (“CIPA”)
+                             Cal. Pen. Code § 630, et seq.
+         (On Behalf of Plaintiff Michaella Walsh and the California Subclass)
+
+         214.   Plaintiff Michaella Walsh (“Plaintiff” for purposes of this count) repeats and
+
+realleges the allegations contained in paragraphs 1 through 138 as if fully set forth herein.
+
+         215.   The California Legislature enacted CIPA in response to “advances in science and
+
+technology” that “have led to the development of new devices and techniques for the purpose of
+
+eavesdropping upon private communications[,]” recognizing that “the invasion of privacy
+
+resulting from the continual and increasing use of such devices and techniques has created a
+
+serious threat to the free exercise of personal liberties and cannot be tolerated in a free and
+
+civilized society.” Cal. Pen. Code. § 630.
+
+         216.   Under CIPA, it is unlawful to:
+
+                a. “[W]illfully and without the consent of all parties to the communication, or
+
+                   in any unauthorized manner, read[], or attempt[] to read, or to learn the
+
+                   contents or meaning of any message, report, or communication while the same
+
+                   is in transit or passing over any wire, line, or cable, or is being sent from, or
+
+                   received at any place within this state;” or
+
+                b. “[U]se, or attempt[] to use, in any manner, or for any purpose, or to
+
+                   communicate in any way, any information so obtained[;]” or
+
+                c. “[A]id, agree[] with, employ[], or conspire[] with any person or persons to
+
+                   unlawfully do, or permit, or cause to be done any of the acts [prohibited by
+
+                   CIPA.]”
+
+
+
+                                                 52
+      Case 1:26-cv-03458-GBD            Document 1       Filed 04/27/26      Page 53 of 55
+
+
+
+
+Cal. Penal Code § 631(a) (emphasis added).
+
+       217.     At all relevant times, Defendant aided, employed, agreed with, and conspired with
+
+Google, and likely other third parties, to track and intercept Plaintiff’s and California Subclass
+
+Members’ internet communications while using the Website, specifically by installing and
+
+configuring the Tracking Tools to permit Google to eavesdrop on and intercept in real-time the
+
+content of intercept Plaintiff’s and California Subclass Members’ private communications with
+
+Defendant.
+
+       218.     The content of those conversations included Sensitive Health Information.
+
+Through Defendant’s installation and configuration of the Tracking Tools on the Website, these
+
+communications were intercepted by Google during the communications and without the
+
+knowledge, authorization, or consent of Plaintiffs and Class Members.
+
+       219.     Defendant intentionally inserted electronic devices into the Website that, without
+
+the knowledge and consent of Plaintiff and California Subclass Members, transmitted the
+
+substance of their confidential communications with Defendant to third parties.
+
+       220.     Defendant willingly facilitated Google’s and other third parties’ interception and
+
+collection of Plaintiff’s and California Subclass Members’ Sensitive Health Information by
+
+embedding the Tracking Tools on the Website, thereby assisting Google’s eavesdropping.
+
+       221.     The following items constitute “machine[s], instrument[s], or contrivance[s]”
+
+under the CIPA, and even if they do not, the Tracking Tools fall under the broad catch-all category
+
+of “any other manner”:
+
+       a. The computer codes and programs Google and other third parties used to track
+
+             intercept Plaintiff’s and California Subclass Members’ communications while they
+
+             were navigating the Website;
+
+
+
+
+                                                53
+       Case 1:26-cv-03458-GBD           Document 1        Filed 04/27/26      Page 54 of 55
+
+
+
+
+       b. Plaintiff’s and California Subclass Members’ internet browsers;
+
+       c. Plaintiff’s and California Subclass Members’ computing and mobile devices;
+
+       d. Google’s web and ad servers;
+
+       e. The web and ad servers from which Google and other third parties tracked and
+
+           intercepted Plaintiff’s and California Subclass Members’ communications while they
+
+           were using a web browser to access or navigate the Website; and
+
+       f. The computer codes and programs used by Google and other third parties to effectuate
+
+           their tracking and interception of Plaintiff’s and California Subclass Members’
+
+           communications while they were using a browser to visit the Website.
+
+       222.    As demonstrated hereinabove, Defendant violated CIPA by aiding and permitting
+
+third parties, including Google, and their agents, employees, and contractors, to receive Plaintiff’s
+
+California Subclass Members’ Sensitive Health Information in real time, through the Website,
+
+without obtaining consent.
+
+       223.    By disclosing Plaintiff’s and California Subclass Members’ Sensitive Health
+
+Information, Defendant violated Plaintiff’s and Class Members’ statutorily protected right to
+
+privacy.
+
+       224.    As a result of Defendant’s violation of the CIPA, Plaintiff and California Subclass
+
+Members are entitled to treble actual damages related to their loss of privacy in an amount to be
+
+determined at trial, statutory damages, attorney’s fees, litigation costs, injunctive and declaratory
+
+relief, and punitive damages.
+
+                                    PRAYER FOR RELIEF
+
+       WHEREFORE, Plaintiffs, on behalf of themselves and other Class Members, pray for
+
+judgment against Defendant as follows:
+
+
+
+
+                                                 54
+       Case 1:26-cv-03458-GBD            Document 1      Filed 04/27/26      Page 55 of 55
+
+
+
+
+       A.      an Order certifying the Nationwide Class and Colorado, Washington, and
+               California Subclasses, and appointing Plaintiffs and their Counsel to
+               represent the Class;
+       B.      equitable relief enjoining Defendant from engaging in the wrongful conduct
+               complained of herein pertaining to the misuse and/or disclosure of the
+               Sensitive Health Information of Plaintiffs and Class Members;
+       C.      injunctive relief requested by Plaintiffs, including, but not limited to,
+               injunctive and other equitable relief as is necessary to protect the interests
+               of Plaintiffs and Class Members;
+       D.      an award of all damages available at equity or law, including, but not limited
+               to, actual, consequential, punitive, statutory and nominal damages, as
+               allowed by law in an amount to be determined;
+       E.      an award of attorney fees, costs, and litigation expenses, as allowed by law;
+       F.      prejudgment interest on all amounts awarded; and
+       G.      all such other and further relief as this Court may deem just and proper.
+
+                                 DEMAND FOR JURY TRIAL
+
+       Plaintiffs, on behalf of themselves and other members of the proposed Class, hereby
+
+demand a jury trial on all issues so triable.
+
+
+
+
+Dated: April 27, 2026                                 Respectfully submitted,
+                                                      /s/ Alyssa Tolentino___________
+                                                      Alyssa Tolentino (Bar No. 6195481)
+                                                      SIRI & GLIMSTAD LLP
+                                                      745 Fifth Avenue, Suite 500
+                                                      New York, New York 10151
+                                                      Tel: (212) 532-1091
+                                                      E: atolentino@sirillp.com
+
+                                                      Sonjay C. Singh*
+                                                      SIRI & GLIMSTAD LLP
+                                                      400 East Pratt Street
+                                                      8th Floor - #16946751
+                                                      Baltimore, MD 21202
+                                                      Tel: (212) 532-1091
+                                                      E: ssingh@sirillp.com
+
+                                                      *pro hac vice admission anticipated
+
+                                                      Attorneys for Plaintiffs and the Class
+
+
+                                                55
+

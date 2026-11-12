@@ -1,0 +1,2813 @@
+             Case 2:25-cv-02211-TL          Document 22       Filed 01/30/26       Page 1 of 47
+
+
+
+ 1
+
+ 2
+
+ 3
+
+ 4
+
+ 5
+
+ 6
+
+ 7
+
+ 8                                 UNITED STATES DISTRICT COURT
+ 9                              WESTERN DISTRICT OF WASHINGTON
+10
+
+11    K.R., on behalf of himself and all others         Case No. 2:25-cv-02211-TL
+      similarly situated,
+12                          Plaintiff,                  AMENDED CLASS ACTION
+                      v.                                COMPLAINT
+13
+      1400 23RD LLC, JET CITY GEAR LLC                  JURY TRIAL DEMANDED
+14    and JET CITY RETAIL, INC.,
+15
+                             Defendants.
+16
+
+17          Plaintiff K.R., individually and on behalf of all similarly situated persons, allege the following
+18
+     against 1400 23RD LLC, JET CITY GEAR LLC, and JET CITY RETAIL, INC. (“Defendants”) based
+19
+     upon personal knowledge with respect to himself and on information and belief derived from, among
+20
+     other things, investigation by his counsel and review of public documents as to all other matters:
+21
+                                           I.     INTRODUCTION
+22
+
+23          1.      Information concerning an individual’s health is among the most sensitive, and closely
+
+24   guarded information in our society. The unwanted disclosure of such information can be enormously
+25   harmful. It can result in discrimination in the workplace, and denial of insurance coverage. And, if
+26
+     people are unable to believe that their Sensitive Information will be kept confidential, they are much
+27
+
+28
+
+      CLASS ACTION COMPLAINT
+      Case No.
+              Case 2:25-cv-02211-TL         Document 22         Filed 01/30/26    Page 2 of 47
+
+
+     less likely to seek medical care when they need it most.
+ 1
+
+ 2            2.    This sensitivity is particularly acute with regards to health information relating to
+
+ 3   medical marijuana. Indeed, surveys routinely show that medical marijuana patients experience stigma
+
+ 4   and feelings of shame, and make efforts to hide their medical marijuana usage from friends and loved
+ 5
+     ones.1
+ 6
+              3.    Unfortunately, unbeknownst to Plaintiff and other visitors to Defendants’ website, their
+ 7
+     private personal and health information was not actually being kept private. Instead, Defendants
+ 8
+     collected and transmitted personally identifiable, Sensitive Information pertaining to its customers,
+ 9
+
+10   including the fact that they have made a medical appointment to receive a medical marijuana card;
+
+11   have purchased medical and/or recreational marijuana; and the specific cannabis products that they
+12   have purchased (collectively, “Sensitive Information”), to unauthorized third parties, including
+13
+     Alphabet, Inc. (“Google”), through the use of surreptitious online tracking tools.
+14
+              4.    Online advertising giants, like Google, compile as much information as possible about
+15
+     American consumers, including information relating to the most private aspects of their lives. This
+16
+
+17   information is then used to fuel for a massive, targeted advertising enterprise.
+
+18            5.    Thus, any information about a person captured by these online behemoths can be used
+
+19   to stream ads to that person, among other uses. If Google receives information that a person is a
+20   consumer of medical marijuana, it will collect that information and allow its clients to use that
+21
+     information to stream ads related to related healthcare and cannabis products.
+22
+
+23
+
+24
+
+25   1
+       See Olivia Cordingley, Elizabeth Salerno Valdez, Samantha Pagán, Emily Lincoln, Janna Ataiants
+     & Stephen Lankenau, Multi-level Stigma as a Barrier to Accessing Medical Cannabis for Parents in
+26
+     Pennsylvania, APHA 2025 ANNUAL MEETING AND EXPO (2025), available online at:
+27   https://apha.confex.com/apha/2025/meetingapp.cgi/Paper/568079; see also Travis D Satterlund, Juliet
+     P Lee & Roland S Moore, Stigma Among California's Medical Marijuana Patients, J. Psychoactive
+28   Drugs (2015), available online at: https://pmc.ncbi.nlm.nih.gov/articles/ PMC4341951/.
+
+
+                                                        1
+         AMENDED CLASS ACTION COMPLAINT
+         Case No. 2:25-cv-02211-TL
+               Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26      Page 3 of 47
+
+
+              6.      Google offers its clients’ website operators access to its proprietary suites of marketing,
+ 1
+
+ 2   advertising, and customer analytics software, including Google Analytics, Google AdSense and
+
+ 3   Google Tag Manager (collectively, the “Business Tools”). Armed with these Business Tools, website
+
+ 4   operators can leverage Google’s enormous database of consumer information for the purposes of
+ 5
+     deploying targeted advertisements, performing minute analyses of their customer bases, and
+ 6
+     identifying new market segments that may be exploited.
+ 7
+              7.      But, in exchange for access to these Business Tools, website operators install Google’s
+ 8
+     surveillance software on their website (the “Tracking Tools”), including ‘tracking pixels’ (“Pixels”)
+ 9
+
+10   and third-party ‘cookies’ that capture sensitive, personally identifiable information provided to the
+
+11   website operator by its website users. This sensitive information can include a unique identifier that
+12   Google uses to identify that user, regardless of what computer or phone is used to access the website.
+13
+     The Tracking Tools can also capture and share other information like the specific webpages visited by
+14
+     a website user, items added to an online shopping cart by a website user, information entered into an
+15
+     online form by a website user, and the device characteristics of a website user’s phone or computer.
+16
+
+17            8.      In essence, when website operators use Google’s Business Tools, they choose to
+
+18   participate in Google’s mass surveillance network and, in turn, benefit from Google’s collection of
+
+19   user data at the expense of their website user’s privacy.
+20            9.      Defendants is one of the companies that have chosen to prioritize its marketing efforts
+21
+     and profits over its customers’ privacy by installing Google’s Tracking Tools on its websites.
+22
+              10.     Defendants operate Uncle Ike’s, a cannabis retailer in the State of Washington.”
+23
+     Through Defendants’ website, www.ikes.com (the “Website”), visitors can order its cannabis products
+24
+
+25   for pick-up at one of its multiple storefronts.2 Defendants also partner with medical doctors
+
+26
+
+27
+     2
+28       Menu, UNCLE IKE’S, https://ikes.com/menu/ (last accessed Nov. 5, 2025).
+
+
+                                                          2
+         AMENDED CLASS ACTION COMPLAINT
+         Case No. 2:25-cv-02211-TL
+              Case 2:25-cv-02211-TL         Document 22         Filed 01/30/26      Page 4 of 47
+
+
+     specializing in medical marijuana, and Website visitors can schedule an appointment with these
+ 1
+
+ 2   doctors for the purpose of obtaining a medical marijuana card directly through the Website. 3
+
+ 3            11.   Plaintiff and Class Members used the Website and had their personal Sensitive
+
+ 4   Information tracked by Defendants using the Tracking Tools. However, Defendants never obtained
+ 5
+     authorization from Plaintiff or Class Members to share their Sensitive Information with third parties.
+ 6
+     At all times relevant to this action, Plaintiff and Class Members gave no informed consent for
+ 7
+     information about their Sensitive Information to be transmitted to the third parties, including the
+ 8
+     largest advertiser and compiler of user information.
+ 9
+
+10            12.   Health information, including information related to medical cannabis treatment, is
+
+11   highly regulated by Washington law, including through the Washington Cannabis Patient Protection
+12   Act (“CPPA”), Wash. Rev. Code Ann. § 69.69.51, et seq., and the Washington My Health My Data
+13
+     Act (“MHMDA”), Wash. Rev. Code Ann. § 19.373.005, et seq., both of which prohibit the disclosure
+14
+     of medical marijuana-related health information without explicit, informed consent. Accordingly,
+15
+     Defendants’ disclosure of Plaintiff’s and Class Members’ Sensitive Information constitutes a violation
+16
+
+17   of Washington law.
+
+18            13.   As a result of Defendants’ conduct, Plaintiff and Class Members have suffered
+
+19   numerous injuries, including: (i) invasion of medical privacy; (ii) lack of trust in communicating with
+20   medical providers; (iii) emotional distress and heightened concerns related to the release of Sensitive
+21
+     Information to third parties, (iv) loss of benefit of the bargain; (v) diminution of value of the Sensitive
+22
+     Information; (vi) statutory damages and (vii) continued and ongoing risk to their Sensitive
+23
+     Information.
+24
+
+25
+
+26
+
+27   3
+      Washington Medical Cannabis Compliance, UNCLE IKE’S, https://ikes.com/washington-medical-
+28   cannabis-compliance/ (last accessed July 29, 2025).
+
+
+                                                         3
+         AMENDED CLASS ACTION COMPLAINT
+         Case No. 2:25-cv-02211-TL
+               Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26      Page 5 of 47
+
+
+            14.       Therefore, Plaintiff seeks, on behalf of himself and a class of similarly situated persons,
+ 1
+
+ 2   to remedy these harms and assert the following statutory and common law claims against Defendant:
+
+ 3   Invasion of Privacy – Intrusion Upon Seclusion; Breach of Fiduciary Duty; Negligence; Breach of
+
+ 4   Implied Contract; Unjust Enrichment; violations of the Electronic Communications Privacy Act, 18
+ 5
+     U.S.C. § 2511(1), et seq.; and violations of the Washington Consumer Protection Act.
+ 6
+                                                 II.     PARTIES
+ 7
+     Plaintiff K.R.
+ 8
+            15.       Plaintiff K.R. is a citizen of the State of Washington, residing in King County, and
+ 9
+
+10   brings this action both in an individual capacity, and on behalf of all others similarly situated.
+
+11          16.       In or around January of 2025, Plaintiff K.R. utilized the Website on his personal
+12   electronic device to schedule an appointment with Defendants to receive a medical marijuana card.
+13
+     After receiving his medical marijuana card, Plaintiff K.R. subsequently utilized the Website to
+14
+     purchase medical marijuana on several occasions.
+15
+            17.       Unbeknownst to Plaintiff K.R., the Website transmitted the Sensitive Information that
+16
+
+17   she input into his appointment to unauthorized third parties.
+
+18          18.       Plaintiff K.R. never authorized Defendants to disclose any aspect of his
+
+19   communications with Defendants through the Website to third parties, including the Sensitive
+20   Information that he provided through the Website.
+21
+            19.       On every occasion that he visited the Website, Plaintiff K.R. possessed an account with
+22
+     Google, and he accessed the Website while logged into her Google account on the same device.
+23
+     Defendant 1400 23rd LLC
+24
+
+25          20.       Defendant 1400 23rd LLC. is a limited liability corporation incorporated in the State
+
+26   of Washington with its principal place of business at 2314 E Union Street, Seattle, WA, in King
+
+27   County.
+28
+     ///
+
+                                                          4
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+               Case 2:25-cv-02211-TL         Document 22         Filed 01/30/26       Page 6 of 47
+
+
+     Defendant Jet City Gear LLC
+ 1
+
+ 2           21.      Defendant Jet City Gear LLC is a limited liability corporation incorporated in the State
+
+ 3   of Washington with its principal place of business at 2314 E Union Street, Seattle, WA, in King
+
+ 4   County.
+ 5
+     Defendant Jet City Retail, Inc.
+ 6
+             22.      Defendant Jet City Retail, Inc. is a for-profit corporation incorporated in the State of
+ 7
+     Washington with its principal place of business at 2314 E Union Street, Seattle, WA, in King County.
+ 8
+                                     III.    JURISDICTION AND VENUE
+ 9
+
+10           23.      This Court has subject matter jurisdiction pursuant to the Class Action Fairness Act of
+
+11   2005 (“CAFA”), 28 U.S.C. § 1332(d). The amount in controversy exceeds the sum of $5,000,000
+12   exclusive of interest and costs, there are more than 100 putative class members and minimal diversity
+13
+     exists because Plaintiffs and many putative class members are citizens of a different state than
+14
+     Defendants. Additionally, this Court also has subject matter jurisdiction over this action under 28
+15
+     U.S.C. § 1331 because this Complaint asserts a claim for violation of federal law, specifically, the
+16
+
+17   ECPA, 18 U.S.C. § 2511. This Court also has supplemental jurisdiction pursuant to 28 U.S.C. §
+
+18   1367(a) because all claims alleged herein form part of the same case or controversy.
+
+19           24.      This Court has personal jurisdiction over Defendants because Defendants has are
+20   headquartered in this judicial district and sold their marijuana products in this District, including to
+21
+     Plaintiff K.R.
+22
+     Venue is proper in this judicial district pursuant to 28 U.S.C. § 1391(b) because a substantial part of
+23
+     the events giving rise to the claims in this action occurred in this judicial district.
+24
+
+25   ///
+
+26   ///
+
+27   ///
+28
+     ///
+
+                                                          5
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+              Case 2:25-cv-02211-TL            Document 22        Filed 01/30/26     Page 7 of 47
+
+
+
+ 1
+                                         IV.     FACTUAL ALLEGATIONS
+ 2
+              A.         DEFENDANTS’ USE OF THIRD-PARTY TRACKING TECHNOLOGIES
+ 3
+                    i.          Google’s Mass Advertising Surveillance Operation
+ 4
+              25.        Google is the largest digital advertiser in the country, accounting for 26.8-percent of
+ 5
+
+ 6   the total digital advertising revenue generated in the United States. 4 In 2023, Google’s advertising
+
+ 7   revenue of $238 billion accounted for 77-percent of its total revenue for the year. 5
+ 8            26.        Google advertises Google Analytics and other Business Tools to website operators, like
+ 9
+     Defendants, claiming they will allow the operator to “[u]nderstand [their] site and app users,” “check
+10
+     the performance of [their] marketing,” and “[g]et insights only Google can give.” 6 But, in order for
+11
+     website operators to get information from Google Analytics about their website’s visitors, they must
+12
+
+13   allow data collection through installation of Google’s Tracking Tools on their website. 7
+
+14            27.        Indeed, on its Privacy & Terms page, Google admits that it collects information from
+
+15   third party websites, stating that “[m]any websites and apps use Google services to improve their
+16
+
+17
+
+18
+
+19
+     4
+20     Share of major ad-selling companies in digital advertising revenue in the United States, STATISTA
+     (May 2024), https://www.statista.com/statistics/242549/digital-ad-market-share-of-major-ad-selling-
+21   companies-in-the-us-by-revenue/#:~:text=In%202023%2C%20Google%20accounted20
+     for,21.1%20and%2012.5%20percent%2C%20respectively               https://www.scientificamerican.com/
+22
+     article/7-in-10-smartphone-apps-share-your-data-with-third-party-services/ (last accessed Mar. 7,
+23   2025).
+     5
+        Florian Zandt, Google's Ad Revenue Dwarfs Competitors, STATISTA (Sep. 10, 2024),
+24   https://www.statista.com/chart/33017/annual-advertising-revenue-of-selected-tech-companies-
+     offering-search-solutions/#:~:text=Online%20advertising&text=Alphabet%2C%20the%20
+25   company%20behind%20the,overall%20revenue%20this%20past%20year (last accessed Mar. 7,
+     2025).
+26   6
+          Welcome to Google Analytics, GOOGLE, https://analytics.google.com/analytics/web/
+27   provision/?authuser=0#/provision (last accessed Mar. 7, 2025).
+     7
+       See Aaron Ankin & Surya Matta, The High Privacy Cost of a “Free” Website, THE MARKUP,
+28   https://themarkup.org/blacklight/2020/09/22/blacklight-tracking-advertisers-digital-privacy-
+     sensitive-websites (last accessed Mar. 7, 2025).
+
+                                                            6
+         AMENDED CLASS ACTION COMPLAINT
+         Case No. 2:25-cv-02211-TL
+              Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26       Page 8 of 47
+
+
+     content and keep it free. When they integrate our services, these sites and apps share information with
+ 1
+
+ 2   Google.”8
+
+ 3            28.    Google also admits that it uses the information collected from third party websites, such
+
+ 4   as the Website, to sell targeted advertising, explaining to users that, “[f]or example, a website that sells
+ 5
+     mountain bikes might use Google's ad services. After you visit that site, you could see an ad for
+ 6
+     mountain bikes on a different site that shows ads served by Google.” 9
+ 7
+              29.    While Google admits that it collects information from third-party websites through the
+ 8
+     Tracking Tools, it does not provide, nor could it provide, a publicly available list of every webpage on
+ 9
+
+10   which its Tracking Tools are installed. As such, the vague descriptions of Google’s data collection
+
+11   practices referenced above could not give Plaintiffs and Class Members any reason to think that
+12   Defendants were part of Google’s surveillance network. Moreover, as Defendants does not disclose
+13
+     their use of Google’s Tracking Tools, Plaintiffs and Class Members could not have been reasonably
+14
+     expected to review any of Google’s privacy statements in connection with their use of the Website.
+15
+              30.    Google aggregates the user information that it collects from third-party websites into
+16
+
+17   ‘advertising profiles’ consisting of all of the data that it has collected about a given user. 10 With these
+
+18   advertising profiles, Google can sell hyper-precise advertising services, allowing its clients to target
+
+19   internet users based on combinations of their location, age, race, interests, hobbies, life events (e.g.,
+20   recent marriages, graduation, or relocation), political affiliation, education level, home ownership
+21
+
+22
+
+23
+
+24
+     8
+      Privacy & Terms – How Google uses information from sites or apps that use our services, GOOGLE,
+25   https://policies.google.com/technologies/partner-sites (last accessed Mar. 7, 2025).
+26   9
+       Id.
+     10
+27      Bennett Cyphers & Gennie Gebhart, Behind the One-Way Mirror: A Deep Dive Into the Technology
+     of Corporate Surveillance, ELECTRONIC FRONTIER FOUNDATION (2019), available online at:
+28   https://www.eff.org/files/2019/12/11/behind_the_one-way_mirror-a_deep_dive_into_
+     the_technology_of_corporate_surveillance_0.pdf.
+
+                                                          7
+         AMENDED CLASS ACTION COMPLAINT
+         Case No. 2:25-cv-02211-TL
+               Case 2:25-cv-02211-TL           Document 22        Filed 01/30/26      Page 9 of 47
+
+
+     status, marital status, household income, type of employment, use of specific apps or websites, and
+ 1
+
+ 2   more.11
+
+ 3             31.      Google’s surveillance of individual’s internet usage is ubiquitous. In 2017, Scientific
+
+ 4   American reported that over 70-percent of smartphone apps report “personal data to third-party
+ 5
+     tracking companies like Google,” 12 and Google trackers are present on 74-percent of all web traffic.
+ 6
+               32.      Moreover, as in this case, the data collected by Google often pertains to the most
+ 7
+     personal and sensitive aspects of an individual’s life. For example:
+ 8
+                     a. 93-percent of pornography websites allow third parties, including Google, to collect
+ 9
+
+10                      their user’s browsing habits.13 In fact, Google advertising trackers were found on 73-
+
+11                      percent of pornography websites.14
+12                   b. 81-percent of the most popular mobile apps for managing depression and quitting
+13
+                        smoking allowed Facebook and/or Google to access subscriber information, including
+14
+                        health diary entries and self-reports about substance abuse. 15
+15
+                     c. Twelve of the largest pharmacy providers in the United States send information
+16
+
+17                      regarding user’s purchases of products such as pregnancy tests, HIV tests, prenatal
+
+18
+
+19
+
+20
+     11
+           About    audience   segments,      GOOGLE       ADS,   https://support.google.com/google-
+21   ads/answer/2497941?hl=en#zippy=%2Cin-market-segments%2Caffinity-segments%2Clife-
+     events%2Cdetailed-demographics (last accessed Mar. 7, 2025).
+22
+     12
+23      Narseo Vallina-Rodriguez & Srikanth Sundaresan, 7 in 10 Smartphone Apps Share Your Data with
+     Third-Party Services, SCIENTIFIC AMERICAN (May 30, 2017), https://www.scientific
+24   american.com/article/7-in-10-smartphone-apps-share-your-data-with-third-party-services/    (last
+     accessed Mar. 7, 2025).
+25   13
+         Elena Maris, Timothy Libert & Jennifer R. Henrichsen, Tracking sex: The implications of
+     widespread sexual data leakage and tracking on porn websites, NEW MEDIA & SOCIETY (2020),
+26
+     available online at: https://journals.sagepub.com/doi/10.1177/1461444820924632.
+     14
+27      Id.
+     15
+         Kit Huckvale, John Torous & Mark E. Larsen, Assessment of the Data Sharing and Privacy
+28   Practices of Smartphone Apps for Depression and Smoking Cessation, JAMA NETWORK OPEN (2019),
+     available online at: https://pubmed.ncbi.nlm.nih.gov/31002321/.
+
+                                                            8
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26         Page 10 of 47
+
+
+                    vitamins, and Plan B to online advertisers. 16 For example, when an online shopper
+ 1
+
+ 2                  searches for a pregnancy test, views the product page for a pregnancy test, or adds a
+
+ 3                  pregnancy test to their online shopping cart on Kroger’s website, that information is
+
+ 4                  transmitted to Google.17
+ 5
+            33.     This monumental, invasive surveillance of Americans’ internet usage and resulting
+ 6
+     violation of their privacy is not accidental. As Google’s then-CEO, Eric Schmit, admitted in 2010:
+ 7
+     “We know where you are. We know where you’ve been. We can more or less know what you’re
+ 8
+     thinking about.”18
+ 9
+
+10          34.     In fact, Google values user information so highly that it provides its Business Tools to
+
+11   many website operators for free, all to expand its surveillance apparatus. 19
+12          35.     When website operators, like Defendants, make use of Google’s Business Tools, they
+13
+     are essentially choosing to participate in Google’s mass surveillance network and, in return, they
+14
+     benefit from Google’s collection of user data at the expense of their website users’ privacy. For
+15
+     example, Google rewards website operators for providing it with user information by granting such
+16
+
+17   website operators access to its Analytics platform, which then leverages demographic data collected
+
+18   by Google to provide detailed analyses of the website’s user base. 20
+
+19
+
+20
+
+21
+     16
+        Darius Tahir & Simon Fondrie-Teitler, Need to Get Plan B or an HIV Test Online? Facebook May
+22
+     Know About It, THE MARKUP (June 30, 2023), https://themarkup.org/pixel-hunt/2023/06/30/need-to-
+23   get-plan-b-or-an-hiv-test-online-facebook-may-know-about-it (last accessed Mar. 7, 2025).
+     17
+        Jon Keegan, Forget Milk and Eggs: Supermarkets Are Having a Fire Sale on Data About You, THE
+24   MARKUP (Feb. 16, 2023), https://themarkup.org/privacy/2023/02/16/forget-milk-and-eggs-
+     supermarkets-are-having-a-fire-sale-on-data-about-you (last accessed Mar. 7, 2025).
+25
+     18
+        Andrew Orlowski, Google's Schmidt: We know what you're thinking, THE REGISTER (Oct. 4, 2020),
+26
+     https://www.theregister.com/2010/10/04/google_ericisms/ (last accessed Mar. 7, 2025).
+     19
+27      Analytics Overview, GOOGLE, https://marketingplatform.google.com/about/analytics/ (last accessed
+     Mar. 7, 2025) (“Google Analytics gives you the tools, free of charge”),
+     20
+28       Google Marketing Platform – Features, GOOGLE, https://marketingplatform.google.com/
+     about/analytics/features/ (last accessed Mar. 7, 2025).
+
+                                                        9
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26       Page 11 of 47
+
+
+            36.     Unfortunately, it is usually the case that a website operator’s use of third-party tracking
+ 1
+
+ 2   software is not disclosed whatsoever in its privacy policy. 21 And even where the use of such third-
+
+ 3   party software is disclosed, such disclosures are often hidden and cloaked in such confusing, technical
+
+ 4   and overly legal language as to be indecipherable to the typical internet user. 22
+ 5
+            37.     Moreover, for even a conscientious internet user, the massive volume of privacy
+ 6
+     policies encountered through routine internet use makes reviewing each and every one practically
+ 7
+     impossible. According to one study, it would take the average internet user 244 hours – or 30.5
+ 8
+     working days – to read the privacy policy of every new website that they visited in a single year. 23
+ 9
+
+10                  ii.   Pixels Can Record Almost Every Interaction Between a User and a Website
+
+11          38.     In order to use Google’s Business Tools, Defendants installed Google’s Tracking
+12   Tools, including tracking Pixels, onto the Website.
+13
+            39.     Pixels are one of the tools used by website operators to track user behavior. As the
+14
+     Federal Trade Commission (“FTC”) explains, a Pixel is:
+15
+            [A] small piece of code that will be placed into the website or ad and define [the Pixel
+16
+
+17          operator’s] tracking goals such as purchases, clicks, or pageviews…
+
+18          Pixel tracking can be monetized several ways. One way to monetize pixel tracking is
+
+19          for companies to use the tracking data collected to improve the company's own
+20          marketing campaigns…Another is that companies can monetize the data collected by
+21
+
+22
+
+23
+
+24
+
+25
+     21
+         See Woodrow Hartzog, Privacy’s Blueprint, 60-67 (Harvard University Press 2018) (detailing
+26
+     deficiencies with online privacy policies).
+     22
+27      Id.
+     23
+        Aleecia M. McDonald & Lorrie Faith Cantor, The Cost of Reading Privacy Policies, I/S: A JOURNAL
+28   OF LAW AND POLICY FOR THE INFORMATION SOCIETY (2008), available online at:
+     https://lorrie.cranor.org/pubs/readingPolicyCost-authorDraft.pdf.
+
+                                                        10
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+              Case 2:25-cv-02211-TL           Document 22       Filed 01/30/26      Page 12 of 47
+
+
+               further optimizing their own ad targeting systems and charging other companies to use
+ 1
+
+ 2             its advertising offerings.24
+
+ 3             40.     Pixels can collect a shocking amount of information regarding an individual’s online
+
+ 4   behavior—including the webpages viewed by the user, the amount of time spent by the user on specific
+ 5
+     webpages, the buttons and hyperlinks that the user clicks while using a website, the items that the user
+ 6
+     adds to an online shopping cart, the purchases that a user makes through an online retailer, the text
+ 7
+     entered by the user into a website search bar, and even the information provided by the user on an
+ 8
+     online form—all transmitted in real-time as the user navigates a website. 25
+ 9
+
+10             41.     But most internet users are completely unaware that substantial information about their
+
+11   internet usage is being collected through tracking Pixels. The FTC warns that:
+12                     Traditional controls such as blocking third party cookies may not entirely
+13
+                       prevent pixels from collecting and sharing information. Additionally, many
+14
+                       consumers may not realize that tracking pixels exist because they’re invisibly
+15
+                       embedded within web pages that users might interact with…Academic and
+16
+
+17                     public reporting teams have found that thousands of the most visited webpages
+
+18                     have pixels and other methods that leak personal information to third parties. 26
+
+19
+
+20
+
+21
+
+22
+
+23   24
+        Lurking Beneath the Surface: Hidden Impacts of Pixel Tracking, FEDERAL TRADE COMMISSION –
+24   OFFICE OF TECHNOLOGY (Mar. 6, 2023), https://www.ftc.gov/policy/advocacy-research/tech-at-
+     ftc/2023/03/lurking-beneath-surface-hidden-impacts-pixel-tracking (last accessed Mar. 7, 2025).
+25   25
+          See id.; How does retargeting on Facebook help your business?, META,
+     https://www.facebook.com/business/goals/retargeting (last accessed Mar. 7, 2025); Tom Kemp,
+26
+     “Oops! I Did It Again” … Meta Pixel Still Hoovering Up Our Sensitive Data, MEDIUM,
+27   https://tomkemp00.medium.com/oops-i-did-it-again-meta-pixel-still-hoovering-up-our-sensitive-
+     data-f99c7b779d47#_ftn1 (last accessed Mar. 7, 2025).
+28
+     26
+          Lurking Beneath the Surface, supra note 24.
+
+                                                          11
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+                Case 2:25-cv-02211-TL         Document 22        Filed 01/30/26     Page 13 of 47
+
+
+                      iii. The Pixels Installed on the Website Transmit Personally Identifiable Information
+ 1
+                           and Protected Health Information to Google
+ 2
+                42.      Every website is hosted by a computer “server” that holds the website’s contents.
+ 3
+                43.      To access a website, individuals use “web browsers.” Web browsers are software
+ 4
+     applications that allow consumers to navigate the web and view and exchange electronic information
+ 5
+
+ 6   and communications over the Internet. Each “client device” (such as computer, tablet, or smartphone)
+
+ 7   accesses web content through a web browser (such as Google’s Chrome, Mozilla’s Firefox, Apple’s
+
+ 8   Safari, or Microsoft’s Edge).
+ 9
+                44.      Communications between a website server and web browser consist of Requests and
+10
+     Responses. Any given browsing session may consist of hundreds or even thousands of individual
+11
+     Requests and Responses. A web browser’s Request essentially asks the website to provide certain
+12
+     information, such as the contents of a given webpage when the user clicks a link, and the Response
+13
+
+14   from the website sends back the requested information – the web pages’ images, words, buttons, and
+
+15   other features that the browser shows on the user’s screen as they navigate the website.
+
+16              45.      Additionally, on most websites, the Response sent back to the user’s web browser
+17
+     directs the browser to create small files known as ‘cookies’ on the user’s device. 27 These cookies are
+18
+     saved by the user’s web browser, and are used to identify the website user as they browse the website
+19
+     or on subsequent visits to the site.28 For example, in a more innocuous use case, a cookie may allow
+20
+     the website to remember a user’s name and password, language settings, or shopping cart contents. 29
+21
+
+22
+
+23
+
+24
+
+25
+
+26   27
+        What is a web browser?, MOZILLA, https://www.mozilla.org/en-US/firefox/browsers/what-is-a-
+27   browser/ (last visited Mar. 7, 2025).
+     28
+28        Id.
+     29
+          Id.
+
+                                                           12
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+              Case 2:25-cv-02211-TL         Document 22         Filed 01/30/26      Page 14 of 47
+
+
+              46.     When a Google user logs onto their account, their web browser records a Google
+ 1
+
+ 2   tracking cookie.30 This cookie includes a specific line of code that links the web browser to the user’s
+
+ 3   Google account.31
+
+ 4            47.     Google’s Pixels use cookies but operate differently than a cookie. Rather than directing
+ 5
+     the browser to save a file on the user’s device, the Pixels acquire information from the browser without
+ 6
+     notifying the user. The information can include details about the user, his or her interactions with the
+ 7
+     website, and information about the user’s environment (e.g., type of device, type of browser, and
+ 8
+     sometimes even the physical location of the device), all relayed contemporaneously as the website
+ 9
+
+10   user navigates the website.
+
+11            48.     Simultaneously, the Google Pixels, like those installed on the Website, request
+12   identifying information from any Google cookies previously installed on the user’s web browser.
+13
+              49.     The Pixels then combine the data received from the browser with the data acquired
+14
+     from the cookie, and instructs the web browser to transmit the information back to Google. As a result,
+15
+     Google can link all of the user information collected by their Pixels to the user’s identity, via the user’s
+16
+
+17   Google profile. Thus, even if a user never actually logs into a website or fills out a form, the website,
+
+18   along with Google, can know the user’s identity.
+
+19            50.     A remarkable number of Americans possess a Google account. Just one of Google’s
+20   many products, its Gmail e-mail client, is used by over one-third of Americans. 32 When these users
+21
+     visit a website, like those on which the Website has been installed, that utilizes a Google Pixel, any
+22
+
+23
+
+24
+     30
+          Cyphers, supra note 10.
+25   31
+          Id.
+26   32
+        See Harsha Kiran, 49 Gmail Statistics To Show How Big It Is In 2024, TECHJURY (Jan. 3, 2024),
+27   https://techjury.net/blog/gmail-statistics/ (last accessed Mar. 7, 2025) (“Gmail accounts for 130.9
+     million of the total email users in the US”). The United States population is approximately 337.4
+28   million. See UNITED STATES CENSUS BUREAU, https://www.census.gov/popclock/ (last accessed Mar.
+     7, 2025).
+
+                                                         13
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+              Case 2:25-cv-02211-TL             Document 22        Filed 01/30/26      Page 15 of 47
+
+
+     information collected by the Pixel can be linked to the user’s identity through the Google cookies
+ 1
+
+ 2   installed on the user’s web browser.
+
+ 3            51.         However, it is not only Google account holders that are at risk of having Pixel-collected
+
+ 4   website data linked to their identities. Rather, Google utilizes sophisticated data tracking methods to
+ 5
+     identify even those few users who do not have a Google account.
+ 6
+              52.         Google’s Pixels, like those on the Website, can acquire information about the user’s
+ 7
+     device and browser, such as their screen resolution, time zone setting, browser software type and
+ 8
+     version, operating system type and version, language setting, and IP address.
+ 9
+
+10            53.         An internet user’s combination of such device and browser characteristics, commonly
+
+11   referred to as their “browser fingerprint,” is “often unique.” 33 By tracking this browser fingerprint,
+12   Google is able to compile a user’s activity across the internet. 34 And, as Google continuously compiles
+13
+     user data over time, its understanding of the user’s browser fingerprint becomes more sophisticated
+14
+     such that it needs only to collect a single piece of identifying information to identify the user linked to
+15
+     a browser fingerprint.
+16
+
+17                  iv.        Defendants Disclosed Plaintiff’s and Class Members’ Sensitive Information
+                          to Google.
+18
+              54.         To schedule a medical appointment with Defendants, Plaintiffs and Class Members
+19
+     were required to complete a scheduling form through the Website,
+20
+              55.         Unbeknownst to Plaintiff and Class Members, Defendants intentionally configured the
+21
+
+22   Tracking Tools installed on the Website to capture and transmit the Sensitive Information that they
+
+23   communicated to Defendants while scheduling their appointments to third parties, including Google.
+24            56.         The following screenshot (“Figure 1”) depicts the network transmissions made by the
+25
+     Google Tracking Tools installed on the Website when users of the Website schedule an appointment
+26
+
+27   33
+          Cyphers, supra note 10.
+     34
+28        Id.
+
+
+                                                             14
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL         Document 22        Filed 01/30/26      Page 16 of 47
+
+
+     to receive a medical marijuana card. As Figure 1 shows, when customers schedule an appointment on
+ 1
+
+ 2   the Website, the Sensitive Information requested and contemporaneously transmitted to Google by the
+
+ 3   Tracking Tools installed on the Website include the fact that the customer scheduled a Washington
+
+ 4   Medical Cannabis Compliance appointment, as well as the specific Ike’s location where the
+ 5
+     appointment was scheduled (in this case, the Seattle location).
+ 6
+              57.   Further, the information that was transmitted to Google was accompanied by specific
+ 7
+     lines of code linking the Sensitive Information provided by Plaintiffs to their identities. The following
+ 8
+     screenshots show that the Google Pixel on the Website transmitted the identifier numbers attached to
+ 9
+
+10   Google’s ‘cid,’ cookies, which identify the user’s Google account, along with other information that
+
+11   is commonly used to create a browser fingerprint, such as the user’s language selection, screen
+12   resolution, IP address, web browser software and version number, and operating system and version
+13
+     number.
+14
+     /
+15
+     /
+16
+
+17   /
+
+18   /
+
+19   /
+20   /
+21
+     /
+22
+     /
+23
+     /
+24
+
+25   /
+
+26   /
+
+27   /
+28
+
+
+                                                        15
+         AMENDED CLASS ACTION COMPLAINT
+         Case No. 2:25-cv-02211-TL
+         Case 2:25-cv-02211-TL        Document 22       Filed 01/30/26    Page 17 of 47
+
+
+
+ 1
+
+ 2
+
+ 3
+
+ 4
+
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+      Figure 1. Screenshot depicting back-end network traffic from the Website which shows
+26    information transmitted to Google when Website users schedule an appointment to receive a
+27    medical marijuana card.
+
+28
+
+
+                                                  16
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22       Filed 01/30/26      Page 18 of 47
+
+
+            58.     The Tracking Tools also record every action that Website users make while shopping
+ 1
+
+ 2   for cannabis products on the Website. As the following screenshots (“Figures 2 and 3”) demonstrate,
+
+ 3   the Tracking Tools transmit the specific products that Website users add to their shopping cart, as well
+
+ 4   as the products that they actually end up purchasing (in both instances here, a “Disposable Vape
+ 5
+     Blackberry Drip 1g”), alongside the identifier numbers attached to Google’s ‘cid,’ cookies, which
+ 6
+     identify the user’s Google account, along with other information that is commonly used to create a
+ 7
+     browser fingerprint, such as the user’s language selection, screen resolution, IP address, web browser
+ 8
+     software and version number, and operating system and version number.
+ 9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+
+                                                       17
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+          Case 2:25-cv-02211-TL        Document 22       Filed 01/30/26     Page 19 of 47
+
+
+
+ 1
+
+ 2
+
+ 3
+
+ 4
+
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27   Figures 2 and 3. Screenshots depicting back-end network traffic from the Website which show
+     information transmitted to Google when Website users add an item to their shopping cart and
+28   check out.
+
+
+                                                   18
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL         Document 22       Filed 01/30/26      Page 20 of 47
+
+
+
+ 1
+
+ 2            59.   Even more troublingly, the Tracking Tools specifically notify Google when users make
+ 3   a medical marijuana purchase. As the following screenshot (“Figure 4”) shows, when a medical
+ 4
+     marijuana patient makes a purchase on the Website, the information transmitted to Google includes
+ 5
+     the fact that the user entered their medical marijuana card number, transmitted alongside the identifier
+ 6
+     numbers attached to Google’s ‘cid,’ cookies, which identify the user’s Google account, along with
+ 7
+
+ 8   other information that is commonly used to create a browser fingerprint, such as the user’s language
+
+ 9   selection, screen resolution, IP address, web browser software and version number, and operating
+
+10   system and version number.
+11
+     /
+12
+     /
+13
+     /
+14
+     /
+15
+
+16   /
+
+17   /
+18   /
+19
+     /
+20
+     /
+21
+     /
+22
+
+23   /
+
+24   /
+
+25   /
+26   /
+27
+     /
+28
+
+
+                                                       19
+         AMENDED CLASS ACTION COMPLAINT
+         Case No. 2:25-cv-02211-TL
+           Case 2:25-cv-02211-TL       Document 22      Filed 01/30/26    Page 21 of 47
+
+
+
+ 1
+
+ 2
+
+ 3
+
+ 4
+
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+     Figure 4. Screenshot depicting back-end network traffic from the Website which shows
+23   information transmitted to Google when Website users make a medical marijuana purchase.
+24
+
+25
+
+26
+
+27
+
+28
+
+
+                                                  20
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL            Document 22        Filed 01/30/26     Page 22 of 47
+
+
+            60.         In their default state, Google’s Pixels record and transmit only “automatic events,”
+ 1
+
+ 2   consisting largely of routine user behavior, such as clicking a link, clicking on an advertisement, or
+
+ 3   viewing a webpage.35 Defendants purposely configured the Google Pixels on the Website to collect
+
+ 4   and transmit additional user data, including the fact that Website users purchased specific products,
+ 5
+     scheduled medical marijuana card appointments, and entered their medical marijuana card number on
+ 6
+     the purchasing form.
+ 7
+            B.          DEFENDANTS DISCLOSED PLAINTIFF’S AND CLASS MEMBERS’
+ 8
+                        SENSITIVE INFORMATION TO THIRD PARTIES WITHOUT THEIR
+ 9                      KNOWLEDGE OR CONSENT
+
+10                 i.      Defendants failed to inform Plaintiffs and Class Members of its disclosure of
+                           Plaintiff’s and Class Members’ Sensitive Information, in violation of its Notice
+11
+                           of Privacy Practices
+12
+            61.         Defendants’ Privacy Policy assures their customers that they will keep their Sensitive
+13
+     Information private and secure and that it will only disclose Sensitive Information under certain
+14
+     circumstances, none of which is true.36
+15
+            62.         Defendants breached Plaintiff’s and Class Members’ right to privacy by unlawfully
+16
+
+17   disclosing their Sensitive Information to third parties, including Google. Specifically, Plaintiffs and
+
+18   Class Members had a reasonable expectation of privacy (based on Defendants’ own representations to
+19   Plaintiffs and the Class that Defendants would not disclose their Sensitive Information to third parties).
+20
+     Defendants did not inform Plaintiffs that they were sharing their Sensitive Information with third
+21
+     parties, including Google.
+22
+            63.         By engaging in this improper sharing of information without Plaintiff’s and Class
+23
+
+24   Members’ consent, Defendants violated their own Privacy Policy and breached Plaintiff’s and Class
+
+25   Members’ right to privacy and unlawfully disclosed their Sensitive Information.
+
+26
+     35
+27       Automatically Collected Events, GOOGLE ANALYTICS HELP, https://support.google.com/
+     analytics/answer/9234069, (last visited on Mar. 25, 2025).
+     36
+28      Privacy Policy, UNCLE IKE’S, https://ikes.com/privacy-policy/ (last accessed Aug. 4, 2025).
+
+
+                                                          21
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22       Filed 01/30/26      Page 23 of 47
+
+
+            64.     Despite never telling users like Plaintiffs and Class Members, Defendants allowed third
+ 1
+
+ 2   parties such as Google to intercept Plaintiff’s and Class Members’ Sensitive Information and use it for
+
+ 3   advertising purposes.
+
+ 4                  ii.   The Tracking Tools Used by Defendants Were Imperceptible to Plaintiffs
+ 5                        and Class Members
+
+ 6          65.     The Tracking Tools installed on the Website were invisible to Plaintiffs and Class
+
+ 7   Members. Without analyzing the network information transmitted by the Website through
+
+ 8   examination of its source code or the use of sophisticated web developer tools, there was no way for
+ 9
+     a Website user to discover the presence of the Tracking Tools. As a result, typical internet users, such
+10
+     as Plaintiffs and Class Members, were unable to detect the Tracking Tools on the Website.
+11
+            66.     Plaintiffs and Class Members were shown no disclaimer or warning that their Sensitive
+12
+     Information would be disclosed to any unauthorized third party without their express consent.
+13
+
+14          67.     Plaintiffs and Class Members did not know that their Sensitive Information was being
+
+15   collected and transmitted to an unauthorized third party.
+16          68.     Because Plaintiffs and Class Members were not aware of the Tracking Tools on the
+17
+     Website, or that their Sensitive Information would be collected and transmitted to Google, they could
+18
+     not and did not consent to Defendants’ conduct.
+19
+            C.      DEFENDANTS WERE ENRICHED BY THEIR DISCLOSURE OF
+20
+                    PLAINTIFF’S AND CLASS MEMBERS’ SENSITIVE INFORMATION TO
+21                  THIRD PARTIES
+
+22
+                     i.   Defendants Received Material Benefits in Exchange for Plaintiff’s Sensitive
+23                        Information
+24
+            69.     As explained, supra, users of Google’s Business Tools, like Defendants, receive access
+25
+     to advertising and marketing analytics services in exchange for installing Google’s Tracking Tools on
+26
+
+27   its website.
+
+28
+
+
+                                                       22
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26     Page 24 of 47
+
+
+            70.     Upon information and belief, Defendants, as users of Google’s Business Tools,
+ 1
+
+ 2   received compensation in the form of advanced advertising services and cost-effective marketing on
+
+ 3   third-party platforms in exchange for allowing Google to collect Plaintiff’s and Class Members’
+
+ 4   Sensitive Information.
+ 5
+                    ii.   Plaintiff’s and Class Members’ Data Had Financial Value
+ 6
+            71.     Moreover, Plaintiff’s and Class Members’ Sensitive Information has value and
+ 7
+     Defendants’ disclosure and interception of that Sensitive Information harmed Plaintiffs and the Class.
+ 8
+            72.     According to the annual reports of Facebook, another major online advertising
+ 9
+     proprietor, the value it derives from user data has continuously risen. “In 2013, the average American’s
+10
+
+11   data was worth about $19 per year in advertising sales to Facebook, according to its financial
+
+12   statements. In 2020, [it] was worth $164 per year.” 37
+13          73.     Conservative estimates suggest that in 2018, Internet companies earned $202 per
+14
+     American user from mining and selling data. That figure is only due to keep increasing; estimates for
+15
+     2022 are as high as $434 per user, for a total of more than $200 billion industry wide.
+16
+            74.     Moreover, health information is particularly valuable. Healthcare data brokers charge
+17
+
+18   up to $125 per clinical data record, with electronic healthcare databases selling for up to $500,000. 38
+
+19   In fact, compared to other types of personal data, healthcare data records are by far the most valuable,
+
+20   fetching prices of up to $250 per record on the black market, compared to $5.40 for the next highest
+21   value record (a payment card).39
+22
+
+23
+
+24
+     37
+        Geoffrey A. Fowler, There’s no escape from Facebook, even if you don’t use it, THE WASHINGTON
+25   POST (Aug. 29, 2021), https://www.washingtonpost.com/technology/2021/ 08/29/facebook-privacy-
+     monopoly/ (last visited Mar. 7, 2025).
+26   38
+         The Value of Data, TRUSTWAVE (2017), available online at: https://www.infopoint-
+27   security.de/media/TrustwaveValue_of_Data_Report_Final_PDF.pdf.
+     39
+        Todd Zigrang & Jessica Bailey-Wheaton, Valuing Healthcare Data, THE VALUE EXAMINER (2023),
+28   available online at: https://www.healthcapital.com/researchmaterialdocuments/ publishedarticles/
+     Valuing%20Healthcare%20Data.pdf
+
+                                                       23
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22       Filed 01/30/26      Page 25 of 47
+
+
+            75.     Several companies have products through which they pay consumers for a license to
+ 1
+
+ 2   track certain information. Indeed, Nielsen, UpVoice, HoneyGain, and SavvyConnect are all
+
+ 3   companies, in addition to Google, that pay for browsing history information.
+
+ 4          76.     The unauthorized disclosure of Plaintiff’s and Class Members’ private and Sensitive
+ 5
+     Information has diminished the value of that information, resulting in harm including Plaintiffs and
+ 6
+     Class Members.
+ 7
+            D.      DEFENDANTS’ USE               OF     THE      TRACKING         TOOLS       VIOLATES
+ 8
+                    WASHINGTON LAW
+ 9
+                     i.   The Washington Cannabis Patient Protection Act (“CPPA”) [Wash. Rev.
+10
+                          Code Ann. § 69.69.51, et seq.]
+11
+
+12          77.     In November of 1998, Washington voters approved Initiative I-692, the Medical Use
+
+13   of Marijuana Act, legalizing cannabis for medical purposes. 40 Shortly thereafter, the legislature
+14   enacted the Cannabis Patient Protection Act to regulate the nascent cannabis industry.
+15
+            78.     Through the CPPA, the Washington legislature included significant” privacy
+16
+     protections…in terms of limiting access to patient information,” including “strict penalties” for misuse
+17
+     of such information. Carter v. Inslee, No. C16-0809-JCC, 2016 U.S. Dist. LEXIS 189718, at *13
+18
+
+19   (W.D. Wash. June 30, 2016).
+
+20          79.     Specifically, the CPPA creates a confidential medical cannabis authorization database
+
+21   that allows cannabis retailers, like Defendants, to confirm that an individual seeking medical cannabis
+22   has a valid medical marijuana card. Wash. Rev. Code Ann. § 69.51A.230(1)(e). But, “[p]ersonally
+23
+     identifiable information…included in the medical cannabis authorization database is confidential and
+24
+     exempt from public disclosure, inspection, or copying.” Wash. Rev. Code Ann. § 69.51A.230(9)(a).
+25
+
+26
+
+27   40
+       See November 1998 General Election Results, WASHINGTON SECRETARY OF STATE, available online
+28   at: https://www.sos.wa.gov/elections/.
+
+
+                                                       24
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL         Document 22        Filed 01/30/26      Page 26 of 47
+
+
+     An entity that discloses such information is guilty of a class C felony. Wash. Rev. Code Ann. §
+ 1
+
+ 2   69.51A.240.
+
+ 3          80.     Therefore, by disclosing the fact that Plaintiffs and Class Members were medical
+
+ 4   marijuana card holders, Defendants violated the CPPA.
+ 5
+                    ii.    The Washington My Health My Data Act (“MHMDA”) [Wash. Rev. Code
+ 6                         Ann. § 19.373.005, et seq.]
+
+ 7          81.     The Washington legislature enacted the MHMDA in 2023 to expand protections for
+
+ 8   privacy of all medical information, even that not protected under the federal Health Insurance
+ 9
+     Portability and Accountability Act (“HIPAA”). Specifically, the legislature states that:
+10
+            The legislature finds that the people of Washington regard their privacy as a
+11
+            fundamental right and an essential element of their individual freedom. Washington’s
+12
+            Constitution explicitly provides the right to privacy. Fundamental privacy rights have
+13
+
+14          long been and continue to be integral to protecting Washingtonians and to safeguarding
+
+15          our democratic republic…
+16          Information related to an individual’s health conditions or attempts to obtain health
+17
+            care services is among the most personal and sensitive categories of data collected.
+18
+            Washingtonians expect that their health data is protected under laws like the health
+19
+            information portability and accountability act (HIPAA). However, HIPAA only covers
+20
+
+21          health data collected by specific health care entities, including most health care
+
+22          providers. Health data collected by noncovered entities, including certain apps and
+
+23          websites, are not afforded the same protections. [The My Health My Data Act] works
+24          to close the gap between consumer knowledge and industry practice by providing
+25
+            stronger privacy protections for all Washington consumers’ health data."
+26
+     Wash. Rev. Code Ann. § 19.373.005.
+27
+
+28
+
+
+                                                       25
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+              Case 2:25-cv-02211-TL         Document 22       Filed 01/30/26      Page 27 of 47
+
+
+               82.     The MHMDA protects against the unauthorized disclosure of “consumer health data,”
+ 1
+
+ 2   defined as “personal information that is linked or reasonably linkable to a consumer and that identifies
+
+ 3   the consumer’s past, present, or future physical or mental health status,” including a consumer’s “[u]se
+
+ 4   or purchase of prescribed medication[.]” Wash. Rev. Code Ann. § 19.373.010(8).
+ 5
+               83.    Under the MHMDA, an entity may not collect any consumer health data without
+ 6
+     obtaining consent from the consumer for “such collection for a specified purpose[.]” " Wash. Rev.
+ 7
+     Code Ann. § 19.373.030(a). To comply with this requirement, the entity must maintain a “consumer
+ 8
+     health data privacy policy that clearly and conspicuously discloses” the categories and source of any
+ 9
+
+10   consumer health data collected, as well as the identity of any third parties with which such health data
+
+11   is being shared. Wash. Rev. Code Ann. § 19.373.020(1)(a). The policy must also document the
+12   procedure through which the consumer may opt out of any data collection. Id; see also Wash. Rev.
+13
+     Code Ann. § 19.373.040 (documenting right of consumer to opt out of data collection). A violation of
+14
+     the MHMDA also constitutes a violation of the Washington Consumer Protection Act [Wash. Rev.
+15
+     Code Ann. § 19.86]. Wash. Rev. Code Ann. § 19.373.090.
+16
+
+17             84.    On their Website, Defendants do not disclose their collection and disclosure of website
+
+18   visitors’ Sensitive Information through the Tracking Tools. In fact, the Website’s Privacy Policy
+
+19   explicitly promises users that Defendants “do not sell, trade, rent or otherwise share for marketing
+20   purposes [their] Personal Information with third parties without [their] consent.” 41 The Website
+21
+     additionally does not provide any documentation of how website users can opt out of data collection.
+22
+     Id.
+23
+               85.    Accordingly, Defendants’ use of the Tracking Tools violates the MHMDA.
+24
+
+25
+
+26
+
+27
+     41
+28        Privacy Policy, UNCLE IKE’S, https://ikes.com/privacy-policy/ (last accessed Aug. 4, 2025).
+
+
+                                                        26
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22       Filed 01/30/26      Page 28 of 47
+
+
+            E.      PLAINTIFF’S AND CLASS MEMBERS’ REASONABLE EXPECTATION OF
+ 1
+                    PRIVACY
+ 2
+            86.     In its Privacy Policy, Defendants assures patients that: “[e]xcept as otherwise stated in
+ 3
+     this Privacy Policy, we do not sell, trade, rent or otherwise share for marketing purposes your Personal
+ 4
+     Information with third parties without your consent.” Id. Nowhere in the Privacy Policy do Defendants
+ 5
+
+ 6   inform customers that their personally-identifiable Sensitive Information will be shared with Google.
+
+ 7   Id.
+
+ 8          87.     At all times when Plaintiffs and Class Members provided their Sensitive Information
+ 9
+     to Defendants, they each had a reasonable expectation that the information would remain confidential
+10
+     and that Defendants would not share the Sensitive Information with third parties for a commercial
+11
+     purpose, unrelated to providing them with cannabis products.
+12
+            88.     Privacy polls and studies show that the overwhelming majority of Americans consider
+13
+
+14   obtaining an individual’s affirmative informed consent before a company collects and shares that
+
+15   individual’s data to be one of the most important privacy rights.
+16          89.     For example, a recent Consumer Reports study shows that 92-percent of Americans
+17
+     believe that internet companies and websites should be required to obtain consent before selling or
+18
+     sharing consumer data, and the same percentage believe those companies and websites should be
+19
+     required to provide consumers with a complete list of the data that is collected about them. 42
+20
+
+21          90.     Moreover, Americans are particularly interested in the safety of their health
+
+22   information. Over 50-percent of Americans believe that “medical-records privacy is not sufficiently
+
+23   protected today by law and organizational practices.” 43 And, in a study performed by the National
+24
+
+25   42
+        Consumers Less Confident About Healthcare, Data Privacy, and Car Safety, New Survey Finds,
+26   CONSUMER        REPORTS     (May     11,    2017),     https://www.consumerreports.org/consumer-
+     reports/consumers-less-confident-about-healthcare-data-privacy-and-car-safety-a3980496907 (last
+27   visited Mar. 7, 2025).
+     43
+28       The Value of Data, TRUSTWAVE (2017), available online at: https://www.infopoint-
+     security.de/media/TrustwaveValue_of_Data_Report_Final_PDF.pdf.
+
+                                                       27
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+                Case 2:25-cv-02211-TL       Document 22       Filed 01/30/26      Page 29 of 47
+
+
+     Institutes of Health (“NIH”), nearly 80-percent of respondents reported being “very concerned” or
+ 1
+
+ 2   “concerned” about the privacy of medical records. 44
+
+ 3              91.   These feelings are particularly acute with regards to medical marijuana. Indeed,
+
+ 4   numerous studies have noted that medical marijuana patients experience “stigma at multiple
+ 5
+     socioecological levels” and “report feeling” same due to their use of medical cannabis. 45 As a result,
+ 6
+     medical marijuana patients “engage in discreet use and covert dispensary visits to avoid stigma and
+ 7
+     social exclusion.”46
+ 8
+                92.   Personal data privacy and obtaining consent to share Sensitive Information are material
+ 9
+
+10   to Plaintiffs and Class Members.
+
+11                                        V.     TOLLING AND ESTOPPEL
+12              93.   Any applicable statutes of limitation have been tolled by Defendants’ knowing and
+13
+     active concealment of the incorporation of Google’s Tracking Tools onto the Website.
+14
+                94.   The Tracking Tools on the Website were and are invisible to the average website
+15
+     visitor.
+16
+
+17              95.   Through no fault or lack of diligence, Plaintiffs and Class Members were deceived and
+
+18   could not reasonably discover Defendants’ deception and unlawful conduct.
+
+19
+
+20
+
+21
+     44
+22      Daniel S Gaylin, Adil Moiduddin, Shamis Mohamoud, Katie Lundeen, Jennifer A Kelly, Public
+     Attitudes about Health Information Technology, and Its Relationship to Health Care Quality, Costs,
+23   and       Privacy,     HEALTH         SERV.   RES.      (2011),       available    online      at:
+     https://pmc.ncbi.nlm.nih.gov/articles/PMC3097409/pdf/hesr0046-0920.pdf.
+24
+     45
+        Olivia Cordingley, Elizabeth Salerno Valdez, Samantha Pagán, Emily Lincoln, Janna Ataiants &
+25
+     Stephen Lankenau, Multi-level Stigma as a Barrier to Accessing Medical Cannabis for Parents in
+26   Pennsylvania, APHA 2025 ANNUAL MEETING AND EXPO (2025), available online at:
+     https://apha.confex.com/apha/2025/meetingapp.cgi/Paper/568079; see also Travis D Satterlund, Juliet
+27   P Lee & Roland S Moore, Stigma Among California's Medical Marijuana Patients, J. Psychoactive
+     Drugs (2015), available online at: https://pmc.ncbi.nlm.nih.gov/articles/ PMC4341951/.
+28   46
+        Id.
+
+
+                                                        28
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL            Document 22        Filed 01/30/26      Page 30 of 47
+
+
+             96.       Plaintiffs were ignorant of the information essential to pursue their claims, without any
+ 1
+
+ 2   fault or lack of diligence on their part.
+
+ 3           97.       Defendants had exclusive knowledge that the Website incorporated the Pixels and other
+
+ 4   Tracking Tools and yet failed to disclose to customers, including Plaintiffs and Class Members, that
+ 5
+     by scheduling appointments through the Website, Plaintiff’s and Class Members’ Sensitive
+ 6
+     Information would be disclosed or released to unauthorized third parties, including Google.
+ 7
+             98.       Under the circumstances, Defendants were under a duty to disclose the nature,
+ 8
+     significance, and consequences of its collection and treatment of its customers’ Sensitive Information.
+ 9
+
+10   In fact, to the present, Defendants have not conceded, acknowledged, or otherwise indicated to its
+
+11   customers that they have disclosed or released their Sensitive Information to unauthorized third
+12   parties. Accordingly, Defendants are estopped from relying on any statute of limitations.
+13
+             99.       Moreover, all applicable statutes of limitation have also been tolled pursuant to the
+14
+     discovery rule.
+15
+             100.      The earliest that Plaintiffs or Class Members, acting with due diligence, could have
+16
+
+17   reasonably discovered Defendants’ conduct would have been shortly before the filing of this
+
+18   Complaint.
+
+19                                           VI.     CLASS ALLEGATIONS
+20           101.      This action is brought by the named Plaintiffs on their behalf and on behalf of a
+21
+     proposed Class of all other persons similarly situated under Federal Rules of Civil Procedure 23(b)(2),
+22
+     23(b)(3), and 23(c)(4).
+23
+             102.      The Nationwide Class that Plaintiffs seek to represent is defined as follows:
+24
+
+25           The Nationwide Class
+
+26           All natural persons who used the Website to schedule or re-schedule an appointment, and
+
+27           whose Sensitive Information was disclosed or transmitted to Google or any other unauthorized
+28
+             third party.
+
+                                                          29
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL         Document 22       Filed 01/30/26         Page 31 of 47
+
+
+            103.    In addition to the claims asserted on behalf of the Nationwide Class, Plaintiffs assert
+ 1
+
+ 2   claims on behalf of separate Washington Subclass, which is defined as follows:
+
+ 3          Washington Subclass
+
+ 4          All natural persons residing in the State of Washington who used the Website and whose
+ 5
+            Sensitive Information was disclosed or transmitted to Google, or any other unauthorized
+ 6
+            third party.
+ 7
+
+ 8          104.    Excluded from the proposed Class are any claims for personal injury, wrongful death,
+
+ 9   or other property damage sustained by the Class; and any Judge conducting any proceeding in this
+
+10   action and members of their immediate families.
+11
+            105.    Plaintiffs reserve the right to amend the definitions of the Class or add subclasses if
+12
+     further information and discovery indicate that the definitions of the Class should be narrowed,
+13
+     expanded, or otherwise modified.
+14
+            106.    Numerosity. The Class is so numerous that the individual joinder of all members is
+15
+
+16   impracticable. There are at least 10,000 individuals that have been impacted by Defendants’ actions.
+
+17   Moreover, the exact number of those impacted is generally ascertainable by appropriate discovery and
+18   is in the exclusive control of Defendants.
+19
+            107.    Commonality. Common questions of law or fact arising from Defendants’ conduct
+20
+     exist as to all members of the Class, which predominate over any questions affecting only individual
+21
+     Class Members. These common questions include, but are not limited to, the following:
+22
+
+23          a)       Whether and to what extent Defendants had a duty to protect the Sensitive
+
+24                   Information of Plaintiffs and Class Members;
+
+25          b)       Whether Defendants had duties not to disclose the Sensitive Information of
+26                   Plaintiffs and Class Members to unauthorized third parties;
+27
+
+28
+
+
+                                                       30
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL         Document 22        Filed 01/30/26      Page 32 of 47
+
+
+            c)      Whether Defendants adequately, promptly, and accurately informed
+ 1
+
+ 2                  Plaintiffs and Class Members that their Sensitive Information would be
+
+ 3                  disclosed to third parties;
+
+ 4          d)      Whether Defendants violated the law by failing to promptly notify
+ 5
+                    Plaintiffs and Class Members that their Sensitive Information was being
+ 6
+                    disclosed without their consent;
+ 7
+            e)      Whether Defendants adequately addressed and fixed the practices which
+ 8
+                    permitted the unauthorized disclosure of customers’ Sensitive Information;
+ 9
+
+10          f)      Whether Defendants engaged in unfair, unlawful, or deceptive practices by
+
+11                  failing to keep the Sensitive Information belonging to Plaintiffs and Class
+12                  Members free from unauthorized disclosure;
+13
+            g)      Whether Defendants violated the statutes asserted as claims in this
+14
+                    Complaint;
+15
+            h)      Whether Plaintiffs and Class Members are entitled to actual, consequential,
+16
+
+17                  and/or nominal damages as a result of Defendants’ wrongful conduct;
+
+18          i)      Whether Defendants knowingly omitted material representations with
+
+19                  respect to their data security and/or privacy policy practices; and
+20          j)      Whether Plaintiffs and Class Members are entitled to injunctive relief to
+21
+                    redress the imminent and currently ongoing harm faced as a result of the
+22
+                    Defendants’ disclosure of their Sensitive Information.
+23
+            108.   Typicality. Plaintiff’s claims are typical of those of other Class Members because
+24
+
+25   Plaintiff’s Sensitive Information, like that of every other Class Member, was compromised as a result
+
+26   of Defendants’ incorporation and use of the Tracking Tools.
+
+27          109.   Adequacy. Plaintiffs will fairly and adequately represent and protect the interests of
+28
+     the members of the Class in that Plaintiffs have no disabling conflicts of interest that would be
+
+                                                       31
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+              Case 2:25-cv-02211-TL        Document 22         Filed 01/30/26      Page 33 of 47
+
+
+     antagonistic to those of the other members of the Class. Plaintiffs seek no relief that is antagonistic or
+ 1
+
+ 2   adverse to the members of the Class and the infringement of the rights and the damages Plaintiffs have
+
+ 3   suffered are typical of other Class Members. Plaintiffs have also retained counsel experienced in
+
+ 4   complex class action litigation, and Plaintiffs intend to prosecute this action vigorously.
+ 5
+              110.   Predominance. Defendants have engaged in a common course of conduct toward
+ 6
+     Plaintiffs and Class Members in that all the Plaintiff’s and Class Members’ data was unlawfully stored
+ 7
+     and disclosed to unauthorized third parties, including Google, in the same way. The common issues
+ 8
+     arising from Defendants’ conduct affecting Class Members set out above predominate over any
+ 9
+
+10   individualized issues. Adjudication of these common issues in a single action has important and
+
+11   desirable advantages of judicial economy.
+12            111.   Superiority. A class action is superior to other available methods for the fair and
+13
+     efficient adjudication of the controversy. Class treatment of common questions of law and fact is
+14
+     superior to multiple individual actions or piecemeal litigation. Absent a class action, most Class
+15
+     Members would likely find that the cost of litigating their individual claim is prohibitively high and
+16
+
+17   would therefore have no effective remedy. The prosecution of separate actions by individual Class
+
+18   Members would create a risk of inconsistent or varying adjudications with respect to individual Class
+
+19   Members, which would establish incompatible standards of conduct for Defendants. In contrast, the
+20   conduct of this action as a class action presents far fewer management difficulties, conserves judicial
+21
+     resources and the parties’ resources, and protects the rights of each Class Member.
+22
+              112.   Defendants acted on grounds that apply generally to the Class as a whole so that class
+23
+     certification, injunctive relief, and corresponding declaratory relief are appropriate on a class-wide
+24
+
+25   basis.
+
+26            113.   Likewise, particular issues under Fed. R. Civ. P. 23(c)(4) are appropriate for
+
+27   certification because such claims present only particular, common issues, the resolution of which
+28
+
+
+                                                        32
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26      Page 34 of 47
+
+
+     would advance the disposition of this matter and the parties’ interests therein. Such particular issues
+ 1
+
+ 2   include, but are not limited to:
+
+ 3              a) Whether Defendants owed a legal duty to Plaintiffs and the Class to exercise
+
+ 4                  due care in collecting, storing, and safeguarding their Sensitive Information
+ 5
+                    and not disclosing it to unauthorized third parties;
+ 6
+                b) Whether Defendants breached a legal duty to Plaintiffs and Class Members
+ 7
+                    to exercise due care in collecting, storing, using, and safeguarding their
+ 8
+                    Sensitive Information;
+ 9
+
+10              c) Whether Defendants failed to comply with their own policies and applicable
+
+11                  laws, regulations, and industry standards relating to data security;
+12              d) Whether Defendants adequately and accurately informed Plaintiffs and
+13
+                    Class Members that their Sensitive Information would be disclosed to third
+14
+                    parties;
+15
+                e) Whether Defendants failed to implement and maintain reasonable security
+16
+
+17                  procedures and practices appropriate to the nature and scope of the
+
+18                  information disclosed to third parties; and
+
+19              f) Whether Class Members are entitled to actual, consequential, and/or
+20                  nominal damages and/or injunctive relief as a result of Defendants’
+21
+                    wrongful conduct.
+22
+            114.    Finally, all members of the proposed Class are readily ascertainable. Defendants have
+23
+     access to Class Members’ names and addresses affected by the unauthorized disclosures that have
+24
+
+25   taken place.
+
+26
+
+27
+
+28
+
+
+                                                       33
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL          Document 22      Filed 01/30/26      Page 35 of 47
+
+
+                                              COUNT I
+ 1
+                                          Invasion of Privacy
+ 2   (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Washington Subclass)
+ 3           115.    Plaintiffs repeat and reallege the allegations contained in paragraphs 1 through 114 as
+ 4
+     if fully set forth herein.
+ 5
+             116.    Plaintiffs and Class Members have an interest in: (1) precluding the dissemination
+ 6
+     and/or misuse of their highly personal and statutorily protected Sensitive Information; and (2) making
+ 7
+
+ 8   personal decisions and/or conducting personal activities without observation, intrusion or interference,
+
+ 9   including, but not limited to, the right to visit and interact with various internet sites without being
+
+10   subjected to the exfiltration and/or unauthorized sharing of their communications without Plaintiff’s
+11   and Class Members’ knowledge or consent.
+12
+             117.    Plaintiffs and Class Members had a reasonable expectation of privacy in their
+13
+     communications with Defendants via the Website and the communications platforms and services
+14
+     therein.
+15
+
+16           118.    Plaintiffs and Class Members communicated Sensitive Information that they intended
+
+17   for only Defendants to receive and that they understood Defendants would keep private and secure.
+
+18           119.    Defendants’ disclosure of the substance and nature of those communications to third
+19
+     parties without the knowledge and informed consent of Plaintiffs and Class Members is an intentional
+20
+     intrusion on Plaintiff’s and Class Members’ solitude or seclusion.
+21
+             120.    Plaintiffs and Class Members had a reasonable expectation of privacy given
+22
+     Defendants’ Notice of Privacy Practices and other representations.
+23
+
+24           121.    Moreover, Plaintiffs and Class Members have a general expectation that their
+
+25   communications regarding sensitive, highly personal information would be protected from
+26   surreptitious disclosure to third parties.
+27
+             122.    Defendants’ disclosure of Plaintiff’s and Class Members’ Sensitive Information
+28
+     coupled with individually identifying information is highly offensive to the reasonable person.
+
+                                                       34
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26         Page 36 of 47
+
+
+             123.    As a result of Defendants’ actions, Plaintiffs and Class Members have suffered harm
+ 1
+
+ 2   and injury including, but not limited to, an invasion of their privacy rights.
+
+ 3           124.    Plaintiffs and Class Members have been damaged as a direct and proximate result of
+
+ 4   Defendants’ invasion of their privacy and are entitled to compensatory and/or nominal damages.
+ 5
+             125.    Plaintiffs and Class Members seek appropriate relief for that injury including, but not
+ 6
+     limited to, damages that will reasonably compensate Plaintiffs and Class Members for the harm to
+ 7
+     their privacy interests as a result of the intrusions upon their privacy.
+ 8
+             126.    Plaintiffs and Class Members are also entitled to punitive damages resulting from the
+ 9
+
+10   malicious, willful and intentional nature of Defendants’ actions, directed at injuring Plaintiffs and
+
+11   Class Members in conscious disregard of their rights. Such damages are needed to deter Defendants
+12   from engaging in such conduct in the future.
+13
+             127.    Plaintiffs also seek such other relief as the Court may deem just and proper.
+14
+                                             COUNT III
+15                                            Negligence
+16   (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Washington Subclass)
+
+17           128.    Plaintiffs repeat and reallege the allegations contained in in paragraphs 1 through 127
+
+18   as if fully set forth herein.
+19
+             129.    Through their use of the Website, Plaintiffs and Class Members provided Defendants
+20
+     with their Sensitive Information, believing such Information would be kept confidential.
+21
+             130.    By collecting and storing this data, Defendants had a duty of care to use reasonable
+22
+     means to secure and safeguard it from unauthorized disclosure to third parties.
+23
+
+24           131.    Defendants negligently failed to take reasonable steps to protect Plaintiff’s and Class
+
+25   Members’ Sensitive Information from being disclosed to third parties, without their consent, including
+26   to Google.
+27
+             132.    Defendants further negligently omitted to inform Plaintiffs and the Class that it would
+28
+     use their Sensitive Information for marketing purposes, and/or that their Sensitive Information would
+
+                                                         35
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26      Page 37 of 47
+
+
+     be transmitted to third parties.
+ 1
+
+ 2           133.    Defendants knew, or reasonably should have known, that Plaintiffs and the Class would
+
+ 3   not have provided their Sensitive Information to Defendants had they known that Defendants intended
+
+ 4   to use that Information for unlawful purposes.
+ 5
+             134.    Defendants’ conduct has caused Plaintiffs and the Class to suffer damages by having
+ 6
+     their highly personal, personally identifiable Sensitive Information accessed, stored, and disseminated
+ 7
+     without their knowledge or consent.
+ 8
+             135.    Plaintiffs and Class Members are entitled to compensatory, nominal, and/or punitive
+ 9
+
+10   damages.
+
+11           136.    Defendants’ negligent conduct is ongoing, in that it still holds the Sensitive Information
+12   of Plaintiffs and Class Members in an unsafe and unsecure manner. Therefore, Plaintiffs and Class
+13
+     Members are also entitled to injunctive relief requiring Defendants to (i) strengthen its data security
+14
+     systems and monitoring procedures; (ii) submit to future annual audits of those systems and
+15
+     monitoring procedures; and (iii) provide adequate credit monitoring to all Class Members.
+16
+
+17                                           COUNT IV
+                                      Breach of Implied Contract
+18   (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Washington Subclass)
+19
+             137.    Plaintiffs repeat and reallege the allegations contained in paragraphs 1 through 136 as
+20
+     if fully set forth herein.
+21
+             138.    When Plaintiffs and Class Members provided their Sensitive Information to Defendants
+22
+     in exchange for medical products and services, they entered into an implied contract pursuant to which
+23
+
+24   Defendants agreed to safeguard and not disclose the Sensitive Information without consent.
+
+25           139.    Plaintiffs and Class Members accepted Defendants’ offers and provided their Sensitive
+26   Information to Defendants.
+27
+             140.    Plaintiffs and Class Members would not have entrusted Defendants with their Sensitive
+28
+     Information in the absence of an implied contract between them and Defendants obligating Defendants
+
+                                                        36
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26      Page 38 of 47
+
+
+     to not disclose Sensitive Information without consent.
+ 1
+
+ 2           141.    Defendants breached these implied contracts by disclosing Plaintiff’s and Class
+
+ 3   Members’ Sensitive Information to third parties like Google.
+
+ 4           142.    As a direct and proximate result of Defendants’ breaches of these implied contracts,
+ 5
+     Plaintiffs and Class Members sustained damages as alleged herein.
+ 6
+             143.    Plaintiffs and Class Members would not have used Defendants’ services, or would have
+ 7
+     paid substantially less for those services, had they known their Sensitive Information would be
+ 8
+     disclosed.
+ 9
+
+10           144.    Plaintiffs and Class Members are entitled to compensatory, consequential, and/or
+
+11   nominal damages as a result of Defendants’ breaches of implied contract.
+12                                            COUNT V
+13                                        Unjust Enrichment
+     (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Washington Subclass)
+14
+             145.    Plaintiffs repeat and reallege the allegations contained in paragraphs 1 through 144 as
+15
+
+16   if fully set forth herein.
+
+17           146.    Plaintiffs plead this claim in the alternative to their breach of implied contract claim.
+
+18           147.    Plaintiffs and Class Members conferred a monetary benefit on Defendants in exchange
+19
+     for healthcare services. Specifically, they provided their Sensitive Information to Defendants which
+20
+     Defendants then utilized for marketing and advertising purposes, as described, supra.
+21
+             148.    Defendants knew that Plaintiffs and Class Members conferred a benefit upon them,
+22
+     which Defendants accepted. Defendants profited from the Sensitive Information of Plaintiffs and Class
+23
+
+24   Members by exchanging it for marketing and advertising services.
+
+25           149.    In particular, Defendants enriched themselves by obtaining the inherent value of
+26   Plaintiff’s and Class Members’ Sensitive Information, and by saving the costs it reasonably should
+27
+     have expended on marketing and/or data security measures to secure Plaintiff’s and Class Members’
+28
+     Sensitive Information.
+
+                                                         37
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL         Document 22         Filed 01/30/26      Page 39 of 47
+
+
+             150.    Plaintiffs and Class Members, on the other hand, suffered as a direct and proximate
+ 1
+
+ 2   result of Defendants’ decision to prioritize its own profits over the privacy of its customers’ Sensitive
+
+ 3   Information.
+
+ 4           151.    Under the principles of equity and good conscience, Defendants should not be
+ 5
+     permitted to retain such benefits obtained by its surreptitious collection and transmission of Plaintiff’s
+ 6
+     and Class Members’ Sensitive Information.
+ 7
+             152.    If Plaintiffs and Class Members knew that Defendants had not reasonably secured their
+ 8
+     Sensitive Information, they would not have agreed to provide their Sensitive Information to
+ 9
+
+10   Defendants.
+
+11           153.    Plaintiffs and Class Members have no adequate remedy at law for this count. An unjust
+12   enrichment theory provides the equitable disgorgement of profits even where an individual has not
+13
+     suffered a corresponding loss in the form of money damages.
+14
+             154.    As a direct and proximate result of Defendants’ conduct, Plaintiffs and Class Members
+15
+     have suffered and will continue to suffer injury.
+16
+
+17           155.    Defendants should be compelled to disgorge into a common fund or constructive trust,
+
+18   for the benefit of Plaintiffs and Class Members, proceeds that they unjustly received from them, or to
+
+19   refund the amounts that Plaintiffs and Class Members overpaid for Defendants’ services.
+20                                           COUNT VI
+21   VIOLATIONS OF THE ELECTRONIC COMMUNICATIONS PRIVACY ACT (“ECPA”),
+                                      18 U.S.C. § 2511(1), et seq.
+22                          Unauthorized Interception, Use, and Disclosure
+23   (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Washington Subclass)
+
+24           156.    Plaintiffs repeat and reallege the allegations contained in the paragraphs 1 through 155
+25   as if fully set forth herein.
+26
+             157.    The ECPA protects both sending and receipt of communications.
+27
+
+28
+
+
+                                                         38
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22       Filed 01/30/26      Page 40 of 47
+
+
+            158.    18 U.S.C. § 2520(a) provides a private right of action to any person whose wire or
+ 1
+
+ 2   electronic communications are intercepted, disclosed, or intentionally used in violation of Chapter
+
+ 3   119.
+
+ 4          159.    The transmissions of Plaintiff’s Sensitive Information to the Website qualify as
+ 5
+     “communications” under the ECPA’s definition of 18 U.S.C. § 2510(12).
+ 6
+            160.    Electronic Communications. The transmission of Sensitive Information between
+ 7
+     Plaintiffs and Class Members and the Website with which they chose to exchange communications
+ 8
+     are “transfer[s] of signs, signals, writing,…data, [and] intelligence of [some] nature transmitted in
+ 9
+
+10   whole or in part by a wire, radio, electromagnetic, photoelectronic, or photooptical system that affects
+
+11   interstate commerce” and are therefore “electronic communications” within the meaning of 18 U.S.C.
+12   § 2510(2).
+13
+            161.    Content. The ECPA defines content, when used with respect to electronic
+14
+     communications, to “include[] any information concerning the substance, purport, or meaning of that
+15
+     communication.” 18 U.S.C. § 2510(8) (emphasis added).
+16
+
+17          162.    Interception. The ECPA defines the interception as the “acquisition of the contents of
+
+18   any wire, electronic, or oral communication through the use of any electronic, mechanical, or other
+
+19   device” and “contents … include any information concerning the substance, purport, or meaning of
+20   that communication.” 18 U.S.C. § 2510(4), (8).
+21
+            163.    Electronical, Mechanical or Other Device. The ECPA defines “electronic, mechanical,
+22
+     or other device” as “any device … which can be used to intercept a[n] … electronic communication[.]”
+23
+     18 U.S.C. § 2510(5). The following constitute “devices” within the meaning of 18 U.S.C. § 2510(5):
+24
+
+25          a.      Plaintiff’s and Class Members’ browsers;
+
+26
+            b.      Plaintiff’s and Class Members’ computing devices;
+27
+
+28          c.      Defendants’ web-servers; and
+
+
+                                                       39
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL         Document 22        Filed 01/30/26      Page 41 of 47
+
+
+            d.       The Pixel code deployed by Defendants to effectuate the sending and
+ 1
+
+ 2                   acquisition of customer communications.
+
+ 3
+            164.     By utilizing and embedding the Pixels on the Website, Defendants intentionally
+ 4
+     intercepted, endeavored to intercept, and procured another person to intercept, the electronic
+ 5
+     communications of Plaintiffs and Class Members, in violation of 18 U.S.C. § 2511(1)(a).
+ 6
+
+ 7          165.     Specifically, Defendants intercepted Plaintiff’s and Class Members’ electronic
+
+ 8   communications via the Pixels, which tracked, stored, and unlawfully disclosed Plaintiff’s and Class
+
+ 9   Members’ Private Information to third parties such as Google.
+10          166.     Defendants’ intercepted communications include, but are not limited to,
+11
+     communications to/from Plaintiffs and Class Members regarding their Sensitive Information,
+12
+     including the reasons for their appointment, the dates of their appointment, and the location of their
+13
+     appointment.
+14
+
+15          167.     By intentionally disclosing or endeavoring to disclose the electronic communications
+
+16   of Plaintiffs and Class Members to third parties, while knowing or having reason to know that such
+
+17   information was obtained through the interception of an electronic communication in violation of 18
+18
+     U.S.C. § 2511(1)(a), Defendants violated 18 U.S.C. § 2511(1)(c).
+19
+            168.     By intentionally using, or endeavoring to use, the contents of the electronic
+20
+     communications of Plaintiffs and Class Members, while knowing or having reason to know that the
+21
+     information was obtained through the interception of an electronic communication in violation of 18
+22
+
+23   U.S.C. § 2511(1)(a), Defendants violated 18 U.S.C. § 2511(1)(d).
+
+24          169.     Unauthorized Purpose. Defendants intentionally intercepted the contents of Plaintiff’s
+25   and Class Members’ electronic communications for the purpose of committing a tortious act in
+26
+     violation of the Constitution or laws of the United States or of any State—namely, invasion of privacy,
+27
+     among others.
+28
+
+
+                                                       40
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL            Document 22      Filed 01/30/26     Page 42 of 47
+
+
+            170.      The ECPA provides that a “party to the communication” may be liable where a
+ 1
+
+ 2   “communication is intercepted for the purpose of committing any criminal or tortious act in violation
+
+ 3   of the Constitution or laws of the United States or of any State.” 18 U.S.C § 2511(2)(d).
+
+ 4          171.      Defendants are not a party to the communication based on its unauthorized duplication
+ 5
+     and transmission of communications with Plaintiffs and the Class.           However, even assuming
+ 6
+     Defendants are a party, Defendants’ simultaneous, unknown duplication, forwarding, and interception
+ 7
+     of Plaintiff’s and Class Members’ Sensitive Information does not qualify for the party exemption.
+ 8
+            172.      Defendants’ acquisition of sensitive communications that was used and disclosed to
+ 9
+
+10   Google was done for purposes of committing criminal and tortious acts in violation of the laws of the
+
+11   United States and individual States nationwide as set forth herein, including:
+12          a.        Invasion of privacy;
+13
+            b.        Violations of the Washington Cannabis Patient Protection Act (“CPPA”), Wash. Rev.
+14
+                      Code Ann. § 69.69.51, et seq.; and
+15
+            c.        Violations of the Washington My Health My Data Act (“MHMDA”), Wash. Rev. Code
+16
+
+17                    Ann. § 19.373.005, et seq.,
+
+18          173.      Defendants’ conduct violated 42 U.S.C. § 1320d-6 in that it used and caused to be used
+
+19   cookie identifiers associated with specific users, including Plaintiffs and Class Members, without user
+20   authorization; and disclosed individually identifiable Sensitive Information to Google without user
+21
+     authorization.
+22
+            174.      Defendants is not exempt from ECPA liability under 18 U.S.C. § 2511(2)(d) on the
+23
+     ground that it was a participant in Plaintiff’s and Class Members’ communications about their
+24
+
+25   Sensitive Information on the Website, because it used its participation in these communications to
+
+26   improperly share Plaintiff’s and Class Members’ Private Information with Google and other third-
+
+27   parties that did not participate in these communications, that Plaintiffs and Class Members did not
+28
+
+
+                                                        41
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL          Document 22        Filed 01/30/26      Page 43 of 47
+
+
+     know were receiving their Sensitive Information, and that Plaintiffs and Class Members did not
+ 1
+
+ 2   consent to receive their Sensitive Information.
+
+ 3          175.    As such, Defendants cannot viably claim any exception to ECPA liability.
+
+ 4          176.    Plaintiffs and Class Members have suffered damages as a direct and proximate result
+ 5
+     of Defendants’ invasion of privacy in that:
+ 6
+            a.     Learning that Defendants have intruded upon, intercepted, transmitted, shared,
+ 7
+                   and used their Sensitive Information for commercial purposes has caused
+ 8
+                   Plaintiffs and Class Members to suffer emotional distress;
+ 9
+
+10          b.     Defendants received substantial financial benefits from their use of Plaintiff’s
+
+11                 and Class Members’ Sensitive Information without providing any value or
+12                 benefit to Plaintiffs or Class Members;
+13
+            c.     Defendants received substantial, quantifiable value from their use of Plaintiff’s
+14
+                   and Class Members’ Sensitive Information, such as understanding how people
+15
+                   use the Website and determining what ads people see on the Website, without
+16
+
+17                 providing any value or benefit to Plaintiffs or Class Members;
+
+18          d.     Defendants failed to provide Plaintiffs and Class Members with the full value
+
+19                 of the services for which they paid, which included a duty to maintain the
+20                 confidentiality of their Sensitive Information; and
+21
+            e.     The diminution in value of Plaintiff’s and Class Members’ Sensitive
+22
+                   Information and/or the loss of privacy due to Defendants making such Sensitive
+23
+                   Information, which Plaintiffs and Class Members intended to remain private, no
+24
+
+25                 longer private.
+
+26          177.    Defendants intentionally used the wire or electronic communications to increase their
+
+27   profit margins. Defendants specifically used the Tracking Tools to track and utilize Plaintiff’s and
+28
+     Class Members’ Sensitive Information for financial gain.
+
+                                                        42
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL         Document 22        Filed 01/30/26     Page 44 of 47
+
+
+             178.    Defendants were not acting under color of law to intercept Plaintiff’s and Class
+ 1
+
+ 2   Members’ wire or electronic communication.
+
+ 3           179.    Plaintiffs and Class Members did not authorize Defendants to acquire the content of
+
+ 4   their communications for purposes of invading their privacy via the Pixels.
+ 5
+             180.    Any purported consent that Defendants may claim they received from Plaintiffs and
+ 6
+     Class Members was not valid.
+ 7
+             181.    In sending and acquiring the content of Plaintiff’s and Class Members’
+ 8
+     communications relating to their use of the Website, Defendants’ purpose was tortious, criminal, and
+ 9
+
+10   designed to violate federal and state legal provisions including a knowing intrusion into a private,
+
+11   place, conversation, or matter that would be highly offensive to a reasonable person.
+12           182.    As a result of Defendants’ violation of the ECPA, Plaintiffs and the Class are entitled
+13
+     to all damages available under 18 U.S.C. § 2520, including statutory damages of whichever is the
+14
+     greater of $100 a day for each day of violation or $10,000, equitable or declaratory relief,
+15
+     compensatory and punitive damages, and attorney’s fees and costs.
+16
+
+17                                           COUNT VII
+       VIOLATIONS OF THE WASHINGTON CONSUMER PROTECTION ACT (“WCPA”)
+18                              Wash. Rev. Code Ann. § 19.86.010, et seq.
+19    (On Behalf of Plaintiffs and the Nationwide Class or, alternatively, the Washington Subclass)
+
+20           183.    Plaintiffs repeat and reallege the allegations contained in the paragraphs 1 through 182
+
+21   as if fully set forth herein.
+22           184.    The WCPA prohibits “unfair or deceptive acts or practices in the conduct of any trade
+23
+     or commerce[.]” Wash. Rev. Code Ann. § 19.86.020. The Washington legislature has instructed that
+24
+     the WCPA should be “liberally construed that its beneficial purposes may be served.” Wash. Rev.
+25
+     Code Ann. § 19.86.920.
+26
+
+27
+
+28
+
+
+                                                        43
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL            Document 22        Filed 01/30/26     Page 45 of 47
+
+
+            185.      Any violation of the Washington My Health My Data Act constitutes a violation of the
+ 1
+
+ 2   WCPA. Wash. Rev. Code Ann. § 19.373.090. As Defendants violated the MHMDA, as set forth
+
+ 3   above, they are also liable under the WCPA.
+
+ 4          186.      Defendants additionally violated the WCPA by:
+ 5
+                 i.   Falsely promising that it would keep confidential and not disclose Plaintiff’s and Class
+ 6
+                      Members’ Sensitive Information;
+ 7
+                ii.   Failing to inform Plaintiffs and Class Members that it would provide their Sensitive
+ 8
+                      Information to third parties in exchange for advertising and marketing services; and
+ 9
+
+10           iii.     Surreptitiously collecting and sharing Plaintiff’s and Class Members’ Sensitive
+
+11                    Information with third parties.
+12          187.      As a result of Defendants’ violations of the WCPA, Plaintiff I.T. and Washington
+13
+     Subclass Members suffered injury, including the diminished economic value of their Sensitive
+14
+     Information, as explained, supra.
+15
+            188.      Defendants’ violations of the WCPA were, and are, injurious to the public interest
+16
+
+17   because:
+
+18               i.   Defendants have repeatedly collected and shared the Sensitive Information of
+
+19                    thousands of individuals across, despite its representations to the contrary, and despite
+20                    the vulnerable nature of its clientele; and
+21
+                ii.   Defendants will continue to collect and disclose the Sensitive Information of all users
+22
+                      of its Website, absent court intervention.
+23
+            189.      As a result of Defendants’ violations of the WCPA, Plaintiffs and Class Members are
+24
+
+25   are entitled to all damages available under Wash. Rev. Code Ann. § 19.86.090. including actual
+
+26   damages, treble damages, equitable or declaratory relief, and attorney’s fees and costs.
+
+27
+
+28
+
+
+                                                          44
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+            Case 2:25-cv-02211-TL         Document 22        Filed 01/30/26      Page 46 of 47
+
+
+                                         PRAYER FOR RELIEF
+ 1
+
+ 2          WHEREFORE, Plaintiffs, on behalf of themselves and other Class Members, pray for
+
+ 3   judgment against Defendants as follows:
+
+ 4          A.     an Order certifying the Nationwide Class and Washington Subclass, and
+ 5
+                   appointing the Plaintiffs and their Counsel to represent the Classes;
+ 6
+            B.     equitable relief enjoining Defendants from engaging in the wrongful conduct
+ 7
+                   complained of herein pertaining to the misuse and/or disclosure of the
+ 8
+                   Sensitive Information of Plaintiffs and Class Members;
+ 9
+
+10          C.     injunctive relief requested by Plaintiffs, including, but not limited to,
+
+11                 injunctive and other equitable relief as is necessary to protect the interests of
+12                 Plaintiffs and Class Members;
+13
+            D.     an award of all damages available at equity or law, including, but not limited
+14
+                   to, actual, consequential, punitive, statutory and nominal damages, as allowed
+15
+                   by law in an amount to be determined;
+16
+
+17          E.     an award of attorney fees, costs, and litigation expenses, as allowed by law;
+
+18          F.     prejudgment interest on all amounts awarded and
+
+19          G.     all such other and further relief as this Court may deem just and proper.
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+
+                                                       45
+     AMENDED CLASS ACTION COMPLAINT
+     Case No. 2:25-cv-02211-TL
+             Case 2:25-cv-02211-TL            Document 22     Filed 01/30/26     Page 47 of 47
+
+
+
+ 1
+                                          DEMAND FOR JURY TRIAL
+ 2
+             Plaintiffs, on behalf of themselves and other members of the proposed Classes, hereby demand
+ 3
+
+ 4   a jury trial on all issues so triable.
+
+ 5
+     Dated: January 30, 2026                                Respectfully submitted,
+ 6
+                                                            /s/ Sonjay C. Singh
+ 7
+                                                            Sonjay C. Singh*
+ 8                                                          Tyler J. Bean*
+                                                            SIRI & GLIMSTAD LLP
+ 9                                                          745 Fifth Avenue, Suite 500
+                                                            New York, New York 10151
+10                                                          Tel: (212) 532-1091
+                                                            E: tbean@sirillp.com
+11
+                                                            E: ssingh@sirillp.com
+12
+                                                            M. Anderson Berry (WSBA No. 63160)
+13                                                          EMERY REDDY, PC
+                                                            600 Stewart Street, Suite 1100
+14                                                          Seattle, WA 98101
+                                                            916.823.6955 (Tel)
+15
+                                                            206.441.9711 (Fax)
+16                                                          anderson@emeryreddy.com
+
+17                                                          *pro hac vice admission forthcoming
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+
+                                                       0
+      AMENDED CLASS ACTION COMPLAINT
+      Case No. 2:25-cv-02211-TL
+
