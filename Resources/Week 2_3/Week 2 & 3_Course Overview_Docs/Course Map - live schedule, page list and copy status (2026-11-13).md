@@ -71,10 +71,11 @@ Every file is named "<page title> (Notion copy 2026-11-13).md" and starts with a
 | `Resources/Week_1/` | Challenge, Intro class materials, lecture notes, lecture transcript | 4 |
 | `Resources/Week 2_3/Course Pages (Notion copy 2026-11-13)/` | Week 2 challenge (with the Submission Template toggle), Week 2 Premium paper page, Product Specs Template, 5 deliverable templates (Market Research, Vision and Scope, Epics and Features, Pitch Deck, Backlog Kanban Board), class materials, lecture notes, Week 2 lecture transcript | 12 |
 | `.../Course Pages.../Morgan Hat Check/` | 15 pages of Morgan's Week 2 and 3 worked example ("Hat Check"), including Technical Requirements and Architecture and Build Plan | 15 |
-| `Resources/Week_4/` | Challenge, 7 templates, 2 How-To pages, class materials, lecture notes (2 copies), Recordings page, Morgan's Week 4 example (Vision, Scope, Epics, Architecture, ADRs 0001 to 0004) | 28 |
-| `Resources/Week_5/` | Challenge, CI/CD How-To, Test Case Scenario Template, class materials, lecture notes (2 copies), Morgan's Week 5 example and Test Case Scenarios | 8 |
+| `Resources/Week_4/` | Challenge, 7 templates, 2 How-To pages, class materials, lecture notes (1 copy), Recordings page, Morgan's Week 4 example (Vision, Scope, Epics, Architecture, ADRs 0001 to 0004) | 27 |
+| `Resources/Week_5/` | Challenge, CI/CD How-To, Test Case Scenario Template, class materials, lecture notes (1 copy), Morgan's Week 5 example and Test Case Scenarios | 7 |
 
 ### Known limits
+- **Duplicate lecture-notes copies removed (2026-11-13).** Notion held two near-identical copies of the Week 4 and of the Week 5 lecture notes. The second Week 4 copy differed only in its last line (a link). The second Week 5 copy differed only in its header and one link. One copy of each was kept.
 - **No transcripts for Weeks 4 and 5.** Both lecture-notes pages say "Add the transcript link here after class." The Week 1 and Week 2 transcripts exist.
 - **Accuracy.** The Week 1 and Week 2 transcripts were checked word for word against Notion on 2026-11-13: Week 2 has 16,865 words and 0 differences (checked by script); Week 1 has 8,016 words and 0 differences in the saved file (the check script flagged 6 slips, all in the checker's own retyped copy, none in the saved file). The Week 2 challenge file was also checked against the earlier master copy and matches. The other Weeks 1 to 3 files, including the lecture notes, were retyped from the connector text and were **not** checked word for word, so small slips are possible there.
 - **Not saved from Morgan's Week 2 and 3 example:** the Architecture Decision Records (ADR-0001 to 0039, too long to retype) and about 14 deeper sub-pages (for example Feature Comparison, Data Architecture, Security Resilience and Quality Gates, MVP #1 Requirements Handoff, Job Seeker Use Cases). Two inline databases (Backlog tasks, audit gaps) were not fetched.
@@ -82,3 +83,21 @@ Every file is named "<page title> (Notion copy 2026-11-13).md" and starts with a
 - Images, videos and files are marked "[image not saved]" or "[video/file not saved]".
 - The Week 4 and Week 5 pages link to the original Homework page, which the connector cannot open. These are internal links only.
 - Morgan's Week 5 test-case example contains an email address and the placeholder "PW" in a sample table, copied as written.
+
+## 6. Owner's progress and what to submit (as of 2026-11-13)
+
+The owner is on the Premium track: Weeks 2 to 5 apply to the caregiving coordinator app, not the ADHD example. The owner writes every "What I Did," "What I Learned," and one-page summary himself, without AI. Each submission is the link to that week's page, emailed to mdenner@techfleet.org. The owner's own page for each week lives in the Notion hub "Orlando - AI Residency Homework Submissions."
+
+| Course week | Challenge | Due | Owner's status | What to submit (word-for-word extract) |
+|---|---|---|---|---|
+| 1 | Github and Claude Code Skills | Oct 19 | Done, per the 2026-10-28 skill note and the Week 1 skills memory (not re-verified on 2026-11-13) | `reference/week-1-submit-checklist.md` |
+| 2 (Premium only) | Research Paper and Proposal | Oct 19 | A paper file exists (`docs/specialization-research-paper.md`); whether it was submitted is unconfirmed | `reference/week-2-premium-submit-checklist.md` |
+| 2 and 3 | Product Specifications | Nov 2 | In progress. Open: GitHub repo, build plan boxes 5 and 6, technical and user requirements, Notion Vision/Epics pages, pitch deck, one-page summary | `reference/week-2-3-submit-checklist.md` |
+| 4 | Code and Launch a Web App | Nov 16 | Not started; the build plan feeds it | `reference/week-4-submit-checklist.md` |
+| 5 | CI/CD Pipeline | Nov 23 | Not started | `reference/week-5-submit-checklist.md` |
+| 6 to 9 | PenTest, AI Chatbot, Integrate Apps, SEO/AEO | Nov 30 to Jan 5 | Not started; Notion copies exist; skill files are old text, not re-checked | none yet |
+
+### Where the owner's own work lives
+- Notion: "Orlando - AI Residency Homework Submissions" (one page per week), and the older hub "TechFleet: AI Residency Resource Hub" with the working pages and the Kanban board.
+- GitHub repository `LDoomD/AI-Development-Residency`, folder `caregiving-coordinator/docs/`.
+- FigJam board "Orlandos AI Dev Residency Work."
