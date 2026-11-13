@@ -2,6 +2,8 @@
 
 Replaces: `dogfood-2026-11-11-handoff-epics-features-tasks.md` (its next milestone, epics, features and tasks, is done, and so are the roadmap and the first backlog). Older reports stay replaced: `dogfood-2026-11-10-handoff-positioning-statements.md`, `dogfood-2026-11-10-handoff-vision-and-scope-part-3.md`.
 
+Replaced by: `dogfood-2026-11-12-handoff-build-plan-and-nfr.md`.
+
 > Paste to start: "Read this handoff report and the 5 records it lists in section 8. Confirm in a few lines where we are. Then ask me which Requirements step comes first (or the pitch deck, or the Notion product specs page), and wait. Keep replies short, plain, and one thing at a time. Suggest only verified data (Approved or Fact)."
 
 ## 0. Start here
