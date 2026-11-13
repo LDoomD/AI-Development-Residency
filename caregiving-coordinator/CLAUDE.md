@@ -167,6 +167,20 @@ checked documents, never from chat memory.
     which one and where it is. The owner doesn't carry every earlier line in
     mind. Name it the first time, then keep it short.
   - Short words, one idea per line, and a small table instead of a paragraph.
+- **Complete sentences with context, never shorthand (owner, 2026-11-13: "you
+  keep repeating this same problem over and over").** Every sentence must make
+  sense to someone who has not read the rest of the chat. Short means fewer
+  sentences, not clipped fragments.
+  - Never write a phrase that only makes sense if the owner remembers an earlier
+    line, such as "link it, don't move it," "those copies," "the Week 2 pages,"
+    "the hub," or a bare action word like "linked" or "synced."
+  - When proposing or reporting an action, say all three parts in plain
+    sentences: what I will do (or did), to which page or file (its name and where
+    it lives), and what is different afterwards.
+  - If a word could mean two things (for example "link" or "copy"), say which
+    one in the sentence.
+  - Test before sending: could the owner act on this line if it were the only
+    line he read?
 - **Questions get answers, not edits.** When the owner asks a question, answer
   it and stop. Change files only after a clear yes.
 - **Every research pass splits by audience.** Before any reading starts, the
