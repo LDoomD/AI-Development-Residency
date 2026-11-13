@@ -1,3 +1,7 @@
+> **Note 2026-11-13:** this log is the old 2026-10-28 snapshot. Its "Week" column uses the OLD numbers (old Week 3 = live Week 4, and so on). A fresh copy of the live Recordings page is saved at `Resources/Week_4/Fall 2026 - AI Dev Residency Recordings (Notion copy 2026-11-13).md` (49 lines; Google links were not followed).
+
+---
+
 | Week | Date | Meeting | What We Covered | Notes Doc | Recording |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 10/12 | Lecture - Introduction to the Class | Class basics; Defining AI dev; Agile philosophies; How the web works; How Claude Desktop works | [Notes](https://docs.google.com/document/d/1vIgpQQ_vyQ4bZhl5lJm7W34ER3pk9vRQ5uzKA5E0CcM/edit?tab=t.cnp80jpjv8zv) | [Recording](https://drive.google.com/file/u/1/d/1ar6RJ-aycwyTsqLbDDToEpN-juOkS8sq/view?usp=drive_web) |

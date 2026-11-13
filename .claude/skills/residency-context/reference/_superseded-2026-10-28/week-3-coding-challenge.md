@@ -1,3 +1,7 @@
+> **SUPERSEDED 2026-11-13.** Snapshot from 2026-10-28 that uses the OLD week numbers. Do not use it for current requirements or dates. Current version: reference/week-4.md (the live course calls this Week 4). See also `reference/course-map.md`.
+
+---
+
 # Week 3 Coding Challenge — Host a Web App for ADHD People to Budget
 
 ## How to Submit

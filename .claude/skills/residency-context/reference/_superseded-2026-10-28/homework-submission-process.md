@@ -1,3 +1,7 @@
+> **SUPERSEDED 2026-11-13.** Snapshot from 2026-10-28 that uses the OLD week numbers. Do not use it for current requirements or dates. Current version: reference/homework-index.md. See also `reference/course-map.md`.
+
+---
+
 ## Here are Morgan's Challenges So You Can See The Work
 
 Morgan's Coding Challenges (instructor's own worked examples, referenced on the Notion page but not individually copied here).

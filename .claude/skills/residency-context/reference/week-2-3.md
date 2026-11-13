@@ -1,22 +1,133 @@
-# Week 2 and 3 - Product Management - Weekly Class Materials
+# Weeks 2 and 3: Product Management (one assignment)
 
-## Contents
-- Overview
-- Objectives
-- Work You'll Do
-- Bonus Work
-- Estimated Workload
-- Class Lecture
-- Class Learning Materials
-- Examples
-- Homework (as written on this page — see flag below; this is a copy-paste artifact, not real Week 2 homework)
-- Week 2 Coding Challenge — Develop Product Specifications for the ADHD Budgeting App (How to Submit, What are we doing?, Summary, Standard Residency Objective, Premium Residency Objective, Basic Homework, Bonus Homework, Deliverables Templates, Tools, Requirements, To Submit)
+> **Current copy, 2026-11-13.** Built from the owner's fresh Notion copies of the live Tech Fleet pages (word for word). Live course week number: **2 and 3 (one block, Oct 19 to Oct 30)**. Due: Nov 2.
+> Full saved pages (lecture notes, templates, transcripts) are in `Resources/`; paths at the bottom.
+> Sources: `Resources/Week 2_3/Course Pages (Notion copy 2026-11-13)/`
+> The course has **no separate Week 3 challenge.** Premium residents also do the separate paper in `week-2-premium-specialization-paper.md`.
 
-## Overview
+---
 
-Week 2 focuses on product management: defining a product's strategy and release scope, understanding user needs, and organizing work through requirements and a backlog. Requirements are assumptions, so agile teams prioritize the most important work, deliver in small steps, and use feedback to refine their plans. The class explains how to translate a vision into epics, features, and tasks, then define clear acceptance criteria and build a roadmap. It also covers how teams collaborate across different roles and use methods such as Kanban and Scrum to manage delivery. The goal is to solve the right problem for users and keep adjusting the product as teams learn.
+## Coding challenge (includes the Submission Template toggle)
 
-## Objectives
+**Copy this page, and add your deliverables to the page:**
+Week 2 Coding Challenge - Product Specs Template
+
+# How to Submit
+
+Email your teacher the link to your Notion page that has your requirements specs to mdenner@techfleet.org
+
+# What are we doing?
+
+This week you are going to build the specifications for an **app that lets people with ADHD budget wisely and effectively.** You will write the requirements for this at a release level and get your backlog ready for development.
+
+# Summary
+
+Without instructions for delivery, your AI model will make things up and decide how to build the result on its own. You must direct it, and you must guide it in the problems being solved. This is where product management comes in: specifications for delivery show the goals, the problems, the scenarios, and the priorities so that builders (AI or human) can build properly. No one should ever be building an enterprise-level application without these specs. They risk everything if they do.
+
+# Standard Residency Objective
+
+Create the product specifications for a product that helps people with ADHD learn how to budget their money. Create your product specifications with Claude. Use the Tech Fleet Figjam templates for structured documentation requirements. Produce the results in Notion documents.
+
+# Premium Residency Objective
+
+You are not building an app for people with ADHD to budget, you are building the app you chose based on your specialization. Build the product specifications using the same tools.
+
+# BASIC HOMEWORK
+
+1. Vision
+2. Scope
+3. Epics, features, tasks
+4. Build plan
+5. Non-functional requirements
+6. Technical requirements
+7. User requirements
+8. Backlog
+
+# BONUS HOMEWORK
+
+1. Market analysis
+2. Competitor analysis
+3. Feature analysis
+4. Positioning
+5. Audience Segmentation
+6. Vision
+7. Scope
+8. Epics/features/tasks
+9. Build plan
+10. Non-functional requirements
+11. Technical requirements
+12. User requirements
+13. Backlog
+14. Pitch deck
+15. Prototypes
+
+# Deliverables Templates
+
+Go to these links to get the templates to use with Claude
+
+1. [Audience segmentation, Business Goals, Use Cases](/p/5781a3bddce583369e990124c99a0c3a?pvs=25)
+2. [Market Analysis, Competitive Analysis, Feature Analysis, Unique Positioning](/p/db09219a469183cd8856014ce24ba66b?pvs=25)
+3. [Release vision and scope](/p/5499219a469183c69d09811e54c7b9b3?pvs=25)
+4. [Epics, Features, and Tasks Definition](/p/d659219a469182b1b3fb8125a53b4119?pvs=25)
+5. [Notion Kanban Board](/p/bcd9219a469182d6ad29017af7ceadc4?pvs=25)
+6. [Pitch deck showcasing your product requirements](/p/e749219a46918274b02b81e96ab90bd0?pvs=25)
+
+# Tools
+
+1. Notion
+2. Figjam
+
+# Requirements
+
+These instructions are vague on purpose. You should work with Claude AND Fleety the Tech Fleet Helper Bot to learn what’s included in these deliverables, and have Claude generate them for you. Use the templates that I provided in this document above (They are open source templates that Tech Fleet has built for these deliverables)
+
+1. Create audience segmentation, motivation, goals, use cases
+2. Create market analysis, competitor analysis, feature analysis, unique value proposition, and positioning statements.
+3. Create release-level vision and scope for MVP #1 and MMP
+4. Document the epics, features, and tasks for MVP #1
+5. Create a new Github repository called “Week 3 - ADHD Budgeting App” under your own Github account. But DO NOT put any code in it yet. Make it public. This is the repo we will merge code into in the following weeks.
+6. Create a build plan that assumes you are going to make a three-tier network architecture with stored data. Document the details of the following with Claude
+
+   1. Plan to use Vercel to host
+   2. Plan to use Supabase for the database
+   3. Plan to use Github for coding repo
+   4. Plan to have user accounts in your app, so you need to secure user data
+7. Build your backlog with tasks using the Notion template I provided. Populate your tasks from the epics / features / tasks list.
+8. Create a pitch deck summarizing all of this
+9. Write a one page summary **(NOT USING AI)** of what you did and what you learned when you submit the work to me.
+
+# To Submit
+
+1. Email me mdenner@techfleet.org
+2. Use the submission template and send it to me when you submit:
+
+### Expand for Submission Template
+
+# Links
+
+1. Drop the links to your product requirements deliverables (however you produced them: in Notion, in Figjam, whatever suits you best)
+2. Drop the link to the empty repository you made in Github
+
+# What You Did
+
+Write what you did in no less than 2 paragraphs. Provide full technical detail so that anyone reading it can understand what exactly you did. DO NOT use AI for this! I will check!
+
+# What You Learned
+
+Write what you learned in no less than 2 paragraphs. Describe the full details of what you learned, what you will do differently next time, and how the lessons from this exercise will help you in project team work in the future. DO NOT use AI for this! I will check!
+
+(end of toggle)
+
+
+---
+
+## Weekly class materials
+
+# Overview
+
+Week 2 focuses on product management: defining a product’s strategy and release scope, understanding user needs, and organizing work through requirements and a backlog. Requirements are assumptions, so agile teams prioritize the most important work, deliver in small steps, and use feedback to refine their plans. The class explains how to translate a vision into epics, features, and tasks, then define clear acceptance criteria and build a roadmap. It also covers how teams collaborate across different roles and use methods such as Kanban and Scrum to manage delivery. The goal is to solve the right problem for users and keep adjusting the product as teams learn.
+
+# Objectives
 
 1. Explain how product strategy connects a release vision to user needs, business goals, scope, and success measures.
 2. Describe how agile teams treat requirements as assumptions, gather the most important ones first, and refine them through continuous delivery and feedback.
@@ -24,121 +135,75 @@ Week 2 focuses on product management: defining a product's strategy and release 
 4. Define clear, testable task requirements using user stories, acceptance criteria, use cases, task flows, and BDD scenarios.
 5. Describe how team roles and methods such as Kanban and Scrum support collaboration and iterative product delivery.
 
-## Work You'll Do
+# Work You’ll Do
 
-1. Develop product specifications for the ADHD budgeting app (or your specialization): MVP Vision, MVP Scope, Epics and features, Build plan, Technical requirements, Backlog with tickets covering the epics/features/tasks
+1. Develop product specifications for the ADHD budgeting app (or your specialization):
+   1. MVP Vision
+   2. MVP Scope
+   3. Epics and features
+   4. Build plan
+   5. Technical requirements
+   6. Backlog with tickets that cover the epics, features, and tasks
 2. Create an empty public GitHub repository for the application
 
-## Bonus Work
+# Bonus Work
 
-Market analysis, Competitor analysis, Feature analysis, Product Positioning, Audience Segmentation, Task Flows, Prototypes
+1. Produce extra product requirements for your app:
+   1. Audience Segmentation
+   2. Market Analysis
+   3. Competitor Analysis
+   4. Feature Analysis
+   5. Product Positioning
+   6. Task Flows
+   7. Prototypes
 
-## Estimated Workload
+# Estimated Workload
 
-5 hrs in class; core homework 3 hrs; bonus homework 5 hrs.
+1. 5 hours in class
+2. Core homework
+   1. 3 hours in homework
+3. Bonus homework
+   1. 5 hours in homework
 
-## Class Lecture
+# Class Lecture
 
-Text Lecture Content, FigJam Lecture Content, Lecture Recording, Lecture Transcript, Lecture Slides.
+1. [Text Lecture Content](/p/bdd9219a4691829c8e3681cbd6592e40?pvs=25)
+2. [FigJam Lecture Content](https://www.figma.com/board/mqryoCyR9mAw3v6kyDlmes/Fall-2026-AI-Development-Residency---Class-Lecture-an-Working-Sessions?node-id=0-1&t=schKQz68XTDXlu9b-1)
+3. [Lecture Recording](/p/05c9219a4691824ea94201ea2c5eba3b?pvs=25)
+4. [Lecture Transcript](/p/bdd9219a4691829c8e3681cbd6592e40?pvs=25)
+5. [Lecture Slides](https://notebook.google.com/notebook/faa6414c-3395-4831-ba43-15ccc02da3ab/artifact/58edb07c-7c69-4fd8-a5c7-0ec80271cb65?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_)
 
-## Class Learning Materials
+# Class Learning Materials
 
-Gemini Notebook, Week 2 Podcast, Week 2 quiz, Week 2 flash cards.
+1. [Gemini Notebook](https://notebook.google.com/notebook/faa6414c-3395-4831-ba43-15ccc02da3ab?authuser=1)
+2. Week 2 Podcast
+3. [Week 2 quiz](https://notebook.google.com/notebook/faa6414c-3395-4831-ba43-15ccc02da3ab/artifact/dd2d9728-fde5-4813-99ac-431d38d3fdd5?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_)
+4. [Week 2 flash cards](https://notebook.google.com/notebook/faa6414c-3395-4831-ba43-15ccc02da3ab/artifact/2a4a1154-697d-4482-9e72-fb3f99bba3eb?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_)
 
-## Examples
+# Examples
 
-Morgan's Product Requirements produced in FigJam.
+1. [Morgan’s Product Requirements produced in FigJam](https://www.figma.com/board/mqryoCyR9mAw3v6kyDlmes/Fall-2026-AI-Development-Residency---Class-Lecture-an-Working-Sessions?node-id=556-11655&t=schKQz68XTDXlu9b-1)
 
-## Homework (as written on this page — see flag below)
+# Homework
 
-### Instructions
+## Instructions
 
 1. Week 1 Coding Challenge - Github and Claude Code Skills Development
 
-### What Does Good Homework Look Like?
+## What Does Good Homework Look Like?
 
 1. The GitHub repository contains three skill files, focused on topics such as user experience, accessibility, security, or whatever the student chooses for important topics for enterprise development.
-2. The skills have been dropped into the proper place on the student's computer where Claude can use them.
+2. The skills have been dropped into the proper place on the student’s computer where Claude can use them.
 3. Claude can use the skills in a new Claude session, and the student has checked that they load.
-4. The skill files and completed submission template are in the repository's Week 1 folder.
+4. The skill files and completed submission template are in the repository’s **Week 1** folder.
 5. The student has written the required one-page submission summary about what they did and learned, without using AI.
 6. The student has emailed the instructor the repository link.
 
-> **Flag, not silently fixed:** this "Homework" block at the bottom of the Week 2&3 weekly-materials page is word-for-word identical to Week 1's homework block — same "Instructions" link to the Week 1 Coding Challenge, same "Week 1 folder" reference, same checklist. This looks like a copy-paste artifact in the source (the instructor likely duplicated Week 1's page as a template and didn't update this section), not a real second Week-1-style assignment for Week 2. The actual Week 2 homework is the separate "Week 2 Coding Challenge — Develop Product Specifications" content below, which has its own distinct instructions. Preserved verbatim here for completeness/audit — don't treat it as real Week 2 homework.
 
 ---
 
-# Week 2 Coding Challenge — Develop Product Specifications for the ADHD Budgeting App
-
-Copy this page and add your deliverables to it (links to a Notion Kanban Board template — not accessible even via browser guest access).
-
-## How to Submit
-
-Email the teacher the link to your Notion page with your requirements specs: mdenner@techfleet.org
-
-## What are we doing?
-
-Build the specifications for an app that lets people with ADHD budget wisely and effectively — requirements at a release level, backlog ready for development.
-
-## Summary
-
-Without instructions for delivery, your AI model will make things up and decide how to build the result on its own. You must direct it, and guide it in the problems being solved. Specifications for delivery show the goals, problems, scenarios, and priorities so that builders (AI or human) can build properly. No one should ever be building an enterprise-level application without these specs.
-
-## Standard Residency Objective
-
-Create product specs for a product that helps people with ADHD budget. Use Claude + Tech Fleet Figjam templates. Produce results in Notion documents.
-
-## Premium Residency Objective
-
-**You are not building an app for people with ADHD to budget — you are building the app you chose based on your specialization.** Build the product specifications using the same tools.
-
-## Basic Homework
-
-Vision, Scope, Epics/features/tasks, Build plan, Non-functional requirements, Technical requirements, User requirements, Backlog
-
-## Bonus Homework
-
-Market analysis, Competitor analysis, Feature analysis, Positioning, Audience Segmentation, Vision, Scope, Epics/features/tasks, Build plan, Non-functional requirements, Technical requirements, User requirements, Backlog, Pitch deck, Prototypes
-
-## Deliverables Templates
-
-*(titles only — linked pages are in the instructor's master workspace, not individually accessible)*
-
-1. Audience segmentation, Business Goals, Use Cases
-2. Market Analysis, Competitive Analysis, Feature Analysis, Unique Positioning
-3. Release vision and scope
-4. Epics, Features, and Tasks Definition
-5. Notion Kanban Board
-6. Pitch deck showcasing your product requirements
-
-## Tools
-
-Notion, Figjam
-
-## Requirements
-
-Instructions are vague on purpose — work with Claude and Fleety (Tech Fleet Helper Bot) to learn what's included in these deliverables.
-
-1. Create audience segmentation, motivation, goals, use cases
-2. Create market analysis, competitor analysis, feature analysis, unique value proposition, positioning statements
-3. Create release-level vision and scope for MVP #1 and MMP
-4. Document the epics, features, and tasks for MVP #1
-5. Create a new public Github repository called "Week 3 - ADHD Budgeting App" under your own account — **no code yet**, this is the repo code merges into in following weeks
-6. Create a build plan assuming a three-tier network architecture with stored data: plan to use Vercel to host, Supabase for the database, Github for the repo, and secure user data (user accounts planned)
-7. Build your backlog with tasks using the Notion template provided
-8. Create a pitch deck summarizing all of this
-9. Write a one page summary (NOT USING AI) of what you did and learned
-
-## To Submit
-
-Email mdenner@techfleet.org with the submission template filled out.
-
-### Submission Template
-
-**Links:** product requirements deliverables + the empty Github repo link.
-**What You Did:** 2+ paragraphs, full technical detail, NOT using AI.
-**What You Learned:** 2+ paragraphs — what you'll do differently next time, how it helps future team work, NOT using AI.
-
----
-
-**Sources:** https://app.notion.com/p/4689219a469182d7aa6f0144146b1e79 (weekly materials); https://app.notion.com/p/4069219a469180269b11dbba1ae2555e (coding challenge). **Copied verbatim:** 2026-10-28.
+## Full saved files (all in `Resources/Week 2_3/Course Pages (Notion copy 2026-11-13)/`)
+- Lecture notes and the Week 2 lecture transcript (transcript checked word for word 2026-11-13)
+- Templates: Market Research, Product Release Vision and Scope, Epics and Features, Backlog Kanban Board, Product Specs Template, Product Pitch Deck
+- `Morgan Hat Check/`: Morgan's worked example (15 pages; not complete, see `reference/course-map.md`)
+- Not readable: the Audience segmentation / Business Goals / Use Cases template (link returned not found)
