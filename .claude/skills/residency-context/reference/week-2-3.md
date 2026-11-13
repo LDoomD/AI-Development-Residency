@@ -7,6 +7,43 @@
 
 ---
 
+## Table of contents (line numbers are for this file)
+
+**Reading rule:** read this whole file, top to bottom, before answering any question about this week. This list only shows what is in the file. Never use it to skip a section.
+
+  - line 47: Coding challenge (includes the Submission Template toggle)
+- line 52: How to Submit
+- line 56: What are we doing?
+- line 60: Summary
+- line 64: Standard Residency Objective
+- line 68: Premium Residency Objective
+- line 72: BASIC HOMEWORK
+- line 83: BONUS HOMEWORK
+- line 101: Deliverables Templates
+- line 112: Tools
+- line 117: Requirements
+- line 136: To Submit
+    - line 141: Expand for Submission Template
+- line 143: Links
+- line 148: What You Did
+- line 152: What You Learned
+  - line 161: Weekly class materials
+- line 163: Overview
+- line 167: Objectives
+- line 175: Work You’ll Do
+- line 186: Bonus Work
+- line 197: Estimated Workload
+- line 205: Class Lecture
+- line 213: Class Learning Materials
+- line 220: Examples
+- line 224: Homework
+  - line 226: Instructions
+  - line 230: What Does Good Homework Look Like?
+  - line 242: Full saved files (all in `Resources/Week 2_3/Course Pages (Notion copy 2026-11-13)/`)
+
+---
+
+
 ## Coding challenge (includes the Submission Template toggle)
 
 **Copy this page, and add your deliverables to the page:**

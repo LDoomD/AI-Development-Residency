@@ -6,6 +6,40 @@
 
 ---
 
+## Table of contents (line numbers are for this file)
+
+**Reading rule:** read this whole file, top to bottom, before answering any question about this week. This list only shows what is in the file. Never use it to skip a section.
+
+  - line 43: Coding challenge
+- line 45: How to Submit
+- line 53: Links
+- line 58: Documents
+- line 63: What I Did
+- line 67: What I Learned
+- line 75: Summary
+- line 79: Objective
+- line 83: Tools
+- line 88: Requirements
+- line 111: To Setup Claude Desktop
+- line 119: To Setup Your Github Repository
+- line 140: What Does Good Homework Look Like?
+  - line 152: Weekly class materials
+- line 154: Overview
+- line 158: Objectives
+- line 170: Work You’ll Do
+- line 175: Bonus Work
+- line 179: Estimated Workload
+- line 184: Class Lecture
+- line 192: Class Learning Materials
+- line 199: Examples
+- line 203: Homework
+  - line 205: Instructions
+  - line 209: What Does Good Homework Look Like?
+  - line 221: Full saved files
+
+---
+
+
 ## Coding challenge
 
 # How to Submit

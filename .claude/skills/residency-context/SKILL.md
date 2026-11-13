@@ -25,9 +25,17 @@ Morgan reorganized the course. Weeks 2 and 3 became one block, and everything af
 
 There is **no separate Week 3 challenge.** Week of Nov 23 is a holiday (no class). Weeks 10 to 17 (Jan 5 to Feb 28) are team work.
 
-## Rule: always read the file, never answer from memory of a prior turn
+## Reading rule: read all of it, then show your work (owner's accuracy requirement, 2026-11-13)
 
-Before stating any residency requirement, deadline, deliverable, or policy, **read the relevant file in `reference/`**. Do not answer from what you recall saying earlier in the conversation. Files marked "Current copy" were built word for word from the live pages on 2026-11-13. Files marked "Renumbered ... NOT yet re-checked" come from the old snapshot: say so when you quote them.
+The owner needs every detail right. These steps apply to every question about a week:
+1. Read `reference/course-map.md` first.
+2. Read the ENTIRE week file for that week, from its first line to its last. Each current week file starts with a table of contents. It only shows what is in the file. Never use it to skip a section.
+3. For "what do I build and what do I submit?", read `reference/week-N-submit-checklist.md` first. It is a word-for-word extract made by script, so nothing in it is rewritten. If the question touches anything else (objectives, tools, how-tos, class materials, lecture content), also read the full week file.
+4. For questions about what was said in a lecture, read the whole lecture-notes or transcript file in `Resources/` (large: about 25,000 tokens each). Do not guess from the week file.
+5. End every answer about the course with one line: "Read: <file names>. Requirements used: <their numbers>." so the owner can see what was and was not read.
+6. If a week file says "NOT yet re-checked," say so before quoting it, and offer to re-copy the live page.
+7. The copy date is in each file's header. The live Tech Fleet page is the source of truth; say so if a copy might be out of date.
+Never answer from memory of an earlier turn.
 
 ## Files in `reference/`
 
@@ -40,6 +48,7 @@ Current (rebuilt 2026-11-13 from fresh copies of the live pages):
 - `week-2-premium-specialization-paper.md` - the separate, **Premium-only** research paper and proposal (due Oct 19). Standard residents skip it.
 - `week-4.md` - Code and Launch a Web App challenge + weekly class materials (build the whole MVP #1; Premium builds their own app).
 - `week-5.md` - CI/CD Pipeline challenge + weekly class materials (Premium applies it to their own app).
+- `week-1-submit-checklist.md`, `week-2-3-submit-checklist.md`, `week-2-premium-submit-checklist.md`, `week-4-submit-checklist.md`, `week-5-submit-checklist.md` - word-for-word extracts of each challenge page's objectives, homework, requirements, deliverables and submission steps. A shortcut for "what do I submit?"; the full week file is still required for anything else.
 
 Renumbered from the old snapshot, NOT yet re-checked against the live pages (fresh Notion copies exist but are not saved to `Resources/` yet):
 - `week-6.md` (PenTest), `week-7.md` (AI chatbot), `week-8.md` (Integrate Apps), `week-9.md` (SEO and AEO).
@@ -54,8 +63,19 @@ Old originals: `reference/_superseded-2026-10-28/` (each has a SUPERSEDED banner
 ## Full copies outside this skill (`Resources/` folder, one level above the repo)
 
 Lecture notes, transcripts, templates, How-To pages and Morgan's worked examples are saved word for word in:
-- `Resources/Week_1/`, `Resources/Week 2_3/Course Pages (Notion copy 2026-11-13)/` (with `Morgan Hat Check/`), `Resources/Week_4/`, `Resources/Week_5/`, `Resources/Course Hub (Notion copy 2026-11-13)/`.
+- `Resources/Week_1/`, `Resources/Week 2_3/Course Pages (Notion copy 2026-11-13)/` (with `Morgan Hat Check/`), `Resources/Week_4/`, `Resources/Week_5/`, `Resources/Course Hub (Notion copy 2026-11-13)/`. One copy of each lecture-notes page is kept (near-identical duplicates were removed 2026-11-13).
 Weeks 6 to 9 are not saved there yet. Read them from the Notion copies when needed (see below).
+
+## Guiding the owner through the course (so he can finish it)
+
+The owner has ADHD, is on the Premium track (his own app, the caregiving coordinator), and writes his own summaries.
+- At the start of any session where he works on the course, say in complete sentences which course week he is on, its due date, what he must submit (from the checklist file), and what is still open (from `course-map.md`, section 6). Do not start the next step on your own.
+- When he starts a new week: read that week's full file, then create that week's page inside his Notion hub "Orlando - AI Residency Homework Submissions" (Notion page id `4179219a-4691-8176-8eb1-cf901f72e045`). Use the same layout as the page "Week 2 and 3 - Product Specifications" (id `4179219a-4691-8157-976e-dbc20a0a829f`): the Submission Template as toggles, one section per deliverable with its status, and the how-to-submit steps. Fill in facts only.
+- Never write his "What I Did," "What I Learned," or one-page summary. They must be his own words, without AI. The course says the instructor checks.
+- Before he submits a week: go through that week's "Before You Submit, Check These" list with him, confirm the instructor can open the Notion page (sharing was not set up as of 2026-11-13), and remind him to email the link(s) to mdenner@techfleet.org. From Week 4 on, the submission file goes in the repository as `Week N Coding Challenge/SUBMISSION.md` and the pull request is merged.
+- Premium: Weeks 2 to 5 apply to his own app, not the ADHD example. Week 7 is the same for everyone.
+- Questions only the instructor can answer (the Week 7 row label, whether the submission platform works) are for the owner to raise; do not guess.
+- When the Tech Fleet pages change: re-copy them (see "Keeping this in sync") and update the course map first.
 
 ## Cross-week pattern: Premium vs Standard
 

@@ -7,6 +7,46 @@
 
 ---
 
+## Table of contents (line numbers are for this file)
+
+**Reading rule:** read this whole file, top to bottom, before answering any question about this week. This list only shows what is in the file. Never use it to skip a section.
+
+  - line 50: Coding challenge
+- line 52: How to Submit
+- line 58: What are we doing?
+- line 62: Summary
+- line 66: Standard Residency Objective
+- line 70: Premium Residency Objective
+- line 74: Before You Start
+- line 81: BASIC HOMEWORK
+- line 92: Deliverables Templates
+- line 96: Tools
+- line 102: How To's
+- line 106: Deliverables
+- line 112: Requirements
+- line 123: Lecture Resources
+- line 133: To Submit
+    - line 145: Links
+    - line 151: Documents
+    - line 156: What I Did
+    - line 160: What I Learned
+- line 164: Before You Submit, Check These
+- line 173: Getting Help
+  - line 182: Weekly class materials
+- line 184: Overview
+- line 188: Objectives
+- line 196: Work You'll Do
+- line 205: Estimated Workload
+- line 211: Class Lecture
+- line 219: Class Learning Materials
+- line 226: Examples
+- line 230: Homework
+  - line 234: What Does Good Homework Look Like?
+  - line 245: Full saved files (all in `Resources/Week_5/`)
+
+---
+
+
 ## Coding challenge
 
 # How to Submit
