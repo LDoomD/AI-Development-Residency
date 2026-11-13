@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → Build plan (fixes, boxes 5 and 6, one PR), then the rest of Week 2 homework (2026-11-13)
 
+Replaced by: `dogfood-2026-11-13-handoff-homework-hub-and-build-plan.md` (2026-11-13, evening).
+
 Replaces: `dogfood-2026-11-12-handoff-build-plan-fixes-and-week-2-status.md` (2026-11-12, night). Everything there still holds except what sections 2 and 3 below correct. Older reports stay replaced: `dogfood-2026-11-12-handoff-build-plan-week-4-fixes.md`, `dogfood-2026-11-12-handoff-build-plan-and-nfr.md`, `dogfood-2026-11-11-handoff-requirements.md` and earlier.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few lines where we are. Then show me the build plan fixes and gaps in section 2 as two short tables, and wait for my yes before changing anything. Keep replies short, one thing at a time. Suggest only verified data (Approved or Fact). Ask before using Firecrawl, the browser pane or Chrome."

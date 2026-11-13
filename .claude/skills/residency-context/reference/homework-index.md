@@ -4,6 +4,21 @@
 
 ---
 
+## Table of contents (line numbers are for this file)
+
+**Reading rule:** read this whole file, top to bottom, before answering any question about this week. This list only shows what is in the file. Never use it to skip a section.
+
+  - line 22: Here are Morgan's Challenges So You can See The Work
+  - line 26: Copy This Page
+  - line 30: Submission Guidelines
+    - line 34: Instructions to Upload Homework on Github
+  - line 47: How to Submit
+  - line 51: Submission Template (generic, toggle)
+  - line 67: Coding Challenges (table as of 2026-11-13)
+
+---
+
+
 ## Here are Morgan's Challenges So You can See The Work
 
 Morgan's Coding Challenges (the instructor's worked examples). Saved under `Resources/Week 2_3/.../Morgan Hat Check/`, `Resources/Week_4/` and `Resources/Week_5/`.

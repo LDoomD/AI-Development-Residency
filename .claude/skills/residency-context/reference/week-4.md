@@ -7,6 +7,47 @@
 
 ---
 
+## Table of contents (line numbers are for this file)
+
+**Reading rule:** read this whole file, top to bottom, before answering any question about this week. This list only shows what is in the file. Never use it to skip a section.
+
+  - line 51: Coding challenge
+  - line 55: Video: Code and Launch
+  - line 58: How to Submit
+  - line 63: What are we doing?
+  - line 66: Summary
+  - line 69: Standard Residency Objective
+  - line 72: Premium Residency Objective
+  - line 75: Before You Start
+  - line 81: BASIC HOMEWORK
+  - line 100: ADVANCED HOMEWORK
+  - line 110: Deliverables Templates
+  - line 121: Tools
+  - line 129: How To's
+  - line 134: Deliverables
+  - line 140: Requirements
+  - line 154: Lecture Resources
+  - line 164: To Submit
+    - line 174: Expand for Submission Template (toggle)
+  - line 191: Before You Submit, Check These
+  - line 199: Getting Help
+  - line 207: Weekly class materials
+- line 209: Overview
+- line 213: Objectives
+- line 221: Work You’ll Do
+- line 232: Bonus Work
+- line 240: Estimated Workload
+- line 248: Class Lecture
+- line 256: Class Learning Materials
+- line 263: Examples
+- line 267: Homework
+  - line 269: Instructions
+  - line 273: What Does Good Homework Look Like?
+  - line 286: Full saved files (all in `Resources/Week_4/`)
+
+---
+
+
 ## Coding challenge
 
 **Copy this page, and add your deliverables to the page:** Week 4 Coding Challenge - Build and Launch Templates (sub-page)

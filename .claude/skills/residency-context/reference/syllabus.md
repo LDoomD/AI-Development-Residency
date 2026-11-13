@@ -2,6 +2,49 @@
 
 ---
 
+## Table of contents (line numbers are for this file)
+
+**Reading rule:** read this whole file, top to bottom, before answering any question about this week. This list only shows what is in the file. Never use it to skip a section.
+
+- line 50: Sign Up
+- line 54: Video Overview
+- line 58: Student Space
+- line 62: Recordings
+- line 66: Residency Team Project Training Signup
+- line 70: Class Timeframe and Time Commitments
+- line 80: Audiences
+- line 87: Experience Requirements
+- line 91: Overview
+- line 101: Why Take This Training?
+- line 110: Weekly Schedule and Dates
+- line 116: Reading Assignments
+- line 120: Homework
+- line 124: Class Tools
+- line 126: Premium or Standard Versions of This Residency
+  - line 132: Pricing
+- line 139: Training Curriculum
+  - line 155: Weeks 1 - 8: Instructor Training
+    - line 157: Training Overview
+    - line 163: Premium Residency Specialized Projects
+  - line 181: Weeks 9 - 16: Team-Based AI Development Training
+- line 191: Skills Taught in This Class
+  - line 193: Skills
+  - line 220: Practices
+- line 227: Tools Used in the Class
+  - line 231: Coding Tools
+  - line 236: Project Management Tools
+  - line 240: Web Development Tools
+  - line 246: Information Security Tools
+  - line 252: Integration tools
+  - line 258: SEO and AEO tools
+- line 267: Learning Outcomes
+- line 278: Recommended Prior Training
+- line 286: Instructor
+- line 292: Class Tools
+
+---
+
+
 **Fall / Winter 2026 Residency starts on Oct 12, 2026 and ends Feb 28, 2027**
 
 # Sign Up

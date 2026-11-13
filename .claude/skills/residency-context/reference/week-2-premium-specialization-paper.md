@@ -7,6 +7,20 @@
 
 ---
 
+## Table of contents (line numbers are for this file)
+
+**Reading rule:** read this whole file, top to bottom, before answering any question about this week. This list only shows what is in the file. Never use it to skip a section.
+
+- line 24: Standard Residency Objective
+- line 28: Premium Residency Objective
+- line 32: Tools
+- line 36: Specialization Areas
+- line 50: Requirements
+- line 66: To Submit
+
+---
+
+
 # Standard Residency Objective
 
 STANDARD RESIDENTS DO NOT COMPLETE THIS ASSIGNMENT
