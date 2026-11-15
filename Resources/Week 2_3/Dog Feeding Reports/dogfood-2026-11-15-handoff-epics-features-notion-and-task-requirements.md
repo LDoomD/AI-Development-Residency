@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → Epics, Features and Tasks requirements in Notion, with Figma kept in step (2026-11-15)
 
+Replaced by `dogfood-2026-11-15-handoff-week-2-3-iteration-2.md` (2026-11-15, evening).
+
 Replaces: `dogfood-2026-11-13-handoff-homework-hub-and-build-plan.md`. Everything in it still holds except what sections 1 to 4 below change. Older reports stay replaced: `dogfood-2026-11-13-handoff-build-plan-fixes-and-course-sources.md`, `dogfood-2026-11-12-handoff-build-plan-fixes-and-week-2-status.md`, `dogfood-2026-11-12-handoff-build-plan-week-4-fixes.md`, `dogfood-2026-11-12-handoff-build-plan-and-nfr.md`, `dogfood-2026-11-11-handoff-requirements.md` and earlier.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Then show me the Notion text for all 10 features (section 2, table 'Feature-level text') and wait for my yes before writing anything to Notion or Figma. Explain every decision I must make: what it is, why it matters, the choices, what happens after each. Base everything on my most up-to-date deliverables and the three master reports. Ask before using Firecrawl, the browser pane or Chrome."
