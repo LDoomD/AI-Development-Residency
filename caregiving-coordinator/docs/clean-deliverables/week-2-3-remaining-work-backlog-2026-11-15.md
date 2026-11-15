@@ -21,7 +21,7 @@ The instructor's "Week 2 and 3: Product Delivery Management" board says it plain
 | 20 user stories (10 epic-level, 10 feature-level) | Notion "Epics and Features" and `epic-and-feature-user-stories-2026-11-15.md` |
 | Five Epic 3 task pages with the eight headings, INVEST grades and sources | Notion Kanban board and `task-pages-epic-3-2026-11-15.md` |
 | Notion submission page items 4 and 5 brought up to date | Notion "Week 2 and 3 - Product Specifications" |
-| Pull request 54 (four files, plus the task flows and this backlog added to the same branch) | GitHub, open, not merged |
+| Pull request 54 (four files), merged 2026-11-15. Pull request 55 (task flows, this backlog, the 3.1.3 change, handoff reports) | GitHub, 54 merged, 55 open |
 
 ## Ordered backlog
 Sizes are guesses, not a team's estimate.
@@ -51,7 +51,7 @@ Sizes are guesses, not a team's estimate.
 | A | Write the one-page "What I Did" and "What I Learned" | Without AI. Claude never writes it. |
 | B | Make the submission page shareable and email the link to the instructor | Sharing is not set up. The owner said "not yet." |
 | C | Confirm whether the Premium research paper was submitted | The owner said "not yet." |
-| D | Merge pull request 54 and later pull requests | Merging is the owner's. |
+| D | Merge pull request 55 and later pull requests | Merging is the owner's. |
 
 ### Later iterations (not scheduled)
 - **Research on what parents and partners accept.** Tasks 3.1.2, 3.1.3 and 3.2.1 leave out advice because no saved research says what works. Do it before any advice text, and treat the result as a new assumption to validate.
