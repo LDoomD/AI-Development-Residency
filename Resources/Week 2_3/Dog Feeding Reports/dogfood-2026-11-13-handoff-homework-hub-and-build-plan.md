@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → Homework (build plan fixes, then the rest of Weeks 2 and 3), with the course sources, Notion hubs and course skill finished (2026-11-13, evening)
 
+**Replaced by `dogfood-2026-11-15-handoff-epics-features-notion-and-task-requirements.md` (2026-11-15).** Start from the newer report.
+
 Replaces: `dogfood-2026-11-13-handoff-build-plan-fixes-and-course-sources.md` (earlier the same day, already merged in PR 51). Everything there still holds except what sections 1 to 3 below change. Older reports stay replaced: `dogfood-2026-11-12-handoff-build-plan-fixes-and-week-2-status.md`, `dogfood-2026-11-12-handoff-build-plan-week-4-fixes.md`, `dogfood-2026-11-12-handoff-build-plan-and-nfr.md`, `dogfood-2026-11-11-handoff-requirements.md` and earlier.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few lines, in complete sentences, where we are. Then show me the 8 build plan fixes and the 6 gaps from section 2 as two short tables, and wait for my yes before changing anything. Write complete sentences with context and never use shorthand. Suggest only verified data (Approved or Fact). Ask before using Firecrawl, the browser pane or Chrome."

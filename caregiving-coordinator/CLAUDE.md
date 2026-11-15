@@ -181,6 +181,13 @@ checked documents, never from chat memory.
     one in the sentence.
   - Test before sending: could the owner act on this line if it were the only
     line he read?
+  - **Every decision I ask the owner to make must explain itself (owner,
+    2026-11-15).** When a summary or handoff recap lists open decisions, each
+    one needs, in plain sentences: what it is, why it matters, the choices, and
+    what happens after each choice. Never list a bare label such as "Approve
+    box 5" or "Apply the 8 fixes." The owner cannot decide something he was
+    not told about. If the owner says "not yet" to an item, leave it off the
+    list until he brings it back.
 - **Questions get answers, not edits.** When the owner asks a question, answer
   it and stop. Change files only after a clear yes.
 - **Every research pass splits by audience.** Before any reading starts, the
