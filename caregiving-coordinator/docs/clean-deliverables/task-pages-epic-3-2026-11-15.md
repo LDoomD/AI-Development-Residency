@@ -47,7 +47,7 @@ As an adult child caring for a parent, I want to know whether my parent follows 
 - The care notes table exists with its security rules.
 
 ### Use Cases to Support
-Task flow: Flow 2, Trying small steps when the answer is no (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
+Task flow: Flow 1, the Audience 1 flow (this task is the bottom row) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
 Use case 2 of feature 3.1, "trying small steps when the answer is no" (scenario: "Help them try small steps when the answer is no").
 - Happy path (Proposed): the parent accepts one small step, and the caregiver can see it happened.
 - Non-happy path (Proposed): the parent refuses again, and the caregiver can see it did not happen.
@@ -103,7 +103,7 @@ As an adult child caring for a parent, I want my parent to accept a safer move, 
 - Not included: advice on how to raise a move in a way the parent accepts. The saved research counts how often parents refuse but not what they accept, so this needs research first (open item).
 
 ### Use Cases to Support
-Task flow: Flow 1, Getting the parent to accept outside help (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
+Task flow: Flow 1, the Audience 1 flow (this task is the top row) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
 - Use case 1, "getting the parent to accept outside help," is the closest fit. No MVP use case is named "a safer move." The situation sits under problem 5, so this use case covers it. Happy path (Proposed): the parent agrees to the move or a first step toward it.
 - Use case 2, "trying small steps when the answer is no." Non-happy path (Proposed): the parent refuses, and the caregiver records the reason and one next step to try.
 - Not included: finding or paying for a new home (MMP), arranging the move or moving to prevent falls (MMP), giving up the car, and knowing when to step in for safety (an MMP candidate).
@@ -157,7 +157,7 @@ As an adult child caring for a parent, I want to find a next step my parent will
 - Not included: advice on which step to try. The saved research counts how often parents refuse but not what they accept, so this needs research first (open item). Also not included: knowing when to step in for safety (an MMP candidate).
 
 ### Use Cases to Support
-Task flows: Flow 1 and Flow 2 in TASK FLOWS (Epic 3) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079).
+Task flow: Flow 1 (the open-item and next-step part) in TASK FLOWS (Epic 3) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079).
 Use case 2, "trying small steps when the answer is no" (scenarios: "Help them try small steps when the answer is no" and "Help them keep going after a refusal").
 - Happy path (Proposed): the parent accepts one small step.
 - Non-happy path (Proposed): the parent refuses again.
@@ -213,7 +213,7 @@ As a spouse or partner caring for my partner, I want to plan with my partner wit
 - Not included: advice on how to raise hard topics. The saved research counts how often this problem comes up but not what partners accept, so this needs research first (open item). Also not included: bringing in a helper.
 
 ### Use Cases to Support
-Task flow: Flow 3, branch A, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
+Task flow: Flow 2, branch A, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
 Use case "Spouses bringing in help the partner will accept," scenario "Help them raise hard topics without a fight."
 - Happy path (Proposed): the caregiver and the partner talk about the topic without it turning into a fight.
 - Non-happy path (Proposed): the talk turns into a fight.
@@ -265,7 +265,7 @@ As a spouse or partner caring for my partner, I want us to settle who handles ea
 - Not included: inviting other people by email (the email service is not chosen yet), money amounts, accounts or bills (those come with Epics 5 and 6), and reminders.
 
 ### Use Cases to Support
-Task flow: Flow 3, branch B, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
+Task flow: Flow 2, branch B, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
 Use case "Spouses bringing in help the partner will accept," scenario "Help them agree on who does what."
 - Happy path (Proposed): they agree who handles each care task and money task.
 - Non-happy path (Proposed): they cannot agree.
