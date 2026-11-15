@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → Week 2 and 3, iteration 2 (build plan, repository, use cases, Epic 1 pages, pitch deck) (2026-11-15, evening)
 
+Replaced by `dogfood-2026-11-15-handoff-week-2-3-repo-and-build-plan.md` (2026-11-15, night).
+
 Replaces: `dogfood-2026-11-15-handoff-epics-features-notion-and-task-requirements.md`. Older reports stay replaced: `dogfood-2026-11-13-handoff-homework-hub-and-build-plan.md` and earlier.
 
 > Paste to start: "Read this handoff report and the files in section 8, especially the ordered backlog `week-2-3-remaining-work-backlog-2026-11-15.md`. Confirm in a few complete sentences where we are. Then check `gh pr list --state open` and show me the two decisions in section 4 that block iteration 2 (the repository name and build plan box 5) before doing anything else. Explain every decision I must make: what it is, why it matters, the choices, what happens after each. Base everything on my most up-to-date deliverables and the three master reports, and show the file and line for each fact. This is an agile project: work in small ordered chunks, update the backlog file after each one. Ask before Firecrawl, the browser pane or Chrome."
