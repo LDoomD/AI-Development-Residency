@@ -47,6 +47,7 @@ As an adult child caring for a parent, I want to know whether my parent follows 
 - The care notes table exists with its security rules.
 
 ### Use Cases to Support
+Task flow: Flow 2, Trying small steps when the answer is no (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
 Use case 2 of feature 3.1, "trying small steps when the answer is no" (scenario: "Help them try small steps when the answer is no").
 - Happy path (Proposed): the parent accepts one small step, and the caregiver can see it happened.
 - Non-happy path (Proposed): the parent refuses again, and the caregiver can see it did not happen.
@@ -102,6 +103,7 @@ As an adult child caring for a parent, I want my parent to accept a safer move, 
 - Not included: advice on how to raise a move in a way the parent accepts. The saved research counts how often parents refuse but not what they accept, so this needs research first (open item).
 
 ### Use Cases to Support
+Task flow: Flow 1, Getting the parent to accept outside help (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
 - Use case 1, "getting the parent to accept outside help," is the closest fit. No MVP use case is named "a safer move." The situation sits under problem 5, so this use case covers it. Happy path (Proposed): the parent agrees to the move or a first step toward it.
 - Use case 2, "trying small steps when the answer is no." Non-happy path (Proposed): the parent refuses, and the caregiver records the reason and one next step to try.
 - Not included: finding or paying for a new home (MMP), arranging the move or moving to prevent falls (MMP), giving up the car, and knowing when to step in for safety (an MMP candidate).
@@ -123,6 +125,8 @@ These are the approved rules from the non-functional list, not new ones: T2.1.2 
 
 ## Task 3.1.3: Finding next steps the parent will accept
 Epic 3, feature 3.1 (Audience 1). Approved by the owner on 2026-11-15, with the three batch tasks together. The choices match task 3.1.2: record-only slice, no invented advice, no new use case.
+
+**Change, 2026-11-15:** widened to cover paid help or aids, the one situation in the master CSV (line 47) with no task. The owner asked what to do about the gap, and Claude proposed this instead of a new task. The slice is still about 1 week, and the task's name and number are unchanged.
 
 **INVEST (as written):** Independent fail (it uses the refused items from 3.1.1 and 3.1.2: an order dependency), Negotiable pass, Valuable pass, Estimable fail (no saved evidence says what next steps parents accept), Small fail, Testable fail. Fix: a record-only slice of about 1 week. Size is a guess.
 
@@ -153,19 +157,24 @@ As an adult child caring for a parent, I want to find a next step my parent will
 - Not included: advice on which step to try. The saved research counts how often parents refuse but not what they accept, so this needs research first (open item). Also not included: knowing when to step in for safety (an MMP candidate).
 
 ### Use Cases to Support
+Task flows: Flow 1 and Flow 2 in TASK FLOWS (Epic 3) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079).
 Use case 2, "trying small steps when the answer is no" (scenarios: "Help them try small steps when the answer is no" and "Help them keep going after a refusal").
 - Happy path (Proposed): the parent accepts one small step.
 - Non-happy path (Proposed): the parent refuses again.
+
+Also use case 1, "getting the parent to accept outside help," for the situation "When the parent turns down paid help or aids" (`Audience Use Cases.csv`, line 47). The other tasks in this feature cover doctors, treatment, habits, therapy and a safer move. This task covers paid help or aids.
 
 ### Acceptance (Proposed)
 - The caregiver can see every open refused item with its next step.
 - They can record that a step was tried and the answer: accepted, not yet, or refused.
 - After a new refusal they can add another next step, and the earlier ones stay visible.
+- They can add an item that has no earlier record, such as the parent turning down paid help or aids, with what was raised, the parent's answer (accepted, not yet, or refused), the reason if given, and a next step if it was not accepted.
 - Only people in that parent's care circle can see it.
 - A health note is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the parent deletes the notes about them.
 - Given a refused item with a next step, when I try it and the parent accepts, then the item shows as accepted and leaves the open list.
 - Given a refused item, when the parent refuses again and I add another next step, then the item stays open with both steps visible.
+- Given the parent turned down paid help, when I add it with their reason and a next step, then it appears in the open list.
 
 ### Technical Requirements
 These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
@@ -204,6 +213,7 @@ As a spouse or partner caring for my partner, I want to plan with my partner wit
 - Not included: advice on how to raise hard topics. The saved research counts how often this problem comes up but not what partners accept, so this needs research first (open item). Also not included: bringing in a helper.
 
 ### Use Cases to Support
+Task flow: Flow 3, branch A, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
 Use case "Spouses bringing in help the partner will accept," scenario "Help them raise hard topics without a fight."
 - Happy path (Proposed): the caregiver and the partner talk about the topic without it turning into a fight.
 - Non-happy path (Proposed): the talk turns into a fight.
@@ -255,6 +265,7 @@ As a spouse or partner caring for my partner, I want us to settle who handles ea
 - Not included: inviting other people by email (the email service is not chosen yet), money amounts, accounts or bills (those come with Epics 5 and 6), and reminders.
 
 ### Use Cases to Support
+Task flow: Flow 3, branch B, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
 Use case "Spouses bringing in help the partner will accept," scenario "Help them agree on who does what."
 - Happy path (Proposed): they agree who handles each care task and money task.
 - Non-happy path (Proposed): they cannot agree.
@@ -278,6 +289,7 @@ These are the approved rules from the non-functional list, not new ones: T2.1.2 
 ## Open items from these pages
 - **Research on what parents and partners accept.** Tasks 3.1.2, 3.1.3 and 3.2.1 leave out advice on how to raise a move, which next step to try, and how to raise hard topics. The saved research counts how often these problems come up but not what works. Do this research before any advice text is written.
 - **Whose consent counts for a parent or partner who never signs up** (risk profile, open question 1, needs a lawyer).
+- **Paid help or aids** is covered by task 3.1.3 (widened 2026-11-15), not by a new task.
 - **A second slice for 3.1.1,** "seeing follow-through across steps over time," is written down as later work and has no page.
 - **Audience 2's evidence is thin** (9 posts and threads, table 2b).
 - **Size estimates** (about 1 week each) are guesses, not a team's.
