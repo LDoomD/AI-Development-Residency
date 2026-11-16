@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → use case scenarios check, the share-consent gap, then the release roadmap (2026-11-15, night)
 
+Replaced by: `dogfood-2026-11-16-handoff-week-2-3-submission-and-premium-paper.md` (2026-11-16). All work in this report is finished.
+
 Replaces: `dogfood-2026-11-15-handoff-task-stories-and-acceptance-criteria.md` (its Epic 1 pages, story fixes and technical requirements work is now finished). Older reports stay replaced: `dogfood-2026-11-15-handoff-week-2-3-repo-and-build-plan.md`, `dogfood-2026-11-15-handoff-week-2-3-iteration-2.md` and earlier.
 
 > **Update 2026-11-16 (read this first):** the work this report points to is done. Section 4 decision 1 (share consent) was approved and applied to all five Epic 3 pages and their Notion cards. Decision 4 (the submission-page row) was applied. Use case scenarios, BDD and technical acceptance were checked on all 11 pages. Epic 1 task flows (Flow 3 and Flow 4) were drawn in Figma (`3118:9375`) and saved in `task-flows-epic-1-2026-11-16.md`. Still open: decisions 2 and 3 (lawyer questions), the owner reading the Epic 3 developer rules and the Epic 1 flows, and backlog item 3 (release roadmap). The iteration log in `week-2-3-remaining-work-backlog-2026-11-15.md` has the detail.
