@@ -13,6 +13,13 @@ The instructor's "Week 2 and 3: Product Delivery Management" board says it plain
 
 **How the order is chosen:** (1) things the homework requires and the board's green "this week" boxes name come first; (2) among those, whatever blocks other work goes first; (3) the highest-priority epic (Epic 3, the "Top" problem for both audiences) is finished end to end before widening to other epics; (4) things only the owner can do are listed separately; (5) nice-to-haves from other students' boards wait.
 
+## Scope: the standard homework (decided by the owner, 2026-11-15)
+The owner is doing the standard homework only and will not do the bonus homework, to catch up. Source: the homework board (Figma `3108:15002`) and the course's saved Week 2 and 3 page (`.claude/skills/residency-context/reference/week-2-3.md`, "BASIC HOMEWORK" and "BONUS HOMEWORK").
+- **Basic homework (required):** vision, scope, epics/features/tasks, build plan, non-functional requirements, technical requirements, user requirements, backlog. The board's objective adds "backlog kanban populated with the first work item tasks." The "Work You'll Do" list adds an empty public GitHub repository.
+- **Bonus homework (not doing):** market analysis, competitor analysis, feature analysis, positioning, audience segmentation, pitch deck, task flows, prototypes. Audience, market, competitor, feature and positioning work and the Epic 3 task flows are already done, so they stay as they are. No new bonus work is started.
+- **Not in either list:** design system. Left off.
+- **Change from the earlier backlog:** the pitch deck was listed as required ("Week 2 requirement 8"). The Basic list does not include it and the Bonus list does, so it moved to bonus.
+
 ## Iteration 1: shipped 2026-11-15
 | Done | Where |
 |---|---|
@@ -23,27 +30,24 @@ The instructor's "Week 2 and 3: Product Delivery Management" board says it plain
 | Notion submission page items 4 and 5 brought up to date | Notion "Week 2 and 3 - Product Specifications" |
 | Pull request 54 (four files), merged 2026-11-15. Pull request 55 (task flows, this backlog, the 3.1.3 change, handoff reports) | GitHub, 54 merged, 55 open |
 
-## Ordered backlog
+## Ordered backlog (standard homework)
 Sizes are guesses, not a team's estimate.
 
-### Iteration 2: finish what is required and unblock the rest
-| # | Item | Why now (data) | Depends on | Done when | Who |
-|---|---|---|---|---|---|
-| 1 | **Task flows for Epic 3** (DONE 2026-11-15, two flows, one per audience: drawn in Figma "TASK FLOWS (Epic 3)", saved in `task-flows-epic-3-2026-11-15.md`, linked from the five Notion pages) | The board's green "this week" boxes list Task Flows, Acceptance Criteria / User Stories and Use Case Scenarios / BDD Scenarios under the Requirements milestone. You have no task flows. The lecture: "one flow chart per use case; each ticket might have one to three or four use cases." Epic 3 is the Top problem. | The five Epic 3 pages (done) | Two flows (Audience 1: accept help, then small steps; Audience 2: partner accepts help) with happy and non-happy paths, drawn in Figma beside the epics, linked from the Notion pages, and described in a saved file | Claude drafts, owner approves |
-| 2 | **Name and create the empty public GitHub repository** | Week 2 requirement 5. Week 4 builds in that same repository. Quick, and nothing else waits on it except Week 4. | The owner choosing a name (the course example name belongs to the ADHD app) | Public repo exists with no code, link ready for the submission page | Owner decides the name. Claude creates it only on the owner's go. |
-| 3 | **Finish the build plan** | Week 2 requirement 6 and Basic Homework items 4 and 5. Boxes 1 to 4 are approved. Box 5 (development operations) is Proposed, box 6 (quality engineering) is not written, and the Figma section `3073:8029` still has the old text without the 8 fixes. | The owner approving box 5, including the branch protection question | Boxes 5 and 6 approved, T5 and T6 added to the non-functional list, Figma updated, files saved | Claude drafts, owner approves |
+### Done
+| Item | Done when and where |
+|---|---|
+| Vision, scope, epics/features/tasks | Approved 2026-11-10 and 2026-11-11 |
+| Build plan, boxes 1 to 6, and the non-functional list T1 to T6 | 2026-11-15, Figma `3073:8029` and `3094:9079`, `non-functional-epics-features-tasks-2026-11-15.md` |
+| Empty public GitHub repository "Week 3 - Caregiving Coordinator" (checked: public, empty) | 2026-11-15, https://github.com/LDoomD/Week-3---Caregiving-Coordinator |
+| Task flows for Epic 3 (bonus, already done) | 2026-11-15, Figma `3097:9079` |
+| All five Epic 3 task pages (3.1.1, 3.1.2, 3.1.3, 3.2.1, 3.2.2) in the full format (BDD scenarios, definition of done). The business-need line is on all five (added to 3.1.1 and 3.1.2 on 2026-11-15) | 2026-11-15, `task-pages-epic-3-2026-11-15.md` and Notion |
 
-### Iteration 3: widen to the rest of the first two weeks
-| # | Item | Why (data) | Depends on | Done when |
+### Next, in this order
+| # | Item | Why now (data) | Done when | Who |
 |---|---|---|---|---|
-| 4 | **Check the use case count (22 in Figma, 17 in Vision and Scope), then write feature-level use cases for the other 8 features** | The Notion template has a "Feature-Level Use Case Scenarios" heading under every feature, and only Epic 3 is filled. Epic 4's and Epic 6's Audience 2 features have no MVP use case, and my recommendation was to leave that gap and record it. | Item 1 (so the pattern is set) | Counts reconciled in one sentence; the Notion headings filled or noted as a known gap |
-| 5 | **Epic 1 task pages (six), one INVEST grade each** | Epic 1 is the second epic in the first two weeks of the roadmap and the Notion board (`notion-backlog-2026-11-11.md`: 11 tasks, 5 in Epic 3 and 6 in Epic 1). The page headings include Technical Requirements, which covers the Basic Homework items "technical requirements" and "user requirements" (my reading, Proposed). | Item 3 (so Technical Requirements can cite T5 and T6) | Six pages written, read back, saved |
-| 6 | **Update the release roadmap and the Notion board** | The board says the roadmap must change when plans change. Task slicing, task flows and the repo may move dates. | Items 1 to 5 | Roadmap in Figma (`3068:9448`) and `release-roadmap-2026-11-11.md` match the backlog |
-
-### Iteration 4: summarize
-| # | Item | Why (data) | Depends on | Done when |
-|---|---|---|---|---|
-| 7 | **Pitch deck** | Week 2 requirement 8: "a pitch deck summarizing all of this." It needs everything above to exist. | Items 1 to 6 | Deck in the Notion Product Pitch Deck template, linked from the submission page |
+| 1 | **Epic 1's six task pages** (owner chose all 11 on 2026-11-15). 1.1.1 and 1.1.2 done; 1.1.3, 1.2.1, 1.2.2 and 1.2.3 to do, two at a time | The Notion board holds all 11 cards, and the roadmap puts Epic 1 in the second of the next two weeks | Six pages in the same format as Epic 3, saved in `task-pages-epic-1-2026-11-15.md`, written to Notion and read back | Claude drafts, owner approves |
+| 2 | **Technical requirements and user requirements check** | Basic homework items 6 and 7. The Epic 3 pages hold them in the Technical Requirements and Acceptance headings. The board says the developer role writes technical requirements | A short read of the Notion pages against these two items, with any gap listed | Claude checks, owner decides |
+| 3 | **Update the release roadmap and the Notion board** | The board says to maintain the roadmap. Not on the Basic list | Roadmap in Figma (`3068:9448`) and `release-roadmap-2026-11-11.md` match this backlog | Claude drafts, owner approves |
 
 ### Only the owner can do these
 | # | Item | Note |
@@ -51,7 +55,12 @@ Sizes are guesses, not a team's estimate.
 | A | Write the one-page "What I Did" and "What I Learned" | Without AI. Claude never writes it. |
 | B | Make the submission page shareable and email the link to the instructor | Sharing is not set up. The owner said "not yet." |
 | C | Confirm whether the Premium research paper was submitted | The owner said "not yet." |
-| D | Merge pull request 55 and later pull requests | Merging is the owner's. |
+| D | Merge later pull requests (54 and 55 are merged) | Merging is the owner's. The next pull request holds the build plan, T5 and T6, the rewritten task pages and this backlog. |
+
+### Bonus homework (not doing, moved here 2026-11-15)
+- **Pitch deck** (Notion Product Pitch Deck template). Consider a happy-path narrative like Lucy's if it is ever done.
+- **Prototypes** (the board says to set your own design do's and don'ts with Claude first).
+- **Feature-level use cases for the other eight features** and any further task flows for Epics 1, 2, 4, 5 and 6.
 
 ### Later iterations (not scheduled)
 - **Research on what parents and partners accept.** Tasks 3.1.2, 3.1.3 and 3.2.1 leave out advice because no saved research says what works. Do it before any advice text, and treat the result as a new assumption to validate.
@@ -77,3 +86,7 @@ At the end of each iteration: (1) mark the items above done with the date and th
 |---|---|---|---|
 | 1 | 2026-11-15 | See "Iteration 1" above, plus item 1 of Iteration 2 (task flows) | Feature-level stories moved from "parked" to "required" after the instructor's board said epics and features should have stories. Tasks stay outcome-based on the epics list, and each task page narrows to one slice. |
 | (same day) | 2026-11-15 | Two task flows (first drawn as three, merged after comparing with Morgan's and Lucy's one flow); task 3.1.3 widened to cover paid help or aids | The owner asked what to do about the one situation with no task. Claude proposed widening 3.1.3 instead of adding a task, so names and numbers stay the same. |
+| (same day, later) | 2026-11-15 | Build plan boxes 5 and 6 approved (box 5 without branch protection); T5 and T6 saved; Figma build plan section now stacks boxes 1 to 6 vertically with the eight fixes; Epic 3 task pages 3.1.1, 3.1.2 and 3.1.3 rewritten with full BDD scenarios and a definition of done | Task flows checked against the instructor's board and kept. Prototypes and Design system are on the instructor's build plan board but not on this backlog: to decide. Business-need acceptance line added to 3.1.3 only, decision on 3.1.1 and 3.1.2 pending. |
+| (same day, latest) | 2026-11-15 | Backlog rewritten for the standard homework only. Pitch deck, prototypes and further use cases and flows moved to a bonus list. | The owner said bonus homework is out to catch up. The Basic list (homework board `3108:15002`) replaced the longer Requirements list as the measure of "required." |
+| (same day, last) | 2026-11-15 | Empty public repository created with the homework's pattern: "Week 3 - Caregiving Coordinator" | The owner confirmed the name. The link still has to go on the Notion submission page. |
+| (same day, Epic 1) | 2026-11-15 | Owner chose all 11 first tasks. Epic 1 pages 1.1.1 and 1.1.2 written (`task-pages-epic-1-2026-11-15.md`, Notion) | Open: the rule "visible only to the writer" (1.1.2) is proposed, not in the non-functional list. Crisis safety and a break-records table are open items. |

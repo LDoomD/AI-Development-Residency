@@ -22,7 +22,7 @@ User story format: "As a [audience], I want [goal] so that [problem or value, no
 
 ## Feature 1: Getting the parent to accept doctors or help (Audience 1)
 
-**Feature-level user story:** As an adult child caring for a parent, I want my parent to accept the doctors and help they need, with their own choices respected, so that their care happens instead of stopping at a refusal.
+**Feature-level user story:** As an adult child caring for a parent, I want my parent to get the doctors and help they need, with their own choices respected, so that they stay safe and comfortable.
 
 **Tasks (unchanged):** Seeing the parent take care of their health. Getting the parent to accept a safer move. Finding next steps the parent will accept.
 
@@ -32,7 +32,7 @@ User story format: "As a [audience], I want [goal] so that [problem or value, no
 
 ## Feature 2: Bringing in outside help the partner accepts (Audience 2)
 
-**Feature-level user story:** As a spouse or partner caring for my partner, I want to bring in outside help my partner accepts so that care continues without every talk turning into a fight.
+**Feature-level user story:** As a spouse or partner caring for my partner, I want my partner to get the help they need, so that they stay safe, comfortable and with dignity.
 
 **Tasks (unchanged):** Planning together without causing anger. Settling who handles care tasks and money.
 
@@ -47,7 +47,9 @@ Four scenarios are in the audience table and on the board but were not placed on
 | Help them raise hard topics without a fight (Audience 2) | Supported, as a scenario under the use case "Spouses bringing in help the partner will accept" | It sits beside the "we want" line "plan together without causing anger," which is Feature 2, task 1. |
 | Help them agree on who does what (Audience 2) | Supported, as a scenario under the same use case | It sits beside "settle who handles care tasks and money," which is Feature 2, task 2. Without it an approved task has no supported situation. |
 | Help them keep going after a refusal (Audience 1) | Covered by the use case "Trying small steps when the answer is no" | Its non-happy path is a refusal that happens again. |
-| Help them know when to step in for safety (Audience 1) | Not in MVP #1. Candidate for MMP. | No approved task matches it, it was not on the priority grid, and it pulls against need 4 in the competitive report, "respects the parent's choices." |
+| Help them know when to step in for safety (Audience 1) | **Supported in MVP #1 (owner decision, later on 2026-11-15; replaces "Not in MVP #1, candidate for MMP").** Placed under Feature 1, task "Getting the parent to accept a safer move" (Claude's reading, Proposed). | It sits in the same audience-table group as that task (`docs/sources/market-analysis-3/audience-v2/uc-A1.json`). It was not on the priority grid. It pulls against need 4 in the competitive report, "respects the parent's choices," so its wording must keep the parent's choices respected. |
+
+**Owner decision, later on 2026-11-15 (Approved):** all four scenarios count as supported in MVP #1. Still to do: add them to the use case lists in `vision-and-scope-boards-2026-11-10.md` (not changed yet). Figma has an extra section, "EPIC 3: FEATURE STORIES AND USE CASES" (node `3109:9375`), added the same day at the owner's yes. It differs from this file (it shows happy and non-happy paths at feature level), and the owner has not yet decided whether it stays.
 
 The pairing of each scenario with a "we want" line rests on their order and wording in the audience table. The audience master report lists them as separate columns and does not say they pair one to one, so the pairing is Claude's reading (Proposed).
 
