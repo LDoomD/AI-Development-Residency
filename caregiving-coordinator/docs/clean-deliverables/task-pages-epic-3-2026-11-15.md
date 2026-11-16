@@ -45,6 +45,7 @@ As an adult child caring for a parent, I want to know whether my parent follows 
 - A working way to note one agreed health step and whether it happened, using fake data.
 - The Given/When/Then scenarios below pass.
 - The care notes table exists with its security rules.
+- **Definition of done (Proposed):** The caregiver can note one health step the parent agreed to, mark it done or not done, and see the date, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: tracking medicines, knowing when to step in for safety, and seeing follow-through across steps over time.
 
 ### Use Cases to Support
 Task flow: Flow 1, the Audience 1 flow (this task is Part 2, trying small steps) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
@@ -59,8 +60,48 @@ Use case 2 of feature 3.1, "trying small steps when the answer is no" (scenario:
 - Only people in that parent's care circle can see it.
 - A health note is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the parent deletes the notes about them.
-- Given a step the parent agreed to, when I mark it done, then it shows as done with the date.
-- Given a step the parent agreed to, when the parent refuses and I mark it not done, then it shows as not done and the agreement stays visible.
+- The record of each health step (done or not done) can be counted, so the goal 3 KPI can be measured later.
+
+**Scenario 1: the parent follows through (happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is recorded for my parent
+- **AND** I have noted a health step my parent agreed to
+- **WHEN** I mark the step as done
+- **THEN** it shows as done
+- **AND** it shows the date I marked it
+
+**Scenario 2: the parent does not follow through (non-happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is recorded for my parent
+- **AND** I have noted a health step my parent agreed to
+- **WHEN** I mark the step as not done
+- **THEN** it shows as not done
+- **AND** the step my parent agreed to stays visible
+- **AND** it shows the date I marked it
+
+**Scenario 3: consent is not recorded (non-happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is not recorded for my parent
+- **WHEN** I try to note a health step
+- **THEN** the note is not saved
+- **AND** I am asked to record the consent first
+
+**Scenario 4: someone outside the care circle (non-happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** a person who is not in my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am not in the care circle of the parent
+- **WHEN** I try to open the parent's health notes
+- **THEN** I cannot see them
 
 ### Technical Requirements
 These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
@@ -101,6 +142,7 @@ As an adult child caring for a parent, I want my parent to accept a safer move, 
 - A working way to record how the parent answered when a safer move was raised, and the next step to try, using fake data.
 - The scenarios below pass.
 - Not included: advice on how to raise a move in a way the parent accepts. The saved research counts how often parents refuse but not what they accept, so this needs research first (open item).
+- **Definition of done (Proposed):** The caregiver can note the date a safer move was raised and what the parent said, mark the answer as accepted, not yet or refused, and note the reason and one next step to try, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: advice on how to raise a move, finding or paying for a new home, arranging the move, giving up the car, and knowing when to step in for safety.
 
 ### Use Cases to Support
 Task flow: Flow 1, the Audience 1 flow (this task is Part 1, raising it and recording the answer) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
@@ -115,8 +157,49 @@ Task flow: Flow 1, the Audience 1 flow (this task is Part 1, raising it and reco
 - Only people in that parent's care circle can see it.
 - A health note is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the parent deletes the notes about them.
-- Given I raised a safer move, when the parent agrees, then it shows as accepted with the date.
-- Given I raised a safer move, when the parent refuses and I record the reason and a next step, then it shows as refused with that next step, and the move stays an open item.
+- The record of each answer (accepted, not yet or refused) can be counted, so the goal 3 KPI can be measured later.
+
+**Scenario 1: the parent agrees (happy path)**
+- **USE CASE:** Getting the parent to accept outside help (feature 3.1, use case 1)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is recorded for my parent
+- **AND** I have raised a safer move with my parent
+- **WHEN** I record that my parent agreed
+- **THEN** it shows as accepted
+- **AND** it shows the date I recorded it
+
+**Scenario 2: the parent says not yet or no (non-happy path)**
+- **USE CASE:** Getting the parent to accept outside help (feature 3.1, use case 1)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is recorded for my parent
+- **AND** I have raised a safer move with my parent
+- **WHEN** I record that my parent said not yet or no
+- **AND** I note the reason my parent gave and one next step to try
+- **THEN** it shows as not yet or refused
+- **AND** it shows the reason and the next step
+- **AND** the safer move stays on my list
+
+**Scenario 3: consent is not recorded (non-happy path)**
+- **USE CASE:** Getting the parent to accept outside help (feature 3.1, use case 1)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is not recorded for my parent
+- **WHEN** I try to record what my parent said about a safer move
+- **THEN** the note is not saved
+- **AND** I am asked to record the consent first
+
+**Scenario 4: someone outside the care circle (non-happy path)**
+- **USE CASE:** Getting the parent to accept outside help (feature 3.1, use case 1)
+- **AS A:** a person who is not in my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am not in the care circle of the parent
+- **WHEN** I try to open the parent's notes about a safer move
+- **THEN** I cannot see them
 
 ### Technical Requirements
 These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
@@ -155,6 +238,7 @@ As an adult child caring for a parent, I want to find a next step my parent will
 - A working way to see every refused item with its next steps in one place, and to record what happened when a step was tried, using fake data.
 - The scenarios below pass.
 - Not included: advice on which step to try. The saved research counts how often parents refuse but not what they accept, so this needs research first (open item). Also not included: knowing when to step in for safety (an MMP candidate).
+- **Definition of done (Proposed):** The caregiver can see every refused item with its next steps in one place, record what happened when a step was tried (accepted, not yet or refused), add another next step after a new refusal, and add an item with no earlier record, such as paid help or aids the parent turned down, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: advice on which step to try, and knowing when to step in for safety.
 
 ### Use Cases to Support
 Task flow: Flow 1, Part 2 (the next steps) and Part 1 (for paid help or aids), in TASK FLOWS (Epic 3) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079).
@@ -172,9 +256,59 @@ Also use case 1, "getting the parent to accept outside help," for the situation 
 - Only people in that parent's care circle can see it.
 - A health note is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the parent deletes the notes about them.
-- Given a refused item with a next step, when I try it and the parent accepts, then the item shows as accepted and leaves the open list.
-- Given a refused item, when the parent refuses again and I add another next step, then the item stays open with both steps visible.
-- Given the parent turned down paid help, when I add it with their reason and a next step, then it appears in the open list.
+- The record of each answer (accepted, not yet or refused) can be counted, so the goal 3 KPI can be measured later.
+
+**Scenario 1: the parent accepts the next step (happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is recorded for my parent
+- **AND** an item my parent refused is on my list with a next step to try
+- **WHEN** I try the next step with my parent
+- **AND** I record that my parent accepted
+- **THEN** the item shows as accepted
+- **AND** it comes off my list
+
+**Scenario 2: the parent refuses again (non-happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is recorded for my parent
+- **AND** an item my parent refused is on my list with a next step to try
+- **WHEN** I record that my parent refused again
+- **AND** I add another next step to try
+- **THEN** the item stays on my list
+- **AND** both next steps are visible
+
+**Scenario 3: the parent turned down paid help or aids (non-happy path)**
+- **USE CASE:** Getting the parent to accept outside help (feature 3.1, use case 1)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is recorded for my parent
+- **AND** my parent turned down paid help or aids
+- **WHEN** I add it with what I raised, my parent's answer, the reason my parent gave, and a next step to try
+- **THEN** it appears on my list
+
+**Scenario 4: consent is not recorded (non-happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** adult child caring for a parent
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** the collect consent is not recorded for my parent
+- **WHEN** I try to add a refused item or a next step
+- **THEN** the note is not saved
+- **AND** I am asked to record the consent first
+
+**Scenario 5: someone outside the care circle (non-happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** a person who is not in my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am not in the care circle of the parent
+- **WHEN** I try to open the list of refused items
+- **THEN** I cannot see it
 
 ### Technical Requirements
 These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
@@ -211,6 +345,7 @@ As a spouse or partner caring for my partner, I want to plan with my partner wit
 - A working way to list topics to plan with the partner and record how each talk went, using fake data.
 - The scenarios below pass.
 - Not included: advice on how to raise hard topics. The saved research counts how often this problem comes up but not what partners accept, so this needs research first (open item). Also not included: bringing in a helper.
+- **Definition of done (Proposed):** The caregiver can add a topic to plan with their partner, mark how it went (not raised yet, talked calmly, turned into a fight, or agreed), note what to try next time, and see the date, using fake data. Only people in the care circle can see it. All the scenarios below pass. Not included: advice on how to raise hard topics, and bringing in a helper.
 
 ### Use Cases to Support
 Task flow: Flow 2, branch A, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
@@ -225,8 +360,50 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - Only people in the care circle can see it.
 - A note about the partner is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the partner deletes the notes about them.
-- Given a topic I want to plan, when we talk calmly and agree, then it shows as agreed with the date.
-- Given a topic, when the talk turns into a fight, then it shows as turned into a fight, stays open, and keeps my note on what to try next.
+- The record of each topic (agreed or turned into a fight) can be counted, so the goal 3 KPI can be measured later.
+
+**Scenario 1: the talk goes well and we agree (happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: raise hard topics without a fight)
+- **AS A:** spouse or partner caring for my partner
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** the collect consent is recorded for my partner
+- **AND** I have added a topic I want to plan with my partner
+- **WHEN** I talk with my partner about it
+- **AND** I record that we talked calmly and agreed
+- **THEN** the topic shows as agreed
+- **AND** it shows the date I recorded it
+
+**Scenario 2: the talk turns into a fight (non-happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: raise hard topics without a fight)
+- **AS A:** spouse or partner caring for my partner
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** the collect consent is recorded for my partner
+- **AND** I have added a topic I want to plan with my partner
+- **WHEN** I record that the talk turned into a fight
+- **AND** I note what to try next time
+- **THEN** the topic shows as turned into a fight
+- **AND** my note on what to try next time is kept
+- **AND** the topic stays on my list
+
+**Scenario 3: consent is not recorded (non-happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: raise hard topics without a fight)
+- **AS A:** spouse or partner caring for my partner
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** the collect consent is not recorded for my partner
+- **WHEN** I try to add a topic
+- **THEN** the note is not saved
+- **AND** I am asked to record the consent first
+
+**Scenario 4: someone outside the care circle (non-happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: raise hard topics without a fight)
+- **AS A:** a person who is not in my partner's care circle
+- **GIVEN** I am signed in
+- **AND** I am not in the care circle of the partner
+- **WHEN** I try to open the partner's list of topics
+- **THEN** I cannot see it
 
 ### Technical Requirements
 These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
@@ -263,6 +440,7 @@ As a spouse or partner caring for my partner, I want us to settle who handles ea
 - A working way to list care and money tasks and record who handles each, using fake data.
 - The scenarios below pass.
 - Not included: inviting other people by email (the email service is not chosen yet), money amounts, accounts or bills (those come with Epics 5 and 6), and reminders.
+- **Definition of done (Proposed):** The caregiver can add a care task or a money task, choose who handles it (the caregiver, the partner, or a helper they name), change it later with the earlier choice kept visible, and mark it not agreed with a note on why, using fake data. Only people in the care circle can see it. All the scenarios below pass. Not included: inviting people by email, money amounts, accounts or bills, and reminders.
 
 ### Use Cases to Support
 Task flow: Flow 2, branch B, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
@@ -278,8 +456,60 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - Only people in the care circle can see it.
 - A note about the partner is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the partner deletes the notes about them.
-- Given a task, when we agree who handles it, then it shows that person and the date.
-- Given a task, when we cannot agree, then it shows as not agreed with my note, and stays open.
+- The record of who handles each task (the caregiver, the partner or a helper) can be counted, so the goal 3 KPI can be measured later.
+
+**Scenario 1: we agree who handles it (happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: agree on who does what)
+- **AS A:** spouse or partner caring for my partner
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** the collect consent is recorded for my partner
+- **AND** I have added a care task or a money task
+- **WHEN** I choose who handles it: me, my partner, or a helper I name
+- **THEN** the task shows that person
+- **AND** it shows the date we agreed
+
+**Scenario 2: we change who handles it (other path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: agree on who does what)
+- **AS A:** spouse or partner caring for my partner
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** the collect consent is recorded for my partner
+- **AND** a task already shows who handles it
+- **WHEN** I change who handles it
+- **THEN** the task shows the new person and the date
+- **AND** the earlier person stays visible
+
+**Scenario 3: we cannot agree (non-happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: agree on who does what)
+- **AS A:** spouse or partner caring for my partner
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** the collect consent is recorded for my partner
+- **AND** I have added a care task or a money task
+- **WHEN** I record that we could not agree
+- **AND** I note why
+- **THEN** the task shows as not agreed
+- **AND** my note is kept
+- **AND** the task stays on my list
+
+**Scenario 4: consent is not recorded (non-happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: agree on who does what)
+- **AS A:** spouse or partner caring for my partner
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** the collect consent is not recorded for my partner
+- **WHEN** I try to add a care task or a money task
+- **THEN** the note is not saved
+- **AND** I am asked to record the consent first
+
+**Scenario 5: someone outside the care circle (non-happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: agree on who does what)
+- **AS A:** a person who is not in my partner's care circle
+- **GIVEN** I am signed in
+- **AND** I am not in the care circle of the partner
+- **WHEN** I try to open the partner's list of care and money tasks
+- **THEN** I cannot see it
 
 ### Technical Requirements
 These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes and care tasks table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.1 (members see only their own circle), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.

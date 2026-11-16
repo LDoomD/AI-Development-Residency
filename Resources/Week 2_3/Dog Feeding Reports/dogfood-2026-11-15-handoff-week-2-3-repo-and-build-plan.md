@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → Week 2 and 3, iteration 2 (repository, build plan, then use cases, Epic 1 pages, roadmap, pitch deck) (2026-11-15, night)
 
+> **Replaced by** `dogfood-2026-11-15-handoff-task-stories-and-acceptance-criteria.md` (2026-11-15, late). The repository, build plan and use case work in this report is finished; start from the newer report.
+
 Replaces: `dogfood-2026-11-15-handoff-week-2-3-iteration-2.md` (written earlier the same evening, before the task flows were reworded and the owner confirmed them). Older reports stay replaced: `dogfood-2026-11-15-handoff-epics-features-notion-and-task-requirements.md`, `dogfood-2026-11-13-handoff-homework-hub-and-build-plan.md` and earlier.
 
 > Paste to start: "Read this handoff report and the files in section 8, especially the ordered backlog `week-2-3-remaining-work-backlog-2026-11-15.md`. Confirm in a few complete sentences where we are. Then check `gh pr list --state open` and show me the two decisions in section 4 that block iteration 2 (the repository name and build plan box 5) before doing anything else. Explain every decision I must make: what it is, why it matters, the choices, what happens after each. Say why you chose a structure when you propose it, and write box and arrow labels in plain words, with no jargon. Base everything on my most up-to-date deliverables and the three master reports, and show the file and line for each fact. This is an agile project: work in small ordered chunks, update the backlog file after each one. Ask before Firecrawl, the browser pane or Chrome."

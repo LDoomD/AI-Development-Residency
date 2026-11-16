@@ -1,10 +1,10 @@
-# Non-functional epics, features and tasks, T1 to T4 (approved 2026-11-15)
+# Non-functional epics, features and tasks, T1 to T6 (approved 2026-11-15)
 
-**What this is:** the non-functional list for MVP #1, in the same numbered shape as Morgan's and Lucy's boards (T1, T1.1, T1.1.1). Every line comes from `docs/build-plan-nfr-draft-2026-11-12.md`, boxes 1 to 4, which the owner approved on 2026-11-12. This file is the master copy. Figma must say "same as this file, [date]" and match it word for word, except that the † marks below appear only in this file.
+**What this is:** the non-functional list for MVP #1, in the same numbered shape as Morgan's and Lucy's boards (T1, T1.1, T1.1.1). Every line comes from `docs/build-plan-nfr-draft-2026-11-12.md`, boxes 1 to 4, which the owner approved on 2026-11-12, and boxes 5 and 6, which the owner approved on 2026-11-15. This file is the master copy. Figma must say "same as this file, [date]" and match it word for word, except that the † marks below appear only in this file.
 
 **What † means:** the build plan tags that row "Proposed" inside an approved box. On 2026-11-15 the owner said to include those rows. They are in the Figma list without the mark. Open items about them stay in the build plan file.
 
-**Why the groups are in this order:** the lecture's build plan lists the non-functional parts as tool selection, database architecture, system architecture, security protocol, development operations and quality engineering (Week 2 lecture, about 45:40 to 48:09; lecture notes, "Non-Functional Requirements and Build Plan"). T1 to T4 are the first four. T5 and T6 are left out until the owner approves box 5 (a Proposed draft) and box 6 (not written yet). Morgan's and Lucy's lists are grouped differently (by technical area and by requirement area). The lecture does not say how to shape this list, so the instructor's order is used.
+**Why the groups are in this order:** the lecture's build plan lists the non-functional parts as tool selection, database architecture, system architecture, security protocol, development operations and quality engineering (Week 2 lecture, about 45:40 to 48:09; lecture notes, "Non-Functional Requirements and Build Plan"). T1 to T4 are the first four. T5 and T6 were added on 2026-11-15 after the owner approved boxes 5 and 6. Morgan's and Lucy's lists are grouped differently (by technical area and by requirement area). The lecture does not say how to shape this list, so the instructor's order is used.
 
 **Why a "Grounded in" line:** Lucy's board has a traceability table that says where each area comes from. Each group below ends with one line that does the same.
 
@@ -77,10 +77,47 @@
 
 *Grounded in: build plan box 4; the risk profile (consent, access control, FTC breach rule); the OWASP Top 10:2025 list; the Week 4 page and its safety checklist (keys, fake data); the Vision and Scope barrier "Health data and consent are a risk."*
 
+## T5. Development operations
+**T5.1 How code reaches users**
+- T5.1.1 Each piece of work gets its own branch from `main` and its own pull request.
+- T5.1.2 The structure check (`arch-gate`) blocks a commit when it fails, and `security-review` runs before code with keys or personal data is committed.
+- T5.1.3 Automatic checks run on GitHub on every pull request (build, tests and a package audit), and the owner reads the results before merging. Branch protection is not used for now.
+- T5.1.4 Vercel builds a preview copy for every push and puts `main` on the live site when the owner merges.
+- T5.1.5 The live site can be rolled back to the last good version.
+
+**T5.2 Database changes**
+- T5.2.1 † Every table change is a migration file kept in GitHub, and none is made by hand in the dashboard.
+- T5.2.2 † Row-level security rules live in the same migration files.
+- T5.2.3 Supabase Pro backups (7 days) are turned on before any real caregiver data.
+
+**T5.3 Settings and keys**
+- T5.3.1 † Keys live in Vercel's environment settings, with separate values for preview and live.
+- T5.3.2 Only fake data is used in every copy of the app (local, preview and live) while building in Week 4.
+
+*Grounded in: build plan box 5; the lecture on development operations (49:08 to 49:38); the Week 5 page (checks on every push, no branch protection needed); the Vercel and Supabase vendor pages; the Week 4 page (fake data).*
+
+## T6. Quality engineering
+**T6.1 What the checks catch**
+- T6.1.1 The checks look for new bugs, regressions, drift from the architecture decisions, unexpected behavior, errors, failed links between systems, and confusing or slow screens.
+
+**T6.2 How many tests of each kind**
+- T6.2.1 Most tests are unit tests, fewer are integration tests, and the fewest are end-to-end tests, which are not automated in large numbers.
+- T6.2.2 † The consent check, care circle access and deletion rules from the Epic 3 scenarios are tested at the lowest level that can prove them.
+
+**T6.3 What runs on every push**
+- T6.3.1 At least three automatic checks run on every push, built from the use cases and BDD scenarios.
+- T6.3.2 The Week 1 Claude Skills are checked on every push, and a push that breaks them does not pass.
+- T6.3.3 A check that should fail is shown to fail.
+
+**T6.4 What a person tests**
+- T6.4.1 Two test case scenarios are run by hand on the live app, with the pre-conditions, steps, expected results and what actually happened written down.
+- T6.4.2 † The two scenarios are the parent agreeing to a safer move and consent not being recorded.
+
+*Grounded in: build plan box 6; the lecture on quality engineering (49:43 to 50:19); the Week 5 lecture notes (what to catch, the testing pyramid, who does QA) and the Week 5 coding challenge (checks on every push, two hand-run scenarios).*
+
 ---
 
 ## Not in this file
-- **T5 Development operations** and **T6 Quality engineering:** waiting on boxes 5 and 6.
 - **Accessibility, plain language and browser support:** in Morgan's and Lucy's lists, but not in the Vision and Scope or the build plan. New content the owner has not decided.
 
 ## Known limits

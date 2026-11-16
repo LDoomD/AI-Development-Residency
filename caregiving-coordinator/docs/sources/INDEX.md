@@ -607,3 +607,21 @@ Checklist: `docs/research-checklist-laws-database-2026-11-12.md`. Answers: secti
 | 70, 71 | Connecticut AG privacy act enforcement reports for 2025 (Jan 2026) and 2024 (Apr 17, 2025) | As listed |
 
 Plain-text copies are in `sources/text/`. Numbers 34 to 37, 45 to 47 and 55 are unused.
+
+## 2026-11-12: Build plan, system architecture sources (`build-plan-2026-11-12/`)
+
+Fetched with curl on 2026-11-12. Plain-text copies are in `text/`, and the URLs are in `urls.tsv`.
+
+| File | What it is | Date | Original URL |
+|---|---|---|---|
+| `01-supabase-auth-smtp.html` | Supabase: send emails with custom SMTP (the built-in server is not for production) | Updated Oct 31, 2026 | https://supabase.com/docs/guides/auth/auth-smtp |
+| `02-supabase-invite-user.html` | Supabase JS reference: inviteUserByEmail | No date | https://supabase.com/docs/reference/javascript/auth-admin-inviteuserbyemail |
+| `03-supabase-ssr-nextjs.html` | Supabase: server-side auth for Next.js (cookie sessions) | Updated Oct 22, 2026 | https://supabase.com/docs/guides/auth/server-side/nextjs |
+| `04-vercel-nextjs.html` | Vercel: Next.js on Vercel | Last updated Sep 8, 2026 | https://vercel.com/docs/frameworks/full-stack/nextjs |
+| `05-mui-nextjs.html` | Material UI: Next.js integration | No date | https://mui.com/material-ui/integrations/nextjs/ |
+| `06-supabase-rls.html` | Supabase: row-level security | Updated Nov 3, 2026 | https://supabase.com/docs/guides/database/postgres/row-level-security |
+| `07-vercel-git-deployments.html` | Vercel: deploying with Git (preview for every push, production, rollbacks) | Last updated Sep 18, 2026 | https://vercel.com/docs/deployments/git |
+| `08-vercel-environments.html` | Vercel: environments (local, preview, production) | Last updated Sep 17, 2026 | https://vercel.com/docs/deployments/environments |
+| `09-supabase-migrations.html` | Supabase: deploy database migrations | Updated Nov 2, 2026 | https://supabase.com/docs/guides/deployment/database-migrations |
+| `10-github-required-checks.html` | GitHub: about protected branches (required status checks) | No date | https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches |
+| `11-course-facts-live-weeks.md` | Word-for-word quotes from the live Week 2 and 3, Week 4, Week 5 and Week 7 course copies and the Keep Your App Safe Checklist, behind the 8 build plan fixes | Saved 2026-11-15 (course copies read 2026-11-13) | Course copies under `.claude/skills/residency-context/reference/` and `Resources/Week_4/` |
