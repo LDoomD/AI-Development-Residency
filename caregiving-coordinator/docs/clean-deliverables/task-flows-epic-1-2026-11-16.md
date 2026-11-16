@@ -1,4 +1,4 @@
-# Task flows for Epic 1 (drawn 2026-11-16, not yet read by the owner)
+# Task flows for Epic 1 (drawn 2026-11-16, read and accepted by the owner 2026-11-16)
 
 **What this is:** two task flows for Epic 1, "Remove the barriers that keep caregivers from getting a real break," one per audience, in the same shape as the two Epic 3 flows (`task-flows-epic-3-2026-11-15.md`). They are drawn in Figma in the section "TASK FLOWS (Epic 1)," next to "TASK FLOWS (Epic 3)." This file is the master copy. The Figma boxes must say the same words.
 
@@ -8,7 +8,7 @@
 
 **What each flow draws:** only what the six approved Epic 1 pages say (`task-pages-epic-1-2026-11-15.md`). No screens or features are added. Each branch shows the happy path and the non-happy path, as the board asks. There is no consent check in these flows. The Epic 1 pages hold the caregiver's own records and a break plan, not health notes about the parent or partner, so the approved collect and share consents (T4.1.2) do not apply to them. Whether the caregiver's own records need a consent is a lawyer's question (risk profile, open question 1).
 
-**Tags:** Claude's wording (Proposed), drawn from the six pages. The owner has not yet read the flows.
+**Tags:** Claude's wording, drawn from the six pages. The owner read the flows on 2026-11-16 and said they are good.
 
 ## Flow 3: Audience 1, adult child. Getting a break and coping
 Use cases "Getting relatives to cover time off" and "Handling guilt and setting limits they can keep" (feature 1.1). Tasks 1.1.1, 1.1.2 and 1.1.3. Three branches.
