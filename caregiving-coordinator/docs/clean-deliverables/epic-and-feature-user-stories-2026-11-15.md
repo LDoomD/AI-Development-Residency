@@ -57,15 +57,17 @@ Each use case from `vision-and-scope-boards-2026-11-10.md` (11 for Audience 1, 6
 | Feature | Use cases |
 |---|---|
 | 1.1 Getting real breaks they can afford (A1) | 1. Adult children finding a break they can afford and qualify for.<br>2. Adult children handling guilt and setting limits they can keep.<br>3. Adult children getting relatives to cover time off. |
-| 1.2 Getting real breaks and a life outside caring (A2) | 1. Spouses taking a break knowing their partner is cared for.<br>2. Spouses finding a support group or someone who understands.<br>3. Spouses qualifying for help, including VA programs. |
+| 1.2 Getting real breaks and a life outside caring (A2) | 1. Spouses taking a break knowing their partner is cared for.<br>2. Spouses finding a support group or someone who understands.<br>3. Spouses qualifying for help, including VA programs.<br>4. Spouses keeping moments of closeness with their partner (audience table scenario, not in the 17 MVP use cases). |
 | 2.1 Having siblings share the care and costs (A1) | 1. Adult children splitting care and costs among relatives.<br>2. Adult children keeping every relative informed. |
 | 2.2 Having relatives who support, not criticize (A2) | 1. Spouses asking for specific help.<br>2. Spouses showing family what the care really involves. |
 | 4.1 Calming outbursts and calls, and staying calm themselves (A1) | 1. Adult children preparing for a hard talk.<br>2. Adult children calming an outburst in the moment. |
-| 4.2 Understanding the behavior and how to respond (A2) | None in MVP #1. Left empty by the owner. |
+| 4.2 Understanding the behavior and how to respond (A2) | 1. Spouses understanding what a behavior means (MMP, not in MVP #1).<br>2. Spouses finding words that calm (MMP, not in MVP #1). |
 | 5.1 Having legal authority and papers sorted in time (A1) | 1. Adult children getting legal papers in place before a crisis.<br>2. Adult children finding and applying for benefits. |
-| 6.1 Protecting their money and avoiding debt (A2) | None in MVP #1. Left empty by the owner. |
+| 6.1 Protecting their money and avoiding debt (A2) | 1. Spouses seeing what money comes in and goes out (MMP, not in MVP #1).<br>2. Spouses finding caregiver pay and credits (MMP, not in MVP #1). |
 
-Why 4.2 and 6.1 are empty: the owner took four Audience 2 use cases off MVP #1 (understanding what a behavior means, finding words that calm, seeing what money comes in and goes out, finding caregiver pay and credits). They stay on MMP.
+Why 4.2 and 6.1 list MMP use cases (owner, 2026-11-15, option 1): the owner took four Audience 2 use cases off MVP #1 because they ranked Medium and Low and MVP #1 should stay smaller than MMP (`vision-and-scope-boards-2026-11-10.md`, lines 176 and 200). They stay on MMP, so they are listed here marked "MMP, not in MVP #1." The count of 17 MVP use cases does not change.
+
+Feature 1.2 also lists "Spouses keeping moments of closeness with their partner." It comes from the audience table (`Audience Use Cases.csv`, line 116) and is in neither the 6 MVP use cases nor the 4 MMP ones in `vision-and-scope-boards-2026-11-10.md`. It is listed so task 1.2.3 has a use case (owner delegated this on 2026-11-15, on Claude's recommendation). The 17 does not change.
 
 Three placements are Claude's reading, approved by the owner: "Getting relatives to cover time off" under 1.1 (matches the Epic 1 task pages), and "Finding a support group or someone who understands" and "Qualifying for help, including VA programs" under 1.2.
 
