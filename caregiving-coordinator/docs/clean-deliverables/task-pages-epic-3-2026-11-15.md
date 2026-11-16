@@ -115,6 +115,17 @@ Use case 2 of feature 3.1, "trying small steps when the answer is no" (scenario:
 - **WHEN** I try to open the parent's health notes
 - **THEN** I cannot see them
 
+**Scenario 6: share consent is recorded (happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** another member of my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** I did not write the note
+- **AND** the collect consent is recorded for my parent
+- **AND** the share consent is recorded for my parent
+- **WHEN** I try to open the parent's health notes
+- **THEN** I can see them
+
 ### Technical Requirements
 **Approved rules (from the non-functional list):** T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deleting the person deletes the notes), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access) and T6.2.2 (consent, circle access and deletion tested at the lowest level).
 
@@ -124,9 +135,9 @@ Use case 2 of feature 3.1, "trying small steps when the answer is no" (scenario:
 - **Deletion:** deleting the cared-for person deletes their notes (T2.2.3). Deleting the caregiver deletes the notes that caregiver wrote. This is a proposed reading of T2.2.3 and of the risk profile (line 52), which says an account deletion must also handle the data the caregiver entered.
 - **Date last changed:** marking a step done or not done sets its time from the server's clock, not the browser's. Only the latest change is kept, and there is no separate history table for now. A not-done step is never deleted or locked.
 - **Counting:** a database function returns numbers only (steps per status for the caller's own circle), never text.
-- **Checks:** with fake data (T4.2.3): add a step and mark it done, then not done, and the date moves each time and the step stays visible; saving with no collect consent is rejected and nothing is stored; a fake person outside the circle gets an empty list and cannot write; deleting the fake parent leaves zero notes; the count function returns the right numbers and no text; a view and a change each add one access log row, and an update to the log is refused (T4.1.3).
+- **Checks:** with fake data (T4.2.3): add a step and mark it done, then not done, and the date moves each time and the step stays visible; saving with no collect consent is rejected and nothing is stored; a fake person outside the circle gets an empty list and cannot write; deleting the fake parent leaves zero notes; the count function returns the right numbers and no text; a view and a change each add one access log row, and an update to the log is refused (T4.1.3); a circle member who did not write a note sees nothing until the share consent record exists and sees it after (Scenarios 5 and 6).
 
-**Open (not decided here):** whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1); whether notes written by other members are deleted when a caregiver is deleted; and whether access log rows are deleted with the person, since T4.1.3 says no one can edit the log and T2.2.3 says to delete the health data. The separate share consent (T2.2.4, T4.1.2) is tested by Scenario 5.
+**Open (not decided here):** whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1); whether notes written by other members are deleted when a caregiver is deleted; and whether access log rows are deleted with the person, since T4.1.3 says no one can edit the log and T2.2.3 says to delete the health data. The separate share consent (T2.2.4, T4.1.2) is tested by Scenarios 5 and 6.
 
 ---
 
@@ -235,6 +246,17 @@ Task flow: Flow 1, the Audience 1 flow (this task is Part 1, raising it and reco
 - **WHEN** I try to open the parent's notes about a safer move
 - **THEN** I cannot see them
 
+**Scenario 6: share consent is recorded (happy path)**
+- **USE CASE:** Getting the parent to accept outside help (feature 3.1, use case 1)
+- **AS A:** another member of my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** I did not write the note
+- **AND** the collect consent is recorded for my parent
+- **AND** the share consent is recorded for my parent
+- **WHEN** I try to open the parent's notes about a safer move
+- **THEN** I can see them
+
 ### Technical Requirements
 **Approved rules (from the non-functional list):** T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access), T6.2.2 (consent, circle access and deletion tested at the lowest level) and T6.4.2 (this page's Scenarios 1 and 3 are the two scenarios run by hand).
 
@@ -244,9 +266,9 @@ Task flow: Flow 1, the Audience 1 flow (this task is Part 1, raising it and reco
 - **Deletion:** same as task 3.1.1. Deleting the person or the move deletes its next-step rows.
 - **Date last changed:** recording or changing the answer sets its time from the server's clock. The raised date is the caregiver's own typed date and is a separate field. Only the latest change is kept.
 - **Counting:** the same numbers-only function, counting moves per answer (accepted, not yet, refused).
-- **Checks:** with fake data (T4.2.3): record accepted and it shows with the date (Scenario 1); record not yet or refused with a reason and one next step and the move stays on the list (Scenario 2); saving with no collect consent is rejected (Scenario 3); an outside fake person sees nothing (Scenario 4); deleting the fake parent leaves zero moves and zero next steps; the count function returns the right numbers; a person runs Scenarios 1 and 3 by hand on the live app and writes down what happened (T6.4.1).
+- **Checks:** with fake data (T4.2.3): record accepted and it shows with the date (Scenario 1); record not yet or refused with a reason and one next step and the move stays on the list (Scenario 2); saving with no collect consent is rejected (Scenario 3); an outside fake person sees nothing (Scenario 4); deleting the fake parent leaves zero moves and zero next steps; the count function returns the right numbers; a person runs Scenarios 1 and 3 by hand on the live app and writes down what happened (T6.4.1); a circle member who did not write a note sees nothing until the share consent record exists and sees it after (Scenarios 5 and 6).
 
-**Open (not decided here):** the same consent, share consent and deletion questions as task 3.1.1 (the separate share consent is tested by Scenario 5). What parents accept is not researched, so no advice text is built.
+**Open (not decided here):** the same consent, share consent and deletion questions as task 3.1.1 (the separate share consent is tested by Scenarios 5 and 6). What parents accept is not researched, so no advice text is built.
 
 ---
 
@@ -366,6 +388,17 @@ Also use case 1, "getting the parent to accept outside help," for the situation 
 - **WHEN** I try to open the list of refused items
 - **THEN** I cannot see it
 
+**Scenario 7: share consent is recorded (happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** another member of my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** I did not write the note
+- **AND** the collect consent is recorded for my parent
+- **AND** the share consent is recorded for my parent
+- **WHEN** I try to open the list of refused items
+- **THEN** I can see it
+
 ### Technical Requirements
 **Approved rules (from the non-functional list):** T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access) and T6.2.2 (consent, circle access and deletion tested at the lowest level).
 
@@ -375,9 +408,9 @@ Also use case 1, "getting the parent to accept outside help," for the situation 
 - **Deletion:** deleting the person deletes the items and all their steps. Deleting a step never deletes its item.
 - **Date last changed:** recording a step's answer sets its time from the server's clock. The item's answer changes in the same database action, so the two cannot disagree. Only the latest change is kept. An accepted item stays stored and only leaves the open list.
 - **Counting:** the same numbers-only function, counting items and steps per answer.
-- **Checks:** with fake data (T4.2.3): accept a step and the item shows accepted and leaves the list (Scenario 1); refuse again and add a second step and both steps show (Scenario 2); add a paid-help item with no earlier record (Scenario 3); saving with no collect consent is rejected (Scenario 4); an outside fake person sees nothing (Scenario 5); deleting the fake parent leaves zero items and steps; the count function returns the right numbers.
+- **Checks:** with fake data (T4.2.3): accept a step and the item shows accepted and leaves the list (Scenario 1); refuse again and add a second step and both steps show (Scenario 2); add a paid-help item with no earlier record (Scenario 3); saving with no collect consent is rejected (Scenario 4); an outside fake person sees nothing (Scenario 5); deleting the fake parent leaves zero items and steps; the count function returns the right numbers; a circle member who did not write a note sees nothing until the share consent record exists and sees it after (Scenarios 6 and 7).
 
-**Open (not decided here):** whether a task 3.1.1 step marked "not done" shows in the refused list, since 3.1.1 has no "refused" status; and the same consent, share consent and deletion questions as task 3.1.1 (the separate share consent is tested by Scenario 6).
+**Open (not decided here):** whether a task 3.1.1 step marked "not done" shows in the refused list, since 3.1.1 has no "refused" status; and the same consent, share consent and deletion questions as task 3.1.1 (the separate share consent is tested by Scenarios 6 and 7).
 
 ---
 
@@ -483,6 +516,17 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - **WHEN** I try to open the partner's list of topics
 - **THEN** I cannot see it
 
+**Scenario 6: share consent is recorded (happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: raise hard topics without a fight)
+- **AS A:** another member of my partner's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** I did not write the note
+- **AND** the collect consent is recorded for my partner
+- **AND** the share consent is recorded for my partner
+- **WHEN** I try to open the partner's list of topics
+- **THEN** I can see it
+
 ### Technical Requirements
 **Approved rules (from the non-functional list):** T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access) and T6.2.2 (consent, circle access and deletion tested at the lowest level).
 
@@ -492,9 +536,9 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - **Deletion:** deleting the partner deletes their topics (T2.2.3). Deleting the caregiver deletes the notes that caregiver wrote. This is a proposed reading of T2.2.3 and of the risk profile (line 52), which says an account deletion must also handle the data the caregiver entered.
 - **Date last changed:** each status change sets its time from the server's clock. Only the latest change is kept. The "what to try next time" text is kept after a fight.
 - **Counting:** the same numbers-only function, counting topics per status (for example agreed and turned into a fight).
-- **Checks:** with fake data (T4.2.3): add a topic and mark it agreed and the date shows (Scenario 1); mark a fight with a next-time note and the topic stays and the note is kept (Scenario 2); saving with no collect consent is rejected (Scenario 3); an outside fake person sees nothing (Scenario 4); deleting the fake partner leaves zero topics; the count function returns the right numbers.
+- **Checks:** with fake data (T4.2.3): add a topic and mark it agreed and the date shows (Scenario 1); mark a fight with a next-time note and the topic stays and the note is kept (Scenario 2); saving with no collect consent is rejected (Scenario 3); an outside fake person sees nothing (Scenario 4); deleting the fake partner leaves zero topics; the count function returns the right numbers; a circle member who did not write a note sees nothing until the share consent record exists and sees it after (Scenarios 5 and 6).
 
-**Open (not decided here):** whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1); and whether notes about fights should be private to the writer. T4.1.4 does not cover this page, and the page says the circle can see them. The separate share consent (T2.2.4, T4.1.2) is tested by Scenario 5.
+**Open (not decided here):** whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1); and whether notes about fights should be private to the writer. T4.1.4 does not cover this page, and the page says the circle can see them. The separate share consent (T2.2.4, T4.1.2) is tested by Scenarios 5 and 6.
 
 ---
 
@@ -611,6 +655,17 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - **WHEN** I try to open the partner's list of care and money tasks
 - **THEN** I cannot see it
 
+**Scenario 7: share consent is recorded (happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: agree on who does what)
+- **AS A:** another member of my partner's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** I did not add the task
+- **AND** the collect consent is recorded for my partner
+- **AND** the share consent is recorded for my partner
+- **WHEN** I try to open the partner's list of care and money tasks
+- **THEN** I can see it
+
 ### Technical Requirements
 **Approved rules (from the non-functional list):** T2.1.2 (care tasks table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.1 (members see only their own circle, role changes visible), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access) and T6.2.2 (consent, circle access and deletion tested at the lowest level).
 
@@ -620,9 +675,9 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - **Deletion:** deleting the partner or the circle deletes its tasks (T2.2.3). Deleting the caregiver deletes the notes that caregiver wrote. This is a proposed reading of T2.2.3 and of the risk profile (line 52), which says an account deletion must also handle the data the caregiver entered. The helper's name is deleted with its task.
 - **Date last changed:** changing the handler or the agreement sets the time from the server's clock. The page needs the earlier person to stay visible, so one column keeps the one earlier handler, and a third change overwrites the first. There is no separate history table.
 - **Counting:** a numbers-only function counting tasks per handler type (caregiver, partner, helper) and per agreement status.
-- **Checks:** with fake data (T4.2.3): choose each of the three handlers and the date shows (Scenario 1); change the handler and the new person and date show while the earlier person stays (Scenario 2); mark not agreed with a note and the note is kept and the task stays (Scenario 3); saving with no collect consent is rejected (Scenario 4); an outside fake person sees nothing (Scenario 5); a handler from another fake circle is rejected; deleting the fake partner leaves zero tasks; the count function returns the right numbers.
+- **Checks:** with fake data (T4.2.3): choose each of the three handlers and the date shows (Scenario 1); change the handler and the new person and date show while the earlier person stays (Scenario 2); mark not agreed with a note and the note is kept and the task stays (Scenario 3); saving with no collect consent is rejected (Scenario 4); an outside fake person sees nothing (Scenario 5); a handler from another fake circle is rejected; deleting the fake partner leaves zero tasks; the count function returns the right numbers; a circle member who did not write a task sees nothing until the share consent record exists and sees it after (Scenarios 6 and 7).
 
-**Open (not decided here):** whether more than one earlier handler must stay visible (this would need a history table, so it is the owner's call); whether invited relatives may change tasks, or only the main caregiver; whether a helper's name needs its own consent (a lawyer's question); whether care and money tasks are written to the access log, which T4.1.3 limits to health notes; and whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1). The separate share consent (T2.2.4, T4.1.2) is tested by Scenario 6.
+**Open (not decided here):** whether more than one earlier handler must stay visible (this would need a history table, so it is the owner's call); whether invited relatives may change tasks, or only the main caregiver; whether a helper's name needs its own consent (a lawyer's question); whether care and money tasks are written to the access log, which T4.1.3 limits to health notes; and whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1). The separate share consent (T2.2.4, T4.1.2) is tested by Scenarios 6 and 7.
 
 ---
 
