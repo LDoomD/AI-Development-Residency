@@ -4,7 +4,7 @@
 
 **Why these pages exist:** the owner decided on 2026-11-15 to do the standard homework and all 11 first tasks (5 in Epic 3, 6 in Epic 1), because the Notion board already holds all 11 cards and the roadmap puts Epic 1 in the second of the next two weeks (`release-roadmap-2026-11-11.md`, `notion-backlog-2026-11-11.md`).
 
-**Rules used on every page:** record-only slices (no invented advice, because the saved research counts how often problems come up but not what helps). Anything in Claude's own words is tagged Proposed. No task flow is drawn for Epic 1 (task flows are bonus homework, and Epic 3's two flows are already done).
+**Rules used on every page:** record-only slices (no invented advice, because the saved research counts how often problems come up but not what helps). Anything in Claude's own words is tagged Proposed. Task flows for Epic 1 were drawn on 2026-11-16 and are saved in `task-flows-epic-1-2026-11-16.md` (Flow 3 for Audience 1, Flow 4 for Audience 2).
 
 **Status:**
 | Task | Notion page | Status |
@@ -47,18 +47,18 @@ As an adult child caring for a parent, I want family or paid help to step in whe
 ### Expected Deliverables (Proposed)
 - A working way to record a break, who covers it and whether it happened, using fake data.
 - The scenarios below pass.
-- **Definition of done (Proposed):** The caregiver can add a break with start and end dates, choose who covers it (a relative, paid help they name, or no one yet), mark the cover as not asked, asked, confirmed or fell through, and mark whether the break happened, using fake data. Only people in the care circle can see it. All the scenarios below pass. Not included: finding or qualifying for a program, costs, advice on how to ask, and notes about the parent's needs for the helper (those would be a health note).
+- **Definition of done (Proposed):** The caregiver can record a break with start and end dates, say who covers it (a relative, paid help they name, or no one yet), see and change where the cover stands (not asked, asked, confirmed or fell through), and record whether the break happened, using fake data. Only people in the care circle can see it. All the scenarios below pass. Not included: finding or qualifying for a program, costs, advice on how to ask, and notes about the parent's needs for the helper (those would be a health note).
 
 ### Use Cases to Support
-Use case "Getting relatives to cover time off" (feature 1.1). Paid help is recorded by name. Finding it, qualifying for it and paying for it are not part of this task. No task flow is drawn for Epic 1.
+Use case "Getting relatives to cover time off" (feature 1.1). Paid help is recorded by name. Finding it, qualifying for it and paying for it are not part of this task. Task flow: Flow 3, branch A, Audience 1 (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3118-9375), in the Figma section "TASK FLOWS (Epic 1)."
 - Happy path (Proposed): someone steps in and the break happens.
 - Non-happy path (Proposed): the cover falls through.
 
 ### Acceptance (Proposed)
-- The caregiver can add a break they want, with a start and end date.
-- They can choose who covers it: a relative, paid help they name, or no one yet.
-- They can mark the cover: not asked, asked, confirmed, or fell through.
-- After the break they can mark whether it happened.
+- The caregiver can record a break they want, with a start and end date.
+- The caregiver can say who covers it: a relative, paid help they name, or no one yet.
+- The caregiver can see where the cover stands (not asked, asked, confirmed, or fell through) and can change it.
+- After the break, the caregiver can record whether it happened.
 - Only people in the care circle can see it.
 - The record of each break (planned, covered, taken) can be counted, so the KPI "% of caregivers who get a real break" can be measured later.
 
@@ -150,7 +150,7 @@ As an adult child caring for a parent, I want to cope with my guilt and grief an
 - **Definition of done (Proposed):** The caregiver can record how they are holding up in their own words with a date, choose one next step, and see and change whether it is not started, done or not done, using fake data. Only the person who wrote it can see it. All the scenarios below pass. Not included: advice on how to cope, referrals to counselors, grief resources, support groups, and any crisis help.
 
 ### Use Cases to Support
-Use case "Handling guilt and setting limits they can keep" (feature 1.1). No task flow is drawn for Epic 1.
+Use case "Handling guilt and setting limits they can keep" (feature 1.1). Task flow: Flow 3, branch B, Audience 1 (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3118-9375), in the Figma section "TASK FLOWS (Epic 1)."
 - Happy path (Proposed): they write a check-in and do the step.
 - Non-happy path (Proposed): the step is not done.
 
@@ -244,7 +244,7 @@ As an adult child caring for a parent, I want to set limits on what I take on wi
 - **Definition of done (Proposed):** The caregiver can record one or more limits for themselves in their own words with a date, and see and change whether each is not tried yet, kept or not kept, using fake data. Only the person who recorded them can see them. All the scenarios below pass. Not included: advice on which limits to set, scripts, messages to the parent or relatives, referrals to counselors, and any crisis help.
 
 ### Use Cases to Support
-Use case "Handling guilt and setting limits they can keep" (feature 1.1). No task flow is drawn for Epic 1.
+Use case "Handling guilt and setting limits they can keep" (feature 1.1). Task flow: Flow 3, branch C, Audience 1 (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3118-9375), in the Figma section "TASK FLOWS (Epic 1)."
 - Happy path (Proposed): they record a limit and keep it.
 - Non-happy path (Proposed): the limit is not kept.
 
@@ -342,7 +342,7 @@ As a spouse or partner caring for my partner, I want people who understand what 
 - **Definition of done (Proposed):** The spouse can add a person or group who understands (a name and a note on how to reach them, in their own words), record the date they last reached out, and change or remove an entry, using fake data. Only the person who recorded them can see them. All the scenarios below pass. Not included: finding new groups or people, matching, chat, advice on who to lean on, referrals to counselors, and any crisis help.
 
 ### Use Cases to Support
-Use case "Finding a support group or someone who understands" (feature 1.2). No task flow is drawn for Epic 1. This slice covers recording people the spouse already knows. Finding new groups is a later piece.
+Use case "Finding a support group or someone who understands" (feature 1.2). Task flow: Flow 4, branch A, Audience 2 (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3118-9375), in the Figma section "TASK FLOWS (Epic 1)." This slice covers recording people the spouse already knows. Finding new groups is a later piece.
 - Happy path (Proposed): they add someone and record reaching out.
 - Non-happy path (Proposed): the person is no longer someone they can lean on, so they remove or change the entry.
 
@@ -436,7 +436,7 @@ As a spouse or partner caring for my partner, I want to get through the paperwor
 - **Definition of done (Proposed):** The spouse can record a program they are applying to (a name, in their own words), add the steps they need to do (in their own words), and see and change where each step stands, with the date they last changed it, using fake data. Only the person who recorded them can see them. All the scenarios below pass. Not included: eligibility rules, what a program offers, filling in or sending forms, any link to the VA or a state office, advice on which program to choose, referrals, and any crisis help.
 
 ### Use Cases to Support
-Use case "Qualifying for help, including VA programs" (feature 1.2). No task flow is drawn for Epic 1.
+Use case "Qualifying for help, including VA programs" (feature 1.2). Task flow: Flow 4, branch B, Audience 2 (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3118-9375), in the Figma section "TASK FLOWS (Epic 1)."
 - Happy path (Proposed): they record a program and its steps and finish a step.
 - Non-happy path (Proposed): the program turns them down, and they keep their record.
 
@@ -531,7 +531,7 @@ As a spouse or partner caring for my partner, I want to feel close to my partner
 - **Definition of done (Proposed):** The spouse can record one or more moments of closeness they want to keep with their partner (in their own words, with a date), and see and change whether each is still to come, happened or did not happen, using fake data. Only the person who recorded them can see them. All the scenarios below pass. Not included: advice on how to be close, prompts or ideas, referrals to counselors, messages to the partner, and any crisis help.
 
 ### Use Cases to Support
-Use case "Spouses keeping moments of closeness with their partner" (feature 1.2), from the audience table (`Audience Use Cases.csv`, line 116). It is not one of the 17 MVP use cases. No task flow is drawn for Epic 1.
+Use case "Spouses keeping moments of closeness with their partner" (feature 1.2), from the audience table (`Audience Use Cases.csv`, line 116). It is not one of the 17 MVP use cases. Task flow: Flow 4, branch C, Audience 2 (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3118-9375), in the Figma section "TASK FLOWS (Epic 1)."
 - Happy path (Proposed): they record a moment and it happens.
 - Non-happy path (Proposed): the moment does not happen, and they keep their record.
 

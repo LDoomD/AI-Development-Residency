@@ -42,10 +42,10 @@ As an adult child caring for a parent, I want to know whether my parent follows 
 "We want them to see the parent take care of their health." (`Audience Use Cases.csv`, line 48)
 
 ### Expected Deliverables (Proposed)
-- A working way to note one agreed health step and whether it happened, using fake data.
+- A working way to record one agreed health step and whether it happened, using fake data.
 - The Given/When/Then scenarios below pass.
 - The care notes table exists with its security rules.
-- **Definition of done (Proposed):** The caregiver can note one health step the parent agreed to, mark it done or not done, and see the date, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: tracking medicines, knowing when to step in for safety, and seeing follow-through across steps over time.
+- **Definition of done (Proposed):** The caregiver can record one health step the parent agreed to, record whether it was done or not done, and see the date, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: tracking medicines, knowing when to step in for safety, and seeing follow-through across steps over time.
 
 ### Use Cases to Support
 Task flow: Flow 1, the Audience 1 flow (this task is Part 2, trying small steps) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
@@ -55,9 +55,10 @@ Use case 2 of feature 3.1, "trying small steps when the answer is no" (scenario:
 - Not included: knowing when to step in for safety (an MMP candidate, not in MVP #1) and tracking medicines (out of MVP #1 per the risk profile).
 
 ### Acceptance (Proposed)
-- The caregiver can note one health step the parent agreed to, in plain words, with a date.
-- The caregiver can mark whether it happened or not.
+- The caregiver can record one health step the parent agreed to, in plain words, with a date.
+- The caregiver can record whether the step happened or not.
 - Only people in that parent's care circle can see it.
+- Another member of the care circle can see a note only after the separate share consent is recorded. Until then, only the person who wrote it can see it. Whose consent counts is still an open lawyer question (risk profile).
 - A health note is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the parent deletes the notes about them.
 - The record of each health step (done or not done) can be counted, so the goal 3 KPI can be measured later.
@@ -103,8 +104,29 @@ Use case 2 of feature 3.1, "trying small steps when the answer is no" (scenario:
 - **WHEN** I try to open the parent's health notes
 - **THEN** I cannot see them
 
+**Scenario 5: share consent is not recorded (non-happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** another member of my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** I did not write the note
+- **AND** the collect consent is recorded for my parent
+- **AND** the share consent is not recorded for my parent
+- **WHEN** I try to open the parent's health notes
+- **THEN** I cannot see them
+
 ### Technical Requirements
-These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
+**Approved rules (from the non-functional list):** T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deleting the person deletes the notes), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access) and T6.2.2 (consent, circle access and deletion tested at the lowest level).
+
+**Developer-role rules (Proposed by the developer role, approved by the owner 2026-11-15):**
+- **Data:** the approved table `care_notes` (T2.1.2). The approved list names the table but not its fields, so these are proposed: id, care circle, cared-for person, who wrote it, kind, text in the caregiver's own words, status, the time the status last changed, and created. This task uses kind `health_step` with statuses agreed, done and not done. The database allows only those statuses for that kind. Left out, as the page says: medicines and knowing when to step in for safety.
+- **Access:** circle members can read (T2.2.1). A write is accepted only if a collect consent record exists for that cared-for person (T4.1.2), and the database checks this, not only the screen. If the check fails, access is denied and the screen shows a plain "record the consent first" message (T4.3.1). A person outside the circle gets nothing, as if the record does not exist. Another member sees a note only after the share consent record exists (T2.2.4, T4.1.2).
+- **Deletion:** deleting the cared-for person deletes their notes (T2.2.3). Deleting the caregiver deletes the notes that caregiver wrote. This is a proposed reading of T2.2.3 and of the risk profile (line 52), which says an account deletion must also handle the data the caregiver entered.
+- **Date last changed:** marking a step done or not done sets its time from the server's clock, not the browser's. Only the latest change is kept, and there is no separate history table for now. A not-done step is never deleted or locked.
+- **Counting:** a database function returns numbers only (steps per status for the caller's own circle), never text.
+- **Checks:** with fake data (T4.2.3): add a step and mark it done, then not done, and the date moves each time and the step stays visible; saving with no collect consent is rejected and nothing is stored; a fake person outside the circle gets an empty list and cannot write; deleting the fake parent leaves zero notes; the count function returns the right numbers and no text; a view and a change each add one access log row, and an update to the log is refused (T4.1.3).
+
+**Open (not decided here):** whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1); whether notes written by other members are deleted when a caregiver is deleted; and whether access log rows are deleted with the person, since T4.1.3 says no one can edit the log and T2.2.3 says to delete the health data. The separate share consent (T2.2.4, T4.1.2) is tested by Scenario 5.
 
 ---
 
@@ -142,7 +164,7 @@ As an adult child caring for a parent, I want my parent to accept a safer move, 
 - A working way to record how the parent answered when a safer move was raised, and the next step to try, using fake data.
 - The scenarios below pass.
 - Not included: advice on how to raise a move in a way the parent accepts. The saved research counts how often parents refuse but not what they accept, so this needs research first (open item).
-- **Definition of done (Proposed):** The caregiver can note the date a safer move was raised and what the parent said, mark the answer as accepted, not yet or refused, and note the reason and one next step to try, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: advice on how to raise a move, finding or paying for a new home, arranging the move, giving up the car, and knowing when to step in for safety.
+- **Definition of done (Proposed):** The caregiver can record the date a safer move was raised and what the parent said, the answer (accepted, not yet or refused), the reason, and one next step to try, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: advice on how to raise a move, finding or paying for a new home, arranging the move, giving up the car, and knowing when to step in for safety.
 
 ### Use Cases to Support
 Task flow: Flow 1, the Audience 1 flow (this task is Part 1, raising it and recording the answer) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
@@ -151,10 +173,11 @@ Task flow: Flow 1, the Audience 1 flow (this task is Part 1, raising it and reco
 - Not included: finding or paying for a new home (MMP), arranging the move or moving to prevent falls (MMP), giving up the car, and knowing when to step in for safety (an MMP candidate).
 
 ### Acceptance (Proposed)
-- The caregiver can note the date a safer move was raised and what the parent said, in plain words.
-- The caregiver can mark the answer: accepted, not yet, or refused.
-- The caregiver can note the reason the parent gave and one next step to try.
+- The caregiver can record the date a safer move was raised and what the parent said, in plain words.
+- The caregiver can record the parent's answer: accepted, not yet, or refused.
+- The caregiver can record the reason the parent gave and one next step to try.
 - Only people in that parent's care circle can see it.
+- Another member of the care circle can see a note only after the separate share consent is recorded. Until then, only the person who wrote it can see it. Whose consent counts is still an open lawyer question (risk profile).
 - A health note is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the parent deletes the notes about them.
 - The record of each answer (accepted, not yet or refused) can be counted, so the goal 3 KPI can be measured later.
@@ -201,8 +224,29 @@ Task flow: Flow 1, the Audience 1 flow (this task is Part 1, raising it and reco
 - **WHEN** I try to open the parent's notes about a safer move
 - **THEN** I cannot see them
 
+**Scenario 5: share consent is not recorded (non-happy path)**
+- **USE CASE:** Getting the parent to accept outside help (feature 3.1, use case 1)
+- **AS A:** another member of my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** I did not write the note
+- **AND** the collect consent is recorded for my parent
+- **AND** the share consent is not recorded for my parent
+- **WHEN** I try to open the parent's notes about a safer move
+- **THEN** I cannot see them
+
 ### Technical Requirements
-These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
+**Approved rules (from the non-functional list):** T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access), T6.2.2 (consent, circle access and deletion tested at the lowest level) and T6.4.2 (this page's Scenarios 1 and 3 are the two scenarios run by hand).
+
+**Developer-role rules (Proposed by the developer role, approved by the owner 2026-11-15):**
+- **Data:** the same `care_notes` table as task 3.1.1, with no new table. New kind `safer_move`. Added fields: the date it was raised (typed by the caregiver), the answer (accepted, not yet or refused), and the reason the parent gave. The one next step is a second row of kind `next_step`, linked to the move, so task 3.1.3 can add more next steps with no rework. Left out, as the page says: advice, finding or paying for a home, and arranging the move.
+- **Access:** Same as task 3.1.1: the collect consent is checked by the database before any write, a denied read shows nothing, and another member sees a note only after the share consent record exists (T2.2.4, T4.1.2).
+- **Deletion:** same as task 3.1.1. Deleting the person or the move deletes its next-step rows.
+- **Date last changed:** recording or changing the answer sets its time from the server's clock. The raised date is the caregiver's own typed date and is a separate field. Only the latest change is kept.
+- **Counting:** the same numbers-only function, counting moves per answer (accepted, not yet, refused).
+- **Checks:** with fake data (T4.2.3): record accepted and it shows with the date (Scenario 1); record not yet or refused with a reason and one next step and the move stays on the list (Scenario 2); saving with no collect consent is rejected (Scenario 3); an outside fake person sees nothing (Scenario 4); deleting the fake parent leaves zero moves and zero next steps; the count function returns the right numbers; a person runs Scenarios 1 and 3 by hand on the live app and writes down what happened (T6.4.1).
+
+**Open (not decided here):** the same consent, share consent and deletion questions as task 3.1.1 (the separate share consent is tested by Scenario 5). What parents accept is not researched, so no advice text is built.
 
 ---
 
@@ -238,7 +282,7 @@ As an adult child caring for a parent, I want to find a next step my parent will
 - A working way to see every refused item with its next steps in one place, and to record what happened when a step was tried, using fake data.
 - The scenarios below pass.
 - Not included: advice on which step to try. The saved research counts how often parents refuse but not what they accept, so this needs research first (open item). Also not included: knowing when to step in for safety (an MMP candidate).
-- **Definition of done (Proposed):** The caregiver can see every refused item with its next steps in one place, record what happened when a step was tried (accepted, not yet or refused), add another next step after a new refusal, and add an item with no earlier record, such as paid help or aids the parent turned down, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: advice on which step to try, and knowing when to step in for safety.
+- **Definition of done (Proposed):** The caregiver can see every refused item with its next steps in one place, record what happened when a step was tried (accepted, not yet or refused), record another next step after a new refusal, and record an item with no earlier record, such as paid help or aids the parent turned down, using fake data. Only people in that parent's care circle can see it. All the scenarios below pass. Not included: advice on which step to try, and knowing when to step in for safety.
 
 ### Use Cases to Support
 Task flow: Flow 1, Part 2 (the next steps) and Part 1 (for paid help or aids), in TASK FLOWS (Epic 3) (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079).
@@ -250,10 +294,11 @@ Also use case 1, "getting the parent to accept outside help," for the situation 
 
 ### Acceptance (Proposed)
 - The caregiver can see every open refused item with its next step.
-- They can record that a step was tried and the answer: accepted, not yet, or refused.
-- After a new refusal they can add another next step, and the earlier ones stay visible.
-- They can add an item that has no earlier record, such as the parent turning down paid help or aids, with what was raised, the parent's answer (accepted, not yet, or refused), the reason if given, and a next step if it was not accepted.
+- The caregiver can record that a step was tried and the answer: accepted, not yet, or refused.
+- After a new refusal, the caregiver can record another next step, and the earlier ones stay visible.
+- The caregiver can record an item that has no earlier record, such as the parent turning down paid help or aids, with what was raised, the parent's answer (accepted, not yet, or refused), the reason if given, and a next step if it was not accepted.
 - Only people in that parent's care circle can see it.
+- Another member of the care circle can see a note only after the separate share consent is recorded. Until then, only the person who wrote it can see it. Whose consent counts is still an open lawyer question (risk profile).
 - A health note is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the parent deletes the notes about them.
 - The record of each answer (accepted, not yet or refused) can be counted, so the goal 3 KPI can be measured later.
@@ -310,8 +355,29 @@ Also use case 1, "getting the parent to accept outside help," for the situation 
 - **WHEN** I try to open the list of refused items
 - **THEN** I cannot see it
 
+**Scenario 6: share consent is not recorded (non-happy path)**
+- **USE CASE:** Trying small steps when the answer is no (feature 3.1, use case 2)
+- **AS A:** another member of my parent's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my parent's care circle
+- **AND** I did not write the note
+- **AND** the collect consent is recorded for my parent
+- **AND** the share consent is not recorded for my parent
+- **WHEN** I try to open the list of refused items
+- **THEN** I cannot see it
+
 ### Technical Requirements
-These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
+**Approved rules (from the non-functional list):** T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access) and T6.2.2 (consent, circle access and deletion tested at the lowest level).
+
+**Developer-role rules (Proposed by the developer role, approved by the owner 2026-11-15):**
+- **Data:** the same `care_notes` table, with no new table. It reuses the `next_step` rows from task 3.1.2, so one item can have many steps and the earlier ones stay. Each step has its own answer (accepted, not yet or refused) and its own status time. New kind `outside_help` is for paid help or aids the parent turned down. Its fields are what was raised, the answer, the reason and a next step. The list of refused items is a read of existing rows whose item is not accepted, not a new table.
+- **Access:** Same as task 3.1.1: the collect consent is checked by the database before any write, a denied read shows nothing, and another member sees a note only after the share consent record exists (T2.2.4, T4.1.2).
+- **Deletion:** deleting the person deletes the items and all their steps. Deleting a step never deletes its item.
+- **Date last changed:** recording a step's answer sets its time from the server's clock. The item's answer changes in the same database action, so the two cannot disagree. Only the latest change is kept. An accepted item stays stored and only leaves the open list.
+- **Counting:** the same numbers-only function, counting items and steps per answer.
+- **Checks:** with fake data (T4.2.3): accept a step and the item shows accepted and leaves the list (Scenario 1); refuse again and add a second step and both steps show (Scenario 2); add a paid-help item with no earlier record (Scenario 3); saving with no collect consent is rejected (Scenario 4); an outside fake person sees nothing (Scenario 5); deleting the fake parent leaves zero items and steps; the count function returns the right numbers.
+
+**Open (not decided here):** whether a task 3.1.1 step marked "not done" shows in the refused list, since 3.1.1 has no "refused" status; and the same consent, share consent and deletion questions as task 3.1.1 (the separate share consent is tested by Scenario 6).
 
 ---
 
@@ -345,7 +411,7 @@ As a spouse or partner caring for my partner, I want to plan with my partner wit
 - A working way to list topics to plan with the partner and record how each talk went, using fake data.
 - The scenarios below pass.
 - Not included: advice on how to raise hard topics. The saved research counts how often this problem comes up but not what partners accept, so this needs research first (open item). Also not included: bringing in a helper.
-- **Definition of done (Proposed):** The caregiver can add a topic to plan with their partner, mark how it went (not raised yet, talked calmly, turned into a fight, or agreed), note what to try next time, and see the date, using fake data. Only people in the care circle can see it. All the scenarios below pass. Not included: advice on how to raise hard topics, and bringing in a helper.
+- **Definition of done (Proposed):** The caregiver can record a topic to plan with their partner, see and change how it went (not raised yet, talked calmly, turned into a fight, or agreed), record what to try next time, and see the date, using fake data. Only people in the care circle can see it. All the scenarios below pass. Not included: advice on how to raise hard topics, and bringing in a helper.
 
 ### Use Cases to Support
 Task flow: Flow 2, branch A, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
@@ -354,10 +420,11 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - Non-happy path (Proposed): the talk turns into a fight.
 
 ### Acceptance (Proposed)
-- The caregiver can add a topic they want to plan with their partner.
-- They can mark it: not raised yet, talked calmly, turned into a fight, or agreed.
-- They can note what to try next time.
+- The caregiver can record a topic they want to plan with their partner.
+- The caregiver can see where each topic stands (not raised yet, talked calmly, turned into a fight, or agreed) and can change it.
+- The caregiver can record what to try next time.
 - Only people in the care circle can see it.
+- Another member of the care circle can see a note about the partner only after the separate share consent is recorded. Until then, only the person who wrote it can see it. Whose consent counts is still an open lawyer question (risk profile).
 - A note about the partner is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the partner deletes the notes about them.
 - The record of each topic (agreed or turned into a fight) can be counted, so the goal 3 KPI can be measured later.
@@ -405,8 +472,29 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - **WHEN** I try to open the partner's list of topics
 - **THEN** I cannot see it
 
+**Scenario 5: share consent is not recorded (non-happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: raise hard topics without a fight)
+- **AS A:** another member of my partner's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** I did not write the note
+- **AND** the collect consent is recorded for my partner
+- **AND** the share consent is not recorded for my partner
+- **WHEN** I try to open the partner's list of topics
+- **THEN** I cannot see it
+
 ### Technical Requirements
-These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
+**Approved rules (from the non-functional list):** T2.1.2 (care notes table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access) and T6.2.2 (consent, circle access and deletion tested at the lowest level).
+
+**Developer-role rules (Proposed by the developer role, approved by the owner 2026-11-15):**
+- **Data:** the same `care_notes` table. New kind `plan_topic`. Fields: the topic in the caregiver's words, the status (not raised yet, talked calmly, turned into a fight, or agreed), and what to try next time. The cared-for person is the partner. The database allows only those four statuses for that kind. Left out, as the page says: advice and bringing in a helper.
+- **Access:** Same as task 3.1.1: the collect consent is checked by the database before any write, a denied read shows nothing, and another member sees a note only after the share consent record exists (T2.2.4, T4.1.2). These notes are about the partner, who may never sign up.
+- **Deletion:** deleting the partner deletes their topics (T2.2.3). Deleting the caregiver deletes the notes that caregiver wrote. This is a proposed reading of T2.2.3 and of the risk profile (line 52), which says an account deletion must also handle the data the caregiver entered.
+- **Date last changed:** each status change sets its time from the server's clock. Only the latest change is kept. The "what to try next time" text is kept after a fight.
+- **Counting:** the same numbers-only function, counting topics per status (for example agreed and turned into a fight).
+- **Checks:** with fake data (T4.2.3): add a topic and mark it agreed and the date shows (Scenario 1); mark a fight with a next-time note and the topic stays and the note is kept (Scenario 2); saving with no collect consent is rejected (Scenario 3); an outside fake person sees nothing (Scenario 4); deleting the fake partner leaves zero topics; the count function returns the right numbers.
+
+**Open (not decided here):** whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1); and whether notes about fights should be private to the writer. T4.1.4 does not cover this page, and the page says the circle can see them. The separate share consent (T2.2.4, T4.1.2) is tested by Scenario 5.
 
 ---
 
@@ -440,7 +528,7 @@ As a spouse or partner caring for my partner, I want us to settle who handles ea
 - A working way to list care and money tasks and record who handles each, using fake data.
 - The scenarios below pass.
 - Not included: inviting other people by email (the email service is not chosen yet), money amounts, accounts or bills (those come with Epics 5 and 6), and reminders.
-- **Definition of done (Proposed):** The caregiver can add a care task or a money task, choose who handles it (the caregiver, the partner, or a helper they name), change it later with the earlier choice kept visible, and mark it not agreed with a note on why, using fake data. Only people in the care circle can see it. All the scenarios below pass. Not included: inviting people by email, money amounts, accounts or bills, and reminders.
+- **Definition of done (Proposed):** The caregiver can record a care task or a money task, say who handles it (the caregiver, the partner, or a helper they name), change it later with the earlier choice kept visible, and record that it is not agreed and why, using fake data. Only people in the care circle can see it. All the scenarios below pass. Not included: inviting people by email, money amounts, accounts or bills, and reminders.
 
 ### Use Cases to Support
 Task flow: Flow 2, branch B, Spouses bringing in help the partner will accept (https://www.figma.com/board/HcDDdEGAnikTImO8v7UPMp/Orlandos-AI-Dev-Residency-Work?node-id=3097-9079), in the Figma section "TASK FLOWS (Epic 3)."
@@ -449,11 +537,12 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - Non-happy path (Proposed): they cannot agree.
 
 ### Acceptance (Proposed)
-- The caregiver can add a care task or a money task.
-- They can choose who handles it: the caregiver, the partner, or another helper they name.
+- The caregiver can record a care task or a money task.
+- The caregiver can say who handles it: the caregiver, the partner, or another helper they name.
 - It shows the date it was agreed. If the owner changes, the earlier owner stays visible.
-- A task can be marked "not agreed" with a note on why.
+- The caregiver can record that a task is not agreed, and why.
 - Only people in the care circle can see it.
+- Another member of the care circle can see a task only after the separate share consent is recorded. Until then, only the person who wrote it can see it. Whose consent counts is still an open lawyer question (risk profile).
 - A note about the partner is not saved until the collect consent is recorded. Whose consent counts is still an open lawyer question (risk profile).
 - Deleting the partner deletes the notes about them.
 - The record of who handles each task (the caregiver, the partner or a helper) can be counted, so the goal 3 KPI can be measured later.
@@ -511,8 +600,29 @@ Use case "Spouses bringing in help the partner will accept," scenario "Help them
 - **WHEN** I try to open the partner's list of care and money tasks
 - **THEN** I cannot see it
 
+**Scenario 6: share consent is not recorded (non-happy path)**
+- **USE CASE:** Spouses bringing in help the partner will accept (scenario: agree on who does what)
+- **AS A:** another member of my partner's care circle
+- **GIVEN** I am signed in
+- **AND** I am in my partner's care circle
+- **AND** I did not add the task
+- **AND** the collect consent is recorded for my partner
+- **AND** the share consent is not recorded for my partner
+- **WHEN** I try to open the partner's list of care and money tasks
+- **THEN** I cannot see it
+
 ### Technical Requirements
-These are the approved rules from the non-functional list, not new ones: T2.1.2 (care notes and care tasks table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.1 (members see only their own circle), T4.1.2 (two consents), T4.1.3 (access log) and T4.2.3 (fake data only in Week 4). Anything beyond these comes from the developer role (Claude Code) later.
+**Approved rules (from the non-functional list):** T2.1.2 (care tasks table), T2.2.1 (row-level security), T2.2.3 (deletion), T4.1.1 (members see only their own circle, role changes visible), T4.1.2 (two consents), T4.1.3 (access log), T4.2.3 (fake data only in Week 4), T4.3.1 (plain error messages, and a failed check denies access) and T6.2.2 (consent, circle access and deletion tested at the lowest level).
+
+**Developer-role rules (Proposed by the developer role, approved by the owner 2026-11-15):**
+- **Data:** the approved table `care_tasks` (T2.1.2). It is separate from `care_notes` because a task has a handler and a note does not. The approved list names the table but not its fields, so these are proposed: id, care circle, cared-for person, who added it, kind (care or money), what the task is in words, who handles it (the caregiver, the partner, or a helper), the handler's circle member (only if that person is a member), the helper's name (only for a helper), agreement status (not decided, agreed or not agreed), the time the agreement last changed, the note on why it is not agreed, the one earlier handler, and created. Left out, as the page says: money amounts, accounts, bills, invitations and reminders.
+- **Access:** circle members can read (T2.2.1, T4.1.1). A handler who is a member must be in the same circle, which the database checks. The partner may not be an app user, so "partner" is a choice and not a link to an account. A write needs the collect consent (checked by the database). A denied read shows nothing. Another member sees a task only after the share consent record exists (T2.2.4, T4.1.2). Only the main caregiver role can add or change tasks (a proposal).
+- **Deletion:** deleting the partner or the circle deletes its tasks (T2.2.3). Deleting the caregiver deletes the notes that caregiver wrote. This is a proposed reading of T2.2.3 and of the risk profile (line 52), which says an account deletion must also handle the data the caregiver entered. The helper's name is deleted with its task.
+- **Date last changed:** changing the handler or the agreement sets the time from the server's clock. The page needs the earlier person to stay visible, so one column keeps the one earlier handler, and a third change overwrites the first. There is no separate history table.
+- **Counting:** a numbers-only function counting tasks per handler type (caregiver, partner, helper) and per agreement status.
+- **Checks:** with fake data (T4.2.3): choose each of the three handlers and the date shows (Scenario 1); change the handler and the new person and date show while the earlier person stays (Scenario 2); mark not agreed with a note and the note is kept and the task stays (Scenario 3); saving with no collect consent is rejected (Scenario 4); an outside fake person sees nothing (Scenario 5); a handler from another fake circle is rejected; deleting the fake partner leaves zero tasks; the count function returns the right numbers.
+
+**Open (not decided here):** whether more than one earlier handler must stay visible (this would need a history table, so it is the owner's call); whether invited relatives may change tasks, or only the main caregiver; whether a helper's name needs its own consent (a lawyer's question); whether care and money tasks are written to the access log, which T4.1.3 limits to health notes; and whose consent counts for a parent or partner who never signs up (a lawyer's question, risk profile open question 1). The separate share consent (T2.2.4, T4.1.2) is tested by Scenario 6.
 
 ---
 

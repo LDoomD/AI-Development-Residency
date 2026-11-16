@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → task-level user stories and acceptance criteria (Epic 1 pages, then the check against the Basic homework) (2026-11-15, late)
 
+> **Replaced by** `dogfood-2026-11-15-handoff-use-case-scenarios-and-share-consent.md` (2026-11-15, night). The Epic 1 pages, story fixes and technical requirements in this report are finished; start from the newer report.
+
 Replaces: `dogfood-2026-11-15-handoff-week-2-3-repo-and-build-plan.md` (the earlier night report; its repository, build plan and Epic 3 task page work is finished, and the backlog file has moved on). Older reports stay replaced: `dogfood-2026-11-15-handoff-week-2-3-iteration-2.md`, `dogfood-2026-11-15-handoff-epics-features-notion-and-task-requirements.md`, `dogfood-2026-11-13-handoff-homework-hub-and-build-plan.md` and earlier.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch`, `git status` and `gh pr list --state open`. Then show me section 4 decision 1 (the task 1.1.2 story) explained, before doing anything else. Explain every decision I must make: what it is, why it matters, the choices, what happens after each. Base everything on my up-to-date saved files and the three master reports, show the file and line for each fact, and write the user story as the course says (goal in I want, not the solution). Ask before Firecrawl, the browser pane or Chrome. Do one step at a time."
