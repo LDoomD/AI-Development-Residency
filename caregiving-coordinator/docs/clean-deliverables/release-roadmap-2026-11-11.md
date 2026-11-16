@@ -39,6 +39,21 @@
 
 The task names are in `epics-features-tasks-2026-11-11.md`, word for word.
 
+## Update 2026-11-16 (Proposed, added under the owner's instruction to finish the roadmap)
+
+**What changed on the board:** one new row, "FOUNDATION (Proposed)," was added at the bottom of the roadmap calendar in Figma (section "Your Release Roadmap," node `3068:9449`, new nodes `3120:9605` to `3120:9625`). The existing rows, dates and tasks were not moved or edited. The calendar's column stripes and the section grew by 912 to fit the row.
+
+**What did not change:** the six epics, their order, the weeks, and the 27 task names. I checked them against `epics-features-tasks-numbered-2026-11-15.md` and the Figma calendar (all 27 task bars read and compared name by name on 2026-11-16). The 11 tasks in the first two weeks (5 in Epic 3, 6 in Epic 1) are the same tasks that now have full pages in `task-pages-epic-3-2026-11-15.md` and `task-pages-epic-1-2026-11-15.md`.
+
+**Why a Foundation row:** each of the 11 task pages needs shared groundwork first. The INVEST lines on the pages say so: for example "needs sign-in, the care circle and a table for break records first" (1.1.1) and "needs sign-in, care circle, consent records and the care notes table first" (3.1.2). That groundwork is the non-functional list T1 to T6 in `non-functional-epics-features-tasks-2026-11-15.md`, which the roadmap built on 2026-11-11 did not yet have.
+
+| Bar | Week on the board | Why this week |
+|---|---|---|
+| T1 Tools and hosting, T2 Database, T3 System architecture, T4 Security protocol | Nov 16 to 20 | Epic 3, the first epic, depends on sign-in, the care circle, consent records and its tables. The course's Week 6 starts Nov 16 on information security (`syllabus.md`, line 147). |
+| T5 Development operations, T6 Quality engineering | Nov 23 to 27 | The checks that run on every push and the hand-run test scenarios are needed before the second epic's work is called done. |
+
+The weeks for the Foundation bars are the same kind of forecast as the epics' weeks: my proposal, not research. Bar names are the T group names from the non-functional list, word for word. No task cards were added to the Notion board for them, because the board holds only the first two weeks of epic work and the Foundation tasks have no pages yet (the developer role writes those).
+
 ## Known limits
 - The dates are a forecast. The board says to change the roadmap when plans change (node 23:1637), and the lecture says the backlog and roadmap will change after each release (42:02 to 42:12).
 - The busiest weeks hold 6 tasks. The class weeks also have their own coding challenges (`syllabus.md`).
