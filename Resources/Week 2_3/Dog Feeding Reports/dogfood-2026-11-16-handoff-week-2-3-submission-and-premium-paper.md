@@ -2,7 +2,7 @@
 
 Replaces: `dogfood-2026-11-15-handoff-use-case-scenarios-and-share-consent.md` (all its work is finished). Older reports stay replaced: `dogfood-2026-11-15-handoff-task-stories-and-acceptance-criteria.md`, `dogfood-2026-11-15-handoff-week-2-3-repo-and-build-plan.md`, `dogfood-2026-11-15-handoff-week-2-3-iteration-2.md` and earlier.
 
-> Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch`, `git status` and `gh pr list --state open`, and check whether pull request 59 was merged. Then tell me which of my four own items (section 4) I still have to do, and show me the Premium paper's section 8 next to the current MVP #1 before changing anything. Use plain words. Say 'done' plainly when something is done. Read back every Notion and Figma change. Ask before Firecrawl, the browser pane, Chrome or my Gmail."
+> Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch`, `git status` and `gh pr list --state open`, and check whether the handoff-report pull request was merged. Then tell me which of my four own items (section 4) I still have to do, and show me the Premium paper's section 8 next to the current MVP #1 before changing anything. Use plain words. Say 'done' plainly when something is done. Read back every Notion and Figma change. Ask before Firecrawl, the browser pane, Chrome or my Gmail."
 
 ## 0. Start here
 - **Where we are:** all Week 2 and 3 specification work is finished for the first 11 tasks (5 Epic 3, 6 Epic 1). The owner approved everything and granted bypass permissions for the work. Nothing is left for Claude on the specs.
@@ -53,7 +53,7 @@ Replaces: `dogfood-2026-11-15-handoff-use-case-scenarios-and-share-consent.md` (
 | The roadmap's Foundation row | The Week 4 build and the developer role's task pages | The pages' INVEST lines say sign-in, circle, consent records and tables come first |
 
 ## 6. First steps
-1. Confirm where we are, run the git checks, and check whether pull request 59 was merged (commits pushed after a pull request merges are not on `main`).
+1. Confirm where we are, run the git checks, and check whether the handoff-report pull request was merged (commits pushed after a pull request merges are not on `main`).
 2. Tell the owner which of the four own items (section 4, item 1) are still open. Do not write any of them.
 3. If the owner wants the paper done: read paper section 8, show it beside MVP #1, wait for a choice, then edit.
 4. Remind the owner to save work in a pull request and to write a new handoff report before compacting.
@@ -73,7 +73,7 @@ Full rules: `caregiving-coordinator/CLAUDE.md` and memory (`MEMORY.md`, note `we
 - **Paper:** `docs/specialization-research-paper.md`. Course page for it: `.claude/skills/residency-context/reference/week-2-premium-specialization-paper.md`.
 - **Notion:** submission page `4179219a46918157976edbc20a0a829f` (private area "Orlando - AI Residency Homework Submissions"); hub "Week 2 & 3 / Orlandos: Week 2 Coding Challenge - Product Specs Template" with Vision and Scope `c6f9219a469183029dd3015ad1211c02`, Epics and Features `cfc9219a469183c6945281ff637f4185`, Kanban board `0579219a469182f1954401f71214631a`, Market Research page `30f9219a4691839dbf50013fc05790b8`. The 11 task cards are listed in `task-pages-epic-1-2026-11-15.md` and `task-pages-epic-3-2026-11-15.md`.
 - **Figma file `HcDDdEGAnikTImO8v7UPMp`, page "Updated Deliverables":** vision and scope `3089:9633`, epics section `3068:9983`, non-functional `3094:9079`, build plan `3073:8029`, roadmap `3068:9449` (Foundation row `3120:9605` to `3120:9625`), flows `3097:9079` and `3118:9375`.
-- **Git (checked 2026-11-16, night):** branch `task-level-flows-share-consent-2026-11-16`, last commit before this report `146089e`. Pull request 59 is open: https://github.com/LDoomD/AI-Development-Residency/pull/59 (4 files plus this report; no checks on the repository). Pull requests 57 and 58 are merged. Untracked and not part of this work: `il.html` and a `.textClipping` file.
+- **Git (checked 2026-11-16, night):** pull requests 57, 58 and 59 are all merged (59 merged 2026-11-16 04:04 UTC, merge commit `10e97c8`), so all specs, the roadmap update and the log rows are on `main`. This report is on branch `handoff-report-2026-11-16` in its own pull request (the owner merges). Untracked and not part of this work: `il.html` and a `.textClipping` file.
 
 ## 9. Verification receipt
 - **Outcomes and where each came from:** sections 1 and 2. Decisions are the owner's chat replies on 2026-11-16.
