@@ -33,6 +33,7 @@
 **T2.1 Tables**
 - T2.1.1 The foundation tables hold caregiver accounts, care circles, the cared-for person, circle members and roles, consent records and an access log.
 - T2.1.2 Care notes and care tasks are added with Epic 3, and money, benefits and coverage records with Epics 5 and 6.
+- T2.1.3 (Proposed by the developer role, approved by the owner 2026-11-15) Epic 1 records are added with Epic 1: `care_breaks`, which the care circle can see, and `private_records`, which only the person who wrote them can see (this depends on T4.1.4).
 
 **T2.2 Rules every table follows**
 - T2.2.1 Row-level security is on for every table, so members see only their own circle.
@@ -63,6 +64,7 @@
 - T4.1.1 Members see only their own circle, and role changes are visible to the circle.
 - T4.1.2 No health note is saved without a collect consent, and none is shared without a separate share consent.
 - T4.1.3 An access log records who viewed or changed which health note and when, and no one can edit it.
+- T4.1.4 (Proposed 2026-11-15, not yet approved) Records a caregiver keeps about their own wellbeing (check-ins, limits, the people they lean on, paperwork steps and moments of closeness) are visible only to that caregiver, not to other circle members. Open for a lawyer.
 
 **T4.2 Keys and data**
 - T4.2.1 † The Supabase admin key stays only on the web server as a Vercel environment setting, never in the browser or in GitHub, and `.env.local` is listed in `.gitignore`.
