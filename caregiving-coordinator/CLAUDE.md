@@ -88,10 +88,8 @@ checked documents, never from chat memory.
 > table or step must use the structure the project already set: the two audiences
 > (Audience 1 = adult child caring for a parent, Audience 2 = spouse or partner),
 > the top caregiver problems, the market segments, the 5 criteria, and the open
-> questions (such as who pays). **No research, reading pass or new table starts
-> until `docs/research-checklist.md` is filled in and shown to the owner.** When new
-> research changes one deliverable, say which other deliverables it changes, and
-> update them in order.
+> questions (such as who pays). When new research changes one deliverable, say
+> which other deliverables it changes, and update them in order.
 
 - **Start of session:** ask for the latest dog feeding report in
   `../Resources/<week folder>/Dog Feeding Reports/` (newest `dogfood-*.md`) and the saved documents it lists.
