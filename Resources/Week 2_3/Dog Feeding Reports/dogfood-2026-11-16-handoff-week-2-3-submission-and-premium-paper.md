@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → Week 2 and 3 submission, then the Premium paper (2026-11-16)
 
+> **Replaced by `dogfood-2026-11-17-handoff-security-paper-source-reading.md` for the Premium paper.** The plan in this report to update section 8 of the agentic-workflows paper is obsolete: the owner chose advanced information security on 2026-11-17. The Week 2 and 3 facts below still hold.
+
 Replaces: `dogfood-2026-11-15-handoff-use-case-scenarios-and-share-consent.md` (all its work is finished). Older reports stay replaced: `dogfood-2026-11-15-handoff-task-stories-and-acceptance-criteria.md`, `dogfood-2026-11-15-handoff-week-2-3-repo-and-build-plan.md`, `dogfood-2026-11-15-handoff-week-2-3-iteration-2.md` and earlier.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch`, `git status` and `gh pr list --state open`, and check whether the handoff-report pull request was merged. Then tell me which of my four own items (section 4) I still have to do, and show me the Premium paper's section 8 next to the current MVP #1 before changing anything. Use plain words. Say 'done' plainly when something is done. Read back every Notion and Figma change. Ask before Firecrawl, the browser pane, Chrome or my Gmail."
