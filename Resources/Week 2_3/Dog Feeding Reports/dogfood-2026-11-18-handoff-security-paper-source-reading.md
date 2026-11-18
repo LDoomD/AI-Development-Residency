@@ -1,5 +1,7 @@
 # Handoff: Premium paper on advanced information security → reading the approved sources (2026-11-18)
 
+> **Replaced by `dogfood-2026-11-18-handoff-security-paper-batch-1-remainder.md` (2026-11-18).** Batch 1 has started, so use the newer report.
+
 Replaces: `dogfood-2026-11-17-handoff-security-paper-source-reading.md`. That report's course facts and version checks still hold, but its source list was "Proposed" and its open decisions 1 and 4 are now settled. Older reports (`dogfood-2026-11-16-handoff-week-2-3-submission-and-premium-paper.md` and before) stay replaced.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch`, switch to `main`, run `git pull --ff-only`, and tell me whether any pull request is open. Then ask me the one question in section 4, decision 1, and wait for my answer before you read any source. Use short, plain sentences. Do not call the caregiving coordinator an app. Do not mention the research checklist or later weeks. Ask before Chrome, Firecrawl or the browser pane."
