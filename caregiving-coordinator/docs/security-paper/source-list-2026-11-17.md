@@ -1,6 +1,6 @@
 # Candidate sources for the Premium paper: Advanced Information Security (draft for owner approval, 2026-11-17)
 
-**Status:** Proposed. Nothing in this list has been read in full yet. For each source, a web search on 2026-11-17 confirmed that it exists and found its date or version. The full text is read, saved in `docs/sources/security-paper/` and logged in `docs/sources/INDEX.md` only after the owner approves the list.
+**Status:** **Approved by the owner on 2026-11-18**, including the five sources added that day. Nothing in this list has been read in full yet. The reading method (me in batches in a fresh chat, or a many-agent workflow) is still to be chosen; the default is me in batches. For each source, a web search on 2026-11-17 confirmed that it exists and found its date or version. The full text is read, saved in `docs/sources/security-paper/` and logged in `docs/sources/INDEX.md` only after the owner approves the list.
 
 **Rules for the paper (course page, requirement 3):** APA 7 citations with page numbers, a bibliography at the end, everything in my own words, no plagiarism. The Week 6 lecture notes (`Resources/Week_6/`) give direction only. They are never the evidence for a claim.
 
