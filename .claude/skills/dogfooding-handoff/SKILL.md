@@ -25,7 +25,11 @@ This skill has two modes: **write** a handoff, and **receive** one.
 1. **Gather:** read the project's rule files, the newest earlier handoff (so you know what this one replaces), and the files of record for each finished milestone.
 2. **Name the next milestone** and what it needs (its template, homework or definition of done). If it's unclear, ask the owner one question.
 3. **Fill in `references/report-template.md`** section by section. Read it now; it shows what each section holds, with examples.
-4. **Check:** run `python3 scripts/check_handoff.py <report-path>` (the path to `scripts/` is relative to this skill's folder) and fix every failure. The script checks what can be checked mechanically: required sections, the "Replaces" line, sources next to numbers, Approved/Proposed tags, and a "Not checked" list.
+4. **Check:** run `python3 scripts/check_handoff.py <report-path> [--covers <list.md>]` (the path to `scripts/` is relative to this skill's folder) and fix every failure. The script checks what can be checked mechanically: required sections, the "Replaces" line, sources next to numbers, Approved/Proposed tags, a "Not checked" list, and (added 2026-11-18, after a report shipped with wrong paths, an unchecked count, two sources left out of every batch, and a stale label):
+   - **Paths.** Every path in backticks must exist when read from the repository's top folder. So write every path in full from that folder (`caregiving-coordinator/docs/x.md`, never `docs/x.md`). Say "does not exist yet" on the same line for a folder you are about to create.
+   - **Coverage.** When the next milestone works through a list (sources to read, tasks, files), pass the list with `--covers`. Every row of the list must be named in section 6, under the list's own name, or be cleared with a line `Left out: <name>: <reason>`. Write the reason the owner gave. If you do not know it, ask. Do not guess.
+   - **Labels.** A file the report points to must not say Approved in its Status line while a heading in it still says "Proposed ... awaiting". Fix the file in the same branch.
+   - **Counts.** The script cannot check a number written in prose, such as "about 44 sources". Count the rows yourself and write the count you got, or leave the count out.
 5. **Fresh-session test:** reread the report as if you knew nothing. Can you answer these four questions from the report alone?
    - Where are we?
    - What was decided?

@@ -138,7 +138,7 @@ These come from searches for what was published or disclosed recently. Search re
 
 **A claim I am not using:** some outlets say OWASP published a web "Top 10 2026". OWASP's own page says 2025 is "the most current released version", and the "2026" stories list the same categories as the 2025 list. One site argues there is no 2026 list. The OWASP LLM Top 10 for 2026 (Sep 2026) is real but concerns AI chat apps, so it is out of scope while MVP #1 uses no outside AI service.
 
-## Added 2026-11-18 to fill gaps (Proposed, awaiting owner approval)
+## Added 2026-11-18 to fill gaps (approved by the owner on 2026-11-18)
 
 The owner asked whether the list is enough for the course page's requirements. Topics 1 and 5 had only a framework and no plain introduction, and Topic 7 had the row "tool documentation, to be chosen". A search on 2026-11-18, limited to official domains, found these. Only search summaries have been seen so far. I read each page before citing it.
 
