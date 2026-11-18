@@ -1,5 +1,7 @@
 # Handoff: Premium paper on advanced information security → finish batch 1 (Top 10, Saltzer, rest of the Verizon report), then read the rest by the approved cite plan (2026-11-18, fourth report of the day)
 
+> **Replaced by `dogfood-2026-11-18-handoff-security-paper-batch-2-continue.md` (2026-11-18).** Batch 1 and the batch 2 downloads are merged and the owner settled three questions, so use the newer report.
+
 Replaces: `Resources/Week 2_3/Dog Feeding Reports/dogfood-2026-11-18-handoff-security-paper-batch-1-finish-2.md`. Its facts, decisions and working rules still hold. What changed: the owner approved a cite plan that narrows the reading (section 6), and approved two added sources. The older reports `dogfood-2026-11-18-handoff-security-paper-batch-1-remainder.md` and `dogfood-2026-11-18-handoff-security-paper-source-reading.md` stay replaced. Every path in this report starts at the repository's top folder (`AI Developer Residency `), which is the folder that holds `caregiving-coordinator/`, `Resources/` and `.claude/`.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch`, switch to `main`, run `git pull --ff-only`, and tell me whether any pull request is open. Then ask me the one question in section 4, decision 1, and wait for my answer before you read any source. Use short, plain sentences. Do not call the caregiving coordinator an app. Do not mention the research checklist or later weeks. Ask before Chrome, Firecrawl or the browser pane."
