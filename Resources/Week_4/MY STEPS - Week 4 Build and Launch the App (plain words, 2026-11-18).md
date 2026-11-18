@@ -54,5 +54,8 @@ When Claude sets up the folders in step 4, it follows best practices for the fol
 ## Extra, only if you choose it (course "Advanced homework")
 Test the app with 1 to 2 real people while they think aloud. Write a results report with the Usability Test Results and Analysis Template. Turn what you learn into new requirements, build a new version, and launch it. **Tell me if you want this. It is not required for the basic homework.**
 
+## Being done first (owner, 2026-11-18)
+The Premium research paper on advanced information security. The owner chose to finish it before starting the Week 4 steps above. It is not parked.
+
 ## Parked until Week 4 is done
-The Premium research paper, repository cleanup, and all later weeks.
+Repository cleanup, and all later weeks.
