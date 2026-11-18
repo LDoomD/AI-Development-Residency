@@ -625,3 +625,19 @@ Fetched with curl on 2026-11-12. Plain-text copies are in `text/`, and the URLs 
 | `09-supabase-migrations.html` | Supabase: deploy database migrations | Updated Nov 2, 2026 | https://supabase.com/docs/guides/deployment/database-migrations |
 | `10-github-required-checks.html` | GitHub: about protected branches (required status checks) | No date | https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches |
 | `11-course-facts-live-weeks.md` | Word-for-word quotes from the live Week 2 and 3, Week 4, Week 5 and Week 7 course copies and the Keep Your App Safe Checklist, behind the 8 build plan fixes | Saved 2026-11-15 (course copies read 2026-11-13) | Course copies under `.claude/skills/residency-context/reference/` and `Resources/Week_4/` |
+
+## 2026-11-18: Has anyone built a GitHub workflow skill? (`github-workflow-skill-research-2026-11-18/`)
+
+Fetched with curl and the GitHub CLI on 2026-11-18. The findings are in `FINDINGS.md`. The link, date and how much of each source was read are in `urls.tsv`. Copies are in `raw/`. The blog post's plain text is in `text-claude-blog-steering.txt`.
+
+| File in `raw/` | What it is | Date | Original URL |
+|---|---|---|---|
+| `claude-docs-features-overview.md` | Claude Code docs: Extend Claude Code (when to use CLAUDE.md, skills, hooks). Read in full. | Fetched 2026-11-18 (page undated) | https://code.claude.com/docs/en/features-overview.md |
+| `claude-blog-steering.html` | Anthropic blog: Steering Claude Code. Read in full (text version). | June 18, 2026 | https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more |
+| `claude-docs-skills.md` | Claude Code docs: Skills. Cited sections only. | Fetched 2026-11-18 (page undated) | https://code.claude.com/docs/en/skills.md |
+| `claude-docs-hooks-guide.md` | Claude Code docs: Hooks guide. Cited sections only. | Fetched 2026-11-18 (page undated) | https://code.claude.com/docs/en/hooks-guide.md |
+| `skills-authoring-best-practices.md` | Claude docs: Skill authoring best practices. Cited sections only. | Fetched 2026-11-18 (page undated) | https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md |
+| `anthropic-commit-commands-*` (4 files) | Anthropic's commit-commands plugin, version 1.0.1 | Repository commit 6d49181, 2026-11-18 | https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands |
+| `obra-*` (2 files) | Two skills from obra/superpowers (MIT) | Repository commit 22f0b46, 2026-11-03 | https://github.com/obra/superpowers |
+| `jackspace-*` (2 files) | Two skills from jackspace/ClaudeSkillz (MIT, archived; weak source, do not copy) | Repository commit aef4e29, 2026-08-04 | https://github.com/jackspace/ClaudeSkillz |
+| `89jobrien-create-pr.md` | A pull request command from 89jobrien/steve (weak source) | Repository commit c0ff044, 2026-08-26 | https://github.com/89jobrien/steve |
