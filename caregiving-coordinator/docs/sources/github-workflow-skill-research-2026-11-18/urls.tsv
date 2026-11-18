@@ -1,0 +1,18 @@
+file	what	url	version_or_date	read
+raw/claude-docs-features-overview.md	Claude Code docs: Extend Claude Code	https://code.claude.com/docs/en/features-overview.md	fetched 2026-11-18 (page undated)	in full (364 lines)
+text-claude-blog-steering.txt (from raw/claude-blog-steering.html)	Anthropic blog: Steering Claude Code	https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more	dated June 18, 2026	in full (article text)
+raw/claude-docs-skills.md	Claude Code docs: Skills	https://code.claude.com/docs/en/skills.md	fetched 2026-11-18 (page undated)	sections only: lines 19, 77, 340, 364-408, 565
+raw/claude-docs-hooks-guide.md	Claude Code docs: Hooks guide	https://code.claude.com/docs/en/hooks-guide.md	fetched 2026-11-18 (page undated)	sections only: lines 243-307, 315, 473-474, 573-595
+raw/skills-authoring-best-practices.md	Claude docs: Skill authoring best practices	https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md	fetched 2026-11-18 (page undated)	sections only: lines 7-22, 251-257, 382, 1140
+raw/anthropic-commit-commands-README.md	Anthropic commit-commands plugin README (v1.0.1)	https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands	repo commit 6d49181 (2026-11-18)	in full
+raw/anthropic-commit-commands-commands-commit-push-pr.md	same plugin, /commit-push-pr command file	same path /commands/commit-push-pr.md	same	in full
+raw/anthropic-commit-commands-commands-commit.md	same plugin, /commit command file	same path /commands/commit.md	same	in full
+raw/anthropic-commit-commands-commands-clean_gone.md	same plugin, /clean_gone command file	same path /commands/clean_gone.md	same	in full
+raw/obra-finishing-a-development-branch-SKILL.md	obra/superpowers skill (MIT)	https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md	repo commit 22f0b46 (2026-11-03)	in full
+raw/obra-using-git-worktrees-SKILL.md	obra/superpowers skill (MIT)	https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md	repo commit 22f0b46 (2026-11-03)	in full
+raw/jackspace-claude-git-branching-SKILL.md	jackspace/ClaudeSkillz skill (MIT, repo archived)	https://github.com/jackspace/ClaudeSkillz/blob/main/skills/claude-git-branching/SKILL.md	repo commit aef4e29 (2026-08-04)	in full
+raw/jackspace-git-workflow-helper-SKILL.md	jackspace/ClaudeSkillz skill (auto-generated)	https://github.com/jackspace/ClaudeSkillz/blob/main/skills/git-workflow-helper/SKILL.md	repo commit aef4e29 (2026-08-04)	in full
+raw/89jobrien-create-pr.md	89jobrien/steve command file (status: unpublished)	https://github.com/89jobrien/steve/blob/main/steve/commands/git/create-pr.md	repo commit c0ff044 (2026-08-26)	in full
+raw/claude-docs-memory.md	Claude Code docs: How Claude remembers your project (CLAUDE.md, rules, auto memory)	https://code.claude.com/docs/en/memory.md	fetched 2026-11-18 (page undated)	lines 1-352 and 578-667 in full; lines 353-577 (AGENTS.md, auto memory) not read
+raw/claude-docs-best-practices.md	Claude Code docs: Best practices	https://code.claude.com/docs/en/best-practices.md	fetched 2026-11-18 (page undated)	sections only: lines 133-160, 187-200, 298-312, 488-503
+raw/claude-docs-context-window.md	Claude Code docs: Explore the context window	https://code.claude.com/docs/en/context-window.md	fetched 2026-11-18 (page undated)	in full (112 lines)
