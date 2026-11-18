@@ -55,16 +55,17 @@ All under "Tech Fleet course copies 2026-11-13".
 | `Resources/Week_4/Week 4 Coding Challenge - Code and Launch a Web App (Notion copy 2026-11-13).md` | Current. |
 | `.claude/skills/residency-context/reference/week-3-coding-challenge.md` | **Stale.** It is the old "Week 3 Host a Web App," now Week 4. |
 | `.../week-4.md` (AI Chatbot) | **Stale.** The chatbot is now Week 7. |
-| `.../week-5.md` (PenTest) | **Stale.** PenTest is now Week 6. |
-| `.../week-6.md` (Progressive Web App) | **Stale.** Now Week 7. |
-| `.../week-7.md`, `week-8.md`, `week-1.md`, `week-2-3.md`, `syllabus.md` | Not yet checked against the new copies. |
-| Week 5 (CI/CD), Week 8 (Integrate Apps), Week 9 (SEO) | No local copy yet. |
+| `.../week-5.md` | Replaced 2026-11-13 with the CI/CD challenge (the old PenTest text is in `_superseded-2026-10-28/week-5.md`). |
+| `.../week-6.md`, `week-6-submit-checklist.md` | **Current (2026-11-18).** Built from the live Week 6 pages copied 2026-11-17. The instructor is still adding material (see section 7). |
+| `.../week-7.md`, `week-8.md` | **Rebuilt 2026-11-18** from the challenge pages copied 2026-11-13. Their lecture notes and class materials were blank, so these two files must be refreshed when the instructor fills those pages (section 7). |
+| `.../week-1.md`, `week-2-3.md`, `syllabus.md` | Status unchanged since 2026-11-13: not re-checked here. |
+| Week 9 (SEO) | No local copy yet. |
 
 Nothing in the skill reference folder was changed. Replacing those files needs the owner's OK.
 
 ## 5. Saved as markdown on 2026-11-13 (Weeks 1 to 5)
 
-Every file is named "<page title> (Notion copy 2026-11-13).md" and starts with a header: source copy link, copy date, Notion "last edited" time, and what was not saved. Weeks 6 to 9 were left for later on purpose (owner's choice A).
+Every file is named "<page title> (Notion copy 2026-11-13).md" and starts with a header: source copy link, copy date, Notion "last edited" time, and what was not saved. Weeks 6 to 9 were left for later on purpose (owner's choice A). **Update 2026-11-17 and 2026-11-18:** Weeks 6 to 8 are now saved (rows below). Week 9 is still not saved.
 
 | Folder | What is in it | Files |
 |---|---|---|
@@ -73,6 +74,9 @@ Every file is named "<page title> (Notion copy 2026-11-13).md" and starts with a
 | `.../Course Pages.../Morgan Hat Check/` | 15 pages of Morgan's Week 2 and 3 worked example ("Hat Check"), including Technical Requirements and Architecture and Build Plan | 15 |
 | `Resources/Week_4/` | Challenge, 7 templates, 2 How-To pages, class materials, lecture notes (1 copy), Recordings page, Morgan's Week 4 example (Vision, Scope, Epics, Architecture, ADRs 0001 to 0004) | 27 |
 | `Resources/Week_5/` | Challenge, CI/CD How-To, Test Case Scenario Template, class materials, lecture notes (1 copy), Morgan's Week 5 example and Test Case Scenarios | 7 |
+| `Resources/Week_6/` (added 2026-11-17, PR 61) | Live challenge (2026-11-17), the superseded 2026-11-13 challenge, live lecture notes, Security Research Report Template, PenTest Report Template, a note on blank pages | 6 |
+| `Resources/Week_7/` (added 2026-11-17, PR 61) | Challenge (copied 2026-11-13), a note on blank pages | 2 |
+| `Resources/Week_8/` (added 2026-11-17, PR 61) | Challenge (copied 2026-11-13), a note on blank pages | 2 |
 
 ### Known limits
 - **Duplicate lecture-notes copies removed (2026-11-13).** Notion held two near-identical copies of the Week 4 and of the Week 5 lecture notes. The second Week 4 copy differed only in its last line (a link). The second Week 5 copy differed only in its header and one link. One copy of each was kept.
@@ -95,9 +99,27 @@ The owner is on the Premium track: Weeks 2 to 5 apply to the caregiving coordina
 | 2 and 3 | Product Specifications | Nov 2 | In progress. Open: GitHub repo, build plan boxes 5 and 6, technical and user requirements, Notion Vision/Epics pages, pitch deck, one-page summary | `reference/week-2-3-submit-checklist.md` |
 | 4 | Code and Launch a Web App | Nov 16 | Not started; the build plan feeds it | `reference/week-4-submit-checklist.md` |
 | 5 | CI/CD Pipeline | Nov 23 | Not started | `reference/week-5-submit-checklist.md` |
-| 6 to 9 | PenTest, AI Chatbot, Integrate Apps, SEO/AEO | Nov 30 to Jan 5 | Not started; Notion copies exist; skill files are old text, not re-checked | none yet |
+| 6 | Security Test a Code Base | Nov 30 | Not verified on 2026-11-18. The Premium paper on advanced information security is in progress and is meant to support it. Whether the Week 4 app exists (the PenTest needs it) was not checked. | `reference/week-6-submit-checklist.md` |
+| 7 to 9 | AI Chatbot, Integrate Apps, SEO/AEO | Dec 7 to Jan 5 | Not started; Week 7 and 8 files rebuilt 2026-11-18; Week 9 file is old text, not re-checked | none yet |
+
+Statuses for Weeks 1 to 5 in this table are from 2026-11-13 and were not re-verified on 2026-11-18.
 
 ### Where the owner's own work lives
 - Notion: "Orlando - AI Residency Homework Submissions" (one page per week), and the older hub "TechFleet: AI Residency Resource Hub" with the working pages and the Kanban board.
 - GitHub repository `LDoomD/AI-Development-Residency`, folder `caregiving-coordinator/docs/`.
 - FigJam board "Orlandos AI Dev Residency Work."
+
+## 7. Pages the instructor is still filling in (added 2026-11-18)
+
+The instructor adds lecture transcripts, class materials and recordings as each week happens, so Weeks 6 to 8 change after they are copied. Rule for Claude: at the start of each class week (Week 6 Nov 16, Week 7 Nov 30, Week 8 Dec 7) and the week each assignment is due, say that the saved pages may be out of date and ask the owner whether to refresh. Never refresh without the owner's yes, because it uses Claude in Chrome.
+
+| Page | Copied | Blank or missing on that date | Refresh by |
+|---|---|---|---|
+| Week 6 lecture notes, challenge, two templates | 2026-11-17 | Transcript link ("Add the transcript link here after class") | Re-copy near Nov 30 |
+| Week 6 Weekly Class Materials, Week 6 rows in Recordings | 2026-11-13 | Blank; not re-checked | Re-copy |
+| Week 7 lecture notes, Weekly Class Materials | 2026-11-13 | Blank | Re-copy after class, Nov 30 |
+| Week 7 challenge page | 2026-11-13 | Has leftover "Week 4" wording | Re-copy at the start of the week |
+| Week 8 lecture notes, Weekly Class Materials, ADR and PenTest child pages | 2026-11-13 | Blank or link lists | Re-copy after class, Dec 7 |
+| Week 9 (all pages) | not saved | | Save when the week starts |
+
+Refresh method and file-naming rule: `reference/week-6.md`, section 5. When a refreshed file is saved, update this table, the matching `week-N.md`, and its "blank pages" note in `Resources/Week_N/`. Update the copy in `Resources/Week 2_3/Week 2 & 3_Course Overview_Docs/` first, then this one.

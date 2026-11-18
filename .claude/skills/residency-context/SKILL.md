@@ -48,11 +48,15 @@ Current (rebuilt 2026-11-13 from fresh copies of the live pages):
 - `week-2-premium-specialization-paper.md` - the separate, **Premium-only** research paper and proposal (due Oct 19). Standard residents skip it.
 - `week-4.md` - Code and Launch a Web App challenge + weekly class materials (build the whole MVP #1; Premium builds their own app).
 - `week-5.md` - CI/CD Pipeline challenge + weekly class materials (Premium applies it to their own app).
-- `week-1-submit-checklist.md`, `week-2-3-submit-checklist.md`, `week-2-premium-submit-checklist.md`, `week-4-submit-checklist.md`, `week-5-submit-checklist.md` - word-for-word extracts of each challenge page's objectives, homework, requirements, deliverables and submission steps. A shortcut for "what do I submit?"; the full week file is still required for anything else.
+- `week-6.md` - Security Test a Code Base: live challenge (copied 2026-11-17, word for word), the two report templates, lecture outline, how it connects to the Premium security paper. **The instructor is still adding material; see its section 5.**
+- `week-7.md`, `week-8.md` - rebuilt 2026-11-18 from the challenge pages copied 2026-11-13. Their lecture notes and class materials were blank, so say so and offer a refresh (course map section 7).
+- `week-1-submit-checklist.md`, `week-2-3-submit-checklist.md`, `week-2-premium-submit-checklist.md`, `week-4-submit-checklist.md`, `week-5-submit-checklist.md`, `week-6-submit-checklist.md` - word-for-word extracts of each challenge page's objectives, homework, requirements, deliverables and submission steps. A shortcut for "what do I submit?"; the full week file is still required for anything else.
 
-Renumbered from the old snapshot, NOT yet re-checked against the live pages (fresh Notion copies exist but are not saved to `Resources/` yet):
-- `week-6.md` (PenTest), `week-7.md` (AI chatbot), `week-8.md` (Integrate Apps), `week-9.md` (SEO and AEO).
+Renumbered from the old snapshot, NOT yet re-checked against the live pages (no fresh copy saved to `Resources/` yet):
+- `week-9.md` (SEO and AEO).
 - `week-unmatched-old-week-6-pwa.md` - the old "Week 6" content; no live page found.
+
+**Weeks 6 to 8 keep changing after they are copied** because the instructor adds lecture transcripts and class materials as each week happens. At the start of each class week and the week an assignment is due, tell the owner the saved pages may be out of date and ask whether to refresh. Never refresh without a yes (it uses Claude in Chrome). Schedule and status: `reference/course-map.md`, section 7.
 
 Kept from the old snapshot:
 - `class-working-agreements.md` - not re-copied (the owner skipped it on 2026-11-13).
