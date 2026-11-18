@@ -57,3 +57,37 @@ All quotes are short, and the line numbers are in the saved files.
 - Three official pages were read in the cited sections only, not end to end.
 - The GitHub flow and git-pull pages have not been read in full yet. The earlier search summaries support "branch from main, open a pull request, merge," but the start-of-session sync step is my own design, not a GitHub requirement.
 - I did not run or install any of these skills.
+
+## 7. Follow-up (2026-11-18, later): how skills load, and what Anthropic says about a long CLAUDE.md
+
+### 7a. Correction: the "124 skills" figure was wrong
+I earlier told the owner that 124 skills load every session, about 8,000 tokens of descriptions. That counted skill **files on disk**, not skills that are switched on. The user settings file (`~/.claude/settings.json`, key `skillOverrides`) already sets **95 of the 106 user-level skills to "off"**. Checked 2026-11-18:
+
+| Group | Count | Status |
+|---|---|---|
+| User-level skill folders (`~/.claude/skills`) | 106 | 95 turned off, **11 on** |
+| Still on, from the GSD tool (installed 2026-07-23, before this residency): `gsd-discuss-phase`, `gsd-execute-phase`, `gsd-extract-learnings`, `gsd-map-codebase`, `gsd-new-project`, `gsd-plan-phase`, `gsd-ui-phase`, `gsd-update` | 8 | On. The owner does not use them. |
+| Still on, other | 3 | `brainstorming`, `dogfooding-handoff`, `invest-task-scoping` |
+| Repository-level skills (`.claude/skills`) | 4 | `residency-context`, `wrap-up`, `dogfooding-handoff`, `invest-task-scoping` |
+| Project skills (`caregiving-coordinator/.claude/skills`) | 14 | On |
+
+Description text that actually loads: about 15,600 characters, roughly **3,900 tokens** (characters divided by 4, an estimate). The 14 project skills are the largest part (about 10,500 characters). Two skills (`dogfooding-handoff`, `invest-task-scoping`) exist at both user and repository level. For skills with the same name the Claude Code docs say one definition wins, with project over user (features overview, line 198).
+
+The GSD tool also registered hooks in `~/.claude/settings.json` (on every Bash, Edit, Write and Read call). They run in every project and cost no tokens unless they print something. Whether to switch them off is the owner's decision.
+
+### 7b. What Anthropic says about a long CLAUDE.md (memory page, best practices page, context-window page)
+1. **Size:** "target under 200 lines per CLAUDE.md file. Longer files consume more context and reduce adherence" (memory page, line 90). Claude Code also shows a warning at startup when a file is over the recommended length (memory page, "My CLAUDE.md is too large").
+2. **Splitting into `@imports` does not help.** "Imports help you organize a long file but don't reduce its context cost, because imported files load together with the CLAUDE.md that imports them" (memory page, line 90). So moving text into imported files is **not** a fix. Real fixes are: path-scoped rules, skills, or plain documents that Claude reads only when needed.
+3. **What belongs there:** only what Claude "couldn't work out from the code itself": the commands to check work, places where the code is misleading, decisions not in the repository, and "anything you've had to correct twice already" (best practices, lines 133 to 140). Multi-step procedures and one-area rules go to skills or path-scoped rules (memory page, line 51).
+4. **CLAUDE.md is context, not enforcement.** "Claude treats them as context, not enforced configuration. To block an action regardless of what Claude decides, use a PreToolUse hook" (memory page, line 24). A line like "always typecheck" in the file "works most of the time, not every time" (best practices, line 160).
+5. **Anthropic's own audit tool:** `/doctor prompt-audit` checks CLAUDE.md, rules, skills and other instruction files for outdated or conflicting instructions and proposes edits, and "nothing in your files changes until you ask Claude to apply them" (memory page, lines 94 to 100). It needs Claude Code v2.1.283 or later. `/doctor` also proposes trims for a checked-in CLAUDE.md, cutting content Claude can derive from the codebase (memory page, "My CLAUDE.md is too large").
+6. **Maintainer notes are free.** Block-level HTML comments in CLAUDE.md are stripped before loading (memory page, line 152).
+7. **What survives `/compact`:** the project-root CLAUDE.md and unscoped rules are re-read from disk. Path-scoped rules and nested CLAUDE.md files reload only when matching files are touched again (context-window page, "What survives compaction").
+8. **Measure, do not guess.** `/context` gives a live breakdown by category, and `/usage` breaks usage down by skill, subagent, plugin and MCP server (context-window page, "Check your own session"; best practices, line 490).
+9. **Anthropic's example numbers** (illustrative, not ours): project CLAUDE.md 1,800 tokens, skill descriptions 450, `MEMORY.md` 680 (context-window page, token table). The project's `CLAUDE.md` is 14,038 characters (about 3,500 tokens by the characters-divided-by-4 estimate); the memory index `MEMORY.md` is 11,515 characters. Anthropic loads the first 200 lines or 25KB of auto memory (memory page, line 31); ours is within both.
+
+### 7c. What this changes in the Proposed plan
+- **Do not "fix" CLAUDE.md by splitting it into imported files.** It does not reduce cost.
+- **Use Anthropic's audit first.** Run `/doctor prompt-audit` on the project's CLAUDE.md and review its report before anyone edits the file. The owner decides each cut.
+- **My earlier list of cuts is not yet checked against Anthropic's test** (point 3). It may keep too much (the writing rules are about how Claude should talk, not facts it can't derive) or cut things the owner needs. Treat it as a draft, not a plan.
+- **Skill token cost is mostly the 14 project skills' long descriptions**, not the GSD tool. That is a separate question for the skills docs, which are still only partly read.
