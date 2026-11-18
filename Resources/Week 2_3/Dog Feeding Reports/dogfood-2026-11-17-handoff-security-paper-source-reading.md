@@ -1,5 +1,7 @@
 # Handoff: Caregiving Coordinator → Premium paper on advanced information security, source reading (2026-11-17)
 
+> **Replaced by `dogfood-2026-11-18-handoff-security-paper-source-reading.md` (2026-11-18).** The source list is now approved, so use the newer report.
+
 Replaces: `dogfood-2026-11-16-handoff-week-2-3-submission-and-premium-paper.md` for the Premium paper only. Its old plan (update section 8 of the agentic-workflows paper) is obsolete. Its Week 2 and 3 facts still hold, and that report stays as the record. Older reports stay replaced.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch` and `gh pr list --state open`, and tell me whether pull requests 61, 62 and the handoff-report pull request were merged. Then show me the source list status and wait for my approval before you read any source. Use plain words and complete sentences. Do not mention the research checklist. Ask before Chrome, Firecrawl or the browser pane."
