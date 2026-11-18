@@ -53,6 +53,7 @@ checked documents, never from chat memory.
 - **Start of session:** ask for the latest dog feeding report in
   `../Resources/<week folder>/Dog Feeding Reports/` (newest `dogfood-*.md`) and the saved documents it lists.
   Read them all, then say what you have and what is missing.
+  Then find the owner's current week and read its `../Resources/Week_N/MY STEPS - ...md` page (the owner is on Week 4 as of 2026-11-18). Keep the owner on those steps. If a request is not on the page, say so and ask first.
 - **Git at the start of a session (Proposed 2026-11-18, not yet approved):** run `git fetch`, switch to `main`, run `git pull --ff-only`, then make a new branch for this task before the first edit. If the folder has uncommitted changes, say so and ask first.
   Why: GitHub merges do not change the local folder, so a stale branch hid Week 6 on 2026-11-18.
 - **Where reports go:** save every new dog feeding report or starting brief

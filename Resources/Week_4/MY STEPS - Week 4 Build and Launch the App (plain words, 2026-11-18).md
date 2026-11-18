@@ -7,9 +7,10 @@
 
 **[Claude]** = Claude does it. **[You]** = only you can do it. **[Both]** = Claude does it, you check it.
 
-## Decide first (this blocks step 4)
-**Where does the app live?** The course says: use the repository you made in Week 2. Yours is `LDoomD/Week-3---Caregiving-Coordinator`, and it is empty today. Your research and documents are in a different repository, `AI-Development-Residency`. Pick one, or ask Morgan which he expects.
-Also know this: the course says the repository is public, so **no secret keys and fake data only.**
+## Decided (owner, 2026-11-18)
+**The app lives in `LDoomD/Week-3---Caregiving-Coordinator`.** It is the repository you made in Week 2, and it is empty today. Your research and documents stay in `AI-Development-Residency`.
+The course says this repository is public, so **no secret keys and fake data only.**
+When Claude sets up the folders in step 4, it follows best practices for the folder design and shows you the layout first.
 
 ## Part 1: Accounts and tools
 - [ ] **1. [You]** Make free Vercel and Supabase accounts. Sign up with your GitHub login and pick the free plan. Claude cannot make accounts for you.
