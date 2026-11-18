@@ -1,0 +1,652 @@
+
+===== PDF PAGE 1 =====
+2026 Data Breach
+Investigations Report
+
+ Healthcare
+ snapshot
+
+===== PDF PAGE 2 =====
+       61% System Intrusion
+       17% Social Engineering
+
+
+2026   10% Basic Web
+       Application Attacks
+       8% Miscellaneous Errors
+       3% Privilege Misuse
+
+
+
+
+       53% System Intrusion
+       18% Basic Web
+       Application Attacks
+
+2025   17% Social Engineering
+       12% Miscellaneous Errors
+       7% Privilege Misuse
+
+
+
+
+       36% System Intrusion
+       25% Miscellaneous Errors
+
+
+2024   22% Social Engineering
+       9% Basic Web
+       Application Attacks
+       8% Privilege Misuse
+
+===== PDF PAGE 3 =====
+About the cover                        Our own 2026 report is the
+                                       topmost ring, followed by
+“The only constant is change” is
+                                       2025, 2024 and 2023, the
+ an aphorism commonly ascribed
+                                       last one already settled
+ to Greek philosopher Heraclitus.
+                                       into the foundation.
+There has been no historical
+ evidence uncovered that he had        There are more zero days and
+ any hands-on experience with          critical vulnerabilities year over
+ cybersecurity, but he would be        year (YoY), generative artificial
+ right at home in our field with       intelligence (GenAI) augmented
+ this mentality. But even as the       malware is now a common
+ threat landscape constantly           occurrence, and complex
+ evolves and changes, the 2026         forms of social engineering are
+ edition of the Data Breach            becoming more successful as the
+ Investigations Report (DBIR)          prelude to a breach. Their speed
+ invites you to consider the           may be increasing, their scale
+ importance of the fundamentals        might be a concern, but those
+ of cybersecurity as the best way      are all challenges defenders have
+ to brave all of this change. A        been facing for a long time. This
+ little cyber-stoicism, if you will.   new world should require more
+                                       focus, more agility, but does
+On our cover, you can see
+                                       not necessitate an upheaval.
+concentric rings, each one
+                                       Refinement, not revolution. We
+representing a year of our
+                                       will be ready for the future if we
+data, floating down and settling
+                                       continue to collaborate and work
+onto the foundation of our
+                                       together for the greater good.
+cybersecurity knowledge.
+They add to our understanding          Also, yes, those are technically
+and complement our defensive           donut charts. Sorry, not sorry.
+strategies and are segmented
+by the incident patterns from
+the past four years.
+
+===== PDF PAGE 4 =====
+Table of
+contents
+Welcome5
+
+
+How to use this report          6
+
+
+Key topics and findings        9
+
+
+
+Insights for Healthcare        13
+
+
+
+Stay informed                  15
+and threat ready
+
+
+
+
+2026 DBIR Healthcare snapshot        4
+
+===== PDF PAGE 5 =====
+Welcome
+Welcome to Verizon’s 2026 Data Breach Investigations
+Report! Hello again to those who’ve been with us over
+the years—and to those joining the DBIR community
+for the first time, it’s great to have you. As always,
+we’re glad you’re here.
+
+In this 19th edition of the Verizon DBIR,                We have observed that, in some areas,
+we dig into more than 31,000 actual                      cybercrime has shifted in meaningful
+real-world security incidents, of which                  ways since the publication of the 2025
+more than 22,000 were confirmed                          report. In others, it is less a matter of
+data breaches involving organizations                    change and more a matter of speed
+in 145 countries. This represents the                    and scale. Exploitation of vulnerabilities,
+largest number of breaches we have                       discussed in several sections of the
+ever examined in a single report! Yes, we                report, has now emerged as the most
+realize that we have said that before, but               common way attackers gain initial access
+what can we say? It’s still true because                 into an organization’s environment, which
+the number of cases we examine                           underlines the ongoing importance of
+continues to increase YoY. We leave it                   getting the basics right. Additionally, as
+up to you to determine if that is a good                 the ancient prophecies1 foretold, threat
+thing or a not so good thing. For the                    actors are increasingly relying on GenAI
+victim organizations, it is undoubtedly the              to assist them with various stages of
+latter, but for our purposes of illuminating             their attacks, such as choosing targets,
+threats to your business, it is firmly in the            gaining a foothold within those targets,
+former camp.                                             conducting vulnerability research, and
+                                                         developing malware and other tools to
+If we were to give this report an
+                                                         make their efforts more effective and
+overarching theme, it would be “keeping a
+                                                         efficient. Meanwhile, Social Engineering,
+strong foundation in the face of change.”
+                                                         a longtime fan favorite, is evolving,
+Few people would argue that change, in
+                                                         as well, with attackers increasingly
+every aspect of modern life, confronts us
+                                                         using voice and other mobile-centric
+at an ever-increasing pace these days.
+                                                         techniques to catch people off guard in
+The insights we try to provide in this
+                                                         the middle of the workday.
+report attempt to equip enterprises to
+meet cybersecurity changes in the most                   Please continue reading for report
+effective manner possible. And even                      highlights, including the latest breach
+though this report’s dataset covers Oct                  findings for industries and regions. And
+2024 through Nov 2025, both the DBIR                     please feel free to pass this summary
+team and Verizon are keenly aware of                     to colleagues, and download the
+the growing impact and capabilities of                   full report for a more in-depth view
+AI-augmented vulnerability research and                  of the threats you might face today.
+weaponization so far in 2026 based on
+early indicators and trends observed at
+the time of publication, and will provide
+some forward-looking commentary in
+regards to that where applicable.
+
+
+
+
+1.  Or a fantastic thing! Ok, we’re data breach geeks.
+2. And
+1.  Andbyby
+          ancient, we
+            ancient, wemean
+                        mean predicted in for
+                               predicted  thethe
+                                              pastlast
+                                                    two DBIR
+                                                       two    reports and mentioned a couple paragraphs ago.
+                                                           years.
+
+
+2026 DBIR Healthcare snapshot                                                                                  5
+
+===== PDF PAGE 6 =====
+How to use this report
+First-time readers:
+Before you get started on the 2026 DBIR, it might be a good
+idea to take a look at this section first. We have been doing this
+report for quite a while now, and we appreciate that the verbiage
+we use can be a bit obtuse at times. We use very deliberate
+naming conventions, terms and definitions and spend a lot of
+time making sure we are consistent throughout the report.
+Hopefully this section will help make all of those more familiar.
+If you are a longtime reader (thank you!) and are already familiar
+with how to use the DBIR, you are welcome to skip to the
+next section.
+
+
+
+
+What you will find here                    The breadth of data collection is
+                                           what sets this report apart. Vendor-
+The Data Breach Investigations Report      specific reports are able to talk very
+(DBIR) focuses on the analysis of          authoritatively and in great detail about
+anonymized cybersecurity incident data     the cases they investigated themselves,
+that Verizon collects every year from      but here we are seeking to bridge
+almost a hundred data contributors.        different perspectives and contributor
+Those data points are normalized using     types—large incident response
+the Vocabulary for Event Recording and     outfits, boutique forensics firms, law
+Incident Sharing (VERIS) framework         enforcement from local to country level,
+(more about it on the next page),          cyber insurance brokers and reinsurers—
+which provides us a great foundation       with the hope that it will get us closer to
+for statistical analysis of this type of   the capital T “Truth” of what is going on
+data. Given the culture of secrecy (and    in the threat landscape.
+just how difficult incident response is
+sometimes) that still permeates these
+cases, we often don’t have all the very
+specific details of any given incident.
+
+
+
+
+2026 DBIR How to use this report                                                         6
+
+===== PDF PAGE 7 =====
+VERIS framework                              Learn more here:
+resources                                    • github.com/vz-risk/veris—features the
+                                               framework’s JavaScript Object Notation
+The terms “threat actions,” “threat
+                                               (JSON) schema with some usage, utility
+actors” and “varieties” will be referenced
+                                               scripts, enumeration listings, mappings
+often. These are part of the VERIS, a
+                                               to Center for Internet Security (CIS)
+framework designed to allow for the
+                                               Critical Security Controls, MITRE
+consistent, unequivocal collection of
+                                               ATT&CK and a VERIS Style Guide
+security incident details. Here is how
+they should be interpreted:
+                                             • verisframework.org—a slightly more
+Threat actor: Who is behind the event?         user-friendly website providing
+This could be the external “bad guy”           information on the framework with
+who launches a phishing campaign               examples and enumeration listings          Figure 2. Example slanted bar chart
+or an employee who leaves sensitive                                                       (n=230)
+documents in their seat back pocket.
+                                             Incident vs. breach
+Threat action: What tactics (actions)
+                                             We talk a lot about incidents                Industry labels
+were used to affect an asset? VERIS
+uses seven primary categories of             and breaches and we use the                  We align with the North American
+threat actions: Malware, Hacking,            following definitions:                       Industry Classification System (NAICS)
+Social, Misuse, Physical, Error and          Incident: A security event that              standard to categorize the victim
+Environmental. Examples at a high level      compromises the integrity, confidentiality   organizations in our corpus. The
+are hacking a server, installing malware     or availability of an information asset.     standard uses two- to six-digit codes to
+or influencing human behavior through a                                                   classify businesses and organizations.
+social attack.                               Breach: An incident that results in the      Our analysis is typically done at the
+                                             confirmed disclosure—not just potential      two-digit level, and we will specify NAICS
+Variety: More specific enumerations of       exposure—of data to an unauthorized          codes along with an industry label. For
+higher-level categories—e.g., classifying    party. A distributed DoS (DDoS) attack,      example, a chart with a label of Financial
+the external “bad guy” as an organized       for instance, is most often an incident      (52) is not indicative of 52 as a value.
+criminal group or recording a hacking        rather than a breach since data is rarely    “52” is the NAICS code for the Financial
+action as SQL injection or brute force.      exfiltrated. However, we realize that        and Insurance sector. The overall label
+There are also “vectors” and “motives”       doesn’t make it any less serious.            of “Financial” is used for brevity within
+and “categories,” but we do our best                                                      the figures. Detailed information on the
+in each section to ease folks into the                                                    codes and the classification system are
+nomenclature and try to make it clear                                                     available here: census.gov/naics.
+how to interpret those terms. Also, any
+weird capitalization issues you may find
+throughout the report are referring to
+VERIS “Proper Nouns” and have specific
+meaning tied to them in the framework.
+As much as in the Fae world, true names
+have power here.
+
+
+
+
+                                             Figure 1. Example spaghetti chart
+
+
+
+
+2026 DBIR How to use this report                                                                                                   7
+
+===== PDF PAGE 8 =====
+Being confident in our data
+Starting in 2019 with slanted bar charts,
+the DBIR has tried to make the point that
+the only certain thing about information
+security is that nothing is certain. Even
+with all the data we have, we’ll never
+know anything with absolute certainty.
+However, instead of throwing our hands
+up and complaining that it is impossible
+to measure anything in a data-poor
+environment or, worse yet, just plain
+making stuff up, we get to work. This
+year, you’ll continue to see the team
+representing uncertainty throughout the
+report figures.                               Figure 3. Example dot plot (n=10,000—each dot is one event)
+                                              Orange: lower half of 80%; Yellow: upper half of 80%; Green: 80%–95%; Blue:
+The examples shown in Figures 1, 2 and        Outliers, 95% of events: 402–597 80% of events: 435–565, Median: 500
+3 all convey a range of realities that
+could credibly be true. Whether it be
+the slant of the bar chart, the threads       As you can see, some of the threads
+of the spaghetti chart, the dots of the       are looser than others, indicating a
+dot plot or the colors of the pictogram       wider confidence interval and a smaller
+plot, all convey the uncertainty of the       sample size.
+cybersecurity industry in their own           The dot plot is another returning
+special way.                                  champion, and the trick to understanding
+The slanted bar chart will be familiar        this chart is to remember that the dots
+to returning readers. The slant on the        represent a specific number of events,
+bar chart represents the uncertainty          described in the figure caption. This is
+of that data point to a 95% confidence        a much better way of understanding
+level (which is a common standard for         how something is distributed among
+statistical testing). In layman’s terms, if   organizations and provides considerably
+the slanted areas of two (or more) bars       more information than an average or
+overlap, you can’t really say one is bigger   a median. We added more colors and
+than the other without angering the           callouts to those in an attempt to make
+math gods.                                    them even more informative. In statistical
+                                              terms, it’s just a quantized density chart.
+Much like the slanted bar chart, the          In non-statistical terms, who doesn’t love
+spaghetti chart represents the same           colored little dots?
+concept: the possible values that
+exist within the confidence interval.
+However, it’s slightly more involved
+because we have the added element of
+time. The individual threads represent
+a sample of all possible connections
+between the points that exist within
+each observation’s confidence interval.
+
+
+
+
+2026 DBIR How to use this report                                                                                            8
+
+===== PDF PAGE 9 =====
+Key topics
+and findings
+                                                                                     Rise of
+                                                                                     vulnerability
+                                                                                     exploitation
+                                                                                     Exploitation of vulnerabilities is now
+                                                                                     the most common initial access vector
+                                                                                     for breaches. It has risen to 31% in this
+                                                                                     year’s reporting dataset, while credential
+                                                                                     abuse—the previous leader—is down
+                                                                                     to 13%.
+                                                                                     Only 26% of critical vulnerabilities—
+                                                                                     defined as being in the Cybersecurity
+                                                                                     Infrastructure and Security Agency
+                                                                                     Known Exploited Vulnerabilities (CISA
+                                                                                     KEV) catalog—were fully remediated by
+                                                                                     organizations in 2025, a drop from the
+                                                                                     previous year’s 38%.
+                                                                                     The median time for full resolution went
+                                                                                     up to 43 days, almost two weeks more
+                                                                                     than the previous year’s 32 days. In the
+                                                                                     median case, organizations had 50%
+Figure 4. Known initial access vectors in non-Error, non-Misuse breaches over time
+                                                                                     more critical vulnerabilities to patch in
+(n for 2026 dataset=19,905)
+                                                                                     this year’s reporting dataset compared
+                                                                                     to the previous year.
+
+
+
+
+2026 DBIR Healthcare snapshot                                                                                                    9
+
+===== PDF PAGE 10 =====
+                                                                                  Growth in
+                                                                                  ransomware
+                                                                                  and third-
+                                                                                  party breaches
+                                                                                  continues.
+                                                                                  Ransomware grew again to 48%
+                                                                                  of all breaches, up from 44% from
+                                                                                  the previous year. However, ransom
+                                                                                  payments have continued to decline
+                                                                                  among our dataset, as 69% of
+                                                                                  ransomware victims didn’t pay. The
+                                                                                  median amount of ransom paid also
+                                                                                  continues a downward trend: $139,875
+                                                                                  in this year’s reporting dataset from
+                                                                                  $150,000 in the previous year.
+                                                                                  As organizations increase their
+                                                                                  reliance on third parties for services
+                                                                                  and software, their exposure increases,
+                                                                                  as well, and breaches with third-party
+                                                                                  involvement have increased by 60% from
+                                                                                  last year’s dataset, reaching 48% of
+                                                                                  total breaches.
+                                                                                  Looking at remediation over time in
+Figure 5. Survival analysis of third-party, cloud-based MFA exposures (n=7,513)   third-party cloud exposure, only 23% of
+                                                                                  third-party organizations fully remediated
+                                                                                  missing or improperly secured
+                                                                                  multifactor authentication (MFA) on their
+                                                                                  cloud accounts, with 50% of all findings
+                                                                                  being resolved within a month.
+                                                                                  For weak passwords and permission
+                                                                                  misconfigurations, the time to resolve
+                                                                                  50% of all findings was much worse,
+                                                                                  reaching almost eight months.
+
+
+
+
+2026 DBIR Healthcare snapshot                                                                                              10
+
+===== PDF PAGE 11 =====
+                                                                                     Generative AI
+                                                                                     impacting the
+                                                                                     threat landscape
+                                                                                     Threat actors are demonstrably using
+                                                                                     GenAI to help at different stages of
+                                                                                     attack, including targeting, initial access,
+                                                                                     and development of malware and
+                                                                                     other tools. The median threat actor
+                                                                                     researched or used AI assistance in 15
+                                                                                     different documented techniques, with
+                                                                                     some Actors leveraging as many as 40
+                                                                                     or 50.
+                                                                                     Most AI-assisted development of
+                                                                                     malware and tooling was associated
+                                                                                     with well-known and defined attack
+                                                                                     techniques, with a median of 55 existing
+                                                                                     known malware examples performing the
+                                                                                     same functions.
+                                                                                     Less than 2.5% of the AI-assisted
+                                                                                     malware observations involved less-
+                                                                                     common techniques with one or fewer
+Figure 6. Distribution of known existing malware examples per ATT&CK technique
+                                                                                     known malware examples.
+observed (n=9,897—each dot is 247.43 observations)
+
+
+
+                                                                                     Mobile-centric
+                                                                                     Social Engineering
+                                                                                     Human element was present in 62%
+                                                                                     of breaches, a slight increase from the
+                                                                                     previous year’s 60%. Social Engineering
+                                                                                     was our third most common breach
+                                                                                     pattern, representing 16% of all breaches.
+                                                                                     In phishing simulations, the median rate
+                                                                                     of successful “click” rates in mobile-
+                                                                                     centric vectors (such as voice and text
+                                                                                     messaging) is 40% higher than via email.
+                                                                                     Pretexting has become a more common
+                                                                                     initial access vector to ransomware
+                                                                                     and extortion attacks. In all breaches, it
+                                                                                     reached 6%, while Phishing remained
+                                                                                     at 16% like the previous year. Pretexting
+                                                                                     is an attacker tactic in which a trusted
+                                                                                     relationship is built through concocted
+                                                                                     scenarios to trick the user into taking an
+                                                                                     action that unknowingly compromises
+                                                                                     the organization, frequently by voice
+                                                                                     communications but also seen via email
+                                                                                     or text messaging.
+Figure 7. Distribution of success rate of non-Email vector-simulated social attack
+campaigns (n=35—each dot is 0.88 campaigns)
+
+
+2026 DBIR Healthcare snapshot                                                                                                   11
+
+===== PDF PAGE 12 =====
+                                                                                    Shadow AI policy
+                                                                                    violations and
+                                                                                    malicious insiders
+                                                                                    Regarding usage of unauthorized GenAI
+                                                                                    services (“Shadow AI”), 67% percent of
+                                                                                    users are using non-corporate accounts
+                                                                                    on their corporate devices to access
+                                                                                    AI services, a slight decrease from
+                                                                                    the previous year. However, 45% of
+                                                                                    employees are now considered regular
+                                                                                    users of AI (authorized or not) on their
+                                                                                    corporate devices, up from 15% in the
+                                                                                    previous year.
+                                                                                    Shadow AI is now the third most
+                                                                                    common non-malicious insider action
+                                                                                    detected in our data loss prevention
+                                                                                    (DLP) dataset in 2025, a fourfold
+                                                                                    increase in percentage from the
+Figure 8. Select data types in untrusted DLP events targeting generative AI tools   previous year.
+(n=858,440)
+                                                                                    The most common type submitted to
+                                                                                    external GenAI models was source code,
+                                                                                    followed by images and other types of
+                                                                                    structured data. In 3.2% of DLP policy
+                                                                                    violations, we even found research and
+                                                                                    technical documentation being uploaded
+                                                                                    to those unauthorized AI systems,
+                                                                                    which presents a risk of intellectual
+                                                                                    property exposure.
+
+
+
+
+2026 DBIR Healthcare snapshot                                                                                              12
+
+===== PDF PAGE 13 =====
+Healthcare                                                        NAICS
+                                                                  62
+
+
+
+
+                                                                                       Snake oil remedies come and go on
+Summary                                      Frequency        1,492 incidents, 1,438   social media, often promising “this one
+                                                              with confirmed data      weird trick” will melt away belly fat with
+Healthcare organizations face a mix of                        disclosure               no effort on your part. These claims
+Ransomware-driven System Intrusions                                                    can be ignored, but basic hygiene,
+and persistent human errors, with            Top patterns     System Intrusion,        whether personal or cyber, cannot.
+financially motivated external attackers                      Miscellaneous Errors     The fundamental principles must be
+exploiting vulnerabilities, Phishing, and                     and Social               addressed for an organization to be
+using stolen credentials. Staff mistakes                      Engineering represent    able to weather cyber incidents
+and Misconfigurations remain a chronic                        81% of breaches          and breaches.
+source of breaches.
+                                                                                       Breaches take many forms, but in the
+                                             Threat actors    External (81%),
+                                                                                       Healthcare sector, one pattern stands
+                                                              Internal (19%)
+What is the same?                                             (breaches)
+                                                                                       out: Miscellaneous Errors. DBIRs from
+                                                                                       2014 through 2026 have shown that
+Miscellaneous Errors has been in the                                                   Healthcare has been among the most
+top patterns for this industry since we      Actor motives    Financial (99%),
+                                                              Espionage (2%)           affected by staff mistakes. Miscellaneous
+started keeping track. System Intrusion                                                Errors has been among the top three
+is, once again, in the number one spot for                    (breaches)
+                                                                                       patterns each year. The ranking may
+the second year in a row.                                                              vary from year to year, but it remains a
+                                             Data             Internal (65%),
+                                                              Personal (37%),          chronic problem that needs a cure.
+                                             compromised
+                                                              Credentials (25%),       This year’s top errors in Healthcare
+                                                              Other (19%)              were Misdelivery (data is delivered
+                                                              (breaches)               to the wrong recipient, in any format)
+                                                                                       Loss (often involving unencrypted
+                                             Initial access   Exploitation of          user devices and portable media)
+                                             vector           vulnerabilities (20%),   and Misconfiguration (such as
+                                             breakdown        Phishing (14%),          exposing a data store to the internet
+                                                              Credential abuse (11%)   without appropriate controls). These
+                                                              (breaches)               Misconfigurations are frequently
+                                                                                       discovered by security researchers who
+                                             Other metrics    Human element (54%),     typically make an effort to notify the
+                                                              Third-party (32%)        victim organizations rather than simply
+                                                              (breaches)               take the data for their own use.
+                                                                                       Figure 10 illustrates that despite
+                                                                                       repeated recommendations to implement
+                                                                                       controls to prevent or limit the impact
+                                                                                       of such mistakes, these Errors have
+                                                                                       remained persistent over the years.
+                                                                                       Controls to combat these kinds of
+                                                                                       mistakes, which appear in our dataset
+                                                                                       again and again, would be part of those
+                                                                                       security fundamentals we mentioned.
+
+
+
+
+Figure 9. Top patterns in Healthcare breaches over time (n for 2026 dataset=1,438)
+
+
+
+
+2026 DBIR Healthcare snapshot                                                                                                       13
+
+===== PDF PAGE 14 =====
+Figure 10. Top Error varieties in Healthcare breaches over time
+(n for 2026 dataset=186)
+
+
+
+Hopping off                                         The security fundamentals do not only
+                                                    apply to your own organization—they
+our soapbox                                         must also be baked into the contracts
+                                                    made with business associates and
+System Intrusion remains the top                    suppliers, as well.
+pattern for the Healthcare industry
+                                                    The Social Engineering pattern re-
+and is largely driven by Ransomware.
+                                                    entered the top three, replacing last
+Threat actors commonly gain access
+                                                    year’s Everything Else. For social
+via the Use of stolen credentials or by
+                                                    actions, Phishing was most common,
+the Exploitation of vulnerabilities, then
+                                                    followed by Pretexting. This year, we
+deploy Ransomware and frequently
+                                                    saw a small number of Baiting cases in
+follow up with the exfiltration of data for
+                                                    which attackers infected the websites
+future leverage. In other cases, Actors
+                                                    frequently visited by their targets.
+simply rely on extortion alone and do not
+trigger the encryption of data.
+This year, many industries were
+affected by the Oracle E-Business
+Suite vulnerability,2 and Healthcare was
+not spared. A number of organizations
+reported having been affected by this
+attack, largely attributed to the Cl0p
+criminal group. In part, this contributed to
+the third-party figure of 32% of breaches
+in this sector and illustrates how the
+complex web of third-party relationships
+can impact any organization.
+
+
+
+
+2. z2data.com/insights/everything-you-need-to-know-about-the-oracle-data-breach
+
+
+2026 DBIR Healthcare snapshot                                                                14
+
+===== PDF PAGE 15 =====
+Stay informed
+and threat ready.
+Facing today’s threats requires intelligence from a source you can trust.
+
+The full DBIR contains details on the actors, actions and patterns that can
+help you prepare your defenses and educate your organization. Get the
+intelligence you need to help protect your organization.
+
+Read the full 2026 DBIR at verizon.com/dbir.
+
+
+
+
+Want to make the world of
+cybersecurity a safer place?
+If your organization aggregates incident or security data and you’re interested in
+becoming a contributor or research partner to the annual Verizon DBIR (and we
+hope you are), the process is very easy and straightforward. Please email us at
+dbircontributor@verizon.com so we can discuss the details and make you a part
+of the DBIR research community.
+Please feel free to provide us feedback for improving the DBIR at
+dbir@verizon.com, reach out to Verizon Business (or one of the authors) on
+LinkedIn and check out the VERIS GitHub page: github.com/vz-risk/veris.
+
+
+
+
+2026 DBIR Healthcare snapshot                                                        15
+
+===== PDF PAGE 16 =====
+© 2026 Verizon. VZREP2420526
