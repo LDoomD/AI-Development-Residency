@@ -35,6 +35,7 @@ The owner needs every detail right. These steps apply to every question about a 
 5. End every answer about the course with one line: "Read: <file names>. Requirements used: <their numbers>." so the owner can see what was and was not read.
 6. If a week file says "NOT yet re-checked," say so before quoting it, and offer to re-copy the live page.
 7. The copy date is in each file's header. The live Tech Fleet page is the source of truth; say so if a copy might be out of date.
+8. **"My steps" pages (added 2026-11-18).** Each week has a one-page plain-words checklist for the owner, made from that week's course page: `Resources/Week_N/MY STEPS - Week N ... (plain words, 2026-11-18).md`. At the start of a session, find which week the owner is on, read that week's "My steps" page, and keep the owner on it. If a request is not on the page, say so and ask before starting it. The course page always wins if the two differ. The owner is on **Week 4** as of 2026-11-18; do not bring up later weeks unless asked.
 Never answer from memory of an earlier turn.
 
 ## Files in `reference/`
