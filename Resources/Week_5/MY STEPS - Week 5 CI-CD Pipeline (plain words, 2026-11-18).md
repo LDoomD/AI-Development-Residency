@@ -10,7 +10,7 @@
 ## Before you start (all must be true)
 - [ ] Your Week 4 app is built and live on Vercel, in the repository you use.
 - [ ] Your Week 2 MVP requirements are ready, with your use cases and BDD scenarios.
-- [ ] Your Week 1 Claude Skills are ready. **They must be in the same repository as the app code**, because the pipeline checks them on every push. This depends on the Week 4 "where does the app live" decision.
+- [ ] Your Week 1 Claude Skills are ready. **They must be in the same repository as the app code**, because the pipeline checks them on every push. The app repository is `Week-3---Caregiving-Coordinator` (decided 2026-11-18), so **[Claude]** copies the skills over from `AI-Development-Residency`. Claude keeps them well organized (one folder per skill with a `SKILL.md`), follows best practices for the folder layout, and shows you the layout before pushing.
 
 ## Steps
 - [ ] **1. [Both]** Pick what the automatic checks should test, using your use cases and BDD scenarios.
