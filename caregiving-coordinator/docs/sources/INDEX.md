@@ -2,7 +2,7 @@
 
 Every cited source for the market research is saved here so it can be opened and audited. Rule (also in `CLAUDE.md`): read the full primary source, cite every claim with a link and page, and keep a copy here.
 
-Last updated 2026-11-01.
+Last updated 2026-11-18 (security paper batch 1 section at the end).
 
 ## 1. AARP and NAC, Caregiving in the US 2025 (read in full)
 
@@ -641,3 +641,19 @@ Fetched with curl and the GitHub CLI on 2026-11-18. The findings are in `FINDING
 | `obra-*` (2 files) | Two skills from obra/superpowers (MIT) | Repository commit 22f0b46, 2026-11-03 | https://github.com/obra/superpowers |
 | `jackspace-*` (2 files) | Two skills from jackspace/ClaudeSkillz (MIT, archived; weak source, do not copy) | Repository commit aef4e29, 2026-08-04 | https://github.com/jackspace/ClaudeSkillz |
 | `89jobrien-create-pr.md` | A pull request command from 89jobrien/steve (weak source) | Repository commit c0ff044, 2026-08-26 | https://github.com/89jobrien/steve |
+
+
+## 2026-11-18: Premium paper on advanced information security, batch 1 (in progress)
+
+Source list: `caregiving-coordinator/docs/security-paper/source-list-2026-11-17.md`. Files are in `caregiving-coordinator/docs/sources/security-paper/`, notes in its `notes/` folder. Downloaded with curl on 2026-11-18. Page numbers in the notes are printed page numbers for PDFs and page names for web pages.
+
+| Folder or file in `security-paper/` | What it is | Version and date checked | Status | Original URL |
+|---|---|---|---|---|
+| `nist-csf-2-0/NIST.CSWP.29.pdf` | NIST, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29 | Final, Feb 26, 2024. NIST's page (`currency-checks-2026-11-18/nist-cswp29.html`) lists a draft of 08/08/23 and the final of 02/26/24 and no newer edition. | Read in full. Notes: `notes/nist-csf-2-0-notes.md` | https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf |
+| `nist-sp-800-12r1/NIST.SP.800-12r1.pdf` | NIST SP 800-12 Rev. 1, An Introduction to Information Security | Final, June 2017 (final 06/22/17). NIST's page (`currency-checks-2026-11-18/nist-sp800-12r1.html`) shows it supersedes the 1995 edition and lists no withdrawal or newer revision. | Read in full. Notes: `notes/nist-sp-800-12r1-notes.md` | https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf |
+| `owasp-history/about.html` | OWASP Foundation, About OWASP page | Accessed 2026-11-18. Confirms the project launched Dec 1, 2001. | Read in full. Notes: `notes/owasp-history-notes.md` | https://owasp.org/about/ |
+| `owasp-top10-2025/` (17 pages) and `owasp-top10-2025-project-page/` | OWASP Top 10:2025 and its project page | Project page says 2025 is "the most current released version" (checked 2026-11-18). | Partly read: index, Introduction, About, risk method and program pages. A01 to A10 and Next Steps still to read. Notes: `notes/owasp-top10-2025-notes.md` | https://owasp.org/Top10/2025/ |
+| `saltzer-schroeder-1975/` | Saltzer and Schroeder, The Protection of Information in Computer Systems (1975), author's HTML copy on MIT's site, 6 pages | Proceedings of the IEEE, 1975. MIT page says manuscript received Oct 11, 1974, revised Apr 17, 1975. No PDF with journal page numbers was found on the author's page (the guessed PDF addresses returned 404). | Saved, not read yet. Needs a page-number plan: the HTML copy has no journal page numbers. | https://web.mit.edu/Saltzer/www/publications/protection/ |
+| `ibm-cost-of-data-breach-2026/` (landing page in the repo; full PDF on the owner's computer only) | IBM, Cost of a Data Breach Report 2026, 37 PDF pages, created Aug 10, 2026 | Titled "Cost of a Data Breach Report 2026", the 21st edition. The owner filled in IBM's form and saved the PDF on 2026-11-18. The PDF is excluded from the public repository by `security-paper/.gitignore`. | Read in full. Notes: `notes/ibm-cost-of-data-breach-2026-notes.md` | https://www.ibm.com/reports/data-breach |
+| `verizon-dbir-2026/` (landing page in the repo; full PDF on the owner's computer only) | Verizon, 2026 Data Breach Investigations Report, 121 pages, created May 19, 2026 | The 19th edition, covering Nov 1, 2024 to Oct 31, 2025 (pp. 5, 9). The owner filled in Verizon's form and saved the PDF on 2026-11-18. The earlier `.pdf` committed here was only Verizon's sign-up page and has been removed. | Partly read: pages 1 to 27. Pages 28 to 121 still to read. Notes: `notes/verizon-dbir-2026-notes.md` | https://www.verizon.com/business/resources/reports/dbir/ |
+| `verizon-dbir-2026/2026-dbir-healthcare-snapshot.pdf` | Verizon, 2026 DBIR for Healthcare snapshot (16 pages, created Jun 10, 2026) | Downloaded as a stand-in lead. It is not the approved source and is not the full report. | Saved, not read, not cited. | https://www.verizon.com/business/resources/reports/2026-dbir-healthcare-snapshot.pdf |

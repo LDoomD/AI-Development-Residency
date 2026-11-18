@@ -1,6 +1,6 @@
 # Candidate sources for the Premium paper: Advanced Information Security (draft for owner approval, 2026-11-17)
 
-**Status:** **Approved by the owner on 2026-11-18**, including the five sources added that day. Nothing in this list has been read in full yet. The reading method (me in batches in a fresh chat, or a many-agent workflow) is still to be chosen; the default is me in batches. For each source, a web search on 2026-11-17 confirmed that it exists and found its date or version. The full text is read, saved in `docs/sources/security-paper/` and logged in `docs/sources/INDEX.md` only after the owner approves the list.
+**Status:** **Approved by the owner on 2026-11-18**, including the five sources added that day and two more added later that day (see the end of this file). The reading plan was narrowed the same day: see `caregiving-coordinator/docs/security-paper/cite-plan-2026-11-18.md`. Nothing in this list has been read in full yet. The reading method (me in batches in a fresh chat, or a many-agent workflow) is still to be chosen; the default is me in batches. For each source, a web search on 2026-11-17 confirmed that it exists and found its date or version. The full text is read, saved in `docs/sources/security-paper/` and logged in `docs/sources/INDEX.md` only after the owner approves the list.
 
 **Rules for the paper (course page, requirement 3):** APA 7 citations with page numbers, a bibliography at the end, everything in my own words, no plagiarism. The Week 6 lecture notes (`Resources/Week_6/`) give direction only. They are never the evidence for a claim.
 
@@ -84,7 +84,7 @@ The course page sets no number of sources. It only asks for APA citations with a
 
 | Tier | What counts | Official addresses I accept |
 |---|---|---|
-| 1. Standards, governments and official projects | Standards bodies, government agencies, and the projects' own sites | OWASP: owasp.org, cheatsheetseries.owasp.org, owaspsamm.org, asvs.owasp.org, genai.owasp.org, and the official github.com/OWASP organization. NIST: csrc.nist.gov, nvlpubs.nist.gov, nist.gov, nvd.nist.gov. CISA: cisa.gov. MITRE: cwe.mitre.org. FIRST: first.org. Also bls.gov, ftc.gov, hhs.gov, supabase.com/docs, vercel.com/docs, github.com/advisories, and (added 2026-11-18) docs.github.com, docs.npmjs.com and zaproxy.org (the OWASP ZAP project's own site). |
+| 1. Standards, governments and official projects | Standards bodies, government agencies, and the projects' own sites | OWASP: owasp.org, cheatsheetseries.owasp.org, owaspsamm.org, asvs.owasp.org, genai.owasp.org, and the official github.com/OWASP organization. NIST: csrc.nist.gov, nvlpubs.nist.gov, nist.gov, nvd.nist.gov. CISA: cisa.gov. MITRE: cwe.mitre.org. FIRST: first.org. Also bls.gov, ftc.gov, hhs.gov, supabase.com/docs, vercel.com/docs, github.com/advisories, and (added 2026-11-18) docs.github.com, docs.npmjs.com and zaproxy.org (the OWASP ZAP project's own site), and (added 2026-11-18, later that day, approved by the owner) nextjs.org (the Next.js project's own documentation, for the Next.js app in topic 8). |
 | 2. Peer-reviewed and professional bodies | Journals and professional groups | IEEE, ACM, ISC2 (isc2.org) |
 | 3. Primary company reports | The company's own report or advisory, never news about it | verizon.com (Data Breach Investigations Report), ibm.com (Cost of a Data Breach), and for incidents only the researchers' own advisories (Socket, Aikido, Palo Alto Unit 42, UpGuard, Wiz). I label these "company research". |
 | Leads only, never cited | News sites, blogs, Medium, Wikipedia, vendor marketing, forums, AI summaries, copies on other domains | Used only to find the primary source, then dropped |
@@ -169,3 +169,13 @@ With these, Topic 7 has real tool and skill sources and the optional "tool docs"
 3. **Older sources are labeled old, and only used where they are still the newest official edition.** SP 800-115 is from 2008 and WSTG 4.2 is from 2020. See the currency check above.
 4. **No Wikipedia, no vendor blogs** (Aikido, Semgrep and similar) as evidence. I used them only to find the primary source.
 5. **No legal conclusions.** Law sources describe what the rule says. They never claim that the product idea would be safe or compliant.
+
+## Added 2026-11-18, later that day (approved by the owner)
+
+The owner approved two additions while reviewing the cite plan. Both fill gaps for the proposed caregiving coordinator: the list had nothing on Next.js or Vercel security and little on advanced design such as zero trust. I read each page before citing it and confirm the version on the official page.
+
+| Source | Publisher, date | Link | Topic | Why added |
+|---|---|---|---|---|
+| NIST SP 800-207, Zero Trust Architecture | NIST, August 2020 (final; date to confirm on NIST's page) | https://csrc.nist.gov/pubs/sp/800/207/final | 5, 8 | Matches the idea's rule that every request is checked against the signed-in person and nothing is trusted by default. |
+| Vercel documentation, security pages | Vercel (vercel.com/docs, an approved domain) | https://vercel.com/docs | 7, 8 | The idea is hosted on Vercel. The exact pages are chosen and dated when read. |
+
