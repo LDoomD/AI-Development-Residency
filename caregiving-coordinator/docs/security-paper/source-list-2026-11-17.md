@@ -63,7 +63,9 @@
 | NICE Framework | NIST | https://csrc.nist.gov/pubs/sp/800/181/r1/final | Skills by work role |
 | Tool documentation (secret scanning, dependency checks, code scanners) | Each tool's own docs | To be chosen with the owner | What the pipeline checks do. Only official docs, no vendor blogs. |
 
-## Topic 8. The caregiving app
+## Topic 8. The proposed caregiving coordinator (a product idea, not built yet)
+
+The course asks the paper to propose the vision for the product. The coordinator is a **hypothesis**, so this topic describes how the field would apply to it. It does not describe a finished product.
 
 These are already saved in `docs/sources/` (2026-11-12 research, listed in `INDEX.md`). I reuse them and add the field sources above.
 
@@ -82,7 +84,7 @@ The course page sets no number of sources. It only asks for APA citations with a
 
 | Tier | What counts | Official addresses I accept |
 |---|---|---|
-| 1. Standards, governments and official projects | Standards bodies, government agencies, and the projects' own sites | OWASP: owasp.org, cheatsheetseries.owasp.org, owaspsamm.org, asvs.owasp.org, genai.owasp.org, and the official github.com/OWASP organization. NIST: csrc.nist.gov, nvlpubs.nist.gov, nist.gov, nvd.nist.gov. CISA: cisa.gov. MITRE: cwe.mitre.org. FIRST: first.org. Also bls.gov, ftc.gov, hhs.gov, supabase.com/docs, vercel.com/docs, github.com/advisories. |
+| 1. Standards, governments and official projects | Standards bodies, government agencies, and the projects' own sites | OWASP: owasp.org, cheatsheetseries.owasp.org, owaspsamm.org, asvs.owasp.org, genai.owasp.org, and the official github.com/OWASP organization. NIST: csrc.nist.gov, nvlpubs.nist.gov, nist.gov, nvd.nist.gov. CISA: cisa.gov. MITRE: cwe.mitre.org. FIRST: first.org. Also bls.gov, ftc.gov, hhs.gov, supabase.com/docs, vercel.com/docs, github.com/advisories, and (added 2026-11-18) docs.github.com, docs.npmjs.com and zaproxy.org (the OWASP ZAP project's own site). |
 | 2. Peer-reviewed and professional bodies | Journals and professional groups | IEEE, ACM, ISC2 (isc2.org) |
 | 3. Primary company reports | The company's own report or advisory, never news about it | verizon.com (Data Breach Investigations Report), ibm.com (Cost of a Data Breach), and for incidents only the researchers' own advisories (Socket, Aikido, Palo Alto Unit 42, UpGuard, Wiz). I label these "company research". |
 | Leads only, never cited | News sites, blogs, Medium, Wikipedia, vendor marketing, forums, AI summaries, copies on other domains | Used only to find the primary source, then dropped |
@@ -136,6 +138,22 @@ These come from searches for what was published or disclosed recently. Search re
 
 **A claim I am not using:** some outlets say OWASP published a web "Top 10 2026". OWASP's own page says 2025 is "the most current released version", and the "2026" stories list the same categories as the 2025 list. One site argues there is no 2026 list. The OWASP LLM Top 10 for 2026 (Sep 2026) is real but concerns AI chat apps, so it is out of scope while MVP #1 uses no outside AI service.
 
+## Added 2026-11-18 to fill gaps (Proposed, awaiting owner approval)
+
+The owner asked whether the list is enough for the course page's requirements. Topics 1 and 5 had only a framework and no plain introduction, and Topic 7 had the row "tool documentation, to be chosen". A search on 2026-11-18, limited to official domains, found these. Only search summaries have been seen so far. I read each page before citing it.
+
+| Source | Publisher, date | Link | Topic | Why added |
+|---|---|---|---|---|
+| SP 800-12 Rev. 1, An Introduction to Information Security | NIST, June 2017 (final) | https://csrc.nist.gov/pubs/sp/800/12/r1/final | 1, 5 | A plain introduction for newcomers, with eight core principles. It is from 2017, so I label it as the newest final edition once I confirm that on NIST's page. |
+| About secret scanning; GitHub security features (secret scanning, Dependabot alerts, code scanning) | GitHub Docs | https://docs.github.com/code-security/secret-scanning/about-secret-scanning and https://docs.github.com/en/code-security/getting-started/github-security-features | 7 | Official docs for the tools that catch leaked keys, vulnerable packages and code flaws. The docs say code scanning and secret scanning are on by default for public repositories. |
+| Auditing package dependencies for security vulnerabilities (npm audit) | npm Docs | https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/ | 7 | The official way to check a project's packages for known flaws. I confirm the current npm version when I read it. |
+| ZAP (Zed Attack Proxy) | OWASP project; the search found release 2.17.0 of Dec 15, 2025 | https://www.zaproxy.org/ | 6, 7 | A free testing tool teams use. I confirm the newest release on the project's download page. |
+| Certified in Cybersecurity exam outline | ISC2, effective Sep 1, 2026 | https://www.isc2.org/certifications/cc/cc-certification-exam-outline | 2, 7 | The skills an entry-level person is expected to have. I use the outline only, not the fees, which are ISC2's marketing. |
+
+With these, Topic 7 has real tool and skill sources and the optional "tool docs" row above is resolved. Count after this addition: about 44 sources.
+
+**Optional cuts if the owner wants a shorter list:** NIST post-quantum report (series number unconfirmed), NIST SP 800-100 Rev. 1 draft, NIST SP 1347.
+
 ## Rules for keeping the paper current
 
 1. When I read each source, I re-check the project's official page and write the version and the date I checked in `INDEX.md`.
@@ -150,4 +168,4 @@ These come from searches for what was published or disclosed recently. Search re
 2. **Newer editions exist for two reports.** I use IBM 2026, not 2025, and Verizon 2026.
 3. **Older sources are labeled old, and only used where they are still the newest official edition.** SP 800-115 is from 2008 and WSTG 4.2 is from 2020. See the currency check above.
 4. **No Wikipedia, no vendor blogs** (Aikido, Semgrep and similar) as evidence. I used them only to find the primary source.
-5. **No legal conclusions.** Law sources describe what the rule says. They never say the app is compliant.
+5. **No legal conclusions.** Law sources describe what the rule says. They never claim that the product idea would be safe or compliant.
