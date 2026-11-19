@@ -1,0 +1,1438 @@
+                                                                                                          TLP:CLEAR
+
+
+
+
+Open Source Software:
+Security Principles and Practices
+
+Publication: July 30, 2026
+Cybersecurity and Infrastructure Security Agency
+
+
+
+
+This document is marked TLP:CLEAR. Recipients may share this information without restriction. Information is subject to
+standard copyright rules. For more information on the Traffic Light Protocol, see https://www.cisa.gov/tlp.
+                                                                                                          TLP:CLEAR
+Open Source Software Guidance                                                                          TLP:CLEAR
+CISA
+
+
+
+
+       Guidance at a Glance
+       Title                    Open Source Software: Security Principles and Practices
+
+       Original Publication     July 30, 2026
+
+                                This guidance provides recommendations to federal agencies on the use of
+                                security assessments and patching of open source software (OSS) and best
+       Executive Summary        practices for contributing to OSS projects. These recommendations are rooted in
+                                software development and software supply chain risk management best practices
+                                and are tailored to address the benefits and risks unique to OSS.
+
+                                Agencies should implement the practices and processes outlined in this guidance
+       Key Actions              to improve risk management of OSS and more effectively use open source
+                                software solutions to meet mission needs.
+
+       Intended Audience        Federal agencies
+
+
+
+
+Page 2 of 31                                                                                           TLP:CLEAR
+Open Source Software Guidance                                                                                                                                             TLP:CLEAR
+CISA
+
+
+
+       Table of Contents
+       Guidance at a Glance................................................................................................................................................... 2
+       Introduction ................................................................................................................................................................... 4
+          What Is Open Source Software?........................................................................................................................ 5
+          Open Source Software Considerations for Supply Chain Risk Management ................................................. 6
+       Using Open Source Software Solutions .................................................................................................................... 6
+         Select Software Solutions .................................................................................................................................. 7
+          Monitor Risk ....................................................................................................................................................... 8
+          Follow Established Patching Principles............................................................................................................. 9
+       Contributing to Open Source Software Projects ................................................................................................... 11
+         Perform Legal Review ...................................................................................................................................... 11
+          Perform Privacy Review ................................................................................................................................... 12
+       Producing Open Source Software ........................................................................................................................... 12
+         Use the “Default Open Source” Approach to Custom-Developed Software .................................................13
+          Maintain Source Code Inventory ..................................................................................................................... 13
+          Publish Open Source Software Projects ......................................................................................................... 15
+          Maintain Open Source Software Projects ....................................................................................................... 17
+          Archive End-of-Support Open Source Software Projects ............................................................................... 17
+          Secure Rights for Government Reuse for Contractor-Developed Software..................................................18
+          Follow Secure Development Lifecycle Best Practices ................................................................................... 18
+       Evaluating Open Source Artificial Intelligence Models ........................................................................................ 18
+         What Are Open Source Artificial Intelligence Systems? ................................................................................. 19
+          Manage Risk for Open Source Artificial Intelligence Systems ....................................................................... 19
+       Conclusion .................................................................................................................................................................. 20
+       Disclaimer ................................................................................................................................................................... 21
+       References ................................................................................................................................................................. 22
+       Appendix A: The C4 Framework .............................................................................................................................. 24
+       Appendix B: Example Source Code Inventory Metadata Schema Required Fields......................................... 27
+       Appendix C: Example JSON Metadata Schema .................................................................................................... 30
+         An Open Source Repository ............................................................................................................................. 30
+          An Exempted Repository .................................................................................................................................. 30
+
+
+
+
+Page 3 of 31                                                                                                                                                              TLP:CLEAR
+Open Source Software Guidance                                                                                 TLP:CLEAR
+CISA
+
+
+
+       Introduction
+       Today’s software is largely made up of existing components that have been hewn together, rather than
+       built from scratch. This approach to software development improves efficiency by reducing the need to
+       recreate existing functionalities and processes for each new product. Many of the components that
+       software producers elect to use (rather than developing their own versions) are open source software (OSS)
+       components. Modern software systems heavily rely on OSS, 1 and all U.S. federal agencies have OSS in
+       their systems and networks.
+       OSS has many advantages, including visibility into the code base, flexibility that enables customization,
+       lower costs driven by the absence of licensing fees, and dynamic communities of developers collaborating
+       on improvements. These advantages give downstream software consumers (organizations that use OSS
+       components) greater control over their software. For example, instead of submitting feature requests to an
+       external organization or relying on service agreements for bug and vulnerability fixes, software consumers
+       can implement changes themselves. This direct access to the software means that OSS consumers are
+       responsible for managing security updates and other support throughout the software lifecycle. Agencies
+       should adjust their processes for acquiring, developing, and maintaining software to benefit from OSS
+       while using it securely and sustainably.
+       Executive Order 14144, “Strengthening and Promoting Innovation in the Nation’s Cybersecurity,” highlights
+       the benefits of OSS for federal agencies. Executive Order 14306, “Sustaining Select Efforts To Strengthen
+       the Nation’s Cybersecurity and Amending Executive Order 13964 and Executive Order 14144" reinforces
+       the need to secure federal networks. CISA developed this guidance on secure OSS practices to fulfill its
+       responsibilities under 6 U.S.C. § 652 and to align with the direction established in Executive Orders 14144
+       and 14306.
+       This guidance outlines considerations and best practices for agencies to engage with OSS securely,
+       responsibly, and sustainably. OSS is software; therefore, established best practices for software security
+       apply. 2 Recommendations in this guidance align with existing best practices for secure software
+       development and operation and address OSS-specific matters, such as contributing to, and publishing,
+       OSS projects.
+
+
+
+
+       1 Black Duck, “2026 Open Source Security and Risk Analysis Report,” 2026,
+
+       https://www.blackduck.com/resources/analyst-reports/open-source-security-risk-analysis.html; Linux Foundation and
+       Harvard University, “Report: Census II of Free and Open Source Software,” March 2022,
+       https://www.linuxfoundation.org/hubfs/Research%20Reports/lfr_harvard_censusII_mar2022_042824b.pdf?hsLang
+       =en; Linux Foundation, “The State of Global Open Source 2025,” October 27, 2025,
+       https://www.linuxfoundation.org/hubfs/Research%20Reports/2025GlobalSpotlight_Oct-27-2025%20V4.pdf.
+       2 See, for example, CISA’s Cybersecurity Performance Goals 2.0 (CPG 2.0).
+
+
+
+
+Page 4 of 31                                                                                                  TLP:CLEAR
+Open Source Software Guidance                                                                                  TLP:CLEAR
+CISA
+
+
+
+       What Is Open Source Software?
+       OSS is software that anyone can access, use, modify, and share. 3 OSS is distinguished from proprietary
+       software by its permissive licensing, which allows for free viewing, use, modification, and distribution of the
+       source code. Agencies can identify OSS by its associated license—see the Open Source Initiative’s list of
+       open source licenses. 4 Generally, OSS is developed through open source development practices;
+       individuals collaborate to develop and update OSS through projects hosted in online repositories where
+       they propose updates, fix issues, and discuss improvements. Within these projects, some individuals act as
+       maintainers, facilitating the project’s development by approving suggestions and merging changes to the
+       codebase. 5 Others act as contributors, submitting suggestions to OSS projects and engaging in discussions
+       on issues and updates. Contributors may participate regularly or sporadically. Together, maintainers and
+       contributors form the community that drives the development of an OSS project. Many individuals active in
+       OSS communities operate anonymously or using pseudonyms (under a username rather than their legal
+       name). Organizations around the world—from small businesses to large multinational corporations—also
+       take part in OSS communities. Software developed through closed development practices can later
+       become open source software, but software developed in this way may lack the visible development history
+       that open source development practices generate.
+       OSS projects do not follow a single “typical” architecture or design strategy. Some OSS projects, such as
+       the Apache HTTP Server Project or the Linux Kernel, have a well-established history, a robust community
+       supporting them, and established processes and policies that guide how maintainers, contributors, and
+       software consumers interact with the project. On the other extreme are abandoned projects, such as those
+       students created for school assignments and never revisited. In addition, some projects have thousands of
+       downstream software consumers, while others have only a handful. Openness is the commonality across
+       OSS projects.
+
+       Benefits of Open Source Software
+       Federal agencies are responsible for executing complex and critical missions and delivering critical
+       services to the public. Agencies can use OSS to meet mission needs and realize the following benefits:
+              Security through transparency: Open code allows independent researchers and agencies to verify
+               security properties directly rather than trusting vendor attestations.
+
+
+
+
+       3 Office of Management and Budget, M-16-21, “Federal Source Code Policy: Achieving Efficiency, Transparency, and
+
+       Innovation through Reusable and Open Source Software,” August 8, 2016,
+       https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf; National Institute
+       of Standards and Technology, Suborder 6106.01, Version 1 “Open Source Code” December 6, 2018,
+       https://www.nist.gov/system/files/documents/2019/02/19/final_s_6106.01_ver_1.pdf; Department of Defense,
+       “Software Development and Open Source Software,” January 24, 2022,
+       https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf.
+       4 Open Source Initiative, “OSI Approved Licenses,” https://opensource.org/licenses.
+
+       5 This document does not cover specific open source development practices in depth. Resources on open source
+
+       development best practices include the CISA GitHub repository Development Guide and OpenSSF’s Best Practices for
+       Open Source Developers.
+
+
+
+
+Page 5 of 31                                                                                                   TLP:CLEAR
+Open Source Software Guidance                                                                             TLP:CLEAR
+CISA
+
+
+
+              Reduced vendor lock-in: Open standards and modifiable code protect agencies from proprietary
+               dependency traps.
+              Cost efficiency: No licensing fees, shared development costs across the community, and upstream
+               fixes reduce agency maintenance burden.
+              Mission alignment: Government-funded software belongs to the public. Making it open source
+               supports transparency and responsible use of resources.
+
+       Open Source Software Considerations for Supply Chain Risk Management
+       Although many security practices used for proprietary software also apply to OSS, failing to account for key
+       differences between OSS and proprietary software can create inefficiencies and overlook OSS-specific
+       risks. OSS has several unique characteristics that require agencies to modify software practices, including:
+              Community-driven software development: Individuals from around the world collaborate to develop
+               and improve OSS.
+              Transparency: Software consumers can view the product codebase and other project metadata.
+              Individual anonymity: Online repository users can act as maintainers and contributors for OSS
+               projects using an alias or pseudonym.
+              Customization: Access to the source code allows software consumers to modify the software
+               directly.
+       These characteristics present trade-offs that have implications for how agencies produce, choose, and
+       consume OSS. To navigate these trade-offs, agencies should strategically adapt their software practices to
+       take advantage of OSS while mitigating its risks.
+       For example, the community-driven software development model means agencies can help shape the
+       software and benefit from improvements contributed by other experts and practitioners. However, this
+       advantage comes with a trade-off: No single entity is responsible for pushing feature upgrades or security
+       patches. Agencies may assign staff or contract with a third party to handle security patches and feature
+       upgrades, but independent OSS project maintainers do not have an obligation to provide updates or
+       patches.
+
+
+       Using Open Source Software Solutions
+       Agencies use software to improve capacity and efficiency, enabling them to better fulfill their mission.
+       Despite these benefits, agencies must consider risks when selecting software solutions and manage them
+       throughout the software lifecycle. The cybersecurity principles that drive risk management for proprietary
+       software are equally relevant to OSS. However, agencies must adapt their implementation to address the
+       unique characteristics of OSS.
+       With proprietary software, the software producer is responsible for developing and distributing security
+       patches. In contrast, OSS project maintainers are not the equivalent of a software producer. Updates to the
+       project—both feature-related and security-related—come from best-effort open source development
+       processes, and it is up to downstream users to ensure their dependencies are up to date. By embedding
+
+
+
+
+Page 6 of 31                                                                                              TLP:CLEAR
+Open Source Software Guidance                                                                                     TLP:CLEAR
+CISA
+
+
+
+       OSS-specific considerations into every stage of their software management processes, agencies can fully
+       leverage the advantages of OSS while effectively managing associated risks.
+
+       Select Software Solutions
+       Federal agencies face varied, sometimes niche, capability needs to meet mission goals and deliver critical
+       services to the public. To fill capability gaps, agencies can assess available software, acquire new software
+       solutions, or initiate a project to deliver custom-developed code. 6 The community-driven, decentralized
+       development processes inherent in OSS-generated components produce a wide variety of software that
+       meets unique and complex requirements. Rather than purchase a proprietary software solution to meet a
+       need, agencies may find that there is an existing, suitable OSS solution. 7 By considering OSS—in addition
+       to proprietary software—when considering possible software solutions, agencies can lower costs while
+       maintaining high standards for performance quality.
+       Agencies should establish a process to review and approve OSS that supports staff in using solutions that
+       best meet their needs while still managing risks. Standardizing this process enables agencies to use
+       automated software tools to support human-driven analysis. The level of review required should reflect
+       organizational risk-acceptance posture. For example, an agency’s Office of the Chief Information Officer
+       (OCIO) may delegate approvals for software libraries (collections of pre-developed software components) to
+       the program level, while retaining approval authority for higher-risk components, such as an operating
+       system. Review requirements may also vary based on potential risk exposure. For example, automated
+       tools may suffice to review a software library, but the agency may require more in-depth analysis and
+       documentation for an operating system.
+
+       Evaluate Trustworthiness
+       Before approving an OSS component for use in agency software, the agency should evaluate the
+       trustworthiness of the OSS project. This evaluation helps the agency consider relevant risk factors and
+       determine that the project meets its risk tolerance. See the C4 Framework in Appendix A for how to
+       evaluate OSS project trustworthiness. Agencies should tailor the criteria for trustworthiness to their mission
+       areas and to each software development project, as risks and risk tolerance may vary. Agencies can
+       identify a minimum set of risk considerations that all software development projects must use.
+       Agencies should use automated tools to assist in the evaluation of OSS components. These tools take
+       advantage of the open source development process characteristic of OSS projects and draw insights about
+       risks from the project metadata. Examples of these tools include Hipcheck and CHAOSS.
+       Agencies should rigorously evaluate the trustworthiness of OSS components both before adoption and
+       throughout the time the component is in use. Ongoing re-evaluations are essential to maintaining strong
+       software security practices and ensuring vigilance against emerging risks. Agencies should determine a
+
+
+       6 Office of Management and Budget, M-16-21, “Federal Source Code Policy: Achieving Efficiency, Transparency, and
+
+       Innovation through Reusable and Open Source Software,” August 8, 2016,
+       https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf.
+       7 OMB M-16-21 states, “agencies must consider open source, mixed source, and proprietary software solutions
+
+       equally and on a level playing field, and free of preconceived preferences based on how the technology is developed,
+       licensed, or distributed.”
+
+
+
+
+Page 7 of 31                                                                                                      TLP:CLEAR
+Open Source Software Guidance                                                                                       TLP:CLEAR
+CISA
+
+
+
+       schedule for regular re-evaluation of OSS already in use and identify events that trigger an immediate re-
+       evaluation, such as new version releases.
+
+       Review License for Compliance
+       As part of the OSS component evaluation process, agencies should consult legal counsel to confirm that
+       the component’s license permits the agency’s intended use. Agency legal counsel may provide additional
+       guidance on standardizing the process for obtaining the necessary legal reviews and approvals.
+
+       Monitor Risk
+       No software is risk-free. Agencies should continuously monitor their software for novel risk information,
+       such as novel vulnerabilities or end of support. 8 Asset management is critical for effectively monitoring
+       risks, as it enables agencies to understand what new risk information is relevant to them. 9 For example,
+       the Common Vulnerabilities and Exposures (CVE) Program disseminates information about software
+       vulnerabilities. If an agency knows what software is on their networks, they can determine whether (and
+       how) they must respond to a novel CVE. Security assessments can reveal additional risk information.
+
+       Track Open Source Software in Agency Asset Inventories
+       As with all software, agencies should track OSS in their asset management repositories. An up-to-date
+       asset inventory enhances risk management by giving agencies a clear view of which software components
+       are on their networks and where those components are located. Agencies can use asset inventories to
+       prioritize risk management resources when responding to incidents. For example, if multiple software
+       components have the same dependency, responding to new risk information for that dependency would be
+       higher priority.
+       Participating agencies can use CISA’s Continuous Diagnostics and Mitigation (CDM) Program tools,
+       integration services, and dashboards to improve their respective security postures. The program
+       summarizes data from endpoint device scans in agency-level dashboards that produce customized reports
+       that alert IT managers to cybersecurity risks.
+       Exploits like log4shell 10 and xz utils 11 underscore the need for agencies to understand the dependencies
+       embedded within their software components. Software bills of materials (SBOMs) can illuminate an
+       organization’s software supply chain, enabling them to know not only what components are deployed but
+       the dependencies of those components. For proprietary software, agencies can request an SBOM directly
+       from the software producer. Agencies can generate an SBOM for OSS using SBOM tools if needed.
+       Agencies can reference CISA’s SBOM resources for additional guidance.
+
+
+
+       8 Cybersecurity and Infrastructure Security Agency, “BOD 26-02: Mitigating the Risk From End-of-Support Edge
+
+       Devices,” February 5, 2026, https://www.cisa.gov/news-events/directives/bod-26-02-mitigating-risk-end-support-
+       edge-devices.
+       9 Cybersecurity and Infrastructure Security Agency, "BOD 23-01: Improving Asset Visibility and Vulnerability Detection
+
+       on Federal Networks," CISA, October 3, 2022, https://www.cisa.gov/news-events/directives/bod-23-01-improving-
+       asset-visibility-and-vulnerability-detection-federal-networks.
+       10 “CVE-2021-44228.” CVE, https://www.cve.org/CVERecord?id=CVE-2021-44228.
+
+       11 “CVE-2024-3094.” CVE, https://www.cve.org/CVERecord?id=CVE-2024-3094.
+
+
+
+
+Page 8 of 31                                                                                                        TLP:CLEAR
+Open Source Software Guidance                                                                                 TLP:CLEAR
+CISA
+
+
+
+       Regularly Assess Security of Open Source Software Components
+       Agency security assessments should be able to identify issues in both OSS and proprietary components.
+       Regular security assessments of software systems are one of the ways agencies can discover suspicious
+       behavior from deployed software components. When coupled with asset management best practices,
+       security assessments can help agencies quickly target specific software components and reduce the
+       system’s overall risk. Automated tools, including artificial intelligence (AI) tools, can support agency security
+       assessments, such as security analysis of source code. One challenge for agencies remains obtaining
+       sufficient visibility into relevant software supply chains to identify and monitor dependencies.
+       As the lead U.S. cybersecurity agency, CISA supports federal agencies in securing their networks and
+       reducing risk to critical software systems. CISA’s Critical Infrastructure Assessments and Cyber Hygiene
+       Services can be additional resources for agencies in conducting security assessments on their networks
+       and software systems. Aligned with but separate from those services, CISA also scans and analyzes public
+       OSS repositories maintained by federal agencies for vulnerabilities and then reports the findings to the
+       agency.
+       OSS’s open source development practices offer agencies additional insight into the security of a
+       component. By regularly evaluating OSS projects as described above in the Evaluate Trustworthiness
+       section and following asset management best practices, agencies can monitor changes to characteristics
+       of interest, such as CVEs, or changes to the number of maintainers.
+
+       Follow Established Patching Principles
+       Agencies should follow established principles for reporting vulnerabilities and implementing fixes, with the
+       understanding that some processes will need to be adapted for OSS. The CVE Program and the Known
+       Exploited Vulnerabilities (KEV) Catalog apply to OSS as well as proprietary software. However, OSS project
+       maintainers are not the OSS equivalent to the software producers of proprietary software. Agencies can
+       expect or request patches from proprietary software producers, but, for OSS, agencies should expect to
+       collaborate with OSS communities to develop patches and fixes and be prepared to implement the patches
+       for custom-developed software.
+       In the proprietary software model, software modifications flow in one direction: downstream from the
+       software producer to the software consumer. In the OSS model, changes to the software can flow in both
+       directions: upstream from the software consumer to the OSS project and downstream from the OSS project
+       to the software consumer. In general, agencies should apply the following two principles in approaching
+       fixes or patches for OSS: (1) collaborate, don’t demand; (2) push fixes upstream. See Contributing to OSS
+       Projects below for additional details on pushing fixes upstream.
+
+       When an Open Source Software Project Issues a Patch
+       In active OSS projects, maintainers and contributors can collaborate to develop a patch for newly reported
+       vulnerabilities. Once the maintainers have merged the update into the codebase, any user should be able
+       to update their software to implement the patch. For custom-developed software, agencies (or their
+       contractors) are responsible for implementing patches and validating patch compatibility. The validation
+       step is necessary to confirm the updated version of the component with the patch does not break
+       downstream functionalities.
+
+
+
+
+Page 9 of 31                                                                                                  TLP:CLEAR
+Open Source Software Guidance                                                                                    TLP:CLEAR
+CISA
+
+
+
+       When There Is New Vulnerability Information but No Available Patch
+       If an agency becomes aware of a new vulnerability in OSS that does not have a CVE identifier (CVE ID), the
+       agency should follow coordinated vulnerability disclosure procedures under CISA’s Coordinated
+       Vulnerability Disclosure Program. These procedures allow CISA to analyze the vulnerability report;
+       determine whether it requires a CVE ID; engage with relevant stakeholders, including project maintainers,
+       to respond; and publicly disclose the vulnerability and any available mitigations.
+       If an agency discovers a vulnerability in OSS with an associated CVE ID, the agency should follow the
+       project’s vulnerability disclosure policy (VDP) or security policy, if available. A project’s VDP or security
+       policy outlines how to notify maintainers of a vulnerability and what information to provide. In providing the
+       information requested by a project’s VDP or security policy, agencies should follow relevant guidance and
+       privacy checks to protect sensitive data. If a project does not have a published VDP, agencies should
+       contact the maintainer(s) to report the vulnerability and propose a fix, if possible. Security contact
+       information may be in a SECURITY.md file. If no security contact information is available or there is no
+       response, agencies should consider developing, implementing, and submitting their own fix upstream.
+       Lack of response to new vulnerability information from project maintainers should trigger a re-evaluation of
+       OSS component use. Unresponsive maintainers may indicate that the OSS project is end-of-support. 12 A
+       component’s security support status (whether someone is actively monitoring and responding to new risk
+       information) is a key factor in whether a software component is trustworthy. Patches for vulnerabilities are
+       critical for maintaining software security. If re-evaluation of the OSS component, according to the process
+       outlined above in the Select Software Solutions section, finds the component to no longer be suitable, the
+       agency should replace it with an alternative component. As a last resort, agencies may take on
+       maintenance of a fork of the component until a suitable alternative is identified.
+
+       Patch Management at Scale
+       In 2026, the best available automation, including AI frontier models, has significantly increased the volume
+       of discovered vulnerabilities and the speed of patch development. To benefit from the faster patch
+       development and mitigate the impact of the newly discovered vulnerabilities, agencies should automate
+       dependency management and patch management workflows. Automated workflows for applying and
+       testing patches can be a part of a continuous integration/continuous delivery (CI/CD) pipeline. 13 Such
+       workflows can also automatically generate artifacts, such as SBOMs, that can further support software risk
+       management.
+       For agency-maintained OSS projects, agencies should review each project’s VDP or security policy and
+       update it to address expectations for researchers submitting AI-supported and semi-automated
+
+
+
+
+       12 Cybersecurity and Infrastructure Security Agency, "BOD 26-02: Mitigating Risk From End-of-Support Edge Devices,"
+
+       CISA, February 5, 2026, https://www.cisa.gov/news-events/directives/bod-26-02-mitigating-risk-end-support-edge-
+       devices.
+       13 For more information on the role of CI/CD pipelines in secure software development, security, and operations
+
+       (DevSecOps), see the National Institute of Standards and Technology Secure Software Development, Security, and
+       Operations (DevSecOps) Practices, https://csrc.nist.gov/pubs/sp/1800/44/iprd.
+
+
+
+
+Page 10 of 31                                                                                                    TLP:CLEAR
+Open Source Software Guidance                                                                                     TLP:CLEAR
+CISA
+
+
+
+       vulnerability reports. Explicitly outlining expectations for vulnerability reports can make triaging the
+       increased volume of vulnerability reports more manageable.
+
+
+       Contributing to Open Source Software Projects
+       The collaborative nature of the open source development process allows agencies to engage directly in the
+       development of the software. By contributing to OSS projects, agencies can flag security issues and
+       propose updates. Contributing fixes upstream not only provides value back to the public by making the fix
+       publicly available but also lowers costs for other agencies by reducing duplication of efforts to develop a
+       security fix.
+       Agencies should contribute to the OSS projects they use. Doing so supports OSS communities and makes
+       government-funded improvements available to the public and other federal agencies. When agencies
+       contribute changes upstream to the project, those changes are available to everyone. Agencies can use the
+       following practices to incentivize OSS contributions:
+               Note contributions to OSS projects in Contractor Performance Assessment Reports (CPAR) for
+                software development activities.
+               Recognize outstanding engineering by agency developers’ efforts through excellence awards.
+               Include upstream deliverables as part of documented goals, plans, and performance measures for
+                programs and for individuals, where appropriate.
+       Contributions to OSS projects are public and thus require internal agency review before publication.
+       Agencies should establish review processes that adhere to agency standards for public content review and
+       that are sensitive to an OSS-specific context. Contributions may be high volume with quick turnarounds,
+       such as when participating in asynchronous discussions or responding to questions. Many organizations
+       have found that an Open Source Program Office (OSPO) is an effective organizational tool for integrating
+       these unique considerations into agency processes. 14
+       Contributions are not limited to lines of code. OSS projects generally welcome participation in discussions,
+       both synchronously through scheduled meetings or asynchronously through pull requests and issue
+       discussions in the online repository. Contributions from individuals with different equities and skills
+       strengthen OSS projects and reduce the burden placed on individual maintainers.
+
+       Perform Legal Review
+       Agency legal counsel should review a project for suitability for agency contribution. Legal review helps
+       determine whether the agency can contribute to the project in compliance with applicable legal
+       requirements. The review may include, but is not necessarily limited to, evaluation of:
+
+
+
+       14 Open Source Initiative, “What Is an Open Source Program Office and Why You Should Have One,” July 28, 2022,
+
+       https://opensource.org/blog/what-is-an-open-source-program-office-and-why-you-should-have-one; Centers for
+       Medicare and Medicaid Services, “Open Source Program Office,” https://www.cms.gov/digital-service/open-source-
+       program-office; TODO Group (Talk Openly, Develop Openly), https://todogroup.org/.
+
+
+
+
+Page 11 of 31                                                                                                     TLP:CLEAR
+Open Source Software Guidance                                                                               TLP:CLEAR
+CISA
+
+
+
+               The open source license(s) in use.
+               Non-technical contribution guidelines and requirements.
+               Compatibility with scope of the contract (if contribution comes from a contractor).
+       Legal review need only happen once for a given OSS project unless there are changes to the project’s
+       license or contribution criteria. Agency legal counsel may provide additional guidance on standardizing the
+       process for obtaining the necessary legal reviews and approvals.
+
+       Perform Privacy Review
+       Agencies should review contributions to OSS projects for privacy concerns and train staff on what
+       information is appropriate to contribute. Security, development, and operations (SecDevOps) tools can
+       conduct automated privacy checks on contributions. Although source code is generally not considered
+       sensitive from a privacy standpoint, it can still contain sensitive information embedded in the code,
+       configuration, or documentation.
+       Performing an OSS contribution privacy review is especially important given agencies’ role in safeguarding
+       individuals’ data and carrying out critical functions. For example, a test case written for a code change,
+       which uses a piece of sensitive data as the basis for the test, should not be committed upstream.
+       Privacy review should focus on identifying and securing sensitive artifacts to prevent their inadvertent
+       disclosure. Sensitive information that may be mistakenly included in a contribution includes:
+               Security keys
+               Passwords
+               Configuration information
+               Hostnames and Internet Protocol addresses
+               Authentication credentials
+
+
+       Producing Open Source Software
+       As software consumers, agencies benefit from software producers’ use of open source development
+       practices. Transparent development lets agencies extract security-relevant insights from project repository
+       metadata that demonstrates how the software was built.
+       When agencies act as software producers, adopting open source development practices for custom-
+       developed software provides additional benefits, including:
+               Code quality: Developers write better code when they know it will be publicly visible.
+               Commit history as a security and audit asset: Full provenance of how the software evolved
+                strengthens security reviews, supports incident response, and clarifies design decisions.
+               Talent attraction: Visible OSS contributions help agencies build relationships with the broader
+                developer community, which can contribute to attracting better engineering talent.
+
+
+
+
+Page 12 of 31                                                                                               TLP:CLEAR
+Open Source Software Guidance                                                                                  TLP:CLEAR
+CISA
+
+
+
+       By releasing custom-developed software as OSS, agencies benefit the public and help other federal
+       agencies reduce costs by avoiding duplicate software development. 15 In addition, agencies gain a greater
+       return on investment through lower publishing costs. Although software developed through closed
+       development practices can be published as open source, starting with open source development avoids
+       expensive project review to remove sensitive data such as keys.
+
+       Use the “Default Open Source” Approach to Custom-Developed Software
+       Agencies should adopt a “default open source” approach to custom-developed software. This approach
+       (1) shifts the decision of whether the code should be made open source to the project design phase; and
+       (2) requires justification for why the code should not be open source rather than why it should. Addressing
+       how widely the code will be shared during project planning, rather than at the end of the project, reduces
+       the effort required to prepare it for public release. Instead of requiring staff to justify publishing code as
+       OSS, agencies should require them to identify and document any applicable exemption from OSS
+       publication. Agencies can standardize the default open source approach through the source code inventory
+       process.
+       A default open source approach to government custom-developed software should also encourage the
+       developers to use open source development best practices. 16 Knowing that the work will be public can
+       reduce credential leaks, sensitive comments, architecture details, and other problems embedded
+       throughout the commit history.
+
+       Maintain Source Code Inventory
+       An up-to-date source code inventory facilitates government-wide reuse of custom-developed code;
+       additionally, Office of Management and Budget (OMB) Memorandum (M) 16-21 requires agencies to
+       maintain such inventories. These inventories should indicate whether the code is available for government-
+       wide reuse, is available publicly as OSS, or is not available due to a specific exception listed in OMB M-16-
+       21. Agencies should complete this information based on the metadata schema published by OMB.
+       Agencies should have a process for inventorying source code for custom-developed software that
+       integrates with their existing software asset management processes. These processes should include:
+           Identify custom-developed source code projects.
+           Identify usage type for each project.
+           Gather project metadata.
+           Create, verify, and submit the file.
+
+
+
+
+       15 Office of Management and Budget, M-16-21, “Federal Source Code Policy: Achieving Efficiency, Transparency, and
+
+       Innovation through Reusable and Open Source Software,” August 8, 2016,
+       https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf; U.S. Congress,
+       Source Code Harmonization and Reuse in Information Technology Act, Public Law 118–187, December 23, 2024,
+       https://www.congress.gov/bill/118th-congress/house-bill/9566/text.
+       16 For examples of open source development best practices, see OpenSSF’s Best Practices for Open Source
+
+       Developers and the CISA GitHub repository Development Guide.
+
+
+
+
+Page 13 of 31                                                                                                  TLP:CLEAR
+Open Source Software Guidance                                                                                      TLP:CLEAR
+CISA
+
+
+
+       Identify Custom-Developed Source Code Projects
+       Agencies must identify all custom-developed source code. According to OMB M-16-21, custom-developed
+       source code refers to code that is first produced in the performance of a federal contract or otherwise fully
+       funded by the federal government. This includes:
+               Code, or segregable portions of code, for which the federal government could obtain unlimited
+                rights under Federal Acquisition Regulations (FAR) Pt. 27 and relevant agency FAR supplements.
+               Code developed by agency employees as part of their official duties. 17
+       Custom-developed code may include, but is not limited to, code written for software projects, modules,
+       plugins, scripts, middleware, and application programming interfaces (APIs). It does not include code that
+       is truly exploratory or disposable in nature. For example, code written by a developer experimenting with a
+       new language or library is not custom-developed code.
+
+       Identify the Usage Type for Custom-Developed Source Code Projects
+       Agencies should determine the usage type of each custom-developed source code project before the
+       project begins. The metadata schema specification has three general usage types for software: open
+       source, government reuse, and exempt. The usage type determines who can access and use the code and
+       the types of reviews the code must undergo.
+       Projects intended to be open source or released for government-wide reuse should be tagged as follows:
+               openSource: Project is intended for public release.
+               governmentWideReuse: Project is intended for use only within the federal government.
+       Projects that are not intended for public release should have an approved exemption as outlined in OMB
+       M-16-21. Exemptions include:
+               exemptByLaw: The sharing of the source code is restricted by law or regulation, including—but not
+                limited to—patent or intellectual property law, export asset regulations, the International Traffic in
+                Arms Regulations, and the federal laws and regulations governing classified information.
+               exemptByNationalSecurity: The sharing of the source code would create an identifiable risk to
+                the detriment of national security, confidentiality of government information, or individual privacy.
+               exemptByAgencySystem: The sharing of the source code would create an unacceptable,
+                identifiable risk to the stability, security, or integrity of the agency’s systems or personnel.
+               exemptByAgencyMission: The sharing of the source code would create an undue identifiable risk
+                to agency mission, programs, or operations.
+               exemptByCIO: The agency’s chief information officer believes it is in the national interest to
+                exempt sharing the source code.
+               exemptByPolicyDate: The release was created prior to the M-16-21 policy (Aug. 8, 2016).
+
+
+
+
+       17 Office of Management and Budget, M-16-21, “Federal Source Code Policy: Achieving Efficiency, Transparency, and
+
+       Innovation through Reusable and Open Source Software,” August 8, 2016,
+       https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf.
+
+
+
+
+Page 14 of 31                                                                                                      TLP:CLEAR
+Open Source Software Guidance                                                                              TLP:CLEAR
+CISA
+
+
+
+       A project’s usage type will determine the process it must undergo (see Table 1). For example, if a project is
+       intended to be open source, it should proactively undergo all necessary reviews and compliance checks
+       prior to release. Each agency’s OCIO, Office of the General Counsel (OGC), security, and other relevant
+       offices should play an active role in establishing and overseeing the processes by which developers assign
+       usage types to their projects.
+
+                                        Table 1: Source Code Inventory Usage Types
+        Usage Type /       Inventory     Exemption          License           Public           Security
+        Requirement        Required      From Open          Required          Availability     Approval
+                                         Source Release                       Required         Required
+        Open Source        Y             N                  Y                 Y                Y
+        Govt Reuse         Y             Y                  Y                 N                N
+        Exempt             Y             Y                  N                 N                N
+
+
+
+       Gather Project Metadata
+       Agencies should document custom-developed source code project metadata in a machine-processable
+       data format, such as JavaScript Object Notation (JSON). The metadata schema specification defines both
+       mandatory and optional metadata fields for source code projects. Source code project metadata must
+       contain the mandatory metadata fields as defined by the metadata schema specification.
+       Agencies may provide additional agency-specific guidance for how to fill out metadata fields. For example,
+       an agency may provide specific guidance to its components with instructions on how to complete the
+       “releases.laborHours” field. To review examples of required metadata fields, see Appendix B for the
+       Department of Homeland Security (DHS) requirements from the DHS Source Code Inventory Process
+       (SCIP). Source code projects should also aim to include any additional optional metadata schema
+       specification metadata fields.
+       Agencies may use automated software tools to glean metadata from source code projects. If using an
+       automated tool, agencies should ensure that the tool’s output includes the required mandatory metadata
+       fields and supplement the tool’s output with manual input where necessary to complete the mandatory
+       fields.
+
+       Create, Verify, and Submit the File
+       Agencies should develop, document, and implement consistent guidelines for submission of JSON files for
+       custom-developed code written or maintained by that agency. One approach is to require the creation of a
+       single JSON metadata file documenting all custom-developed source code written or maintained by an
+       agency. See Appendix C for examples of source code inventory metadata.
+
+       Publish Open Source Software Projects
+       A shift to default open source does not absolve or reduce an agency’s obligation to safeguard sensitive
+       information and preserve critical functions. Agencies must carefully review code before publishing it so
+
+
+
+
+Page 15 of 31                                                                                              TLP:CLEAR
+Open Source Software Guidance                                                                                TLP:CLEAR
+CISA
+
+
+
+       sensitive data, like API keys or database credentials, does not get shared by mistake. Agencies should also
+       establish processes and allocate resources as appropriate to maintain the OSS project for the duration of
+       its lifecycle.
+
+       Follow Appropriate Security Practices for Open Source Software
+       Agencies should integrate automated processes—typically implemented using continuous integration
+       tools—to detect and help prevent sensitive data or vulnerabilities in all software, including OSS. For
+       example, secret detection in a continuous integration pipeline can prevent publication of sensitive data,
+       and a dependency scan can identify vulnerabilities. When agencies follow secure software development
+       practices, they minimize the danger of spilling sensitive information when publishing a project, but
+       agencies must also complete security reviews as an added layer of protection.
+       Although removing the commit history from a project (“squashing”) may appear appealing from a security
+       perspective, agencies should avoid this practice for the following reasons:
+               Squashing does not remove the commit history of derivative project repositories forked from the
+                original project and so may not be effective in containing sensitive information.
+               A lack of commitment to preserving history may discourage OSS stakeholders from engaging with
+                the project after it is published.
+       If an agency must squash commit history for security reasons to publish the project, the agency should
+       preserve the full history in the original source location for audit purposes.
+
+       Determine Appropriate Licensing
+       Agencies should use a permissive license such as Creative Commons Zero (CC0), Massachusetts Institute
+       of Technology (MIT), Internet Systems Consortium (ISC), or Berkeley Software Distribution (BSD)-3, though
+       circumstances may necessitate a different license. Identifying a license for a project is an established best
+       practice for all OSS projects. Agencies should consult with legal counsel to determine the appropriate
+       licensing for each custom-developed source code project. Relevant legal considerations may include
+       applicable export controls, privacy concerns, and contract terms.
+
+       Release Open Source Software Projects on Public Repository
+       Agencies should publish source code identified for public release as an OSS project on a widely used online
+       code repository. Online code repositories allow developers to host and contribute to projects on the
+       platform. When conducting official business, agency staff should use accounts affiliated with their .gov
+       email and include their name and agency affiliation in their user biography. To promote productive
+       engagement, agency projects should include:
+               A README.md file that contains an overview of the project and states that the project was
+                developed by or with funding from a U.S. federal agency.
+               A LICENSE file that identifies the project’s associated license(s).
+               A CONTRIBUTING.md file that outlines guidelines for contributing to the project.
+               A SECURITY.md file that includes the project’s vulnerability disclosure policy and lists contact
+                information for a security point of contact.
+
+
+
+
+Page 16 of 31                                                                                                TLP:CLEAR
+Open Source Software Guidance                                                                                    TLP:CLEAR
+CISA
+
+
+
+               An SBOM published as a release artifact with each software release. 18
+       Agency-published OSS projects must adhere to applicable binding operational directives (BODs) and
+       emergency directives published by CISA. For example, agencies should include a VDP in their OSS project
+       repositories, as required by BOD-20-01: Develop and Publish a Vulnerability Disclosure Policy.
+       Contribution guidelines should aim to meet agency requirements while minimizing additional work imposed
+       on potential contributors. Agencies should specify the type of acceptable contributions. For example, some
+       projects accept bug reports but do not accept code changes. If accepting code contributions, the project
+       should require that contributors submit corresponding tests along with their code contribution and specify
+       any required documentation or process. Code from external contributors should undergo review for
+       suitability and go through the continuous integration pipeline (as with any change, internal or external).
+       Agencies should also identify any requirements for external contributors, though these should be minimal.
+       For example, the code.mil site requires contributors to sign a Developer Certificate of Origin (DCO)
+       indicating that they attest that their contribution is wholly their own.
+
+       Maintain Open Source Software Projects
+       Agencies should clearly identify updates or new version releases and follow the agency’s source code
+       inventory process for each update or new version. Software maintenance best practices—such as regular
+       security scans and remediation—also apply to OSS projects. See the National Institute of Standards and
+       Technology (NIST) Secure Software Development Framework (SSDF) for more information.
+
+       Archive End-of-Support Open Source Software Projects
+       End-of-support (EOS) software is software that no longer receives timely, supported updates from the
+       software producer. 19 An agency-maintained OSS project is considered actively maintained if none of the
+       project’s dependencies are EOS and if security patches are applied by the BOD 26-04: Prioritizing Security
+       Updates Based on Risk remediation timeline 20.
+       When an agency determines it will no longer maintain an OSS project, the agency should clearly indicate in
+       the project’s repository that the OSS project is no longer maintained and will be unsupported going
+       forward. In GitHub, for example, the agency would “archive” the project. Agencies may also consider
+       submitting their project’s support information to the endoflife.date project and using the OpenEOX 21
+       schema to share support status information with downstream users. Communicating a withdrawal of
+       support for a project is critical because other open source projects, organizations, or federal agencies may
+
+
+
+       18 See the Frequency Element in CISA’s Minimum Elements for a Software Bill of Materials for guidance on how often
+
+       to update an SBOM.
+       19 Cybersecurity and Infrastructure Security Agency, "BOD 26-02: Mitigating Risk From End-of-Support Edge Devices,"
+
+       CISA, February 5, 2026, https://www.cisa.gov/news-events/directives/bod-26-02-mitigating-risk-end-support-edge-
+       devices.
+       20 In this case, agencies may assume “No” for the “Publicly Exposed” column of BOD 26-04 Table 1: Remediation
+
+       Timelines.
+       21 OpenEOX, https://openeox.org/.
+
+
+
+
+Page 17 of 31                                                                                                    TLP:CLEAR
+Open Source Software Guidance                                                                                  TLP:CLEAR
+CISA
+
+
+
+       be using the project and need to know if it is no longer receiving security support. Agencies should also
+       identify any active forks of the project of which they are aware.
+
+       Secure Rights for Government Reuse for Contractor-Developed Software
+       When contracting for custom software development, agencies should secure and enforce the rights
+       needed to allow government-wide reuse of the code, as required by OMB M-16-21. Agencies should also
+       consider requiring that contracts for custom software development make the software open source unless
+       specifically exempted by the agency. In executing contracts for custom software development, agencies
+       should aim to ensure that:
+               The U.S. government has unlimited data rights to use, distribute, and modify all deliverables,
+                products, designs, data, documentation, tests, source code, configuration, files, and other
+                materials developed throughout the contract.
+               Any software written will be stored using a modern version control system owned and controlled by
+                the government.
+               Any code repositories have a modern, permissive open source license attached; for example, MIT,
+                ISC, or BSD-3 are suitable for public release pending review and approval by the government.
+               The contractor is required to submit any functional, security, or quality corrections to OSS libraries
+                used in the developed system back upstream to their origin source code repositories, following that
+                repository’s process for contributions and agency official guidance. Any exceptions must be
+                approved by the agency.
+
+       Follow Secure Development Lifecycle Best Practices
+       As with all software, agencies should follow secure software development practices when developing and
+       publishing OSS. The National Institute of Standards and Technology (NIST) SP 800-218: Secure Software
+       Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software
+       Vulnerabilities outlines secure software development practices. OSS foundations publish guidance on
+       secure software development for OSS. 22
+
+
+       Evaluating Open Source Artificial Intelligence Models
+       Agencies should approach “open source” AI systems differently from other OSS because open source
+       licenses for AI software do not require the level of transparency needed to evaluate the trustworthiness of
+       the software. The transparency of OSS allows agencies to use publicly available information to assess
+       whether software is trustworthy. In contrast, the Open Source Initiative (OSI), the organization that
+       maintains a list of open source licenses, does not currently require that an AI model’s training data be
+       accessible for an open source license to be applicable. Without this transparency, agencies cannot
+
+
+
+
+       22 OpenSSF, “Secure Software Guiding Principles,” https://best.openssf.org/SecureSoftwareGuidingPrinciples; Open
+
+       Worldwide Application Security Project (OWASP), “Secure Coding Practices Quick Reference Guide,”
+       https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/.
+
+
+
+
+Page 18 of 31                                                                                                  TLP:CLEAR
+Open Source Software Guidance                                                                                      TLP:CLEAR
+CISA
+
+
+
+       adequately assess the trustworthiness of “open source” AI systems and should use caution before using
+       them on agency networks.
+
+       What Are Open Source Artificial Intelligence Systems?
+       AI systems are software systems. AI is “a machine-based system that can, for a given set of human-defined
+       objectives, make predictions, recommendations, or decisions influencing real or virtual
+       environments. Artificial intelligence systems use machines and human-based inputs to—
+           A. Perceive real and virtual environments;
+           B. Abstract such perceptions into models through analysis in an automated manner; and
+           C. Use model inference to formulate options for information or action.” 23
+       Organizations—as they do with all software—identify open source AI by the associated license. OSI identifies
+       licenses that comply with the definition of OSS. 24 OSI’s definition for open source AI is “a system made
+       available under terms that grant software consumers the freedoms to:
+           1. Use the system for any purpose and without having to ask for permission.
+           2. Study how the system works and understand how its results were created.
+           3. Modify the system for any purpose, including changing its output.
+           4. Share the system for others to use with or without modifications, for any purpose.” 25
+
+       Manage Risk for Open Source Artificial Intelligence Systems
+       Agencies should obtain sufficient transparency into the relevant components of an AI system before
+       treating the software as OSS for risk management purposes. Transparency is central to OSS risk
+       management; it allows agencies to review project data and determine whether the software is trustworthy
+       or not. AI software has unique characteristics that require specific security considerations. For example, AI
+       model files can be purposefully corrupted to evade detection by a model scanner, AI model weights can be
+       manipulated to change the model’s behavior or performance, and the underlying data or labels of an AI
+       model’s datasets can be modified to poison the model. 26
+       Open source AI licenses do not require that software producers make the model’s training data publicly
+       available. Instead, these licenses require only that “sufficiently detailed information about the data used to
+       train the system so that a skilled person can build a substantially equivalent system” be freely available. 27
+       Information about the datasets provides some visibility but does not allow an agency to fully assess an AI
+       model’s risks. If an agency cannot access a model’s training data, the trustworthiness evaluations for OSS
+
+
+
+       23 15 U.S. Code § 9401(3).
+
+       24 Open Source Initiative, “OSI Approved Licenses,” https://opensource.org/licenses.
+
+       25 Open Source Initiative, “The Open Source AI Definition,” Version 1.0, https://opensource.org/ai/open-source-ai-
+
+       definition.
+       26 MITRE, “ATLAS Matrix for AI Systems,” https://atlas.mitre.org/matrices/ATLAS.
+
+       27 Open Source Initiative, “The Open Source AI Definition,” Version 1.0, https://opensource.org/ai/open-source-ai-
+
+       definition.
+
+
+
+
+Page 19 of 31                                                                                                      TLP:CLEAR
+Open Source Software Guidance                                                                                    TLP:CLEAR
+CISA
+
+
+
+       outlined in this document are not sufficient to evaluate the model’s associated risks. In such cases, the
+       agency should consider carefully how to proceed, if at all.
+
+       The Impact of an Artificial Intelligence Model’s Training Data
+       The minimum transparency required by the OSI open source licenses for AI systems does not allow
+       agencies to make risk-informed decisions about their software. Agencies must have access to the full set
+       of training data to understand the software, study the software, analyze the software for vulnerabilities,
+       and create fixes for any found vulnerabilities. Data access includes the full training pipeline, such as
+       training methodology, training code, and tuning parameters. NIST’s Cybersecurity Supply Chain Risk
+       Management Practices for Systems and Organizations (NIST SP 800-161 Rev. 1) identifies visibilities into
+       the system’s components or services and the information that it processes, stores, and transmits as
+       critical.
+       Agencies need full access to AI software system training data to find and fix vulnerabilities. AI researchers
+       and engineers have demonstrated that cyber actors can embed a backdoor in a model by manipulating the
+       training data—performing a type of supply chain attack unique to AI training pipelines—and these
+       backdoors are computationally impossible to find without access to the training data. 28 For AI systems,
+       identifying the location of a vulnerability is critical for preventing its exploitation. There is no way of
+       systematically preventing exploitation of vulnerabilities, as is available for some other cybersecurity
+       vulnerabilities. For example, database code injections can be prevented by query re-writing, but model
+       backdoors inserted by manipulation of training data cannot be systematically mitigated.
+       Although it is not possible to systematically prevent all cybersecurity vulnerabilities in each program,
+       access to a program’s source code enables independent researchers to study it sufficiently to find and fix
+       vulnerabilities and malicious code injections. In contrast, without access to an AI model’s training data,
+       network and software systems’ defenders lack the information necessary to effectively prevent and
+       respond to vulnerabilities.
+       An open source label alone is not sufficient: agencies should treat any AI model that does not provide access to its
+       training data and training pipeline as if it is not open source and conduct risk management accordingly. In other
+       words, agencies should treat it as proprietary software with incomplete provenance. Agencies must confirm that
+       the training data and training pipeline are accessible before treating an AI system as OSS.
+
+
+       Conclusion
+       OSS offers agencies a powerful tool for expanding their software capabilities. With missions ranging from
+       national security to essential services and critical infrastructure, agencies require diverse and adaptable
+       software solutions. While OSS is already present in agency systems and networks, agencies benefit more
+       by thoughtfully integrating OSS considerations throughout the software lifecycle.
+
+
+
+
+       28 Marc Ohm et al., “Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks,” May
+
+       19, 2020, https://arxiv.org/abs/2005.09535; Shafi Goldwasser et al., “Planting Undetectable Backdoors in Machine
+       Learning Models,” April 14, 2022, https://arxiv.org/abs/2204.06974.
+
+
+
+
+Page 20 of 31                                                                                                    TLP:CLEAR
+Open Source Software Guidance                                                                              TLP:CLEAR
+CISA
+
+
+
+       Incorporating OSS into procurement decisions and custom software development not only supports agency
+       objectives but also benefits the broader federal enterprise and the public. OSS reduces project costs by
+       eliminating licensing fees and enabling agencies to share custom-developed solutions, increasing the pool
+       of available software for others and encouraging collaborative improvements. When agencies contribute
+       enhancements upstream, both the public and other agencies gain from these shared advancements.
+       All software carries risk, and OSS is no more or less risky than other software. The key distinction is that,
+       with OSS, agencies can directly assess code quality and security, rather than relying solely on vendor
+       assurances. OSS is increasingly intertwined with emerging technologies such as artificial intelligence.
+       Agencies that adapt to OSS’s unique characteristics will position themselves to meet future challenges and
+       leverage new innovations. By establishing robust OSS risk assessment processes and actively participating
+       in OSS communities, agencies can strengthen the security of critical infrastructure and sensitive data,
+       advance their missions, and deliver greater value to the public.
+
+
+       Disclaimer
+       CISA does not endorse any commercial entity, product, company, or service, including any entities,
+       products, or services linked within this document. Any reference to specific commercial entities, products,
+       processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or
+       imply endorsement, recommendation, or favoring by CISA.
+
+
+
+
+Page 21 of 31                                                                                              TLP:CLEAR
+Open Source Software Guidance                                                                          TLP:CLEAR
+CISA
+
+
+
+       References
+       Risk Analysis Report.” 2026. https://www.blackduck.com/resources/analyst-reports/open-source-security-
+              risk-analysis.html.
+       Linux Foundation and Harvard University. “Report: Census II of Free and Open Source Software.” March
+               2022.
+               https://www.linuxfoundation.org/hubfs/Research%20Reports/lfr_harvard_censusII_mar2022_04
+               2824b.pdf?hsLang=en.
+       Linux Foundation. “The State of Global Open Source 2025.” October 27, 2025.
+               https://www.linuxfoundation.org/hubfs/Research%20Reports/2025GlobalSpotlight_Oct-27-
+               2025%20V4.pdf.
+       Cybersecurity and Infrastructure Security Agency. “Cybersecurity Performance Goals 2.0 (CPG 2.0).”
+              https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0.
+       Office of Management and Budget. M-16-21, “Federal Source Code Policy: Achieving Efficiency,
+               Transparency, and Innovation through Reusable and Open Source Software.” August 8, 2016.
+               https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf.
+       National Institute of Standards and Technology. Suborder 6106.01, Version 1 “Open Source Code.”
+              December 6, 2018.
+              https://www.nist.gov/system/files/documents/2019/02/19/final_s_6106.01_ver_1.pdf.
+       Department of Defense. “Software Development and Open Source Software.” January 24, 2022.
+              https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf.
+       Open Source Initiative. “OSI Approved Licenses.” Accessed July 14, 2026.
+             https://opensource.org/licenses.
+       CISA GitHub repository. “Development Guide.” https://github.com/cisagov/development-
+               guide/tree/develop/project_setup.
+       OpenSSF. “Best Practices for Open Source Developers.” https://github.com/ossf/wg-best-practices-os-
+             developers.
+       Cybersecurity and Infrastructure Security Agency. “BOD 26-02: Mitigating the Risk From End-of-Support
+              Edge Devices.” February 5, 2026. https://www.cisa.gov/news-events/directives/bod-26-02-
+              mitigating-risk-end-support-edge-devices.
+       “CVE-2021-44228.” CVE. https://www.cve.org/CVERecord?id=CVE-2021-44228.
+       “CVE-2024-3094.” CVE. https://www.cve.org/CVERecord?id=CVE-2024-3094.
+       Open Source Initiative. “What Is an Open Source Program Office and Why You Should Have One.” July 28,
+             2022. https://opensource.org/blog/what-is-an-open-source-program-office-and-why-you-should-
+             have-one.
+       Centers for Medicare and Medicaid Services. “Open Source Program Office.” https://www.cms.gov/digital-
+              service/open-source-program-office.
+
+
+
+
+Page 22 of 31                                                                                          TLP:CLEAR
+Open Source Software Guidance                                                                           TLP:CLEAR
+CISA
+
+
+
+       TODO Group (Talk Openly, Develop Openly). https://todogroup.org.
+       U.S. Congress. Source Code Harmonization and Reuse in Information Technology Act, Public Law 118–187.
+              December 23, 2024. https://www.congress.gov/bill/118th-congress/house-bill/9566/text.
+       OpenSSF. “Secure Software Guiding Principles.”
+             https://best.openssf.org/SecureSoftwareGuidingPrinciples.
+       Open Worldwide Application Security Project (OWASP). “Secure Coding Practices Quick Reference Guide.”
+             https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/.
+       United States Code. Title 15, Chapter 119, Section 9401. Washington, D.C.: U.S. Government Publishing
+              Office, 2022. https://www.govinfo.gov/content/pkg/USCODE-2022-title15/html/USCODE-2022-
+              title15-chap119-sec9401.htm.
+       Open Source Initiative. “The Open Source AI Definition.” Version 1.0. https://opensource.org/ai/open-
+             source-ai-definition.
+       MITRE. “ATLAS Matrix for AI Systems.” https://atlas.mitre.org/matrices/ATLAS.
+       Marc Ohm et al. “Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks.”
+             May 19, 2020. https://arxiv.org/abs/2005.09535.
+       Shafi Goldwasser et al. “Planting Undetectable Backdoors in Machine Learning Models.” April 14, 2022.
+              https://arxiv.org/abs/2204.06974.
+       ‘
+
+
+
+
+Page 23 of 31                                                                                           TLP:CLEAR
+Open Source Software Guidance                                                                                   TLP:CLEAR
+CISA
+
+
+
+       Appendix A: The C4 Framework
+       Open source software (OSS) is no more or less risky than other software, and all software introduces risks
+       to a system. Agencies should evaluate the trustworthiness of a software component before integrating it
+       into their system, confirming that its risks align with their risk tolerance. For OSS, risk assessment should
+       focus on how the software was produced rather than who produced the software.
+       Open source development practices are community-driven and transparent. Projects may have any number
+       of maintainers and contributors, some of whom choose to remain anonymous and participate under
+       usernames. Additionally, because maintainers and contributors are not bound by contracts or delivery
+       obligations, assessing trustworthiness based on their identity, reputation, or location is ineffective. Instead,
+       agencies should assess OSS risk by examining its development process. OSS transparency makes this
+       possible. Agencies can access publicly available OSS codebase and project development metadata for
+       review.
+       The C4 Framework outlines how to leverage OSS transparency to extract security-related insights about an
+       OSS project to inform risk management decisions. The framework uses risk considerations derived from
+       Acquisition Security Framework (ASF) 29 practices for proactively managing software supply chain risk.
+       “Software chooser” refers to the person in charge of determining whether a given component is suitable for
+       the intended use or the person to whom that responsibility has been delegated. The Office of the Chief
+       Information Officer (OCIO) typically performs the role of software chooser, determining the software that the
+       organization consumes and operates. OCIO (or organizational component performing similar functions)
+       may delegate software selection to other organizational components as appropriate. The C4 Framework
+       groups risk considerations into four categories:
+               Codebase: The source code and dependencies that make up the software component of interest;
+                o   Examples: Date of most recent commit, presence of Common Vulnerabilities and Exposures
+                    (CVE), out-of-date dependencies.
+               Community: The organization or group of individuals that maintains and contributes to the project;
+                o   Examples: The number of maintainers, whether the project is part of a foundation, maintainers’
+                    affiliation with organizations of concern.
+               Conduct: Expected behavior from maintainers and contributors as outlined in the project’s
+                guidelines and observed behavior from project metadata;
+                o   Examples: Whether there is a vulnerability disclosure policy (VDP), whether the project requires
+                    code review, whether maintainers accept their own commits, the associated license, code of
+                    conduct.
+               Configuration: The implementation(s) of the software component.
+                o   Examples: Whether the default configuration is secure, the level of configuration supported.
+       The four categories are a starting point for identifying what information about an OSS component would
+       qualify it as trustworthy or untrustworthy. Rather than use one single data point to determine whether a
+
+
+       29 Carnegie Mellon Software Engineering Institute, “Acquisition Security Framework (ASF),” November 16, 2022,
+
+       AD1185147.pdf.
+
+
+
+
+Page 24 of 31                                                                                                   TLP:CLEAR
+Open Source Software Guidance                                                                                TLP:CLEAR
+CISA
+
+
+
+       project is trustworthy or not, this approach encourages software consumers to look holistically at the
+       project before deciding.
+       The C4 Framework is applied in five steps, as follows:
+           1. Identify Criteria: Select risk criteria from the C4 categories (codebase, community, conduct,
+              configuration) that will be the basis for evaluating software trustworthiness.
+       The National Institute of Standards and Technology (NIST) SP 800-218: Secure Software Development
+       Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities can
+       help organizations identify relevant criteria. The risk manager or project manager should identify criteria in
+       collaboration with their stakeholders through facilitation and elicitation of requirements.
+       Criteria must be measurable. An example of an unmeasurable criterion is “the project follows software
+       component transparency practices.” A measurable alternative is “the project includes a software bill of
+       materials (SBOM) for each version.” Software choosers should systematically consider possible risks for
+       the project’s codebase, community, conduct, and configuration and identify measurable criteria.
+           2. Determine Risk Tolerance: Decide how much overall risk is acceptable given the intended use and
+              deployed environment of the component and assign weights to each individual criterion.
+       Risk tolerance depends on several factors, including where the component will be used in the agency, the
+       environment in which it will run, what it is meant to do, and how much access it will have in the overall
+       system. For example, risk tolerance for a component that will interact with personally identifiable
+       information (PII) may be relatively low, whereas risk tolerance for a component that will support graphic
+       design development may have a relatively high risk tolerance. The identified risk tolerance should be
+       determined with a specific project in mind.
+       Software choosers should assign each identified criterion a weight proportional to its impact on overall risk.
+       Analysis may find that a component satisfies some criteria and fails others. The criteria weights will help
+       compare the component’s overall measured risk to the risk tolerance. This process can include selecting
+       some criteria as red flags, meaning that failure of any one red flag criterion renders the component not
+       trustworthy, even if all other criteria are met.
+           3. Collect Observations: Derive the metrics needed for each criterion.
+       Information collection should be repeatable and consistent across individual risk managers within the
+       agency. The agency can collect information manually or with automated tools. Automated tools support
+       consistency, scalability, and repeatability when they are available. Tools such as Hipcheck, CHAOSS, and
+       Scorecard are freely available to gather information about some likely criteria of interest. These tools can
+       collect information about criteria such as presence of an SBOM and a project’s active contributors.
+       Software choosers should carefully consider the details of the information tools provide. Scorecard, for
+       example, can verify whether the project has an SBOM, but it will not look at the content of the SBOM.
+           4. Evaluate Against Criteria: Compare observations to each individual criterion and determine whether
+              the component satisfies or fails each one.
+       Each individual criterion should be assessed and the results documented for later review. For example, if
+       one of the criteria is that there must be at least two active maintainers but there is only one, the
+
+
+
+
+Page 25 of 31                                                                                                TLP:CLEAR
+Open Source Software Guidance                                                                             TLP:CLEAR
+CISA
+
+
+
+       component failed that criteria. These results measure the component’s risk (according to the criteria
+       identified).
+          5. Compare Observed Risk to Risk Tolerance: Looking at how the component fared against the
+             criteria, determine whether the component’s risk meets or exceeds the identified risk tolerance.
+       In some cases, the results are clear, and it is obvious whether the component meets or exceeds the risk
+       tolerance. This can happen when the component fails a red flag criterion or when it either meets all criteria
+       or fails all of them. Using the criterion weights can help show whether the component’s overall risk is above
+       or below the acceptable level. Based on these results, agencies decide whether to use the component,
+       avoid it, gather more information, or move forward only with added safeguards.
+
+
+
+
+Page 26 of 31                                                                                             TLP:CLEAR
+Open Source Software Guidance                                                                                  TLP:CLEAR
+CISA
+
+
+
+       Appendix B: Example Source Code Inventory Metadata Schema
+       Required Fields
+       Source code inventory metadata requirements from the Department of Homeland Security (DHS) Source
+       Code Inventory Process (SCIP) are available as an example of required fields. Agencies may establish their
+       own requirements for their source code inventory metadata schema fields. 30
+
+           Metadata Schema Field                       Requirement
+
+                                                       This field represents the version of the code.gov
+           version                                     metadata schema used. This field should be set
+                                                       to “2.0.0” for all projects.
+
+                                                       DHS will use the number of source code projects as the
+           measurementType.method                      metric for computing total inventory. This field must be
+                                                       set to “projects” in all cases.
+
+           agency                                      This field must be set to “DHS.”
+
+                                                       This field is an array of multiple collections of fields.
+                                                       However, DHS programs only need to list the latest
+                                                       release as of the time of submission. For IT programs
+           releases
+                                                       that have separate releasable components,
+                                                       each component should be listed. Note that at least one
+                                                       entry is required.
+
+                                                       This field should be the full name of your technical
+                                                       program or project (or component if relevant).
+                                                       For example, the name of the CISA Secure Cloud
+                                                       Business Applications assessment
+           releases.name                               tool should likely be ”ScubaGear,” based on the
+                                                       repository name. For programs that have multiple code
+                                                       repositories as part of their program, you do not need to
+                                                       list each repository (unless they are separate releasable
+                                                       components).
+
+
+
+
+       30 Office of Management and Budget, M-16-21, “Federal Source Code Policy: Achieving Efficiency, Transparency, and
+
+       Innovation through Reusable and Open Source Software,” August 8, 2016,
+       https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf.
+
+
+
+
+Page 27 of 31                                                                                                  TLP:CLEAR
+Open Source Software Guidance                                                                         TLP:CLEAR
+CISA
+
+
+
+          Metadata Schema Field                Requirement
+
+                                               This field should be the contract number that the work
+                                               was performed under, if any work was completed by a
+                                               contractor. This is required for projects/releases that
+                                               have any contractor labor but should be null (or a blank
+          releases.contractNumber
+                                               string) for work performed solely by government
+                                               personnel. Note that this field is not in the
+                                               code.gov metadata schema but is required by the 2024
+                                               SHARE IT Act.
+
+                                               This field must specify a comma-delimited
+                                               list comprising the associated DHS component acronym,
+          releases.organization
+                                               office, and division (e.g., “MGMT, OCIO, CTOD” or
+                                               “CBP, OCIO, OIT”).
+
+                                               This field should have a one-line description of the
+          releases.description
+                                               custom-developed code, even if the code is exempted.
+
+                                               See the previous section on determining the usage type.
+                                               This field must be “opensource,”
+          releases.permissions.usageType
+                                               “governmentWideReuse,” or one of the exemption
+                                               types mentioned previously.
+
+                                               If the source code project has a usage type
+                                               of “opensource,” this field must be set to the URL of the
+          releases.permissions.licenses.URL    LICENSE file in your repository. If the license is not yet
+                                               known, or if this is not an open source project, the
+                                               field “licenses” can be set to null.
+
+                                               If the source code project has a usage type
+                                               of “opensource,” this field must be specified (e.g., MIT,
+          releases.permissions.licenses.name   GPL, and LGPL). If the license is not yet known, or if this
+                                               is not an open source project, the field “licenses” can be
+                                               set to null.
+
+                                               This field must contain at least one tag describing the
+                                               source code project. If there is only one tag, it
+                                               should identify the general technology area (e.g.,
+          releases.tags
+                                               “artificial intelligence,” “scheduling,” or
+                                               “biometrics”). Additional tags may be used for things like
+                                               the technology platform, business processes, etc.
+
+
+
+
+Page 28 of 31                                                                                         TLP:CLEAR
+Open Source Software Guidance                                                                  TLP:CLEAR
+CISA
+
+
+
+          Metadata Schema Field        Requirement
+
+                                       This field must be set to the DHS email address for
+          releases.contact.email
+                                       the point of contact.
+
+                                       If the source code project has a usage type
+                                       of “opensource” or “governmentWideReuse,”
+                                       then this field must be set to the corresponding
+          releases.repositoryURL       repository URL, even if that URL is internal to DHS or a
+                                       component.
+
+
+                                       This field is not required for exempt projects.
+
+                                       For DHS, this field should always be set to “0.0” (DHS
+          releases.laborHours          does not use this field, but a value is required by the
+                                       code.gov metadata schema).
+
+                                       This should be the original creation date of the most
+          releases.date.created
+                                       recent release of this project in YYYY-MM-DD format.
+
+                                       This should be the last modification date of the most
+                                       recent release of this project in YYYY-MM-DD format. If
+          releases.date.lastModified
+                                       there have been no modifications, this field can either be
+                                       duplicative of the “created” date or null.
+
+
+
+
+Page 29 of 31                                                                                  TLP:CLEAR
+Open Source Software Guidance                                                                         TLP:CLEAR
+CISA
+
+
+
+       Appendix C: Example JSON Metadata Schema
+       Below are examples of submitted metadata to the source code inventory. These examples use the DHS
+       required fields for the metadata file per the Department of Homeland Security (DHS) Source Code
+       Inventory Process (SCIP). For reference, the Cybersecurity and Infrastructure Security Agency (CISA)
+       metadata is available at https://dhs.gov/code.json.
+
+       An Open Source Repository
+       {
+         "version": "2.0.0",
+         "agency": "DHS",
+         "measurementType": {
+            "method": "projects"
+         },
+         "releases": [
+            {
+              "name": "ScubaGear",
+              "version": "1.2.0",
+              "contractNumber": "HSHQDC-24-J-00123",
+              "organization": "CISA, CSD",
+              "description": "Automation to assess the state of your M365 tenant
+       against CISA's baselines",
+              "permissions": {
+                 "usageType": "openSource",
+                 "licenses": [ {
+                   "URL": "https://github.com/cisagov/ScubaGear/blob/main/LICENSE",
+                   "name": "CC0 1.0"
+                 } ]
+              },
+              "tags": [ "assessment-tool", "security", "powershell" ],
+              "contact": {
+                 "email": "opensource@cisa.gov"
+              },
+              "repositoryURL": "https://github.com/cisagov/ScubaGear",
+              "laborHours": 0.0,
+              "date": {
+                 "created": "2022-07-21",
+                "lastModified": "2025-01-16"
+              }
+           }
+
+       An Exempted Repository
+            {
+                "name": "HART",
+                "version": "1.0.0",
+                "contractNumber": "HSHQDC-18-J-05678",
+
+
+
+
+Page 30 of 31                                                                                         TLP:CLEAR
+Open Source Software Guidance                                              TLP:CLEAR
+CISA
+
+
+
+             "organization": "MGMT, OCIO",
+             "description": "Homeland Advanced Recognition Technology (HART)
+       - Biometric storage, verification, and identification",
+             "permissions": {
+                "usageType": "exemptByNationalSecurity",
+                "licenses": null
+             },
+             "tags": [ "biometrics", "API", "Golang" ],
+             "contact": {
+                "email": "opensource@hq.dhs.gov"
+             },
+             "repositoryURL": "https://maestro.dhs.gov/gitlab/OBIM/HART",
+             "laborHours": 0.0,
+             "date": {
+                "created": "2018-01-01",
+                "lastModified": "2025-01-20"
+             }
+           }
+         ]
+       }
+
+
+
+
+Page 31 of 31                                                              TLP:CLEAR
+

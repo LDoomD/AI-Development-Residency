@@ -1,0 +1,94 @@
+{
+  "ghsa_id": "GHSA-6gpp-xcg3-4w24",
+  "cve_id": "CVE-2026-64642",
+  "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-6gpp-xcg3-4w24",
+  "html_url": "https://github.com/vercel/next.js/security/advisories/GHSA-6gpp-xcg3-4w24",
+  "summary": "Middleware / Proxy bypass in App Router applications using Turbopack and single locale",
+  "description": "## Impact\r\n\r\nCrafted requests targeting Next.js applications using App Router built with Turbopack and a **single** entry in `config.i18n.locales` can bypass middleware/proxy based authentication.\r\n\r\n## Workarounds\r\n\r\nIf you cannot upgrade immediately, enforce authorization in the page's server-side data path instead of relying solely on middleware.",
+  "severity": "high",
+  "author": null,
+  "publisher": {
+    "login": "KarimPwnz",
+    "id": 14217083,
+    "node_id": "MDQ6VXNlcjE0MjE3MDgz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/14217083?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/KarimPwnz",
+    "html_url": "https://github.com/KarimPwnz",
+    "followers_url": "https://api.github.com/users/KarimPwnz/followers",
+    "following_url": "https://api.github.com/users/KarimPwnz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/KarimPwnz/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/KarimPwnz/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/KarimPwnz/subscriptions",
+    "organizations_url": "https://api.github.com/users/KarimPwnz/orgs",
+    "repos_url": "https://api.github.com/users/KarimPwnz/repos",
+    "events_url": "https://api.github.com/users/KarimPwnz/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/KarimPwnz/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "identifiers": [
+    {
+      "value": "GHSA-6gpp-xcg3-4w24",
+      "type": "GHSA"
+    },
+    {
+      "value": "CVE-2026-64642",
+      "type": "CVE"
+    }
+  ],
+  "state": "published",
+  "created_at": null,
+  "updated_at": "2026-07-21T16:02:47Z",
+  "published_at": "2026-07-21T16:02:47Z",
+  "closed_at": null,
+  "withdrawn_at": null,
+  "submission": null,
+  "vulnerabilities": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": " >= 16.0.0 < 16.2.11",
+      "patched_versions": "16.2.11",
+      "vulnerable_functions": [
+
+      ]
+    }
+  ],
+  "cvss_severities": {
+    "cvss_v3": {
+      "vector_string": null,
+      "score": null
+    },
+    "cvss_v4": {
+      "vector_string": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N",
+      "score": 8.3
+    }
+  },
+  "cwes": [
+    {
+      "cwe_id": "CWE-285",
+      "name": "Improper Authorization"
+    }
+  ],
+  "cwe_ids": [
+    "CWE-285"
+  ],
+  "credits": [
+
+  ],
+  "credits_detailed": [
+
+  ],
+  "collaborating_users": null,
+  "collaborating_teams": null,
+  "private_fork": null,
+  "comments": 1,
+  "cvss": {
+    "vector_string": null,
+    "score": null
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "ghsa_id": "GHSA-36qx-fr4f-26g5",
+  "cve_id": "CVE-2026-44573",
+  "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-36qx-fr4f-26g5",
+  "html_url": "https://github.com/vercel/next.js/security/advisories/GHSA-36qx-fr4f-26g5",
+  "summary": "Middleware / Proxy bypass in Pages Router applications using i18n",
+  "description": "### Impact\r\n\r\nApplications using the Pages Router with `i18n` configured and middleware/proxy-based authorization can allow unauthorized access to protected page data through locale-less `/_next/data/<buildId>/<page>.json` requests. In affected configurations, middleware does not run for the unprefixed data route, allowing an attacker to retrieve SSR JSON for protected pages without passing the intended authorization checks.\r\n\r\n### Fix\r\nThe matcher logic was updated to perform the same match as it would on a non-i18n data route.\r\n\r\n### Workarounds\r\n\r\nIf you cannot upgrade immediately, enforce authorization in the page's server-side data path instead of relying solely on middleware.\r\n",
+  "severity": "high",
+  "author": null,
+  "publisher": {
+    "login": "timneutkens",
+    "id": 6324199,
+    "node_id": "MDQ6VXNlcjYzMjQxOTk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6324199?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/timneutkens",
+    "html_url": "https://github.com/timneutkens",
+    "followers_url": "https://api.github.com/users/timneutkens/followers",
+    "following_url": "https://api.github.com/users/timneutkens/following{/other_user}",
+    "gists_url": "https://api.github.com/users/timneutkens/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/timneutkens/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/timneutkens/subscriptions",
+    "organizations_url": "https://api.github.com/users/timneutkens/orgs",
+    "repos_url": "https://api.github.com/users/timneutkens/repos",
+    "events_url": "https://api.github.com/users/timneutkens/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/timneutkens/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "identifiers": [
+    {
+      "value": "GHSA-36qx-fr4f-26g5",
+      "type": "GHSA"
+    },
+    {
+      "value": "CVE-2026-44573",
+      "type": "CVE"
+    }
+  ],
+  "state": "published",
+  "created_at": null,
+  "updated_at": "2026-05-07T15:34:50Z",
+  "published_at": "2026-05-06T18:42:18Z",
+  "closed_at": null,
+  "withdrawn_at": null,
+  "submission": null,
+  "vulnerabilities": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": ">= v12.2.0 < 15.5.16",
+      "patched_versions": "15.5.16",
+      "vulnerable_functions": [
+
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": ">= 16.0.0 < 16.2.5",
+      "patched_versions": "16.2.5",
+      "vulnerable_functions": [
+
+      ]
+    }
+  ],
+  "cvss_severities": {
+    "cvss_v3": {
+      "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "score": 7.5
+    },
+    "cvss_v4": {
+      "vector_string": null,
+      "score": null
+    }
+  },
+  "cwes": [
+
+  ],
+  "cwe_ids": [
+
+  ],
+  "credits": [
+
+  ],
+  "credits_detailed": [
+
+  ],
+  "collaborating_users": null,
+  "collaborating_teams": null,
+  "private_fork": null,
+  "comments": 1,
+  "cvss": {
+    "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "score": 7.5
+  }
+}
