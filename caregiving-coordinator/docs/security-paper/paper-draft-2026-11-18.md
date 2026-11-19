@@ -1,6 +1,6 @@
 # Advanced Information Security: A Research Paper
 
-**Status: Proposed draft. The owner has not approved it as a whole.** Topic 1 was approved by the owner on 2026-11-18. Topic 2: the first paragraph is the owner's own words, unchanged; the paragraphs after it were added by Claude and wait for the owner's yes. Topics 3 to 8 are first drafts for the owner to review. This file matches the Claude Docs version of the paper ("Advanced Information Security: A Research Paper", https://claude.ai/artifact/4rH61Ua8rar2bsrB5jaNZe), which has the plainer wording.
+**Status: Proposed draft. The owner has not approved it as a whole.** Topic 1 was approved by the owner on 2026-11-18. Topic 2: the first paragraph is the owner's own ideas, with grammar and tone polished by Claude at the owner's request (comment on the Claude Docs version, 2026-11-19); the paragraphs after it were added by Claude and wait for the owner's yes. Topics 3 to 8 are first drafts for the owner to review. This file matches the Claude Docs version of the paper ("Advanced Information Security: A Research Paper", https://claude.ai/artifact/4rH61Ua8rar2bsrB5jaNZe), which has the plainer wording.
 
 **Every claim comes from a saved notes file** in `caregiving-coordinator/docs/sources/security-paper/notes/`. Helper agents wrote most of those notes. They were spot-checked, not verified line by line. Page numbers are the printed page numbers in each source. Web pages have no page numbers, so they are cited by heading.
 
@@ -22,7 +22,7 @@ The rest of this paper builds on these ideas. It follows the proposed caregiving
 
 ## 2. Why Information Security Matters for My Career
 
-This is relevant to my career because I am now learning about AI development and want to make this part of my skill set now, so I'll be doing what they call product engineering along with product design UXUI. AI development or in product engineering is the new skill for UX designers, and I want to get a job in that as well. Why it's valuable to me in my careers because I have to learn how to secure things as I'm using AI to develop.
+This topic is relevant to my career because I am learning AI development and want to make it part of my skill set. I will be working in product engineering alongside product design and UX/UI design. AI development, or product engineering, is a new skill for UX designers, and I want to build a career in that field. Information security matters to me because I need to know how to secure what I build while I use AI to develop it.
 
 The official numbers back up the idea that developers need security skills. The U.S. Bureau of Labor Statistics (BLS, 2026) projects that jobs for information security analysts will grow 21 percent from 2025 to 2035, while all jobs together will grow 3 percent. It expects about 14,100 openings a year ("Summary"; "Job Outlook"). The median pay in May 2025 was $129,180 ("Pay"). That figure is for people already working as analysts, and BLS is clear that the growth number is a projection. BLS also lists software developers as a similar occupation ("Similar Occupations").
 
