@@ -2,9 +2,9 @@
 
 - **Source:** Nelson, A., Rekhi, S., Souppaya, M., & Scarfone, K. (2025). *Incident response recommendations and considerations for cybersecurity risk management: A CSF 2.0 community profile* (NIST Special Publication 800-61r3). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-61r3
 - **Label for the paper:** official government guidance (tier 1). It supersedes SP 800-61 Rev. 2 (August 2012).
-- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/nist-sp-800-61r3/NIST.SP.800-61r3.pdf` (48 PDF pages) and NIST's status page `caregiving-coordinator/docs/sources/security-paper/nist-sp-800-61r3/status.html`. The status page lists the draft of 04/03/24 and the final of 04/03/25 and nothing newer (checked 2026-11-19). The PDF says it was approved by the NIST Editorial Review Board on 2025-03-25.
+- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/nist-sp-800-61r3/NIST.SP.800-61r3.pdf` (48 PDF pages) and NIST's status page `caregiving-coordinator/docs/sources/security-paper/nist-sp-800-61r3/status.html`. The status page lists the draft of 04/03/24 and the final of 04/03/25 and nothing newer (checked 2026-11-18). The PDF says it was approved by the NIST Editorial Review Board on 2025-03-25.
 - **Page numbers below are the printed page numbers.** Front pages use Roman numerals. The Executive Summary is printed page 1, which is PDF page 9, so PDF page = printed page + 8.
-- **Read in full (2026-11-19):** front matter, Executive Summary, sections 1 to 3 including Table 2 (preparation and lessons learned) and Table 3 (incident response), the references list, and Appendices A to C. I read every row of Tables 2 and 3. Table 2 mostly repeats CSF 2.0 text with low priority and few notes.
+- **Read in full (2026-11-18):** front matter, Executive Summary, sections 1 to 3 including Table 2 (preparation and lessons learned) and Table 3 (incident response), the references list, and Appendices A to C. I read every row of Tables 2 and 3. Table 2 mostly repeats CSF 2.0 text with low priority and few notes.
 
 ## What the pages say (my words)
 
