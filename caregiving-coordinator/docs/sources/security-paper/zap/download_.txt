@@ -1,0 +1,226 @@
+
+ZAP – Download
+Download
+Download ZAP
+          ⚠️ Warning - Browsers may flag the ZAP releases as potentially dangerous.
+            There does not appear to be much we can do about this.
+            For more details see 
+Why does my Antivirus Tool Flag ZAP?
+            ⚠️ Warning - ZAP releases are currently unsigned.
+            On 
+Windows
+, you will see a message like:
+                ZAP_<version>_windows.exe isn't commonly downloaded.
+                Make sure you trust ZAP_<version>_windows.exe before you open it.
+              To circumvent this warning, you would need to click on 
+...
+ and then 
+Keep
+,
+              then 
+Show more
+ and then 
+Keep anyway
+.
+            On 
+macOS
+, you will see a message like: 
+"ZAP.app" cannot be opened because the developer cannot be verified.
+            To circumvent this warning, you would need to go to 
+System Preferences
+ > 
+Security & Privacy
+            at the bottom of the dialog. You will see a message saying that "ZAP" was blocked. 
+            Next to it, if you trust the downloaded installer, you can click 
+Open anyway
+.
+Checksums
+ for all of the ZAP downloads are maintained on the 
+2.17.0 Release Page
+ and in the relevant 
+version files
+.
+As with all software we strongly recommend
+ that ZAP is only installed and used on operating systems and JREs that are fully patched and actively maintained.
+ZAP 2.17.0
+Windows (64) Installer
+244 MB
+Download
+Windows (32) Installer
+244 MB
+Download
+Linux Installer
+236 MB
+Download
+Linux Package
+233 MB
+Download
+macOS (Intel - amd64) Installer
+260 MB
+Download
+macOS (Apple Silicon - aarch64) Installer
+264 MB
+Download
+Cross Platform Package
+273 MB
+Download
+Core Cross Platform Package
+103 MB
+Download
+ Most of the files contain the default set of functionality, and you can add more functionality at any time via the 
+ZAP Marketplace
+. 
+ The core package contains the minimal set of functionality you need to get you started. 
+ The Windows and Linux versions require 
+Java 17 or higher
+ to run. 
+ The macOS version includes Java 17 - you can use the Linux or Cross Platform versions if you do not want to download this. 
+ The installers are built using a 
+multi-platform installer builder
+ which provides an 
+unattended mode
+. 
+ For more information about this release see the 
+release notes
+. 
+1
+                Launch the installation wizard by double clicking on the downloaded executable file
+2
+                Read the License agreement and click 'Accept' to continue the installation
+3
+                Select 'Standard' or 'Custom' installation
+4
+                Click 'Finish' to exit set up
+Docker
+Stable
+The standard release
+docker pull ghcr.io/zaproxy/zaproxy:stable
+docker pull zaproxy/zap-stable
+GHCR Page
+Docker Hub Page
+Bare
+Minimal release, ideal for CI
+docker pull ghcr.io/zaproxy/zaproxy:bare
+docker pull zaproxy/zap-bare
+GHCR Page
+Docker Hub Page
+Weekly
+Updated every week
+docker pull ghcr.io/zaproxy/zaproxy:weekly
+docker pull zaproxy/zap-weekly
+GHCR Page
+Docker Hub Page
+Nightly
+The very latest source code
+docker pull ghcr.io/zaproxy/zaproxy:nightly
+docker pull zaproxy/zap-nightly
+GHCR Page
+Docker Hub Page
+ See 
+Docker
+ for more information. 
+ZAP Weekly
+Weekly Cross Platform Package
+313 MB
+Download
+ We generate weekly releases of ZAP from the 
+main
+ branch, typically every Monday. 
+ These are just intended for people who want to use all of the features we’ve added since the last ‘full’ release but don’t want the hassle of building ZAP from the source code. 
+ While we endeavor to ensure that weekly releases are robust, things may be broken or only partially implemented. 
+ It is cross platform (Windows, Linux and macOS) but does not include any installers. 
+ It requires 
+Java 17 or higher
+ to run. 
+Officially Supported Repos
+Linux Repos
+The official 
+ZAP Linux Repos
+Maintained by the ZAP Team
+Flathub
+On Linux systems you can also use 
+Flathub
+.
+To install: 
+flatpak install flathub org.zaproxy.ZAP
+To run: 
+flatpak run org.zaproxy.ZAP
+Maintained by the ZAP Team
+Snapcraft
+On Linux systems you can use 
+Snapcraft
+.
+To install: 
+snap install zaproxy --classic
+To run: 
+zaproxy
+Maintained by the ZAP Team
+Windows Package Manager
+On Windows systems you can use 
+Windows Package Manager
+.
+To install: 
+winget install --id=ZAP.ZAP  -e 
+Updated by the ZAP Team
+Homebrew Cask
+On macOS you can also install ZAP using 
+Homebrew Cask
+To install: 
+brew install --cask zap
+Updated by the ZAP Team
+Scoop
+On Windows systems you can also use 
+Scoop
+.
+To install: 
+scoop install zaproxy
+Updated by the ZAP Team
+3rd Party Repos (Unsupported)
+FreeBSD
+On FreeBSD systems you can also use the 
+zaproxy
+ package.
+Dependency lines: 
+zaproxy>0:security/zaproxy
+To install the port: 
+cd /usr/ports/security/zaproxy/ && make install clean
+To add the package run: 
+pkg install zaproxy
+Chocolatey
+On Windows systems you can use 
+Chocolatey
+.
+To install: 
+choco install zap
+Latest Versions
+ We maintain a set of pages containing XML with links to the latest ZAP release files 
+ You can use them to automatically pull down the latest ZAP release for the platform you need. 
+ ZAP uses similar URLs when checking for updates. 
+ The file 
+https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions.xml
+ is version independent and always points to the latest release. 
+ There are also version specific files that define the add-ons on the ZAP Marketplace for that release stream. 
+ The 2.17 release stream uses 
+https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-2.17.xml
+ The development code uses 
+https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-dev.xml
+ These files are usually the same, but it does allow us to release add-ons which depend on core features which have been added since the current stable release. 
+ See 
+3rd Party Package Maintenance
+ for details of how 3rd party packages which wrap ZAP are maintained. 
+Older Versions
+ We can only support the very latest ZAP full release. 
+ The previous full release and the last 4 weekly releases are available via 
+https://github.com/zaproxy/zaproxy/releases
+ Older full releases are available via 
+https://github.com/zaproxy/zap-archive
+ Older Docker stable images are available via 
+https://github.com/zaproxy/zap-archive/pkgs/container/zap-archives:zap2docker-stable
+ Older weekly releases will be deleted. 
+Client Configuration
+Setting up Zap for Android
+Setting up Zap for iPad
+Seeting up Zap for Client Application
+      © Copyright 2026 the ZAP Dev Team
+      ZAP by 
+Checkmarx
