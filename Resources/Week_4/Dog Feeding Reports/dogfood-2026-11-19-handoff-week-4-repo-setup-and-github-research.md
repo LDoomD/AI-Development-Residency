@@ -6,8 +6,8 @@ Replaces: `Resources/Week 2_3/Dog Feeding Reports/dogfood-2026-11-18-handoff-sec
 
 ## 0. Start here
 - **Where we are:** Week 2 and 3 were submitted on Nov 15 (the bold "Submitted on" line on the owner's Notion submission page). The security paper was submitted by the owner. We are now on **Week 4: build and launch the app**. The app repository is cloned on the owner's computer, the Week 2 and 3 specs are copied into it, and the GitHub setup research is done. Nothing in the app repository is committed yet.
-- **The outcome so far, in one sentence:** the app repository exists, is private and empty on GitHub, and holds 13 unchanged copies of the Week 2 and 3 specs that are not saved to GitHub yet.
-- **Next milestone:** Week 4 step 4 (make the Next.js app with Material UI) from `Resources/Week_4/MY STEPS - Week 4 Build and Launch the App (plain words, 2026-11-18).md`. Before that, the owner must approve the starting layout (decision 1) and say how to make the first commit (decision 2).
+- **The outcome so far, in one sentence:** the app repository exists, is private and empty on GitHub. On the owner's computer its folder now holds the smaller starting layout (CLAUDE.md, .gitignore, the .claude folder with the 14 skills and hooks, the two arch-gate files, risk-profile.md in the docs folder, and 12 more spec copies in docs/specs), built but not committed. The gate and the 21 judge-arch tests passed there on 2026-11-19 (source: command output in the chat).
+- **Next milestone:** Week 4 step 4 (make the Next.js app with Material UI) from `Resources/Week_4/MY STEPS - Week 4 Build and Launch the App (plain words, 2026-11-18).md`. Before that, the owner makes the first commit on GitHub (decision 2: open the repository, click Add a README, commit). Then Claude pushes the layout on a branch and opens a pull request.
 - **A date to be aware of:** the Week 4 course page says due date Nov 16 (`Resources/Week_4/Week 4 Coding Challenge - Code and Launch a Web App (Notion copy 2026-11-13).md`, line 20). Today is Nov 19. The steps page says "I don't know if you have extra time. Ask Morgan." (line 4). I did not find an extension in any file.
 
 ## 1. Locked outcomes
@@ -21,7 +21,7 @@ Replaces: `Resources/Week 2_3/Dog Feeding Reports/dogfood-2026-11-18-handoff-sec
 | The old local branch `never-make-things-up-rule-2026-11-19` is deleted | **Approved** (owner: "we're ready to delete this") | Deleted locally with `git branch -d`; it was already merged |
 | Everything from now on, including reports, is Week 4 | **Approved** (owner, chat) | This report |
 | Week 4 reports are saved in `Resources/Week_4/Dog Feeding Reports/` | **Proposed** (my suggestion; the owner did not object) | This folder |
-| Smaller starting layout for the app repository (section 4, decision 1) | **Proposed** (owner has not answered) | Section 4 |
+| Smaller starting layout for the app repository, built in the working folder on 2026-11-19 after the owner said "finish setting up that repo" (they never answered the layout question directly) | **Proposed** (built, not committed) | /Users/landodoom/Desktop/Week_4_Caregiving-Coordinator |
 
 ## 2. Key findings and data
 The GitHub research. Each page was downloaded on 2026-11-19 and read in full. Saved copies are in `caregiving-coordinator/docs/sources/week-4-repo-setup-2026-11-19/`, listed in `caregiving-coordinator/docs/sources/INDEX.md`.
@@ -52,25 +52,25 @@ Facts found by commands in the chat on 2026-11-19 (source: command output, not s
 - **The twelfth report's decisions 1 to 7:** still open. Do not raise them unprompted.
 
 ## 4. Open decisions
-1. **Approve the smaller starting layout for the app repository.** Why it matters: it decides what the first commit contains, and the owner objected to my first, bigger layout. Layout: README.md, CLAUDE.md (new, short, for the app), .gitignore, .claude/ (the owner's skills and hooks), docs/risk-profile.md (the skills look for it there), docs/specs/ (the other 12 files). Choices: approve as is, or change it. After approval, Claude builds it on a new branch; nothing else is added until a step needs it.
-2. **How to make the first commit in the empty app repository.** An empty repository needs a first commit on `main` before any branch or pull request can exist. The user-level hook `~/.claude/hooks/protect-main.mjs` (not read this session) may block it. Choices: Claude makes a tiny first commit with README and .gitignore and tells the owner if the hook blocks it, or the owner makes it on GitHub (Add a README). After either, every change goes on its own branch with a pull request.
-3. **The owner's GitHub plan (Free or Pro).** The owner can see it at GitHub, Settings, Billing and plans. It matters because on Free, GitHub cannot stop pushes to `main` in a private repository. Choices: stay on Free and rely on the pull request habit plus the local hook, or upgrade. Nothing breaks either way.
-4. **Which skills, hooks and rules go to the app repository.** My proposal (Proposed): copy `caregiving-coordinator/.claude/`, `caregiving-coordinator/arch-gate.config.json` and `caregiving-coordinator/arch-gate.waivers.json`, and write a new short CLAUDE.md for the app. The arch-gate scripts and the two config files were not read this session, so I cannot yet say they work after copying. Choices: copy all, copy some, or none. After the copy, Claude reads the gate and tests it in the app repository.
+1. **Check the starting layout.** It is built in the app folder but not committed. It holds: README.md (not written yet; it is made on the branch after the first commit exists), CLAUDE.md (new, short, for the app), .gitignore, the .claude folder (copied unchanged), arch-gate.config.json and arch-gate.waivers.json (copied), docs/risk-profile.md (the skills look for it there), and docs/specs (12 spec copies). Choices: keep it, or change it. The owner objected to the first, bigger layout and said to finish the repo, so Claude built this smaller one.
+2. **The first commit on GitHub (the owner does this).** An empty repository needs a first commit on `main` before a branch or pull request can exist. The owner's hook `~/.claude/hooks/protect-main.mjs` (read this session) blocks Claude from committing or pushing to `main`, and Claude does not work around it. Steps for the owner: open https://github.com/LDoomD/Week_4_Caregiving-Coordinator, click **Add a README**, then **Commit changes**. After that, tell Claude. Claude then pulls `main`, makes the branch add-starting-layout, writes the real README, commits, pushes, and opens a pull request for the owner to merge.
+3. **The owner's GitHub plan (Free or Pro).** The owner can see it at GitHub, Settings, Billing and plans. On Free, GitHub cannot stop pushes to `main` in a private repository. Choices: stay on Free and rely on the pull request habit plus the local hook, or upgrade. Nothing breaks either way.
+4. **Skills, hooks and the gate in the app repository:** copied (all 54 files identical to the originals, checked with `diff -r`). The gate and tests work there. Open point: the gate script `arch-gate.mjs` itself was not read, and the gate checked 0 code files because the app has no code yet. Choices: leave as is, or ask Claude to read the gate later when code exists.
 5. **Extra time for Week 4.** The course page says due Nov 16. The owner can ask Morgan. Claude must not decide this.
 6. **The twelfth report's open decisions 1 to 7.** Listed in the twelfth report, section 4.
 
 ## 5. Bridge to the next milestone
 | This output | Goes into | Why |
 |---|---|---|
-| The 13 spec copies in the app repository | Week 4 step 3 (list the saved Week 2 documents) and every new chat | Steps page: Claude reads these at the start of every new chat |
+| The 13 spec copies in the app repository (risk-profile.md sits one level up in docs) | Week 4 step 3 (list the saved Week 2 documents) and every new chat | Steps page: Claude reads these at the start of every new chat |
 | Approved layout (decision 1) | The first commit and Week 4 step 4 | Step 4 says Claude shows the layout first |
 | The GitHub research (section 2) | The README, .gitignore, and how branches and pull requests work | GitHub's own guidance |
 | The database tables in the build plan | Week 4 step 7 (Database Design Template and migration file) | Columns and diagram are Week 4 work |
 
 ## 6. First steps
 1. **Confirm where we are.** Run `git fetch` in both repositories. In the course repository run `gh pr list --state open`. Say in a few sentences what is merged and what is open (this report's pull request may be open).
-2. **Ask the owner decision 1** (the layout) and wait. Do not build it before a yes.
-3. **Ask decision 2** (first commit), then make the first commit only as the owner chose.
+2. **Ask whether the owner clicked Add a README on GitHub** (decision 2). If yes, run `git pull origin main` in the app folder, then follow decision 2.
+3. **Open the pull request and hand it to the owner** (one deliverable, one branch, one pull request). The owner merges.
 4. **Ask once** whether the owner made their free Vercel and Supabase accounts (Week 4 step 1; the owner never answered).
 5. **Then ask the owner what to do next.** Do not start Week 4 step 4 unasked.
 
@@ -105,7 +105,7 @@ Full rules: `caregiving-coordinator/CLAUDE.md`, the project memory index (`MEMOR
 - **GitHub research copies and index:** `caregiving-coordinator/docs/sources/week-4-repo-setup-2026-11-19/` and `caregiving-coordinator/docs/sources/INDEX.md`
 - **The owner's Notion submission page** (Week 2 and 3, closed): https://app.notion.com/p/4179219a46918157976edbc20a0a829f
 - **Git, course repository** (`LDoomD/AI-Development-Residency`): branch `week-4-repo-setup-research-2026-11-19`, a new pull request opened from it. Pull requests up to 95 are merged. The old branch `never-make-things-up-rule-2026-11-19` was deleted locally.
-- **Git, app repository** (`LDoomD/Week_4_Caregiving-Coordinator`, private): cloned to /Users/landodoom/Desktop/Week_4_Caregiving-Coordinator. On `main`, no commits. **Not saved anywhere but the owner's computer:** the 13 files in docs/specs/ (untracked).
+- **Git, app repository** (`LDoomD/Week_4_Caregiving-Coordinator`, private): cloned to /Users/landodoom/Desktop/Week_4_Caregiving-Coordinator. On `main`, no commits. **Not saved anywhere but the owner's computer:** everything in the app folder (untracked): CLAUDE.md, .gitignore, .claude, the two arch-gate files, docs/risk-profile.md and 12 files in docs/specs.
 - **Memory notes written this session** (project memory folder): app-repo-and-current-week (rewritten), feedback-minimal-layout-plain-repo-names (new), feedback-never-make-anything-up (from earlier).
 
 ## 9. Verification receipt
@@ -114,9 +114,10 @@ Full rules: `caregiving-coordinator/CLAUDE.md`, the project memory index (`MEMOR
   - The handoff checker `.claude/skills/dogfooding-handoff/scripts/check_handoff.py` on this report (result in the chat).
   - `cmp` on all 13 copied files: 13 identical, 0 different.
   - `node --test` on the judge-arch tests before the commit (result in the chat).
+  - In the app folder: the arch gate passed (0 code files checked), the judge-arch tests passed (21 of 21), and the session-start hook printed the top rule. `diff -r` showed the copied .claude folder identical to the original.
 - **Not checked:**
   - The owner's GitHub plan (the API gave nothing).
-  - `~/.claude/hooks/protect-main.mjs`, the arch-gate script, `arch-gate.config.json` and `arch-gate.waivers.json` were not read this session.
+  - The arch-gate script `caregiving-coordinator/.claude/skills/judge-arch/scripts/arch-gate.mjs` was not read. The hook, `protect-main.mjs`, `arch-gate.config.json` and `arch-gate.waivers.json` were read.
   - Whether the spec copies contain private details (the owner said the repository is private, so I skipped it).
   - A Vercel deploy from the private repository (not tested).
   - The roadmap's task count (27) and whether all of MVP #1 fits in Week 4. I did not verify that.
