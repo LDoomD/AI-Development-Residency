@@ -179,3 +179,10 @@ The owner approved two additions while reviewing the cite plan. Both fill gaps f
 | NIST SP 800-207, Zero Trust Architecture | NIST, August 2020 (final; date to confirm on NIST's page) | https://csrc.nist.gov/pubs/sp/800/207/final | 5, 8 | Matches the idea's rule that every request is checked against the signed-in person and nothing is trusted by default. |
 | Vercel documentation, security pages | Vercel (vercel.com/docs, an approved domain) | https://vercel.com/docs | 7, 8 | The idea is hosted on Vercel. The exact pages are chosen and dated when read. |
 
+
+## Added 2026-11-18, after batch 3 part 2 (approved by the owner)
+
+| Source | Publisher, date | Link | Topic | Why added |
+|---|---|---|---|---|
+| NIST SP 800-63B-4, Digital Identity Guidelines: Authentication and Authenticator Management | NIST, July 2025 (final; date to confirm on NIST's page) | https://doi.org/10.6028/NIST.SP.800-63B-4 | 4, 5, 8 | Owner answered "Yes, read 63B-4". It holds the actual password, multi-factor, recovery and session rules that the main volume SP 800-63-4 points to. |
+| CISA Binding Operational Directive 26-04, Prioritizing Security Updates Based on Risk | CISA (date to confirm on the CISA page) | https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk | 5, 6 | Owner answered "Yes, add it". The CVSS FAQ and the CISA vulnerability list page both name it as the model for patch priority. Not read yet. |
