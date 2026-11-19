@@ -1,12 +1,12 @@
 # Notes: Threat Modeling Manifesto and OWASP Threat Modeling Cheat Sheet
 
-Both sources are web pages without page numbers, so each point is tied to the page's heading. Both were read in full on 2026-11-19.
+Both sources are web pages without page numbers, so each point is tied to the page's heading. Both were read in full on 2026-11-18.
 
 ## 1. Threat Modeling Manifesto
 
 - **Source:** Braiterman, Z., Shostack, A., Marcil, J., de Vries, S., Michlin, I., Wuyts, K., Hurlbut, R., Schoenfield, B. S. E., Scott, F., Coles, M., Romeo, C., Miller, A., Tarandach, I., Douglen, A., & French, M. (2020). *Threat modeling manifesto*. https://threatmodelingmanifesto.org/ (the page names these 15 authors as the working group).
 - **Label for the paper:** a statement of values and principles written by a group of practitioners. It is not a standard. The page says it "contains ideas, but is not a how-to, and is methodology-agnostic". Licensed CC BY 4.0.
-- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/threat-modeling-manifesto/index.html` (retrieved 2026-11-19). The page shows no date; the year 2020 is from the source list. Confirm the year before the bibliography.
+- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/threat-modeling-manifesto/index.html` (retrieved 2026-11-18). The page shows no date; the year 2020 is from the source list. Confirm the year before the bibliography.
 
 | Point | Heading |
 |---|---|
@@ -25,7 +25,7 @@ Both sources are web pages without page numbers, so each point is tied to the pa
 ## 2. OWASP Threat Modeling Cheat Sheet
 
 - **Source:** OWASP Foundation. (n.d.). *Threat modeling cheat sheet*. https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
-- **Label for the paper:** official project guidance (tier 1). It is a living page, so cite the retrieval date, 2026-11-19.
+- **Label for the paper:** official project guidance (tier 1). It is a living page, so cite the retrieval date, 2026-11-18.
 - **Local copy:** `caregiving-coordinator/docs/sources/security-paper/owasp-threat-modeling-cheat-sheet/Threat_Modeling_Cheat_Sheet.html`.
 
 | Point | Heading |
