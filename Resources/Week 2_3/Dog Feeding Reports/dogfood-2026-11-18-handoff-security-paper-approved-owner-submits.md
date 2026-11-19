@@ -1,5 +1,7 @@
 # Handoff: Premium paper on advanced information security → paper approved and merged; the owner submits it (2026-11-18, twelfth report)
 
+Replaced by: `Resources/Week_4/Dog Feeding Reports/dogfood-2026-11-19-handoff-week-4-repo-setup-and-github-research.md` as the start point for new chats (the paper facts and decisions 1 to 7 below still stand).
+
 Replaces: `Resources/Week 2_3/Dog Feeding Reports/dogfood-2026-11-18-handoff-security-paper-all-sources-read-draft-next.md`. What changed: the owner answered decisions 5 and 6, the whole paper was drafted, polished, approved and merged, and a Google Doc copy exists. The older reports stay replaced; their paths are in the "Replaced by" line of the tenth report. Every path in this report starts at the repository's top folder (`AI Developer Residency `), which holds `caregiving-coordinator/`, `Resources/` and `.claude/`.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch`, switch to `main`, run `git pull --ff-only`, and tell me which pull requests are open. Then ask me whether I sent the email, filled in the form, pasted the title block into my Google Doc and shared it, and wait. Use short, plain sentences. Do not call the caregiving coordinator an app. Never say it is secure or compliant. Ask before Chrome, Firecrawl or the browser pane. Do not start more than two helper agents at once without telling me first."
