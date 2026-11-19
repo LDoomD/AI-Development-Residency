@@ -4,8 +4,8 @@
 - **Label for the paper:** company research (tier 3 in the source list).
 - **Local copy:** the owner filled in Verizon's form and saved `2026-dbir-data-breach-investigations-report.pdf` (121 pages, created May 19, 2026). It sits in `caregiving-coordinator/docs/sources/security-paper/verizon-dbir-2026/` on the owner's computer only. It is **not in the public repository** (that folder's `.gitignore` excludes it), because Verizon asks people to link to the report and not share the PDF.
 - **Page numbers below are the report's page numbers.** For this report the printed page number equals the PDF page number.
-- **Read in full (2026-11-18), the sections in the cite plan:** pages 1 to 61 (introduction, how to use the report, key findings, results and analysis, and the incident patterns: Lost and Stolen Assets, System Intrusion, Social Engineering, Basic Web Application Attacks, Miscellaneous Errors, Privilege Misuse), pages 82 to 89 (the industry pages for Education, Financial, **Healthcare on pp. 86 to 87**, and Manufacturing), pages 97 to 98 (small and medium businesses) and pages 111 to 113 (methodology and the U.S. Secret Service appendix).
-- **Not read, and not cited:** pages 62 to 81 (denial of service, the deep dives on privilege escalation and North Korean IT workers, and the industry introduction), pages 90 to 96 (public administration and retail), pages 99 to 110 (regions) and pages 114 to 121 (the other appendices). These are outside the cite plan `caregiving-coordinator/docs/security-paper/cite-plan-2026-11-18.md`.
+- **Read in full:** all 121 pages. On 2026-11-18 (first pass) pages 1 to 61, 82 to 89, 97 to 98 and 111 to 113; on 2026-11-18 (second pass, at the owner's request to read everything) pages 62 to 81, 90 to 96, 99 to 110 and 114 to 121. "Read" means the text of every page. The report's charts (figures) are images, and I read only what the page text says about them. Page 119 has no text, page 121 is the copyright page, and pages 66, 75, 96, 99, 106 and 110 are section dividers.
+- **Not read:** only the chart images. The notes below list what the page text says.
 - **Edition check:** it is the 19th edition (p. 5). It covers incidents from Nov 1, 2024 to Oct 31, 2025 (p. 9). Verizon's page lists it as the 2026 report.
 
 ## What the pages say (my words)
@@ -47,5 +47,30 @@
 ## Limits
 - It is a convenience sample of breaches that reached investigators and contributors (pp. 111 to 112), so rates are not population rates.
 - Verizon's own data skews to organizations; it says individuals not tied to an organization are excluded (p. 112).
-- Parts of the report were not read (see above), so the paper must not describe the whole report.
+- The charts were not read as images, so figure values that the text does not state are not used.
 - AI sections beyond one line are not used because the proposed coordinator uses no AI service (task T3.2.3).
+
+## Pages read in the second pass (my words)
+
+| Point | Page |
+|---|---|
+| **Denial of service:** 5,514 incidents, only 3 with confirmed data disclosure. The largest attacks grew 198% in bits per second and 156% in packets per second from last year. The median attack size was 4.2 to 6 Gbps over recent years, and half of attacks lasted under nine minutes. Not relevant to data theft by itself. | pp. 62 to 64 |
+| AI crawler and fetcher traffic grew 21% a month between May and Dec 2025, against 0.3% for human traffic. About 15% of non-malicious bot traffic in Q3 2025 was AI bots. | p. 65 |
+| **Privilege escalation deep dive:** four groups of defense (passwords, configurations, permissions, patches). About 65% of the privilege-escalation techniques examined are mitigated by privilege management, 33% by configuration and 30% by password policies. Only about 10% are mitigated by patches. | pp. 67 to 68 |
+| Exploiting a vulnerability to gain more privileges appeared in 9% of the incidents studied. The median share of Active Directory accounts using an already-breached password was 4%, against under 1% for accounts failing complexity rules. About 6% of users reused passwords. | p. 70 |
+| In configuration scans, 97% of devices failed the check for the number of failed logins before lockout, and 90% failed the 15-character password-length check. In attack-graph data, 16% of organizations had about 80% exposure (an attacker with low-level access had an 80% or better chance of reaching a key admin account). | p. 71 |
+| **North Korean IT workers:** the report says these workers used stolen identities (an estimated 15,000 possible identities) to get remote jobs, mostly for payroll. The report's own estimate of the number of such workers is "low thousands" with considerable uncertainty. It advises identity checks at several points in hiring. | pp. 73 to 74 |
+| **Industries intro and Table 3:** 31,861 incidents and 22,625 breaches in all. The report warns that industry differences are shaped by reporting rules and sample size. Healthcare: 1,492 incidents, 1,438 breaches (472 and 466 in small organizations). | pp. 76 to 77 |
+| At-a-glance rows for 12 other industries (for example Professional Services, Wholesale, Utilities). In most, System Intrusion, Social Engineering and Basic Web Application Attacks are the top three. Not used for the paper. | pp. 80 to 81 |
+| **Public Administration:** 3,634 incidents, 2,410 breaches. Miscellaneous Errors is 31% of breaches, with Misdelivery 88% of those errors and Carelessness 91% of the causes. Misuse is mostly "Data mishandling" (82%). The report says sending data through unauthorized channels and storing it against policy both count as mishandling. | pp. 90 to 93 |
+| **Retail:** 997 incidents, 806 breaches. Third parties were involved in 68% of breaches and exploiting vulnerabilities was the way in for 42%. Internal data stolen rose from 65% to 84%. | pp. 94 to 95 |
+| **Regions (Table 5 and pages 100 to 105):** North America had 12,371 incidents and 8,426 breaches. Exploiting vulnerabilities was the way in for 30% in North America. Third parties were involved in 43% there. The text says the dataset leans toward North America because of where contributors are. In EMEA, Misconfiguration was 17% of error breaches. | pp. 100 to 104 |
+| A Singapore guest section describes a large coordinated response to a telecom attack, and a U.K. example (Jaguar Land Rover, about £1.9 billion in loss and about 5,000 affected entities). Not used for the paper. | pp. 102, 105 |
+| **Year in review:** month-by-month list from VTRAC. Items related to this paper: a breach of GitHub Actions exposed secrets in more than 23,000 repositories (March); a self-copying npm worm called Shai-Hulud compromised more than 500 packages to steal developer credentials and GitHub tokens (September); and React2Shell (CVE-2025-55182), a remote code execution flaw in React Server Components, was exploited by China-nexus groups to deploy backdoors across 39% of cloud environments (December); 29% of Known Exploited Vulnerabilities were attacked before public disclosure (October). | pp. 108 to 109 |
+| **Appendix C (how to use the DBIR):** the report says its statistics are not probabilities. A percentage such as "ransomware in 48% of breaches" is a share of breaches that were detected and reported. The appendix says to start from your industry, size and region, then adjust the baseline up or down with your own evidence (history, testing, controls, detection). | pp. 114 to 116 |
+| Contributing organizations list (about 120 names, including CISA, FBI IC3, Anthropic, Coveware and Verizon teams). | pp. 117 to 120 |
+
+## Added possible use (second pass)
+- **Topic 3:** the Appendix C warning (p. 114) is the right way to describe every Verizon percentage in the paper: a share of detected and reported breaches, never a chance of being breached.
+- **Topic 7 and 8:** the supply chain items on p. 108 and p. 109 (GitHub Actions secrets, the npm worm, React Server Components) are the report's own examples of the risks the proposed coordinator's package and hosting choices face. They are events, not a statement about the coordinator.
+- **Topic 8:** the Healthcare and SMB pages (pp. 86 to 87, 97 to 98) remain the main industry pages. Table 3 on p. 77 gives the healthcare counts.
