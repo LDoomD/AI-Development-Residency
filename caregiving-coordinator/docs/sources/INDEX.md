@@ -731,3 +731,20 @@ Source list: `caregiving-coordinator/docs/security-paper/source-list-2026-11-17.
 | Saved copy | Source | Note |
 |---|---|---|
 | `sources/security-paper/saltzer-schroeder-1975/crossref-record.json` | Crossref record for DOI 10.1109/PROC.1975.9939 (Saltzer and Schroeder, 1975), fetched 2026-11-19 from https://api.crossref.org/works/10.1109/PROC.1975.9939 | Gives volume 63, issue 9, pages 1278 to 1308, issued 1975. The DOI redirects to IEEE Xplore document 1451869, but IEEE's page text could not be read by the fetch tool (empty page), so the volume and pages come from the DOI registry record, not from IEEE's own page. The paper still cites the paper by section name because the saved MIT copy has no journal page numbers. |
+
+## 2026-11-19: Week 4 repository setup (GitHub, Claude Code, Next.js, Supabase, Vercel)
+
+Folder: `sources/week-4-repo-setup-2026-11-19/`. Each page was downloaded on 2026-11-19 with `curl`, then read in full. The five GitHub, Supabase and Vercel pages are web pages, so their saved copy is plain text made with a small Python script (page scripts, menus and images dropped; empty menu bullets removed). The Claude Code and Next.js pages were downloaded as Markdown and saved as served.
+
+| Saved copy | Source | Date shown on the page | Used for |
+|---|---|---|---|
+| `github-best-practices.txt` | https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories | no date in the page text | README, security features, branching over forking |
+| `github-protected-branches.txt` | https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches | no date in the page text | which plans get branch protection |
+| `github-rulesets.txt` | https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets | no date in the page text | which plans get rulesets |
+| `github-secure-quickstart.txt` | https://docs.github.com/en/code-security/getting-started/quickstart-for-securing-your-repository | no date in the page text | Dependabot, secret scanning, security policy, plan limits |
+| `claude-code-claude-directory.md` | https://code.claude.com/docs/en/claude-directory.md | no date in the page text | where Claude Code reads skills, hooks, CLAUDE.md |
+| `nextjs-project-structure.md` | https://nextjs.org/docs/app/getting-started/project-structure.md | lastUpdated 2026-07-21 | Next.js folder layout |
+| `supabase-local-migrations.txt` | https://supabase.com/docs/guides/local-development/database-migrations | Updated Nov 2, 2026 | `supabase/migrations`, `seed.sql`, `config.toml` |
+| `vercel-troubleshoot-collab.txt` | https://vercel.com/docs/deployments/troubleshoot-project-collaboration | Last updated March 13, 2026 | Hobby plan and private repository rules |
+
+Not read in full (search summaries only, not cited as proof): the Vercel Community forum threads, GitHub's plans page, the Claude Code skills and settings reference pages.
