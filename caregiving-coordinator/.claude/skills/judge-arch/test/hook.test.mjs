@@ -68,3 +68,21 @@ test('the skills directive emits valid SubagentStart JSON', () => {
   assert.equal(out.hookSpecificOutput.hookEventName, 'SubagentStart');
   assert.match(out.hookSpecificOutput.additionalContext, /security-review/);
 });
+
+test('the skills directive starts with the never-make-anything-up rule (SessionStart)', () => {
+  const r = spawnSync('node', [DIRECTIVE], { encoding: 'utf8' });
+  assert.equal(r.status, 0);
+  assert.match(r.stdout, /^NEVER MAKE ANYTHING UP/);
+});
+
+test('the never-make-anything-up rule also reaches subagents', () => {
+  const r = spawnSync('node', [DIRECTIVE, 'SubagentStart'], { encoding: 'utf8' });
+  assert.match(JSON.parse(r.stdout).hookSpecificOutput.additionalContext, /NEVER MAKE ANYTHING UP/);
+});
+
+test('the per-message reminder prints the rule (UserPromptSubmit)', () => {
+  const REMINDER = path.join(HERE, '..', '..', '..', 'hooks', 'no-invention-reminder.mjs');
+  const r = spawnSync('node', [REMINDER], { encoding: 'utf8' });
+  assert.equal(r.status, 0);
+  assert.match(r.stdout, /never make anything up/);
+});
