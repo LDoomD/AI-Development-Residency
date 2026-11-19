@@ -1,0 +1,37 @@
+
+ZAP – ZAP Scans
+Download
+ZAP Scans
+Documentation
+ZAP Scans
+We are in the process of automating ZAP to run regularly against a variety of test applications and will publish the results here as and when they are in a suitable state.
+Our aim is to make ZAP as effective as possible against real world apps.
+Test apps are useful tools but we have found that some apps test for issues that are:
+No longer valid (for example where modern browsers block those attacks)
+Extremely unlikely in real world apps
+Cannot realistically be found by automated DAST scanners
+Having said that, any of the tests that ZAP currently fails on are a good candidate for fixing.
+If you are interested in enhancing ZAP to find these issues then see 
+Contribute: Coding: Scan Rules
+ ZAP Authentication Tests
+  - a set of authentication test cases 
+ Google Firing Range
+  - a test bed for automated web application security scanners (unmaintained) 
+ Crawlground
+  - a testbed for web crawlers with individual scored controls (maintained by the ZAP team) 
+ Google Security Crawl Maze
+  - a comprehensive testbed for web security crawlers (maintained) 
+ OWASP Benchmark
+  - a test suite designed to verify the speed and accuracy of software vulnerability detection tools 
+ OWASP Juice Shop
+  - a deliberately vulnerable modern web app (maintained) 
+ WAVSEP
+  - the most comprehensive OSS DAST specific test suite that we know of (maintained by the ZAP team) 
+ Websites Vulnerable to SSTI
+  - a set of simple servers which are vulnerable to Server Side Template Injection (maintained) 
+ Yahoo Webseclab
+  - a set of web security test cases (unmaintained) 
+Edit on GitHub
+      © Copyright 2026 the ZAP Dev Team
+      ZAP by 
+Checkmarx

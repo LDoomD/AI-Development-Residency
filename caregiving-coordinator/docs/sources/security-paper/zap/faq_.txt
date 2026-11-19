@@ -1,0 +1,82 @@
+
+ZAP – Frequently Asked Questions
+Download
+Frequently Asked Questions
+Troubleshooting
+Somethings not working. What should I do?
+General Questions
+Does ZAP offer community services?
+How do I get a specific feature implemented in ZAP?
+How do I use Chrome with ZAP in Docker?
+What 'calls home' does ZAP make?
+What are the command line options?
+What data does ZAP collect?
+What does ZAP test for?
+What is the default directory that ZAP uses?
+What versions of Java are supported?
+Where can I ask ZAP related questions?
+Where does ZAP put its logs?
+Where is ZAP installed?
+Why does my Antivirus Tool Flag ZAP?
+Why does ZAP Access Out of Scope Domains?
+Why don't you rewrite ZAP in <my favorite language>?
+Why is ZAP not available in my language?
+Scanning
+How can I add my own payloads to active scan rules?
+How can I prevent ZAP from sending me 1000s of emails via a 'Contact Us' form?
+How can you speed up scans?
+How do I handle a False Positive?
+How do I report a False Negative?
+How often are scan rules updated?
+Is there any danger when scanning with ZAP against a live website (e.g. create/delete/update/corrupt data)?
+Someone is using ZAP to attack my website - what should I do?
+What should I do if ZAP doesn't detect a known problem?
+Why can ZAP scans be inconsistent?
+Howtos
+How can I add an application icon for ZAP to Fedora / Gnome 3?
+How can I fix 'browser was not found'?
+How can you import POST requests?
+How can you start ZAP?
+How can ZAP automatically authenticate via forms?
+How do you add a script to ZAP from the command line?
+How do you configure ZAP logging?
+How do you find out what key to use to set a config value on the command line?
+Networking
+How can I connect to ZAP remotely?
+How can I use ZAP with a Java application which connects to a web service over SSL?
+How do you configure ZAP to test an application on localhost?
+How to connect to an HTTPS site that reports a handshake failure?
+What options exist for selective proxying?
+Why can't ZAP connect to my web application?
+API
+How can I use the ZAP API in my own regression tests?
+How can you use ZAP to scan APIs?
+Why is an API key required by default?
+Desktop UI
+Fonts in ZAP look bad on my system - what should I do?
+How can I run ZAP with a high DPI display?
+How can you easily maximize a tab?
+What causes: Exception in thread 'AWT-EventQueue-0' when loading ZAP on Docked Mac OSX?
+Why am I getting blank ZAP windows on Linux?
+Detailed Questions
+How can ZAP test sites that use certificate pinning?
+How do I see what version of an add-on/extension I have installed?
+What is ZAP's assurance case?
+Why are there missing History IDs?
+Why has the Quick Scan Attack reported an invalid URL?
+Technologies Supported
+Can ZAP be used to test mobile apps?
+Can ZAP be used to test my favorite framework or technology?
+Can ZAP be used to test my favorite vulnerable app?
+Can ZAP be used to test Windows 8 Metro apps?
+Setting up ZAP to Test Damn Vulnerable Web App (DVWA)
+Setting up ZAP to Test OWASP Pixi
+Setting up ZAP to Test Vaadin Apps
+What operating systems are supported?
+What vulnerability classifications are supported?
+Automation
+How Can I set Variables in the Automation Framework?
+What is the Best Way to Automate ZAP?
+      © Copyright 2026 the ZAP Dev Team
+      ZAP by 
+Checkmarx

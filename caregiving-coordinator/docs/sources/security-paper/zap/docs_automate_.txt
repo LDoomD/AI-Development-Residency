@@ -1,0 +1,23 @@
+
+ZAP – Automate ZAP
+Download
+Automate ZAP
+There are various ways you can automate ZAP, which are explored in more detail on the
+Getting Further - Automation Options
+ page:
+ ZAPit
+  - a quick ‘reconnaissance’ scan of the URL specified 
+ Quick Start command line
+  - easy to run, but with very limited options so only suitable for simple scans 
+ Docker Packaged Scans
+  - the easiest way to get started with ZAP automation with lots of flexibility 
+ GitHub Actions
+  - the associated packaged scans available on the GitHub Marketplace 
+ Automation Framework
+  - a flexible option not tied to any container technology - recommended for most non-trivial automation 
+ API and Daemon mode
+  - for full control over ZAP via a comprehensive API 
+Edit on GitHub
+      © Copyright 2026 the ZAP Dev Team
+      ZAP by 
+Checkmarx
