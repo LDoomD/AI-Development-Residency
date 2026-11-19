@@ -1,0 +1,1150 @@
+<!doctype html><html lang="en" class="web tlp-clear" data-studio-config="eyJ4aHJDcmVkZW50aWFscyI6ZmFsc2UsInhockhlYWRlcnMiOnt9fQo="><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>CVSS v4.0 User Guide</title>
+<meta property="og:title" content="CVSS v4.0 User Guide" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.first.org/cvss/identity/cvssv4.png" />
+<meta property="og:url" content="https://www.first.org/cvss/v4.0/user-guide" />
+<meta property="og:site_name" content="FIRST — Forum of Incident Response and Security Teams" />
+<meta property="fb:profile_id" content="296983660669109" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@FIRSTdotOrg" />
+<meta property="twitter:image" content="https://www.first.org/cvss/identity/cvssv4.png" /><meta name="viewport" content="initial-scale=1,maximum-scale=1.0,user-scalable=no" /><link rel="icon" type="image/png" href="/cvss/identity/cvssv4.png" /><link rel="apple-touch-icon" sizes="128x128" href="/cvss/identity/cvssv4.png" /><link rel="stylesheet" type="text/css" href="/_/web.css?20261103112326" /></head><body><header><div id="header" data-studio="o20mmCqKmw"><div id="c3" data-studio="QSzD3IV7lw"><div id="topbar">
+<div class="sites right">
+<ul>
+<li><a href="https://portal.first.org" class="button"><span class="no-tiny">Member </span>Portal</a></li>
+</ul>
+</div>
+<div class="first-logo">
+<p><a href="/"><img src="/_/img/first-org-green.svg" alt="FIRST.Org" title="FIRST" /></a></p>
+</div>
+<div class="nav">
+<ul class="navbar"><li><a href="/about">About FIRST</a><ul><li><a href="/about/mission">Mission Statement</a></li><li><a href="/about/strategy/">Strategy Framework</a></li><li><a href="/about/history">History</a></li><li><a href="/about/sdg">Sustainable Development Goals</a></li><li><a href="/about/organization">Organization</a><ul><li><a href="/about/organization/directors">Board of Directors</a></li><li><a>Operations Team</a><ul><li><a href="/about/organization/ccb">Community &amp; Capacity Building</a></li><li><a href="/about/organization/events">Event Office</a></li><li><a href="/about/organization/executive-director">Executive Director</a></li><li><a href="/about/organization/infrastructure">Infrastructure</a></li><li><a href="/about/organization/secretariat">Secretariat</a></li></ul></li><li><a href="/about/organization/committees">Committees</a><ul><li><a href="/about/organization/committees/compensation-committee">Compensation Committee</a></li><li><a href="/about/organization/committees/conference-program-committee">Conference Program Committee</a></li><li><a href="/about/organization/committees/finance-committee">Finance Committee</a></li><li><a href="/about/organization/committees/membership-committee">Membership Committee</a></li><li><a href="/about/organization/committees/rules-committee">Rules Committee</a></li></ul></li><li><a href="/events/agm">Annual General Meeting</a></li><li><a href="/about/organization/reports">Annual Reports and Tax Filings</a></li></ul></li><li><a href="/about/policies">FIRST Policies</a><ul><li><a href="/about/policies/anti-corruption">Anti-Corruption Policy</a></li><li><a href="/about/policies/antitrust">Antitrust Policy</a></li><li><a href="/about/policies/bylaws">Bylaws</a></li><li><a href="/about/policies/board-duties">Board duties</a></li><li><a href="/about/bugs">Bug Bounty Program</a></li><li><a href="/about/policies/code-of-conduct">Code of Conduct</a></li><li><a href="/about/policies/conflict-policy">Conflict of Interest Policy</a></li><li><a href="/about/policies/doc-rec-retention-policy">Document Record Retention and Destruction Policy</a></li><li><a href="/newsroom/policy">FIRST Press Policy</a></li><li><a href="/about/policies/event-site-selection">Guidelines for Site Selection for all FIRST events</a></li><li><a href="/identity">Identity &amp; Logo Usage</a></li><li><a href="/about/policies/mailing-list">Mailing List Policy</a></li><li><a href="/about/policies/media">Media Policy</a></li><li><a href="/about/policies/privacy">Privacy Policy</a></li><li><a href="/about/policies/registration-terms-conditions">Registration Terms &amp; Conditions</a></li><li><a href="/about/policies/terms">Services Terms of Use</a></li><li><a href="/about/policies/standards">Standards Policy</a></li><li><a href="/about/policies/diversity">Statement on Diversity &amp; Inclusion</a></li><li><a href="/about/policies/translation-policy">Translation Policy</a></li><li><a href="/about/policies/travel-policy">Travel Policy</a></li><li><a href="/about/policies/uniform-ipr">Uniform IPR Policy</a></li><li><a href="/about/policies/whistleblower-policy">Whistleblower Protection Policy</a></li></ul></li><li><a href="/about/partners">Partnerships</a><ul><li><a href="/global/partners">Partners</a></li><li><a href="/global/friends">Friends of FIRST</a></li><li><a href="/global/supporters/">FIRST Supporters</a></li><li><a href="/about/sponsors">FIRST Sponsors</a></li></ul></li><li><a href="/newsroom">Newsroom</a><ul><li><a href="/newsroom/news">What&#039;s New</a></li><li><a href="/newsroom/releases">Press Releases</a></li><li><a href="/newsroom/news/media">In the News</a></li><li><a href="/podcasts">Podcasts</a><ul><li><a href="/newsroom/news/first-impressions/">FIRST Impressions Podcast</a></li><li><a href="/newsroom/news/podcasts/">FIRSTCON Podcast</a></li></ul></li><li><a href="/newsroom/newsletters">Newsletters</a></li><li><a href="/newsroom/policy">FIRST Press Policy</a></li></ul></li><li><a href="/about/procurement">Procurement</a></li><li><a href="/about/jobs/">Jobs</a></li><li><a href="/contact">Contact</a></li></ul></li><li><a href="/members">Membership</a><ul><li><a href="/membership/">Becoming a Member</a><ul><li><a href="/membership/process">Membership Process for Teams</a></li><li><a href="/membership/process-associates">Membership Process for Associates</a></li><li><a href="/membership/process-individuals">Membership Process for Individual Members</a></li><li><a href="/membership/#Fees">Membership Fees</a></li></ul></li><li><a href="/members/teams/">FIRST Teams</a></li><li><a href="/members/associates/">FIRST Associates</a></li><li><a href="/members/individuals/">FIRST Individual Members</a></li><li><a href="/members/map">Members around the world</a></li></ul></li><li><a href="/global">Initiatives</a><ul><li><a href="/global/sigs">Special Interest Groups (SIGs)</a><ul><li><a href="/global/sigs/framework">SIGs Framework</a></li><li><a href="/global/sigs/academicsec" class="borderb">Academic Security SIG</a></li><li><a href="/global/sigs/ai-security">AI Security SIG</a></li><li><a href="/global/sigs/automation">Automation SIG</a></li><li><a href="/global/sigs/communications/">Cybersecurity Communications SIG</a></li><li><a href="/cvss">Common Vulnerability Scoring System (CVSS-SIG)</a><ul><li><a href="/cvss/calculator/4.0">Calculator</a></li><li><a href="/cvss/v4.0/specification-document">Specification Document</a></li><li><a href="/cvss/v4.0/user-guide">User Guide</a></li><li><a href="/cvss/v4.0/implementation-guide">Implementation Guide</a></li><li><a href="/cvss/governance-guidelines">Governance Guidelines</a></li><li><a href="/cvss/v4.0/examples">Examples</a></li><li><a href="/cvss/v4.0/faq">Frequently Asked Questions</a></li><li><a href="/cvss/v4.0/">CVSS v4.0 Documentation &amp; Resources</a><ul><li><a href="/cvss/calculator/4.0">CVSS v4.0 Calculator</a></li><li><a href="/cvss/v4.0/specification-document">CVSS v4.0 Specification Document</a></li><li><a href="/cvss/v4.0/user-guide">CVSS v4.0 User Guide</a></li><li><a href="/cvss/v4.0/implementation-guide">CVSS v4.0 Implementation Guide</a></li><li><a href="/cvss/v4.0/examples">CVSS v4.0 Examples</a></li><li><a href="/cvss/v4.0/faq">CVSS v4.0 FAQ</a></li></ul></li><li><a href="/cvss/v3-1">CVSS v3.1 Archive</a><ul><li><a href="/cvss/calculator/3.1">CVSS v3.1 Calculator</a></li><li><a href="/cvss/v3.1/specification-document">CVSS v3.1 Specification Document</a></li><li><a href="/cvss/v3.1/user-guide">CVSS v3.1 User Guide</a></li><li><a href="/cvss/v3.1/examples">CVSS v3.1 Examples</a></li><li><a href="/cvss/v3.1/use-design">CVSS v3.1 Calculator Use &amp; Design</a></li></ul></li><li><a href="/cvss/v3-0">CVSS v3.0 Archive</a><ul><li><a href="/cvss/calculator/3.0">CVSS v3.0 Calculator</a></li><li><a href="/cvss/v3.0/specification-document">CVSS v3.0 Specification Document</a></li><li><a href="/cvss/v3.0/user-guide">CVSS v3.0 User Guide</a></li><li><a href="/cvss/v3.0/examples">CVSS v3.0 Examples</a></li><li><a href="/cvss/v3.0/use-design">CVSS v3.0 Calculator Use &amp; Design</a></li></ul></li><li><a href="/cvss/v2">CVSS v2 Archive</a><ul><li><a href="/cvss/v2/guide">CVSS v2 Complete Documentation</a></li><li><a href="/cvss/v2/history">CVSS v2 History</a></li><li><a href="/cvss/v2/team">CVSS-SIG team</a></li><li><a href="/cvss/v2/meetings">SIG Meetings</a></li><li><a href="/cvss/v2/faq">Frequently Asked Questions</a></li><li><a href="/cvss/v2/adopters">CVSS Adopters</a></li><li><a href="/cvss/v2/links">CVSS Links</a></li></ul></li><li><a href="/cvss/v1">CVSS v1 Archive</a><ul><li><a href="/cvss/v1/intro">Introduction to CVSS</a></li><li><a href="/cvss/v1/faq">Frequently Asked Questions</a></li><li><a href="/cvss/v1/guide">Complete CVSS v1 Guide</a></li></ul></li><li><a href="/cvss/data-representations">JSON &amp; XML Data Representations</a></li><li><a href="/cvss/training">CVSS On-Line Training Course</a></li><li><a href="/cvss/identity">Identity &amp; logo usage</a></li></ul></li><li><a href="/global/sigs/csirt">CSIRT Framework Development SIG</a></li><li><a href="/global/sigs/cyberinsurance">Cyber Insurance SIG</a><ul><li><a href="/global/sigs/cyberinsurance/events">Cyber Insurance SIG Webinars</a></li></ul></li><li><a href="/global/sigs/cti">Cyber Threat Intelligence SIG</a><ul><li><a href="/global/sigs/cti/curriculum/">Curriculum</a><ul><li><a href="/global/sigs/cti/curriculum/introduction">Introduction</a></li><li><a href="/global/sigs/cti/curriculum/cti-introduction">Introduction to CTI as a General topic</a></li><li><a href="/global/sigs/cti/curriculum/methods-methodology">Methods and Methodology</a></li><li><a href="/global/sigs/cti/curriculum/pir">Priority Intelligence Requirement (PIR)</a></li><li><a href="/global/sigs/cti/curriculum/source-evaluation">Source Evaluation and Information Reliability</a></li><li><a href="/global/sigs/cti/curriculum/machine-human">Machine and Human Analysis Techniques (and Intelligence Cycle)</a></li><li><a href="/global/sigs/cti/curriculum/threat-modelling">Threat Modelling</a></li><li><a href="/global/sigs/cti/curriculum/training">Training</a></li><li><a href="/global/sigs/cti/curriculum/standards">Standards</a></li><li><a href="/global/sigs/cti/curriculum/glossary">Glossary</a></li><li><a href="/global/sigs/cti/curriculum/cti-reporting/">Communicating Uncertainties in CTI Reporting</a></li></ul></li><li><a href="/global/sigs/cti/events/">Webinars and Online Training</a></li><li><a href="/global/sigs/cti/blog/">CTI SIG Blog</a></li><li><a href="/global/sigs/cti/contributors">Contributors</a></li><li><a href="/global/sigs/cti/cti-program">Building a CTI program and team</a><ul><li><a href="/global/sigs/cti/cti-program/program-stages">Program maturity stages</a><ul><li><a href="/global/sigs/cti/cti-program/stage1">CTI Maturity model - Stage 1</a></li><li><a href="/global/sigs/cti/cti-program/stage2">CTI Maturity model - Stage 2</a></li><li><a href="/global/sigs/cti/cti-program/stage3">CTI Maturity model - Stage 3</a></li></ul></li><li><a href="/global/sigs/cti/cti-program/starter-kit">Program Starter Kit</a></li><li><a href="/global/sigs/cti/cti-program/resources">Resources and supporting materials</a></li></ul></li></ul></li><li><a href="/global/sigs/de-th/">Detection Engineering &amp; Threat Hunting SIG</a></li><li><a href="/global/sigs/digital-safety">Digital Safety SIG</a></li><li><a href="/global/sigs/dns">DNS Abuse SIG</a><ul><li><a href="/global/sigs/dns/DNS-Abuse-Techniques-Matrix_v1.3.pdf">DNS Abuse Techniques Matrix</a></li><li><a href="/global/sigs/dns/stakeholder-advice/">Stakeholder Advice</a><ul><li><a href="/global/sigs/dns/stakeholder-advice/creation-of-malicious-subdomains-under-dynamic-dns-providers">Creation of Malicious Subdomains Under Dynamic DNS Providers</a></li><li><a href="/global/sigs/dns/stakeholder-advice/cache-poisoning">DNS Cache Poisoning</a></li><li><a href="/global/sigs/dns/stakeholder-advice/dga">DGA Domains</a></li><li><a href="/global/sigs/dns/stakeholder-advice/dns-as-a-vector-for-dos">DNS as a Vector for DoS</a></li><li><a href="/global/sigs/dns/stakeholder-advice/dns-beacons-c2-communication">DNS Beacons - C2 Communication</a></li><li><a href="/global/sigs/dns/stakeholder-advice/dns-rebinding">DNS Rebinding</a></li><li><a href="/global/sigs/dns/stakeholder-advice/dns-server-compromise">DNS Server Compromise</a></li><li><a href="/global/sigs/dns/stakeholder-advice/dns-tunneling">DNS Tunneling</a></li><li><a href="/global/sigs/dns/stakeholder-advice/dos-against-the-dns">DoS Against the DNS</a></li><li><a href="/global/sigs/dns/stakeholder-advice/domain-name-compromise">Domain Name Compromise</a></li><li><a href="/global/sigs/dns/stakeholder-advice/fast-flux">Fast Flux</a></li><li><a href="/global/sigs/dns/stakeholder-advice/infiltration-and-exfiltration-via-the-dns">Infiltration and exfiltration via the DNS</a></li><li><a href="/global/sigs/dns/stakeholder-advice/lame-delegations">Lame Delegations</a></li><li><a href="/global/sigs/dns/stakeholder-advice/local-resolver-hijacking">Local Recursive Resolver Hijacking</a></li><li><a href="/global/sigs/dns/stakeholder-advice/malicious-registration-of-effective-second-level-domains">Malicious registration of (effective) second level domains</a></li><li><a href="/global/sigs/dns/stakeholder-advice/obfuscation-via-dynamic-dns">Obfuscation via Dynamic DNS</a></li><li><a href="/global/sigs/dns/stakeholder-advice/on-path-dns-attack">On-path DNS Attack</a></li><li><a href="/global/sigs/dns/stakeholder-advice/stub-resolver-hijacking">Stub Resolver Hijacking</a></li><li><a href="/global/sigs/dns/stakeholder-advice/spoofing-of-a-registered-domain">Spoofing of a Registered Domain</a></li><li><a href="/global/sigs/dns/stakeholder-advice/use-of-an-unregistered-domain">Use of an Unregistered Domain</a></li></ul></li><li><a href="/global/sigs/dns/policies">Code of Conduct &amp; Other Policies</a></li><li><a href="/global/sigs/dns/dns-abuse-examples">Examples of DNS Abuse</a></li></ul></li><li><a href="/global/sigs/ethics">Ethics SIG</a><ul><li><a href="/global/sigs/ethics/ethics-first">Ethics for Incident Response Teams</a></li></ul></li><li><a href="/epss/">Exploit Prediction Scoring System (EPSS)</a><ul><li><a href="/epss/why-epss">Why EPSS?</a></li><li><a href="/epss/data">Get the Data</a></li><li><a href="/epss/using-epss">Using EPSS</a></li><li><a href="/epss/how-it-works">How EPSS Works</a></li><li><a href="/epss/faq">Frequently Asked Questions</a></li><li><a href="/epss/research">Research</a></li><li><a href="/epss/who_is_using">Who is using EPSS?</a></li><li><a href="/epss/articles/log4shell">Log4Shell Use Case</a></li></ul></li><li><a href="/global/sigs/msr/">FIRST Multi-Stakeholder Ransomware SIG</a></li><li><a href="/global/sigs/hfs/">Human Factors in Security SIG</a></li><li><a href="/global/sigs/ics">Industrial Control Systems SIG (ICS-SIG)</a></li><li><a href="/global/sigs/iep">Information Exchange Policy SIG (IEP-SIG)</a></li><li><a href="/global/sigs/information-sharing">Information Sharing SIG</a><ul><li><a href="/global/sigs/information-sharing/misp">Malware Information Sharing Platform</a></li></ul></li><li><a href="/global/sigs/insider-threat">Insider Threat SIG</a></li><li><a href="/global/sigs/le">Law Enforcement SIG</a></li><li><a href="/global/sigs/malware">Malware Analysis SIG</a><ul><li><a href="/global/sigs/malware/ma-framework">Malware Analysis Framework</a></li><li><a href="/global/sigs/malware/ma-framework/malwaretools">Malware Analysis Tools</a></li></ul></li><li><a href="/global/sigs/metrics">Metrics SIG</a><ul><li><a href="/global/sigs/metrics/events">Metrics SIG Webinars</a></li></ul></li><li><a href="/global/sigs/netsec/">NETSEC SIG</a></li><li><a href="/global/sigs/policy">Public Policy SIG</a></li><li><a href="/global/sigs/psirt">PSIRT SIG</a></li><li><a href="/global/sigs/red-team">Red Team SIG</a></li><li><a href="/global/sigs/ctf">Security Lounge SIG</a><ul><li><a href="/global/sigs/seclounge/framework">Security Lounge SIG Framework</a></li></ul></li><li><a href="/global/sigs/soc/">Security Operations Center SIG</a></li><li><a href="/global/sigs/standards/">Standards SIG</a></li><li><a href="/global/sigs/tic/">Threat Intel Coalition SIG</a><ul><li><a href="/global/sigs/tic/membership-rules">Membership Requirements and Veto Rules</a></li></ul></li><li><a href="/global/sigs/time/">Time SIG</a></li><li><a href="/global/sigs/tlp">Traffic Light Protocol (TLP-SIG)</a></li><li><a href="/global/sigs/transport">Transportation and Mobility SIG</a></li><li><a href="/global/sigs/vulnerability-coordination">Vulnerability Coordination</a><ul><li><a href="/global/sigs/vulnerability-coordination/multiparty">Multi-Party Vulnerability Coordination and Disclosure</a></li><li><a href="/global/sigs/vulnerability-coordination/multiparty/guidelines">Guidelines and Practices for Multi-Party Vulnerability Coordination and Disclosure</a></li></ul></li><li><a href="/global/sigs/vrdx">Vulnerability Reporting and Data eXchange SIG (VRDX-SIG)</a><ul><li><a href="/global/sigs/vrdx/vdb-catalog">Vulnerability Database Catalog</a></li></ul></li><li><a href="/global/sigs/wof">Women of FIRST</a></li></ul></li><li><a href="/global/ccb-initiatives">CCB Initiatives</a></li><li><a href="/global/core">FIRST CORE</a><ul><li><a href="/global/core/sponsorship">Sponsorship Opportunities</a></li></ul></li><li><a href="/global/governance">Internet Governance</a></li><li><a href="/global/irt-database">IR Database</a></li><li><a href="/global/fellowship">Fellowship Program</a><ul><li><a href="https://portal.first.org/fellowship">Application Form</a></li></ul></li><li><a href="/global/mentorship">Mentorship Program</a></li><li><a href="/hof">IR Hall of Fame</a><ul><li><a href="/hof/inductees">Hall of Fame Inductees</a></li></ul></li><li><a href="/global/victim-notification">Victim Notification</a></li><li><a href="/volunteers/">Volunteers at FIRST</a><ul><li><a href="/volunteers/list">FIRST Volunteers</a></li></ul></li><li><a href="/global/spotlight">Member Spotlight</a></li><li><a href="#new">Previous Activities</a><ul><li><a href="/global/practices">Best Practices Contest</a></li></ul></li></ul></li><li><a href="/standards">Standards &amp; Publications</a><ul><li><a href="/standards">Standards</a><ul><li><a href="/cvss">Common Vulnerability Scoring System (CVSS-SIG)</a></li><li><a href="/tlp">Traffic Light Protocol (TLP)</a><ul><li><a href="/tlp/use-cases">TLP Use Cases</a></li></ul></li><li><a href="/standards/frameworks/">Service Frameworks</a><ul><li><a href="/standards/frameworks/csirts">CSIRT Services Framework</a></li><li><a href="/standards/frameworks/psirts">PSIRT Services Framework</a></li></ul></li><li><a href="/iep">Information Exchange Policy (IEP)</a><ul><li><a href="/iep/iep_framework_2_0">IEP 2.0 Framework</a></li><li><a href="/iep/iep-json-2_0">IEP 2.0 JSON Specification</a></li><li><a href="/iep/iep-polices">Standard IEP Policies</a><ul><li><a href="https://www.first.org/iep/2.0/first-tlp-iep.iepj">IEP TLP Policy File</a></li><li><a href="https://www.first.org/iep/2.0/first-unknown-iep.iepj">IEP Unknown Policy File</a></li></ul></li><li><a href="/iep/iep_v1_0">IEP 1.0 Archive</a></li></ul></li><li><a href="/global/sigs/passive-dns">Passive DNS Exchange</a></li><li><a href="/epss">Exploit Prediction Scoring System (EPSS)</a></li></ul></li><li><a href="/resources/papers">Publications</a></li><li><a href="/community-resources">Community Resources</a></li></ul></li><li><a href="/events">Events</a></li><li><a href="/education">Education</a><ul><li><a href="/education/first-training">FIRST Training</a><ul><li><a href="/education/trainings">Training Courses</a></li><li><a href="/education/trainers">FIRST Trainers</a></li></ul></li></ul></li><li><a href="/blog">Blog</a></li></ul>
+</div>
+</div>
+<div id="home-buttons"><p><a href="/join" data-title="Join"><span class="tt-join">Join<span>Details about FIRST membership and joining as a full member or liaison.</span></span></a><a href="/learn" data-title="Learn"><span class="tt-learn">Learn<span>Training and workshop opportunities, and details about the FIRST learning platform.</span></span></a><a href="/participate" data-title="Participate"><span class="tt-participate">Participate<span>Read about upcoming events, SIGs, and know what is going on.</span></span></a><a href="/community" data-title="Community"><span class="tt-community">Community<span>Community and Capacity Building.</span></span></a></p></div></div></div></header><div id="body" data-studio="o20mmCqKmw"><div id="c1" data-studio="QSzD3IV7lw" class="data-preview toc-h1 toc-h2 code-border image-center number-headings number-toc"><p><img src="/cvss/identity/cvssv4_web.png" alt="CVSS logo" /></p>
+<h1 class="header-title" id="Common-Vulnerability-Scoring-System-version-4-0-User-Guide">Common Vulnerability Scoring System version 4.0: User Guide</h1>
+<p>Also available <a href="/cvss/v4-0/cvss-v40-user-guide.pdf">in PDF format</a>.</p>
+<p>Document Version: 1.2</p>
+<p>The Common Vulnerability Scoring System (CVSS) is an open framework for
+communicating the characteristics and severity of software vulnerabilities. CVSS
+consists of four metric groups: Base, Threat, Environmental, and Supplemental.
+The Base group represents the intrinsic qualities of a vulnerability that are
+constant over time and across user environments, the Threat group reflects the
+characteristics of a vulnerability that change over time, and the Environmental
+group represents the characteristics of a vulnerability that are unique to a
+user's environment. Base metric values are combined with default values that
+assume the highest severity for Threat and Environmental metrics to produce a
+score ranging from 0 to 10. To further refine a resulting severity score, Threat
+and Environmental metrics can then be amended based on applicable threat
+intelligence and environmental considerations. Supplemental metrics do not
+modify the final score, and are used as additional insight into the
+characteristics of a vulnerability. A CVSS vector string consists of a
+compressed textual representation of the values used to derive the score. This
+document provides the official specification for CVSS version 4.0.</p>
+<p>The most current CVSS resources can be found at <a href="https://www.first.org/cvss/">https://www.first.org/cvss/</a></p>
+<p>CVSS is owned and managed by FIRST.Org, Inc. (FIRST), a US-based non-profit
+organization, whose mission is to help computer security incident response teams
+across the world. FIRST reserves the right to update CVSS and this document
+periodically at its sole discretion. While FIRST owns all rights and interest in
+CVSS, it licenses it to the public freely for use, subject to the conditions
+below. Membership in FIRST is not required to use or implement CVSS. FIRST does,
+however, require that any individual or entity using CVSS give proper
+attribution, where applicable, that CVSS is owned by FIRST and used by
+permission. Further, FIRST requires as a condition of use that any individual or
+entity which publishes CVSS data conforms to the guidelines described in this
+document and provides both the score and the scoring vector so others can
+understand how the score was derived.</p>
+<h1 id="Introduction">Introduction</h1>
+<p>This guide supplements the Common Vulnerability Scoring System (CVSS) version
+4.0 Specification Document with additional information including significant
+changes from CVSS version 3.1, additional scoring guidance, and scoring rubrics.</p>
+<h1 id="Changes-in-CVSS-Version-4-0">Changes in CVSS Version 4.0</h1>
+<p>Changes between CVSS versions 3.x and 4.0 focus on clarifying and improving the
+existing standard.</p>
+<h2 id="CVSS-Nomenclature">CVSS Nomenclature</h2>
+<p>Numerical CVSS Scores have very different meanings based on the metrics used to
+calculate them. Regarding prioritization, the usefulness of a numerical CVSS
+score is directly proportional to the CVSS metrics leveraged to generate that
+score. Therefore, numerical CVSS scores should be enumerated using nomenclature
+that communicates the metrics used in its generation.</p>
+<table>
+<thead>
+<tr>
+<th><strong>CVSS Nomenclature</strong></th>
+<th><strong>CVSS Metrics Used</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CVSS-B</td>
+<td>Base metrics</td>
+</tr>
+<tr>
+<td>CVSS-BE</td>
+<td>Base and Environmental metrics</td>
+</tr>
+<tr>
+<td>CVSS-BT</td>
+<td>Base and Threat metrics</td>
+</tr>
+<tr>
+<td>CVSS-BTE</td>
+<td>Base, Threat, Environmental metrics</td>
+</tr>
+</tbody>
+</table>
+<p>Additional Notes:</p>
+<ul>
+<li>
+<p>This nomenclature should be used wherever a numerical CVSS value is
+displayed or communicated.</p>
+</li>
+<li>
+<p>The application of Environmental and Threat metrics is the responsibility of
+the CVSS consumer. Assessment providers such as product maintainers and
+other public/private entities such as the National Vulnerability Database
+(NVD) typically provide only the Base Scores enumerated as CVSS-B.</p>
+</li>
+<li>
+<p>The inclusion of the “E” in the nomenclature is appropriate if any
+Environmental metrics are used to generate the resulting score.</p>
+</li>
+<li>
+<p>The inclusion of the “T” in the nomenclature is appropriate if any Threat
+metrics are used to generate the resulting score.</p>
+</li>
+<li>
+<p>In CVSS v4.0, Base, Threat, and Environmental metric values are always
+considered in the calculation of the final score. The absence of explicit
+Threat and/or Environmental metric selections will still result in a
+complete score using default (“Not Defined”) values. This nomenclature makes
+it explicit and clear about which metric groups were considered in the
+numerical CVSS score provided.</p>
+</li>
+</ul>
+<h2 id="CVSS-Base-Score-CVSS-B-Measures-Severity-not-Risk">CVSS Base Score (CVSS-B) Measures Severity, not Risk</h2>
+<p>The CVSS Specification Document has been updated to emphasize and clarify the
+fact that CVSS Base (CVSS-B) scores are designed to measure the severity of a
+vulnerability and should not be used alone to assess risk.</p>
+<p>The CVSS v4.0 Specification Document clearly states that the CVSS Base Score
+represents only the intrinsic characteristics of a vulnerability and is
+independent of any factor associated with threat or the computing environment
+where the vulnerable system resides.</p>
+<p>The CVSS Base Score should be supplemented with an analysis of the environment
+(Environmental Metrics), and with attributes that may change over time (Threat
+Metrics).</p>
+<p>For an organization that employs automated methods to comprehensively utilize
+the Environmental and Threat metric groups, the resulting CVSS-BTE score can be
+considered much closer to “Risk”.</p>
+<h2 id="Changes-to-Assessment-Guidance">Changes to Assessment Guidance</h2>
+<p>The CVSS Specification Document and User Guide have been updated with additional
+guidance to help CVSS analysts produce resulting severity scores that are
+consistent and defensible across various situations that were previously
+considered ambiguous. A sampling of the new assessment guidance is listed below.</p>
+<h3 id="Scope-Removed">Scope Removed</h3>
+<p>The concept of Scope has been replaced with the concepts of a vulnerable system
+(VC, VI, VA) and a subsequent system (SC, SI, SA), capturing impacts from both,
+where relevant. Refer to Section 3.7 for more information.</p>
+<h3 id="assessing-vulnerabilities-in-software-libraries-and-similar-2-3-2">Assessing Vulnerabilities in Software Libraries (and Similar)</h3>
+<p>New guidance explains how to assess the impact of a vulnerability in a library.
+Refer to Section <strong>3.9</strong> for more information.</p>
+<h3 id="multiple-cvss-base-cvss-b-scores-2-3-3">Multiple CVSS Base (CVSS-B) Scores</h3>
+<p>Guidance explicitly allows multiple CVSS Base Scores to be generated for a
+vulnerability that affects multiple product versions, platforms, and/or
+operating systems. Refer to Section 3.10 for more information.</p>
+<h3 id="Guidance-for-Using-Environmental-Security-Requirements-Metrics">Guidance for Using Environmental Security Requirements Metrics</h3>
+<p>The Environmental Metric Group includes three Security Requirement metrics:
+Confidentiality Requirement of the vulnerable system (CR), Integrity Requirement
+of the vulnerable system (IR), and Availability Requirement of the vulnerable
+system (AR). Section 3.14 contains new guidance and examples explaining how
+these metrics can be used.</p>
+<h2 id="Guidance-for-Using-Supplemental-Metrics">Guidance for Using Supplemental Metrics</h2>
+<p>Guidance on assessing each of the new Supplemental Metrics is provided in
+Section 4.0.</p>
+<h3 id="New-Base-Metric-Attack-Requirements">New Base Metric: Attack Requirements</h3>
+<p>In CVSS v3.1, the “low” and “high” Attack Complexity (AC) values do not reflect
+the significant differences between conditions currently compressed in the
+definition of “high” complexity. For example, the evasion of security mitigation
+techniques such as ASLR or crypto objectively require significantly higher
+exploit complexity than iterating an attack to win a race condition; yet both
+conditions currently result in the same “penalty” to the final severity score.</p>
+<p>CVSS v4.0 aims at addressing this by splitting the current AC definition in two
+metrics, called “Attack Complexity” (AC) and “Attack Requirements” (AT) that
+respectively convey the following:</p>
+<ul>
+<li>
+<p>Attack Complexity - Reflect the exploit engineering complexity required to
+evade or circumvent defensive or security-enhancing technologies. (defensive
+measures)  </p>
+</li>
+<li>
+<p>Attack Requirements - Reflect the prerequisite conditions of the vulnerable
+component that make the attack possible.</p>
+</li>
+</ul>
+<h3 id="Updated-Base-Metric-User-Interaction">Updated Base Metric: User Interaction</h3>
+<p>The User Interaction Base Metric has been updated to allow for additional
+granularity when considering the interaction of a user with a vulnerable
+component, and details are as follows:</p>
+<ul>
+<li>
+<p><strong>None (N):</strong> The vulnerable system can be exploited without interaction
+from any human user, other than the attacker.  </p>
+</li>
+<li>
+<p><strong>Passive (P):</strong> Successful exploitation of this vulnerability requires
+limited interaction by the targeted user with the vulnerable component and
+the attacker’s payload. These interactions would be considered involuntary
+and do not require that the user actively subvert protections built into the
+vulnerable component.  </p>
+</li>
+<li>
+<p><strong>Active (A):</strong> Successful exploitation of this vulnerability requires a
+targeted user to perform specific, conscious interactions with the
+vulnerable component and the attacker’s payload, or the user’s interactions
+would actively subvert protection mechanisms which would lead to
+exploitation of the vulnerability.</p>
+</li>
+</ul>
+<h3 id="Temporal-renamed-to-the-Threat-Metric-Group">Temporal renamed to the Threat Metric Group</h3>
+<p>Several changes were made to the Temporal Metric Group:</p>
+<ul>
+<li>
+<p>Temporal Metric Group renamed to Threat Metric Group</p>
+</li>
+<li>
+<p>Remediation Level (usually O) and Report Confidence (usually C) retired</p>
+</li>
+<li>
+<p>Exploit Code Maturity renamed Exploit Maturity</p>
+</li>
+<li>
+<p>Enhanced impact for Threat Metric values</p>
+</li>
+</ul>
+<p>The Threat Metric Group adjusts the “reasonable worst case” Base score by using
+threat intelligence to reduce the CVSS-BTE score, addressing concerns that many
+CVSS (Base) scores are too high.</p>
+<h2 id="The-CVSS-Extensions-Framework">The CVSS Extensions Framework</h2>
+<p>Section 3.11 defines a standard method of extending CVSS to include additional
+metrics and metric groups while retaining the official Base, Threat, and
+Environmental Metrics. The additional metrics allow industry sectors such as
+privacy, automotive, etc., to assess factors that are outside the core CVSS
+standard.</p>
+<h2 id="New-Scoring-System-Development">New Scoring System Development</h2>
+<p>The scoring system development for CVSS v4.0 consisted of the following broad
+steps. Each step will be described in more detail in the following.</p>
+<ol>
+<li>
+<p>Use metric groups to gather the 15 million CVSS-BTE vectors into 270
+equivalence sets</p>
+</li>
+<li>
+<p>Solicit experts to compare vectors representing each equivalence set</p>
+</li>
+<li>
+<p>Use the expert comparison data to calculate an order of vectors from least
+severe to most severe</p>
+</li>
+<li>
+<p>Solicit expert opinion to decide what vector group in the ordering of
+vectors represents the boundary between qualitative severity scores to be
+backwards compatible with qualitative severity score boundaries from CVSS
+v3.x.</p>
+</li>
+<li>
+<p>Compress the vector groups in each qualitative severity bin into the number
+of available scores in that bin (for example, 9.0 to 10.0 for critical, 7.0
+to 8.9 for high, etc.)</p>
+</li>
+<li>
+<p>Create a small score modification factor that adjusts the scores of vectors
+within a vector group so that a change of any metric value results in a
+score change. The intent is that the score change is not larger than the
+uncertainty in the ranking of the vector groups as collected from the expert
+comparison data in step 2.</p>
+</li>
+</ol>
+<p>More details for each of these six steps are as follows:</p>
+<h3 id="Use-metric-groups-to-gather-the-15-million-CVSS-BTE-vectors-into-270-equivalence-sets">Use metric groups to gather the 15 million CVSS-BTE vectors into 270 equivalence sets</h3>
+<p>This step helps satisfy a couple of design requirements. One is that there are
+101 CVSS scores (0.0 to 10.0 by 0.1). The second is that we create the scoring
+system using no more time from experts than we have available on a volunteer
+basis to the SIG. How this helps meet the first requirement is straightforward –
+there has to be some grouping of all the possible vectors because many of them
+will have to share a score if there are 15 million options and 101 possible
+scores. How this step reduces expert effort into the system is less obvious, and
+will be more clear in step 2. The basic idea is that 15 million vectors are too
+many for experts to individually rank all of them in any plausibly-achievable
+amount of time. This is especially true because any sorting algorithm takes a
+number of comparisons proportional to the number of elements to be sorted.
+Usually, the work grows in an order faster than the list size (in computational
+terms, order nlog(n), see <a href="https://en.wikipedia.org/wiki/Sorting_algorithm">Sorting algorithm -
+Wikipedia</a>). The impact on
+scoring system design is that if we want to get smart input about the whole CVSS
+vector space we have to assert some rules about it that help us make structured
+use of the data we collect from the expert analysts.</p>
+<h3 id="Solicit-experts-to-compare-vectors-representing-each-equivalence-set">Solicit experts to compare vectors representing each equivalence set</h3>
+<p>With the total number of items to compare reduced from 15 million to 270, it was
+feasible to ask experts to compare each element to each other element and
+totally order the severity of the metric-group-based qualitative sets of
+vectors. This is an attractive idea because the SIG could define a score for
+every possible BTE vector based on input from every interested SIG member in a
+repeatable and private way without sampling from the CVSS vector space. That is,
+we could generate a score for each possible vector based on their membership in
+the metric-group-based qualitative sets and the relative severity of those sets.</p>
+<h3 id="Use-the-expert-comparison-data-to-calculate-an-order-of-vectors-from-least-severe-to-most-severe">Use the expert comparison data to calculate an order of vectors from least severe to most severe</h3>
+<p>The expert comparisons are used as if the metric-group-based vector sets are
+competing in a match, and we want to rank the vector sets from "best" to
+"worst". The algorithm used to turn these expert comparisons into a ranking is
+the same as the algorithm used to take outcomes of chess matches (comparisons)
+to rank chess players from best to worst. The name of this algorithm is Elo
+(<a href="https://en.wikipedia.org/wiki/Elo_rating_system">Elo rating system -
+Wikipedia</a>). The output of the
+algorithm is a set of "raw" scores called "points". The interpretation of the
+point scores for each vector set is that if a vector-set has a score 100 points
+higher than another vector-set, then that score difference predicts that an
+expert would rate the higher-scored vector set as "more severe" a certain
+percentage of the time. In the chess metaphor, would win the match a certain
+percentage of the time. The bigger the point-score difference, the larger the
+chance the higher-scored vector would be rated as more severe. There are details
+of how exactly to configure and run the Elo scoring algorithm that matter;
+however, through a SIG-led feedback process, we found the configuration details
+tend to converge on a similar set of values. Therefore, we believe the Elo
+algorithm output is stable and represents a reliable transformation from the
+diverse expert opinion inputs to a single severity ordering of the
+metric-group-based vector sets.</p>
+<h3 id="Solicit-expert-opinion-to-decide-what-vector-group-in-the-ordering-of-vectors-represents-the-boundary-between-qualitative-severity-scores-to-be-backwards-compatible-with-qualitative-severity-score-boundaries-from-CVSS-v3-x">Solicit expert opinion to decide what vector group in the ordering of vectors represents the boundary between qualitative severity scores to be backwards compatible with qualitative severity score boundaries from CVSS v3.x.</h3>
+<p>Before mapping the 270 metric-group-based vector sets to scores between 0.0 and
+10.0, the SIG wanted to improve backwards compatibility with CVSS v3 scores. To
+do this, the SIG wanted to decide which metric-group-based vector sets define
+the qualitative severity set boundaries. The output of step 3 was a total
+ordering of the vector sets. In deciding the qualitative severity boundaries,
+the SIG did not change the ordering output by step 3. Rather, the SIG wanted to
+decide what CVSS v4 B vector set represented the boundary between critical and
+high, high and medium, and medium and low. This was determined by soliciting
+input from the 30+ member CVSS SIG. Five (5) members contributed input in the
+form of marking the three boundaries in the ordering of vector sets. The SIG's
+then defined the boundaries as the average of the 5 SIG members' selections.</p>
+<h3 id="Compress-the-vector-groups-in-each-qualitative-severity-bin-into-the-number-of-available-scores-in-that-bin-for-example-9-0-to-10-0-for-critical-7-0-to-8-9-for-high-etc">Compress the vector groups in each qualitative severity bin into the number of available scores in that bin (for example, 9.0 to 10.0 for critical, 7.0 to 8.9 for high, etc.)</h3>
+<p>The second part of maintaining backwards compatibility with CVSS v3 was keeping
+the score ranges for each qualitative severity value the same. The result of the
+total ordering (step 3) and qualitative severity boundaries (step 4) resulted in
+the following number of metric-group-based vector sets in each qualitative
+severity value. Note that each vector set has a different number of CVSS v4.0
+BTE vectors. However, the SIG does not believe that counting total number of
+possible CVSS v4.0 BTE vectors is a relevant way to assess lumpiness of CVSS v4
+BTE scores. For example, as of April 2023, there are less than 200,000 total CVE
+IDs to date since the inception of the program. Even if 15 million CVSS v4 BTE
+scores are possible, many will never be assigned to a CVE ID since there are so
+many fewer CVE IDs than vectors. A better assessment of the distribution of CVSS
+v4 BTE scores will have to be an empirical assessment of how many times a vector
+string actually recurs in actual CVE ID assessments.</p>
+<p>Salient to the creation of the scoring system, CVSS v4.0 scoring system was
+created as 4 (four) scoring systems created for each qualitative severity score
+(critical, high, medium, low), as well as None as a special case for 0.0. Each
+qualitative severity score contains a different number of metric-group-based
+vector sets and a different number of available scores. The same algorithm is
+used for creating a scoring system meeting the requirements for each of
+critical, high, medium, and low. That algorithm is agglomerative hierarchical
+clustering (<a href="https://en.wikipedia.org/wiki/Hierarchical_clustering">Hierarchical clustering -
+Wikipedia</a>), which makes
+sure that vector sets that share the same CVSS v4 BTE score also have the
+smallest difference between their Elo-point scores.</p>
+<h3 id="Create-a-small-score-modification-factor-that-adjusts-the-scores-of-vectors-within-a-vector-group-so-that-a-change-of-any-metric-value-results-in-a-score-change-The-intent-is-that-the-score-change-is-not-larger-than-the-uncertainty-in-the-ranking-of-the-vector-groups-as-collected-from-the-expert-comparison-data-in-step-2">Create a small score modification factor that adjusts the scores of vectors within a vector group so that a change of any metric value results in a score change. The intent is that the score change is not larger than the uncertainty in the ranking of the vector groups as collected from the expert comparison data in step 2.</h3>
+<p>The result of step 5 is an option for a CVSS v4.0 scoring system. In order to
+meet a requirement that any change in a metric value result in at least a 0.1
+change in the CVSS v4 BTE score, the SIG added an additional step to create a
+small change in the score based on metric value changes within
+metric-group-based vector sets. The vector sets are totally ordered, but of
+course especially small differences in vector set Elo-point-scores represent
+situations where there were a number of experts who disagreed with the resultant
+ordering. Providing a small change based on metric values within vector sets
+allows the slightly-more-severe metric strings within a vector set to overlap
+the slightly-less-severe metric strings from a nearby but slightly-more-severe
+metric-group-based vector set. These small shifts account for the fact that
+every vector within an equivalence set is not identical even if they are
+importantly and saliently equivalent enough to enable expert opinion ranking to
+be possible.</p>
+<p>The basic intuition behind these small adjustments is that the CVSS metric
+values are ordered within each metric. For example, AV:N is more severe than
+AV:A, which is more severe than AV:L, which is more severe than AV:P. There is a
+similar ordering for all other metrics. Therefore, it is plausible to
+algorithmically define a change in CVSS v4 BTE score based on this ordering.
+That is, the expert opinion was used to sort the big-picture ordering of
+qualitatively important differences. The small changes in metric value that are
+not salient to a metric-group-based equivalence set change can still be used to
+represent a small change in the score that is consistent with the Elo-point
+difference interpretation of how likely an expert is to rate one vector set as
+more severe than another.</p>
+<h2 id="Update-to-the-Version-Identifier-in-the-Vector-String">Update to the Version Identifier in the Vector String</h2>
+<p>The Vector String has been updated so that it begins with CVSS:4.0 rather than
+CVSS:3.1. Although no other changes have been made to the Vector String, CVSS
+v4.0 contains changes to the definition of some of the metric values and to the
+formulas, so it is important to correctly indicate the version of CVSS.</p>
+<h1 id="Assessment-Guide">Assessment Guide</h1>
+<p>Below are a number of recommendations for consumers when assessing
+vulnerabilities with CVSS v4.0.</p>
+<h2 id="Integrate-Vulnerability-Scan-results-with-Asset-Management">Integrate Vulnerability Scan results with Asset Management</h2>
+<p>It is highly recommended to enrich the results from vulnerability scanning
+solutions with asset data. Often, asset management data is kept in a database
+that can easily be integrated with vulnerability scan data. Not only will this
+step enable a Vulnerability Management team to utilize the Environmental Metric
+Group to improve the quality of the resulting CVSS scores, the engineers
+responsible for remediating identified vulnerabilities will have more
+information at their disposal.</p>
+<p>For example, vulnerability scans are conducted against 100 servers. Among other
+details, scan results provide the hostname, vulnerability, and the CVSS Base
+(CVSS-B) score. The Asset Management database contains records for all servers
+where each one contains values for Asset Class, Confidentiality Requirements,
+Integrity Requirements, Availability Requirements, and Exposure (Internet or
+Internally facing). Once this information is integrated using automation, the
+result is a CVSS-BE score that takes those environmental factors into
+consideration. Additionally, the Asset Class and similar information can be used
+to get the vulnerability to the right engineers for remediation.</p>
+<h2 id="Integrate-Vulnerability-Scan-results-with-Threat-Intelligence">Integrate Vulnerability Scan results with Threat Intelligence</h2>
+<p>Perhaps one of the most important facets of improving the result of a CVSS
+assessment is the application of Threat Data and the use of the Exploit Maturity
+(E) metric. Knowing which vulnerabilities have been exploited in the past should
+have a significant impact on the resulting score.</p>
+<p>There are many sources that can provide threat intelligence regarding the
+Exploit Maturity of vulnerabilities. Many of these sources are publicly
+available for free and others are offered by commercial organizations for a
+subscription cost.</p>
+<p>It is important to understand that none of these sources are perfect and it is
+highly recommended to gather multiple sources of threat intelligence to improve
+the comprehensiveness and fidelity of the information being used to enrich your
+vulnerability data.</p>
+<p>The application of the threat intelligence should be matched against
+vulnerability scan data using automation. The result will be a much more
+accurate measurement of the priority that should be applied to those
+vulnerabilities being assessed.</p>
+<h2 id="CVSS-Scoring-in-the-Exploit-Life-Cycle">CVSS Scoring in the Exploit Life Cycle</h2>
+<p>When understanding when to assess the impact of vulnerabilities, analysts should
+constrain impacts to a reasonable, final outcome which they are confident an
+attacker is able to achieve. For example, consider the following two
+vulnerabilities.</p>
+<p>In vulnerability 1, a remote, unauthenticated attacker can send a trivial,
+crafted request to a web server which causes the web server to disclose the
+plaintext password of the root (administrator) account. The analyst only knows
+from the vulnerability description that the attacker has access to send a
+crafted request to the web server in order to exploit the vulnerability. Impact
+should stop there; while an attacker <em>may</em> be able to use these credentials to
+later execute code as the administrator, it is not known that the attacker has
+access to a login prompt or method to execute commands with those credentials.
+Gaining access to this password represents a direct, serious loss of
+Confidentiality only:</p>
+<blockquote>
+<p>CVSS-B Score: 8.7
+(CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N)</p>
+</blockquote>
+<p>In vulnerability 2, a local, low-privileged user can send a trivial, crafted
+request to the operating system which causes it to disclose the plaintext
+password of the root (administrator) account. The analyst knows from the
+vulnerability description that the attacker has access to the operating system,
+and can log in as a local, low privileged attacker. Gaining access to this
+password represents a direct, serious loss of Confidentiality, Integrity, and
+Availability because the analyst can reasonably issue commands as the root /
+administrator account (assume that the attacker could log out from their own
+account and log back in as root):</p>
+<blockquote>
+<p>CVSS-B Score: 8.5
+(CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N)</p>
+</blockquote>
+<h2 id="Confidentiality-and-Integrity-Versus-Availability-Impacts">Confidentiality and Integrity, Versus Availability Impacts</h2>
+<p>The Confidentiality and Integrity metrics refer to impacts that affect the
+<em>data</em> used by the service. For example, web content that has been maliciously
+altered, or system files that have been stolen. The Availability impact metric
+refers to the <em>operation</em> of the service. That is, the Availability metric
+speaks to the performance and operation of the service itself – not the
+availability of the data. Consider a vulnerability in an Internet service such
+as web, email, or DNS that allows an attacker to modify or delete all web files
+in a directory. The only impact is to Integrity, not Availability, as the web
+service is still functioning – it just happens to be serving back altered
+content.</p>
+<h2 id="Local-Vulnerabilities-Exploited-by-Remote-Attackers">Local Vulnerabilities Exploited by Remote Attackers</h2>
+<p>Guidance concerning Local attacks was improved by clarifying the definitions of
+the Network and Adjacent values of the Attack Vector metric. Specifically,
+analysts should only assess Network or Adjacent when a vulnerability is bound to
+the network stack. Vulnerabilities which require user interaction to download or
+receive malicious content (which could also be delivered locally should be
+assessed as Local.</p>
+<p>For example, a document parsing vulnerability, which does not rely on the
+network in order to be exploited, should typically be assessed as Local,
+regardless of the method used to distribute such a malicious document (e.g., it
+could be a link to a website).</p>
+<h2 id="Vulnerability-Chaining">Vulnerability Chaining</h2>
+<p>CVSS is designed to classify and rate individual vulnerabilities. However, it is
+important to support the needs of the vulnerability analysis community by
+accommodating situations where multiple vulnerabilities are exploited in the
+course of a single attack to compromise a host or application. The assessment of
+multiple vulnerabilities in this manner is termed “vulnerability chaining.” Note
+that this is not a formal metric, but is included as guidance for analysts when
+assessing these kinds of attacks.</p>
+<p>When assessing a chain of vulnerabilities, it is the responsibility of the
+analyst to identify which vulnerabilities are combined to form the chained
+resulting score. The analyst should list the distinct vulnerabilities and their
+resulting score along with the chained resulting score. For example, this may be
+communicated within a vulnerability disclosure notice posted on a web page.</p>
+<p>In addition, the analyst may include other types of related vulnerabilities that
+could be chained with the vulnerabilities being assessed. Specifically, the
+analyst may list generic types (or classes) of related vulnerabilities that are
+often chained together, or provide further descriptions of required
+preconditions that must exist. For example, one might describe how certain kinds
+of SQL Injection vulnerabilities are precursors to a cross-site scripting (XSS)
+attack, or how a particular kind of buffer overflow would grant local
+privileges. Listing the generic types or classes of vulnerabilities provides the
+minimum information necessary to warn other users, without potentially informing
+attackers about new exploit opportunities.</p>
+<p>Alternatively, the analyst may identify (in the form of a machine readable and
+parsable list of vulnerabilities as CVE IDs or CWEs), a complete list of
+specific related vulnerabilities that are known to be (or are very likely to be)
+chained to one or more of the chained vulnerabilities being assessed in order to
+exploit an IT system. In the event that a vulnerability can be exploited only
+after other preconditions are met (such as first exploiting another
+vulnerability), it is acceptable to combine two or more CVSS scores to describe
+the chain of vulnerabilities by assessing the least-restrictive Exploitability
+metrics and assessing the most-impactful Impact metrics. The following example
+uses the Exploitability and Impact assessment to describe the chain.</p>
+<p>Vulnerability <strong>A</strong> is
+CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/<strong>VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</strong><br />
+It requires a local, low-privileged user in order to exploit.</p>
+<p>Vulnerability <strong>B</strong> is
+<strong>CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P</strong>/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N<br />
+It provides an unprivileged, remote attacker the ability to execute code on a
+system with Low impacts if a local user interacts to complete the attack.</p>
+<p>Given A and B, Chain C could be described as the chain of B → A,<br />
+<strong>CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P</strong>/<strong>VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</strong> which
+combines the Exploitability of B, and the Impact of A, because if one can
+exploit B and gain the code execution as a local user from it, then one has
+satisfied the prerequisite to subsequently launch A causing an impact from
+vulnerability A.</p>
+<h2 id="Vulnerable-System-and-Subsequent-System">Vulnerable System and Subsequent System</h2>
+<p>The CVSS 4.0 Specification introduces Vulnerable System and Subsequent System
+concepts. Let’s look at a few examples to understand how to differentiate
+between Vulnerable System impact and Subsequent System impact using examples
+borrowed from CVSS 3.1:</p>
+<ol>
+<li>
+<p>A vulnerability in a virtual machine that enables an attacker to read and/or
+delete files on the host operating system (perhaps even its own virtual
+machine) demonstrates impact to a Subsequent System (the host operating
+system) as well as to the Vulnerable System (the virtual machine).</p>
+</li>
+<li>
+<p>A violation of a security boundary between microprocessor privilege levels
+should be considered when assessing vulnerabilities using CVSS. User space
+programs’ capabilities running in lower privilege levels are typically
+limited in what instructions they can run and what registers they can write
+to even when running under operating system administrator privileges. A
+vulnerability that allows a program running in a lower privilege level to
+break out and run arbitrary code in a higher privilege level should be
+considered an impact to the Vulnerable System (the microprocessor).</p>
+</li>
+<li>
+<p>The security boundary between secure enclaves integrated in microprocessors
+and the rest of operating system processes, including the operating system
+kernel itself, should be considered when assessing vulnerabilities using
+CVSS. A vulnerability that allows other processes to impact the
+confidentiality, integrity or availability of data or code in a secure
+enclave has impact to the Vulnerable System (the secure enclave where the
+exploit occurs) as well as a Subsequent System (a secure enclave impacted by
+the exploit outside the security boundary of the Vulnerable System) .</p>
+</li>
+<li>
+<p>When a vulnerability in a web application impacts user clients, e.g., web
+browsers, the user clients are Subsequent Systems. Common vulnerabilities of
+this type include cross-site scripting and URL redirection. The
+vulnerability is in the web application, but there is an impact to the
+data/behavior of the victim users’ web browsers.</p>
+</li>
+<li>
+<p>In a distributed environment, a vulnerability in a component providing
+connectivity, protection, or authentication services to components in a
+different security domain should include assessment for the Subsequent
+System(s) if a successful attack impacts these other components. For
+example, a vulnerability in a component such as a router, firewall, or
+authentication manager that affects the primary availability of one or more
+downstream components can impact a Subsequent System. However, if a
+successful attack either does not affect at all, or causes only negligible
+impact to other components, the vulnerability should be assessed as having
+no impact to a Subsequent System. Additionally, a vulnerability in a
+component designed to be deployed as part of a larger fault-tolerant
+topology should not be assessed with a Subsequent System impact if the
+fault-tolerance means a successful attack does not affect other components .
+Any effect on additional services provided by the Vulnerable System is
+considered a secondary impact and not a Subsequent System impact.</p>
+</li>
+<li>
+<p>A vulnerability in a simple Portable Document Format (PDF) reader that
+allows an attacker to compromise other files on the same operating system
+when a victim opens a malicious PDF document is assessed as having no impact
+to a Subsequent System. This assumes the PDF reader does not have any
+authorization functionality that would be considered a separate security
+domain from the underlying operating system.</p>
+</li>
+<li>
+<p>A SQL injection vulnerability in a web application is not usually considered
+as causing impact to a Subsequent System assuming that the credentials are
+shared between web application and impacted SQL database, and therefore they
+are part of the same security scope.</p>
+</li>
+<li>
+<p>A vulnerability that crashes a web server or SSH server is not considered
+impact to a Subsequent System since the impact is limited only to the
+service provided by the affected server. The impact on users is secondary
+and is not considered as impact to a Subsequent System as users are not
+considered constituent elements of the Subsequent System.</p>
+</li>
+<li>
+<p>A vulnerability that permits an attacker to exhaust a shared system
+resource, such as filling up a file system, should not be considered as
+causing impact to a Subsequent System. The attacker is still acting under
+the usual capabilities of the application and not breaching any security
+boundary.</p>
+</li>
+<li>
+<p>By exploiting a vulnerability in an application that allows users restricted
+access to resources shared with other components across multiple security
+scopes (e.g., operating system resources such as system files), an attacker
+can access resources that they should not be able to access. Since there is
+already a valid path across the trust boundary, there is no Subsequent
+System impact.</p>
+</li>
+<li>
+<p>A vulnerability in an application that implements its own security domain
+which allows attackers to affect resources outside its security scope should
+be assessed as having Subsequent System impact. This assumes the application
+provides no features for users to access resources governed by a
+higher-level security domain shared with other components across multiple
+security scopes (e.g., the resources of the underlying operating system).
+One example would be a web application that allows users to read and modify
+web pages and files only under the web application’s installation paths, and
+provides no feature for users to interact beyond these paths. A
+vulnerability in this application allowing a malicious user to access
+operating system files unrelated to this application is considered impact to
+a Subsequent System.</p>
+</li>
+</ol>
+<h2 id="Vulnerable-Systems-Protected-by-a-Firewall">Vulnerable Systems Protected by a Firewall</h2>
+<p>If a vulnerability is assessed with an Attack Vector (AV) of Network (N) and the
+analyst has high confidence that the vulnerable system is deployed on a secure
+network unavailable from the Internet, Modified Attack Vector (MAV) may be
+assessed as Adjacent, reducing the resulting severity score.</p>
+<p>Example: MySQL Stored SQL Injection (CVE-2013-0375)</p>
+<blockquote>
+<p>CVSS-B Score: 5.1
+(CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N)</p>
+<p>CVSS-BE Score: 4.9
+(CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/<strong>MAV:A</strong>)</p>
+</blockquote>
+<h2 id="Assessing-Vulnerabilities-in-Software-Libraries-and-Similar">Assessing Vulnerabilities in Software Libraries (and Similar)</h2>
+<p>When assessing the impact of a vulnerability in a library, independent of any
+adopting program or implementation, the analyst will often be unable to take
+into account the ways in which the library might be used. While specific
+products using the library should generate CVSS scores specific to how they use
+the library, assessing the library itself requires assumptions to be made. The
+analyst should account for the reasonable worst-case scenario. When possible,
+the CVSS information should detail these assumptions.</p>
+<p>For example, a library that performs image conversion would reasonably be used
+by programs that accept images from untrusted sources over a network. In the
+reasonable worst-case, it would pass them to the library without checking the
+validity of the images. As such, an analyst assessing a vulnerability in the
+library that relates to the incoming data should assume an Attack Vector (AV) of
+Network (N), but explain this assumption in the summary of the vulnerability. If
+the library might run with normal privileges, having lower impact on the
+embedding implementation, or with high privileges, increasing the impacts, the
+analyst should assume high privileges while assessing the vulnerability in the
+library.</p>
+<p>When assessing a vulnerability in a given implementation using the impacted
+library, the metric values must be re-assessed for that specific implementation.
+For example, if an implementation embeds the vulnerable system (in this case,
+the library mentioned in the previous example), but only operates on local
+files, the Attack Vector (AV) would be Local (L). If the implementation that
+embeds this library does not invoke any of the faulty functions or does not
+support the mode that triggers that vulnerability, it would have no interface or
+attack vector to exploit the vulnerability. Thus, that vulnerability in the
+embedded library would have no impact on that implementation, resulting in a
+severity score for the given implementation of 0.</p>
+<h2 id="Multiple-CVSS-Base-CVSS-B-Scores">Multiple CVSS Base (CVSS-B) Scores</h2>
+<p>It is common for a vulnerability to be present on multiple product versions,
+platforms, and/or operating systems. In some circumstances, the Base metrics may
+differ on different product versions, platforms, and/or operating systems. For
+example, a hypothetical vulnerability is applicable to multiple operating
+systems produced by the same vendor. The Attack Complexity (AC) of this
+vulnerability on a legacy operating system is Low (L). However, a newer
+operating system has new inherent protection capabilities that change the Attack
+Complexity to High (H). This variance ultimately leads to different CVSS-B
+scores for the same vulnerability on the two operating systems.</p>
+<p>It is acceptable to assess and publish multiple CVSS-B scores for a single
+vulnerability provided each has additional language outlining the specific
+product versions, platforms, and/or operating systems that are relevant to each
+CVSS-B score. Values for all CVSS-B metrics (not only a numeric CVSS-B score)
+must be supplied for each affected product version, platform, and/or operating
+system using a standard format. In situations where multiple CVSS-B scores are
+applicable but only one is provided, the highest CVSS-B score must be utilized.</p>
+<h2 id="CVSS-Extensions-Framework">CVSS Extensions Framework</h2>
+<p>Opportunities exist to leverage the core foundation of CVSS for additional
+scoring efforts. For example, a proposal was presented to the CVSS Special
+Interest Group (SIG) to incorporate privacy into CVSS by overlaying combinations
+of CVSS Base and Environmental metrics to derive a Privacy Impact.</p>
+<p>The following guidelines define a standard method of extending CVSS to include
+additional metrics and metric groups while retaining the official Base, Threat,
+and Environmental Metrics. The additional metrics allow industry sectors such as
+privacy, safety, automotive, healthcare, etc., to score factors that are outside
+the core CVSS standard.</p>
+<h3 id="Guidelines">Guidelines</h3>
+<ul>
+<li>
+<p>Formulas, constants or definitions of existing CVSS Base, Threat, or
+Environmental Metrics must not be modified. If a change to an existing item
+is desired, create a new metric group with a new name and work on it as
+desired.</p>
+</li>
+<li>
+<p>New metrics must not be added to existing metric groups, but must be added
+to new metric groups. New metric groups can be based on existing metric
+groups.</p>
+</li>
+<li>
+<p>New metric groups can optionally have an impact on the resulting score. If
+they do, the resulting score must be between 0.0 and 10.0, with 10.0 being
+the most severe. The resulting score must be based on adjusting the CVSS-B,
+CVSS-BT, CVSS-BE, CVSS-BTE scores as appropriate.</p>
+</li>
+<li>
+<p>The CVSS SIG does not officially approve extensions, but rather acts as a
+consulting body, similar to IETF<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref">1</a></sup>. The CVSS SIG welcomes and encourages
+innovation, but has an interest in maintaining consistency across all
+proposed extensions.</p>
+</li>
+<li>
+<p>The list of validated extensions will be listed on the first.org website,
+similar to IANA<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref">2</a></sup>.</p>
+<ul>
+<li>
+<p>Mandatory Fields: Name, Description, External Authoritative Web Page</p>
+</li>
+<li>
+<p>Optional Fields: JSON Schema, XML Schema, JavaScript Calculator</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Suggested-Vector-String-Format">Suggested Vector String Format</h3>
+<p>CVSS Extension vector strings must be listed separately, utilizing the following
+format:</p>
+<p>CVSS:4.0/AV:x/AC:x/AT:x/PR:x/UI:x/VC:x/VI:x/VA:x/SC:x/SI:x/SA:x<br />
+EXT:1.0/NEW1:VAL1/NEW2:VAL2</p>
+<p>where:</p>
+<p>EXT:<em>n</em>.<em>n</em> is a unique extension identifier and major.minor version number</p>
+<p>NEW<em>n</em> is a unique attribute of the extension for each new metric</p>
+<p>VAL<em>n</em> is a unique value for the attribute for each new metric value</p>
+<h2 id="Attack-Vector-Considerations">Attack Vector Considerations</h2>
+<p>When scoring Attack Vector, use Adjacent or Network (as appropriate), when a
+network connection is required for an attack to succeed, even if the attack is
+not launched over a network. For example, a local attacker may be able to trick
+a vulnerable, privileged, local program into sending sensitive data to a server
+of the attacker’s choosing over a network. As a network connection is required
+to gather the sensitive data this is scored with an Attack Vector of Network.</p>
+<p>Vulnerabilities where malicious data is received over a network by one system,
+then passed to a <em>separate</em> system with a vulnerability should be scored with an
+Attack Vector of Local. An example is a web browser that downloads a malicious
+office document, saves it to disk, and then starts a vulnerable system (in this
+case, a document processing application) which reads the saved file.</p>
+<p>In cases where the vulnerable system contains the functionality that receives
+the malicious data, Attack Vector should be scored as Network. An example is a
+web browser with a vulnerability in the browser itself, or a browser plugin or
+extension, that triggers when the malicious data is received.</p>
+<h2 id="Non-Repudiation-is-a-Part-of-Integrity">Non-Repudiation is a Part of Integrity</h2>
+<p>As per NIST<sup id="fnref1:3"><a href="#fn:3" class="footnote-ref">3</a></sup> non-repudiation is “Protection against an individual falsely
+denying having performed a particular action”. There could be scenarios where a
+system user could perform system critical actions, within the user’s own
+privilege, and then completely deny performing the action; that would cause a
+Repudiation Impact.</p>
+<p>Say a system has multiple user admins. One admin gives backdoor access to a
+malicious attacker to the system. When the incident is identified, there is no
+way to identify the defaulter as there was no logging in place. The malicious
+admin didn’t do anything beyond own privileges. But in this case, CWE-778:
+Insufficient Logging was the weakness which caused a Repudiation impact, and
+hence an Integrity impact. (Example: CVE-2019-8124)</p>
+<p>Similarly, in case of horizontal privilege escalation vulnerabilities the
+malicious user is usually unable to do something beyond his/her own
+capabilities. The delta impact on C, I, and A are None. But the attacker can
+still take malicious actions in the system by impersonating another user of the
+same privileges leading to a Repudiation impact, and hence an Integrity impact.
+(Example: CVE-2017-6785)</p>
+<p>Whenever a vulnerability causes a potential repudiation, it immediately impacts
+the Integrity of the system, along with other subsequent impacts.</p>
+<h2 id="Security-Requirements">Security Requirements</h2>
+<p>This section provides guidance on selecting appropriate metric values for these
+based on the characteristics of a specific environment. The examples are
+simplified to illustrate the concepts.</p>
+<h3 id="Confidentiality-Requirement-CR">Confidentiality Requirement (CR)</h3>
+<p>The Confidentiality Requirement of a system should be based on the
+classification level of the data that is stored or used by the user and/or
+applications running on the target system. Encryption of the data at rest on
+this device should also be taken into consideration when establishing the
+Confidentiality Requirement. Data that passes through a device without being
+consumed or processed (e.g., a switch or firewall) should not be taken into
+consideration when assessing this attribute. See below for examples.</p>
+<p>Note: The volume of data may influence the value of the attribute, but should
+not have as much impact as the classification (i.e., type) of data that is being
+stored or used.</p>
+<ol>
+<li>
+<p>A device that stores data classified at the highest level should have this
+attribute rated as High. However, if the sensitive data is encrypted at
+rest, this attribute may be rated Medium.</p>
+</li>
+<li>
+<p>A device that stores data classified as non-public but not as high as the
+highest level should have this attribute rated as Medium. However, if the
+sensitive data is encrypted at rest, this attribute can be rated Low.</p>
+</li>
+<li>
+<p>A device that stores data that can be openly shared publicly should have
+this attribute rated as Low.</p>
+</li>
+<li>
+<p>Network equipment such as a router, switch, or firewall will generally be
+rated as Medium due strictly to the sensitivity of information such as
+routing tables, etc.</p>
+</li>
+<li>
+<p>Any system that stores login credentials without encryption should have this
+attribute rated as High. This includes service accounts and credentials
+embedded into scripts or source code.</p>
+</li>
+</ol>
+<h3 id="Integrity-Requirement-IR">Integrity Requirement (IR)</h3>
+<p>The Integrity Requirements of a system focus on the importance of the accuracy
+of the data it stores or uses. Data that passes through a device without being
+consumed or processed (e.g., a switch or firewall) should not be taken into
+consideration when assessing this attribute. The use of encryption on the data
+at rest should <em>not</em> be taken into consideration for this attribute. See below
+for examples:</p>
+<ol>
+<li>
+<p>Devices that contain monetary transactional data and/or personally
+identifiable information (PII) should be rated High.</p>
+</li>
+<li>
+<p>Devices that contain data directly used to make business or risk management
+decisions should be rated at a minimum of Medium. As the severity of the
+decisions increase, so should the Integrity Requirement rating.</p>
+</li>
+<li>
+<p>Devices that contain data directly used to make health decisions should be
+rated High.</p>
+</li>
+<li>
+<p>Network equipment such as a router or switch will generally be rated at
+least Medium due strictly to the sensitivity of information such as
+forwarding tables, etc.</p>
+</li>
+<li>
+<p>Firewalls should be rated as High due to the sensitivity of the rule set.</p>
+</li>
+</ol>
+<h3 id="Availability-Requirement-AR">Availability Requirement (AR)</h3>
+<p>The Availability Requirement of a system should be based on the uptime
+requirements and redundancy of the device or the applications hosted by the
+device. Devices that are part of redundant clusters will have lower Availability
+Requirements. See below for examples:</p>
+<ol>
+<li>
+<p>Devices without full capacity redundancy that are rated with recovery
+requirements less than 24 hours should be rated High.</p>
+</li>
+<li>
+<p>Devices without full capacity redundancy that are rated with recovery
+requirements between 1-5 days should be rated Medium.</p>
+</li>
+<li>
+<p>Devices with recovery requirements of more than 5 days should be rated Low.</p>
+</li>
+<li>
+<p>Clustered devices and/or those with full capacity redundancy should be rated
+as Low.</p>
+</li>
+<li>
+<p>Devices that are required to have rapid response times for transactional
+purposes based on regulatory requirements, should be rated High.</p>
+</li>
+</ol>
+<h1 id="Supplemental-Metrics">Supplemental Metrics</h1>
+<p>A new, optional metric group called the Supplemental metric group provides new
+metrics that describe and measure additional extrinsic attributes of a
+vulnerability. The usage of each metric within the Supplemental metric group is
+determined by the scoring consumer. This contextual information may be used
+differently in each consumer’s environment.</p>
+<p>No metric will, within its specification, have any impact on the final
+calculated CVSS score (e.g. CVSS-BTE). Organizations may then assign importance
+and/or effective impact of each metric, or set/combination of metrics, giving
+them more, less, or absolutely no effect on the final risk analysis. Metrics and
+values will simply convey additional extrinsic characteristics of the
+vulnerability itself.</p>
+<h2 id="Safety">Safety</h2>
+<p>When a system has an intended use or fitness of purpose aligned to safety, it is
+possible that exploiting a vulnerability within that system may have Safety
+impact which can be represented in the Supplemental Metrics group.</p>
+<p>Note that all Supplemental Metrics, including Safety, are completely optional.
+Suppliers and vendors may pick and choose whichever Supplemental Metrics they
+wish to populate on a case by case basis as they see fit. Lack of a Safety
+metric value being supplied does NOT mean that there may not be any
+Safety-related impacts.</p>
+<h2 id="Automatable">Automatable</h2>
+<p>Some example reasons for why a step in the kill chain may not be reliably
+automatable include:</p>
+<ol>
+<li>
+<p>the vulnerable system is not searchable or enumerable on the network,</p>
+</li>
+<li>
+<p>weaponization requires human direction for each target,</p>
+</li>
+<li>
+<p>delivery uses channels that widely deployed network security configurations
+block, and</p>
+</li>
+<li>
+<p>exploitation is not reliable, due to exploit-prevention techniques enabled by
+default; ASLR is an example of an exploit-prevention tool. These are example
+reasons, provided for illustration, and are not an exhaustive list of reasons
+why a kill chain step may not be automatable.</p>
+</li>
+</ol>
+<p>As one heuristic for yes, if the vulnerability allows unauthenticated remote
+code execution or command injection, the expected response is yes. Analysts
+should provide an argument or demonstration that all four steps are able to be
+automated rather than solely relying on heuristics.</p>
+<p>The definition of automatable is intended to stay materially the same as the
+definition of the decision point by the same name in the stakeholder specific
+vulnerability categorization (version 2).</p>
+<h2 id="Provider-Urgency">Provider Urgency</h2>
+<p>Many vendors currently provide supplemental severity ratings to consumers via
+product security advisories. Other vendors publish Qualitative Severity Ratings
+from the CVSS v3.x Specification Document in their advisories.</p>
+<p>To facilitate a standardized method to incorporate additional provider-supplied
+assessment, it is proposed to adopt an optional “pass-through” Supplemental
+Metric called Provider Urgency.</p>
+<h2 id="Recovery">Recovery</h2>
+<p>Recovery describes the resilience of a Component/System to recover services, in
+terms of performance and availability, after an attack has been performed.
+Values for Recovery include:</p>
+<ul>
+<li>
+<p>Automatic (A): The Component/System recovers services automatically after an
+attack has been performed.</p>
+</li>
+<li>
+<p>User (U): The Component/System requires manual intervention by the user to
+recover services, after an attack has been performed</p>
+</li>
+<li>
+<p>Irrecoverable (I): The Component/System services are irrecoverable by the
+user, after an attack has been performed.  </p>
+</li>
+</ul>
+<h2 id="Value-Density">Value Density</h2>
+<p>The following are suggestive examples of when to select the Diffuse or
+Concentrated metric values for this metric.</p>
+<p>Diffuse: Examples of systems with diffuse value are email accounts, most
+consumer online banking accounts, common cell phones, and most personal
+computing resources owned and maintained by users. (A “user” is anyone whose
+professional task is something other than the maintenance of the system or
+component. A “system operator” is anyone who is professionally responsible for
+the proper operation or maintenance of a system.)</p>
+<p>Concentrated: Heuristically, such systems are often the direct responsibility of
+“system operators” rather than users. (A “user” is anyone whose professional
+task is something other than the maintenance of the system or component. A
+“system operator” is anyone who is professionally responsible for the proper
+operation or maintenance of a system.) Examples of concentrated value are
+database systems, Kerberos servers, web servers hosting login pages, and cloud
+service providers. However, usefulness and uniqueness of the resources on the
+vulnerable system also inform value density. For example, encrypted mobile
+messaging platforms may have concentrated value, not because each phone’s
+messaging history has a particularly large amount of data, but because it is
+uniquely valuable to law enforcement.</p>
+<p>The definition of value density is intended to stay materially the same as the
+definition of the decision point by the same name in the stakeholder specific
+vulnerability categorization (version 2).</p>
+<h2 id="Vulnerability-Response-Effort">Vulnerability Response Effort</h2>
+<p>The intention of the Vulnerability Response Effort metric is to provide
+supplemental information on how difficult it is for consumers to provide an
+initial response to the impact of vulnerabilities for deployed products and
+services in their infrastructure. The consumer can then take this additional
+information on effort required into consideration when applying mitigations
+and/or scheduling remediation.</p>
+<p>When calculating Vulnerability Response Effort, the effort required to deploy
+the quickest available response should be considered.</p>
+<h1 id="Glossary-of-Terms">Glossary of Terms</h1>
+<p>As much as possible, we will use standard definitions for terms and prefer
+global, consensus, freely available definitions.<sup id="fnref1:4"><a href="#fn:4" class="footnote-ref">4</a></sup></p>
+<p><strong>Affected</strong>: A system is affected by a vulnerability if a user or operator of
+the system must take action to remediate, mitigate, or otherwise address the
+vulnerability.<sup id="fnref1:5"><a href="#fn:5" class="footnote-ref">5</a></sup> If a system is affected by a vulnerability, the CVSS v4.0
+Base score must not be 0.0.</p>
+<p><strong>Attacker</strong>: A human person that “...attempts to evade security services and
+violate the security policy of a system. That is, an actual assault on system
+security….”<sup id="fnref1:6"><a href="#fn:6" class="footnote-ref">6</a></sup>, often but not always attempted by exploiting a vulnerability in
+the system. (Consistent with NIST <a href="https://csrc.nist.gov/glossary/term/attacker">CSRC
+definitions</a>, an attacker is a
+person.)</p>
+<p><strong>Chained score</strong>: The Base Score produced by scoring two or more chained
+vulnerabilities.</p>
+<p><strong>Chained vulnerabilities</strong>: See <em>Vulnerability Chaining</em>.</p>
+<p><strong>Compensating Controls</strong>: The security and privacy controls implemented in 
+lieu of the controls in the baselines described in NIST Special Publication 
+800-53 that provide equivalent or comparable protection for a system or organization.</p>
+<p><strong>Consumer</strong>: The security team that manages the environment in which the 
+vulnerable product is deployed.</p>
+<p><strong>Default credential</strong>: Data such as a user name and password that is initially
+configured and allows authentication unless it has been changed. A default
+credential may be shared by many systems or unique to individual systems. A
+system may force a default credential to be changed.</p>
+<p><strong>Environment</strong>: A physical or logical deployment of interrelated systems. A 
+cloud (of which there could be multiple), on prem (a single or group of data centers), 
+or a logically distinct environment like a DMZ or Development (as opposed to production).</p>
+<p><strong>Hard-coded credential</strong>: Data such as a user name and password that is always 
+configured, always allows authentication, and cannot be changed or disabled.</p>
+<p><strong>Mitigation (Control)</strong>: A decision, action, or practice intended to reduce the 
+level of risk associated with one or more threat events, threat scenarios, 
+or vulnerabilities.</p>
+<p><strong>Privilege</strong>: A collection of rights (typically read, write, and execute)
+granted to a user or user process which defines access to computing resources.
+The terms “privilege,” “permission,” and “authorization” are used
+interchangeably.<sup id="fnref1:7"><a href="#fn:7" class="footnote-ref">7</a></sup></p>
+<p><strong>Proof-of-Concept exploit code:</strong> Software or sufficient technical details that
+can be used to demonstrate the existence of a vulnerability.</p>
+<p><strong>Published</strong>: Any publicly, commercially, or socially available exploit code.</p>
+<p><strong>Reasonable worst-case</strong>: An instance of a plausible path to the exploitation
+of a vulnerability, the worst-case after any unreasonable high-impact
+low-likelihood paths have been discountedIt is not a prediction of what will
+happen, rather an illustration of what could reasonably be foreseen by an
+experienced analyst and that would require response action by a security
+professional or team.<sup id="fnref1:8"><a href="#fn:8" class="footnote-ref">8</a></sup></p>
+<p><strong>Reported</strong>: Based on applicable threat intelligence, activity targeting the 
+vulnerability is known by someone other than the attacker and the victim.</p>
+<p><strong>Resource</strong>: Asset used or consumed during the execution of a
+process<a href="https://www.iso.org/standard/63711.html">.</a><sup id="fnref1:9"><a href="#fn:9" class="footnote-ref">9</a></sup> Examples of resources
+include (but are not limited to) file contents, file identifiers, memory
+pointers, memory contents, CPU cycles, and network bandwidth.</p>
+<p><strong>Security domain</strong>: Set of assets and resources subject to a common security
+policy.<sup id="fnref1:10"><a href="#fn:10" class="footnote-ref">10</a></sup></p>
+<p><strong>Security policy:</strong> A set of policy rules (or principles) that direct how a
+system (or an organization) provides security services to protect sensitive and
+critical system resources.<sup id="fnref1:11"><a href="#fn:11" class="footnote-ref">11</a></sup></p>
+<p><strong>Solutions to simplify</strong>: Software that makes exploitation of the vulnerability 
+trivial, including exploit frameworks, such as Metasploit or Cobalt Strike, or 
+other tools that work reliably and against many different systems.</p>
+<p><strong>System, information system:</strong> An organized assembly of computing and
+communication resources and procedures — i.e., equipment and services, together
+with their supporting infrastructure, facilities, and personnel — that create,
+collect, record, process, store, transport, retrieve, display, disseminate,
+control, or dispose of information to accomplish a specified set of
+functions.<sup id="fnref1:12"><a href="#fn:12" class="footnote-ref">12</a></sup> Uses of “system” means “Information system” unless otherwise
+specified. Information systems include, for example, IT systems, ICS systems, OT
+systems, computing hardware, and so on.</p>
+<p><strong>Subsequent System</strong>: A system whose security policy is violated as a result of
+the exploited vulnerability but that is not the Vulnerable System.</p>
+<p><strong>Successful attack</strong>: A successful attack (or successful exploit of a
+vulnerability) is a situation where an attacker violates the security policy of
+an information system.</p>
+<p><strong>Supply Chain</strong>: A subset of industry members (often cutting across many industries) 
+that contribute to the production of goods and services that an organization 
+(industry, or geopolitical entity) consumes.</p>
+<p><strong>Threat Intelligence</strong>: Additional information from information sharing groups 
+such as the ISAC’s (Information Sharing and Analysis Center), CISA KEV or private 
+sources of cyber intelligence.</p>
+<p><strong>User</strong>: An authorized human person. For CVSS, usually said of a person
+authorized to access a vulnerable system affected by the vulnerability being
+scored.</p>
+<p><strong>Vendor</strong>: The producers and maintainers of information systems.</p>
+<p><strong>Vulnerability</strong>: A weakness or flaw in the functional behavior of an
+information system (software or hardware) that can be exploited, resulting in a
+negative impact to the Confidentiality, Integrity, and/or Availability of the
+vulnerable system or a subsequent system (that is, the violation of a security
+policy of an information system).<sup id="fnref1:13"><a href="#fn:13" class="footnote-ref">13</a></sup></p>
+<p><strong>Vulnerability chaining</strong>: The sequential exploitation of multiple
+vulnerabilities in order to attack an information system, where one or more
+exploits at the end of the chain requires the successful completion of prior
+exploits in order to be exploited.<sup id="fnref1:14"><a href="#fn:14" class="footnote-ref">14</a></sup></p>
+<p><strong>Vulnerable System</strong>: A system whose security policy is violated as the result
+of an exploited vulnerability and which contains the vulnerability.  </p>
+<h1 id="Scoring-Rubrics">Scoring Rubrics</h1>
+<p>The scoring rubrics are an aid to scoring vulnerabilities by supplementing the
+metric definitions in the Specification Document.</p>
+<p><img src="media/92895c8262420d32e486690aa3da9158.png" alt="" /></p>
+<p><img src="media/95a0da99c3d0cee5ba70b9c6fc46dda2.png" alt="" /></p>
+<p><img src="media/ef7fe296b407b8e23f7313e643ee2bdb.png" alt="" /></p>
+<p><img src="media/9745cbc7e0432e226cfb1892cd6fa980.png" alt="" /></p>
+<p><img src="media/a23cd9e46e66d3253fc5c4fec7482810.png" alt="" /></p>
+<p><img src="media/e0bafdd7913586c37979dba562cfb406.png" alt="" /></p>
+<p><img src="media/1f17c67fb2a4cf0bc7aec8a6b3c57d6a.png" alt="" /></p>
+<p><img src="media/00785624a2e1412cbf40d842984cfe0e.png" alt="" /></p>
+<h1 id="Version-History">Version History</h1>
+<table>
+<thead>
+<tr>
+<th><strong>Date</strong></th>
+<th><strong>Ver</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-01</td>
+<td>v1.0</td>
+<td>Initial Publication</td>
+</tr>
+<tr>
+<td>2025-07-17</td>
+<td>v1.1</td>
+<td>Additional definitions in Glossary, error correction in section 3.3</td>
+</tr>
+<tr>
+<td>2025-11-14</td>
+<td>v1.2</td>
+<td>Additional definitions in Glossary.</td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1"><p>The Internet Engineering Task Force ([<a href="https://www.ietf.org/">https://www.ietf.org/</a>]()) <a href="#fnref1:1" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:2"><p>Internet Assigned Numbers Authority ([<a href="https://www.iana.org/">https://www.iana.org/</a>]()) <a href="#fnref1:2" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:3"><p>[<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf</a>](),
+page 436 <a href="#fnref1:3" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:4"><p>This sourcing criteria is adapted from Spring JM, Illari P. Review of
+human decision-making during computer security incident analysis. Digital
+Threats: Research and Practice. 2021 Apr 20;2(2):1-47. <a href="#fnref1:4" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:5"><p>Aligns with “affected” status in [Minimum Requirements for Vulnerability
+Exploitability eXchange (VEX)](). “Affected” is not defined in either the
+[NIST CSRC glossary]() or [RFC 4949](). <a href="#fnref1:5" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:6"><p>RFC 4949 \$ attack <a href="#fnref1:6" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:7"><p>From RFC 4949 \$ authorization: Specific terms are preferred in certain
+contexts:</p>
+<p>- /PKI/ "Authorization" SHOULD be used, to align with "certification</p>
+<p>authority" in the standard [X509].</p>
+<p>- /role-based access control/ "Permission" SHOULD be used, to align with</p>
+<p>the standard [ANSI].</p>
+<p>- /computer operating systems/ "Privilege" SHOULD be used, to align with</p>
+<p>the literature. (See: privileged process, privileged user.) <a href="#fnref1:7" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:8"><p>See the US legal term “[foreseeability]().” <a href="#fnref1:8" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:9"><p>[NIST SP 800-160v1r1]() from [ISO/IEC/IEEE 15288:2015]() <a href="#fnref1:9" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:10"><p>NIST SP 800-160v1r1 from ISO/IEC 19989-3:2020 <a href="#fnref1:10" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:11"><p>From the RFC 4949 sense 2(a). NIST has [several different definitions]()
+for security policy, this is consistent with at least some of them. <a href="#fnref1:11" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:12"><p>Adapted from RFC 4949 “information system.” <a href="#fnref1:12" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:13"><p>See also definitions of “vulnerability” from The CERT Guide to
+Coordinated Vulnerability Disclosure [1.2. CVD Context and Terminology
+Notes](). <a href="#fnref1:13" rev="footnote" class="footnote-backref">↩</a></p></li>
+<li id="fn:14"><p>See the <a href="#Chain">CWE Glossary</a>. <a href="#fnref1:14" rev="footnote" class="footnote-backref">↩</a></p></li>
+</ol>
+</div></div></div><div id="navbar" data-studio="o20mmCqKmw"><div id="c4" data-studio="QSzD3IV7lw"><ul class="navbar"><li><a href="/cvss/">Common Vulnerability Scoring System (CVSS-SIG)</a><ul><li><a href="/cvss/calculator/4.0">Calculator</a></li><li><a href="/cvss/v4.0/specification-document">Specification Document</a></li><li><a href="/cvss/v4.0/user-guide">User Guide</a></li><li><a href="/cvss/v4.0/implementation-guide">Implementation Guide</a></li><li><a href="/cvss/governance-guidelines">Governance Guidelines</a></li><li><a href="/cvss/v4.0/examples">Examples</a></li><li><a href="/cvss/v4.0/faq">Frequently Asked Questions</a></li><li><a href="/cvss/v4.0/">CVSS v4.0 Documentation &amp; Resources</a><ul><li><a href="/cvss/calculator/4.0">CVSS v4.0 Calculator</a></li><li><a href="/cvss/v4.0/specification-document">CVSS v4.0 Specification Document</a></li><li><a href="/cvss/v4.0/user-guide">CVSS v4.0 User Guide</a></li><li><a href="/cvss/v4.0/implementation-guide">CVSS v4.0 Implementation Guide</a></li><li><a href="/cvss/v4.0/examples">CVSS v4.0 Examples</a></li><li><a href="/cvss/v4.0/faq">CVSS v4.0 FAQ</a></li></ul></li><li><a href="/cvss/v3-1">CVSS v3.1 Archive</a><ul><li><a href="/cvss/calculator/3.1">CVSS v3.1 Calculator</a></li><li><a href="/cvss/v3.1/specification-document">CVSS v3.1 Specification Document</a></li><li><a href="/cvss/v3.1/user-guide">CVSS v3.1 User Guide</a></li><li><a href="/cvss/v3.1/examples">CVSS v3.1 Examples</a></li><li><a href="/cvss/v3.1/use-design">CVSS v3.1 Calculator Use &amp; Design</a></li></ul></li><li><a href="/cvss/v3-0">CVSS v3.0 Archive</a><ul><li><a href="/cvss/calculator/3.0">CVSS v3.0 Calculator</a></li><li><a href="/cvss/v3.0/specification-document">CVSS v3.0 Specification Document</a></li><li><a href="/cvss/v3.0/user-guide">CVSS v3.0 User Guide</a></li><li><a href="/cvss/v3.0/examples">CVSS v3.0 Examples</a></li><li><a href="/cvss/v3.0/use-design">CVSS v3.0 Calculator Use &amp; Design</a></li></ul></li><li><a href="/cvss/v2">CVSS v2 Archive</a><ul><li><a href="/cvss/v2/guide">CVSS v2 Complete Documentation</a></li><li><a href="/cvss/v2/history">CVSS v2 History</a></li><li><a href="/cvss/v2/team">CVSS-SIG team</a></li><li><a href="/cvss/v2/meetings">SIG Meetings</a></li><li><a href="/cvss/v2/faq">Frequently Asked Questions</a></li><li><a href="/cvss/v2/adopters">CVSS Adopters</a></li><li><a href="/cvss/v2/links">CVSS Links</a></li></ul></li><li><a href="/cvss/v1">CVSS v1 Archive</a><ul><li><a href="/cvss/v1/intro">Introduction to CVSS</a></li><li><a href="/cvss/v1/faq">Frequently Asked Questions</a></li><li><a href="/cvss/v1/guide">Complete CVSS v1 Guide</a></li></ul></li><li><a href="/cvss/data-representations">JSON &amp; XML Data Representations</a></li><li><a href="/cvss/training">CVSS On-Line Training Course</a></li><li><a href="/cvss/identity">Identity &amp; logo usage</a></li></ul></li></ul></div></div><div id="sidebar" data-studio="o20mmCqKmw"><div id="c5" data-studio="QSzD3IV7lw" class="h3labels subbox number-toc"><div id="toc"></div></div></div><footer><div id="footer" data-studio="o20mmCqKmw"><div id="c2" data-studio="QSzD3IV7lw"><div class="content">
+<div id="socialnetworks"><a href="/about/sdg" title="FIRST Supported Sustainable Development Goals (SDG)" class="icon-sdg"></a><a rel="me" href="https://bsky.app/profile/first.org" target="_blank" title="BlueSky @first.org" class="icon-bluesky"></a><a rel="me" href="https://infosec.exchange/@firstdotorg" target="_blank" title="@FIRSTdotOrg@infosec.exchange" class="icon-mastodon"></a><a href="https://twitter.com/FIRSTdotOrg" target="_blank" title="Twitter @FIRSTdotOrg" class="icon-tw"></a><a href="https://www.linkedin.com/company/firstdotorg" target="_blank" title="FIRST.Org at LinkedIn" class="icon-linkedin"></a><a href="https://www.facebook.com/FIRSTdotorg" target="_blank" title="FIRST.Org at Facebook" class="icon-fb"></a><a href="https://github.com/FIRSTdotorg" target="_blank" title="FIRST.Org at Github" class="icon-github"></a><a href="https://www.youtube.com/c/FIRSTdotorg" target="_blank" title="FIRST.Org at Youtube" class="icon-youtube"></a><a href="/podcasts" title="FIRST.Org Podcasts" class="icon-podcast"></a></div>
+<p><a href="/copyright">Copyright</a> © 2015—2026 by Forum of Incident Response and Security Teams, Inc. All Rights Reserved.</p>
+</div>
+<p><span class="tlp"></span></p></div></div></footer><script nonce="PSJKTUznkAf-yjF85j3JYg" async="async" src="/_/web.js?20261104132345"></script><script nonce="PSJKTUznkAf-yjF85j3JYg" async="async" src="/_/s.js?20261104-132330"></script><script nonce="PSJKTUznkAf-yjF85j3JYg">window.fwSettings={'widget_id':158000000390};!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()</script><script nonce="PSJKTUznkAf-yjF85j3JYg" src="https://widget.freshworks.com/widgets/158000000390.js" async defer></script></body></html>

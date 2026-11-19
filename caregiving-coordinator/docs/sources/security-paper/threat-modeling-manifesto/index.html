@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The Threat Modeling Manifesto documents the values, principles and key characteristics as an industry guidance for conducting threat modeling.">
+    <title>Threat Modeling Manifesto</title>
+	
+<meta property="og:title" content="Threat Modeling Manifesto" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.threatmodelingmanifesto.org/" />
+<meta property="og:image" content="https://www.threatmodelingmanifesto.org/tm-manifesto-card.png" />
+<meta property="og:description" content="Documents the values, principles and key characteristics as an industry guidance for conducting threat modeling." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://www.threatmodelingmanifesto.org/tm-manifesto-logo.png" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0019LP0V4Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0019LP0V4Z');
+</script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+<!-- Favicon from realfavicongenerator.net -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#f15b2b">
+<link rel="shortcut icon" href="/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,700);
+
+  #patterns {
+	scroll-margin-top: 10em;
+  }
+  #antipatterns {
+	scroll-margin-top: 10em;
+  }
+  a {
+	color: #0063C8;
+  }
+  .lead a {
+	font-weight: 400;
+  }
+  .bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+
+  @media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+	  font-size: 3.5rem;
+	}
+  }
+  
+  section:before {
+    height: 5em;
+    content: "";
+    display:block;
+  }
+  
+  /*
+  section#about:after {
+    content: "";
+    display:block;  
+  }
+  */
+  
+  .bg-dark {
+	/* #52 */
+	background-color: #241F21!important; 
+  }
+  
+  /*
+  #antipatterns .card {
+	width: 16rem;
+	min-height: 10rem;
+  }
+ */
+
+	#patterns .card, #antipatterns .card {
+		min-width: 16rem;
+		border: 1px solid;
+		border-radius: .25rem;
+	}
+
+	/* navbar-top-fixed.css - Show it is fixed to the top */
+	body {
+		min-height: 75rem;
+		padding-top: 4.5rem;
+	}
+	
+	.footnote {
+		white-space: nowrap;
+		text-decoration-line: underline;
+		text-decoration-style: dotted;
+		text-decoration-color: rgba(0, 0, 0, 0.5);
+		color: #212529;
+	}
+	.footnote:hover {
+		cursor: help;
+		white-space: nowrap;
+		text-decoration-line: underline;
+		text-decoration-style: dotted;
+		text-decoration-color: rgba(0, 0, 0, 0.5);
+		color: #212529;
+	}
+	
+	
+	.logospacing {
+		margin-right: 10px;
+	}
+	
+	.mainlogo {
+		margin-bottom: 1em;
+	}
+	
+	.navbar {
+		font-family: Poppins,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+		font-size: 18px;
+		font-weight: 500;
+		z-index: 2000;
+	}
+
+	.printonly {
+		display: none;
+	}
+
+	@media print {
+		html, body {
+			height: 99%;    
+		}
+		.noprint {
+			display: none;
+		}
+		.printonly {
+			display: block;
+		}
+		a {
+			text-decoration: none!important;
+			color: black;
+		}
+		.shadow {
+			-webkit-box-shadow: none!important;
+			-moz-box-shadow:    none!important;
+			box-shadow:         none!important; 
+		}
+
+		@page :first {
+			margin-top: 0;
+		}
+	}
+	
+	.introline {
+		font-weight: 600;
+	}
+	
+	h3 {
+		margin-top: 1em;
+	}
+	
+	h3:first-of-type {
+		margin-top: 0em;
+	}
+	
+	
+</style>
+  </head>
+  <body>
+    <nav style="" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"><img src="tm-manifesto-logo.svg" height="40" class="logospacing d-none d-md-inline" alt="Threat Modeling Manifesto Image Logo" />
+  <a id="toplink" class="navbar-brand" href="#" style="">Threat Modeling Manifesto</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#values">Values</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#principles">Principles</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+    </ul>
+	<ul class="navbar-nav ">
+	  <li class="nav-item" style="font-size: 0.75em;">
+		<a class="nav-link" href="/capabilities/"><span class="d-none d-md-inline d-lg-none">Capabilities</span><span class="d-md-none d-lg-inline">Threat Modeling Capabilities</span> <span class="badge badge-secondary  d-inline" style="vertical-align: top;">New</span></a>
+	  </li>
+    </ul>
+  </div>
+</nav>
+
+<main role="main" class="container">
+<img src="tm-manifesto-large.svg" class="mainlogo img-fluid d-none d-sm-block" alt="Threat Modeling Manifesto Wide Screen Logo" />
+<img src="tm-manifesto-med.svg" class="mainlogo img-fluid d-block d-sm-none" alt="Threat Modeling Manifesto Narrow Screen Logo" />
+
+  <div class="jumbotron py-4 shadow">
+	
+	<h3>What is threat modeling?</h3>
+	<p>Threat modeling is analyzing representations of a system to highlight concerns about security and privacy characteristics.</p>
+	<p>
+	At the highest levels, when we threat model, we ask <a href="https://github.com/adamshostack/4QuestionFrame" target="_blank" tabindex="1" class="footnote"
+	title="“Shostack's 4 Question Frame for Threat Modeling” by Adam Shostack, a member of the Threat Modeling Manifesto group.">four key questions</a>:
+	</p>
+	<ol>
+	<li>What are we working on?</li>
+	<li>What can go wrong?</li>
+	<li>What are we going to do about it?</li>
+	<li>Did we do a good enough job?</li>
+	</ol>
+	
+	<h3>Why threat model?</h3>
+	<p>When you perform threat modeling, you begin to recognize what can go wrong in a system. It also allows you to pinpoint design and implementation issues that require mitigation, whether it is early in or throughout the lifetime of the system. The output of the threat model, which are known as threats, informs decisions that you might make in subsequent design, development, testing, and post-deployment phases.
+	</p>
+
+	<h3>Who should threat model?</h3>
+	<p>You. Everyone. Anyone who is concerned about the privacy, safety, and security of their system.</p>
+
+	<h3>How should I use the Threat Modeling Manifesto?</h3>
+	<p>Use the Manifesto as a guide to develop or refine a methodology that best fits your needs. We believe that following the guidance in the Manifesto will result in more effective and more productive threat modeling. In turn, this will help you to successfully develop more secure applications, systems, and organizations and protect them from threats to your data and services. The Manifesto contains ideas, but is not a how-to, and is methodology-agnostic.</p>
+	
+	<p>The Threat Modeling Manifesto follows a similar format to that of the <a href="https://agilemanifesto.org/" target="_blank" tabindex="2" class="footnote"
+	title="The “Manifesto for Agile Software Development” created in 2001 identifies software development values and principles, some of which align with this Threat Modeling Manifesto.">Agile Manifesto</a> by identifying the two following guidelines:</p>
+	<ul><li><strong>Values</strong>: A value in threat modeling is something that has relative worth, merit, or importance. That is, while there is value in the items on the right, we value the items on the left more.</li>
+	<li><strong>Principles</strong>: A principle describes the fundamental truths of threat modeling. There are three types of principles: (i) fundamental, primary, or general truths that enable successful threat modeling, (ii) patterns that are highly recommended, and (iii) anti-patterns that should be avoided.</li>
+	</ul>
+  </div>
+
+<section id="values">
+  <div class="jumbotron py-4 shadow">
+    <h1>Values</h1>
+	<p class="introline">We have come to value:</p>
+	<ul class="lead">
+		<li><strong>A culture of finding and fixing design issues</strong> <small>over checkbox compliance.</small></li>
+		<li><strong>People and collaboration</strong> <small>over processes, methodologies, and tools.</small></li>
+		<li><strong>A journey of understanding</strong> <small>over a security or privacy snapshot.</small></li>
+		<li><strong>Doing threat modeling</strong> <small>over talking about it.</small></li>
+		<li><strong>Continuous refinement</strong> <small>over a single delivery.</small></li>
+	</ul>
+  </div>
+</section>
+
+<section id="principles">
+  <div class="jumbotron py-4 shadow">
+    <h1>Principles</h1>
+	<p class="introline">We follow these principles:</p>
+	<ul class="lead">
+		<li><strong>The best use of threat modeling is to improve the security and privacy of a system through early and frequent analysis.</strong></li>
+		<li><strong>Threat modeling must align with an organization’s development practices and follow design changes in iterations that are each scoped to manageable portions of the system.</strong></li>
+		<li><strong>The outcomes of threat modeling are meaningful when they are of value to stakeholders.</strong></li>
+		<li><strong>Dialog is key to establishing the common understandings that lead to value, while documents record those understandings, and enable measurement.</strong></li>
+	</ul>
+	<p class="introline">These patterns benefit threat modeling:</p>
+<div id="patterns" class="card-group">
+
+<div class="card mb-3 mr-3 border-success">
+  <div class="card-body">
+    <h5 class="card-header text-success">Systematic Approach</h5>
+    <p class="card-text">Achieve thoroughness and reproducibility by applying security and privacy knowledge in a structured manner.</p>
+  </div>
+</div>
+
+<div class="card mb-3 mr-3 border-success">
+  <div class="card-body">
+    <h5 class="card-header text-success">Informed Creativity</h5>
+    <p class="card-text">Allow for creativity by including both craft and science.</p>
+  </div>
+</div>
+  
+
+
+ 
+<div class="card mb-3 mr-3 border-success">
+  <div class="card-body">
+    <h5 class="card-header text-success">Varied Viewpoints</h5>
+    <p class="card-text">Assemble a diverse team with appropriate subject matter experts and cross-functional collaboration.</p>
+  </div>
+</div>
+
+<div class="card mb-3 mr-3 border-success">
+  <div class="card-body">
+    <h5 class="card-header text-success">Useful Toolkit</h5>
+    <p class="card-text">Support your approach with tools that allow you to increase your  productivity, enhance your workflows, enable repeatability and provide measurability.</p>
+  </div>
+</div>
+
+<div class="card mb-3 mr-3 border-success">
+  <div class="card-body">
+    <h5 class="card-header text-success">Theory into Practice</h5>
+    <p class="card-text">Use successfully field-tested techniques aligned to local needs, and that are informed by the latest thinking on the benefits and limits of those techniques.</p>
+  </div>
+</div>		 
+
+
+</div>
+
+
+<p></p>
+	<p class="introline">These anti-patterns inhibit threat modeling:</p>
+<div id="antipatterns" class="card-group">
+
+	<div class="card mb-3 mr-3 border-danger">
+	  <div class="card-body">
+		<h5 class="card-header text-danger">Hero Threat Modeler</h5>
+		<p class="card-text">Threat modeling does not depend on one’s innate ability or unique mindset; everyone can and should do it.</p>
+	  </div>
+	</div>
+
+	<div class="card mb-3 mr-3 border-danger">
+	  <div class="card-body">
+		<h5 class="card-header text-danger">Admiration for the Problem</h5>
+		<p class="card-text">Go beyond just analyzing the problem; reach for practical and relevant solutions.</p>
+	  </div>
+	</div>
+
+	<div class="card mb-3 mr-3 border-danger">
+	  <!-- <img src="..." class="card-img-top" alt="..."> -->
+	  <div class="card-body">
+		<h5 class="card-header text-danger">Tendency to Overfocus</h5>
+		<p class="card-text">Do not lose sight of the big picture, as parts of a model may be interdependent. Avoid exaggerating attention on adversaries, assets, or techniques.</p>
+	  </div>
+	</div>
+
+	<div class="card mb-3 mr-3 border-danger">
+	  <!-- <img src="..." class="card-img-top" alt="..."> -->
+	  <div class="card-body">
+		<h5 class="card-header text-danger">Perfect Representation</h5>
+		<p class="card-text">It is better to create multiple threat modeling representations because there is no single ideal view, and additional representations may illuminate different problems.</p>
+	  </div>
+	</div>
+
+	
+</div>
+
+</section>
+
+<section id="about" style="page-break-before: always;">
+  <div class="jumbotron py-4 shadow">
+    <h1>About</h1>
+
+	<p>Our intention for the Threat Modeling Manifesto is to share a distilled version of our collective threat modeling knowledge in a way that should inform, educate, and inspire other practitioners to adopt threat modeling as well as improve security and privacy during development.</p>
+	<p>We developed this Manifesto after years of experience thinking about, performing, teaching, and developing the practice of, Threat Modeling. We have diverse backgrounds as industry professionals, academics, authors, hands-on experts, and presenters. We bring together varied perspectives on threat modeling. Our ongoing conversations, which focus on the conditions and approaches that lead to the best results in threat modeling, as well as how to correct when we fail, continue to shape our ideas.</p>
+	
+	<p class="noprint">We provide a <a href="https://github.com/Threat-Modeling-Manifesto/threat-modeling-manifesto/releases/download/1/threat-modeling-manifesto.pdf">PDF version</a> of the manifesto and this website is also <a href="javascript:window.print();">print friendly</a>.</a></p>
+
+	<p class="printonly">You can always find the current version of this manifesto at <a href="https://www.threatmodelingmanifesto.org/">https://www.threatmodelingmanifesto.org/</a>.</p>
+	
+	<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+		
+	<h3>Authors</h3>
+	<p>The working group of the Threat Modeling Manifesto consists of individuals with years of experience threat modeling for security or privacy.
+	<ul class="lead">
+		<!-- in reverse order of 28 rounds of sha256 of full names ;-) --> 
+		<li><a href="https://twitter.com/zbraiterman" target="_blank">Zoe Braiterman</a></li>
+		<li><a href="https://adam.shostack.org/" target="_blank">Adam Shostack</a></li>
+		<li><a href="https://twitter.com/jonathanmarcil" target="_blank">Jonathan Marcil</a></li>
+		<li><a href="https://iriusrisk.com/" target="_blank">Stephen de Vries</a></li>
+		<li><a href="https://twitter.com/IreneMichlin" target="_blank">Irene Michlin</a></li>
+		<li><a href="https://twitter.com/wuytski" target="_blank">Kim Wuyts</a></li>
+		<li><a href="https://twitter.com/RobertHurlbut" target="_blank">Robert Hurlbut</a></li>
+		<li><a href="https://twitter.com/BrkSchoenfield" target="_blank">Brook S.E. Schoenfield</a></li>
+		<li><a href="https://twitter.com/zeroXten" target="_blank">Fraser Scott</a></li>
+		<li><a href="https://twitter.com/coles_matthewj" target="_blank">Matthew Coles</a></li>
+		<li><a href="https://twitter.com/edgeroute" target="_blank">Chris Romeo</a></li>
+		<li><a href="https://twitter.com/AlyssaM_InfoSec" target="_blank">Alyssa Miller</a></li>
+		<li><a href="https://twitter.com/izar_t" target="_blank">Izar Tarandach</a></li>
+		<li><a href="https://twitter.com/sec_tigger" target="_blank">Avi Douglen</a></li>
+		<li><a href="https://twitter.com/appsecdude" target="_blank">Marc French</a></li>
+		<!-- Everyone in a list: https://twitter.com/i/lists/1320580732327137280 -->
+	</ul>
+	</p>
+	
+	<p>The working group would like to thank Loren Kohnfelder and Sheila Kamath for their technical edit review and expert feedback on the document content and structure.</p>
+	
+	
+    <h3 class="noprint">Resources</h3>
+	<ul class="noprint">
+		<li><a href="https://www.scmagazine.com/news/threat-hunting/new-manifesto-offers-cisos-an-agile-guide-to-threat-modeling" target="_blank">New manifesto offers CISOs an agile guide to threat modeling</a> article by Derek B. Johnson, SC Magazine</li>
+		<li><a href="https://appsec.buzzsprout.com/1730684/8122585" target="_blank">The Threat Modeling Manifesto – Part 1</a> on the Application Security Podcast</li>
+		<li><a href="https://appsec.buzzsprout.com/1730684/8122584" target="_blank">The Threat Modeling Manifesto – Part 2</a> on the Application Security Podcast</li>
+		<li><a href="https://www.old.linddun.org/post/threat-modeling-manifesto-defines-the-foundation-of-threat-modeling" target="_blank">Threat Modeling Manifesto defines the foundation of threat modeling</a> article by Kim Wuyts, LINDDUN privacy</li>
+		<li><a href="https://twitter.com/i/lists/1320580732327137280" target="_blank">Twitter list of all the authors</a> by Jonathan Marcil</li>
+		<li><a href="https://www.darkreading.com/application-security/security-pros-push-for-more-pervasive-threat-modeling/d/d-id/1339506" target="_blank">Security Pros Push for More Pervasive Threat Modeling</a> article by Robert Lemos, DARKReading</li>
+		<li><a href="https://techbeacon.com/security/threat-modeling-gets-its-manifesto-how-map-out-your-app-sec-risk" target="_blank">Threat modeling gets its manifesto: Map out your app sec risk first</a> article by John P. Mello Jr., TechBeacon</li>
+		<li><a href="https://www.linkedin.com/pulse/how-matters-much-what-why-brook-schoenfield/" target="_blank">How Matters As Much As What & Why</a> LinkedIn article by Brook Schoenfield</li>
+		<li><a href="https://www.youtube.com/watch?v=ARjlRFQN7XM&t=1855" target="_blank">A threat modelling experience</a> talk by Brook S.E. Schoenfield, OWASP BeNeLux-Day 2020</li>
+		<li><a href="https://www.youtube.com/watch?v=ARjlRFQN7XM&t=3665" target="_blank">Continuous Threat Modeling for Development Teams</a> talk by Izar Tarandach, OWASP BeNeLux-Day 2020</li>
+		<li><a href="https://web.archive.org/web/20240423212853/securityintelligence.com/posts/using-threat-modeling-manifesto-to-get-going/" target="_blank">Using the Threat Modeling Manifesto to Get Your Team Going</a> By Irene Michlin</li>
+		<li><a href="https://agilestationery.com/products/threat-modeling-manifesto-poster" target="_blank">The Threat Modeling Manifesto Posters</a> on Agile Stationery</li>
+		<li><a href="https://brookschoenfield.com/?p=360" target="_blank">Threat Model Diversity</a> by Brook Schoenfield</li>
+		<li><a href="https://www.devseccon.com/blog/boost-pipeline-efficiency-with-threat-modeling-secadvent-day-3" target="_blank">Boost Pipeline Efficiency with Threat Modeling</a> by Alyssa Miller</li>
+		<li><a href="https://www.devseccon.com/blog/privacy-glitter-and-unicorns-secadvent-day-2" target="_blank">Privacy. Privacy by design. Privacy engineering.</a> by Kim Wuyts</li>
+		<li><a href="https://www.youtube.com/watch?v=CZxPZ-G3Gys" target="_blank">Threat Modeling Manifesto Panel</a>, Open Security Summit 2020</li>
+		<li><a href="https://www.youtube.com/watch?v=jeHL8PXtezc" target="_blank">Using the Threat Modeling Manifesto to Build an Enterprise Threat Modeling Program</a> by Chris Romeo, LASCON 2021</li>
+		<li><a href="https://www.youtube.com/watch?v=jgcO23RmSw4" target="_blank">Threat Modeling Manifesto in a Mobile First World</a> by Chris Romeo at DevSecOps Bunch</li>
+		<li><a href="https://www.youtube.com/watch?v=9Fu6BKMJnvw" target="_blank">Threat Modeling: A Manifesto And Some Code</a> by Matthew Coles and Izar Tarandach at DevSecOps - London Gathering </li>
+		<!-- <li><a href="" target="_blank"></a></li> -->
+	</ul>
+
+	
+  </div>
+</section>
+
+</main>
+<script src="jquery-3.5.1.slim.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script>
+function getHash() {
+	var h = window.location.hash;
+	
+	// after all we think about threats... ;-)
+	switch (h) {
+		// this need to be acceptable values for the menu or direct links
+		case '#values':
+		case '#principles':
+		case '#about':
+			return h;
+	}
+	
+	return '';
+}
+
+$(function() {
+
+	let resizeTimer;
+	$(window).on('orientationchange', function(event) {
+		//console.log('Device is changing orientation');
+		var h = getHash();
+		if (h) {
+			//console.log('scrolling into view..');
+			clearTimeout(resizeTimer);
+			resizeTimer = setTimeout(function() {
+				$(h)[0].scrollIntoView();
+			}, 200);
+		}
+	});
+
+	$(function() {
+		var h = getHash();
+		if (h) {
+			$("a[href='"+h+"'").addClass('active');
+		}
+	});
+	
+	$(window).on('popstate', function() {
+		var h = getHash();
+		$('.nav-link').removeClass("active");
+		if (h) {
+			$("a[href='"+h+"'").addClass('active');
+		}
+	});
+
+	$('#toplink').click( function(e) {
+		e.preventDefault();
+		window.location.hash = '#';
+		history.replaceState('', document.title, window.location.pathname + window.location.search);
+		$('#navbarCollapse').collapse('hide');
+		$('.nav-link').removeClass("active");
+		//$('#toplink').css('color', 'rgba(255,255,255)');
+		return false;
+	});
+
+	$('.nav-link').click( function(e) {
+		$('#navbarCollapse').collapse('hide');
+		$('.nav-link').removeClass("active");
+		//$('#toplink').css('color', 'rgba(255,255,255,.75)');
+		$(this).addClass("active");
+	});
+	
+	$('a.footnote')
+		.attr("data-content", function(e, cur) {
+			var dc = this.title.replace('“', '“<a href="' + this.href + '" target="_blank">');
+			dc = dc.replace('”','</a>”');
+			
+			$(this).attr('data-content', '<span class="close" role="button">&times;</span>' + dc);
+		})
+		.attr('data-toggle','popover')
+		.popover({
+			html: true,
+			trigger: 'focus',
+			placement: 'auto',
+			template: '<div class="popover" role="tooltip"><div class="arrow"></div><div class="popover-body"></div></div>'
+		})
+		.removeAttr("href");
+	
+	$('body').on('mousedown', '.popover a', function(e) {
+		e.preventDefault();
+		//$('[data-toggle="popover"]').delay(1000).popover('hide');
+		//e.target.parentElement.popover('hide');
+	    //window.open(e.target.href, "_blank");
+	});
+	
+});
+</script>
+</html>
