@@ -1,0 +1,51 @@
+ Copy page Copy page 
+ Vercel Firewall 
+ Copy page Copy page 
+ The Vercel Firewall is a robust, multi-layered security system designed to protect your applications from a wide range of threats. Every incoming request goes through the following firewall layers:
+ Platform-wide firewall : With DDoS mitigation , it protects against large-scale attacks such as DDoS and TCP floods and is available for free for all customers without any configuration required.
+ Web Application Firewall (WAF) : A customizable layer for fine-tuning security measures with logic tailored to your needs and observability into your web traffic.
+ Concepts 
+ Understand the fundamentals:
+ How Vercel protects every request .
+ Why DDoS needs to be mitigated.
+ How the firewall decides which rule to apply first .
+ How the firewall uses JA3 and JA4 TLS fingerprints to identify and restrict malicious traffic.
+ Rule execution order 
+ The automatic rules of the platform-wide firewall and the custom rules of the WAF work together in the following execution order:
+ DDoS mitigation rules 
+ WAF IP blocking rules 
+ WAF custom rules 
+ WAF Managed Rulesets 
+ When you have more than one custom rule, you can customize their order in the Firewall section in the sidebar of the project.
+ Platform-wide firewall 
+ DDoS Mitigation is available on all plans 
+ Vercel provides automated DDoS mitigation for all deployments, regardless of the plan that you are on. With this automated DDoS mitigation, we block incoming traffic if we identify abnormal or suspicious levels of incoming requests.
+ Vercel WAF 
+ Vercel WAF is available on all plans 
+ Those with the member , viewer , developer and administrator roles can access this feature
+ The Vercel WAF complements the platform-wide firewall by allowing you to define custom protection strategies using the following tools:
+ Custom Rules 
+ IP Blocking 
+ WAF Managed Rulesets 
+ Attack Mode 
+ You can also manage bypass rules and your WAF configuration programmatically with the REST API through the Vercel SDK, direct endpoint calls, or Terraform.
+ Observability 
+ You can use the following tools to monitor the internet traffic at your team or project level:
+ Query in the Observability section of the dashboard allows you to create queries, filtered by fields such as WAF Action , to visualize the traffic across your Vercel projects.
+ Firewall in the Vercel dashboard sidebar on every project allows you to monitor the internet traffic to your deployments with a traffic monitoring view that includes a live traffic window.
+ Firewall alerts allow you to react quickly to potential security threats.
+ Use Drains to send your application logs to a Security Information and Event Management (SIEM) system.
+ Related guides 
+ How to keep your storefront running through Black Friday : Learn how to tune alerts, bot rules, and spend limits. Rehearse rollback so your team can recover quickly from checkout or order issues on Black Friday.
+ How to prepare your storefront for Black Friday traffic : Set baselines and cut backend load. Make your catalog readable to agents and keep orders and AI features reliable. Then load test checkout before traffic peaks.
+ Supporting Compliance with Vercel WAF : Vercel Firewall provides edge-based traffic filtering and monitoring to help teams meet compliance requirements in security and regulatory frameworks, including PCI DSS, ISO 27001, SOC 2, and HIPAA.
+ How to conduct PCI scans on Vercel: A complete guide to IP safelisting : Scan and verify your Vercel deployments for secure, PCI-compliant payment processing.
+ Last updated September 10, 2026
+ Previous
+ Observe and improve /  Instant Rollback
+ Next
+ Firewall Concepts
+ Was this helpful?
+ supported.
+ Send 
+ 

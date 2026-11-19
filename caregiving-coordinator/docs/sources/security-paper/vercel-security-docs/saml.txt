@@ -1,0 +1,75 @@
+ Copy page Copy page 
+ SAML Single Sign-On 
+ Copy page Copy page 
+ SAML is available on Enterprise and Pro plans
+ Those with the owner role can access this feature
+ To manage the members of your team through a third-party identity provider like Okta or Auth0 , you can set up the Security Assertion Markup Language (SAML) feature from your team's settings.
+ Once enabled, all team members will be able to log in or access Preview and Production Deployments using your selected identity provider . Any new users signing up with SAML will automatically be added to your team.
+ For Enterprise customers, you can also automatically manage team member roles and provisioning by setting up Directory Sync .
+ The SAML SSO settings for a Team. 
+ Configuring SAML SSO 
+ To configure SAML SSO for your team, you must be an owner of the team
+ From your dashboard , ensure your team is selected in the team switcher
+ Open Settings in the sidebar and select Security & Privacy 
+ Navigate to the Authentication and User Provisioning section. In the SAML row, select Configure and follow the walkthrough to configure SAML SSO for your team with your identity provider of choice
+ As a further step, you may want to enforce SAML SSO for your team
+ Pro teams will first need to purchase the SAML SSO add-on from their Billing settings before it can be configured.
+ Custom Attributes 
+ Session lifetime 
+ Use the optional session_lifetime attribute in your identity provider's SAML configuration to customize how long SAML SSO sessions last. Its value is an integer number of seconds between 3,600 (1 hour) and 2,592,000 (30 days), inclusive, applied when the team member logs in. When session_lifetime is not used, sessions last 24 hours by default, after which team members must re-authenticate with the third-party SAML provider.
+ Enforcing SAML 
+ For additional security, SAML SSO can be enforced for a team so that all team members cannot access any team information unless their current session was authenticated with SAML SSO.
+ To enforce SAML SSO for your team, you must be an owner and currently be authenticated with SAML SSO. This ensures that your configuration is working properly before tightening access to your team information
+ From your dashboard , open Settings in the sidebar and select Security & Privacy . Then go to the Authentication and User Provisioning section
+ Toggle the Require Team Members to login with SAML switch to Enabled 
+ SAML SSO configured and enforced. 
+ When modifying your SAML configuration, the option for enforcing will
+automatically be turned off. Please verify your new configuration is working
+correctly by re-authenticating with SAML SSO before re-enabling the option.
+ Authenticating with SAML SSO 
+ Once you have configured SAML, your team members can use SAML SSO to log in or sign up to Vercel. To login:
+ Select the Continue with SAML SSO button on the authentication page, then enter your team's URL.
+Your team slug is the identifier in the URLs for your team. For example, the identifier for vercel.com/acme is acme .
+ Select Continue with SAML SSO again to be redirected to the third-party authentication provider to finish authenticating. Once completed, you will be logged into Vercel.
+ Customizing the login page 
+ You can choose to share a Vercel login page that only shows the option to log in with SAML SSO. This prevents your team members from logging in with an account that's not managed by your identity provider.
+ To use this page, you can set the saml query param to your team URL. For example:
+ https://vercel.com/login?saml=team_id 
+ Vercel's login page showing only the SAML SSO login button. 
+ Managing team members 
+ When using SAML SSO, team members authenticate through your identity provider, and new users who sign up with SAML are added to your team. After that, you manage team member roles and removals manually through the Vercel dashboard.
+ For automatic provisioning and de-provisioning of team members based on your identity provider, consider upgrading to Directory Sync , which is available on Enterprise plans.
+ SAML providers 
+ Vercel supports the following third-party SAML providers:
+ Okta 
+ Auth0 
+ Google 
+ Microsoft Entra (formerly Azure Active Directory) 
+ Microsoft ADFS 
+ OneLogin 
+ Duo 
+ JumpCloud 
+ PingFederate 
+ ADP 
+ Keycloak 
+ Cyberark 
+ OpenID 
+ VMware 
+ LastPass 
+ miniOrange 
+ NetIQ 
+ Oracle Cloud 
+ Salesforce 
+ CAS 
+ ClassLink 
+ Cloudflare 
+ SimpleSAMLphp 
+ Last updated August 28, 2026
+ Previous
+ Two-factor Enforcement
+ Next
+ Directory Sync
+ Was this helpful?
+ supported.
+ Send 
+ 
