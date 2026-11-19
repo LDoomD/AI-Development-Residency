@@ -26,6 +26,22 @@ description-matching: `SessionStart` and `SubagentStart` load the skill list
 
 ## Rules for this folder
 
+- **NEVER MAKE ANYTHING UP (owner's top rule, 2026-11-19: "live or die").**
+  Every fact must come from a file, a command result or a source opened in
+  this session, and the reply names it. If the handoff report does not mention
+  something, do not assume it: look in the report's "Excluded and deferred"
+  section, the memory index and git first. If it still is not found, say "I did
+  not find this" or "I am guessing." Never present a guess, a gap or a missing
+  item as a fact. Read the whole file before saying what it contains or leaves
+  out; if only part was read, name the lines. Never judge one week's work
+  against another week's requirements without saying so.
+  Why: on 2026-11-19 a status message listed "gaps" (database columns, task
+  pages for later epics, Foundation pages) that the saved build plan, backlog
+  and handoff had marked as deferred on purpose. Only the first 60 of 245 lines
+  of the build plan had been read.
+  Enforced by hooks: `.claude/hooks/no-invention-rule.mjs` is shown at
+  SessionStart and SubagentStart (inside the skills directive) and again on
+  every message (`.claude/hooks/no-invention-reminder.mjs`, UserPromptSubmit).
 - The review skills report findings first. Do not edit code until the user
   asks for fixes.
 - Never say code is "secure", "accessible", or "tests pass" without evidence.

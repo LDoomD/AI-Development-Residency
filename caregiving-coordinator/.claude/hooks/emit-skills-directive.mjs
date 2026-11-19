@@ -7,6 +7,8 @@
 // descriptions are already always in context -- this just makes using the
 // right one mandatory instead of optional.
 
+import { RULE_LINES } from './no-invention-rule.mjs';
+
 const SKILLS = [
   ['ux-ui-design-review', 'review screens/flows/forms against usability heuristics'],
   ['accessibility-check', 'check a UI against WCAG 2.2 AA'],
@@ -37,6 +39,8 @@ const WHEN = [
 ];
 
 const lines = [
+  ...RULE_LINES,
+  '',
   'Project skills directive (caregiving-coordinator):',
   'These are mandatory considerations for every task, not optional suggestions.',
   ...SKILLS.map(([name, purpose]) => `- ${name}: ${purpose}`),
