@@ -1,5 +1,13 @@
 # Advanced Information Security: A Research Paper
 
+**Orlando Castillo**
+
+AI Developer Residency
+
+Week 2 Premium Assignment: Write a Research Paper and Proposal for Your Specialization Project
+
+November 18, 2026
+
 **Status: Approved by the owner on 2026-11-19.** This is the final version of the paper. Topic 1 was approved on 2026-11-18. In topic 2, the first paragraph holds the owner's own ideas, with grammar and tone polished by Claude at the owner's request. It matches the Claude Docs version of the paper ("Advanced Information Security: A Research Paper", https://claude.ai/artifact/4rH61Ua8rar2bsrB5jaNZe). The earlier draft stays unchanged in `caregiving-coordinator/docs/security-paper/paper-draft-2026-11-18.md`.
 
 **Every claim comes from a saved notes file** in `caregiving-coordinator/docs/sources/security-paper/notes/`. Helper agents wrote most of those notes. They were spot-checked, not verified line by line. Page numbers are the printed page numbers in each source. Web pages have no page numbers, so they are cited by heading.
