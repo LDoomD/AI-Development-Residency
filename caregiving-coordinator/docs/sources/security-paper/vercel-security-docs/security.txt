@@ -1,0 +1,32 @@
+ Copy page Copy page 
+ Vercel security overview 
+ Copy page Copy page 
+ Cloud-deployed web applications face constant security threats, with attackers launching millions of malicious attacks weekly. Your application, users, and business require robust security measures to stay protected.
+ A comprehensive security strategy requires active protection, robust policies, and compliance frameworks:
+ Security governance and policies ensure long-term organizational safety, maintain regulatory adherence, and establish consistent security practices across teams.
+ A Multi-layered protection system provides active security against immediate threats and attacks.
+ Governance and policies 
+ Compliance measures 
+ Learn about the protection and compliance measures Vercel takes to ensure the security of your data, including DDoS mitigation, SOC2 Type 2 compliance, Data encryption, and more.
+ Shared responsibility model 
+ A shared responsibility model is a framework designed to split tasks and obligations between two groups in cloud computing. The model divides duties to ensure security, maintenance, and service functionality.
+ Encryption 
+ Out of the box, Vercel serves every deployment over an HTTPS connection . Vercel automatically generates SSL certificates for these unique URLs free of charge.
+ Multi-layered protection 
+ Understand how Vercel protects every incoming request with multiple layers of firewall and deployment protection. To restrict who can view your preview and production deployments, see the access control options: Password protection and Vercel Authentication.
+ Vercel firewall 
+ The Vercel firewall helps to protect your applications and websites from malicious attacks and unauthorized access through:
+ An enterprise-grade platform-wide firewall available for free for all customers with no configuration required that includes automatic DDoS mitigation and protection against low quality traffic.
+ A Web Application Firewall (WAF) that supports custom rules, managed rulesets, and allows customers to challenge automated traffic. You can customize the WAF at the project level.
+ Observability into network traffic and firewall activity, including the access to firewall logs.
+ Security Review 
+ Security Review scans your code for security vulnerabilities and reports findings in the Vulnerabilities dashboard, so you can fix issues in your own code before they reach your users.
+ Last updated August 11, 2026
+ Previous
+ Networking
+ Next
+ Security & Compliance Measures
+ Was this helpful?
+ supported.
+ Send 
+ 

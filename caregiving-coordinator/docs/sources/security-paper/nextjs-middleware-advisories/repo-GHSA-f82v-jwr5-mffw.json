@@ -1,0 +1,134 @@
+{
+  "ghsa_id": "GHSA-f82v-jwr5-mffw",
+  "cve_id": "CVE-2025-29927",
+  "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-f82v-jwr5-mffw",
+  "html_url": "https://github.com/vercel/next.js/security/advisories/GHSA-f82v-jwr5-mffw",
+  "summary": "Authorization Bypass in Next.js Middleware",
+  "description": "# Impact\r\nIt is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware.\r\n\r\n# Patches\r\n* For Next.js 15.x, this issue is fixed in `15.2.3`\r\n* For Next.js 14.x, this issue is fixed in `14.2.25`\r\n* For Next.js 13.x, this issue is fixed in 13.5.9\r\n* For Next.js 12.x, this issue is fixed in 12.3.5\r\n* For Next.js 11.x, consult the below workaround.\r\n\r\n_Note: Next.js deployments hosted on Vercel are automatically protected against this vulnerability._\r\n\r\n# Workaround\r\nIf patching to a safe version is infeasible, we recommend that you prevent external user requests which contain the `x-middleware-subrequest` header from reaching your Next.js application.\r\n\r\n## Credits\r\n\r\n- Allam Rachid (zhero;)\r\n- Allam Yasser (inzo_)",
+  "severity": "critical",
+  "author": null,
+  "publisher": null,
+  "identifiers": [
+    {
+      "value": "GHSA-f82v-jwr5-mffw",
+      "type": "GHSA"
+    },
+    {
+      "value": "CVE-2025-29927",
+      "type": "CVE"
+    }
+  ],
+  "state": "published",
+  "created_at": null,
+  "updated_at": "2025-03-24T14:47:42Z",
+  "published_at": "2025-03-21T10:17:21Z",
+  "closed_at": null,
+  "withdrawn_at": null,
+  "submission": null,
+  "vulnerabilities": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": "=> 11.1.4 < 12.3.5",
+      "patched_versions": "12.3.5",
+      "vulnerable_functions": [
+
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": "=>14.0 <14.2.25",
+      "patched_versions": "14.2.25",
+      "vulnerable_functions": [
+
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": "=>15.0 <15.2.3",
+      "patched_versions": "15.2.3",
+      "vulnerable_functions": [
+
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": ">= 13.0.0, < 13.5.9",
+      "patched_versions": "13.5.9",
+      "vulnerable_functions": [
+
+      ]
+    }
+  ],
+  "cvss_severities": {
+    "cvss_v3": {
+      "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "score": 9.1
+    },
+    "cvss_v4": {
+      "vector_string": null,
+      "score": null
+    }
+  },
+  "cwes": [
+    {
+      "cwe_id": "CWE-285",
+      "name": "Improper Authorization"
+    }
+  ],
+  "cwe_ids": [
+    "CWE-285"
+  ],
+  "credits": [
+    {
+      "login": "cold-try",
+      "type": "reporter"
+    }
+  ],
+  "credits_detailed": [
+    {
+      "user": {
+        "login": "cold-try",
+        "id": 54223593,
+        "node_id": "MDQ6VXNlcjU0MjIzNTkz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/54223593?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/cold-try",
+        "html_url": "https://github.com/cold-try",
+        "followers_url": "https://api.github.com/users/cold-try/followers",
+        "following_url": "https://api.github.com/users/cold-try/following{/other_user}",
+        "gists_url": "https://api.github.com/users/cold-try/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/cold-try/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/cold-try/subscriptions",
+        "organizations_url": "https://api.github.com/users/cold-try/orgs",
+        "repos_url": "https://api.github.com/users/cold-try/repos",
+        "events_url": "https://api.github.com/users/cold-try/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/cold-try/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "type": "reporter",
+      "state": "accepted"
+    }
+  ],
+  "collaborating_users": null,
+  "collaborating_teams": null,
+  "private_fork": null,
+  "comments": 10,
+  "cvss": {
+    "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "score": 9.1
+  }
+}

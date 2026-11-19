@@ -1,0 +1,114 @@
+ Copy page Copy page 
+ Production checklist for launch 
+ Copy page Copy page 
+ Agent Prompt
+ I'm preparing my application for a production launch on Vercel using the checklist at https://vercel.com/docs/production-checklist.
+If you have access to my project, please review it against this checklist and help me ensure everything is ready. If you don't have access to my project, please ask me for the codebase and help me ensure everything is ready:
+## Operational excellence
+- Define an incident response plan with escalation paths, communication channels, and rollback strategies
+- Familiarize with how to stage, promote, and rollback deployments
+- Configure caching for monorepo builds (e.g. Turborepo) to prevent unnecessary builds
+- Perform a zero downtime DNS migration to Vercel DNS
+## Security
+- Implement a Content Security Policy (CSP) and proper security headers
+- Enable Deployment Protection to prevent unauthorized access
+- Configure the Vercel Web Application Firewall (WAF) with custom rules, IP blocking, and managed rulesets
+- Enable Log Drains to persist deployment logs
+- Review common SSL certificate issues
+- Enable a Preview Deployment Suffix with a custom domain
+- Commit lockfiles to pin dependencies and speed up builds
+- Implement rate limiting to prevent abuse
+- Review and implement access roles for team members
+- Enable SAML SSO (Pro add-on or Enterprise)
+- Enable SCIM (Enterprise only)
+- Enable Audit Logs (Enterprise only)
+- Ensure cookies comply with the allowed cookie policy (Enterprise only)
+- Set up a firewall rule to block unwanted bots
+## Reliability
+- Enable Observability Plus for debugging, performance optimization, and traffic monitoring (Pro and Enterprise)
+- Enable automatic Function failover for multi-region redundancy (Enterprise only)
+- If using Secure Compute, enable a passive failover region (Enterprise only)
+- Implement caching headers for static assets and Function responses
+- Understand the differences between caching headers and ISR
+- Add distributed tracing instrumentation
+- Run a load test on your application (Enterprise only)
+## Performance
+- Enable Speed Insights for field performance data and Core Web Vitals
+- Review Time To First Byte (TTFB) for fast responses
+- Use Image Optimization to reduce image sizes
+- Use Script Optimization to improve script loading
+- Use Font Optimization to remove external font network requests
+- Ensure Vercel Function region matches your API or database region
+- Review third-party proxy limitations and consult your Vercel account representative if applicable (Enterprise)
+## Cost optimization
+- Enable Fluid compute for reduced cold starts and optimized concurrency
+- Follow the manage and optimize usage guides
+- Configure Spend Management and alert thresholds
+- Review and adjust Function maximum duration and memory
+- Set appropriate ISR revalidation times or move to on-demand revalidation
+- Opt in to new image optimization pricing (for teams created before Feb 18, 2025)
+- Move large media files (GIFs, videos) to blob storage
+Please analyze my project, identify which items are already handled, flag anything missing, and help me address the gaps. Start by asking about my project setup and which plan I'm on so you can tailor the recommendations.
+ Show more 
+ When launching your application on Vercel, it is important to ensure that it's ready for production. This checklist is prepared by the Vercel engineering team and designed to help you prepare your application for launch by running through a series of questions to ensure:
+ Operational excellence 
+ Security 
+ Reliability 
+ Performance efficiency 
+ Cost optimization .
+ If you're launching an agent built with eve, Mastra, or Flue, also work through the agent checklist .
+ Operational excellence 
+ Define an incident response plan for your team, including escalation paths , communication channels , and rollback strategies for deployments
+ Familiarize yourself with how to stage, promote and rollback deployments
+ Ensure caching is configured if deploying using a monorepo to prevent unnecessary builds
+ Perform a zero downtime migration to Vercel DNS 
+ Security 
+ Implement a Content Security Policy (CSP) and proper security headers 
+ Enable Deployment Protection to prevent unauthorized access to your deployments
+ Configure the Vercel Web Application Firewall (WAF) to monitor, block, and challenge incoming traffic. This includes setting up custom rules , IP blocking , and enabling managed rulesets for enhanced security
+ Enable Log Drains to persist logs from your deployments
+ Review common SSL certificate issues 
+ Enable a Preview Deployment Suffix to use a custom domain for Preview Deployments
+ Commit your lockfiles to pin dependencies and speed up builds through caching
+ Consider implementing rate limiting to prevent abuse
+ Review and implement access roles to ensure the correct permissions are set for your team members
+ Enable SAML SSO ( Pro add-on or Enterprise plans with Owner role only) 
+ Enable SCIM ( Enterprise plans with Owner role only) 
+ Enable Audit Logs to track and analyze team member activity ( Enterprise plans with Owner or Security role only) 
+ Ensure that cookies comply with the allowed cookie policy to enhance security. ( Enterprise plans with Owner role only) 
+ Setup a firewall rule to block requests from unwanted bots to your project deployment
+ Reliability 
+ Enable Observability Plus to debug and optimize performance, investigate errors, monitor traffic, and more (Available on Pro and Enterprise plans) 
+ Enable automatic Function failover to add multi-region redundancy and protect against regional outages ( Enterprise plans only) 
+ If using Secure Compute , enable a passive failover region to ensure continued operation during regional outages ( Enterprise plans only) 
+ Implement caching headers for static assets or Function responses to reduce usage or origin requests
+ Understand the differences between caching headers and Incremental Static Regeneration 
+ Consider adding Tracing to instrument your application for distributed tracing
+ Consider running a load test on your application to stress your upstream services ( Enterprise plans only) 
+ Performance 
+ Enable Speed Insights for instant access to field performance data and Core Web Vitals 
+ Review your Time To First Byte (TTFB) to ensure your application is responding quickly
+ Ensure you are using Image Optimization to reduce the size of your images
+ Ensure you are using Script Optimization to optimize script loading performance
+ Ensure you are using Font Optimization to remove external network requests for improved privacy and performance
+ Ensure your Vercel Function region is the same as your origin API or database
+ Consider the limitations of placing a third-party proxy in front of Vercel, and notify your Vercel account representative ( Enterprise customers) for guidance
+ Cost optimization 
+ Enable Fluid compute to reduce cold starts, optimize concurrency, and enhance function scalability
+ Follow our manage and optimize usage guides to understand how to optimize your usage, and manage your costs
+ Configure Spend Management to manage your usage and trigger alerts on usage changes
+ Review or adjust the maximum duration , and memory for your Vercel Functions
+ Ensure Incremental Static Regeneration (ISR) revalidation times are set appropriately to match content changes or move to on-demand revalidation 
+ For teams created before February 18th, 2025, opt in to the new image optimization pricing to ensure the lowest cost, and review best practices .
+ Move large media files such as GIFs and videos to blob storage 
+ Enterprise support 
+ For help with your production rollout, contact our sales team .
+ Last updated August 11, 2026
+ Previous
+ Incremental Migration
+ Next
+ Agent Checklist
+ Was this helpful?
+ supported.
+ Send 
+ 

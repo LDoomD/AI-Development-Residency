@@ -1,0 +1,105 @@
+{
+  "ghsa_id": "GHSA-3g8h-86w9-wvmq",
+  "cve_id": "CVE-2026-44572",
+  "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-3g8h-86w9-wvmq",
+  "html_url": "https://github.com/vercel/next.js/security/advisories/GHSA-3g8h-86w9-wvmq",
+  "summary": "Middleware / Proxy redirects can be cache-poisoned",
+  "description": "### Impact\r\n\r\nNext.js uses the `x-nextjs-data` request header for internal data requests. On affected versions, an external client could send this header on a normal request to a path handled by middleware that returns a redirect.\r\n\r\nWhen that happened, the middleware/proxy could treat the request as a data request and replace the standard `Location` redirect header with the internal `x-nextjs-redirect` header. Browsers do not follow `x-nextjs-redirect`, so the response became an unusable redirect for normal clients.\r\n\r\nIf the application was deployed behind a CDN or reverse proxy that caches 3xx responses without varying on this header, a single attacker request could poison the cached redirect response for the affected path. Subsequent visitors could then receive a cached redirect response without a `Location` header, causing a denial of service for that redirect path until the cache entry expired or was purged.\r\n\r\n### Affected scenarios\r\n\r\nThis affects applications that:\r\n- use middleware or proxy redirects\r\n- are deployed behind a caching CDN or reverse proxy\r\n- allow 3xx responses on those paths to be cached without differentiating internal data requests from normal requests\r\n\r\n### Fix\r\n\r\nThe fix stops trusting `x-nextjs-data` by itself for middleware redirect handling. A request is now treated as an internal data request only when it is validated as such by internal routing state, preserving legitimate data-request redirect behavior while preventing external header injection from changing normal redirect responses.\r\n\r\n### Workarounds\r\n\r\nBefore upgrading, users can reduce risk by:\r\n- configuring the CDN or reverse proxy to vary its cache key on `x-nextjs-data` for affected responses",
+  "severity": "low",
+  "author": null,
+  "publisher": {
+    "login": "timneutkens",
+    "id": 6324199,
+    "node_id": "MDQ6VXNlcjYzMjQxOTk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6324199?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/timneutkens",
+    "html_url": "https://github.com/timneutkens",
+    "followers_url": "https://api.github.com/users/timneutkens/followers",
+    "following_url": "https://api.github.com/users/timneutkens/following{/other_user}",
+    "gists_url": "https://api.github.com/users/timneutkens/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/timneutkens/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/timneutkens/subscriptions",
+    "organizations_url": "https://api.github.com/users/timneutkens/orgs",
+    "repos_url": "https://api.github.com/users/timneutkens/repos",
+    "events_url": "https://api.github.com/users/timneutkens/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/timneutkens/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "identifiers": [
+    {
+      "value": "GHSA-3g8h-86w9-wvmq",
+      "type": "GHSA"
+    },
+    {
+      "value": "CVE-2026-44572",
+      "type": "CVE"
+    }
+  ],
+  "state": "published",
+  "created_at": null,
+  "updated_at": "2026-05-07T15:34:06Z",
+  "published_at": "2026-05-06T18:41:26Z",
+  "closed_at": null,
+  "withdrawn_at": null,
+  "submission": null,
+  "vulnerabilities": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": ">= 12.2.0 < 15.5.16",
+      "patched_versions": "15.5.16",
+      "vulnerable_functions": [
+
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": ">= 16.0.0 < 16.2.5",
+      "patched_versions": "16.2.5",
+      "vulnerable_functions": [
+
+      ]
+    }
+  ],
+  "cvss_severities": {
+    "cvss_v3": {
+      "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "score": 3.7
+    },
+    "cvss_v4": {
+      "vector_string": null,
+      "score": null
+    }
+  },
+  "cwes": [
+    {
+      "cwe_id": "CWE-349",
+      "name": "Acceptance of Extraneous Untrusted Data With Trusted Data"
+    }
+  ],
+  "cwe_ids": [
+    "CWE-349"
+  ],
+  "credits": [
+
+  ],
+  "credits_detailed": [
+
+  ],
+  "collaborating_users": null,
+  "collaborating_teams": null,
+  "private_fork": null,
+  "comments": 1,
+  "cvss": {
+    "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "score": 3.7
+  }
+}

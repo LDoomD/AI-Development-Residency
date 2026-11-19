@@ -1,0 +1,49 @@
+ Copy page Copy page 
+ Vercel WAF 
+ Copy page Copy page 
+ Vercel WAF is available on all plans 
+ Those with the member , viewer , developer , administrator and security roles can access this feature
+ The Vercel WAF, part of the Firewall , provides security controls to monitor and control the internet traffic to your site through logging, blocking and challenging. When you apply a configuration change to the firewall, it takes effect globally within 300ms and can be instantly rolled back to prior configurations.
+ For billing details, review Usage & Pricing for Vercel WAF .
+ Configure your first Custom Rule 
+ Add IP Blocks 
+ Explore WAF Managed Rulesets 
+ Traffic control 
+ You can control the internet traffic to your website in the following ways:
+ IP blocking : Learn how to configure IP blocking 
+ Custom rules : Learn how to configure custom rules for your project
+ Managed rulesets : Learn how to enable managed rulesets for your project
+ Instant rollback 
+ You can quickly revert to a previous version of your firewall configuration. This can be useful in situations that require a quick recovery from unexpected behavior or rule creation.
+ To restore to a previous version:
+ From your dashboard , select the project you'd like to configure, then open Firewall in the sidebar
+ Select the View Audit Log option by clicking on the ellipsis menu at the top right
+ Find the version that you would like to restore to by using the date and time selectors
+ Select Restore and then Restore Configuration on the confirmation modal
+ Limits 
+ These standard plan limits apply per project, except for account-level IP blocking.
+ Feature Hobby Pro Enterprise 
+ Project-level IP blocking Up to 10 Up to 40 Up to 250 
+ System Bypass Rules N/A Up to 10 Up to 75 
+ Account-level IP blocking N/A N/A Custom 
+ Custom rules Up to 3 Up to 40 Up to 250 
+ Custom rule parameters All All All 
+ OWASP core ruleset N/A N/A Available 
+ Rate limiting counting algorithm Fixed window Fixed window Fixed window or token bucket 
+ For Account-level IP blocking , CIDR rules are limited to /16 for IPv4 and /48 for IPv6
+ For Custom rule parameters , JA3 (Legacy) is available on Enterprise plans
+ To access the Vercel WAF limits and features offered on the Enterprise plan, contact our sales team .
+ Related guides 
+ How to keep your storefront running through Black Friday : Learn how to tune alerts, bot rules, and spend limits. Rehearse rollback so your team can recover quickly from checkout or order issues on Black Friday.
+ How to build a honeypot with Vercel Web Application Firewall : Learn how to build a honeypot with Vercel Web Application Firewall (WAF) that catches bots ignoring your robots.txt. Capture offending IPs and block them automatically with Vercel WAF Custom Rules and Persistent Actions.
+ How to prepare your storefront for Black Friday traffic : Set baselines and cut backend load. Make your catalog readable to agents and keep orders and AI features reliable. Then load test checkout before traffic peaks.
+ Vercel BotID vs Cloudflare Turnstile : Compare Vercel BotID and Cloudflare Turnstile for bot protection, including detection model, hosting requirements, checkBotId() vs Siteverify, framework support, and pricing.
+ Last updated July 29, 2026
+ Previous
+ Attack Mode
+ Next
+ Custom Rules
+ Was this helpful?
+ supported.
+ Send 
+ 

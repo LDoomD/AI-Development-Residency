@@ -1,0 +1,105 @@
+{
+  "ghsa_id": "GHSA-267c-6grr-h53f",
+  "cve_id": "CVE-2026-44575",
+  "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-267c-6grr-h53f",
+  "html_url": "https://github.com/vercel/next.js/security/advisories/GHSA-267c-6grr-h53f",
+  "summary": "Middleware / Proxy bypass in App Router applications via segment-prefetch routes",
+  "description": "### Impact\r\n\r\nApp Router applications that rely on middleware or proxy-based checks for authorization can allow unauthorized access through transport-specific route variants used for segment prefetching. In affected configurations, specially crafted `.rsc` and segment-prefetch URLs can resolve to the same page without being matched by the intended middleware rule, which can allow protected content to be reached without the expected authorization check.\r\n\r\n### Fix\r\n\r\nWe now include App Router transport variants when generating middleware matchers, so middleware protections are applied consistently to those requests as well as to the normal page URL.\r\n\r\n### Workarounds\r\n\r\nIf you cannot upgrade immediately, enforce authorization in the underlying route or page logic instead of relying solely on middleware.",
+  "severity": "high",
+  "author": null,
+  "publisher": {
+    "login": "timneutkens",
+    "id": 6324199,
+    "node_id": "MDQ6VXNlcjYzMjQxOTk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6324199?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/timneutkens",
+    "html_url": "https://github.com/timneutkens",
+    "followers_url": "https://api.github.com/users/timneutkens/followers",
+    "following_url": "https://api.github.com/users/timneutkens/following{/other_user}",
+    "gists_url": "https://api.github.com/users/timneutkens/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/timneutkens/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/timneutkens/subscriptions",
+    "organizations_url": "https://api.github.com/users/timneutkens/orgs",
+    "repos_url": "https://api.github.com/users/timneutkens/repos",
+    "events_url": "https://api.github.com/users/timneutkens/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/timneutkens/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "identifiers": [
+    {
+      "value": "GHSA-267c-6grr-h53f",
+      "type": "GHSA"
+    },
+    {
+      "value": "CVE-2026-44575",
+      "type": "CVE"
+    }
+  ],
+  "state": "published",
+  "created_at": null,
+  "updated_at": "2026-05-07T15:36:00Z",
+  "published_at": "2026-05-06T18:42:50Z",
+  "closed_at": null,
+  "withdrawn_at": null,
+  "submission": null,
+  "vulnerabilities": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": ">= 15.2.0 < 15.5.16",
+      "patched_versions": "15.5.16",
+      "vulnerable_functions": [
+
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "vulnerable_version_range": ">= 16.0.0 < 16.2.5",
+      "patched_versions": "16.2.5",
+      "vulnerable_functions": [
+
+      ]
+    }
+  ],
+  "cvss_severities": {
+    "cvss_v3": {
+      "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "score": 7.5
+    },
+    "cvss_v4": {
+      "vector_string": null,
+      "score": null
+    }
+  },
+  "cwes": [
+    {
+      "cwe_id": "CWE-288",
+      "name": "Authentication Bypass Using an Alternate Path or Channel"
+    }
+  ],
+  "cwe_ids": [
+    "CWE-288"
+  ],
+  "credits": [
+
+  ],
+  "credits_detailed": [
+
+  ],
+  "collaborating_users": null,
+  "collaborating_teams": null,
+  "private_fork": null,
+  "comments": 1,
+  "cvss": {
+    "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "score": 7.5
+  }
+}
