@@ -1,61 +1,94 @@
-# Notes: three "one part only" sources (2025 CWE Top 25, OWASP SAMM v2 model page, OWASP API Security Top 10 2023)
+# Notes: 2025 CWE Top 25, OWASP SAMM v2 model, OWASP API Security Top 10 2023
 
-The cite plan (`caregiving-coordinator/docs/security-paper/cite-plan-2026-11-18.md`) says to read and cite only one part of each of these three sources. These notes cover that part only. None of these pages has page numbers, so each point is tied to the page's heading or table.
+The cite plan (`caregiving-coordinator/docs/security-paper/cite-plan-2026-11-18.md`) said to read only one part of each of these three sources. The owner then said to read everything, so on 2026-11-18 (second pass) each was read in full. Sections 1 and 3 below were rewritten for that. None of these pages has page numbers, so each point is tied to the page's heading or table.
 
 ## 1. 2025 CWE Top 25 Most Dangerous Software Weaknesses
 
-- **Source:** MITRE. (2025). *2025 CWE top 25 most dangerous software weaknesses*. Common Weakness Enumeration. https://cwe.mitre.org/top25/ (the source list gives the date as Dec 11, 2025 with CISA; the saved page itself does not show a publication date, so confirm it before the bibliography).
-- **Label for the paper:** official project data (tier 1, MITRE is an approved domain).
-- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/cwe-top25/top25-2025.html`.
-- **Part read (2026-11-18):** the ranked table of 25 weaknesses with score, "CVEs in KEV" (the number of vulnerabilities from that weakness on CISA's Known Exploited Vulnerabilities list) and rank change from 2024. The "Key Insights" and "Methodology" tabs on the live page were not in the saved copy, so they were **not read** and must not be cited.
+- **Source:** MITRE. (2025). *2025 CWE top 25 most dangerous software weaknesses*. Common Weakness Enumeration. https://cwe.mitre.org/top25/archive/2025/2025_cwe_top25.html . The saved page shows "Page Last Updated: December 10, 2025" (the source list gives the release as Dec 11, 2025 with CISA; use the date on the page).
+- **Label for the paper:** official project data (tier 1, MITRE is an approved domain). CWE is sponsored by the U.S. Department of Homeland Security's CISA and managed by MITRE.
+- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/cwe-top25/top25-2025.html` (the ranked list), `caregiving-coordinator/docs/sources/security-paper/cwe-top25/2025_key_insights.html`, `caregiving-coordinator/docs/sources/security-paper/cwe-top25/2025_methodology.html` and `caregiving-coordinator/docs/sources/security-paper/cwe-top25/2025_kev_list.html` (the Top 10 weaknesses in CISA's Known Exploited Vulnerabilities list). All four were read in full on 2026-11-18.
 
 | Point | Where |
 |---|---|
-| The list ranks 25 weaknesses by score. Rank 1 is cross-site scripting (CWE-79, score 60.38, 7 in KEV). Rank 2 is SQL injection (CWE-89, 28.72, 4 in KEV). Rank 3 is cross-site request forgery (CWE-352, 13.64). | Table, ranks 1 to 3 |
-| Missing Authorization (CWE-862) is rank 4 and moved up 5 places from 2024. Incorrect Authorization (CWE-863) is rank 17. Improper Access Control (CWE-284) is rank 19. Authorization Bypass Through User-Controlled Key (CWE-639) is rank 24 and moved up 6 places. | Table, ranks 4, 17, 19, 24 |
-| Missing Authentication for Critical Function (CWE-306) is rank 21 and moved up 4 places, with 11 vulnerabilities in KEV. | Table, rank 21 |
-| Exposure of Sensitive Information to an Unauthorized Actor (CWE-200) is rank 20. | Table, rank 20 |
-| Improper Input Validation (CWE-20) is rank 18 and fell 6 places. | Table, rank 18 |
-| Several memory-safety weaknesses are high on the list (out-of-bounds write is rank 5; use after free is rank 7). Server-side request forgery (CWE-918) is rank 22. | Table |
+| The list is built from 39,080 CVE Records for vulnerabilities published between June 1, 2024 and June 1, 2025. Data were pulled on July 23, 2025 and again on November 17, 2025. | Methodology, opening |
+| The score combines how often a weakness is the root cause (frequency) and the average severity of the vulnerabilities (CVSS 3.0 or 3.1 base score). Score = frequency score × severity score × 100. Rarely seen weaknesses and low-impact weaknesses do not score high. | Methodology, Scoring |
+| 9,468 CVE Records (24%) were re-checked with 281 CVE Numbering Authorities; 170 of them (60%) replied on 2,459 records. The 2025 list is the first to use an LLM tool for suggested CWE mappings, which reviewers could accept or reject. | Methodology, LLM Mapping Suggestions; CNA Expert Collaboration |
+| For the first time the list used CWE mappings as provided, without simplifying them into NVD's View-1003. This explains why some weaknesses (such as CWE-269, CWE-287, CWE-798) dropped out of the top 25. | Methodology, Removal of CWE Mapping Normalization; Key Insights, Analysis |
+| Cross-site scripting (CWE-79) stays at #1. Biggest movers up: Missing Authorization (CWE-862) from #9 to #4, Null Pointer Dereference (CWE-476) from #21 to #13, Missing Authentication (CWE-306) from #25 to #21. Authorization Bypass Through User-Controlled Key (CWE-639) rose 6 places to #24. | Key Insights, Analysis |
+| Improper Input Validation (CWE-20) fell from #12 to #18. Improper Authentication (CWE-287) fell from #14 to #31, and Use of Hard-coded Credentials (CWE-798) from #22 to #35, out of the top 25. | Key Insights, Analysis |
+| 67% of CVE Records had a CWE mapping from the publishing CNA in 2025, up from 53% in 2024. | Key Insights, last section |
+| Mappings to "Discouraged" CWEs fell to 5.42% of top-25 mappings from 10.19%. The team says this suggests better root-cause mapping. | Key Insights, Mapping Usage |
+| The Top 10 weaknesses in CISA's Known Exploited Vulnerabilities list: OS command injection (CWE-78) is #1 with 20 entries; then use after free (14), out-of-bounds write (12), missing authentication for a critical function (CWE-306, 11), deserialization of untrusted data (11), path traversal (10), code injection (7), authentication bypass using an alternate path (CWE-288, 6), heap buffer overflow (6), and cross-site scripting (7, up 11 places). | KEV list page |
+| The full ranked table (rank, weakness, score): 1 CWE-79 cross-site scripting 60.38; 2 CWE-89 SQL injection 28.72; 3 CWE-352 cross-site request forgery 13.64; 4 CWE-862 Missing Authorization 13.28; 5 CWE-787 Out-of-bounds Write 12.68; 6 CWE-22 Path Traversal 8.99; 7 CWE-416 Use After Free 8.47; 8 CWE-125 Out-of-bounds Read 7.88; 9 CWE-78 OS Command Injection 7.85; 10 CWE-94 Code Injection 7.57; 11 CWE-120 Classic Buffer Overflow 6.96; 12 CWE-434 Unrestricted Upload of Dangerous File 6.87; 13 CWE-476 NULL Pointer Dereference 6.41; 14 CWE-121 Stack-based Buffer Overflow 5.75; 15 CWE-502 Deserialization of Untrusted Data 5.23; 16 CWE-122 Heap-based Buffer Overflow 5.21; 17 CWE-863 Incorrect Authorization 4.14; 18 CWE-20 Improper Input Validation 4.09; 19 CWE-284 Improper Access Control 4.07; 20 CWE-200 Exposure of Sensitive Information 4.01; 21 CWE-306 Missing Authentication for Critical Function 3.47; 22 CWE-918 Server-Side Request Forgery 3.36; 23 CWE-77 Command Injection 3.15; 24 CWE-639 Authorization Bypass Through User-Controlled Key 2.62; 25 CWE-770 Allocation of Resources Without Limits 2.54. | Ranked table |
 
-- **Possible use:** topic 3 (background): which weakness types are most common, with several access-control weaknesses (CWE-862, 863, 284, 639) in the list. This ties to the idea's care-circle permissions. Say "access-control weaknesses are common" and cite the table. Do not say any weakness is absent from the proposed coordinator.
-- **Limits:** the page's method of scoring was not read. The scores and ranks come only from the table.
+- **Possible use:** topic 3 (background): the most common and dangerous weaknesses, and the point that several access-control weaknesses (CWE-862, 863, 284, 639) and missing authentication (CWE-306) are on the list. This ties to the idea's care-circle permissions. The paper may say these weaknesses are common. It must not say any of them is absent from the proposed coordinator.
+- **Limits:** the ranking covers published vulnerability records (CVEs), which skew toward software that has vendors and public disclosure. It does not measure weaknesses in a new custom application. It uses CVSS 3.x scores only.
 
-## 2. OWASP SAMM v2, the model page
+## 2. OWASP SAMM v2, the model
 
-- **Source:** OWASP Foundation. (n.d.). *The model*. OWASP Software Assurance Maturity Model (SAMM) v2. https://owaspsamm.org/model/
-- **Label for the paper:** official project model (tier 1, `owaspsamm.org` is an approved domain). The source list says the model is v2 (2020) and the site is still active.
-- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/owasp-samm/model.html`.
-- **Part read (2026-11-18):** the model overview page only. It names the business functions and practices. The detail pages for each practice were not downloaded and not read.
+- **Source:** OWASP Foundation. (n.d.). *The model*. OWASP Software Assurance Maturity Model (SAMM) v2. https://owaspsamm.org/model/ (practice pages have their own addresses, for example https://owaspsamm.org/model/design/threat-assessment/). The pages carry no date. The source list says the model is v2 (2020) and the site is still active.
+- **Label for the paper:** official project model (tier 1, `owaspsamm.org` is an approved domain).
+- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/owasp-samm/model.html` (the overview) and `caregiving-coordinator/docs/sources/security-paper/owasp-samm/model-pages/` (51 pages saved 2026-11-18: the model overview, the five business function pages, the 15 practice pages and the 30 stream pages).
+- **Read in full (2026-11-18, second pass):** every one of those 51 pages (about 28,000 words). **Not read:** the "stream guidance" Google Docs the pages link to (not on an approved domain), the SAMM documentation pages outside the model (getting started, assessment, tools, the AI-assisted development guide) and the blog. Those are outside the model section the source list names.
+- **There are no page numbers.** Cite the practice and stream, for example "Threat Assessment, Stream B: Threat Modeling, maturity level 1".
+
+**Structure (my words).** SAMM has five business functions, each with three security practices, and each practice has two streams. Each stream has three maturity levels. Each level has a stated benefit, an activity, a yes-or-no question, quality criteria and a set of answers ("No", "Yes, for some", "Yes, for at least half", "Yes, for most or all"). Overview pages state a one-line objective per level.
+
+| Function and practice | Stream A and Stream B | Level 1 objective (the lowest level) |
+|---|---|---|
+| **Governance:** Strategy and Metrics | A: Create and Promote; B: Measure and Improve | Identify objectives and ways of measuring the program's effectiveness |
+| Governance: Policy and Compliance | A: Policy and Standards; B: Compliance Management | Identify and document governance and compliance drivers |
+| Governance: Education and Guidance | A: Training and Awareness; B: Organization and Culture (level 1 is naming a "Security Champion" in each team) | Give staff access to secure development resources |
+| **Design:** Threat Assessment | A: Application Risk Profile; B: Threat Modeling | Best-effort identification of high-level threats |
+| Design: Security Requirements | A: Software Requirements; B: Supplier Security | Consider security explicitly in the requirements process |
+| Design: Secure Architecture | A: Architecture Design; B: Technology Management | Bring proactive security guidance into design |
+| **Implementation:** Secure Build | A: Build Process; B: Software Dependencies (level 1: a bill of materials) | The build process is repeatable and consistent |
+| Implementation: Secure Deployment | A: Deployment Process; B: Secret Management | Deployment processes are fully documented |
+| Implementation: Defect Management | A: Defect Tracking; B: Metrics and Feedback | All defects are tracked within each project |
+| **Verification:** Architecture Assessment | A: Architecture Validation; B: Architecture Mitigation | Review the architecture for baseline mitigations |
+| Verification: Requirements-driven Testing | A: Control Verification; B: Misuse/Abuse Testing | Find basic vulnerabilities opportunistically |
+| Verification: Security Testing | A: Scalable Baseline; B: Deep Understanding | Perform security testing, manual and tool-based |
+| **Operations:** Incident Management | A: Incident Detection; B: Incident Response | Best-effort detection and handling |
+| Operations: Environment Management | A: Configuration Hardening; B: Patching and Updating | Best-effort patching and hardening |
+| Operations: Operational Management | A: Data Protection; B: System Decommissioning / Legacy Management | Foundational practices |
 
 | Point | Where |
 |---|---|
-| SAMM defines five business functions and fifteen security practices that help an organization assess and improve its software security. | Page opening sentence |
-| The five functions are Governance, Design, Implementation, Verification and Operations. Each has three practices. Governance: Strategy & Metrics, Policy & Compliance, Education & Guidance. Design: Threat Assessment, Security Requirements, Secure Architecture. Implementation: Secure Build, Secure Deployment, Defect Management. Verification: Architecture Assessment, Requirements-driven Testing, Security Testing. Operations: Incident Management, Environment Management, Operational Management. | Page list |
-| The original model was written by Pravir Chandra in 2009. | Introduction |
+| Threat modeling at level 1: do it ad hoc for high-risk applications, use simple checklists such as STRIDE, keep the outcome, and start with a whiteboard or paper. Avoid long workshops and long lists of low-relevance threats. When adding a feature, look only at the new functions. | Threat Assessment, Stream B, level 1 |
+| An application risk profile at level 1: use 5 to 10 questions (financial data? internet-facing? privacy data involved?) and a simple high/medium/low rating. The page says not to invent a new scheme if one already works. | Threat Assessment, Stream A, level 1 |
+| Security requirements should state the objective, not the method (the page's example: "personal data for the registration process should be transferred and stored securely", not "use TLSv1.2"). A requirement that only says "protect against the OWASP Top 10" is called too general. | Security Requirements, Stream A, level 1 |
+| Secure Build, Stream B level 1: keep a bill of materials (a record of every dependency, its version, license, source and support status) and check it for known vulnerabilities. Level 2 adds an approved list and automatic alerts for new CVEs. | Secure Build, Stream B |
+| Secure Deployment, Stream B level 1: developers do not have production secrets; production secrets are not in development or test environments. Level 2: inject secrets during deployment, scan repositories for secrets, and include the repository history in the check. | Secure Deployment, Stream B |
+| Defect Management Stream A level 1: record all security defects in one place per application and use a simple rating. Level 2 adds fix deadlines (SLAs) by severity. | Defect Management, Stream A |
+| Incident Management Stream B level 1: name a person or role for incident handling and document every incident. Level 2: a written response process with triage rules, a root-cause analysis for high-severity incidents and rules for when to involve senior staff, legal and customers. | Incident Management, Stream B |
+| Operational Management Stream A level 1: know which data elements each application processes and how sensitive they are, and keep unsanitized production data out of lower environments. Level 2: a data catalog and retention rules, with backups destroyed on time. | Operational Management, Stream A |
+| Requirements-driven Testing Stream A: test the controls for authentication, access control, input validation, encoding and encryption whenever the application's use of them changes; later, write regression tests for every fixed bug. | Requirements-driven Testing, Stream A |
+| Security Testing: automated tools find "low-hanging fruit"; manual expert testing is slower and aimed at risky components. The page says automated tools can never replace expert manual review. | Security Testing, Streams A and B |
+| Policy and Compliance Stream B level 1: list the external legal and contract obligations and map them to existing policies. The page says to ask experts and legal counsel to confirm that each obligation is understood. | Policy and Compliance, Stream B |
 
-- **Possible use:** topic 6 (what teams do) and topic 4: SAMM as one way teams organize security work across five functions. The paper may use it to show that a small project like the idea could pick only a few practices (for example threat assessment and security testing), but that is the paper's own reasoning and should be said so.
-- **Limits:** only the overview was read. Do not describe what any practice contains.
+- **Possible use:** topic 4 and topic 6 (what teams do): SAMM shows how security work is organized across the whole life of software, and it gives a plain way to describe growth in levels. The paper can say a small project like the idea could start at level 1 in a few practices (a simple risk profile and STRIDE threat model, a dependency record, secret handling, and writing down a plan for incidents) and treat the rest as later steps. That is the paper's own reasoning and should be labeled so.
+- **Limits:** SAMM is designed for organizations and many questions assume teams and programs. The page does not say what a one-person project must do. It is a maturity model, not a list of required controls. It does not mention Next.js, Vercel or Supabase.
 
 ## 3. OWASP API Security Top 10, 2023 edition
 
 - **Source:** OWASP Foundation. (2023). *OWASP top 10 API security risks – 2023*. OWASP API Security Project. https://owasp.org/API-Security/editions/2023/en/0x11-t10/
-- **Label for the paper:** official project list (tier 1).
-- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/owasp-api-security-top10/top10-2023.html` (the saved page's canonical address is the URL above).
-- **Part read (2026-11-18):** the full table of the ten risks and their one-paragraph descriptions. The detail pages for each risk were not downloaded and not read. I did not confirm that 2023 is the newest edition. The page shows a 2019 edition as the earlier one.
+- **Label for the paper:** official project list (tier 1). The authors say it is an awareness document, not a statistical study: a public call for data produced none, so the list rests on public incident reports from 2019 to 2022, the team's experience and community review (Methodology and Data; Release Notes).
+- **Local copy:** `caregiving-coordinator/docs/sources/security-paper/owasp-api-security-top10/top10-2023.html` (the list) and `caregiving-coordinator/docs/sources/security-paper/owasp-api-security-top10/2023/` (20 pages: about, foreword, introduction, release notes, risks, API1 to API10, "what's next" for developers and DevSecOps, methodology, acknowledgments). All read in full on 2026-11-18.
+- **Currency check:** this is the second edition; the first was 2019 (release notes). The saved site menu shows no newer edition.
 
-| Risk | What the table says (my words) |
-|---|---|
-| API1:2023 Broken Object Level Authorization | APIs expose endpoints that take object IDs. Every function that uses an ID from the user needs an object-level permission check. |
-| API2:2023 Broken Authentication | Authentication is often built wrongly, letting attackers steal tokens or take over other users' identities. |
-| API3:2023 Broken Object Property Level Authorization | Combines excessive data exposure and mass assignment. The cause is missing permission checks on individual fields of an object. |
-| API4:2023 Unrestricted Resource Consumption | Requests use bandwidth, CPU, memory, storage, and paid services such as email or SMS. Without limits, an attacker can run up cost or cause denial of service. |
-| API5:2023 Broken Function Level Authorization | Complex roles and an unclear split between admin and ordinary functions lead to flaws that let attackers use other users' or admin functions. |
-| API6:2023 Unrestricted Access to Sensitive Business Flows | A flow such as buying a ticket or posting a comment can be abused by automation if not limited. |
-| API7:2023 Server Side Request Forgery | An API that fetches a remote resource from a user-supplied address can be tricked into sending a request to an unexpected place. |
-| API8:2023 Security Misconfiguration | Complex settings are missed or set against best practice. |
-| API9:2023 Improper Inventory Management | APIs expose many endpoints, so teams need current documentation and a list of hosts and versions to avoid forgotten old versions. |
-| API10:2023 Unsafe Consumption of APIs | Developers trust data from third-party APIs more than user input, so attackers target the connected services. |
+| Risk | What the page says (my words) | Page |
+|---|---|---|
+| API1:2023 Broken Object Level Authorization | Every endpoint that receives an object ID and acts on the object needs a check that the logged-in user may act on that object. Comparing the session's user ID to the ID in the request is not enough on its own. Prevention: authorization based on user policies, a check in every function that uses a client ID, random IDs preferred, and tests that fail the build. Prevalence "widespread", exploitability "easy". | 0xa1 |
+| API2:2023 Broken Authentication | Treat forgot-password and reset flows like login. Vulnerable if it allows credential stuffing or brute force without a CAPTCHA or lockout, weak passwords, tokens in the URL, no password confirmation for email changes, unsigned tokens, or weakly hashed passwords. Prevention: use standards, re-authenticate for sensitive operations, multi-factor where possible, and stricter anti-brute-force than normal rate limits. Do not use API keys to authenticate users. | 0xa2 |
+| API3:2023 Broken Object Property Level Authorization | Combines excessive data exposure and mass assignment. Prevention: return only the properties the user may see (do not use generic `to_json()`), avoid automatic binding of client input to objects, and allow changes only to fields the client should change. | 0xa3 |
+| API4:2023 Unrestricted Resource Consumption | Missing limits on execution time, memory, upload size, operations per request, records per page, or third-party spending can cause denial of service or large bills. The page's example: a forgotten-password text message flow abused to run up a third-party charge. Prevention: limits on sizes and rates, spending limits or billing alerts for outside services. | 0xa4 |
+| API5:2023 Broken Function Level Authorization | A regular user reaching admin functions, or changing an HTTP method to reach a function. The page's example: a "new invite" endpoint without a check let an attacker create an admin invite. Prevention: one consistent authorization module that denies access by default. | 0xa5 |
+| API6:2023 Unrestricted Access to Sensitive Business Flows | Flows such as buying, posting or booking can be abused by automation. Prevention: identify harmful flows, then slow automation with device checks, human detection and non-human pattern analysis. | 0xa6 |
+| API7:2023 Server Side Request Forgery | An API that fetches a user-supplied address can be coerced to call internal services, such as a cloud metadata address. Prevention: allow lists of origins, schemes and ports, disable redirects, never return raw responses. | 0xa7 |
+| API8:2023 Security Misconfiguration | Missing hardening, patches or TLS, enabled features you do not need, wrong CORS policy, and stack traces in errors. Prevention: a repeatable hardening process, reviewed configuration, automated checks, and encrypted traffic for all internal and external communication. | 0xa8 |
+| API9:2023 Improper Inventory Management | Old or beta API versions left running without the same protections. The page names two "blindspots": no inventory of API hosts and versions, and no inventory of data flows to third parties. Prevention: inventory hosts and integrated services, document everything, keep documentation private to authorized users, and avoid production data on non-production deployments. | 0xa9 |
+| API10:2023 Unsafe Consumption of APIs | Developers trust data from third-party APIs more than user input. The page's example: an API sending medical data to a provider that was compromised and answered with a redirect, so the API sent the same request, including the data, to an attacker's server. Prevention: assess provider security, use TLS, validate data from integrated APIs, and allow only known redirect locations. | 0xaa |
+| "What's Next for Developers" points to ASVS for security requirements, the Cheat Sheet Series for architecture, Proactive Controls for standard controls, and SAMM for process. "What's Next for DevSecOps" says yearly scanning and penetration testing are no longer enough and findings should be delivered inside the tools teams use. | 0xb0, 0xb1 |
 
-- **Possible use:** topic 5 (what it includes): the three authorization risks (API1, API3, API5) fit a product where one person's data is shared with chosen others. The proposed coordinator's server routes in Next.js are the kind of interface this list addresses. Do not call the idea's routes safe against this list.
-- **Limits:** only the table was read, not the per-risk pages. The paper should cite the table's wording, not the per-risk examples.
+- **Possible use:** topic 5 (what it includes): API1, API3 and API5 are the three authorization risks and match a product where one person's data is shared with chosen others. API9 (inventory of hosts and third-party data flows) and API10 (unsafe consumption of third-party APIs, with a medical-data example) bear on the invite email service. The paper may describe these as risks the idea plans to address. It must not call the idea's server routes safe against this list.
+- **Limits:** the list is an awareness document without statistics. The examples are illustrative. The pages do not mention Next.js or Supabase.
