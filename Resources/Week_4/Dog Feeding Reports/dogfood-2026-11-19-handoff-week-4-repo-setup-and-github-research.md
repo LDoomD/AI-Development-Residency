@@ -1,5 +1,7 @@
 # Handoff: Week 4 repository setup and GitHub research → owner approves the starting layout, then Week 4 step 4 (2026-11-19, thirteenth report)
 
+> **Replaced by:** `Resources/Week_4/Dog Feeding Reports/dogfood-2026-11-25-handoff-week-4-step-5-architecture-plan.md` (2026-11-25, fourteenth report). Use that report as the start point for new chats.
+
 Replaces: `Resources/Week 2_3/Dog Feeding Reports/dogfood-2026-11-18-handoff-security-paper-approved-owner-submits.md` as the start point for new chats. What changed: Week 2 and 3 and the security paper are finished, so everything from here is Week 4. The paper facts and the seven open decisions in the twelfth report still stand. Every path in this report starts at the top folder of the course repository (`AI Developer Residency `), which holds `caregiving-coordinator/`, `Resources/` and `.claude/`. Paths for the app repository are written in plain text because that repository sits outside this one.
 
 > Paste to start: "Read this handoff report and the files in section 8. Confirm in a few complete sentences where we are. Run `git fetch` in both repositories and tell me what is open. Then ask me the first open decision in section 4 and wait. Use short, plain sentences. Say real repository names, never 'the research folder'. Never make anything up: name the file or command behind every fact. Ask before Firecrawl, Chrome or the browser pane."
