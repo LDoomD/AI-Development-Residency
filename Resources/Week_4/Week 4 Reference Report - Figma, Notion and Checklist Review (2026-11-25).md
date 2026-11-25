@@ -9,7 +9,7 @@ Made by Claude on 2026-11-25 from the sources listed in section 1. Every fact na
 - **What Week 4 is:** build and launch the whole MVP #1 of the caregiving coordinator as a three-tier web app. Screens: Next.js with Material UI. Server code: Vercel. Database and sign-in: Supabase. (Course page, "What are we doing?" and "Summary"; Premium objective.)
 - **The owner's role (lecture):** the owner is the technical architect and makes each choice. Claude is the developer. (Lecture notes, "You and Claude are the Head Chefs.")
 - **The order of work is the 14-step Build and Launch Checklist.** The Figma board, the Notion lecture notes and the owner's steps page all list the same 14 steps in the same order.
-- **Where we are (2026-11-25):** checklist steps 2 and 3 are done. Step 1 is done except possibly the Vercel account (see section 2). Step 4, making the Next.js app, has not started. All of Part A (GitHub) of the "How to Set Up GitHub and Vercel" guide is done.
+- **Where we are (2026-11-25):** checklist steps 2, 3 and 4 are done on my side (step 4 awaits the owner's merge). Step 1 is done except possibly the Vercel account (see section 2). Step 4, making the Next.js app, is built and waiting for the owner to merge pull request 3. All of Part A (GitHub) of the "How to Set Up GitHub and Vercel" guide is done.
 - **The Vercel import belongs at checklist step 11**, after the app and database exist. Do not deploy before then.
 
 ## 1. Sources read, and how much of each
@@ -23,6 +23,7 @@ Made by Claude on 2026-11-25 from the sources listed in section 1. Every fact na
 | Notion: How to Set Up GitHub and Vercel | https://app.notion.com/p/c239219a46918329916781bb84cafff4 | All of it, plus the local copy. No comments on the page. |
 | Owner's steps page | `Resources/Week_4/MY STEPS - Week 4 Build and Launch the App (plain words, 2026-11-18).md` | All 62 lines. |
 | NotebookLM answer pasted by the owner | chat, 2026-11-25 | Read in full and checked against the files above (section 7). |
+| Week 4 transcripts, three helper files, teacher's example repository | Google Drive connector, local files, `gh api` | See section 11.1. |
 
 The Notion lecture notes say they are a word-for-word copy of the Figma board's Week 4 row (line 9 of the local copy). They agree with the Figma on everything I compared, and the Notion page has a few sections the Figma text lacked (section 6).
 
@@ -37,8 +38,8 @@ The Notion lecture notes say they are a word-for-word copy of the Figma board's 
 | Checklist step 1, accounts | **Supabase:** owner said "Done." **Vercel:** the owner reached Vercel's import screen and chose the Next.js preset, so an account exists. I do not know if a half-finished Vercel project was saved. The owner was told not to click Deploy. | chat 2026-11-25 |
 | Checklist step 2, Node.js | **Done.** `node --version` printed v26.4.0, `npm --version` printed 11.17.0. | command output 2026-11-25 |
 | Checklist step 3, saved documents | **Done.** The 13 files were listed to the owner. They are in the app repository (`docs/specs/` and `docs/risk-profile.md`). | chat 2026-11-25 |
-| Checklist step 4, the Next.js app with Material UI | **Not started.** | |
-| Local app folder | After pull request 2 was merged, I did not switch the local app folder back to `main`. It was on branch `add-ci-checks`. **Check with `git status` and run `git switch main` and `git pull --ff-only` first.** | I did not check after the merge |
+| Checklist step 4, the Next.js app with Material UI | **Built. Pull request 3 is open for the owner to merge** (Next.js 16.4.6, Material UI 9.6.0, app at the top level, no `src/`). GitHub had not reported its check result when last looked. | `gh pr create` result and `get_status`, 2026-11-25 |
+| Local app folder | On branch `add-nextjs-app` after step 4. After pull request 3 is merged, run `git switch main` and `git pull --ff-only`. | `git status`, 2026-11-25 |
 | Deadline | The course page says due Nov 16. **The owner said there is no deadline for them.** Treat as settled; do not raise it. | course page line 20; chat 2026-11-25 |
 | Course repository | Has uncommitted changes that are not from this Week 4 work (`caregiving-coordinator/docs/sources/INDEX.md` modified, and an untracked folder `immigrant-data-security-2026-11-20/`). The owner did not recognize it as part of this project. I did not open them. Leave alone. | `git status` at session start |
 
@@ -88,7 +89,7 @@ Source: Build and Launch Checklist (Notion, read 2026-11-25), Figma block "In Th
 | 1 | Free Vercel and Supabase accounts, signed up with GitHub, free plan | See section 2 |
 | 2 | Check Node.js | Done |
 | 3 | Gather saved Week 2 documents (vision, scope, requirements, build plan) | Done |
-| 4 | Make a new Next.js app with Material UI in the Week 2 repository and push the first version | **Next** |
+| 4 | Make a new Next.js app with Material UI in the Week 2 repository and push the first version | **Built, pull request 3 open (2026-11-25)** |
 | 5 | Architect the app: plan the screens (tier 1), server code (tier 2), database (tier 3). Save the plan in the repository before any code | Later |
 | 6 | Write ADRs: make `docs/adr`, add the ADR line to `CLAUDE.md`, one ADR per big choice (at least Next.js with Material UI, Vercel, Supabase) | Later |
 | 7 | Design the database tables (Database Design Template). Save as a migration file. Turn on access rules for every table | Later |
@@ -189,7 +190,7 @@ Claude forgets other chats, so save every approved result as a markdown file and
 - Follow the Notion checklist as the order of work.
 
 **Open (Proposed, not decided):**
-- **Where the Next.js app goes.** My proposal: the top level of the repository (matches Vercel's Root Directory `./`), with no `src/` folder. The Next.js doc saved at `caregiving-coordinator/docs/sources/week-4-repo-setup-2026-11-19/nextjs-project-structure.md` says `src/` is optional and to pick a layout and stay consistent. The Figma and lecture notes give no folder layout.
+- **Where the Next.js app goes: Approved 2026-11-25.** The owner chose the top level of the repository with no `src/` folder. That matches Vercel's Root Directory `./` and the teacher's example app (section 11.5). Built that way in pull request 3.
 - **How big step 5 is.** The lecture's 9-step method suggests several ADRs. The owner decides how much to cover.
 - **Business-logic approach** (Transaction Script, Table Module or Domain Model) for the caregiving app: decide at checklist step 5.
 - **Add the ADR line to the app's `CLAUDE.md`:** planned for checklist step 6, with the owner's yes.
@@ -200,7 +201,8 @@ Claude forgets other chats, so save every approved result as a markdown file and
 
 - Pictures in the Notion lecture notes and the Figma board (not viewed).
 - Other parts of the Figma file outside node 3089:14568.
-- The ADR Template, Database Design Template, Keep Your App Safe Checklist, Submission Template, usability templates, "Week 4 - Web Hosting - Weekly Class Materials," the recordings page and the "WEEK 4 Example" pages in `Resources/Week_4/` (not re-read in this review).
+- The raw transcript of the Hat Check demo (not found), any transcript for the 11/5 session (none exists), and all recordings (videos not watched).
+- The ADR Template, Database Design Template, Submission Template, usability templates, "Week 4 Example" pages other than Architecture, and the Supabase migration guide (not re-read in this review). The Keep Your App Safe Checklist, Weekly Class Materials and Recordings page were read later (section 11).
 - Whether Vercel kept a half-finished project, whether Vercel's free plan accepts a deploy from a private repository, and whether commits must match the Vercel account's email (research file `vercel-troubleshoot-collab.txt` says the commit author must be the Hobby team owner, matched by email; not tested).
 - Whether GitHub Actions is free for this private repository (not found in the saved research).
 - The local app folder's current branch after the pull request 2 merge.
@@ -217,3 +219,74 @@ Full rules are in `caregiving-coordinator/CLAUDE.md` and the app repository's `C
 - **Ask before** Firecrawl, Chrome or the browser pane, before changing GitHub settings, and before creating files or branches the owner did not ask for.
 - **The owner writes "What I Did" and "What I Learned."** Claude never writes or edits them.
 - **Fake data only. No secret keys in the repository.**
+
+## 11. Transcripts, helper files and step 4 (added 2026-11-25, after the first version of this report)
+
+### 11.1 What was read
+
+Sources: the Google Docs the Recordings page links (`Fall 2026 - AI Dev Residency Recordings (Notion copy 2026-11-13).md`, Week 4 rows), opened through the Google Drive connector on 2026-11-25. Each document is Gemini's notes plus the meeting transcript. **Both are machine-made and can contain errors.** Student names are left out of this report on purpose; "another student" means a classmate.
+
+| Session | Google Doc | What I read |
+|---|---|---|
+| 11/2 Lecture, "Hosting a Three Tier Architecture App" | `1NNkM84x5j-D6_-ylhXRJtmVM6RHkLVmGaBEYXiO99M8` ("AI Development Residency - Lecture - 2026/11/02 16:56 PST - Notes by Gemini") | All 762 lines: quick notes, full notes and the whole transcript (00:00:03 to 00:57:21). |
+| 11/2 "Morgan's Demo of Hat Check" | The Recordings page points to the same document | Gemini's notes about the demo only. **I did not find a transcript of the demo itself.** The recording is a video; not watched. |
+| 11/4 Working session (ADRs and architecture decisions with Claude) | `1LPFjae8NNiwAAlKsNmbyGXo1y17I-jHHmTJWRHdOqJk` | All of it: notes and the whole transcript (to 00:55:31). |
+| 11/5 Working session | `1_oIES8rcxwsvig_MLQMSWtXlBJv_J9p4oGgHJJFhyhU` | Gemini's notes only. **The Recordings page leaves this row's transcript blank, and the document has no transcript.** |
+| 11/7 Working session | `14nCNoeW1S8wyTnpv9NNdAp-vZgljIc5iCSJtxBHhHec` | All 1,136 lines: notes and the whole transcript (the document says it ran to 03:28:27). |
+
+The last line of each document was cut mid-sentence by the tool. It was the standard "might contain errors" note. No videos were watched. The NotebookLM links on the Weekly Class Materials page were not followed.
+
+### 11.2 How Morgan started Week 4 (11/2 lecture)
+
+- He opened in a pirate costume, joking, and told the class that the week's content is in the weekly lesson space: podcasts, five-minute video explainers, flashcards, quizzes and the Weekly Class Materials page. He said the lecture would be shorter than the usual hour and a half, and that he would show his app, Hat Check, afterward (its prototypes, pitch deck and code).
+- He said all lecture content is in the FigJam board and in the Notion lecture notes, so students can use whichever they like.
+- Recap: Week 1 was what enterprise AI development is, versus vibe coding. Then a "whole course in one week" on product requirements and product management. Now: what makes software "enterprise."
+- He **cut Development Operations (CI/CD) from this week and moved it to next week.** This week is three topics: technical architecture, development and network technology.
+- Then the restaurant metaphor (ingredients, bowl, meal, head chef, owner, line chefs, manager, wait staff, ovens), and "you and Claude are the head chef. You are not the line chef."
+- He clarified why the restaurant owner is the product manager and the restaurant manager is the product owner (restaurant words differ from software-team words). The product manager holds the high-level vision. The product owner runs near-term delivery.
+
+### 11.3 What Morgan stressed in the lecture
+
+- **You do not need to code.** You need UX-style and product-management-style problem solving. Architecture starts with the problems, the outcomes and the success measures, not with patterns.
+- A technical architect's deliverables are the **decisions**, not the code.
+- **Dog food.** The first things to give Claude are the homework, your idea in your own words, the templates and the lecture notes. "I've literally given you all the dog fooding material... You don't need to memorize this."
+- Enterprise ready means handling volume (his example was 10,000 people in a minute) while staying maintainable, secure, scalable and reliable.
+- There are four app platforms, and a web or desktop app still needs a server and a database.
+- ADRs are the "recipe": coders check their code against them so they do not deviate.
+- Layers, in his words: presentation (what the user sees), service (the middle layer connecting the screen to the rest), domain (business logic lives here, never in the presentation layer), data source (talks only to the domain layer), and the database. There are about 12 to 15 software patterns. Complex business logic must stay compartmentalized in the domain layer.
+- **Launch steps (his closing summary):** free Vercel and Supabase accounts, check the computer with Claude, gather and dog food documents, make the project repository, ask Claude to help architect, write ADRs, design the database from the patterns, create the code, connect it to Supabase with a migration, build the features, push to GitHub, push GitHub to Vercel and launch. "99% of the time you go to the hosting provider."
+
+### 11.4 The working sessions
+
+**11/4 and 11/5 (Morgan building Hat Check's architecture with Claude, live):**
+- Open Claude desktop, start a new chat, give it the lecture notes and the readymade requirements, and say "co-create with me, I don't know what I'm doing, ask me anything." Ask for visuals when you want them.
+- **Give Claude the outcome first** ("never, ever forget"), then let it propose solutions. When stuck, ask Claude to break the options down and explain the implications. Ask it to define any term you do not know.
+- Decide **one decision at a time**, and send feedback in batches so context is not lost.
+- Claude logs each decision as an ADR. Morgan told it to put each ADR on its own sub-page and not on the architecture page, because "it takes shortcuts."
+- Hat Check's first locked decision was **no user accounts (browser-only data)**. Morgan said this differs from the homework, which requires sign-up and login. **Your homework still requires sign-up and log-in (course page, basic homework item 7).**
+- Tickets need full acceptance criteria, user and technical requirements, user stories, problem statements, test scope and goals, and use cases, so Claude can build correctly.
+- From the 11/5 notes: the AI-plus-keyword reader was locked; accuracy has two parts, recall and precision; "grounding" means the AI must give a real quote and a real framework entry; the group discussed latency and privacy cost; users should skeptically audit Claude's ADRs for gaps. The notes also record that asking whether the report fed to Claude must hold the newest deliverables got a yes.
+
+**11/7 (students working out loud, Morgan coaching):**
+- A student asked whether to start a new repository or use the existing one. **Morgan said "new repo."** Your course page says to reuse the Week 2 repository. Your Week 2 repository was empty and is now `Week_4_Caregiving-Coordinator`, so I kept your choice.
+- When Claude warned that the student's MVP #1 was too big for one week, Morgan said: without Claude it could take 9 to 12 months; with Claude it is faster but "still way more than a week"; enterprise grade means reliability, scalability, performance and security. Lead the prompt with the outcome.
+- **Claude forgets by default.** Permanent memory comes from enforceable skills, hooks, CI checks (next week) and Notion documents. Files Claude makes in a chat are temporary, so store them somewhere permanent.
+- **Demand authoritative evidence and proof** from AI tools. Do not rely on what a model "cached" from training. Do not treat AI as a person. "None of us know."
+- Pop quizzes, with the answers Morgan gave: technical architecture covers layers, software patterns, business logic and network technology; the wait staff (HTTP requests and responses) belong to the service layer; business logic lives in the domain layer, on the web server.
+- A student building sign-up and login shared what Claude said, which I have not checked against Supabase's docs: Supabase's built-in email sender only delivers to project team members and is rate limited to about two emails an hour, so turn email confirmation off while testing or test with your own account email, and use a custom email provider before launch. They also described adding a server-side Supabase client plus a Next.js middleware that refreshes the sign-in session on every request, so that Row Level Security can scope data to the signed-in user.
+- A student's reflection, worth copying: review AI tables a few rows at a time with an evidence column.
+- Morgan said the class would have coded apps by the end of the following week.
+
+### 11.5 The teacher's example app (`techfleetworks/job-decoder`)
+
+Listed with `gh api` on 2026-11-25 (public repository, last pushed 2026-11-13). Top level: `app/`, `src/`, `supabase/`, `docs/`, `test/`, `features/`, `eval/`, `pipeline/`, `scripts/`, `.github/`, `.githooks/`, `package.json`, `package-lock.json`, `next.config.mjs`, `tsconfig.json`, `vercel.json`, `.env.example`, `.nvmrc`, `README.md`, `decisions.md` and more. The app sits at the top level of the repository. This supports the owner's top-level choice. I did not open its files.
+
+### 11.6 The three helper files (read 2026-11-25)
+
+- **Keep Your App Safe Checklist:** keys in `.env.local` and `.gitignore` lists it; add keys to Vercel's environment variables; the Supabase `service_role` key is never used in the browser; if a secret key ever reached GitHub, make a new one (deleting the file is not enough); RLS on every table; test with two accounts; fake data only; ask Claude to check for secret keys, tables without access rules and places where one person could see another's information. Its banner says the repository is public; ours is private.
+- **WEEK 4 Example - Architecture:** a 10-section skeleton for Hat Check (what we are building, the three tiers, technology decisions, layers, software pattern, data architecture, the four promises, an end-to-end flow, the decision log, open decisions). No folder layout.
+- **Week 4 - Web Hosting - Weekly Class Materials:** objectives, work, bonus work, an estimated workload of 5 hours in class plus 5 hours of core homework (8 more for the bonus), the class links, the example repository, and "what good homework looks like" (matches the course page).
+
+### 11.7 Step 4 built (2026-11-25)
+
+Pull request 3 in `LDoomD/Week_4_Caregiving-Coordinator`: Next.js 16.4.6 (App Router, TypeScript, no Tailwind) and Material UI 9.6.0, at the top level with no `src/`. `app/theme.ts` holds the theme; `app/layout.tsx` wires it in with `AppRouterCacheProvider`, `ThemeProvider` and `CssBaseline`; `app/page.tsx` is a plain starter page, not a feature. Checked on this computer: `npm ci` found 0 vulnerabilities, the architecture gate passed, the 21 hook tests passed, lint was clean, the build succeeded and the built page returned HTTP 200 with the Material UI heading. Not done: Vercel import, Supabase, ADRs, app tests, and the GitHub check does not yet run install, lint or build. I could not read mui.com's own setup page; I used the package's Next 16 exports and my own knowledge of the setup.
