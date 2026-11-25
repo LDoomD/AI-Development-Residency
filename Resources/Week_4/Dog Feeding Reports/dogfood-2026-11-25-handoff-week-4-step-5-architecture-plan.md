@@ -1,5 +1,7 @@
 # Handoff: Week 4 step 5, the architecture plan, built from Morgan's Architecture page (2026-11-25, fourteenth report)
 
+> **Replaced by:** `Resources/Week_4/Dog Feeding Reports/dogfood-2026-11-25-handoff-week-4-step-5-after-foundation-plan.md` (2026-11-25, fifteenth report). Use that report as the start point for new chats.
+
 Replaces: `Resources/Week_4/Dog Feeding Reports/dogfood-2026-11-19-handoff-week-4-repo-setup-and-github-research.md`. What changed: the app is built, GitHub checks are set up, and the owner has read the Week 4 Figma, the Notion lecture notes and the transcripts through me. The first thirteen reports' facts still stand. Every path in this report starts at the top folder of the course repository (`AI Developer Residency `), which holds `caregiving-coordinator/`, `Resources/` and `.claude/`. Paths for the app repository are written in plain text because that repository sits outside this one.
 
 > Paste to start: "Read this handoff report, then the Week 4 reference report and the files in section 8. Confirm in a few short, plain sentences where we are. Run `git fetch` in both repositories and tell me whether app pull request 3 is merged. Then show me sections 1 to 3 of Morgan's Architecture page, drafted from my saved specs, and wait. Short sentences. Name the file or command behind every fact. Never make anything up. Ask before Firecrawl, Chrome or the browser pane."
