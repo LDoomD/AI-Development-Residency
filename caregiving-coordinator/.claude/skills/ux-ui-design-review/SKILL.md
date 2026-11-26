@@ -1,6 +1,6 @@
 ---
 name: ux-ui-design-review
-description: Reviews screens, user flows, or UI code for usability using Nielsen's 10 usability heuristics and guidance for complex enterprise applications, and reports findings with severity and fixes. Use when the user asks to review UX or UI, usability, a dashboard, a form, a data table, onboarding, navigation, or a workflow. Make sure to use this skill when the user asks if a screen is confusing or easy to use, even if they never say "UX". Do not use for accessibility compliance checks, security review, creating a new design from scratch, or visual branding choices.
+description: Reviews screens (built or planned), user flows, or UI code for usability using Nielsen's 10 usability heuristics, the 30 Laws of UX, Nielsen Norman Group form guidance, and guidance for complex enterprise applications, and reports findings with severity and fixes. Use when the user asks to review UX or UI, usability, a dashboard, a form, a data table, onboarding, navigation, or a workflow. Make sure to use this skill when the user asks if a screen is confusing or easy to use, even if they never say "UX". Do not use for accessibility compliance checks, security review, creating a new design from scratch, or visual branding choices.
 ---
 
 # UX and UI Design Review
@@ -20,6 +20,15 @@ so clear workflows, fast paths for experts, and error prevention matter most.
   it "suggestion", not "problem".
 - **Reviewing code is not user testing.** Say that real testing with real users
   would confirm or change the findings.
+- **Planned screens count.** A screen or flow that exists only as a written
+  plan (for example in `docs/architecture.md`) can be reviewed the same way as
+  built code. Say that nothing was built or seen yet. This skill still does not
+  invent a design; it checks one that someone proposed.
+- **Name the law next to the heuristic.** When a finding also matches a Law of
+  UX or a Nielsen Norman Group form guideline in
+  `references/ux-laws-and-nngroup-guidance.md`, name it and link its source.
+  Those laws are guides, not tests. Do not add numbers (such as pixel sizes)
+  that the reference does not give.
 - **Review first, change later.** Do not edit files unless asked.
 - **Stay out of the user's browser.** Their open tabs are private. Do not open
   a browser or read tabs unless the user asks. If there is nothing to review,
@@ -32,7 +41,8 @@ so clear workflows, fast paths for experts, and error prevention matter most.
    question: "Which screen or task should I look at?"
 2. Ask who uses it and what they are trying to do, unless a PRD such as
    `docs/PRD.md` already says.
-3. Read `references/heuristics-and-enterprise-checks.md`.
+3. Read `references/heuristics-and-enterprise-checks.md` and
+   `references/ux-laws-and-nngroup-guidance.md`.
 
 ## Workflow
 
@@ -75,6 +85,9 @@ so clear workflows, fast paths for experts, and error prevention matter most.
 ## Files in this skill
 
 - `references/heuristics-and-enterprise-checks.md`: the checks and questions.
+- `references/ux-laws-and-nngroup-guidance.md`: the 30 Laws of UX and NN/g
+  guidance for forms, sign-up, log-in and errors, with source links (added
+  2026-11-25).
 - `assets/ux-review-template.md`: the format of the report.
 
 ## Sources
@@ -88,3 +101,8 @@ The enterprise checks come from these NN/g articles:
   https://www.nngroup.com/articles/usability-heuristics-complex-applications/
 - Data Tables: Four Major User Tasks (Laubheimer, 2022):
   https://www.nngroup.com/articles/data-tables/
+
+The UX laws reference comes from Laws of UX by Jon Yablonski
+(https://lawsofux.com/) and the NN/g articles listed in
+`references/ux-laws-and-nngroup-guidance.md`. Saved copies and their index
+entries are in `docs/sources/ux-laws-2026-11-25/` and `docs/sources/INDEX.md`.
