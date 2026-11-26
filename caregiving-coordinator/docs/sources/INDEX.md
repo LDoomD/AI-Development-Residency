@@ -748,3 +748,60 @@ Folder: `sources/week-4-repo-setup-2026-11-19/`. Each page was downloaded on 202
 | `vercel-troubleshoot-collab.txt` | https://vercel.com/docs/deployments/troubleshoot-project-collaboration | Last updated March 13, 2026 | Hobby plan and private repository rules |
 
 Not read in full (search summaries only, not cited as proof): the Vercel Community forum threads, GitHub's plans page, the Claude Code skills and settings reference pages.
+
+## UX laws and Nielsen Norman Group guidance (2026-11-25)
+
+Folder: `ux-laws-2026-11-25/`, with subfolders `laws-of-ux/` (30 pages, author Jon Yablonski, no page dates shown) and `nngroup/` (18 pages). Each file starts with its URL, author, retrieval date and whether it is complete. Read with Firecrawl on 2026-11-25, many from Firecrawl's cache. A helper retyped the page text and left out page extras (cookie banners, membership banners, related-article lists, image links), so the copies are not byte-for-byte. Used for `.claude/skills/ux-ui-design-review/references/ux-laws-and-nngroup-guidance.md`.
+
+| File | URL | Date | What it supports |
+|---|---|---|---|
+| `laws-of-ux/aesthetic-usability-effect.md` | https://lawsofux.com/aesthetic-usability-effect/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/choice-overload.md` | https://lawsofux.com/choice-overload/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/chunking.md` | https://lawsofux.com/chunking/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/cognitive-bias.md` | https://lawsofux.com/cognitive-bias/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/cognitive-load.md` | https://lawsofux.com/cognitive-load/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/doherty-threshold.md` | https://lawsofux.com/doherty-threshold/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/fittss-law.md` | https://lawsofux.com/fittss-law/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/flow.md` | https://lawsofux.com/flow/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/goal-gradient-effect.md` | https://lawsofux.com/goal-gradient-effect/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/hicks-law.md` | https://lawsofux.com/hicks-law/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/jakobs-law.md` | https://lawsofux.com/jakobs-law/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/law-of-common-region.md` | https://lawsofux.com/law-of-common-region/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/law-of-pr%C3%A4gnanz.md` | https://lawsofux.com/law-of-pr%C3%A4gnanz/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/law-of-proximity.md` | https://lawsofux.com/law-of-proximity/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/law-of-similarity.md` | https://lawsofux.com/law-of-similarity/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/law-of-uniform-connectedness.md` | https://lawsofux.com/law-of-uniform-connectedness/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/mental-model.md` | https://lawsofux.com/mental-model/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/millers-law.md` | https://lawsofux.com/millers-law/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/occams-razor.md` | https://lawsofux.com/occams-razor/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/paradox-of-the-active-user.md` | https://lawsofux.com/paradox-of-the-active-user/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/pareto-principle.md` | https://lawsofux.com/pareto-principle/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/parkinsons-law.md` | https://lawsofux.com/parkinsons-law/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/peak-end-rule.md` | https://lawsofux.com/peak-end-rule/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/postels-law.md` | https://lawsofux.com/postels-law/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/selective-attention.md` | https://lawsofux.com/selective-attention/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/serial-position-effect.md` | https://lawsofux.com/serial-position-effect/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/teslers-law.md` | https://lawsofux.com/teslers-law/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/von-restorff-effect.md` | https://lawsofux.com/von-restorff-effect/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/working-memory.md` | https://lawsofux.com/working-memory/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `laws-of-ux/zeigarnik-effect.md` | https://lawsofux.com/zeigarnik-effect/ | not shown | The law's definition and takeaways (UX laws reference, part 1) |
+| `nngroup/aesthetic-usability-effect.md` | https://www.nngroup.com/articles/aesthetic-usability-effect/ | February 3, 2024 (last reviewed Sep. 1, 2026) | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/checklist-registration-login.md` | https://www.nngroup.com/articles/checklist-registration-login/ | June 4, 2017 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/chunking.md` | https://www.nngroup.com/articles/chunking/ | March 20, 2016 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/consistency-and-standards.md` | https://www.nngroup.com/articles/consistency-and-standards/ | January 10, 2021 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/error-message-guidelines.md` | https://www.nngroup.com/articles/error-message-guidelines/ | May 14, 2023 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/errors-forms-design-guidelines.md` | https://www.nngroup.com/articles/errors-forms-design-guidelines/ | February 3, 2019 (last reviewed Dec. 12, 2024) | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/fitts-law.md` | https://www.nngroup.com/articles/fitts-law/ | July 31, 2022 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/gestalt-proximity.md` | https://www.nngroup.com/articles/gestalt-proximity/ | August 2, 2020 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/hicks-law-long-menus.md` | https://www.nngroup.com/videos/hicks-law-long-menus/ | 2018-07-06 (video, 3 minutes) | NN/g guidance (UX laws reference, parts 2 and 3); video page, summary text only |
+| `nngroup/minimize-cognitive-load.md` | https://www.nngroup.com/articles/minimize-cognitive-load/ | December 22, 2013 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/password-creation.md` | https://www.nngroup.com/articles/password-creation/ | April 26, 2015 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/passwordless-accounts.md` | https://www.nngroup.com/articles/passwordless-accounts/ | June 25, 2023 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/progressive-disclosure.md` | https://www.nngroup.com/articles/progressive-disclosure/ | December 3, 2006 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/recognition-and-recall.md` | https://www.nngroup.com/articles/recognition-and-recall/ | January 15, 2024 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/response-times-3-important-limits.md` | https://www.nngroup.com/articles/response-times-3-important-limits/ | January 1, 1993 (page also contains an "Update added 2014" section) | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/short-term-memory-and-web-usability.md` | https://www.nngroup.com/articles/short-term-memory-and-web-usability/ | December 6, 2009 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/web-form-design.md` | https://www.nngroup.com/articles/web-form-design/ | May 1, 2016 | NN/g guidance (UX laws reference, parts 2 and 3) |
+| `nngroup/website-response-times.md` | https://www.nngroup.com/articles/website-response-times/ | June 20, 2010 | NN/g guidance (UX laws reference, parts 2 and 3) |
+
+Not read in full: the Hick's law video on NN/g (only its summary text exists); five NN/g articles cited inside the saved pages (login walls, optional registration, form white space, form placeholders, reset and cancel buttons); the NN/g error-message scoring rubric (search excerpt only).
