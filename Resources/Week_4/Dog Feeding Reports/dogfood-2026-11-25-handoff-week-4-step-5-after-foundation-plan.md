@@ -1,5 +1,7 @@
 # Handoff: Week 4 step 5, finishing the architecture plan after the foundation draft was merged (2026-11-25, fifteenth report)
 
+> **Replaced by:** `Resources/Week_4/Dog Feeding Reports/dogfood-2026-11-25-handoff-week-4-step-5-epic-1-screens-next.md` (2026-11-25, sixteenth report). Use that report as the start point for new chats.
+
 Replaces: `Resources/Week_4/Dog Feeding Reports/dogfood-2026-11-25-handoff-week-4-step-5-architecture-plan.md`. What changed: the foundation part of the architecture plan was decided with the owner and is saved in the app repository as docs/architecture.md (pull request 4, merged). The owner also checked that the Week 2 and 3 basic homework is complete. Every path in this report starts at the top folder of the course repository (`AI Developer Residency `). Paths for the app repository are written in plain text because that repository sits outside this one.
 
 > Paste to start: "Read this handoff report, then the Week 4 reference report and the files in section 8. Confirm in a few short, plain sentences where we are, using only my Build and Launch Checklist and its four groups. Run git fetch in both repositories and tell me whether app pull request 3 is merged. Then ask me the one open question about how to finish step 5, and wait. Short sentences. Name the file or command behind every fact. Never make anything up. Ask before Firecrawl, Chrome or the browser pane."
